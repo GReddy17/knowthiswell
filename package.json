@@ -36,7 +36,7 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "tsx": "^4.19.0",
-    "typescript": "^5.6.0"
+    "typescript": "^7.0.2"
   },
   "version": "1.0.0",
   "description": "Full site scaffold: root → routing → content → SEO → security → CI/CD. Built against the requirements doc's stack decision (Next.js App Router, static export, markdown-in-git, Vercel).",
