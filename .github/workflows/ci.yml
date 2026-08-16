@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Lint content frontmatter (fails on missing YMYL sources)
+        run: node scripts/lint-content.mjs
+
+      - name: Type check
+        run: npx tsc --noEmit
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Generate glossary term links
+        run: npm run link-terms
+
+      - name: Build (static export)
+        run: npm run build
+
+      - name: Verify sitemap, robots, and search index output
+        run: |
+          test -f out/sitemap.xml || (echo "sitemap.xml missing from build output" && exit 1)
+          test -f out/robots.txt || (echo "robots.txt missing from build output" && exit 1)
+          test -d out/pagefind || (echo "Pagefind search index missing from build output" && exit 1)
+
+      # Preview deploys on PRs, production deploy on merge to main —
+      # handled natively by Vercel's GitHub integration once the repo
+      # is connected in the Vercel dashboard (Section 4.1). This job's
+      # job is to fail the build loudly before Vercel ever sees a
+      # broken commit, per Section 4.4: "Fail build + alert on error."

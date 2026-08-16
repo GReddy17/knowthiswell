@@ -1,0 +1,82 @@
+{
+  "money-personal-finance": {
+    "label": "Money & Personal Finance",
+    "description": "How money actually works — saving, investing, debt, and the mechanics behind everyday financial decisions."
+  },
+  "career-work-ai-era": {
+    "label": "Career & Work in the AI Era",
+    "description": "Navigating work as roles, skills, and hiring norms shift under automation and AI."
+  },
+  "business-entrepreneurship": {
+    "label": "Business & Entrepreneurship",
+    "description": "What it actually takes to start, run, and grow a business, past the pitch-deck version."
+  },
+  "technology-literacy": {
+    "label": "Technology Literacy for Everyday Life",
+    "description": "The technology underneath daily life, explained well enough to make informed decisions about it."
+  },
+  "health-human-body": {
+    "label": "Health & the Human Body",
+    "description": "Practical, non-prescriptive explanations of how the body works and what commonly goes wrong."
+  },
+  "psychology-decision-making": {
+    "label": "Psychology & Decision-Making",
+    "description": "The mental mechanics behind how people actually decide, judge, and act."
+  },
+  "relationships-social-dynamics": {
+    "label": "Relationships & Social Dynamics",
+    "description": "The patterns underneath how people relate, connect, and misunderstand each other."
+  },
+  "government-law-civic-systems": {
+    "label": "Government, Law & Civic Systems",
+    "description": "How government, law, and civic institutions actually function, and where individuals fit in."
+  },
+  "real-estate-housing": {
+    "label": "Real Estate & Housing",
+    "description": "Buying, renting, financing, and understanding housing as most people will actually encounter it."
+  },
+  "education-learning-systems": {
+    "label": "Education & Learning Systems",
+    "description": "How learning and educational systems work, and how to navigate them well."
+  },
+  "consumer-literacy-economics": {
+    "label": "Consumer Literacy & Everyday Economics",
+    "description": "The economics behind everyday purchases, pricing, and consumer decisions."
+  },
+  "environment-energy-resources": {
+    "label": "Environment, Energy & Resources",
+    "description": "The systems behind energy, environment, and resource use that shape daily life."
+  },
+  "media-information-misinformation": {
+    "label": "Media, Information & Misinformation",
+    "description": "How information spreads, distorts, and can be evaluated critically."
+  },
+  "global-systems-geopolitics": {
+    "label": "Global Systems & Geopolitics Basics",
+    "description": "The basic mechanics of how nations, trade, and global systems interact."
+  },
+  "family-life-planning": {
+    "label": "Family & Life Planning",
+    "description": "Practical planning across family formation, caregiving, and life-stage decisions."
+  },
+  "productivity-systems-thinking": {
+    "label": "Productivity & Systems Thinking",
+    "description": "Systems and mental models for getting meaningful things done."
+  },
+  "emerging-tech-future-skills": {
+    "label": "Emerging Tech & Future Skills",
+    "description": "Technologies and skills becoming relevant specifically across 2026–2030."
+  },
+  "legal-contracts-regular-people": {
+    "label": "Legal & Contracts for Regular People",
+    "description": "Contracts, agreements, and legal basics for people without a law degree."
+  },
+  "food-nutrition-consumption": {
+    "label": "Food, Nutrition & Consumption Systems",
+    "description": "The systems behind food, nutrition, and how consumption actually works."
+  },
+  "identity-culture-social-pressure": {
+    "label": "Identity, Culture & Modern Social Pressure",
+    "description": "How identity, culture, and social pressure shape modern individual choices."
+  }
+}

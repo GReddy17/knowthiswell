@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  user-select: none; /* Deter bulk copy-paste */
+}
+
+:focus-visible {
+  outline: 2px solid var(--forest);
+  outline-offset: 2px;
+}
+
+/* a11y Contrast Hardening */
+.text-ink-soft {
+  color: var(--ink-soft);
+}
+
+/* Ensure minimum contrast for labels on paper */
+.text-ochre {
+  color: var(--ochre);
+}
+
+/* If ochre is too light, shift it slightly for AA compliance */
+:root {
+  --ochre: #b45309; /* Example shift to deeper amber */
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

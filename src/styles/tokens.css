@@ -1,0 +1,46 @@
+/**
+ * KnowThisWell design tokens.
+ * Single source of truth for the editorial visual system.
+ * Referenced by tailwind.config.ts (as `var(--token)`) and by any
+ * component that needs a raw value outside Tailwind's class system.
+ */
+:root {
+  /* Palette */
+  --paper: #FBF8F1;
+  --ink: #1F1B16;
+  --ink-soft: #4A443C;
+  --forest: #2C4A3E;
+  --forest-tint: #EEF3EE;
+  --ochre: #8B6F4E;
+  --brick: #C9412C;
+  --brick-tint: #FBEDEA;
+  --rule: #E3DCC9;
+  --rule-soft: #EDE7D8;
+
+  /* Type scale (rem, 1rem = 16px base) */
+  --fs-eyebrow: 0.78rem;
+  --fs-meta: 0.8rem;
+  --fs-body: 1.1875rem;   /* ~19px, matches print reading size */
+  --fs-dek: 1.25rem;
+  --fs-h2: 1.6875rem;
+  --fs-h1-mobile: 2rem;
+  --fs-h1-desktop: 2.875rem;
+
+  /* Rhythm */
+  --measure: 68ch;        /* target reading-line length */
+  --radius-sm: 3px;
+  --radius-md: 4px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-fast: 120ms;
+  --dur-base: 180ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-fast: 0ms; --dur-base: 0ms; }
+}
+
+/* Font faces are loaded via next/font in app/layout.tsx (see README note
+   in that file) rather than @import here, to get Next's font optimization
+   and avoid layout shift. */

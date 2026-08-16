@@ -1,0 +1,46 @@
+{
+  "name": "knowthiswell",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3005",
+    "prebuild": "npm run lint-content && npm run health-check && npm run process-images && npm run link-terms",
+    "build": "next build",
+    "postbuild": "npm run process-images && npx pagefind --site out",
+    "link-terms": "tsx scripts/link-terms.ts",
+    "process-images": "node scripts/process-images.mjs",
+    "lint": "next lint",
+    "lint:content": "node scripts/lint-content.mjs",
+    "health-check": "node scripts/health-check.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^1.31.0",
+    "next": "^15.0.0",
+    "next-mdx-remote": "^5.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "reading-time": "^1.5.0",
+    "sharp": "^0.33.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/node": "^20.14.0",
+    "@types/react": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.0.0",
+    "pagefind": "^1.1.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "version": "1.0.0",
+  "description": "Full site scaffold: root → routing → content → SEO → security → CI/CD. Built against the requirements doc's stack decision (Next.js App Router, static export, markdown-in-git, Vercel).",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
