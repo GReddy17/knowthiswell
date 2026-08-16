@@ -6,6 +6,8 @@ const TAXONOMY_PATH = path.join(process.cwd(), 'content', 'taxonomy.json');
 interface TaxonomyEntry {
   label: string;
   description?: string;
+  phase?: number;
+  status?: 'active' | 'coming-soon';
 }
 
 interface TaxonomyRegistry {
@@ -37,6 +39,24 @@ export function getCategoryLabel(category: string): string {
 export function getCategoryDescription(category: string): string | undefined {
   const registry = loadRegistry();
   return registry[category]?.description;
+}
+
+export function getCategoryStatus(category: string): 'active' | 'coming-soon' | undefined {
+  const registry = loadRegistry();
+  return registry[category]?.status;
+}
+
+export function getCategoryPhase(category: string): number | undefined {
+  const registry = loadRegistry();
+  return registry[category]?.phase;
+}
+
+export function getAllTaxonomy() {
+  const registry = loadRegistry();
+  return Object.entries(registry).map(([slug, entry]) => ({
+    slug,
+    ...entry,
+  }));
 }
 
 export const ALL_GLOSSARY_LETTERS: string[] = 'abcdefghijklmnopqrstuvwxyz'.split('');

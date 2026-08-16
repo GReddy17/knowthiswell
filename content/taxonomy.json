@@ -1,82 +1,259 @@
 {
-  "money-personal-finance": {
-    "label": "Money & Personal Finance",
-    "description": "How money actually works — saving, investing, debt, and the mechanics behind everyday financial decisions."
-  },
   "career-work-ai-era": {
     "label": "Career & Work in the AI Era",
-    "description": "Navigating work as roles, skills, and hiring norms shift under automation and AI."
+    "description": "Navigating work as roles, skills, and hiring norms shift under automation and AI.",
+    "status": "active"
   },
   "business-entrepreneurship": {
     "label": "Business & Entrepreneurship",
-    "description": "What it actually takes to start, run, and grow a business, past the pitch-deck version."
+    "description": "What it actually takes to start, run, and grow a business, past the pitch-deck version.",
+    "status": "active"
   },
   "technology-literacy": {
     "label": "Technology Literacy for Everyday Life",
-    "description": "The technology underneath daily life, explained well enough to make informed decisions about it."
+    "description": "The technology underneath daily life, explained well enough to make informed decisions about it.",
+    "status": "active"
   },
   "health-human-body": {
     "label": "Health & the Human Body",
-    "description": "Practical, non-prescriptive explanations of how the body works and what commonly goes wrong."
+    "description": "Practical, non-prescriptive explanations of how the body works and what commonly goes wrong.",
+    "status": "active"
   },
   "psychology-decision-making": {
     "label": "Psychology & Decision-Making",
-    "description": "The mental mechanics behind how people actually decide, judge, and act."
+    "description": "The mental mechanics behind how people actually decide, judge, and act.",
+    "status": "active"
   },
   "relationships-social-dynamics": {
     "label": "Relationships & Social Dynamics",
-    "description": "The patterns underneath how people relate, connect, and misunderstand each other."
+    "description": "The patterns underneath how people relate, connect, and misunderstand each other.",
+    "status": "active"
   },
   "government-law-civic-systems": {
     "label": "Government, Law & Civic Systems",
-    "description": "How government, law, and civic institutions actually function, and where individuals fit in."
+    "description": "How government, law, and civic institutions actually function, and where individuals fit in.",
+    "status": "active"
   },
   "real-estate-housing": {
     "label": "Real Estate & Housing",
-    "description": "Buying, renting, financing, and understanding housing as most people will actually encounter it."
+    "description": "Buying, renting, financing, and understanding housing as most people will actually encounter it.",
+    "status": "active"
   },
   "education-learning-systems": {
     "label": "Education & Learning Systems",
-    "description": "How learning and educational systems work, and how to navigate them well."
+    "description": "How learning and educational systems work, and how to navigate them well.",
+    "status": "active"
   },
   "consumer-literacy-economics": {
     "label": "Consumer Literacy & Everyday Economics",
-    "description": "The economics behind everyday purchases, pricing, and consumer decisions."
+    "description": "The economics behind everyday purchases, pricing, and consumer decisions.",
+    "status": "active"
   },
   "environment-energy-resources": {
     "label": "Environment, Energy & Resources",
-    "description": "The systems behind energy, environment, and resource use that shape daily life."
+    "description": "The systems behind energy, environment, and resource use that shape daily life.",
+    "status": "active"
   },
   "media-information-misinformation": {
     "label": "Media, Information & Misinformation",
-    "description": "How information spreads, distorts, and can be evaluated critically."
+    "description": "How information spreads, distorts, and can be evaluated critically.",
+    "status": "active"
   },
   "global-systems-geopolitics": {
     "label": "Global Systems & Geopolitics Basics",
-    "description": "The basic mechanics of how nations, trade, and global systems interact."
+    "description": "The basic mechanics of how nations, trade, and global systems interact.",
+    "status": "active"
   },
   "family-life-planning": {
     "label": "Family & Life Planning",
-    "description": "Practical planning across family formation, caregiving, and life-stage decisions."
+    "description": "Practical planning across family formation, caregiving, and life-stage decisions.",
+    "status": "active"
   },
   "productivity-systems-thinking": {
     "label": "Productivity & Systems Thinking",
-    "description": "Systems and mental models for getting meaningful things done."
+    "description": "Systems and mental models for getting meaningful things done.",
+    "status": "active"
   },
   "emerging-tech-future-skills": {
     "label": "Emerging Tech & Future Skills",
-    "description": "Technologies and skills becoming relevant specifically across 2026–2030."
+    "description": "Technologies and skills becoming relevant specifically across 2026–2030.",
+    "status": "active"
   },
   "legal-contracts-regular-people": {
     "label": "Legal & Contracts for Regular People",
-    "description": "Contracts, agreements, and legal basics for people without a law degree."
+    "description": "Contracts, agreements, and legal basics for people without a law degree.",
+    "status": "active"
   },
   "food-nutrition-consumption": {
     "label": "Food, Nutrition & Consumption Systems",
-    "description": "The systems behind food, nutrition, and how consumption actually works."
+    "description": "The systems behind food, nutrition, and how consumption actually works.",
+    "status": "active"
   },
   "identity-culture-social-pressure": {
     "label": "Identity, Culture & Modern Social Pressure",
-    "description": "How identity, culture, and social pressure shape modern individual choices."
+    "description": "How identity, culture, and social pressure shape modern individual choices.",
+    "status": "active"
+  },
+  "general-science-facts": {
+    "label": "General Science Facts",
+    "description": "Fundamental scientific principles and interesting facts from the natural world.",
+    "phase": 1,
+    "status": "coming-soon"
+  },
+  "math-numbers": {
+    "label": "Math & Numbers",
+    "description": "Practical mathematics and the role of numbers in everyday logic.",
+    "phase": 1,
+    "status": "coming-soon"
+  },
+  "geography-world-facts": {
+    "label": "Geography & World Facts",
+    "description": "Understanding the world's layout, borders, and physical characteristics.",
+    "phase": 1,
+    "status": "coming-soon"
+  },
+  "history-timeline-facts": {
+    "label": "History Timeline Facts",
+    "description": "Key events and eras that shaped human civilization.",
+    "phase": 1,
+    "status": "coming-soon"
+  },
+  "language-vocabulary": {
+    "label": "Language & Vocabulary",
+    "description": "The evolution of language and how to expand your expressive power.",
+    "phase": 1,
+    "status": "coming-soon"
+  },
+  "festivals-culture": {
+    "label": "Festivals & Culture",
+    "description": " exploring global traditions, celebrations, and cultural norms.",
+    "phase": 1,
+    "status": "coming-soon"
+  },
+  "units-measurement-conversions": {
+    "label": "Units & Measurement Conversions",
+    "description": "How to convert between systems and understand measurement standards.",
+    "phase": 2,
+    "status": "coming-soon"
+  },
+  "general-awareness-basics": {
+    "label": "General Awareness & Current Affairs Basics",
+    "description": "Essential knowledge of what is happening in the world right now.",
+    "phase": 2,
+    "status": "coming-soon"
+  },
+  "health-body-basics": {
+    "label": "Health & Body Basics",
+    "description": "Introduction to human anatomy and basic health maintenance.",
+    "phase": 2,
+    "status": "coming-soon"
+  },
+  "environment-nature": {
+    "label": "Environment & Nature",
+    "description": "The basics of ecology, biodiversity, and natural systems.",
+    "phase": 2,
+    "status": "coming-soon"
+  },
+  "personal-finance-basics": {
+    "label": "Personal Finance Basics",
+    "description": "The absolute fundamentals of budgeting, saving, and spending.",
+    "phase": 3,
+    "status": "coming-soon"
+  },
+  "legal-documentation-howtos": {
+    "label": "Legal & Documentation How-Tos",
+    "description": "How to handle essential paperwork and legal documentation.",
+    "phase": 3,
+    "status": "coming-soon"
+  },
+  "technology-basics": {
+    "label": "Technology Basics",
+    "description": "The fundamental building blocks of modern computing and the internet.",
+    "phase": 3,
+    "status": "coming-soon"
+  },
+  "career-study-skills": {
+    "label": "Career & Study Skills",
+    "description": "How to learn effectively and present yourself professionally.",
+    "phase": 3,
+    "status": "coming-soon"
+  },
+  "home-diy-knowledge": {
+    "label": "Home & DIY Knowledge",
+    "description": "Basic maintenance and improvement skills for the home.",
+    "phase": 3,
+    "status": "coming-soon"
+  },
+  "health-wellness-deep-dive": {
+    "label": "Health & Wellness Deep Dive",
+    "description": "Advanced strategies for optimal physical and mental wellbeing.",
+    "phase": 4,
+    "status": "coming-soon"
+  },
+  "technology-deep-dives": {
+    "label": "Technology Deep Dives",
+    "description": "In-depth exploration of complex technological systems.",
+    "phase": 4,
+    "status": "coming-soon"
+  },
+  "business-entrepreneurship-basics": {
+    "label": "Business & Entrepreneurship Basics",
+    "description": "Starting from zero: the first steps of building a business.",
+    "phase": 4,
+    "status": "coming-soon"
+  },
+  "travel-local-guides": {
+    "label": "Travel & Local Guides",
+    "description": "How to explore new places with purpose and efficiency.",
+    "phase": 4,
+    "status": "coming-soon"
+  },
+  "trivia-fun-facts": {
+    "label": "Trivia & Fun Facts",
+    "description": "The weird, the wonderful, and the unexpected facts of life.",
+    "phase": 4,
+    "status": "coming-soon"
+  },
+  "investing-markets-deep-dive": {
+    "label": "Investing & Markets Deep Dive",
+    "description": "Advanced analysis of financial markets and investment vehicles.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "government-schemes-benefits": {
+    "label": "Government Schemes & Benefits",
+    "description": "Navigating the landscape of public benefits and subsidies.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "competitive-exam-prep": {
+    "label": "Competitive Exam Prep",
+    "description": "Strategic preparation for high-stakes academic and professional exams.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "professional-skills-certifications": {
+    "label": "Professional Skills & Certifications",
+    "description": "The path to becoming a certified expert in your field.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "ai-future-tech-literacy": {
+    "label": "AI & Future Tech Literacy",
+    "description": "Staying ahead of the curve with AI and the next wave of technology.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "digital-safety-privacy": {
+    "label": "Digital Safety & Privacy",
+    "description": "Passwords, scams, phishing, and data privacy basics for all ages.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "life-skills-etiquette": {
+    "label": "Life Skills & Etiquette",
+    "description": "Practical life guidance, social skills, and professional etiquette.",
+    "phase": 5,
+    "status": "coming-soon"
   }
 }

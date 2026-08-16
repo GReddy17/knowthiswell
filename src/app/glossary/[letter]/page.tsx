@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { getTermsByLetter, ALL_GLOSSARY_LETTERS } from '@/lib/content';
+import { getTermsByLetter } from '@/lib/content';
+import { ALL_GLOSSARY_LETTERS } from '@/lib/taxonomy';
 
 interface PageProps {
   params: Promise<{ letter: string }>;
@@ -12,7 +13,7 @@ export async function generateStaticParams() {
 export default async function GlossaryLetterPage({ params }: PageProps) {
   const { letter: letterParam } = await params;
   const letter = letterParam.toUpperCase();
-  const terms = getTermsByLetter(letterParam); // [{ term, slug, category }]
+  const terms = await getTermsByLetter(letterParam); // [{ term, slug, category }]
 
   return (
     <div className="mx-auto max-w-[820px] px-5 py-14 md:px-10">

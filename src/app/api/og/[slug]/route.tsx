@@ -9,14 +9,14 @@ export async function GET(
 
   // For simplicity in this demo, we use a fixed category or look it up
   // A production version would use a dynamic path like /api/og/[category]/[slug]
-  const posts = getAllPostSlugs();
-  const postEntry = posts.find(p => p.slug === slug);
+  const posts = await getAllPostSlugs();
+  const postEntry = posts.find((p: { slug: string }) => p.slug === slug);
 
   if (!postEntry) {
     return new Response('Not Found', { status: 404 });
   }
 
-  const post = getPostBySlug(postEntry.category, postEntry.slug);
+  const post = await getPostBySlug(postEntry.category, postEntry.slug);
   if (!post) return new Response('Not Found', { status: 404 });
 
   return new ImageResponse(

@@ -54,7 +54,7 @@ export function EntryHeader({
 
       <hr className="mb-6 border-t border-rule" />
 
-      <dl className="mb-11 flex flex-wrap gap-5 font-utility text-[12.5px] text-ink-soft">
+      <dl className="mb-11 flex flex-wrap gap-3 font-utility text-[12.5px] text-ink-soft">
         <div className="flex gap-1">
           <dt className="font-semibold text-ink">Reading time</dt>
           <dd>— {readingTimeMinutes} min</dd>

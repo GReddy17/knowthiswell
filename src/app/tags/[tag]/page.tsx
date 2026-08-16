@@ -8,7 +8,8 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return getAllTags().map((tag) => ({ tag }));
+  const tags = await getAllTags();
+  return tags.map((tag) => ({ tag }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function TagPage({ params }: PageProps) {
   const { tag } = await params;
-  const posts = getPostsByTag(tag);
+  const posts = await getPostsByTag(tag);
 
   return (
     <div className="mx-auto max-w-[820px] px-5 py-14 md:px-10">

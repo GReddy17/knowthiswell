@@ -13,16 +13,16 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const author = getAuthorBySlug(slug);
+  const author = await getAuthorBySlug(slug);
   return { title: author ? `${author.name} — KnowThisWell` : 'Author' };
 }
 
 export default async function AuthorPage({ params }: PageProps) {
   const { slug } = await params;
-  const author = getAuthorBySlug(slug);
+  const author = await getAuthorBySlug(slug);
   if (!author) return null;
 
-  const posts = getPostsByAuthor(slug);
+  const posts = await getPostsByAuthor(slug);
 
   const personSchema = {
     '@context': 'https://schema.org',

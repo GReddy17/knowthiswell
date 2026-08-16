@@ -8,7 +8,7 @@ const ipCache = new Map<string, { count: number; startTime: number }>();
 
 export function middleware(request: NextRequest) {
   const url = request.nextUrl;
-  const ip = request.ip ?? '127.0.0.1';
+  const ip = request.headers.get('x-forwarded-for')?.split(',')[0] ?? '127.0.0.1';
 
   // 1. Honeypot detection
   // Bots often scan for common admin paths. If they hit these, block them.

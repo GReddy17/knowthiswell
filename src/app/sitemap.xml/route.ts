@@ -1,8 +1,8 @@
 import { getAllPostSlugs, getAllCategories } from '@/lib/content';
 
 export async function GET() {
-  const posts = getAllPostSlugs();
-  const categories = getAllCategories();
+  const posts = await getAllPostSlugs();
+  const categories = await getAllCategories();
   const baseUrl = 'https://knowthiswell.com';
 
   const urls = [

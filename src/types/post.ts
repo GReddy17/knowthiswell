@@ -66,6 +66,7 @@ export interface PostMeta extends Omit<PostFrontmatter, 'category'> {
    *  lib/content.ts guarantees this before returning any post. */
   category: Category;
   slug: string;
+  absPath: string; // Path on disk for on-demand reading
   readingTimeMinutes: number;  // computed at build time from word count
   headings: { id: string; text: string; depth: 2 | 3 }[]; // for TocRail
 }

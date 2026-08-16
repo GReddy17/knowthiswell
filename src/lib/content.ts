@@ -19,6 +19,7 @@ import readingTime from 'reading-time';
 import { z } from 'zod';
 import { ALL_GLOSSARY_LETTERS } from './taxonomy';
 import { PostSchema } from './schema';
+import type { PostMeta } from '@/types/post';
 
 const POSTS_DIR = path.join(process.cwd(), 'content', 'posts');
 const TERMS_PATH = path.join(process.cwd(), 'content', 'terms.json');
@@ -30,7 +31,7 @@ interface RawPost extends PostMeta {
 }
 
 interface ContentCache {
-  meta: Map<string, any>;
+  meta: Map<string, PostMeta>;
   categories: string[];
   relatedMap: Map<string, { slug: string; title: string; href: string }[]>;
 }
@@ -80,8 +81,8 @@ async function loadMetadata(): Promise<ContentCache> {
   if (_cache && process.env.NODE_ENV === 'production') return _cache;
 
   const files = await walkPostsDir(POSTS_DIR);
-  const metaMap = new Map<string, any>();
-  const allPostsForRelated: any[] = [];
+  const metaMap = new Map<string, PostMeta>();
+  const allPostsForRelated: PostMeta[] = [];
 
   for (const { absPath, relSegments } of files) {
     const raw = await fs.readFile(absPath, 'utf-8');
@@ -91,7 +92,11 @@ async function loadMetadata(): Promise<ContentCache> {
     let validated = result.success ? result.data : {
       title: 'Untitled Post',
       excerpt: 'No excerpt provided.',
-      author: { slug: 'unknown', name: 'Unknown Author' },
+      summary: 'No summary provided.',
+      date: new Date().toISOString(),
+      category: undefined,
+      subtopic: undefined,
+      author: { slug: 'unknown', name: 'Unknown Author', credentialLine: 'Unknown' },
       updated: new Date().toISOString(),
       tags: [],
       seeAlso: [],
@@ -150,7 +155,10 @@ async function loadMetadata(): Promise<ContentCache> {
           return allPostsForRelated.find(p => p.category === refCat && p.slug === refSlug);
         })
         .filter(Boolean)
-        .map(p => ({ slug: (p as any).slug, title: (p as any).title, href: `/${(p as any).category}/${(p as any).slug}` }));
+        .map(p => {
+          if (!p) return { slug: '', title: '', href: '' };
+          return { slug: p.slug, title: p.title, href: `/${p.category}/${p.slug}` };
+        });
       relatedMap.set(key, explicit);
     } else {
       const scored = allPostsForRelated
@@ -175,6 +183,11 @@ async function loadMetadata(): Promise<ContentCache> {
 
   _cache = { meta: metaMap, categories, relatedMap };
   return _cache;
+}
+
+export async function getAllPostsMeta() {
+  const cache = await loadMetadata();
+  return Array.from(cache.meta.values());
 }
 
 export async function getAllCategories(): Promise<string[]> {
@@ -239,7 +252,7 @@ export function getRelatedPosts(post: RawPost) {
 export async function getAllTags(): Promise<string[]> {
   const cache = await loadMetadata();
   const tags = new Set<string>();
-  cache.meta.forEach(p => p.tags.forEach(t => tags.add(t)));
+  cache.meta.forEach(p => p.tags.forEach((t: string) => tags.add(t)));
   return [...tags].sort();
 }
 
@@ -344,9 +357,10 @@ export async function getLibraryStructure() {
 
   return categories.map(cat => {
     const posts = Array.from(cache.meta.values()).filter(p => p.category === cat);
-    const subtopicsMap = new Map<string, any>();
+    const subtopicsMap = new Map<string, PostMeta[]>();
 
-    posts.forEach(p => {
+
+    posts.forEach((p: PostMeta) => {
       if (p.subtopic) {
         if (!subtopicsMap.has(p.subtopic)) {
           subtopicsMap.set(p.subtopic, []);
@@ -363,7 +377,7 @@ export async function getLibraryStructure() {
 
     const rootPosts = posts
       .filter(p => !p.subtopic)
-      .map(p => ({ label: p.title, href: `/${p.category}/${p.slug}` }));
+      .map((p: PostMeta) => ({ label: p.title, href: `/${p.category}/${p.slug}` }));
 
     return {
       id: cat,

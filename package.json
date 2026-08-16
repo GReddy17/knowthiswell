@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3005",
-    "prebuild": "npm run lint-content && npm run health-check && npm run process-images && npm run link-terms",
+    "prebuild": "npm run lint:content && npm run health-check && npm run process-images && npm run link-terms",
     "build": "next build",
     "postbuild": "npm run process-images && npx pagefind --site out",
     "link-terms": "tsx scripts/link-terms.ts",
@@ -14,6 +14,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@vercel/og": "^1.0.1",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.31.0",
     "next": "^15.0.0",

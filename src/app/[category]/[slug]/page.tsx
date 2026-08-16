@@ -43,7 +43,7 @@ export default async function PostPage({ params }: PageProps) {
   ];
 
   return (
-    <div className="mx-auto grid max-w-[1180px] grid-cols-1 gap-14 px-5 py-10 md:grid-cols-[220px_minmax(0,720px)_1fr] md:gap-14 md:px-10 md:py-14">
+    <div className="mx-auto grid max-w-[1180px] grid-cols-1 gap-8 px-5 py-10 md:grid-cols-[180px_1fr_180px] md:gap-8 md:px-10 md:py-14">
       <ArticleSchema post={post} />
       <div className="hidden md:block">
         <div className="sticky top-10 self-start">

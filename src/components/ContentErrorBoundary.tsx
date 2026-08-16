@@ -19,7 +19,7 @@ export class ContentErrorBoundary extends Component<Props, State> {
     return { hasError: true };
   }
 
-  public componentDidCatch(error: Error, errorInfo: ErrorInfo, _: any) {
+  public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
     console.error('MDX Rendering Error:', error, errorInfo);
   }
 

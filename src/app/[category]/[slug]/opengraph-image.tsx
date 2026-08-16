@@ -20,7 +20,7 @@ export default async function OGImage({
   params: Promise<{ category: string; slug: string }>;
 }) {
   const { category: categorySlug, slug } = await params;
-  const post = getPostBySlug(categorySlug, slug);
+  const post = await getPostBySlug(categorySlug, slug);
   const title = post?.title ?? 'KnowThisWell';
   const categoryLabel = post ? getCategoryLabel(post.category) : 'KnowThisWell';
 

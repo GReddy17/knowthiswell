@@ -20,9 +20,9 @@ export async function GET() {
     '',
   ];
 
-  for (const category of getAllCategories()) {
+  for (const category of await getAllCategories()) {
     lines.push(`## ${getCategoryLabel(category)}`);
-    const posts = getPostsByCategory(category);
+    const posts = await getPostsByCategory(category);
     for (const post of posts) {
       lines.push(`- [${post.title}](/${category}/${post.slug}): ${post.excerpt}`);
     }

@@ -1,7 +1,7 @@
-import { loadAll } from '@/lib/content';
+import { getAllPostsMeta } from '@/lib/content';
 
 export async function GET() {
-  const posts = loadAll();
+  const posts = await getAllPostsMeta();
   const baseUrl = 'https://knowthiswell.com';
 
   const items = posts
