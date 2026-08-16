@@ -1,5 +1,7 @@
 import { getAllPostSlugs, getAllCategories } from '@/lib/content';
 
+export const dynamic = 'force-static';
+
 export async function GET() {
   const posts = await getAllPostSlugs();
   const categories = await getAllCategories();

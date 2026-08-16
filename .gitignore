@@ -5,3 +5,4 @@ out/
 .health-check-snapshot.json
 *.log
 .DS_Store
+.vercel
