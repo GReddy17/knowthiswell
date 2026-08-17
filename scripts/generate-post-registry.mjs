@@ -1,0 +1,147 @@
+#!/usr/bin/env node
+/**
+ * Regenerates src/content/posts/index.ts by scanning the content folders
+ * directly. Run this any time a post is added, removed, or renamed —
+ * NEVER hand-edit index.ts.
+ *
+ * Why this file has to exist at all (rather than dynamic fs-based
+ * loading like a markdown site would use): content here is authored as
+ * real .tsx React components, not text files read at runtime. Webpack
+ * needs statically-analyzable import paths to bundle each post's code
+ * and code-split correctly — a computed `import(variablePath)` doesn't
+ * work reliably for this. So every post needs an explicit static import
+ * line, and this script is what keeps that list correct and in sync
+ * with what's actually on disk, instead of a human maintaining it by hand.
+ *
+ * Registry key format: "{category}/{slug}" — category is the containing
+ * folder name with any numeric ordering prefix stripped (folders keep
+ * their "NN-" prefix on disk for author ordering; it never appears in
+ * the registry key or the public URL). Slug is the filename without
+ * extension, already sanitized (see scripts/sanitize-filenames.py) —
+ * this script does NOT sanitize, it assumes filenames are already clean
+ * and will warn loudly if it finds one that isn't.
+ */
+import fs from 'node:fs';
+import path from 'node:path';
+
+const POSTS_DIR = path.join(process.cwd(), 'src', 'content', 'posts');
+const OUTPUT_PATH = path.join(POSTS_DIR, 'index.ts');
+const TAXONOMY_PATH = path.join(process.cwd(), 'content', 'taxonomy.json');
+
+const UNSAFE_CHARS = /[:'\u2019\u2014\u2013]/;
+
+function toImportIdentifier(category, slug) {
+  const clean = (category + '_' + slug).replace(/[^a-zA-Z0-9]/g, '');
+  return 'p_' + clean;
+}
+
+/**
+ * Syncs content/taxonomy.json's `status` field to the REAL post count
+ * for each category, rather than trusting a hand-maintained flag.
+ *
+ * This exists because of a real bug: taxonomy.json said "coming-soon"
+ * for 6 categories that actually had 50 real posts each, and the
+ * category hub page trusted that flag over the actual post count —
+ * silently hiding 300 live posts behind a "coming soon" placeholder.
+ * A hand-maintained status field will drift the moment someone writes
+ * content and forgets to also flip a JSON flag elsewhere, so this
+ * script now derives it automatically every time it runs instead.
+ */
+function syncTaxonomyStatus(realPostCountByCategory) {
+  if (!fs.existsSync(TAXONOMY_PATH)) return;
+  const taxonomy = JSON.parse(fs.readFileSync(TAXONOMY_PATH, 'utf-8'));
+  let changed = 0;
+
+  for (const [category, entry] of Object.entries(taxonomy)) {
+    const realCount = realPostCountByCategory.get(category) ?? 0;
+    const correctStatus = realCount > 0 ? 'active' : 'coming-soon';
+    if (entry.status !== correctStatus) {
+      console.log(`  taxonomy.json: ${category} status "${entry.status}" -> "${correctStatus}" (${realCount} real posts)`);
+      entry.status = correctStatus;
+      changed++;
+    }
+  }
+
+  if (changed > 0) {
+    fs.writeFileSync(TAXONOMY_PATH, JSON.stringify(taxonomy, null, 2) + '\n');
+    console.log(`Synced ${changed} taxonomy status field(s) to match real content.`);
+  }
+}
+
+function main() {
+  const folders = fs
+    .readdirSync(POSTS_DIR, { withFileTypes: true })
+    .filter((e) => e.isDirectory())
+    .map((e) => e.name)
+    .sort();
+
+  const imports = [];
+  const registryEntries = [];
+  const warnings = [];
+  const realPostCountByCategory = new Map();
+
+  for (const folder of folders) {
+    const category = folder.replace(/^\d+-/, '');
+    const folderPath = path.join(POSTS_DIR, folder);
+    const files = fs
+      .readdirSync(folderPath)
+      .filter((f) => f.endsWith('.tsx'))
+      .sort();
+
+    let realCount = 0;
+
+    for (const filename of files) {
+      const slug = filename.replace(/\.tsx$/, '');
+
+      if (UNSAFE_CHARS.test(slug)) {
+        warnings.push(`${folder}/${filename}: slug still has unsafe characters — run scripts/sanitize-filenames.py first`);
+        continue;
+      }
+      if (/^\d+-/.test(slug)) {
+        warnings.push(`${folder}/${filename}: slug still has a numeric ordering prefix — this will leak into the public URL`);
+      }
+
+      if (slug !== 'coming-soon') realCount++;
+
+      const ident = toImportIdentifier(category, slug);
+      const importPath = `./${folder}/${slug}`;
+      imports.push(`import ${ident}, { metadata as ${ident}Meta } from ${JSON.stringify(importPath)};`);
+      registryEntries.push(
+        `  ${JSON.stringify(`${category}/${slug}`)}: { metadata: ${ident}Meta, Component: ${ident} },`
+      );
+    }
+
+    realPostCountByCategory.set(category, realCount);
+  }
+
+  if (warnings.length > 0) {
+    console.warn(`\n${warnings.length} warning(s):\n`);
+    warnings.forEach((w) => console.warn(`  ⚠ ${w}`));
+    console.warn('');
+  }
+
+  syncTaxonomyStatus(realPostCountByCategory);
+
+  const output = `/**
+ * AUTO-GENERATED by scripts/generate-post-registry.mjs — do not hand-edit.
+ * Regenerate with: node scripts/generate-post-registry.mjs
+ * Generated ${new Date().toISOString()} — ${registryEntries.length} posts.
+ */
+import { PostMeta, PostFrontmatter } from '@/types/post';
+
+${imports.join('\n')}
+
+export const POSTS_REGISTRY: Record<string, { metadata: PostFrontmatter; Component: React.ComponentType }> = {
+${registryEntries.join('\n')}
+};
+
+export function getPostFromRegistry(category: string, slug: string) {
+  return POSTS_REGISTRY[\`\${category}/\${slug}\`];
+}
+`;
+
+  fs.writeFileSync(OUTPUT_PATH, output);
+  console.log(`Generated index.ts with ${registryEntries.length} posts across ${folders.length} categories.`);
+}
+
+main();

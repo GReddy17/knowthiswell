@@ -1,0 +1,164 @@
+{
+  "general-science-facts": {
+    "label": "01. General Science Facts",
+    "description": "Fundamental scientific principles and interesting facts from the natural world.",
+    "phase": 1,
+    "status": "active"
+  },
+  "math-numbers": {
+    "label": "02. Math & Numbers",
+    "description": "Practical mathematics and the role of numbers in everyday logic.",
+    "phase": 1,
+    "status": "active"
+  },
+  "geography-world-facts": {
+    "label": "03. Geography & World Facts",
+    "description": "Understanding the world's layout, borders, and physical characteristics.",
+    "phase": 1,
+    "status": "active"
+  },
+  "history-timeline-facts": {
+    "label": "04. History Timeline Facts",
+    "description": "Key events and eras that shaped human civilization.",
+    "phase": 1,
+    "status": "active"
+  },
+  "language-vocabulary": {
+    "label": "05. Language & Vocabulary",
+    "description": "The evolution of language and how to expand your expressive power.",
+    "phase": 1,
+    "status": "active"
+  },
+  "festivals-culture": {
+    "label": "06. Festivals & Culture",
+    "description": " exploring global traditions, celebrations, and cultural norms.",
+    "phase": 1,
+    "status": "active"
+  },
+  "units-measurement-conversions": {
+    "label": "07. Units & Measurement Conversions",
+    "description": "How to convert between systems and understand measurement standards.",
+    "phase": 2,
+    "status": "coming-soon"
+  },
+  "general-awareness-basics": {
+    "label": "08. General Awareness & Current Affairs Basics",
+    "description": "Essential knowledge of what is happening in the world right now.",
+    "phase": 2,
+    "status": "coming-soon"
+  },
+  "health-body-basics": {
+    "label": "09. Health & Body Basics",
+    "description": "Introduction to human anatomy and basic health maintenance.",
+    "phase": 2,
+    "status": "coming-soon"
+  },
+  "environment-nature": {
+    "label": "10. Environment & Nature",
+    "description": "The basics of ecology, biodiversity, and natural systems.",
+    "phase": 2,
+    "status": "coming-soon"
+  },
+  "personal-finance-basics": {
+    "label": "11. Personal Finance Basics",
+    "description": "The absolute fundamentals of budgeting, saving, and spending.",
+    "phase": 3,
+    "status": "coming-soon"
+  },
+  "legal-documentation-howtos": {
+    "label": "12. Legal & Documentation How-Tos",
+    "description": "How to handle essential paperwork and legal documentation.",
+    "phase": 3,
+    "status": "coming-soon"
+  },
+  "technology-basics": {
+    "label": "13. Technology Basics",
+    "description": "The fundamental building blocks of modern computing and the internet.",
+    "phase": 3,
+    "status": "coming-soon"
+  },
+  "career-study-skills": {
+    "label": "14. Career & Study Skills",
+    "description": "How to learn effectively and present yourself professionally.",
+    "phase": 3,
+    "status": "coming-soon"
+  },
+  "home-diy-knowledge": {
+    "label": "15. Home & DIY Knowledge",
+    "description": "Basic maintenance and improvement skills for the home.",
+    "phase": 3,
+    "status": "coming-soon"
+  },
+  "health-wellness-deep-dive": {
+    "label": "16. Health & Wellness Deep Dive",
+    "description": "Advanced strategies for optimal physical and mental wellbeing.",
+    "phase": 4,
+    "status": "coming-soon"
+  },
+  "technology-deep-dives": {
+    "label": "17. Technology Deep Dives",
+    "description": "In-depth exploration of complex technological systems.",
+    "phase": 4,
+    "status": "coming-soon"
+  },
+  "business-entrepreneurship-basics": {
+    "label": "18. Business & Entrepreneurship Basics",
+    "description": "Starting from zero: the first steps of building a business.",
+    "phase": 4,
+    "status": "coming-soon"
+  },
+  "travel-local-guides": {
+    "label": "19. Travel & Local Guides",
+    "description": "How to explore new places with purpose and efficiency.",
+    "phase": 4,
+    "status": "coming-soon"
+  },
+  "trivia-fun-facts": {
+    "label": "20. Trivia & Fun Facts",
+    "description": "The weird, the wonderful, and the unexpected facts of life.",
+    "phase": 4,
+    "status": "coming-soon"
+  },
+  "investing-markets-deep-dive": {
+    "label": "21. Investing & Markets Deep Dive",
+    "description": "Advanced analysis of financial markets and investment vehicles.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "government-schemes-benefits": {
+    "label": "22. Government Schemes & Benefits",
+    "description": "Navigating the landscape of public benefits and subsidies.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "competitive-exam-prep": {
+    "label": "23. Competitive Exam Prep",
+    "description": "Strategic preparation for high-stakes academic and professional exams.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "professional-skills-certifications": {
+    "label": "24. Professional Skills & Certifications",
+    "description": "The path to becoming a certified expert in your field.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "ai-future-tech-literacy": {
+    "label": "25. AI & Future Tech Literacy",
+    "description": "Staying ahead of the curve with AI and the next wave of technology.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "digital-safety-privacy": {
+    "label": "26. Digital Safety & Privacy",
+    "description": "Passwords, scams, phishing, and data privacy basics for all ages.",
+    "phase": 5,
+    "status": "coming-soon"
+  },
+  "life-skills-etiquette": {
+    "label": "27. Life Skills & Etiquette",
+    "description": "Practical life guidance, social skills, and professional etiquette.",
+    "phase": 5,
+    "status": "coming-soon"
+  }
+}

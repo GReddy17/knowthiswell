@@ -1,0 +1,14 @@
+Copyright (c) 2026 KnowThisWell. All rights reserved.
+
+The written content, entries, and text published on this site
+(everything under /content) are protected by copyright and may not be
+reproduced, republished, or redistributed without prior written
+permission — see /legal/dmca for the takedown process if you believe
+your rights have been infringed by content on this site.
+
+ASSUMPTION FLAGGED: this defaults to "all rights reserved" for content.
+The source code (components, build scripts, configuration) is a
+separate question — if you'd like the code itself under an open-source
+license (MIT, Apache 2.0, etc.) for portfolio/sharing purposes while
+keeping the written content proprietary, that's worth deciding
+explicitly rather than leaving ambiguous.
