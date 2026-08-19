@@ -1,0 +1,67 @@
+<svg viewBox="0 0 740 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of European colonial expansion and decolonization, from Spanish and Portuguese colonization of the Americas starting in the 1490s, through Dutch and English chartered company expansion into Asia in the early 1600s, the 1884-85 Berlin Conference partitioning Africa, peak territorial extent in the early 20th century, and the main decolonization wave from India and Pakistan's 1947 independence through most of Africa by the mid-1960s to Portugal's African colonies in 1974-75</title>
+  <rect width="740" height="340" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="370" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">European colonial expansion and decolonization</text>
+    <text x="370" y="45" text-anchor="middle" font-size="11" fill="#8B6F4E">1490s-1970s, strictly by date</text>
+
+    <line x1="55" y1="150" x2="685" y2="150" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 685,150 L 675,145 L 675,155 Z" fill="#1F1B16"/>
+
+    <!-- 1490s (above) -->
+    <line x1="70" y1="150" x2="70" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="70" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="70" y="106" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1490s</text>
+    <text x="70" y="92" text-anchor="middle" font-size="9" fill="#4A443C">Spain &amp; Portugal begin</text>
+    <text x="70" y="82" text-anchor="middle" font-size="9" fill="#4A443C">colonizing the Americas</text>
+
+    <!-- early 1600s (below) -->
+    <line x1="170" y1="150" x2="170" y2="180" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="170" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="170" y="196" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">Early 1600s</text>
+    <text x="170" y="210" text-anchor="middle" font-size="9" fill="#4A443C">Dutch &amp; English chartered</text>
+    <text x="170" y="220" text-anchor="middle" font-size="9" fill="#4A443C">companies expand into Asia</text>
+
+    <!-- 1884-85 (above) -->
+    <line x1="270" y1="150" x2="270" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="270" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="270" y="106" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1884-85</text>
+    <text x="270" y="92" text-anchor="middle" font-size="9" fill="#4A443C">Berlin Conference</text>
+    <text x="270" y="82" text-anchor="middle" font-size="9" fill="#4A443C">partitions Africa</text>
+
+    <!-- early 1900s peak (below) -->
+    <line x1="370" y1="150" x2="370" y2="180" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="370" cy="150" r="5.5" fill="#B08D3E"/>
+    <text x="370" y="196" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">Early 1900s</text>
+    <text x="370" y="210" text-anchor="middle" font-size="9" fill="#4A443C">Peak extent of European</text>
+    <text x="370" y="220" text-anchor="middle" font-size="9" fill="#4A443C">colonial holdings</text>
+
+    <!-- 1947 (above) -->
+    <line x1="470" y1="150" x2="470" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="470" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="470" y="106" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1947</text>
+    <text x="470" y="92" text-anchor="middle" font-size="9" fill="#4A443C">India &amp; Pakistan</text>
+    <text x="470" y="82" text-anchor="middle" font-size="9" fill="#4A443C">gain independence</text>
+
+    <!-- mid-1960s (below) -->
+    <line x1="570" y1="150" x2="570" y2="180" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="570" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="570" y="196" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">Mid-1960s</text>
+    <text x="570" y="210" text-anchor="middle" font-size="9" fill="#4A443C">Most of Africa</text>
+    <text x="570" y="220" text-anchor="middle" font-size="9" fill="#4A443C">independent</text>
+
+    <!-- 1974-75 (above) -->
+    <line x1="670" y1="150" x2="670" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="670" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="670" y="106" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1974-75</text>
+    <text x="670" y="92" text-anchor="middle" font-size="9" fill="#4A443C">Portugal's African</text>
+    <text x="670" y="82" text-anchor="middle" font-size="9" fill="#4A443C">colonies gain independence</text>
+
+    <!-- schematic extent trend -->
+    <line x1="55" y1="322" x2="685" y2="322" stroke="#E3DCC9" stroke-width="1"/>
+    <path d="M 70,318 C 130,308 150,298 170,292 C 220,278 250,262 270,254 C 320,242 350,238 370,236 C 400,240 440,252 470,264 C 510,278 540,292 570,300 C 610,308 640,314 670,316"
+          fill="none" stroke="#2C4A3E" stroke-width="2"/>
+    <circle cx="370" cy="236" r="4" fill="#B08D3E"/>
+    <text x="370" y="336" text-anchor="middle" font-size="10" fill="#8B6F4E">Schematic trend: territory under European colonial rule, rising then falling</text>
+  </g>
+</svg>

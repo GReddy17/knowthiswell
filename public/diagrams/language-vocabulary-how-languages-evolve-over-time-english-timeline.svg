@@ -1,0 +1,46 @@
+<svg viewBox="0 0 680 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">English across three historical stages: Old English, Middle English, and Modern English, showing how grammar, vocabulary, and pronunciation shifted at each stage</title>
+  <rect width="680" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="340" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="14.5" font-weight="600" fill="#1F1B16">How English changed over time</text>
+
+    <text x="133" y="55" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1F1B16">Old English</text>
+    <text x="133" y="70" text-anchor="middle" font-size="10" fill="#8B6F4E">c. 450&#8211;1150 CE</text>
+
+    <text x="340" y="55" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1F1B16">Middle English</text>
+    <text x="340" y="70" text-anchor="middle" font-size="10" fill="#8B6F4E">c. 1150&#8211;1500 CE</text>
+
+    <text x="547" y="55" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1F1B16">Modern English</text>
+    <text x="547" y="70" text-anchor="middle" font-size="10" fill="#8B6F4E">c. 1500 CE&#8211;today</text>
+
+    <rect x="30" y="80" width="207" height="88" fill="#EEF3EE"/>
+    <rect x="237" y="80" width="206" height="88" fill="#FBEDEA"/>
+    <rect x="443" y="80" width="207" height="88" fill="#EDE7D8"/>
+    <rect x="30" y="80" width="620" height="88" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <line x1="237" y1="80" x2="237" y2="168" stroke="#1F1B16"/>
+    <line x1="443" y1="80" x2="443" y2="168" stroke="#1F1B16"/>
+
+    <text x="45" y="102" font-size="10" fill="#1F1B16">Heavily inflected</text>
+    <text x="45" y="117" font-size="10" fill="#1F1B16">Germanic grammar &#8212;</text>
+    <text x="45" y="132" font-size="10" fill="#1F1B16">largely unreadable to</text>
+    <text x="45" y="147" font-size="10" fill="#1F1B16">modern speakers</text>
+    <text x="45" y="162" font-size="10" fill="#1F1B16">without training.</text>
+
+    <text x="252" y="102" font-size="10" fill="#1F1B16">After the Norman</text>
+    <text x="252" y="117" font-size="10" fill="#1F1B16">Conquest, French</text>
+    <text x="252" y="132" font-size="10" fill="#1F1B16">added huge borrowed</text>
+    <text x="252" y="147" font-size="10" fill="#1F1B16">vocabulary &#8212; partly</text>
+    <text x="252" y="162" font-size="10" fill="#1F1B16">readable, as in Chaucer.</text>
+
+    <text x="458" y="102" font-size="10" fill="#1F1B16">The Great Vowel Shift</text>
+    <text x="458" y="117" font-size="10" fill="#1F1B16">changed pronunciation</text>
+    <text x="458" y="132" font-size="10" fill="#1F1B16">while spelling had</text>
+    <text x="458" y="147" font-size="10" fill="#1F1B16">already begun to</text>
+    <text x="458" y="162" font-size="10" fill="#1F1B16">standardize.</text>
+
+    <path d="M 237,124 L 250,124" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 443,124 L 456,124" stroke="#1F1B16" stroke-width="1.5"/>
+
+    <text x="340" y="195" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8B6F4E">One language, reshaped by conquest, borrowing, and sound change</text>
+  </g>
+</svg>

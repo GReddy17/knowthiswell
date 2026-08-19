@@ -1,0 +1,53 @@
+<svg viewBox="0 0 740 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of social reformers and activists from the early 1900s to 2014: Emmeline Pankhurst founding the Women's Social and Political Union in Britain in 1903 and the 1918 partial victory for British women's suffrage, B. R. Ambedkar chairing India's Constitution Drafting Committee in 1947-49, Wangari Maathai founding Kenya's Green Belt Movement in 1977 and winning the Nobel Peace Prize in 2004, and Malala Yousafzai's advocacy for girls' education leading to her 2014 Nobel Peace Prize</title>
+  <rect width="740" height="260" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="370" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Social reformers and activists through history</text>
+    <text x="370" y="41" text-anchor="middle" font-size="10.5" fill="#8B6F4E">1903-2014, positioned roughly to scale</text>
+
+    <line x1="45" y1="150" x2="710" y2="150" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 710,150 L 700,145 L 700,155 Z" fill="#1F1B16"/>
+
+    <!-- 1903 (above) -->
+    <line x1="50" y1="150" x2="50" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="50" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="65" y="106" text-anchor="start" font-size="12" font-weight="700" fill="#1F1B16">1903</text>
+    <text x="65" y="92" text-anchor="start" font-size="9.5" fill="#4A443C">Emmeline Pankhurst founds</text>
+    <text x="65" y="80" text-anchor="start" font-size="9.5" fill="#4A443C">the WSPU in Britain</text>
+
+    <!-- 1918 (below) -->
+    <line x1="138" y1="150" x2="138" y2="180" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="138" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="138" y="196" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1918</text>
+    <text x="138" y="210" text-anchor="middle" font-size="9.5" fill="#4A443C">Partial victory for British</text>
+    <text x="138" y="222" text-anchor="middle" font-size="9.5" fill="#4A443C">women's suffrage</text>
+
+    <!-- 1947-49 (above) -->
+    <line x1="314" y1="150" x2="314" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="314" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="314" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1947-49</text>
+    <text x="314" y="92" text-anchor="middle" font-size="9.5" fill="#4A443C">B. R. Ambedkar chairs India's</text>
+    <text x="314" y="80" text-anchor="middle" font-size="9.5" fill="#4A443C">Constitution Drafting Committee</text>
+
+    <!-- 1977 (below) -->
+    <line x1="483" y1="150" x2="483" y2="180" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="483" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="483" y="196" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1977</text>
+    <text x="483" y="210" text-anchor="middle" font-size="9.5" fill="#4A443C">Wangari Maathai founds</text>
+    <text x="483" y="222" text-anchor="middle" font-size="9.5" fill="#4A443C">Kenya's Green Belt Movement</text>
+
+    <!-- 2004 (above) -->
+    <line x1="641" y1="150" x2="641" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="641" cy="150" r="5" fill="#B08D3E"/>
+    <text x="641" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">2004</text>
+    <text x="641" y="92" text-anchor="middle" font-size="9.5" fill="#4A443C">Maathai wins the</text>
+    <text x="641" y="80" text-anchor="middle" font-size="9.5" fill="#4A443C">Nobel Peace Prize</text>
+
+    <!-- 2014 (below) -->
+    <line x1="700" y1="150" x2="700" y2="180" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="700" cy="150" r="5" fill="#B08D3E"/>
+    <text x="690" y="196" text-anchor="end" font-size="12" font-weight="700" fill="#1F1B16">2014</text>
+    <text x="690" y="210" text-anchor="end" font-size="9.5" fill="#4A443C">Malala Yousafzai wins the</text>
+    <text x="690" y="222" text-anchor="end" font-size="9.5" fill="#4A443C">Nobel Peace Prize</text>
+  </g>
+</svg>

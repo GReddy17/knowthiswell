@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pythagTitle">
+  <title id="pythagTitle">A right triangle with legs labeled a and b and hypotenuse labeled c, with a square drawn on each of the three sides showing its area (a squared, b squared, and c squared), illustrating that the combined area of the two smaller squares exactly equals the area of the largest square on the hypotenuse</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <text x="400" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700" fill="#20362D">a&#178; + b&#178; = c&#178;</text>
+  <text x="400" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#8B6F4E">example: 3&#178; + 4&#178; = 5&#178;  (9 + 16 = 25)</text>
+
+  <!-- square on b (base leg), with 4x4 unit grid -->
+  <rect x="150" y="300" width="96" height="96" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <g stroke="#2C4A3E" stroke-width="0.7" opacity="0.55">
+    <line x1="174" y1="300" x2="174" y2="396"/>
+    <line x1="198" y1="300" x2="198" y2="396"/>
+    <line x1="222" y1="300" x2="222" y2="396"/>
+    <line x1="150" y1="324" x2="246" y2="324"/>
+    <line x1="150" y1="348" x2="246" y2="348"/>
+    <line x1="150" y1="372" x2="246" y2="372"/>
+  </g>
+  <text x="198" y="356" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="700" fill="#2C4A3E">b&#178;</text>
+
+  <!-- square on a (vertical leg), with 3x3 unit grid -->
+  <rect x="78" y="228" width="72" height="72" fill="#F6F0E8" stroke="#2C4A3E" stroke-width="2"/>
+  <g stroke="#2C4A3E" stroke-width="0.7" opacity="0.55">
+    <line x1="102" y1="228" x2="102" y2="300"/>
+    <line x1="126" y1="228" x2="126" y2="300"/>
+    <line x1="78" y1="252" x2="150" y2="252"/>
+    <line x1="78" y1="276" x2="150" y2="276"/>
+  </g>
+  <text x="114" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700" fill="#2C4A3E">a&#178;</text>
+
+  <!-- square on c (hypotenuse) -->
+  <polygon points="246,300 150,228 222,132 318,204" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="234" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="700" fill="#C9412C">c&#178;</text>
+
+  <!-- the right triangle itself -->
+  <polygon points="150,300 246,300 150,228" fill="#FBF8F1" stroke="#1F1B16" stroke-width="2.5"/>
+  <path d="M 150,290 L 160,290 L 160,300" fill="none" stroke="#1F1B16" stroke-width="1.3"/>
+
+  <text x="128" y="270" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">a</text>
+  <text x="198" y="318" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">b</text>
+  <text x="212" y="258" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">c</text>
+
+  <text x="480" y="330" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Count the unit squares:</text>
+  <text x="480" y="350" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">a&#178; square = 9 cells</text>
+  <text x="480" y="368" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">b&#178; square = 16 cells</text>
+  <text x="480" y="386" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#C9412C">c&#178; square = 25 cells = 9 + 16</text>
+</svg>

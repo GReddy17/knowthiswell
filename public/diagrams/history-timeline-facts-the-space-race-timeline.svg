@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1500 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Horizontal timeline of the Space Race showing October 1957 the Soviet Union launches Sputnik 1, 1958 NASA is established, April 1961 Yuri Gagarin becomes the first human in orbit, May 1961 President Kennedy commits the United States to a crewed Moon landing, and July 20, 1969, Apollo 11 lands the first humans on the Moon</title>
+  <rect width="1500" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="750" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Twelve years from the first satellite to the first crewed Moon landing</text>
+
+    <rect x="40" y="115" width="235" height="40" fill="#EEF3EE"/>
+    <text x="157" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Sputnik 1 launched</text>
+    <text x="157" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Soviet Union, first satellite</text>
+    <text x="157" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Oct 1957</text>
+
+    <rect x="275" y="115" width="220" height="40" fill="#FBEDEA"/>
+    <text x="385" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">NASA established</text>
+    <text x="385" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1958</text>
+
+    <rect x="495" y="115" width="270" height="40" fill="#EDE7D8"/>
+    <text x="630" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Gagarin orbits Earth</text>
+    <text x="630" y="138" text-anchor="middle" font-size="9" fill="#4A443C">First human in orbit</text>
+    <text x="630" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Apr 1961</text>
+
+    <rect x="765" y="115" width="290" height="40" fill="#EEF3EE"/>
+    <text x="910" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Kennedy commits to Moon landing</text>
+    <text x="910" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">May 1961</text>
+
+    <rect x="1055" y="115" width="405" height="40" fill="#FBEDEA"/>
+    <text x="1257" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Apollo 11 Moon landing</text>
+    <text x="1257" y="138" text-anchor="middle" font-size="9" fill="#4A443C">First humans on the Moon</text>
+    <text x="1257" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">20 Jul 1969</text>
+  </g>
+  <rect x="40" y="115" width="1420" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="275" y1="115" x2="275" y2="155" stroke="#1F1B16"/>
+  <line x1="495" y1="115" x2="495" y2="155" stroke="#1F1B16"/>
+  <line x1="765" y1="115" x2="765" y2="155" stroke="#1F1B16"/>
+  <line x1="1055" y1="115" x2="1055" y2="155" stroke="#1F1B16"/>
+</svg>

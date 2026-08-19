@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1200 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of major 20th-century technological shifts: the Wright brothers' first powered flight in 1903, mass electrification reaching most US households by the 1930s, digital computers and nuclear technology emerging around World War II in the 1940s, the ARPANET's first operation in 1969 alongside the Apollo 11 Moon landing the same year, the personal computer's rise in the late 1970s and 1980s, and the World Wide Web's invention at CERN between 1989 and 1991</title>
+  <rect width="1200" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="600" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Each shift generally built on the infrastructure or research of the one before it</text>
+
+    <rect x="40" y="115" width="190" height="40" fill="#EEF3EE"/>
+    <text x="135" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Wright brothers' first flight</text>
+    <text x="135" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">powered, controlled flight</text>
+    <text x="135" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1903</text>
+
+    <rect x="230" y="115" width="170" height="40" fill="#FBEDEA"/>
+    <text x="315" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Mass electrification</text>
+    <text x="315" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">reaches most US households</text>
+    <text x="315" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">by 1930s</text>
+
+    <rect x="400" y="115" width="190" height="40" fill="#EDE7D8"/>
+    <text x="495" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Computers &amp; nuclear tech</text>
+    <text x="495" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">emerge around World War II</text>
+    <text x="495" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1940s</text>
+
+    <rect x="590" y="115" width="190" height="40" fill="#EEF3EE"/>
+    <text x="685" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">ARPANET &amp; Apollo 11</text>
+    <text x="685" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">network online; Moon landing</text>
+    <text x="685" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1969</text>
+
+    <rect x="780" y="115" width="190" height="40" fill="#FBEDEA"/>
+    <text x="875" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Personal computer rises</text>
+    <text x="875" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">homes &amp; small offices</text>
+    <text x="875" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">late 1970s-80s</text>
+
+    <rect x="970" y="115" width="190" height="40" fill="#EDE7D8"/>
+    <text x="1065" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">World Wide Web invented</text>
+    <text x="1065" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Tim Berners-Lee, CERN</text>
+    <text x="1065" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1989-1991</text>
+  </g>
+  <rect x="40" y="115" width="1120" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="230" y1="115" x2="230" y2="155" stroke="#1F1B16"/>
+  <line x1="400" y1="115" x2="400" y2="155" stroke="#1F1B16"/>
+  <line x1="590" y1="115" x2="590" y2="155" stroke="#1F1B16"/>
+  <line x1="780" y1="115" x2="780" y2="155" stroke="#1F1B16"/>
+  <line x1="970" y1="115" x2="970" y2="155" stroke="#1F1B16"/>
+  <text x="600" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">The internet (ARPANET, 1969) and the World Wide Web (1989-91) are distinct, separately dated technologies</text>
+</svg>

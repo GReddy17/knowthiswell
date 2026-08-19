@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="leapYearFlowTitle">
+  <title id="leapYearFlowTitle">A flowchart starting with a box asking Is the year divisible by 4? If no, arrow to a box labeled Not a leap year. If yes, arrow to a second question box Is the year divisible by 100? If no, arrow to a box labeled Leap year. If yes, arrow to a third question box Is the year also divisible by 400? If no, arrow to Not a leap year. If yes, arrow to Leap year, illustrating years like 2024 (leap), 1900 (not a leap year), and 2000 (leap year) at their respective decision paths</title>
+  <rect width="640" height="500" fill="#FBF8F1"/>
+
+  <defs>
+    <marker id="lyArrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <!-- Diamond 1: divisible by 4 -->
+  <polygon points="230,38 300,70 230,102 160,70" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="230" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Divisible</text>
+  <text x="230" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">by 4?</text>
+
+  <!-- Diamond 2: divisible by 100 -->
+  <polygon points="230,178 300,210 230,242 160,210" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="230" y="206" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Divisible</text>
+  <text x="230" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">by 100?</text>
+
+  <!-- Diamond 3: divisible by 400 -->
+  <polygon points="230,318 300,350 230,382 160,350" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="230" y="346" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Divisible</text>
+  <text x="230" y="360" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">by 400?</text>
+
+  <!-- vertical Yes arrows between diamonds -->
+  <line x1="230" y1="102" x2="230" y2="174" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#lyArrow)"/>
+  <text x="240" y="142" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Yes</text>
+
+  <line x1="230" y1="242" x2="230" y2="314" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#lyArrow)"/>
+  <text x="240" y="282" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Yes</text>
+
+  <!-- outcome boxes on the right (No branches from D1, D2, D3) -->
+  <rect x="430" y="48" width="170" height="44" rx="9" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="515" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Not a leap year</text>
+
+  <rect x="430" y="188" width="170" height="54" rx="9" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="515" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Leap year</text>
+  <text x="515" y="228" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#4A443C">e.g. 2024</text>
+
+  <rect x="430" y="328" width="170" height="54" rx="9" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="515" y="350" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Not a leap year</text>
+  <text x="515" y="368" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#4A443C">e.g. 1900</text>
+
+  <!-- No arrows from diamonds to outcome boxes -->
+  <path d="M300,70 L428,70" fill="none" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#lyArrow)"/>
+  <text x="330" y="62" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">No</text>
+
+  <path d="M300,210 L428,213" fill="none" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#lyArrow)"/>
+  <text x="330" y="203" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">No</text>
+
+  <path d="M300,350 L428,353" fill="none" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#lyArrow)"/>
+  <text x="330" y="343" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">No</text>
+
+  <!-- Yes from D3 goes down to a bottom outcome box -->
+  <line x1="230" y1="382" x2="230" y2="424" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#lyArrow)"/>
+  <text x="240" y="408" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Yes</text>
+
+  <rect x="140" y="428" width="180" height="54" rx="9" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="230" y="450" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Leap year</text>
+  <text x="230" y="468" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#4A443C">e.g. 2000</text>
+</svg>

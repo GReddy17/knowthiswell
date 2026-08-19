@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1070 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline from the Stonewall uprising beginning June 28, 1969 at the Stonewall Inn in Greenwich Village, New York City, through the first Pride marches in June 1970 including New York's Christopher Street Liberation Day March on the uprising's first anniversary, the first US presidential proclamation designating June as Gay and Lesbian Pride Month in 1999, its reissue in 2000, the 2016 designation of Stonewall National Monument by the National Park Service, and today's observance of June as Pride Month by many cities, organizations, and institutions internationally</title>
+  <rect width="1070" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="535" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">A documented sequence, 1969 to today</text>
+
+    <rect x="40" y="115" width="180" height="40" fill="#EEF3EE"/>
+    <text x="130" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Stonewall uprising begins</text>
+    <text x="130" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Stonewall Inn, Greenwich Village, NYC</text>
+    <text x="130" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Jun 28, 1969</text>
+
+    <rect x="220" y="115" width="180" height="40" fill="#FBEDEA"/>
+    <text x="310" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">First Pride marches</text>
+    <text x="310" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">incl. NYC's Christopher Street march</text>
+    <text x="310" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Jun 1970</text>
+
+    <rect x="400" y="115" width="175" height="40" fill="#EDE7D8"/>
+    <text x="487" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">First federal proclamation</text>
+    <text x="487" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Pres. Clinton names June Pride Month</text>
+    <text x="487" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1999</text>
+
+    <rect x="575" y="115" width="140" height="40" fill="#EEF3EE"/>
+    <text x="645" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Proclamation reissued</text>
+    <text x="645" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">federal recognition continues</text>
+    <text x="645" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2000</text>
+
+    <rect x="715" y="115" width="185" height="40" fill="#FBEDEA"/>
+    <text x="807" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Stonewall National Monument</text>
+    <text x="807" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">site designated by the National Park Service</text>
+    <text x="807" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2016</text>
+
+    <rect x="900" y="115" width="130" height="40" fill="#EDE7D8"/>
+    <text x="965" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Observed worldwide</text>
+    <text x="965" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">many cities, orgs &amp; institutions mark June</text>
+    <text x="965" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Today</text>
+  </g>
+  <rect x="40" y="115" width="990" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="220" y1="115" x2="220" y2="155" stroke="#1F1B16"/>
+  <line x1="400" y1="115" x2="400" y2="155" stroke="#1F1B16"/>
+  <line x1="575" y1="115" x2="575" y2="155" stroke="#1F1B16"/>
+  <line x1="715" y1="115" x2="715" y2="155" stroke="#1F1B16"/>
+  <line x1="900" y1="115" x2="900" y2="155" stroke="#1F1B16"/>
+  <text x="535" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">A specific 1969 event, a documented 1970 anniversary march, and federal recognition three decades later</text>
+</svg>

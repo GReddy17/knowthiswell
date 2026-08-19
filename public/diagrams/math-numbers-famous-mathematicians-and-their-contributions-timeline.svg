@@ -1,0 +1,52 @@
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mathematiciansTitle">
+  <title id="mathematiciansTitle">A timeline with four marked points: Euclid around 300 BCE and the axiomatic proof method of the Elements; Carl Friedrich Gauss around 1801 and the Disquisitiones Arithmeticae and method of least squares; Emmy Noether in 1918 and her theorem linking symmetry and conservation laws; and Srinivasa Ramanujan in 1918 and the partition function formula developed with G.H. Hardy</title>
+  <rect width="720" height="300" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="360" y="30" text-anchor="middle" font-size="14" font-weight="600" fill="#2C4A3E">Four contributions across 2,200+ years</text>
+
+    <line x1="60" y1="150" x2="660" y2="150" stroke="#1F1B16" stroke-width="1.5"/>
+    <!-- schematic scale break marking a large, compressed time gap -->
+    <path d="M 372,145 l 8,10 l -8,10" fill="none" stroke="#1F1B16" stroke-width="1.25"/>
+    <path d="M 382,145 l 8,10 l -8,10" fill="none" stroke="#1F1B16" stroke-width="1.25"/>
+    <text x="380" y="130" text-anchor="middle" font-size="9" fill="#8B6F4E">(not to scale)</text>
+
+    <!-- Euclid, c. 300 BCE -->
+    <circle cx="110" cy="150" r="6" fill="#2C4A3E"/>
+    <line x1="110" y1="150" x2="110" y2="110" stroke="#2C4A3E" stroke-width="1.25"/>
+    <text x="110" y="98" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Euclid</text>
+    <text x="110" y="170" text-anchor="middle" font-size="11" fill="#8B6F4E">c. 300 BCE</text>
+    <text x="110" y="188" text-anchor="middle" font-size="10" fill="#4A443C">Elements —</text>
+    <text x="110" y="202" text-anchor="middle" font-size="10" fill="#4A443C">axiomatic proof</text>
+    <text x="110" y="216" text-anchor="middle" font-size="10" fill="#4A443C">method</text>
+
+    <!-- Gauss, 1801 -->
+    <circle cx="280" cy="150" r="6" fill="#2C4A3E"/>
+    <line x1="280" y1="150" x2="280" y2="110" stroke="#2C4A3E" stroke-width="1.25"/>
+    <text x="280" y="98" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Gauss</text>
+    <text x="280" y="170" text-anchor="middle" font-size="11" fill="#8B6F4E">1801</text>
+    <text x="280" y="188" text-anchor="middle" font-size="10" fill="#4A443C">Disquisitiones</text>
+    <text x="280" y="202" text-anchor="middle" font-size="10" fill="#4A443C">Arithmeticae;</text>
+    <text x="280" y="216" text-anchor="middle" font-size="10" fill="#4A443C">least squares</text>
+
+    <!-- Noether, 1918 -->
+    <circle cx="480" cy="150" r="6" fill="#2C4A3E"/>
+    <line x1="480" y1="150" x2="480" y2="110" stroke="#2C4A3E" stroke-width="1.25"/>
+    <text x="480" y="98" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Noether</text>
+    <text x="480" y="170" text-anchor="middle" font-size="11" fill="#8B6F4E">1918</text>
+    <text x="480" y="188" text-anchor="middle" font-size="10" fill="#4A443C">Noether's theorem —</text>
+    <text x="480" y="202" text-anchor="middle" font-size="10" fill="#4A443C">symmetry &amp;</text>
+    <text x="480" y="216" text-anchor="middle" font-size="10" fill="#4A443C">conservation laws</text>
+
+    <!-- Ramanujan, 1918 -->
+    <circle cx="610" cy="150" r="6" fill="#2C4A3E"/>
+    <line x1="610" y1="150" x2="610" y2="190" stroke="#2C4A3E" stroke-width="1.25"/>
+    <text x="610" y="98" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Ramanujan</text>
+    <text x="610" y="82" text-anchor="middle" font-size="11" fill="#8B6F4E">1918</text>
+    <text x="610" y="207" text-anchor="middle" font-size="10" fill="#4A443C">Partition function</text>
+    <text x="610" y="221" text-anchor="middle" font-size="10" fill="#4A443C">formula (with</text>
+    <text x="610" y="235" text-anchor="middle" font-size="10" fill="#4A443C">G.H. Hardy)</text>
+
+    <text x="360" y="270" text-anchor="middle" font-size="10.5" fill="#8B6F4E">Noether and Ramanujan's landmark results both date to 1918, though in separate fields</text>
+  </g>
+</svg>

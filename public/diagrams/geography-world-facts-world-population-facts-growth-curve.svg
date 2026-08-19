@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="popGrowthTitle">
+  <title id="popGrowthTitle">A line graph of world population from ancient times to the present and projected forward to 2100, mostly flat for thousands of years before curving sharply upward starting around the 1800s, with markers at each billion milestone (1 billion in 1804, 2 billion in 1927, 3 billion in 1960, 4 billion in 1974, 5 billion in 1987, 6 billion in 1999, 7 billion in 2011, 8 billion in 2022), and the curve leveling off and gently declining after a projected peak around the mid-2080s</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <text x="320" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15.5" font-weight="600" fill="#1F1B16">World population, 10,000 BCE-2100 (UN projected)</text>
+
+  <line x1="60" y1="340" x2="610" y2="340" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="60" y1="340" x2="60" y2="50" stroke="#1F1B16" stroke-width="1.5"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B7E5E" text-anchor="end">
+    <text x="54" y="343">0</text>
+    <text x="54" y="286">2B</text>
+    <text x="54" y="233">4B</text>
+    <text x="54" y="179">6B</text>
+    <text x="54" y="126">8B</text>
+    <text x="54" y="72">10B</text>
+  </g>
+
+  <!-- axis break marker separating compressed ancient history from the zoomed 1800-2100 window -->
+  <g stroke="#1F1B16" stroke-width="1.5">
+    <line x1="188" y1="336" x2="196" y2="344"/>
+    <line x1="196" y1="336" x2="204" y2="344"/>
+  </g>
+  <text x="120" y="358" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">10,000 BCE</text>
+  <text x="196" y="358" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">1800</text>
+  <text x="360" y="358" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">1950</text>
+  <text x="500" y="358" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">2022</text>
+  <text x="608" y="358" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">2100</text>
+
+  <!-- long flat prehistoric/historic segment, compressed -->
+  <path d="M 60,338 C 100,338 130,337 165,335 C 178,334 188,332 196,328" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+  <!-- 1800 to 2100 curve, through billion milestones -->
+  <path d="M 196,328 C 260,318 300,300 335,272 C 365,247 385,225 410,198 C 435,171 460,150 486,131 C 510,113 535,97 560,84 C 578,76 592,70 604,68" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+  <!-- gentle projected decline after mid-2080s peak -->
+  <path d="M 592,66.5 C 598,66.5 604,67.5 608,69" fill="none" stroke="#2C4A3E" stroke-width="2.5" stroke-dasharray="4 3"/>
+
+  <!-- billion milestones -->
+  <g fill="#C9412C">
+    <circle cx="205" cy="313" r="3.2"/>
+    <circle cx="369" cy="286" r="3.2"/>
+    <circle cx="413" cy="260" r="3.2"/>
+    <circle cx="432" cy="233" r="3.2"/>
+    <circle cx="449" cy="207" r="3.2"/>
+    <circle cx="465" cy="180" r="3.2"/>
+    <circle cx="481" cy="153" r="3.2"/>
+    <circle cx="496" cy="127" r="3.2"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">
+    <text x="205" y="305">1B &#183; 1804</text>
+    <text x="330" y="278" text-anchor="end">2B &#183; 1927</text>
+    <text x="413" y="252">3B &#183; 1960</text>
+    <text x="432" y="226">4B &#183; 1974</text>
+    <text x="360" y="199" text-anchor="end">5B &#183; 1987</text>
+    <text x="465" y="172">6B &#183; 1999</text>
+    <text x="481" y="146">7B &#183; 2011</text>
+    <text x="500" y="118">8B &#183; 2022</text>
+  </g>
+
+  <circle cx="592" cy="66.5" r="3.2" fill="#8B6F4E"/>
+  <text x="500" y="58" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">peak ~10.3B, mid-2080s</text>
+
+  <text x="335" y="396" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Timeline before 1800 is compressed; population grew slowly for most of human history before the modern surge.</text>
+</svg>

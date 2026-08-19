@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1970 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of Latin American independence movements from the 1791-1804 Haitian Revolution, through Napoleon's 1808 invasion of Spain and Portugal, Mexico's Grito de Dolores in September 1810, Argentina's 1816 independence declaration, Chile's 1818 independence, the 1819 formation of Gran Colombia, Mexican independence in 1821, Brazil's 1822 independence declaration, the December 1824 Battle of Ayacucho ending Spanish rule on the mainland, and the surrender of the last Spanish garrisons by 1826</title>
+  <rect width="1970" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="985" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Thirty-five years of staggered revolt end Spanish and Portuguese rule in the Americas</text>
+
+    <rect x="40" y="115" width="175" height="40" fill="#EEF3EE"/>
+    <text x="127" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Haitian Revolution</text>
+    <text x="127" y="138" text-anchor="middle" font-size="9" fill="#4A443C">First Black-led republic</text>
+    <text x="127" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1791–1804</text>
+
+    <rect x="215" y="115" width="185" height="40" fill="#FBEDEA"/>
+    <text x="307" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Napoleon invades Iberia</text>
+    <text x="307" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Peninsular War begins</text>
+    <text x="307" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1808</text>
+
+    <rect x="400" y="115" width="215" height="40" fill="#EDE7D8"/>
+    <text x="507" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Grito de Dolores</text>
+    <text x="507" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Hidalgo's call ignites revolt in Mexico</text>
+    <text x="507" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Sep 1810</text>
+
+    <rect x="615" y="115" width="170" height="40" fill="#EEF3EE"/>
+    <text x="700" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Argentina independence</text>
+    <text x="700" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1816</text>
+
+    <rect x="785" y="115" width="150" height="40" fill="#FBEDEA"/>
+    <text x="860" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Chile independence</text>
+    <text x="860" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1818</text>
+
+    <rect x="935" y="115" width="230" height="40" fill="#EDE7D8"/>
+    <text x="1050" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Gran Colombia formed</text>
+    <text x="1050" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Bolívar unites Venezuela, Colombia, Ecuador</text>
+    <text x="1050" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1819</text>
+
+    <rect x="1165" y="115" width="160" height="40" fill="#EEF3EE"/>
+    <text x="1245" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Mexican independence</text>
+    <text x="1245" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1821</text>
+
+    <rect x="1325" y="115" width="200" height="40" fill="#FBEDEA"/>
+    <text x="1425" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Brazil declares independence</text>
+    <text x="1425" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Pedro I breaks from Portugal</text>
+    <text x="1425" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1822</text>
+
+    <rect x="1525" y="115" width="195" height="40" fill="#EDE7D8"/>
+    <text x="1622" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Battle of Ayacucho</text>
+    <text x="1622" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Ends Spanish rule on the mainland</text>
+    <text x="1622" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Dec 1824</text>
+
+    <rect x="1720" y="115" width="210" height="40" fill="#EEF3EE"/>
+    <text x="1825" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Last garrisons surrender</text>
+    <text x="1825" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1826</text>
+  </g>
+  <rect x="40" y="115" width="1890" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="215" y1="115" x2="215" y2="155" stroke="#1F1B16"/>
+  <line x1="400" y1="115" x2="400" y2="155" stroke="#1F1B16"/>
+  <line x1="615" y1="115" x2="615" y2="155" stroke="#1F1B16"/>
+  <line x1="785" y1="115" x2="785" y2="155" stroke="#1F1B16"/>
+  <line x1="935" y1="115" x2="935" y2="155" stroke="#1F1B16"/>
+  <line x1="1165" y1="115" x2="1165" y2="155" stroke="#1F1B16"/>
+  <line x1="1325" y1="115" x2="1325" y2="155" stroke="#1F1B16"/>
+  <line x1="1525" y1="115" x2="1525" y2="155" stroke="#1F1B16"/>
+  <line x1="1720" y1="115" x2="1720" y2="155" stroke="#1F1B16"/>
+</svg>

@@ -1,0 +1,58 @@
+<svg viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the September 11, 2001 attacks — American Airlines Flight 11 hitting the World Trade Center North Tower at 8:46 a.m., United Airlines Flight 175 hitting the South Tower at 9:03 a.m., American Airlines Flight 77 hitting the Pentagon at 9:37 a.m., United Airlines Flight 93 crashing near Shanksville, Pennsylvania at 10:03 a.m., and the tower collapses that followed — and the aftermath: the U.S. invasion of Afghanistan in October 2001, creation of the TSA in November 2001, creation of the Department of Homeland Security in 2002, and the death of Osama bin Laden in May 2011</title>
+  <rect width="900" height="320" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="450" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Four flights in ninety minutes, a decade of aftermath</text>
+
+    <text x="40" y="55" font-size="10.5" font-weight="700" fill="#2C4A3E" letter-spacing="0.5">MORNING OF SEPTEMBER 11, 2001</text>
+
+    <rect x="40" y="90" width="155" height="40" fill="#EEF3EE"/>
+    <text x="117" y="75" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">AA11 hits North Tower</text>
+    <text x="117" y="150" text-anchor="middle" font-size="9.5" fill="#8B6F4E">8:46 AM</text>
+
+    <rect x="195" y="90" width="160" height="40" fill="#FBEDEA"/>
+    <text x="275" y="75" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">UA175 hits South Tower</text>
+    <text x="275" y="150" text-anchor="middle" font-size="9.5" fill="#8B6F4E">9:03 AM</text>
+
+    <rect x="355" y="90" width="160" height="40" fill="#EDE7D8"/>
+    <text x="435" y="75" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">AA77 hits the Pentagon</text>
+    <text x="435" y="150" text-anchor="middle" font-size="9.5" fill="#8B6F4E">9:37 AM</text>
+
+    <rect x="515" y="90" width="200" height="40" fill="#EEF3EE"/>
+    <text x="615" y="75" text-anchor="middle" font-size="10" font-weight="600" fill="#1F1B16">UA93 crashes near Shanksville, PA</text>
+    <text x="615" y="150" text-anchor="middle" font-size="9.5" fill="#8B6F4E">10:03 AM</text>
+
+    <rect x="715" y="90" width="145" height="40" fill="#FBEDEA"/>
+    <text x="787" y="75" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Towers collapse</text>
+    <text x="787" y="150" text-anchor="middle" font-size="9.5" fill="#8B6F4E">~10–10:30 AM</text>
+
+    <rect x="40" y="90" width="820" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <line x1="195" y1="90" x2="195" y2="130" stroke="#1F1B16"/>
+    <line x1="355" y1="90" x2="355" y2="130" stroke="#1F1B16"/>
+    <line x1="515" y1="90" x2="515" y2="130" stroke="#1F1B16"/>
+    <line x1="715" y1="90" x2="715" y2="130" stroke="#1F1B16"/>
+
+    <text x="40" y="188" font-size="10.5" font-weight="700" fill="#B0503A" letter-spacing="0.5">AFTERMATH</text>
+
+    <rect x="40" y="210" width="160" height="40" fill="#EDE7D8"/>
+    <text x="120" y="195" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">US invades Afghanistan</text>
+    <text x="120" y="270" text-anchor="middle" font-size="9.5" fill="#8B6F4E">Oct 2001</text>
+
+    <rect x="200" y="210" width="110" height="40" fill="#EEF3EE"/>
+    <text x="255" y="195" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">TSA created</text>
+    <text x="255" y="270" text-anchor="middle" font-size="9.5" fill="#8B6F4E">Nov 2001</text>
+
+    <rect x="310" y="210" width="230" height="40" fill="#FBEDEA"/>
+    <text x="425" y="195" text-anchor="middle" font-size="10" font-weight="600" fill="#1F1B16">Dept. of Homeland Security created</text>
+    <text x="425" y="270" text-anchor="middle" font-size="9.5" fill="#8B6F4E">2002</text>
+
+    <rect x="540" y="210" width="170" height="40" fill="#EDE7D8"/>
+    <text x="625" y="195" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Osama bin Laden killed</text>
+    <text x="625" y="270" text-anchor="middle" font-size="9.5" fill="#8B6F4E">May 2011</text>
+
+    <rect x="40" y="210" width="670" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <line x1="200" y1="210" x2="200" y2="250" stroke="#1F1B16"/>
+    <line x1="310" y1="210" x2="310" y2="250" stroke="#1F1B16"/>
+    <line x1="540" y1="210" x2="540" y2="250" stroke="#1F1B16"/>
+  </g>
+</svg>

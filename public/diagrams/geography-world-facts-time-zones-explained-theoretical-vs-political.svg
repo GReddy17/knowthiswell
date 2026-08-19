@@ -1,0 +1,74 @@
+<svg viewBox="0 0 640 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="timeZonesTitle">
+  <title id="timeZonesTitle">Two stacked world maps: the top shows clean, straight 15-degree-wide vertical time zone bands based purely on longitude; the bottom shows real-world time zone boundaries bending and zigzagging around country borders, with China's five-zone span compressed into a single zone, and the International Date Line zigzagging around Pacific island nations instead of following the 180-degree meridian in a straight line</title>
+  <rect width="640" height="560" fill="#FBF8F1"/>
+
+  <defs>
+    <pattern id="stripes15" width="46.666" height="160" patternUnits="userSpaceOnUse">
+      <rect width="23.333" height="160" fill="#EEF3EE"/>
+      <rect x="23.333" width="23.333" height="160" fill="#E4ECF2"/>
+    </pattern>
+  </defs>
+
+  <text x="320" y="30" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="19" font-weight="600" fill="#1F1B16">Theoretical vs. real-world time zones</text>
+
+  <!-- TOP MAP: theoretical 15-degree bands -->
+  <text x="40" y="62" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Theoretical: straight 15&#176; longitude bands</text>
+  <rect x="40" y="72" width="560" height="150" fill="url(#stripes15)" stroke="#E3DCC9"/>
+  <g fill="none" stroke="#1F1B16" stroke-width="1.2" opacity="0.55">
+    <path d="M 65,80 L 115,72 L 145,92 L 135,117 L 110,107 L 95,127 L 70,112 Z"/>
+    <path d="M 135,140 L 150,135 L 157,165 L 147,190 L 133,183 L 129,155 Z"/>
+    <path d="M 205,77 L 325,72 L 405,87 L 435,102 L 405,117 L 375,112 L 345,132 L 315,122 L 265,107 L 225,97 Z"/>
+    <path d="M 225,140 L 250,135 L 263,155 L 257,185 L 240,205 L 225,185 L 221,160 Z"/>
+    <path d="M 465,185 L 505,180 L 513,197 L 495,210 L 475,203 Z"/>
+  </g>
+  <line x1="40" y1="72" x2="40" y2="222" stroke="#1F1B16" stroke-width="1"/>
+  <line x1="600" y1="72" x2="600" y2="222" stroke="#1F1B16" stroke-width="1"/>
+  <text x="40" y="238" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">24 equal bands, one every 15&#176; of longitude &#8212; clean, but ignores borders.</text>
+
+  <!-- BOTTOM MAP: real-world political zones -->
+  <text x="40" y="278" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Real world: boundaries follow politics, not lines of longitude</text>
+  <g>
+    <rect x="40" y="288" width="18" height="150" fill="#EEF3EE"/>
+    <rect x="58" y="288" width="27" height="150" fill="#E4ECF2"/>
+    <rect x="85" y="288" width="17" height="150" fill="#EEF3EE"/>
+    <rect x="102" y="288" width="28" height="150" fill="#E4ECF2"/>
+    <rect x="130" y="288" width="25" height="150" fill="#EEF3EE"/>
+    <rect x="155" y="288" width="20" height="150" fill="#E4ECF2"/>
+    <rect x="175" y="288" width="25" height="150" fill="#EEF3EE"/>
+    <rect x="200" y="288" width="25" height="150" fill="#E4ECF2"/>
+    <rect x="225" y="288" width="35" height="150" fill="#EEF3EE"/>
+    <!-- China: one merged zone where 5 straight bands would be -->
+    <rect x="260" y="288" width="120" height="150" fill="#C97C3D" opacity="0.75"/>
+    <rect x="380" y="288" width="50" height="150" fill="#E4ECF2"/>
+    <rect x="430" y="288" width="35" height="150" fill="#EEF3EE"/>
+    <rect x="465" y="288" width="30" height="150" fill="#E4ECF2"/>
+    <rect x="495" y="288" width="105" height="150" fill="#EEF3EE"/>
+    <rect x="40" y="288" width="560" height="150" fill="none" stroke="#E3DCC9"/>
+  </g>
+  <!-- jagged boundary accents to show zigzagging borders -->
+  <g fill="none" stroke="#8B6F4E" stroke-width="1.5">
+    <path d="M 130,288 L 124,310 L 136,330 L 126,350 L 134,370 L 128,395 L 130,438"/>
+    <path d="M 260,288 L 252,310 L 268,330 L 254,350 L 264,375 L 256,400 L 260,438"/>
+    <path d="M 380,288 L 372,310 L 388,330 L 374,352 L 384,375 L 376,400 L 380,438"/>
+  </g>
+  <g fill="none" stroke="#1F1B16" stroke-width="1.2" opacity="0.55">
+    <path d="M 65,296 L 115,288 L 145,308 L 135,333 L 110,323 L 95,343 L 70,328 Z"/>
+    <path d="M 135,356 L 150,351 L 157,381 L 147,406 L 133,399 L 129,371 Z"/>
+    <path d="M 205,293 L 325,288 L 405,303 L 435,318 L 405,333 L 375,328 L 345,348 L 315,338 L 265,323 L 225,313 Z"/>
+    <path d="M 225,356 L 250,351 L 263,371 L 257,401 L 240,421 L 225,401 L 221,376 Z"/>
+    <path d="M 465,401 L 505,396 L 513,413 L 495,426 L 475,419 Z"/>
+  </g>
+  <text x="320" y="320" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#6E3226">China: one time zone, UTC+8</text>
+  <text x="320" y="334" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#6E3226">(a straight grid would need 5)</text>
+
+  <!-- International Date Line, zigzagging near the Pacific edge -->
+  <path d="M 596,288 L 590,300 L 600,315 L 588,335 L 601,355 L 590,375 L 600,400 L 592,420 L 597,438"
+        fill="none" stroke="#C9412C" stroke-width="1.8" stroke-dasharray="5 3"/>
+  <text x="610" y="400" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#C9412C" transform="rotate(90 610 400)">Date Line zigzags around islands</text>
+
+  <line x1="40" y1="288" x2="40" y2="438" stroke="#1F1B16" stroke-width="1"/>
+  <line x1="600" y1="288" x2="600" y2="438" stroke="#1F1B16" stroke-width="1"/>
+
+  <text x="320" y="475" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Countries redraw the grid to keep their territory on as few time zones as possible.</text>
+  <text x="320" y="495" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">The International Date Line bends around Pacific nations rather than cutting through them.</text>
+</svg>

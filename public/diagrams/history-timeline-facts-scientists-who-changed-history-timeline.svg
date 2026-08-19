@@ -1,0 +1,48 @@
+<svg viewBox="0 0 720 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of scientists who changed history from around 1021 CE to 2015 CE: Ibn al-Haytham's Book of Optics around 1021 CE during the Islamic Golden Age, Marie Curie's discovery of radioactivity and two Nobel Prizes between 1898 and 1911, Katherine Johnson's orbital trajectory calculations for NASA's early crewed spaceflights in the 1960s, and Tu Youyou's discovery of artemisinin in the 1970s, finally recognized with the 2015 Nobel Prize in Physiology or Medicine</title>
+  <rect width="720" height="260" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="360" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Scientists who changed history</text>
+    <text x="360" y="41" text-anchor="middle" font-size="10.5" fill="#8B6F4E">11th century to 2015 &#8212; axis break marks a gap of nearly 900 years</text>
+
+    <!-- left segment: 1021 CE alone -->
+    <line x1="40" y1="150" x2="150" y2="150" stroke="#1F1B16" stroke-width="1.5"/>
+    <!-- axis break marks -->
+    <line x1="160" y1="143" x2="170" y2="157" stroke="#1F1B16" stroke-width="1.5"/>
+    <line x1="170" y1="143" x2="180" y2="157" stroke="#1F1B16" stroke-width="1.5"/>
+    <!-- right segment: c.1890-2020, roughly to scale -->
+    <line x1="188" y1="150" x2="690" y2="150" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 690,150 L 680,145 L 680,155 Z" fill="#1F1B16"/>
+
+    <!-- Ibn al-Haytham c.1021 (above) -->
+    <line x1="90" y1="150" x2="90" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="90" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="90" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">c. 1021 CE</text>
+    <text x="90" y="92" text-anchor="middle" font-size="9.5" fill="#4A443C">Ibn al-Haytham's</text>
+    <text x="90" y="80" text-anchor="middle" font-size="9.5" fill="#4A443C">Book of Optics</text>
+    <text x="90" y="68" text-anchor="middle" font-size="9" fill="#8B6F4E">Islamic Golden Age</text>
+
+    <!-- Marie Curie 1898-1911 (below) -->
+    <line x1="238" y1="150" x2="238" y2="180" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="238" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="238" y="196" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1898-1911</text>
+    <text x="238" y="210" text-anchor="middle" font-size="9.5" fill="#4A443C">Marie Curie: radioactivity,</text>
+    <text x="238" y="222" text-anchor="middle" font-size="9.5" fill="#4A443C">two Nobel Prizes</text>
+
+    <!-- Katherine Johnson 1960s (above) -->
+    <line x1="468" y1="150" x2="468" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="468" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="468" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1960s</text>
+    <text x="468" y="92" text-anchor="middle" font-size="9.5" fill="#4A443C">Katherine Johnson: NASA</text>
+    <text x="468" y="80" text-anchor="middle" font-size="9.5" fill="#4A443C">orbital trajectory calculations</text>
+
+    <!-- Tu Youyou 1970s -> 2015 (below) -->
+    <line x1="495" y1="150" x2="661" y2="150" stroke="#B08D3E" stroke-width="3"/>
+    <circle cx="495" cy="150" r="4.5" fill="#B08D3E"/>
+    <circle cx="661" cy="150" r="5.5" fill="#C9412C"/>
+    <line x1="578" y1="150" x2="578" y2="180" stroke="#E3DCC9" stroke-width="1.5"/>
+    <text x="578" y="196" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">1970s &#8594; 2015</text>
+    <text x="578" y="210" text-anchor="middle" font-size="9.5" fill="#4A443C">Tu Youyou discovers artemisinin,</text>
+    <text x="578" y="222" text-anchor="middle" font-size="9.5" fill="#4A443C">recognized with the 2015 Nobel Prize</text>
+  </g>
+</svg>

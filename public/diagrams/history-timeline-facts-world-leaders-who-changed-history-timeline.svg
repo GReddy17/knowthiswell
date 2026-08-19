@@ -1,0 +1,54 @@
+<svg viewBox="0 0 760 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of world leaders who changed history from around 268 BCE to 1994 CE: Ashoka the Great's reign and edicts in ancient India around 268-232 BCE, Mansa Musa's reign and famous 1324 pilgrimage in the Mali Empire, Simon Bolivar's South American independence campaigns in the 1810s-1820s, Mahatma Gandhi's leadership of India's nonviolent independence movement through the 1940s, and Nelson Mandela's release from prison in 1990 and election as South Africa's first Black president in 1994</title>
+  <rect width="760" height="260" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="380" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">World leaders who changed history</text>
+    <text x="380" y="41" text-anchor="middle" font-size="10.5" fill="#8B6F4E">ancient to modern &#8212; axis break marks a gap of over 1,500 years; not strictly to scale</text>
+
+    <!-- left segment: Ashoka alone, ancient era -->
+    <line x1="45" y1="150" x2="140" y2="150" stroke="#1F1B16" stroke-width="1.5"/>
+    <!-- axis break marks -->
+    <line x1="150" y1="143" x2="160" y2="157" stroke="#1F1B16" stroke-width="1.5"/>
+    <line x1="160" y1="143" x2="170" y2="157" stroke="#1F1B16" stroke-width="1.5"/>
+    <!-- right segment: 1324-1994 -->
+    <line x1="178" y1="150" x2="740" y2="150" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 740,150 L 730,145 L 730,155 Z" fill="#1F1B16"/>
+
+    <!-- Ashoka c. 268-232 BCE (above) -->
+    <line x1="95" y1="150" x2="95" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="95" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="95" y="106" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">c. 268-232 BCE</text>
+    <text x="95" y="92" text-anchor="middle" font-size="9.5" fill="#4A443C">Ashoka the Great:</text>
+    <text x="95" y="80" text-anchor="middle" font-size="9.5" fill="#4A443C">edicts across ancient India</text>
+
+    <!-- Mansa Musa 1324 (below) -->
+    <line x1="220" y1="150" x2="220" y2="180" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="220" cy="150" r="5" fill="#B08D3E"/>
+    <text x="220" y="196" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1324</text>
+    <text x="220" y="210" text-anchor="middle" font-size="9.5" fill="#4A443C">Mansa Musa's famous</text>
+    <text x="220" y="222" text-anchor="middle" font-size="9.5" fill="#4A443C">pilgrimage (Mali Empire)</text>
+
+    <!-- Bolivar 1810s-1820s (above) -->
+    <line x1="380" y1="150" x2="380" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="380" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="380" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1810s-1820s</text>
+    <text x="380" y="92" text-anchor="middle" font-size="9.5" fill="#4A443C">Simon Bolivar's South American</text>
+    <text x="380" y="80" text-anchor="middle" font-size="9.5" fill="#4A443C">independence campaigns</text>
+
+    <!-- Gandhi through 1940s (below) -->
+    <line x1="520" y1="150" x2="520" y2="180" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="520" cy="150" r="5" fill="#2C4A3E"/>
+    <text x="520" y="196" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">through 1940s</text>
+    <text x="520" y="210" text-anchor="middle" font-size="9.5" fill="#4A443C">Gandhi leads India's nonviolent</text>
+    <text x="520" y="222" text-anchor="middle" font-size="9.5" fill="#4A443C">independence movement</text>
+
+    <!-- Mandela 1990 and 1994 (above, bracketed) -->
+    <line x1="620" y1="150" x2="720" y2="150" stroke="#C9412C" stroke-width="3"/>
+    <circle cx="620" cy="150" r="4.5" fill="#C9412C"/>
+    <circle cx="720" cy="150" r="5.5" fill="#C9412C"/>
+    <line x1="670" y1="150" x2="670" y2="120" stroke="#E3DCC9" stroke-width="1.5"/>
+    <text x="670" y="106" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1990 &amp; 1994</text>
+    <text x="670" y="92" text-anchor="middle" font-size="9.5" fill="#4A443C">Mandela: released from prison,</text>
+    <text x="670" y="80" text-anchor="middle" font-size="9.5" fill="#4A443C">elected S. Africa's first Black president</text>
+  </g>
+</svg>

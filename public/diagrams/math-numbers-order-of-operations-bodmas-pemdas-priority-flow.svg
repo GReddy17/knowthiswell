@@ -1,0 +1,53 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="orderOpsFlowTitle">
+  <title id="orderOpsFlowTitle">Flowchart with four stacked tiers labeled in evaluation order: Brackets/Parentheses at the top, then Exponents/Orders, then Multiplication and Division marked as equal priority and evaluated left to right, then Addition and Subtraction at the bottom also marked as equal priority and evaluated left to right, with an arrow flowing top to bottom showing the required evaluation sequence</title>
+  <rect width="480" height="360" fill="#FBF8F1"/>
+
+  <defs>
+    <marker id="ooArrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <!-- left margin evaluation-order arrow -->
+  <line x1="35" y1="24" x2="35" y2="316" stroke="#8B6F4E" stroke-width="1.6" marker-end="url(#ooArrow)"/>
+  <text x="18" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E" transform="rotate(-90 18 170)">Evaluation order</text>
+
+  <!-- Tier 1: Brackets -->
+  <rect x="70" y="20" width="340" height="56" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.2"/>
+  <text x="240" y="46" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">1. Brackets / Parentheses</text>
+  <text x="240" y="64" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">resolved first, always</text>
+
+  <line x1="240" y1="76" x2="240" y2="96" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#ooArrow)"/>
+
+  <!-- Tier 2: Exponents -->
+  <rect x="70" y="100" width="340" height="56" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.2"/>
+  <text x="240" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">2. Exponents / Orders</text>
+  <text x="240" y="144" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">powers and roots</text>
+
+  <line x1="240" y1="156" x2="240" y2="176" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#ooArrow)"/>
+
+  <!-- Tier 3: Multiplication / Division (equal priority) -->
+  <rect x="70" y="180" width="165" height="56" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="152" y="206" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Multiplication</text>
+  <text x="152" y="223" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">left to right</text>
+
+  <rect x="245" y="180" width="165" height="56" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="327" y="206" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Division</text>
+  <text x="327" y="223" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">left to right</text>
+
+  <text x="240" y="176" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#8B6F4E">3. equal priority</text>
+
+  <line x1="152" y1="236" x2="152" y2="256" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#ooArrow)"/>
+  <line x1="327" y1="236" x2="327" y2="256" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#ooArrow)"/>
+
+  <!-- Tier 4: Addition / Subtraction (equal priority) -->
+  <rect x="70" y="260" width="165" height="56" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="152" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Addition</text>
+  <text x="152" y="303" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">left to right</text>
+
+  <rect x="245" y="260" width="165" height="56" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="327" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Subtraction</text>
+  <text x="327" y="303" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">left to right</text>
+
+  <text x="240" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#8B6F4E">4. equal priority</text>
+</svg>

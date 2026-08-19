@@ -1,0 +1,77 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tradeRoutesTitle">
+  <title id="tradeRoutesTitle">World map showing the overland Silk Road route from China through Central Asia to the Mediterranean, the maritime Indian Ocean monsoon trade route, the trans-Saharan gold-salt caravan route across West Africa, and modern shipping lanes marked with chokepoint labels at the Strait of Hormuz, Strait of Malacca, Suez Canal, and Panama Canal</title>
+  <rect width="640" height="480" fill="#FBF8F1"/>
+
+  <text x="320" y="28" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="17" font-weight="600" fill="#1F1B16">Major trade routes: historical and modern</text>
+
+  <!-- base landmasses -->
+  <g fill="#EDE7D8" stroke="#D8CFBB" stroke-width="1">
+    <path d="M63,114 L102,110 L172,100 L196,104 L219,130 L234,150 L211,166 L196,200 L169,198 L177,222 L191,232 L157,210 L138,184 L127,154 L118,140 L87,130 L63,130 Z"/>
+    <path d="M200,226 L227,230 L242,250 L266,266 L258,296 L230,320 L214,360 L211,330 L209,286 L194,258 L200,240 Z"/>
+    <path d="M306,164 L306,178 L343,176 L364,178 L374,160 L382,140 L367,130 L351,110 L328,126 L312,150 Z"/>
+    <path d="M294,208 L336,176 L370,188 L387,226 L399,226 L382,280 L374,300 L351,318 L339,286 L334,246 L304,238 L294,220 Z"/>
+    <path d="M382,160 L390,220 L413,200 L429,180 L426,234 L444,210 L460,206 L468,210 L483,230 L507,200 L510,170 L530,150 L546,130 L476,96 L413,110 L390,140 Z"/>
+    <path d="M496,294 L521,274 L541,272 L558,304 L553,324 L533,320 L499,318 Z"/>
+  </g>
+
+  <!-- Silk Road: overland, China through Central Asia to the Mediterranean -->
+  <path d="M522,146 Q478,152 452,162 Q408,172 372,152" fill="none" stroke="#B08D3E" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="522" cy="146" r="3.2" fill="#B08D3E"/>
+  <circle cx="372" cy="152" r="3.2" fill="#B08D3E"/>
+  <text x="452" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#8B6F4E">Silk Road (overland)</text>
+
+  <!-- Indian Ocean monsoon route: maritime, East Africa to India to Southeast Asia -->
+  <path d="M372,248 Q394,214 416,204 Q442,214 466,224" fill="none" stroke="#5B7A99" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="372" cy="248" r="3.2" fill="#5B7A99"/>
+  <circle cx="416" cy="204" r="3.2" fill="#5B7A99"/>
+  <circle cx="466" cy="224" r="3.2" fill="#5B7A99"/>
+  <text x="418" y="266" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#3F5E78">Indian Ocean monsoon route</text>
+
+  <!-- Trans-Saharan route: West Africa gold-salt caravans to the Mediterranean coast -->
+  <path d="M306,222 Q318,202 334,186" fill="none" stroke="#8B6F4E" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="306" cy="222" r="3.2" fill="#8B6F4E"/>
+  <circle cx="334" cy="186" r="3.2" fill="#8B6F4E"/>
+  <text x="252" y="214" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#6B5636">Trans-Saharan</text>
+  <text x="252" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#6B5636">route (gold-salt)</text>
+  <path d="M275,220 L300,220" fill="none" stroke="#8B6F4E" stroke-width="1"/>
+
+  <!-- Modern shipping lane, solid, with chokepoints -->
+  <path d="M210,228 Q262,196 300,204 Q346,190 390,197 Q432,206 465,224 Q500,204 522,162" fill="none" stroke="#2C4A3E" stroke-width="2.25"/>
+
+  <!-- chokepoints -->
+  <g>
+    <circle cx="210" cy="228" r="5" fill="#C9412C" stroke="#FBF8F1" stroke-width="1"/>
+    <text x="210" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Panama Canal</text>
+
+    <circle cx="390" cy="197" r="5" fill="#C9412C" stroke="#FBF8F1" stroke-width="1"/>
+    <text x="390" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Suez Canal</text>
+
+    <circle cx="404" cy="212" r="5" fill="#C9412C" stroke="#FBF8F1" stroke-width="1"/>
+    <text x="404" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Strait of Hormuz</text>
+
+    <circle cx="465" cy="224" r="5" fill="#C9412C" stroke="#FBF8F1" stroke-width="1"/>
+    <text x="490" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Strait of</text>
+    <text x="490" y="251" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Malacca</text>
+  </g>
+
+  <line x1="40" y1="365" x2="600" y2="365" stroke="#E3DCC9" stroke-width="1"/>
+
+  <!-- legend -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">
+    <line x1="45" y1="388" x2="70" y2="388" stroke="#B08D3E" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="76" y="392">Silk Road (historic, overland)</text>
+
+    <line x1="45" y1="410" x2="70" y2="410" stroke="#5B7A99" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="76" y="414">Indian Ocean monsoon route (historic, maritime)</text>
+
+    <line x1="330" y1="388" x2="355" y2="388" stroke="#8B6F4E" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="361" y="392">Trans-Saharan route (historic)</text>
+
+    <line x1="330" y1="410" x2="355" y2="410" stroke="#2C4A3E" stroke-width="2.25"/>
+    <text x="361" y="414">Modern shipping lane</text>
+    <circle cx="530" cy="407" r="5" fill="#C9412C" stroke="#FBF8F1" stroke-width="1"/>
+    <text x="540" y="411">Chokepoint</text>
+  </g>
+
+  <text x="320" y="452" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Routes are simplified and representative, not exact historical or shipping paths.</text>
+</svg>

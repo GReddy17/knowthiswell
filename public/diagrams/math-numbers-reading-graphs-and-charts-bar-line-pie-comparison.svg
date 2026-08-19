@@ -1,0 +1,63 @@
+<svg viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chartsTitle">
+<title id="chartsTitle">Three side-by-side chart panels: a bar chart with rectangular bars of varying height compared against a shared vertical axis starting at zero, a line chart with points connected across a horizontal time axis showing a rising-then-falling trend, and a pie chart divided into labeled slices of varying angle that together sum to 100 percent.</title>
+<rect width="900" height="400" fill="#FBF8F1"/>
+<rect x="20" y="55" width="280" height="300" rx="12" fill="#EDE7D8" stroke="#E3DCC9" stroke-width="1.5"/>
+<text x="160.0" y="77" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#20362D">Bar chart — quarterly revenue</text>
+<rect x="320" y="55" width="280" height="300" rx="12" fill="#EDE7D8" stroke="#E3DCC9" stroke-width="1.5"/>
+<text x="460.0" y="77" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#20362D">Line chart — monthly electricity bill</text>
+<rect x="620" y="55" width="280" height="300" rx="12" fill="#EDE7D8" stroke="#E3DCC9" stroke-width="1.5"/>
+<text x="760.0" y="77" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#20362D">Pie chart — household budget</text>
+<line x1="66" y1="309" x2="282" y2="309" stroke="#1F1B16" stroke-width="1.5"/>
+<line x1="66" y1="309" x2="66" y2="97" stroke="#1F1B16" stroke-width="1.5"/>
+<text x="60" y="313" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">$0</text>
+<text x="60" y="101" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">$70k</text>
+<line x1="66" y1="97" x2="282" y2="97" stroke="#E3DCC9" stroke-width="1" stroke-dasharray="2 3"/>
+<rect x="78.2" y="187.9" width="29.7" height="121.1" fill="#2C4A3E"/>
+<text x="93.0" y="181.9" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" fill="#1F1B16">40k</text>
+<text x="93.0" y="323.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Q1</text>
+<rect x="132.2" y="151.5" width="29.7" height="157.5" fill="#2C4A3E"/>
+<text x="147.0" y="145.5" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" fill="#1F1B16">52k</text>
+<text x="147.0" y="323.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Q2</text>
+<rect x="186.2" y="163.6" width="29.7" height="145.4" fill="#2C4A3E"/>
+<text x="201.0" y="157.6" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" fill="#1F1B16">48k</text>
+<text x="201.0" y="323.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Q3</text>
+<rect x="240.2" y="112.1" width="29.7" height="196.9" fill="#C9412C"/>
+<text x="255.0" y="106.1" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" fill="#1F1B16">65k</text>
+<text x="255.0" y="323.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Q4</text>
+<text x="160.0" y="343" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Bar height = value; axis starts at $0</text>
+<line x1="366" y1="309" x2="582" y2="309" stroke="#1F1B16" stroke-width="1.5"/>
+<line x1="366" y1="309" x2="366" y2="97" stroke="#1F1B16" stroke-width="1.5"/>
+<text x="360" y="313" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">$60</text>
+<text x="360" y="101" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">$200</text>
+<path d="M 366.0,233.3 L 438.0,271.1 L 510.0,112.1 L 582.0,218.1" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+<circle cx="366.0" cy="233.3" r="3.5" fill="#2C4A3E"/>
+<text x="366.0" y="224.3" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" fill="#1F1B16">$110</text>
+<text x="366.0" y="323.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Jan</text>
+<circle cx="438.0" cy="271.1" r="3.5" fill="#2C4A3E"/>
+<text x="438.0" y="262.1" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" fill="#1F1B16">$85</text>
+<text x="438.0" y="323.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Apr</text>
+<circle cx="510.0" cy="112.1" r="3.5" fill="#C9412C"/>
+<text x="510.0" y="103.1" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" fill="#1F1B16">$190</text>
+<text x="510.0" y="323.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Aug</text>
+<circle cx="582.0" cy="218.1" r="3.5" fill="#2C4A3E"/>
+<text x="582.0" y="209.1" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" fill="#1F1B16">$120</text>
+<text x="582.0" y="323.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Dec</text>
+<text x="460.0" y="343" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Dip, then peak in Aug, then falls</text>
+<path d="M 715,205 L 715.0,140.0 A 65,65 0 0 1 753.2,257.6 Z" fill="#2C4A3E" stroke="#FBF8F1" stroke-width="2"/>
+<text x="753.3" y="192.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#FBF8F1">40%</text>
+<path d="M 715,205 L 753.2,257.6 A 65,65 0 0 1 662.4,243.2 Z" fill="#C9412C" stroke="#FBF8F1" stroke-width="2"/>
+<text x="708.7" y="244.8" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#FBF8F1">25%</text>
+<path d="M 715,205 L 662.4,243.2 A 65,65 0 0 1 662.4,166.8 Z" fill="#4A6FA5" stroke="#FBF8F1" stroke-width="2"/>
+<text x="674.7" y="205.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#FBF8F1">20%</text>
+<path d="M 715,205 L 662.4,166.8 A 65,65 0 0 1 715.0,140.0 Z" fill="#8A8368" stroke="#FBF8F1" stroke-width="2"/>
+<text x="696.7" y="169.1" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#FBF8F1">15%</text>
+<rect x="796" y="160" width="9" height="9" fill="#2C4A3E"/>
+<text x="809" y="169" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Rent</text>
+<rect x="796" y="180" width="9" height="9" fill="#C9412C"/>
+<text x="809" y="189" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Food</text>
+<rect x="796" y="200" width="9" height="9" fill="#4A6FA5"/>
+<text x="809" y="209" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Savings</text>
+<rect x="796" y="220" width="9" height="9" fill="#8A8368"/>
+<text x="809" y="229" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Other</text>
+<text x="760.0" y="343" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Slice angle = share of 100%</text>
+</svg>

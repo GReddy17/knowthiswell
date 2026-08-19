@@ -1,0 +1,48 @@
+<svg viewBox="0 0 1355 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of World War II from the September 1939 German invasion of Poland, through the June 1941 invasion of the Soviet Union, the December 1941 attack on Pearl Harbor and United States entry, the June 1944 D-Day landings, the May 1945 V-E Day and Germany's surrender, the August 1945 atomic bombings of Hiroshima and Nagasaki, and the September 1945 V-J Day marking Japan's formal surrender</title>
+  <rect width="1355" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="677" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Six years of global war, ending in two surrenders four months apart</text>
+
+    <rect x="40" y="115" width="190" height="40" fill="#EEF3EE"/>
+    <text x="135" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Germany invades Poland</text>
+    <text x="135" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Sep 1939</text>
+
+    <rect x="230" y="115" width="195" height="40" fill="#FBEDEA"/>
+    <text x="327" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Germany invades the USSR</text>
+    <text x="327" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Operation Barbarossa</text>
+    <text x="327" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Jun 1941</text>
+
+    <rect x="425" y="115" width="210" height="40" fill="#EDE7D8"/>
+    <text x="530" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Pearl Harbor attacked</text>
+    <text x="530" y="138" text-anchor="middle" font-size="9" fill="#4A443C">United States enters the war</text>
+    <text x="530" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Dec 1941</text>
+
+    <rect x="635" y="115" width="175" height="40" fill="#EEF3EE"/>
+    <text x="722" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">D-Day landings</text>
+    <text x="722" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Allied invasion of Normandy</text>
+    <text x="722" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Jun 1944</text>
+
+    <rect x="810" y="115" width="150" height="40" fill="#FBEDEA"/>
+    <text x="885" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">V-E Day</text>
+    <text x="885" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Germany surrenders</text>
+    <text x="885" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">8 May 1945</text>
+
+    <rect x="960" y="115" width="165" height="40" fill="#EDE7D8"/>
+    <text x="1042" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Atomic bombings</text>
+    <text x="1042" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Hiroshima and Nagasaki</text>
+    <text x="1042" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Aug 1945</text>
+
+    <rect x="1125" y="115" width="190" height="40" fill="#EEF3EE"/>
+    <text x="1220" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">V-J Day</text>
+    <text x="1220" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Japan formally surrenders</text>
+    <text x="1220" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2 Sep 1945</text>
+  </g>
+  <rect x="40" y="115" width="1275" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="230" y1="115" x2="230" y2="155" stroke="#1F1B16"/>
+  <line x1="425" y1="115" x2="425" y2="155" stroke="#1F1B16"/>
+  <line x1="635" y1="115" x2="635" y2="155" stroke="#1F1B16"/>
+  <line x1="810" y1="115" x2="810" y2="155" stroke="#1F1B16"/>
+  <line x1="960" y1="115" x2="960" y2="155" stroke="#1F1B16"/>
+  <line x1="1125" y1="115" x2="1125" y2="155" stroke="#1F1B16"/>
+</svg>

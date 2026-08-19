@@ -1,0 +1,65 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="atollFormTitle">
+  <title id="atollFormTitle">Three side-by-side cross-section diagrams showing the stages of atoll formation: first a volcanic island with a fringing reef directly attached to its shore, then a partly-subsided island surrounded by a lagoon and a barrier reef, and finally the island fully submerged, leaving a ring-shaped atoll of coral surrounding an open central lagoon</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <text x="320" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15.5" font-weight="600" fill="#1F1B16">From fringing reef to atoll: reef formation over time</text>
+
+  <!-- Panel 1: fringing reef -->
+  <g transform="translate(10,50)">
+    <rect x="0" y="150" width="190" height="200" fill="#5B7A99" opacity="0.18"/>
+    <rect x="0" y="350" width="190" height="20" fill="#E3DCC9"/>
+    <line x1="0" y1="150" x2="190" y2="150" stroke="#3D6A83" stroke-width="1" stroke-dasharray="3 3"/>
+    <path d="M50,350 L140,350 L95,90 Z" fill="#8B6F4E"/>
+    <path d="M87,110 L103,110 L95,90 Z" fill="#2C4A3E"/>
+    <path d="M65,175 Q95,150 125,175" stroke="#C97C3D" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <text x="95" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">volcanic island</text>
+    <text x="95" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#8A4A1E">fringing reef</text>
+    <text x="95" y="330" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">reef attached directly to shore</text>
+  </g>
+  <text x="115" y="393" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">1. Fringing reef</text>
+
+  <!-- arrow -->
+  <path d="M 205,150 L 220,150" stroke="#8B6F4E" stroke-width="2" marker-end="url(#atollArrow)"/>
+  <text x="212" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">subsides</text>
+
+  <!-- Panel 2: barrier reef + lagoon -->
+  <g transform="translate(225,50)">
+    <rect x="0" y="150" width="190" height="200" fill="#5B7A99" opacity="0.18"/>
+    <rect x="0" y="350" width="190" height="20" fill="#E3DCC9"/>
+    <line x1="0" y1="150" x2="190" y2="150" stroke="#3D6A83" stroke-width="1" stroke-dasharray="3 3"/>
+    <path d="M52,350 L138,350 L95,170 Z" fill="#8B6F4E"/>
+    <path d="M87,190 L103,190 L95,170 Z" fill="#2C4A3E"/>
+    <path d="M8,165 L23,140 L38,165 Z" fill="#C97C3D"/>
+    <path d="M152,165 L167,140 L182,165 Z" fill="#C97C3D"/>
+    <text x="95" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#3D6A83">lagoon</text>
+    <text x="95" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#3D6A83">&#8595;</text>
+    <text x="23" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#8A4A1E">barrier reef</text>
+    <text x="167" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#8A4A1E">barrier reef</text>
+  </g>
+  <text x="320" y="393" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">2. Barrier reef and lagoon</text>
+
+  <!-- arrow -->
+  <path d="M 420,150 L 435,150" stroke="#8B6F4E" stroke-width="2" marker-end="url(#atollArrow)"/>
+  <text x="427" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">submerges</text>
+
+  <!-- Panel 3: atoll -->
+  <g transform="translate(440,50)">
+    <rect x="0" y="150" width="190" height="200" fill="#5B7A99" opacity="0.18"/>
+    <rect x="0" y="350" width="190" height="20" fill="#E3DCC9"/>
+    <line x1="0" y1="150" x2="190" y2="150" stroke="#3D6A83" stroke-width="1" stroke-dasharray="3 3"/>
+    <path d="M52,350 L138,350 L95,230 Z" fill="#8B6F4E" opacity="0.18" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <path d="M8,165 L23,140 L38,165 Z" fill="#C97C3D"/>
+    <path d="M152,165 L167,140 L182,165 Z" fill="#C97C3D"/>
+    <text x="95" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#3D6A83">open central lagoon</text>
+    <text x="95" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">island fully submerged</text>
+    <text x="23" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#8A4A1E">coral ring</text>
+    <text x="167" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#8A4A1E">coral ring</text>
+  </g>
+  <text x="535" y="393" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">3. Atoll</text>
+
+  <defs>
+    <marker id="atollArrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+</svg>

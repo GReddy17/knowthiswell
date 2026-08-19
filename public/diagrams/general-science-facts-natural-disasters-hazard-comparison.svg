@@ -1,0 +1,75 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hazardCompareTitle">
+  <title id="hazardCompareTitle">Comparison chart with four columns — earthquake, hurricane, volcanic eruption, and tsunami — each showing its primary trigger condition and its primary warning method</title>
+
+  <rect x="0" y="0" width="640" height="400" fill="#FBF8F1"/>
+
+  <!-- Earthquake -->
+  <g transform="translate(5,0)" font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="0" y="20" width="145" height="38" rx="4" fill="#2C4A3E"/>
+    <text x="72.5" y="44" text-anchor="middle" font-size="13" font-weight="700" fill="#FBF8F1">Earthquake</text>
+    <path d="M 30 100 L 45 85 L 60 115 L 75 85 L 90 115 L 105 100" fill="none" stroke="#C9412C" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="0" y1="140" x2="145" y2="140" stroke="#E3DCC9"/>
+    <text x="0" y="156" font-size="10" letter-spacing="0.5" fill="#8B6F4E" font-weight="600">TRIGGER</text>
+    <text x="0" y="173" font-size="11.5" fill="#1F1B16">Built-up fault stress</text>
+    <text x="0" y="188" font-size="11.5" fill="#1F1B16">released suddenly</text>
+    <line x1="0" y1="250" x2="145" y2="250" stroke="#E3DCC9"/>
+    <text x="0" y="266" font-size="10" letter-spacing="0.5" fill="#8B6F4E" font-weight="600">WARNING METHOD</text>
+    <text x="0" y="283" font-size="11.5" fill="#4A443C">Seismic P-wave</text>
+    <text x="0" y="298" font-size="11.5" fill="#4A443C">detection (ShakeAlert)</text>
+  </g>
+
+  <!-- Hurricane -->
+  <g transform="translate(165,0)" font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="0" y="20" width="145" height="38" rx="4" fill="#5B7C99"/>
+    <text x="72.5" y="44" text-anchor="middle" font-size="13" font-weight="700" fill="#FBF8F1">Hurricane</text>
+    <path d="M 72.5 100 C 90 95, 95 80, 80 75 C 65 70, 55 82, 62 92 C 68 100, 82 100, 85 90" fill="none" stroke="#5B7C99" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="72.5" cy="97" r="2.5" fill="#5B7C99"/>
+    <line x1="0" y1="140" x2="145" y2="140" stroke="#E3DCC9"/>
+    <text x="0" y="156" font-size="10" letter-spacing="0.5" fill="#8B6F4E" font-weight="600">TRIGGER</text>
+    <text x="0" y="173" font-size="11.5" fill="#1F1B16">Warm ocean water above</text>
+    <text x="0" y="188" font-size="11.5" fill="#1F1B16">26.5°C plus Coriolis</text>
+    <text x="0" y="203" font-size="11.5" fill="#1F1B16">rotation</text>
+    <line x1="0" y1="250" x2="145" y2="250" stroke="#E3DCC9"/>
+    <text x="0" y="266" font-size="10" letter-spacing="0.5" fill="#8B6F4E" font-weight="600">WARNING METHOD</text>
+    <text x="0" y="283" font-size="11.5" fill="#4A443C">Satellite &amp; aircraft ocean</text>
+    <text x="0" y="298" font-size="11.5" fill="#4A443C">and atmosphere monitoring</text>
+  </g>
+
+  <!-- Volcanic eruption -->
+  <g transform="translate(325,0)" font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="0" y="20" width="145" height="38" rx="4" fill="#C97C3D"/>
+    <text x="72.5" y="38" text-anchor="middle" font-size="13" font-weight="700" fill="#FBF8F1">Volcanic</text>
+    <text x="72.5" y="52" text-anchor="middle" font-size="13" font-weight="700" fill="#FBF8F1">eruption</text>
+    <path d="M 45 120 L 72.5 72 L 100 120 Z" fill="#C97C3D" opacity="0.85"/>
+    <path d="M 68 80 L 72.5 66 L 78 80 Z" fill="#C9412C"/>
+    <circle cx="65" cy="70" r="2" fill="#8B6F4E"/>
+    <circle cx="82" cy="68" r="2.2" fill="#8B6F4E"/>
+    <circle cx="75" cy="60" r="1.8" fill="#8B6F4E"/>
+    <line x1="0" y1="140" x2="145" y2="140" stroke="#E3DCC9"/>
+    <text x="0" y="156" font-size="10" letter-spacing="0.5" fill="#8B6F4E" font-weight="600">TRIGGER</text>
+    <text x="0" y="173" font-size="11.5" fill="#1F1B16">Pressurized magma</text>
+    <text x="0" y="188" font-size="11.5" fill="#1F1B16">finding a path to the</text>
+    <text x="0" y="203" font-size="11.5" fill="#1F1B16">surface</text>
+    <line x1="0" y1="250" x2="145" y2="250" stroke="#E3DCC9"/>
+    <text x="0" y="266" font-size="10" letter-spacing="0.5" fill="#8B6F4E" font-weight="600">WARNING METHOD</text>
+    <text x="0" y="283" font-size="11.5" fill="#4A443C">Ground deformation &amp;</text>
+    <text x="0" y="298" font-size="11.5" fill="#4A443C">gas emission monitoring</text>
+  </g>
+
+  <!-- Tsunami -->
+  <g transform="translate(485,0)" font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="0" y="20" width="145" height="38" rx="4" fill="#C9412C"/>
+    <text x="72.5" y="44" text-anchor="middle" font-size="13" font-weight="700" fill="#FBF8F1">Tsunami</text>
+    <path d="M 25 112 Q 40 92 55 112 T 85 112 T 115 112" fill="none" stroke="#5B7C99" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 30 122 Q 45 108 60 122 T 105 122" fill="none" stroke="#5B7C99" stroke-width="1.6" opacity="0.55" stroke-linecap="round"/>
+    <line x1="0" y1="140" x2="145" y2="140" stroke="#E3DCC9"/>
+    <text x="0" y="156" font-size="10" letter-spacing="0.5" fill="#8B6F4E" font-weight="600">TRIGGER</text>
+    <text x="0" y="173" font-size="11.5" fill="#1F1B16">Sudden, large-scale</text>
+    <text x="0" y="188" font-size="11.5" fill="#1F1B16">displacement of ocean</text>
+    <text x="0" y="203" font-size="11.5" fill="#1F1B16">water</text>
+    <line x1="0" y1="250" x2="145" y2="250" stroke="#E3DCC9"/>
+    <text x="0" y="266" font-size="10" letter-spacing="0.5" fill="#8B6F4E" font-weight="600">WARNING METHOD</text>
+    <text x="0" y="283" font-size="11.5" fill="#4A443C">Seismic detection +</text>
+    <text x="0" y="298" font-size="11.5" fill="#4A443C">ocean buoy networks</text>
+  </g>
+</svg>

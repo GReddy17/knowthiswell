@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the Great Depression from the October 1929 stock market crash through the 1930-1933 wave of bank failures, unemployment peaking near 25% in 1933, the start of the New Deal in 1933, the Dust Bowl droughts of the mid-to-late 1930s, and the end of mass unemployment around 1939-1941 as the United States mobilized industrially for World War II</title>
+  <rect width="1000" height="220" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="500" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">From a stock market crash to a decade of hardship and recovery</text>
+
+    <rect x="40" y="110" width="140" height="40" fill="#EEF3EE"/>
+    <text x="110" y="95" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Stock market crash</text>
+    <text x="110" y="170" text-anchor="middle" font-size="10" fill="#8B6F4E">Oct 1929</text>
+
+    <rect x="180" y="110" width="160" height="40" fill="#FBEDEA"/>
+    <text x="260" y="95" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Wave of bank failures</text>
+    <text x="260" y="170" text-anchor="middle" font-size="10" fill="#8B6F4E">1930–1933</text>
+
+    <rect x="340" y="110" width="175" height="40" fill="#EDE7D8"/>
+    <text x="427" y="95" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Unemployment peaks ~25%</text>
+    <text x="427" y="170" text-anchor="middle" font-size="10" fill="#8B6F4E">1933</text>
+
+    <rect x="515" y="110" width="130" height="40" fill="#EEF3EE"/>
+    <text x="580" y="95" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">New Deal begins</text>
+    <text x="580" y="170" text-anchor="middle" font-size="10" fill="#8B6F4E">1933</text>
+
+    <rect x="645" y="110" width="140" height="40" fill="#FBEDEA"/>
+    <text x="715" y="95" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Dust Bowl droughts</text>
+    <text x="715" y="170" text-anchor="middle" font-size="10" fill="#8B6F4E">mid–late 1930s</text>
+
+    <rect x="785" y="110" width="170" height="40" fill="#EDE7D8"/>
+    <text x="870" y="95" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Mass unemployment ends</text>
+    <text x="870" y="133" text-anchor="middle" font-size="9" fill="#4A443C">US mobilizes for WWII</text>
+    <text x="870" y="170" text-anchor="middle" font-size="10" fill="#8B6F4E">1939–1941</text>
+  </g>
+  <rect x="40" y="110" width="915" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="180" y1="110" x2="180" y2="150" stroke="#1F1B16"/>
+  <line x1="340" y1="110" x2="340" y2="150" stroke="#1F1B16"/>
+  <line x1="515" y1="110" x2="515" y2="150" stroke="#1F1B16"/>
+  <line x1="645" y1="110" x2="645" y2="150" stroke="#1F1B16"/>
+  <line x1="785" y1="110" x2="785" y2="150" stroke="#1F1B16"/>
+</svg>

@@ -1,0 +1,65 @@
+<svg viewBox="0 0 1110 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline and map of medieval India's major regional powers: the Chola dynasty's rise in south India from around 850 CE and peak under Rajaraja I and Rajendra I in the early 11th century, the founding of the Delhi Sultanate in north India in 1206 running through five successive dynasties to 1526, the founding of the Vijayanagara Empire in the south in 1336 as a counterweight to sultanate expansion, its peak under Krishnadevaraya in the early 16th century, its defeat at the Battle of Talikota in 1565, and the Delhi Sultanate's end in 1526 with the founding of the separate Mughal Empire</title>
+  <rect width="1110" height="420" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="555" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Medieval India's major regional powers</text>
+    <text x="555" y="41" text-anchor="middle" font-size="10.5" fill="#8B6F4E">c. 850-1565 CE</text>
+
+    <rect x="40" y="140" width="150" height="40" fill="#EEF3EE"/>
+    <text x="115" y="127" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Chola dynasty rises</text>
+    <text x="115" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">kingdom in south India</text>
+    <text x="115" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">c. 850 CE</text>
+
+    <rect x="190" y="140" width="150" height="40" fill="#FBEDEA"/>
+    <text x="265" y="127" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Chola dynasty peaks</text>
+    <text x="265" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">Rajaraja I &amp; Rajendra I</text>
+    <text x="265" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">early 11th c.</text>
+
+    <rect x="340" y="140" width="190" height="40" fill="#EDE7D8"/>
+    <text x="435" y="127" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Delhi Sultanate founded</text>
+    <text x="435" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">five dynasties, north India</text>
+    <text x="435" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">1206</text>
+
+    <rect x="530" y="140" width="170" height="40" fill="#EEF3EE"/>
+    <text x="615" y="127" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Vijayanagara founded</text>
+    <text x="615" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">southern counterweight</text>
+    <text x="615" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">1336</text>
+
+    <rect x="700" y="140" width="210" height="40" fill="#FBEDEA"/>
+    <text x="805" y="127" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Sultanate ends; Mughals begin</text>
+    <text x="805" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">Babur defeats Lodi at Panipat</text>
+    <text x="805" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">1526</text>
+
+    <rect x="910" y="140" width="160" height="40" fill="#EDE7D8"/>
+    <text x="990" y="127" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Battle of Talikota</text>
+    <text x="990" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">Vijayanagara defeated</text>
+    <text x="990" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">1565</text>
+
+    <rect x="40" y="140" width="1030" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <line x1="190" y1="140" x2="190" y2="180" stroke="#1F1B16"/>
+    <line x1="340" y1="140" x2="340" y2="180" stroke="#1F1B16"/>
+    <line x1="530" y1="140" x2="530" y2="180" stroke="#1F1B16"/>
+    <line x1="700" y1="140" x2="700" y2="180" stroke="#1F1B16"/>
+    <line x1="910" y1="140" x2="910" y2="180" stroke="#1F1B16"/>
+
+    <!-- schematic map: north vs south India -->
+    <text x="555" y="230" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">South and north India: two separate political spheres</text>
+    <path d="M470,250 Q560,242 610,268 Q634,296 622,330 Q600,364 566,378 Q530,388 500,378 Q470,364 458,332 Q448,296 456,270 Q460,258 470,250 Z"
+          fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+
+    <circle cx="545" cy="278" r="5" fill="#C9412C"/>
+    <text x="545" y="266" text-anchor="middle" font-size="9.5" font-weight="700" fill="#9B3A2A">Delhi</text>
+    <text x="545" y="292" text-anchor="middle" font-size="8.5" fill="#4A443C">Sultanate capital, from 1206</text>
+
+    <circle cx="530" cy="335" r="5" fill="#5B7A99"/>
+    <text x="530" y="323" text-anchor="middle" font-size="9.5" font-weight="700" fill="#3F5E78">Hampi</text>
+    <text x="640" y="335" text-anchor="middle" font-size="8.5" fill="#4A443C">Vijayanagara capital, founded 1336</text>
+
+    <circle cx="540" cy="362" r="5" fill="#B08D3E"/>
+    <text x="605" y="356" text-anchor="middle" font-size="9.5" font-weight="700" fill="#8B6F4E">Thanjavur</text>
+    <text x="605" y="370" text-anchor="middle" font-size="8.5" fill="#4A443C">Chola heartland, from c. 850</text>
+
+    <text x="555" y="398" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1F1B16">The Chola south and the Delhi Sultanate north had largely separate histories</text>
+    <text x="555" y="413" text-anchor="middle" font-size="9.5" fill="#8B6F4E">Shape and positions are schematic, not a precise map</text>
+  </g>
+</svg>

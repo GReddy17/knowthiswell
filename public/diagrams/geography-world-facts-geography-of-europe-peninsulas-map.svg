@@ -1,0 +1,56 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="europePeninsulasTitle">
+  <title id="europePeninsulasTitle">A simplified map of Europe highlighting the Iberian, Italian, Balkan, and Scandinavian peninsulas, the Alps and Pyrenees mountain ranges, the North European Plain stretching from France to Russia, and a dashed line marking the conventional Europe-Asia boundary along the Ural Mountains, Ural River, Caspian Sea, and Caucasus</title>
+  <rect width="640" height="480" fill="#FBF8F1"/>
+
+  <text x="320" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15.5" font-weight="600" fill="#1F1B16">Europe's peninsulas and the Europe-Asia boundary</text>
+
+  <!-- Europe base outline -->
+  <path d="M195,235 L165,190 L185,150 L225,125 L255,105 L280,60 L305,35 L335,65 L318,105 L350,120 L385,140 L420,165 L415,215 L390,255 L355,240 L330,265 L305,300 L280,335 L255,315 L235,285 L215,265 Z"
+        fill="#EDE7D8" stroke="#20362D" stroke-width="1.5"/>
+
+  <!-- North European Plain -->
+  <ellipse cx="290" cy="160" rx="90" ry="24" fill="#8FAE7A" opacity="0.3"/>
+  <text x="290" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#3F6B4F">North European Plain</text>
+
+  <!-- Mountain ranges -->
+  <g fill="#4A443C">
+    <path d="M220,185 l6,-12 l6,12 z"/>
+    <path d="M228,185 l6,-14 l6,14 z"/>
+    <path d="M236,185 l6,-10 l6,10 z"/>
+  </g>
+  <text x="196" y="205" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#4A443C">Pyrenees</text>
+
+  <g fill="#4A443C">
+    <path d="M330,225 l6,-13 l6,13 z"/>
+    <path d="M338,225 l6,-16 l6,16 z"/>
+    <path d="M346,225 l6,-11 l6,11 z"/>
+  </g>
+  <text x="315" y="245" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#4A443C">Alps</text>
+
+  <!-- Peninsula highlights -->
+  <ellipse cx="200" cy="205" rx="42" ry="34" fill="#2C4A3E" opacity="0.22" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="150" y="248" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#20362D">Iberian Peninsula</text>
+
+  <path d="M355,240 C 348,265 345,290 355,315 C 360,300 370,295 375,280 C 378,265 370,248 355,240 Z" fill="#B24A38" opacity="0.28" stroke="#B24A38" stroke-width="1"/>
+  <text x="355" y="332" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#8A3626">Italian Peninsula</text>
+
+  <ellipse cx="300" cy="290" rx="34" ry="32" fill="#5B7A99" opacity="0.28" stroke="#5B7A99" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="300" y="336" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#3F5E78">Balkan Peninsula</text>
+
+  <path d="M305,35 C 290,55 285,80 300,110 C 320,95 330,70 335,65 C 325,50 315,40 305,35 Z" fill="#8B6F4E" opacity="0.32" stroke="#8B6F4E" stroke-width="1"/>
+  <text x="330" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#6B5636">Scandinavian Peninsula</text>
+
+  <!-- Europe-Asia boundary -->
+  <path d="M 420,165 L 425,215 L 400,260 L 375,290" fill="none" stroke="#1F1B16" stroke-width="2" stroke-dasharray="6 3"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">
+    <text x="430" y="185">Ural Mts.</text>
+    <text x="430" y="196">/ Ural River</text>
+    <text x="380" y="270">Caspian Sea</text>
+    <text x="330" y="300">Caucasus</text>
+  </g>
+  <text x="500" y="215" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Conventional</text>
+  <text x="500" y="228" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Europe-Asia boundary</text>
+  <line x1="490" y1="210" x2="420" y2="180" stroke="#8B7E5E" stroke-width="1"/>
+
+  <text x="320" y="460" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Coastline and peninsula shapes are simplified; the boundary line reflects an 18th-century cartographic convention, not a physical divide.</text>
+</svg>

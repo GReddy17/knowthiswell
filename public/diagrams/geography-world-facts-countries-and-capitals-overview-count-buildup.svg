@@ -1,0 +1,34 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="countryCountTitle">
+  <title id="countryCountTitle">Stacked diagram showing 193 UN member states as the base block, with 2 UN observer states (the Holy See and the State of Palestine) added on top to reach a total of 195, alongside a side note listing territories, dependencies, and partially recognized states as excluded from this count</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+  <text x="320" y="28" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="16" font-weight="600" fill="#1F1B16">How the count of 195 countries is built up</text>
+
+  <!-- stack -->
+  <g>
+    <!-- base block: 193 UN member states -->
+    <rect x="120" y="200" width="220" height="120" fill="#2C4A3E"/>
+    <text x="230" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF8F1">193</text>
+    <text x="230" y="274" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#EEF3EE">UN member states</text>
+
+    <!-- top block: 2 UN observer states -->
+    <rect x="120" y="164" width="220" height="36" fill="#8B6F4E"/>
+    <text x="230" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">+ 2 UN observer states</text>
+
+    <!-- bracket + total -->
+    <path d="M 350,164 L 362,164 L 362,320 L 350,320" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <text x="378" y="250" font-family="ui-serif, Georgia, serif" font-size="30" font-weight="700" fill="#1F1B16">= 195</text>
+    <text x="378" y="270" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">countries commonly</text>
+    <text x="378" y="284" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">cited today</text>
+
+    <!-- observer state labels -->
+    <text x="120" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#6B5636">Holy See &amp; State of Palestine</text>
+    <line x1="120" y1="154" x2="200" y2="164" stroke="#8B6F4E" stroke-width="1"/>
+  </g>
+
+  <line x1="40" y1="345" x2="600" y2="345" stroke="#E3DCC9" stroke-width="1"/>
+
+  <!-- side note: excluded -->
+  <rect x="90" y="358" width="460" height="46" rx="5" fill="#EDE7D8" stroke="#D8CFBB"/>
+  <text x="320" y="376" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Not counted here: territories, dependencies &amp; partially recognized states</text>
+  <text x="320" y="392" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">e.g. Puerto Rico, Greenland, Taiwan, Kosovo — excluded from this 195 tally</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="africaClimateTitle">
+  <title id="africaClimateTitle">A simplified map of Africa showing horizontal climate bands mirrored above and below the equator: the Sahara Desert in the north and Kalahari Desert in the south, the Sahel and a southern semi-arid strip, savanna grassland belts, and equatorial rainforest straddling the equator itself, with the Great Rift Valley marked as a line running from the Red Sea down through East Africa</title>
+  <rect width="640" height="480" fill="#FBF8F1"/>
+
+  <text x="320" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="16" font-weight="600" fill="#1F1B16">Africa's climate bands and the Great Rift Valley</text>
+
+  <defs>
+    <clipPath id="africaShape">
+      <path d="M300,52 L250,62 L220,100 L212,140 C207,158 260,175 268,196 L250,232 L245,300 L262,368 L302,432 L342,398 L360,338 L380,288 L370,238 L400,198 L432,158 L410,138 L432,108 L400,80 L370,52 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- africa base outline -->
+  <path d="M300,52 L250,62 L220,100 L212,140 C207,158 260,175 268,196 L250,232 L245,300 L262,368 L302,432 L342,398 L360,338 L380,288 L370,238 L400,198 L432,158 L410,138 L432,108 L400,80 L370,52 Z"
+        fill="#EDE7D8" stroke="#20362D" stroke-width="1.5"/>
+
+  <!-- climate bands, clipped to africa outline -->
+  <g clip-path="url(#africaShape)">
+    <rect x="190" y="40" width="260" height="90" fill="#C9A66B" opacity="0.55"/>
+    <rect x="190" y="130" width="260" height="35" fill="#B8935A" opacity="0.45"/>
+    <rect x="190" y="165" width="260" height="45" fill="#8FAE7A" opacity="0.5"/>
+    <rect x="190" y="210" width="260" height="55" fill="#2C4A3E" opacity="0.55"/>
+    <rect x="190" y="265" width="260" height="55" fill="#8FAE7A" opacity="0.5"/>
+    <rect x="190" y="320" width="260" height="35" fill="#B8935A" opacity="0.45"/>
+    <rect x="190" y="355" width="260" height="90" fill="#C9A66B" opacity="0.55"/>
+  </g>
+  <path d="M300,52 L250,62 L220,100 L212,140 C207,158 260,175 268,196 L250,232 L245,300 L262,368 L302,432 L342,398 L360,338 L380,288 L370,238 L400,198 L432,158 L410,138 L432,108 L400,80 L370,52 Z"
+        fill="none" stroke="#20362D" stroke-width="1.5"/>
+
+  <!-- equator -->
+  <line x1="180" y1="237" x2="460" y2="237" stroke="#1F1B16" stroke-width="1" stroke-dasharray="2 3"/>
+  <text x="465" y="241" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">equator</text>
+
+  <!-- great rift valley -->
+  <path d="M 420,110 C 405,150 415,185 395,220 C 380,250 372,285 355,320" fill="none" stroke="#8B4A3A" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="425" y="105" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#8B4A3A">Red Sea</text>
+  <text x="358" y="335" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#8B4A3A">Great Rift Valley</text>
+
+  <!-- band labels -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#6B5636">
+    <text x="30" y="90">Sahara Desert</text>
+    <text x="30" y="150">Sahel</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#3F6B4F">
+    <text x="30" y="190">Savanna</text>
+    <text x="30" y="290">Savanna</text>
+  </g>
+  <text x="30" y="242" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#EEF3EE" stroke="#20362D" stroke-width="0.3">Rainforest</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#6B5636">
+    <text x="30" y="342">Semi-arid</text>
+    <text x="30" y="400">Kalahari Desert</text>
+  </g>
+  <g stroke="#8B7E5E" stroke-width="1">
+    <line x1="118" y1="86" x2="215" y2="80"/>
+    <line x1="70" y1="146" x2="215" y2="145"/>
+    <line x1="90" y1="186" x2="215" y2="185"/>
+    <line x1="105" y1="238" x2="210" y2="235"/>
+    <line x1="90" y1="286" x2="215" y2="288"/>
+    <line x1="102" y1="338" x2="230" y2="335"/>
+    <line x1="150" y1="396" x2="255" y2="380"/>
+  </g>
+
+  <text x="320" y="464" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Band boundaries are simplified for clarity, not precise climate-zone borders.</text>
+</svg>

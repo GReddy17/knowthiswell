@@ -1,0 +1,44 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stackedDiscountTitle">
+  <title id="stackedDiscountTitle">Flow diagram: a $200 item multiplied by 0.80 (20% off) becomes $160, then multiplied by 0.90 (10% off) becomes $144; a second muted row shows the naive incorrect path of $200 multiplied by 0.70 (a flat 30% off) landing at $140, a lower, more-discounted price than the correct $144</title>
+  <rect width="640" height="320" fill="#FBF8F1"/>
+
+  <text x="40" y="38" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#20362D">Correct: apply discounts one after another</text>
+
+  <!-- correct path -->
+  <rect x="40" y="55" width="120" height="60" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="100" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#20362D">$200</text>
+
+  <line x1="160" y1="85" x2="242" y2="85" stroke="#1F1B16" stroke-width="2"/>
+  <path d="M 242,85 L 232,80 L 232,90 Z" fill="#1F1B16"/>
+  <text x="201" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">× 0.80</text>
+  <text x="201" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">(20% off)</text>
+
+  <rect x="245" y="55" width="120" height="60" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="305" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#20362D">$160</text>
+
+  <line x1="365" y1="85" x2="447" y2="85" stroke="#1F1B16" stroke-width="2"/>
+  <path d="M 447,85 L 437,80 L 437,90 Z" fill="#1F1B16"/>
+  <text x="406" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">× 0.90</text>
+  <text x="406" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">(10% off)</text>
+
+  <rect x="450" y="55" width="130" height="60" rx="10" fill="#2C4A3E" stroke="#20362D" stroke-width="2"/>
+  <text x="515" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="19" font-weight="700" fill="#FBF8F1">$144</text>
+
+  <line x1="40" y1="140" x2="600" y2="140" stroke="#E3DCC9" stroke-width="1"/>
+
+  <text x="40" y="172" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#8B6F4E">Naive (incorrect): treating stacked discounts as one flat sum</text>
+
+  <!-- naive path -->
+  <rect x="40" y="188" width="120" height="55" rx="10" fill="#FBF8F1" stroke="#E3DCC9" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="100" y="221" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="600" fill="#4A443C">$200</text>
+
+  <line x1="160" y1="215" x2="447" y2="215" stroke="#8B6F4E" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M 447,215 L 437,210 L 437,220 Z" fill="#8B6F4E"/>
+  <text x="303" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#8B6F4E">× 0.70 (flat "30% off" — 20% + 10% added together)</text>
+
+  <rect x="450" y="188" width="130" height="55" rx="10" fill="#FBF8F1" stroke="#C9412C" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="515" y="221" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#C9412C">$140</text>
+
+  <text x="320" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">The correctly stacked discount ends at a higher, less-discounted $144 —</text>
+  <text x="320" y="296" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">the naive flat 30% off overstates the real savings, landing at $140.</text>
+</svg>

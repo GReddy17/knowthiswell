@@ -1,0 +1,61 @@
+<svg viewBox="0 0 760 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Map showing the overland Silk Road route network starting at Chang'an (modern Xi'an) in China, crossing Central Asia through cities like Samarkand and Bukhara, continuing through Persia into the Levant and Anatolia toward the Mediterranean, alongside a separate Maritime Silk Road sea route connecting Chinese ports through Southeast Asia, India, the Arabian Peninsula, and East Africa, with a timeline noting the route's opening around 138 BCE, its peak activity during the Mongol Empire's Pax Mongolica in the 13th century, and its decline by the 15th-16th century as sea trade routes around Africa expanded</title>
+  <rect width="760" height="500" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="380" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">The Silk Road network</text>
+    <text x="380" y="44" text-anchor="middle" font-size="10.5" fill="#8B6F4E">schematic map of overland and maritime routes, c. 2nd century BCE&#8211;15th century CE</text>
+
+    <!-- schematic landmasses -->
+    <g fill="#EDE7D8" stroke="#D8CFBB" stroke-width="1.2">
+      <path d="M60,230 Q110,200 170,214 Q210,230 220,270 Q214,320 170,340 Q110,346 74,312 Q52,270 60,230 Z"/>
+      <path d="M200,150 Q280,120 360,140 Q430,160 470,210 Q490,260 460,300 Q400,330 320,320 Q250,300 220,250 Q200,200 200,150 Z"/>
+      <path d="M470,190 Q540,170 600,200 Q640,230 630,280 Q600,320 540,320 Q490,300 470,260 Q460,220 470,190 Z"/>
+      <path d="M330,300 Q380,290 410,320 Q420,350 400,380 Q370,395 340,380 Q320,350 320,320 Q322,308 330,300 Z"/>
+      <path d="M60,340 Q100,335 120,365 Q125,395 100,415 Q70,420 55,395 Q50,365 60,340 Z"/>
+    </g>
+    <text x="150" y="280" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">East Africa</text>
+    <text x="330" y="200" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">Persia &amp; Levant</text>
+    <text x="545" y="255" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">Central Asia</text>
+    <text x="365" y="345" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">India</text>
+    <text x="86" y="380" text-anchor="middle" font-size="9.5" font-weight="600" fill="#4A443C">Arabian Pen.</text>
+    <text x="600" y="150" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">China</text>
+
+    <!-- Chang'an origin -->
+    <circle cx="612" cy="178" r="5" fill="#2C4A3E"/>
+    <text x="600" y="166" text-anchor="end" font-size="9.5" font-weight="700" fill="#20362D">Chang'an</text>
+
+    <!-- Overland route: Chang'an -> Samarkand/Bukhara -> Persia -> Levant/Anatolia -->
+    <path d="M612,178 Q560,190 540,210 Q510,230 480,220 Q440,206 400,210" fill="none" stroke="#B08D3E" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <circle cx="480" cy="220" r="4" fill="#B08D3E"/>
+    <text x="480" y="238" text-anchor="middle" font-size="9" font-weight="700" fill="#8B6F4E">Samarkand &amp; Bukhara</text>
+    <path d="M400,210 Q350,205 310,200 Q270,196 240,190" fill="none" stroke="#B08D3E" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <circle cx="310" cy="200" r="4" fill="#B08D3E"/>
+    <text x="310" y="188" text-anchor="middle" font-size="9" font-weight="700" fill="#8B6F4E">Persia</text>
+    <path d="M240,190 Q220,180 205,168" fill="none" stroke="#B08D3E" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <circle cx="205" cy="168" r="4" fill="#B08D3E"/>
+    <text x="200" y="155" text-anchor="middle" font-size="9" font-weight="700" fill="#8B6F4E">Levant &amp; Anatolia</text>
+    <text x="200" y="140" text-anchor="middle" font-size="9" fill="#4A443C">toward the Mediterranean</text>
+
+    <!-- Maritime route: China ports -> SE Asia -> India -> Arabia -> East Africa -->
+    <path d="M580,290 Q500,340 430,355" fill="none" stroke="#5B7A99" stroke-width="2.5" stroke-dasharray="3 5"/>
+    <circle cx="580" cy="290" r="4" fill="#5B7A99"/>
+    <text x="596" y="294" font-size="9" font-weight="700" fill="#3F5E78">Chinese ports</text>
+    <path d="M430,355 Q400,368 380,360" fill="none" stroke="#5B7A99" stroke-width="2.5" stroke-dasharray="3 5"/>
+    <text x="440" y="378" text-anchor="middle" font-size="9" font-weight="700" fill="#3F5E78">Southeast Asia</text>
+    <path d="M380,360 Q350,350 340,335" fill="none" stroke="#5B7A99" stroke-width="2.5" stroke-dasharray="3 5"/>
+    <path d="M330,320 Q250,340 160,365" fill="none" stroke="#5B7A99" stroke-width="2.5" stroke-dasharray="3 5"/>
+    <path d="M160,365 Q120,385 95,395" fill="none" stroke="#5B7A99" stroke-width="2.5" stroke-dasharray="3 5"/>
+    <circle cx="95" cy="395" r="4" fill="#5B7A99"/>
+    <text x="95" y="413" text-anchor="middle" font-size="8.5" fill="#3F5E78">Arabia &amp; E. Africa</text>
+
+    <!-- legend / timeline -->
+    <rect x="40" y="435" width="680" height="1" fill="#E3DCC9"/>
+    <circle cx="150" cy="455" r="4" fill="#B08D3E"/>
+    <text x="160" y="459" font-size="9.5" fill="#1F1B16">Overland route</text>
+    <line x1="285" y1="455" x2="310" y2="455" stroke="#5B7A99" stroke-width="2.5" stroke-dasharray="3 5"/>
+    <text x="318" y="459" font-size="9.5" fill="#1F1B16">Maritime route</text>
+
+    <text x="380" y="479" text-anchor="middle" font-size="10" font-weight="600" fill="#1F1B16">Opened c. 138 BCE &#8226; peak under Pax Mongolica, 13th c. &#8226; declined 15th&#8211;16th c.</text>
+    <text x="380" y="494" text-anchor="middle" font-size="9" fill="#8B6F4E">Shapes and routes are schematic, not precise boundaries</text>
+  </g>
+</svg>

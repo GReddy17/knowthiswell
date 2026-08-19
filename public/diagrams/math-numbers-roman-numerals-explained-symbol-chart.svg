@@ -1,0 +1,65 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="romanNumeralsTitle">
+  <title id="romanNumeralsTitle">A reference chart of the seven Roman numeral symbols I, V, X, L, C, D, and M with their decimal values 1, 5, 10, 50, 100, 500, and 1000, plus a panel illustrating the additive rule (VI = 6) and subtractive rule (IV = 4), with the year 1994 broken into M, CM, XC, and IV as a worked example</title>
+  <rect width="640" height="440" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="320" y="30" text-anchor="middle" font-size="14" font-weight="600" fill="#2C4A3E">The seven symbols</text>
+
+    <!-- symbol table: 7 columns -->
+    <g text-anchor="middle">
+      <!-- column x centers: 60,145,230,315,400,485,570 -->
+      <g font-size="24" font-weight="700" fill="#1F1B16">
+        <text x="60" y="80">I</text><text x="145" y="80">V</text><text x="230" y="80">X</text>
+        <text x="315" y="80">L</text><text x="400" y="80">C</text><text x="485" y="80">D</text><text x="570" y="80">M</text>
+      </g>
+      <g font-size="13" fill="#8B6F4E">
+        <text x="60" y="104">1</text><text x="145" y="104">5</text><text x="230" y="104">10</text>
+        <text x="315" y="104">50</text><text x="400" y="104">100</text><text x="485" y="104">500</text><text x="570" y="104">1,000</text>
+      </g>
+    </g>
+    <rect x="30" y="55" width="580" height="70" rx="10" fill="none" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="115" y1="55" x2="115" y2="125" stroke="#E3DCC9"/>
+    <line x1="200" y1="55" x2="200" y2="125" stroke="#E3DCC9"/>
+    <line x1="285" y1="55" x2="285" y2="125" stroke="#E3DCC9"/>
+    <line x1="370" y1="55" x2="370" y2="125" stroke="#E3DCC9"/>
+    <line x1="455" y1="55" x2="455" y2="125" stroke="#E3DCC9"/>
+    <line x1="540" y1="55" x2="540" y2="125" stroke="#E3DCC9"/>
+
+    <!-- two rule panels -->
+    <line x1="320" y1="150" x2="320" y2="290" stroke="#E3DCC9" stroke-width="1.5"/>
+
+    <text x="160" y="158" text-anchor="middle" font-size="13" font-weight="600" fill="#2C4A3E">Additive rule</text>
+    <text x="160" y="180" text-anchor="middle" font-size="11" fill="#4A443C">smaller symbol AFTER a larger one adds</text>
+    <rect x="90" y="200" width="140" height="50" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.25"/>
+    <text x="160" y="234" text-anchor="middle" font-size="20" font-weight="700" fill="#1F1B16">VI = 6</text>
+    <text x="160" y="270" text-anchor="middle" font-size="11" fill="#8B6F4E">5 + 1 = 6</text>
+
+    <text x="480" y="158" text-anchor="middle" font-size="13" font-weight="600" fill="#2C4A3E">Subtractive rule</text>
+    <text x="480" y="180" text-anchor="middle" font-size="11" fill="#4A443C">smaller symbol BEFORE a larger one subtracts</text>
+    <rect x="410" y="200" width="140" height="50" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.25"/>
+    <text x="480" y="234" text-anchor="middle" font-size="20" font-weight="700" fill="#1F1B16">IV = 4</text>
+    <text x="480" y="270" text-anchor="middle" font-size="11" fill="#8B6F4E">5 − 1 = 4</text>
+
+    <!-- worked example: 1994 -->
+    <text x="320" y="322" text-anchor="middle" font-size="13" font-weight="600" fill="#2C4A3E">Worked example: 1994 = MCMXCIV</text>
+
+    <g text-anchor="middle">
+      <rect x="60" y="340" width="120" height="60" rx="8" fill="#E3DCC9" stroke="#2C4A3E" stroke-width="1"/>
+      <text x="120" y="366" font-size="16" font-weight="700" fill="#1F1B16">M</text>
+      <text x="120" y="384" font-size="11" fill="#8B6F4E">1000</text>
+
+      <rect x="190" y="340" width="120" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+      <text x="250" y="366" font-size="16" font-weight="700" fill="#1F1B16">CM</text>
+      <text x="250" y="384" font-size="11" fill="#8B6F4E">900</text>
+
+      <rect x="320" y="340" width="120" height="60" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1"/>
+      <text x="380" y="366" font-size="16" font-weight="700" fill="#1F1B16">XC</text>
+      <text x="380" y="384" font-size="11" fill="#8B6F4E">90</text>
+
+      <rect x="450" y="340" width="120" height="60" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1"/>
+      <text x="510" y="366" font-size="16" font-weight="700" fill="#1F1B16">IV</text>
+      <text x="510" y="384" font-size="11" fill="#8B6F4E">4</text>
+    </g>
+    <text x="320" y="422" text-anchor="middle" font-size="11" fill="#8B6F4E">1000 + 900 + 90 + 4 = 1994</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wondersScaleTitle">
+  <title id="wondersScaleTitle">Comparative infographic showing the Grand Canyon's depth of about 1,857 meters and length of about 446 kilometers, Mount Everest's height of 8,849 meters, Angel Falls' total drop of 979 meters, and the Great Barrier Reef's length of about 2,300 kilometers, all drawn to a shared scale for direct visual comparison</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <text x="320" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15.5" font-weight="600" fill="#1F1B16">Natural wonders, compared by vertical scale and length</text>
+
+  <line x1="320" y1="42" x2="320" y2="392" stroke="#E3DCC9" stroke-width="1"/>
+
+  <!-- LEFT PANEL: vertical scale in meters -->
+  <text x="180" y="56" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#4A443C">VERTICAL SCALE (meters)</text>
+  <line x1="60" y1="380" x2="300" y2="380" stroke="#1F1B16" stroke-width="1.5"/>
+
+  <!-- Everest, 8849 m -->
+  <g fill="#2C4A3E">
+    <path d="M85,380 L120,380 L102,70 Z"/>
+    <path d="M96,90 L108,90 L102,70 Z" fill="#FBF8F1"/>
+  </g>
+  <text x="102" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Everest</text>
+  <text x="102" y="393" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">8,849 m</text>
+
+  <!-- Grand Canyon depth, 1857 m -->
+  <g fill="#8B6F4E">
+    <path d="M160,380 L160,314.95 L166,318 L172,313 L178,317 L184,314.95 L184,380 Z"/>
+  </g>
+  <text x="172" y="304.95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Grand Canyon</text>
+  <text x="172" y="393" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">depth 1,857 m</text>
+
+  <!-- Angel Falls, 979 m -->
+  <g fill="#5B7A99">
+    <rect x="236" y="345.71" width="20" height="34.29"/>
+    <path d="M236,345.71 L256,345.71 L262,338 L230,338 Z"/>
+  </g>
+  <g stroke="#EEF3EE" stroke-width="1" opacity="0.8">
+    <line x1="241" y1="350" x2="241" y2="378"/>
+    <line x1="246" y1="350" x2="246" y2="378"/>
+    <line x1="251" y1="350" x2="251" y2="378"/>
+  </g>
+  <text x="246" y="328" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Angel Falls</text>
+  <text x="246" y="393" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">drop 979 m</text>
+
+  <!-- RIGHT PANEL: length scale in kilometers -->
+  <text x="460" y="56" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#4A443C">LENGTH SCALE (kilometers)</text>
+
+  <text x="345" y="163" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Grand Canyon length</text>
+  <rect x="345" y="172" width="42.7" height="22" fill="#8B6F4E"/>
+  <text x="393" y="188" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">446 km</text>
+
+  <text x="345" y="263" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Great Barrier Reef length</text>
+  <rect x="345" y="272" width="220" height="22" fill="#2C4A3E"/>
+  <text x="571" y="288" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">2,300 km</text>
+
+  <text x="320" y="410" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Heights/depths and lengths use separate scales; each is proportional only within its own panel.</text>
+</svg>

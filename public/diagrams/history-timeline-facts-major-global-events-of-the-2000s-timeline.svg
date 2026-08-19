@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1210 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of defining global events of the 2000s: the September 11 attacks and U.S. invasion of Afghanistan in 2001, the euro entering circulation in 2002, the invasion of Iraq in 2003, the Indian Ocean tsunami in December 2004, the launches of Facebook, YouTube, and Twitter from 2004 to 2006, the introduction of the iPhone in 2007, and the global financial crisis and collapse of Lehman Brothers in September 2008</title>
+  <rect width="1210" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="605" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">A decade opening with terror and war, closing with financial collapse</text>
+
+    <rect x="40" y="115" width="150" height="40" fill="#EEF3EE"/>
+    <text x="115" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">9/11 attacks</text>
+    <text x="115" y="138" text-anchor="middle" font-size="9" fill="#4A443C">US invades Afghanistan</text>
+    <text x="115" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2001</text>
+
+    <rect x="190" y="115" width="165" height="40" fill="#FBEDEA"/>
+    <text x="272" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Euro enters circulation</text>
+    <text x="272" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2002</text>
+
+    <rect x="355" y="115" width="130" height="40" fill="#EDE7D8"/>
+    <text x="420" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Invasion of Iraq</text>
+    <text x="420" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2003</text>
+
+    <rect x="485" y="115" width="150" height="40" fill="#EEF3EE"/>
+    <text x="560" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Indian Ocean tsunami</text>
+    <text x="560" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Dec 2004</text>
+
+    <rect x="635" y="115" width="230" height="40" fill="#FBEDEA"/>
+    <text x="750" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Facebook, YouTube, Twitter launch</text>
+    <text x="750" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2004–2006</text>
+
+    <rect x="865" y="115" width="130" height="40" fill="#EDE7D8"/>
+    <text x="930" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">iPhone introduced</text>
+    <text x="930" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2007</text>
+
+    <rect x="995" y="115" width="175" height="40" fill="#EEF3EE"/>
+    <text x="1082" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Global financial crisis</text>
+    <text x="1082" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Lehman Brothers collapses</text>
+    <text x="1082" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Sep 2008</text>
+  </g>
+  <rect x="40" y="115" width="1130" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="190" y1="115" x2="190" y2="155" stroke="#1F1B16"/>
+  <line x1="355" y1="115" x2="355" y2="155" stroke="#1F1B16"/>
+  <line x1="485" y1="115" x2="485" y2="155" stroke="#1F1B16"/>
+  <line x1="635" y1="115" x2="635" y2="155" stroke="#1F1B16"/>
+  <line x1="865" y1="115" x2="865" y2="155" stroke="#1F1B16"/>
+  <line x1="995" y1="115" x2="995" y2="155" stroke="#1F1B16"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1030 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of defining global events of the 2020s so far: the World Health Organization's Public Health Emergency of International Concern declaration for COVID-19 in January 2020, the pandemic declaration in March 2020, Russia's large-scale invasion of Ukraine beginning in February 2022, the public launch of ChatGPT in November 2022, and the WHO ending the COVID-19 emergency classification in May 2023</title>
+  <rect width="1030" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="515" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">A pandemic, a war, and a technology shift, in three years</text>
+
+    <rect x="40" y="115" width="200" height="40" fill="#EEF3EE"/>
+    <text x="140" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">WHO declares COVID-19 PHEIC</text>
+    <text x="140" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Jan 2020</text>
+
+    <rect x="240" y="115" width="205" height="40" fill="#FBEDEA"/>
+    <text x="342" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">WHO declares global pandemic</text>
+    <text x="342" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Mar 2020</text>
+
+    <rect x="445" y="115" width="160" height="40" fill="#EDE7D8"/>
+    <text x="525" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Russia invades Ukraine</text>
+    <text x="525" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Feb 2022</text>
+
+    <rect x="605" y="115" width="190" height="40" fill="#EEF3EE"/>
+    <text x="700" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">ChatGPT launches publicly</text>
+    <text x="700" y="138" text-anchor="middle" font-size="9" fill="#4A443C">generative AI goes mainstream</text>
+    <text x="700" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Nov 2022</text>
+
+    <rect x="795" y="115" width="195" height="40" fill="#FBEDEA"/>
+    <text x="892" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">WHO ends COVID-19 emergency</text>
+    <text x="892" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">May 2023</text>
+  </g>
+  <rect x="40" y="115" width="950" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="240" y1="115" x2="240" y2="155" stroke="#1F1B16"/>
+  <line x1="445" y1="115" x2="445" y2="155" stroke="#1F1B16"/>
+  <line x1="605" y1="115" x2="605" y2="155" stroke="#1F1B16"/>
+  <line x1="795" y1="115" x2="795" y2="155" stroke="#1F1B16"/>
+</svg>

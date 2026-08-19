@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1070 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline from the 1969 Santa Barbara oil spill, through the first Earth Day organized by Senator Gaylord Nelson on April 22, 1970 as a US environmental teach-in with more than 20 million participants, the creation of the Environmental Protection Agency later in 1970, the 1970s passage of the Clean Air Act, Clean Water Act, and Endangered Species Act, Earth Day's 1990 expansion into a globally observed event, and today's observance by roughly a billion people in nearly 200 countries</title>
+  <rect width="1070" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="535" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">From a US teach-in to a globally observed day</text>
+
+    <rect x="40" y="115" width="175" height="40" fill="#EEF3EE"/>
+    <text x="127" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Santa Barbara oil spill</text>
+    <text x="127" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">spurs the environmental movement</text>
+    <text x="127" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1969</text>
+
+    <rect x="215" y="115" width="175" height="40" fill="#FBEDEA"/>
+    <text x="302" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">First Earth Day</text>
+    <text x="302" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Sen. Gaylord Nelson's US teach-in</text>
+    <text x="302" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Apr 22, 1970</text>
+
+    <rect x="390" y="115" width="175" height="40" fill="#EDE7D8"/>
+    <text x="477" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">EPA created</text>
+    <text x="477" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">US Environmental Protection Agency</text>
+    <text x="477" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">later 1970</text>
+
+    <rect x="565" y="115" width="175" height="40" fill="#EEF3EE"/>
+    <text x="652" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Landmark laws pass</text>
+    <text x="652" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Clean Air, Clean Water, Endangered Species Acts</text>
+    <text x="652" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1970s</text>
+
+    <rect x="740" y="115" width="165" height="40" fill="#FBEDEA"/>
+    <text x="822" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Goes global</text>
+    <text x="822" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">expands beyond the US worldwide</text>
+    <text x="822" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1990</text>
+
+    <rect x="905" y="115" width="125" height="40" fill="#EDE7D8"/>
+    <text x="967" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Marked worldwide</text>
+    <text x="967" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">~1 billion people, ~200 countries</text>
+    <text x="967" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Today</text>
+  </g>
+  <rect x="40" y="115" width="990" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="215" y1="115" x2="215" y2="155" stroke="#1F1B16"/>
+  <line x1="390" y1="115" x2="390" y2="155" stroke="#1F1B16"/>
+  <line x1="565" y1="115" x2="565" y2="155" stroke="#1F1B16"/>
+  <line x1="740" y1="115" x2="740" y2="155" stroke="#1F1B16"/>
+  <line x1="905" y1="115" x2="905" y2="155" stroke="#1F1B16"/>
+  <text x="535" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">A single US teach-in (1970) grew, over two decades, into a worldwide observance (1990 onward)</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="seqGrowthTitle">
+  <title id="seqGrowthTitle">Line graph of sequence position versus term value showing an arithmetic sequence (a1=2, common difference 3) as a straight rising line and a geometric sequence (a1=2, common ratio 1.6) as a curve that starts near the same point and bends sharply upward, overtaking the arithmetic line after a few terms</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- gridlines -->
+  <g stroke="#EDE7D8" stroke-width="1">
+    <line x1="160" y1="40" x2="160" y2="340"/>
+    <line x1="240" y1="40" x2="240" y2="340"/>
+    <line x1="320" y1="40" x2="320" y2="340"/>
+    <line x1="400" y1="40" x2="400" y2="340"/>
+    <line x1="480" y1="40" x2="480" y2="340"/>
+    <line x1="560" y1="40" x2="560" y2="340"/>
+    <line x1="80" y1="83.6" x2="600" y2="83.6"/>
+    <line x1="80" y1="126.9" x2="600" y2="126.9"/>
+    <line x1="80" y1="170.3" x2="600" y2="170.3"/>
+    <line x1="80" y1="213.7" x2="600" y2="213.7"/>
+    <line x1="80" y1="257.1" x2="600" y2="257.1"/>
+    <line x1="80" y1="300.5" x2="600" y2="300.5"/>
+  </g>
+
+  <!-- axes -->
+  <line x1="80" y1="340" x2="600" y2="340" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="80" y1="340" x2="80" y2="40" stroke="#1F1B16" stroke-width="1.5"/>
+  <path d="M 600,340 L 590,335 L 590,345 Z" fill="#1F1B16"/>
+  <path d="M 80,40 L 75,50 L 85,50 Z" fill="#1F1B16"/>
+  <text x="590" y="362" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">Term position (n)</text>
+  <text x="60" y="40" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C" transform="rotate(-90 60 40)">Term value</text>
+
+  <!-- geometric curve: 2, 3.2, 5.12, 8.19, 13.11, 20.97, 33.55 -->
+  <path d="M 80,322.9 L 160,312.6 L 240,296.1 L 320,269.8 L 400,227.7 L 480,160.2 L 560,52.4" fill="none" stroke="#C9412C" stroke-width="2.5"/>
+  <!-- arithmetic line: 2, 5, 8, 11, 14, 17, 20 -->
+  <path d="M 80,322.9 L 160,297.1 L 240,271.4 L 320,245.7 L 400,220 L 480,194.3 L 560,168.6" fill="none" stroke="#2C4A3E" stroke-width="3"/>
+
+  <g fill="#2C4A3E">
+    <circle cx="80" cy="322.9" r="3.5"/><circle cx="160" cy="297.1" r="3.5"/><circle cx="240" cy="271.4" r="3.5"/>
+    <circle cx="320" cy="245.7" r="3.5"/><circle cx="400" cy="220" r="3.5"/><circle cx="480" cy="194.3" r="3.5"/><circle cx="560" cy="168.6" r="3.5"/>
+  </g>
+  <g fill="#C9412C">
+    <circle cx="160" cy="312.6" r="3.5"/><circle cx="240" cy="296.1" r="3.5"/>
+    <circle cx="320" cy="269.8" r="3.5"/><circle cx="400" cy="227.7" r="3.5"/><circle cx="480" cy="160.2" r="3.5"/><circle cx="560" cy="52.4" r="3.5"/>
+  </g>
+
+  <text x="565" y="160" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#2C4A3E">Arithmetic: 20</text>
+  <text x="565" y="45" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#C9412C">Geometric: 33.6</text>
+
+  <!-- legend -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5">
+    <line x1="110" y1="60" x2="140" y2="60" stroke="#2C4A3E" stroke-width="3"/>
+    <text x="148" y="64" fill="#1F1B16">Arithmetic sequence (constant difference, d = 3)</text>
+    <line x1="110" y1="80" x2="140" y2="80" stroke="#C9412C" stroke-width="2.5"/>
+    <text x="148" y="84" fill="#1F1B16">Geometric sequence (constant ratio, r = 1.6)</text>
+  </g>
+</svg>

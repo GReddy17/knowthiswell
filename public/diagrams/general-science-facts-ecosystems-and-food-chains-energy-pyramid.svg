@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="energyPyramidTitle">
+  <title id="energyPyramidTitle">Energy pyramid divided into four horizontal tiers narrowing toward the top: Producers with 10,000 kilocalories, Primary Consumers with 1,000 kilocalories, Secondary Consumers with 100 kilocalories, and Tertiary Consumers with 10 kilocalories, with arrows between tiers each labeled about 90 percent lost as heat</title>
+
+  <rect x="0" y="0" width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- band 1: Producers, y 380-305, width 420 -> 320 -->
+  <path d="M 40,380 L 460,380 L 410,305 L 90,305 Z" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="250" y="335" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Producers</text>
+  <text x="250" y="356" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">10,000 kcal</text>
+
+  <!-- band 2: Primary Consumers, y 305-230, width 320 -> 220 -->
+  <path d="M 90,305 L 410,305 L 360,230 L 140,230 Z" fill="#A6C9B4" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="250" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Primary Consumers</text>
+  <text x="250" y="281" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">1,000 kcal</text>
+
+  <!-- band 3: Secondary Consumers, y 230-155, width 220 -> 120 -->
+  <path d="M 140,230 L 360,230 L 310,155 L 190,155 Z" fill="#5E8A73" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="250" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF8F1">Secondary Consumers</text>
+  <text x="250" y="206" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#FBF8F1">100 kcal</text>
+
+  <!-- band 4: Tertiary Consumers, y 155-80, width 120 -> 20 -->
+  <path d="M 190,155 L 310,155 L 260,80 L 240,80 Z" fill="#2C4A3E" stroke="#20362D" stroke-width="1"/>
+  <text x="250" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Tertiary</text>
+  <text x="250" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#EEF3EE">10 kcal</text>
+
+  <!-- arrows and labels for energy loss between tiers -->
+  <g stroke="#C9412C" stroke-width="1.5" fill="none">
+    <path d="M 520,342 L 520,308" marker-end="url(#arrow)"/>
+    <path d="M 520,267 L 520,233" marker-end="url(#arrow)"/>
+    <path d="M 520,192 L 520,158" marker-end="url(#arrow)"/>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#C9412C"/>
+    </marker>
+  </defs>
+  <text x="533" y="330" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B4A3A">~90% lost</text>
+  <text x="533" y="342" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B4A3A">as heat</text>
+  <text x="533" y="255" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B4A3A">~90% lost</text>
+  <text x="533" y="267" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B4A3A">as heat</text>
+  <text x="533" y="180" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B4A3A">~90% lost</text>
+  <text x="533" y="192" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B4A3A">as heat</text>
+
+  <line x1="40" y1="395" x2="460" y2="395" stroke="#E3DCC9" stroke-width="1"/>
+  <text x="250" y="412" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Each tier holds roughly one-tenth the energy of the tier below it</text>
+</svg>

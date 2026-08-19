@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1500 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Horizontal timeline of India's independence movement showing 1885 the founding of the Indian National Congress, 1919 the Jallianwala Bagh massacre in Amritsar, 1930 Gandhi's Salt March and the Civil Disobedience Movement, 1942 the Quit India Movement, and August 15, 1947 India's independence alongside the partition of British India into India and Pakistan under the Indian Independence Act</title>
+  <rect width="1500" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="750" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Six decades of organizing, protest, and mass movements end in independence and partition</text>
+
+    <rect x="40" y="115" width="245" height="40" fill="#EEF3EE"/>
+    <text x="162" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Indian National Congress founded</text>
+    <text x="162" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1885</text>
+
+    <rect x="285" y="115" width="240" height="40" fill="#FBEDEA"/>
+    <text x="405" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Jallianwala Bagh massacre</text>
+    <text x="405" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Amritsar</text>
+    <text x="405" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1919</text>
+
+    <rect x="525" y="115" width="270" height="40" fill="#EDE7D8"/>
+    <text x="660" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Salt March &amp; Civil Disobedience</text>
+    <text x="660" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Led by Gandhi</text>
+    <text x="660" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1930</text>
+
+    <rect x="795" y="115" width="235" height="40" fill="#EEF3EE"/>
+    <text x="912" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Quit India Movement</text>
+    <text x="912" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1942</text>
+
+    <rect x="1030" y="115" width="430" height="40" fill="#FBEDEA"/>
+    <text x="1245" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Independence &amp; partition</text>
+    <text x="1245" y="138" text-anchor="middle" font-size="9" fill="#4A443C">India and Pakistan formed under the Indian Independence Act</text>
+    <text x="1245" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">15 Aug 1947</text>
+  </g>
+  <rect x="40" y="115" width="1420" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="285" y1="115" x2="285" y2="155" stroke="#1F1B16"/>
+  <line x1="525" y1="115" x2="525" y2="155" stroke="#1F1B16"/>
+  <line x1="795" y1="115" x2="795" y2="155" stroke="#1F1B16"/>
+  <line x1="1030" y1="115" x2="1030" y2="155" stroke="#1F1B16"/>
+</svg>

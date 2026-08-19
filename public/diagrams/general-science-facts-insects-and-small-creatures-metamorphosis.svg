@@ -1,0 +1,81 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="metamorphosisTitle">
+  <title id="metamorphosisTitle">Side-by-side comparison of complete metamorphosis (egg, larva, pupa, adult) and incomplete metamorphosis (egg, small nymph, larger nymph, adult), showing that incomplete metamorphosis has no pupal stage</title>
+
+  <rect x="0" y="0" width="640" height="420" fill="#FBF8F1"/>
+
+  <defs>
+    <marker id="mArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+
+  <text x="20" y="70" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Complete</text>
+  <text x="20" y="88" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Metamorphosis</text>
+
+  <!-- top row boxes -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">
+    <rect x="150" y="45" width="90" height="90" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <ellipse cx="195" cy="90" rx="12" ry="15" fill="none" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="195" y="126" text-anchor="middle">Egg</text>
+
+    <rect x="270" y="45" width="90" height="90" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <path d="M 290,90 Q 300,78 312,90 Q 324,102 336,90" fill="none" stroke="#2C4A3E" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="288" cy="90" r="3.5" fill="#2C4A3E"/>
+    <text x="315" y="126" text-anchor="middle">Larva</text>
+
+    <rect x="390" y="45" width="90" height="90" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <path d="M 435,72 C 448,80 448,104 435,112 C 422,104 422,80 435,72 Z" fill="#8B6F4E"/>
+    <text x="435" y="126" text-anchor="middle">Pupa</text>
+
+    <rect x="510" y="45" width="90" height="90" rx="8" fill="#DCE7DE" stroke="#2C4A3E" stroke-width="1"/>
+    <path d="M 555,90 C 540,68 520,72 522,88 C 520,104 540,110 555,92 C 570,110 590,104 588,88 C 590,72 570,68 555,90 Z" fill="#2C4A3E"/>
+    <line x1="555" y1="72" x2="555" y2="110" stroke="#1F1B16" stroke-width="1.5"/>
+    <text x="555" y="126" text-anchor="middle">Adult</text>
+  </g>
+
+  <g stroke="#8B6F4E" stroke-width="1.5" marker-end="url(#mArrow)">
+    <line x1="242" y1="90" x2="266" y2="90"/>
+    <line x1="362" y1="90" x2="386" y2="90"/>
+    <line x1="482" y1="90" x2="506" y2="90"/>
+  </g>
+
+  <line x1="20" y1="165" x2="620" y2="165" stroke="#E3DCC9" stroke-width="1"/>
+
+  <text x="20" y="210" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Incomplete</text>
+  <text x="20" y="228" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Metamorphosis</text>
+
+  <!-- bottom row boxes -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">
+    <rect x="150" y="185" width="90" height="90" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <ellipse cx="195" cy="230" rx="12" ry="15" fill="none" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="195" y="266" text-anchor="middle">Egg</text>
+
+    <rect x="270" y="185" width="90" height="90" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <ellipse cx="315" cy="235" rx="10" ry="16" fill="none" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="305" y1="222" x2="298" y2="214" stroke="#2C4A3E" stroke-width="1.2"/>
+    <line x1="325" y1="222" x2="332" y2="214" stroke="#2C4A3E" stroke-width="1.2"/>
+    <text x="315" y="266" text-anchor="middle">Nymph (small)</text>
+
+    <rect x="390" y="185" width="90" height="90" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <ellipse cx="435" cy="233" rx="15" ry="22" fill="none" stroke="#2C4A3E" stroke-width="1.5"/>
+    <path d="M 425,218 L 415,206" stroke="#2C4A3E" stroke-width="1.2"/>
+    <path d="M 445,218 L 455,206" stroke="#2C4A3E" stroke-width="1.2"/>
+    <path d="M 421,228 L 405,220" stroke="#2C4A3E" stroke-width="1.2" opacity="0.6"/>
+    <path d="M 449,228 L 465,220" stroke="#2C4A3E" stroke-width="1.2" opacity="0.6"/>
+    <text x="435" y="266" text-anchor="middle">Nymph (larger)</text>
+
+    <rect x="510" y="185" width="90" height="90" rx="8" fill="#DCE7DE" stroke="#2C4A3E" stroke-width="1"/>
+    <ellipse cx="555" cy="233" rx="10" ry="20" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 550,215 L 525,200" stroke="#2C4A3E" stroke-width="2"/>
+    <path d="M 560,215 L 585,200" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="555" y="266" text-anchor="middle">Adult</text>
+  </g>
+
+  <g stroke="#8B6F4E" stroke-width="1.5" marker-end="url(#mArrow)">
+    <line x1="242" y1="230" x2="266" y2="230"/>
+    <line x1="362" y1="230" x2="386" y2="230"/>
+    <line x1="482" y1="230" x2="506" y2="230"/>
+  </g>
+
+  <text x="320" y="305" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">No pupal stage — nymphs simply grow larger and grow wings across successive molts</text>
+</svg>

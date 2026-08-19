@@ -1,0 +1,38 @@
+<svg viewBox="0 0 420 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="extremePointsTitle">
+  <title id="extremePointsTitle">A vertical elevation scale from the summit of Mount Everest at 8,849 meters down through sea level, the Dead Sea shore at about negative 430 meters, to the Challenger Deep at about negative 10,935 meters, spanning nearly 19,800 meters</title>
+  <rect width="420" height="700" fill="#FBF8F1"/>
+
+  <!-- zone tints: elevation above sea level vs depth below -->
+  <rect x="0" y="30" width="420" height="288" fill="#EEF3EE" opacity="0.6"/>
+  <rect x="0" y="318" width="420" height="332" fill="#E4ECF2" opacity="0.55"/>
+
+  <!-- main vertical scale line -->
+  <line x1="150" y1="50" x2="150" y2="650" stroke="#1F1B16" stroke-width="1.5"/>
+
+  <!-- sea level line -->
+  <line x1="60" y1="318" x2="330" y2="318" stroke="#4A7A9E" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="60" y="312" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A7A9E">sea level (0 m)</text>
+
+  <!-- Everest -->
+  <circle cx="150" cy="50" r="5" fill="#C9412C"/>
+  <path d="M 120,50 L 150,10 L 180,50 Z" fill="#2C4A3E" opacity="0.85"/>
+  <text x="200" y="46" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Mount Everest, summit</text>
+  <text x="200" y="64" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">+8,849 m above sea level</text>
+
+  <!-- Dead Sea -->
+  <circle cx="150" cy="332" r="5" fill="#C9412C"/>
+  <text x="200" y="328" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Dead Sea shore</text>
+  <text x="200" y="346" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">about &#8722;430 m below sea level</text>
+
+  <!-- Challenger Deep -->
+  <circle cx="150" cy="650" r="5" fill="#C9412C"/>
+  <path d="M 130,650 L 150,690 L 170,650 Z" fill="#4A7A9E" opacity="0.75"/>
+  <text x="200" y="646" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Challenger Deep</text>
+  <text x="200" y="664" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">about &#8722;10,935 m, Mariana Trench</text>
+
+  <!-- bracket spanning full range -->
+  <path d="M 50,50 L 35,50 L 35,650 L 50,650" fill="none" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="10" y="350" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#8B6F4E" transform="rotate(-90 10 350)">~19,800 m total span</text>
+
+  <text x="210" y="20" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="18" font-weight="600" fill="#1F1B16">Earth's vertical extremes</text>
+</svg>

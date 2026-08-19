@@ -1,0 +1,79 @@
+<svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="geoTimeTitle">
+  <title id="geoTimeTitle">Vertical timeline of Earth's 4.54-billion-year history from bottom to top, divided into the Hadean, Archean, Proterozoic, and Phanerozoic eons, with the Phanerozoic zoomed into a detail panel splitting it into the Paleozoic, Mesozoic, and Cenozoic eras and marking the Cambrian explosion, the age of dinosaurs, the Chicxulub impact and mass extinction at 66 million years ago, and the rise of mammals</title>
+
+  <defs>
+    <marker id="ah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4A443C"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="460" fill="#FBF8F1"/>
+  <text x="130" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Today</text>
+  <text x="345" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Today</text>
+  <line x1="90" y1="60" x2="170" y2="60" stroke="#1F1B16" stroke-width="1.5" marker-end="url(#ah2)"/>
+
+  <!-- ===== Main bar: full Earth history, bottom = 4.54 Bya, top = today ===== -->
+  <rect x="90" y="377.2" width="80" height="42.8" fill="#C9412C" opacity="0.55"/>
+  <rect x="90" y="258.3" width="80" height="118.9" fill="#8B6F4E" opacity="0.5"/>
+  <rect x="90" y="103.0" width="80" height="155.3" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="90" y="60" width="80" height="43" fill="#2C4A3E"/>
+  <rect x="90" y="60" width="80" height="360" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+
+  <!-- boundary ticks + Mya labels, main bar -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">
+    <line x1="84" y1="420" x2="90" y2="420" stroke="#1F1B16"/>
+    <text x="80" y="423" text-anchor="end">4,540 Mya</text>
+    <line x1="84" y1="377.2" x2="90" y2="377.2" stroke="#1F1B16"/>
+    <text x="80" y="380" text-anchor="end">4,000 Mya</text>
+    <line x1="84" y1="258.3" x2="90" y2="258.3" stroke="#1F1B16"/>
+    <text x="80" y="261" text-anchor="end">2,500 Mya</text>
+    <line x1="84" y1="103.0" x2="90" y2="103.0" stroke="#1F1B16"/>
+    <text x="80" y="106" text-anchor="end">541 Mya</text>
+  </g>
+
+  <!-- eon name labels, main bar -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16" text-anchor="end">
+    <text x="80" y="402">Hadean</text>
+    <text x="80" y="322">Archean</text>
+    <text x="80" y="184">Proterozoic</text>
+  </g>
+  <text x="80" y="112" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">First complex life</text>
+  <text x="80" y="124" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">appears (~570 Mya)</text>
+  <line x1="82" y1="118" x2="90" y2="104" stroke="#4A443C" stroke-width="1"/>
+
+  <text x="220" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#FBF8F1">Phanerozoic</text>
+
+  <!-- zoom-bracket connecting the thin Phanerozoic sliver to the detail panel -->
+  <path d="M 170 60 L 300 60 M 170 103 L 300 420" fill="none" stroke="#8B6F4E" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- ===== Zoom panel: Phanerozoic eon detail, 541 Mya to today ===== -->
+  <rect x="300" y="227.8" width="90" height="192.2" fill="#8B6F4E" opacity="0.3"/>
+  <rect x="300" y="104.1" width="90" height="123.7" fill="#C9412C" opacity="0.3"/>
+  <rect x="300" y="60" width="90" height="44.1" fill="#2C4A3E" opacity="0.35"/>
+  <rect x="300" y="60" width="90" height="360" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+
+  <text x="345" y="330" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Paleozoic</text>
+  <text x="345" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Mesozoic</text>
+  <text x="345" y="86" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Cenozoic</text>
+
+  <!-- Chicxulub / mass extinction boundary -->
+  <line x1="296" y1="104.1" x2="450" y2="104.1" stroke="#C9412C" stroke-width="2"/>
+  <text x="400" y="101" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#C9412C">Chicxulub impact —</text>
+  <text x="400" y="115" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#C9412C">mass extinction, 66 Mya</text>
+
+  <!-- Cambrian explosion -->
+  <line x1="296" y1="418" x2="410" y2="418" stroke="#4A443C" stroke-width="1"/>
+  <text x="400" y="412" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Cambrian explosion</text>
+  <text x="400" y="425" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">first hard-shelled life, ~538 Mya</text>
+
+  <!-- Age of dinosaurs -->
+  <line x1="392" y1="166" x2="410" y2="166" stroke="#4A443C" stroke-width="1"/>
+  <text x="400" y="170" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Age of dinosaurs</text>
+
+  <!-- Rise of mammals -->
+  <line x1="392" y1="80" x2="410" y2="80" stroke="#4A443C" stroke-width="1"/>
+  <text x="400" y="84" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Rise of mammals</text>
+
+  <text x="345" y="440" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">541 Mya</text>
+  <text x="130" y="440" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Earth forms, 4.54 Bya</text>
+</svg>

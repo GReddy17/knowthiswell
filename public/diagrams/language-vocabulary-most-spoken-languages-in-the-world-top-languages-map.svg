@@ -1,0 +1,78 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">The world's most spoken languages grouped by rough region and language family: English, Spanish, and Portuguese in the Americas; Russian, Arabic, and Swahili across Europe and Africa; Mandarin, Hindi, Bengali, and Indonesian across Asia and the Pacific — each colored by family, with Indo-European, Sino-Tibetan, Afroasiatic, Niger-Congo, and Austronesian noted in a legend</title>
+  <rect width="800" height="560" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="400" y="30" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="14.5" font-weight="600" fill="#1F1B16">Top languages by region and language family</text>
+
+    <!-- region bands -->
+    <rect x="20" y="55" width="240" height="420" rx="10" fill="#EEF3EE" opacity="0.55"/>
+    <rect x="280" y="55" width="240" height="420" rx="10" fill="#FBEDEA" opacity="0.45"/>
+    <rect x="540" y="55" width="240" height="420" rx="10" fill="#EDE7D8" opacity="0.6"/>
+
+    <text x="140" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1F1B16">Americas</text>
+    <text x="400" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1F1B16">Europe &amp; Africa</text>
+    <text x="660" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1F1B16">Asia &amp; Pacific</text>
+
+    <!-- Americas band -->
+    <circle cx="50" cy="115" r="7" fill="#2C4A3E"/>
+    <text x="66" y="112" font-size="12.5" font-weight="700" fill="#1F1B16">English</text>
+    <text x="66" y="127" font-size="9.5" fill="#8B6F4E">Indo-European</text>
+
+    <circle cx="50" cy="215" r="7" fill="#2C4A3E"/>
+    <text x="66" y="212" font-size="12.5" font-weight="700" fill="#1F1B16">Spanish</text>
+    <text x="66" y="227" font-size="9.5" fill="#8B6F4E">Indo-European</text>
+
+    <circle cx="50" cy="315" r="7" fill="#2C4A3E"/>
+    <text x="66" y="312" font-size="12.5" font-weight="700" fill="#1F1B16">Portuguese</text>
+    <text x="66" y="327" font-size="9.5" fill="#8B6F4E">Indo-European · Brazil</text>
+
+    <text x="140" y="430" text-anchor="middle" font-size="9.5" font-style="italic" fill="#4A443C">English, Spanish &amp; Portuguese are also</text>
+    <text x="140" y="444" text-anchor="middle" font-size="9.5" font-style="italic" fill="#4A443C">widely spoken across Europe, Africa &amp; Asia</text>
+
+    <!-- Europe & Africa band -->
+    <circle cx="310" cy="115" r="7" fill="#2C4A3E"/>
+    <text x="326" y="112" font-size="12.5" font-weight="700" fill="#1F1B16">Russian</text>
+    <text x="326" y="127" font-size="9.5" fill="#8B6F4E">Indo-European · spans Europe &amp; Asia</text>
+
+    <circle cx="310" cy="215" r="7" fill="#B8860B"/>
+    <text x="326" y="212" font-size="12.5" font-weight="700" fill="#1F1B16">Arabic</text>
+    <text x="326" y="227" font-size="9.5" fill="#8B6F4E">Afroasiatic · Middle East &amp; North Africa</text>
+
+    <circle cx="310" cy="315" r="7" fill="#2E7D4F"/>
+    <text x="326" y="312" font-size="12.5" font-weight="700" fill="#1F1B16">Swahili</text>
+    <text x="326" y="327" font-size="9.5" fill="#8B6F4E">Niger-Congo · East Africa</text>
+
+    <!-- Asia & Pacific band -->
+    <circle cx="570" cy="105" r="7" fill="#C0392B"/>
+    <text x="586" y="102" font-size="12.5" font-weight="700" fill="#1F1B16">Mandarin Chinese</text>
+    <text x="586" y="117" font-size="9.5" fill="#8B6F4E">Sino-Tibetan · East Asia</text>
+
+    <circle cx="570" cy="195" r="7" fill="#2C4A3E"/>
+    <text x="586" y="192" font-size="12.5" font-weight="700" fill="#1F1B16">Hindi</text>
+    <text x="586" y="207" font-size="9.5" fill="#8B6F4E">Indo-European · South Asia</text>
+
+    <circle cx="570" cy="285" r="7" fill="#2C4A3E"/>
+    <text x="586" y="282" font-size="12.5" font-weight="700" fill="#1F1B16">Bengali</text>
+    <text x="586" y="297" font-size="9.5" fill="#8B6F4E">Indo-European · South Asia</text>
+
+    <circle cx="570" cy="375" r="7" fill="#7B4B94"/>
+    <text x="586" y="372" font-size="12.5" font-weight="700" fill="#1F1B16">Indonesian</text>
+    <text x="586" y="387" font-size="9.5" fill="#8B6F4E">Austronesian · Southeast Asia</text>
+
+    <!-- legend -->
+    <line x1="20" y1="497" x2="780" y2="497" stroke="#E3DCC9" stroke-width="1"/>
+    <g font-size="10.5" fill="#1F1B16">
+      <circle cx="45" cy="522" r="6" fill="#2C4A3E"/>
+      <text x="58" y="526">Indo-European</text>
+      <circle cx="195" cy="522" r="6" fill="#C0392B"/>
+      <text x="208" y="526">Sino-Tibetan</text>
+      <circle cx="335" cy="522" r="6" fill="#B8860B"/>
+      <text x="348" y="526">Afroasiatic</text>
+      <circle cx="465" cy="522" r="6" fill="#2E7D4F"/>
+      <text x="478" y="526">Niger-Congo</text>
+      <circle cx="605" cy="522" r="6" fill="#7B4B94"/>
+      <text x="618" y="526">Austronesian</text>
+    </g>
+    <text x="400" y="548" text-anchor="middle" font-size="9.5" fill="#8B6F4E">Positions are grouped by region, not drawn to geographic scale</text>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pavCompareTitle">
+  <title id="pavCompareTitle">Three side-by-side diagrams of a rectangular shape: the first highlights only the outer edge in a bold outline labeled perimeter with a linear ruler icon, the second fills the flat surface with a grid of unit squares labeled area, and the third extends the rectangle into a 3D box filled with unit cubes labeled volume, each labeled with its corresponding unit type</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- Panel 1: perimeter -->
+  <rect x="50" y="150" width="120" height="72" fill="none" stroke="#C9412C" stroke-width="4"/>
+  <line x1="50" y1="250" x2="170" y2="250" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="50" y1="245" x2="50" y2="255" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="170" y1="245" x2="170" y2="255" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="30" y1="150" x2="30" y2="222" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="25" y1="150" x2="35" y2="150" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="25" y1="222" x2="35" y2="222" stroke="#4A443C" stroke-width="1.5"/>
+  <text x="110" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#C9412C">Perimeter</text>
+  <text x="110" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">P = 2(l + w)</text>
+  <text x="110" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B6F4E">linear units (cm, m...)</text>
+
+  <line x1="205" y1="20" x2="205" y2="400" stroke="#E3DCC9" stroke-width="1.5"/>
+
+  <!-- Panel 2: area -->
+  <rect x="245" y="150" width="120" height="72" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <g stroke="#2C4A3E" stroke-width="1" opacity="0.6">
+    <line x1="269" y1="150" x2="269" y2="222"/>
+    <line x1="293" y1="150" x2="293" y2="222"/>
+    <line x1="317" y1="150" x2="317" y2="222"/>
+    <line x1="341" y1="150" x2="341" y2="222"/>
+    <line x1="245" y1="174" x2="365" y2="174"/>
+    <line x1="245" y1="198" x2="365" y2="198"/>
+  </g>
+  <text x="305" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#2C4A3E">Area</text>
+  <text x="305" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">A = l &#215; w</text>
+  <text x="305" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B6F4E">square units (cm&#178;, m&#178;...)</text>
+
+  <line x1="400" y1="20" x2="400" y2="400" stroke="#E3DCC9" stroke-width="1.5"/>
+
+  <!-- Panel 3: volume -->
+  <g>
+    <!-- top face -->
+    <polygon points="450,150 550,150 578,124 478,124" fill="#F6F0E8" stroke="#20362D" stroke-width="1.5"/>
+    <!-- right face -->
+    <polygon points="550,150 578,124 578,180 550,206" fill="#E3DCC9" stroke="#20362D" stroke-width="1.5"/>
+    <!-- front face -->
+    <polygon points="450,150 550,150 550,206 450,206" fill="#EEF3EE" stroke="#20362D" stroke-width="2"/>
+    <!-- front grid -->
+    <g stroke="#20362D" stroke-width="0.8" opacity="0.55">
+      <line x1="475" y1="150" x2="475" y2="206"/>
+      <line x1="500" y1="150" x2="500" y2="206"/>
+      <line x1="525" y1="150" x2="525" y2="206"/>
+      <line x1="450" y1="178" x2="550" y2="178"/>
+    </g>
+    <!-- top grid -->
+    <g stroke="#20362D" stroke-width="0.8" opacity="0.5">
+      <line x1="478" y1="124" x2="450" y2="150"/>
+      <line x1="507" y1="124" x2="479" y2="150"/>
+      <line x1="536" y1="124" x2="508" y2="150"/>
+      <line x1="464" y1="137" x2="564" y2="137"/>
+    </g>
+  </g>
+  <text x="514" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#20362D">Volume</text>
+  <text x="514" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">V = l &#215; w &#215; h</text>
+  <text x="514" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B6F4E">cubic units (cm&#179;, m&#179;...)</text>
+
+  <text x="320" y="365" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Same base rectangle &#8212; three different measurements, three different unit types</text>
+</svg>

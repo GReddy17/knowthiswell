@@ -1,0 +1,38 @@
+<svg viewBox="0 0 480 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dstTriangleTitle">
+  <title id="dstTriangleTitle">A triangle diagram divided into three sections: the top section labeled Distance, the bottom-left section labeled Speed, and the bottom-right section labeled Time, illustrating that covering the top label with a finger leaves Speed multiplied by Time, covering the bottom-left leaves Distance divided by Time, and covering the bottom-right leaves Distance divided by Speed</title>
+  <rect width="480" height="460" fill="#FBF8F1"/>
+
+  <!-- triangle body -->
+  <polygon points="240,40 40,380 440,380" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.5"/>
+
+  <!-- divider lines -->
+  <line x1="110.6" y1="260" x2="369.4" y2="260" stroke="#2C4A3E" stroke-width="2"/>
+  <line x1="240" y1="260" x2="240" y2="380" stroke="#2C4A3E" stroke-width="2"/>
+
+  <!-- compartment labels -->
+  <text x="240" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26" font-weight="700" fill="#1F1B16">D</text>
+  <text x="240" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">Distance</text>
+
+  <text x="157" y="318" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="700" fill="#1F1B16">S</text>
+  <text x="157" y="342" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Speed</text>
+
+  <text x="330" y="318" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="700" fill="#1F1B16">T</text>
+  <text x="330" y="342" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Time</text>
+
+  <!-- annotation strip below triangle -->
+  <line x1="20" y1="404" x2="460" y2="404" stroke="#E3DCC9" stroke-width="1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="20" y="416" width="136" height="34" rx="8" fill="#FBF8F1" stroke="#E3DCC9" stroke-width="1"/>
+    <text x="88" y="429" text-anchor="middle" font-size="10.5" fill="#4A443C">Cover D</text>
+    <text x="88" y="443" text-anchor="middle" font-size="12" font-weight="600" fill="#1F1B16">S × T</text>
+
+    <rect x="172" y="416" width="136" height="34" rx="8" fill="#FBF8F1" stroke="#E3DCC9" stroke-width="1"/>
+    <text x="240" y="429" text-anchor="middle" font-size="10.5" fill="#4A443C">Cover S</text>
+    <text x="240" y="443" text-anchor="middle" font-size="12" font-weight="600" fill="#1F1B16">D ÷ T</text>
+
+    <rect x="324" y="416" width="136" height="34" rx="8" fill="#FBF8F1" stroke="#E3DCC9" stroke-width="1"/>
+    <text x="392" y="429" text-anchor="middle" font-size="10.5" fill="#4A443C">Cover T</text>
+    <text x="392" y="443" text-anchor="middle" font-size="12" font-weight="600" fill="#1F1B16">D ÷ S</text>
+  </g>
+</svg>

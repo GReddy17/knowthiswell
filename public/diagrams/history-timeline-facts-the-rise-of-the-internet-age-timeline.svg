@@ -1,0 +1,61 @@
+<svg viewBox="0 0 740 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the internet's rise from ARPANET's first connection in 1969, through TCP/IP adoption in 1983, the invention of the World Wide Web at CERN in 1989-91, the 1990s browser and dot-com boom, the 2000-2001 dot-com bust, 2000s broadband adoption, to the mobile-first internet following the 2007 smartphone launch</title>
+  <rect width="740" height="280" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="370" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">The rise of the internet age</text>
+    <text x="370" y="45" text-anchor="middle" font-size="11" fill="#8B6F4E">from a two-computer lab link to a pocket-sized global network</text>
+
+    <line x1="55" y1="170" x2="685" y2="170" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 685,170 L 675,165 L 675,175 Z" fill="#1F1B16"/>
+
+    <!-- 1969 (above) -->
+    <line x1="70" y1="170" x2="70" y2="140" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="70" cy="170" r="5" fill="#2C4A3E"/>
+    <text x="70" y="126" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1969</text>
+    <text x="70" y="112" text-anchor="middle" font-size="9.5" fill="#4A443C">First ARPANET link</text>
+    <text x="70" y="99" text-anchor="middle" font-size="9.5" fill="#4A443C">UCLA to Stanford</text>
+
+    <!-- 1983 (below) -->
+    <line x1="170" y1="170" x2="170" y2="200" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="170" cy="170" r="5" fill="#2C4A3E"/>
+    <text x="170" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1983</text>
+    <text x="170" y="230" text-anchor="middle" font-size="9.5" fill="#4A443C">TCP/IP becomes</text>
+    <text x="170" y="242" text-anchor="middle" font-size="9.5" fill="#4A443C">the network standard</text>
+
+    <!-- 1989-91 (above) -->
+    <line x1="270" y1="170" x2="270" y2="140" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="270" cy="170" r="5" fill="#2C4A3E"/>
+    <text x="270" y="126" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1989-91</text>
+    <text x="270" y="112" text-anchor="middle" font-size="9.5" fill="#4A443C">World Wide Web</text>
+    <text x="270" y="99" text-anchor="middle" font-size="9.5" fill="#4A443C">invented at CERN</text>
+
+    <!-- 1990s (below) -->
+    <line x1="370" y1="170" x2="370" y2="200" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="370" cy="170" r="5" fill="#2C4A3E"/>
+    <text x="370" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1990s</text>
+    <text x="370" y="230" text-anchor="middle" font-size="9.5" fill="#4A443C">Graphical browsers,</text>
+    <text x="370" y="242" text-anchor="middle" font-size="9.5" fill="#4A443C">the dot-com boom</text>
+
+    <!-- 2000-2001 (above) -->
+    <line x1="470" y1="170" x2="470" y2="140" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="470" cy="170" r="5" fill="#C9412C"/>
+    <text x="470" y="126" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">2000-01</text>
+    <text x="470" y="112" text-anchor="middle" font-size="9.5" fill="#4A443C">The dot-com bust</text>
+
+    <!-- 2000s (below) -->
+    <line x1="570" y1="170" x2="570" y2="200" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="570" cy="170" r="5" fill="#2C4A3E"/>
+    <text x="570" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">2000s</text>
+    <text x="570" y="230" text-anchor="middle" font-size="9.5" fill="#4A443C">Broadband replaces</text>
+    <text x="570" y="242" text-anchor="middle" font-size="9.5" fill="#4A443C">dial-up</text>
+
+    <!-- 2007 onward (above) -->
+    <line x1="670" y1="170" x2="670" y2="140" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="670" cy="170" r="5" fill="#2C4A3E"/>
+    <text x="670" y="126" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">2007 &#8594;</text>
+    <text x="670" y="112" text-anchor="middle" font-size="9.5" fill="#4A443C">Smartphone era,</text>
+    <text x="670" y="99" text-anchor="middle" font-size="9.5" fill="#4A443C">mobile-first internet</text>
+
+    <text x="370" y="268" text-anchor="middle" font-size="10.5" fill="#8B6F4E">Roughly 40 years separate a two-node lab link from a pocket-sized global network</text>
+  </g>
+</svg>

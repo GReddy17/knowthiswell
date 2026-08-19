@@ -1,0 +1,76 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heatTransferTitle">
+  <title id="heatTransferTitle">Three diagrams of heat transfer: conduction along a metal rod by direct particle contact, convection as warm fluid rises and cool fluid sinks in a loop inside a pot, and radiation as wavy energy arrows crossing empty space from the Sun to Earth</title>
+
+  <rect x="0" y="0" width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- panel titles -->
+  <text x="110" y="60" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="16" font-weight="600" fill="#1F1B16">Conduction</text>
+  <text x="320" y="60" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="16" font-weight="600" fill="#1F1B16">Convection</text>
+  <text x="530" y="60" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="16" font-weight="600" fill="#1F1B16">Radiation</text>
+
+  <!-- panel 1: conduction -->
+  <path d="M 30,255 q -6,10 0,20 q 8,-6 0,-12 q 8,4 0,-8 Z" fill="#C9412C"/>
+  <rect x="45" y="248" width="65" height="18" fill="#C9412C"/>
+  <rect x="110" y="248" width="65" height="18" fill="#EDE7D8" stroke="#1F1B16" stroke-width="1"/>
+  <rect x="45" y="248" width="130" height="18" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <g fill="#4A443C">
+    <circle cx="62" cy="257" r="4" fill="#C9412C"/>
+    <circle cx="82" cy="257" r="4" fill="#C9412C"/>
+    <circle cx="102" cy="257" r="4" fill="#8B6F4E"/>
+    <circle cx="122" cy="257" r="4" fill="#8B6F4E"/>
+    <circle cx="142" cy="257" r="4" fill="#4A443C"/>
+    <circle cx="162" cy="257" r="4" fill="#4A443C"/>
+  </g>
+  <path d="M 60,225 L 160,225" stroke="#1F1B16" stroke-width="1.5" fill="none"/>
+  <path d="M 160,225 L 150,220 M 160,225 L 150,230" stroke="#1F1B16" stroke-width="1.5" fill="none"/>
+  <text x="110" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">energy passed by contact</text>
+  <text x="110" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">hot end → cool end,</text>
+  <text x="110" y="316" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">particle to particle</text>
+
+  <!-- panel 2: convection -->
+  <path d="M 260,180 L 260,340 Q 260,352 272,352 L 368,352 Q 380,352 380,340 L 380,180"
+        fill="#EAF1F5" stroke="#4A443C" stroke-width="1.5"/>
+  <g stroke="#C9412C" stroke-width="2.5" fill="none">
+    <path d="M 320,322 L 320,200"/>
+    <path d="M 320,200 L 314,210 M 320,200 L 326,210"/>
+  </g>
+  <path d="M 320,200 Q 300,182 282,200" stroke="#4A443C" stroke-width="1.2" fill="none"/>
+  <path d="M 320,200 Q 340,182 358,200" stroke="#4A443C" stroke-width="1.2" fill="none"/>
+  <g stroke="#5B7C99" stroke-width="2.5" fill="none">
+    <path d="M 282,200 L 282,322"/>
+    <path d="M 282,322 L 276,312 M 282,322 L 288,312"/>
+    <path d="M 358,200 L 358,322"/>
+    <path d="M 358,322 L 352,312 M 358,322 L 364,312"/>
+  </g>
+  <path d="M 282,322 Q 300,340 320,322" stroke="#4A443C" stroke-width="1.2" fill="none"/>
+  <path d="M 358,322 Q 340,340 320,322" stroke="#4A443C" stroke-width="1.2" fill="none"/>
+  <path d="M 300,355 q -6,10 0,20 q 8,-6 0,-12 q 8,4 0,-8 Z" fill="#C9412C" transform="translate(20,0)"/>
+  <text x="320" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#C9412C">warm rises</text>
+  <text x="230" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#5B7C99">cool sinks</text>
+
+  <!-- panel 3: radiation -->
+  <circle cx="530" cy="150" r="26" fill="#D9A441" stroke="#8B6F4E" stroke-width="1"/>
+  <g stroke="#D9A441" stroke-width="2">
+    <line x1="530" y1="112" x2="530" y2="98"/>
+    <line x1="562" y1="128" x2="574" y2="118"/>
+    <line x1="498" y1="128" x2="486" y2="118"/>
+  </g>
+  <text x="530" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Sun</text>
+
+  <g fill="none" stroke="#C9412C" stroke-width="1.8">
+    <path d="M 505,205 q 8,15 0,30 t 0,30 t 0,30 t 0,25"/>
+    <path d="M 530,205 q 8,15 0,30 t 0,30 t 0,30 t 0,25"/>
+    <path d="M 555,205 q 8,15 0,30 t 0,30 t 0,30 t 0,25"/>
+  </g>
+  <g stroke="#C9412C" stroke-width="1.8" fill="none">
+    <path d="M 505,325 L 499,315 M 505,325 L 511,315"/>
+    <path d="M 530,325 L 524,315 M 530,325 L 536,315"/>
+    <path d="M 555,325 L 549,315 M 555,325 L 561,315"/>
+  </g>
+  <text x="605" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">crosses</text>
+  <text x="605" y="284" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">empty space</text>
+
+  <circle cx="530" cy="360" r="24" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <path d="M 512,352 Q 522,346 532,354 Q 540,360 548,352" fill="none" stroke="#2C4A3E" stroke-width="1.2"/>
+  <text x="530" y="398" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Earth</text>
+</svg>

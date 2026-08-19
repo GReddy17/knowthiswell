@@ -1,0 +1,64 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="densityMapTitle">
+  <title id="densityMapTitle">A world map with countries shaded on a color scale from light (very low population density, such as Mongolia, Australia, Canada, and Namibia) to dark (very high population density, such as Bangladesh, South Korea, and the Netherlands), with a small inset marking Monaco and Singapore as extreme high-density outliers too small to shade clearly on the main map</title>
+  <rect width="640" height="480" fill="#FBF8F1"/>
+
+  <text x="320" y="28" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="17" font-weight="600" fill="#1F1B16">Population density: lightest to darkest</text>
+
+  <!-- base landmasses -->
+  <g fill="#EDE7D8" stroke="#D8CFBB" stroke-width="1">
+    <path d="M63,114 L102,110 L172,100 L196,104 L219,130 L234,150 L211,166 L196,200 L169,198 L177,222 L191,232 L157,210 L138,184 L127,154 L118,140 L87,130 L63,130 Z"/>
+    <path d="M200,226 L227,230 L242,250 L266,266 L258,296 L230,320 L214,360 L211,330 L209,286 L194,258 L200,240 Z"/>
+    <path d="M306,164 L306,178 L343,176 L364,178 L374,160 L382,140 L367,130 L351,110 L328,126 L312,150 Z"/>
+    <path d="M294,208 L336,176 L370,188 L387,226 L399,226 L382,280 L374,300 L351,318 L339,286 L334,246 L304,238 L294,220 Z"/>
+    <path d="M382,160 L390,220 L413,200 L429,180 L426,234 L444,210 L460,206 L468,210 L483,230 L507,200 L510,170 L530,150 L546,130 L476,96 L413,110 L390,140 Z"/>
+    <path d="M496,294 L521,274 L541,272 L558,304 L553,324 L533,320 L499,318 Z"/>
+  </g>
+
+  <!-- low-density markers (light) -->
+  <g>
+    <circle cx="120" cy="122" r="9" fill="#D8CFBB" stroke="#B9AD90" stroke-width="1"/>
+    <circle cx="447" cy="152" r="8" fill="#D8CFBB" stroke="#B9AD90" stroke-width="1"/>
+    <circle cx="522" cy="298" r="8" fill="#D8CFBB" stroke="#B9AD90" stroke-width="1"/>
+    <circle cx="322" cy="292" r="7" fill="#D8CFBB" stroke="#B9AD90" stroke-width="1"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#8B7E5E">
+    <text x="120" y="106">Canada</text>
+    <text x="447" y="140">Mongolia</text>
+    <text x="522" y="316">Australia</text>
+    <text x="322" y="310">Namibia</text>
+  </g>
+
+  <!-- high-density markers (dark) -->
+  <g>
+    <circle cx="452" cy="204" r="8" fill="#20362D" stroke="#152119" stroke-width="1"/>
+    <circle cx="486" cy="176" r="6" fill="#20362D" stroke="#152119" stroke-width="1"/>
+    <circle cx="313" cy="150" r="6" fill="#20362D" stroke="#152119" stroke-width="1"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#20362D">
+    <text x="452" y="222">Bangladesh</text>
+    <text x="486" y="168">S. Korea</text>
+    <text x="313" y="142">Netherlands</text>
+  </g>
+
+  <!-- legend gradient -->
+  <defs>
+    <linearGradient id="densityScale" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EDE7D8"/>
+      <stop offset="0.5" stop-color="#9AAE9E"/>
+      <stop offset="1" stop-color="#20362D"/>
+    </linearGradient>
+  </defs>
+  <rect x="60" y="368" width="300" height="14" rx="3" fill="url(#densityScale)" stroke="#D8CFBB"/>
+  <text x="60" y="360" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Low density</text>
+  <text x="360" y="360" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">High density</text>
+
+  <!-- inset: extreme outliers too small to shade -->
+  <rect x="410" y="360" width="180" height="80" rx="6" fill="#FBEDEA" stroke="#E3DCC9"/>
+  <text x="500" y="376" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="11.5" font-weight="600" fill="#1F1B16">Too small to shade</text>
+  <circle cx="440" cy="404" r="6" fill="#8B4A3A"/>
+  <text x="452" y="408" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Monaco (~18,000-26,000/km&#178;)</text>
+  <circle cx="440" cy="424" r="6" fill="#8B4A3A"/>
+  <text x="452" y="428" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Singapore</text>
+
+  <text x="320" y="462" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Shading is schematic and illustrative, not a precise per-country data map.</text>
+</svg>

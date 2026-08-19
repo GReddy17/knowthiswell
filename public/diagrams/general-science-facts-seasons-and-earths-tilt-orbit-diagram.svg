@@ -1,0 +1,78 @@
+<svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="seasonsTiltTitle">
+  <title id="seasonsTiltTitle">Diagram of Earth's orbit around the Sun as an ellipse, with Earth drawn at four positions — June solstice, September equinox, December solstice, and March equinox — each with its rotational axis tilted at the same fixed 23.5-degree angle in space, showing which hemisphere is angled toward the Sun and receives more direct sunlight at each point</title>
+
+  <defs>
+    <marker id="ah4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#C9412C"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="460" fill="#FBF8F1"/>
+
+  <ellipse cx="320" cy="230" rx="250" ry="130" fill="none" stroke="#E3DCC9" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <!-- Sun -->
+  <circle cx="320" cy="230" r="24" fill="#C97C3D"/>
+  <circle cx="320" cy="230" r="24" fill="none" stroke="#8B6F4E" stroke-width="1"/>
+  <g stroke="#C97C3D" stroke-width="2" stroke-linecap="round">
+    <line x1="320" y1="196" x2="320" y2="188"/>
+    <line x1="320" y1="264" x2="320" y2="272"/>
+    <line x1="286" y1="230" x2="278" y2="230"/>
+    <line x1="354" y1="230" x2="362" y2="230"/>
+  </g>
+  <text x="320" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">Sun</text>
+
+  <!-- ===== December solstice: top ===== -->
+  <g>
+    <circle cx="320" cy="100" r="26" fill="#20362D"/>
+    <path d="M 320 74 A 26 26 0 0 0 320 126 Z" fill="#C97C3D"/>
+    <circle cx="320" cy="100" r="26" fill="none" stroke="#1F1B16" stroke-width="1"/>
+    <line x1="306.4" y1="131.2" x2="333.6" y2="68.8" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="333.6" cy="68.8" r="2.4" fill="#1F1B16"/>
+    <circle cx="306.4" cy="131.2" r="2.4" fill="#1F1B16"/>
+    <path d="M 300 118 Q 315 145 320 158" fill="none" stroke="#C9412C" stroke-width="1.6" marker-end="url(#ah4)"/>
+    <text x="320" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">December solstice</text>
+    <text x="320" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Southern Hemisphere tilted</text>
+    <text x="320" y="193" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">toward the Sun</text>
+  </g>
+
+  <!-- ===== March equinox: right ===== -->
+  <g>
+    <circle cx="570" cy="230" r="26" fill="#20362D"/>
+    <path d="M 570 204 A 26 26 0 0 0 570 256 Z" fill="#C97C3D"/>
+    <circle cx="570" cy="230" r="26" fill="none" stroke="#1F1B16" stroke-width="1"/>
+    <line x1="556.4" y1="261.2" x2="583.6" y2="198.8" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="583.6" cy="198.8" r="2.4" fill="#1F1B16"/>
+    <circle cx="556.4" cy="261.2" r="2.4" fill="#1F1B16"/>
+    <text x="573" y="163" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">March equinox</text>
+    <text x="573" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Equal sunlight,</text>
+    <text x="573" y="313" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">both hemispheres</text>
+  </g>
+
+  <!-- ===== June solstice: bottom ===== -->
+  <g>
+    <circle cx="320" cy="360" r="26" fill="#20362D"/>
+    <path d="M 320 386 A 26 26 0 0 0 320 334 Z" fill="#C97C3D"/>
+    <circle cx="320" cy="360" r="26" fill="none" stroke="#1F1B16" stroke-width="1"/>
+    <line x1="306.4" y1="391.2" x2="333.6" y2="328.8" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="333.6" cy="328.8" r="2.4" fill="#1F1B16"/>
+    <circle cx="306.4" cy="391.2" r="2.4" fill="#1F1B16"/>
+    <path d="M 340 342 Q 325 315 320 302" fill="none" stroke="#C9412C" stroke-width="1.6" marker-end="url(#ah4)"/>
+    <text x="320" y="437" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">June solstice</text>
+    <text x="320" y="282" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Northern Hemisphere tilted</text>
+    <text x="320" y="269" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">toward the Sun</text>
+  </g>
+
+  <!-- ===== September equinox: left ===== -->
+  <g>
+    <circle cx="70" cy="230" r="26" fill="#20362D"/>
+    <path d="M 70 204 A 26 26 0 0 1 70 256 Z" fill="#C97C3D"/>
+    <circle cx="70" cy="230" r="26" fill="none" stroke="#1F1B16" stroke-width="1"/>
+    <line x1="56.4" y1="261.2" x2="83.6" y2="198.8" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="83.6" cy="198.8" r="2.4" fill="#1F1B16"/>
+    <circle cx="56.4" cy="261.2" r="2.4" fill="#1F1B16"/>
+    <text x="67" y="163" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">September equinox</text>
+    <text x="67" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Equal sunlight,</text>
+    <text x="67" y="313" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">both hemispheres</text>
+  </g>
+</svg>

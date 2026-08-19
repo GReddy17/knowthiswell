@@ -1,0 +1,48 @@
+<svg viewBox="0 0 1240 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of feudal Japan's major periods: the Kamakura shogunate from 1185 to 1333, the Muromachi or Ashikaga shogunate from 1336 to 1573 with the overlapping Sengoku Warring States period from roughly 1467 to 1600 marked as a time of decentralized conflict among daimyo, the Tokugawa or Edo shogunate from 1603 to 1868 marked by reunification and over two centuries of internal peace, and the Meiji Restoration in 1868 ending shogunal rule, followed by the 1876 Haitorei Edict formally ending the samurai class</title>
+  <rect width="1240" height="260" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="620" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Nearly 700 years, unwinding in stages just as it built up in stages</text>
+
+    <rect x="40" y="90" width="220" height="40" fill="#EEF3EE"/>
+    <text x="150" y="75" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Kamakura shogunate</text>
+    <text x="150" y="113" text-anchor="middle" font-size="8.5" fill="#4A443C">Japan's first shogunate</text>
+    <text x="150" y="148" text-anchor="middle" font-size="10" fill="#8B6F4E">1185-1333</text>
+
+    <rect x="260" y="90" width="320" height="40" fill="#FBEDEA"/>
+    <text x="420" y="75" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Muromachi (Ashikaga) shogunate</text>
+    <text x="420" y="113" text-anchor="middle" font-size="8.5" fill="#4A443C">central authority weakens over time</text>
+    <text x="420" y="148" text-anchor="middle" font-size="10" fill="#8B6F4E">1336-1573</text>
+
+    <rect x="580" y="90" width="320" height="40" fill="#EDE7D8"/>
+    <text x="740" y="75" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Tokugawa (Edo) shogunate</text>
+    <text x="740" y="113" text-anchor="middle" font-size="8.5" fill="#4A443C">reunification; two centuries of peace</text>
+    <text x="740" y="148" text-anchor="middle" font-size="10" fill="#8B6F4E">1603-1868</text>
+
+    <rect x="900" y="90" width="140" height="40" fill="#EEF3EE"/>
+    <text x="970" y="75" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Meiji Restoration</text>
+    <text x="970" y="113" text-anchor="middle" font-size="8.5" fill="#4A443C">shogunal rule ends</text>
+    <text x="970" y="148" text-anchor="middle" font-size="10" fill="#8B6F4E">1868</text>
+
+    <rect x="1040" y="90" width="160" height="40" fill="#FBEDEA"/>
+    <text x="1120" y="75" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Haitorei Edict</text>
+    <text x="1120" y="113" text-anchor="middle" font-size="8.5" fill="#4A443C">samurai class formally ended</text>
+    <text x="1120" y="148" text-anchor="middle" font-size="10" fill="#8B6F4E">1876</text>
+  </g>
+  <rect x="40" y="90" width="1160" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="260" y1="90" x2="260" y2="130" stroke="#1F1B16"/>
+  <line x1="580" y1="90" x2="580" y2="130" stroke="#1F1B16"/>
+  <line x1="900" y1="90" x2="900" y2="130" stroke="#1F1B16"/>
+  <line x1="1040" y1="90" x2="1040" y2="130" stroke="#1F1B16"/>
+
+  <line x1="437" y1="130" x2="437" y2="180" stroke="#9B3A2A" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="616" y1="130" x2="616" y2="180" stroke="#9B3A2A" stroke-width="1" stroke-dasharray="3 3"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="437" y="180" width="179" height="26" fill="#FBEDEA" stroke="#9B3A2A" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="526" y="172" text-anchor="middle" font-size="10" font-weight="600" fill="#1F1B16">Sengoku ("Warring States")</text>
+    <text x="526" y="197" text-anchor="middle" font-size="8" fill="#4A443C">daimyo fight for territory</text>
+    <text x="526" y="220" text-anchor="middle" font-size="9.5" fill="#8B6F4E">c. 1467-1600</text>
+
+    <text x="620" y="246" text-anchor="middle" font-size="9.5" fill="#8B6F4E">Sengoku overlaps the Muromachi shogunate's decline, not a separate later era</text>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="langMapTitle">
+  <title id="langMapTitle">A simplified world map shaded by major language family: Indo-European across Europe and South Asia, Sino-Tibetan across East Asia, Niger-Congo across sub-Saharan Africa, Afro-Asiatic across North Africa and the Middle East, and Austronesian across Southeast Asia and the Pacific, with a marker over Papua New Guinea noting its more than 800 distinct languages</title>
+  <rect width="640" height="470" fill="#FBF8F1"/>
+
+  <text x="320" y="28" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="17" font-weight="600" fill="#1F1B16">World language families by region</text>
+
+  <!-- base landmasses -->
+  <g fill="#EDE7D8" stroke="#D8CFBB" stroke-width="1">
+    <path d="M63,114 L102,110 L172,100 L196,104 L219,130 L234,150 L211,166 L196,200 L169,198 L177,222 L191,232 L157,210 L138,184 L127,154 L118,140 L87,130 L63,130 Z"/>
+    <path d="M200,226 L227,230 L242,250 L266,266 L258,296 L230,320 L214,360 L211,330 L209,286 L194,258 L200,240 Z"/>
+    <path d="M306,164 L306,178 L343,176 L364,178 L374,160 L382,140 L367,130 L351,110 L328,126 L312,150 Z"/>
+    <path d="M294,208 L336,176 L370,188 L387,226 L399,226 L382,280 L374,300 L351,318 L339,286 L334,246 L304,238 L294,220 Z"/>
+    <path d="M382,160 L390,220 L413,200 L429,180 L426,234 L444,210 L460,206 L468,210 L483,230 L507,200 L510,170 L530,150 L546,130 L476,96 L413,110 L390,140 Z"/>
+    <path d="M496,294 L521,274 L541,272 L558,304 L553,324 L533,320 L499,318 Z"/>
+    <path d="M120,388 L560,388 L545,405 L400,411 L280,411 L135,403 Z"/>
+  </g>
+
+  <!-- language family tint overlays -->
+  <g opacity="0.55">
+    <!-- Indo-European: Europe + South Asia -->
+    <ellipse cx="344" cy="150" rx="46" ry="32" fill="#2C4A3E"/>
+    <ellipse cx="434" cy="205" rx="24" ry="24" fill="#2C4A3E"/>
+    <!-- Afro-Asiatic: North Africa + Middle East -->
+    <ellipse cx="352" cy="205" rx="58" ry="26" fill="#5B7A99"/>
+    <!-- Niger-Congo: sub-Saharan Africa -->
+    <ellipse cx="350" cy="268" rx="52" ry="52" fill="#C9412C"/>
+    <!-- Sino-Tibetan: East Asia -->
+    <ellipse cx="492" cy="168" rx="42" ry="38" fill="#8B6F4E"/>
+  </g>
+
+  <!-- Austronesian: Southeast Asia + Pacific, shown as dot cluster -->
+  <g fill="#2C4A3E" opacity="0.8">
+    <circle cx="478" cy="222" r="3"/>
+    <circle cx="495" cy="232" r="3"/>
+    <circle cx="512" cy="224" r="3"/>
+    <circle cx="500" cy="252" r="3"/>
+    <circle cx="522" cy="248" r="3"/>
+    <circle cx="540" cy="238" r="3"/>
+    <circle cx="558" cy="256" r="3"/>
+    <circle cx="575" cy="270" r="3"/>
+  </g>
+
+  <!-- Papua New Guinea marker -->
+  <circle cx="575" cy="270" r="5" fill="#C9412C" stroke="#FBF8F1" stroke-width="1.2"/>
+  <path d="M 575,275 L 575,300" stroke="#8B6F4E" stroke-width="1" stroke-dasharray="2 2"/>
+  <text x="575" y="315" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Papua New Guinea</text>
+  <text x="575" y="328" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">800+ languages —</text>
+  <text x="575" y="340" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">the world's most linguistically</text>
+  <text x="575" y="352" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">diverse country by area</text>
+
+  <!-- legend -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">
+    <rect x="60" y="405" width="13" height="13" fill="#2C4A3E" opacity="0.65"/>
+    <text x="78" y="415">Indo-European (Europe, South Asia)</text>
+
+    <rect x="60" y="424" width="13" height="13" fill="#5B7A99" opacity="0.65"/>
+    <text x="78" y="434">Afro-Asiatic (North Africa, Middle East)</text>
+
+    <rect x="310" y="405" width="13" height="13" fill="#C9412C" opacity="0.65"/>
+    <text x="328" y="415">Niger-Congo (sub-Saharan Africa)</text>
+
+    <rect x="310" y="424" width="13" height="13" fill="#8B6F4E" opacity="0.65"/>
+    <text x="328" y="434">Sino-Tibetan (East Asia)</text>
+
+    <circle cx="66.5" cy="449" r="3.5" fill="#2C4A3E" opacity="0.8"/>
+    <text x="78" y="453">Austronesian (Southeast Asia, Pacific)</text>
+  </g>
+
+  <text x="320" y="462" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Simplified regional overview — family boundaries are approximate, not linguistic borders.</text>
+</svg>

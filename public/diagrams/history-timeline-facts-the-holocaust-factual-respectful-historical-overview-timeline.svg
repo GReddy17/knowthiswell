@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1950 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Horizontal timeline showing 1933 the Nazi Party takes power and legal exclusion of Jews begins, 1935 the Nuremberg Laws strip Jews of citizenship, November 1938 Kristallnacht state-organized violence, 1939 forced ghettoization begins following the invasion of Poland, June 1941 mass shootings begin following the invasion of the Soviet Union, January 1942 the Wannsee Conference formalizes coordination of mass murder, 1942 to 1944 systematic killing at camps across occupied Europe, and 1944 to 1945 Allied and Soviet forces liberate camps including Auschwitz-Birkenau on January 27, 1945</title>
+  <rect width="1950" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="975" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">A documented escalation across twelve years, per USHMM and Yad Vashem</text>
+
+    <rect x="40" y="115" width="220" height="40" fill="#EEF3EE"/>
+    <text x="150" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Nazi Party takes power</text>
+    <text x="150" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Legal exclusion of Jews begins</text>
+    <text x="150" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1933</text>
+
+    <rect x="260" y="115" width="200" height="40" fill="#FBEDEA"/>
+    <text x="360" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Nuremberg Laws</text>
+    <text x="360" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Strip Jews of citizenship</text>
+    <text x="360" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1935</text>
+
+    <rect x="460" y="115" width="190" height="40" fill="#EDE7D8"/>
+    <text x="555" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Kristallnacht</text>
+    <text x="555" y="138" text-anchor="middle" font-size="9" fill="#4A443C">State-organized violence</text>
+    <text x="555" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Nov 1938</text>
+
+    <rect x="650" y="115" width="240" height="40" fill="#EEF3EE"/>
+    <text x="770" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Forced ghettoization begins</text>
+    <text x="770" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Following invasion of Poland</text>
+    <text x="770" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1939</text>
+
+    <rect x="890" y="115" width="260" height="40" fill="#FBEDEA"/>
+    <text x="1020" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Mass shootings begin</text>
+    <text x="1020" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Following invasion of the USSR</text>
+    <text x="1020" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Jun 1941</text>
+
+    <rect x="1150" y="115" width="230" height="40" fill="#EDE7D8"/>
+    <text x="1265" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Wannsee Conference</text>
+    <text x="1265" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Formalizes coordination of mass murder</text>
+    <text x="1265" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Jan 1942</text>
+
+    <rect x="1380" y="115" width="260" height="40" fill="#EEF3EE"/>
+    <text x="1510" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Systematic killing at camps</text>
+    <text x="1510" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Across occupied Europe</text>
+    <text x="1510" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1942&#8211;1944</text>
+
+    <rect x="1640" y="115" width="270" height="40" fill="#FBEDEA"/>
+    <text x="1775" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Camps liberated</text>
+    <text x="1775" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Incl. Auschwitz-Birkenau, 27 Jan 1945</text>
+    <text x="1775" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1944&#8211;1945</text>
+  </g>
+  <rect x="40" y="115" width="1870" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="260" y1="115" x2="260" y2="155" stroke="#1F1B16"/>
+  <line x1="460" y1="115" x2="460" y2="155" stroke="#1F1B16"/>
+  <line x1="650" y1="115" x2="650" y2="155" stroke="#1F1B16"/>
+  <line x1="890" y1="115" x2="890" y2="155" stroke="#1F1B16"/>
+  <line x1="1150" y1="115" x2="1150" y2="155" stroke="#1F1B16"/>
+  <line x1="1380" y1="115" x2="1380" y2="155" stroke="#1F1B16"/>
+  <line x1="1640" y1="115" x2="1640" y2="155" stroke="#1F1B16"/>
+</svg>

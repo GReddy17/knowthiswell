@@ -1,0 +1,48 @@
+<svg viewBox="0 0 1435 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the French Revolution from the Estates-General convening and the storming of the Bastille in 1789, through the Declaration of the Rights of Man in August 1789, the abolition of the monarchy in 1792, the execution of Louis XVI and start of the Reign of Terror in January 1793, the Thermidorian Reaction and execution of Robespierre in July 1794, the unstable Directory government from 1795 to 1799, and Napoleon Bonaparte's coup in November 1799</title>
+  <rect width="1435" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="717" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Ten years from the Bastille's fall to Napoleon's coup</text>
+
+    <rect x="40" y="115" width="185" height="40" fill="#EEF3EE"/>
+    <text x="132" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Bastille stormed</text>
+    <text x="132" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Estates-General convenes</text>
+    <text x="132" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1789</text>
+
+    <rect x="225" y="115" width="175" height="40" fill="#FBEDEA"/>
+    <text x="312" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Rights of Man declared</text>
+    <text x="312" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Aug 1789</text>
+
+    <rect x="400" y="115" width="195" height="40" fill="#EDE7D8"/>
+    <text x="497" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Monarchy abolished</text>
+    <text x="497" y="138" text-anchor="middle" font-size="9" fill="#4A443C">French Republic proclaimed</text>
+    <text x="497" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1792</text>
+
+    <rect x="595" y="115" width="185" height="40" fill="#EEF3EE"/>
+    <text x="687" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Louis XVI executed</text>
+    <text x="687" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Reign of Terror begins</text>
+    <text x="687" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Jan 1793</text>
+
+    <rect x="780" y="115" width="195" height="40" fill="#FBEDEA"/>
+    <text x="877" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Thermidorian Reaction</text>
+    <text x="877" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Robespierre executed</text>
+    <text x="877" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Jul 1794</text>
+
+    <rect x="975" y="115" width="205" height="40" fill="#EDE7D8"/>
+    <text x="1077" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">The Directory</text>
+    <text x="1077" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Unstable five-man government</text>
+    <text x="1077" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1795–1799</text>
+
+    <rect x="1180" y="115" width="215" height="40" fill="#EEF3EE"/>
+    <text x="1287" y="100" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Napoleon's coup</text>
+    <text x="1287" y="138" text-anchor="middle" font-size="9" fill="#4A443C">18 Brumaire ends the Directory</text>
+    <text x="1287" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Nov 1799</text>
+  </g>
+  <rect x="40" y="115" width="1355" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="225" y1="115" x2="225" y2="155" stroke="#1F1B16"/>
+  <line x1="400" y1="115" x2="400" y2="155" stroke="#1F1B16"/>
+  <line x1="595" y1="115" x2="595" y2="155" stroke="#1F1B16"/>
+  <line x1="780" y1="115" x2="780" y2="155" stroke="#1F1B16"/>
+  <line x1="975" y1="115" x2="975" y2="155" stroke="#1F1B16"/>
+  <line x1="1180" y1="115" x2="1180" y2="155" stroke="#1F1B16"/>
+</svg>

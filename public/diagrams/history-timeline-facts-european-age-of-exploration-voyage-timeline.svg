@@ -1,0 +1,59 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Route map and timeline of major European exploration voyages: Portuguese voyages down the West African coast from the 1420s, Bartolomeu Dias rounding the Cape of Good Hope in 1488, Vasco da Gama reaching India by sea in 1498, Columbus's westward Atlantic voyage reaching the Caribbean in 1492, and Magellan's expedition circumnavigating the globe between 1519 and 1522</title>
+  <rect width="700" height="480" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="350" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Major exploration voyages, 1420s-1520s</text>
+    <text x="350" y="44" text-anchor="middle" font-size="10.5" fill="#8B6F4E">schematic routes, not exact tracks</text>
+
+    <!-- schematic landmasses -->
+    <g fill="#EDE7D8" stroke="#D8CFBB" stroke-width="1.2">
+      <path d="M100,80 Q150,68 178,98 Q190,140 168,182 Q132,198 100,176 Q78,140 84,108 Q88,90 100,80 Z"/>
+      <path d="M128,208 Q172,198 192,232 Q206,272 196,322 Q180,362 150,366 Q124,350 118,300 Q112,250 128,208 Z"/>
+      <path d="M328,58 Q366,52 388,74 Q393,96 370,107 Q344,110 328,90 Q320,72 328,58 Z"/>
+      <path d="M328,118 Q382,108 412,140 Q428,192 417,252 Q406,304 374,332 Q343,337 328,300 Q313,250 318,188 Q320,148 328,118 Z"/>
+      <path d="M468,128 Q522,112 562,140 Q582,172 566,212 Q546,238 508,232 Q478,212 468,170 Q463,148 468,128 Z"/>
+    </g>
+    <text x="132" y="128" text-anchor="middle" font-size="10.5" font-weight="600" fill="#4A443C">N. America</text>
+    <text x="158" y="288" text-anchor="middle" font-size="10.5" font-weight="600" fill="#4A443C">S. America</text>
+    <text x="358" y="86" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">Europe</text>
+    <text x="368" y="222" text-anchor="middle" font-size="10.5" font-weight="600" fill="#4A443C">Africa</text>
+    <text x="515" y="178" text-anchor="middle" font-size="10.5" font-weight="600" fill="#4A443C">India / Asia</text>
+
+    <!-- Portuguese coastal exploration 1420s to 1488 -->
+    <path d="M356,96 Q338,160 334,210 Q332,270 344,322" fill="none" stroke="#B08D3E" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <circle cx="356" cy="96" r="3.2" fill="#B08D3E"/>
+    <circle cx="344" cy="322" r="4.5" fill="#B08D3E"/>
+    <text x="298" y="200" font-size="9.5" font-weight="700" fill="#8B6F4E">Portuguese coast route</text>
+    <text x="298" y="211" font-size="9.5" font-weight="700" fill="#8B6F4E">1420s onward</text>
+    <text x="300" y="336" font-size="9.5" font-weight="700" fill="#8B6F4E">Dias rounds the Cape, 1488</text>
+
+    <!-- da Gama to India 1498 -->
+    <path d="M344,322 Q404,344 444,300 Q472,258 492,208" fill="none" stroke="#5B7A99" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <circle cx="492" cy="208" r="4.5" fill="#5B7A99"/>
+    <text x="418" y="345" text-anchor="middle" font-size="9.5" font-weight="700" fill="#3F5E78">da Gama reaches India, 1498</text>
+
+    <!-- Columbus 1492 -->
+    <path d="M354,92 Q260,108 205,148 Q182,168 172,186" fill="none" stroke="#C9412C" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <circle cx="354" cy="92" r="3.2" fill="#C9412C"/>
+    <circle cx="172" cy="186" r="4.5" fill="#C9412C"/>
+    <text x="235" y="132" text-anchor="middle" font-size="9.5" font-weight="700" fill="#9B3A2A">Columbus reaches</text>
+    <text x="235" y="143" text-anchor="middle" font-size="9.5" font-weight="700" fill="#9B3A2A">the Caribbean, 1492</text>
+
+    <!-- Magellan-Elcano circumnavigation 1519-1522 -->
+    <path d="M352,100 Q270,220 210,300 Q175,348 152,364" fill="none" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="2 4"/>
+    <path d="M152,364 Q300,420 470,410 Q560,404 566,240" fill="none" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="2 4"/>
+    <path d="M566,240 L558,232 L572,228 Z" fill="#2C4A3E"/>
+    <text x="350" y="432" text-anchor="middle" font-size="9.5" font-weight="700" fill="#20362D">Magellan-Elcano circumnavigation, 1519-1522</text>
+    <text x="350" y="445" text-anchor="middle" font-size="9" fill="#4A443C">(Magellan killed in the Philippines, 1521; voyage finished under Elcano)</text>
+
+    <!-- legend -->
+    <line x1="55" y1="465" x2="80" y2="465" stroke="#B08D3E" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <text x="86" y="469" font-size="9.5" fill="#1F1B16">Portuguese route</text>
+    <line x1="210" y1="465" x2="235" y2="465" stroke="#C9412C" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <text x="241" y="469" font-size="9.5" fill="#1F1B16">Columbus</text>
+    <line x1="330" y1="465" x2="355" y2="465" stroke="#5B7A99" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <text x="361" y="469" font-size="9.5" fill="#1F1B16">da Gama</text>
+    <line x1="460" y1="465" x2="485" y2="465" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="2 4"/>
+    <text x="491" y="469" font-size="9.5" fill="#1F1B16">Magellan-Elcano</text>
+  </g>
+</svg>

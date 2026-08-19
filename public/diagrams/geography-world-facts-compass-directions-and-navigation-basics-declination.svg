@@ -1,0 +1,50 @@
+<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="declinationTitle">
+  <title id="declinationTitle">A compass rose with two arrows from the same center point: true north pointing straight up toward the geographic North Pole, and magnetic north pointing at an offset angle toward Earth's magnetic north pole, with the angle between them labeled as magnetic declination</title>
+  <rect width="480" height="480" fill="#FBF8F1"/>
+
+  <text x="240" y="34" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="19" font-weight="600" fill="#1F1B16">True north vs. magnetic north</text>
+
+  <circle cx="240" cy="250" r="175" fill="#EEF3EE" stroke="#E3DCC9" stroke-width="1.5"/>
+  <!-- degree ticks -->
+  <g stroke="#D8CFBB" stroke-width="1">
+    <line x1="240" y1="75" x2="240" y2="90"/>
+    <line x1="240" y1="410" x2="240" y2="425"/>
+    <line x1="65" y1="250" x2="80" y2="250"/>
+    <line x1="400" y1="250" x2="415" y2="250"/>
+  </g>
+  <text x="240" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">N</text>
+  <text x="240" y="440" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">S</text>
+  <text x="52" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">W</text>
+  <text x="428" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">E</text>
+
+  <!-- declination wedge -->
+  <path d="M 240,250 L 240,90 A 160 160 0 0 1 285,98 Z" fill="#C9412C" opacity="0.15"/>
+
+  <!-- true north arrow -->
+  <line x1="240" y1="250" x2="240" y2="95" stroke="#2C4A3E" stroke-width="3.5" marker-end="url(#arrowTN)"/>
+  <text x="250" y="80" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#2C4A3E">True north</text>
+  <text x="250" y="96" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">(geographic North Pole)</text>
+
+  <!-- magnetic north arrow, offset ~16 degrees -->
+  <line x1="240" y1="250" x2="286" y2="99" stroke="#C9412C" stroke-width="3.5" marker-end="url(#arrowMN)"/>
+  <text x="300" y="110" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#C9412C">Magnetic north</text>
+  <text x="300" y="126" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">(magnetic North Pole)</text>
+
+  <!-- declination arc label -->
+  <path d="M 240,190 A 60 60 0 0 1 258,192" fill="none" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="272" y="182" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">declination</text>
+  <text x="272" y="197" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">(varies by location)</text>
+
+  <circle cx="240" cy="250" r="4.5" fill="#1F1B16"/>
+
+  <defs>
+    <marker id="arrowTN" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowMN" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#C9412C"/>
+    </marker>
+  </defs>
+
+  <text x="240" y="462" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">A compass needle points to magnetic north, not true north &#8212; the gap is the declination.</text>
+</svg>

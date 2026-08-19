@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="numberLineTitle">
+  <title id="numberLineTitle">A horizontal number line centered on zero, negative integers extending left and positive integers extending right, with arrows showing that adding a positive number moves right and adding a negative number moves left, plus a worked example showing subtraction of a negative number, 5 minus negative 3, as a rightward move to 8</title>
+  <rect width="640" height="300" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="320" y="34" text-anchor="middle" font-size="14" font-weight="600" fill="#2C4A3E">Direction and distance from zero</text>
+
+    <!-- generic rule arrows -->
+    <path d="M 320,66 L 460,66" stroke="#2C4A3E" stroke-width="1.75" fill="none"/>
+    <path d="M 460,66 L 450,61 L 450,71 Z" fill="#2C4A3E"/>
+    <text x="390" y="58" text-anchor="middle" font-size="11.5" fill="#2C4A3E">adding a positive number → move right</text>
+
+    <path d="M 320,66 L 180,66" stroke="#8B6F4E" stroke-width="1.75" fill="none"/>
+    <path d="M 180,66 L 190,61 L 190,71 Z" fill="#8B6F4E"/>
+    <text x="250" y="58" text-anchor="middle" font-size="11.5" fill="#8B6F4E">adding a negative number → move left</text>
+
+    <!-- axis -->
+    <line x1="40" y1="170" x2="600" y2="170" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 600,170 L 590,165 L 590,175 Z" fill="#1F1B16"/>
+    <path d="M 40,170 L 50,165 L 50,175 Z" fill="#1F1B16"/>
+
+    <!-- ticks every integer from -10 to 10, spacing 28px -->
+    <g stroke="#1F1B16">
+      <line x1="40" y1="164" x2="40" y2="176"/><line x1="68" y1="167" x2="68" y2="173"/><line x1="96" y1="167" x2="96" y2="173"/>
+      <line x1="124" y1="167" x2="124" y2="173"/><line x1="152" y1="167" x2="152" y2="173"/><line x1="180" y1="164" x2="180" y2="176"/>
+      <line x1="208" y1="167" x2="208" y2="173"/><line x1="236" y1="167" x2="236" y2="173"/><line x1="264" y1="167" x2="264" y2="173"/>
+      <line x1="292" y1="167" x2="292" y2="173"/><line x1="320" y1="160" x2="320" y2="180" stroke-width="2"/>
+      <line x1="348" y1="167" x2="348" y2="173"/><line x1="376" y1="167" x2="376" y2="173"/><line x1="404" y1="167" x2="404" y2="173"/>
+      <line x1="432" y1="167" x2="432" y2="173"/><line x1="460" y1="164" x2="460" y2="176"/><line x1="488" y1="167" x2="488" y2="173"/>
+      <line x1="516" y1="167" x2="516" y2="173"/><line x1="544" y1="167" x2="544" y2="173"/><line x1="572" y1="167" x2="572" y2="173"/>
+      <line x1="600" y1="164" x2="600" y2="176"/>
+    </g>
+
+    <g font-size="12" fill="#4A443C" text-anchor="middle">
+      <text x="40" y="192">-10</text>
+      <text x="180" y="192">-5</text>
+      <text x="320" y="192" fill="#1F1B16" font-weight="600">0</text>
+      <text x="460" y="192">5</text>
+      <text x="600" y="192">10</text>
+    </g>
+
+    <!-- worked example: 5 - (-3) = 8, a rightward move -->
+    <circle cx="460" cy="170" r="5" fill="#C9412C"/>
+    <text x="460" y="216" text-anchor="middle" font-size="11" fill="#1F1B16">start: 5</text>
+
+    <circle cx="544" cy="170" r="5" fill="#2C4A3E"/>
+    <text x="544" y="216" text-anchor="middle" font-size="11" fill="#1F1B16">end: 8</text>
+
+    <path d="M 460,240 Q 502,224 544,240" fill="none" stroke="#C9412C" stroke-width="1.75"/>
+    <path d="M 544,240 L 535,236 L 538,246 Z" fill="#C9412C"/>
+    <text x="502" y="262" text-anchor="middle" font-size="12.5" font-weight="600" fill="#C9412C">5 − (−3) = 5 + 3 = 8</text>
+    <text x="502" y="278" text-anchor="middle" font-size="11" fill="#8B6F4E">subtracting a negative moves right, same as adding its positive</text>
+  </g>
+</svg>

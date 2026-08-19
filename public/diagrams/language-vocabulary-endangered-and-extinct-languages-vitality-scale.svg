@@ -1,0 +1,56 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">UNESCO's six-level scale of language vitality, from Safe through Vulnerable, Definitely Endangered, Severely Endangered, and Critically Endangered, to Extinct</title>
+  <rect width="640" height="480" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="320" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Six levels of language vitality</text>
+
+    <!-- connecting spine -->
+    <line x1="70" y1="55" x2="70" y2="435" stroke="#E3DCC9" stroke-width="3"/>
+
+    <!-- Stage 1: Safe -->
+    <circle cx="70" cy="55" r="15" fill="#2C4A3E"/>
+    <text x="70" y="60" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">1</text>
+    <text x="102" y="49" font-size="13" font-weight="700" fill="#1F1B16">Safe</text>
+    <text x="102" y="65" font-size="10.5" fill="#4A443C">used by all generations; transmission across generations uninterrupted</text>
+
+    <path d="M 70,78 L 65,88 L 75,88 Z" fill="#4A443C"/>
+
+    <!-- Stage 2: Vulnerable -->
+    <circle cx="70" cy="131" r="15" fill="#4F6B52"/>
+    <text x="70" y="136" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">2</text>
+    <text x="102" y="125" font-size="13" font-weight="700" fill="#1F1B16">Vulnerable</text>
+    <text x="102" y="141" font-size="10.5" fill="#4A443C">used by most children, but only in limited settings, e.g. at home</text>
+
+    <path d="M 70,154 L 65,164 L 75,164 Z" fill="#4A443C"/>
+
+    <!-- Stage 3: Definitely Endangered -->
+    <circle cx="70" cy="207" r="15" fill="#8B6F4E"/>
+    <text x="70" y="212" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">3</text>
+    <text x="102" y="201" font-size="13" font-weight="700" fill="#1F1B16">Definitely Endangered</text>
+    <text x="102" y="217" font-size="10.5" fill="#4A443C">children no longer learn it as a first language at home</text>
+
+    <path d="M 70,230 L 65,240 L 75,240 Z" fill="#4A443C"/>
+
+    <!-- Stage 4: Severely Endangered -->
+    <circle cx="70" cy="283" r="15" fill="#B0774A"/>
+    <text x="70" y="288" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">4</text>
+    <text x="102" y="277" font-size="13" font-weight="700" fill="#1F1B16">Severely Endangered</text>
+    <text x="102" y="293" font-size="10.5" fill="#4A443C">spoken mainly by the grandparent generation and older</text>
+
+    <path d="M 70,306 L 65,316 L 75,316 Z" fill="#4A443C"/>
+
+    <!-- Stage 5: Critically Endangered -->
+    <circle cx="70" cy="359" r="15" fill="#B0503A"/>
+    <text x="70" y="364" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">5</text>
+    <text x="102" y="353" font-size="13" font-weight="700" fill="#1F1B16">Critically Endangered</text>
+    <text x="102" y="369" font-size="10.5" fill="#4A443C">spoken by very few, often only the oldest generation, and rarely</text>
+
+    <path d="M 70,382 L 65,392 L 75,392 Z" fill="#4A443C"/>
+
+    <!-- Stage 6: Extinct -->
+    <circle cx="70" cy="435" r="15" fill="#1F1B16"/>
+    <text x="70" y="440" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">6</text>
+    <text x="102" y="429" font-size="13" font-weight="700" fill="#1F1B16">Extinct</text>
+    <text x="102" y="445" font-size="10.5" fill="#4A443C">no speakers remain</text>
+  </g>
+</svg>

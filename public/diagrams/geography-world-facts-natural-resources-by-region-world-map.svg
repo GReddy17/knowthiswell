@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="resourcesMapTitle">
+  <title id="resourcesMapTitle">World map with shaded regions marking major resource concentrations: the Middle East and parts of Russia and North America shaded for oil and gas reserves, Central Africa and the Andes shaded for metal ore deposits, and the Amazon Basin and Canadian Shield shaded for fresh water and timber, each labeled with the resource that region is known for</title>
+  <rect width="640" height="480" fill="#FBF8F1"/>
+
+  <text x="320" y="28" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="17" font-weight="600" fill="#1F1B16">Natural resources by region</text>
+
+  <!-- base landmasses -->
+  <g fill="#EDE7D8" stroke="#D8CFBB" stroke-width="1">
+    <path d="M63,114 L102,110 L172,100 L196,104 L219,130 L234,150 L211,166 L196,200 L169,198 L177,222 L191,232 L157,210 L138,184 L127,154 L118,140 L87,130 L63,130 Z"/>
+    <path d="M200,226 L227,230 L242,250 L266,266 L258,296 L230,320 L214,360 L211,330 L209,286 L194,258 L200,240 Z"/>
+    <path d="M306,164 L306,178 L343,176 L364,178 L374,160 L382,140 L367,130 L351,110 L328,126 L312,150 Z"/>
+    <path d="M294,208 L336,176 L370,188 L387,226 L399,226 L382,280 L374,300 L351,318 L339,286 L334,246 L304,238 L294,220 Z"/>
+    <path d="M382,160 L390,220 L413,200 L429,180 L426,234 L444,210 L460,206 L468,210 L483,230 L507,200 L510,170 L530,150 L546,130 L476,96 L413,110 L390,140 Z"/>
+    <path d="M496,294 L521,274 L541,272 L558,304 L553,324 L533,320 L499,318 Z"/>
+  </g>
+
+  <!-- Oil & gas: Middle East, Russia, North America -->
+  <g fill="#8B6F4E">
+    <ellipse cx="401" cy="211" rx="22" ry="15" opacity="0.55"/>
+    <ellipse cx="465" cy="140" rx="46" ry="20" opacity="0.4"/>
+    <ellipse cx="100" cy="163" rx="26" ry="16" opacity="0.4"/>
+  </g>
+  <text x="401" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#6B5636">Middle East</text>
+  <text x="401" y="238" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#6B5636">oil &amp; gas</text>
+  <text x="465" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#6B5636">Russia</text>
+  <text x="465" y="129" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#6B5636">oil &amp; gas</text>
+  <text x="100" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#6B5636">N. America oil &amp; gas</text>
+
+  <!-- Metal ores: Central Africa, Andes -->
+  <g fill="#B24A38">
+    <ellipse cx="349" cy="256" rx="20" ry="19" opacity="0.5"/>
+    <ellipse cx="206" cy="286" rx="12" ry="52" opacity="0.5"/>
+  </g>
+  <text x="349" y="253" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" font-weight="700" fill="#8A3626">Central Africa</text>
+  <text x="349" y="264" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#8A3626">metal ores</text>
+  <text x="168" y="283" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" font-weight="700" fill="#8A3626">Andes</text>
+  <text x="168" y="294" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#8A3626">metal ores</text>
+
+  <!-- Fresh water & timber: Amazon Basin, Canadian Shield -->
+  <g fill="#5B7A99">
+    <ellipse cx="233" cy="253" rx="20" ry="17" opacity="0.5"/>
+    <ellipse cx="152" cy="123" rx="28" ry="16" opacity="0.45"/>
+  </g>
+  <text x="233" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" font-weight="700" fill="#3F5E78">Amazon</text>
+  <text x="233" y="261" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="7.5" fill="#3F5E78">fresh water &amp; timber</text>
+  <text x="152" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" font-weight="700" fill="#3F5E78">Canadian Shield</text>
+  <text x="152" y="131" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="7.5" fill="#3F5E78">fresh water &amp; timber</text>
+
+  <line x1="40" y1="368" x2="600" y2="368" stroke="#E3DCC9" stroke-width="1"/>
+
+  <!-- legend -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">
+    <circle cx="80" cy="392" r="6" fill="#8B6F4E" opacity="0.6"/>
+    <text x="94" y="396">Oil &amp; gas reserves</text>
+    <circle cx="270" cy="392" r="6" fill="#B24A38" opacity="0.6"/>
+    <text x="284" y="396">Metal ore deposits</text>
+    <circle cx="460" cy="392" r="6" fill="#5B7A99" opacity="0.6"/>
+    <text x="474" y="396">Fresh water &amp; timber</text>
+  </g>
+
+  <text x="320" y="430" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Shaded zones show representative concentrations, not exhaustive deposits or exact boundaries.</text>
+</svg>

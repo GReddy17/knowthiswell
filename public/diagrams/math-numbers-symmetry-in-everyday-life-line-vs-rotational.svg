@@ -1,0 +1,64 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="symmetryTitle">
+  <title id="symmetryTitle">Side-by-side comparison grid with four example shapes: a square, the letter A, the letter S, and a five-pointed starfish outline, each shown with its lines of symmetry drawn as dashed lines where present, and a curved arrow with a degree label showing its smallest rotational symmetry angle where present, with a checkmark or X in each of the two symmetry-type columns</title>
+  <rect width="640" height="440" fill="#FBF8F1"/>
+
+  <text x="130" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#4A443C">Shape</text>
+  <text x="350" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#4A443C">Line symmetry</text>
+  <text x="530" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#4A443C">Rotational symmetry</text>
+  <line x1="20" y1="40" x2="620" y2="40" stroke="#E3DCC9" stroke-width="1.5"/>
+
+  <!-- Row 1: Square -->
+  <g>
+    <rect x="100" y="70" width="60" height="60" fill="#EEF3EE" stroke="#1F1B16" stroke-width="2"/>
+    <line x1="130" y1="70" x2="130" y2="130" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3 2"/>
+    <line x1="100" y1="100" x2="160" y2="100" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3 2"/>
+    <line x1="100" y1="70" x2="160" y2="130" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3 2"/>
+    <line x1="160" y1="70" x2="100" y2="130" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3 2"/>
+  </g>
+  <path d="M 335,90 L 345,86 L 341,96 Z" fill="#2C4A3E"/>
+  <text x="330" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#2C4A3E">&#10003;</text>
+  <text x="370" y="105" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">4 lines</text>
+  <path d="M 515,88 A 16,16 0 1,1 514,88" fill="none" stroke="#2C4A3E" stroke-width="1.6"/>
+  <path d="M 515,88 L 508,84 L 511,93 Z" fill="#2C4A3E"/>
+  <text x="500" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#2C4A3E">&#10003;</text>
+  <text x="540" y="105" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">90&#176; (order 4)</text>
+
+  <line x1="20" y1="145" x2="620" y2="145" stroke="#EDE7D8" stroke-width="1"/>
+
+  <!-- Row 2: Letter A -->
+  <path d="M 100,220 L 130,160 L 160,220 M 112,200 L 148,200" fill="none" stroke="#1F1B16" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="130" y1="152" x2="130" y2="228" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="330" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#2C4A3E">&#10003;</text>
+  <text x="370" y="195" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">1 line (vertical)</text>
+  <text x="500" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#8B6F4E">&#10007;</text>
+  <text x="540" y="195" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">none (order 1)</text>
+
+  <line x1="20" y1="235" x2="620" y2="235" stroke="#EDE7D8" stroke-width="1"/>
+
+  <!-- Row 3: Letter S -->
+  <path d="M 152,270 Q 108,265 108,283 Q 108,300 130,300 Q 152,300 152,317 Q 152,335 108,330" fill="none" stroke="#1F1B16" stroke-width="7" stroke-linecap="round"/>
+  <text x="330" y="303" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#8B6F4E">&#10007;</text>
+  <text x="370" y="303" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">0 lines</text>
+  <path d="M 515,285 A 16,16 0 1,1 514,285" fill="none" stroke="#2C4A3E" stroke-width="1.6"/>
+  <path d="M 515,285 L 508,281 L 511,290 Z" fill="#2C4A3E"/>
+  <text x="500" y="303" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#2C4A3E">&#10003;</text>
+  <text x="540" y="303" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">180&#176; (order 2)</text>
+
+  <line x1="20" y1="335" x2="620" y2="335" stroke="#EDE7D8" stroke-width="1"/>
+
+  <!-- Row 4: Five-pointed star -->
+  <polygon points="130,332 138.8,357.9 166.1,358.3 144.3,374.6 152.3,400.7 130,385 107.7,400.7 115.7,374.6 93.9,358.3 121.2,357.9" fill="#EEF3EE" stroke="#1F1B16" stroke-width="2" stroke-linejoin="round"/>
+  <g stroke="#2C4A3E" stroke-width="0.8" stroke-dasharray="3 2">
+    <line x1="130" y1="325" x2="130" y2="415"/>
+    <line x1="172.8" y1="356.1" x2="87.2" y2="383.9"/>
+    <line x1="156.5" y1="406.4" x2="103.5" y2="333.6"/>
+    <line x1="103.5" y1="406.4" x2="156.5" y2="333.6"/>
+    <line x1="87.2" y1="356.1" x2="172.8" y2="383.9"/>
+  </g>
+  <text x="330" y="393" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#2C4A3E">&#10003;</text>
+  <text x="370" y="393" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">5 lines</text>
+  <path d="M 515,375 A 16,16 0 1,1 514,375" fill="none" stroke="#2C4A3E" stroke-width="1.6"/>
+  <path d="M 515,375 L 508,371 L 511,380 Z" fill="#2C4A3E"/>
+  <text x="500" y="393" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#2C4A3E">&#10003;</text>
+  <text x="540" y="393" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">72&#176; (order 5)</text>
+</svg>

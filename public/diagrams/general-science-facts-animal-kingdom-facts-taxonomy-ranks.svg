@@ -1,0 +1,45 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="taxonomyTitle">
+  <title id="taxonomyTitle">A nested funnel showing seven taxonomic ranks narrowing from broad to specific, from Kingdom Animalia down to Species catus, using the house cat as an example at every level</title>
+
+  <rect x="0" y="0" width="640" height="480" fill="#FBF8F1"/>
+
+  <text x="320" y="34" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="17" font-weight="600" fill="#1F1B16">Broader rank</text>
+  <text x="320" y="462" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="17" font-weight="600" fill="#1F1B16">Narrower rank</text>
+
+  <!-- tier 1: Kingdom -->
+  <path d="M 60,60 L 580,60 L 545,110 L 95,110 Z" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="320" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Kingdom — Animalia</text>
+  <text x="320" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">e.g. all animals</text>
+
+  <!-- tier 2: Phylum -->
+  <path d="M 95,110 L 545,110 L 510,160 L 130,160 Z" fill="#DCE7DE" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="320" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Phylum — Chordata</text>
+  <text x="320" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">e.g. animals with backbones</text>
+
+  <!-- tier 3: Class -->
+  <path d="M 130,160 L 510,160 L 475,210 L 165,210 Z" fill="#BCD5C7" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="320" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Class — Mammalia</text>
+  <text x="320" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">e.g. mammals</text>
+
+  <!-- tier 4: Order -->
+  <path d="M 165,210 L 475,210 L 440,260 L 200,260 Z" fill="#93BAA4" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="320" y="232" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Order — Carnivora</text>
+  <text x="320" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">e.g. meat-eating mammals</text>
+
+  <!-- tier 5: Family -->
+  <path d="M 200,260 L 440,260 L 405,310 L 235,310 Z" fill="#6C9C80" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="320" y="282" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF8F1">Family — Felidae</text>
+  <text x="320" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#EEF3EE">e.g. cats, all species</text>
+
+  <!-- tier 6: Genus -->
+  <path d="M 235,310 L 405,310 L 370,360 L 270,360 Z" fill="#48755F" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="320" y="332" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF8F1">Genus — Felis</text>
+  <text x="320" y="350" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#EEF3EE">e.g. small cats</text>
+
+  <!-- tier 7: Species -->
+  <path d="M 270,360 L 370,360 L 340,410 L 300,410 Z" fill="#2C4A3E" stroke="#20362D" stroke-width="1"/>
+  <text x="320" y="386" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Species</text>
+  <text x="320" y="401" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#EEF3EE">Felis catus</text>
+
+  <text x="320" y="438" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Example at every level: the house cat</text>
+</svg>

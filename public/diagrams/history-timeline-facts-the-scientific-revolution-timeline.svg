@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1350 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the Scientific Revolution from Copernicus publishing the heliocentric model in 1543, through Galileo's telescopic observations around 1609 to 1610, Francis Bacon's inductive method described in Novum Organum in 1620, Galileo's trial by the Roman Inquisition in 1633, the founding of the Royal Society of London in 1660, and Isaac Newton's Principia Mathematica in 1687 unifying physics and astronomy under shared mathematical laws</title>
+  <rect width="1350" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="675" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">A century and a half redefines how nature's laws are known</text>
+
+    <rect x="40" y="115" width="225" height="40" fill="#EEF3EE"/>
+    <text x="152" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Copernicus publishes</text>
+    <text x="152" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Heliocentric model of the cosmos</text>
+    <text x="152" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1543</text>
+
+    <rect x="265" y="115" width="195" height="40" fill="#FBEDEA"/>
+    <text x="362" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Galileo's telescope</text>
+    <text x="362" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Observes moons of Jupiter</text>
+    <text x="362" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1609–1610</text>
+
+    <rect x="460" y="115" width="205" height="40" fill="#EDE7D8"/>
+    <text x="562" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Bacon's Novum Organum</text>
+    <text x="562" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Inductive scientific method</text>
+    <text x="562" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1620</text>
+
+    <rect x="665" y="115" width="215" height="40" fill="#EEF3EE"/>
+    <text x="772" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Galileo's trial</text>
+    <text x="772" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Roman Inquisition convicts him</text>
+    <text x="772" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1633</text>
+
+    <rect x="880" y="115" width="220" height="40" fill="#FBEDEA"/>
+    <text x="990" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Royal Society founded</text>
+    <text x="990" y="138" text-anchor="middle" font-size="9" fill="#4A443C">London's scientific institution</text>
+    <text x="990" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1660</text>
+
+    <rect x="1100" y="115" width="210" height="40" fill="#EDE7D8"/>
+    <text x="1205" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Newton's Principia</text>
+    <text x="1205" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Unifies physics and astronomy</text>
+    <text x="1205" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1687</text>
+  </g>
+  <rect x="40" y="115" width="1270" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="265" y1="115" x2="265" y2="155" stroke="#1F1B16"/>
+  <line x1="460" y1="115" x2="460" y2="155" stroke="#1F1B16"/>
+  <line x1="665" y1="115" x2="665" y2="155" stroke="#1F1B16"/>
+  <line x1="880" y1="115" x2="880" y2="155" stroke="#1F1B16"/>
+  <line x1="1100" y1="115" x2="1100" y2="155" stroke="#1F1B16"/>
+</svg>

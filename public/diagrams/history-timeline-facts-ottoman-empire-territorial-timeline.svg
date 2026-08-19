@@ -1,0 +1,60 @@
+<svg viewBox="0 0 780 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline and map of the Ottoman Empire's territorial extent and major eras: founded around 1299, the conquest of Constantinople in 1453, peak territorial extent across Southeast Europe, the Middle East, and North Africa under Suleiman the Magnificent from 1520 to 1566, the failed sieges of Vienna in 1529 and 1683, the Tanzimat reform period from 1839 to 1876, and the empire's dissolution in 1922 following defeat in World War I</title>
+  <rect width="780" height="420" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="390" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">The Ottoman Empire: extent and major eras</text>
+    <text x="390" y="41" text-anchor="middle" font-size="10.5" fill="#8B6F4E">c. 1299-1922</text>
+
+    <rect x="40" y="140" width="70" height="40" fill="#EDE7D8"/>
+    <text x="75" y="127" text-anchor="middle" font-size="10" font-weight="600" fill="#1F1B16">Founding</text>
+    <text x="75" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">c. 1299</text>
+
+    <rect x="110" y="140" width="120" height="40" fill="#EEF3EE"/>
+    <text x="170" y="127" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Rise</text>
+    <text x="170" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">Constantinople falls</text>
+    <text x="170" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">1453</text>
+
+    <rect x="230" y="140" width="200" height="40" fill="#FBEDEA"/>
+    <text x="330" y="127" text-anchor="middle" font-size="12" font-weight="600" fill="#1F1B16">Peak: Suleiman the Magnificent</text>
+    <text x="330" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">Vienna sieges fail: 1529, 1683</text>
+    <text x="330" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">1520-1566</text>
+
+    <rect x="430" y="140" width="160" height="40" fill="#EEF3EE"/>
+    <text x="510" y="127" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Tanzimat reforms</text>
+    <text x="510" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">1839-1876</text>
+
+    <rect x="590" y="140" width="150" height="40" fill="#EDE7D8"/>
+    <text x="665" y="127" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Dissolution</text>
+    <text x="665" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">after WWI defeat</text>
+    <text x="665" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">1922</text>
+
+    <rect x="40" y="140" width="700" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <line x1="110" y1="140" x2="110" y2="180" stroke="#1F1B16"/>
+    <line x1="230" y1="140" x2="230" y2="180" stroke="#1F1B16"/>
+    <line x1="430" y1="140" x2="430" y2="180" stroke="#1F1B16"/>
+    <line x1="590" y1="140" x2="590" y2="180" stroke="#1F1B16"/>
+
+    <!-- territory inset -->
+    <text x="390" y="232" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Peak extent under Suleiman, ringing the Mediterranean &amp; Black Sea</text>
+
+    <path d="M298,246 Q338,236 363,256 Q373,276 358,291 Q333,301 308,291 Q290,276 298,246 Z" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="330" y="315" text-anchor="middle" font-size="9" font-weight="600" fill="#4A443C">Balkans / SE Europe</text>
+
+    <path d="M370,255 Q430,245 470,270 Q485,300 470,330 Q440,350 400,345 Q365,335 358,305 Q355,278 370,255 Z" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+    <circle cx="400" cy="270" r="4" fill="#C9412C"/>
+    <text x="409" y="268" font-size="9" fill="#1F1B16">Constantinople, 1453</text>
+    <text x="415" y="303" text-anchor="middle" font-size="9" font-weight="600" fill="#4A443C">Anatolia</text>
+
+    <path d="M470,275 Q510,270 530,295 Q540,320 525,345 Q500,360 475,350 Q460,330 465,305 Q467,288 470,275 Z" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="498" y="325" text-anchor="middle" font-size="8.5" font-weight="600" fill="#4A443C">Levant &amp;</text>
+    <text x="498" y="335" text-anchor="middle" font-size="8.5" font-weight="600" fill="#4A443C">Arabia</text>
+
+    <path d="M295,340 Q360,332 410,345 Q440,355 445,375 Q440,392 400,398 Q340,402 300,392 Q280,375 285,358 Q290,348 295,340 Z" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="365" y="373" text-anchor="middle" font-size="9" font-weight="600" fill="#4A443C">Egypt &amp; North African coast</text>
+
+    <circle cx="272" cy="212" r="6" fill="none" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <text x="255" y="200" text-anchor="end" font-size="9" fill="#8B6F4E">Vienna (never taken)</text>
+
+    <text x="390" y="413" text-anchor="middle" font-size="9.5" fill="#8B6F4E">Shapes are schematic, not precise boundaries</text>
+  </g>
+</svg>

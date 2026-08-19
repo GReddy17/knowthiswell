@@ -1,0 +1,52 @@
+<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cosmicScaleTitle">
+  <title id="cosmicScaleTitle">A stepped scale diagram of increasingly large bars: Earth-Moon distance (384,400 km), the solar system's width out to Neptune (about 30 AU), the distance to Proxima Centauri (4.24 light-years), the Milky Way's diameter (about 100,000 light-years), the distance to the Andromeda Galaxy (2.5 million light-years), and the diameter of the observable universe (about 93 billion light-years), each step labeled with how many times larger it is than the previous one</title>
+
+  <rect x="0" y="0" width="900" height="420" fill="#FBF8F1"/>
+
+  <line x1="30" y1="380" x2="870" y2="380" stroke="#1F1B16" stroke-width="1.5"/>
+
+  <!-- bars, shortest to tallest -->
+  <rect x="40" y="360" width="90" height="20" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="186" y="310" width="90" height="70" fill="#C7D1CB" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="332" y="250" width="90" height="130" fill="#A0AFA8" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="478" y="190" width="90" height="190" fill="#7A8D84" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="624" y="150" width="90" height="230" fill="#536B61" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="770" y="110" width="90" height="270" fill="#2C4A3E" stroke="#20362D" stroke-width="1"/>
+
+  <!-- labels -->
+  <g text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" fill="#1F1B16">
+    <text x="85" y="335" font-size="10.5" font-weight="600">Earth–Moon</text>
+    <text x="85" y="349" font-size="10" fill="#4A443C">384,400 km</text>
+
+    <text x="231" y="285" font-size="10.5" font-weight="600">Solar system</text>
+    <text x="231" y="298" font-size="10.5" font-weight="600">(to Neptune)</text>
+    <text x="231" y="312" font-size="10" fill="#4A443C">~30 AU</text>
+
+    <text x="377" y="225" font-size="10.5" font-weight="600">Nearest star</text>
+    <text x="377" y="238" font-size="10.5" font-weight="600">(Proxima Centauri)</text>
+    <text x="377" y="252" font-size="10" fill="#4A443C">4.24 light-years</text>
+
+    <text x="523" y="165" font-size="10.5" font-weight="600">Milky Way</text>
+    <text x="523" y="178" font-size="10.5" font-weight="600">diameter</text>
+    <text x="523" y="192" font-size="10" fill="#4A443C">~100,000 ly</text>
+
+    <text x="669" y="125" font-size="10.5" font-weight="600">To Andromeda</text>
+    <text x="669" y="138" font-size="10.5" font-weight="600">Galaxy</text>
+    <text x="669" y="152" font-size="10" fill="#4A443C">2.5 million ly</text>
+
+    <text x="815" y="85" font-size="10.5" font-weight="600">Observable</text>
+    <text x="815" y="98" font-size="10.5" font-weight="600">universe</text>
+    <text x="815" y="112" font-size="10" fill="#4A443C">~93 billion ly</text>
+  </g>
+
+  <!-- multiplier callouts -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#C9412C" font-weight="600">
+    <text x="158" y="356" text-anchor="middle">→ ×11,700</text>
+    <text x="304" y="306" text-anchor="middle">→ ×8,000</text>
+    <text x="450" y="246" text-anchor="middle">→ ×23,600</text>
+    <text x="596" y="186" text-anchor="middle">→ ×25</text>
+    <text x="742" y="146" text-anchor="middle">→ ×37,200</text>
+  </g>
+
+  <text x="450" y="405" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-style="italic" fill="#8B6F4E">Bars are schematic, not to scale — the actual jumps are far too large to draw proportionally</text>
+</svg>

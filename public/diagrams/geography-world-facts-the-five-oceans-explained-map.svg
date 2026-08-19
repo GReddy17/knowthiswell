@@ -1,0 +1,58 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fiveOceansTitle">
+  <title id="fiveOceansTitle">A world map with the Pacific, Atlantic, Indian, Southern, and Arctic Oceans each labeled and shaded a different color, with a dashed ring around Antarctica at 60 degrees south latitude marking the Southern Ocean's boundary, and approximate surface areas listed next to each ocean's label</title>
+  <rect width="640" height="480" fill="#FBF8F1"/>
+
+  <text x="320" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="16" font-weight="600" fill="#1F1B16">The world's five named oceans</text>
+
+  <!-- ocean tints, drawn first so landmasses sit on top -->
+  <g opacity="0.55">
+    <!-- Pacific: wraps both left and right map edges -->
+    <rect x="0" y="60" width="63" height="330" fill="#5B7A99"/>
+    <rect x="546" y="60" width="94" height="330" fill="#5B7A99"/>
+    <!-- Atlantic: between the Americas and Europe/Africa -->
+    <path d="M234,100 L306,120 L294,220 L266,266 L230,320 L211,166 Z" fill="#4A7A9E"/>
+    <!-- Indian: between Africa, Asia and Australia -->
+    <path d="M399,226 L483,230 L496,294 L460,340 L390,320 L374,300 Z" fill="#7C9DB5"/>
+    <!-- Arctic: cap above the northern landmasses -->
+    <ellipse cx="330" cy="60" rx="180" ry="30" fill="#A9C4D6"/>
+  </g>
+
+  <!-- Southern Ocean ring, 60 degrees S -->
+  <ellipse cx="340" cy="420" rx="270" ry="42" fill="#3D6A83" opacity="0.32"/>
+  <ellipse cx="340" cy="420" rx="270" ry="42" fill="none" stroke="#3D6A83" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="340" y="463" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#3D6A83">60&#176;S &#8212; Southern Ocean boundary</text>
+
+  <!-- base landmasses -->
+  <g fill="#EDE7D8" stroke="#D8CFBB" stroke-width="1">
+    <path d="M63,114 L102,110 L172,100 L196,104 L219,130 L234,150 L211,166 L196,200 L169,198 L177,222 L191,232 L157,210 L138,184 L127,154 L118,140 L87,130 L63,130 Z"/>
+    <path d="M200,226 L227,230 L242,250 L266,266 L258,296 L230,320 L214,360 L211,330 L209,286 L194,258 L200,240 Z"/>
+    <path d="M306,164 L306,178 L343,176 L364,178 L374,160 L382,140 L367,130 L351,110 L328,126 L312,150 Z"/>
+    <path d="M294,208 L336,176 L370,188 L387,226 L399,226 L382,280 L374,300 L351,318 L339,286 L334,246 L304,238 L294,220 Z"/>
+    <path d="M382,160 L390,220 L413,200 L429,180 L426,234 L444,210 L460,206 L468,210 L483,230 L507,200 L510,170 L530,150 L546,130 L476,96 L413,110 L390,140 Z"/>
+    <path d="M496,294 L521,274 L541,272 L558,304 L553,324 L533,320 L499,318 Z"/>
+    <path d="M120,388 L560,388 L545,405 L400,411 L280,411 L135,403 Z"/>
+  </g>
+
+  <!-- labels with approximate surface areas -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="30" y="230" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1F1B16">Pacific</text>
+    <text x="30" y="243" text-anchor="middle" font-size="8.5" fill="#3F5E78">~165.3M km&#178;</text>
+
+    <text x="595" y="230" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1F1B16">Pacific</text>
+    <text x="595" y="243" text-anchor="middle" font-size="8.5" fill="#3F5E78">~165.3M km&#178;</text>
+
+    <text x="255" y="200" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1F1B16">Atlantic</text>
+    <text x="255" y="213" text-anchor="middle" font-size="8.5" fill="#3F5E78">~106.5M km&#178;</text>
+
+    <text x="440" y="280" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1F1B16">Indian</text>
+    <text x="440" y="293" text-anchor="middle" font-size="8.5" fill="#3F5E78">~70.6M km&#178;</text>
+
+    <text x="340" y="440" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">Southern</text>
+    <text x="340" y="452" text-anchor="middle" font-size="8.5" fill="#FBF8F1">~21.96M km&#178;</text>
+
+    <text x="330" y="50" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1F1B16">Arctic</text>
+    <text x="330" y="42" text-anchor="middle" font-size="8.5" fill="#3F5E78">~14.06M km&#178;</text>
+  </g>
+
+  <text x="320" y="475" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">Simplified outlines; areas are approximate and shading marks representative regions, not precise boundaries.</text>
+</svg>

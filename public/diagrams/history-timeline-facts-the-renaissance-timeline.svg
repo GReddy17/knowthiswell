@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1245 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the Renaissance from its late medieval roots, through the Early Renaissance centered in Florence from about 1400 to the 1490s, the High Renaissance centered in Rome from the 1490s to the 1520s, the Northern Renaissance spreading through the 1500s including the spread of the printing press and the start of the Protestant Reformation in 1517, and its transition into the Scientific Revolution by the early to mid 1600s</title>
+  <rect width="1245" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="622" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">From Florence's workshops to Rome's masters, spreading north before yielding to science</text>
+
+    <rect x="40" y="115" width="195" height="40" fill="#EEF3EE"/>
+    <text x="137" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Late medieval roots</text>
+    <text x="137" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Trade and learning revive</text>
+    <text x="137" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">before c. 1400</text>
+
+    <rect x="235" y="115" width="180" height="40" fill="#FBEDEA"/>
+    <text x="325" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Early Renaissance</text>
+    <text x="325" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Centered in Florence</text>
+    <text x="325" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">c. 1400–1490s</text>
+
+    <rect x="415" y="115" width="165" height="40" fill="#EDE7D8"/>
+    <text x="497" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">High Renaissance</text>
+    <text x="497" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Centered in Rome</text>
+    <text x="497" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1490s–1520s</text>
+
+    <rect x="580" y="115" width="225" height="40" fill="#EEF3EE"/>
+    <text x="692" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Northern Renaissance spreads</text>
+    <text x="692" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Printing press spreads ideas</text>
+    <text x="692" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1500s</text>
+
+    <rect x="805" y="115" width="205" height="40" fill="#FBEDEA"/>
+    <text x="907" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Reformation begins</text>
+    <text x="907" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Luther's Ninety-Five Theses</text>
+    <text x="907" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1517</text>
+
+    <rect x="1010" y="115" width="195" height="40" fill="#EDE7D8"/>
+    <text x="1107" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Scientific Revolution</text>
+    <text x="1107" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Renaissance gives way</text>
+    <text x="1107" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">early–mid 1600s</text>
+  </g>
+  <rect x="40" y="115" width="1165" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="235" y1="115" x2="235" y2="155" stroke="#1F1B16"/>
+  <line x1="415" y1="115" x2="415" y2="155" stroke="#1F1B16"/>
+  <line x1="580" y1="115" x2="580" y2="155" stroke="#1F1B16"/>
+  <line x1="805" y1="115" x2="805" y2="155" stroke="#1F1B16"/>
+  <line x1="1010" y1="115" x2="1010" y2="155" stroke="#1F1B16"/>
+</svg>

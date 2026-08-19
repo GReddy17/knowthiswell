@@ -1,0 +1,59 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Map and timeline showing the Black Death's arrival at the Sicilian port of Messina in October 1347 via Genoese trading ships fleeing Kaffa in Crimea, its spread across Italy and southern France by 1348, into central Europe, Britain, and Scandinavia through 1349, and reaching northern Europe by 1350-1351, with an estimated 25 million deaths in Europe by the end of the outbreak</title>
+  <rect width="700" height="480" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="350" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">The Black Death's spread across Europe</text>
+    <text x="350" y="44" text-anchor="middle" font-size="10.5" fill="#8B6F4E">schematic map, 1347-1351</text>
+
+    <!-- schematic landmasses -->
+    <g fill="#EDE7D8" stroke="#D8CFBB" stroke-width="1.2">
+      <path d="M110,112 Q150,102 172,126 Q182,156 168,184 Q142,198 116,182 Q98,156 102,132 Q104,120 110,112 Z"/>
+      <path d="M330,58 Q378,50 408,78 Q422,108 406,138 Q378,152 346,140 Q322,112 326,84 Q327,70 330,58 Z"/>
+      <path d="M212,182 Q256,170 288,196 Q302,226 288,258 Q262,278 230,266 Q206,238 206,208 Q206,194 212,182 Z"/>
+      <path d="M370,168 Q420,156 458,182 Q474,214 458,248 Q428,268 392,254 Q366,224 366,194 Q366,180 370,168 Z"/>
+      <path d="M290,258 Q328,250 352,276 Q364,304 352,336 Q328,354 300,340 Q282,312 282,282 Q283,268 290,258 Z"/>
+    </g>
+    <text x="140" y="150" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">Britain</text>
+    <text x="366" y="98" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">Scandinavia</text>
+    <text x="248" y="226" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">France</text>
+    <text x="412" y="212" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">Central Europe</text>
+    <text x="317" y="302" text-anchor="middle" font-size="10" font-weight="600" fill="#4A443C">Italy</text>
+
+    <!-- Messina origin point, Oct 1347 -->
+    <circle cx="322" cy="346" r="5" fill="#C9412C"/>
+    <text x="332" y="360" font-size="9.5" font-weight="700" fill="#9B3A2A">Messina, Oct 1347</text>
+    <text x="332" y="371" font-size="8.5" fill="#4A443C">Genoese ships flee Kaffa</text>
+
+    <!-- 1348: Messina to Italy interior and France -->
+    <path d="M322,346 Q310,318 306,296" fill="none" stroke="#C9412C" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <path d="M312,300 Q272,268 250,244" fill="none" stroke="#B08D3E" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <circle cx="250" cy="244" r="4" fill="#B08D3E"/>
+    <text x="228" y="266" text-anchor="middle" font-size="9" font-weight="700" fill="#8B6F4E">Italy &amp; S. France, 1348</text>
+
+    <!-- 1349: France/Italy to Britain and Central Europe -->
+    <path d="M232,220 Q192,196 165,178" fill="none" stroke="#5B7A99" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <circle cx="165" cy="178" r="4" fill="#5B7A99"/>
+    <path d="M400,222 Q392,206 386,190" fill="none" stroke="#5B7A99" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <circle cx="386" cy="190" r="4" fill="#5B7A99"/>
+    <text x="160" y="200" text-anchor="middle" font-size="9" font-weight="700" fill="#3F5E78">Britain &amp;</text>
+    <text x="160" y="211" text-anchor="middle" font-size="9" font-weight="700" fill="#3F5E78">C. Europe, 1349</text>
+
+    <!-- 1350-51: onward to Scandinavia -->
+    <path d="M378,168 Q372,140 368,118" fill="none" stroke="#2C4A3E" stroke-width="2.25" stroke-dasharray="3 4"/>
+    <circle cx="368" cy="118" r="4" fill="#2C4A3E"/>
+    <text x="368" y="108" text-anchor="middle" font-size="9" font-weight="700" fill="#20362D">N. Europe, 1350-1351</text>
+
+    <!-- legend -->
+    <circle cx="55" cy="410" r="4" fill="#C9412C"/>
+    <text x="64" y="414" font-size="9.5" fill="#1F1B16">Messina, 1347</text>
+    <line x1="165" y1="410" x2="190" y2="410" stroke="#B08D3E" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <text x="196" y="414" font-size="9.5" fill="#1F1B16">Italy &amp; S. France, 1348</text>
+    <line x1="345" y1="410" x2="370" y2="410" stroke="#5B7A99" stroke-width="2.25" stroke-dasharray="5 4"/>
+    <text x="376" y="414" font-size="9.5" fill="#1F1B16">C. Europe &amp; Britain, 1349</text>
+    <line x1="545" y1="410" x2="570" y2="410" stroke="#2C4A3E" stroke-width="2.25" stroke-dasharray="3 4"/>
+    <text x="576" y="414" font-size="9.5" fill="#1F1B16">N. Europe, 1350-51</text>
+
+    <text x="350" y="448" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Est. 25 million deaths in Europe by the end of the outbreak</text>
+    <text x="350" y="464" text-anchor="middle" font-size="9.5" fill="#8B6F4E">Shapes and routes are schematic, not precise boundaries</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg viewBox="0 0 1460 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the Crusades from Pope Urban II's call for the First Crusade in 1095 and the 1099 capture of Jerusalem, through the Second Crusade of 1147-1149, Saladin's 1187 recapture of Jerusalem, the Third Crusade's 1189-1192 negotiated truce, the Fourth Crusade's 1204 sack of Constantinople, further campaigns into the 13th century, and the 1291 fall of Acre to the Mamluk Sultanate</title>
+  <rect width="1460" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="730" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Two centuries, at least eight campaigns, including one against a fellow Christian capital</text>
+
+    <rect x="40" y="115" width="150" height="40" fill="#EEF3EE"/>
+    <text x="115" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Urban II calls Crusade</text>
+    <text x="115" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Council of Clermont</text>
+    <text x="115" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1095</text>
+
+    <rect x="190" y="115" width="190" height="40" fill="#FBEDEA"/>
+    <text x="285" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Jerusalem captured</text>
+    <text x="285" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Crusader states established</text>
+    <text x="285" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1099</text>
+
+    <rect x="380" y="115" width="140" height="40" fill="#EDE7D8"/>
+    <text x="450" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Second Crusade</text>
+    <text x="450" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1147-1149</text>
+
+    <rect x="520" y="115" width="170" height="40" fill="#EEF3EE"/>
+    <text x="605" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Saladin retakes Jerusalem</text>
+    <text x="605" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1187</text>
+
+    <rect x="690" y="115" width="190" height="40" fill="#FBEDEA"/>
+    <text x="785" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Third Crusade</text>
+    <text x="785" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">ends in negotiated truce</text>
+    <text x="785" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1189-1192</text>
+
+    <rect x="880" y="115" width="220" height="40" fill="#EDE7D8"/>
+    <text x="990" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Fourth Crusade sacks Constantinople</text>
+    <text x="990" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">the Byzantine Christian capital</text>
+    <text x="990" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1204</text>
+
+    <rect x="1100" y="115" width="150" height="40" fill="#EEF3EE"/>
+    <text x="1175" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Further crusades</text>
+    <text x="1175" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">continue into 1200s</text>
+    <text x="1175" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">13th c.</text>
+
+    <rect x="1250" y="115" width="170" height="40" fill="#FBEDEA"/>
+    <text x="1335" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Fall of Acre</text>
+    <text x="1335" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Mamluks end crusader presence</text>
+    <text x="1335" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1291</text>
+  </g>
+  <rect x="40" y="115" width="1380" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="190" y1="115" x2="190" y2="155" stroke="#1F1B16"/>
+  <line x1="380" y1="115" x2="380" y2="155" stroke="#1F1B16"/>
+  <line x1="520" y1="115" x2="520" y2="155" stroke="#1F1B16"/>
+  <line x1="690" y1="115" x2="690" y2="155" stroke="#1F1B16"/>
+  <line x1="880" y1="115" x2="880" y2="155" stroke="#1F1B16"/>
+  <line x1="1100" y1="115" x2="1100" y2="155" stroke="#1F1B16"/>
+  <line x1="1250" y1="115" x2="1250" y2="155" stroke="#1F1B16"/>
+</svg>

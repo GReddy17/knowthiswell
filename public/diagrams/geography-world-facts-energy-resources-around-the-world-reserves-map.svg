@@ -1,0 +1,85 @@
+<svg viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="energyMapTitle">
+  <title id="energyMapTitle">A world map showing major oil and gas reserves concentrated around the Persian Gulf, coal deposits spread across multiple continents including Antarctica, and renewable energy hotspots for solar in desert latitudes, hydropower in mountainous high-rainfall regions, wind along coastal plains, and geothermal along tectonic plate boundaries such as Iceland and the Pacific Ring of Fire</title>
+  <rect width="640" height="470" fill="#FBF8F1"/>
+
+  <text x="320" y="28" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="17" font-weight="600" fill="#1F1B16">World energy resources: fossil reserves and renewable hotspots</text>
+
+  <!-- base landmasses -->
+  <g fill="#EDE7D8" stroke="#D8CFBB" stroke-width="1">
+    <path d="M63,114 L102,110 L172,100 L196,104 L219,130 L234,150 L211,166 L196,200 L169,198 L177,222 L191,232 L157,210 L138,184 L127,154 L118,140 L87,130 L63,130 Z"/>
+    <path d="M200,226 L227,230 L242,250 L266,266 L258,296 L230,320 L214,360 L211,330 L209,286 L194,258 L200,240 Z"/>
+    <path d="M306,164 L306,178 L343,176 L364,178 L374,160 L382,140 L367,130 L351,110 L328,126 L312,150 Z"/>
+    <path d="M294,208 L336,176 L370,188 L387,226 L399,226 L382,280 L374,300 L351,318 L339,286 L334,246 L304,238 L294,220 Z"/>
+    <path d="M382,160 L390,220 L413,200 L429,180 L426,234 L444,210 L460,206 L468,210 L483,230 L507,200 L510,170 L530,150 L546,130 L476,96 L413,110 L390,140 Z"/>
+    <path d="M496,294 L521,274 L541,272 L558,304 L553,324 L533,320 L499,318 Z"/>
+    <path d="M120,388 L560,388 L545,405 L400,411 L280,411 L135,403 Z"/>
+  </g>
+  <text x="340" y="399" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">Antarctica</text>
+
+  <!-- Oil & gas: Persian Gulf -->
+  <ellipse cx="400" cy="210" rx="26" ry="18" fill="#1F1B16" opacity="0.6"/>
+  <text x="400" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Oil &amp; gas</text>
+  <text x="400" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">Persian Gulf</text>
+
+  <!-- Coal deposits, several continents -->
+  <g fill="#8B6F4E">
+    <circle cx="150" cy="150" r="5"/>
+    <circle cx="390" cy="150" r="5"/>
+    <circle cx="500" cy="180" r="5"/>
+    <circle cx="345" cy="395" r="5"/>
+  </g>
+  <text x="150" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">coal</text>
+  <text x="500" y="198" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">coal</text>
+
+  <!-- Solar: desert latitude bands -->
+  <g fill="#B08D3E">
+    <circle cx="120" cy="190" r="4.5"/>
+    <circle cx="335" cy="205" r="4.5"/>
+    <circle cx="560" cy="290" r="4.5"/>
+  </g>
+  <text x="60" y="205" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">Solar</text>
+  <text x="60" y="216" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">desert latitudes</text>
+
+  <!-- Hydropower: mountainous high-rainfall -->
+  <g fill="#5B7A99">
+    <circle cx="180" cy="290" r="4.5"/>
+    <circle cx="460" cy="200" r="4.5"/>
+  </g>
+  <text x="180" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">Hydro</text>
+  <text x="180" y="319" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">Andes</text>
+
+  <!-- Wind: coastal plains -->
+  <g fill="#2C4A3E">
+    <circle cx="212" cy="140" r="4.5"/>
+    <circle cx="310" cy="150" r="4.5"/>
+  </g>
+  <text x="212" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">Wind</text>
+
+  <!-- Geothermal: plate boundaries, Iceland + Ring of Fire -->
+  <g fill="#C9412C">
+    <circle cx="303" cy="118" r="4.5"/>
+    <circle cx="546" cy="130" r="4.5"/>
+    <circle cx="530" cy="215" r="4.5"/>
+    <circle cx="521" cy="274" r="4.5"/>
+  </g>
+  <text x="303" y="106" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">Iceland</text>
+  <text x="546" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">Ring of Fire</text>
+
+  <!-- legend -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">
+    <rect x="55" y="418" width="12" height="12" fill="#1F1B16" opacity="0.6"/>
+    <text x="72" y="428">Oil &amp; gas</text>
+    <circle cx="145" cy="424" r="4.5" fill="#8B6F4E"/>
+    <text x="156" y="428">Coal</text>
+    <circle cx="200" cy="424" r="4.5" fill="#B08D3E"/>
+    <text x="211" y="428">Solar</text>
+    <circle cx="258" cy="424" r="4.5" fill="#5B7A99"/>
+    <text x="269" y="428">Hydro</text>
+    <circle cx="322" cy="424" r="4.5" fill="#2C4A3E"/>
+    <text x="333" y="428">Wind</text>
+    <circle cx="382" cy="424" r="4.5" fill="#C9412C"/>
+    <text x="393" y="428">Geothermal</text>
+  </g>
+
+  <text x="320" y="452" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Markers show representative concentrations, not exhaustive deposits.</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="nikhilamTitle">
+  <title id="nikhilamTitle">A flowchart showing the four steps of the Nikhilam multiplication method applied to 97 times 96: step one, find each number's deviation from the base 100 (97 is -3, 96 is -4); step two, cross-subtract one number's deviation from the other number (97 minus 4 equals 93); step three, multiply the two deviations together (-3 times -4 equals 12); step four, combine the cross-subtraction result and the deviation product side by side to get the final answer, 9312.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#20362D">Nikhilam multiplication: 97 &#215; 96 (base = 100)</text>
+
+  <!-- Step 1 -->
+  <rect x="22" y="60" width="150" height="170" rx="12" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="97" y="84" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#2C4A3E" letter-spacing="1">STEP 1</text>
+  <text x="97" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Deviation from 100</text>
+  <text x="97" y="142" text-anchor="middle" font-family="ui-monospace, monospace" font-size="16" fill="#1F1B16">97 &#8594; -3</text>
+  <text x="97" y="168" text-anchor="middle" font-family="ui-monospace, monospace" font-size="16" fill="#1F1B16">96 &#8594; -4</text>
+  <text x="97" y="204" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">100 - 97 = 3</text>
+  <text x="97" y="218" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">100 - 96 = 4</text>
+
+  <!-- arrow 1 -->
+  <line x1="172" y1="145" x2="212" y2="145" stroke="#2C4A3E" stroke-width="2"/>
+  <path d="M 212,145 L 202,139 L 202,151 Z" fill="#2C4A3E"/>
+
+  <!-- Step 2 -->
+  <rect x="217" y="60" width="150" height="170" rx="12" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="292" y="84" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#2C4A3E" letter-spacing="1">STEP 2</text>
+  <text x="292" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Cross-subtract</text>
+  <text x="292" y="150" text-anchor="middle" font-family="ui-monospace, monospace" font-size="16" font-weight="700" fill="#20362D">97 - 4 = 93</text>
+  <text x="292" y="176" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">(left part of answer)</text>
+  <text x="292" y="204" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">same as 96 - 3 = 93</text>
+
+  <!-- arrow 2 -->
+  <line x1="367" y1="145" x2="407" y2="145" stroke="#2C4A3E" stroke-width="2"/>
+  <path d="M 407,145 L 397,139 L 397,151 Z" fill="#2C4A3E"/>
+
+  <!-- Step 3 -->
+  <rect x="412" y="60" width="150" height="170" rx="12" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="487" y="84" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#2C4A3E" letter-spacing="1">STEP 3</text>
+  <text x="487" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Multiply deviations</text>
+  <text x="487" y="150" text-anchor="middle" font-family="ui-monospace, monospace" font-size="16" font-weight="700" fill="#20362D">-3 &#215; -4 = 12</text>
+  <text x="487" y="176" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">(right part of answer)</text>
+
+  <!-- arrow 3 -->
+  <line x1="562" y1="145" x2="602" y2="145" stroke="#2C4A3E" stroke-width="2"/>
+  <path d="M 602,145 L 592,139 L 592,151 Z" fill="#2C4A3E"/>
+
+  <!-- Step 4 -->
+  <rect x="607" y="60" width="152" height="170" rx="12" fill="#FBEDEA" stroke="#C9412C" stroke-width="1.5"/>
+  <text x="683" y="84" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#C9412C" letter-spacing="1">STEP 4</text>
+  <text x="683" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Combine side by side</text>
+  <text x="683" y="146" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" fill="#1F1B16">93 | 12</text>
+  <text x="683" y="172" text-anchor="middle" font-family="ui-monospace, monospace" font-size="18" font-weight="700" fill="#C9412C">= 9,312</text>
+  <text x="683" y="204" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">97 &#215; 96 = 9,312 &#10003;</text>
+
+  <text x="390" y="266" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">If the deviation product overflows two digits (e.g. 88 &#215; 88 = 76 | 144), carry the extra into the left part, just like column addition.</text>
+</svg>

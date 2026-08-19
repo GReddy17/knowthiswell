@@ -1,0 +1,36 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="waveAnatomyTitle">
+  <title id="waveAnatomyTitle">A sine wave diagram with wavelength marked as the horizontal distance between two consecutive crests, amplitude marked as the vertical distance from the resting line to a crest, and a note explaining frequency as the number of complete cycles passing a fixed point each second</title>
+
+  <rect x="0" y="0" width="640" height="380" fill="#FBF8F1"/>
+
+  <!-- resting line -->
+  <line x1="40" y1="200" x2="610" y2="200" stroke="#E3DCC9" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="44" y="215" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E">resting position</text>
+
+  <!-- fixed point marker -->
+  <line x1="330" y1="90" x2="330" y2="310" stroke="#5B7C99" stroke-width="1" stroke-dasharray="2 3"/>
+  <circle cx="330" cy="200" r="4" fill="#5B7C99"/>
+
+  <!-- wave -->
+  <path d="M60,200 C85,130 125,130 150,200 C175,270 215,270 240,200 C265,130 305,130 330,200 C355,270 395,270 420,200 C445,130 485,130 510,200 C535,270 575,270 600,200"
+        fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+
+  <!-- wavelength: crest to crest -->
+  <line x1="105" y1="108" x2="285" y2="108" stroke="#1F1B16" stroke-width="1.3"/>
+  <path d="M105,108 L113,103 M105,108 L113,113" stroke="#1F1B16" stroke-width="1.3" fill="none"/>
+  <path d="M285,108 L277,103 M285,108 L277,113" stroke="#1F1B16" stroke-width="1.3" fill="none"/>
+  <line x1="105" y1="100" x2="105" y2="130" stroke="#E3DCC9" stroke-width="1"/>
+  <line x1="285" y1="100" x2="285" y2="130" stroke="#E3DCC9" stroke-width="1"/>
+  <text x="195" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Wavelength (λ)</text>
+
+  <!-- amplitude: resting to crest -->
+  <line x1="105" y1="200" x2="105" y2="130" stroke="#C9412C" stroke-width="1.3"/>
+  <path d="M105,130 L100,140 M105,130 L110,140" stroke="#C9412C" stroke-width="1.3" fill="none"/>
+  <path d="M105,200 L100,190 M105,200 L110,190" stroke="#C9412C" stroke-width="1.3" fill="none"/>
+  <text x="115" y="168" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#C9412C">Amplitude</text>
+
+  <!-- frequency note -->
+  <rect x="90" y="322" width="460" height="40" rx="4" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="320" y="341" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#20362D">Frequency = how many complete cycles pass a fixed point</text>
+  <text x="320" y="357" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#20362D">each second — not visible in a single still snapshot</text>
+</svg>

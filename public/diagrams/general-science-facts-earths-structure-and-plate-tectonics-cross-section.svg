@@ -1,0 +1,75 @@
+<svg viewBox="0 0 740 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="earthLayersTitle">
+  <title id="earthLayersTitle">Cross-section of Earth showing crust, mantle, liquid outer core, and solid inner core with approximate depths, alongside three smaller diagrams of divergent, convergent, and transform plate boundaries</title>
+
+  <defs>
+    <marker id="ahead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4A443C"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="740" height="500" fill="#FBF8F1"/>
+  <text x="20" y="30" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Earth's internal layers</text>
+  <text x="400" y="30" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Three types of plate boundaries</text>
+
+  <!-- ===== Earth cross-section ===== -->
+  <g>
+    <circle cx="150" cy="240" r="138" fill="#8B6F4E" opacity="0.28"/>
+    <circle cx="150" cy="240" r="134" fill="#C97C3D" opacity="0.55"/>
+    <circle cx="150" cy="240" r="72" fill="#C9412C"/>
+    <circle cx="150" cy="240" r="26" fill="#7A2418"/>
+    <circle cx="150" cy="240" r="138" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+
+    <line x1="261.4" y1="161.9" x2="295" y2="90" stroke="#4A443C" stroke-width="1"/>
+    <line x1="234.4" y1="180.9" x2="295" y2="160" stroke="#4A443C" stroke-width="1"/>
+    <line x1="190.1" y1="211.9" x2="295" y2="230" stroke="#4A443C" stroke-width="1"/>
+    <line x1="160.6" y1="232.5" x2="295" y2="300" stroke="#4A443C" stroke-width="1"/>
+
+    <text x="300" y="84" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Crust</text>
+    <text x="300" y="100" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">~5-50 km thick</text>
+    <text x="300" y="154" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Mantle</text>
+    <text x="300" y="170" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">solid rock, to ~2,900 km deep</text>
+    <text x="300" y="224" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Outer core</text>
+    <text x="300" y="240" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">liquid iron-nickel, to ~5,150 km</text>
+    <text x="300" y="294" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Inner core</text>
+    <text x="300" y="310" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">solid, center at ~6,371 km</text>
+
+    <text x="150" y="410" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C" font-style="italic">Layer thickness exaggerated near</text>
+    <text x="150" y="425" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C" font-style="italic">the surface for clarity</text>
+  </g>
+
+  <!-- ===== Divergent boundary ===== -->
+  <g transform="translate(400,55)">
+    <rect x="0" y="55" width="320" height="45" fill="#EDE7D8"/>
+    <rect x="0" y="40" width="128" height="15" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.3"/>
+    <rect x="192" y="40" width="128" height="15" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.3"/>
+    <path d="M 128 55 L 160 95 L 192 55 Z" fill="#C9412C"/>
+    <line x1="100" y1="23" x2="45" y2="23" stroke="#4A443C" stroke-width="2" marker-end="url(#ahead)"/>
+    <line x1="220" y1="23" x2="275" y2="23" stroke="#4A443C" stroke-width="2" marker-end="url(#ahead)"/>
+    <text x="160" y="-10" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Divergent</text>
+    <text x="160" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Plates pull apart; magma rises to form new crust</text>
+  </g>
+
+  <!-- ===== Convergent boundary ===== -->
+  <g transform="translate(400,225)">
+    <rect x="0" y="55" width="320" height="45" fill="#EDE7D8"/>
+    <path d="M 0 40 L 150 40 L 235 90 L 215 98 L 135 48 L 0 48 Z" fill="#C97C3D" stroke="#8B6F4E" stroke-width="1"/>
+    <rect x="140" y="10" width="160" height="35" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.3"/>
+    <path d="M 220 -15 L 235 10 L 205 10 Z" fill="#C9412C"/>
+    <path d="M 210 45 Q 222 20 220 -3" fill="none" stroke="#C9412C" stroke-width="2" stroke-dasharray="3 4"/>
+    <line x1="30" y1="25" x2="80" y2="25" stroke="#4A443C" stroke-width="2" marker-end="url(#ahead)"/>
+    <line x1="175" y1="55" x2="205" y2="78" stroke="#4A443C" stroke-width="2" marker-end="url(#ahead)"/>
+    <text x="160" y="-32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Convergent</text>
+    <text x="160" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">One plate subducts, forming a volcanic arc</text>
+  </g>
+
+  <!-- ===== Transform boundary ===== -->
+  <g transform="translate(400,380)">
+    <rect x="0" y="5" width="320" height="42" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.3"/>
+    <rect x="0" y="53" width="320" height="42" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="1.3"/>
+    <path d="M 0 50 L 40 47 L 80 53 L 120 48 L 160 52 L 200 47 L 240 53 L 280 48 L 320 50" fill="none" stroke="#C9412C" stroke-width="2"/>
+    <line x1="110" y1="25" x2="190" y2="25" stroke="#4A443C" stroke-width="2" marker-end="url(#ahead)"/>
+    <line x1="210" y1="75" x2="130" y2="75" stroke="#4A443C" stroke-width="2" marker-end="url(#ahead)"/>
+    <text x="160" y="-10" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Transform</text>
+    <text x="160" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Plates grind past each other, building quake stress</text>
+  </g>
+</svg>

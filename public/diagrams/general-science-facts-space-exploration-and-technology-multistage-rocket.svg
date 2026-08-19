@@ -1,0 +1,88 @@
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="multistageRocketTitle">
+  <title id="multistageRocketTitle">A multi-stage rocket in four sequential frames: liftoff from the pad, the first stage burning out and separating, the second stage igniting and separating, and the final stage placing the payload into a curved orbital path around Earth, with arrows showing exhaust expelled downward and thrust generated upward at each stage</title>
+
+  <rect x="0" y="0" width="900" height="380" fill="#FBF8F1"/>
+
+  <!-- time arrow -->
+  <line x1="40" y1="30" x2="860" y2="30" stroke="#8B6F4E" stroke-width="1.2"/>
+  <path d="M 860,30 L 850,25 M 860,30 L 850,35" stroke="#8B6F4E" stroke-width="1.2" fill="none"/>
+  <text x="450" y="20" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#8B6F4E">time →</text>
+
+  <line x1="220" y1="60" x2="220" y2="330" stroke="#E3DCC9" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="440" y1="60" x2="440" y2="330" stroke="#E3DCC9" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="660" y1="60" x2="660" y2="330" stroke="#E3DCC9" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- Frame 1: liftoff -->
+  <line x1="60" y1="280" x2="160" y2="280" stroke="#1F1B16" stroke-width="2"/>
+  <rect x="98" y="220" width="24" height="60" fill="#EDE7D8" stroke="#1F1B16" stroke-width="1.3"/>
+  <rect x="98" y="170" width="24" height="50" fill="#E3DCC9" stroke="#1F1B16" stroke-width="1.3"/>
+  <rect x="98" y="130" width="24" height="40" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.3"/>
+  <path d="M 98,130 L 122,130 L 110,100 Z" fill="#2C4A3E"/>
+  <path d="M 100,280 Q 110,305 120,280 Q 110,300 100,280 Z" fill="#C9412C"/>
+  <g stroke="#2C4A3E" stroke-width="2.2" fill="none">
+    <line x1="138" y1="270" x2="138" y2="230"/>
+    <path d="M 138,230 L 133,240 M 138,230 L 143,240"/>
+  </g>
+  <text x="150" y="225" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#2C4A3E">thrust</text>
+  <g stroke="#C9412C" stroke-width="2.2" fill="none">
+    <line x1="83" y1="288" x2="83" y2="318"/>
+    <path d="M 83,318 L 78,308 M 83,318 L 88,308"/>
+  </g>
+  <text x="60" y="332" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#C9412C">exhaust</text>
+  <text x="110" y="360" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">1. Liftoff</text>
+
+  <!-- Frame 2: stage 1 separates -->
+  <rect x="318" y="170" width="24" height="50" fill="#E3DCC9" stroke="#1F1B16" stroke-width="1.3"/>
+  <rect x="318" y="130" width="24" height="40" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.3"/>
+  <path d="M 318,130 L 342,130 L 330,100 Z" fill="#2C4A3E"/>
+  <path d="M 320,220 Q 330,245 340,220 Q 330,240 320,220 Z" fill="#C9412C"/>
+  <g stroke="#2C4A3E" stroke-width="2.2" fill="none">
+    <line x1="358" y1="210" x2="358" y2="170"/>
+    <path d="M 358,170 L 353,180 M 358,170 L 363,180"/>
+  </g>
+  <g stroke="#C9412C" stroke-width="2.2" fill="none">
+    <line x1="303" y1="228" x2="303" y2="258"/>
+    <path d="M 303,258 L 298,248 M 303,258 L 308,248"/>
+  </g>
+  <g transform="translate(258,300) rotate(25)">
+    <rect x="-12" y="-25" width="24" height="50" fill="#EDE7D8" stroke="#4A443C" stroke-width="1.2"/>
+  </g>
+  <path d="M 258,275 Q 240,240 232,205" stroke="#8B6F4E" stroke-width="1" stroke-dasharray="2 3" fill="none"/>
+  <text x="258" y="332" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">spent stage 1</text>
+  <text x="330" y="360" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">2. Stage 1 separates</text>
+
+  <!-- Frame 3: stage 2 separates -->
+  <rect x="538" y="190" width="24" height="40" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.3"/>
+  <path d="M 538,190 L 562,190 L 550,160 Z" fill="#2C4A3E"/>
+  <path d="M 540,230 Q 550,252 560,230 Q 550,248 540,230 Z" fill="#C9412C"/>
+  <g stroke="#2C4A3E" stroke-width="2.2" fill="none">
+    <line x1="578" y1="220" x2="578" y2="185"/>
+    <path d="M 578,185 L 573,195 M 578,185 L 583,195"/>
+  </g>
+  <g stroke="#C9412C" stroke-width="2.2" fill="none">
+    <line x1="523" y1="238" x2="523" y2="266"/>
+    <path d="M 523,266 L 518,256 M 523,266 L 528,256"/>
+  </g>
+  <g transform="translate(478,300) rotate(-20)">
+    <rect x="-12" y="-25" width="24" height="50" fill="#E3DCC9" stroke="#4A443C" stroke-width="1.2"/>
+  </g>
+  <path d="M 478,275 Q 495,240 508,215" stroke="#8B6F4E" stroke-width="1" stroke-dasharray="2 3" fill="none"/>
+  <text x="478" y="332" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">spent stage 2</text>
+  <text x="550" y="360" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">3. Stage 2 separates</text>
+
+  <!-- Frame 4: orbit -->
+  <circle cx="770" cy="270" r="38" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <path d="M 748,258 Q 760,250 772,260 Q 782,266 792,256" fill="none" stroke="#2C4A3E" stroke-width="1.1"/>
+  <ellipse cx="770" cy="245" rx="78" ry="26" fill="none" stroke="#1F1B16" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <g transform="translate(848,240)">
+    <rect x="-5" y="-5" width="10" height="10" fill="#4A443C"/>
+    <rect x="-14" y="-3" width="8" height="6" fill="#5B7C99"/>
+    <rect x="6" y="-3" width="8" height="6" fill="#5B7C99"/>
+  </g>
+  <g stroke="#2C4A3E" stroke-width="1.8" fill="none">
+    <path d="M 848,222 L 862,214"/>
+    <path d="M 862,214 L 852,214 M 862,214 L 858,224"/>
+  </g>
+  <text x="820" y="200" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#2C4A3E">orbital velocity</text>
+  <text x="770" y="360" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">4. Payload reaches orbit</text>
+</svg>

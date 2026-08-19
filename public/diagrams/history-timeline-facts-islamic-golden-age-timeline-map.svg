@@ -1,0 +1,56 @@
+<svg viewBox="0 0 780 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline and map of the Islamic Golden Age's key centers and dates: the founding of the Abbasid Caliphate and Baghdad around 750 CE, the House of Wisdom's peak under Harun al-Rashid and al-Ma'mun from roughly 786 to 833 CE, the parallel and independent rise of Cordoba as a scholarly center in Islamic Spain, the founding of Cairo as the Fatimid capital in 969 CE, and the Mongol destruction of Baghdad in 1258 CE marking the conventional end point of the period, with scholarship continuing afterward in Cairo, Spain, and Central Asia</title>
+  <rect width="780" height="400" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="390" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">The Islamic Golden Age: key centers and dates</text>
+    <text x="390" y="41" text-anchor="middle" font-size="10.5" fill="#8B6F4E">c. 750-1258 CE</text>
+
+    <rect x="40" y="140" width="160" height="40" fill="#EEF3EE"/>
+    <text x="120" y="127" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Baghdad founded</text>
+    <text x="120" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">Abbasid Caliphate begins</text>
+    <text x="120" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">c. 750 CE</text>
+
+    <rect x="200" y="140" width="200" height="40" fill="#FBEDEA"/>
+    <text x="300" y="127" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">House of Wisdom peak</text>
+    <text x="300" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">Harun al-Rashid &amp; al-Ma'mun</text>
+    <text x="300" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">786-833 CE</text>
+
+    <rect x="400" y="140" width="140" height="40" fill="#EDE7D8"/>
+    <text x="470" y="127" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Cairo founded</text>
+    <text x="470" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">Fatimid capital</text>
+    <text x="470" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">969 CE</text>
+
+    <rect x="540" y="140" width="200" height="40" fill="#EEF3EE"/>
+    <text x="640" y="127" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Mongols destroy Baghdad</text>
+    <text x="640" y="163" text-anchor="middle" font-size="8.5" fill="#4A443C">conventional end point</text>
+    <text x="640" y="196" text-anchor="middle" font-size="9" fill="#8B6F4E">1258 CE</text>
+
+    <rect x="40" y="140" width="700" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <line x1="200" y1="140" x2="200" y2="180" stroke="#1F1B16"/>
+    <line x1="400" y1="140" x2="400" y2="180" stroke="#1F1B16"/>
+    <line x1="540" y1="140" x2="540" y2="180" stroke="#1F1B16"/>
+
+    <!-- schematic map: Cordoba to Central Asia -->
+    <text x="390" y="230" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1F1B16">Scholarly centers, Islamic Spain to Baghdad</text>
+    <path d="M90,255 Q400,246 690,258 Q700,300 680,340 Q400,356 100,338 Q78,300 90,255 Z"
+          fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+
+    <circle cx="150" cy="300" r="5" fill="#5B7A99"/>
+    <text x="150" y="288" text-anchor="middle" font-size="9.5" font-weight="700" fill="#3F5E78">Cordoba</text>
+    <text x="150" y="322" text-anchor="middle" font-size="8.5" fill="#4A443C">parallel, independent</text>
+    <text x="150" y="333" text-anchor="middle" font-size="8.5" fill="#4A443C">center in al-Andalus</text>
+
+    <circle cx="420" cy="318" r="5" fill="#B08D3E"/>
+    <text x="420" y="306" text-anchor="middle" font-size="9.5" font-weight="700" fill="#8B6F4E">Cairo</text>
+    <text x="420" y="340" text-anchor="middle" font-size="8.5" fill="#4A443C">Fatimid capital, founded 969</text>
+
+    <circle cx="610" cy="290" r="5" fill="#C9412C"/>
+    <text x="610" y="278" text-anchor="middle" font-size="9.5" font-weight="700" fill="#9B3A2A">Baghdad</text>
+    <text x="610" y="312" text-anchor="middle" font-size="8.5" fill="#4A443C">capital; destroyed 1258</text>
+
+    <text x="700" y="270" text-anchor="middle" font-size="8.5" fill="#4A443C">→ Central Asia</text>
+
+    <text x="390" y="368" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1F1B16">Scholarship continued in Cairo, Spain, and Central Asia after 1258</text>
+    <text x="390" y="385" text-anchor="middle" font-size="9.5" fill="#8B6F4E">Shape and positions are schematic, not a precise map</text>
+  </g>
+</svg>

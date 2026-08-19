@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1260 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline from the Berlin Wall's construction beginning August 13, 1961, through Gorbachev's glasnost and perestroika reforms in the mid-1980s, Hungary opening its border with Austria in mid-1989, mass Leipzig demonstrations in the fall of 1989, the Wall's fall on November 9, 1989, German reunification on October 3, 1990, and the Soviet Union's dissolution in December 1991</title>
+  <rect width="1260" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="630" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Nearly three decades of division, unwound through a documented cascade of events</text>
+
+    <rect x="40" y="115" width="170" height="40" fill="#EEF3EE"/>
+    <text x="125" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Wall construction begins</text>
+    <text x="125" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">East Germany seals Berlin border</text>
+    <text x="125" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Aug 13, 1961</text>
+
+    <rect x="210" y="115" width="170" height="40" fill="#FBEDEA"/>
+    <text x="295" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Glasnost &amp; perestroika</text>
+    <text x="295" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Gorbachev's Soviet reforms</text>
+    <text x="295" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">mid-1980s</text>
+
+    <rect x="380" y="115" width="170" height="40" fill="#EDE7D8"/>
+    <text x="465" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Hungary opens border</text>
+    <text x="465" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">with Austria, near Sopron</text>
+    <text x="465" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">mid-1989</text>
+
+    <rect x="550" y="115" width="170" height="40" fill="#EEF3EE"/>
+    <text x="635" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Leipzig demonstrations</text>
+    <text x="635" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">mass Monday protests</text>
+    <text x="635" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">fall 1989</text>
+
+    <rect x="720" y="115" width="150" height="40" fill="#FBEDEA"/>
+    <text x="795" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Wall falls</text>
+    <text x="795" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">crossings opened that night</text>
+    <text x="795" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Nov 9, 1989</text>
+
+    <rect x="870" y="115" width="180" height="40" fill="#EDE7D8"/>
+    <text x="960" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">German reunification</text>
+    <text x="960" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">East &amp; West Germany reunite</text>
+    <text x="960" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Oct 3, 1990</text>
+
+    <rect x="1050" y="115" width="170" height="40" fill="#EEF3EE"/>
+    <text x="1135" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Soviet Union dissolves</text>
+    <text x="1135" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Cold War substantially ends</text>
+    <text x="1135" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Dec 1991</text>
+  </g>
+  <rect x="40" y="115" width="1180" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="210" y1="115" x2="210" y2="155" stroke="#1F1B16"/>
+  <line x1="380" y1="115" x2="380" y2="155" stroke="#1F1B16"/>
+  <line x1="550" y1="115" x2="550" y2="155" stroke="#1F1B16"/>
+  <line x1="720" y1="115" x2="720" y2="155" stroke="#1F1B16"/>
+  <line x1="870" y1="115" x2="870" y2="155" stroke="#1F1B16"/>
+  <line x1="1050" y1="115" x2="1050" y2="155" stroke="#1F1B16"/>
+  <text x="630" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">The Wall's fall (Nov 1989) and formal reunification (Oct 1990) were separate, sequential milestones</text>
+</svg>

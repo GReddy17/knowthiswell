@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="zenoTitle">
+  <title id="zenoTitle">A single horizontal line segment representing a fixed total distance, subdivided into progressively smaller pieces labeled one half, one quarter, one eighth, and one sixteenth, with a bracket beneath showing the running sum after each piece approaching but never exceeding the full length</title>
+  <rect width="640" height="260" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <!-- the four labeled pieces -->
+    <rect x="60" y="90" width="260" height="46" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <rect x="320" y="90" width="130" height="46" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1"/>
+    <rect x="450" y="90" width="65" height="46" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1"/>
+    <rect x="515" y="90" width="32.5" height="46" fill="#E3DCC9" stroke="#2C4A3E" stroke-width="1"/>
+    <!-- fading continuation toward the end of the line -->
+    <rect x="547.5" y="90" width="16.25" height="46" fill="#E3DCC9" stroke="#2C4A3E" stroke-width="0.75" opacity="0.55"/>
+    <line x1="563.75" y1="90" x2="580" y2="90" stroke="#1F1B16" stroke-width="1" stroke-dasharray="2 2"/>
+    <line x1="563.75" y1="136" x2="580" y2="136" stroke="#1F1B16" stroke-width="1" stroke-dasharray="2 2"/>
+
+    <text x="190" y="118" text-anchor="middle" font-size="15" font-weight="600" fill="#1F1B16">1/2</text>
+    <text x="385" y="118" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">1/4</text>
+    <text x="482" y="118" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">1/8</text>
+    <text x="531" y="112" text-anchor="middle" font-size="9" font-weight="600" fill="#1F1B16">1/16</text>
+    <text x="595" y="118" text-anchor="middle" font-size="16" fill="#4A443C">…</text>
+
+    <!-- outer frame representing the full, finite distance -->
+    <rect x="60" y="90" width="520" height="46" fill="none" stroke="#1F1B16" stroke-width="1.75"/>
+
+    <!-- running-sum bracket beneath -->
+    <path d="M 60,158 L 60,166 L 320,166 L 320,158" fill="none" stroke="#8B6F4E" stroke-width="1.25"/>
+    <text x="190" y="182" text-anchor="middle" font-size="11" fill="#8B6F4E">sum = 1/2</text>
+
+    <path d="M 60,196 L 60,204 L 450,204 L 450,196" fill="none" stroke="#8B6F4E" stroke-width="1.25"/>
+    <text x="255" y="220" text-anchor="middle" font-size="11" fill="#8B6F4E">sum = 3/4</text>
+
+    <path d="M 60,232 L 60,240 L 563.75,240 L 563.75,232" fill="none" stroke="#8B6F4E" stroke-width="1.25"/>
+    <text x="311" y="255" text-anchor="middle" font-size="11" fill="#8B6F4E">sum = 15/16 … approaching 1, never exceeding it</text>
+
+    <text x="330" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="#2C4A3E">Fixed total distance = 1</text>
+    <line x1="60" y1="52" x2="60" y2="90" stroke="#E3DCC9" stroke-width="1"/>
+    <line x1="580" y1="52" x2="580" y2="90" stroke="#E3DCC9" stroke-width="1"/>
+    <line x1="60" y1="60" x2="580" y2="60" stroke="#E3DCC9" stroke-width="1"/>
+  </g>
+</svg>

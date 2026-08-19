@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="naPhysioTitle">
+  <title id="naPhysioTitle">A simplified cross-section map of North America showing, from west to east, the Pacific coastal ranges, the young and jagged Rocky Mountains with the Continental Divide marked along their crest, the flat Great Plains, the ancient Canadian Shield bedrock core, and the older, rounded Appalachian Mountains along the eastern edge, with the narrow Isthmus of Panama marked at the continent's southern tip</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <text x="320" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15.5" font-weight="600" fill="#1F1B16">North America, west to east: a profile in rock age</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B7E5E">
+    <text x="50" y="46">Pacific &#8592;</text>
+    <text x="590" y="46" text-anchor="end">&#8594; Atlantic</text>
+  </g>
+
+  <line x1="40" y1="330" x2="600" y2="330" stroke="#1F1B16" stroke-width="1.5"/>
+
+  <!-- Pacific coastal ranges -->
+  <path d="M 40,330 L 60,280 L 80,300 L 100,260 L 120,300 L 140,330 Z" fill="#8FAE7A" opacity="0.5" stroke="#3F6B4F" stroke-width="1"/>
+
+  <!-- Rocky Mountains: young, jagged, tall -->
+  <path d="M 140,330 L 165,220 L 185,260 L 205,150 L 225,240 L 245,190 L 265,300 L 285,330 Z" fill="#B24A38" opacity="0.4" stroke="#8A3626" stroke-width="1.2"/>
+  <line x1="205" y1="150" x2="205" y2="330" stroke="#1F1B16" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <text x="205" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#1F1B16">Continental Divide</text>
+
+  <!-- Great Plains: flat -->
+  <rect x="285" y="310" width="130" height="20" fill="#C9A66B" opacity="0.45"/>
+
+  <!-- Canadian Shield: gently domed ancient bedrock -->
+  <path d="M 415,330 C 435,270 480,260 500,270 C 520,260 545,270 555,330 Z" fill="#8B6F4E" opacity="0.4" stroke="#6B5636" stroke-width="1.2"/>
+
+  <!-- Appalachians: old, rounded, smaller -->
+  <path d="M 555,330 C 565,300 575,285 585,300 C 592,290 598,300 600,315 L 600,330 Z" fill="#5B7A99" opacity="0.4" stroke="#3F5E78" stroke-width="1.2"/>
+
+  <!-- labels -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" text-anchor="middle">
+    <text x="90" y="350" fill="#3F6B4F">Pacific coastal ranges</text>
+    <text x="205" y="366" fill="#8A3626">Rocky Mountains</text>
+    <text x="205" y="378" font-size="7.5" font-weight="400" fill="#4A443C">young, ~70 million yrs</text>
+    <text x="350" y="350" fill="#6B5636">Great Plains</text>
+    <text x="485" y="350" fill="#6B5636">Canadian Shield</text>
+    <text x="485" y="362" font-size="7.5" font-weight="400" fill="#4A443C">ancient bedrock, 2.5B+ yrs</text>
+    <text x="578" y="350" fill="#3F5E78">Appalachians</text>
+  </g>
+
+  <!-- Isthmus of Panama inset -->
+  <rect x="440" y="60" width="170" height="90" rx="6" fill="#EEF3EE" stroke="#E3DCC9"/>
+  <text x="525" y="78" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="10.5" font-weight="600" fill="#1F1B16">Southern boundary</text>
+  <path d="M 460,110 C 480,100 500,125 520,110 C 540,100 560,125 585,112" fill="none" stroke="#2C4A3E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 460,120 C 480,110 500,135 520,120 C 540,110 560,135 585,122" fill="none" stroke="#2C4A3E" stroke-width="6" stroke-linecap="round"/>
+  <text x="525" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">Isthmus of Panama</text>
+  <text x="525" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">narrows to ~80 km</text>
+
+  <text x="320" y="404" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Jagged vs. rounded peaks reflect age: the Rockies are still uplifting; the Appalachians have eroded for ~480 million years.</text>
+</svg>

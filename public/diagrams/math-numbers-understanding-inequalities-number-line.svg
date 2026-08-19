@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="inequalityLinesTitle">
+  <title id="inequalityLinesTitle">Two number lines: the top shows x less than or equal to 15 with a filled closed circle at 15 and shading extending left; the bottom shows x less than negative 4 with an open unfilled circle at negative 4 and shading extending left, illustrating strict versus inclusive inequality boundaries</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- Line 1: x <= 15 -->
+  <text x="80" y="80" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#20362D">x ≤ 15</text>
+  <line x1="80" y1="130" x2="600" y2="130" stroke="#1F1B16" stroke-width="1.5"/>
+  <path d="M 80,130 L 90,124 L 90,136 Z" fill="#1F1B16"/>
+  <path d="M 600,130 L 590,124 L 590,136 Z" fill="#1F1B16"/>
+  <!-- shading toward negative numbers (left) -->
+  <line x1="95" y1="130" x2="513" y2="130" stroke="#2C4A3E" stroke-width="6"/>
+  <!-- ticks -->
+  <g stroke="#1F1B16" stroke-width="1.5">
+    <line x1="80" y1="123" x2="80" y2="137"/>
+    <line x1="167" y1="123" x2="167" y2="137"/>
+    <line x1="253" y1="123" x2="253" y2="137"/>
+    <line x1="340" y1="123" x2="340" y2="137"/>
+    <line x1="427" y1="123" x2="427" y2="137"/>
+    <line x1="600" y1="123" x2="600" y2="137"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C" text-anchor="middle">
+    <text x="80" y="158">-10</text>
+    <text x="167" y="158">-5</text>
+    <text x="253" y="158">0</text>
+    <text x="340" y="158">5</text>
+    <text x="427" y="158">10</text>
+    <text x="600" y="158">20</text>
+  </g>
+  <!-- closed circle at 15 -->
+  <circle cx="513" cy="130" r="8" fill="#2C4A3E" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="513" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">15</text>
+  <text x="513" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#8B6F4E">closed circle — 15 is included</text>
+
+  <!-- Line 2: x < -4 -->
+  <text x="80" y="250" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#20362D">x &lt; -4</text>
+  <line x1="80" y1="300" x2="600" y2="300" stroke="#1F1B16" stroke-width="1.5"/>
+  <path d="M 80,300 L 90,294 L 90,306 Z" fill="#1F1B16"/>
+  <path d="M 600,300 L 590,294 L 590,306 Z" fill="#1F1B16"/>
+  <!-- shading toward negative numbers (left), stops before the open circle -->
+  <line x1="95" y1="300" x2="280" y2="300" stroke="#C9412C" stroke-width="6"/>
+  <g stroke="#1F1B16" stroke-width="1.5">
+    <line x1="80" y1="293" x2="80" y2="307"/>
+    <line x1="253" y1="293" x2="253" y2="307"/>
+    <line x1="427" y1="293" x2="427" y2="307"/>
+    <line x1="600" y1="293" x2="600" y2="307"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C" text-anchor="middle">
+    <text x="80" y="328">-10</text>
+    <text x="253" y="328">-5</text>
+    <text x="427" y="328">0</text>
+    <text x="600" y="328">5</text>
+  </g>
+  <!-- open circle at -4 -->
+  <circle cx="288" cy="300" r="8" fill="#FBF8F1" stroke="#C9412C" stroke-width="2.5"/>
+  <text x="288" y="282" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">-4</text>
+  <text x="288" y="355" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#8B6F4E">open circle — -4 is excluded</text>
+</svg>

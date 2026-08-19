@@ -1,0 +1,53 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="constantsTitle">
+  <title id="constantsTitle">A three-panel diagram: a circle with diameter and circumference labeled and pi marked as their ratio; a smooth exponential growth curve labeled with the continuous compounding formula P times e to the r t; and a line segment split into a longer and shorter piece showing the golden ratio proportion, alongside a small golden rectangle built from the same proportion</title>
+  <rect width="660" height="320" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <!-- panel dividers -->
+    <line x1="220" y1="20" x2="220" y2="300" stroke="#E3DCC9" stroke-width="1.5"/>
+    <line x1="440" y1="20" x2="440" y2="300" stroke="#E3DCC9" stroke-width="1.5"/>
+
+    <!-- PANEL 1: pi -->
+    <text x="110" y="38" text-anchor="middle" font-size="14" font-weight="600" fill="#2C4A3E">π (pi)</text>
+    <circle cx="110" cy="140" r="70" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.75"/>
+    <line x1="40" y1="140" x2="180" y2="140" stroke="#C9412C" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <text x="110" y="132" text-anchor="middle" font-size="11" fill="#C9412C">diameter (d)</text>
+    <path d="M 110,70 A70,70 0 0,1 178,111" fill="none" stroke="#1F1B16" stroke-width="3"/>
+    <text x="168" y="88" text-anchor="middle" font-size="10.5" fill="#1F1B16">circumference (C)</text>
+    <text x="110" y="238" text-anchor="middle" font-size="14" font-weight="600" fill="#1F1B16">π = C ÷ d</text>
+    <text x="110" y="258" text-anchor="middle" font-size="12" fill="#4A443C">≈ 3.14159…</text>
+    <text x="110" y="278" text-anchor="middle" font-size="10.5" fill="#8B6F4E">same ratio for every circle</text>
+
+    <!-- PANEL 2: e -->
+    <text x="330" y="38" text-anchor="middle" font-size="14" font-weight="600" fill="#2C4A3E">e (Euler's number)</text>
+    <g>
+      <line x1="255" y1="220" x2="255" y2="70" stroke="#1F1B16" stroke-width="1.25"/>
+      <line x1="255" y1="220" x2="410" y2="220" stroke="#1F1B16" stroke-width="1.25"/>
+      <path d="M 255,220 C 300,220 300,150 330,120 C 355,95 380,85 405,78" fill="none" stroke="#C9412C" stroke-width="2.25"/>
+      <text x="410" y="228" text-anchor="middle" font-size="10.5" fill="#4A443C">time (t)</text>
+      <text x="240" y="70" text-anchor="middle" font-size="10.5" fill="#4A443C">amount</text>
+    </g>
+    <text x="330" y="255" text-anchor="middle" font-size="14" font-weight="600" fill="#1F1B16">A = P·e^(rt)</text>
+    <text x="330" y="275" text-anchor="middle" font-size="12" fill="#4A443C">e ≈ 2.71828…</text>
+    <text x="330" y="293" text-anchor="middle" font-size="10.5" fill="#8B6F4E">limit of continuous compounding</text>
+
+    <!-- PANEL 3: golden ratio -->
+    <text x="548" y="38" text-anchor="middle" font-size="14" font-weight="600" fill="#2C4A3E">φ (golden ratio)</text>
+    <!-- split line segment: whole = a + b, a/b = (a+b)/a -->
+    <line x1="470" y1="90" x2="628" y2="90" stroke="#1F1B16" stroke-width="3"/>
+    <line x1="568" y1="80" x2="568" y2="100" stroke="#1F1B16" stroke-width="1.5"/>
+    <text x="519" y="76" text-anchor="middle" font-size="11" fill="#1F1B16">a (larger)</text>
+    <text x="598" y="76" text-anchor="middle" font-size="11" fill="#1F1B16">b (smaller)</text>
+    <text x="549" y="108" text-anchor="middle" font-size="10.5" fill="#8B6F4E">a ÷ b = (a+b) ÷ a</text>
+
+    <!-- golden rectangle: width:height = phi:1, split into square + smaller golden rectangle -->
+    <rect x="470" y="140" width="129.5" height="80" fill="none" stroke="#2C4A3E" stroke-width="1.75"/>
+    <line x1="550" y1="140" x2="550" y2="220" stroke="#2C4A3E" stroke-width="1.25"/>
+    <rect x="470" y="140" width="80" height="80" fill="#EEF3EE" opacity="0.7"/>
+    <text x="510" y="185" text-anchor="middle" font-size="10.5" fill="#4A443C">square</text>
+    <text x="574" y="185" text-anchor="middle" font-size="9.5" fill="#4A443C">golden rect.</text>
+    <text x="548" y="248" text-anchor="middle" font-size="14" font-weight="600" fill="#1F1B16">φ = (1+√5) ÷ 2</text>
+    <text x="548" y="268" text-anchor="middle" font-size="12" fill="#4A443C">≈ 1.61803…</text>
+    <text x="548" y="288" text-anchor="middle" font-size="10.5" fill="#8B6F4E">whole ÷ larger = larger ÷ smaller</text>
+  </g>
+</svg>

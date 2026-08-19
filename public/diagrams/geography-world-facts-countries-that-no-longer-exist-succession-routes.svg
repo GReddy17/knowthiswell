@@ -1,0 +1,86 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="successionTitle">
+  <title id="successionTitle">A three-panel diagram: panel one shows one shape labeled USSR splitting into many separate shapes labeled with former Soviet republic names, representing dissolution; panel two shows two separate shapes labeled East Germany and West Germany merging into one shape labeled Germany, representing unification; panel three shows a small shape being absorbed into and disappearing inside a larger shape, representing absorption</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- panel dividers -->
+  <line x1="213" y1="16" x2="213" y2="380" stroke="#E3DCC9" stroke-width="1"/>
+  <line x1="427" y1="16" x2="427" y2="380" stroke="#E3DCC9" stroke-width="1"/>
+
+  <!-- Panel 1: Dissolution -->
+  <text x="106" y="30" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="700" fill="#1F1B16">Dissolution</text>
+
+  <rect x="56" y="46" width="100" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="106" y="71" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">USSR</text>
+
+  <g stroke="#2C4A3E" stroke-width="1.25" fill="none">
+    <path d="M75,88 L20,150"/>
+    <path d="M92,88 L60,150"/>
+    <path d="M106,88 L106,150"/>
+    <path d="M120,88 L152,150"/>
+    <path d="M137,88 L192,150"/>
+  </g>
+
+  <g fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.25">
+    <rect x="4" y="150" width="34" height="26" rx="3"/>
+    <rect x="44" y="150" width="34" height="26" rx="3"/>
+    <rect x="84" y="150" width="34" height="26" rx="3"/>
+    <rect x="124" y="150" width="34" height="26" rx="3"/>
+    <rect x="164" y="150" width="42" height="26" rx="3"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="6.6" fill="#1F1B16" text-anchor="middle">
+    <text x="21" y="166">Russia</text>
+    <text x="61" y="166">Ukraine</text>
+    <text x="101" y="160">Kazakh-</text>
+    <text x="101" y="168">stan</text>
+    <text x="141" y="166">Belarus</text>
+    <text x="185" y="160">Baltic</text>
+    <text x="185" y="168">states</text>
+  </g>
+  <text x="106" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">+ 10 more republics</text>
+
+  <text x="106" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">One state, many</text>
+  <text x="106" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">equal successors</text>
+
+  <!-- Panel 2: Unification -->
+  <text x="320" y="30" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="700" fill="#1F1B16">Unification</text>
+
+  <rect x="233" y="46" width="80" height="40" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="273" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">East</text>
+  <text x="273" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Germany</text>
+
+  <rect x="327" y="46" width="80" height="40" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="367" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">West</text>
+  <text x="367" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Germany</text>
+
+  <g stroke="#2C4A3E" stroke-width="1.5" fill="none">
+    <path d="M263,86 L303,140"/>
+    <path d="M377,86 L337,140"/>
+  </g>
+  <path d="M289,132 L303,140 L292,150" fill="none" stroke="#2C4A3E" stroke-width="1.5"/>
+  <path d="M351,132 L337,140 L348,150" fill="none" stroke="#2C4A3E" stroke-width="1.5"/>
+
+  <rect x="270" y="150" width="100" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="320" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Germany</text>
+
+  <text x="320" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Two states merge</text>
+  <text x="320" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">into one</text>
+
+  <!-- Panel 3: Absorption -->
+  <text x="533" y="30" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="700" fill="#1F1B16">Absorption</text>
+
+  <rect x="453" y="52" width="160" height="140" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="533" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">India</text>
+
+  <rect x="480" y="72" width="56" height="38" rx="4" fill="none" stroke="#4A443C" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.75"/>
+  <text x="508" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">Sikkim</text>
+
+  <path d="M508,110 L508,130" stroke="#4A443C" stroke-width="1" stroke-dasharray="2 2"/>
+  <text x="508" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">absorbed, 1975</text>
+
+  <text x="533" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Small state disappears</text>
+  <text x="533" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">into a larger, unchanged one</text>
+
+  <line x1="40" y1="270" x2="600" y2="270" stroke="#E3DCC9" stroke-width="1"/>
+  <text x="320" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Reading left to right: increasing complexity of state succession.</text>
+  <text x="320" y="316" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Panels are illustrative and not drawn to any real geographic scale.</text>
+</svg>

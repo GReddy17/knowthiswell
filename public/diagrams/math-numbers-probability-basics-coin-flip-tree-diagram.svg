@@ -1,0 +1,63 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="coinTreeTitle">
+  <title id="coinTreeTitle">Tree diagram of two coin flips: each flip branches into heads or tails with probability one half, producing four equally likely outcomes HH, HT, TH, and TT, each with probability one quarter</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <text x="70" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8B6F4E">Start</text>
+  <text x="260" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8B6F4E">Flip 1</text>
+  <text x="550" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8B6F4E">Flip 2 outcome</text>
+
+  <g stroke="#2C4A3E" stroke-width="1.75" fill="none">
+    <line x1="70" y1="210" x2="260" y2="128"/>
+    <line x1="70" y1="210" x2="260" y2="293"/>
+    <line x1="260" y1="128" x2="450" y2="85"/>
+    <line x1="260" y1="128" x2="450" y2="170"/>
+    <line x1="260" y1="293" x2="450" y2="250"/>
+    <line x1="260" y1="293" x2="450" y2="335"/>
+  </g>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">
+    <rect x="145" y="146" width="34" height="18" rx="4" fill="#FBF8F1"/>
+    <text x="162" y="159" text-anchor="middle">1/2</text>
+    <rect x="145" y="262" width="34" height="18" rx="4" fill="#FBF8F1"/>
+    <text x="162" y="275" text-anchor="middle">1/2</text>
+    <rect x="335" y="86" width="34" height="18" rx="4" fill="#FBF8F1"/>
+    <text x="352" y="99" text-anchor="middle">1/2</text>
+    <rect x="335" y="153" width="34" height="18" rx="4" fill="#FBF8F1"/>
+    <text x="352" y="166" text-anchor="middle">1/2</text>
+    <rect x="335" y="251" width="34" height="18" rx="4" fill="#FBF8F1"/>
+    <text x="352" y="264" text-anchor="middle">1/2</text>
+    <rect x="335" y="318" width="34" height="18" rx="4" fill="#FBF8F1"/>
+    <text x="352" y="331" text-anchor="middle">1/2</text>
+  </g>
+
+  <circle cx="70" cy="210" r="7" fill="#2C4A3E"/>
+  <circle cx="260" cy="128" r="7" fill="#2C4A3E"/>
+  <circle cx="260" cy="293" r="7" fill="#2C4A3E"/>
+
+  <text x="235" y="122" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" fill="#1F1B16">Heads</text>
+  <text x="235" y="287" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" fill="#1F1B16">Tails</text>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="480" y="63" width="140" height="44" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <circle cx="450" cy="85" r="4" fill="#2C4A3E"/>
+    <text x="500" y="82" font-size="14" font-weight="700" fill="#1F1B16">HH</text>
+    <text x="500" y="98" font-size="12" fill="#4A443C">P = 1/4</text>
+
+    <rect x="480" y="148" width="140" height="44" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <circle cx="450" cy="170" r="4" fill="#2C4A3E"/>
+    <text x="500" y="167" font-size="14" font-weight="700" fill="#1F1B16">HT</text>
+    <text x="500" y="183" font-size="12" fill="#4A443C">P = 1/4</text>
+
+    <rect x="480" y="228" width="140" height="44" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <circle cx="450" cy="250" r="4" fill="#2C4A3E"/>
+    <text x="500" y="247" font-size="14" font-weight="700" fill="#1F1B16">TH</text>
+    <text x="500" y="263" font-size="12" fill="#4A443C">P = 1/4</text>
+
+    <rect x="480" y="313" width="140" height="44" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <circle cx="450" cy="335" r="4" fill="#2C4A3E"/>
+    <text x="500" y="332" font-size="14" font-weight="700" fill="#1F1B16">TT</text>
+    <text x="500" y="348" font-size="12" fill="#4A443C">P = 1/4</text>
+  </g>
+
+  <text x="320" y="401" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#8B6F4E">Each path multiplies its branch probabilities: 1/2 &#215; 1/2 = 1/4</text>
+</svg>

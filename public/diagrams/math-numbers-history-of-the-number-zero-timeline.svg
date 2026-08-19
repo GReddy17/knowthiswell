@@ -1,0 +1,51 @@
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="zeroTimelineTitle">
+  <title id="zeroTimelineTitle">A horizontal timeline of four milestones in chronological order: Babylonian placeholder zero around the 3rd century BCE, Brahmagupta's formal arithmetic rules for zero as a number in India around 628 CE, the independent Maya placeholder zero by around 665 CE, and the spread of Indian numerals including zero through Islamic scholarship into Europe by 1202 CE via Fibonacci's Liber Abaci</title>
+  <rect width="720" height="300" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="360" y="30" text-anchor="middle" font-size="14" font-weight="600" fill="#2C4A3E">Zero's independent origins, in chronological order</text>
+
+    <line x1="60" y1="150" x2="660" y2="150" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 440,145 l 8,10 l -8,10" fill="none" stroke="#1F1B16" stroke-width="1.25"/>
+    <path d="M 450,145 l 8,10 l -8,10" fill="none" stroke="#1F1B16" stroke-width="1.25"/>
+    <text x="446" y="130" text-anchor="middle" font-size="9" fill="#8B6F4E">(not to scale)</text>
+
+    <!-- Babylon, c. 3rd century BCE (placeholder) -->
+    <circle cx="110" cy="150" r="6" fill="#2C4A3E"/>
+    <line x1="110" y1="150" x2="110" y2="110" stroke="#2C4A3E" stroke-width="1.25"/>
+    <text x="110" y="98" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Babylon</text>
+    <text x="110" y="170" text-anchor="middle" font-size="11" fill="#8B6F4E">c. 3rd century BCE</text>
+    <text x="110" y="188" text-anchor="middle" font-size="10" fill="#4A443C">placeholder zero</text>
+    <text x="110" y="202" text-anchor="middle" font-size="10" fill="#4A443C">in sexagesimal</text>
+    <text x="110" y="216" text-anchor="middle" font-size="10" fill="#4A443C">notation</text>
+
+    <!-- Brahmagupta, 628 CE (zero as a number) -->
+    <circle cx="280" cy="150" r="6" fill="#C9412C"/>
+    <line x1="280" y1="150" x2="280" y2="110" stroke="#C9412C" stroke-width="1.25"/>
+    <text x="280" y="98" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Brahmagupta</text>
+    <text x="280" y="170" text-anchor="middle" font-size="11" fill="#8B6F4E">628 CE</text>
+    <text x="280" y="188" text-anchor="middle" font-size="10" fill="#4A443C">Brahmasphutasiddhanta —</text>
+    <text x="280" y="202" text-anchor="middle" font-size="10" fill="#4A443C">first formal rules</text>
+    <text x="280" y="216" text-anchor="middle" font-size="10" fill="#4A443C">for zero as a number</text>
+
+    <!-- Maya, by 665 CE (independent placeholder) -->
+    <circle cx="490" cy="150" r="6" fill="#2C4A3E"/>
+    <line x1="490" y1="150" x2="490" y2="110" stroke="#2C4A3E" stroke-width="1.25"/>
+    <text x="490" y="98" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Maya</text>
+    <text x="490" y="170" text-anchor="middle" font-size="11" fill="#8B6F4E">by c. 665 CE</text>
+    <text x="490" y="188" text-anchor="middle" font-size="10" fill="#4A443C">independent</text>
+    <text x="490" y="202" text-anchor="middle" font-size="10" fill="#4A443C">placeholder zero in</text>
+    <text x="490" y="216" text-anchor="middle" font-size="10" fill="#4A443C">vigesimal calendar</text>
+
+    <!-- Fibonacci / Liber Abaci, 1202 CE (spread to Europe) -->
+    <circle cx="610" cy="150" r="6" fill="#8B6F4E"/>
+    <line x1="610" y1="150" x2="610" y2="190" stroke="#8B6F4E" stroke-width="1.25"/>
+    <text x="610" y="98" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Liber Abaci</text>
+    <text x="610" y="82" text-anchor="middle" font-size="11" fill="#8B6F4E">1202 CE</text>
+    <text x="610" y="207" text-anchor="middle" font-size="10" fill="#4A443C">via Islamic scholarship,</text>
+    <text x="610" y="221" text-anchor="middle" font-size="10" fill="#4A443C">Fibonacci brings zero</text>
+    <text x="610" y="235" text-anchor="middle" font-size="10" fill="#4A443C">and Indian numerals to Europe</text>
+
+    <text x="360" y="270" text-anchor="middle" font-size="10.5" fill="#8B6F4E">Babylon and the Maya invented placeholder zero independently; only India's leap to zero-as-a-number spread onward</text>
+  </g>
+</svg>

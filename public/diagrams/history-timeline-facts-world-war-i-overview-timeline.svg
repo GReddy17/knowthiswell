@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1245 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of World War I from the June 1914 assassination of Archduke Franz Ferdinand, through the August 1914 cascade of war declarations, the onset of Western Front trench warfare, Russia's 1917 exit after its revolution, United States entry in 1917, the 11 November 1918 armistice, and the 1919 Treaty of Versailles</title>
+  <rect width="1245" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="622" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">One assassination, four years, a continent transformed</text>
+
+    <rect x="40" y="115" width="200" height="40" fill="#EEF3EE"/>
+    <text x="140" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Franz Ferdinand assassinated</text>
+    <text x="140" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Jun 1914</text>
+
+    <rect x="240" y="115" width="195" height="40" fill="#FBEDEA"/>
+    <text x="337" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Declarations of war cascade</text>
+    <text x="337" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Aug 1914</text>
+
+    <rect x="435" y="115" width="170" height="40" fill="#EDE7D8"/>
+    <text x="520" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Trench warfare begins</text>
+    <text x="520" y="138" text-anchor="middle" font-size="9" fill="#4A443C">Western Front stalemate</text>
+    <text x="520" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1914</text>
+
+    <rect x="605" y="115" width="170" height="40" fill="#EEF3EE"/>
+    <text x="690" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Russia exits the war</text>
+    <text x="690" y="138" text-anchor="middle" font-size="9" fill="#4A443C">after Russian Revolution</text>
+    <text x="690" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1917</text>
+
+    <rect x="775" y="115" width="150" height="40" fill="#FBEDEA"/>
+    <text x="850" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">United States enters</text>
+    <text x="850" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1917</text>
+
+    <rect x="925" y="115" width="130" height="40" fill="#EDE7D8"/>
+    <text x="990" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Armistice</text>
+    <text x="990" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">11 Nov 1918</text>
+
+    <rect x="1055" y="115" width="150" height="40" fill="#EEF3EE"/>
+    <text x="1130" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Treaty of Versailles</text>
+    <text x="1130" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1919</text>
+  </g>
+  <rect x="40" y="115" width="1165" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="240" y1="115" x2="240" y2="155" stroke="#1F1B16"/>
+  <line x1="435" y1="115" x2="435" y2="155" stroke="#1F1B16"/>
+  <line x1="605" y1="115" x2="605" y2="155" stroke="#1F1B16"/>
+  <line x1="775" y1="115" x2="775" y2="155" stroke="#1F1B16"/>
+  <line x1="925" y1="115" x2="925" y2="155" stroke="#1F1B16"/>
+  <line x1="1055" y1="115" x2="1055" y2="155" stroke="#1F1B16"/>
+</svg>

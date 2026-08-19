@@ -1,0 +1,75 @@
+<svg viewBox="0 0 840 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the British Empire's growth and decolonization: the East India Company founded in 1600, Jamestown settled in 1607, the thirteen American colonies lost in 1783, slavery abolished across the empire in 1833, direct Crown rule in India from 1858, peak territorial extent in the 1920s covering roughly a quarter of the Earth's land area, Indian independence in 1947, the wave of African and Caribbean independence in the late 1950s and 1960s, and the 1997 handover of Hong Kong</title>
+  <rect width="840" height="300" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="420" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">The British Empire: growth and decolonization</text>
+    <text x="420" y="42" text-anchor="middle" font-size="10.5" fill="#8B6F4E">1600s to 1997, spanning nearly four centuries</text>
+
+    <line x1="45" y1="160" x2="775" y2="160" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 775,160 L 765,155 L 765,165 Z" fill="#1F1B16"/>
+
+    <!-- 1600 (above) -->
+    <line x1="60" y1="160" x2="60" y2="130" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="60" cy="160" r="5" fill="#2C4A3E"/>
+    <text x="60" y="116" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1600</text>
+    <text x="60" y="102" text-anchor="middle" font-size="9" fill="#4A443C">East India Company</text>
+    <text x="60" y="91" text-anchor="middle" font-size="9" fill="#4A443C">founded</text>
+
+    <!-- 1607 (below) -->
+    <line x1="148" y1="160" x2="148" y2="190" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="148" cy="160" r="5" fill="#2C4A3E"/>
+    <text x="148" y="206" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1607</text>
+    <text x="148" y="220" text-anchor="middle" font-size="9" fill="#4A443C">Jamestown settled</text>
+
+    <!-- 1783 (above) -->
+    <line x1="235" y1="160" x2="235" y2="130" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="235" cy="160" r="5" fill="#C9412C"/>
+    <text x="235" y="116" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1783</text>
+    <text x="235" y="102" text-anchor="middle" font-size="9" fill="#4A443C">Thirteen colonies</text>
+    <text x="235" y="91" text-anchor="middle" font-size="9" fill="#4A443C">lost</text>
+
+    <!-- 1833 (below) -->
+    <line x1="323" y1="160" x2="323" y2="190" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="323" cy="160" r="5" fill="#2C4A3E"/>
+    <text x="323" y="206" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1833</text>
+    <text x="323" y="220" text-anchor="middle" font-size="9" fill="#4A443C">Slavery abolished</text>
+    <text x="323" y="232" text-anchor="middle" font-size="9" fill="#4A443C">across the empire</text>
+
+    <!-- 1858 (above) -->
+    <line x1="410" y1="160" x2="410" y2="130" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="410" cy="160" r="5" fill="#2C4A3E"/>
+    <text x="410" y="116" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1858</text>
+    <text x="410" y="102" text-anchor="middle" font-size="9" fill="#4A443C">Crown rule begins</text>
+    <text x="410" y="91" text-anchor="middle" font-size="9" fill="#4A443C">in India</text>
+
+    <!-- 1920s peak (below) -->
+    <line x1="498" y1="160" x2="498" y2="190" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="498" cy="160" r="5.5" fill="#B08D3E"/>
+    <text x="498" y="206" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1920s</text>
+    <text x="498" y="220" text-anchor="middle" font-size="9" fill="#4A443C">Peak extent: about</text>
+    <text x="498" y="232" text-anchor="middle" font-size="9" fill="#4A443C">1/4 of Earth's land</text>
+
+    <!-- 1947 (above) -->
+    <line x1="585" y1="160" x2="585" y2="130" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="585" cy="160" r="5" fill="#2C4A3E"/>
+    <text x="585" y="116" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1947</text>
+    <text x="585" y="102" text-anchor="middle" font-size="9" fill="#4A443C">Indian</text>
+    <text x="585" y="91" text-anchor="middle" font-size="9" fill="#4A443C">independence</text>
+
+    <!-- late 1950s-1960s (below) -->
+    <line x1="673" y1="160" x2="673" y2="190" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="673" cy="160" r="5" fill="#2C4A3E"/>
+    <text x="673" y="206" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">Late 1950s-60s</text>
+    <text x="673" y="220" text-anchor="middle" font-size="9" fill="#4A443C">African &amp; Caribbean</text>
+    <text x="673" y="232" text-anchor="middle" font-size="9" fill="#4A443C">independence wave</text>
+
+    <!-- 1997 (above) -->
+    <line x1="760" y1="160" x2="760" y2="130" stroke="#E3DCC9" stroke-width="1.5"/>
+    <circle cx="760" cy="160" r="5" fill="#2C4A3E"/>
+    <text x="760" y="116" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">1997</text>
+    <text x="760" y="102" text-anchor="middle" font-size="9" fill="#4A443C">Hong Kong</text>
+    <text x="760" y="91" text-anchor="middle" font-size="9" fill="#4A443C">handover</text>
+
+    <text x="420" y="278" text-anchor="middle" font-size="10.5" fill="#8B6F4E">Gold marker: peak territorial extent, 1920s</text>
+  </g>
+</svg>

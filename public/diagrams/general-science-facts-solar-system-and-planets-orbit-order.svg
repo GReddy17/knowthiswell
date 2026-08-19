@@ -1,0 +1,75 @@
+<svg viewBox="0 0 860 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="solarSystemOrderTitle">
+  <title id="solarSystemOrderTitle">The Sun and the eight planets arranged in order of increasing distance — Mercury, Venus, Earth, Mars, the asteroid belt, then Jupiter, Saturn, Uranus, Neptune — with the four inner planets small and rocky-colored and the four outer planets much larger with banded gas-giant coloring, each labeled with its approximate distance in astronomical units</title>
+
+  <rect x="0" y="0" width="860" height="310" fill="#FBF8F1"/>
+
+  <!-- zone bands -->
+  <rect x="85" y="95" width="205" height="150" fill="#EEF3EE" opacity="0.6"/>
+  <rect x="395" y="85" width="440" height="170" fill="#EDE7D8" opacity="0.55"/>
+  <text x="187" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#20362D">Inner: rocky planets</text>
+  <text x="615" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#4A443C">Outer: gas &amp; ice giants</text>
+
+  <!-- sequence guideline -->
+  <line x1="82" y1="170" x2="820" y2="170" stroke="#E3DCC9" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <!-- Sun -->
+  <circle cx="45" cy="170" r="34" fill="#D9A441" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="45" y="270" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13" font-weight="600" fill="#1F1B16">Sun</text>
+
+  <!-- Mercury -->
+  <circle cx="115" cy="170" r="6" fill="#8B6F4E"/>
+  <text x="115" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Mercury</text>
+  <text x="115" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">0.39 AU</text>
+
+  <!-- Venus -->
+  <circle cx="167" cy="170" r="9" fill="#C97A4A"/>
+  <text x="167" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Venus</text>
+  <text x="167" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">0.72 AU</text>
+
+  <!-- Earth -->
+  <circle cx="218" cy="170" r="9.5" fill="#5B7C99"/>
+  <path d="M 211,166 Q 216,162 222,167 Q 226,171 220,174" fill="#2C4A3E"/>
+  <text x="218" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Earth</text>
+  <text x="218" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">1.0 AU</text>
+
+  <!-- Mars -->
+  <circle cx="266" cy="170" r="7" fill="#C9412C"/>
+  <text x="266" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Mars</text>
+  <text x="266" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">1.52 AU</text>
+
+  <!-- asteroid belt -->
+  <g fill="#8B6F4E">
+    <circle cx="308" cy="164" r="2"/>
+    <circle cx="320" cy="176" r="1.7"/>
+    <circle cx="333" cy="166" r="2.2"/>
+    <circle cx="345" cy="177" r="1.8"/>
+    <circle cx="357" cy="163" r="1.6"/>
+    <circle cx="320" cy="158" r="1.5"/>
+    <circle cx="348" cy="168" r="1.6"/>
+  </g>
+  <text x="332" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Asteroid belt</text>
+  <text x="332" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">~2.2–3.2 AU</text>
+
+  <!-- Jupiter -->
+  <circle cx="440" cy="170" r="28" fill="#D9A441"/>
+  <clipPath id="jupClip"><circle cx="440" cy="170" r="28"/></clipPath>
+  <g clip-path="url(#jupClip)"><path d="M 412,160 h56 M 412,172 h56 M 415,183 h50" stroke="#C97A4A" stroke-width="3" opacity="0.7"/></g>
+  <text x="440" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Jupiter</text>
+  <text x="440" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">5.2 AU</text>
+
+  <!-- Saturn -->
+  <ellipse cx="560" cy="170" rx="42" ry="11" fill="none" stroke="#8B6F4E" stroke-width="2"/>
+  <circle cx="560" cy="170" r="24" fill="#E3C48A"/>
+  <text x="560" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Saturn</text>
+  <text x="560" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">9.5 AU</text>
+
+  <!-- Uranus -->
+  <circle cx="680" cy="170" r="16" fill="#8FB8B0"/>
+  <text x="680" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Uranus</text>
+  <text x="680" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">19.2 AU</text>
+
+  <!-- Neptune -->
+  <circle cx="785" cy="170" r="15" fill="#4A6FA5"/>
+  <text x="785" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Neptune</text>
+  <text x="785" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">30.1 AU</text>
+</svg>

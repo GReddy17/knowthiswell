@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1370 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the US civil rights movement's key documented milestones: Brown v. Board of Education in 1954, the Montgomery Bus Boycott from 1955 to 1956, the Greensboro sit-ins in 1960, the Freedom Rides in 1961, the Birmingham campaign and March on Washington in 1963, the Civil Rights Act in 1964, and Bloody Sunday in Selma followed by the Voting Rights Act in 1965</title>
+  <rect width="1370" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="685" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">A decade of organized litigation, protest, and legislation, not one event or one leader</text>
+
+    <rect x="40" y="115" width="190" height="40" fill="#EEF3EE"/>
+    <text x="135" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Brown v. Board of Education</text>
+    <text x="135" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">school segregation struck down</text>
+    <text x="135" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1954</text>
+
+    <rect x="230" y="115" width="170" height="40" fill="#FBEDEA"/>
+    <text x="315" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Montgomery Bus Boycott</text>
+    <text x="315" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">381-day boycott begins</text>
+    <text x="315" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1955-1956</text>
+
+    <rect x="400" y="115" width="150" height="40" fill="#EDE7D8"/>
+    <text x="475" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Greensboro sit-ins</text>
+    <text x="475" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">student-led lunch counters</text>
+    <text x="475" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1960</text>
+
+    <rect x="550" y="115" width="150" height="40" fill="#EEF3EE"/>
+    <text x="625" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Freedom Rides</text>
+    <text x="625" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">test bus desegregation</text>
+    <text x="625" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1961</text>
+
+    <rect x="700" y="115" width="230" height="40" fill="#FBEDEA"/>
+    <text x="815" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Birmingham &amp; March on Washington</text>
+    <text x="815" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">&quot;I Have a Dream&quot; speech</text>
+    <text x="815" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1963</text>
+
+    <rect x="930" y="115" width="190" height="40" fill="#EDE7D8"/>
+    <text x="1025" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Civil Rights Act</text>
+    <text x="1025" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">employment &amp; public spaces</text>
+    <text x="1025" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1964</text>
+
+    <rect x="1120" y="115" width="210" height="40" fill="#EEF3EE"/>
+    <text x="1225" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Bloody Sunday &amp; Voting Rights Act</text>
+    <text x="1225" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Selma march attacked; Act passed</text>
+    <text x="1225" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1965</text>
+  </g>
+  <rect x="40" y="115" width="1290" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="230" y1="115" x2="230" y2="155" stroke="#1F1B16"/>
+  <line x1="400" y1="115" x2="400" y2="155" stroke="#1F1B16"/>
+  <line x1="550" y1="115" x2="550" y2="155" stroke="#1F1B16"/>
+  <line x1="700" y1="115" x2="700" y2="155" stroke="#1F1B16"/>
+  <line x1="930" y1="115" x2="930" y2="155" stroke="#1F1B16"/>
+  <line x1="1120" y1="115" x2="1120" y2="155" stroke="#1F1B16"/>
+  <text x="685" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Each legislative outcome (1964, 1965) followed a specific, documented campaign of organized protest</text>
+</svg>

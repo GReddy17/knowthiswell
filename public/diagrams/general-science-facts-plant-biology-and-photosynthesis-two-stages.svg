@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chloroplastTitle">
+  <title id="chloroplastTitle">Cross-section of a chloroplast showing the two connected stages of photosynthesis: light-dependent reactions in the thylakoid membrane stack, where light splits water into oxygen plus ATP and NADPH, and the Calvin cycle in the surrounding stroma, which uses that ATP and NADPH along with carbon dioxide to build glucose</title>
+
+  <rect x="0" y="0" width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- outer chloroplast membrane -->
+  <rect x="40" y="60" width="560" height="300" rx="60" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="440" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-style="italic" fill="#4A443C">Stroma</text>
+
+  <!-- light arrow -->
+  <g>
+    <path d="M 150,20 L 150,55" stroke="#C9A227" stroke-width="3" marker-end="url(#lArrow)"/>
+    <circle cx="150" cy="14" r="9" fill="#E8C86B"/>
+    <text x="120" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E">Light</text>
+  </g>
+
+  <!-- thylakoid stack -->
+  <g>
+    <ellipse cx="180" cy="230" rx="75" ry="14" fill="#2C4A3E"/>
+    <ellipse cx="180" cy="210" rx="75" ry="14" fill="#345A4A"/>
+    <ellipse cx="180" cy="190" rx="75" ry="14" fill="#3D6753"/>
+    <ellipse cx="180" cy="170" rx="75" ry="14" fill="#48755F"/>
+    <ellipse cx="180" cy="150" rx="75" ry="14" fill="#5E8A73"/>
+  </g>
+  <text x="180" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Thylakoid Membrane</text>
+  <text x="180" y="286" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Light-Dependent Reactions</text>
+
+  <!-- H2O in, O2 out -->
+  <text x="70" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">H₂O</text>
+  <path d="M 80,190 L 108,195" stroke="#4A443C" stroke-width="1.5" marker-end="url(#lArrow)"/>
+  <path d="M 190,130 Q 210,95 240,70" stroke="#4A443C" stroke-width="1.5" fill="none" marker-end="url(#lArrow)"/>
+  <text x="248" y="65" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">O₂ released</text>
+
+  <!-- ATP/NADPH arrow to stroma / Calvin cycle -->
+  <path d="M 260,195 Q 330,205 385,225" stroke="#C9412C" stroke-width="2" fill="none" marker-end="url(#rArrow)"/>
+  <text x="300" y="185" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#8B4A3A">ATP + NADPH</text>
+
+  <!-- Calvin cycle -->
+  <circle cx="450" cy="240" r="70" fill="none" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="1 10" stroke-linecap="round"/>
+  <path d="M 450,170 A 70 70 0 1 1 449.9,170" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#lArrow)"/>
+  <text x="450" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Calvin</text>
+  <text x="450" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Cycle</text>
+
+  <text x="450" y="310" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Stage 2 — builds sugar from CO₂</text>
+
+  <!-- CO2 in -->
+  <path d="M 590,240 L 528,240" stroke="#4A443C" stroke-width="1.5" marker-end="url(#lArrow)"/>
+  <text x="596" y="244" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">CO₂</text>
+
+  <!-- Glucose out -->
+  <path d="M 430,305 Q 400,340 360,352" stroke="#8B4A3A" stroke-width="2" fill="none" marker-end="url(#rArrow)"/>
+  <text x="330" y="365" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8B4A3A">Glucose</text>
+
+  <defs>
+    <marker id="lArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4A443C"/>
+    </marker>
+    <marker id="rArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8B4A3A"/>
+    </marker>
+  </defs>
+</svg>

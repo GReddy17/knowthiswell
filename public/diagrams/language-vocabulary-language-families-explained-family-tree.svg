@@ -1,0 +1,46 @@
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Six major world language families with example member languages — Indo-European, Sino-Tibetan, Niger-Congo, Austronesian, Afroasiatic, and Dravidian — plus a language isolate, Basque, shown as an unconnected branch belonging to no larger family</title>
+  <rect width="700" height="560" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="350" y="30" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Major world language families</text>
+
+    <!-- Indo-European -->
+    <rect x="30" y="48" width="640" height="58" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="46" y="72" font-size="13.5" font-weight="700" fill="#1F1B16">Indo-European</text>
+    <text x="46" y="92" font-size="10.5" fill="#4A443C">English, Spanish, Hindi, Russian, Bengali</text>
+
+    <!-- Sino-Tibetan -->
+    <rect x="30" y="114" width="640" height="58" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="46" y="138" font-size="13.5" font-weight="700" fill="#1F1B16">Sino-Tibetan</text>
+    <text x="46" y="158" font-size="10.5" fill="#4A443C">Mandarin, Cantonese, Tibetan, Burmese</text>
+
+    <!-- Niger-Congo -->
+    <rect x="30" y="180" width="640" height="58" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="46" y="204" font-size="13.5" font-weight="700" fill="#1F1B16">Niger-Congo</text>
+    <text x="46" y="224" font-size="10.5" fill="#4A443C">Swahili, Yoruba, Zulu, Igbo</text>
+
+    <!-- Austronesian -->
+    <rect x="30" y="246" width="640" height="58" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="46" y="270" font-size="13.5" font-weight="700" fill="#1F1B16">Austronesian</text>
+    <text x="46" y="290" font-size="10.5" fill="#4A443C">Malay/Indonesian, Tagalog, Malagasy, Hawaiian</text>
+
+    <!-- Afroasiatic -->
+    <rect x="30" y="312" width="640" height="58" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="46" y="336" font-size="13.5" font-weight="700" fill="#1F1B16">Afroasiatic</text>
+    <text x="46" y="356" font-size="10.5" fill="#4A443C">Arabic, Hebrew, Amharic, Hausa</text>
+
+    <!-- Dravidian -->
+    <rect x="30" y="378" width="640" height="58" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="46" y="402" font-size="13.5" font-weight="700" fill="#1F1B16">Dravidian</text>
+    <text x="46" y="422" font-size="10.5" fill="#4A443C">Tamil, Telugu, Kannada, Malayalam</text>
+
+    <!-- divider note -->
+    <line x1="30" y1="454" x2="670" y2="454" stroke="#E3DCC9" stroke-width="1" stroke-dasharray="3 4"/>
+    <text x="350" y="472" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8B6F4E">A language isolate belongs to no larger family — no connecting branch to draw</text>
+
+    <!-- Isolate: Basque -->
+    <rect x="30" y="486" width="640" height="58" fill="#FBF8F1" stroke="#4A443C" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="46" y="510" font-size="13.5" font-weight="700" fill="#1F1B16">Basque (isolate)</text>
+    <text x="46" y="530" font-size="10.5" fill="#4A443C">Spoken in Spain &amp; France — no known relatives; unconnected to the families above</text>
+  </g>
+</svg>

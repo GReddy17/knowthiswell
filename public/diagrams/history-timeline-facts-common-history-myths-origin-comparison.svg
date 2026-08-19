@@ -1,0 +1,47 @@
+<svg viewBox="0 0 800 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Comparison timeline showing the Viking Age from 793 to 1066 CE alongside the horned helmet myth's origin in an 1876 opera costume design, the medieval period from roughly 500 to 1500 CE alongside the flat Earth myth's popularization in an 1828 fictionalized biography, and Marie Antoinette's lifetime from 1755 to 1793 alongside the "let them eat cake" quote's earliest known appearance in 1782, attributed at the time to an unnamed source</title>
+  <rect width="800" height="430" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="400" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Green bars mark the real history; red markers show when each myth first appears</text>
+
+    <!-- Row 1: Viking Age / horned helmet -->
+    <rect x="198" y="80" width="129" height="24" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="198" y="70" font-size="12" font-weight="600" fill="#1F1B16">Viking Age</text>
+    <text x="198" y="122" font-size="10" fill="#8B6F4E">793–1066 CE</text>
+    <line x1="709" y1="58" x2="709" y2="88" stroke="#C9412C" stroke-width="1" stroke-dasharray="2,2"/>
+    <circle cx="709" cy="92" r="5" fill="#C9412C" stroke="#1F1B16" stroke-width="1"/>
+    <text x="709" y="34" text-anchor="middle" font-size="9.5" fill="#8B6F4E">1876 — opera costume design</text>
+    <text x="709" y="48" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Horned helmet myth</text>
+
+    <!-- Row 2: Medieval period / flat Earth myth -->
+    <rect x="60" y="180" width="471" height="24" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="60" y="170" font-size="12" font-weight="600" fill="#1F1B16">Medieval period</text>
+    <text x="60" y="222" font-size="10" fill="#8B6F4E">c. 500–1500 CE</text>
+    <line x1="686" y1="158" x2="686" y2="188" stroke="#C9412C" stroke-width="1" stroke-dasharray="2,2"/>
+    <circle cx="686" cy="192" r="5" fill="#C9412C" stroke="#1F1B16" stroke-width="1"/>
+    <text x="686" y="134" text-anchor="middle" font-size="9.5" fill="#8B6F4E">1828 — fictionalized biography</text>
+    <text x="686" y="148" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Flat Earth myth popularized</text>
+
+    <!-- Row 3: Marie Antoinette / "let them eat cake" -->
+    <rect x="652" y="280" width="18" height="24" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="670" y="322" text-anchor="end" font-size="10" fill="#8B6F4E">Marie Antoinette, 1755–1793</text>
+    <line x1="664" y1="258" x2="664" y2="280" stroke="#C9412C" stroke-width="1" stroke-dasharray="2,2"/>
+    <circle cx="664" cy="292" r="5" fill="#C9412C" stroke="#1F1B16" stroke-width="1"/>
+    <text x="664" y="234" text-anchor="middle" font-size="9.5" fill="#8B6F4E">1782 — earliest print appearance</text>
+    <text x="664" y="248" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">"Let them eat cake" quote</text>
+
+    <!-- Shared axis -->
+    <line x1="60" y1="345" x2="720" y2="345" stroke="#1F1B16" stroke-width="1"/>
+    <line x1="60" y1="341" x2="60" y2="349" stroke="#1F1B16" stroke-width="1"/>
+    <line x1="296" y1="341" x2="296" y2="349" stroke="#1F1B16" stroke-width="1"/>
+    <line x1="531" y1="341" x2="531" y2="349" stroke="#1F1B16" stroke-width="1"/>
+    <line x1="720" y1="341" x2="720" y2="349" stroke="#1F1B16" stroke-width="1"/>
+    <text x="60" y="362" text-anchor="middle" font-size="9.5" fill="#8B6F4E">500 CE</text>
+    <text x="296" y="362" text-anchor="middle" font-size="9.5" fill="#8B6F4E">1000 CE</text>
+    <text x="531" y="362" text-anchor="middle" font-size="9.5" fill="#8B6F4E">1500 CE</text>
+    <text x="720" y="362" text-anchor="middle" font-size="9.5" fill="#8B6F4E">1900 CE</text>
+
+    <text x="400" y="392" text-anchor="middle" font-size="9.5" fill="#4A443C">Bars show the documented event or period; the red marker shows a myth's earliest known appearance —</text>
+    <text x="400" y="406" text-anchor="middle" font-size="9.5" fill="#4A443C">not necessarily when it was first attached to that person or era. The quote predates Marie Antoinette's death but was unattributed at the time.</text>
+  </g>
+</svg>

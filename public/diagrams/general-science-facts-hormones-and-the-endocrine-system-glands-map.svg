@@ -1,0 +1,48 @@
+<svg viewBox="0 0 520 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="endocrineTitle">
+  <title id="endocrineTitle">Outline of the human body with labeled points marking the hypothalamus and pituitary gland in the brain, the thyroid gland in the neck, the adrenal glands atop the kidneys, the pancreas in the abdomen, and the gonads, each labeled with its main hormone output</title>
+
+  <rect x="0" y="0" width="520" height="640" fill="#FBF8F1"/>
+
+  <!-- body silhouette -->
+  <g fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2">
+    <circle cx="240" cy="70" r="40"/>
+    <rect x="225" y="108" width="30" height="28"/>
+    <path d="M 180,136 L 300,136 L 288,400 L 192,400 Z"/>
+    <path d="M 180,136 L 150,300 L 165,306 L 197,150 Z"/>
+    <path d="M 300,136 L 330,300 L 315,306 L 283,150 Z"/>
+    <path d="M 195,400 L 188,600 L 218,600 L 228,400 Z"/>
+    <path d="M 252,400 L 262,600 L 292,600 L 285,400 Z"/>
+  </g>
+
+  <!-- leader lines and points -->
+  <g stroke="#8B6F4E" stroke-width="1.25" stroke-dasharray="2 2">
+    <line x1="255" y1="62" x2="345" y2="45"/>
+    <line x1="248" y1="118" x2="345" y2="128"/>
+    <line x1="278" y1="255" x2="345" y2="235"/>
+    <line x1="235" y1="330" x2="345" y2="340"/>
+    <line x1="238" y1="392" x2="345" y2="440"/>
+  </g>
+  <g fill="#C9412C">
+    <circle cx="248" cy="60" r="6"/>
+    <circle cx="240" cy="118" r="6"/>
+    <circle cx="270" cy="258" r="6"/>
+    <circle cx="228" cy="332" r="6"/>
+    <circle cx="240" cy="392" r="6"/>
+  </g>
+
+  <!-- labels -->
+  <g font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">
+    <text x="345" y="40">Hypothalamus &amp; pituitary</text>
+    <text x="345" y="123">Thyroid</text>
+    <text x="345" y="230">Adrenal glands</text>
+    <text x="345" y="335">Pancreas</text>
+    <text x="345" y="435">Gonads</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">
+    <text x="345" y="56">master signaling hub</text>
+    <text x="345" y="139">T3 &amp; T4 — metabolic rate</text>
+    <text x="345" y="246">adrenaline &amp; cortisol</text>
+    <text x="345" y="351">insulin &amp; glucagon</text>
+    <text x="345" y="451">estrogen / testosterone</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1320 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline from the European Coal and Steel Community formed in 1951, through the European Economic Community formed by the Treaty of Rome in 1957, successive enlargements in 1973, 1981, and 1986, the Maastricht Treaty establishing the European Union effective November 1993, euro cash entering circulation in 2002, the 2004 enlargement adding ten member states, and the United Kingdom's withdrawal taking effect in 2020</title>
+  <rect width="1320" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="660" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">Nearly seventy years of gradual integration, not one founding moment</text>
+
+    <rect x="40" y="115" width="170" height="40" fill="#EEF3EE"/>
+    <text x="125" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Coal &amp; Steel Community</text>
+    <text x="125" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">six founding members</text>
+    <text x="125" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1951</text>
+
+    <rect x="210" y="115" width="180" height="40" fill="#FBEDEA"/>
+    <text x="300" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Treaty of Rome forms EEC</text>
+    <text x="300" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">European Economic Community</text>
+    <text x="300" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1957</text>
+
+    <rect x="390" y="115" width="190" height="40" fill="#EDE7D8"/>
+    <text x="485" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Successive enlargements</text>
+    <text x="485" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">1973, 1981 &amp; 1986 rounds</text>
+    <text x="485" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1973-1986</text>
+
+    <rect x="580" y="115" width="180" height="40" fill="#EEF3EE"/>
+    <text x="670" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Maastricht Treaty</text>
+    <text x="670" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">European Union formally created</text>
+    <text x="670" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">effective Nov 1993</text>
+
+    <rect x="760" y="115" width="170" height="40" fill="#FBEDEA"/>
+    <text x="845" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Euro enters circulation</text>
+    <text x="845" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">physical cash introduced</text>
+    <text x="845" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2002</text>
+
+    <rect x="930" y="115" width="170" height="40" fill="#EDE7D8"/>
+    <text x="1015" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">2004 enlargement</text>
+    <text x="1015" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">ten member states join</text>
+    <text x="1015" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2004</text>
+
+    <rect x="1100" y="115" width="180" height="40" fill="#EEF3EE"/>
+    <text x="1190" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">UK withdrawal (Brexit)</text>
+    <text x="1190" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">first member state to leave</text>
+    <text x="1190" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">2020</text>
+  </g>
+  <rect x="40" y="115" width="1240" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="210" y1="115" x2="210" y2="155" stroke="#1F1B16"/>
+  <line x1="390" y1="115" x2="390" y2="155" stroke="#1F1B16"/>
+  <line x1="580" y1="115" x2="580" y2="155" stroke="#1F1B16"/>
+  <line x1="760" y1="115" x2="760" y2="155" stroke="#1F1B16"/>
+  <line x1="930" y1="115" x2="930" y2="155" stroke="#1F1B16"/>
+  <line x1="1100" y1="115" x2="1100" y2="155" stroke="#1F1B16"/>
+  <text x="660" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">EU membership (27 states) and the euro (used by a subset) remain distinct, evolving categories</text>
+</svg>

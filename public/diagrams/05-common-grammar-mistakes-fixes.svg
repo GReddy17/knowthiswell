@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Four common grammar mistakes shown beside their corrections: subject-verb agreement, dangling modifiers, homophone confusion, and misplaced apostrophes</title>
+  <rect width="640" height="440" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="320" y="24" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Four mistakes, fixed</text>
+
+    <!-- Row 1: subject-verb agreement -->
+    <text x="320" y="62" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="0.4" fill="#4A443C">SUBJECT&#8211;VERB AGREEMENT</text>
+    <rect x="30" y="70" width="260" height="78" fill="#FBEDEA" stroke="#B0503A" stroke-width="1"/>
+    <text x="46" y="93" font-size="9" font-weight="700" fill="#B0503A">&#10007; INCORRECT</text>
+    <text x="46" y="112" font-size="11.5" fill="#1F1B16">The results <tspan text-decoration="line-through" fill="#B0503A">was</tspan> surprising.</text>
+    <rect x="350" y="70" width="260" height="78" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="366" y="93" font-size="9" font-weight="700" fill="#2C4A3E">&#10003; CORRECT</text>
+    <text x="366" y="112" font-size="11.5" fill="#1F1B16">The results <tspan font-weight="700" fill="#2C4A3E">were</tspan> surprising.</text>
+    <text x="366" y="132" font-size="9" font-style="italic" fill="#8B6F4E">the verb must match a plural subject</text>
+    <path d="M 296,109 L 340,109" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 340,109 L 331,104 L 331,114 Z" fill="#1F1B16"/>
+
+    <!-- Row 2: dangling modifiers -->
+    <text x="320" y="174" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="0.4" fill="#4A443C">DANGLING MODIFIERS</text>
+    <rect x="30" y="182" width="260" height="78" fill="#FBEDEA" stroke="#B0503A" stroke-width="1"/>
+    <text x="46" y="205" font-size="9" font-weight="700" fill="#B0503A">&#10007; INCORRECT</text>
+    <text x="46" y="223" font-size="11" fill="#1F1B16">After reviewing the budget,</text>
+    <text x="46" y="238" font-size="11" fill="#1F1B16">the <tspan text-decoration="line-through" fill="#B0503A">project was approved</tspan>.</text>
+    <rect x="350" y="182" width="260" height="78" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="366" y="205" font-size="9" font-weight="700" fill="#2C4A3E">&#10003; CORRECT</text>
+    <text x="366" y="223" font-size="11" fill="#1F1B16">After reviewing the budget,</text>
+    <text x="366" y="238" font-size="11" fill="#1F1B16">the <tspan font-weight="700" fill="#2C4A3E">committee approved</tspan> it.</text>
+    <text x="366" y="252" font-size="8.5" font-style="italic" fill="#8B6F4E">the modifier must attach to who acted</text>
+    <path d="M 296,221 L 340,221" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 340,221 L 331,216 L 331,226 Z" fill="#1F1B16"/>
+
+    <!-- Row 3: homophone confusion -->
+    <text x="320" y="286" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="0.4" fill="#4A443C">HOMOPHONE CONFUSION</text>
+    <rect x="30" y="294" width="260" height="70" fill="#FBEDEA" stroke="#B0503A" stroke-width="1"/>
+    <text x="46" y="317" font-size="9" font-weight="700" fill="#B0503A">&#10007; INCORRECT</text>
+    <text x="46" y="336" font-size="11.5" fill="#1F1B16"><tspan text-decoration="line-through" fill="#B0503A">Their</tspan> going to the store.</text>
+    <rect x="350" y="294" width="260" height="70" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="366" y="317" font-size="9" font-weight="700" fill="#2C4A3E">&#10003; CORRECT</text>
+    <text x="366" y="336" font-size="11.5" fill="#1F1B16"><tspan font-weight="700" fill="#2C4A3E">They're</tspan> going to the store.</text>
+    <text x="366" y="353" font-size="8.5" font-style="italic" fill="#8B6F4E">they're = they are; their = possession</text>
+    <path d="M 296,325 L 340,325" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 340,325 L 331,320 L 331,330 Z" fill="#1F1B16"/>
+
+    <!-- Row 4: misplaced apostrophes -->
+    <text x="320" y="386" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="0.4" fill="#4A443C">MISPLACED APOSTROPHES</text>
+    <rect x="30" y="394" width="260" height="38" fill="#FBEDEA" stroke="#B0503A" stroke-width="1"/>
+    <text x="46" y="417" font-size="11.5" fill="#1F1B16">The dog wagged <tspan text-decoration="line-through" fill="#B0503A">it's</tspan> tail.</text>
+    <rect x="350" y="394" width="260" height="38" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="366" y="417" font-size="11.5" fill="#1F1B16">The dog wagged <tspan font-weight="700" fill="#2C4A3E">its</tspan> tail.</text>
+    <path d="M 296,413 L 340,413" stroke="#1F1B16" stroke-width="1.5"/>
+    <path d="M 340,413 L 331,408 L 331,418 Z" fill="#1F1B16"/>
+  </g>
+</svg>

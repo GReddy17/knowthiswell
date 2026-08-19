@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1240 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the end of apartheid in South Africa: F. W. de Klerk's February 2, 1990 announcement unbanning the ANC, Nelson Mandela's release on February 11, 1990, the CODESA negotiations beginning in 1991 alongside repeal of core apartheid laws, the 1993 interim constitution and the Nobel Peace Prize shared by Mandela and de Klerk, the April 1994 first democratic election and Mandela's inauguration as president, and the 1996 adoption of South Africa's permanent constitution</title>
+  <rect width="1240" height="230" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="620" y="26" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="13.5" fill="#8B6F4E">A negotiated, four-year transition, documented in separate stages, not one single moment</text>
+
+    <rect x="40" y="115" width="190" height="40" fill="#EEF3EE"/>
+    <text x="135" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">De Klerk announces unbanning</text>
+    <text x="135" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">ANC and other groups unbanned</text>
+    <text x="135" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Feb 2, 1990</text>
+
+    <rect x="230" y="115" width="150" height="40" fill="#FBEDEA"/>
+    <text x="305" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Mandela released</text>
+    <text x="305" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">after 27 years in prison</text>
+    <text x="305" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Feb 11, 1990</text>
+
+    <rect x="380" y="115" width="210" height="40" fill="#EDE7D8"/>
+    <text x="485" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">CODESA talks begin</text>
+    <text x="485" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">core apartheid laws repealed</text>
+    <text x="485" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1991</text>
+
+    <rect x="590" y="115" width="210" height="40" fill="#EEF3EE"/>
+    <text x="695" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Interim constitution</text>
+    <text x="695" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Mandela &amp; de Klerk win Nobel Prize</text>
+    <text x="695" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1993</text>
+
+    <rect x="800" y="115" width="210" height="40" fill="#FBEDEA"/>
+    <text x="905" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">First democratic election</text>
+    <text x="905" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">Mandela inaugurated president</text>
+    <text x="905" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">Apr-May 1994</text>
+
+    <rect x="1010" y="115" width="190" height="40" fill="#EDE7D8"/>
+    <text x="1105" y="100" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Permanent constitution</text>
+    <text x="1105" y="138" text-anchor="middle" font-size="8.5" fill="#4A443C">adopted by Parliament</text>
+    <text x="1105" y="175" text-anchor="middle" font-size="10" fill="#8B6F4E">1996</text>
+  </g>
+  <rect x="40" y="115" width="1160" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="230" y1="115" x2="230" y2="155" stroke="#1F1B16"/>
+  <line x1="380" y1="115" x2="380" y2="155" stroke="#1F1B16"/>
+  <line x1="590" y1="115" x2="590" y2="155" stroke="#1F1B16"/>
+  <line x1="800" y1="115" x2="800" y2="155" stroke="#1F1B16"/>
+  <line x1="1010" y1="115" x2="1010" y2="155" stroke="#1F1B16"/>
+  <text x="620" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Legal repeal (1991) and the completed democratic transition (1994) are separate, documented milestones</text>
+</svg>

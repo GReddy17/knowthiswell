@@ -1,0 +1,38 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dimAnalysisTitle">
+  <title id="dimAnalysisTitle">A horizontal chain of three fraction boxes multiplied together: the first box reads 60 miles over 1 hour, the second box reads 1609.34 meters over 1 mile with the word miles crossed out to show cancellation against the first box's miles, and the third box reads 1 hour over 3600 seconds with the word hour crossed out to show cancellation against the first box's hour, leaving a final result box on the right reading approximately 26.82 meters per second</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <!-- Box 1: 60 miles / 1 hour -->
+  <rect x="20" y="90" width="150" height="110" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="95" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">60 miles</text>
+  <line x1="35" y1="145" x2="155" y2="145" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="95" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">1 hour</text>
+
+  <text x="188" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#4A443C">×</text>
+
+  <!-- Box 2: 1609.34 meters / 1 mile (miles crossed out) -->
+  <rect x="206" y="90" width="180" height="110" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="296" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" fill="#1F1B16">1609.34 meters</text>
+  <line x1="221" y1="145" x2="371" y2="145" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="296" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">1 mile</text>
+  <line x1="266" y1="160" x2="326" y2="152" stroke="#B5493A" stroke-width="1.8"/>
+
+  <text x="404" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#4A443C">×</text>
+
+  <!-- Box 3: 1 hour / 3600 seconds (hour crossed out) -->
+  <rect x="422" y="90" width="180" height="110" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="512" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">1 hour</text>
+  <line x1="482" y1="126" x2="542" y2="126" stroke="#B5493A" stroke-width="1.8"/>
+  <line x1="437" y1="145" x2="587" y2="145" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="512" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" fill="#1F1B16">3600 seconds</text>
+
+  <text x="622" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#4A443C">=</text>
+
+  <!-- Result box -->
+  <rect x="642" y="105" width="122" height="80" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="703" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">≈ 26.82</text>
+  <text x="703" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">meters/second</text>
+
+  <!-- cancellation caption -->
+  <text x="390" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Miles cancels between boxes 1 and 2; hour cancels between boxes 1 and 3 — only meters/second remain.</text>
+</svg>

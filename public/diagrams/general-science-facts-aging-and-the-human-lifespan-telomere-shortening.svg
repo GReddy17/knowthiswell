@@ -1,0 +1,51 @@
+<svg viewBox="0 0 720 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="telomereTitle">
+  <title id="telomereTitle">Five chromosomes shown left to right across successive cell divisions, with telomere caps at each end drawn progressively shorter at each step, ending in a chromosome with critically short telomeres labeled as entering cellular senescence</title>
+
+  <rect x="0" y="0" width="720" height="350" fill="#FBF8F1"/>
+
+  <!-- columns: rod (chromosome body) with shrinking telomere caps -->
+  <!-- col 1: x=80, cap=36 -->
+  <rect x="72" y="44" width="16" height="36" rx="6" fill="#2C4A3E"/>
+  <rect x="72" y="80" width="16" height="160" rx="5" fill="#4A443C"/>
+  <rect x="72" y="240" width="16" height="36" rx="6" fill="#2C4A3E"/>
+  <!-- col 2: x=220, cap=28 -->
+  <rect x="212" y="52" width="16" height="28" rx="6" fill="#2C4A3E"/>
+  <rect x="212" y="80" width="16" height="160" rx="5" fill="#4A443C"/>
+  <rect x="212" y="240" width="16" height="28" rx="6" fill="#2C4A3E"/>
+  <!-- col 3: x=360, cap=20 -->
+  <rect x="352" y="60" width="16" height="20" rx="5" fill="#2C4A3E"/>
+  <rect x="352" y="80" width="16" height="160" rx="5" fill="#4A443C"/>
+  <rect x="352" y="240" width="16" height="20" rx="5" fill="#2C4A3E"/>
+  <!-- col 4: x=500, cap=12 -->
+  <rect x="492" y="68" width="16" height="12" rx="4" fill="#8B6F4E"/>
+  <rect x="492" y="80" width="16" height="160" rx="5" fill="#4A443C"/>
+  <rect x="492" y="240" width="16" height="12" rx="4" fill="#8B6F4E"/>
+  <!-- col 5: x=640, cap=5, critically short -->
+  <rect x="632" y="75" width="16" height="5" rx="2.5" fill="#C9412C"/>
+  <rect x="632" y="80" width="16" height="160" rx="5" fill="#4A443C"/>
+  <rect x="632" y="240" width="16" height="5" rx="2.5" fill="#C9412C"/>
+  <rect x="610" y="58" width="60" height="204" fill="none" stroke="#C9412C" stroke-width="1.5" stroke-dasharray="4 3" rx="6"/>
+
+  <!-- arrows between columns -->
+  <g stroke="#4A443C" stroke-width="1.5" fill="none">
+    <path d="M 100,160 L 200,160"/><path d="M 200,160 L 192,155 L 192,165 Z" fill="#4A443C" stroke="none"/>
+    <path d="M 240,160 L 340,160"/><path d="M 340,160 L 332,155 L 332,165 Z" fill="#4A443C" stroke="none"/>
+    <path d="M 380,160 L 480,160"/><path d="M 480,160 L 472,155 L 472,165 Z" fill="#4A443C" stroke="none"/>
+    <path d="M 520,160 L 600,160"/><path d="M 600,160 L 592,155 L 592,165 Z" fill="#4A443C" stroke="none"/>
+  </g>
+
+  <!-- labels -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" text-anchor="middle" fill="#1F1B16">
+    <text x="80" y="272">Start</text>
+    <text x="220" y="272">Divides</text>
+    <text x="360" y="272">Divides again</text>
+    <text x="500" y="272">Divides again</text>
+    <text x="640" y="272" fill="#C9412C" font-weight="600">Senescence</text>
+  </g>
+  <text x="640" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#C9412C">telomeres critically short</text>
+
+  <!-- axis -->
+  <line x1="60" y1="320" x2="680" y2="320" stroke="#1F1B16" stroke-width="1.5"/>
+  <path d="M 680,320 L 670,315 L 670,325 Z" fill="#1F1B16"/>
+  <text x="360" y="340" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">More cell divisions →</text>
+</svg>

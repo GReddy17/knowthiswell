@@ -1,0 +1,66 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bigNumScaleTitle">
+  <title id="bigNumScaleTitle">A horizontal logarithmic scale bar labeled with powers of ten from 10 to the 3rd up to 10 to the 15th, with tick marks and labels at 10 to the 6th marked million, 10 to the 9th marked billion, and 10 to the 12th marked trillion, each separated by an equal visual gap on the log scale despite representing a 1,000-fold jump in actual value between consecutive marks</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <text x="60" y="30" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2C4A3E">Powers of ten, 10&#179; to 10&#185;&#8309;  (logarithmic scale)</text>
+
+  <!-- axis -->
+  <line x1="60" y1="250" x2="600" y2="250" stroke="#1F1B16" stroke-width="1.5"/>
+  <path d="M 600,250 L 590,245 L 590,255 Z" fill="#1F1B16"/>
+
+  <!-- minor ticks for every exponent 3-15 -->
+  <g stroke="#8B6F4E" stroke-width="1">
+    <line x1="60" y1="245" x2="60" y2="255"/>
+    <line x1="105" y1="245" x2="105" y2="255"/>
+    <line x1="150" y1="245" x2="150" y2="255"/>
+    <line x1="240" y1="245" x2="240" y2="255"/>
+    <line x1="285" y1="245" x2="285" y2="255"/>
+    <line x1="375" y1="245" x2="375" y2="255"/>
+    <line x1="420" y1="245" x2="420" y2="255"/>
+    <line x1="510" y1="245" x2="510" y2="255"/>
+    <line x1="555" y1="245" x2="555" y2="255"/>
+    <line x1="600" y1="245" x2="600" y2="255"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E" text-anchor="middle">
+    <text x="60" y="270">10&#179;</text>
+    <text x="105" y="270">10&#8308;</text>
+    <text x="150" y="270">10&#8309;</text>
+    <text x="240" y="270">10&#8311;</text>
+    <text x="285" y="270">10&#8312;</text>
+    <text x="375" y="270">10&#185;&#8304;</text>
+    <text x="420" y="270">10&#185;&#185;</text>
+    <text x="510" y="270">10&#185;&#179;</text>
+    <text x="555" y="270">10&#185;&#8308;</text>
+    <text x="600" y="270">10&#185;&#8309;</text>
+  </g>
+
+  <!-- major ticks: million, billion, trillion -->
+  <g>
+    <line x1="195" y1="200" x2="195" y2="250" stroke="#2C4A3E" stroke-width="1.5"/>
+    <circle cx="195" cy="250" r="7" fill="#2C4A3E"/>
+    <text x="195" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#20362D">10&#8310;</text>
+    <text x="195" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#20362D">Million</text>
+  </g>
+  <g>
+    <line x1="330" y1="200" x2="330" y2="250" stroke="#2C4A3E" stroke-width="1.5"/>
+    <circle cx="330" cy="250" r="7" fill="#2C4A3E"/>
+    <text x="330" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#20362D">10&#8313;</text>
+    <text x="330" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#20362D">Billion</text>
+  </g>
+  <g>
+    <line x1="465" y1="200" x2="465" y2="250" stroke="#2C4A3E" stroke-width="1.5"/>
+    <circle cx="465" cy="250" r="7" fill="#2C4A3E"/>
+    <text x="465" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#20362D">10&#185;&#178;</text>
+    <text x="465" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#20362D">Trillion</text>
+  </g>
+
+  <!-- equal-ratio brackets between the three major marks -->
+  <path d="M 195,300 L 195,312 L 330,312 L 330,300" fill="none" stroke="#C9412C" stroke-width="1.3"/>
+  <text x="262.5" y="328" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#C9412C">&#215; 1,000</text>
+
+  <path d="M 330,300 L 330,312 L 465,312 L 465,300" fill="none" stroke="#C9412C" stroke-width="1.3"/>
+  <text x="397.5" y="328" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#C9412C">&#215; 1,000</text>
+
+  <text x="320" y="368" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">On this log scale, million &#8594; billion &#8594; trillion look evenly spaced.</text>
+  <text x="320" y="388" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Each step is really a 1,000-fold jump in actual value, not a small increase.</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="circTitle">
+  <title id="circTitle">The heart's four chambers with the pulmonary circuit carrying oxygen-poor blood from the right side to the lungs and back oxygenated to the left side, and the systemic circuit carrying oxygen-rich blood from the left side to the body and back oxygen-poor to the right side, forming two connected loops</title>
+
+  <rect x="0" y="0" width="640" height="480" fill="#FBF8F1"/>
+
+  <!-- lungs -->
+  <ellipse cx="245" cy="95" rx="55" ry="55" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <ellipse cx="395" cy="95" rx="55" ry="55" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="320" y="100" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="16" fill="#1F1B16">Lungs</text>
+
+  <!-- heart -->
+  <rect x="230" y="180" width="180" height="140" rx="10" fill="#FBF8F1" stroke="#1F1B16" stroke-width="2"/>
+  <line x1="320" y1="180" x2="320" y2="320" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="230" y1="250" x2="410" y2="250" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="320" y="172" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="17" font-weight="600" fill="#1F1B16">Heart</text>
+  <text x="275" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">RA</text>
+  <text x="275" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">RV</text>
+  <text x="365" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">LA</text>
+  <text x="365" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">LV</text>
+  <text x="230" y="336" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Right side</text>
+  <text x="358" y="336" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Left side</text>
+
+  <!-- pulmonary circuit (small loop, top) -->
+  <path d="M 275,250 C 260,190 250,160 240,150" fill="none" stroke="#5B7C99" stroke-width="3"/>
+  <path d="M 240,150 L 233,158 L 246,161 Z" fill="#5B7C99"/>
+  <path d="M 400,150 C 390,165 375,180 365,205" fill="none" stroke="#C9412C" stroke-width="3"/>
+  <path d="M 365,205 L 372,197 L 359,195 Z" fill="#C9412C"/>
+  <text x="320" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Pulmonary circuit</text>
+
+  <!-- systemic circuit (large loop, body) -->
+  <rect x="150" y="380" width="340" height="72" rx="8" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="320" y="412" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="16" font-weight="600" fill="#1F1B16">Body tissues</text>
+  <text x="320" y="430" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">systemic circuit</text>
+
+  <path d="M 365,320 C 340,350 290,365 250,380" fill="none" stroke="#C9412C" stroke-width="3"/>
+  <path d="M 250,380 L 260,375 L 254,365 Z" fill="#C9412C"/>
+  <path d="M 420,380 C 460,340 460,270 285,255" fill="none" stroke="#5B7C99" stroke-width="3"/>
+  <path d="M 285,255 L 295,251 L 289,262 Z" fill="#5B7C99"/>
+
+  <!-- legend -->
+  <line x1="130" y1="464" x2="160" y2="464" stroke="#C9412C" stroke-width="4"/>
+  <text x="168" y="468" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Oxygen-rich blood</text>
+  <line x1="340" y1="464" x2="370" y2="464" stroke="#5B7C99" stroke-width="4"/>
+  <text x="378" y="468" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Oxygen-poor blood</text>
+</svg>

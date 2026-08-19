@@ -1,0 +1,76 @@
+<svg viewBox="0 0 520 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="oceanZonesTitle">
+  <title id="oceanZonesTitle">Vertical cross-section of the ocean from surface to seafloor showing three depth zones: the sunlit Photic Zone from 0 to 200 meters with coral, fish, and phytoplankton; the dim Twilight Zone from 200 to 1,000 meters with squid and bioluminescent fish; and the dark Aphotic Zone below 1,000 meters with anglerfish and drifting marine snow, plus a hydrothermal vent on the seafloor surrounded by tube worms that runs on chemosynthesis, independent of sunlight</title>
+
+  <rect x="0" y="0" width="520" height="600" fill="#FBF8F1"/>
+
+  <!-- Photic Zone -->
+  <rect x="40" y="60" width="440" height="150" fill="#CFE7ED"/>
+  <!-- Twilight Zone -->
+  <rect x="40" y="210" width="440" height="180" fill="#7FA0AC"/>
+  <!-- Aphotic Zone -->
+  <rect x="40" y="390" width="440" height="150" fill="#1B242B"/>
+
+  <rect x="40" y="60" width="440" height="480" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="40" y1="210" x2="480" y2="210" stroke="#FBF8F1" stroke-width="1"/>
+  <line x1="40" y1="390" x2="480" y2="390" stroke="#FBF8F1" stroke-width="1"/>
+
+  <!-- Photic zone icons: coral, fish, phytoplankton -->
+  <path d="M 90,205 L 90,180 Q 96,165 90,150 M 105,205 L 105,175 Q 111,158 105,145 M 120,205 L 120,182 Q 126,168 120,155" stroke="#D97D3D" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <g fill="#20362D">
+    <path d="M 220,110 L 245,100 L 245,120 Z"/>
+    <path d="M 200,110 L 220,105 L 220,115 Z"/>
+  </g>
+  <g fill="#20362D">
+    <path d="M 340,150 L 365,140 L 365,160 Z"/>
+    <path d="M 320,150 L 340,145 L 340,155 Z"/>
+  </g>
+  <g fill="#4A443C" opacity="0.7">
+    <circle cx="160" cy="90" r="2.5"/>
+    <circle cx="180" cy="105" r="2"/>
+    <circle cx="290" cy="80" r="2.5"/>
+    <circle cx="410" cy="95" r="2"/>
+    <circle cx="440" cy="130" r="2.5"/>
+  </g>
+  <text x="60" y="80" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Photic Zone (Sunlit)</text>
+  <text x="60" y="98" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">0–200 meters</text>
+
+  <!-- Twilight zone icons: squid, bioluminescent fish -->
+  <path d="M 150,290 Q 150,270 165,270 Q 180,270 180,290 L 175,300 L 170,290 L 165,300 L 160,290 L 155,300 Z" fill="#4A5D66"/>
+  <circle cx="330" cy="320" r="4" fill="#E8C86B"/>
+  <circle cx="330" cy="320" r="8" fill="#E8C86B" opacity="0.3"/>
+  <path d="M 322,320 L 300,315 L 300,325 Z" fill="#2C3A40"/>
+  <text x="60" y="235" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF8F1">Twilight Zone (Dim)</text>
+  <text x="60" y="253" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#EEF3EE">200–1,000 meters</text>
+
+  <!-- Aphotic zone icons: anglerfish, marine snow -->
+  <ellipse cx="200" cy="440" rx="26" ry="16" fill="#2C3A40"/>
+  <path d="M 220,432 Q 240,420 245,405" stroke="#2C3A40" stroke-width="2" fill="none"/>
+  <circle cx="246" cy="403" r="4" fill="#E8C86B"/>
+  <circle cx="246" cy="403" r="8" fill="#E8C86B" opacity="0.3"/>
+  <g fill="#8B9AA3" opacity="0.6">
+    <circle cx="350" cy="400" r="2"/>
+    <circle cx="370" cy="420" r="2"/>
+    <circle cx="390" cy="410" r="1.5"/>
+    <circle cx="360" cy="450" r="2"/>
+    <circle cx="410" cy="440" r="1.5"/>
+    <circle cx="330" cy="460" r="2"/>
+  </g>
+  <text x="60" y="415" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF8F1">Aphotic Zone (Dark)</text>
+  <text x="60" y="433" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#EEF3EE">Below 1,000 meters</text>
+
+  <!-- Seafloor + hydrothermal vent callout -->
+  <rect x="40" y="540" width="440" height="20" fill="#3A2E22"/>
+  <path d="M 240,540 L 250,500 L 258,520 L 265,490 L 272,520 L 280,540 Z" fill="#6E3226"/>
+  <g fill="#D97D3D" opacity="0.7">
+    <circle cx="260" cy="488" r="2"/>
+    <circle cx="265" cy="480" r="2"/>
+    <circle cx="270" cy="486" r="1.5"/>
+  </g>
+  <g stroke="#D9C9A8" stroke-width="3" stroke-linecap="round">
+    <line x1="225" y1="540" x2="222" y2="515"/>
+    <line x1="235" y1="540" x2="234" y2="510"/>
+    <line x1="290" y1="540" x2="292" y2="512"/>
+    <line x1="300" y1="540" x2="303" y2="518"/>
+  </g>
+  <text x="260" y="578" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#EEF3EE">Hydrothermal vent — chemosynthesis-based, independent of sunlight</text>
+</svg>

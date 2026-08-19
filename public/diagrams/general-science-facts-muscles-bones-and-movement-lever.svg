@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="leverTitle">
+  <title id="leverTitle">Side view of a bent arm showing the elbow joint as the fulcrum, the biceps tendon near the elbow as the effort point with an upward force arrow, and a weight in the hand at the far end as the load with a downward force arrow, with the short effort arm and long load arm distances marked along the forearm</title>
+
+  <rect x="0" y="0" width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- upper arm and forearm -->
+  <line x1="150" y1="110" x2="270" y2="290" stroke="#EDE7D8" stroke-width="36" stroke-linecap="round"/>
+  <line x1="270" y1="290" x2="560" y2="250" stroke="#EDE7D8" stroke-width="34" stroke-linecap="round"/>
+  <line x1="150" y1="110" x2="270" y2="290" stroke="#4A443C" stroke-width="2" fill="none"/>
+  <line x1="270" y1="290" x2="560" y2="250" stroke="#4A443C" stroke-width="2" fill="none"/>
+
+  <!-- fulcrum triangle at elbow -->
+  <path d="M 270,290 L 258,312 L 282,312 Z" fill="#1F1B16"/>
+  <line x1="248" y1="312" x2="292" y2="312" stroke="#1F1B16" stroke-width="2"/>
+  <text x="270" y="330" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Fulcrum (elbow)</text>
+
+  <!-- effort point + arrow -->
+  <circle cx="320" cy="284" r="5" fill="#2C4A3E"/>
+  <line x1="320" y1="284" x2="320" y2="225" stroke="#2C4A3E" stroke-width="3"/>
+  <path d="M 320,225 L 314,235 L 326,235 Z" fill="#2C4A3E"/>
+  <text x="320" y="212" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#2C4A3E">Effort</text>
+  <text x="320" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">biceps tendon pull</text>
+
+  <!-- load: hand + weight -->
+  <circle cx="565" cy="245" r="14" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <line x1="565" y1="259" x2="565" y2="320" stroke="#C9412C" stroke-width="3"/>
+  <path d="M 565,320 L 559,310 L 571,310 Z" fill="#C9412C"/>
+  <text x="565" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#C9412C">Load</text>
+  <text x="565" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">weight in hand</text>
+
+  <!-- guide lines down to measurement bars -->
+  <g stroke="#E3DCC9" stroke-width="1" stroke-dasharray="3 3">
+    <line x1="270" y1="290" x2="270" y2="400"/>
+    <line x1="320" y1="284" x2="320" y2="352"/>
+    <line x1="565" y1="245" x2="565" y2="400"/>
+  </g>
+
+  <!-- effort arm measurement -->
+  <line x1="270" y1="352" x2="320" y2="352" stroke="#2C4A3E" stroke-width="1.5"/>
+  <path d="M 270,352 L 277,348 L 277,356 Z" fill="#2C4A3E"/>
+  <path d="M 320,352 L 313,348 L 313,356 Z" fill="#2C4A3E"/>
+  <text x="295" y="345" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">effort arm ≈ 5 cm</text>
+
+  <!-- load arm measurement -->
+  <line x1="270" y1="400" x2="565" y2="400" stroke="#C9412C" stroke-width="1.5"/>
+  <path d="M 270,400 L 277,396 L 277,404 Z" fill="#C9412C"/>
+  <path d="M 565,400 L 558,396 L 558,404 Z" fill="#C9412C"/>
+  <text x="417" y="415" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#C9412C">load arm ≈ 35 cm</text>
+</svg>
