@@ -1,0 +1,39 @@
+<svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Diagram of a modern translation app pipeline: source-language input text is tokenized, processed by a neural encoder-decoder model that considers whole-sentence context, and produces target-language output text</title>
+  <rect width="640" height="220" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5">
+    <rect x="15" y="85" width="130" height="60" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="80" y="110" text-anchor="middle" font-weight="600" fill="#1F1B16">Input text</text>
+    <text x="80" y="127" text-anchor="middle" font-size="10.5" fill="#4A443C">source language</text>
+
+    <rect x="175" y="85" width="130" height="60" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="240" y="105" text-anchor="middle" font-weight="600" fill="#1F1B16">Tokenizing</text>
+    <text x="240" y="122" text-anchor="middle" font-size="10" fill="#4A443C">split into sub-word</text>
+    <text x="240" y="135" text-anchor="middle" font-size="10" fill="#4A443C">units the model reads</text>
+
+    <rect x="335" y="75" width="150" height="80" fill="#EDE7D8" stroke="#1F1B16" stroke-width="1.5"/>
+    <text x="410" y="98" text-anchor="middle" font-weight="600" fill="#1F1B16">Neural model</text>
+    <text x="410" y="115" text-anchor="middle" font-size="10" fill="#4A443C">encoder reads full</text>
+    <text x="410" y="128" text-anchor="middle" font-size="10" fill="#4A443C">sentence context,</text>
+    <text x="410" y="141" text-anchor="middle" font-size="10" fill="#4A443C">decoder generates output</text>
+
+    <rect x="505" y="85" width="120" height="60" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="565" y="110" text-anchor="middle" font-weight="600" fill="#1F1B16">Output text</text>
+    <text x="565" y="127" text-anchor="middle" font-size="10.5" fill="#4A443C">target language</text>
+  </g>
+
+  <g stroke="#8B6F4E" stroke-width="2" fill="none">
+    <path d="M 145,115 L 173,115" marker-end="url(#arrow3)"/>
+    <path d="M 305,115 L 333,115" marker-end="url(#arrow3)"/>
+    <path d="M 485,115 L 503,115" marker-end="url(#arrow3)"/>
+  </g>
+
+  <defs>
+    <marker id="arrow3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+
+  <text x="320" y="190" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#8B6F4E">the whole sentence is scored together, not swapped word by word</text>
+</svg>

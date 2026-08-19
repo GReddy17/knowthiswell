@@ -1,0 +1,29 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Four Indian regional scripts compared: Devanagari, Bengali, Tamil, and Telugu, each writing a local greeting, with their language family and script family noted</title>
+  <rect width="640" height="400" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5">
+    <rect x="40" y="20" width="560" height="80" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="55" y="42" font-weight="600" fill="#1F1B16">Devanagari</text>
+    <text x="55" y="66" font-size="20" fill="#1F1B16">नमस्ते</text>
+    <text x="150" y="66" fill="#4A443C">namaste — Hindi, Marathi, Nepali, Sanskrit</text>
+    <text x="55" y="88" font-size="10.5" fill="#8B6F4E">Indo-Aryan family · Brahmi descendant · horizontal headline (shirorekha) joins letters</text>
+
+    <rect x="40" y="108" width="560" height="80" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="55" y="130" font-weight="600" fill="#1F1B16">Bengali</text>
+    <text x="55" y="154" font-size="20" fill="#1F1B16">নমস্কার</text>
+    <text x="150" y="154" fill="#4A443C">nomoshkar — Bengali, Assamese</text>
+    <text x="55" y="176" font-size="10.5" fill="#8B6F4E">Indo-Aryan family · Brahmi descendant · own headline style, distinct letterforms from Devanagari</text>
+
+    <rect x="40" y="196" width="560" height="80" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="55" y="218" font-weight="600" fill="#1F1B16">Tamil</text>
+    <text x="55" y="242" font-size="20" fill="#1F1B16">வணக்கம்</text>
+    <text x="150" y="242" fill="#4A443C">vanakkam — Tamil</text>
+    <text x="55" y="264" font-size="10.5" fill="#8B6F4E">Dravidian family · Brahmi descendant via Tamil-Brahmi and Pallava · rounded strokes, no headline</text>
+
+    <rect x="40" y="284" width="560" height="80" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="55" y="306" font-weight="600" fill="#1F1B16">Telugu</text>
+    <text x="55" y="330" font-size="20" fill="#1F1B16">నమస్కారం</text>
+    <text x="150" y="330" fill="#4A443C">namaskaram — Telugu</text>
+    <text x="55" y="352" font-size="10.5" fill="#8B6F4E">Dravidian family · Brahmi descendant · circular, curved letterforms, no headline</text>
+  </g>
+</svg>

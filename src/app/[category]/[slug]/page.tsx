@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { EntryHeader } from '@/components/EntryHeader';
 import { TocRail } from '@/components/TocRail';
 import { RelatedRail } from '@/components/RelatedRail';
@@ -6,16 +7,22 @@ import { AuthorCard, SourcesAndSeeAlso } from '@/components/EntryFooter';
 import { ArticleSchema } from '@/components/ArticleSchema';
 import { ContentErrorBoundary } from '@/components/ContentErrorBoundary';
 import { getPostBySlug, getAllPostSlugs, getRelatedPosts } from '@/lib/content';
-import { getCategoryLabel } from '@/lib/taxonomy';
+import { getCategoryLabel, formatSlugToLabel } from '@/lib/taxonomy';
 
 interface PageProps {
   params: Promise<{ category: string; slug: string }>;
 }
 
-// Static export: every post/category pair is pre-rendered at build time.
+// Every real post/category pair is pre-rendered at build time from this list.
 export async function generateStaticParams() {
   return await getAllPostSlugs(); // [{ category, slug }, ...]
 }
+
+// Without this, an invalid slug under a valid category (typo, removed
+// post) renders an empty 200 page instead of a real 404 — see
+// [category]/page.tsx for the full explanation of why notFound() alone
+// isn't enough here.
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { category, slug } = await params;
@@ -31,14 +38,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function PostPage({ params }: PageProps) {
   const { category, slug } = await params;
   const post = await getPostBySlug(category, slug);
-  if (!post) return null; // 404 handled by not-found.tsx
+  if (!post) notFound();
 
-  const related = getRelatedPosts(post);
+  const related = await getRelatedPosts(post);
 
   const breadcrumbs = [
     { label: getCategoryLabel(post.category), href: `/${post.category}` },
     ...(post.subtopic
-      ? [{ label: post.subtopic, href: `/${post.category}#${post.subtopic}` }]
+      ? [{ label: formatSlugToLabel(post.subtopic), href: `/${post.category}#${post.subtopic}` }]
       : []),
   ];
 

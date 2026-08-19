@@ -15,9 +15,9 @@ export function FAQBlock({ items }: FAQBlockProps) {
   const normalizedItems = Array.isArray(items) ? items :
     typeof items === 'string' ? JSON.parse(items) : [];
 
-  if (normalizedItems.length === 0) return null;
-
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  if (normalizedItems.length === 0) return null;
 
   return (
     <section className="my-8">

@@ -2,7 +2,7 @@ node_modules/
 .next/
 out/
 .env*.local
-.health-check-snapshot.json
 *.log
 .DS_Store
 .vercel
+*.tsbuildinfo

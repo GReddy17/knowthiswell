@@ -1,0 +1,25 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Map showing the Indus Valley Civilization's territory across the Indus River basin, with Mohenjo-daro and Harappa marked, shown larger than contemporary Egypt and Sumer</title>
+  <rect width="640" height="340" fill="#FBF8F1"/>
+
+  <text x="320" y="30" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Territory at its peak, compared to contemporaries</text>
+
+  <!-- Indus Valley (large) -->
+  <path d="M 220,70 Q 260,60 280,90 Q 300,140 290,200 Q 285,250 250,280 Q 210,290 190,250 Q 175,180 190,120 Q 195,90 220,70 Z" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <circle cx="230" cy="150" r="5" fill="#C9412C"/>
+  <text x="240" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Harappa</text>
+  <circle cx="245" cy="220" r="5" fill="#C9412C"/>
+  <text x="255" y="218" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Mohenjo-daro</text>
+  <text x="235" y="310" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Indus Valley Civilization</text>
+  <text x="235" y="325" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B6F4E">largest of the three, c. 2600–1900 BCE</text>
+
+  <!-- Egypt (smaller, Nile strip) -->
+  <path d="M 400,90 Q 405,140 400,200 Q 398,240 395,270" fill="none" stroke="#2C4A3E" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+  <text x="440" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Egypt</text>
+  <text x="440" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">Nile corridor</text>
+
+  <!-- Sumer (smallest) -->
+  <ellipse cx="520" cy="200" rx="35" ry="25" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="520" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1F1B16">Sumer</text>
+  <text x="520" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">smallest of the three</text>
+</svg>

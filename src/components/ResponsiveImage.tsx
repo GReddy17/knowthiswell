@@ -7,9 +7,11 @@ interface ResponsiveImageProps {
 
 /**
  * Renders the output of scripts/process-images.mjs. Plain <img> with a
- * srcset rather than next/image, since static export can't use the
- * built-in optimizer — this is the "pre-processed via sharp" path named
- * in the architecture doc's image-handling row.
+ * srcset rather than next/image on purpose: the responsive 480/720/1440w
+ * WebP variants are already generated at build time via sharp, so
+ * next/image's runtime optimizer would just re-process an already-
+ * optimized asset on every request (and bill Vercel's Image Optimization
+ * API for it) with no quality/size benefit.
  */
 export function ResponsiveImage({ name, alt, caption }: ResponsiveImageProps) {
   return (

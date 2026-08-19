@@ -22,10 +22,10 @@ export function QuickCheck({ question, options }: QuickCheckProps) {
   const normalizedOptions = Array.isArray(options) ? options :
     typeof options === 'string' ? JSON.parse(options) : [];
 
-  if (normalizedOptions.length === 0) return null;
-
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
   const selected = selectedIdx !== null ? normalizedOptions[selectedIdx] : null;
+
+  if (normalizedOptions.length === 0) return null;
 
   return (
     <div className="my-7 border-2 border-ink bg-white p-5 rounded-lg">

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fbdTitle">
+  <title id="fbdTitle">Free-body diagram of a box on a floor showing applied push force, friction, gravity, and the normal force</title>
+  <defs>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowBrick" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C9412C"/>
+    </marker>
+    <marker id="arrowOchre" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+
+  <rect width="640" height="380" fill="#FBF8F1"/>
+
+  <!-- floor -->
+  <line x1="60" y1="290" x2="580" y2="290" stroke="#1F1B16" stroke-width="2"/>
+  <g stroke="#E3DCC9" stroke-width="2">
+    <line x1="70" y1="290" x2="55" y2="305"/>
+    <line x1="110" y1="290" x2="95" y2="305"/>
+    <line x1="150" y1="290" x2="135" y2="305"/>
+    <line x1="490" y1="290" x2="475" y2="305"/>
+    <line x1="530" y1="290" x2="515" y2="305"/>
+    <line x1="570" y1="290" x2="555" y2="305"/>
+  </g>
+
+  <!-- box -->
+  <rect x="270" y="200" width="100" height="90" fill="#EEF3EE" stroke="#1F1B16" stroke-width="2"/>
+  <text x="320" y="252" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="16" fill="#1F1B16">Box</text>
+
+  <!-- applied push force (right, green) -->
+  <line x1="200" y1="245" x2="265" y2="245" stroke="#2C4A3E" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <text x="200" y="230" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#2C4A3E">Applied push (F)</text>
+
+  <!-- friction (left, brick, shorter) -->
+  <line x1="270" y1="270" x2="225" y2="270" stroke="#C9412C" stroke-width="3" marker-end="url(#arrowBrick)"/>
+  <text x="150" y="266" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#C9412C">Friction</text>
+
+  <!-- gravity (down, ochre) -->
+  <line x1="320" y1="295" x2="320" y2="345" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowOchre)"/>
+  <text x="330" y="335" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#8B6F4E">Gravity</text>
+
+  <!-- normal force (up, ochre) -->
+  <line x1="370" y1="195" x2="370" y2="150" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowOchre)"/>
+  <text x="378" y="160" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#8B6F4E">Normal force</text>
+
+  <!-- net motion label -->
+  <text x="320" y="120" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="18" font-weight="600" fill="#1F1B16">Net force = Applied push − Friction</text>
+  <text x="320" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">Gravity and normal force cancel — only the leftover horizontal force accelerates the box</text>
+</svg>

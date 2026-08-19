@@ -119,6 +119,11 @@ export function CategoryHubClient({ groups, category }: CategoryHubClientProps) 
                 className="mb-12 scroll-mt-24"
                 id={group.subtopic ?? 'general'}
               >
+                {group.subtopic && (
+                  <h2 className="mb-5 font-display text-2xl font-bold text-ink">
+                    {formatSlugToLabel(group.subtopic)}
+                  </h2>
+                )}
                 {viewMode === 'grid' ? (
                   <div className="grid grid-cols-2 gap-6 md:grid-cols-3 xl:grid-cols-4">
                     {group.posts.map((post) => (

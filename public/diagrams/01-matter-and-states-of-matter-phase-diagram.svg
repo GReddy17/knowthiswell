@@ -1,0 +1,61 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="phaseDiagramTitle">
+  <title id="phaseDiagramTitle">Phase diagram plotting pressure against temperature for water, showing solid, liquid, and gas regions, the triple point, the critical point, and the supercritical fluid region</title>
+
+  <defs>
+    <clipPath id="plotArea">
+      <rect x="80" y="40" width="520" height="300"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- region fills, clipped to the plot area -->
+  <g clip-path="url(#plotArea)">
+    <!-- solid region: left of fusion curve -->
+    <path d="M 80,340 L 80,40 L 230,40 L 205,300 Z" fill="#EEF3EE" opacity="0.55"/>
+    <!-- liquid region: between fusion and vaporization curves -->
+    <path d="M 230,40 L 600,40 L 600,140 C 520,140 470,220 460,300 L 205,300 Z" fill="#FBEDEA" opacity="0.45"/>
+    <!-- gas region: below vaporization/sublimation curves -->
+    <path d="M 80,340 L 205,300 L 460,300 C 470,220 520,140 600,140 L 600,340 Z" fill="#EDE7D8" opacity="0.6"/>
+    <!-- supercritical region: beyond the critical point -->
+    <path d="M 600,40 L 600,140 C 520,140 480,190 462,235 L 600,235 Z" fill="#E3DCC9" opacity="0.5"/>
+  </g>
+
+  <!-- axes -->
+  <line x1="80" y1="340" x2="600" y2="340" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="80" y1="340" x2="80" y2="40" stroke="#1F1B16" stroke-width="1.5"/>
+  <!-- arrowheads -->
+  <path d="M 600,340 L 590,335 L 590,345 Z" fill="#1F1B16"/>
+  <path d="M 80,40 L 75,50 L 85,50 Z" fill="#1F1B16"/>
+
+  <text x="600" y="365" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#4A443C">Temperature →</text>
+  <text x="60" y="40" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#4A443C" transform="rotate(-90 60 40)">Pressure →</text>
+
+  <!-- 1 atm reference line -->
+  <line x1="80" y1="300" x2="600" y2="300" stroke="#E3DCC9" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="590" y="294" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E">1 atm</text>
+
+  <!-- sublimation curve: solid <-> gas -->
+  <path d="M 80,340 Q 150,332 205,300" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+  <!-- fusion curve: solid <-> liquid -->
+  <path d="M 205,300 Q 218,160 230,40" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+  <!-- vaporization curve: liquid <-> gas, ending at critical point -->
+  <path d="M 205,300 Q 300,300 460,300 Q 480,190 555,110" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+  <!-- boundary beyond the critical point, where liquid/gas stop being distinguishable -->
+  <path d="M 555,110 Q 500,150 462,235" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- triple point -->
+  <circle cx="205" cy="300" r="4.5" fill="#C9412C"/>
+  <text x="180" y="318" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Triple point</text>
+
+  <!-- critical point -->
+  <circle cx="555" cy="110" r="4.5" fill="#C9412C"/>
+  <text x="562" y="108" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Critical point</text>
+
+  <!-- region labels -->
+  <text x="130" y="150" font-family="ui-serif, Georgia, serif" font-size="20" font-weight="600" fill="#1F1B16">Solid</text>
+  <text x="290" y="180" font-family="ui-serif, Georgia, serif" font-size="20" font-weight="600" fill="#1F1B16">Liquid</text>
+  <text x="470" y="320" font-family="ui-serif, Georgia, serif" font-size="20" font-weight="600" fill="#1F1B16">Gas</text>
+  <text x="500" y="70" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Supercritical</text>
+  <text x="500" y="84" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">fluid</text>
+</svg>

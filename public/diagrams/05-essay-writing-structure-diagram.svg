@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Diagram of standard essay structure: an introduction with a hook and thesis statement, three body paragraphs each with a topic sentence, evidence, and analysis, and a conclusion that restates the thesis and gives its broader significance</title>
+  <rect width="640" height="300" fill="#FBF8F1"/>
+
+  <rect x="40" y="20" width="560" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="320" y="40" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="14" font-weight="600" fill="#2C4A3E">Introduction</text>
+  <text x="320" y="58" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#4A443C">hook + background + thesis statement</text>
+
+  <g stroke="#8B6F4E" stroke-width="1.5" fill="none">
+    <path d="M 150,70 L 110,105" marker-end="url(#arrow2)"/>
+    <path d="M 320,70 L 320,105" marker-end="url(#arrow2)"/>
+    <path d="M 490,70 L 530,105" marker-end="url(#arrow2)"/>
+  </g>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5">
+    <rect x="20" y="108" width="180" height="70" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="110" y="128" text-anchor="middle" font-weight="600" fill="#1F1B16">Body ¶1</text>
+    <text x="110" y="145" text-anchor="middle" fill="#4A443C">topic sentence</text>
+    <text x="110" y="160" text-anchor="middle" fill="#4A443C">evidence + analysis</text>
+
+    <rect x="230" y="108" width="180" height="70" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="320" y="128" text-anchor="middle" font-weight="600" fill="#1F1B16">Body ¶2</text>
+    <text x="320" y="145" text-anchor="middle" fill="#4A443C">topic sentence</text>
+    <text x="320" y="160" text-anchor="middle" fill="#4A443C">evidence + analysis</text>
+
+    <rect x="440" y="108" width="180" height="70" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="530" y="128" text-anchor="middle" font-weight="600" fill="#1F1B16">Body ¶3</text>
+    <text x="530" y="145" text-anchor="middle" fill="#4A443C">topic sentence</text>
+    <text x="530" y="160" text-anchor="middle" fill="#4A443C">evidence + analysis</text>
+  </g>
+
+  <g stroke="#8B6F4E" stroke-width="1.5" fill="none">
+    <path d="M 110,178 L 280,220" marker-end="url(#arrow2)"/>
+    <path d="M 320,178 L 320,220" marker-end="url(#arrow2)"/>
+    <path d="M 530,178 L 360,220" marker-end="url(#arrow2)"/>
+  </g>
+
+  <rect x="120" y="222" width="400" height="55" fill="#EDE7D8" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="320" y="244" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="14" font-weight="600" fill="#1F1B16">Conclusion</text>
+  <text x="320" y="262" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#4A443C">restate thesis + broader significance</text>
+
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+</svg>

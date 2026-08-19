@@ -39,6 +39,12 @@ export interface PostFrontmatter {
    *  lib/content.ts's loadAll() for the enforced precedence). */
   category?: Category;
   subtopic?: string;          // e.g. "investing-basics" — drives 3-tier breadcrumb
+  /** Basic-to-advanced reading order within the category (lower = more
+   *  fundamental). Posts without it sort after ordered ones, alphabetically
+   *  by title. Mirrors the same intent as the "NN-" folder prefixes used
+   *  for category ordering, but explicit — filenames can't carry it (see
+   *  CONTENT_GUIDE.md's no-leading-number rule for post files). */
+  order?: number;
   tags: string[];
   date: string;                // ISO date, original publish
   updated: string;             // ISO date, any edit (typos included)

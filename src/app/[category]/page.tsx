@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { getPostsByCategory, groupBySubtopic, getAllCategories } from '@/lib/content';
 import { getCategoryLabel, getCategoryDescription, getCategoryStatus } from '@/lib/taxonomy';
-import { ArrowLeft, BookOpen } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 import { CategoryHubClient } from '@/components/CategoryHubClient';
+import { CategoryMapNav } from '@/components/CategoryMapNav';
 
 interface PageProps {
   params: Promise<{ category: string }>;
@@ -13,6 +15,14 @@ export async function generateStaticParams() {
   const categories = await getAllCategories();
   return categories.map((category) => ({ category }));
 }
+
+// Any category not returned by generateStaticParams is a real 404, not
+// a category that just has zero posts yet — those are still in the
+// list above. Without this, Next.js treats unknown params as valid ISR
+// fallbacks: notFound() inside the page renders the right content but
+// gets cached as a 200, not a real 404 (see /this-page-does-not-exist
+// style URLs previously returning 200 with the not-found page's HTML).
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { category } = await params;
@@ -24,10 +34,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function CategoryHubPage({ params }: PageProps) {
   const { category } = await params;
+  const categories = await getAllCategories();
+  if (!categories.includes(category)) notFound();
+
   const label = getCategoryLabel(category);
   const description = getCategoryDescription(category);
   const status = getCategoryStatus(category);
-  const categories = await getAllCategories();
   const posts = await getPostsByCategory(category);
   const groups = groupBySubtopic(posts);
 
@@ -39,40 +51,15 @@ export default async function CategoryHubPage({ params }: PageProps) {
             <p className="mb-4 font-utility text-[11px] uppercase tracking-widest text-ochre">
               Knowledge Map
             </p>
-            <nav className="flex flex-col gap-1 font-body text-sm text-ink-soft">
-              <Link
-                href="/"
-                className="flex items-center gap-2 px-3 py-2 rounded-lg font-medium text-forest hover:bg-forest/10 transition-colors"
-              >
-                <ArrowLeft className="h-4 w-4" /> All Topics
-              </Link>
-              <div className="my-3 border-t border-rule" />
-              {categories.map((cat) => (
-                <div key={cat} className="flex flex-col gap-1">
-                  {cat === category ? (
-                    <div className="px-3 py-2 text-forest font-semibold text-[14px]">
-                      {getCategoryLabel(cat)}
-                    </div>
-                  ) : (
-                    <Link
-                      href={`/${cat}`}
-                      className="px-3 py-2 rounded-lg transition-colors hover:bg-paper hover:text-forest"
-                    >
-                      {getCategoryLabel(cat)}
-                    </Link>
-                  )}
-                </div>
-              ))}
-              {posts.map((post) => (
-                <Link
-                  key={post.slug}
-                  href={`/${category}/${post.slug}`}
-                  className="pl-6 pr-3 py-1 text-[13px] rounded-lg hover:text-forest transition-colors opacity-80 hover:opacity-100"
-                >
-                  {post.title}
-                </Link>
-              ))}
-            </nav>
+            <CategoryMapNav
+              categories={categories.map((cat) => ({ slug: cat, label: getCategoryLabel(cat) }))}
+              activeCategory={category}
+              activeLabel={label}
+              groups={groups.map((g) => ({
+                subtopic: g.subtopic,
+                posts: g.posts.map((p) => ({ slug: p.slug, title: p.title })),
+              }))}
+            />
           </div>
         </aside>
 

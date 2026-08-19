@@ -12,6 +12,7 @@ import {
   Folder,
   FileText
 } from 'lucide-react';
+import { formatSlugToLabel } from '@/lib/taxonomy-utils';
 
 interface SidebarItem {
   label: string;
@@ -206,6 +207,9 @@ export function LibrarySidebar({ categories }: LibrarySidebarProps) {
                         {/* Subtopics */}
                         {cat.subtopics.map((sub) => (
                           <div key={sub.id} className="space-y-0.5 mb-2">
+                            <div className="px-2 pb-0.5 font-utility text-[10.5px] font-semibold uppercase tracking-wider text-ochre">
+                              {formatSlugToLabel(sub.label)}
+                            </div>
                             {sub.posts.map((post) => (
                               <Link
                                 key={post.href}

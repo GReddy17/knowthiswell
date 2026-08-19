@@ -1,0 +1,22 @@
+<svg viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Timeline of the Archaic, Classical, and Hellenistic periods of Ancient Greece, ending with Roman conquest by 146 BCE</title>
+  <rect width="680" height="200" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="40" y="110" width="160" height="40" fill="#EEF3EE"/>
+    <text x="120" y="95" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Archaic</text>
+    <text x="120" y="170" text-anchor="middle" font-size="11" fill="#8B6F4E">from c. 800 BCE</text>
+
+    <rect x="200" y="110" width="220" height="40" fill="#FBEDEA"/>
+    <text x="310" y="95" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Classical</text>
+    <text x="310" y="170" text-anchor="middle" font-size="11" fill="#8B6F4E">500–323 BCE</text>
+    <text x="310" y="135" text-anchor="middle" font-size="9.5" fill="#4A443C">democracy · Persian Wars · Peloponnesian War</text>
+
+    <rect x="420" y="110" width="220" height="40" fill="#EDE7D8"/>
+    <text x="530" y="95" text-anchor="middle" font-size="13" font-weight="600" fill="#1F1B16">Hellenistic</text>
+    <text x="530" y="170" text-anchor="middle" font-size="11" fill="#8B6F4E">323–146 BCE</text>
+    <text x="530" y="135" text-anchor="middle" font-size="9.5" fill="#4A443C">after Alexander the Great, to Roman conquest</text>
+  </g>
+  <rect x="40" y="110" width="600" height="40" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="200" y1="110" x2="200" y2="150" stroke="#1F1B16"/>
+  <line x1="420" y1="110" x2="420" y2="150" stroke="#1F1B16"/>
+</svg>

@@ -60,4 +60,12 @@ export function getAllTaxonomy() {
   }));
 }
 
+/** Category slugs in the order they're declared in taxonomy.json — that
+ *  declaration order IS the basic-to-advanced numbering (01-27) the
+ *  content is authored under, so anywhere categories are listed should
+ *  sort by this instead of alphabetically. */
+export function getCategoryOrder(): string[] {
+  return Object.keys(loadRegistry());
+}
+
 export const ALL_GLOSSARY_LETTERS: string[] = 'abcdefghijklmnopqrstuvwxyz'.split('');

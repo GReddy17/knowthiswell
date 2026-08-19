@@ -1,0 +1,54 @@
+<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">The eight Sangeet Natak Akademi-recognized classical Indian dance forms listed next to their state or region of origin, spanning north, east, west, and south India</title>
+  <rect width="760" height="420" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="380" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#1F1B16">Eight classical dance forms, eight regions</text>
+
+    <!-- Column layout: form name + region, grouped roughly north to south -->
+    <g font-size="12" fill="#1F1B16">
+      <!-- Kathak - North -->
+      <rect x="60" y="60" width="300" height="40" rx="6" fill="#EFE6D3" stroke="#D8CFBB"/>
+      <text x="75" y="78" font-weight="700">Kathak</text>
+      <text x="75" y="93" font-size="10.5" fill="#4A443C">North India (Uttar Pradesh and wider Hindustani belt)</text>
+
+      <!-- Sattriya - Assam -->
+      <rect x="400" y="60" width="300" height="40" rx="6" fill="#EFE6D3" stroke="#D8CFBB"/>
+      <text x="415" y="78" font-weight="700">Sattriya</text>
+      <text x="415" y="93" font-size="10.5" fill="#4A443C">Assam — from Vaishnavite monasteries (sattras)</text>
+
+      <!-- Manipuri -->
+      <rect x="400" y="112" width="300" height="40" rx="6" fill="#EFE6D3" stroke="#D8CFBB"/>
+      <text x="415" y="130" font-weight="700">Manipuri</text>
+      <text x="415" y="145" font-size="10.5" fill="#4A443C">Manipur — Northeast India</text>
+
+      <!-- Odissi - East -->
+      <rect x="60" y="112" width="300" height="40" rx="6" fill="#EFE6D3" stroke="#D8CFBB"/>
+      <text x="75" y="130" font-weight="700">Odissi</text>
+      <text x="75" y="145" font-size="10.5" fill="#4A443C">Odisha — eastern India</text>
+
+      <!-- Kuchipudi -->
+      <rect x="60" y="164" width="300" height="40" rx="6" fill="#EFE6D3" stroke="#D8CFBB"/>
+      <text x="75" y="182" font-weight="700">Kuchipudi</text>
+      <text x="75" y="197" font-size="10.5" fill="#4A443C">Andhra Pradesh — southeastern India</text>
+
+      <!-- Bharatanatyam -->
+      <rect x="400" y="164" width="300" height="40" rx="6" fill="#EFE6D3" stroke="#D8CFBB"/>
+      <text x="415" y="182" font-weight="700">Bharatanatyam</text>
+      <text x="415" y="197" font-size="10.5" fill="#4A443C">Tamil Nadu — southern India</text>
+
+      <!-- Kathakali -->
+      <rect x="60" y="216" width="300" height="40" rx="6" fill="#EFE6D3" stroke="#D8CFBB"/>
+      <text x="75" y="234" font-weight="700">Kathakali</text>
+      <text x="75" y="249" font-size="10.5" fill="#4A443C">Kerala — southwestern India</text>
+
+      <!-- Mohiniyattam -->
+      <rect x="400" y="216" width="300" height="40" rx="6" fill="#EFE6D3" stroke="#D8CFBB"/>
+      <text x="415" y="234" font-weight="700">Mohiniyattam</text>
+      <text x="415" y="249" font-size="10.5" fill="#4A443C">Kerala — southwestern India</text>
+    </g>
+
+    <text x="380" y="290" text-anchor="middle" font-size="10.5" fill="#8B6F4E">Recognition source: Sangeet Natak Akademi (Government of India)</text>
+    <text x="380" y="308" text-anchor="middle" font-size="10.5" fill="#8B6F4E" font-style="italic">Two forms (Kathakali and Mohiniyattam) share a home state but remain technically distinct traditions.</text>
+  </g>
+</svg>

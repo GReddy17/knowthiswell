@@ -29,12 +29,12 @@ export default function DMCAPage() {
         <li>
           A statement, under penalty of perjury, that the information in
           the notice is accurate and that you are authorized to act on
-          the copyright owner's behalf
+          the copyright owner&apos;s behalf
         </li>
         <li>Your physical or electronic signature</li>
       </ul>
 
-      <h2 className="mb-3 mt-10 font-display text-2xl">Reporting unauthorized copies of this site's content</h2>
+      <h2 className="mb-3 mt-10 font-display text-2xl">Reporting unauthorized copies of this site&apos;s content</h2>
       <p className="mb-6 text-ink-soft">
         If you find content from this site reproduced elsewhere without
         permission, please report it using the same contact channel — a

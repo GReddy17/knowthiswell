@@ -10,15 +10,29 @@ frontmatter in a `.md` file, that's stale — this is the real format.
 
 ## 1. File naming & organization
 
-- **Folders**: `NN-category-slug` (e.g. `01-general-science-facts`).
+- **Category folders**: `NN-category-slug` (e.g. `01-general-science-facts`).
   The number is for YOUR ordering convenience in the file tree only —
   it is stripped automatically and never appears in the public URL.
+- **Subtopic-cluster subfolders** (optional, one level deep): once a
+  category has enough posts to group, nest them under a subfolder named
+  for the cluster (e.g. `01-general-science-facts/physical-science/`,
+  `01-general-science-facts/chemistry/`). This mirrors the clusters in
+  `Source Tracking/phase1-subtopics.md` and is purely a file-tree
+  convenience — `scripts/generate-post-registry.mjs` scans recursively,
+  so posts work identically whether flat in the category folder or
+  nested one level under a cluster subfolder. The cluster subfolder name
+  has no effect on routing; it's the post's own `subtopic:` frontmatter
+  field that actually drives the on-site subtopic grouping (Knowledge
+  Map, Library sidebar, category hub sections) — keep the folder name
+  and the `subtopic:` value in sync (slugified cluster name) so the
+  file tree matches what the site displays.
 - **Files**: plain `slug-name.tsx` — **no leading number**, no `:`,
   `'`, em-dashes, or other special characters. Use only lowercase
   letters, numbers, and hyphens. (`scripts/generate-post-registry.mjs`
   will warn loudly at build time if it finds a file that breaks this.)
 - A category with zero real content yet should contain a single
-  `coming-soon.tsx` placeholder file — see the template below.
+  `coming-soon.tsx` placeholder file directly in the category folder
+  (not inside a cluster subfolder) — see the template below.
 
 ## 2. Required file structure
 

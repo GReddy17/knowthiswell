@@ -1,0 +1,28 @@
+<svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Approximate share of English dictionary vocabulary by language of origin</title>
+  <rect width="680" height="260" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="40" y="30" font-size="13" font-weight="600" fill="#1F1B16">French</text>
+    <rect x="180" y="18" width="399" height="18" fill="#FBEDEA" stroke="#1F1B16" stroke-width="1"/>
+    <text x="590" y="31" font-size="12" fill="#4A443C">~29%</text>
+
+    <text x="40" y="66" font-size="13" font-weight="600" fill="#1F1B16">Latin</text>
+    <rect x="180" y="54" width="385" height="18" fill="#EDE7D8" stroke="#1F1B16" stroke-width="1"/>
+    <text x="576" y="67" font-size="12" fill="#4A443C">~28%</text>
+
+    <text x="40" y="102" font-size="13" font-weight="600" fill="#1F1B16">Germanic (Old English / Old Norse)</text>
+    <rect x="330" y="90" width="343" height="18" fill="#EEF3EE" stroke="#1F1B16" stroke-width="1"/>
+    <text x="519" y="103" font-size="12" fill="#4A443C">~25%</text>
+
+    <text x="40" y="138" font-size="13" font-weight="600" fill="#1F1B16">Greek</text>
+    <rect x="180" y="126" width="69" height="18" fill="#E4ECF3" stroke="#1F1B16" stroke-width="1"/>
+    <text x="260" y="139" font-size="12" fill="#4A443C">~5%</text>
+
+    <text x="40" y="174" font-size="13" font-weight="600" fill="#1F1B16">Other (Arabic, Hindi/Urdu, Japanese,</text>
+    <text x="40" y="188" font-size="13" font-weight="600" fill="#1F1B16">Native American languages, and more)</text>
+    <rect x="330" y="176" width="179" height="18" fill="#F3E9DA" stroke="#1F1B16" stroke-width="1"/>
+    <text x="520" y="189" font-size="12" fill="#4A443C">~13%</text>
+
+    <text x="40" y="230" font-size="10.5" fill="#8B6F4E">Approximate figures from a widely cited etymological analysis of the English dictionary.</text>
+  </g>
+</svg>

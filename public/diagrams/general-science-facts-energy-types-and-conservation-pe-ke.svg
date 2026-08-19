@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="peKeTitle">
+  <title id="peKeTitle">Potential and kinetic energy trading off as a ball falls, with total energy staying constant</title>
+  <rect width="640" height="380" fill="#FBF8F1"/>
+
+  <!-- ground line -->
+  <line x1="40" y1="330" x2="600" y2="330" stroke="#1F1B16" stroke-width="1.5"/>
+
+  <!-- three ball positions with dashed drop path -->
+  <line x1="120" y1="60" x2="120" y2="310" stroke="#E3DCC9" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="120" cy="70" r="14" fill="#2C4A3E"/>
+  <circle cx="120" cy="190" r="14" fill="#2C4A3E"/>
+  <circle cx="120" cy="310" r="14" fill="#2C4A3E"/>
+  <text x="120" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Top</text>
+  <text x="120" y="345" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Bottom</text>
+
+  <!-- three energy bar groups -->
+  <!-- top: all PE -->
+  <g>
+    <rect x="230" y="60" width="30" height="130" fill="#8B6F4E"/>
+    <rect x="270" y="188" width="30" height="2" fill="#C9412C"/>
+    <text x="260" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Top</text>
+  </g>
+  <!-- middle: half/half -->
+  <g>
+    <rect x="360" y="125" width="30" height="65" fill="#8B6F4E"/>
+    <rect x="400" y="125" width="30" height="65" fill="#C9412C"/>
+    <text x="395" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Halfway</text>
+  </g>
+  <!-- bottom: all KE -->
+  <g>
+    <rect x="490" y="188" width="30" height="2" fill="#8B6F4E"/>
+    <rect x="530" y="60" width="30" height="130" fill="#C9412C"/>
+    <text x="525" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Bottom</text>
+  </g>
+
+  <!-- baseline for bars -->
+  <line x1="220" y1="190" x2="570" y2="190" stroke="#1F1B16" stroke-width="1"/>
+
+  <!-- legend -->
+  <rect x="230" y="240" width="16" height="16" fill="#8B6F4E"/>
+  <text x="252" y="253" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Potential energy</text>
+  <rect x="230" y="265" width="16" height="16" fill="#C9412C"/>
+  <text x="252" y="278" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Kinetic energy</text>
+
+  <text x="400" y="300" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Combined bar height stays the same at every point</text>
+</svg>

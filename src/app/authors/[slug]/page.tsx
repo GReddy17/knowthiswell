@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { getAllAuthorSlugs, getAuthorBySlug, getPostsByAuthor } from '@/lib/content';
 import { getCategoryLabel } from '@/lib/taxonomy';
 
@@ -11,6 +12,12 @@ export async function generateStaticParams() {
   return getAllAuthorSlugs();
 }
 
+// See [category]/page.tsx for why this matters: without it, a removed
+// or renamed author slug renders an empty 200 page instead of a real
+// 404 (notFound() alone gets cached as a static 200 for out-of-list
+// params on a route covered by generateStaticParams).
+export const dynamicParams = false;
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const author = await getAuthorBySlug(slug);
@@ -20,7 +27,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function AuthorPage({ params }: PageProps) {
   const { slug } = await params;
   const author = await getAuthorBySlug(slug);
-  if (!author) return null;
+  if (!author) notFound();
 
   const posts = await getPostsByAuthor(slug);
 

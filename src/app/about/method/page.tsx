@@ -27,7 +27,7 @@ export default function MethodPage() {
         <strong>Fact-reviewed</strong>, which changes only when the
         substantive claims in the entry have been re-checked against
         current sources. The two are tracked separately so a typo fix
-        can't be mistaken for a content review.
+        can&apos;t be mistaken for a content review.
       </p>
 
       <h2 className="mb-3 mt-10 font-display text-2xl">Corrections</h2>

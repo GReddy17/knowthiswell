@@ -15,17 +15,19 @@ import fs from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
-import readingTime from 'reading-time';
-import { z } from 'zod';
-import { ALL_GLOSSARY_LETTERS } from './taxonomy';
-import { PostSchema } from './schema';
+import { ALL_GLOSSARY_LETTERS, getCategoryOrder } from './taxonomy';
 import { POSTS_REGISTRY, getPostFromRegistry } from '@/content/posts';
 import { RawPost, PostMeta } from '@/types/post';
 
+/** Basic-to-advanced reading order: explicit `order` first (lower first),
+ *  then alphabetical by title for anything left unordered. */
 export function sortPosts(posts: PostMeta[]) {
-  return [...posts].sort((a, b) =>
-    a.rawSlug.localeCompare(b.rawSlug, undefined, { numeric: true, sensitivity: 'base' })
-  );
+  return [...posts].sort((a, b) => {
+    const ao = a.order ?? Infinity;
+    const bo = b.order ?? Infinity;
+    if (ao !== bo) return ao - bo;
+    return a.title.localeCompare(b.title, undefined, { sensitivity: 'base' });
+  });
 }
 
 const TERMS_PATH = path.join(process.cwd(), 'content', 'terms.json');
@@ -79,7 +81,7 @@ async function loadMetadata(): Promise<ContentCache> {
       slug,
       rawSlug: slug,
       absPath: '',
-      readingTimeMinutes: 1,
+      readingTimeMinutes: entry.readingTimeMinutes,
       headings: [],
     };
 
@@ -87,7 +89,21 @@ async function loadMetadata(): Promise<ContentCache> {
     allPostsForRelated.push(meta);
   }
 
-  const categories = [...new Set(allPostsForRelated.map(p => p.category))].sort();
+  const categoryOrder = getCategoryOrder();
+  // Every category declared in taxonomy.json must always be listed —
+  // including ones with zero real posts yet (coming-soon.tsx is a
+  // placeholder, not a post, so it can't be what makes a category show
+  // up). Union with categories seen on real posts as a fallback, in case
+  // a content folder exists that taxonomy.json hasn't been told about.
+  const categoriesWithPosts = new Set(allPostsForRelated.map(p => p.category));
+  const categories = [...new Set([...categoryOrder, ...categoriesWithPosts])].sort((a, b) => {
+    const ai = categoryOrder.indexOf(a);
+    const bi = categoryOrder.indexOf(b);
+    if (ai === -1 && bi === -1) return a.localeCompare(b);
+    if (ai === -1) return 1;  // unlisted categories sort last
+    if (bi === -1) return -1;
+    return ai - bi;
+  });
 
   const relatedMap = new Map<string, { slug: string; title: string; href: string }[]>();
   for (const post of allPostsForRelated) {
@@ -154,7 +170,7 @@ export async function getPostBySlug(category: string, slug: string): Promise<Raw
       rawSlug: slug,
       rawCategory: category,
       absPath: '',
-      readingTimeMinutes: 1,
+      readingTimeMinutes: registryEntry.readingTimeMinutes,
       headings: [],
     } as RawPost;
   }
@@ -176,7 +192,7 @@ export async function getPostsByCategory(category: string): Promise<RawPost[]> {
   const cache = await loadMetadata();
   const postsMeta = Array.from(cache.meta.values()).filter(p => p.category === category);
 
-  return postsMeta.map(meta => ({
+  return sortPosts(postsMeta).map(meta => ({
     ...meta,
     body: '', // Registry posts don't have a string body, they have a Component
   }));
@@ -198,8 +214,8 @@ export function groupBySubtopic(posts: RawPost[]) {
   return groups;
 }
 
-export function getRelatedPosts(post: RawPost) {
-  const cache = _cache || { relatedMap: new Map() };
+export async function getRelatedPosts(post: RawPost) {
+  const cache = await loadMetadata();
   const key = `${post.category}/${post.slug}`;
   return cache.relatedMap.get(key) ?? [];
 }
@@ -297,7 +313,7 @@ export async function getLibraryStructure() {
   const categories = cache.categories;
 
   return categories.map(cat => {
-    const posts = Array.from(cache.meta.values()).filter(p => p.category === cat);
+    const posts = sortPosts(Array.from(cache.meta.values()).filter(p => p.category === cat));
     const subtopicsMap = new Map<string, PostMeta[]>();
 
 

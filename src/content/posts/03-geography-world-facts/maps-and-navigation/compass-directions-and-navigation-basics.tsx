@@ -1,0 +1,196 @@
+import React from 'react';
+import { PostMeta, PostFrontmatter } from '@/types/post';
+import {
+  KeyTakeaways,
+  ModeToggle,
+  FootnoteAside,
+  QuickCheck,
+  DiagramBlock,
+  MistakeList,
+  MisconceptionCallout,
+  EntryCalculator,
+  ActionChecklist,
+  FAQBlock,
+  GlossaryStrip,
+  SeeAlsoList,
+  TermLink
+} from '@/components';
+
+export const metadata: PostFrontmatter = {
+  title: "Compass Directions & Navigation Basics",
+  category: "geography-world-facts",
+  order: 17,
+  subtopic: "maps-and-navigation",
+  tags: [
+    "compass",
+    "magnetic declination",
+    "bearings",
+    "navigation",
+    "true north",
+    "maps and navigation",
+  ],
+  date: "2026-08-16",
+  updated: "2026-08-16",
+  lastReviewed: "2026-08-16",
+  excerpt: "Why a compass needle doesn't actually point to the North Pole — and why the correction you need to fix that changes depending on where you're standing.",
+  summary: "A compass needle points toward magnetic north, not true (geographic) north, and the angular gap between the two — magnetic declination — must be corrected for accurate navigation.",
+  sources: [
+    { label: "NOAA National Centers for Environmental Information — World Magnetic Model", url: "https://www.ncei.noaa.gov/products/world-magnetic-model" },
+    { label: "USGS — Geomagnetism Program", url: "https://www.usgs.gov/programs/geomagnetism-program" },
+    { label: "National Geographic — Compass", url: "https://education.nationalgeographic.org/resource/compass/" },
+  ],
+  seeAlso: [
+    "geography-world-facts/gps-and-how-location-technology-works",
+    "geography-world-facts/latitude-and-longitude-explained",
+    "general-science-facts/electricity-and-magnetism-basics",
+  ],
+  glossary: [
+    { term: "True north", definition: "The direction toward the geographic North Pole, the fixed point Earth rotates around, used as the reference for latitude and longitude." },
+    { term: "Magnetic north", definition: "The direction a compass needle points, toward Earth's north magnetic pole, which is a different, constantly slowly shifting location from true north." },
+    { term: "Magnetic declination", definition: "The angular difference between true north and magnetic north at a given location, which must be added to or subtracted from a compass reading for accurate navigation." },
+    { term: "Bearing", definition: "A direction expressed as a specific number of degrees measured clockwise from north, from 0° (due north) to 359°." },
+    { term: "Cardinal directions", definition: "The four primary compass directions: north, south, east, and west." },
+    { term: "Dead reckoning", definition: "A navigation technique that estimates current position using a known starting point, heading, speed, and elapsed time, without external reference points." },
+  ],
+  author: {
+    slug: "james-h-rivers",
+    name: "James H. Rivers",
+    credentialLine: "Founder, KnowThisWell",
+  },
+  youtubeStatus: "not-started",
+  youtubeUrl: "",
+  draft: false,
+};
+
+export default function Post() {
+  return (
+    <>
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Key Takeaways</h2>
+      <KeyTakeaways
+        points={[
+          "A compass needle points to magnetic north, not true (geographic) north — these are two different locations, and the angle between them, called declination, varies depending on where you're standing.",
+          "Directions are measured as a bearing: degrees clockwise from north, from 0° to 359°, which lets navigation be described with a single precise number instead of a vague word like 'northeast-ish.'",
+          "Earth's north magnetic pole isn't fixed — it drifts over time, and in recent decades it has been moving unusually fast, from northern Canada toward Siberia at tens of kilometers per year.",
+        ]}
+      />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
+      <ModeToggle
+        labels={{ plain: "Plain", detailed: "Detailed" }}
+        plain={<div className="prose-p">A compass needle lines up with Earth&apos;s magnetic field and points toward <TermLink href="/geography-world-facts/compass-directions-and-navigation-basics">magnetic north</TermLink> — but that&apos;s not the same place as <TermLink href="/geography-world-facts/compass-directions-and-navigation-basics">true north</TermLink>, the actual geographic North Pole that Earth spins around. The two are usually close enough that it doesn&apos;t matter for a casual walk, but the gap between them, called <TermLink href="/geography-world-facts/compass-directions-and-navigation-basics">magnetic declination</TermLink>, can be large enough in some places to send you seriously off course if you don&apos;t correct for it — which is exactly why hikers and pilots are taught to check it before relying on a compass for precise navigation.</div>}
+        detailed={<div className="prose-p">Earth&apos;s magnetic field is generated by the movement of molten iron in its outer core, and the resulting magnetic north pole doesn&apos;t sit at the geographic North Pole — it sits at a separate, constantly shifting location currently in the Arctic Ocean, drifting toward Siberia. <TermLink href="/geography-world-facts/compass-directions-and-navigation-basics">Magnetic declination</TermLink> is the angular difference, at any given point on Earth, between the direction a compass needle points (magnetic north) and true north — it varies by location and slowly over time, tracked and published as the World Magnetic Model, jointly maintained by NOAA and the UK&apos;s Defence Geographic Centre and updated every five years. In the United States, declination ranges from several degrees east in parts of the West Coast to several degrees west along much of the East Coast, with a line of zero declination (the &quot;agonic line&quot;) running roughly through the middle of the country where true and magnetic north briefly coincide. Directions in professional navigation are expressed as a <TermLink href="/geography-world-facts/compass-directions-and-navigation-basics">bearing</TermLink> — a specific number of degrees measured clockwise from north (0° = north, 90° = east, 180° = south, 270° = west) — rather than the broader <TermLink href="/geography-world-facts/compass-directions-and-navigation-basics">cardinal directions</TermLink>, because a bearing can specify direction with a precision cardinal words simply can&apos;t.</div>}
+      />
+      <FootnoteAside>Earth&apos;s north magnetic pole has been drifting at an unusually rapid pace in recent decades — moving from northern Canada toward Siberia at speeds that reached roughly 50-60km per year around 2019, fast enough that NOAA had to issue an out-of-cycle update to the World Magnetic Model earlier than its normal five-year schedule.</FootnoteAside>
+
+      <p>
+      That gap between magnetic and true north isn&apos;t just a technicality — it&apos;s a real, calculable number, and correcting for it is a genuine skill with a genuine formula behind it.
+      </p>
+
+      <QuickCheck
+        question="A compass needle in most locations does NOT point exactly at which of the following?"
+        options={[
+          { text: "The geographic North Pole (true north)", correct: true, explanation: "Correct. A compass needle points toward the magnetic north pole, a separate and constantly shifting location from the geographic North Pole (true north) that Earth actually rotates around." },
+          { text: "The magnetic north pole", correct: false, explanation: "This is exactly what a compass needle does point toward — magnetic north, not true north, is the compass's actual reference." },
+          { text: "Any consistent direction at all", correct: false, explanation: "A compass is generally reliable and consistent at a given location and time — the issue isn't inconsistency, it's that its reference point (magnetic north) differs from true north by a real, measurable angle." },
+        ]}
+      />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Worked examples</h2>
+
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 1: Correcting a compass bearing for declination (baseline case)</h3>
+      <div className="prose-p">
+      A hiker&apos;s compass reads a bearing of 45° (northeast) toward their destination. Their location has a declination of +8° (east declination, common in parts of the western United States). To find the true bearing: true bearing = magnetic bearing + declination = 45 + 8 = 53°. Following the uncorrected 45° reading instead of the corrected 53° would send the hiker walking in a direction 8° off from their intended path — over a distance of several kilometers, that&apos;s easily enough error to miss a trail junction or a landmark entirely.
+      </div>
+
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 2: West declination flips the correction&apos;s sign (edge case / variation)</h3>
+      <div className="prose-p">
+      In parts of the eastern United States, declination is negative — for example, -14° in parts of Maine, meaning magnetic north sits 14° to the west of true north there. A compass reading of 90° (due east) at that location corresponds to a true bearing of 90 + (-14) = 76°. The sign of the declination correction genuinely flips depending on which side of the agonic line (the line of zero declination) you&apos;re on, which is precisely why declination is always published as a signed value (east positive, west negative, by convention) rather than a single number that could be misapplied in the wrong direction.
+      </div>
+
+      <QuickCheck
+        question="A location has a declination of -14° (west). A hiker reads a compass bearing of 90° toward their destination. What is the correct true bearing?"
+        options={[
+          { text: "104°, by adding the 14° regardless of its sign", correct: false, explanation: "The sign of the declination matters — a west declination is negative, so it must be subtracted (added as a negative number), not simply added as if it were positive." },
+          { text: "76°, by adding the signed -14° declination to the 90° magnetic bearing", correct: true, explanation: "Correct. True bearing = magnetic bearing + declination, and with a west declination of -14°, that's 90 + (-14) = 76°." },
+          { text: "90°, since declination only matters for bearings near north", correct: false, explanation: "Declination applies as a consistent correction across all bearings at a given location, not just readings near north — it shifts every direction reading by the same signed angle." },
+        ]}
+      />
+
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: Why aviation and maritime navigation take declination seriously (real-world / applied case)</h3>
+      <div className="prose-p">
+      Airport runway numbers are based on their magnetic compass heading rounded to the nearest 10 degrees (a runway numbered &quot;27&quot; faces roughly 270° magnetic, or due west) — and because magnetic declination slowly drifts over years, runways occasionally have to be officially renumbered decades after construction once the magnetic heading has shifted enough to round to a different number. Commercial pilots and ship navigators build declination correction into every flight or voyage plan as a matter of routine, using either the World Magnetic Model or a magnetic variation printed directly on aeronautical and nautical charts, precisely because the error from ignoring it compounds significantly over long distances.
+      </div>
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
+      <DiagramBlock
+        title="True north vs. magnetic north, and the declination angle between them"
+        type="detail"
+        svgSrc="/diagrams/geography-world-facts-compass-directions-and-navigation-basics-declination.svg"
+        altText="A compass rose diagram showing two arrows from the same central point: one labeled true north pointing straight up toward the geographic North Pole, and one labeled magnetic north pointing at an angle offset to one side toward Earth's magnetic north pole, with the angle between the two arrows labeled as magnetic declination."
+      />
+      <p>
+      The declination angle shown here isn&apos;t a fixed universal number — it&apos;s specific to a location and a point in time, which is exactly why serious navigation always starts by looking up the current local declination rather than assuming a compass reading is already true north.
+      </p>
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
+      <MistakeList
+        items={[
+          { mistake: "Assuming a compass points at true (geographic) north.", fix: "Remember a compass points at magnetic north, a different and constantly shifting location — apply the local declination correction for precise navigation." },
+          { mistake: "Applying a declination correction with the wrong sign.", fix: "Double-check whether your location's declination is east (positive) or west (negative) before adding it — getting the sign backward doubles the actual error instead of removing it." },
+          { mistake: "Treating declination as a fixed, permanent number for a given location.", fix: "Check a current source like the World Magnetic Model, since declination slowly changes over years as Earth's magnetic field shifts — old maps or old memorized values can be measurably out of date." },
+        ]}
+      />
+      <MisconceptionCallout
+        myth="A compass needle points directly at the true, geographic North Pole."
+        reality={<p>A compass needle points toward Earth&apos;s magnetic north pole, a separate location from the geographic North Pole that shifts over time — currently drifting through the Arctic Ocean toward Siberia. The angular gap between magnetic north and true north at any given location is called magnetic declination, and it must be added or subtracted from a raw compass reading to get an accurate true bearing. In parts of the world, this gap exceeds 15-20 degrees, easily large enough to cause significant navigation error over any real distance if ignored.</p>}
+      />
+
+      <QuickCheck
+        question="Why do pilots and ship navigators need to know their location's specific magnetic declination rather than using one universal correction number?"
+        options={[
+          { text: "Because declination varies by location and slowly changes over time, so a single universal number wouldn't be accurate anywhere for long", correct: true, explanation: "Correct. Magnetic declination depends on where on Earth you are and drifts slowly over years — a single fixed correction couldn't stay accurate across different locations or over time." },
+          { text: "Because compasses themselves vary too much in manufacturing quality to standardize", correct: false, explanation: "The issue isn't compass manufacturing quality — a properly functioning compass reliably points at magnetic north; the challenge is that magnetic north itself differs from true north by a location- and time-dependent angle." },
+          { text: "Declination correction is only needed very close to the poles", correct: false, explanation: "Declination applies everywhere on Earth to varying degrees, including populated mid-latitude regions — it isn't a polar-only phenomenon, though it can become extreme very close to the poles." },
+        ]}
+      />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Try it yourself</h2>
+      <EntryCalculator
+        title="Correct a magnetic compass bearing to a true bearing"
+        fields={[
+          { key: "magneticBearingDegrees", label: "Magnetic compass bearing (degrees)", defaultValue: 45 },
+          { key: "declinationDegrees", label: "Local declination (east = positive, west = negative)", defaultValue: 8 },
+        ]}
+        resultLabel="True bearing (degrees)"
+        formula="trueBearingFromMagneticDeclination"
+        formatResult="number"
+      />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What to do next</h2>
+      <ActionChecklist
+        items={[
+          "Try the calculator above with your own region's declination (look it up via NOAA's magnetic declination calculator) and a compass reading of your choice.",
+          "Next time you use a compass outdoors, check whether you're east or west of the agonic line before trusting a raw reading for precise navigation.",
+          "Practice converting a cardinal direction like 'southeast' into its exact bearing (135°) to build fluency with bearing-based navigation.",
+          "Read the related entry on GPS & How Location Technology Works to see how satellite navigation solved the magnetic-declination problem entirely.",
+        ]}
+      />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">FAQ</h2>
+      <FAQBlock
+        items={[
+          { question: "Does a compass point to true north or magnetic north?", answer: "Magnetic north. True (geographic) north is the actual North Pole Earth rotates around, while magnetic north is a separate, slowly shifting location where Earth's magnetic field points — the angular difference between them is called declination." },
+          { question: "What is magnetic declination?", answer: "The angular difference, at a specific location, between true north and the direction a compass needle points (magnetic north). It varies by location and changes slowly over time as Earth's magnetic field shifts." },
+          { question: "How do you convert a magnetic bearing to a true bearing?", answer: "Add the local magnetic declination to the magnetic bearing, using a positive value for east declination and a negative value for west declination: true bearing = magnetic bearing + declination." },
+          { question: "Is Earth's magnetic north pole moving?", answer: "Yes — it drifts continuously and has moved unusually fast in recent decades, traveling from northern Canada toward Siberia at speeds that reached roughly 50-60km per year around 2019." },
+          { question: "What is a bearing in navigation?", answer: "A bearing is a direction expressed as a specific number of degrees measured clockwise from north, ranging from 0° (due north) to 359° — it allows far more precise direction-giving than cardinal terms like 'northeast.'" },
+        ]}
+      />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Related terms</h2>
+      <GlossaryStrip terms={metadata.glossary ?? []} />
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">See also</h2>
+      <SeeAlsoList slugs={metadata.seeAlso ?? []} />
+    </>
+  );
+}

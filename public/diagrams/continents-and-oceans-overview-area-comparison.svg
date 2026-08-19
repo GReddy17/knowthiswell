@@ -1,0 +1,64 @@
+<svg viewBox="0 0 640 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="areaChartTitle">
+  <title id="areaChartTitle">Bar charts comparing the area of the seven continents and the five oceans, largest to smallest</title>
+  <rect width="640" height="560" fill="#FBF8F1"/>
+
+  <text x="40" y="36" font-family="ui-serif, Georgia, serif" font-size="20" font-weight="600" fill="#1F1B16">Continents by area (million km²)</text>
+  <!-- continents: Asia 44.6, Africa 30.4, N.America 24.7, S.America 17.8, Antarctica 14.2, Europe 10.2, Australia 7.7 -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">
+    <text x="40" y="60">Asia</text>
+    <rect x="140" y="48" width="357" height="16" fill="#2C4A3E"/>
+    <text x="505" y="60" fill="#4A443C">44.6</text>
+
+    <text x="40" y="84">Africa</text>
+    <rect x="140" y="72" width="243" height="16" fill="#2C4A3E"/>
+    <text x="391" y="84" fill="#4A443C">30.4</text>
+
+    <text x="40" y="108">North America</text>
+    <rect x="140" y="96" width="198" height="16" fill="#2C4A3E"/>
+    <text x="346" y="108" fill="#4A443C">24.7</text>
+
+    <text x="40" y="132">South America</text>
+    <rect x="140" y="120" width="142" height="16" fill="#2C4A3E"/>
+    <text x="290" y="132" fill="#4A443C">17.8</text>
+
+    <text x="40" y="156">Antarctica</text>
+    <rect x="140" y="144" width="114" height="16" fill="#2C4A3E"/>
+    <text x="262" y="156" fill="#4A443C">14.2</text>
+
+    <text x="40" y="180">Europe</text>
+    <rect x="140" y="168" width="82" height="16" fill="#2C4A3E"/>
+    <text x="230" y="180" fill="#4A443C">10.2</text>
+
+    <text x="40" y="204">Australia</text>
+    <rect x="140" y="192" width="62" height="16" fill="#2C4A3E"/>
+    <text x="210" y="204" fill="#4A443C">7.7</text>
+  </g>
+
+  <line x1="40" y1="230" x2="600" y2="230" stroke="#E3DCC9" stroke-width="1"/>
+
+  <text x="40" y="270" font-family="ui-serif, Georgia, serif" font-size="20" font-weight="600" fill="#1F1B16">Oceans by area (million km²)</text>
+  <!-- oceans: Pacific 165.25, Atlantic 106.46, Indian 70.56, Southern 21.96, Arctic 15.56 -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">
+    <text x="40" y="296">Pacific</text>
+    <rect x="140" y="284" width="440" height="16" fill="#8B6F4E"/>
+    <text x="586" y="296" fill="#4A443C" text-anchor="end">165.3</text>
+
+    <text x="40" y="320">Atlantic</text>
+    <rect x="140" y="308" width="284" height="16" fill="#8B6F4E"/>
+    <text x="430" y="320" fill="#4A443C">106.5</text>
+
+    <text x="40" y="344">Indian</text>
+    <rect x="140" y="332" width="188" height="16" fill="#8B6F4E"/>
+    <text x="334" y="344" fill="#4A443C">70.6</text>
+
+    <text x="40" y="368">Southern</text>
+    <rect x="140" y="356" width="58" height="16" fill="#8B6F4E"/>
+    <text x="204" y="368" fill="#4A443C">22.0</text>
+
+    <text x="40" y="392">Arctic</text>
+    <rect x="140" y="380" width="42" height="16" fill="#8B6F4E"/>
+    <text x="188" y="392" fill="#4A443C">15.6</text>
+  </g>
+
+  <text x="40" y="440" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Source: NOAA / National Geographic reference figures. Bars scaled independently per chart, not against each other.</text>
+</svg>

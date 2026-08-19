@@ -1,0 +1,29 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Four punctuation marks compared by function: comma, semicolon, colon, and apostrophe</title>
+  <rect width="640" height="300" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">
+    <!-- comma -->
+    <rect x="40" y="30" width="560" height="58" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="60" y="55" font-family="ui-serif, Georgia, serif" font-size="26" font-weight="700" fill="#2C4A3E">,</text>
+    <text x="95" y="52" font-weight="600" fill="#1F1B16">Comma</text>
+    <text x="95" y="70" fill="#4A443C">Separates items in a list or adds a pause — needs a conjunction to join two full sentences.</text>
+
+    <!-- semicolon -->
+    <rect x="40" y="94" width="560" height="58" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="60" y="119" font-family="ui-serif, Georgia, serif" font-size="26" font-weight="700" fill="#8B6F4E">;</text>
+    <text x="95" y="116" font-weight="600" fill="#1F1B16">Semicolon</text>
+    <text x="95" y="134" fill="#4A443C">Joins two closely related independent clauses without a conjunction.</text>
+
+    <!-- colon -->
+    <rect x="40" y="158" width="560" height="58" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="60" y="183" font-family="ui-serif, Georgia, serif" font-size="26" font-weight="700" fill="#2C4A3E">:</text>
+    <text x="95" y="180" font-weight="600" fill="#1F1B16">Colon</text>
+    <text x="95" y="198" fill="#4A443C">Introduces a list, explanation, or elaboration after a complete independent clause.</text>
+
+    <!-- apostrophe -->
+    <rect x="40" y="222" width="560" height="58" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="60" y="247" font-family="ui-serif, Georgia, serif" font-size="26" font-weight="700" fill="#8B6F4E">&#8217;</text>
+    <text x="95" y="244" font-weight="600" fill="#1F1B16">Apostrophe</text>
+    <text x="95" y="262" fill="#4A443C">Shows possession, or marks a missing letter in a contraction.</text>
+  </g>
+</svg>

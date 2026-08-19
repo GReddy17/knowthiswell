@@ -22,26 +22,30 @@ jobs:
       - name: Lint content frontmatter (fails on missing YMYL sources)
         run: node scripts/lint-content.mjs
 
+      - name: Content health check (broken links, missing assets, taxonomy drift)
+        run: node scripts/health-check.mjs
+
       - name: Type check
         run: npx tsc --noEmit
 
       - name: Lint
         run: npm run lint
 
-      - name: Generate glossary term links
-        run: npm run link-terms
-
-      - name: Build (static export)
+      - name: Build
         run: npm run build
 
       - name: Verify sitemap, robots, and search index output
         run: |
-          test -f out/sitemap.xml || (echo "sitemap.xml missing from build output" && exit 1)
-          test -f out/robots.txt || (echo "robots.txt missing from build output" && exit 1)
-          test -d out/pagefind || (echo "Pagefind search index missing from build output" && exit 1)
+          test -f .next/server/app/sitemap.xml.body || (echo "sitemap.xml missing from build output" && exit 1)
+          test -f .next/server/app/robots.txt.body || (echo "robots.txt missing from build output" && exit 1)
+          test -f .next/server/app/api/search/metadata/route.js || (echo "search metadata API route missing from build output" && exit 1)
 
       # Preview deploys on PRs, production deploy on merge to main —
       # handled natively by Vercel's GitHub integration once the repo
       # is connected in the Vercel dashboard (Section 4.1). This job's
       # job is to fail the build loudly before Vercel ever sees a
       # broken commit, per Section 4.4: "Fail build + alert on error."
+      #
+      # NOTE: this is a hybrid Next.js app (middleware.ts + the
+      # /api/search/metadata route handler), not a static export — Vercel
+      # builds and serves it as Functions, not a static `out/` bundle.

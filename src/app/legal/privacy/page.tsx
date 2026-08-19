@@ -33,7 +33,7 @@ export default function PrivacyPage() {
         <strong>NOTE:</strong> this policy must be revisited the moment
         analytics, a contact form, a newsletter signup, or any other
         data-collecting feature is added — this text is only accurate
-        for the site's current, feature-free state.
+        for the site&apos;s current, feature-free state.
       </p>
     </div>
   );

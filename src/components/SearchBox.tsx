@@ -3,12 +3,6 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 
-declare global {
-  interface Window {
-    PagefindUI?: new (opts: { element: string; showImages?: boolean }) => void;
-  }
-}
-
 export function SearchBox() {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState('');

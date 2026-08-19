@@ -1,0 +1,64 @@
+<svg viewBox="0 0 760 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">A comparison of harvest festivals across both hemispheres, showing timing follows each region's own local harvest rather than one shared calendar date</title>
+  <rect width="760" height="320" fill="#FBF8F1"/>
+  <line x1="60" y1="260" x2="720" y2="260" stroke="#1F1B16" stroke-width="1.5"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <g font-size="10" fill="#8B6F4E">
+      <text x="70" y="276" text-anchor="middle">Jan</text>
+      <text x="125" y="276" text-anchor="middle">Feb</text>
+      <text x="180" y="276" text-anchor="middle">Mar</text>
+      <text x="235" y="276" text-anchor="middle">Apr</text>
+      <text x="290" y="276" text-anchor="middle">May</text>
+      <text x="345" y="276" text-anchor="middle">Jun</text>
+      <text x="400" y="276" text-anchor="middle">Jul</text>
+      <text x="455" y="276" text-anchor="middle">Aug</text>
+      <text x="510" y="276" text-anchor="middle">Sep</text>
+      <text x="565" y="276" text-anchor="middle">Oct</text>
+      <text x="620" y="276" text-anchor="middle">Nov</text>
+      <text x="675" y="276" text-anchor="middle">Dec</text>
+    </g>
+    <g stroke="#D8CFBB" stroke-width="1">
+      <line x1="70" y1="40" x2="70" y2="260"/>
+      <line x1="180" y1="40" x2="180" y2="260"/>
+      <line x1="290" y1="40" x2="290" y2="260"/>
+      <line x1="400" y1="40" x2="400" y2="260"/>
+      <line x1="510" y1="40" x2="510" y2="260"/>
+      <line x1="620" y1="40" x2="620" y2="260"/>
+    </g>
+
+    <!-- Pongal/Makar Sankranti: mid Jan -->
+    <circle cx="80" cy="80" r="7" fill="#B8860B"/>
+    <text x="80" y="62" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Pongal</text>
+    <text x="80" y="98" text-anchor="middle" font-size="9.5" fill="#4A443C">South India, mid-Jan</text>
+
+    <!-- Chuseok: Sept (lunar 8th month) -->
+    <circle cx="530" cy="120" r="7" fill="#C0392B"/>
+    <text x="530" y="102" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Chuseok</text>
+    <text x="530" y="138" text-anchor="middle" font-size="9.5" fill="#4A443C">Korea, autumn full moon</text>
+
+    <!-- Mid-Autumn Festival: Sept -->
+    <circle cx="560" cy="160" r="7" fill="#2E7D4F"/>
+    <text x="560" y="180" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Mid-Autumn Festival</text>
+    <text x="560" y="200" text-anchor="middle" font-size="9.5" fill="#4A443C">China, 8th lunar month</text>
+
+    <!-- Sukkot: Sept/Oct -->
+    <circle cx="580" cy="80" r="7" fill="#2E6E8E"/>
+    <text x="580" y="62" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Sukkot</text>
+    <text x="580" y="98" text-anchor="middle" font-size="9.5" fill="#4A443C">Jewish, 15 Tishrei</text>
+
+    <!-- Erntedankfest: early Oct -->
+    <circle cx="600" cy="200" r="7" fill="#7B4B94"/>
+    <text x="600" y="220" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Erntedankfest</text>
+    <text x="600" y="238" text-anchor="middle" font-size="9.5" fill="#4A443C">Germany, early Oct</text>
+
+    <!-- Thanksgiving Canada: mid Oct -->
+    <circle cx="595" cy="40" r="7" fill="#8B6F4E"/>
+    <text x="595" y="26" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1F1B16">Thanksgiving (Canada)</text>
+
+    <!-- Thanksgiving US: late Nov -->
+    <circle cx="655" cy="140" r="7" fill="#8B6F4E"/>
+    <text x="655" y="122" text-anchor="middle" font-size="11" font-weight="600" fill="#1F1B16">Thanksgiving (US)</text>
+    <text x="655" y="158" text-anchor="middle" font-size="9.5" fill="#4A443C">4th Thursday, Nov</text>
+  </g>
+</svg>

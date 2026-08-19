@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Four sentence types built from the same two clauses: simple, compound, complex, and compound-complex</title>
+  <rect width="640" height="320" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5">
+    <rect x="40" y="20" width="560" height="60" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="55" y="42" font-weight="600" fill="#1F1B16">Simple</text>
+    <text x="55" y="62" fill="#4A443C">The power went out.</text>
+    <text x="330" y="42" font-size="10.5" fill="#8B6F4E">one independent clause</text>
+
+    <rect x="40" y="88" width="560" height="60" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="55" y="110" font-weight="600" fill="#1F1B16">Compound</text>
+    <text x="55" y="130" fill="#4A443C">The power went out, <tspan font-weight="600">and</tspan> we lit candles.</text>
+    <text x="330" y="110" font-size="10.5" fill="#8B6F4E">two independent clauses + conjunction</text>
+
+    <rect x="40" y="156" width="560" height="60" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="55" y="178" font-weight="600" fill="#1F1B16">Complex</text>
+    <text x="55" y="198" fill="#4A443C"><tspan font-weight="600">When</tspan> the power went out, we lit candles.</text>
+    <text x="330" y="178" font-size="10.5" fill="#8B6F4E">one dependent + one independent clause</text>
+
+    <rect x="40" y="224" width="560" height="70" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="55" y="246" font-weight="600" fill="#1F1B16">Compound-complex</text>
+    <text x="55" y="266" fill="#4A443C"><tspan font-weight="600">When</tspan> the power went out, we lit candles,</text>
+    <text x="55" y="282" fill="#4A443C"><tspan font-weight="600">and</tspan> the room felt warmer.</text>
+    <text x="330" y="246" font-size="10.5" fill="#8B6F4E">dependent + two independent clauses</text>
+  </g>
+</svg>

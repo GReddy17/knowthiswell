@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">The visible light spectrum as a horizontal bar from violet at 380 nanometers to red at 700 nanometers, with wavelength values labeled</title>
+  <defs>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6b3fa0"/>
+      <stop offset="20%" stop-color="#3b5fd9"/>
+      <stop offset="40%" stop-color="#2fa5c9"/>
+      <stop offset="55%" stop-color="#3fae5c"/>
+      <stop offset="70%" stop-color="#d8c93a"/>
+      <stop offset="85%" stop-color="#e08a2e"/>
+      <stop offset="100%" stop-color="#c9412c"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="220" fill="#FBF8F1"/>
+  <rect x="60" y="70" width="520" height="60" rx="4" fill="url(#spectrum)"/>
+  <rect x="60" y="70" width="520" height="60" rx="4" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">
+    <line x1="60" y1="130" x2="60" y2="140" stroke="#1F1B16"/>
+    <text x="60" y="156" text-anchor="middle">380</text>
+    <line x1="164" y1="130" x2="164" y2="140" stroke="#1F1B16"/>
+    <text x="164" y="156" text-anchor="middle">450</text>
+    <line x1="268" y1="130" x2="268" y2="140" stroke="#1F1B16"/>
+    <text x="268" y="156" text-anchor="middle">495</text>
+    <line x1="372" y1="130" x2="372" y2="140" stroke="#1F1B16"/>
+    <text x="372" y="156" text-anchor="middle">570</text>
+    <line x1="476" y1="130" x2="476" y2="140" stroke="#1F1B16"/>
+    <text x="476" y="156" text-anchor="middle">590</text>
+    <line x1="580" y1="130" x2="580" y2="140" stroke="#1F1B16"/>
+    <text x="580" y="156" text-anchor="middle">700</text>
+    <text x="320" y="180" text-anchor="middle" font-size="13" fill="#8B6F4E">wavelength (nanometers)</text>
+  </g>
+  <g font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">
+    <text x="60" y="56">Violet</text>
+    <text x="580" y="56" text-anchor="end">Red</text>
+    <text x="320" y="30" text-anchor="middle" font-size="16">Visible light spectrum</text>
+  </g>
+</svg>

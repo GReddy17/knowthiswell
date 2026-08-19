@@ -18,8 +18,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "reading-time": "^1.5.0",
-    "sharp": "^0.33.5",
-    "zod": "^4.4.3"
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
@@ -33,7 +32,7 @@
     "typescript": "^5.6.0"
   },
   "version": "1.0.0",
-  "description": "Full site scaffold: root \u2192 routing \u2192 content \u2192 SEO \u2192 security \u2192 CI/CD. Built against the requirements doc's stack decision (Next.js App Router, static export, markdown-in-git, Vercel).",
+  "description": "Full site scaffold: root → routing → content → SEO → security → CI/CD. Built against the requirements doc's stack decision (Next.js App Router, static export, markdown-in-git, Vercel).",
   "main": "next.config.js",
   "keywords": [],
   "author": "",

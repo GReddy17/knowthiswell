@@ -31,7 +31,7 @@
   },
   "festivals-culture": {
     "label": "06. Festivals & Culture",
-    "description": " exploring global traditions, celebrations, and cultural norms.",
+    "description": "Exploring global traditions, celebrations, and cultural norms.",
     "phase": 1,
     "status": "active"
   },
@@ -51,7 +51,8 @@
     "label": "09. Health & Body Basics",
     "description": "Introduction to human anatomy and basic health maintenance.",
     "phase": 2,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "ymyl": true
   },
   "environment-nature": {
     "label": "10. Environment & Nature",
@@ -63,13 +64,15 @@
     "label": "11. Personal Finance Basics",
     "description": "The absolute fundamentals of budgeting, saving, and spending.",
     "phase": 3,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "ymyl": true
   },
   "legal-documentation-howtos": {
     "label": "12. Legal & Documentation How-Tos",
     "description": "How to handle essential paperwork and legal documentation.",
     "phase": 3,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "ymyl": true
   },
   "technology-basics": {
     "label": "13. Technology Basics",
@@ -93,7 +96,8 @@
     "label": "16. Health & Wellness Deep Dive",
     "description": "Advanced strategies for optimal physical and mental wellbeing.",
     "phase": 4,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "ymyl": true
   },
   "technology-deep-dives": {
     "label": "17. Technology Deep Dives",
@@ -123,13 +127,15 @@
     "label": "21. Investing & Markets Deep Dive",
     "description": "Advanced analysis of financial markets and investment vehicles.",
     "phase": 5,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "ymyl": true
   },
   "government-schemes-benefits": {
     "label": "22. Government Schemes & Benefits",
     "description": "Navigating the landscape of public benefits and subsidies.",
     "phase": 5,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "ymyl": true
   },
   "competitive-exam-prep": {
     "label": "23. Competitive Exam Prep",

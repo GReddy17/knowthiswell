@@ -1,0 +1,24 @@
+<svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Comparison timeline of the Maya, Aztec, and Inca civilizations showing the Maya's much longer span and the later, overlapping Aztec and Inca empires</title>
+  <rect width="680" height="260" fill="#FBF8F1"/>
+
+  <!-- Maya: long bar, ~2000 BCE to 1697 CE -->
+  <rect x="40" y="60" width="480" height="30" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="290" y="60" width="130" height="30" fill="#2C4A3E" opacity="0.25"/>
+  <text x="40" y="52" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Maya — c. 2000 BCE to 1697 CE</text>
+  <text x="355" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Classic period peak, 250–900 CE</text>
+
+  <!-- Aztec: short bar, later -->
+  <rect x="560" y="115" width="45" height="30" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="560" y="107" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Aztec — 1325–1521 CE</text>
+
+  <!-- Inca: short bar, later, slightly offset -->
+  <rect x="570" y="170" width="40" height="30" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="570" y="162" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Inca — 1400–1533 CE</text>
+
+  <line x1="40" y1="220" x2="640" y2="220" stroke="#1F1B16" stroke-width="1"/>
+  <text x="40" y="238" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B6F4E">c. 2000 BCE</text>
+  <text x="620" y="238" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B6F4E">1700 CE</text>
+
+  <text x="340" y="20" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="14" fill="#8B6F4E">A ~3,000-year gap separates the Maya's origins from the Aztec and Inca</text>
+</svg>
