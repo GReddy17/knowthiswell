@@ -30,9 +30,9 @@ export const metadata: PostFrontmatter = {
     "germ theory",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
-  excerpt: "How bacteria multiply by doubling, why most microbes aren't harmful, and what actually separates a bacterium from a virus.",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
+  excerpt: "How bacteria multiply by doubling, why most microbes aren't harmful, what separates a bacterium from a virus, and where fungi, protozoa, algae, and archaea fit in.",
   summary: "Microorganisms are living things too small to see without a microscope, and the vast majority — including most bacteria in and on your body — are harmless or actively beneficial, not disease-causing.",
   sources: [
     { label: "NIH National Institute of Allergy and Infectious Diseases — Microbes", url: "https://www.niaid.nih.gov/research/microbes" },
@@ -53,6 +53,9 @@ export const metadata: PostFrontmatter = {
     { term: "Doubling time", definition: "The time it takes a growing bacterial population to double in size; under ideal lab conditions, some bacteria like E. coli can double in as little as 20 minutes." },
     { term: "Microbiome", definition: "The full community of microorganisms living in and on a particular environment, such as the human gut microbiome, which includes trillions of mostly beneficial bacteria." },
     { term: "Germ theory", definition: "The scientific principle, established in the 19th century, that many diseases are caused by specific microorganisms — a foundational concept in modern medicine and public health." },
+    { term: "Protozoan", definition: "A single-celled microorganism with a nucleus (unlike bacteria) that typically behaves like a microscopic animal — moving and consuming food particles or other microbes. Amoebas and the malaria parasite Plasmodium are protozoans." },
+    { term: "Microscopic fungus", definition: "A fungal microorganism such as yeast or mold — distinct from bacteria in having a nucleus and a different cell wall structure; some are decomposers, some cause infections, and some (like brewer's yeast) are put to direct human use." },
+    { term: "Archaea", definition: "A domain of single-celled microorganisms that superficially resemble bacteria but are genetically and biochemically distinct — many are extremophiles, thriving in conditions lethal to most life, like deep-sea hydrothermal vents or highly acidic hot springs." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -94,6 +97,20 @@ export default function Post() {
           { text: "About 12 cells, since 6 doublings of 1 cell adds up to roughly 6 times 2", correct: false, explanation: "This treats doubling as simple addition, but doubling is multiplicative and compounds — 6 doublings means multiplying by 2 six times in a row, not adding 2 six times." },
           { text: "About 64 cells, since doubling six times means multiplying by 2 a total of six times (2⁶ = 64)", correct: true, explanation: "Correct. Exponential growth compounds: 1 → 2 → 4 → 8 → 16 → 32 → 64 after six doublings. This is why bacterial cultures can go from barely detectable to enormous populations within just a few hours." },
           { text: "About 720 cells, treating each doubling period like compound interest at a high percentage rate", correct: false, explanation: "This overcomplicates simple doubling — each period exactly multiplies the population by 2, no more, no less. Six doublings of 1 cell is precisely 2⁶ = 64, not a larger compounded figure." },
+        ]}
+      />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Beyond bacteria and viruses: the rest of the microbial world</h2>
+      <div className="prose-p">
+      Bacteria and viruses get most of the attention, but &quot;microorganism&quot; is a wider category with at least three other genuinely distinct groups. <TermLink href="/general-science-facts/microorganisms">Protozoans</TermLink> are single-celled but, unlike bacteria, have a nucleus and often behave like microscopic animals — an amoeba actively hunts and engulfs food particles, and <em>Plasmodium</em>, the parasite that causes malaria, is a protozoan that spends part of its life cycle inside a mosquito and part inside a human bloodstream. <TermLink href="/general-science-facts/microorganisms">Microscopic fungi</TermLink> — yeasts and molds — also have a nucleus, but get energy by absorbing nutrients from their surroundings rather than hunting: brewer&apos;s and baker&apos;s yeast (<em>Saccharomyces cerevisiae</em>) is a single-celled fungus that ferments sugar into carbon dioxide and alcohol, which is simultaneously why bread rises and why beer contains alcohol; other fungi, like the mold that causes athlete&apos;s foot, cause infection instead. Algae, many of which are single-celled, are photosynthetic like plants — microscopic marine algae called phytoplankton are the base of essentially every ocean food chain and are estimated to produce roughly half of the oxygen in Earth&apos;s atmosphere. <TermLink href="/general-science-facts/microorganisms">Archaea</TermLink> look superficially like bacteria under a microscope but are genetically distinct enough to be classified in their own separate domain of life; many are extremophiles, surviving in conditions that would kill nearly everything else, including boiling deep-sea hydrothermal vents and highly acidic hot springs.
+      </div>
+
+      <QuickCheck
+        question="Baker's yeast (used to make bread rise) and the mold that can grow on old bread are both classified in the same broad microbial group. Which group, and what sets it apart from bacteria?"
+        options={[
+          { text: "Fungi — unlike bacteria, fungal microorganisms have a nucleus and typically get energy by absorbing nutrients from their surroundings rather than through bacteria's simpler cell structure", correct: true, explanation: "Correct. Yeast and mold are both microscopic fungi. Having a true nucleus (which bacteria lack) and a distinct cell wall structure are core differences from bacteria, even though both are single-celled and microscopic." },
+          { text: "Bacteria — yeast is simply a specific strain of bacteria used in baking", correct: false, explanation: "Yeast is a fungus, not a bacterium. Fungal cells have a nucleus and different cell wall chemistry than bacterial cells, placing them in an entirely separate biological category." },
+          { text: "Viruses — both reproduce only by hijacking a host cell's machinery", correct: false, explanation: "Yeast and mold are living, independently reproducing fungal cells — neither needs to hijack a host cell to reproduce, unlike a virus." },
         ]}
       />
 
@@ -187,6 +204,9 @@ export default function Post() {
           { question: "How fast do bacteria multiply?", answer: "It varies by species and conditions, but under ideal lab conditions, some bacteria like E. coli can double their population roughly every 20 minutes through binary fission — exponential growth that can turn a small population into billions of cells within hours." },
           { question: "Why don't antibiotics work on viruses?", answer: "Antibiotics work by targeting structures specific to bacterial cells, such as bacterial cell walls or protein-making machinery. Viruses lack these structures entirely, since they aren't cells, which is why antibiotics have no effect on viral infections like colds or flu." },
           { question: "What is the human microbiome?", answer: "The full community of microorganisms, mostly bacteria, living in and on the human body — heavily concentrated in the gut. Estimates suggest the body hosts roughly as many bacterial cells as human cells, the large majority harmless or beneficial." },
+          { question: "Is yeast a bacteria?", answer: "No. Yeast is a single-celled fungus — it has a nucleus and a different cell wall structure than bacteria, which places it in an entirely separate biological category despite both being microscopic and single-celled." },
+          { question: "What is the difference between bacteria and protozoa?", answer: "Bacteria have no nucleus and are generally simpler in structure. Protozoans (like amoebas) have a nucleus and often behave more like microscopic animals, actively moving and consuming food particles or other microbes." },
+          { question: "What are archaea?", answer: "A separate domain of single-celled microorganisms that look similar to bacteria under a microscope but are genetically and biochemically distinct. Many archaea are extremophiles, surviving in conditions — like boiling hydrothermal vents or highly acidic hot springs — that would kill most other life." },
         ]}
       />
 

@@ -31,8 +31,8 @@ export const metadata: PostFrontmatter = {
     "biology basics",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
   excerpt: "How the body's roughly 11 major organ systems — circulatory, respiratory, nervous, and more — divide labor and depend on each other to keep you alive.",
   summary: "The human body is organized into about 11 major organ systems, each handling a distinct job, that constantly exchange oxygen, nutrients, and signals to keep the whole body functioning.",
   sources: [
@@ -40,6 +40,8 @@ export const metadata: PostFrontmatter = {
     { label: "CDC — Target Heart Rate and Estimated Maximum Heart Rate", url: "https://www.cdc.gov/physical-activity-basics/target-heart-rate/index.html" },
     { label: "Encyclopaedia Britannica — Human Body", url: "https://www.britannica.com/science/human-body" },
     { label: "NIH National Heart, Lung, and Blood Institute — How the Heart Works", url: "https://www.nhlbi.nih.gov/health/heart" },
+    { label: "NIH National Institute of Diabetes and Digestive and Kidney Diseases — Your Digestive System", url: "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works" },
+    { label: "NIH National Institute of Diabetes and Digestive and Kidney Diseases — The Kidneys and How They Work", url: "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work" },
   ],
   seeAlso: [
     "general-science-facts/cells-and-genetics-basics",
@@ -53,6 +55,9 @@ export const metadata: PostFrontmatter = {
     { term: "Negative feedback loop", definition: "A control mechanism where a change triggers a response that pushes the condition back toward its normal set point, the way a thermostat reacts to temperature." },
     { term: "Circulatory system", definition: "The heart, blood vessels, and blood that transport oxygen, nutrients, hormones, and waste throughout the body." },
     { term: "Target heart rate", definition: "A recommended heart-rate range during exercise, usually estimated as a percentage of an age-based maximum heart rate." },
+    { term: "Hormone", definition: "A chemical messenger released by an endocrine gland directly into the bloodstream, which travels to distant target cells and changes how they behave." },
+    { term: "Nephron", definition: "The microscopic filtering unit inside a kidney — about a million per kidney — that removes waste and excess fluid from blood to form urine." },
+    { term: "Lymph node", definition: "A small, bean-shaped structure in the lymphatic system that filters lymph fluid and traps pathogens for white blood cells to attack." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -84,8 +89,22 @@ export default function Post() {
       />
       <FootnoteAside>An average adult heart beats roughly 60-100 times per minute at rest, which adds up to about 100,000 beats a day and, over an average lifetime, well over 2.5 billion beats — all without the muscle ever being consciously commanded, since heart muscle generates its own electrical signal.</FootnoteAside>
 
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">The 11 systems, one by one</h3>
+      <div className="prose-p">
+      <strong>Skeletal system</strong> — an adult has 206 bones, forming a rigid framework that supports the body's weight, protects vital organs (the skull around the brain, the ribcage around the heart and lungs), and does two jobs most people don&apos;t associate with bone at all: it stores about 99% of the body&apos;s calcium as a mineral reserve, and the soft marrow inside certain bones manufactures red blood cells, white blood cells, and platelets. <strong>Muscular system</strong> — roughly 600 skeletal muscles move the body by contracting: microscopic protein filaments (actin and myosin) inside each muscle fiber slide past each other and shorten the fiber, pulling on tendons that are anchored to bone. Skeletal muscle is voluntary; smooth muscle (lining the gut and blood vessels) and cardiac muscle (the heart) work involuntarily, without conscious control.
+      </div>
+      <div className="prose-p">
+      <strong>Digestive system</strong> — food is broken down in stages: chewing and saliva start mechanical and chemical breakdown in the mouth, the stomach's acid and enzymes liquefy it further, and the small intestine (about 6 meters long) does most nutrient absorption into the bloodstream, aided by enzymes from the pancreas and bile from the liver and gallbladder. The large intestine absorbs remaining water and compacts waste. <strong>Endocrine system</strong> — glands including the pituitary, thyroid, adrenal glands, and pancreas release <TermLink href="/general-science-facts/human-body-systems">hormones</TermLink> straight into the bloodstream as chemical instructions: the thyroid's hormones set the body's baseline metabolic rate, the adrenal glands release adrenaline and cortisol during a stress response, and the pancreas releases insulin and glucagon to keep blood sugar within range — the same negative-feedback pattern described above, running on a different signal (hormones instead of nerve impulses).
+      </div>
+      <div className="prose-p">
+      <strong>Immune and lymphatic system</strong> — white blood cells patrol the bloodstream and tissues, identifying and destroying pathogens, while a separate network of lymphatic vessels drains excess fluid from tissues and routes it through <TermLink href="/general-science-facts/human-body-systems">lymph nodes</TermLink>, where white blood cells concentrate to filter out and attack anything foreign before the fluid rejoins the bloodstream — the swollen "glands" people feel in their neck during an infection are lymph nodes working overtime. <strong>Urinary system</strong> — the two kidneys filter the body's entire blood supply roughly 40 times a day through microscopic units called <TermLink href="/general-science-facts/human-body-systems">nephrons</TermLink>, pulling out waste products like urea and rebalancing water and salt levels; the filtered waste leaves as urine, carried by the ureters to the bladder for storage and eventual release.
+      </div>
+      <div className="prose-p">
+      <strong>Reproductive system</strong> — produces the reproductive cells (sperm or eggs) and, in the female body, supports gestation; its organs are also a source of several of the body's sex hormones, tying it into the endocrine system's signaling network. <strong>Integumentary system</strong> — the skin, hair, and nails, and technically the body's largest organ by surface area, forms a physical barrier against pathogens and injury, helps regulate temperature (via sweat glands and blood vessel dilation, as in the fever example below), synthesizes vitamin D on sun exposure, and carries the touch, pressure, and temperature receptors that feed the nervous system. Between them, these 11 systems cover every major function the body performs — no system's job overlaps completely with another's, which is exactly why losing even one (kidney failure, for example) can't simply be compensated for by the others.
+      </div>
+
       <p>
-      Seeing the systems listed out is one thing; watching them actually depend on each other in real time is where the concept becomes concrete — and heart rate is one of the easiest places to observe that dependency directly.
+      Naming what each system does is one thing; watching them actually depend on each other in real time is where the concept becomes concrete — and heart rate is one of the easiest places to observe that dependency directly.
       </p>
 
       <QuickCheck

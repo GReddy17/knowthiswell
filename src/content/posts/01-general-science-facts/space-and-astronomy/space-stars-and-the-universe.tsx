@@ -31,8 +31,8 @@ export const metadata: PostFrontmatter = {
     "astronomy",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
   excerpt: "What a light-year actually measures, how big the Milky Way and the observable universe are, and why looking at distant stars means looking back in time.",
   summary: "Stars are massive spheres of plasma powered by nuclear fusion, grouped into galaxies containing billions of them, all within a roughly 13.8-billion-year-old universe so vast that distance is measured in light-years, not kilometers.",
   sources: [
@@ -57,6 +57,11 @@ export const metadata: PostFrontmatter = {
     { term: "Supernova", definition: "The explosive death of a massive star, briefly outshining an entire galaxy and scattering heavy elements into space." },
     { term: "Black hole", definition: "A region of space where gravity is so strong that nothing, not even light, can escape once past its event horizon." },
     { term: "Observable universe", definition: "The portion of the universe close enough that its light has had time to reach us since the Big Bang — roughly 93 billion light-years in diameter." },
+    { term: "Big Bang", definition: "The rapid expansion of an extremely hot, dense state that the entire observable universe expanded from roughly 13.8 billion years ago — the starting point of cosmic expansion, not an explosion happening at one point inside a pre-existing empty space." },
+    { term: "Cosmic microwave background (CMB)", definition: "Faint microwave radiation that fills all of space, left over from about 380,000 years after the Big Bang when the universe first cooled enough for light to travel freely — its precise pattern is one of the strongest pieces of evidence for the Big Bang." },
+    { term: "Redshift", definition: "The stretching of light toward longer, redder wavelengths as its source moves away from an observer; galaxies show more redshift the farther away they are, which is how astronomers know the universe is expanding." },
+    { term: "Spiral galaxy", definition: "A galaxy with a flat, rotating disk and curving arms of stars and gas winding out from a dense central bulge — the Milky Way and Andromeda are both spiral galaxies." },
+    { term: "Elliptical galaxy", definition: "A galaxy with a smooth, rounded shape and little of the gas needed for new star formation, typically made up of older stars — thought to often form when spiral galaxies collide and merge." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -126,6 +131,24 @@ export default function Post() {
       <p>
       The Andromeda Galaxy, the nearest large spiral galaxy to the Milky Way, sits about 2.5 million light-years away. Any light reaching a telescope on Earth tonight from Andromeda left that galaxy roughly 2.5 million years ago — around the time early human ancestors were first using stone tools on Earth. Astronomers use this literally, not just poetically: to study how galaxies looked in the early universe, they simply look at galaxies far enough away that their light has taken billions of years to arrive, which is one reason powerful telescopes are built to see extremely faint, extremely distant objects — the fainter and farther, the further back in cosmic history they&apos;re revealing.
       </p>
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How we know the universe is 13.8 billion years old</h2>
+      <div className="prose-p">
+      The <TermLink href="/general-science-facts/space-stars-and-the-universe">Big Bang</TermLink> wasn&apos;t an explosion that happened at one point inside a pre-existing empty space — it was the moment roughly 13.8 billion years ago when the entire observable universe began expanding from an extremely hot, dense state, and it has kept expanding ever since. Two independent lines of evidence pin down that age. First, in the 1920s Edwin Hubble found that nearly every galaxy&apos;s light is <TermLink href="/general-science-facts/space-stars-and-the-universe">redshift</TermLink>ed — stretched toward longer, redder wavelengths the same way a passing ambulance siren drops in pitch as it moves away — and that the farther away a galaxy is, the more its light is redshifted. That pattern only makes sense if space itself is expanding and carrying galaxies apart, and running that expansion backward points to a single starting moment. Second, in 1965 scientists detected the <TermLink href="/general-science-facts/space-stars-and-the-universe">cosmic microwave background</TermLink> — faint microwave radiation filling all of space, left over from about 380,000 years after the Big Bang when the universe first cooled enough for light to travel freely instead of being scattered by hot, dense plasma. Its precise temperature pattern, mapped in extraordinary detail by later space telescopes, matches Big Bang models so closely that it&apos;s treated as close to direct confirmation, not just supporting evidence.
+      </div>
+
+      <QuickCheck
+        question="Astronomers say almost every distant galaxy shows redshift — its light stretched toward longer wavelengths — and that more distant galaxies show more redshift. What does this pattern indicate?"
+        options={[
+          { text: "Those galaxies are physically colored red", correct: false, explanation: "Redshift isn't about a galaxy's actual visible color — it's a stretching of light's wavelength caused by motion, detectable through spectroscopy regardless of what color the galaxy looks like to the eye." },
+          { text: "Space itself is expanding, carrying galaxies apart from each other, with more distant galaxies retreating faster — evidence that traces back to a single expansion starting point, the Big Bang", correct: true, explanation: "Correct. This distance-redshift relationship, first identified by Edwin Hubble, is one of the two major pillars of evidence (along with the cosmic microwave background) for an expanding universe that began from a hot, dense state." },
+          { text: "Those galaxies are on fire, which shifts their light toward red", correct: false, explanation: "Redshift has nothing to do with combustion or heat sources within a galaxy — it's a wavelength-stretching effect caused by the relative motion of the light's source away from the observer." },
+        ]}
+      />
+
+      <div className="prose-p">
+      Galaxies themselves come in a few broad shapes. Both the Milky Way and Andromeda are <TermLink href="/general-science-facts/space-stars-and-the-universe">spiral galaxies</TermLink> — flat, rotating disks with curving arms of young, actively star-forming regions winding out from a dense central bulge. <TermLink href="/general-science-facts/space-stars-and-the-universe">Elliptical galaxies</TermLink>, by contrast, are smoother and more rounded, made up mostly of older stars with little of the gas needed to form new ones — many are thought to form when two spiral galaxies collide and merge, which is itself the Milky Way and Andromeda&apos;s own long-term future: the two galaxies are approaching each other and are predicted to collide and merge in roughly 4-5 billion years, likely producing a single elliptical galaxy.
+      </div>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
       <DiagramBlock

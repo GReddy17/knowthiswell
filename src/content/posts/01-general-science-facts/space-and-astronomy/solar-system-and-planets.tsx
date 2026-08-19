@@ -31,8 +31,8 @@ export const metadata: PostFrontmatter = {
     "terrestrial planets",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
   excerpt: "The 8 planets in order, why the inner four are rocky and the outer four are gas or ice giants, and how to calculate weight on another planet.",
   summary: "The solar system is the Sun plus everything gravitationally bound to it — 8 planets, their moons, dwarf planets, asteroids, and comets — with the Sun alone holding about 99.8% of the total mass.",
   sources: [
@@ -57,6 +57,10 @@ export const metadata: PostFrontmatter = {
     { term: "Surface gravity", definition: "The gravitational acceleration experienced at a planet's surface (or, for gas giants, at a defined reference altitude), often expressed relative to Earth's." },
     { term: "Dwarf planet", definition: "A body that orbits the Sun and is round from its own gravity but has not cleared other objects from its orbital path — Pluto is the best-known example." },
     { term: "Asteroid belt", definition: "A region between Mars and Jupiter, roughly 2.2 to 3.2 AU from the Sun, containing millions of rocky bodies left over from the solar system's formation." },
+    { term: "Runaway greenhouse effect", definition: "A self-reinforcing warming process where a thick atmosphere traps so much heat that surface temperature climbs far beyond what distance from the Sun alone would predict — the reason Venus, not Mercury, is the solar system's hottest planet." },
+    { term: "Retrograde rotation", definition: "Spinning in the opposite direction to most other bodies in the solar system (east to west instead of west to east) — Venus and Uranus both do this, likely from ancient collisions." },
+    { term: "Axial tilt", definition: "The angle between a planet's spin axis and its orbital plane; Earth's 23.4° tilt drives our seasons, while Uranus's extreme 98° tilt means it essentially orbits on its side." },
+    { term: "Galilean moons", definition: "Jupiter's four largest moons — Io, Europa, Ganymede, and Callisto — first observed by Galileo in 1610, the earliest evidence that not everything in the sky orbits Earth." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -146,6 +150,40 @@ export default function Post() {
       <p>
       Notice the jump in scale between Mars and Jupiter — that gap is the asteroid belt, and it also marks roughly where the &quot;frost line&quot; sat during the solar system&apos;s formation. Everything to the left of that gap is small and rocky; everything to the right is large and gas- or ice-dominated. The distances aren&apos;t evenly spaced either: each planet sits roughly (though not exactly) further from the Sun than a simple multiple of the one before it, which is part of why outer planets have such dramatically longer years.
       </p>
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The eight planets, one by one</h2>
+      <p>
+      Category and formation physics explain the general pattern, but each planet also has its own specific, well-documented quirks — the kind of facts that actually distinguish &quot;Saturn&quot; from &quot;a gas giant&quot; in general.
+      </p>
+      <div className="prose-p">
+      <strong>Mercury</strong> is the smallest planet and the fastest orbiter (an 88-day year), but its most extreme trait is temperature swing: with almost no atmosphere to trap or spread heat, its sunlit side reaches roughly 430°C while the night side drops to about -180°C — a wider single-planet temperature range than anywhere else in the solar system.
+      </div>
+      <div className="prose-p">
+      <strong>Venus</strong>, not Mercury, is the solar system&apos;s hottest planet — surface temperature averages around 465°C, hot enough to melt lead — because its thick carbon dioxide atmosphere traps heat through a <TermLink href="/general-science-facts/solar-system-and-planets">runaway greenhouse effect</TermLink> far more powerful than distance from the Sun alone would produce. Venus also spins backward in <TermLink href="/general-science-facts/solar-system-and-planets">retrograde rotation</TermLink>, and does so so slowly that a single Venusian day (243 Earth days) is longer than its entire year (225 Earth days).
+      </div>
+      <div className="prose-p">
+      <strong>Earth</strong> is the only known planet with stable liquid water on its surface and the only one confirmed to host life, both of which trace back to sitting inside the Sun&apos;s &quot;habitable zone&quot; and having a molten iron core that generates a protective magnetic field, deflecting most solar wind that would otherwise strip away the atmosphere over time (the likely fate of Mars, which lost its own magnetic field billions of years ago).
+      </div>
+      <div className="prose-p">
+      <strong>Mars</strong> gets its red color from iron oxide — literally rust — coating its dusty surface. It carries polar ice caps of frozen water and carbon dioxide, hosts the largest known volcano in the solar system (Olympus Mons, roughly 2.5 times the height of Mount Everest), and shows dry riverbeds and mineral deposits that only form in flowing water — strong evidence Mars once had a thicker atmosphere and liquid water on its surface, before losing both.
+      </div>
+      <div className="prose-p">
+      <strong>Jupiter</strong>, the largest planet, is dominated by the <TermLink href="/general-science-facts/solar-system-and-planets">Great Red Spot</TermLink> — a storm wider than Earth that has been observed continuously for at least 190 years. Jupiter&apos;s powerful magnetic field and more than 90 known moons include the four <TermLink href="/general-science-facts/solar-system-and-planets">Galilean moons</TermLink> (Io, Europa, Ganymede, Callisto), one of which, Europa, is considered a leading candidate for a subsurface liquid-water ocean elsewhere in the solar system.
+      </div>
+      <div className="prose-p">
+      <strong>Saturn</strong> is best known for its ring system — billions of ice and rock particles, most no bigger than a house, spread into a disk so thin relative to its width that it would be nearly invisible edge-on. Saturn is also the only planet in the solar system less dense than water (about 0.687 g/cm³): a Saturn-sized bathtub could, in principle, float it.
+      </div>
+      <div className="prose-p">
+      <strong>Uranus</strong> has an <TermLink href="/general-science-facts/solar-system-and-planets">axial tilt</TermLink> of roughly 98°, meaning it essentially orbits the Sun on its side, likely the result of a massive ancient collision — this produces extreme, decades-long seasons where one pole faces the Sun continuously while the other sits in darkness. Its pale blue-green color comes from methane in its atmosphere absorbing red light and reflecting blue-green back.
+      </div>
+      <div className="prose-p">
+      <strong>Neptune</strong>, the outermost planet, has the strongest sustained winds ever measured in the solar system — gusts recorded up to roughly 2,100 km/h. It&apos;s also the only planet discovered through mathematics before anyone saw it: 19th-century astronomers noticed Uranus&apos;s orbit had unexplained irregularities, calculated where an unseen planet&apos;s gravity would have to be to cause them, and pointed a telescope at that exact predicted spot in 1846 — Neptune was there.
+      </div>
+
+      <MisconceptionCallout
+        myth="Mercury must be the hottest planet, since it's closest to the Sun."
+        reality={<p>Venus is hotter — averaging around 465°C versus Mercury&apos;s daytime peak of about 430°C — despite orbiting nearly twice as far from the Sun. Mercury has almost no atmosphere to trap heat, so its dayside gets scorching but its nightside plunges to about -180°C. Venus&apos;s thick carbon dioxide atmosphere traps heat so effectively through a runaway greenhouse effect that its surface stays blazing hot around the clock, on both the day and night side, with barely any temperature swing at all.</p>}
+      />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
       <MistakeList

@@ -82,6 +82,7 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
     return a;
   },
   ohmsLawCurrent: (v) => v.voltage / v.resistance, // I = V / R
+  electricalPower: (v) => v.voltage * v.current, // P = V * I
   simplifyFractionNumerator: (v) => {
     let a = Math.floor(Math.abs(v.num));
     let b = Math.floor(Math.abs(v.denom));
@@ -92,6 +93,9 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
   riverDailyDischarge: (v) => v.dischargeCubicMPerSec * 86400, // seconds per day
   atomicMassNumber: (v) => v.protons + v.neutrons,
   leverMechanicalAdvantage: (v) => v.effortArmLength / v.loadArmLength,
+  wheelAndAxleMechanicalAdvantage: (v) => v.wheelRadius / v.axleRadius,
+  wedgeMechanicalAdvantage: (v) => v.wedgeLength / v.wedgeThickness,
+  screwMechanicalAdvantage: (v) => (2 * Math.PI * v.handleRadius) / v.threadPitch,
   densityFromMassVolume: (v) => v.massGrams / v.volumeCm3,
   buoyantForce: (v) => v.fluidDensityKgM3 * 9.8 * v.volumeM3, // F = rho * g * V (Archimedes)
   pressureFromForceArea: (v) => v.forceNewtons / v.areaM2, // P = F / A

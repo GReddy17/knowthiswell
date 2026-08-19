@@ -1,6 +1,6 @@
 # KnowThisTopic — Site Rules & Objectives
 
-_Last updated: 2026-08-16_
+_Last updated: 2026-08-19_
 
 This file is the standing reference for how KnowThisTopic content should be created, reviewed, and expanded. Any AI assistant (Claude, Claude Code, NotebookLM prep) or human contributor working on this site should follow these rules by default, without needing to be reminded per task.
 
@@ -83,31 +83,31 @@ Topics are organized into 5 phases based on search volume, competition, and cont
 8. General Awareness & Current Affairs Basics
 9. Health & Body Basics
 10. Environment & Nature
-11. Digital Safety & Privacy
-12. Life Skills & Etiquette
 
 ### Phase 3 — Adult Practical Life Skills
-13. Personal Finance Basics
-14. Legal & Documentation How-Tos
-15. Technology Basics
-16. Career & Study Skills
-17. Home & DIY Knowledge
+11. Personal Finance Basics
+12. Legal & Documentation How-Tos
+13. Technology Basics
+14. Career & Study Skills
+15. Home & DIY Knowledge
 
 ### Phase 4 — Higher-competition, high-value (build once domain authority is established)
-18. Health & Wellness Deep Dive
-19. Technology Deep Dives
-20. Business & Entrepreneurship Basics
-21. Travel & Local Guides
-22. Trivia & Fun Facts
+16. Health & Wellness Deep Dive
+17. Technology Deep Dives
+18. Business & Entrepreneurship Basics
+19. Travel & Local Guides
+20. Trivia & Fun Facts
 
 ### Phase 5 — Advanced, Niche & Monetization-Focused (long-term)
-23. Investing & Markets Deep Dive
-24. Government Schemes & Benefits
-25. Competitive Exam Prep
-26. Professional Skills & Certifications
-27. AI & Future Tech Literacy
+21. Investing & Markets Deep Dive
+22. Government Schemes & Benefits
+23. Competitive Exam Prep
+24. Professional Skills & Certifications
+25. AI & Future Tech Literacy
+26. Digital Safety & Privacy
+27. Life Skills & Etiquette
 
-**Sequencing note:** Phase 1–2 come first because they mirror the core reference-content spirit — dense, factual, low risk of being "wrong" in a costly way, and evergreen search demand. Phase 3 follows once a content pipeline and initial domain authority exist. Phase 4 is deprioritized due to higher competition or liability (health, business). Phase 5 topics (#23 Investing, #24 Schemes) require ongoing maintenance since policy/market content changes over time — `lastReviewed` discipline matters most here. #25 (Competitive Exam Prep) and #27 (AI & Future Tech Literacy) can be pulled forward earlier than the rest of Phase 5 if quick wins are wanted — #25 pairs naturally with QuizQuery for content/traffic sharing, and #27 currently has unusually low competition relative to its search volume.
+**Sequencing note:** Phase 1–2 come first because they mirror the core reference-content spirit — dense, factual, low risk of being "wrong" in a costly way, and evergreen search demand. Phase 3 follows once a content pipeline and initial domain authority exist. Phase 4 is deprioritized due to higher competition or liability (health, business). Phase 5 topics (#21 Investing, #22 Schemes) require ongoing maintenance since policy/market content changes over time — `lastReviewed` discipline matters most here. #23 (Competitive Exam Prep) and #25 (AI & Future Tech Literacy) can be pulled forward earlier than the rest of Phase 5 if quick wins are wanted — #23 pairs naturally with QuizQuery for content/traffic sharing, and #25 currently has unusually low competition relative to its search volume. #26 (Digital Safety & Privacy) and #27 (Life Skills & Etiquette) read like natural Phase 2 candidates by subject matter, but are numbered/phased here to match `content/taxonomy.json` — the live site's actual source of truth for phase and ordering. If you want them pulled forward, update `taxonomy.json` first and this file second, in that order, so they never drift apart again.
 
 ## 9. What NOT to do
 

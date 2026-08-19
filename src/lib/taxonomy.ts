@@ -8,6 +8,7 @@ interface TaxonomyEntry {
   description?: string;
   phase?: number;
   status?: 'active' | 'coming-soon';
+  comingSoonPreview?: string[];
 }
 
 interface TaxonomyRegistry {
@@ -50,6 +51,14 @@ export function getCategoryStatus(category: string): 'active' | 'coming-soon' | 
 export function getCategoryPhase(category: string): number | undefined {
   const registry = loadRegistry();
   return registry[category]?.phase;
+}
+
+/** Short list of what's planned for a not-yet-written category, shown on
+ *  its empty-state hub page instead of a generic "coming soon" message.
+ *  Only populated for near-term (Phase 2-3) categories today. */
+export function getCategoryComingSoonPreview(category: string): string[] | undefined {
+  const registry = loadRegistry();
+  return registry[category]?.comingSoonPreview;
 }
 
 export function getAllTaxonomy() {

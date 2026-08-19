@@ -30,9 +30,9 @@ export const metadata: PostFrontmatter = {
     "chemistry basics",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
-  excerpt: "The difference between a mixture and a solution, why salt disappears in water but sand doesn't, and how filtration and distillation separate them again.",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
+  excerpt: "The difference between a mixture and a solution, why salt disappears in water but sand doesn't, and how filtration, evaporation, distillation, and chromatography separate them again.",
   summary: "A mixture combines two or more substances physically, without a chemical reaction — a solution is a special case where the mixture becomes completely uniform, and separation techniques exploit differences in physical properties to pull the parts back apart.",
   sources: [
     { label: "Royal Society of Chemistry — Mixtures and Solutions resources", url: "https://edu.rsc.org/resources" },
@@ -53,6 +53,7 @@ export const metadata: PostFrontmatter = {
     { term: "Solubility", definition: "The maximum amount of a solute that can dissolve in a given amount of solvent at a given temperature." },
     { term: "Saturated solution", definition: "A solution holding the maximum amount of dissolved solute possible at its current temperature — any more added will not dissolve." },
     { term: "Suspension", definition: "A heterogeneous mixture where particles are large enough to eventually settle out or be filtered, unlike a true solution." },
+    { term: "Evaporation", definition: "A separation technique that lets a solvent escape as vapor into the air, leaving a dissolved solid behind as residue — unlike distillation, the escaping vapor isn't collected." },
     { term: "Distillation", definition: "A separation technique that heats a mixture to evaporate one component and then cools and collects the vapor as a separated liquid." },
     { term: "Filtration", definition: "A separation technique that passes a mixture through a barrier with small openings, trapping solid particles while liquid or gas passes through." },
     { term: "Chromatography", definition: "A separation technique that spreads a mixture across a material, letting components separate based on how strongly each one is attracted to that material." },
@@ -135,6 +136,12 @@ export default function Post() {
       />
       <p>
       Pick the wrong tool and separation simply fails — filtration can&apos;t separate dissolved salt from water because the salt ions are far too small to be caught by any filter paper, and plain evaporation can&apos;t separate two liquids that both boil away together. Matching the technique to the actual physical property that differs between the components is the entire logic of separation chemistry.
+      </p>
+      <p>
+      <TermLink href="/general-science-facts/mixtures-solutions-and-separation">Evaporation</TermLink> is distillation&apos;s simpler cousin: instead of collecting the vapor, you just let it escape and keep the solid residue that&apos;s left behind. Salt farmers use exactly this — seawater is channeled into shallow ponds and left in the sun until the water evaporates away, leaving crystallized salt behind to be harvested. It only works when you want the dissolved solid, not the liquid that boiled off; if you needed drinkable water instead, you&apos;d have to switch to distillation to capture the vapor.
+      </p>
+      <p>
+      <TermLink href="/general-science-facts/mixtures-solutions-and-separation">Chromatography</TermLink> separates components that are all dissolved together and don&apos;t differ in boiling point at all — it relies on a third property instead: how strongly each component clings to a fixed material versus how readily it travels with a moving liquid. A classic classroom version: dot a small blob of black felt-tip ink near the bottom of a strip of filter paper, then stand the strip upright with just its tip touching water. As the water climbs up the paper by capillary action, it drags the ink&apos;s dissolved dyes along with it — but not all at the same speed. Dyes that cling more weakly to the paper fibers travel farther and faster, while dyes that cling more strongly lag behind, so the single black dot fans out into separate bands of blue, red, and yellow. The same principle, scaled up, is what forensic labs use to identify unknown chemical samples and what quality-control labs use to check that a drug or food product doesn&apos;t contain unexpected contaminants.
       </p>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>

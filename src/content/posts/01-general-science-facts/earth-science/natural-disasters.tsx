@@ -30,14 +30,15 @@ export const metadata: PostFrontmatter = {
     "earth science",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
-  excerpt: "Earthquake magnitude is logarithmic, hurricanes need warm water and spin from the Coriolis effect, and tsunamis have nothing to do with tides — the real mechanics, explained.",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
+  excerpt: "Earthquake magnitude is logarithmic, volcanoes explode or ooze depending on magma chemistry, and flash floods can sweep away a car in a foot of water — the real mechanics, explained.",
   summary: "Natural disasters — earthquakes, volcanic eruptions, hurricanes, floods, and tsunamis — each have a specific, well-understood physical mechanism that determines where and how they occur.",
   sources: [
     { label: "USGS — Earthquake Hazards Program", url: "https://earthquake.usgs.gov/" },
     { label: "NOAA — National Hurricane Center", url: "https://www.nhc.noaa.gov/" },
     { label: "USGS — Volcano Hazards Program", url: "https://volcanoes.usgs.gov/" },
+    { label: "NOAA National Weather Service — Flood Safety", url: "https://www.weather.gov/safety/flood" },
     { label: "FEMA", url: "https://www.fema.gov/" },
   ],
   seeAlso: [
@@ -53,6 +54,10 @@ export const metadata: PostFrontmatter = {
     { term: "Tsunami", definition: "A series of large ocean waves caused by the sudden displacement of a large volume of water, most often from an undersea earthquake, landslide, or volcanic eruption." },
     { term: "Fault", definition: "A fracture in Earth's crust along which rock on either side has moved relative to the other, the site where most earthquakes occur." },
     { term: "Coriolis effect", definition: "The apparent deflection of moving air and water caused by Earth's rotation, which curves storm systems and is essential to hurricane formation." },
+    { term: "Magma viscosity", definition: "How thick and resistant to flow a magma is, determined mainly by its silica content — low-silica magma flows easily, high-silica magma is thick and traps gas." },
+    { term: "Volcanic Explosivity Index (VEI)", definition: "A logarithmic 0-8 scale ranking the size of a volcanic eruption by how much material it ejects, similar in structure to the earthquake magnitude scale." },
+    { term: "Pyroclastic flow", definition: "A fast-moving, superheated current of volcanic gas, ash, and rock fragments that can travel over 100 km/h at temperatures up to 700°C — the deadliest hazard from an explosive eruption, not the lava itself." },
+    { term: "Flash flood", definition: "A flood that develops within about 6 hours of heavy rainfall (often much less), caused by rain arriving faster than the ground or drainage system can absorb or carry it away." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -73,6 +78,7 @@ export default function Post() {
           "Earthquake magnitude is logarithmic, not linear — each whole-number increase represents roughly 31.6 times more energy released, so a magnitude 7 earthquake releases about 1,000 times more energy than a magnitude 5, not just '2 more' units of shaking.",
           "Hurricanes require a specific set of conditions to form — ocean water at least about 26.5°C (80°F), low wind shear, and enough Coriolis effect from Earth's rotation to start the storm spinning — which is exactly why they almost never form within roughly 5° latitude of the equator, despite that being some of the warmest water on Earth.",
           "Tsunamis are caused by the sudden displacement of a large volume of water — usually an undersea earthquake, landslide, or volcanic eruption — and are physically unrelated to ocean tides, despite the older nickname 'tidal wave.'",
+          "A volcano's eruption style comes down to magma viscosity, not location alone: thin, low-silica magma erupts gently (Hawaii), while thick, high-silica magma traps gas until it explodes (Mount St. Helens) — and it's the fast-moving pyroclastic flow, not the lava, that's usually deadliest.",
         ]}
       />
 
@@ -123,6 +129,22 @@ export default function Post() {
       An earthquake releases two main types of seismic waves that travel at different speeds: faster-moving P-waves (roughly 6-8 km/s) arrive first but cause relatively mild shaking, while slower S-waves and surface waves (roughly half the speed of P-waves) arrive later and cause most of the destructive shaking. Earthquake early warning systems, like the USGS&apos;s ShakeAlert network along the U.S. West Coast, exploit this speed gap directly: sensors detect the fast, low-damage P-waves near the epicenter and immediately calculate the estimated magnitude and location, then transmit a warning electronically — which travels at the speed of light — to more distant areas before their slower, more damaging S-waves and surface waves arrive. Depending on distance from the epicenter, this can provide anywhere from a few seconds to over a minute of advance warning, enough time to automatically slow trains, open elevator doors, or simply let people take cover.
       </div>
 
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 4: Why some volcanoes ooze lava and others explode (mechanism deep-dive)</h3>
+      <div className="prose-p">
+      Whether an eruption is a slow-moving lava flow or a violent explosion comes down to one property: magma <TermLink href="/general-science-facts/natural-disasters">viscosity</TermLink> — how thick and resistant to flow the magma is, which is mostly determined by its silica content. Low-silica (basaltic) magma, like the kind feeding Hawaii&apos;s Kilauea, is thin and runny, so dissolved gases can bubble out gradually as it rises, producing relatively gentle, effusive eruptions people can often walk (quickly) away from. High-silica (andesitic or rhyolitic) magma, common at subduction-zone volcanoes like Mount St. Helens or Mount Pinatubo, is thick and sticky — gas gets trapped instead of escaping, building enormous pressure underground until it releases all at once in an explosive eruption. Eruption size is ranked on the <TermLink href="/general-science-facts/natural-disasters">Volcanic Explosivity Index</TermLink> (VEI), a logarithmic 0-8 scale structured much like earthquake magnitude: Kilauea&apos;s typical eruptions rank around VEI 0-1, the 1980 Mount St. Helens eruption was a VEI 5, and the 1991 Mount Pinatubo eruption, one of the 20th century&apos;s largest, was a VEI 6 — each step up representing roughly a tenfold increase in ejected material.
+      </div>
+      <div className="prose-p">
+      The intuitive picture of lava as the main killer is also backwards for explosive volcanoes: lava usually moves slowly enough to outrun. The deadliest hazard is a <TermLink href="/general-science-facts/natural-disasters">pyroclastic flow</TermLink> — a superheated avalanche of gas, ash, and rock fragments that can travel over 100 km/h at temperatures up to 700°C, as documented by the USGS Volcano Hazards Program. Pyroclastic flows, not lava, caused most of the roughly 57 deaths at Mount St. Helens in 1980 and are why volcanologists issue evacuation zones based on flow modeling, not lava-flow speed.
+      </div>
+
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 5: Why a flash flood can be more dangerous than a slow-rising river flood (mechanism deep-dive)</h3>
+      <div className="prose-p">
+      Floods aren&apos;t one phenomenon — they split into distinct mechanisms with very different warning times. A river (riverine) flood builds over days as sustained rain or snowmelt across an entire watershed pushes a river past its channel capacity; forecasters can often see it coming and issue warnings well in advance. A <TermLink href="/general-science-facts/natural-disasters">flash flood</TermLink>, by contrast, develops within about 6 hours of heavy rainfall — often in under 3 — because rain is arriving faster than the ground or storm drains can absorb or carry it away, per NOAA National Weather Service criteria. Urban areas make this worse: pavement and concrete are impervious, so rain that would normally soak into soil instead runs off immediately, concentrating a large rainfall total into a fast, localized surge with almost no lead time. Storm surge, covered above as a hurricane hazard, is a third distinct flood mechanism — wind- and pressure-driven seawater pushed onshore, rather than rainfall runoff at all.
+      </div>
+      <div className="prose-p">
+      The counterintuitive danger is how little water it takes: according to NOAA, just 15-30 cm (6-12 inches) of fast-moving water can sweep a car off the road, and 30 cm (about 1 foot) can float most vehicles entirely — far less than the wall-of-water image most people picture. This is the basis for NOAA&apos;s &quot;Turn Around Don&apos;t Drown&quot; guidance: most U.S. flood deaths involve vehicles driven into flooded roads, not people caught in open water, because moving water only a third of a meter deep is already enough to overcome a car&apos;s weight and traction.
+      </div>
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
       <DiagramBlock
         title="Comparing the trigger conditions behind four major natural disaster types"
@@ -140,6 +162,8 @@ export default function Post() {
           { mistake: "Treating earthquake 'magnitude' and 'intensity' as the same measurement.", fix: "Magnitude is a single number describing energy released at the source. Intensity describes how strongly shaking is felt at a specific location, using a scale like the Modified Mercalli scale, and varies with distance from the epicenter and local ground conditions." },
           { mistake: "Assuming tsunamis are caused by tides, based on the older term 'tidal wave.'", fix: "Tsunamis are caused by sudden, large-scale water displacement — typically from an undersea earthquake, landslide, or volcanic eruption — and have no physical relationship to the gravitational tidal forces that cause normal ocean tides." },
           { mistake: "Assuming a location is safe from a given disaster just because it hasn't experienced one in living memory.", fix: "Recurrence intervals for major earthquakes and floods can span centuries — far longer than personal or even institutional memory — so an area's historical quiet period doesn't necessarily reflect its long-term geological risk." },
+          { mistake: "Assuming lava is the main danger in an explosive volcanic eruption.", fix: "Lava usually moves slowly enough to outrun. Pyroclastic flows — fast-moving avalanches of superheated gas and ash that can exceed 100 km/h and 700°C — cause most eruption deaths, which is why evacuation zones are based on flow modeling, not lava speed." },
+          { mistake: "Picturing flood danger only as a dramatic wall of rushing water.", fix: "NOAA data shows just 15-30 cm (6-12 inches) of moving water can sweep a car off the road — most U.S. flood deaths involve vehicles driven into flooded roads, not people caught in open water." },
         ]}
       />
       <MisconceptionCallout
@@ -186,6 +210,8 @@ export default function Post() {
           { question: "What's the difference between a hurricane, cyclone, and typhoon?", answer: "They're the same weather phenomenon — a rotating tropical storm system — just named differently by region: hurricane in the Atlantic and Northeast Pacific, typhoon in the Northwest Pacific, and cyclone in the South Pacific and Indian Ocean." },
           { question: "Why don't hurricanes form at the equator?", answer: "Hurricanes need the Coriolis effect, Earth's rotational deflection, to organize their spin, and that effect is essentially zero right at the equator, strengthening only with distance from it — so storms form several degrees of latitude away instead." },
           { question: "What causes tsunamis?", answer: "Tsunamis are caused by the sudden, large-scale displacement of ocean water, most commonly from an undersea earthquake's vertical fault movement, and less often from submarine landslides or volcanic eruptions — they are unrelated to tides despite the older name 'tidal wave.'" },
+          { question: "What determines whether a volcano erupts explosively or just oozes lava?", answer: "Mainly magma viscosity, which depends on silica content. Low-silica magma is runny and lets gas escape gradually, producing gentle effusive eruptions (like Hawaii's Kilauea). High-silica magma is thick and traps gas until it releases all at once in an explosive eruption (like Mount St. Helens or Mount Pinatubo)." },
+          { question: "What's the difference between a flash flood and a regular flood?", answer: "A river (riverine) flood builds over days from sustained rain or snowmelt across a watershed, giving forecasters lead time. A flash flood develops within about 6 hours of heavy rainfall, often under 3, because rain arrives faster than the ground or drains can absorb it — common in urban areas with paved, impervious surfaces." },
         ]}
       />
 

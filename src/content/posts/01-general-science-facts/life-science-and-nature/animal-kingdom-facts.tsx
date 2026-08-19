@@ -30,9 +30,9 @@ export const metadata: PostFrontmatter = {
     "Kingdom Animalia",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
-  excerpt: "How scientists sort every animal on Earth into a nested classification system, and why 97% of animal species have no backbone at all.",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
+  excerpt: "How scientists sort every animal on Earth into a nested classification system, why 97% of animal species have no backbone, and what actually separates each major group.",
   summary: "Kingdom Animalia is organized into nested taxonomic ranks, from phylum down to species, and the overwhelming majority of animal species are invertebrates, not vertebrates.",
   sources: [
     { label: "Smithsonian National Museum of Natural History — Animal Origins and Evolution", url: "https://naturalhistory.si.edu/education/teaching-resources/animal-origins-evolution" },
@@ -53,6 +53,10 @@ export const metadata: PostFrontmatter = {
     { term: "Phylum", definition: "A major taxonomic rank below kingdom, grouping animals by fundamental body plan — e.g., Chordata (animals with a nerve cord) or Arthropoda (jointed-limbed animals)." },
     { term: "Binomial nomenclature", definition: "The two-part naming system (genus + species) used to give every organism a unique scientific name, such as Panthera leo for the lion." },
     { term: "Convergent evolution", definition: "When unrelated species independently evolve similar traits because they adapted to similar environments or pressures, not because they share recent ancestry." },
+    { term: "Ectothermic", definition: "Relying on external heat sources (like sunlight) to regulate body temperature, rather than generating it internally — the accurate term for what's commonly called 'cold-blooded'; body temperature varies with the environment rather than always running cold." },
+    { term: "Endothermic", definition: "Generating and regulating body temperature internally through metabolism, independent of the surrounding environment — the accurate term for 'warm-blooded,' true of mammals and birds." },
+    { term: "Arthropod", definition: "An invertebrate with a hard external skeleton (exoskeleton), a segmented body, and jointed limbs — the phylum that includes insects, arachnids, crustaceans, and centipedes/millipedes, and the largest animal group by species count." },
+    { term: "Metamorphosis", definition: "A dramatic change in body form during development, as seen in most amphibians (water-breathing tadpole to air-breathing adult) and many insects (larva to pupa to adult)." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -94,6 +98,26 @@ export default function Post() {
           { text: "Vertebrates make up the large majority of animal species because they are more evolutionarily advanced", correct: false, explanation: "Vertebrates are a small minority of animal species, and 'more advanced' isn't a valid evolutionary ranking — invertebrates are just as evolved for their own niches as vertebrates are for theirs." },
           { text: "Invertebrates make up over 97% of known animal species, with arthropods (insects, spiders, crustaceans) as the largest group", correct: true, explanation: "Correct. Backboned animals are the minority — arthropods alone, mostly insects, account for roughly 80% of all described animal species." },
           { text: "Vertebrates and invertebrates each make up about half of all animal species", correct: false, explanation: "The split is far from even. Invertebrates dominate by species count, with insects alone outnumbering all vertebrate species combined by a wide margin." },
+        ]}
+      />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The major groups, one by one</h2>
+      <p>
+      Knowing how classification works doesn&apos;t tell you what actually separates a lizard from a frog, or a spider from an insect. Each major group is defined by real, testable traits — not just general appearance.
+      </p>
+      <div className="prose-p">
+      <strong>The five vertebrate classes:</strong> Mammals (~6,400 species) have fur or hair, are <TermLink href="/general-science-facts/animal-kingdom-facts">endothermic</TermLink>, and nurse young with milk from mammary glands — nearly all give live birth, with the rare exception of egg-laying monotremes like the platypus. Birds (~11,000 species) have feathers, are endothermic, and lay hard-shelled eggs; hollow, air-filled bones support flight, though not every bird flies (ostriches, penguins). Reptiles (~11,000 species) have dry, scaly skin and are <TermLink href="/general-science-facts/animal-kingdom-facts">ectothermic</TermLink>, meaning their body temperature tracks the environment rather than being self-regulated — most lay leathery or soft-shelled eggs on land. Amphibians (~8,000 species) have moist, permeable skin and are also ectothermic, but their defining feature is a two-stage life cycle: most start as water-breathing larvae (like a tadpole, which has gills) and undergo <TermLink href="/general-science-facts/animal-kingdom-facts">metamorphosis</TermLink> into air-breathing, often land-capable adults. Fish (~34,000 species, more than every other vertebrate class combined) live in water and breathe through gills, and split into two very different sub-groups: bony fish (the vast majority — salmon, tuna, goldfish) and cartilaginous fish (sharks and rays, whose skeleton is cartilage, not bone).
+      </div>
+      <div className="prose-p">
+      <strong>Invertebrates, beyond just &quot;arthropods&quot;:</strong> Arthropods (insects, arachnids, crustaceans, and centipedes/millipedes) account for roughly 80% of all described animal species by themselves, but three other invertebrate groups are common enough to know on sight. Mollusks (snails, clams, octopuses, squid) have a soft body, often protected by a hard shell, and include the octopus — widely considered the most behaviorally complex invertebrate, capable of problem-solving and tool use. Cnidarians (jellyfish, coral, sea anemones) have stinging cells called nematocysts and radially symmetric bodies with no left or right side. Echinoderms (starfish, sea urchins) have five-part radial symmetry as adults and a unique water-powered hydraulic system (the water vascular system) that operates their tube feet. Roundworms (nematodes) are rarely seen but, by sheer individual count, are likely the most numerous animals on Earth — a single rotting apple can contain thousands.
+      </div>
+
+      <QuickCheck
+        question="A lizard basking on a warm rock can, at that moment, have a body temperature higher than a nearby mouse. Does this mean the lizard is 'warm-blooded' too?"
+        options={[
+          { text: "Yes — its blood is warm right now, so the traditional labels don't really apply", correct: false, explanation: "The label isn't about the blood's temperature at a given instant, it's about the mechanism controlling that temperature." },
+          { text: "No — the lizard is ectothermic, meaning its body temperature is set by the environment (the warm rock) rather than generated and regulated internally the way a mammal's is", correct: true, explanation: "Correct. 'Cold-blooded' is a misleading name — an ectothermic animal's temperature simply follows its surroundings, so it can be warmer than an endothermic animal at times. The mechanism, not the momentary temperature, is what defines the category." },
+          { text: "No — reptiles are physically incapable of having a body temperature above about 20°C", correct: false, explanation: "There's no such ceiling — an ectothermic animal's temperature can rise quite high in direct sun. The defining trait is the lack of internal temperature regulation, not a fixed low temperature." },
         ]}
       />
 
@@ -140,6 +164,8 @@ export default function Post() {
           { mistake: "Using 'bug' loosely to mean any small crawling creature, including spiders and centipedes.", fix: "True bugs are a specific insect order (Hemiptera); spiders and centipedes aren't insects at all — spiders are arachnids (8 legs, 2 body segments), a separate class entirely." },
           { mistake: "Assuming whales and dolphins are fish because they live in the ocean and swim.", fix: "Whales and dolphins are mammals — they breathe air with lungs, are warm-blooded, and nurse live young with milk. Their fish-like body shape comes from convergent evolution for swimming, not shared ancestry with fish." },
           { mistake: "Thinking every animal with a backbone is a mammal.", fix: "Vertebrates include five major groups — mammals, birds, reptiles, amphibians, and fish — and mammals are just one branch, defined specifically by fur/hair and nursing young with milk." },
+          { mistake: "Assuming 'cold-blooded' means an animal's blood or body is always cold.", fix: "The accurate term is ectothermic — the animal's temperature simply tracks its environment rather than being internally regulated. A lizard basking in direct sun can be warmer than a nearby mammal at that moment." },
+          { mistake: "Treating frogs and lizards as basically the same kind of animal because both are small and low to the ground.", fix: "They're in entirely different classes: amphibians (frogs) have moist skin and a water-to-land metamorphosis, reptiles (lizards) have dry scaly skin and skip the aquatic larval stage entirely, hatching already land-capable." },
         ]}
       />
       <MisconceptionCallout
@@ -174,6 +200,9 @@ export default function Post() {
           { question: "What are the 7 levels of animal classification?", answer: "From broadest to narrowest: Kingdom, Phylum, Class, Order, Family, Genus, Species. Each level narrows the group down to more closely related organisms, ending at a single species." },
           { question: "Is a whale a fish or a mammal?", answer: "A mammal. Whales breathe air with lungs, are warm-blooded, and nurse live-born calves with milk — all mammal traits. Their fish-like body shape is the result of convergent evolution for efficient swimming, not close relation to fish." },
           { question: "Why do unrelated animals sometimes look alike?", answer: "Convergent evolution — when unrelated species face similar environmental pressures, they can independently evolve similar physical solutions, such as the streamlined body shape shared by sharks (fish) and dolphins (mammals)." },
+          { question: "What's the difference between amphibians and reptiles?", answer: "Amphibians (frogs, salamanders) have moist, permeable skin and most undergo metamorphosis from a water-breathing larva to an air-breathing adult. Reptiles (lizards, snakes, turtles) have dry, scaly skin and hatch already land-capable, with no aquatic larval stage. Both are ectothermic." },
+          { question: "Is a spider an insect?", answer: "No. Insects (6 legs, 3 body segments) and arachnids like spiders (8 legs, 2 body segments) are different classes within the arthropod phylum — related, but not the same group." },
+          { question: "What are the main invertebrate groups besides arthropods?", answer: "Mollusks (snails, clams, octopuses), cnidarians (jellyfish, coral, sea anemones), echinoderms (starfish, sea urchins), and roundworms (nematodes, likely the most numerous animals on Earth by individual count) are the other major invertebrate groups alongside arthropods." },
         ]}
       />
 

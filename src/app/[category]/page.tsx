@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getPostsByCategory, groupBySubtopic, getAllCategories } from '@/lib/content';
-import { getCategoryLabel, getCategoryDescription, getCategoryStatus } from '@/lib/taxonomy';
+import { getCategoryLabel, getCategoryDescription, getCategoryStatus, getCategoryPhase, getCategoryComingSoonPreview } from '@/lib/taxonomy';
 import { BookOpen } from 'lucide-react';
 import { CategoryHubClient } from '@/components/CategoryHubClient';
 import { CategoryMapNav } from '@/components/CategoryMapNav';
@@ -40,6 +40,8 @@ export default async function CategoryHubPage({ params }: PageProps) {
   const label = getCategoryLabel(category);
   const description = getCategoryDescription(category);
   const status = getCategoryStatus(category);
+  const phase = getCategoryPhase(category);
+  const comingSoonPreview = getCategoryComingSoonPreview(category);
   const posts = await getPostsByCategory(category);
   const groups = groupBySubtopic(posts);
 
@@ -105,12 +107,33 @@ export default async function CategoryHubPage({ params }: PageProps) {
 
           {posts.length === 0 ? (
             status === 'coming-soon' ? (
-              <div className="py-24 text-center border-2 border-dashed border-rule rounded-3xl bg-paper/50">
+              <div className="py-16 px-6 text-center border-2 border-dashed border-rule rounded-3xl bg-paper/50">
                 <BookOpen className="mx-auto h-12 w-12 text-ink/20 mb-4" />
-                <p className="text-2xl font-display text-ink opacity-60">
-                  We&apos;re currently building out this topic. <br />
-                  Check back soon for high-quality, architecturally sound knowledge.
+                {phase && (
+                  <p className="mb-2 font-utility text-[11px] uppercase tracking-widest text-ochre">
+                    Phase {phase} — not yet written
+                  </p>
+                )}
+                <p className="text-xl font-display text-ink opacity-70 mb-6">
+                  We&apos;re still building this topic. Here&apos;s what&apos;s planned:
                 </p>
+                {comingSoonPreview && comingSoonPreview.length > 0 ? (
+                  <ul className="mx-auto max-w-[46ch] flex flex-col gap-2 text-left">
+                    {comingSoonPreview.map((item, i) => (
+                      <li
+                        key={i}
+                        className="flex items-start gap-2 font-body text-[15px] text-ink-soft"
+                      >
+                        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ochre/60" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-base font-body text-ink-soft">
+                    Check back soon for high-quality, architecturally sound knowledge.
+                  </p>
+                )}
               </div>
             ) : (
               <div className="py-24 text-center border-2 border-dashed border-rule rounded-3xl bg-paper/50">

@@ -30,9 +30,9 @@ export const metadata: PostFrontmatter = {
     "earth science",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
-  excerpt: "A rock is a mix of minerals; a mineral has a fixed chemical recipe. Here's how the rock cycle turns one type into another, and how geologists tell minerals apart.",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
+  excerpt: "A rock is a mix of minerals; a mineral has a fixed chemical recipe. Here's how the rock cycle turns one type into another, and what actually makes a mineral worth mining.",
   summary: "Minerals are naturally occurring solids with a defined chemical composition and crystal structure, and rocks are aggregates of one or more minerals formed through igneous, sedimentary, or metamorphic processes.",
   sources: [
     { label: "USGS — Science of Rocks and Minerals", url: "https://www.usgs.gov/" },
@@ -54,6 +54,7 @@ export const metadata: PostFrontmatter = {
     { term: "Metamorphic rock", definition: "Rock formed when existing rock is transformed by heat, pressure, or chemically active fluids without fully melting." },
     { term: "Mohs hardness scale", definition: "A 1-to-10 ordinal scale ranking minerals by their resistance to scratching, from talc (softest) to diamond (hardest)." },
     { term: "Rock cycle", definition: "The continuous, multi-directional process by which rock transforms between igneous, sedimentary, and metamorphic forms over geologic time." },
+    { term: "Ore", definition: "A mineral deposit concentrated enough, in a large enough quantity, to be profitably extracted and processed with current technology — the same mineral dispersed too thinly through ordinary rock isn't considered ore." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -87,6 +88,10 @@ export default function Post() {
 
       <p>
       Knowing the three rock categories explains how geologists classify what they find in the field. The physical properties that identify a specific mineral within a rock are where the practical, hands-on science actually happens.
+      </p>
+
+      <p className="prose-p">
+      This same rock-and-mineral science is what defines a natural resource in the ground. A mineral only becomes an <strong>ore</strong> — worth mining — when it's concentrated enough, in a large enough deposit, to extract profitably with current technology: iron ore is rock with a high enough concentration of iron-bearing minerals like hematite or magnetite to be worth processing, while the same iron dispersed thinly through ordinary rock isn't. Quarried rock itself is a resource too — limestone for cement, granite for countertops and construction, sand and gravel for concrete — extracted directly rather than refined for a specific element. Because ore grade and rock type are set by which of the three formation processes a deposit went through (metal ores often concentrate through igneous or hydrothermal processes; building stone is usually quarried igneous, sedimentary, or metamorphic rock directly), the same rock cycle covered above is what determines where on Earth these resources are found at all.
       </p>
 
       <QuickCheck

@@ -30,9 +30,9 @@ export const metadata: PostFrontmatter = {
     "10 percent rule",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
-  excerpt: "Why only about 10% of energy passes to the next link in a food chain, and how that single rule explains why apex predators are always rare.",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
+  excerpt: "What makes something an ecosystem, why only about 10% of energy passes to the next link in a food chain, and how that single rule explains why apex predators are always rare.",
   summary: "A food chain is a sequence of who-eats-whom that moves energy through an ecosystem, and at each step roughly 90% of that energy is lost as heat rather than passed on.",
   sources: [
     { label: "National Geographic — Food Chain", url: "https://education.nationalgeographic.org/resource/food-chain/" },
@@ -54,6 +54,10 @@ export const metadata: PostFrontmatter = {
     { term: "Consumer", definition: "An organism that gets its energy by eating other organisms rather than producing its own food — herbivores, carnivores, and omnivores are all consumers." },
     { term: "Decomposer", definition: "An organism, such as fungi or bacteria, that breaks down dead organic matter, returning nutrients to the ecosystem." },
     { term: "10% rule", definition: "The ecological principle that only about 10% of the energy at one trophic level is available to the next level up, with roughly 90% lost mainly as metabolic heat." },
+    { term: "Ecosystem", definition: "A community of living organisms interacting with each other and with the non-living parts of their environment (water, soil, air, sunlight, temperature) within a defined area." },
+    { term: "Biotic factor", definition: "A living or once-living part of an ecosystem — every plant, animal, fungus, and microorganism in it." },
+    { term: "Abiotic factor", definition: "A non-living part of an ecosystem that still shapes what can live there — sunlight, temperature, water availability, soil chemistry, and rainfall are the main ones." },
+    { term: "Biome", definition: "A large-scale category of ecosystems sharing a similar climate and dominant plant/animal life, such as desert, tropical rainforest, tundra, or grassland." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -77,7 +81,27 @@ export default function Post() {
         ]}
       />
 
-      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What actually makes something an ecosystem</h2>
+      <div className="prose-p">
+      An <TermLink href="/general-science-facts/ecosystems-and-food-chains">ecosystem</TermLink> is every living thing in a given area (its <TermLink href="/general-science-facts/ecosystems-and-food-chains">biotic factors</TermLink> — plants, animals, fungi, bacteria) interacting with the non-living conditions around them (its <TermLink href="/general-science-facts/ecosystems-and-food-chains">abiotic factors</TermLink> — sunlight, temperature, water, soil chemistry, rainfall). Neither half works alone as a definition: a desert is a desert because of low rainfall and heat (abiotic), but it&apos;s specifically a <em>desert ecosystem</em> because of the cacti, reptiles, and insects (biotic) adapted to survive those exact conditions. Change the abiotic conditions enough — drain a wetland, clear-cut a forest — and the biotic community that depends on them collapses even if no organism was directly killed.
+      </div>
+      <div className="prose-p">
+      Ecosystems are grouped at a larger scale into <TermLink href="/general-science-facts/ecosystems-and-food-chains">biomes</TermLink> — categories defined mainly by climate. Forest biomes (tropical rainforest, temperate forest, boreal/taiga) are set apart mostly by rainfall and temperature range, which determines whether trees are broadleaf, evergreen, or coniferous. Grassland biomes (savanna, prairie) get enough rain for grasses but not enough, or with the wrong seasonal timing, to sustain dense forest. Desert biomes are defined by low precipitation (under about 25 cm/year) regardless of temperature — cold deserts like parts of Antarctica and Mongolia qualify just as much as hot ones like the Sahara. Tundra biomes have short growing seasons and permafrost (permanently frozen subsoil) that limits root depth, which is why tundra vegetation is mostly low shrubs, moss, and lichen rather than trees. Aquatic ecosystems split into freshwater (rivers, lakes — low salt content) and marine (oceans, coral reefs — high salt content), plus wetlands, which sit at the boundary and combine traits of both.
+      </div>
+      <div className="prose-p">
+      Nutrients don&apos;t just flow through an ecosystem once and disappear — <TermLink href="/general-science-facts/ecosystems-and-food-chains">decomposers</TermLink> (mainly fungi and bacteria) close the loop by breaking down dead organisms and waste into simple compounds like nitrogen and phosphorus that producers can absorb and reuse. Without decomposers, nutrients would stay permanently locked inside dead plant and animal matter, and every ecosystem on Earth would run out of usable nutrients within a few generations no matter how much sunlight was available — decomposition is what makes an ecosystem a genuine cycle rather than a one-way flow.
+      </div>
+
+      <QuickCheck
+        question="A wetland is drained for farmland, but none of its plants or animals are directly killed in the process. Ecologists still classify this as ecosystem destruction. Why?"
+        options={[
+          { text: "Because draining the wetland changed the abiotic conditions (water availability) the biotic community depended on, even without directly killing anything", correct: true, explanation: "Correct. An ecosystem is the interaction between living things and non-living conditions — remove the water an entire community depends on, and that community collapses even if nothing was killed on day one." },
+          { text: "Because farmland can never legally be called an ecosystem", correct: false, explanation: "Farmland is itself a (heavily managed) ecosystem — the issue is the destruction of the wetland ecosystem that existed before, not that farmland doesn't count as one." },
+          { text: "It isn't really destruction unless organisms are directly killed at the same time as the habitat change", correct: false, explanation: "Ecosystem destruction is measured by the collapse of the living community's ability to survive there, not only by immediate direct deaths — losing the abiotic conditions a community needs counts on its own." },
+        ]}
+      />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How energy moves through it: food chains</h2>
       <ModeToggle
         labels={{ plain: "Plain", detailed: "Detailed" }}
         plain={<div className="prose-p">A <TermLink href="/general-science-facts/ecosystems-and-food-chains">food chain</TermLink> shows who eats whom, starting with a plant and moving up: grass is eaten by a rabbit, the rabbit is eaten by a fox. Each step passes energy along the chain, but not all of it — a lot of the energy an animal eats gets used up just staying alive (moving, staying warm, digesting) rather than being stored in a form the next predator can eat. That&apos;s why food chains are usually short, rarely more than four or five links, and why there are always far fewer predators than prey in a healthy ecosystem.</div>}
@@ -141,6 +165,7 @@ export default function Post() {
           { mistake: "Thinking of a food chain as a fixed, isolated sequence, when most organisms actually belong to several overlapping chains at once.", fix: "Picture a food web instead — most predators eat multiple prey species and most prey are eaten by multiple predators, which is what gives real ecosystems resilience when one species' population changes." },
           { mistake: "Assuming energy is lost through some kind of inefficiency that could theoretically be 'fixed.'", fix: "The loss is mostly basic thermodynamics — organisms use energy for movement, maintaining body temperature, and cellular processes, all of which release heat. It's an unavoidable cost of being alive, not a flaw in the system." },
           { mistake: "Believing apex predators are rare because they're difficult to hunt or their prey is scarce.", fix: "Apex predators are rare primarily because of cumulative energy loss up the food chain — by the time you reach the top trophic level, there simply isn't enough total energy in the ecosystem to support a large predator population, regardless of hunting skill." },
+          { mistake: "Thinking an ecosystem is just 'the animals and plants living somewhere.'", fix: "That's only the biotic half. The non-living abiotic factors — water, temperature, soil, sunlight — are equally part of the definition, and changing them can collapse a community without killing anything directly." },
         ]}
       />
       <MisconceptionCallout
@@ -187,6 +212,9 @@ export default function Post() {
           { question: "Why are there fewer predators than prey in an ecosystem?", answer: "Because of cumulative energy loss up the food chain — each trophic level supports roughly only 10% as much total biomass as the level below it, so there's physically less energy available to sustain predator populations at higher levels." },
           { question: "How long can a food chain be?", answer: "Most food chains have 3 to 5 trophic levels. Because energy loss compounds at each transfer (roughly 90% lost per step), there usually isn't enough energy left to sustain a viable population beyond about 5 or 6 levels." },
           { question: "What happens if you remove one species from a food web?", answer: "It can trigger a trophic cascade — indirect effects rippling through multiple connected species and even physical habitat features, not just the removed species' direct predators or prey, as seen with wolf reintroduction in Yellowstone." },
+          { question: "What's the difference between an ecosystem and a biome?", answer: "An ecosystem is a specific community of organisms interacting with their local environment (one particular forest or pond). A biome is the larger climate-based category that ecosystem belongs to (temperate forest, desert, tundra) — many individual ecosystems around the world can belong to the same biome." },
+          { question: "What are abiotic factors in an ecosystem?", answer: "The non-living conditions that shape what can survive in an area — sunlight, temperature, water availability, soil chemistry, and rainfall are the main ones. They work alongside biotic (living) factors to define an ecosystem." },
+          { question: "Why are decomposers important to an ecosystem?", answer: "Decomposers (mainly fungi and bacteria) break down dead organisms and waste into simple nutrients that producers can reuse. Without them, nutrients would stay locked in dead matter and the ecosystem would run out of usable nutrients within a few generations." },
         ]}
       />
 

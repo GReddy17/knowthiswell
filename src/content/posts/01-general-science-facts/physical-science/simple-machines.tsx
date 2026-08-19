@@ -30,9 +30,9 @@ export const metadata: PostFrontmatter = {
     "physics",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
-  excerpt: "How the six simple machines — lever, pulley, wheel and axle, inclined plane, wedge, and screw — let you trade force for distance, and why none of them create free energy.",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
+  excerpt: "How all six simple machines — lever, pulley, wheel and axle, inclined plane, wedge, and screw — let you trade force for distance, with real mechanical-advantage numbers for each, and why none of them create free energy.",
   summary: "A simple machine changes the amount of force needed to do a job by changing the distance over which that force is applied — it never reduces the total work required.",
   sources: [
     { label: "NASA Glenn Research Center — Simple Machines", url: "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/simple-machines/" },
@@ -50,6 +50,9 @@ export const metadata: PostFrontmatter = {
     { term: "Effort arm", definition: "The distance from the fulcrum to the point where effort (input) force is applied on a lever." },
     { term: "Load arm", definition: "The distance from the fulcrum to the load (resistance) being moved on a lever." },
     { term: "Work", definition: "Force applied over a distance, measured in joules — work equals force multiplied by the distance moved in the direction of the force." },
+    { term: "Wedge", definition: "Two inclined planes joined back to back, used to split or force objects apart — an axe head, a knife, and a doorstop are all wedges." },
+    { term: "Wheel and axle", definition: "A larger wheel rigidly attached to a smaller connected shaft (the axle); turning the wheel through a large circle rotates the axle with much greater force over a smaller circle, or vice versa." },
+    { term: "Screw", definition: "An inclined plane wrapped around a cylinder in a spiral; the thread's pitch (distance advanced per full turn) determines how much a rotational force is multiplied into a linear force." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -120,6 +123,25 @@ export default function Post() {
       An inclined plane&apos;s mechanical advantage equals the ramp&apos;s length divided by its height. A 3-meter-long ramp rising to a 1-meter-high truck bed has mechanical advantage 3, meaning pushing a heavy appliance up it takes roughly 1/3 the force of lifting it straight up — at the cost of walking it 3 times farther than the 1-meter rise. This is why moving crews use the longest ramp that will fit rather than the shortest: a shallower, longer ramp always trades more distance for less required force, which matters directly for how much a person can safely push versus lift.
       </div>
 
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 4: A screwdriver as a wheel and axle (real-world / applied case)</h3>
+      <div className="prose-p">
+      A <TermLink href="/general-science-facts/simple-machines">wheel and axle</TermLink> is really just a lever that spins in a full circle instead of swinging back and forth — the "effort arm" is the wheel's radius, and the "load arm" is the axle's radius. A screwdriver handle with a 1.5 cm radius turning a 0.3 cm-radius metal shaft has mechanical advantage = 1.5 ÷ 0.3 = <strong>5</strong>: the twisting force delivered at the tip is 5 times what your fingers apply to the wide handle, at the cost of your fingers sweeping through 5 times the distance the shaft's surface actually turns. This is exactly why a screwdriver with a fat handle is easier to turn than one with a thin handle, and why a car's steering wheel is wide rather than the size of the steering column it turns — a wider wheel means more mechanical advantage for the same arm effort.
+      </div>
+
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 5: An axe as a wedge, and a car jack as a screw (real-world / applied case)</h3>
+      <div className="prose-p">
+      A <TermLink href="/general-science-facts/simple-machines">wedge</TermLink> is two inclined planes back to back, and its mechanical advantage is its length divided by its thickest width — a splitting axe head 20 cm long and 3 cm thick at the back has mechanical advantage ≈ 20 ÷ 3 ≈ <strong>6.7</strong>, meaning the downward force of the swing gets converted into roughly 6.7 times that much outward force splitting the wood apart sideways, along the grain. A <TermLink href="/general-science-facts/simple-machines">screw</TermLink> is an inclined plane wrapped around a cylinder, and its mechanical advantage is the circumference the handle travels per turn divided by how far the screw advances in that same turn (its thread pitch). A car jack with a 15 cm handle radius and a thread pitch of 0.3 cm per turn has mechanical advantage = (2 × π × 15) ÷ 0.3 ≈ <strong>314</strong> — which is exactly why one person can lift a 1,500 kg car by hand with a jack handle, turning it many times to raise the car a small amount with each full turn.
+      </div>
+
+      <QuickCheck
+        question="A car jack lets one person lift a car that weighs far more than they do, but they have to turn the handle many times to raise it just a few centimeters. What does this illustrate?"
+        options={[
+          { text: "The screw's very high mechanical advantage — a large distance traveled by the handle per turn versus a tiny distance the car actually rises per turn", correct: true, explanation: "Correct. A screw's mechanical advantage is the handle's circular travel distance divided by the thread's pitch — a fine thread pitch relative to a wide handle radius produces an enormous force multiplier, at the cost of needing many turns." },
+          { text: "The jack is adding energy to the system through its motor", correct: false, explanation: "A manual car jack has no motor and adds no energy — it's a purely mechanical trade of force for distance, governed by the same work-conservation principle as every simple machine." },
+          { text: "The car's weight is being temporarily reduced by the jack", correct: false, explanation: "The car's weight doesn't change — the jack multiplies the person's input force enough to exceed that unchanged weight, it doesn't reduce the weight itself." },
+        ]}
+      />
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
       <DiagramBlock
         title="Lever classes: fulcrum, effort, and load positions"
@@ -164,6 +186,26 @@ export default function Post() {
         formula="leverMechanicalAdvantage"
         formatResult="number"
       />
+      <EntryCalculator
+        title="Wheel and axle mechanical advantage (wheel radius ÷ axle radius)"
+        fields={[
+          { key: "wheelRadius", label: "Wheel radius (cm)", defaultValue: 1.5, step: 0.1 },
+          { key: "axleRadius", label: "Axle radius (cm)", defaultValue: 0.3, step: 0.1 },
+        ]}
+        resultLabel="Mechanical advantage (×)"
+        formula="wheelAndAxleMechanicalAdvantage"
+        formatResult="number"
+      />
+      <EntryCalculator
+        title="Screw mechanical advantage (handle circumference ÷ thread pitch)"
+        fields={[
+          { key: "handleRadius", label: "Handle radius (cm)", defaultValue: 15, step: 0.5 },
+          { key: "threadPitch", label: "Thread pitch — advance per turn (cm)", defaultValue: 0.3, step: 0.05 },
+        ]}
+        resultLabel="Mechanical advantage (×)"
+        formula="screwMechanicalAdvantage"
+        formatResult="number"
+      />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What to do next</h2>
       <ActionChecklist
@@ -172,6 +214,7 @@ export default function Post() {
           "Next time you use a ramp, a hand truck, or a bottle opener, notice which direction the trade-off runs: less force, more distance, or the reverse.",
           "Try the calculator above with a real door — the hinge is the fulcrum, and pushing near the handle (long effort arm) is far easier than pushing near the hinge (short effort arm).",
           "Read the related entry on Forces & Motion to connect mechanical advantage back to F = ma and Newton's laws.",
+          "Try the wheel-and-axle and screw calculators above with a car jack's or screwdriver's real dimensions to see how large the mechanical advantage of a screw actually gets.",
         ]}
       />
 
@@ -183,6 +226,8 @@ export default function Post() {
           { question: "What is mechanical advantage?", answer: "The ratio by which a machine multiplies input force. A mechanical advantage of 4 means 1 unit of effort force can move (or balance) 4 units of load force, at the cost of the effort moving roughly 4 times farther than the load." },
           { question: "Why does a longer ramp make it easier to push something heavy?", answer: "A longer ramp (for the same height) has a higher mechanical advantage — length divided by height — which reduces the force needed to push an object up it, at the cost of pushing it over a longer distance." },
           { question: "How does a pulley make lifting easier?", answer: "A single fixed pulley only redirects the force, with no force reduction. Adding movable pulleys increases the number of rope segments supporting the load, and mechanical advantage equals that number of supporting segments — more segments means less required pulling force." },
+          { question: "How does a screwdriver or steering wheel multiply force?", answer: "Both are a wheel and axle: mechanical advantage equals the wheel's radius divided by the axle's radius. A wide handle turning a thin shaft multiplies the turning force delivered at the shaft, at the cost of your hand sweeping through a much larger circle than the shaft itself turns." },
+          { question: "Why can a small car jack lift a car that weighs a ton or more?", answer: "A car jack is a screw. Its mechanical advantage equals the circular distance the handle travels per turn divided by how far the screw advances per turn (its thread pitch) — a fine pitch relative to a long handle produces an enormous force multiplier, which is why many turns are needed to raise the car just a small amount." },
         ]}
       />
 

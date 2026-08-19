@@ -39,132 +39,279 @@
     "label": "07. Units & Measurement Conversions",
     "description": "How to convert between systems and understand measurement standards.",
     "phase": 2,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Length & distance (metric vs. imperial)",
+      "Weight & mass conversions",
+      "Volume & capacity in cooking and daily life",
+      "Temperature scales (Celsius, Fahrenheit, Kelvin)",
+      "Time, speed, and everyday rate conversions"
+    ]
   },
   "general-awareness-basics": {
     "label": "08. General Awareness & Current Affairs Basics",
     "description": "Essential knowledge of what is happening in the world right now.",
     "phase": 2,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "How major world bodies work (UN, WHO, WTO)",
+      "National symbols and government structure basics",
+      "Important international days and observances",
+      "Reading news critically and spotting misinformation",
+      "Key global institutions and what they actually do"
+    ]
   },
   "health-body-basics": {
     "label": "09. Health & Body Basics",
     "description": "Introduction to human anatomy and basic health maintenance.",
     "phase": 2,
     "status": "coming-soon",
-    "ymyl": true
+    "ymyl": true,
+    "comingSoonPreview": [
+      "Everyday hygiene and preventive care habits",
+      "Common illnesses and when to see a doctor",
+      "Basic first aid every household should know",
+      "Vaccination schedules and child health basics",
+      "Nutrition fundamentals for general wellbeing"
+    ]
   },
   "environment-nature": {
     "label": "10. Environment & Nature",
     "description": "The basics of ecology, biodiversity, and natural systems.",
     "phase": 2,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Climate change basics: causes and evidence",
+      "Biodiversity and why species loss matters",
+      "Pollution types and where they come from",
+      "Conservation efforts and protected areas",
+      "Sustainable living habits that actually move the needle"
+    ]
   },
   "personal-finance-basics": {
     "label": "11. Personal Finance Basics",
     "description": "The absolute fundamentals of budgeting, saving, and spending.",
     "phase": 3,
     "status": "coming-soon",
-    "ymyl": true
+    "ymyl": true,
+    "comingSoonPreview": [
+      "Budgeting fundamentals and the 50/30/20 rule",
+      "Building an emergency fund",
+      "Bank accounts, interest, and how compounding works",
+      "Credit scores and responsible debt basics",
+      "Income tax and insurance fundamentals"
+    ]
   },
   "legal-documentation-howtos": {
     "label": "12. Legal & Documentation How-Tos",
     "description": "How to handle essential paperwork and legal documentation.",
     "phase": 3,
     "status": "coming-soon",
-    "ymyl": true
+    "ymyl": true,
+    "comingSoonPreview": [
+      "ID documents: passports, IDs, and how to get them",
+      "Reading rental and property agreements",
+      "Wills and inheritance basics",
+      "Understanding contracts before you sign",
+      "Common government forms and applications explained"
+    ]
   },
   "technology-basics": {
     "label": "13. Technology Basics",
     "description": "The fundamental building blocks of modern computing and the internet.",
     "phase": 3,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "How computers and the internet actually work",
+      "Common file types and software basics",
+      "Cloud storage and backups explained",
+      "Choosing and setting up a new device",
+      "Everyday tech troubleshooting"
+    ]
   },
   "career-study-skills": {
     "label": "14. Career & Study Skills",
     "description": "How to learn effectively and present yourself professionally.",
     "phase": 3,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Resume and interview fundamentals",
+      "Effective study techniques backed by research",
+      "Time management systems that stick",
+      "Professional communication and networking",
+      "Building a skill-development plan"
+    ]
   },
   "home-diy-knowledge": {
     "label": "15. Home & DIY Knowledge",
     "description": "Basic maintenance and improvement skills for the home.",
     "phase": 3,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Basic home repairs anyone can do safely",
+      "Electrical safety basics (and when to call a pro)",
+      "Plumbing basics: fixing common leaks and clogs",
+      "Essential tools every household should own",
+      "Seasonal home maintenance checklist"
+    ]
   },
   "health-wellness-deep-dive": {
     "label": "16. Health & Wellness Deep Dive",
     "description": "Advanced strategies for optimal physical and mental wellbeing.",
     "phase": 4,
     "status": "coming-soon",
-    "ymyl": true
+    "ymyl": true,
+    "comingSoonPreview": [
+      "Sleep science and how to actually improve it",
+      "Exercise and movement science fundamentals",
+      "Nutrition science beyond the basics",
+      "Mental health and stress literacy",
+      "Lifestyle factors in chronic condition management"
+    ]
   },
   "technology-deep-dives": {
     "label": "17. Technology Deep Dives",
     "description": "In-depth exploration of complex technological systems.",
     "phase": 4,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "How modern computing actually works under the hood",
+      "The internet and networking, explained properly",
+      "Software and programming concepts for non-programmers",
+      "Emerging tech explained: what's real vs. hype",
+      "Hardware deep dives: chips, storage, and devices"
+    ]
   },
   "business-entrepreneurship-basics": {
     "label": "18. Business & Entrepreneurship Basics",
     "description": "Starting from zero: the first steps of building a business.",
     "phase": 4,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "How to actually start a business from zero",
+      "Business models and basic strategy",
+      "Money and finance for first-time founders",
+      "Marketing and finding your first customers",
+      "Legal and operational basics every founder needs"
+    ]
   },
   "travel-local-guides": {
     "label": "19. Travel & Local Guides",
     "description": "How to explore new places with purpose and efficiency.",
     "phase": 4,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Trip planning fundamentals that save real money",
+      "Budget travel strategies that actually work",
+      "Travel safety and health basics",
+      "Getting around: transportation know-how",
+      "Cultural travel skills and etiquette abroad"
+    ]
   },
   "trivia-fun-facts": {
     "label": "20. Trivia & Fun Facts",
     "description": "The weird, the wonderful, and the unexpected facts of life.",
     "phase": 4,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Science and nature's strangest facts",
+      "History and geography trivia",
+      "Pop culture and entertainment trivia",
+      "Food and everyday-life trivia",
+      "Sports records and mind-bending trivia"
+    ]
   },
   "investing-markets-deep-dive": {
     "label": "21. Investing & Markets Deep Dive",
     "description": "Advanced analysis of financial markets and investment vehicles.",
     "phase": 5,
     "status": "coming-soon",
-    "ymyl": true
+    "ymyl": true,
+    "comingSoonPreview": [
+      "Investing fundamentals: how markets actually work",
+      "Stock market mechanics explained",
+      "Mutual funds, ETFs, and pooled investing",
+      "Bonds and other fixed-income instruments",
+      "How to read market forces and analysis"
+    ]
   },
   "government-schemes-benefits": {
     "label": "22. Government Schemes & Benefits",
     "description": "Navigating the landscape of public benefits and subsidies.",
     "phase": 5,
     "status": "coming-soon",
-    "ymyl": true
+    "ymyl": true,
+    "comingSoonPreview": [
+      "How government schemes actually work",
+      "Social welfare and health insurance schemes",
+      "Education and skill-development schemes",
+      "Housing, employment, and business schemes",
+      "How to apply for and track your benefits"
+    ]
   },
   "competitive-exam-prep": {
     "label": "23. Competitive Exam Prep",
     "description": "Strategic preparation for high-stakes academic and professional exams.",
     "phase": 5,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Exam prep fundamentals and study strategy",
+      "Quantitative aptitude and reasoning",
+      "English and verbal ability",
+      "General studies and current affairs prep",
+      "Major exam overviews and interview prep"
+    ]
   },
   "professional-skills-certifications": {
     "label": "24. Professional Skills & Certifications",
     "description": "The path to becoming a certified expert in your field.",
     "phase": 5,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Workplace communication and soft skills",
+      "Project and time management skills",
+      "Understanding certifications and how to choose one",
+      "IT, finance, and HR certification paths",
+      "Freelancing and career-growth skills"
+    ]
   },
   "ai-future-tech-literacy": {
     "label": "25. AI & Future Tech Literacy",
     "description": "Staying ahead of the curve with AI and the next wave of technology.",
     "phase": 5,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "AI fundamentals: how it actually works",
+      "AI in everyday life and tools",
+      "Emerging technologies beyond AI",
+      "AI ethics and safety basics",
+      "The future of work and technology"
+    ]
   },
   "digital-safety-privacy": {
     "label": "26. Digital Safety & Privacy",
     "description": "Passwords, scams, phishing, and data privacy basics for all ages.",
     "phase": 5,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Password and account security basics",
+      "Recognizing scams and fraud attempts",
+      "Privacy fundamentals for everyday life",
+      "Device and network security basics",
+      "Financial digital safety and data breach response"
+    ]
   },
   "life-skills-etiquette": {
     "label": "27. Life Skills & Etiquette",
     "description": "Practical life guidance, social skills, and professional etiquette.",
     "phase": 5,
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Everyday life skills for independence",
+      "Social etiquette that actually matters",
+      "Professional and formal etiquette",
+      "Communication and relationship skills",
+      "Digital and phone etiquette basics"
+    ]
   }
 }

@@ -23,9 +23,9 @@ export const metadata: PostFrontmatter = {
   subtopic: "physical-science",
   tags: ["energy", "kinetic energy", "potential energy", "conservation of energy", "physics"],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
-  excerpt: "The main forms energy takes, why it can never be created or destroyed, and how kinetic and potential energy trade off in everyday motion.",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
+  excerpt: "The main forms energy takes — kinetic, potential, thermal, chemical, electrical, radiant — why it can never be created or destroyed, and how they trade off in everyday motion, food, and machines.",
   summary: "Energy exists in forms like kinetic, potential, thermal, and chemical, and constantly converts between them — but the total amount in a closed system never changes. That's the law of conservation of energy.",
   sources: [
     { label: "U.S. Department of Energy — Energy Basics", url: "https://www.energy.gov/eere/education/energy-basics" },
@@ -40,6 +40,10 @@ export const metadata: PostFrontmatter = {
     { term: "Potential energy", definition: "Stored energy based on an object's position or condition, like height or a stretched spring." },
     { term: "Conservation of energy", definition: "The principle that total energy in a closed system stays constant — it only changes form." },
     { term: "Joule", definition: "The standard unit of energy, abbreviated J." },
+    { term: "Thermal energy", definition: "The kinetic energy of a substance's own particles vibrating and moving — what's actually being measured as temperature." },
+    { term: "Chemical energy", definition: "Energy stored in the bonds between atoms, released or absorbed when those bonds rearrange during a chemical reaction." },
+    { term: "Elastic potential energy", definition: "Potential energy stored in a stretched or compressed object, like a spring or a drawn bow, that can spring back to its original shape." },
+    { term: "Radiant energy", definition: "Energy carried by electromagnetic waves, including visible light, radio waves, and infrared — it can travel through empty space, unlike most other energy transfers." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -70,6 +74,10 @@ export default function Post() {
         detailed={<div className="prose-p">The law of conservation of energy states that in an isolated system, total energy is constant — it can convert between kinetic, potential, thermal, chemical, electrical, and other forms, but the sum never increases or decreases. <TermLink href="/general-science-facts/energy-types-and-conservation">Kinetic energy</TermLink> depends on mass and the square of velocity (KE = ½mv²), which is why doubling speed quadruples kinetic energy, not just doubles it. Gravitational potential energy depends on mass, height, and gravitational acceleration (PE = mgh). In practice, some energy in any real system converts to heat via friction or air resistance, which is why perpetual motion — a system that keeps moving forever with no energy input — is physically impossible, not just impractical.</div>}
       />
       <FootnoteAside>The law of conservation of energy is really a special case of a deeper physics principle called Noether&apos;s theorem, discovered in 1915 — energy conservation follows mathematically from the fact that the laws of physics don&apos;t change over time.</FootnoteAside>
+
+      <p>
+      Kinetic and potential energy are the two forms easiest to see in motion, but they're not the only ones a reader is likely to run into. <TermLink href="/general-science-facts/energy-types-and-conservation">Thermal energy</TermLink> is really just kinetic energy at the particle level — a hot object's atoms and molecules are vibrating and colliding faster than a cold object's, and temperature is a measure of that average particle motion. <TermLink href="/general-science-facts/energy-types-and-conservation">Chemical energy</TermLink> is stored in the bonds holding atoms together in a molecule; breaking and re-forming those bonds during a reaction — burning wood, digesting a meal, discharging a battery — releases some of that stored energy, usually as heat and light. A stretched rubber band or a compressed spring stores <TermLink href="/general-science-facts/energy-types-and-conservation">elastic potential energy</TermLink>, released the instant it's allowed to snap back. Electrical energy is the organized flow of charge through a circuit (covered in depth in Electricity &amp; Magnetism Basics), and <TermLink href="/general-science-facts/energy-types-and-conservation">radiant energy</TermLink> — sunlight, radio signals, the warmth you feel standing near a fire without touching it — is energy carried by electromagnetic waves, the one form that can cross empty space with nothing to carry it. All of them are governed by the same conservation law: a burning log converts chemical energy into thermal and radiant energy, a battery converts chemical energy into electrical energy, but the total energy involved never changes, only its form.
+      </p>
 
       <p>
       That trade-off between potential and kinetic energy is the easiest place to actually see conservation of energy happening, rather than just stating it as a rule.
@@ -109,6 +117,11 @@ export default function Post() {
           { text: "Potential energy, stored by raising the car slightly", correct: false, explanation: "Braking doesn't meaningfully change the car's height. The captured energy becomes electrical, not gravitational potential energy." },
         ]}
       />
+
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 4: Where the energy in a meal actually goes (real-world / applied case)</h3>
+      <div className="prose-p">
+      Food stores chemical energy in the bonds of carbohydrates, fats, and proteins — which is exactly what a food label's "calories" (technically kilocalories) are measuring. Digestion breaks those bonds down, and the body converts that chemical energy into several other forms at once: some becomes thermal energy that keeps body temperature around 37°C, some becomes the kinetic energy of muscles contracting during movement, and some gets re-stored as chemical energy again, in fat or glycogen, for later use. None of it is created in the process — it's the same conservation law running through a biological system instead of a mechanical one, which is why "calories in versus calories out" is a real energy-accounting statement, not just a diet slogan.
+      </div>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
       <DiagramBlock
@@ -172,6 +185,8 @@ export default function Post() {
           { question: "Is heat a form of energy?", answer: "Yes — heat (thermal energy) is one of the main forms energy takes, and it's usually the form that other energy types 'leak' into via friction or resistance, which is why systems tend to run down over time even though total energy is conserved." },
           { question: "Why does kinetic energy depend on velocity squared instead of just velocity?", answer: "It comes directly from the physics of work and motion (KE = ½mv²) — it's an experimentally verified relationship, not an arbitrary choice, and it's why crash severity increases so sharply with speed." },
           { question: "Can energy ever actually be destroyed?", answer: "Not in ordinary physics — only in nuclear reactions does energy convert to or from mass (E = mc²), and even then the combined mass-energy total is conserved. Everyday mechanical and electrical processes never destroy energy, only convert it." },
+          { question: "What's the difference between chemical energy and thermal energy?", answer: "Chemical energy is stored in the bonds between atoms in a molecule and is released when those bonds break and reform during a reaction. Thermal energy is the kinetic energy of a substance's own particles moving and vibrating — chemical energy often converts into thermal energy, as when burning fuel releases heat." },
+          { question: "What are the main types of energy?", answer: "Kinetic (motion), potential (position or condition — gravitational or elastic), thermal (particle motion, felt as heat), chemical (stored in molecular bonds), electrical (flowing charge), and radiant (electromagnetic waves like light) are the forms covered most often in introductory physics. All of them convert into one another while the total stays constant." },
         ]}
       />
 

@@ -29,9 +29,9 @@ export const metadata: PostFrontmatter = {
     "everyday chemistry",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
-  excerpt: "How to tell a chemical reaction from a physical change, why rust and rising bread dough are both real chemistry, and what conservation of mass actually means.",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
+  excerpt: "How to tell a chemical reaction from a physical change, why rust and rising bread dough are both real chemistry, and how a catalyst speeds a reaction up without being consumed.",
   summary: "A chemical reaction rearranges atoms into new substances with new properties, and the total mass of everything involved never changes.",
   sources: [
     { label: "Royal Society of Chemistry — What Is a Chemical Reaction?", url: "https://edu.rsc.org/resources" },
@@ -120,6 +120,10 @@ export default function Post() {
       <div className="prose-p">
       Instant cold packs, used for sports injuries, work by triggering an endothermic reaction on demand: squeezing the pack breaks an internal seal, mixing water with a salt like ammonium nitrate, and the dissolving process absorbs heat energy from its surroundings, dropping the pack&apos;s temperature noticeably within seconds. Instant hot packs use the opposite principle — an exothermic reaction, often the rapid oxidation (rusting) of powdered iron once exposed to air, releasing heat instead of absorbing it. Both are ordinary chemistry, engineered into a sealed, on-demand package, and both directly demonstrate that a reaction&apos;s energy direction (exothermic versus endothermic) is a measurable, predictable, and usable physical property.
       </div>
+
+      <p>
+      One more variable changes how fast any of these reactions run without changing what they produce: a <TermLink href="/general-science-facts/chemical-reactions-and-everyday-chemistry">catalyst</TermLink>. A catalyst provides an alternative reaction pathway that needs less activation energy to get started, so the same reaction happens faster at the same temperature — without the catalyst itself being consumed or showing up in the final products. The catalytic converter under a car is an everyday example: exhaust gases pass over a honeycomb coated in platinum, palladium, and rhodium, and those metals speed up the conversion of toxic carbon monoxide and unburned fuel into carbon dioxide and water vapor, without the metals themselves being used up — the same small amount of catalyst keeps working for the life of the car. The human body runs on the same principle at a much smaller scale: enzymes are biological catalysts that speed up digestion and metabolism by factors of millions, which is the only reason reactions that would otherwise take hours in a lab happen fast enough inside you to sustain life.
+      </p>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
       <DiagramBlock

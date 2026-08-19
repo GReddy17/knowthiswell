@@ -21,11 +21,11 @@ export const metadata: PostFrontmatter = {
   category: "general-science-facts",
   order: 5,
   subtopic: "physical-science",
-  tags: ["light", "sound", "waves", "color", "physics"],
+  tags: ["light", "sound", "waves", "color", "physics", "pitch and loudness", "decibels"],
   date: "2026-08-16",
-  updated: "2026-08-16",
-  lastReviewed: "2026-08-16",
-  excerpt: "Why light and sound are both waves, why light travels a million times faster than sound, and how color is really just wavelength.",
+  updated: "2026-08-19",
+  lastReviewed: "2026-08-19",
+  excerpt: "Why light and sound are both waves, why light travels a million times faster than sound, how color is really just wavelength, and the real difference between pitch and loudness.",
   summary: "Light and sound both travel as waves, but light is an electromagnetic wave that needs no medium while sound is a mechanical wave that needs one — which is why light reaches you almost instantly and sound noticeably lags behind, like in a thunderstorm.",
   sources: [
     { label: "NASA Science — Electromagnetic Spectrum", url: "https://science.nasa.gov/ems/01_intro/" },
@@ -39,7 +39,9 @@ export const metadata: PostFrontmatter = {
     { term: "Wavelength", definition: "The distance between successive peaks of a wave — determines color for light, pitch for sound." },
     { term: "Electromagnetic wave", definition: "A wave of electric and magnetic fields, like light, that can travel through empty space." },
     { term: "Mechanical wave", definition: "A wave that needs a physical medium (air, water, solid) to travel through, like sound." },
-    { term: "Frequency", definition: "How many wave cycles pass a point per second, measured in hertz (Hz)." },
+    { term: "Frequency", definition: "How many wave cycles pass a point per second, measured in hertz (Hz) — determines pitch for sound." },
+    { term: "Amplitude", definition: "The size (height) of a wave's vibration — determines loudness for sound and brightness for light, independent of pitch or color." },
+    { term: "Decibel (dB)", definition: "A logarithmic unit measuring sound intensity — every 10 dB increase represents roughly a 10-fold increase in sound energy, not a small linear step." },
   ],
   author: {
     slug: "james-h-rivers",
@@ -110,6 +112,20 @@ export default function Post() {
         ]}
       />
 
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 4: Pitch versus loudness, and why concerts damage hearing (real-world / applied case)</h3>
+      <div className="prose-p">
+      Frequency and <TermLink href="/general-science-facts/light-color-and-sound">amplitude</TermLink> control two completely independent properties of a sound wave: frequency (cycles per second) sets pitch — how high or low a sound is — while amplitude (the height of the wave, how much the air pressure swings) sets loudness. A high-pitched whistle and a low-pitched foghorn can be equally loud, or a deep bass note can be either a whisper or ear-splitting, because pitch and loudness are set by different properties of the same wave. Loudness is measured in <TermLink href="/general-science-facts/light-color-and-sound">decibels</TermLink> (dB), a logarithmic scale — a quiet whisper sits around 30 dB, normal conversation around 60 dB, a rock concert or a car horn around 110-120 dB, and because the scale is logarithmic, that gap isn&apos;t "a bit louder," it's roughly a million times more sound energy. Sustained exposure above about 85 dB — well within range for concerts, power tools, and loud headphones — is enough to gradually damage the inner ear's hair cells, which is why hearing protection matters even when a sound doesn&apos;t feel painfully loud in the moment.
+      </div>
+
+      <QuickCheck
+        question="A tiny bird chirps at a very high pitch, and a large truck horn blares at a very low pitch but is far louder. What does this tell you about pitch and loudness?"
+        options={[
+          { text: "Higher-pitched sounds are always quieter than lower-pitched ones", correct: false, explanation: "Pitch and loudness aren't linked that way — a high-pitched sound can be extremely loud (a smoke alarm) and a low-pitched sound can be very quiet (a soft hum)." },
+          { text: "Pitch (frequency) and loudness (amplitude) are independent properties of a wave — either can be high or low regardless of the other", correct: true, explanation: "Correct. Frequency determines how high or low a sound is; amplitude determines how loud it is. The bird's chirp is high-frequency but low-amplitude; the truck horn is low-frequency but high-amplitude." },
+          { text: "Loudness is just another word for pitch, so this scenario is a contradiction", correct: false, explanation: "They're genuinely different physical properties of a sound wave, not two names for the same thing — that's exactly why a quiet high note and a loud low note can both exist." },
+        ]}
+      />
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
       <DiagramBlock
         title="The visible light spectrum by wavelength"
@@ -127,6 +143,7 @@ export default function Post() {
           { mistake: "Assuming sound can travel through the vacuum of space, like in movie space battles.", fix: "Sound needs a physical medium to travel — space is a vacuum, so real explosions in space would be completely silent to a nearby observer." },
           { mistake: "Thinking an object's color is a property of the object itself rather than the light it reflects.", fix: "An object appears a given color because it reflects that wavelength of light and absorbs the others — a red apple looks red because it reflects red wavelengths and absorbs the rest of the visible spectrum." },
           { mistake: "Believing white light has no color, or is the 'absence' of color.", fix: "White light is actually a mixture of all visible wavelengths at once — a prism or raindrop doesn't add color to it, it separates the colors that were already combined inside it." },
+          { mistake: "Assuming a higher-pitched sound is automatically louder, or that pitch and loudness are the same thing.", fix: "Pitch comes from frequency; loudness comes from amplitude — they're independent. A high note can be whisper-quiet and a low note can be deafening." },
         ]}
       />
       <MisconceptionCallout
@@ -151,6 +168,7 @@ export default function Post() {
           "Next thunderstorm, count the seconds between flash and thunder and try the calculator above to estimate distance.",
           "Look at a prism or a CD's reflective surface in sunlight and notice the separated spectrum — that's the same physics as a rainbow.",
           "Notice how a swimming pool muffles and distorts voices from underwater — a direct, everyday demonstration of sound behaving differently in a denser medium.",
+          "Check the volume level on your headphones against a decibel-meter app, or notice if you have to raise your voice to be heard — both are practical signs you're in hearing-damage range.",
         ]}
       />
 
@@ -161,6 +179,8 @@ export default function Post() {
           { question: "Can sound travel faster than light under any circumstances?", answer: "No — light's speed in a vacuum (about 300,000 km/s) is the universal speed limit and vastly exceeds sound's speed in any known medium, which tops out around 12 km/s in the densest solids." },
           { question: "Is ultraviolet or infrared light visible to humans?", answer: "Neither — both fall just outside the narrow band of wavelengths (roughly 380–700 nanometers) human eyes evolved to detect, even though many animals (like bees, for UV) can see into these ranges." },
           { question: "Why does your voice sound different in a recording than how you hear it live?", answer: "When you speak, you hear your voice partly through vibrations conducted directly through your skull bones, which emphasizes lower frequencies. A recording only captures the sound that travels through air, so it sounds thinner and higher-pitched than the voice you're used to hearing internally." },
+          { question: "What's the difference between pitch and loudness?", answer: "Pitch is set by a sound wave's frequency (cycles per second) — higher frequency means a higher-sounding note. Loudness is set by amplitude (how much the wave's pressure swings), measured in decibels. The two are independent: a sound can be high-pitched and quiet, or low-pitched and loud." },
+          { question: "How loud is too loud for hearing safety?", answer: "Sustained exposure above roughly 85 decibels — the range of busy traffic, power tools, and many concerts — can gradually damage the inner ear's hair cells over time. Because the decibel scale is logarithmic, sounds much above that (a rock concert at 110-120 dB) carry vastly more energy, not just a little more." },
         ]}
       />
 
