@@ -6,3 +6,9 @@ out/
 .DS_Store
 .vercel
 *.tsbuildinfo
+
+# Operational tooling / account-mapping data — not for the public repo.
+# Skills still work locally (Claude Code reads .claude/skills from disk,
+# not from git), this just keeps them out of version control.
+.claude/skills/
+.claude/private/
