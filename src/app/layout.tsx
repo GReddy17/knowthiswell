@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 
+import { Analytics } from '@vercel/analytics/next';
 import { Fraunces, Newsreader, Public_Sans } from 'next/font/google';
 import Link from 'next/link';
 import { Navbar } from '@/components/Navbar';
@@ -92,6 +93,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           </div>
         </div>
         <BackToTop />
+        <Analytics />
 
         <footer className="mt-20 border-t border-rule px-5 py-10 font-utility text-xs text-ink-soft md:px-10">
           <div className="mx-auto flex max-w-[1180px] flex-wrap justify-between gap-6">
