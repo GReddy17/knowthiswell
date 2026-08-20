@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { SearchBox } from '@/components/SearchBox';
 
@@ -17,7 +18,8 @@ export function Navbar() {
 
   return (
     <div className="sticky top-0 z-50 flex items-center justify-between gap-4 border-b border-rule bg-paper px-5 py-4.5 md:px-10">
-      <Link href="/" className="shrink-0 font-display text-xl font-semibold text-forest">
+      <Link href="/" className="flex shrink-0 items-center gap-2.5 font-display text-xl font-semibold text-forest">
+        <Image src="/icon-mark.png" alt="" width={30} height={30} className="rounded-full" priority />
         KnowThis<span className="text-ochre">Well</span>
       </Link>
 
