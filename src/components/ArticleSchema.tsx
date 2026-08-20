@@ -16,6 +16,15 @@ interface ArticleSchemaProps {
  * one consistent timestamp story across sitemap.xml, this schema, and
  * the on-page "Updated" label, rather than three different dates.
  */
+/** Schema.org/RDFa date-time properties require a full ISO 8601
+ *  datetime with a timezone offset — a bare "YYYY-MM-DD" (what every
+ *  post's frontmatter stores) fails Google's Rich Results validator
+ *  with "Invalid datetime value" / "missing a timezone". Normalize at
+ *  the schema boundary rather than changing the frontmatter format. */
+function toSchemaDateTime(date: string): string {
+  return `${date}T00:00:00Z`;
+}
+
 export function ArticleSchema({ post }: ArticleSchemaProps) {
   const url = `${SITE_URL}/${post.category}/${post.slug}`;
 
@@ -25,12 +34,14 @@ export function ArticleSchema({ post }: ArticleSchemaProps) {
     headline: post.title,
     description: post.excerpt,
     url,
-    datePublished: post.date,
-    dateModified: post.updated,
+    image: `${url}/opengraph-image`,
+    datePublished: toSchemaDateTime(post.date),
+    dateModified: toSchemaDateTime(post.updated),
     author: {
       '@type': 'Person',
       name: post.author.name,
       description: post.author.credentialLine,
+      url: `${SITE_URL}/authors/${post.author.slug}`,
     },
     publisher: {
       '@type': 'Organization',
@@ -42,7 +53,7 @@ export function ArticleSchema({ post }: ArticleSchemaProps) {
       // Not a native schema.org field, but reviewedDate-style extensions
       // are commonly parsed by AI answer engines evaluating trust —
       // included as a best-effort trust signal.
-      dateReviewed: post.lastReviewed,
+      dateReviewed: toSchemaDateTime(post.lastReviewed),
     }),
   };
 
