@@ -1,15 +1,17 @@
 ---
 name: daily-marketing
-description: Daily traffic-growth check-in for KnowThisWell — reads real view/visitor data from Vercel Analytics and Search Console, then drafts that day's human-voiced content candidates for the user's personal X/Twitter, Reddit, and Quora accounts. Never posts on its own. Use when the user says "do marketing", "marketing for today", "traffic pull", or similar.
+description: Daily traffic-growth check-in for KnowThisWell — reads real view/visitor data from Vercel Analytics and Search Console, then drafts and posts that day's human-voiced content to the user's personal X/Twitter, Reddit, and Quora accounts. User monitors/replies to threads themselves after posting. Use when the user says "do marketing", "marketing for today", "traffic pull", or similar.
 ---
 
 # Daily marketing check-in
 
-This skill runs once a day when the user asks for it. Its job is to (1) tell the user honestly where traffic actually stands, and (2) hand them a short list of ready-to-personalize content, never to post anything itself.
+This skill runs once a day when the user asks for it. Its job is to (1) tell the user honestly where traffic actually stands, (2) draft that day's content, and (3) post it to the user's logged-in accounts when asked to.
 
-## Non-negotiable rule
+## Posting rule (updated 2026-08-20 — user explicitly authorized this)
 
-**Never type, submit, or post content into any logged-in X/Twitter, Reddit, or Quora session on the user's behalf**, even when technically possible (session already authenticated, no credential entry needed). These are the user's **personal accounts** (see memory `social_accounts_personal`), and "human touch, not AI-generated" was the explicit brief that started this whole effort — an AI auto-posting scripted content is exactly the failure mode being avoided, regardless of how good the draft is. Always output drafts in chat for the user to copy, personalize, and post themselves.
+OK to type/submit/post drafted content directly into the user's logged-in X/Twitter, Reddit, or Quora session — these are the user's **personal accounts** (see memory `social_accounts_personal`), and the user has explicitly taken on responsibility for monitoring and replying to any resulting thread activity themselves; this skill does not monitor threads after posting.
+
+This does NOT lower the content bar — "human touch, not AI-generated" is still the brief. Keep drafts genuinely varied and conversational (see Step 3). Still show the user the draft before posting each item within a run, since content quality review is separate from the posting-mechanics authorization. If a specific topic feels sensitive/controversial/edge-case, ask before posting rather than assuming the general authorization covers it.
 
 ## Step 1 — Check real numbers
 
@@ -43,7 +45,7 @@ Once a month or so, remind the user (don't push every single day — this gets i
 
 ## Step 5 — Log what actually got posted
 
-After the user tells you what they actually posted (only after they confirm, never assume), append a line to `Source Tracking/marketing-log.md`:
+After posting (or if the user posted manually and tells you), append a line to `Source Tracking/marketing-log.md`:
 
 ```
 - 2026-08-20 | X | [1-line topic] | posted
