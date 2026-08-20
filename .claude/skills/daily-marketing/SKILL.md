@@ -13,6 +13,12 @@ OK to type/submit/post drafted content directly into the user's logged-in X/Twit
 
 This does NOT lower the content bar — "human touch, not AI-generated" is still the brief. Keep drafts genuinely varied and conversational (see Step 3). Still show the user the draft before posting each item within a run, since content quality review is separate from the posting-mechanics authorization. If a specific topic feels sensitive/controversial/edge-case, ask before posting rather than assuming the general authorization covers it.
 
+## Accounts registry + skip rule
+
+Before posting anywhere, check `Source Tracking/accounts-registry.md` — confirm the logged-in session on each platform actually matches the account on file (this project has had real cross-account mixups before, e.g. two Namecheap accounts). If a platform isn't logged in, or is logged into the wrong account, **skip just that platform for the day** — log it as `skipped - not logged in` in the marketing log, and keep going with whatever platforms are ready. Don't block the whole run over one channel, and don't attempt to log in or switch accounts yourself.
+
+For the video pipeline specifically (NotebookLM → YouTube), see the separate `daily-video` skill — same accounts-registry/skip rule applies there.
+
 ## Step 1 — Check real numbers
 
 1. Vercel Analytics: navigate to `https://vercel.com/sirisha2709/knowthiswell/analytics`, read Visitors / Page Views for the last 24h and last 7 days. This is the actual "views per day" number the user is tracking toward the 1,000/day milestone.
