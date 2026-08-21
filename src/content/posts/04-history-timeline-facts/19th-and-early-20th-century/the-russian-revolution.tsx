@@ -36,7 +36,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "history-timeline-facts/world-war-i-overview",
     "history-timeline-facts/the-great-depression",
-    "history-timeline-facts/historical-figures/world-leaders-who-changed-history",
+    "history-timeline-facts/world-leaders-who-changed-history",
   ],
   glossary: [
     { term: "Bolshevik", definition: "A member of the radical Marxist faction of the Russian Social Democratic Labour Party led by Vladimir Lenin, which seized power in the October 1917 revolution." },

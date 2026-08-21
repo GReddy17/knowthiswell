@@ -36,8 +36,8 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "language-vocabulary/british-vs-american-english-differences",
     "language-vocabulary/loanwords-in-english-words-borrowed-from-other-languages",
-    "language-vocabulary/grammar-foundations/parts-of-speech-explained",
-    "history-timeline-facts/medieval-history/the-middle-ages-in-europe-overview",
+    "language-vocabulary/parts-of-speech-explained",
+    "history-timeline-facts/the-middle-ages-in-europe-overview",
   ],
   glossary: [
     { term: "Old English", definition: "The earliest stage of English (roughly 450–1150 CE), a West Germanic language brought to Britain by Anglo-Saxon settlers — largely unreadable to modern English speakers without study." },

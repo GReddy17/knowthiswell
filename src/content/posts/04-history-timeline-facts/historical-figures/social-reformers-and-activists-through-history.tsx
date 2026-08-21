@@ -35,8 +35,8 @@ export const metadata: PostFrontmatter = {
     { label: "Nobel Prize — Malala Yousafzai biographical", url: "https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/" },
   ],
   seeAlso: [
-    "history-timeline-facts/historical-figures/world-leaders-who-changed-history",
-    "history-timeline-facts/historical-figures/scientists-who-changed-history",
+    "history-timeline-facts/world-leaders-who-changed-history",
+    "history-timeline-facts/scientists-who-changed-history",
   ],
   glossary: [
     { term: "Suffrage", definition: "The right to vote in political elections; the suffrage movement fought specifically to extend voting rights to women, and in some countries, to other excluded groups." },

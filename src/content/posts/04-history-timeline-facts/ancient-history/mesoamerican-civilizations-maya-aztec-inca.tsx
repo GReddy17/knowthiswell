@@ -96,7 +96,7 @@ export default function Post() {
       </div>
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Case 3: The Inca road network and quipu record-keeping (real-world / applied case)</h3>
       <div className="prose-p">
-      The Inca Empire, at its height covering roughly 40,000 kilometers of the Andes from modern-day Ecuador to Chile, built and maintained a road network of over 30,000 kilometers connecting the empire, used by relay runners called chasquis who could carry messages across hundreds of kilometers in days. Remarkably, the Inca managed this vast, centrally administered empire — including detailed census and tax records — without a written alphabet, instead using quipu, knotted cords in which the type, position, and color of knots recorded numerical (and likely some narrative) information, a system scholars are still working to fully decode today.
+      The Inca Empire, at its height stretching roughly 4,000 kilometers along the Andes from modern-day Ecuador to Chile, built and maintained a road network of over 30,000 kilometers connecting the empire, used by relay runners called chasquis who could carry messages across hundreds of kilometers in days. Remarkably, the Inca managed this vast, centrally administered empire — including detailed census and tax records — without a written alphabet, instead using quipu, knotted cords in which the type, position, and color of knots recorded numerical (and likely some narrative) information, a system scholars are still working to fully decode today.
       </div>
 
       <QuickCheck
@@ -154,7 +154,8 @@ export default function Post() {
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Related terms</h2>
       <GlossaryStrip terms={metadata.glossary ?? []} />
-
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">See also</h2>
+      <SeeAlsoList slugs={metadata.seeAlso ?? []} />
     </>
   );
 }

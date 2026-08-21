@@ -33,9 +33,9 @@ export const metadata: PostFrontmatter = {
     { label: "Encyclopaedia Britannica — Vocabulary", url: "https://www.britannica.com/topic/vocabulary" },
   ],
   seeAlso: [
-    "language-vocabulary/vocabulary-for-specific-contexts/academic-vocabulary",
-    "language-vocabulary/vocabulary-for-specific-contexts/everyday-conversational-phrases",
-    "language-vocabulary/grammar-foundations/active-vs-passive-voice",
+    "language-vocabulary/academic-vocabulary",
+    "language-vocabulary/everyday-conversational-phrases",
+    "language-vocabulary/active-vs-passive-voice",
   ],
   glossary: [
     { term: "Stakeholder", definition: "Anyone with an interest in or affected by a decision or project — broader and more precise than 'client' or 'boss,' since it can include employees, investors, customers, and the public." },

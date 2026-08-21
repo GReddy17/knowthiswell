@@ -36,10 +36,10 @@ export const metadata: PostFrontmatter = {
     { label: "Reserve Bank of India — Language Panel on Banknotes", url: "https://www.rbi.org.in/commonman/english/Currency/Scripts/LanguagePanelonNotes.aspx" },
   ],
   seeAlso: [
-    "language-vocabulary/indian-and-regional-languages/sanskrits-influence-on-modern-languages",
-    "language-vocabulary/indian-and-regional-languages/regional-scripts-explained-devanagari-tamil-telugu-etc",
-    "language-vocabulary/world-languages/language-families-explained",
-    "history-timeline-facts/medieval-history/medieval-india-major-dynasties-overview",
+    "language-vocabulary/sanskrits-influence-on-modern-languages",
+    "language-vocabulary/regional-scripts-explained-devanagari-tamil-telugu-etc",
+    "language-vocabulary/language-families-explained",
+    "history-timeline-facts/medieval-india-major-dynasties-overview",
   ],
   glossary: [
     { term: "Scheduled language", definition: "One of 22 languages formally listed in the Eighth Schedule of the Constitution of India, given a defined status for translation, promotion, and inclusion in certain official processes — not the same thing as being a 'national language.'" },

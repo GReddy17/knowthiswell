@@ -33,9 +33,9 @@ export const metadata: PostFrontmatter = {
     { label: "Britannica — Blend (linguistics)", url: "https://www.britannica.com/topic/blend-linguistics" },
   ],
   seeAlso: [
-    "language-vocabulary/fun-with-language/palindromes-and-wordplay",
-    "language-vocabulary/fun-with-language/common-foreign-phrases-used-in-english",
-    "language-vocabulary/grammar-foundations/parts-of-speech-explained",
+    "language-vocabulary/palindromes-and-wordplay",
+    "language-vocabulary/common-foreign-phrases-used-in-english",
+    "language-vocabulary/parts-of-speech-explained",
   ],
   glossary: [
     { term: "Portmanteau word", definition: "A word formed by blending the sounds and meanings of two or more other words, typically the start of one and the end of another — 'brunch' from 'breakfast' and 'lunch.' Also called a blend." },

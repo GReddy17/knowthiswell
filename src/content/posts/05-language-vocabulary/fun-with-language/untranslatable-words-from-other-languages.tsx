@@ -33,9 +33,9 @@ export const metadata: PostFrontmatter = {
     { label: "Merriam-Webster — Schadenfreude and Other German Words Without Translation", url: "https://www.merriam-webster.com/wordplay/untranslatable-german-words" },
   ],
   seeAlso: [
-    "language-vocabulary/fun-with-language/common-foreign-phrases-used-in-english",
-    "language-vocabulary/fun-with-language/portmanteau-words-blended-words",
-    "language-vocabulary/world-languages/language-families-explained",
+    "language-vocabulary/common-foreign-phrases-used-in-english",
+    "language-vocabulary/portmanteau-words-blended-words",
+    "language-vocabulary/language-families-explained",
   ],
   glossary: [
     { term: "Lexical gap", definition: "A concept that a language has no single word for, even though the idea itself can usually still be expressed with a phrase or description. This is the technical term behind most 'untranslatable word' claims." },

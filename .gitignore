@@ -12,3 +12,9 @@ out/
 # not from git), this just keeps them out of version control.
 .claude/skills/
 .claude/private/
+.agents/
+skills-lock.json
+
+# Dropped custom TTS+animation video experiment (Piper/Kokoro/Welly) —
+# 500MB+ of local render assets, not part of the deployed site.
+video-pipeline/

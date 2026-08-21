@@ -34,10 +34,10 @@ export const metadata: PostFrontmatter = {
     { label: "Smithsonian Institution", url: "https://www.si.edu/" },
   ],
   seeAlso: [
-    "festivals-culture/major-indian-festivals/diwali-explained",
-    "festivals-culture/major-indian-festivals/holi-explained",
-    "festivals-culture/major-indian-festivals/navratri-and-durga-puja",
-    "festivals-culture/culture-curiosities/common-festival-myths-and-misconceptions",
+    "festivals-culture/diwali-explained",
+    "festivals-culture/holi-explained",
+    "festivals-culture/navratri-and-durga-puja",
+    "festivals-culture/common-festival-myths-and-misconceptions",
   ],
   glossary: [
     { term: "Rangoli", definition: "Decorative floor patterns made from colored powder, rice flour, sand, or flower petals, traditionally drawn at entrances during festivals like Diwali and Onam to welcome guests and, in Hindu tradition, deities." },

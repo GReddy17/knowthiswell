@@ -1,0 +1,31 @@
+<svg viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="kelvinTitle">
+  <title id="kelvinTitle">A vertical number line running from absolute zero at the bottom to boiling water near the top, with two parallel scales marked alongside it. The left scale is Celsius, showing negative 273.15 at the bottom, 0 in the middle, and 100 near the top. The right scale is Kelvin, showing 0 at the very bottom aligned with Celsius's negative 273.15, 273.15 aligned with Celsius's 0, and 373.15 aligned with Celsius's 100 — both scales rise by identical step sizes, offset by a constant 273.15.</title>
+  <rect width="560" height="400" fill="#FBF8F1"/>
+
+  <text x="200" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Celsius</text>
+  <text x="380" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Kelvin</text>
+
+  <line x1="290" y1="55" x2="290" y2="355" stroke="#2C4A3E" stroke-width="2"/>
+
+  <!-- boiling water -->
+  <circle cx="290" cy="80" r="6" fill="#B5493A"/>
+  <text x="230" y="85" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">100°C (water boils)</text>
+  <text x="350" y="85" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">373.15 K</text>
+
+  <!-- room temp -->
+  <circle cx="290" cy="180" r="6" fill="#2C4A3E"/>
+  <text x="230" y="185" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">20°C (room temp)</text>
+  <text x="350" y="185" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">293.15 K</text>
+
+  <!-- water freezes -->
+  <circle cx="290" cy="240" r="6" fill="#B08C3A"/>
+  <text x="230" y="245" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">0°C (water freezes)</text>
+  <text x="350" y="245" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">273.15 K</text>
+
+  <!-- absolute zero -->
+  <circle cx="290" cy="340" r="6" fill="#1F1B16"/>
+  <text x="230" y="345" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">−273.15°C (absolute zero)</text>
+  <text x="350" y="345" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">0 K</text>
+
+  <text x="280" y="380" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same step size on both scales — Kelvin is just Celsius shifted up by a constant 273.15.</text>
+</svg>

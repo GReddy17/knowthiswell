@@ -1,0 +1,30 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="massWeightTitle">
+  <title id="massWeightTitle">A 70 kilogram mass shown on three scales side by side: on Earth the scale reads 686 newtons, on the Moon the same 70 kilogram mass reads 113 newtons, and on Mars it reads 260 newtons — the mass number stays 70 kilograms in all three boxes while the weight-force number changes with local gravity.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <!-- Earth -->
+  <rect x="30" y="60" width="220" height="170" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="140" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Earth</text>
+  <text x="140" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">mass = 70 kg</text>
+  <text x="140" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">g = 9.8 m/s²</text>
+  <rect x="70" y="155" width="140" height="45" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="140" y="183" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">686 N</text>
+
+  <!-- Moon -->
+  <rect x="280" y="60" width="220" height="170" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Moon</text>
+  <text x="390" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">mass = 70 kg</text>
+  <text x="390" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">g = 1.62 m/s²</text>
+  <rect x="320" y="155" width="140" height="45" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="390" y="183" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">113 N</text>
+
+  <!-- Mars -->
+  <rect x="530" y="60" width="220" height="170" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="640" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Mars</text>
+  <text x="640" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">mass = 70 kg</text>
+  <text x="640" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">g = 3.71 m/s²</text>
+  <rect x="570" y="155" width="140" height="45" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="640" y="183" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">260 N</text>
+
+  <text x="390" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same 70 kg of matter (mass) on all three worlds — the newton reading (weight, a force) changes because local gravity changes.</text>
+</svg>

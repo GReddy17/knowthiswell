@@ -130,7 +130,7 @@ export default function Post() {
         altText="A line graph of world population from ancient times to the present and projected forward to 2100, mostly flat for thousands of years before curving sharply upward starting around the 1800s, with markers at each billion milestone (1 billion in 1804, 2 billion in 1927, 3 billion in 1960, 4 billion in 1974, 5 billion in 1987, 6 billion in 1999, 7 billion in 2011, 8 billion in 2022), and the curve leveling off and gently declining after a projected peak around the mid-2080s."
       />
       <p>
-      Notice how flat the line stays for most of human history, then bends sharply upward starting in the 1800s — and how the gaps between billion-milestones shrink dramatically at first (123 years between 1 and 2 billion, but just 12 years between 7 and 8 billion) before the curve&apos;s slope starts easing off again toward the projected peak on the right side of the graph.
+      Notice how flat the line stays for most of human history, then bends sharply upward starting in the 1800s — and how the gaps between billion-milestones shrink dramatically at first (123 years between 1 and 2 billion, but just 11 years between 7 and 8 billion) before the curve&apos;s slope starts easing off again toward the projected peak on the right side of the graph.
       </p>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>

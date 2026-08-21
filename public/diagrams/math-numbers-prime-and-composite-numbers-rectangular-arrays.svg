@@ -1,0 +1,32 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="primeTitle">
+  <title id="primeTitle">12 dots arranged into two different rectangular grids (3 by 4 and 2 by 6), showing 12 is composite, next to 7 dots that can only form a single line, showing 7 is prime</title>
+  <rect width="640" height="360" fill="#FBF8F1"/>
+
+  <text x="320" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700" fill="#20362D">Can you arrange the dots into a rectangle?</text>
+
+  <!-- 12 as 3x4 -->
+  <text x="130" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#2C4A3E">12 dots — 3 &#215; 4</text>
+  <g fill="#2C4A3E">
+    <circle cx="70" cy="105" r="7"/><circle cx="100" cy="105" r="7"/><circle cx="130" cy="105" r="7"/><circle cx="160" cy="105" r="7"/>
+    <circle cx="70" cy="135" r="7"/><circle cx="100" cy="135" r="7"/><circle cx="130" cy="135" r="7"/><circle cx="160" cy="135" r="7"/>
+    <circle cx="70" cy="165" r="7"/><circle cx="100" cy="165" r="7"/><circle cx="130" cy="165" r="7"/><circle cx="160" cy="165" r="7"/>
+  </g>
+
+  <!-- 12 as 2x6 -->
+  <text x="130" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#2C4A3E">12 dots — 2 &#215; 6</text>
+  <g fill="#2C4A3E">
+    <circle cx="55" cy="235" r="7"/><circle cx="85" cy="235" r="7"/><circle cx="115" cy="235" r="7"/><circle cx="145" cy="235" r="7"/><circle cx="175" cy="235" r="7"/><circle cx="205" cy="235" r="7"/>
+    <circle cx="55" cy="265" r="7"/><circle cx="85" cy="265" r="7"/><circle cx="115" cy="265" r="7"/><circle cx="145" cy="265" r="7"/><circle cx="175" cy="265" r="7"/><circle cx="205" cy="265" r="7"/>
+  </g>
+  <text x="130" y="310" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#8B6F4E">multiple rectangles possible &#8594; composite</text>
+
+  <!-- divider -->
+  <line x1="340" y1="70" x2="340" y2="330" stroke="#1F1B16" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+
+  <!-- 7 dots, only 1x7 -->
+  <text x="490" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#C9412C">7 dots — only 1 &#215; 7</text>
+  <g fill="#C9412C">
+    <circle cx="400" cy="150" r="7"/><circle cx="430" cy="150" r="7"/><circle cx="460" cy="150" r="7"/><circle cx="490" cy="150" r="7"/><circle cx="520" cy="150" r="7"/><circle cx="550" cy="150" r="7"/><circle cx="580" cy="150" r="7"/>
+  </g>
+  <text x="490" y="310" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#8B6F4E">no other rectangle fits &#8594; prime</text>
+</svg>

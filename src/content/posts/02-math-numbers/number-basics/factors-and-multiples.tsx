@@ -98,6 +98,14 @@ export default function Post() {
       A teacher has 24 students and wants to split them into equal groups with no one left over. The valid group sizes are exactly the factors of 24 — 1, 2, 3, 4, 6, 8, 12, or 24 students per group. Trying to split into groups of 5 or 7 would leave students without a group, since 5 and 7 aren&apos;t factors of 24.
       </div>
 
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
+      <DiagramBlock
+      title="The factor pairs of 18"
+      type="detail"
+      svgSrc="/diagrams/math-numbers-factors-and-multiples-factor-pairs-of-18.svg"
+      altText="The number 18 with its factor pairs connected by arcs: 1 and 18, 2 and 9, 3 and 6, showing every factor comes paired with another factor"
+      />
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
       <MistakeList
       items={[

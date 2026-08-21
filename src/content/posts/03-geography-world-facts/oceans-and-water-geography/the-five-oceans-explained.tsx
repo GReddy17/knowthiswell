@@ -103,7 +103,7 @@ export default function Post() {
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 1: Comparing the five oceans by size (baseline case)</h3>
       <div className="prose-p">
-      By area, from largest to smallest: the Pacific Ocean covers about 165 million km² — larger than all of Earth&apos;s landmasses combined — followed by the Atlantic at roughly 106 million km², the Indian Ocean at about 70 million km², the Southern Ocean at approximately 20 million km² (using the 60°S boundary), and the Arctic Ocean, smallest by far, at around 14 million km², an area barely larger than Russia. The Pacific alone holds close to half of all the free-flowing water on Earth&apos;s surface.
+      By area, from largest to smallest: the Pacific Ocean covers about 165 million km² — larger than all of Earth&apos;s landmasses combined — followed by the Atlantic at roughly 106 million km², the Indian Ocean at about 70 million km², the Southern Ocean at approximately 20 million km² (using the 60°S boundary), and the Arctic Ocean, smallest by far, at around 14 million km², an area somewhat smaller than Russia&apos;s total land area. The Pacific alone holds close to half of all the free-flowing water on Earth&apos;s surface.
       </div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 2: Why the Southern Ocean&apos;s boundary is still debated (edge case / variation)</h3>

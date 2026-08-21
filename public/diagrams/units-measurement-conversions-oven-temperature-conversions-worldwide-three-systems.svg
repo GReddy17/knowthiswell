@@ -1,0 +1,34 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ovenTitle">
+  <title id="ovenTitle">A horizontal table-style diagram with three columns labeled Celsius, Fahrenheit, and Gas Mark, and four rows showing approximately matching oven temperatures: 140C/275F/Gas Mark 1, 180C/350F/Gas Mark 4, 200C/400F/Gas Mark 6, and 230C/450F/Gas Mark 8, with a note that gas mark values are approximate.</title>
+  <rect width="620" height="300" fill="#FBF8F1"/>
+
+  <text x="150" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Celsius</text>
+  <text x="330" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Fahrenheit</text>
+  <text x="500" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Gas Mark</text>
+  <line x1="30" y1="46" x2="590" y2="46" stroke="#2C4A3E" stroke-width="2"/>
+
+  <!-- rows -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" fill="#1F1B16" text-anchor="middle">
+    <rect x="30" y="60" width="560" height="46" rx="8" fill="#EEF3EE"/>
+    <text x="150" y="88">140°C</text>
+    <text x="330" y="88">275°F</text>
+    <text x="500" y="88">1</text>
+
+    <rect x="30" y="116" width="560" height="46" rx="8" fill="#FBEDEA"/>
+    <text x="150" y="144">180°C</text>
+    <text x="330" y="144">350°F</text>
+    <text x="500" y="144">4</text>
+
+    <rect x="30" y="172" width="560" height="46" rx="8" fill="#EEF3EE"/>
+    <text x="150" y="200">200°C</text>
+    <text x="330" y="200">400°F</text>
+    <text x="500" y="200">6</text>
+
+    <rect x="30" y="228" width="560" height="46" rx="8" fill="#FBEDEA"/>
+    <text x="150" y="256">230°C</text>
+    <text x="330" y="256">450°F</text>
+    <text x="500" y="256">8</text>
+  </g>
+
+  <text x="310" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Gas mark values are approximate — different sources round the equivalence slightly differently.</text>
+</svg>

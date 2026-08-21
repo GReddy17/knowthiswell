@@ -35,8 +35,8 @@ export const metadata: PostFrontmatter = {
   ],
   seeAlso: [
     "language-vocabulary/history-of-the-english-language",
-    "language-vocabulary/vocabulary-for-specific-contexts/everyday-conversational-phrases",
-    "language-vocabulary/grammar-foundations/parts-of-speech-explained",
+    "language-vocabulary/everyday-conversational-phrases",
+    "language-vocabulary/parts-of-speech-explained",
   ],
   glossary: [
     { term: "Loanword", definition: "A word one language adopts from another, usually becoming fully naturalized in spelling and pronunciation over time — English has taken loanwords from more than 350 languages." },

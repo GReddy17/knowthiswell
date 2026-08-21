@@ -1,0 +1,16 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="landAreaTitle">
+  <title id="landAreaTitle">A large square representing one hectare, ten thousand square meters, with a smaller square nested inside it representing one acre, about four thousand and forty seven square meters, showing an acre is a little over forty percent the size of a hectare.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">1 hectare vs. 1 acre (to scale by area)</text>
+
+  <rect x="230" y="55" width="240" height="240" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="350" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1F1B16">1 hectare</text>
+  <text x="350" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">10,000 m²</text>
+
+  <rect x="255" y="120" width="153" height="153" fill="#FBEDEA" stroke="#B5493A" stroke-width="2.2"/>
+  <text x="331" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">1 acre</text>
+  <text x="331" y="213" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">4,046.86 m²</text>
+  <text x="331" y="229" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">43,560 ft²</text>
+
+  <text x="390" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">1 hectare ≈ 2.47 acres — an acre is about 40.5% of a hectare by area.</text>
+</svg>

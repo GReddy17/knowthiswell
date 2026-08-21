@@ -1,0 +1,30 @@
+<svg viewBox="0 0 780 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="btuTitle">
+  <title id="btuTitle">A horizontal flow diagram showing three boxes connected by arrows. The first box reads 8000 BTU per hour, labeled appliance rating. An arrow labeled multiply by 0.000293071 points to the second box reading 2.34 kilowatts, labeled power in kilowatts. A second arrow labeled multiply by hours running points to the third box reading total kilowatt hours used, labeled energy consumed.</title>
+  <rect width="780" height="220" fill="#FBF8F1"/>
+
+  <rect x="20" y="70" width="190" height="90" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="115" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">8,000 BTU/h</text>
+  <text x="115" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">appliance rating</text>
+
+  <text x="255" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">× 0.000293071</text>
+  <path d="M215 115 L295 115" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowB)"/>
+
+  <rect x="305" y="70" width="190" height="90" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="400" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">2.34 kW</text>
+  <text x="400" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">power in kilowatts</text>
+
+  <text x="545" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">× hours running</text>
+  <path d="M500 115 L580 115" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowB)"/>
+
+  <rect x="590" y="70" width="170" height="90" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="675" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Total kWh</text>
+  <text x="675" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">energy consumed</text>
+
+  <defs>
+    <marker id="arrowB" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Rate (BTU/h) × conversion factor = power (kW); power × time = total energy used.</text>
+</svg>

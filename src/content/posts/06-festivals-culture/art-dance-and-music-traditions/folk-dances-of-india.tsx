@@ -34,10 +34,10 @@ export const metadata: PostFrontmatter = {
     { label: "Encyclopaedia Britannica — South Asian arts", url: "https://www.britannica.com/art/South-Asian-arts" },
   ],
   seeAlso: [
-    "festivals-culture/art-dance-and-music-traditions/classical-indian-dance-forms-overview",
-    "festivals-culture/art-dance-and-music-traditions/world-dance-traditions-overview",
-    "festivals-culture/major-indian-festivals/navratri-and-durga-puja",
-    "festivals-culture/major-indian-festivals/pongal-and-makar-sankranti",
+    "festivals-culture/classical-indian-dance-forms-overview",
+    "festivals-culture/world-dance-traditions-overview",
+    "festivals-culture/navratri-and-durga-puja",
+    "festivals-culture/pongal-and-makar-sankranti",
   ],
   glossary: [
     { term: "Folk dance", definition: "A community dance tradition, tied to a region, occasion, or season, that is passed on informally rather than through a codified, formally examined training system." },

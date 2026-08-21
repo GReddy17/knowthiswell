@@ -34,10 +34,10 @@ export const metadata: PostFrontmatter = {
     { label: "Smithsonian Center for Folklife and Cultural Heritage", url: "https://festival.si.edu/" },
   ],
   seeAlso: [
-    "festivals-culture/art-dance-and-music-traditions/classical-indian-dance-forms-overview",
-    "festivals-culture/art-dance-and-music-traditions/folk-dances-of-india",
-    "festivals-culture/art-dance-and-music-traditions/traditional-music-instruments-around-the-world",
-    "festivals-culture/culture-curiosities/common-festival-myths-and-misconceptions",
+    "festivals-culture/classical-indian-dance-forms-overview",
+    "festivals-culture/folk-dances-of-india",
+    "festivals-culture/traditional-music-instruments-around-the-world",
+    "festivals-culture/common-festival-myths-and-misconceptions",
   ],
   glossary: [
     { term: "Intangible cultural heritage", definition: "Living cultural practices — including dance, music, oral traditions, and rituals — recognized and safeguarded under UNESCO's 2003 Convention, as distinct from physical heritage sites like monuments." },

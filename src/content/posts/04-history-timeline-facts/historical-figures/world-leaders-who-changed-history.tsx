@@ -35,8 +35,8 @@ export const metadata: PostFrontmatter = {
     { label: "Encyclopaedia Britannica — Mahatma Gandhi", url: "https://www.britannica.com/biography/Mahatma-Gandhi" },
   ],
   seeAlso: [
-    "history-timeline-facts/historical-figures/social-reformers-and-activists-through-history",
-    "history-timeline-facts/historical-figures/scientists-who-changed-history",
+    "history-timeline-facts/social-reformers-and-activists-through-history",
+    "history-timeline-facts/scientists-who-changed-history",
     "history-timeline-facts/the-age-of-empires-19th-century-global-overview",
   ],
   glossary: [

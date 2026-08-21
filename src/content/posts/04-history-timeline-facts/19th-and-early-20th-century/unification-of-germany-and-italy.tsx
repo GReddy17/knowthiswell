@@ -36,7 +36,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "history-timeline-facts/the-age-of-empires-19th-century-global-overview",
     "history-timeline-facts/world-war-i-overview",
-    "history-timeline-facts/historical-figures/world-leaders-who-changed-history",
+    "history-timeline-facts/world-leaders-who-changed-history",
   ],
   glossary: [
     { term: "Nation-state", definition: "A country whose borders are defined around a single, unified national identity, rather than a collection of separate kingdoms or principalities." },

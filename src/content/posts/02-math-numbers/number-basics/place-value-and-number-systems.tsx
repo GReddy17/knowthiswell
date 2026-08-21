@@ -100,6 +100,14 @@ export default function Post() {
       Place value doesn&apos;t stop at the ones place — it continues to the right of the decimal point with fractions of ten. In 12.34, the 3 is in the tenths place (3 × 1/10 = 0.3) and the 4 is in the hundredths place (4 × 1/100 = 0.04). This is exactly why aligning decimal points correctly matters so much when adding or comparing decimals: 12.34 + 1.2 is not 13.54 unless you line up the tenths with the tenths, not the last digit with the last digit.
       </div>
 
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
+      <DiagramBlock
+      title="5,204 broken into place value columns"
+      type="detail"
+      svgSrc="/diagrams/math-numbers-place-value-and-number-systems-column-chart.svg"
+      altText="The number 5,204 broken into place value columns: thousands, hundreds, tens, and ones, each shown with its column value"
+      />
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
       <MistakeList
       items={[

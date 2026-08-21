@@ -35,10 +35,10 @@ export const metadata: PostFrontmatter = {
     { label: "BBC Religion — Diwali", url: "https://www.bbc.co.uk/religion/religions/hinduism/holydays/diwali.shtml" },
   ],
   seeAlso: [
-    "festivals-culture/major-indian-festivals/diwali-explained",
-    "festivals-culture/major-indian-festivals/holi-explained",
-    "festivals-culture/major-indian-festivals/navratri-and-durga-puja",
-    "festivals-culture/art-dance-and-music-traditions/classical-indian-dance-forms-overview",
+    "festivals-culture/diwali-explained",
+    "festivals-culture/holi-explained",
+    "festivals-culture/navratri-and-durga-puja",
+    "festivals-culture/classical-indian-dance-forms-overview",
   ],
   glossary: [
     { term: "Syncretism", definition: "The blending of different cultural or religious traditions into a new combined practice — a common process behind many festivals that appear to have one simple origin but actually layered several traditions over time." },

@@ -100,6 +100,14 @@ export default function Post() {
       A recipe calls for 3/4 cup of flour, and you want to make half the recipe. That&apos;s 3/4 × 1/2 = 3/8 cup. Recognizing this as fraction multiplication — not addition — is exactly the everyday skill that fraction fluency is actually for.
       </div>
 
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
+      <DiagramBlock
+      title="3/4 shown as a bar model and a pie model"
+      type="comparison"
+      svgSrc="/diagrams/math-numbers-fractions-explained-bar-and-pie-model.svg"
+      altText="A rectangle divided into 4 equal parts with 3 shaded, and a circle divided into 4 equal slices with 3 shaded, both representing the fraction three fourths"
+      />
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
       <MistakeList
       items={[

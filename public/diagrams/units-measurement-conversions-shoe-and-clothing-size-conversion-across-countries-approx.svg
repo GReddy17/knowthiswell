@@ -1,0 +1,21 @@
+<svg viewBox="0 0 780 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="shoeSizeTitle">
+  <title id="shoeSizeTitle">A row of four boxes showing the same physical foot converted across US, UK, EU, and centimeter sizing systems, with a dashed border on each box indicating the values are approximate rather than exact, unlike the solid-border physical unit conversions elsewhere in this topic.</title>
+  <rect width="780" height="220" fill="#FBF8F1"/>
+  <text x="30" y="34" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">One foot, four regional sizing systems (approximate)</text>
+
+  <rect x="30" y="60" width="160" height="90" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="110" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">US 9</text>
+  <text x="110" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">men's</text>
+
+  <rect x="210" y="60" width="160" height="90" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="290" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">≈ UK 8.5</text>
+
+  <rect x="390" y="60" width="160" height="90" rx="10" fill="#F3ECE4" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="470" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">≈ EU 42</text>
+
+  <rect x="570" y="60" width="180" height="90" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="660" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">≈ 27 cm</text>
+  <text x="660" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">foot length</text>
+
+  <text x="390" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Dashed borders = approximate, brand-dependent — not a fixed physical conversion factor.</text>
+</svg>

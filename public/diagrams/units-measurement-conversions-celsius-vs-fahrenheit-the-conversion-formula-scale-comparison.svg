@@ -1,0 +1,35 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cvfTitle">
+  <title id="cvfTitle">Two vertical thermometer-style scales side by side. The left scale is labeled Celsius with marks at 0 (water freezes), 20 (room temperature), and 100 (water boils). The right scale is labeled Fahrenheit with the same three physical points marked at 32, 68, and 212 respectively, with dashed horizontal lines connecting each pair to show they represent the same physical temperature despite different numbers.</title>
+  <rect width="620" height="380" fill="#FBF8F1"/>
+
+  <text x="170" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Celsius</text>
+  <text x="450" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Fahrenheit</text>
+
+  <!-- Celsius tube -->
+  <rect x="150" y="60" width="40" height="280" rx="18" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <!-- Fahrenheit tube -->
+  <rect x="430" y="60" width="40" height="280" rx="18" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+
+  <!-- boiling (top) -->
+  <circle cx="170" cy="90" r="6" fill="#B5493A"/>
+  <text x="196" y="95" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">100°C (water boils)</text>
+  <circle cx="450" cy="90" r="6" fill="#B5493A"/>
+  <text x="360" y="95" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">212°F</text>
+  <line x1="196" y1="90" x2="424" y2="90" stroke="#4A443C" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <!-- room temp (middle) -->
+  <circle cx="170" cy="210" r="6" fill="#2C4A3E"/>
+  <text x="196" y="215" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">20°C (room temp)</text>
+  <circle cx="450" cy="210" r="6" fill="#2C4A3E"/>
+  <text x="360" y="215" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">68°F</text>
+  <line x1="196" y1="210" x2="424" y2="210" stroke="#4A443C" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <!-- freezing (bottom) -->
+  <circle cx="170" cy="320" r="6" fill="#B08C3A"/>
+  <text x="196" y="325" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">0°C (water freezes)</text>
+  <circle cx="450" cy="320" r="6" fill="#B08C3A"/>
+  <text x="360" y="325" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">32°F</text>
+  <line x1="196" y1="320" x2="424" y2="320" stroke="#4A443C" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <text x="310" y="365" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same physical temperature, different numbers — the +32 offset is the gap between the two zero points.</text>
+</svg>

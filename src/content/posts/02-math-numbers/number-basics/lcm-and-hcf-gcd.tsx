@@ -98,6 +98,14 @@ export default function Post() {
       Bus A leaves every 15 minutes, Bus B leaves every 20 minutes. If they both leave at 9:00 AM, when do they next leave together? That&apos;s LCM(15,20) = 60 minutes — they&apos;ll next coincide at 10:00 AM. This exact pattern — repeating events with different cycles syncing back up — shows up constantly, from bus schedules to gear ratios to blinking lights.
       </div>
 
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
+      <DiagramBlock
+      title="Shared factors of 12 and 18 as a Venn diagram"
+      type="comparison"
+      svgSrc="/diagrams/math-numbers-lcm-and-hcf-gcd-venn-diagram.svg"
+      altText="A Venn diagram of the factors of 12 and 18, with shared factors 1, 2, 3, and 6 in the overlap — the largest shared factor, 6, is the HCF"
+      />
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
       <MistakeList
       items={[

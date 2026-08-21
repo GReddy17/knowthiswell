@@ -1,0 +1,27 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="durationBorrowTitle">
+  <title id="durationBorrowTitle">A subtraction diagram showing 5 hours 20 minutes minus 2 hours 45 minutes, where 45 minutes cannot be subtracted from 20 minutes directly, so 1 hour is borrowed from the 5 hours and converted into 60 minutes, making 80 minutes, then 45 is subtracted from 80 to leave 35 minutes, and 1 hour is subtracted from the remaining 4 hours to leave 2 hours, giving a final result of 2 hours 35 minutes</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Borrowing across the 60-minute boundary</text>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" fill="#1F1B16">
+    <text x="100" y="90" font-weight="700">5h 20m</text>
+    <text x="100" y="120">− 2h 45m</text>
+    <line x1="80" y1="130" x2="220" y2="130" stroke="#2C4A3E" stroke-width="2"/>
+  </g>
+
+  <text x="290" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#4A443C">→</text>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#1F1B16">
+    <text x="330" y="80" font-weight="700">borrow 1h from 5h → 4h</text>
+    <text x="330" y="105">20m + 60m = 80m</text>
+    <rect x="330" y="115" width="220" height="34" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="440" y="137" text-anchor="middle" font-weight="700">4h 80m − 2h 45m</text>
+  </g>
+
+  <text x="620" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#4A443C">=</text>
+
+  <rect x="650" y="80" width="110" height="60" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="705" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#1F1B16">2h 35m</text>
+
+  <text x="390" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same idea as borrowing 10 in decimal subtraction — except each "borrow" here is worth 60, not 10.</text>
+</svg>

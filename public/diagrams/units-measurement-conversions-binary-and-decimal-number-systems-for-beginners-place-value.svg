@@ -1,0 +1,32 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="binaryPlaceValueTitle">
+  <title id="binaryPlaceValueTitle">A place-value comparison showing decimal 13 built from a tens column holding 1 and a ones column holding 3, alongside binary 1101 built from four columns worth 8, 4, 2, and 1, with the 8, 4, and 1 columns filled and the 2 column empty, summing to the same value 13.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="30" y="36" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">The number 13, in two place-value systems</text>
+
+  <!-- Decimal -->
+  <text x="30" y="70" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Decimal (base 10): columns worth powers of 10</text>
+  <rect x="30" y="80" width="70" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="65" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">tens (10)</text>
+  <text x="65" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#1F1B16">1</text>
+  <rect x="106" y="80" width="70" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="141" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">ones (1)</text>
+  <text x="141" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#1F1B16">3</text>
+  <text x="200" y="115" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#4A443C">= 13</text>
+
+  <!-- Binary -->
+  <text x="30" y="175" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Binary (base 2): columns worth powers of 2</text>
+  <rect x="30" y="185" width="60" height="55" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="60" y="207" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">8s</text>
+  <text x="60" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700" fill="#1F1B16">1</text>
+  <rect x="96" y="185" width="60" height="55" rx="8" fill="#F3ECE4" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="126" y="207" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">4s</text>
+  <text x="126" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700" fill="#1F1B16">1</text>
+  <rect x="162" y="185" width="60" height="55" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="192" y="207" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">2s</text>
+  <text x="192" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700" fill="#B5493A">0</text>
+  <rect x="228" y="185" width="60" height="55" rx="8" fill="#F3ECE4" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="258" y="207" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">1s</text>
+  <text x="258" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700" fill="#1F1B16">1</text>
+  <text x="320" y="220" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#4A443C">1101 = 8+4+0+1 = 13</text>
+</svg>

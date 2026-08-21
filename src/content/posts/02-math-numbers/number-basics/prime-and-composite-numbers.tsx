@@ -100,6 +100,14 @@ export default function Post() {
       Modern encryption (the kind protecting your online banking and every HTTPS website) relies on the fact that multiplying two large primes together is fast, but factoring the resulting huge composite number back into those two primes is, with current computers, prohibitively slow if the primes are large enough. RSA encryption is built directly on this asymmetry — easy one direction, hard the other.
       </div>
 
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
+      <DiagramBlock
+      title="12 as rectangles vs 7 with no rectangle"
+      type="comparison"
+      svgSrc="/diagrams/math-numbers-prime-and-composite-numbers-rectangular-arrays.svg"
+      altText="12 dots arranged into two different rectangular grids (3 by 4 and 2 by 6), showing 12 is composite, next to 7 dots that can only form a single line, showing 7 is prime"
+      />
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
       <MistakeList
       items={[

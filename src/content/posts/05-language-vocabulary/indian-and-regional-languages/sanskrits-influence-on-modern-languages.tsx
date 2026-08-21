@@ -35,10 +35,10 @@ export const metadata: PostFrontmatter = {
     { label: "Merriam-Webster — Pundit", url: "https://www.merriam-webster.com/dictionary/pundit" },
   ],
   seeAlso: [
-    "language-vocabulary/indian-and-regional-languages/overview-of-major-indian-languages",
-    "language-vocabulary/indian-and-regional-languages/regional-scripts-explained-devanagari-tamil-telugu-etc",
-    "language-vocabulary/world-languages/language-families-explained",
-    "history-timeline-facts/medieval-history/medieval-india-major-dynasties-overview",
+    "language-vocabulary/overview-of-major-indian-languages",
+    "language-vocabulary/regional-scripts-explained-devanagari-tamil-telugu-etc",
+    "language-vocabulary/language-families-explained",
+    "history-timeline-facts/medieval-india-major-dynasties-overview",
   ],
   glossary: [
     { term: "Tatsama", definition: "A word borrowed directly from Sanskrit into a modern Indo-Aryan language with little or no change, typically used in formal, literary, or technical contexts — comparable to how English borrows Latin and Greek roots for technical vocabulary." },

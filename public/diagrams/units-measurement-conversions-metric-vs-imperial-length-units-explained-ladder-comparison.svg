@@ -1,0 +1,35 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="metricImperialTitle">
+  <title id="metricImperialTitle">Two side-by-side ladders comparing metric and imperial length units. The metric ladder shows millimeter, centimeter, meter, and kilometer connected by clean times-ten steps. The imperial ladder shows inch, foot, yard, and mile connected by irregular multipliers of 12, 3, and 1760.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <text x="195" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">Metric (powers of ten)</text>
+  <text x="585" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#B5493A">Imperial (irregular ratios)</text>
+
+  <!-- Metric ladder -->
+  <rect x="110" y="55" width="170" height="46" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="195" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">millimeter (mm)</text>
+  <text x="195" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">×10</text>
+  <rect x="110" y="120" width="170" height="46" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="195" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">centimeter (cm)</text>
+  <text x="195" y="177" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">×100</text>
+  <rect x="110" y="185" width="170" height="46" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="195" y="213" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">meter (m)</text>
+  <text x="195" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">×1000</text>
+  <rect x="110" y="250" width="170" height="46" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="195" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">kilometer (km)</text>
+
+  <!-- Imperial ladder -->
+  <rect x="500" y="55" width="170" height="46" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="585" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">inch (in)</text>
+  <text x="585" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">×12</text>
+  <rect x="500" y="120" width="170" height="46" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="585" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">foot (ft)</text>
+  <text x="585" y="177" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">×3</text>
+  <rect x="500" y="185" width="170" height="46" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="585" y="213" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">yard (yd)</text>
+  <text x="585" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">×1760</text>
+  <rect x="500" y="250" width="170" height="46" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="585" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">mile (mi)</text>
+
+  <text x="390" y="310" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Metric steps are always a power of ten; imperial steps are inherited historical ratios that must be memorized.</text>
+</svg>

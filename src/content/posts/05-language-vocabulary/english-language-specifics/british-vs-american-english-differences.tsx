@@ -36,7 +36,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "language-vocabulary/history-of-the-english-language",
     "language-vocabulary/regional-english-dialects",
-    "language-vocabulary/grammar-foundations/common-grammar-mistakes",
+    "language-vocabulary/common-grammar-mistakes",
   ],
   glossary: [
     { term: "Rhotic accent", definition: "An accent that pronounces the 'r' sound wherever it's written, including after vowels (e.g. 'car,' 'hard') — typical of most American English, contrasted with 'non-rhotic' accents like Received Pronunciation." },

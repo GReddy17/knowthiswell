@@ -1,0 +1,18 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="flOzTitle">
+  <title id="flOzTitle">Two beaker shapes compared: a US fluid ounce beaker filled to 29.5735 milliliters and a UK imperial fluid ounce beaker filled to a slightly lower line of 28.4131 milliliters, with a callout noting the US fluid ounce is about 4.1 percent larger than the UK fluid ounce, which is the reverse of the gallon relationship where the UK unit is larger</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <!-- US beaker -->
+  <path d="M 220 60 L 220 220 Q 220 235 235 235 L 325 235 Q 340 235 340 220 L 340 60 Z" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+  <rect x="223" y="90" width="114" height="142" fill="#EEF3EE"/>
+  <text x="280" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1F1B16">US fl oz</text>
+  <text x="280" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">29.5735 mL</text>
+
+  <!-- UK beaker -->
+  <path d="M 440 60 L 440 220 Q 440 235 455 235 L 545 235 Q 560 235 560 220 L 560 60 Z" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+  <rect x="443" y="98" width="114" height="134" fill="#FBEDEA"/>
+  <text x="500" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1F1B16">UK fl oz</text>
+  <text x="500" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">28.4131 mL</text>
+
+  <text x="390" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">The US fluid ounce is about 4.1% larger than the UK fluid ounce — the reverse of the gallon relationship.</text>
+</svg>

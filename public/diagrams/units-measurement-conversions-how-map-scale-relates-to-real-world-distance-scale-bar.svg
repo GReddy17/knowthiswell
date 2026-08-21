@@ -1,0 +1,21 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mapScaleTitle">
+  <title id="mapScaleTitle">A ruler measuring 3 centimeters against a small map fragment, with an arrow pointing to a 1 to 50,000 scale label, and a result box showing 3 centimeters on this map equals 1.5 kilometers in the real world.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+  <text x="390" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">Reading a 1:50,000 scale map</text>
+
+  <rect x="60" y="70" width="260" height="120" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="190" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">map ruler: 3 cm</text>
+  <line x1="90" y1="130" x2="290" y2="130" stroke="#2C4A3E" stroke-width="3"/>
+  <line x1="90" y1="122" x2="90" y2="138" stroke="#2C4A3E" stroke-width="2"/>
+  <line x1="290" y1="122" x2="290" y2="138" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="190" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">scale label: 1 : 50,000</text>
+
+  <text x="358" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#4A443C">→</text>
+
+  <rect x="400" y="70" width="320" height="120" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="560" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">3 cm × 50,000 = 150,000 cm</text>
+  <text x="560" y="138" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">150,000 cm ÷ 100,000</text>
+  <text x="560" y="166" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#B5493A">= 1.5 real km</text>
+
+  <text x="390" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">The scale denominator (50,000) is how many real centimeters equal one map centimeter.</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stoneTitle">
+  <title id="stoneTitle">A box reading 1 stone equals 14 pounds, next to a box reading 1 stone equals about 6.35 kilograms, showing a person's weight of 11 stone converting to 154 pounds and about 69.85 kilograms.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="30" y="40" width="220" height="80" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="140" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">1 stone</text>
+  <text x="140" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">= 14 pounds</text>
+
+  <rect x="290" y="40" width="220" height="80" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="400" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">1 stone</text>
+  <text x="400" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">≈ 6.35 kg</text>
+
+  <rect x="550" y="40" width="200" height="80" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="650" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">11 stone person</text>
+  <text x="650" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">154 lb / 69.85 kg</text>
+
+  <text x="140" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">14 lb per stone (fixed,</text>
+  <text x="140" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">customary-system only)</text>
+
+  <text x="400" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">derived by multiplying</text>
+  <text x="400" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">14 × 0.453592 kg/lb</text>
+
+  <text x="390" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">UK body-weight conversation still runs in stone; medical charts and most of the rest of the world use kilograms or pounds directly.</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="kgLbOzTitle">
+  <title id="kgLbOzTitle">A horizontal ladder showing 1 kilogram equals 2.20462 pounds equals 35.274 ounces, with arrows showing the multiplication factors linking each unit to the next.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="30" y="90" width="180" height="90" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="120" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">1 kilogram</text>
+  <text x="120" y="152" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">base SI unit</text>
+
+  <text x="248" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">× 2.20462</text>
+  <path d="M215 135 L285 135" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="300" y="90" width="180" height="90" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">2.20462 lb</text>
+  <text x="390" y="152" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">avoirdupois pounds</text>
+
+  <text x="518" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">× 16</text>
+  <path d="M485 135 L555 135" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="570" y="90" width="180" height="90" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="660" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">35.274 oz</text>
+  <text x="660" y="152" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">16 oz per pound</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Each step is its own fixed factor — kilograms to pounds is a metric-to-customary conversion; pounds to ounces stays entirely within the customary system.</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="teuTitle">
+  <title id="teuTitle">Two shipping container boxes drawn to relative scale: a 20-foot standard container with about 33 cubic meters of internal capacity, counted as 1 TEU, and a 40-foot container drawn twice as long with about 67 cubic meters of internal capacity, counted as 2 TEU, illustrating that a 40-foot container is not simply "twice a 20-foot box" in name only but genuinely close to double the internal volume</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="80" y="110" width="140" height="70" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="150" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">20-ft container</text>
+  <text x="150" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">≈ 33.2 m³ · 1 TEU</text>
+
+  <rect x="320" y="110" width="280" height="70" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="460" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">40-ft container</text>
+  <text x="460" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">≈ 67.7 m³ · 2 TEU</text>
+
+  <text x="390" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">Length ratio: 40 ft ≈ 2× a 20 ft box</text>
+
+  <text x="390" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">TEU = "twenty-foot equivalent unit" — the shipping industry's standard capacity-counting unit.</text>
+</svg>

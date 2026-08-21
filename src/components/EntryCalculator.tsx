@@ -216,6 +216,31 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
   heightInUnitsOf: (v) => v.totalHeightM / v.unitHeightM, // how many "unit" heights stack to reach a total height/depth
   yearsSinceYear: (v) => new Date().getFullYear() - v.year, // years elapsed since a given calendar year (e.g. a historical event)
   historicalDurationYears: (v) => Math.abs(v.endYear - v.startYear), // length in years between a historical start and end year (e.g. an empire's founding and dissolution)
+  elevationTemperatureDrop: (v) => v.baseTemperatureC - (v.elevationMeters / 1000) * 6.5, // average tropospheric lapse rate: ~6.5°C cooler per 1,000m of elevation gain
+
+  // --- Units & Measurement Conversions (topic 7) ---
+  heightFeetInchesToCm: (v) => (v.feet * 12 + v.inches) * 2.54, // combined feet+inches height to centimeters
+  massWeightForceNewtons: (v) => v.massKg * v.gravityMPerS2, // weight (a force) = mass * local gravitational acceleration
+  dimensionalWeightLbs: (v) => (v.lengthIn * v.widthIn * v.heightIn) / v.dimFactor, // carrier dimensional-weight formula, dimFactor commonly 166 for domestic air
+  medicineDoseMgFromWeight: (v) => v.doseMgPerKg * v.weightKg, // general-literacy weight-based dosing illustration, not medical advice
+  celsiusToFahrenheit: (v) => (v.celsius * 9) / 5 + 32,
+  celsiusToKelvin: (v) => v.celsius + 273.15,
+  ovenGasMarkToCelsius: (v) => v.gasMark * 14 + 121, // approximate UK gas mark to Celsius
+  windChillApproxC: (v) => 13.12 + 0.6215 * v.tempC - 11.37 * Math.pow(v.windKmh, 0.16) + 0.3965 * v.tempC * Math.pow(v.windKmh, 0.16), // Environment Canada / NWS wind chill formula
+  electricityCostFromKwh: (v) => (v.powerWatts / 1000) * v.hours * v.ratePerKwh,
+  decimalHoursFrom24h: (v) => v.hour24 + v.minute / 60,
+  mpgToLPer100km: (v) => 235.214 / v.mpg, // reciprocal-style conversion between fuel economy systems
+  isLeapYearFlag: (v) => {
+    const y = Math.floor(v.year);
+    return (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0 ? 1 : 0;
+  },
+  unitRatePerQuantity: (v) => v.totalValue / v.totalQuantity, // price/speed/pace per single unit
+  durationMinutesBetweenClockTimes: (v) => (v.endHour * 60 + v.endMinute) - (v.startHour * 60 + v.startMinute),
+  clockShiftHours: (v) => v.newUtcOffset - v.oldUtcOffset,
+  combinedWorkRateHours: (v) => 1 / (1 / v.hoursA + 1 / v.hoursB), // classic combined work-rate ("pipes filling a tank") formula
+  mbpsToMBps: (v) => v.mbps / 8, // bits to bytes: divide by 8
+  usToEuShoeSizeApprox: (v) => v.usSize + 33, // rough men's US-to-EU approximation; brands vary
+  screenPpiFromResolution: (v) => Math.sqrt(v.widthPx * v.widthPx + v.heightPx * v.heightPx) / v.diagonalInches,
 };
 
 interface EntryCalculatorProps {

@@ -139,7 +139,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="Roman numerals can represent any number just as efficiently as the modern number system."
-        reality={<p>Roman numerals get dramatically longer and harder to read as numbers grow, because the system has no place value and no zero to compress information the way modern digits do. The number 3,888, for instance, requires eleven symbols (MMMDCCCLXXXVIII) — modern notation needs only four digits. There&apos;s also no clean, native way to represent zero, negative numbers, or fractions smaller than 1/12 in the classical system, and no simple method for multiplying or dividing two Roman numerals directly. Roman numerals work well for labeling — clock faces, chapter numbers, championship games — precisely because those uses only ever need to represent one fixed number at a time, never to calculate with it.</p>}
+        reality={<p>Roman numerals get dramatically longer and harder to read as numbers grow, because the system has no place value and no zero to compress information the way modern digits do. The number 3,888, for instance, requires fifteen symbols (MMMDCCCLXXXVIII) — modern notation needs only four digits. There&apos;s also no clean, native way to represent zero, negative numbers, or fractions smaller than 1/12 in the classical system, and no simple method for multiplying or dividing two Roman numerals directly. Roman numerals work well for labeling — clock faces, chapter numbers, championship games — precisely because those uses only ever need to represent one fixed number at a time, never to calculate with it.</p>}
       />
 
       <QuickCheck

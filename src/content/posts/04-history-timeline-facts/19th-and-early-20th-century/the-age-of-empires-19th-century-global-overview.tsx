@@ -36,7 +36,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "history-timeline-facts/unification-of-germany-and-italy",
     "history-timeline-facts/world-war-i-overview",
-    "history-timeline-facts/historical-figures/world-leaders-who-changed-history",
+    "history-timeline-facts/world-leaders-who-changed-history",
   ],
   glossary: [
     { term: "Imperialism", definition: "The policy of a nation extending its power over other territories, typically through conquest, settlement, or economic domination." },

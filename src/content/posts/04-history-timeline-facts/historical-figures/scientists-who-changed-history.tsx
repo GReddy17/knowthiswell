@@ -35,8 +35,8 @@ export const metadata: PostFrontmatter = {
     { label: "NASA — Katherine Johnson biography", url: "https://www.nasa.gov/former-nasa-mathematician-katherine-johnson/" },
   ],
   seeAlso: [
-    "history-timeline-facts/historical-figures/world-leaders-who-changed-history",
-    "history-timeline-facts/historical-figures/social-reformers-and-activists-through-history",
+    "history-timeline-facts/world-leaders-who-changed-history",
+    "history-timeline-facts/social-reformers-and-activists-through-history",
   ],
   glossary: [
     { term: "Scientific method", definition: "A systematic approach to inquiry involving observation, hypothesis, controlled experimentation, and verifiable evidence — its early form is credited substantially to Ibn al-Haytham's 11th-century work on optics." },

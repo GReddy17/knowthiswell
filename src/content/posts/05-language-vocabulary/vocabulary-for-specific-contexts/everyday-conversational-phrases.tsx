@@ -34,8 +34,8 @@ export const metadata: PostFrontmatter = {
   ],
   seeAlso: [
     "language-vocabulary/regional-english-dialects",
-    "language-vocabulary/vocabulary-for-specific-contexts/business-and-professional-vocabulary",
-    "language-vocabulary/vocabulary-building/idioms-and-their-meanings",
+    "language-vocabulary/business-and-professional-vocabulary",
+    "language-vocabulary/idioms-and-their-meanings",
   ],
   glossary: [
     { term: "Discourse marker", definition: "A word or short phrase ('well,' 'so,' 'you know,' 'I mean') that organizes spoken conversation — signaling a topic shift, a pause to think, or a softened statement — rather than adding literal content." },

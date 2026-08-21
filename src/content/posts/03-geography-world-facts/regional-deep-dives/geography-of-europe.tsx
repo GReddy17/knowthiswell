@@ -43,9 +43,9 @@ export const metadata: PostFrontmatter = {
     "geography-world-facts/geography-of-asia",
     "geography-world-facts/geography-of-africa",
     "geography-world-facts/geography-of-north-america",
-    "geography-world-facts/physical-geography/continents-and-oceans-overview",
-    "geography-world-facts/physical-geography/mountains-and-mountain-ranges",
-    "geography-world-facts/physical-geography/climate-zones-explained",
+    "geography-world-facts/continents-and-oceans-overview",
+    "geography-world-facts/mountains-and-mountain-ranges",
+    "geography-world-facts/climate-zones-explained",
   ],
   glossary: [
     { term: "Eurasia", definition: "The single continuous landmass formed by Europe and Asia, which are not physically separated by any ocean or sea." },

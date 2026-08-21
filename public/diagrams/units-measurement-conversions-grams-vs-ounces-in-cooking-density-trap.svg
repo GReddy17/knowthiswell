@@ -1,0 +1,19 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gramsOzTitle">
+  <title id="gramsOzTitle">Two measuring cups both filled to the 1 cup line: one holds 120 grams of flour and the other holds 200 grams of sugar, showing that a fixed volume of two different ingredients weighs a different number of grams — which is why cooking by weight is more consistent than cooking by volume.</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <rect x="80" y="50" width="240" height="150" rx="14" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="200" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">1 cup all-purpose flour</text>
+  <line x1="100" y1="95" x2="300" y2="95" stroke="#2C4A3E" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="200" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700" fill="#2C4A3E">≈ 120 g</text>
+  <text x="200" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">≈ 4.2 oz</text>
+
+  <rect x="460" y="50" width="240" height="150" rx="14" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="580" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">1 cup granulated sugar</text>
+  <line x1="480" y1="95" x2="680" y2="95" stroke="#2C4A3E" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="580" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700" fill="#2C4A3E">≈ 200 g</text>
+  <text x="580" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">≈ 7.05 oz</text>
+
+  <text x="390" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">Same volume (1 cup), different weight — because flour and sugar have different densities.</text>
+  <text x="390" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">A gram or ounce scale reading is unaffected by how loosely packed the ingredient is; a cup measurement is not.</text>
+</svg>

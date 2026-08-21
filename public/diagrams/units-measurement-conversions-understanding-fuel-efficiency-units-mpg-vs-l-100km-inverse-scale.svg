@@ -1,0 +1,36 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mpgTitle">
+  <title id="mpgTitle">A diagram with two opposing arrows: the top arrow labeled mpg points right with 'higher is better' and shows 20, 30, 40, 50 increasing left to right, the bottom arrow labeled L per 100km points right with 'lower is better' and shows corresponding values 11.8, 7.8, 5.9, 4.7 decreasing left to right, illustrating the two systems run in opposite directions for the same efficiency</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">mpg and L/100km run in opposite directions</text>
+
+  <!-- mpg row -->
+  <text x="60" y="90" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">mpg</text>
+  <line x1="120" y1="85" x2="700" y2="85" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">
+    <text x="180" y="70">20</text>
+    <text x="320" y="70">30</text>
+    <text x="460" y="70">40</text>
+    <text x="600" y="70">50</text>
+  </g>
+  <text x="700" y="105" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E" font-weight="700">higher = more efficient</text>
+
+  <!-- L/100km row -->
+  <text x="30" y="190" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">L/100km</text>
+  <line x1="120" y1="185" x2="700" y2="185" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">
+    <text x="170" y="170">11.8</text>
+    <text x="310" y="170">7.8</text>
+    <text x="450" y="170">5.9</text>
+    <text x="590" y="170">4.7</text>
+  </g>
+  <text x="700" y="205" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A" font-weight="700">lower = more efficient</text>
+
+  <line x1="180" y1="70" x2="180" y2="170" stroke="#4A443C" stroke-width="1" stroke-dasharray="2,3"/>
+  <line x1="600" y1="70" x2="600" y2="170" stroke="#4A443C" stroke-width="1" stroke-dasharray="2,3"/>
+  <text x="390" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">20 mpg and 11.8 L/100km describe the same fuel economy — so do 50 mpg and 4.7 L/100km</text>
+
+  <defs>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/></marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/></marker>
+  </defs>
+</svg>

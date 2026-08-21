@@ -98,6 +98,14 @@ export default function Post() {
       A $100 item is discounted 20%, then an additional 10% off the already-discounted price. After the first discount: $100 × 0.8 = $80. After the second: $80 × 0.9 = $72. The total isn&apos;t a flat 30% off (which would be $70) — sequential percentage discounts multiply, they don&apos;t add, because each one applies to a smaller base than the last.
       </div>
 
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
+      <DiagramBlock
+      title="35% shown as 35 shaded squares out of 100"
+      type="detail"
+      svgSrc="/diagrams/math-numbers-percentages-explained-hundred-grid.svg"
+      altText="A 10 by 10 grid of 100 small squares with 35 of them shaded, representing 35 percent as 35 out of 100"
+      />
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
       <MistakeList
       items={[
@@ -115,12 +123,11 @@ export default function Post() {
       <EntryCalculator
       title="Find X% of a number"
       fields={[
-      { key: "principal", label: "Number", defaultValue: 80 },
-      { key: "rate", label: "Percentage", defaultValue: 15, suffix: "%" },
-      { key: "years", label: "(unused)", defaultValue: 1, step: 1 },
+      { key: "number", label: "Number", defaultValue: 80 },
+      { key: "percent", label: "Percentage", defaultValue: 15, suffix: "%" },
       ]}
       resultLabel="Result (percentage of the number)"
-      formula="simpleInterest"
+      formula="percentOfNumber"
       formatResult="number"
       />
 

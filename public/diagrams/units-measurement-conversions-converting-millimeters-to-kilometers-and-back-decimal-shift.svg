@@ -1,0 +1,27 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mmKmTitle">
+  <title id="mmKmTitle">A horizontal number line showing the metric length prefixes millimeter, centimeter, decimeter, meter, dekameter, hectometer, and kilometer, each one step of times ten from the last, with a decimal point sliding six places to the right as millimeters become kilometers.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+  <text x="390" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">Each step right = ×10 (decimal point moves one place)</text>
+
+  <line x1="50" y1="140" x2="730" y2="140" stroke="#2C4A3E" stroke-width="2"/>
+  <!-- 7 stops -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <circle cx="70" cy="140" r="7" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="70" y="170" text-anchor="middle" font-size="12" font-weight="600" fill="#1F1B16">mm</text>
+    <circle cx="180" cy="140" r="7" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="180" y="170" text-anchor="middle" font-size="12" font-weight="600" fill="#1F1B16">cm</text>
+    <circle cx="290" cy="140" r="7" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="290" y="170" text-anchor="middle" font-size="12" font-weight="600" fill="#1F1B16">dm</text>
+    <circle cx="400" cy="140" r="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+    <text x="400" y="170" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1F1B16">m</text>
+    <circle cx="510" cy="140" r="7" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="510" y="170" text-anchor="middle" font-size="12" font-weight="600" fill="#1F1B16">dam</text>
+    <circle cx="620" cy="140" r="7" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="620" y="170" text-anchor="middle" font-size="12" font-weight="600" fill="#1F1B16">hm</text>
+    <circle cx="730" cy="140" r="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+    <text x="730" y="170" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1F1B16">km</text>
+  </g>
+  <text x="70" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">5,000,000 mm</text>
+  <text x="730" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">5 km</text>
+  <text x="390" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Six ×10 steps separate mm from km — the same as moving a decimal point six places.</text>
+</svg>

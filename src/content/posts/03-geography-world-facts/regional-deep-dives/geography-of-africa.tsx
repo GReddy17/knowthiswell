@@ -43,9 +43,9 @@ export const metadata: PostFrontmatter = {
     "geography-world-facts/geography-of-asia",
     "geography-world-facts/geography-of-europe",
     "geography-world-facts/geography-of-south-america",
-    "geography-world-facts/physical-geography/continents-and-oceans-overview",
-    "geography-world-facts/physical-geography/climate-zones-explained",
-    "geography-world-facts/physical-geography/mountains-and-mountain-ranges",
+    "geography-world-facts/continents-and-oceans-overview",
+    "geography-world-facts/climate-zones-explained",
+    "geography-world-facts/mountains-and-mountain-ranges",
   ],
   glossary: [
     { term: "Sahel", definition: "A semi-arid transition belt stretching across Africa just south of the Sahara Desert, between the desert and the wetter savanna to its south." },

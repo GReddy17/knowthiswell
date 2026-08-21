@@ -1,0 +1,24 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tonTitle">
+  <title id="tonTitle">Three boxes comparing ton definitions: the metric tonne equals 1000 kilograms or about 2204.6 pounds, the US short ton equals 2000 pounds or about 907.2 kilograms, and the UK long ton equals 2240 pounds or about 1016 kilograms — the long ton is the heaviest and the short ton is the lightest.</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <rect x="30" y="50" width="220" height="140" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="140" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">US short ton</text>
+  <text x="140" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">2,000 lb</text>
+  <text x="140" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">≈ 907.18 kg</text>
+  <text x="140" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">lightest of the three</text>
+
+  <rect x="280" y="40" width="220" height="160" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Metric tonne</text>
+  <text x="390" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">1,000 kg</text>
+  <text x="390" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">≈ 2,204.62 lb</text>
+  <text x="390" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">between the other two</text>
+
+  <rect x="530" y="30" width="220" height="180" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="640" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">UK long ton</text>
+  <text x="640" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">2,240 lb</text>
+  <text x="640" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">≈ 1,016.05 kg</text>
+  <text x="640" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">heaviest of the three</text>
+
+  <text x="390" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">All three are called "a ton," and none of them are exactly the same weight — always check which one a source means.</text>
+</svg>

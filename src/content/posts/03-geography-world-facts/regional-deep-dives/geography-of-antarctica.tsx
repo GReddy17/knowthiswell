@@ -43,9 +43,9 @@ export const metadata: PostFrontmatter = {
     "geography-world-facts/geography-of-australia-and-oceania",
     "geography-world-facts/geography-of-south-america",
     "geography-world-facts/geography-of-asia",
-    "geography-world-facts/physical-geography/continents-and-oceans-overview",
-    "geography-world-facts/physical-geography/climate-zones-explained",
-    "geography-world-facts/political-geography/united-nations-and-global-political-bodies-basic-overview",
+    "geography-world-facts/continents-and-oceans-overview",
+    "geography-world-facts/climate-zones-explained",
+    "geography-world-facts/united-nations-and-global-political-bodies-basic-overview",
   ],
   glossary: [
     { term: "Ice sheet", definition: "A mass of glacial ice covering more than 50,000 km² of land — Antarctica's ice sheet holds roughly 90% of the world's ice and about 70% of its fresh water." },

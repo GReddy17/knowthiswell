@@ -34,10 +34,10 @@ export const metadata: PostFrontmatter = {
     { label: "Sangeet Natak Akademi — National Academy of Music, Dance and Drama, Government of India", url: "https://sangeetnatak.gov.in/" },
   ],
   seeAlso: [
-    "festivals-culture/art-dance-and-music-traditions/world-dance-traditions-overview",
-    "festivals-culture/art-dance-and-music-traditions/classical-indian-dance-forms-overview",
-    "festivals-culture/art-dance-and-music-traditions/folk-dances-of-india",
-    "festivals-culture/major-indian-festivals/navratri-and-durga-puja",
+    "festivals-culture/world-dance-traditions-overview",
+    "festivals-culture/classical-indian-dance-forms-overview",
+    "festivals-culture/folk-dances-of-india",
+    "festivals-culture/navratri-and-durga-puja",
   ],
   glossary: [
     { term: "Hornbostel-Sachs system", definition: "A widely used classification system for musical instruments, sorting them by how they produce sound: idiophones, membranophones, chordophones, aerophones, and (in later revisions) electrophones." },

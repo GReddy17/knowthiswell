@@ -43,9 +43,9 @@ export const metadata: PostFrontmatter = {
     "geography-world-facts/geography-of-north-america",
     "geography-world-facts/geography-of-africa",
     "geography-world-facts/geography-of-australia-and-oceania",
-    "geography-world-facts/physical-geography/rivers-and-major-watersheds",
-    "geography-world-facts/physical-geography/mountains-and-mountain-ranges",
-    "geography-world-facts/physical-geography/continents-and-oceans-overview",
+    "geography-world-facts/rivers-and-major-watersheds",
+    "geography-world-facts/mountains-and-mountain-ranges",
+    "geography-world-facts/continents-and-oceans-overview",
   ],
   glossary: [
     { term: "Andes", definition: "The longest continental mountain range on Earth, stretching roughly 7,000 km along South America's western edge, formed by the Nazca Plate subducting beneath the South American Plate." },

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cupsTbspTitle">
+  <title id="cupsTbspTitle">A horizontal nesting scale showing 1 US teaspoon as a small box, 1 US tablespoon (3 teaspoons, 14.79 mL) as a medium box, 1 Australian tablespoon (4 teaspoons, 20 mL) as a slightly larger box, and 1 US cup (16 tablespoons, 236.6 mL) as a large box, illustrating that a US teaspoon times 48 equals a US cup while the Australian tablespoon breaks that clean ratio</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <rect x="40" y="200" width="40" height="40" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="60" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1F1B16">1 tsp</text>
+  <text x="60" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">4.93 mL</text>
+
+  <text x="120" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#4A443C">×3</text>
+
+  <rect x="160" y="180" width="90" height="60" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="205" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1F1B16">1 US/UK tbsp</text>
+  <text x="205" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">14.79 mL</text>
+
+  <rect x="290" y="170" width="100" height="70" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <text x="340" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1F1B16">1 AU tbsp</text>
+  <text x="340" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#B5493A">20 mL (4 tsp)</text>
+
+  <text x="440" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#4A443C">×16</text>
+
+  <rect x="490" y="60" width="240" height="180" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="610" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">1 US cup</text>
+  <text x="610" y="272" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">236.59 mL = 16 US tbsp</text>
+
+  <text x="390" y="20" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Boxes drawn to relative scale. The dashed red box (Australian tablespoon) is the one exception that breaks the clean US ratio chain.</text>
+</svg>

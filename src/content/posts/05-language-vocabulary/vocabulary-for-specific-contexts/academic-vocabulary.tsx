@@ -33,9 +33,9 @@ export const metadata: PostFrontmatter = {
     { label: "Merriam-Webster — Dictionary", url: "https://www.merriam-webster.com/" },
   ],
   seeAlso: [
-    "language-vocabulary/vocabulary-for-specific-contexts/business-and-professional-vocabulary",
-    "language-vocabulary/writing-skills/essay-writing-structure",
-    "language-vocabulary/grammar-foundations/active-vs-passive-voice",
+    "language-vocabulary/business-and-professional-vocabulary",
+    "language-vocabulary/essay-writing-structure",
+    "language-vocabulary/active-vs-passive-voice",
   ],
   glossary: [
     { term: "Academic Word List (AWL)", definition: "A list of 570 word families (e.g. 'analyze,' 'concept,' 'significant') developed by linguist Averil Coxhead in 2000, identified as frequently appearing across academic texts from many different disciplines." },

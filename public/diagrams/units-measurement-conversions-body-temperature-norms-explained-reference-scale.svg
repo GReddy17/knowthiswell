@@ -1,0 +1,27 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bodyTempTitle">
+  <title id="bodyTempTitle">A vertical thermometer-style scale with four labeled reference bands from bottom to top: below 36 degrees Celsius (below 96.8 Fahrenheit) labeled below typical range, 36 to 37.5 degrees Celsius (96.8 to 99.5 Fahrenheit) labeled commonly cited normal range, 37.5 to 38 degrees Celsius (99.5 to 100.4 Fahrenheit) labeled low-grade elevated, and above 38 degrees Celsius (above 100.4 Fahrenheit) labeled commonly cited fever threshold.</title>
+  <rect width="560" height="360" fill="#FBF8F1"/>
+
+  <rect x="240" y="30" width="60" height="300" rx="28" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+
+  <rect x="240" y="30" width="60" height="60" rx="0" fill="#FBEDEA"/>
+  <rect x="240" y="90" width="60" height="40" fill="#EDE7D8"/>
+  <rect x="240" y="130" width="60" height="120" fill="#EEF3EE"/>
+  <rect x="240" y="250" width="60" height="80" rx="0" fill="#E6ECE3"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">
+    <text x="315" y="55">Above 38°C (100.4°F)</text>
+    <text x="315" y="70" fill="#4A443C" font-size="11">commonly cited fever threshold</text>
+
+    <text x="315" y="112">37.5–38°C (99.5–100.4°F)</text>
+    <text x="315" y="127" fill="#4A443C" font-size="11">low-grade elevated</text>
+
+    <text x="315" y="192">36–37.5°C (96.8–99.5°F)</text>
+    <text x="315" y="207" fill="#4A443C" font-size="11">commonly cited normal range</text>
+
+    <text x="315" y="292">Below 36°C (96.8°F)</text>
+    <text x="315" y="307" fill="#4A443C" font-size="11">below typical range</text>
+  </g>
+
+  <text x="280" y="352" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">General reference bands, not individualized medical thresholds.</text>
+</svg>

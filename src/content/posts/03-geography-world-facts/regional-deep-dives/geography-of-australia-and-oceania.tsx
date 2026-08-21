@@ -43,9 +43,9 @@ export const metadata: PostFrontmatter = {
     "geography-world-facts/geography-of-asia",
     "geography-world-facts/geography-of-antarctica",
     "geography-world-facts/geography-of-south-america",
-    "geography-world-facts/physical-geography/continents-and-oceans-overview",
-    "geography-world-facts/physical-geography/climate-zones-explained",
-    "geography-world-facts/physical-geography/mountains-and-mountain-ranges",
+    "geography-world-facts/continents-and-oceans-overview",
+    "geography-world-facts/climate-zones-explained",
+    "geography-world-facts/mountains-and-mountain-ranges",
   ],
   glossary: [
     { term: "Outback", definition: "The vast, sparsely populated arid and semi-arid interior of Australia, covering roughly two-thirds of the continent." },

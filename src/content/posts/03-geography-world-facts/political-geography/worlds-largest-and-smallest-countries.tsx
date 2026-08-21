@@ -70,7 +70,7 @@ export default function Post() {
       <KeyTakeaways
         points={[
           "Russia is the world's largest country by land area, at roughly 17.1 million square kilometers — more than 11% of Earth's total land area — and spans 11 time zones.",
-          "Vatican City is the world's smallest sovereign country, at just under 0.49 square kilometers — smaller than most college campuses, and about 39,000 times smaller than Russia.",
+          "Vatican City is the world's smallest sovereign country, at just under 0.49 square kilometers — smaller than most college campuses, and roughly 34.9 million times smaller than Russia.",
           "'Largest' and 'smallest' depend entirely on what you're measuring: Russia is largest by land area but not by population, and ranking by population produces a completely different list topped by India and China.",
         ]}
       />
@@ -100,7 +100,7 @@ export default function Post() {
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 1: Russia vs. Vatican City by area (baseline case)</h3>
       <div className="prose-p">
-      Russia covers about 17,098,242 square kilometers according to the CIA World Factbook; Vatican City covers about 0.49 square kilometers. Dividing the two shows Russia is roughly <strong>34.9 million times larger</strong> than Vatican City by land area — a scale difference so large it&apos;s genuinely hard to visualize. To put Russia&apos;s size in perspective on its own: at 17.1 million square kilometers, it&apos;s larger than the entire continent of South America (about 17.8 million km² is close, so Russia is nearly comparable to an entire continent) and covers more than 11% of all dry land on the planet.
+      Russia covers about 17,098,242 square kilometers according to the CIA World Factbook; Vatican City covers about 0.49 square kilometers. Dividing the two shows Russia is roughly <strong>34.9 million times larger</strong> than Vatican City by land area — a scale difference so large it&apos;s genuinely hard to visualize. To put Russia&apos;s size in perspective on its own: at 17.1 million square kilometers, it&apos;s nearly as large as the entire continent of South America (about 17.8 million km²) — one country coming close to matching an entire continent — and covers more than 11% of all dry land on the planet.
       </div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 2: Largest by area vs. largest by population (edge case / variation)</h3>

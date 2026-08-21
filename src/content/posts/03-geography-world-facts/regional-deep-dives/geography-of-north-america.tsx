@@ -43,9 +43,9 @@ export const metadata: PostFrontmatter = {
     "geography-world-facts/geography-of-south-america",
     "geography-world-facts/geography-of-europe",
     "geography-world-facts/geography-of-asia",
-    "geography-world-facts/physical-geography/continents-and-oceans-overview",
-    "geography-world-facts/physical-geography/mountains-and-mountain-ranges",
-    "geography-world-facts/physical-geography/rivers-and-major-watersheds",
+    "geography-world-facts/continents-and-oceans-overview",
+    "geography-world-facts/mountains-and-mountain-ranges",
+    "geography-world-facts/rivers-and-major-watersheds",
   ],
   glossary: [
     { term: "Isthmus", definition: "A narrow strip of land connecting two larger landmasses, with water on both sides — the Isthmus of Panama connects North and South America." },

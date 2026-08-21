@@ -1,0 +1,21 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dimWeightTitle">
+  <title id="dimWeightTitle">A large lightweight box: actual scale weight reads 8 pounds, but its dimensional weight calculated from 20 by 16 by 12 inches divided by 166 reads about 23 pounds, and the carrier bills the greater of the two, 23 pounds.</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <rect x="60" y="50" width="280" height="60" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="200" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Actual scale weight</text>
+  <text x="200" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#4A443C">8 lb</text>
+
+  <rect x="440" y="50" width="280" height="90" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="580" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Dimensional weight</text>
+  <text x="580" y="96" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">(20 × 16 × 12) ÷ 166</text>
+  <text x="580" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#4A443C">≈ 23 lb</text>
+
+  <path d="M200 110 L200 170" stroke="#2C4A3E" stroke-width="1.6" stroke-dasharray="3 3"/>
+  <path d="M580 140 L580 170" stroke="#2C4A3E" stroke-width="1.6" stroke-dasharray="3 3"/>
+  <text x="390" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#4A443C">carrier bills the GREATER of the two figures</text>
+
+  <rect x="290" y="200" width="200" height="60" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="390" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Billed weight</text>
+  <text x="390" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">23 lb</text>
+</svg>

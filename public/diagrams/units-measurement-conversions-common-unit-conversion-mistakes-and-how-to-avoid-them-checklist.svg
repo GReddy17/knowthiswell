@@ -1,0 +1,27 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mistakesChecklistTitle">
+  <title id="mistakesChecklistTitle">A five-row checklist diagram of the recurring unit-conversion failure modes: multiplying instead of dividing, rounding a factor too early, treating temperature as pure multiplication, confusing similarly named units, and confusing bits with bytes, each paired with its one-line fix.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+  <text x="30" y="32" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Five recurring conversion failure modes</text>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="30" y="46" width="720" height="42" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+    <text x="45" y="72" font-size="13" font-weight="700" fill="#1F1B16">1. Multiplying when you should divide (or vice versa)</text>
+    <text x="480" y="72" font-size="12" fill="#4A443C">→ sanity-check direction with a rough estimate first</text>
+
+    <rect x="30" y="94" width="720" height="42" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+    <text x="45" y="120" font-size="13" font-weight="700" fill="#1F1B16">2. Rounding a conversion factor too early</text>
+    <text x="480" y="120" font-size="12" fill="#4A443C">→ error scales with the size of the number</text>
+
+    <rect x="30" y="142" width="720" height="42" rx="8" fill="#F3ECE4" stroke="#2C4A3E" stroke-width="1.6"/>
+    <text x="45" y="168" font-size="13" font-weight="700" fill="#1F1B16">3. Treating temperature as pure multiplication</text>
+    <text x="480" y="168" font-size="12" fill="#4A443C">→ C to F needs a +32 offset too</text>
+
+    <rect x="30" y="190" width="720" height="42" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+    <text x="45" y="216" font-size="13" font-weight="700" fill="#1F1B16">4. Confusing similarly-named units (US vs UK gallon, ton vs tonne)</text>
+    <text x="590" y="216" font-size="12" fill="#4A443C">→ name ≠ value</text>
+
+    <rect x="30" y="238" width="720" height="42" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+    <text x="45" y="264" font-size="13" font-weight="700" fill="#1F1B16">5. Confusing bits (b) with bytes (B) in data/speed units</text>
+    <text x="560" y="264" font-size="12" fill="#4A443C">→ 8x gap, check the case</text>
+  </g>
+</svg>

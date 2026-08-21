@@ -34,10 +34,10 @@ export const metadata: PostFrontmatter = {
     { label: "Encyclopaedia Britannica — South Asian arts", url: "https://www.britannica.com/art/South-Asian-arts" },
   ],
   seeAlso: [
-    "festivals-culture/art-dance-and-music-traditions/folk-dances-of-india",
-    "festivals-culture/art-dance-and-music-traditions/world-dance-traditions-overview",
-    "festivals-culture/major-indian-festivals/navratri-and-durga-puja",
-    "festivals-culture/culture-curiosities/common-festival-myths-and-misconceptions",
+    "festivals-culture/folk-dances-of-india",
+    "festivals-culture/world-dance-traditions-overview",
+    "festivals-culture/navratri-and-durga-puja",
+    "festivals-culture/common-festival-myths-and-misconceptions",
   ],
   glossary: [
     { term: "Natya Shastra", definition: "The ancient Sanskrit treatise on dramatic and performing arts, traditionally attributed to the sage Bharata, that underlies the technique and aesthetic theory of most classical Indian dance forms." },

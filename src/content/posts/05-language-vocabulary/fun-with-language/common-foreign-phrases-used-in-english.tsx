@@ -34,9 +34,9 @@ export const metadata: PostFrontmatter = {
     { label: "Britannica — Loanword", url: "https://www.britannica.com/topic/loanword" },
   ],
   seeAlso: [
-    "language-vocabulary/fun-with-language/untranslatable-words-from-other-languages",
-    "language-vocabulary/fun-with-language/portmanteau-words-blended-words",
-    "language-vocabulary/world-languages/language-families-explained",
+    "language-vocabulary/untranslatable-words-from-other-languages",
+    "language-vocabulary/portmanteau-words-blended-words",
+    "language-vocabulary/language-families-explained",
   ],
   glossary: [
     { term: "Loanword / borrowed phrase", definition: "A word or phrase taken from another language and used largely as-is, rather than translated. A single borrowed word ('karma') and a borrowed multi-word phrase ('carpe diem') work the same way." },

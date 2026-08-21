@@ -98,6 +98,14 @@ export default function Post() {
       A map&apos;s legend shows a scale of 1:50,000 — every 1 unit on the map represents 50,000 of the same unit in reality. If two towns are 3 cm apart on the map, the real distance is 3 × 50,000 = 150,000 cm, or 1.5 km. This is a direct proportion: map distance : real distance stays constant at 1:50,000 everywhere on that map.
       </div>
 
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
+      <DiagramBlock
+      title="12:18 shown as a 2:3 ratio bar"
+      type="comparison"
+      svgSrc="/diagrams/math-numbers-ratios-and-proportions-bar-model.svg"
+      altText="A bar split into a 2 to 3 ratio, with 2 equal green segments on the left and 3 equal red segments on the right, showing the same relationship as 12 to 18"
+      />
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
       <MistakeList
       items={[

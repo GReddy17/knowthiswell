@@ -100,6 +100,14 @@ export default function Post() {
       Add 12.5 + 3.75. Line up the decimal points: 12.50 (padding with a zero to match lengths) plus 3.75 equals 16.25. The padding zero doesn&apos;t change 12.5&apos;s value — it just makes the columns line up cleanly, which is exactly the point of the alignment step.
       </div>
 
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
+      <DiagramBlock
+      title="42.375 broken into place value columns"
+      type="detail"
+      svgSrc="/diagrams/math-numbers-decimals-explained-place-value-columns.svg"
+      altText="The number 42.375 broken into place value columns: tens, ones, decimal point, tenths, hundredths, and thousandths, each shown with its column value"
+      />
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
       <MistakeList
       items={[

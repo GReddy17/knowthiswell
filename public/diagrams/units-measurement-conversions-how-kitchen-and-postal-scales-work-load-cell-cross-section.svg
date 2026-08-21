@@ -1,0 +1,34 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="scaleTitle">
+  <title id="scaleTitle">A cross-section of a digital scale showing a weighing platform pressing down on a metal load cell beam with a strain gauge attached, wired to an amplifier and analog-to-digital converter, which sends a digital signal to the display screen reading the weight in grams.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <rect x="80" y="60" width="260" height="20" rx="4" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="210" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">weighing platform (object placed here)</text>
+  <line x1="210" y1="80" x2="210" y2="110" stroke="#2C4A3E" stroke-width="2"/>
+
+  <rect x="140" y="110" width="140" height="18" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="210" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">load cell beam</text>
+  <text x="210" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">(flexes slightly under load)</text>
+
+  <rect x="185" y="112" width="50" height="10" rx="2" fill="#B5493A" opacity="0.85"/>
+  <text x="210" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">strain gauge (resistance changes)</text>
+
+  <path d="M280 118 L420 118" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow2)"/>
+  <rect x="430" y="95" width="120" height="46" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="490" y="123" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">amplifier + A/D</text>
+
+  <path d="M550 118 L660 118" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow2)"/>
+  <rect x="660" y="90" width="100" height="56" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="710" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">142.5 g</text>
+  <text x="710" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">display</text>
+
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Weight presses the platform, flexing the load cell beam by a tiny, precise amount.</text>
+  <text x="390" y="258" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">A strain gauge bonded to the beam changes electrical resistance in proportion to that flex,</text>
+  <text x="390" y="276" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">which the electronics convert into the number shown on the display.</text>
+</svg>

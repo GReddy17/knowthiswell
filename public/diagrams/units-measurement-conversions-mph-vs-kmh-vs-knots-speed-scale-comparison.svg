@@ -1,0 +1,26 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="speedScaleTitle">
+  <title id="speedScaleTitle">Three parallel horizontal scales showing the same speed of 60 miles per hour, 96.6 kilometers per hour, and 52.1 knots, aligned vertically to show they represent the identical physical speed in three different units</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">The same speed, three scales</text>
+
+  <!-- mph scale -->
+  <text x="60" y="75" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">mph</text>
+  <line x1="120" y1="70" x2="740" y2="70" stroke="#2C4A3E" stroke-width="2"/>
+  <circle cx="480" cy="70" r="6" fill="#B5493A"/>
+  <text x="480" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5493A">60 mph</text>
+
+  <!-- km/h scale -->
+  <text x="60" y="140" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">km/h</text>
+  <line x1="120" y1="135" x2="740" y2="135" stroke="#2C4A3E" stroke-width="2"/>
+  <circle cx="480" cy="135" r="6" fill="#B5493A"/>
+  <text x="480" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5493A">96.6 km/h</text>
+
+  <!-- knots scale -->
+  <text x="60" y="205" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">knots</text>
+  <line x1="120" y1="200" x2="740" y2="200" stroke="#2C4A3E" stroke-width="2"/>
+  <circle cx="480" cy="200" r="6" fill="#B5493A"/>
+  <text x="480" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5493A">52.1 knots</text>
+
+  <line x1="480" y1="60" x2="480" y2="210" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="390" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">All three points mark the identical physical speed</text>
+</svg>

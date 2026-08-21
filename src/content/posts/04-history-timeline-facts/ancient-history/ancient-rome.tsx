@@ -116,7 +116,7 @@ export default function Post() {
         altText="Horizontal timeline showing Rome's traditional founding in 753 BCE, the start of the Roman Republic in 509 BCE after the last king was overthrown, Julius Caesar's crossing of the Rubicon in 49 BCE and assassination in 44 BCE, Augustus becoming the first emperor in 27 BCE marking the start of the Roman Empire, the Pax Romana period of stability from 27 BCE to 180 CE, and the fall of the Western Roman Empire in 476 CE, while the Eastern Roman (Byzantine) Empire continued for another thousand years."
       />
       <p>
-      Notice the Republic (roughly 480 years) actually lasted longer than the Western Empire that followed it (roughly 500 years, but with serious decline setting in from the 3rd century CE onward) — Rome&apos;s &quot;republic&quot; phase isn&apos;t a short prelude to &quot;the real Rome,&quot; it&apos;s a comparably long and formative era in its own right.
+      Notice the Republic (roughly 480 years) lasted almost as long as the Western Empire that followed it (roughly 500 years, but with serious decline setting in from the 3rd century CE onward) — Rome&apos;s &quot;republic&quot; phase isn&apos;t a short prelude to &quot;the real Rome,&quot; it&apos;s a comparably long and formative era in its own right.
       </p>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
@@ -154,7 +154,8 @@ export default function Post() {
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Related terms</h2>
       <GlossaryStrip terms={metadata.glossary ?? []} />
-
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">See also</h2>
+      <SeeAlsoList slugs={metadata.seeAlso ?? []} />
     </>
   );
 }

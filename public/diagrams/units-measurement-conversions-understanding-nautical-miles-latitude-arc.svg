@@ -1,0 +1,22 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="nmiTitle">
+  <title id="nmiTitle">A quarter-circle representing Earth's curved surface from the equator to the North Pole, divided into 90 one-degree arcs of latitude, with a single one-minute slice (one sixtieth of one degree) called out and labeled as exactly one nautical mile, 1.852 kilometers.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+  <text x="390" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">A nautical mile = 1 minute of arc of latitude</text>
+
+  <path d="M 150 280 A 200 200 0 0 1 350 80" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+  <line x1="150" y1="280" x2="150" y2="90" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3,4"/>
+  <line x1="150" y1="280" x2="360" y2="280" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3,4"/>
+  <text x="150" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Equator</text>
+  <text x="360" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">North Pole (90°)</text>
+
+  <!-- zoomed-in 1-minute slice callout -->
+  <rect x="430" y="120" width="300" height="150" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="580" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1F1B16">1 degree of latitude</text>
+  <text x="580" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">= 60 minutes of arc</text>
+  <line x1="460" y1="188" x2="700" y2="188" stroke="#2C4A3E" stroke-width="1.4"/>
+  <text x="580" y="212" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#B5493A">1 minute of arc</text>
+  <text x="580" y="234" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1F1B16">= 1 nautical mile</text>
+  <text x="580" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">= 1.852 km exactly</text>
+
+  <text x="390" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">This is why nautical charts use latitude minutes directly as a distance scale.</text>
+</svg>

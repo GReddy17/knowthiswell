@@ -162,6 +162,8 @@ export default function Post() {
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Related terms</h2>
       <GlossaryStrip terms={metadata.glossary ?? []} />
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">See also</h2>
+      <SeeAlsoList slugs={metadata.seeAlso ?? []} />
     </>
   );
 }

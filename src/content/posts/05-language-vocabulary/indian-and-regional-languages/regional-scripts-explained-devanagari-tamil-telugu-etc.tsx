@@ -35,9 +35,9 @@ export const metadata: PostFrontmatter = {
     { label: "Omniglot — Telugu Script", url: "https://www.omniglot.com/writing/telugu.htm" },
   ],
   seeAlso: [
-    "language-vocabulary/indian-and-regional-languages/overview-of-major-indian-languages",
-    "language-vocabulary/indian-and-regional-languages/sanskrits-influence-on-modern-languages",
-    "language-vocabulary/world-languages/language-families-explained",
+    "language-vocabulary/overview-of-major-indian-languages",
+    "language-vocabulary/sanskrits-influence-on-modern-languages",
+    "language-vocabulary/language-families-explained",
   ],
   glossary: [
     { term: "Abugida", definition: "A writing system in which each basic character represents a consonant plus a default (inherent) vowel, with that vowel changed or removed by an attached mark rather than written as a separate letter — the pattern used by Devanagari, Bengali, Tamil, Telugu, and most other Indic scripts." },

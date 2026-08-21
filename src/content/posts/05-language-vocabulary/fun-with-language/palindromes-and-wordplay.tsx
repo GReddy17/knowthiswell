@@ -33,9 +33,9 @@ export const metadata: PostFrontmatter = {
     { label: "Britannica — Sator Square", url: "https://www.britannica.com/topic/SATOR-square" },
   ],
   seeAlso: [
-    "language-vocabulary/fun-with-language/tongue-twisters-explained",
-    "language-vocabulary/fun-with-language/portmanteau-words-blended-words",
-    "language-vocabulary/grammar-foundations/sentence-structure-basics",
+    "language-vocabulary/tongue-twisters-explained",
+    "language-vocabulary/portmanteau-words-blended-words",
+    "language-vocabulary/sentence-structure-basics",
   ],
   glossary: [
     { term: "Palindrome", definition: "A word, phrase, or number that reads identically forward and backward once spaces, punctuation, and capitalization are ignored — 'level,' 'racecar,' or the number 1881." },

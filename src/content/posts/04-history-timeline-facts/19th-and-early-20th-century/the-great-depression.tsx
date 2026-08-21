@@ -36,7 +36,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "history-timeline-facts/world-war-i-overview",
     "history-timeline-facts/the-russian-revolution",
-    "history-timeline-facts/historical-figures/world-leaders-who-changed-history",
+    "history-timeline-facts/world-leaders-who-changed-history",
   ],
   glossary: [
     { term: "Stock market crash", definition: "A sudden, sharp drop in stock prices; the October 1929 Wall Street crash saw major U.S. stock indices lose roughly 25% of their value in under a week." },

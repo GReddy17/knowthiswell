@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="windChillTitle">
+  <title id="windChillTitle">A diagram with two horizontal arrows. The top arrow starts at a thermometer icon reading negative 5 degrees Celsius, labeled actual air temperature, and points to a colder-looking icon reading negative 11 degrees Celsius, labeled wind chill feels like, with a wind gust icon shown as the cause. The bottom arrow starts at a thermometer icon reading 32 degrees Celsius, labeled actual air temperature, and points to a hotter-looking icon reading above 40 degrees Celsius, labeled heat index feels like, with a humidity droplet icon shown as the cause.</title>
+  <rect width="640" height="260" fill="#FBF8F1"/>
+
+  <!-- Wind chill row -->
+  <rect x="30" y="30" width="130" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="95" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">−5°C</text>
+  <text x="95" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">actual air temp</text>
+
+  <path d="M170 65 L260 65" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow1)"/>
+  <text x="215" y="52" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">wind (20 km/h)</text>
+
+  <rect x="270" y="30" width="150" height="70" rx="10" fill="#EAF0FB" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="345" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">−11°C</text>
+  <text x="345" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">wind chill "feels like"</text>
+
+  <!-- Heat index row -->
+  <rect x="30" y="150" width="130" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="95" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">32°C</text>
+  <text x="95" y="198" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">actual air temp</text>
+
+  <path d="M170 185 L260 185" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow1)"/>
+  <text x="215" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">humidity (70%)</text>
+
+  <rect x="270" y="150" width="150" height="70" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="345" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">&gt;40°C</text>
+  <text x="345" y="198" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">heat index "feels like"</text>
+
+  <defs>
+    <marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <text x="460" y="65" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Wind strips heat from skin faster</text>
+  <text x="460" y="185" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Humidity slows sweat evaporation</text>
+</svg>

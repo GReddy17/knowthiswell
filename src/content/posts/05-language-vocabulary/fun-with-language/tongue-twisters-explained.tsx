@@ -33,9 +33,9 @@ export const metadata: PostFrontmatter = {
     { label: "MIT Research Laboratory of Electronics — Tripped Tongues Teach Speech Secrets", url: "https://www.rle.mit.edu/tripped-tongues-teach-speech-secrets/" },
   ],
   seeAlso: [
-    "language-vocabulary/fun-with-language/palindromes-and-wordplay",
-    "language-vocabulary/fun-with-language/portmanteau-words-blended-words",
-    "language-vocabulary/world-languages/language-families-explained",
+    "language-vocabulary/palindromes-and-wordplay",
+    "language-vocabulary/portmanteau-words-blended-words",
+    "language-vocabulary/language-families-explained",
   ],
   glossary: [
     { term: "Tongue twister", definition: "A word or phrase made difficult to pronounce, especially quickly, by a close sequence of similar but distinct sounds — 'she sells sea shells by the seashore.'" },

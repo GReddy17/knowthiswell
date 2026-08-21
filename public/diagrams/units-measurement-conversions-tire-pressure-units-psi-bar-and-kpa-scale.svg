@@ -1,0 +1,16 @@
+<svg viewBox="0 0 780 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tirePressureTitle">
+  <title id="tirePressureTitle">Three aligned scale bars showing the same tire pressure of 32 psi equal to about 2.2 bar equal to about 220.6 kilopascals, with tick marks lined up to show the proportional relationship between the three units.</title>
+  <rect width="780" height="240" fill="#FBF8F1"/>
+  <text x="30" y="34" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">32 psi, shown in three pressure units</text>
+
+  <rect x="30" y="55" width="720" height="40" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">32 psi (pounds per square inch)</text>
+
+  <rect x="30" y="110" width="720" height="40" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">≈ 2.21 bar</text>
+
+  <rect x="30" y="165" width="720" height="40" rx="8" fill="#F3ECE4" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">≈ 220.6 kPa (kilopascals)</text>
+
+  <text x="390" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same physical pressure — psi used mainly in the US, bar and kPa used across most of the rest of the world.</text>
+</svg>
