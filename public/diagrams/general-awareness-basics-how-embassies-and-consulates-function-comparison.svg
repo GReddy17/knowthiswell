@@ -1,0 +1,22 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="embassyConsulateTitle">
+  <title id="embassyConsulateTitle">Two side-by-side columns labeled Embassy and Consulate. The Embassy column lists: one per host country, located in the capital, governed by the 1961 Vienna Convention on Diplomatic Relations, handles government-to-government relations. The Consulate column lists: multiple per host country possible, located in various cities, governed by the 1963 Vienna Convention on Consular Relations, handles citizen services and visas</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <rect x="40" y="30" width="330" height="260" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="205" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700" fill="#1F1B16">Embassy</text>
+  <text x="65" y="100" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">• One per host country</text>
+  <text x="65" y="125" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">• Located in the capital</text>
+  <text x="65" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">• Governed by the 1961 Vienna</text>
+  <text x="75" y="170" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Convention on Diplomatic Relations</text>
+  <text x="65" y="200" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">• Handles government-to-</text>
+  <text x="75" y="220" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">government relations</text>
+
+  <rect x="410" y="30" width="330" height="260" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="575" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700" fill="#1F1B16">Consulate</text>
+  <text x="435" y="100" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">• Multiple possible per host country</text>
+  <text x="435" y="125" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">• Located in various cities</text>
+  <text x="435" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">• Governed by the 1963 Vienna</text>
+  <text x="445" y="170" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Convention on Consular Relations</text>
+  <text x="435" y="200" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">• Handles citizen services</text>
+  <text x="445" y="220" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">and visas</text>
+</svg>

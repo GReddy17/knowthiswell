@@ -1,0 +1,26 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chokingCompareTitle">
+  <title id="chokingCompareTitle">A two-column comparison diagram: the left column labeled mild obstruction shows a person coughing forcefully with the word can-still-cough-speak-breathe, leading to encourage continued coughing; the right column labeled severe obstruction shows a person clutching their throat unable to make sound, leading to call emergency services and abdominal thrusts by a trained responder.</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <rect x="30" y="30" width="330" height="220" rx="12" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="195" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Mild obstruction</text>
+  <text x="195" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">can still cough, speak,</text>
+  <text x="195" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">or breathe</text>
+  <line x1="70" y1="135" x2="320" y2="135" stroke="#2C4A3E" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="195" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">Encourage</text>
+  <text x="195" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">continued coughing</text>
+  <text x="195" y="222" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">their own airway-clearing</text>
+  <text x="195" y="238" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">reflex is still working</text>
+
+  <rect x="420" y="30" width="330" height="220" rx="12" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="585" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Severe obstruction</text>
+  <text x="585" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">cannot cough, speak,</text>
+  <text x="585" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">or make sound</text>
+  <line x1="460" y1="135" x2="710" y2="135" stroke="#B5493A" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <text x="585" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#B5493A">Call emergency services</text>
+  <text x="585" y="196" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">+ abdominal thrusts</text>
+  <text x="585" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">by someone with</text>
+  <text x="585" y="232" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">certified training</text>
+
+  <text x="390" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#4A443C">vs</text>
+</svg>

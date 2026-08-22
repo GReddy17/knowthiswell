@@ -1,0 +1,36 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="modelPipelineTitle">
+  <title id="modelPipelineTitle">A flow diagram showing a climate model first tested against historical data through hindcasting, producing a validation checkmark, then branching forward into three separate lines representing low, medium, and high future emissions scenarios, each producing a different projected temperature range by 2100, illustrating that climate projections are validated against the past before being run forward under multiple distinct possible futures rather than one single guess.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <rect x="40" y="130" width="180" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="130" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Climate model</text>
+  <text x="130" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">(physics-based)</text>
+
+  <line x1="220" y1="165" x2="280" y2="165" stroke="#2C4A3E" stroke-width="1.6" marker-end="url(#mpArrow)"/>
+
+  <rect x="282" y="130" width="180" height="70" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="372" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Hindcast vs.</text>
+  <text x="372" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">observed history ✓</text>
+
+  <line x1="462" y1="165" x2="520" y2="90" stroke="#2C4A3E" stroke-width="1.4"/>
+  <line x1="462" y1="165" x2="520" y2="165" stroke="#2C4A3E" stroke-width="1.4"/>
+  <line x1="462" y1="165" x2="520" y2="240" stroke="#2C4A3E" stroke-width="1.4"/>
+
+  <rect x="522" y="60" width="220" height="55" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="632" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Low emissions scenario</text>
+  <text x="632" y="99" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">≈ +1.4-1.8°C by 2100</text>
+
+  <rect x="522" y="137" width="220" height="55" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="632" y="159" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Medium emissions scenario</text>
+  <text x="632" y="176" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">≈ +2.1-3.5°C by 2100</text>
+
+  <rect x="522" y="214" width="220" height="55" rx="8" fill="#EDE7D8" stroke="#B5493A" stroke-width="1.8"/>
+  <text x="632" y="236" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">High emissions scenario</text>
+  <text x="632" y="253" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#B5493A">≈ +3.3-5.7°C by 2100</text>
+
+  <text x="390" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same validated model, run forward under different assumed future emissions.</text>
+
+  <defs>
+    <marker id="mpArrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/></marker>
+  </defs>
+</svg>

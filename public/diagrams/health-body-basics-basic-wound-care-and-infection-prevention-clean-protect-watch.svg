@@ -1,0 +1,37 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="woundCareTitle">
+  <title id="woundCareTitle">A three-step flow diagram: clean, showing a wound being rinsed with water; protect, showing a barrier dressing applied over the cleaned wound; and watch, showing a magnifying glass over the healing wound looking for named infection signs, with an arrow from watch branching to either continued healing or a see a doctor box if infection signs appear.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="20" y="60" width="200" height="110" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="120" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">1. Clean</text>
+  <text x="120" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">rinse with clean</text>
+  <text x="120" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">water to remove</text>
+  <text x="120" y="149" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">debris &amp; bacteria</text>
+
+  <path d="M 220 115 L 280 115" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowW)"/>
+
+  <rect x="290" y="60" width="200" height="110" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">2. Protect</text>
+  <text x="390" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">cover with a</text>
+  <text x="390" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">barrier dressing to</text>
+  <text x="390" y="149" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">block new bacteria</text>
+
+  <path d="M 490 115 L 550 115" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowW)"/>
+
+  <rect x="560" y="60" width="200" height="110" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="660" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">3. Watch</text>
+  <text x="660" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">check daily for</text>
+  <text x="660" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">named infection</text>
+  <text x="660" y="149" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">signs</text>
+
+  <path d="M 610 170 L 560 210" stroke="#2C4A3E" stroke-width="1.6" marker-end="url(#arrowW)"/>
+  <path d="M 710 170 L 760 210" stroke="#B5493A" stroke-width="1.6" marker-end="url(#arrowW)"/>
+  <text x="500" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">no signs: continue healing</text>
+  <text x="700" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#B5493A">signs present: see a doctor</text>
+
+  <defs>
+    <marker id="arrowW" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+</svg>

@@ -241,6 +241,14 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
   mbpsToMBps: (v) => v.mbps / 8, // bits to bytes: divide by 8
   usToEuShoeSizeApprox: (v) => v.usSize + 33, // rough men's US-to-EU approximation; brands vary
   screenPpiFromResolution: (v) => Math.sqrt(v.widthPx * v.widthPx + v.heightPx * v.heightPx) / v.diagonalInches,
+
+  // --- General Awareness (topic 8), Health & Body Basics (topic 9), Environment & Nature (topic 10) ---
+  hdiCompositeIndexAverage: (v) => (v.dimensionA + v.dimensionB + v.dimensionC) / 3, // simplified geometric-mean-style index averaged arithmetically for illustration
+  dailyValuePercent: (v) => (v.amount / v.dailyValueReference) * 100, // nutrition-label %DV
+  waterIntakeFromWeight: (v) => v.weightKg * v.mlPerKg, // rough daily hydration guideline
+  caloriesFromMacros: (v) => v.proteinG * 4 + v.carbsG * 4 + v.fatG * 9, // Atwater general factors
+  seaLevelRiseMm: (v) => v.rateMmPerYear * v.years,
+  wasteDiversionRatePercent: (v) => (v.divertedKg / v.totalWasteKg) * 100,
 };
 
 interface EntryCalculatorProps {

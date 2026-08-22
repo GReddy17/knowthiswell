@@ -1,0 +1,38 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="familyTreeTitle">
+  <title id="familyTreeTitle">A simple family tree diagram with boxes for parents, siblings, and grandparents, each box labeled with a placeholder for a significant health condition and approximate age of diagnosis, illustrating the basic structure a family health history record follows</title>
+  <rect width="700" height="300" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">
+    <rect x="60" y="20" width="150" height="50" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="135" y="38" text-anchor="middle" font-weight="700" fill="#1F1B16">Grandparent</text>
+    <text x="135" y="55" fill="#4A443C" text-anchor="middle">condition · age dx</text>
+
+    <rect x="240" y="20" width="150" height="50" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="315" y="38" text-anchor="middle" font-weight="700" fill="#1F1B16">Grandparent</text>
+    <text x="315" y="55" fill="#4A443C" text-anchor="middle">condition · age dx</text>
+
+    <rect x="150" y="110" width="150" height="50" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="225" y="128" text-anchor="middle" font-weight="700" fill="#1F1B16">Parent</text>
+    <text x="225" y="145" fill="#4A443C" text-anchor="middle">condition · age dx</text>
+
+    <rect x="330" y="110" width="150" height="50" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="405" y="128" text-anchor="middle" font-weight="700" fill="#1F1B16">Aunt / Uncle</text>
+    <text x="405" y="145" fill="#4A443C" text-anchor="middle">condition · age dx</text>
+
+    <rect x="150" y="200" width="150" height="50" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="225" y="218" text-anchor="middle" font-weight="700" fill="#1F1B16">You</text>
+    <text x="225" y="235" fill="#4A443C" text-anchor="middle">(the record owner)</text>
+
+    <rect x="330" y="200" width="150" height="50" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="405" y="218" text-anchor="middle" font-weight="700" fill="#1F1B16">Sibling</text>
+    <text x="405" y="235" fill="#4A443C" text-anchor="middle">condition · age dx</text>
+
+    <g stroke="#2C4A3E" stroke-width="1.4" fill="none">
+      <path d="M135,70 L225,110"/>
+      <path d="M315,70 L225,110"/>
+      <path d="M225,160 L225,200"/>
+      <path d="M225,160 L405,200"/>
+      <path d="M405,160 L405,200"/>
+    </g>
+  </g>
+</svg>

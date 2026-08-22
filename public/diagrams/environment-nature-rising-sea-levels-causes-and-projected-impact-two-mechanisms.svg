@@ -1,0 +1,47 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="seaLevelTitle">
+  <title id="seaLevelTitle">Two side-by-side illustrations. The left shows a container of water with a thermometer, labeled thermal expansion, with an arrow showing the water level rising slightly as the water warms, with no water added. The right shows a melting glacier on land dripping new water into an ocean basin, labeled land ice melt, with an arrow showing the water level rising as new water is added, with a separate small note showing floating sea ice melting inside a glass with no water level change.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <!-- Left: thermal expansion -->
+  <rect x="30" y="20" width="330" height="280" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="195" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Thermal expansion</text>
+
+  <!-- container before -->
+  <rect x="60" y="150" width="100" height="110" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="62" y="210" width="96" height="48" fill="#B5D3C6"/>
+  <text x="110" y="275" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">cooler water</text>
+
+  <text x="195" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#4A443C">→</text>
+
+  <!-- container after, higher level -->
+  <rect x="230" y="150" width="100" height="110" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="232" y="196" width="96" height="62" fill="#F4B8A4"/>
+  <text x="280" y="275" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">warmer water</text>
+  <line x1="335" y1="196" x2="350" y2="196" stroke="#B5493A" stroke-width="1.6"/>
+  <line x1="335" y1="210" x2="350" y2="210" stroke="#2C4A3E" stroke-width="1.6" stroke-dasharray="3,2"/>
+  <text x="352" y="205" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#B5493A">▲ level up</text>
+
+  <text x="195" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Warming water expands — no new water added, level still rises.</text>
+
+  <!-- Right: land ice melt -->
+  <rect x="420" y="20" width="330" height="280" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="585" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Land ice melt</text>
+
+  <!-- glacier on land -->
+  <polygon points="460,150 540,150 520,190 480,190" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="500" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">glacier (on land)</text>
+  <line x1="500" y1="190" x2="500" y2="210" stroke="#2C4A3E" stroke-width="1.6" stroke-dasharray="3,2" marker-end="url(#dripArrow)"/>
+
+  <!-- ocean basin -->
+  <rect x="440" y="212" width="270" height="60" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="442" y="222" width="266" height="48" fill="#B5D3C6"/>
+  <line x1="712" y1="212" x2="725" y2="212" stroke="#2C4A3E" stroke-width="1.6" stroke-dasharray="3,2"/>
+  <line x1="712" y1="222" x2="725" y2="222" stroke="#B5493A" stroke-width="1.6"/>
+  <text x="700" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#B5493A">▲ new water added</text>
+
+  <text x="585" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Melted land ice adds genuinely new water to the ocean.</text>
+
+  <defs>
+    <marker id="dripArrow" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#2C4A3E"/></marker>
+  </defs>
+</svg>

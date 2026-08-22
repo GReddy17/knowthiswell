@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ghEffectTitle">
+  <title id="ghEffectTitle">Two side-by-side diagrams of Earth's atmosphere. The left shows sunlight passing down through a thin gas layer to the surface, and outgoing infrared passing back out mostly unobstructed, labeled fewer greenhouse gases, faster heat escape. The right shows the same incoming sunlight passing through a thicker gas layer unobstructed, but outgoing infrared bouncing between the surface and the gas layer multiple times before some escapes, labeled more greenhouse gases, slower heat escape, net energy gain.</title>
+  <rect width="800" height="360" fill="#FBF8F1"/>
+
+  <!-- Left panel -->
+  <rect x="20" y="20" width="370" height="300" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="205" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Thin greenhouse gas layer</text>
+
+  <!-- gas layer band -->
+  <rect x="45" y="90" width="320" height="18" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.2"/>
+  <text x="205" y="103" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">gas layer</text>
+
+  <!-- surface -->
+  <rect x="45" y="270" width="320" height="14" fill="#4A443C"/>
+  <text x="205" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">surface</text>
+
+  <!-- incoming sun arrows -->
+  <line x1="100" y1="60" x2="100" y2="270" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowL1)"/>
+  <line x1="205" y1="60" x2="205" y2="270" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowL1)"/>
+  <line x1="310" y1="60" x2="310" y2="270" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowL1)"/>
+  <text x="205" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#B5493A">sunlight in</text>
+
+  <!-- outgoing infrared, mostly escaping -->
+  <line x1="130" y1="266" x2="130" y2="55" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrowL2)"/>
+  <line x1="205" y1="266" x2="205" y2="30" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrowL2)"/>
+  <line x1="280" y1="266" x2="280" y2="55" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrowL2)"/>
+
+  <text x="205" y="310" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Fewer greenhouse gases — heat escapes fast</text>
+
+  <!-- Right panel -->
+  <rect x="410" y="20" width="370" height="300" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="595" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Thicker greenhouse gas layer</text>
+
+  <!-- thicker gas layer band -->
+  <rect x="435" y="70" width="320" height="55" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.2"/>
+  <text x="595" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">thicker gas layer</text>
+
+  <!-- surface -->
+  <rect x="435" y="270" width="320" height="14" fill="#4A443C"/>
+  <text x="595" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">surface</text>
+
+  <!-- incoming sun arrows, unobstructed through layer -->
+  <line x1="490" y1="55" x2="490" y2="270" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowR1)"/>
+  <line x1="595" y1="55" x2="595" y2="270" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowR1)"/>
+  <line x1="700" y1="55" x2="700" y2="270" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowR1)"/>
+  <text x="595" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="0" fill="#B5493A"> </text>
+
+  <!-- outgoing infrared bouncing between surface and layer -->
+  <path d="M 520 266 L 520 128 L 545 92 L 520 128 L 520 266" fill="none" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6,3"/>
+  <path d="M 595 266 L 595 128 L 570 92 L 615 92 L 595 128" fill="none" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6,3"/>
+  <line x1="595" y1="70" x2="595" y2="30" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrowR2)"/>
+  <path d="M 670 266 L 670 128 L 645 92 L 670 128 L 670 266" fill="none" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <text x="595" y="310" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">More greenhouse gases — heat bounces back, net energy gain</text>
+
+  <defs>
+    <marker id="arrowL1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/></marker>
+    <marker id="arrowL2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/></marker>
+    <marker id="arrowR1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/></marker>
+    <marker id="arrowR2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/></marker>
+  </defs>
+</svg>

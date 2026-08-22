@@ -1,0 +1,23 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hierTitle">
+  <title id="hierTitle">An inverted pyramid divided into four horizontal bands from top to bottom: the widest top band labeled Source Reduction and Reuse (most preferred), the next band labeled Recycling and Composting, the next narrower band labeled Energy Recovery, and the narrowest bottom band labeled Treatment and Disposal (least preferred), with an arrow along the side indicating decreasing environmental benefit from top to bottom</title>
+  <rect width="780" height="340" fill="#FBF8F1"/>
+
+  <polygon points="90,40 690,40 610,110 170,110" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Source Reduction &amp; Reuse</text>
+  <text x="390" y="92" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">most preferred</text>
+
+  <polygon points="170,116 610,116 545,176 235,176" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Recycling &amp; Composting</text>
+
+  <polygon points="235,182 545,182 495,232 285,232" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="212" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Energy Recovery</text>
+
+  <polygon points="285,238 495,238 460,280 320,280" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="390" y="264" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Treatment &amp; Disposal</text>
+
+  <line x1="712" y1="45" x2="712" y2="275" stroke="#B5493A" stroke-width="2"/>
+  <polygon points="712,282 705,268 719,268" fill="#B5493A"/>
+  <text x="737" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C" transform="rotate(90 737 165)">decreasing environmental benefit</text>
+
+  <text x="390" y="315" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Least preferred</text>
+</svg>

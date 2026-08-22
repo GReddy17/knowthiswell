@@ -1,0 +1,23 @@
+<svg viewBox="0 0 780 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="localGovTitle">
+  <title id="localGovTitle">Two columns. The left column, labeled Local Government, lists water supply, local roads, waste collection, zoning and permits, parks, and often schools and police. The right column, labeled National Government, lists national defense, currency, foreign policy, and interstate trade regulation. A small dividing note in the middle reads subsidiarity: handle it at the lowest level that can do it well.</title>
+  <rect width="780" height="380" fill="#FBF8F1"/>
+
+  <rect x="30" y="30" width="330" height="320" rx="12" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="195" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Local Government</text>
+  <text x="195" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Water supply</text>
+  <text x="195" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Local roads</text>
+  <text x="195" y="158" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Waste collection</text>
+  <text x="195" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Zoning &amp; permits</text>
+  <text x="195" y="218" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Parks</text>
+  <text x="195" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Often: schools &amp; police</text>
+
+  <rect x="420" y="30" width="330" height="320" rx="12" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="585" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">National Government</text>
+  <text x="585" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">National defense</text>
+  <text x="585" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Currency</text>
+  <text x="585" y="158" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Foreign policy</text>
+  <text x="585" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Interstate trade regulation</text>
+
+  <rect x="270" y="355" width="240" height="1" fill="none"/>
+  <text x="390" y="368" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">subsidiarity: handle it at the lowest level that can do it well</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="keelingTitle">
+  <title id="keelingTitle">A line chart showing atmospheric carbon dioxide concentration in parts per million on the vertical axis rising from about 315 ppm in 1958 to over 420 ppm in the present day, plotted as a steadily rising curve with small annual zigzags layered on top representing the seasonal plant-growth cycle, alongside a flat reference band showing the pre-industrial range of roughly 260 to 280 ppm at the bottom of the chart for scale.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <!-- axes -->
+  <line x1="70" y1="40" x2="70" y2="260" stroke="#2C4A3E" stroke-width="2"/>
+  <line x1="70" y1="260" x2="740" y2="260" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="30" y="55" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">440</text>
+  <text x="30" y="160" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">340</text>
+  <text x="30" y="255" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">260</text>
+
+  <!-- pre-industrial reference band -->
+  <rect x="70" y="238" width="670" height="16" fill="#EEF3EE"/>
+  <text x="360" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">Pre-industrial range (~260-280 ppm)</text>
+
+  <!-- rising curve with zigzag, approximated with a path -->
+  <path d="M 90 235 L 130 228 L 170 220 L 210 210 L 250 198 L 290 186 L 330 172 L 370 158 L 410 142 L 450 128 L 490 114 L 530 100 L 570 86 L 610 74 L 650 62 L 690 52 L 720 46"
+        fill="none" stroke="#B5493A" stroke-width="2.5"/>
+  <!-- small seasonal zigzags on top of the last stretch -->
+  <path d="M 550 92 L 560 84 L 570 86 L 580 78 L 590 80 L 600 72 L 610 74 L 620 66 L 630 68 L 640 60 L 650 62 L 660 54 L 670 56 L 680 48 L 690 52"
+        fill="none" stroke="#B5493A" stroke-width="1.4" opacity="0.6"/>
+
+  <text x="90" y="278" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">1958 (~315 ppm)</text>
+  <text x="640" y="278" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Today (&gt;420 ppm)</text>
+
+  <text x="390" y="305" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Mauna Loa Observatory continuous CO2 record — steady rise with small annual seasonal zigzags</text>
+</svg>

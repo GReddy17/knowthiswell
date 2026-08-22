@@ -1,0 +1,35 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mythEvidenceTitle">
+  <title id="mythEvidenceTitle">A three-row comparison table. Row 1: myth "cracking knuckles causes arthritis" next to evidence "no association found in studies, sound is gas bubble collapse." Row 2: myth "you lose most heat through your head" next to evidence "heat loss tracks exposed skin area, not head-specific." Row 3: myth "sugar causes hyperactivity" next to evidence "no effect in double-blind studies, confounded by exciting settings."</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <text x="205" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">MYTH</text>
+  <text x="575" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">WHAT EVIDENCE SHOWS</text>
+  <line x1="20" y1="44" x2="760" y2="44" stroke="#2C4A3E" stroke-width="1.6"/>
+
+  <!-- Row 1 -->
+  <rect x="20" y="56" width="370" height="72" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="205" y="87" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Cracking knuckles</text>
+  <text x="205" y="106" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">causes arthritis</text>
+  <rect x="400" y="56" width="360" height="72" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="580" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">No association in studies —</text>
+  <text x="580" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">sound is a gas bubble</text>
+  <text x="580" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">collapsing, not joint damage</text>
+
+  <!-- Row 2 -->
+  <rect x="20" y="138" width="370" height="72" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="205" y="169" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">You lose most heat</text>
+  <text x="205" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">through your head</text>
+  <rect x="400" y="138" width="360" height="72" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="580" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Heat loss tracks exposed</text>
+  <text x="580" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">skin area — not a special</text>
+  <text x="580" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">property of the head</text>
+
+  <!-- Row 3 -->
+  <rect x="20" y="220" width="370" height="72" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="205" y="251" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Sugar causes</text>
+  <text x="205" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">hyperactivity in kids</text>
+  <rect x="400" y="220" width="360" height="72" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="580" y="246" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">No effect in double-blind</text>
+  <text x="580" y="264" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">studies — confounded by</text>
+  <text x="580" y="282" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">exciting party settings</text>
+</svg>

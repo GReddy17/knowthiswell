@@ -1,0 +1,28 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="summitTimelineTitle">
+  <title id="summitTimelineTitle">A horizontal two-week timeline. Week one shows technical-level working group sessions narrowing draft text. Week two shows ministers and heads of state arriving, followed by intensive closed-door negotiation on remaining disputed points, ending in a final plenary session where the text is adopted by consensus or, if negotiations run over, in an extended overtime session</title>
+  <rect width="800" height="260" fill="#FBF8F1"/>
+
+  <line x1="40" y1="130" x2="760" y2="130" stroke="#2C4A3E" stroke-width="2"/>
+
+  <rect x="60" y="90" width="220" height="80" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="170" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Week One</text>
+  <text x="170" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Technical working groups</text>
+  <text x="170" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">narrow the draft text</text>
+
+  <text x="310" y="135" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#4A443C">&#8594;</text>
+
+  <rect x="335" y="90" width="220" height="80" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="445" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Week Two</text>
+  <text x="445" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Ministers/heads of state arrive,</text>
+  <text x="445" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">closed-door negotiation on</text>
+  <text x="445" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">remaining disputed points</text>
+
+  <text x="585" y="135" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#4A443C">&#8594;</text>
+
+  <rect x="610" y="90" width="150" height="80" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="685" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Final plenary —</text>
+  <text x="685" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">text adopted by</text>
+  <text x="685" y="154" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">consensus (or overtime)</text>
+
+  <text x="400" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Two-week structure: technical groundwork first, political negotiation second.</text>
+</svg>

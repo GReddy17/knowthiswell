@@ -1,0 +1,19 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pollCurveTitle">
+  <title id="pollCurveTitle">A curve chart with sample size on the horizontal axis, ranging from 200 to 4000 respondents, and margin of error in percentage points on the vertical axis. The curve starts steep near small sample sizes, showing rapid improvement, then flattens out at larger sample sizes, illustrating diminishing statistical returns as sample size keeps growing — going from 1000 to 4000 respondents only cuts the margin of error roughly in half, not to a quarter</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <line x1="70" y1="260" x2="720" y2="260" stroke="#2C4A3E" stroke-width="1.6"/>
+  <line x1="70" y1="40" x2="70" y2="260" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="395" y="295" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Sample size (200 to 4000 respondents)</text>
+  <text x="30" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16" transform="rotate(-90 30 150)">Margin of error (%)</text>
+
+  <path d="M 90 60 Q 160 140 260 190 T 700 245" fill="none" stroke="#B5493A" stroke-width="3"/>
+
+  <circle cx="140" cy="105" r="5" fill="#2C4A3E"/>
+  <text x="150" y="100" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">~1000: ±3.1pts</text>
+
+  <circle cx="640" cy="238" r="5" fill="#2C4A3E"/>
+  <text x="560" y="228" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">~4000: ±1.55pts</text>
+
+  <text x="395" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Steep gains early, then flattening — diminishing returns</text>
+</svg>

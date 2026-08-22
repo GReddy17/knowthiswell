@@ -1,0 +1,46 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ecoReleaseTitle">
+  <title id="ecoReleaseTitle">Two side-by-side population diagrams. Left side, labeled Native Range, shows a species population held at a stable moderate level by three surrounding boxes labeled Predators, Competitors, and Parasites, each with an arrow pressing inward on the population circle. Right side, labeled New Environment, shows the same species population circle grown much larger, with the Predators, Competitors, and Parasites boxes now faded and disconnected, their arrows removed, illustrating the population's unchecked growth.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <text x="195" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Native Range</text>
+  <text x="585" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">New Environment</text>
+
+  <!-- Left: contained population -->
+  <circle cx="195" cy="170" r="48" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="195" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Stable</text>
+  <text x="195" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">population</text>
+
+  <rect x="50" y="70" width="90" height="40" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="95" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Predators</text>
+  <line x1="110" y1="105" x2="165" y2="140" stroke="#B5493A" stroke-width="2"/>
+  <polygon points="165,140 155,138 160,148" fill="#B5493A"/>
+
+  <rect x="250" y="70" width="90" height="40" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="295" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Competitors</text>
+  <line x1="280" y1="105" x2="225" y2="140" stroke="#B5493A" stroke-width="2"/>
+  <polygon points="225,140 235,138 230,148" fill="#B5493A"/>
+
+  <rect x="150" y="245" width="90" height="40" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="195" y="269" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Parasites</text>
+  <line x1="195" y1="245" x2="195" y2="220" stroke="#B5493A" stroke-width="2"/>
+  <polygon points="195,220 190,230 200,230" fill="#B5493A"/>
+
+  <!-- Divider -->
+  <line x1="390" y1="50" x2="390" y2="290" stroke="#4A443C" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Right: released population -->
+  <circle cx="585" cy="170" r="78" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="585" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Unchecked</text>
+  <text x="585" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">population growth</text>
+
+  <rect x="440" y="60" width="90" height="40" rx="8" fill="#FBF8F1" stroke="#4A443C" stroke-width="1.2" opacity="0.45"/>
+  <text x="485" y="84" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C" opacity="0.6">Predators</text>
+
+  <rect x="640" y="60" width="90" height="40" rx="8" fill="#FBF8F1" stroke="#4A443C" stroke-width="1.2" opacity="0.45"/>
+  <text x="685" y="84" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C" opacity="0.6">Competitors</text>
+
+  <rect x="540" y="255" width="90" height="40" rx="8" fill="#FBF8F1" stroke="#4A443C" stroke-width="1.2" opacity="0.45"/>
+  <text x="585" y="279" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C" opacity="0.6">Parasites</text>
+
+  <text x="390" y="312" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Removing co-evolved checks lets the same reproductive rate drive unchecked growth.</text>
+</svg>

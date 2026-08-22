@@ -1,0 +1,57 @@
+<svg viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="billPipelineTitle">
+  <title id="billPipelineTitle">A horizontal flow diagram showing five sequential stages: Introduction, Committee Review, Chamber One Floor Vote, Chamber Two Floor Vote and Reconciliation, and Executive Signature or Veto. Branching arrows at the Committee Review and Executive stages point downward to a "Bill Dies" box, showing the two most common points of failure.</title>
+  <rect width="900" height="340" fill="#FBF8F1"/>
+
+  <!-- Stage boxes -->
+  <rect x="20" y="40" width="140" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="90" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Introduction</text>
+
+  <rect x="195" y="40" width="150" height="70" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="270" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Committee</text>
+  <text x="270" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Review</text>
+
+  <rect x="380" y="40" width="150" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="455" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Chamber One</text>
+  <text x="455" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Floor Vote</text>
+
+  <rect x="565" y="40" width="160" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="645" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Chamber Two Vote</text>
+  <text x="645" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">and</text>
+  <text x="645" y="101" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Reconciliation</text>
+
+  <rect x="760" y="40" width="120" height="70" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="820" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Executive</text>
+  <text x="820" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Signature</text>
+  <text x="820" y="101" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">or Veto</text>
+
+  <!-- Arrows between stages -->
+  <line x1="160" y1="75" x2="192" y2="75" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="345" y1="75" x2="377" y2="75" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="530" y1="75" x2="562" y2="75" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="725" y1="75" x2="757" y2="75" stroke="#2C4A3E" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <!-- Bill dies box -->
+  <rect x="330" y="230" width="180" height="60" rx="10" fill="#EDE7D8" stroke="#B5493A" stroke-width="2.5"/>
+  <text x="420" y="266" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#B5493A">Bill Dies</text>
+
+  <!-- Branches from committee and executive to bill-dies -->
+  <line x1="270" y1="110" x2="270" y2="180" stroke="#B5493A" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="270" y1="180" x2="400" y2="230" stroke="#B5493A" stroke-width="1.6" stroke-dasharray="4,3" marker-end="url(#arrowRed)"/>
+
+  <line x1="820" y1="110" x2="820" y2="180" stroke="#B5493A" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="820" y1="180" x2="450" y2="230" stroke="#B5493A" stroke-width="1.6" stroke-dasharray="4,3" marker-end="url(#arrowRed)"/>
+
+  <defs>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="320" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Most bills fail at Committee Review or the Executive stage — floor votes have higher pass rates once a bill survives committee.</text>
+</svg>

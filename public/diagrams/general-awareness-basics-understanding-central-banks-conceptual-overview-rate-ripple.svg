@@ -1,0 +1,23 @@
+<svg viewBox="0 0 780 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rateRippleTitle">
+  <title id="rateRippleTitle">A horizontal flow diagram starting with a box labeled Central bank sets benchmark rate, with an arrow pointing to a box labeled Commercial bank borrowing costs change, with an arrow pointing to a final box labeled Mortgage, loan, and savings rates shift across the economy</title>
+  <rect width="780" height="220" fill="#FBF8F1"/>
+
+  <rect x="20" y="70" width="210" height="90" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="125" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Central bank sets</text>
+  <text x="125" y="125" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">benchmark rate</text>
+
+  <text x="260" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" fill="#4A443C">&#8594;</text>
+
+  <rect x="285" y="70" width="210" height="90" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Commercial bank</text>
+  <text x="390" y="125" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">borrowing costs change</text>
+
+  <text x="525" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" fill="#4A443C">&#8594;</text>
+
+  <rect x="550" y="55" width="210" height="120" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="655" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Mortgage, loan, and</text>
+  <text x="655" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">savings rates shift</text>
+  <text x="655" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">across the economy</text>
+
+  <text x="390" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">The central bank sets a reference point — it does not set any individual consumer rate directly.</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="shieldTitle">
+  <title id="shieldTitle">Three side-by-side streetlight illustrations. Left: an unshielded bulb sending light both upward into a glowing sky dome (skyglow) and sideways into a neighboring window (light trespass). Middle: a partially shielded fixture still leaking some upward light. Right: a fully shielded, downward-only fixture illuminating only the road surface below it with no upward or sideways spill, labeled the fix</title>
+  <rect width="900" height="280" fill="#1F1B16"/>
+
+  <!-- Panel 1: unshielded -->
+  <rect x="20" y="20" width="270" height="230" rx="8" fill="#2C4A3E" opacity="0.25" stroke="#EDE7D8" stroke-width="1.5"/>
+  <path d="M155 60 Q155 20 90 20 Q155 20 220 20 Q155 20 155 60" fill="#EDE7D8" opacity="0.35"/>
+  <circle cx="155" cy="90" r="10" fill="#EDE7D8"/>
+  <line x1="155" y1="90" x2="155" y2="230" stroke="#4A443C" stroke-width="4"/>
+  <path d="M155 90 L60 90" stroke="#EDE7D8" stroke-width="3" opacity="0.7"/>
+  <rect x="35" y="70" width="30" height="40" fill="none" stroke="#EDE7D8" stroke-width="1.5"/>
+  <path d="M155 90 L100 55" stroke="#EDE7D8" stroke-width="3" opacity="0.7"/>
+  <path d="M155 90 L155 160" stroke="#EDE7D8" stroke-width="3" opacity="0.7"/>
+  <text x="155" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Unshielded</text>
+
+  <!-- Panel 2: partial -->
+  <rect x="315" y="20" width="270" height="230" rx="8" fill="#2C4A3E" opacity="0.25" stroke="#EDE7D8" stroke-width="1.5"/>
+  <path d="M450 60 Q450 30 410 25 Q450 20 490 25 Q450 30 450 60" fill="#EDE7D8" opacity="0.2"/>
+  <path d="M425 88 L475 88 L465 100 L435 100 Z" fill="#4A443C" stroke="#EDE7D8" stroke-width="1.2"/>
+  <circle cx="450" cy="95" r="8" fill="#EDE7D8"/>
+  <line x1="450" y1="95" x2="450" y2="230" stroke="#4A443C" stroke-width="4"/>
+  <path d="M450 100 L440 175" stroke="#EDE7D8" stroke-width="3" opacity="0.7"/>
+  <path d="M450 100 L460 175" stroke="#EDE7D8" stroke-width="3" opacity="0.7"/>
+  <path d="M450 85 L470 55" stroke="#EDE7D8" stroke-width="2" opacity="0.5"/>
+  <text x="450" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Partially shielded</text>
+
+  <!-- Panel 3: fully shielded -->
+  <rect x="610" y="20" width="270" height="230" rx="8" fill="#2C4A3E" opacity="0.25" stroke="#B5493A" stroke-width="2"/>
+  <path d="M715 85 L765 85 L755 98 L725 98 Z" fill="#4A443C" stroke="#B5493A" stroke-width="1.6"/>
+  <circle cx="740" cy="93" r="7" fill="#EDE7D8"/>
+  <line x1="740" y1="93" x2="740" y2="230" stroke="#4A443C" stroke-width="4"/>
+  <path d="M740 98 L715 200 L765 200 Z" fill="#EDE7D8" opacity="0.4"/>
+  <text x="740" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5493A">Fully shielded — the fix</text>
+
+  <text x="450" y="15" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#EDE7D8"></text>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="articleAnatomyTitle">
+  <title id="articleAnatomyTitle">A vertical anatomy diagram of a news article showing the headline at the top written by an editor for clicks, followed a few lines down by the nut graf highlighted as the reporter's own plain-language summary of the core point, followed by the full article body below</title>
+  <rect width="700" height="400" fill="#FBF8F1"/>
+
+  <rect x="60" y="30" width="580" height="340" rx="10" fill="#ffffff" stroke="#2C4A3E" stroke-width="2"/>
+
+  <rect x="80" y="50" width="540" height="46" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.8"/>
+  <text x="350" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Headline — written for clicks, often by an editor</text>
+
+  <line x1="90" y1="115" x2="610" y2="115" stroke="#B9B2A0" stroke-width="1"/>
+  <line x1="90" y1="130" x2="500" y2="130" stroke="#B9B2A0" stroke-width="1"/>
+
+  <rect x="80" y="145" width="540" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="350" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Nut graf — reporter's own plain-language</text>
+  <text x="350" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">summary of the core point</text>
+
+  <line x1="90" y1="225" x2="610" y2="225" stroke="#B9B2A0" stroke-width="1"/>
+  <line x1="90" y1="240" x2="580" y2="240" stroke="#B9B2A0" stroke-width="1"/>
+  <line x1="90" y1="255" x2="530" y2="255" stroke="#B9B2A0" stroke-width="1"/>
+  <line x1="90" y1="270" x2="600" y2="270" stroke="#B9B2A0" stroke-width="1"/>
+  <line x1="90" y1="285" x2="470" y2="285" stroke="#B9B2A0" stroke-width="1"/>
+  <line x1="90" y1="300" x2="590" y2="300" stroke="#B9B2A0" stroke-width="1"/>
+  <line x1="90" y1="315" x2="540" y2="315" stroke="#B9B2A0" stroke-width="1"/>
+  <line x1="90" y1="330" x2="610" y2="330" stroke="#B9B2A0" stroke-width="1"/>
+  <line x1="90" y1="345" x2="500" y2="345" stroke="#B9B2A0" stroke-width="1"/>
+
+  <text x="350" y="390" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Full article body — the rest of the reporting</text>
+</svg>

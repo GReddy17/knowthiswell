@@ -1,0 +1,35 @@
+<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="compassVsLineTitle">
+  <title id="compassVsLineTitle">Two diagrams side by side. On the left, a single horizontal line labeled Left to Right, with one dot placed on it representing one position. On the right, a two-axis grid with a horizontal Economic Left-Right axis and a vertical Authoritarian-Libertarian axis, with four labeled quadrants and multiple dots showing that different real combinations of economic and social views occupy distinct positions the single line cannot separate.</title>
+  <rect width="820" height="340" fill="#FBF8F1"/>
+
+  <!-- Left: single line -->
+  <text x="180" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">One-axis model</text>
+  <line x1="60" y1="170" x2="300" y2="170" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="60" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Left</text>
+  <text x="300" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Right</text>
+  <circle cx="150" cy="170" r="7" fill="#B5493A"/>
+  <text x="150" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">One position</text>
+
+  <!-- divider -->
+  <line x1="380" y1="20" x2="380" y2="320" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+
+  <!-- Right: two-axis grid -->
+  <text x="620" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Two-axis political compass</text>
+
+  <rect x="480" y="70" width="280" height="220" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <line x1="620" y1="70" x2="620" y2="290" stroke="#2C4A3E" stroke-width="1.4"/>
+  <line x1="480" y1="180" x2="760" y2="180" stroke="#2C4A3E" stroke-width="1.4"/>
+
+  <text x="490" y="65" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Left</text>
+  <text x="740" y="65" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Right</text>
+  <text x="620" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Economic axis</text>
+  <text x="470" y="80" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Authoritarian</text>
+  <text x="470" y="285" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Libertarian</text>
+
+  <circle cx="540" cy="110" r="6" fill="#B5493A"/>
+  <circle cx="700" cy="110" r="6" fill="#2C4A3E"/>
+  <circle cx="540" cy="250" r="6" fill="#4A443C"/>
+  <circle cx="700" cy="250" r="6" fill="#B5493A"/>
+
+  <text x="620" y="315" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Four dots occupy four distinct quadrants — the single line on the left cannot tell them apart.</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="unOrgansTitle">
+  <title id="unOrgansTitle">A diagram showing six boxes representing the UN's principal organs: General Assembly (193 members, one vote each, recommendations only), Security Council (15 members, 5 permanent with veto, binding resolutions), Secretariat (administrative, carries out mandates), Economic and Social Council, International Court of Justice, and Trusteeship Council (marked inactive since 1994) — with an arrow indicating the Security Council is the only organ whose decisions are legally binding on member states.</title>
+  <rect width="900" height="460" fill="#FBF8F1"/>
+  <text x="450" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Six Principal Organs of the United Nations</text>
+
+  <rect x="30" y="60" width="260" height="110" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="160" y="86" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">General Assembly</text>
+  <text x="160" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">193 members, 1 vote each</text>
+  <text x="160" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Resolutions = recommendations</text>
+  <text x="160" y="144" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">(except internal UN matters)</text>
+
+  <rect x="320" y="60" width="260" height="110" rx="10" fill="#FBEDEA" stroke="#B5493A" stroke-width="2.5"/>
+  <text x="450" y="86" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Security Council</text>
+  <text x="450" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">15 members, 5 permanent</text>
+  <text x="450" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A" font-weight="600">P5 hold veto power</text>
+  <text x="450" y="144" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A" font-weight="600">Resolutions = binding</text>
+
+  <rect x="610" y="60" width="260" height="110" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="740" y="86" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Secretariat</text>
+  <text x="740" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Headed by Secretary-General</text>
+  <text x="740" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Administrative — carries out</text>
+  <text x="740" y="144" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">mandates from other organs</text>
+
+  <rect x="30" y="200" width="260" height="100" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="160" y="226" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">ECOSOC</text>
+  <text x="160" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Economic and Social Council</text>
+  <text x="160" y="266" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Coordinates UN agencies</text>
+
+  <rect x="320" y="200" width="260" height="100" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="450" y="226" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">International Court</text>
+  <text x="450" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">of Justice</text>
+  <text x="450" y="264" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Settles disputes between states</text>
+
+  <rect x="610" y="200" width="260" height="100" rx="10" fill="#EDE7D8" stroke="#4A443C" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="740" y="226" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A443C">Trusteeship Council</text>
+  <text x="740" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Inactive since 1994</text>
+  <text x="740" y="266" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">(decolonization complete)</text>
+
+  <line x1="450" y1="170" x2="450" y2="330" stroke="#B5493A" stroke-width="2"/>
+  <path d="M 445 325 L 450 335 L 455 325" fill="none" stroke="#B5493A" stroke-width="2"/>
+  <rect x="230" y="345" width="440" height="70" rx="8" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="450" y="372" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#B5493A">Only the Security Council's decisions</text>
+  <text x="450" y="392" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#B5493A">are legally binding on all member states</text>
+
+  <text x="450" y="440" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Every organ shares the UN name — but authority and enforcement power differ sharply between them.</text>
+</svg>

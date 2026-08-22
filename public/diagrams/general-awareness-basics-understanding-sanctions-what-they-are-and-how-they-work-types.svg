@@ -1,0 +1,24 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sanctionsTypesTitle">
+  <title id="sanctionsTypesTitle">A 2x2 grid of four boxes labeled Trade restrictions, Financial and asset freezes, Travel bans, and Arms embargoes, each with a one-line description, illustrating that sanctions are an umbrella term covering several structurally distinct tools</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <rect x="40" y="30" width="330" height="120" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="205" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Trade restrictions</text>
+  <text x="205" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Block import/export of</text>
+  <text x="205" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">specific goods or sectors</text>
+
+  <rect x="410" y="30" width="330" height="120" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="575" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Financial / asset freezes</text>
+  <text x="575" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Block access to funds and</text>
+  <text x="575" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">property in sanctioning jurisdiction</text>
+
+  <rect x="40" y="170" width="330" height="120" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="205" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Travel bans</text>
+  <text x="205" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Deny entry/visas to</text>
+  <text x="205" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">specific individuals</text>
+
+  <rect x="410" y="170" width="330" height="120" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="575" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Arms embargoes</text>
+  <text x="575" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Restrict sale/transfer of</text>
+  <text x="575" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">weapons and military goods</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="constTitle">
+  <title id="constTitle">A vertical pyramid diagram with three tiers. Top, smallest tier: Constitution (supreme law, hardest to change). Middle tier: Ordinary statutes and legislation (passed by normal majority vote). Bottom, widest tier: Regulations and administrative rules (issued by executive agencies). An arrow labeled 'must conform to' points upward from each tier to the one above it.</title>
+  <rect width="700" height="340" fill="#FBF8F1"/>
+
+  <polygon points="350,30 470,110 230,110" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.2"/>
+  <text x="350" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Constitution</text>
+  <text x="350" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">supreme law</text>
+
+  <polygon points="230,120 470,120 550,210 150,210" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.2"/>
+  <text x="350" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Ordinary statutes</text>
+  <text x="350" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">passed by normal majority vote</text>
+
+  <polygon points="150,220 550,220 630,310 70,310" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2.2"/>
+  <text x="350" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Regulations</text>
+  <text x="350" y="288" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">issued by executive agencies</text>
+
+  <line x1="600" y1="290" x2="600" y2="130" stroke="#B5493A" stroke-width="1.8" marker-end="url(#arrowC)"/>
+  <text x="612" y="220" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C" transform="rotate(-90 612 220)" text-anchor="middle">must conform to</text>
+
+  <defs>
+    <marker id="arrowC" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto">
+      <path d="M0,8 L4,0 L8,8 Z" fill="#B5493A"/>
+    </marker>
+  </defs>
+</svg>

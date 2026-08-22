@@ -1,0 +1,49 @@
+<svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dbScaleTitle">
+  <title id="dbScaleTitle">A horizontal decibel scale from 0 to 130 with labeled reference points: 30 dB whisper, 60 dB conversation, 85 dB heavy traffic (hearing protection threshold), 100 dB power tool, 130 dB jet engine. Below the scale, a secondary row shows the sound energy multiplier at each 10 dB step increasing by a factor of 10 each time, growing much faster than the perceived loudness row above it which only roughly doubles per 10 dB step</title>
+  <rect width="900" height="280" fill="#FBF8F1"/>
+
+  <!-- main scale line -->
+  <line x1="60" y1="80" x2="840" y2="80" stroke="#2C4A3E" stroke-width="2.5"/>
+
+  <!-- reference points -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <circle cx="150" cy="80" r="5" fill="#3F7A4F"/>
+    <text x="150" y="60" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">30 dB</text>
+    <text x="150" y="105" text-anchor="middle" font-size="10.5" fill="#4A443C">Whisper</text>
+
+    <circle cx="330" cy="80" r="5" fill="#3F7A4F"/>
+    <text x="330" y="60" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">60 dB</text>
+    <text x="330" y="105" text-anchor="middle" font-size="10.5" fill="#4A443C">Conversation</text>
+
+    <circle cx="510" cy="80" r="6" fill="#B5493A"/>
+    <text x="510" y="60" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">85 dB</text>
+    <text x="510" y="105" text-anchor="middle" font-size="10.5" fill="#4A443C">Heavy traffic —</text>
+    <text x="510" y="118" text-anchor="middle" font-size="10.5" fill="#4A443C">protection threshold</text>
+
+    <circle cx="660" cy="80" r="5" fill="#3F7A4F"/>
+    <text x="660" y="60" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">100 dB</text>
+    <text x="660" y="105" text-anchor="middle" font-size="10.5" fill="#4A443C">Power tool</text>
+
+    <circle cx="810" cy="80" r="5" fill="#3F7A4F"/>
+    <text x="810" y="60" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">130 dB</text>
+    <text x="810" y="105" text-anchor="middle" font-size="10.5" fill="#4A443C">Jet engine</text>
+  </g>
+
+  <!-- perceived loudness row -->
+  <text x="60" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#4A443C">Perceived loudness (roughly doubles per +10dB)</text>
+  <rect x="60" y="158" width="20" height="14" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="200" y="158" width="30" height="14" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="380" y="158" width="46" height="14" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="560" y="158" width="68" height="14" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="740" y="158" width="100" height="14" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1"/>
+
+  <!-- sound energy row -->
+  <text x="60" y="200" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#B5493A">Sound energy (x10 per +10dB)</text>
+  <rect x="60" y="208" width="8" height="14" fill="#FBEDEA" stroke="#B5493A" stroke-width="1"/>
+  <rect x="200" y="200" width="18" height="22" fill="#FBEDEA" stroke="#B5493A" stroke-width="1"/>
+  <rect x="380" y="175" width="30" height="47" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.2"/>
+  <rect x="560" y="145" width="45" height="77" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.4"/>
+  <rect x="740" y="100" width="65" height="122" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.6"/>
+
+  <text x="450" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">The energy bars grow explosively while the perceived-loudness bars grow gently — same decibel steps, very different real increase.</text>
+</svg>

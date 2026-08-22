@@ -1,0 +1,44 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="grayVsGreenTitle">
+  <title id="grayVsGreenTitle">Two side-by-side cross-section diagrams of a street during rainfall. Left, labeled Gray Infrastructure, shows rain falling on solid pavement and flowing directly and quickly into an underground pipe, with an arrow showing a sharp peak in water volume reaching the pipe. Right, labeled Nature-Based Infrastructure, shows rain falling on a vegetated bioswale with layered soil, where water is shown infiltrating slowly downward and a smaller, delayed trickle reaching the same underground pipe, with an arrow showing a flattened, lower peak in water volume over a longer time.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="195" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Gray Infrastructure</text>
+  <text x="585" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Nature-Based Infrastructure</text>
+
+  <!-- rain -->
+  <g stroke="#2C4A3E" stroke-width="1.6">
+    <line x1="130" y1="45" x2="122" y2="65"/>
+    <line x1="170" y1="45" x2="162" y2="65"/>
+    <line x1="210" y1="45" x2="202" y2="65"/>
+    <line x1="500" y1="45" x2="492" y2="65"/>
+    <line x1="560" y1="45" x2="552" y2="65"/>
+    <line x1="620" y1="45" x2="612" y2="65"/>
+  </g>
+
+  <!-- left: pavement -->
+  <rect x="70" y="70" width="250" height="16" fill="#4A443C"/>
+  <text x="195" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">pavement</text>
+  <line x1="195" y1="86" x2="195" y2="180" stroke="#2C4A3E" stroke-width="4"/>
+  <rect x="160" y="180" width="70" height="40" rx="4" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="195" y="204" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">pipe</text>
+
+  <!-- left graph: sharp peak -->
+  <polyline points="70,270 130,268 165,150 195,150 225,268 320,270" fill="none" stroke="#B5493A" stroke-width="2.5"/>
+  <text x="195" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">sharp volume peak</text>
+
+  <!-- divider -->
+  <line x1="390" y1="20" x2="390" y2="290" stroke="#4A443C" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- right: bioswale layered soil -->
+  <rect x="460" y="70" width="250" height="14" fill="#2C4A3E" opacity="0.55"/>
+  <text x="585" y="81" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">vegetation</text>
+  <rect x="460" y="84" width="250" height="55" fill="#EFE3C8" stroke="#2C4A3E" stroke-width="1.4"/>
+  <text x="585" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">soil layer (infiltration)</text>
+  <line x1="585" y1="139" x2="585" y2="180" stroke="#2C4A3E" stroke-width="3" stroke-dasharray="3 3"/>
+  <rect x="550" y="180" width="70" height="40" rx="4" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="585" y="204" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">pipe</text>
+
+  <!-- right graph: flattened peak -->
+  <polyline points="460,270 500,266 540,220 585,215 630,225 670,255 710,270" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="585" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">flattened, delayed peak</text>
+</svg>

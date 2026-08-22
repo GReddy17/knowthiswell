@@ -52,7 +52,7 @@
     "label": "08. General Awareness & Current Affairs Basics",
     "description": "Essential knowledge of what is happening in the world right now.",
     "phase": 2,
-    "status": "coming-soon",
+    "status": "active",
     "comingSoonPreview": [
       "How major world bodies work (UN, WHO, WTO)",
       "National symbols and government structure basics",
@@ -65,7 +65,7 @@
     "label": "09. Health & Body Basics",
     "description": "Introduction to human anatomy and basic health maintenance.",
     "phase": 2,
-    "status": "coming-soon",
+    "status": "active",
     "ymyl": true,
     "comingSoonPreview": [
       "Everyday hygiene and preventive care habits",
@@ -79,7 +79,7 @@
     "label": "10. Environment & Nature",
     "description": "The basics of ecology, biodiversity, and natural systems.",
     "phase": 2,
-    "status": "coming-soon",
+    "status": "active",
     "comingSoonPreview": [
       "Climate change basics: causes and evidence",
       "Biodiversity and why species loss matters",

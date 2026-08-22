@@ -1,0 +1,26 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="myplateTitle">
+  <title id="myplateTitle">A circular plate divided into four sections: a larger section for vegetables, a slightly smaller section for fruits, together making up half the plate, and two remaining quarter sections for grains and protein foods, with a small circle beside the plate representing a dairy serving, matching USDA's MyPlate model.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <g transform="translate(320,160)">
+    <circle r="120" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="2.5"/>
+    <!-- vegetables: top-left, largest ~30% -->
+    <path d="M 0 0 L 0 -120 A 120 120 0 0 0 -114 -37 Z" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+    <!-- fruits: left, ~20% -->
+    <path d="M 0 0 L -114 -37 A 120 120 0 0 0 -74 97 Z" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.6"/>
+    <!-- grains: bottom-right, ~25% -->
+    <path d="M 0 0 L -74 97 A 120 120 0 0 0 92 76 Z" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+    <!-- protein: right, ~25% -->
+    <path d="M 0 0 L 92 76 A 120 120 0 0 0 0 -120 Z" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+
+    <text x="-55" y="-55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Vegetables</text>
+    <text x="-70" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Fruits</text>
+    <text x="30" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Grains</text>
+    <text x="55" y="-45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Protein</text>
+  </g>
+
+  <circle cx="580" cy="230" r="35" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="580" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Dairy</text>
+
+  <text x="390" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Half the plate: fruits + vegetables. No scale required.</text>
+</svg>

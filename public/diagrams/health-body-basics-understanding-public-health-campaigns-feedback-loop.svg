@@ -1,0 +1,31 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="phCampaignLoopTitle">
+  <title id="phCampaignLoopTitle">A circular flow diagram with four stages: set a measurable population target, run an intervention such as communication or access programs, collect disease surveillance data on real-world results, and analyze that data to identify remaining gaps, which feeds back into adjusting the intervention, forming a continuous loop</title>
+  <rect width="500" height="500" fill="#FBF8F1"/>
+
+  <rect x="170" y="20" width="160" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="250" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">1. Set measurable</text>
+  <text x="250" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">population target</text>
+
+  <rect x="380" y="200" width="160" height="70" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="460" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">2. Run</text>
+  <text x="460" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">intervention</text>
+
+  <rect x="170" y="400" width="160" height="70" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="250" y="430" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">3. Collect</text>
+  <text x="250" y="448" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">surveillance data</text>
+
+  <rect x="-40" y="200" width="160" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="40" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">4. Analyze gaps,</text>
+  <text x="40" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">redirect effort</text>
+
+  <path d="M 320 60 Q 460 100 460 200" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow2)"/>
+  <path d="M 460 270 Q 460 380 330 420" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow2)"/>
+  <path d="M 170 435 Q 40 400 40 270" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow2)"/>
+  <path d="M 40 200 Q 40 90 170 55" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <defs>
+    <marker id="arrow2" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+</svg>

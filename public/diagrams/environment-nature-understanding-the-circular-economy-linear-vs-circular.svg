@@ -1,0 +1,65 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="circularEconomyTitle">
+  <title id="circularEconomyTitle">Two diagrams side by side. Left, labeled Linear Economy, shows a straight horizontal arrow flowing through four boxes in sequence: Raw Materials, Manufacture, Use, Waste, ending in a trash icon. Right, labeled Circular Economy, shows the same first three boxes arranged in a closed loop with a curved return arrow leading from Use back through Repair and Recycle boxes and back to Manufacture, with no ending trash icon.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="195" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Linear Economy</text>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">
+    <rect x="20" y="60" width="90" height="46" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="65" y="87" text-anchor="middle">Raw Materials</text>
+    <line x1="110" y1="83" x2="130" y2="83" stroke="#2C4A3E" stroke-width="2"/>
+    <polygon points="130,83 122,78 122,88" fill="#2C4A3E"/>
+
+    <rect x="132" y="60" width="90" height="46" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="177" y="87" text-anchor="middle">Manufacture</text>
+    <line x1="222" y1="83" x2="242" y2="83" stroke="#2C4A3E" stroke-width="2"/>
+    <polygon points="242,83 234,78 234,88" fill="#2C4A3E"/>
+
+    <rect x="244" y="60" width="70" height="46" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="279" y="87" text-anchor="middle">Use</text>
+    <line x1="314" y1="83" x2="334" y2="83" stroke="#2C4A3E" stroke-width="2"/>
+    <polygon points="334,83 326,78 326,88" fill="#2C4A3E"/>
+
+    <rect x="336" y="60" width="80" height="46" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.8"/>
+    <text x="376" y="87" text-anchor="middle" fill="#B5493A">Waste</text>
+  </g>
+  <text x="195" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24">🗑</text>
+
+  <!-- divider -->
+  <line x1="440" y1="10" x2="440" y2="290" stroke="#4A443C" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <text x="610" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Circular Economy</text>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">
+    <rect x="470" y="60" width="90" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="515" y="85" text-anchor="middle">Raw Materials</text>
+
+    <rect x="590" y="60" width="90" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="635" y="85" text-anchor="middle">Manufacture</text>
+
+    <rect x="670" y="140" width="70" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="705" y="165" text-anchor="middle">Use</text>
+
+    <rect x="590" y="210" width="90" height="42" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="635" y="235" text-anchor="middle">Repair</text>
+
+    <rect x="470" y="140" width="90" height="42" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="515" y="165" text-anchor="middle">Recycle</text>
+  </g>
+
+  <!-- loop arrows -->
+  <path d="M 560 81 L 590 81" stroke="#2C4A3E" stroke-width="2" fill="none"/>
+  <polygon points="590,81 582,76 582,86" fill="#2C4A3E"/>
+  <path d="M 680 90 L 700 130" stroke="#2C4A3E" stroke-width="2" fill="none"/>
+  <polygon points="702,138 693,132 703,127" fill="#2C4A3E"/>
+  <path d="M 670 165 L 590 165" stroke="#2C4A3E" stroke-width="2" fill="none"/>
+  <polygon points="582,165 590,160 590,170" fill="#2C4A3E"/>
+  <path d="M 635 182 L 635 210" stroke="#2C4A3E" stroke-width="2" fill="none"/>
+  <polygon points="635,210 630,200 640,200" fill="#2C4A3E"/>
+  <path d="M 590 231 Q 515 231 515 182" stroke="#2C4A3E" stroke-width="2" fill="none"/>
+  <polygon points="515,182 510,192 520,192" fill="#2C4A3E"/>
+  <path d="M 515 140 Q 515 100 515 102" stroke="#2C4A3E" stroke-width="2" fill="none"/>
+  <polygon points="515,102 510,112 520,112" fill="#2C4A3E"/>
+
+  <text x="610" y="280" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Materials keep circulating instead of exiting as waste.</text>
+</svg>

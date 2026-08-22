@@ -1,0 +1,29 @@
+<svg viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="drugFactsSectionsTitle">
+  <title id="drugFactsSectionsTitle">A vertical flow of six stacked sections labeled in order: Active ingredient, Purpose, Uses, Warnings, Directions, and Other information, representing the fixed, standardized order the FDA requires on every over-the-counter Drug Facts label</title>
+  <rect width="600" height="380" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="150" y="10" width="300" height="50" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="300" y="40" text-anchor="middle" font-size="14" font-weight="700" fill="#1F1B16">1. Active ingredient</text>
+
+    <path d="M300,60 L300,72" stroke="#2C4A3E" stroke-width="1.6"/>
+    <rect x="150" y="72" width="300" height="50" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="300" y="102" text-anchor="middle" font-size="14" font-weight="700" fill="#1F1B16">2. Purpose</text>
+
+    <path d="M300,122 L300,134" stroke="#2C4A3E" stroke-width="1.6"/>
+    <rect x="150" y="134" width="300" height="50" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="300" y="164" text-anchor="middle" font-size="14" font-weight="700" fill="#1F1B16">3. Uses</text>
+
+    <path d="M300,184 L300,196" stroke="#2C4A3E" stroke-width="1.6"/>
+    <rect x="150" y="196" width="300" height="50" rx="8" fill="#FBEDEA" stroke="#B5493A" stroke-width="2.5"/>
+    <text x="300" y="226" text-anchor="middle" font-size="14" font-weight="700" fill="#B5493A">4. Warnings</text>
+
+    <path d="M300,246 L300,258" stroke="#2C4A3E" stroke-width="1.6"/>
+    <rect x="150" y="258" width="300" height="50" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="300" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#1F1B16">5. Directions</text>
+
+    <path d="M300,308 L300,320" stroke="#2C4A3E" stroke-width="1.6"/>
+    <rect x="150" y="320" width="300" height="50" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="300" y="350" text-anchor="middle" font-size="14" font-weight="700" fill="#1F1B16">6. Other information</text>
+  </g>
+</svg>

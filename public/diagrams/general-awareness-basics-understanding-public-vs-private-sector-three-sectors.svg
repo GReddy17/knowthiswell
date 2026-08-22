@@ -1,0 +1,26 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="threeSectorsTitle">
+  <title id="threeSectorsTitle">A comparison diagram with three columns: Public Sector, government-owned and tax-funded, accountable to elected officials; Private Sector, privately owned and profit-driven; and Nonprofit Sector, privately organized and mission-driven with profit reinvested not distributed. A note below shows Public-Private Partnerships as a blended arrangement bridging the public and private columns</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <rect x="30" y="30" width="230" height="150" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="145" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2C4A3E">Public Sector</text>
+  <text x="145" y="85" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Government-owned</text>
+  <text x="145" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Tax-funded</text>
+  <text x="145" y="119" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Accountable to</text>
+  <text x="145" y="134" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">elected officials</text>
+
+  <rect x="285" y="30" width="230" height="150" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="400" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#B5493A">Private Sector</text>
+  <text x="400" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Privately owned</text>
+  <text x="400" y="107" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Profit-driven</text>
+
+  <rect x="540" y="30" width="230" height="150" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="655" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2C4A3E">Nonprofit Sector</text>
+  <text x="655" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Privately organized</text>
+  <text x="655" y="107" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Mission-driven</text>
+  <text x="655" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Surplus reinvested,</text>
+  <text x="655" y="139" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">not distributed</text>
+
+  <rect x="130" y="220" width="290" height="50" rx="20" fill="none" stroke="#B5493A" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="275" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#B5493A">Public-Private Partnerships (blend)</text>
+</svg>

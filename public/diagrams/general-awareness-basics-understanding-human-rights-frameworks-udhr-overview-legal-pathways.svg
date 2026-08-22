@@ -1,0 +1,25 @@
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="udhrTitle">
+  <title id="udhrTitle">A flow diagram showing the 1948 UDHR at the top, branching into two paths: one leading to the 1966 binding human rights covenants which countries can individually ratify, and another leading to a customary international law argument based on decades of consistent state practice, with both paths converging on real legal significance</title>
+  <rect width="720" height="300" fill="#FBF8F1"/>
+  <rect x="270" y="20" width="180" height="55" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.2"/>
+  <text x="360" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">UDHR (1948)</text>
+  <text x="360" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">General Assembly declaration</text>
+
+  <line x1="360" y1="75" x2="200" y2="120" stroke="#2C4A3E" stroke-width="1.6"/>
+  <line x1="360" y1="75" x2="520" y2="120" stroke="#2C4A3E" stroke-width="1.6"/>
+
+  <rect x="80" y="120" width="240" height="80" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="200" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">1966 Covenants</text>
+  <text x="200" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">binding once ratified</text>
+  <text x="200" y="184" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">by individual countries</text>
+
+  <rect x="400" y="120" width="240" height="80" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="520" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Customary Int&#8217;l Law</text>
+  <text x="520" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">decades of consistent</text>
+  <text x="520" y="184" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">state practice</text>
+
+  <line x1="200" y1="200" x2="360" y2="245" stroke="#2C4A3E" stroke-width="1.4"/>
+  <line x1="520" y1="200" x2="360" y2="245" stroke="#2C4A3E" stroke-width="1.4"/>
+  <rect x="230" y="245" width="260" height="45" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="360" y="272" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1F1B16">Real legal significance</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 780 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="parisCycleTitle">
+  <title id="parisCycleTitle">A circular flow diagram with four connected stages: submit NDC, implement and report progress transparently, participate in the global stocktake, then submit a new and more ambitious NDC, looping back to the start, with a five-year label on the arrow connecting the last stage back to the first</title>
+  <rect width="780" height="420" fill="#FBF8F1"/>
+
+  <rect x="290" y="20" width="200" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">1. Submit NDC</text>
+  <text x="390" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">self-set target + policies</text>
+
+  <rect x="560" y="150" width="200" height="70" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="660" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">2. Implement + report</text>
+  <text x="660" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">transparent progress data</text>
+
+  <rect x="290" y="280" width="200" height="70" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="310" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">3. Global stocktake</text>
+  <text x="390" y="330" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">collective review vs. goals</text>
+
+  <rect x="20" y="150" width="200" height="70" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="120" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">4. Resubmit stronger NDC</text>
+  <text x="120" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">required progression</text>
+
+  <path d="M 490 55 Q 560 55 570 150" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 660 220 Q 620 280 490 300" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 290 305 Q 200 280 130 220" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 130 150 Q 150 60 290 55" fill="none" stroke="#B5493A" stroke-width="2.2" marker-end="url(#arrowRed)"/>
+  <text x="205" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#B5493A">~5 years</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/></marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/></marker>
+  </defs>
+
+  <text x="390" y="400" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">The binding obligation is completing this cycle — not the specific number inside any one NDC.</text>
+</svg>

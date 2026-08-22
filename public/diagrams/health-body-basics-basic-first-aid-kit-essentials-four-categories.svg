@@ -1,0 +1,28 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="kitTitle">
+  <title id="kitTitle">A first aid kit box divided into four labeled sections: wound-care materials such as bandages, gauze, and tape; tools such as scissors and tweezers; protective equipment such as disposable gloves; and a section for personal medications and an emergency contact card</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <rect x="30" y="30" width="340" height="120" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="200" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Wound Care</text>
+  <text x="200" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Adhesive bandages</text>
+  <text x="200" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Sterile gauze pads</text>
+  <text x="200" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Adhesive tape, roller bandage</text>
+
+  <rect x="410" y="30" width="340" height="120" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="580" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Tools</text>
+  <text x="580" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Scissors</text>
+  <text x="580" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Tweezers</text>
+  <text x="580" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Digital thermometer</text>
+
+  <rect x="30" y="170" width="340" height="120" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="200" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Protection</text>
+  <text x="200" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Disposable gloves</text>
+  <text x="200" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">CPR breathing barrier</text>
+  <text x="200" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Antiseptic wipes</text>
+
+  <rect x="410" y="170" width="340" height="120" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="580" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Medications &amp; Records</text>
+  <text x="580" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Personal medications</text>
+  <text x="580" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Allergy &amp; contact card</text>
+  <text x="580" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Emergency numbers</text>
+</svg>

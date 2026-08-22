@@ -1,0 +1,42 @@
+<svg viewBox="0 0 780 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="demTitle">
+  <title id="demTitle">A triangle diagram with three labeled corners: Legislative (writes laws), Executive (enforces laws), and Judicial (interprets laws). Arrows along each side of the triangle show the checks each branch holds on the next: Legislative can override an Executive veto and impeach; Executive nominates judges and can veto legislation; Judicial can strike down laws from the Legislative branch and rule on Executive actions.</title>
+  <rect width="780" height="460" fill="#FBF8F1"/>
+
+  <circle cx="390" cy="80" r="70" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="390" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Legislative</text>
+  <text x="390" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">writes laws</text>
+
+  <circle cx="150" cy="360" r="70" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="150" y="355" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Executive</text>
+  <text x="150" y="375" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">enforces laws</text>
+
+  <circle cx="630" cy="360" r="70" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="630" y="355" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Judicial</text>
+  <text x="630" y="375" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">interprets laws</text>
+
+  <line x1="330" y1="120" x2="190" y2="310" stroke="#B5493A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="215" y="215" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">override veto,</text>
+  <text x="215" y="230" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">impeach</text>
+
+  <line x1="210" y1="330" x2="330" y2="130" stroke="#B5493A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="245" y="270" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">veto bills</text>
+
+  <line x1="450" y1="120" x2="580" y2="310" stroke="#B5493A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="500" y="230" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">strike down</text>
+  <text x="500" y="245" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">laws</text>
+
+  <line x1="570" y1="330" x2="450" y2="130" stroke="#B5493A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="470" y="200" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">confirm judges</text>
+
+  <line x1="220" y1="360" x2="560" y2="360" stroke="#B5493A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="330" y="400" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">nominate judges</text>
+
+  <line x1="560" y1="345" x2="220" y2="345" stroke="#B5493A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="330" y="325" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">rule on executive actions</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#B5493A"/>
+    </marker>
+  </defs>
+</svg>

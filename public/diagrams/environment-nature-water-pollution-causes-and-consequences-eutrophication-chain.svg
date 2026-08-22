@@ -1,0 +1,59 @@
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="eutroTitle">
+  <title id="eutroTitle">A left-to-right flow diagram with four stages: first, farms and lawns across a watershed with arrows showing fertilizer runoff into a river; second, the river carrying nitrogen and phosphorus downstream; third, a bloom of algae shown as a dense green mass on the water surface; fourth, the algae dying and sinking with a shaded low-oxygen zone below labeled dead zone, with a fish skeleton icon indicating marine life cannot survive there</title>
+  <rect width="900" height="300" fill="#FBF8F1"/>
+
+  <!-- Stage 1: Farms/lawns runoff -->
+  <rect x="20" y="40" width="190" height="150" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="115" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Farms &amp; lawns</text>
+  <rect x="40" y="80" width="60" height="30" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.4"/>
+  <rect x="110" y="80" width="60" height="30" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.4"/>
+  <rect x="40" y="120" width="60" height="30" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.4"/>
+  <rect x="110" y="120" width="60" height="30" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.4"/>
+  <text x="115" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">fertilizer runoff</text>
+
+  <path d="M212 115 L248 115" stroke="#B5493A" stroke-width="2" marker-end="url(#arrow1)"/>
+
+  <!-- Stage 2: River -->
+  <rect x="250" y="40" width="150" height="150" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="325" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">River</text>
+  <path d="M270 100 Q325 90 380 100 Q325 130 270 130 Q325 160 380 160" stroke="#2C4A3E" stroke-width="2" fill="none"/>
+  <text x="325" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">N + P downstream</text>
+
+  <path d="M402 115 L438 115" stroke="#B5493A" stroke-width="2" marker-end="url(#arrow1)"/>
+
+  <!-- Stage 3: Algal bloom -->
+  <rect x="440" y="40" width="180" height="150" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="530" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Algal bloom</text>
+  <ellipse cx="500" cy="105" rx="22" ry="16" fill="#3F7A4F"/>
+  <ellipse cx="540" cy="115" rx="26" ry="18" fill="#3F7A4F"/>
+  <ellipse cx="575" cy="100" rx="20" ry="14" fill="#3F7A4F"/>
+  <ellipse cx="520" cy="130" rx="24" ry="16" fill="#3F7A4F"/>
+  <text x="530" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">explosive algae growth</text>
+
+  <path d="M622 115 L658 115" stroke="#B5493A" stroke-width="2" marker-end="url(#arrow1)"/>
+
+  <!-- Stage 4: Dead zone -->
+  <rect x="660" y="40" width="220" height="220" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="770" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Dead zone</text>
+  <rect x="675" y="80" width="190" height="50" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.2"/>
+  <text x="770" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">surface: dead algae sinking</text>
+  <rect x="675" y="135" width="190" height="105" fill="#4A443C" opacity="0.18" stroke="#2C4A3E" stroke-width="1.2"/>
+  <text x="770" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">low dissolved oxygen</text>
+  <!-- fish skeleton icon -->
+  <g transform="translate(740,195)">
+    <line x1="0" y1="10" x2="55" y2="10" stroke="#B5493A" stroke-width="2"/>
+    <line x1="8" y1="2" x2="8" y2="18" stroke="#B5493A" stroke-width="1.6"/>
+    <line x1="18" y1="2" x2="18" y2="18" stroke="#B5493A" stroke-width="1.6"/>
+    <line x1="28" y1="2" x2="28" y2="18" stroke="#B5493A" stroke-width="1.6"/>
+    <line x1="38" y1="2" x2="38" y2="18" stroke="#B5493A" stroke-width="1.6"/>
+    <path d="M55 10 L68 2 L68 18 Z" fill="none" stroke="#B5493A" stroke-width="1.6"/>
+  </g>
+
+  <defs>
+    <marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Each stage happens far from the last — fertilizer applied on land ends in a marine oxygen collapse miles downstream.</text>
+</svg>

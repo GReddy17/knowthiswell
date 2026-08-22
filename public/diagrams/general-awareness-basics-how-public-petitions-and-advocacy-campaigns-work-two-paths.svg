@@ -1,0 +1,20 @@
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="petitionTitle">
+  <title id="petitionTitle">A comparison diagram with two paths: an Advisory Petition path leading to Public and Media Pressure with no guaranteed outcome, and a Formal Petition Mechanism path requiring signature verification against a legal threshold, leading to a guaranteed legal outcome such as a mandatory response or ballot initiative</title>
+  <rect width="760" height="300" fill="#FBF8F1"/>
+  <rect x="30" y="30" width="300" height="55" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="180" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Advisory Petition</text>
+  <line x1="180" y1="85" x2="180" y2="120" stroke="#2C4A3E" stroke-width="1.6"/>
+  <rect x="60" y="120" width="240" height="70" rx="8" fill="#FBF8F1" stroke="#4A443C" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <text x="180" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Public and media pressure</text>
+  <text x="180" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">no guaranteed outcome</text>
+
+  <rect x="430" y="30" width="300" height="55" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="580" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Formal Petition Mechanism</text>
+  <line x1="580" y1="85" x2="580" y2="110" stroke="#2C4A3E" stroke-width="1.6"/>
+  <rect x="480" y="110" width="200" height="45" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.4"/>
+  <text x="580" y="137" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Signature verification</text>
+  <line x1="580" y1="155" x2="580" y2="190" stroke="#2C4A3E" stroke-width="1.6"/>
+  <rect x="460" y="190" width="240" height="70" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="580" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Guaranteed legal outcome</text>
+  <text x="580" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">required response / ballot placement</text>
+</svg>

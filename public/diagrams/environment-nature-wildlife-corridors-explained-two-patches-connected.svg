@@ -1,0 +1,32 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="corridorTitle">
+  <title id="corridorTitle">Two separate green habitat patches on either side of a gray road, connected by a narrow green vegetated overpass corridor arching over the road, with an arrow showing an animal icon moving across the corridor between the two patches</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <!-- left patch -->
+  <ellipse cx="150" cy="170" rx="130" ry="90" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="150" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Habitat patch A</text>
+
+  <!-- right patch -->
+  <ellipse cx="630" cy="170" rx="130" ry="90" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="630" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Habitat patch B</text>
+
+  <!-- road -->
+  <rect x="0" y="230" width="780" height="50" fill="#B5B0A3"/>
+  <line x1="0" y1="255" x2="780" y2="255" stroke="#FBF8F1" stroke-width="3" stroke-dasharray="18 14"/>
+
+  <!-- corridor overpass -->
+  <path d="M280 200 Q 390 100 500 200" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2.5"/>
+  <path d="M280 200 Q 390 100 500 200" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="390" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Wildlife corridor</text>
+
+  <!-- animal + arrow -->
+  <circle cx="390" cy="175" r="9" fill="#B5493A"/>
+  <path d="M300 195 Q390 130 480 195" fill="none" stroke="#B5493A" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">The corridor reconnects two isolated populations into one functional metapopulation.</text>
+</svg>

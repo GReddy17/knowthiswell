@@ -1,0 +1,24 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="occupancyCompTitle">
+  <title id="occupancyCompTitle">Two identical car icons side by side, each labeled with the same total emissions per mile. The left car shows one person icon inside with a large per-passenger emissions number below it. The right car shows four person icons inside with a per-passenger emissions number one-quarter as large below it, illustrating how occupancy divides the same total emissions across more or fewer riders.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="100" y="30" width="180" height="90" rx="12" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="190" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26" fill="#4A443C">🚗</text>
+  <text x="190" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">0.35 kg CO2/mile</text>
+  <text x="190" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#1F1B16">🧍</text>
+
+  <rect x="100" y="145" width="180" height="55" rx="8" fill="#FBEDEA" stroke="#B5493A" stroke-width="2.2"/>
+  <text x="190" y="178" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#B5493A">3.5 kg / person</text>
+  <text x="190" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Solo driver</text>
+
+  <rect x="500" y="30" width="180" height="90" rx="12" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="590" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26" fill="#4A443C">🚗</text>
+  <text x="590" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">0.35 kg CO2/mile</text>
+  <text x="590" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#1F1B16">🧍🧍🧍🧍</text>
+
+  <rect x="500" y="145" width="180" height="55" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.2"/>
+  <text x="590" y="178" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">0.875 kg / person</text>
+  <text x="590" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">4-person carpool</text>
+
+  <text x="390" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same vehicle, same total emissions — very different footprint per rider.</text>
+</svg>

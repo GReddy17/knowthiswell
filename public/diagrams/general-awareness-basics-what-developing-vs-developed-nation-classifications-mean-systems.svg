@@ -1,0 +1,30 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="devClassSystemsTitle">
+  <title id="devClassSystemsTitle">Three side-by-side boxes labeled World Bank Income Groups (based on GNI per capita), UN Human Development Index (combines income, life expectancy, and education), and UN Least Developed Countries category (income, human assets, and economic vulnerability), each with a short description, showing that no single universal system exists</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <rect x="20" y="40" width="230" height="220" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="135" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">World Bank</text>
+  <text x="135" y="93" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Income Groups</text>
+  <text x="135" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Based on GNI</text>
+  <text x="135" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">per capita</text>
+  <text x="135" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Low / lower-mid /</text>
+  <text x="135" y="203" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">upper-mid / high income</text>
+
+  <rect x="275" y="40" width="230" height="220" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">UN Human</text>
+  <text x="390" y="93" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Development Index</text>
+  <text x="390" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Combines income, life</text>
+  <text x="390" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">expectancy, education</text>
+  <text x="390" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Low / medium / high /</text>
+  <text x="390" y="203" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">very high development</text>
+
+  <rect x="530" y="40" width="230" height="220" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="645" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">UN Least Developed</text>
+  <text x="645" y="93" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Countries (LDC)</text>
+  <text x="645" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Income, human assets,</text>
+  <text x="645" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">economic vulnerability</text>
+  <text x="645" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Grants trade preferences</text>
+  <text x="645" y="203" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">and targeted aid</text>
+
+  <text x="390" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">No single system is more "official" than the others — each serves a different purpose.</text>
+</svg>

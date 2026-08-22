@@ -1,0 +1,24 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fragTitle">
+  <title id="fragTitle">Two side-by-side squares of identical total green area: the left square is one solid connected block labeled connected habitat, viable population, the right square is the same total green area broken into four small disconnected patches by gray roads, labeled fragmented habitat, four isolated populations below viable size</title>
+  <rect width="780" height="340" fill="#FBF8F1"/>
+
+  <!-- Left: connected habitat -->
+  <rect x="60" y="40" width="260" height="200" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="190" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Connected habitat</text>
+  <text x="190" y="280" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">One viable population</text>
+
+  <!-- Right: fragmented habitat -->
+  <rect x="460" y="40" width="260" height="200" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="470" y="50" width="110" height="85" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <rect x="600" y="50" width="110" height="85" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <rect x="470" y="145" width="110" height="85" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <rect x="600" y="145" width="110" height="85" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <!-- roads -->
+  <rect x="580" y="45" width="20" height="190" fill="#B5B0A3"/>
+  <rect x="465" y="135" width="250" height="14" fill="#B5B0A3"/>
+  <text x="590" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Fragmented habitat</text>
+  <text x="590" y="280" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Four isolated populations,</text>
+  <text x="590" y="296" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">each below viable size</text>
+
+  <text x="390" y="20" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#4A443C">Same total green area, very different outcome for wildlife</text>
+</svg>

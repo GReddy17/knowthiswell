@@ -1,0 +1,21 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sleepCycleTitle">
+  <title id="sleepCycleTitle">A horizontal chart showing sleep depth on the vertical axis over a full night on the horizontal axis, with five wave-like cycles of roughly 90 minutes each, showing deep sleep dipping lower and more prominent in earlier cycles and REM sleep segments becoming longer and more prominent in later cycles toward morning</title>
+  <rect width="800" height="260" fill="#FBF8F1"/>
+
+  <text x="40" y="30" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Light</text>
+  <text x="40" y="130" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">REM</text>
+  <text x="40" y="220" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Deep</text>
+  <line x1="80" y1="40" x2="80" y2="230" stroke="#2C4A3E" stroke-width="1.4"/>
+  <line x1="80" y1="230" x2="760" y2="230" stroke="#2C4A3E" stroke-width="1.4"/>
+
+  <path d="M 100 60 C 130 210, 160 210, 190 70 C 220 200, 250 200, 280 85 C 310 180, 340 180, 370 90 C 400 150, 430 150, 460 95 C 490 120, 520 120, 550 100 C 580 105, 610 105, 640 100"
+        fill="none" stroke="#B5493A" stroke-width="2.6"/>
+
+  <text x="140" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Cycle 1</text>
+  <text x="280" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Cycle 2</text>
+  <text x="420" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Cycle 3</text>
+  <text x="550" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Cycle 4</text>
+  <text x="670" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Cycle 5</text>
+
+  <text x="400" y="20" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#2C4A3E">Deep sleep concentrated early, REM sleep concentrated late</text>
+</svg>

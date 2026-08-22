@@ -1,0 +1,40 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="postureTitle">
+  <title id="postureTitle">A side-view diagram of a person seated at a workstation with callout labels marking neutral posture reference points: monitor top at eye level, elbows near 90 degrees at keyboard height, lower back supported in its natural curve, and feet flat on the floor, matching OSHA's computer workstation guidance.</title>
+  <rect width="620" height="380" fill="#FBF8F1"/>
+
+  <!-- monitor -->
+  <rect x="330" y="70" width="90" height="65" rx="4" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <line x1="375" y1="135" x2="375" y2="150" stroke="#2C4A3E" stroke-width="2"/>
+
+  <!-- simplified seated figure -->
+  <circle cx="230" cy="105" r="18" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <line x1="230" y1="123" x2="230" y2="210" stroke="#2C4A3E" stroke-width="3"/>
+  <line x1="230" y1="150" x2="290" y2="170" stroke="#2C4A3E" stroke-width="3"/>
+  <line x1="290" y1="170" x2="300" y2="200" stroke="#2C4A3E" stroke-width="3"/>
+  <line x1="230" y1="210" x2="200" y2="280" stroke="#2C4A3E" stroke-width="3"/>
+  <line x1="200" y1="280" x2="200" y2="320" stroke="#2C4A3E" stroke-width="3"/>
+  <line x1="230" y1="210" x2="270" y2="280" stroke="#2C4A3E" stroke-width="3"/>
+  <line x1="270" y1="280" x2="270" y2="320" stroke="#2C4A3E" stroke-width="3"/>
+
+  <!-- chair -->
+  <path d="M 150 210 L 150 130" stroke="#2C4A3E" stroke-width="3" fill="none"/>
+  <line x1="150" y1="280" x2="290" y2="280" stroke="#2C4A3E" stroke-width="3"/>
+
+  <!-- floor -->
+  <line x1="60" y1="320" x2="450" y2="320" stroke="#2C4A3E" stroke-width="1.6"/>
+
+  <!-- callouts -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">
+    <line x1="330" y1="90" x2="460" y2="60" stroke="#B5493A" stroke-width="1.4"/>
+    <text x="465" y="63" font-weight="700">Monitor top at eye level</text>
+
+    <line x1="295" y1="185" x2="460" y2="150" stroke="#B5493A" stroke-width="1.4"/>
+    <text x="465" y="153" font-weight="700">Elbows ~90 degrees</text>
+
+    <line x1="230" y1="185" x2="460" y2="220" stroke="#B5493A" stroke-width="1.4"/>
+    <text x="465" y="223" font-weight="700">Lower back supported</text>
+
+    <line x1="235" y1="300" x2="460" y2="290" stroke="#B5493A" stroke-width="1.4"/>
+    <text x="465" y="293" font-weight="700">Feet flat on floor</text>
+  </g>
+</svg>

@@ -1,0 +1,108 @@
+<svg viewBox="0 0 760 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="herdImmunityTitle">
+  <title id="herdImmunityTitle">Two grids of dots representing people, immune individuals shown in one color and susceptible individuals in another. The first grid, below the herd immunity threshold, shows an infection chain successfully hopping between multiple susceptible dots across the grid. The second grid, at or above the herd immunity threshold, shows an infection surrounded mostly by immune dots, with the transmission chain dying out after very few hops</title>
+  <rect width="760" height="320" fill="#FBF8F1"/>
+
+  <text x="190" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Below threshold (mostly susceptible)</text>
+  <text x="570" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">At/above threshold (mostly immune)</text>
+
+  <!-- Left grid: 6x6, mostly susceptible (red), a chain path highlighted -->
+  <g id="leftgrid">
+    <!-- generate via manual dots -->
+  </g>
+
+  <!-- Left grid dots -->
+  <!-- rows y=60..270 step 35, cols x=40..340 step 35 -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <!-- susceptible base fill for left grid -->
+    <circle cx="60" cy="70" r="10" fill="#B5493A"/>
+    <circle cx="100" cy="70" r="10" fill="#B5493A"/>
+    <circle cx="140" cy="70" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="180" cy="70" r="10" fill="#B5493A"/>
+    <circle cx="220" cy="70" r="10" fill="#B5493A"/>
+    <circle cx="260" cy="70" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="300" cy="70" r="10" fill="#B5493A"/>
+
+    <circle cx="60" cy="110" r="10" fill="#B5493A"/>
+    <circle cx="100" cy="110" r="10" fill="#4A443C" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="140" cy="110" r="10" fill="#B5493A"/>
+    <circle cx="180" cy="110" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="220" cy="110" r="10" fill="#B5493A"/>
+    <circle cx="260" cy="110" r="10" fill="#B5493A"/>
+    <circle cx="300" cy="110" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+
+    <circle cx="60" cy="150" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="100" cy="150" r="10" fill="#B5493A"/>
+    <circle cx="140" cy="150" r="10" fill="#B5493A"/>
+    <circle cx="180" cy="150" r="10" fill="#B5493A"/>
+    <circle cx="220" cy="150" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="260" cy="150" r="10" fill="#B5493A"/>
+    <circle cx="300" cy="150" r="10" fill="#B5493A"/>
+
+    <circle cx="60" cy="190" r="10" fill="#B5493A"/>
+    <circle cx="100" cy="190" r="10" fill="#B5493A"/>
+    <circle cx="140" cy="190" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="180" cy="190" r="10" fill="#B5493A"/>
+    <circle cx="220" cy="190" r="10" fill="#B5493A"/>
+    <circle cx="260" cy="190" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="300" cy="190" r="10" fill="#B5493A"/>
+
+    <!-- transmission chain arrows -->
+    <line x1="100" y1="110" x2="60" y2="70" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="100" y1="110" x2="140" y2="150" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="140" y1="150" x2="180" y2="190" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="180" y1="190" x2="220" y2="150" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Right grid: mostly immune (green), infection dies out quickly -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <circle cx="440" cy="70" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="480" cy="70" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="520" cy="70" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="560" cy="70" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="600" cy="70" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="640" cy="70" r="10" fill="#B5493A"/>
+    <circle cx="680" cy="70" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+
+    <circle cx="440" cy="110" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="480" cy="110" r="10" fill="#4A443C" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="520" cy="110" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="560" cy="110" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="600" cy="110" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="640" cy="110" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="680" cy="110" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+
+    <circle cx="440" cy="150" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="480" cy="150" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="520" cy="150" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="560" cy="150" r="10" fill="#B5493A"/>
+    <circle cx="600" cy="150" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="640" cy="150" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="680" cy="150" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+
+    <circle cx="440" cy="190" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="480" cy="190" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="520" cy="190" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="560" cy="190" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="600" cy="190" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="640" cy="190" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+    <circle cx="680" cy="190" r="10" fill="#EEF3EE" stroke="#2C4A3E"/>
+
+    <!-- chain dies out after one hop -->
+    <line x1="480" y1="110" x2="440" y2="70" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrow)" opacity="0.5"/>
+    <text x="480" y="230" text-anchor="middle" font-size="12" fill="#4A443C">chain dies out — mostly immune neighbors</text>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/>
+    </marker>
+  </defs>
+
+  <!-- legend -->
+  <circle cx="60" cy="290" r="8" fill="#B5493A"/>
+  <text x="75" y="294" font-size="12" fill="#4A443C">Susceptible</text>
+  <circle cx="180" cy="290" r="8" fill="#EEF3EE" stroke="#2C4A3E"/>
+  <text x="195" y="294" font-size="12" fill="#4A443C">Immune</text>
+  <circle cx="280" cy="290" r="8" fill="#4A443C" stroke="#1F1B16" stroke-width="2"/>
+  <text x="295" y="294" font-size="12" fill="#4A443C">Initially infected</text>
+</svg>

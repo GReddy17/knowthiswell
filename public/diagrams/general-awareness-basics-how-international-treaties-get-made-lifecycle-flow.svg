@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="treatyTitle">
+  <title id="treatyTitle">A flow diagram with four sequential stages: Negotiation (draft text agreed), Signature (representatives sign, limited legal effect begins), Ratification (domestic legislative approval, full consent to be bound), and Entry Into Force (binding once the treaty's stated minimum-ratification threshold is met) — with a branch off the Signature box showing a dotted line to 'never ratified' as a real possible outcome</title>
+  <rect width="800" height="280" fill="#FBF8F1"/>
+
+  <rect x="20" y="30" width="160" height="80" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="100" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Negotiation</text>
+  <text x="100" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">draft text agreed</text>
+
+  <text x="200" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#4A443C">&#8594;</text>
+
+  <rect x="220" y="30" width="160" height="80" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="300" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Signature</text>
+  <text x="300" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">intent shown;</text>
+  <text x="300" y="93" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">limited legal effect</text>
+
+  <text x="400" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#4A443C">&#8594;</text>
+
+  <rect x="420" y="30" width="160" height="80" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="500" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Ratification</text>
+  <text x="500" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">domestic approval;</text>
+  <text x="500" y="93" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">full consent to be bound</text>
+
+  <text x="600" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#4A443C">&#8594;</text>
+
+  <rect x="620" y="30" width="160" height="80" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="700" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Entry Into</text>
+  <text x="700" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Force</text>
+  <text x="700" y="93" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">threshold met</text>
+
+  <line x1="300" y1="110" x2="300" y2="150" stroke="#B5493A" stroke-width="1.8" stroke-dasharray="4,4"/>
+  <rect x="200" y="150" width="200" height="60" rx="10" fill="#FBF8F1" stroke="#B5493A" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <text x="300" y="176" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A" font-weight="600">Never ratified</text>
+  <text x="300" y="194" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">not fully bound</text>
+
+  <text x="400" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">A real, common outcome — a country can sign and never complete ratification.</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="screeningTimelineTitle">
+  <title id="screeningTimelineTitle">A horizontal timeline spanning ages 20 through 75, with rows for blood pressure screening starting in the 20s, cholesterol screening starting around the 20s to 30s, colorectal cancer screening starting at 45, and additional screenings appearing at older age bands, illustrating how the number and type of recommended screenings expands with age</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <line x1="60" y1="230" x2="740" y2="230" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="60" y="248" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">20</text>
+  <text x="230" y="248" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">35</text>
+  <text x="380" y="248" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">45</text>
+  <text x="530" y="248" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">60</text>
+  <text x="720" y="248" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">75</text>
+
+  <!-- Blood pressure: starts age 20 -->
+  <rect x="60" y="60" width="680" height="24" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="70" y="76" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Blood pressure screening — from age 20</text>
+
+  <!-- Cholesterol: starts ~mid 20s -->
+  <rect x="90" y="94" width="650" height="24" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="100" y="110" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Cholesterol screening — from mid-20s</text>
+
+  <!-- Colorectal: starts 45 -->
+  <rect x="380" y="128" width="360" height="24" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="390" y="144" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Colorectal cancer screening — from age 45</text>
+
+  <!-- Additional screenings: starts ~60 -->
+  <rect x="530" y="162" width="210" height="24" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="540" y="178" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Bone density &amp; other screenings — from ~60s</text>
+
+  <!-- vertical guide lines -->
+  <line x1="380" y1="55" x2="380" y2="230" stroke="#B5493A" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="530" y1="55" x2="530" y2="230" stroke="#B5493A" stroke-width="1.2" stroke-dasharray="4,3"/>
+
+  <text x="390" y="30" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">age 45 threshold</text>
+  <text x="540" y="30" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">age 60 threshold</text>
+</svg>

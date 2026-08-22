@@ -1,0 +1,25 @@
+<svg viewBox="0 0 740 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wireTitle">
+  <title id="wireTitle">A flow diagram showing a single Wire Service box at the top with lines branching out to five different outlet boxes below it, each republishing the same licensed story with its own headline and placement</title>
+  <rect width="740" height="280" fill="#FBF8F1"/>
+  <rect x="280" y="20" width="180" height="55" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.2"/>
+  <text x="370" y="53" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Wire Service</text>
+
+  <line x1="370" y1="75" x2="90" y2="150" stroke="#2C4A3E" stroke-width="1.3"/>
+  <line x1="370" y1="75" x2="270" y2="150" stroke="#2C4A3E" stroke-width="1.3"/>
+  <line x1="370" y1="75" x2="450" y2="150" stroke="#2C4A3E" stroke-width="1.3"/>
+  <line x1="370" y1="75" x2="630" y2="150" stroke="#2C4A3E" stroke-width="1.3"/>
+
+  <rect x="20" y="150" width="140" height="60" rx="7" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="90" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Outlet A</text>
+
+  <rect x="200" y="150" width="140" height="60" rx="7" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="270" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Outlet B</text>
+
+  <rect x="380" y="150" width="140" height="60" rx="7" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="450" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Outlet C</text>
+
+  <rect x="560" y="150" width="140" height="60" rx="7" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="630" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Outlet D</text>
+
+  <text x="370" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Same licensed story, different headlines and placement at each outlet.</text>
+</svg>

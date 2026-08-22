@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ewasteTitle">
+  <title id="ewasteTitle">A branching diagram starting from a discarded circuit board icon at the top. The left branch leads to an informal recycling icon showing open burning with smoke and warning symbols, ending in a hazard icon labeled toxic release. The right branch leads to a formal recycling facility icon with contained processing, ending in a recovered-metals icon labeled gold, copper, palladium recovered safely</title>
+  <rect width="800" height="400" fill="#FBF8F1"/>
+
+  <!-- top: circuit board -->
+  <rect x="330" y="20" width="140" height="80" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <g stroke="#3F7A4F" stroke-width="1.6">
+    <line x1="345" y1="35" x2="345" y2="85"/>
+    <line x1="365" y1="35" x2="365" y2="60"/>
+    <line x1="385" y1="45" x2="385" y2="85"/>
+    <line x1="405" y1="35" x2="405" y2="70"/>
+    <line x1="425" y1="45" x2="425" y2="85"/>
+    <line x1="445" y1="35" x2="445" y2="60"/>
+  </g>
+  <text x="400" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Discarded circuit board</text>
+
+  <!-- branches -->
+  <path d="M370 100 L200 150" stroke="#4A443C" stroke-width="2"/>
+  <path d="M430 100 L600 150" stroke="#4A443C" stroke-width="2"/>
+
+  <!-- left: informal -->
+  <rect x="60" y="155" width="280" height="100" rx="8" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="200" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Informal recycling</text>
+  <path d="M170 235 Q180 210 170 195 Q190 210 185 230" fill="#4A443C" opacity="0.5"/>
+  <path d="M195 235 Q205 205 195 190 Q215 205 210 228" fill="#4A443C" opacity="0.5"/>
+  <path d="M150 240 h100 v10 h-100 z" fill="#B5493A"/>
+  <text x="200" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1" font-weight="700">open burning</text>
+
+  <path d="M200 255 L200 295" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowE)"/>
+  <rect x="100" y="300" width="200" height="70" rx="8" fill="#EDE7D8" stroke="#B5493A" stroke-width="2"/>
+  <path d="M200 315 L212 335 L188 335 Z" fill="#B5493A"/>
+  <text x="200" y="332" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1" font-weight="700">!</text>
+  <text x="200" y="358" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Toxic release</text>
+
+  <!-- right: formal -->
+  <rect x="460" y="155" width="280" height="100" rx="8" fill="#EEF3EE" stroke="#3F7A4F" stroke-width="2"/>
+  <text x="600" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Formal recycling facility</text>
+  <rect x="530" y="200" width="140" height="40" rx="6" fill="#C9D9CD" stroke="#2C4A3E" stroke-width="1.4"/>
+  <text x="600" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">contained processing</text>
+
+  <path d="M600 255 L600 295" stroke="#3F7A4F" stroke-width="2" marker-end="url(#arrowE2)"/>
+  <rect x="480" y="300" width="240" height="70" rx="8" fill="#EDE7D8" stroke="#3F7A4F" stroke-width="2"/>
+  <circle cx="600" cy="322" r="10" fill="#B5A15A"/>
+  <text x="600" y="358" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Gold, copper, palladium</text>
+  <text x="600" y="370" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">recovered safely</text>
+
+  <defs>
+    <marker id="arrowE" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto"><path d="M0,0 L8,0 L4,8 Z" fill="#B5493A"/></marker>
+    <marker id="arrowE2" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto"><path d="M0,0 L8,0 L4,8 Z" fill="#3F7A4F"/></marker>
+  </defs>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="censusFlowTitle">
+  <title id="censusFlowTitle">A flow diagram showing a Census Count box branching into three downstream effect boxes: Legislative Apportionment where seats are reallocated by population, Government Funding Formulas where money is distributed by population figures, and Population Density and Planning Statistics, illustrating that one count feeds multiple real consequences</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="30" y="95" width="150" height="70" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.2"/>
+  <text x="105" y="125" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Census</text>
+  <text x="105" y="143" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Count</text>
+
+  <line x1="180" y1="130" x2="240" y2="55" stroke="#2C4A3E" stroke-width="1.4"/>
+  <line x1="180" y1="130" x2="240" y2="130" stroke="#2C4A3E" stroke-width="1.4"/>
+  <line x1="180" y1="130" x2="240" y2="205" stroke="#2C4A3E" stroke-width="1.4"/>
+
+  <rect x="245" y="25" width="500" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="495" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Legislative Apportionment</text>
+  <text x="495" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">seats reallocated by population</text>
+
+  <rect x="245" y="100" width="500" height="60" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="495" y="125" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Government Funding Formulas</text>
+  <text x="495" y="143" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">money distributed by population figures</text>
+
+  <rect x="245" y="175" width="500" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="495" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#1F1B16">Density &amp; Planning Statistics</text>
+  <text x="495" y="218" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">used for infrastructure and planning</text>
+</svg>

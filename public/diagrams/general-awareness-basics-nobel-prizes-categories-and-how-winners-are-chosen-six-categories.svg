@@ -1,0 +1,31 @@
+<svg viewBox="0 0 760 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="nobelTitle">
+  <title id="nobelTitle">A diagram listing six Nobel Prize categories each paired with its awarding institution: Physics and Chemistry with the Royal Swedish Academy of Sciences, Physiology or Medicine with the Karolinska Institute, Literature with the Swedish Academy, Peace with the Norwegian Nobel Committee, and Economic Sciences with the Royal Swedish Academy of Sciences, with a note that Peace is the only prize decided outside Sweden</title>
+  <rect width="760" height="320" fill="#FBF8F1"/>
+
+  <rect x="20" y="20" width="220" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="130" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Physics</text>
+  <text x="130" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Royal Swedish Academy of Sciences</text>
+
+  <rect x="270" y="20" width="220" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="380" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Chemistry</text>
+  <text x="380" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Royal Swedish Academy of Sciences</text>
+
+  <rect x="520" y="20" width="220" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="630" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1F1B16">Economic Sciences</text>
+  <text x="630" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Royal Swedish Academy (est. 1968)</text>
+
+  <rect x="20" y="110" width="220" height="60" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="130" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Physiology or Medicine</text>
+  <text x="130" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Karolinska Institute</text>
+
+  <rect x="270" y="110" width="220" height="60" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="380" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Literature</text>
+  <text x="380" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Swedish Academy</text>
+
+  <rect x="520" y="110" width="220" height="60" rx="8" fill="#EDE7D8" stroke="#B5493A" stroke-width="2.2"/>
+  <text x="630" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Peace</text>
+  <text x="630" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#B5493A">Norwegian Nobel Committee</text>
+
+  <text x="380" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16" font-weight="600">Six categories. Different institutions. One shared founding source.</text>
+  <text x="380" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Peace is the only prize decided outside Sweden — a Norwegian committee, per Nobel's own 1895 will.</text>
+</svg>

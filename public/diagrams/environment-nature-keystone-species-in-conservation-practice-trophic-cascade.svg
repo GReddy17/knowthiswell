@@ -1,0 +1,60 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="trophicCascadeTitle">
+  <title id="trophicCascadeTitle">A vertical flow diagram with four levels connected by downward arrows. Top level: Predator, labeled Removed. Second level: Herbivore population, labeled Increases, with an up arrow. Third level: Vegetation, labeled Declines, with a down arrow. Fourth level: Species Dependent on Vegetation, labeled Declines, with a down arrow. A second faded column beside it shows the same four levels with the predator labeled Present, and the subsequent three levels reversed to Controlled, Recovers, Recovers.</title>
+  <rect width="780" height="340" fill="#FBF8F1"/>
+
+  <text x="205" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Predator removed</text>
+  <text x="580" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A443C" opacity="0.6">Predator present</text>
+
+  <!-- Left column: cascade -->
+  <rect x="110" y="42" width="190" height="46" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="205" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Predator — removed</text>
+  <line x1="205" y1="88" x2="205" y2="108" stroke="#2C4A3E" stroke-width="2.5"/>
+  <polygon points="205,108 199,96 211,96" fill="#2C4A3E"/>
+
+  <rect x="110" y="110" width="190" height="46" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="205" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Herbivore population</text>
+  <text x="205" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5493A">Increases ↑</text>
+  <line x1="205" y1="156" x2="205" y2="176" stroke="#2C4A3E" stroke-width="2.5"/>
+  <polygon points="205,176 199,164 211,164" fill="#2C4A3E"/>
+
+  <rect x="110" y="178" width="190" height="46" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="205" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Vegetation</text>
+  <text x="205" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5493A">Declines ↓</text>
+  <line x1="205" y1="224" x2="205" y2="244" stroke="#2C4A3E" stroke-width="2.5"/>
+  <polygon points="205,244 199,232 211,232" fill="#2C4A3E"/>
+
+  <rect x="90" y="246" width="230" height="52" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="205" y="268" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Species dependent on</text>
+  <text x="205" y="283" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">vegetation (e.g. beavers)</text>
+  <text x="205" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#B5493A">Declines ↓</text>
+
+  <!-- divider -->
+  <line x1="400" y1="20" x2="400" y2="320" stroke="#4A443C" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Right column: healthy state, faded -->
+  <g opacity="0.55">
+    <rect x="485" y="42" width="190" height="46" rx="8" fill="#EEF3EE" stroke="#4A443C" stroke-width="1.6"/>
+    <text x="580" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Predator — present</text>
+    <line x1="580" y1="88" x2="580" y2="108" stroke="#4A443C" stroke-width="2"/>
+    <polygon points="580,108 574,96 586,96" fill="#4A443C"/>
+
+    <rect x="485" y="110" width="190" height="46" rx="8" fill="#EEF3EE" stroke="#4A443C" stroke-width="1.6"/>
+    <text x="580" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Herbivore population</text>
+    <text x="580" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#2C4A3E">Controlled</text>
+    <line x1="580" y1="156" x2="580" y2="176" stroke="#4A443C" stroke-width="2"/>
+    <polygon points="580,176 574,164 586,164" fill="#4A443C"/>
+
+    <rect x="485" y="178" width="190" height="46" rx="8" fill="#EEF3EE" stroke="#4A443C" stroke-width="1.6"/>
+    <text x="580" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Vegetation</text>
+    <text x="580" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#2C4A3E">Recovers</text>
+    <line x1="580" y1="224" x2="580" y2="244" stroke="#4A443C" stroke-width="2"/>
+    <polygon points="580,244 574,232 586,232" fill="#4A443C"/>
+
+    <rect x="465" y="246" width="230" height="52" rx="8" fill="#EEF3EE" stroke="#4A443C" stroke-width="1.6"/>
+    <text x="580" y="268" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Species dependent on</text>
+    <text x="580" y="283" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">vegetation (e.g. beavers)</text>
+    <text x="580" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#2C4A3E">Recovers</text>
+  </g>
+
+  <text x="390" y="325" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Each level's change is a direct consequence of the level above it.</text>
+</svg>

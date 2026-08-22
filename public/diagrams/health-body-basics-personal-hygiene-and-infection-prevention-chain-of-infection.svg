@@ -1,0 +1,47 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chainInfectionTitle">
+  <title id="chainInfectionTitle">A circular chain of six linked boxes representing the chain of infection: infectious agent, reservoir, portal of exit, mode of transmission, portal of entry, and susceptible host, with an example hygiene action shown breaking one link of the chain.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <!-- 6 nodes in a circle -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">
+    <circle cx="390" cy="50" r="55" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="390" y="46" text-anchor="middle">Infectious</text>
+    <text x="390" y="60" text-anchor="middle">agent</text>
+
+    <circle cx="600" cy="90" r="55" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="600" y="86" text-anchor="middle">Reservoir</text>
+    <text x="600" y="100" text-anchor="middle">(person/surface)</text>
+
+    <circle cx="670" cy="210" r="55" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="670" y="206" text-anchor="middle">Portal of</text>
+    <text x="670" y="220" text-anchor="middle">exit</text>
+
+    <circle cx="500" cy="240" r="55" fill="#FBEDEA" stroke="#B5493A" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="500" y="230" text-anchor="middle" fill="#B5493A">Mode of</text>
+    <text x="500" y="244" text-anchor="middle" fill="#B5493A">transmission</text>
+    <text x="500" y="258" text-anchor="middle" font-size="10" fill="#B5493A">(hygiene breaks this link)</text>
+
+    <circle cx="280" cy="220" r="55" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="280" y="216" text-anchor="middle">Portal of</text>
+    <text x="280" y="230" text-anchor="middle">entry</text>
+
+    <circle cx="180" cy="110" r="55" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="180" y="106" text-anchor="middle">Susceptible</text>
+    <text x="180" y="120" text-anchor="middle">host</text>
+  </g>
+
+  <!-- connecting arrows roughly circular -->
+  <g stroke="#4A443C" stroke-width="1.6" fill="none">
+    <path d="M 435 75 Q 520 60 555 100" marker-end="url(#arrow)"/>
+    <path d="M 630 135 Q 655 165 655 165" marker-end="url(#arrow)"/>
+    <path d="M 630 250 Q 570 260 550 250" marker-end="url(#arrow)"/>
+    <path d="M 450 255 Q 380 250 330 235" marker-end="url(#arrow)"/>
+    <path d="M 235 195 Q 200 165 190 160" marker-end="url(#arrow)"/>
+    <path d="M 195 60 Q 280 30 350 40" marker-end="url(#arrow)"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

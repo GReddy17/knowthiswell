@@ -1,0 +1,17 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="g7g20Title">
+  <title id="g7g20Title">A comparison diagram showing a small inner circle labeled G7 containing Canada, France, Germany, Italy, Japan, UK, US, and the EU, nested inside a larger outer circle labeled G20 that adds China, India, Brazil, and the other G20 members plus the African Union, with a caption noting all G7 members are also G20 members but not vice versa</title>
+  <rect width="700" height="480" fill="#FBF8F1"/>
+
+  <circle cx="350" cy="220" r="210" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="350" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700" fill="#1F1B16">G20</text>
+  <text x="350" y="410" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">China · India · Brazil · Indonesia · South Africa</text>
+  <text x="350" y="428" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">and other members, plus the African Union</text>
+
+  <circle cx="350" cy="220" r="115" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="350" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#1F1B16">G7</text>
+  <text x="350" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Canada · France · Germany</text>
+  <text x="350" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">Italy · Japan · UK · US</text>
+  <text x="350" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#1F1B16">plus the EU</text>
+
+  <text x="350" y="460" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Every G7 member is also a G20 member — but not vice versa.</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="aqiTitle">
+  <title id="aqiTitle">The EPA Air Quality Index scale shown as six horizontal bands from left to right: Good 0 to 50, Moderate 51 to 100, Unhealthy for Sensitive Groups 101 to 150, Unhealthy 151 to 200, Very Unhealthy 201 to 300, and Hazardous 301 to 500, each band labeled with its name and numeric range</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+  <text x="390" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">EPA Air Quality Index (AQI)</text>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="20" y="70" width="110" height="60" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="75" y="95" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1F1B16">Good</text>
+    <text x="75" y="114" text-anchor="middle" font-size="12" fill="#4A443C">0-50</text>
+
+    <rect x="130" y="70" width="110" height="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="185" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">Moderate</text>
+    <text x="185" y="114" text-anchor="middle" font-size="12" fill="#4A443C">51-100</text>
+
+    <rect x="240" y="70" width="120" height="60" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="300" y="90" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">Unhealthy for</text>
+    <text x="300" y="103" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">Sensitive Groups</text>
+    <text x="300" y="119" text-anchor="middle" font-size="12" fill="#4A443C">101-150</text>
+
+    <rect x="360" y="70" width="110" height="60" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+    <text x="415" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">Unhealthy</text>
+    <text x="415" y="114" text-anchor="middle" font-size="12" fill="#4A443C">151-200</text>
+
+    <rect x="470" y="70" width="130" height="60" fill="#F3DCD6" stroke="#B5493A" stroke-width="2.5"/>
+    <text x="535" y="93" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">Very Unhealthy</text>
+    <text x="535" y="114" text-anchor="middle" font-size="12" fill="#4A443C">201-300</text>
+
+    <rect x="600" y="70" width="160" height="60" fill="#E9C7BE" stroke="#B5493A" stroke-width="3"/>
+    <text x="680" y="95" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1F1B16">Hazardous</text>
+    <text x="680" y="114" text-anchor="middle" font-size="12" fill="#4A443C">301-500</text>
+  </g>
+
+  <text x="390" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Each AQI category is built from breakpoint concentrations of PM2.5, PM10, ozone, and other pollutants —</text>
+  <text x="390" y="184" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">the published index number itself is not a raw pollutant concentration, it is a converted health-risk scale.</text>
+  <text x="390" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Source: US EPA AirNow — airnow.gov/aqi/aqi-basics</text>
+</svg>

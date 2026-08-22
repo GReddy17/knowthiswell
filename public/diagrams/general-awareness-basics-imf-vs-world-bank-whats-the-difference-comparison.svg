@@ -1,0 +1,22 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="imfWbTitle">
+  <title id="imfWbTitle">A side-by-side comparison chart. Left column, IMF: founded 1944, mission is monetary and financial stability, typical loan is short-to-medium term with policy conditionality, funded by member quotas. Right column, World Bank: founded 1944, mission is long-term development financing, typical loan is a 15 to 30 year project loan, funded by issuing bonds in capital markets. A shared header notes both were created at the Bretton Woods Conference</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Both created at the 1944 Bretton Woods Conference</text>
+
+  <rect x="40" y="45" width="330" height="230" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="205" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">IMF</text>
+  <text x="205" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Founded 1944</text>
+  <text x="205" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Monetary &amp; financial stability</text>
+  <text x="205" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Short-to-medium-term loans</text>
+  <text x="205" y="178" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">with policy conditionality</text>
+  <text x="205" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Funded by member quotas</text>
+
+  <rect x="410" y="45" width="330" height="230" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.8"/>
+  <text x="575" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#B5493A">World Bank</text>
+  <text x="575" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Founded 1944</text>
+  <text x="575" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Long-term development financing</text>
+  <text x="575" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">15-30 year project loans</text>
+  <text x="575" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Funded by issuing bonds</text>
+  <text x="575" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">in capital markets</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rangeVsDeadlineTitle">
+  <title id="rangeVsDeadlineTitle">A horizontal timeline for the walking milestone spanning 9 to 18 months, shown as a shaded band representing the typical range for healthy children, contrasted against an incorrect mental model showing a single fixed point at 12 months labeled as a deadline that a child must meet</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="40" y="40" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Correct: milestone range</text>
+  <line x1="40" y1="80" x2="740" y2="80" stroke="#2C4A3E" stroke-width="1.6"/>
+  <rect x="180" y="65" width="300" height="30" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="330" y="85" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">typical range: 9–18 months</text>
+  <text x="180" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">9 mo</text>
+  <text x="480" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">18 mo</text>
+
+  <text x="40" y="165" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#B5493A">Incorrect: single deadline</text>
+  <line x1="40" y1="205" x2="740" y2="205" stroke="#2C4A3E" stroke-width="1.6"/>
+  <circle cx="330" cy="205" r="7" fill="#B5493A"/>
+  <text x="330" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#B5493A">"must walk by 12 months" (wrong)</text>
+</svg>

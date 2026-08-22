@@ -1,0 +1,38 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rankingCompareTitle">
+  <title id="rankingCompareTitle">A side-by-side comparison diagram: the left column shows a traditional newspaper front page ranked by an editor's judgment of importance, with calm and dramatic stories placed by significance; the right column shows a social media feed ranked by a predicted-engagement score, with the most emotionally provocative post placed first regardless of its underlying importance</title>
+  <rect width="780" height="340" fill="#FBF8F1"/>
+
+  <text x="195" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Editorial ranking</text>
+  <text x="195" y="52" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">(newspaper front page)</text>
+
+  <rect x="40" y="65" width="310" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="195" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">1. Most significant story of the day</text>
+
+  <rect x="40" y="115" width="310" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="195" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">2. Second most significant story</text>
+
+  <rect x="40" y="165" width="310" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="195" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">3. A more dramatic, minor story</text>
+
+  <text x="195" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">ranked by an editor's judgment</text>
+  <text x="195" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">of importance</text>
+
+  <line x1="390" y1="30" x2="390" y2="300" stroke="#2C4A3E" stroke-width="1.4" stroke-dasharray="4 4"/>
+
+  <text x="585" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Engagement ranking</text>
+  <text x="585" y="52" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">(social media feed)</text>
+
+  <rect x="430" y="65" width="310" height="42" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.8"/>
+  <text x="585" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">1. Most emotionally provocative post</text>
+
+  <rect x="430" y="115" width="310" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="585" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">2. Second-highest predicted engagement</text>
+
+  <rect x="430" y="165" width="310" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+  <text x="585" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">3. Significant but calmly framed story</text>
+
+  <text x="585" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">ranked by predicted clicks,</text>
+  <text x="585" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">shares, and comments</text>
+
+  <text x="390" y="320" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same underlying stories, ranked by two entirely different logics.</text>
+</svg>

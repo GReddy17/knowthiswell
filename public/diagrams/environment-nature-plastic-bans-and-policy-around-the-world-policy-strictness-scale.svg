@@ -1,0 +1,31 @@
+<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plasticPolicyScaleTitle">
+  <title id="plasticPolicyScaleTitle">A horizontal scale from lightest to strictest policy tool: a small fee on an item (lightest), extended producer responsibility making manufacturers financially responsible for end-of-life handling (middle), and an outright ban with strict enforcement like Rwanda's border checks (strictest).</title>
+  <rect width="800" height="220" fill="#FBF8F1"/>
+
+  <line x1="60" y1="120" x2="740" y2="120" stroke="#2C4A3E" stroke-width="3"/>
+  <text x="60" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Lightest</text>
+  <text x="740" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Strictest</text>
+
+  <circle cx="140" cy="120" r="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="50" y="40" width="180" height="55" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="140" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Small Fee</text>
+  <text x="140" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Item stays legal,</text>
+  <text x="140" y="92" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">small cost added</text>
+  <line x1="140" y1="95" x2="140" y2="112" stroke="#2C4A3E" stroke-width="1.5"/>
+
+  <circle cx="400" cy="120" r="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="300" y="40" width="200" height="55" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="400" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Producer Responsibility</text>
+  <text x="400" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Manufacturer pays for</text>
+  <text x="400" y="92" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">collection/recycling</text>
+  <line x1="400" y1="95" x2="400" y2="112" stroke="#2C4A3E" stroke-width="1.5"/>
+
+  <circle cx="660" cy="120" r="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <rect x="560" y="40" width="200" height="55" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="660" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Outright Ban</text>
+  <text x="660" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Item prohibited, strict</text>
+  <text x="660" y="92" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">enforcement (e.g. Rwanda)</text>
+  <line x1="660" y1="95" x2="660" y2="112" stroke="#2C4A3E" stroke-width="1.5"/>
+
+  <text x="400" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Strictness increases with both restriction on the product and enforcement resources required.</text>
+</svg>

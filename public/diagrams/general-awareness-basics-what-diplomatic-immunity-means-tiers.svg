@@ -1,0 +1,21 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="immunityTiersTitle">
+  <title id="immunityTiersTitle">A stepped pyramid diagram with three tiers labeled from top to bottom: Diplomatic agents (near-total immunity from criminal and civil jurisdiction), Administrative and technical staff (criminal immunity, limited civil immunity), and Service staff (immunity only for official duties), showing that diplomatic immunity narrows by role</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <!-- Tier 1: Diplomatic agents -->
+  <rect x="240" y="40" width="300" height="70" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="390" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Diplomatic agents</text>
+  <text x="390" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Near-total immunity: criminal + civil jurisdiction</text>
+
+  <!-- Tier 2: Administrative/technical staff -->
+  <rect x="160" y="130" width="460" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="158" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Administrative &amp; technical staff</text>
+  <text x="390" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Criminal immunity; limited civil immunity (official duties only)</text>
+
+  <!-- Tier 3: Service staff -->
+  <rect x="80" y="220" width="620" height="70" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Service staff</text>
+  <text x="390" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Immunity only for acts performed in official duties</text>
+
+  <text x="390" y="312" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Protection narrows moving down the tiers — defined by the 1961 Vienna Convention on Diplomatic Relations.</text>
+</svg>

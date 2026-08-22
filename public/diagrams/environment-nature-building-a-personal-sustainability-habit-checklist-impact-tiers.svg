@@ -1,0 +1,22 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="impactTiersTitle">
+  <title id="impactTiersTitle">A vertical stack of four horizontal bars of decreasing width from top to bottom, labeled in order: Home Energy Efficiency (widest bar), Transportation, Diet Composition, and Consumption and Waste (narrowest bar), with a caption noting the bars represent typical relative household emissions impact, not exact universal proportions</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <!-- Bar 1: Home Energy Efficiency -->
+  <rect x="40" y="30" width="620" height="46" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="60" y="58" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Home Energy Efficiency</text>
+
+  <!-- Bar 2: Transportation -->
+  <rect x="40" y="100" width="470" height="46" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="60" y="128" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Transportation</text>
+
+  <!-- Bar 3: Diet Composition -->
+  <rect x="40" y="170" width="320" height="46" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="60" y="198" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Diet Composition</text>
+
+  <!-- Bar 4: Consumption and Waste -->
+  <rect x="40" y="240" width="170" height="46" rx="8" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="60" y="268" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Consumption &amp; Waste</text>
+
+  <text x="390" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Bar widths show typical relative household impact tiers, not exact universal proportions — actual ratios vary by household.</text>
+</svg>

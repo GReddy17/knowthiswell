@@ -1,0 +1,33 @@
+<svg viewBox="0 0 820 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="citsciTitle">
+  <title id="citsciTitle">A horizontal flow diagram with four boxes connected by arrows: volunteer submits observation with photo, automated range-and-season check, expert review for flagged or unusual submissions, and accepted into research-grade aggregate dataset used by scientists</title>
+  <rect width="820" height="220" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="15" y="70" width="175" height="90" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="102" y="105" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">Volunteer submits</text>
+    <text x="102" y="122" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">observation + photo</text>
+
+    <rect x="215" y="70" width="175" height="90" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="302" y="105" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">Automated range /</text>
+    <text x="302" y="122" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">season check</text>
+
+    <rect x="415" y="70" width="175" height="90" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="502" y="105" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1B16">Expert review</text>
+    <text x="502" y="122" text-anchor="middle" font-size="11" fill="#4A443C">(flagged / unusual only)</text>
+
+    <rect x="615" y="70" width="190" height="90" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+    <text x="710" y="100" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">Research-grade</text>
+    <text x="710" y="117" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">aggregate dataset</text>
+    <text x="710" y="134" text-anchor="middle" font-size="10.5" fill="#4A443C">used by scientists</text>
+
+    <path d="M193 115 L212 115" stroke="#2C4A3E" stroke-width="2" marker-end="url(#a3)"/>
+    <path d="M393 115 L412 115" stroke="#2C4A3E" stroke-width="2" marker-end="url(#a3)"/>
+    <path d="M593 115 L612 115" stroke="#2C4A3E" stroke-width="2" marker-end="url(#a3)"/>
+  </g>
+  <defs>
+    <marker id="a3" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+  <text x="410" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Validation happens between submission and use in real research.</text>
+</svg>
