@@ -100,6 +100,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <p>© {new Date().getFullYear()} {siteConfig.footer.copyrightHolder}. {siteConfig.footer.rightsNotice}</p>
             <div className="flex gap-6">
               <Link href="/about/method" className="hover:text-forest">Editorial method</Link>
+              <Link href="/legal/disclaimer" className="hover:text-forest">Disclaimer</Link>
               <Link href="/legal/dmca" className="hover:text-forest">DMCA</Link>
               <Link href="/legal/privacy" className="hover:text-forest">Privacy</Link>
             </div>

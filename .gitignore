@@ -18,3 +18,8 @@ skills-lock.json
 # Dropped custom TTS+animation video experiment (Piper/Kokoro/Welly) —
 # 500MB+ of local render assets, not part of the deployed site.
 video-pipeline/
+
+# Local mirror of feedback-form submissions, synced from Vercel Blob via
+# `npm run sync-feedback` — never committed, may contain visitor-submitted
+# text and IP addresses.
+/feedback/

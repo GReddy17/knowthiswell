@@ -5,6 +5,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 import { TocRail } from '@/components/TocRail';
 import { RelatedRail } from '@/components/RelatedRail';
 import { AuthorCard, SourcesAndSeeAlso } from '@/components/EntryFooter';
+import { FeedbackWidget } from '@/components/FeedbackWidget';
 import { ArticleSchema } from '@/components/ArticleSchema';
 import { ContentErrorBoundary } from '@/components/ContentErrorBoundary';
 import { getPostBySlug, getAllPostSlugs, getRelatedPosts } from '@/lib/content';
@@ -91,6 +92,7 @@ export default async function PostPage({ params }: PageProps) {
         </article>
 
         <SourcesAndSeeAlso sources={post.sources} seeAlso={related} />
+        <FeedbackWidget category={post.category} slug={post.slug} title={post.title} />
       </main>
 
       <aside className="hidden md:block">

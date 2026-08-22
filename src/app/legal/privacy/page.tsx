@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const metadata = { title: 'Privacy Policy' };
 
 export default function PrivacyPage() {
@@ -9,9 +11,20 @@ export default function PrivacyPage() {
         This site is a knowledge library. To ensure security and stability,
         it uses a server-side middleware to prevent automated scraping and
         denial-of-service attacks.
-        As of this writing, KnowThisWell does not run tracking analytics,
-        does not use cookies, and does not collect personal
-        information through the site itself.
+        KnowThisWell does not run tracking analytics beyond Vercel&apos;s
+        built-in, cookie-free page-view counting, and does not require an
+        account or collect personal information to read the site.
+      </p>
+
+      <h2 className="mb-3 mt-10 font-display text-2xl">Feedback form</h2>
+      <p className="mb-6 text-ink-soft">
+        Each entry has an optional feedback form for reporting an error or requesting a topic (see our{' '}
+        <Link href="/legal/disclaimer" className="text-forest">
+          content disclaimer
+        </Link>
+        ). Submitting it sends the message you type, the page you sent it from, and — for spam-prevention purposes
+        only — your IP address, to our backend storage. No account, email, or other personal information is
+        required to submit feedback, and nothing you submit is published or shared.
       </p>
 
       <h2 className="mb-3 mt-10 font-display text-2xl">Search</h2>
@@ -27,13 +40,6 @@ export default function PrivacyPage() {
         infrastructure-level request data (such as IP address) for
         security and performance purposes, independent of anything
         this site adds.
-      </p>
-
-      <p className="mt-10 text-sm text-ink-soft">
-        <strong>NOTE:</strong> this policy must be revisited the moment
-        analytics, a contact form, a newsletter signup, or any other
-        data-collecting feature is added — this text is only accurate
-        for the site&apos;s current, feature-free state.
       </p>
     </div>
   );
