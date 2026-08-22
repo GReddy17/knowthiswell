@@ -313,5 +313,213 @@
       "Communication and relationship skills",
       "Digital and phone etiquette basics"
     ]
+  },
+  "psychology-human-behavior": {
+    "label": "28. Psychology & Human Behavior",
+    "description": "Understanding human psychology, motivation, and everyday behavior patterns.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "How memory, attention, and learning actually work",
+      "Personality frameworks and what they do (and don't) explain",
+      "Cognitive biases that quietly shape everyday decisions",
+      "The psychology of motivation and habit formation",
+      "Social psychology: why groups change how people behave"
+    ]
+  },
+  "philosophy-ethics-wisdom": {
+    "label": "29. Philosophy, Ethics & Wisdom",
+    "description": "Core philosophical ideas, ethical frameworks, and how to think more clearly.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Logic and argument: spotting a bad argument from a good one",
+      "Major ethical frameworks explained side by side",
+      "Big existential questions philosophers actually study",
+      "Ancient and modern philosophy's biggest ideas",
+      "Philosophy of science: how we know what we know"
+    ]
+  },
+  "food-cooking": {
+    "label": "30. Food & Cooking",
+    "description": "How food actually works, and the techniques behind good cooking.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Core cooking techniques and why they work",
+      "World cuisines and their defining ingredients",
+      "Food science: what heat, acid, and fat actually do",
+      "Food safety and storage basics",
+      "Reading a recipe like a trained cook"
+    ]
+  },
+  "agriculture-farming": {
+    "label": "31. Agriculture & Farming",
+    "description": "How food actually gets grown, from soil to harvest.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "How soil health actually drives crop yield",
+      "Irrigation methods explained",
+      "Livestock farming basics",
+      "Modern farming technology and precision agriculture",
+      "Food security and global supply basics"
+    ]
+  },
+  "economics": {
+    "label": "32. Economics",
+    "description": "How markets, money, and trade actually work at a national and global scale.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Supply and demand, explained with real examples",
+      "Inflation and interest rates: what's actually happening",
+      "GDP and how economies are measured",
+      "How global trade actually works",
+      "Economic policy tools explained"
+    ]
+  },
+  "religion-beliefs": {
+    "label": "33. Religion & Beliefs",
+    "description": "World religions and belief systems, explained factually and respectfully.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Major world religions: core beliefs and practices",
+      "Comparative mythology across cultures",
+      "How religious calendars and observances work",
+      "Key religious texts and their historical context",
+      "Secular and spiritual worldviews compared"
+    ]
+  },
+  "literature-books": {
+    "label": "34. Literature & Books",
+    "description": "How to read more critically, and the ideas behind great books.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Literary devices and how they actually work",
+      "Major literary movements explained",
+      "Classic authors and their defining works",
+      "Fiction vs. nonfiction craft techniques",
+      "Poetry basics: form, meter, and meaning"
+    ]
+  },
+  "arts-design": {
+    "label": "35. Arts & Design",
+    "description": "Foundational principles behind visual art, design, and architecture.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Elements and principles of design, explained",
+      "Art movements and what defined them",
+      "Architecture basics: how buildings actually stand up",
+      "UX/UI design fundamentals",
+      "Color theory in practice"
+    ]
+  },
+  "music": {
+    "label": "36. Music",
+    "description": "How music actually works, in theory and in practice.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Music theory basics: scales, chords, and rhythm",
+      "How different instruments actually produce sound",
+      "Major music genres and their origins",
+      "How a song gets recorded and produced",
+      "Reading sheet music, explained simply"
+    ]
+  },
+  "movies-entertainment": {
+    "label": "37. Movies & Entertainment",
+    "description": "How film and television actually get made, and the craft behind them.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "How a movie actually gets made, start to finish",
+      "Film genres and their defining conventions",
+      "Acting technique basics",
+      "How animation actually works",
+      "Streaming, box office, and the business of entertainment"
+    ]
+  },
+  "sports": {
+    "label": "38. Sports",
+    "description": "The rules, science, and history behind major sports.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Rules of major sports, explained simply",
+      "The science behind athletic performance",
+      "Olympic history and how the Games actually work",
+      "Famous athletes and record-breaking moments",
+      "How sports leagues and tournaments are structured"
+    ]
+  },
+  "gaming-esports": {
+    "label": "39. Gaming & Esports",
+    "description": "How video games are designed, and how esports actually works.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Game design fundamentals",
+      "Major video game genres explained",
+      "How esports tournaments and leagues work",
+      "The history of video game consoles",
+      "How games actually get built, from code to release"
+    ]
+  },
+  "fashion-beauty": {
+    "label": "40. Fashion & Beauty",
+    "description": "The basics of clothing, personal style, and skincare.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Fabric types and how to care for them",
+      "Building a personal style, explained simply",
+      "Skincare basics and common ingredients",
+      "How the fashion industry actually works",
+      "Grooming fundamentals"
+    ]
+  },
+  "photography-video": {
+    "label": "41. Photography & Video",
+    "description": "How cameras actually work, and the fundamentals of visual storytelling.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "Camera basics: aperture, shutter speed, and ISO explained",
+      "Composition rules that actually improve a photo",
+      "Lighting fundamentals for photo and video",
+      "Editing basics: what's actually happening to your image",
+      "How to tell a story with a sequence of shots"
+    ]
+  },
+  "automotive-industry": {
+    "label": "42. Automotive Industry",
+    "description": "How cars actually work, and what's changing with EVs.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "How a combustion engine actually works",
+      "EV technology explained simply",
+      "Car maintenance basics every owner should know",
+      "How auto racing actually works",
+      "The automotive industry's history and major shifts"
+    ]
+  },
+  "manufacturing-industry": {
+    "label": "43. Manufacturing & Industry",
+    "description": "How factories and industrial systems actually produce the things we use.",
+    "phase": 6,
+    "status": "coming-soon",
+    "comingSoonPreview": [
+      "How a factory production line actually works",
+      "Automation and robotics in manufacturing",
+      "Supply chain basics explained",
+      "Quality control fundamentals",
+      "How manufacturing has evolved historically"
+    ]
   }
 }
