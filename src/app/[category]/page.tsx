@@ -26,8 +26,10 @@ export const dynamicParams = false;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { category } = await params;
+  const description = getCategoryDescription(category);
   return {
     title: `${getCategoryLabel(category)} — KnowThisWell`,
+    ...(description && { description }),
     alternates: { canonical: `/${category}` }
   };
 }

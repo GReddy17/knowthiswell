@@ -19,8 +19,30 @@ export function FAQBlock({ items }: FAQBlockProps) {
 
   if (normalizedItems.length === 0) return null;
 
+  // FAQPage JSON-LD — required per site-rules.md Section 6. `answer` is
+  // typed as ReactNode for flexibility, but schema.org needs plain text;
+  // every post in practice passes a plain string, so non-string answers
+  // (if any ever appear) are simply omitted from the structured data
+  // rather than risking malformed JSON-LD.
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: normalizedItems
+      .filter((item: FAQItem) => typeof item.answer === 'string')
+      .map((item: FAQItem) => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: { '@type': 'Answer', text: item.answer as string },
+      })),
+  };
+
   return (
     <section className="my-8">
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="flex items-center gap-2 mb-4">
         <HelpCircle className="h-5 w-5 text-ink-soft" />
         <h3 className="font-display text-lg font-bold text-ink">FAQ</h3>
