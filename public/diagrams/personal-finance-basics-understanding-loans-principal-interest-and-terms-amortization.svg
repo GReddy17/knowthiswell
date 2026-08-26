@@ -1,0 +1,40 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="amortTitle">
+  <title id="amortTitle">A diagram showing a fixed-height bar representing a loan's monthly payment split into two shaded regions across the loan's timeline — a large interest portion that shrinks over time and a small principal portion that grows over time, with the two regions crossing partway through the loan term.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Each bar = one fixed monthly payment, split by interest vs. principal</text>
+
+  <!-- bars across time, interest shrinking (top, FBEDEA), principal growing (bottom, EEF3EE) -->
+  <!-- bar 1 -->
+  <rect x="60" y="60" width="50" height="70" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="60" y="130" width="50" height="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <!-- bar 2 -->
+  <rect x="130" y="65" width="50" height="65" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="130" y="130" width="50" height="20" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <!-- bar 3 -->
+  <rect x="200" y="75" width="50" height="55" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="200" y="130" width="50" height="35" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <!-- bar 4 - crossing point -->
+  <rect x="270" y="90" width="50" height="40" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="270" y="130" width="50" height="55" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <!-- bar 5 -->
+  <rect x="340" y="105" width="50" height="25" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="340" y="130" width="50" height="80" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <!-- bar 6 -->
+  <rect x="410" y="115" width="50" height="15" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="410" y="130" width="50" height="95" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <!-- bar 7 -->
+  <rect x="480" y="122" width="50" height="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="480" y="130" width="50" height="105" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+
+  <line x1="60" y1="130" x2="530" y2="130" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <rect x="580" y="60" width="16" height="16" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="602" y="73" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Interest portion</text>
+  <rect x="580" y="85" width="16" height="16" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="602" y="98" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Principal portion</text>
+
+  <text x="60" y="250" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Start of loan</text>
+  <text x="480" y="250" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">End of loan</text>
+  <text x="390" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">The crossing point comes later than most borrowers expect.</text>
+</svg>

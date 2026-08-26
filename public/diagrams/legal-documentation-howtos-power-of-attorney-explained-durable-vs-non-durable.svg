@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="poa-compare-title">
+  <title id="poa-compare-title">Timeline diagram showing that a non-durable power of attorney's authority ends at the point of incapacity, while a durable power of attorney's authority continues past that point.</title>
+  <rect width="640" height="260" fill="#FBF8F1"/>
+  <style>
+    .track { stroke: #2C4A3E; stroke-width: 3; }
+    .trackend { stroke: #B5493A; stroke-width: 3; stroke-dasharray: 6 5; }
+    .dot { fill: #2C4A3E; }
+    .label { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; fill: #1F1B16; font-weight: 600; }
+    .sub { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; fill: #4A443C; }
+  </style>
+
+  <text x="60" y="50" class="label">Non-durable POA</text>
+  <line x1="60" y1="75" x2="330" y2="75" class="track"/>
+  <line x1="330" y1="75" x2="560" y2="75" class="trackend"/>
+  <circle cx="330" cy="75" r="6" class="dot"/>
+  <text x="330" y="100" text-anchor="middle" class="sub">Incapacity occurs</text>
+  <text x="330" y="115" text-anchor="middle" class="sub">— authority ends here</text>
+
+  <text x="60" y="165" class="label">Durable POA</text>
+  <line x1="60" y1="190" x2="560" y2="190" class="track"/>
+  <circle cx="330" cy="190" r="6" class="dot"/>
+  <text x="330" y="215" text-anchor="middle" class="sub">Incapacity occurs</text>
+  <text x="330" y="230" text-anchor="middle" class="sub">— authority continues</text>
+</svg>

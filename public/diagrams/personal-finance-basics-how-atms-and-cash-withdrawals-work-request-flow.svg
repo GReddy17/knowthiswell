@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-labelledby="atm-flow-title">
+  <title id="atm-flow-title">Flow diagram: ATM sends withdrawal request through a card network to the cardholder's bank, which authorizes in real time before cash is dispensed; settlement between the bank and machine owner happens separately afterward.</title>
+  <rect width="800" height="320" fill="#FBF8F1"/>
+  <style>
+    .box { fill: #EEF3EE; stroke: #2C4A3E; stroke-width: 2; }
+    .box2 { fill: #FBEDEA; stroke: #2C4A3E; stroke-width: 2; }
+    .label { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 16px; fill: #1F1B16; font-weight: 600; }
+    .sub { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px; fill: #4A443C; }
+    .arrow { stroke: #2C4A3E; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="40" width="150" height="80" rx="8" class="box"/>
+  <text x="95" y="75" text-anchor="middle" class="label">ATM Machine</text>
+  <text x="95" y="95" text-anchor="middle" class="sub">Requests approval</text>
+
+  <path d="M170,80 L230,80" class="arrow"/>
+
+  <rect x="230" y="40" width="150" height="80" rx="8" class="box"/>
+  <text x="305" y="70" text-anchor="middle" class="label">Card Network</text>
+  <text x="305" y="90" text-anchor="middle" class="sub">Routes request to</text>
+  <text x="305" y="105" text-anchor="middle" class="sub">correct bank</text>
+
+  <path d="M380,80 L440,80" class="arrow"/>
+
+  <rect x="440" y="40" width="200" height="80" rx="8" class="box2"/>
+  <text x="540" y="65" text-anchor="middle" class="label">Cardholder's Bank</text>
+  <text x="540" y="85" text-anchor="middle" class="sub">Real-time balance check</text>
+  <text x="540" y="100" text-anchor="middle" class="sub">Approve or decline</text>
+
+  <path d="M540,120 L540,180 L170,180 L170,120" class="arrow"/>
+  <text x="400" y="200" text-anchor="middle" class="sub">Approval sent back</text>
+
+  <rect x="20" y="230" width="150" height="70" rx="8" class="box"/>
+  <text x="95" y="260" text-anchor="middle" class="label">ATM Machine</text>
+  <text x="95" y="280" text-anchor="middle" class="sub">Dispenses cash</text>
+
+  <path d="M170,265 L620,265" class="arrow" stroke-dasharray="6,4"/>
+  <rect x="440" y="230" width="200" height="70" rx="8" class="box"/>
+  <text x="540" y="255" text-anchor="middle" class="label">Bank ↔ Machine Owner</text>
+  <text x="540" y="275" text-anchor="middle" class="sub">Settle funds later (separately)</text>
+</svg>

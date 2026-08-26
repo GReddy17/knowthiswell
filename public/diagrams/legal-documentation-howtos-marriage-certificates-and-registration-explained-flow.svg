@@ -1,0 +1,30 @@
+<svg viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="680" height="220" fill="#FBF8F1"/>
+  <rect x="15" y="70" width="150" height="80" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="90" y="100" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">Apply for &amp;</text>
+  <text x="90" y="115" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">receive marriage</text>
+  <text x="90" y="130" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">license</text>
+
+  <path d="M165 110 H195" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow4)"/>
+  <rect x="195" y="70" width="150" height="80" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="270" y="95" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">Ceremony performed;</text>
+  <text x="270" y="110" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">officiant &amp; witnesses</text>
+  <text x="270" y="125" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">sign the license</text>
+
+  <path d="M345 110 H375" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow4)"/>
+  <rect x="375" y="70" width="150" height="80" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="450" y="100" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">Signed license filed</text>
+  <text x="450" y="115" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">with government office</text>
+
+  <path d="M525 110 H555" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow4)"/>
+  <rect x="555" y="70" width="110" height="80" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="610" y="95" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">Registered in</text>
+  <text x="610" y="110" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">vital records;</text>
+  <text x="610" y="125" text-anchor="middle" font-size="10" fill="#1F1B16" font-weight="600">certificate issued</text>
+
+  <defs>
+    <marker id="arrow4" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+</svg>

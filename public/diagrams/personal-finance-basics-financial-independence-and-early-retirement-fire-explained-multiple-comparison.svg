@@ -1,0 +1,22 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fireMultipleTitle">
+  <title id="fireMultipleTitle">A diagram showing forty thousand dollars in annual expenses multiplied by two different withdrawal multiples. A twenty five times multiple, corresponding to a four percent withdrawal rate, produces a one million dollar target. A thirty times multiple, corresponding to a more conservative three point three percent withdrawal rate for longer retirement horizons, produces a one point two million dollar target, illustrating how a more conservative assumption raises the savings target for the same spending level.</title>
+  <rect width="620" height="300" fill="#FBF8F1"/>
+
+  <rect x="40" y="30" width="540" height="40" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="310" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Annual expenses: $40,000</text>
+
+  <rect x="60" y="110" width="230" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="175" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">× 25 (4% rate)</text>
+  <text x="175" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">= $1,000,000</text>
+
+  <rect x="330" y="100" width="230" height="70" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="445" y="127" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">× 30 (≈3.3% rate)</text>
+  <text x="445" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">= $1,200,000</text>
+  <text x="445" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">(more conservative, longer horizon)</text>
+
+  <path d="M310 70 L175 110" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+  <path d="M310 70 L445 100" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+
+  <text x="310" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same spending, different assumed withdrawal rate — a $200,000 difference in target.</text>
+  <text x="310" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Historical success rates come from Trinity University research (1998), not a guarantee.</text>
+</svg>

@@ -92,7 +92,7 @@
     "label": "11. Personal Finance Basics",
     "description": "The absolute fundamentals of budgeting, saving, and spending.",
     "phase": 3,
-    "status": "coming-soon",
+    "status": "active",
     "ymyl": true,
     "comingSoonPreview": [
       "Budgeting fundamentals and the 50/30/20 rule",
@@ -106,7 +106,7 @@
     "label": "12. Legal & Documentation How-Tos",
     "description": "How to handle essential paperwork and legal documentation.",
     "phase": 3,
-    "status": "coming-soon",
+    "status": "active",
     "ymyl": true,
     "comingSoonPreview": [
       "ID documents: passports, IDs, and how to get them",

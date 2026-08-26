@@ -1,0 +1,33 @@
+<svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="legalAidTitle">
+  <title id="legalAidTitle">A flow diagram showing how legal aid and pro bono services generally work: someone with a qualifying income and case type applies to a legal aid organization or bar association referral service, the case is screened for eligibility, and if accepted, they are matched with free or reduced-cost legal help.</title>
+  <rect width="620" height="260" fill="#FBF8F1"/>
+
+  <rect x="30" y="100" width="150" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="105" y="125" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Person with a</text>
+  <text x="105" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">legal need</text>
+
+  <path d="M180 130 L230 130" stroke="#2C4A3E" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+  <rect x="230" y="100" width="150" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="305" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Apply to legal aid</text>
+  <text x="305" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">org or bar referral</text>
+
+  <path d="M380 130 L430 130" stroke="#2C4A3E" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+  <rect x="430" y="100" width="150" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="505" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Eligibility</text>
+  <text x="505" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">screening</text>
+
+  <path d="M505 160 L505 190" stroke="#2C4A3E" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+  <rect x="380" y="190" width="200" height="50" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="480" y="212" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Matched with free or</text>
+  <text x="480" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">reduced-cost help</text>
+
+  <text x="105" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Income and case type</text>
+  <text x="105" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">generally factor into</text>
+  <text x="105" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">eligibility screening</text>
+
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+</svg>

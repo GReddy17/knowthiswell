@@ -1,0 +1,41 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="smallClaimsFlowTitle">
+  <title id="smallClaimsFlowTitle">A flow diagram showing the general small claims court process: file a claim and pay a filing fee, serve the defendant with formal notice, attend a short hearing before a judge, receive a judgment, and then separately pursue collection if the defendant does not pay voluntarily</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="20" y="90" width="130" height="70" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+    <text x="85" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">File claim &amp;</text>
+    <text x="85" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">pay filing fee</text>
+
+    <line x1="150" y1="125" x2="180" y2="125" stroke="#2C4A3E" stroke-width="1.4" marker-end="url(#c3)"/>
+
+    <rect x="180" y="90" width="130" height="70" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+    <text x="245" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">Serve the</text>
+    <text x="245" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">defendant</text>
+
+    <line x1="310" y1="125" x2="340" y2="125" stroke="#2C4A3E" stroke-width="1.4" marker-end="url(#c3)"/>
+
+    <rect x="340" y="90" width="130" height="70" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+    <text x="405" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">Short hearing</text>
+    <text x="405" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">before a judge</text>
+
+    <line x1="470" y1="125" x2="500" y2="125" stroke="#2C4A3E" stroke-width="1.4" marker-end="url(#c3)"/>
+
+    <rect x="500" y="90" width="130" height="70" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.6"/>
+    <text x="565" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">Judgment</text>
+    <text x="565" y="134" text-anchor="middle" font-size="11" fill="#4A443C">issued</text>
+
+    <line x1="630" y1="125" x2="660" y2="125" stroke="#2C4A3E" stroke-width="1.4" marker-end="url(#c3)"/>
+
+    <rect x="660" y="90" width="105" height="70" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.6"/>
+    <text x="712" y="112" text-anchor="middle" font-size="10" font-weight="700" fill="#1F1B16">Collection</text>
+    <text x="712" y="128" text-anchor="middle" font-size="10" fill="#4A443C">(if needed,</text>
+    <text x="712" y="142" text-anchor="middle" font-size="10" fill="#4A443C">separate step)</text>
+  </g>
+
+  <text x="390" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Each step has its own specific requirements — skipping one can delay or derail the case.</text>
+
+  <defs>
+    <marker id="c3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/></marker>
+  </defs>
+</svg>

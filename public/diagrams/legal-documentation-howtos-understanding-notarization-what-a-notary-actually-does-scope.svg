@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="640" height="260" fill="#FBF8F1"/>
+
+  <text x="160" y="34" text-anchor="middle" font-size="14" fill="#1F1B16" font-weight="700">A notary verifies</text>
+  <rect x="40" y="50" width="240" height="45" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="160" y="77" text-anchor="middle" font-size="12" fill="#1F1B16">Signer's identity (ID check)</text>
+  <rect x="40" y="105" width="240" height="45" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="160" y="132" text-anchor="middle" font-size="12" fill="#1F1B16">Willingness / awareness</text>
+  <rect x="40" y="160" width="240" height="45" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="160" y="187" text-anchor="middle" font-size="12" fill="#1F1B16">The act of signing itself</text>
+
+  <line x1="320" y1="20" x2="320" y2="240" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="14" fill="#1F1B16" font-weight="700">A notary does NOT verify</text>
+  <rect x="360" y="50" width="240" height="45" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="480" y="77" text-anchor="middle" font-size="12" fill="#1F1B16">Whether contents are true</text>
+  <rect x="360" y="105" width="240" height="45" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="480" y="132" text-anchor="middle" font-size="12" fill="#1F1B16">Whether terms are fair</text>
+  <rect x="360" y="160" width="240" height="45" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="480" y="187" text-anchor="middle" font-size="12" fill="#1F1B16">Legal enforceability</text>
+
+  <text x="320" y="235" text-anchor="middle" font-size="11" fill="#4A443C">Keep the two columns mentally separate</text>
+</svg>

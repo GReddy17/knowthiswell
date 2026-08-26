@@ -1,0 +1,47 @@
+<svg viewBox="0 0 780 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="autoCoverageTitle">
+  <title id="autoCoverageTitle">A branching diagram starting from a car icon splitting into three paths: one labeled damage or injury to others, leading to liability coverage; one labeled crash damage to your own car, leading to collision coverage; and one labeled non-crash damage like theft or weather, leading to comprehensive coverage</title>
+  <rect width="780" height="360" fill="#FBF8F1"/>
+
+  <!-- car icon start -->
+  <g transform="translate(350,30)" font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="0" y="10" width="80" height="30" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.8"/>
+    <circle cx="18" cy="42" r="7" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.8"/>
+    <circle cx="62" cy="42" r="7" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="40" y="30" text-anchor="middle" font-size="11" fill="#1F1B16">an accident</text>
+  </g>
+
+  <!-- branches -->
+  <line x1="390" y1="80" x2="150" y2="160" stroke="#2C4A3E" stroke-width="1.4" marker-end="url(#a3)"/>
+  <line x1="390" y1="80" x2="390" y2="160" stroke="#2C4A3E" stroke-width="1.4" marker-end="url(#a3)"/>
+  <line x1="390" y1="80" x2="630" y2="160" stroke="#2C4A3E" stroke-width="1.4" marker-end="url(#a3)"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <!-- liability -->
+    <rect x="40" y="165" width="220" height="55" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.6"/>
+    <text x="150" y="188" text-anchor="middle" font-size="12" fill="#1F1B16">Damage or injury to others</text>
+    <line x1="150" y1="220" x2="150" y2="250" stroke="#2C4A3E" stroke-width="1.4" marker-end="url(#a3)"/>
+    <rect x="60" y="255" width="180" height="45" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="150" y="283" text-anchor="middle" font-size="13" font-weight="700" fill="#1F1B16">Liability coverage</text>
+
+    <!-- collision -->
+    <rect x="280" y="165" width="220" height="55" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.6"/>
+    <text x="390" y="188" text-anchor="middle" font-size="12" fill="#1F1B16">Crash damage to your own car</text>
+    <line x1="390" y1="220" x2="390" y2="250" stroke="#2C4A3E" stroke-width="1.4" marker-end="url(#a3)"/>
+    <rect x="300" y="255" width="180" height="45" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="390" y="283" text-anchor="middle" font-size="13" font-weight="700" fill="#1F1B16">Collision coverage</text>
+
+    <!-- comprehensive -->
+    <rect x="520" y="165" width="220" height="55" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.6"/>
+    <text x="630" y="183" text-anchor="middle" font-size="12" fill="#1F1B16">Non-crash damage</text>
+    <text x="630" y="200" text-anchor="middle" font-size="12" fill="#1F1B16">(theft, weather, etc.)</text>
+    <line x1="630" y1="220" x2="630" y2="250" stroke="#2C4A3E" stroke-width="1.4" marker-end="url(#a3)"/>
+    <rect x="540" y="255" width="180" height="45" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="630" y="283" text-anchor="middle" font-size="13" font-weight="700" fill="#1F1B16">Comprehensive</text>
+  </g>
+
+  <text x="390" y="335" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">A single accident can trigger more than one coverage type at once, depending on what happened.</text>
+
+  <defs>
+    <marker id="a3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/></marker>
+  </defs>
+</svg>

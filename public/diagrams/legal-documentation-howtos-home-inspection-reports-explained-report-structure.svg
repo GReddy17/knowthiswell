@@ -1,0 +1,35 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="640" height="320" fill="#FBF8F1"/>
+  <text x="320" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#1F1B16">A home inspection report, by system</text>
+
+  <g>
+    <rect x="40" y="55" width="170" height="50" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="125" y="85" text-anchor="middle" font-size="12" fill="#1F1B16">Roof &amp; Exterior</text>
+  </g>
+  <g>
+    <rect x="235" y="55" width="170" height="50" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="320" y="85" text-anchor="middle" font-size="12" fill="#1F1B16">Structure &amp; Foundation</text>
+  </g>
+  <g>
+    <rect x="430" y="55" width="170" height="50" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="515" y="85" text-anchor="middle" font-size="12" fill="#1F1B16">Electrical</text>
+  </g>
+
+  <g>
+    <rect x="40" y="120" width="170" height="50" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="125" y="150" text-anchor="middle" font-size="12" fill="#1F1B16">Plumbing</text>
+  </g>
+  <g>
+    <rect x="235" y="120" width="170" height="50" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="320" y="150" text-anchor="middle" font-size="12" fill="#1F1B16">HVAC</text>
+  </g>
+  <g>
+    <rect x="430" y="120" width="170" height="50" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="515" y="150" text-anchor="middle" font-size="12" fill="#1F1B16">Interior</text>
+  </g>
+
+  <rect x="40" y="195" width="560" height="90" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="320" y="220" text-anchor="middle" font-size="12" font-weight="bold" fill="#B5493A">Typically excluded — needs separate specialized inspection</text>
+  <text x="320" y="245" text-anchor="middle" font-size="11" fill="#4A443C">Pest &#8226; Radon &#8226; Mold &#8226; Sewer line &#8226; Pool/spa equipment</text>
+  <text x="320" y="265" text-anchor="middle" font-size="10" fill="#4A443C">Not covered by a standard visual, non-invasive inspection</text>
+</svg>

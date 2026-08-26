@@ -1,0 +1,35 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="classActionTitle">
+  <title id="classActionTitle">A flow diagram of a class action lawsuit: a class of similarly harmed people is certified by a court, class members receive a notice with the choice to opt out or remain in the class, the case resolves through settlement or trial, and any settlement fund is then distributed among class members who did not opt out.</title>
+  <rect width="620" height="300" fill="#FBF8F1"/>
+
+  <rect x="20" y="30" width="140" height="55" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="90" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Class certified</text>
+  <text x="90" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">by a court</text>
+
+  <path d="M160 57 L200 57" stroke="#2C4A3E" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+  <rect x="200" y="30" width="150" height="55" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="275" y="52" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Notice sent to</text>
+  <text x="275" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">class members</text>
+
+  <path d="M350 57 L390 57" stroke="#2C4A3E" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+  <rect x="390" y="15" width="200" height="35" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="490" y="37" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Opt out (pursue own claim)</text>
+
+  <rect x="390" y="65" width="200" height="35" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="490" y="87" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Remain in class (default)</text>
+
+  <path d="M490 100 L490 140" stroke="#2C4A3E" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+  <rect x="390" y="140" width="200" height="45" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="490" y="167" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Settlement or trial</text>
+
+  <path d="M490 185 L490 210" stroke="#2C4A3E" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+  <rect x="360" y="210" width="260" height="55" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="490" y="233" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Settlement fund distributed</text>
+  <text x="490" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">among remaining class members</text>
+
+  <defs>
+    <marker id="arrow3" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+</svg>

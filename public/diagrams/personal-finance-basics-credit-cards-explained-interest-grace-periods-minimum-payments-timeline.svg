@@ -1,0 +1,25 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="graceTimelineTitle">
+  <title id="graceTimelineTitle">A timeline diagram comparing two scenarios: one where the statement balance is paid in full by the due date and new purchases accrue zero interest during the grace period, and one where a balance is carried past the due date and interest begins accruing on both the carried balance and new purchases.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="40" y="35" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Scenario A: Paid in full</text>
+  <line x1="40" y1="55" x2="740" y2="55" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="40" y="45" width="280" height="20" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="180" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Billing cycle</text>
+  <rect x="320" y="45" width="200" height="20" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="420" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Grace period</text>
+  <rect x="520" y="45" width="220" height="20" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="630" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Full balance paid — $0 interest</text>
+
+  <text x="40" y="115" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Scenario B: Balance carried</text>
+  <line x1="40" y1="135" x2="740" y2="135" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="40" y="125" width="280" height="20" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="180" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Billing cycle</text>
+  <rect x="320" y="125" width="200" height="20" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="420" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Due date passes</text>
+  <rect x="520" y="125" width="220" height="20" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="630" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Interest accrues on balance + new</text>
+
+  <text x="390" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same card, same APR — the only difference is whether the statement balance was paid in full.</text>
+  <text x="390" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Carrying any balance can forfeit the grace period on new purchases too.</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 780 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rentersHomeownersTitle">
+  <title id="rentersHomeownersTitle">A Venn-style diagram showing renters insurance and homeowners insurance both containing personal property coverage, liability coverage, and additional living expenses in an overlapping shared region, with dwelling coverage shown only inside the homeowners insurance circle</title>
+  <rect width="780" height="360" fill="#FBF8F1"/>
+
+  <text x="390" y="36" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Shared coverage vs. dwelling-only coverage</text>
+
+  <!-- circles -->
+  <ellipse cx="300" cy="200" rx="230" ry="130" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8" opacity="0.9"/>
+  <ellipse cx="480" cy="200" rx="230" ry="130" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.8" opacity="0.9"/>
+
+  <text x="180" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Renters Insurance</text>
+  <text x="620" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Homeowners Insurance</text>
+
+  <!-- shared middle -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle" font-size="12" fill="#1F1B16">
+    <text x="390" y="175">Personal property coverage</text>
+    <text x="390" y="200">Liability coverage</text>
+    <text x="390" y="225">Additional living expenses</text>
+  </g>
+
+  <!-- homeowners-only -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="590" y="255" width="150" height="40" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.6"/>
+    <text x="665" y="280" font-size="13" font-weight="700" fill="#B5493A">Dwelling coverage</text>
+  </g>
+
+  <text x="390" y="335" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Only homeowners insurance covers the structure itself; both cover belongings, liability, and living expenses.</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" font-family="ui-sans-serif, system-ui">
+  <rect width="820" height="300" fill="#FBF8F1"/>
+  <text x="410" y="32" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">Delinquency-to-default timeline</text>
+
+  <line x1="60" y1="150" x2="760" y2="150" stroke="#2C4A3E" stroke-width="3"/>
+
+  <g>
+    <circle cx="90" cy="150" r="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="90" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="#1F1B16">Day 1</text>
+    <text x="90" y="180" text-anchor="middle" font-size="12" fill="#4A443C">Payment</text>
+    <text x="90" y="196" text-anchor="middle" font-size="12" fill="#4A443C">missed</text>
+    <text x="90" y="216" text-anchor="middle" font-size="11" fill="#4A443C">Late fee</text>
+  </g>
+
+  <g>
+    <circle cx="255" cy="150" r="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="255" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="#1F1B16">~30 days</text>
+    <text x="255" y="180" text-anchor="middle" font-size="12" fill="#4A443C">Still</text>
+    <text x="255" y="196" text-anchor="middle" font-size="12" fill="#4A443C">delinquent</text>
+    <text x="255" y="216" text-anchor="middle" font-size="11" fill="#4A443C">1st credit report</text>
+  </g>
+
+  <g>
+    <circle cx="420" cy="150" r="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="420" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="#1F1B16">~60 days</text>
+    <text x="420" y="180" text-anchor="middle" font-size="12" fill="#4A443C">Still</text>
+    <text x="420" y="196" text-anchor="middle" font-size="12" fill="#4A443C">delinquent</text>
+    <text x="420" y="216" text-anchor="middle" font-size="11" fill="#4A443C">2nd credit report</text>
+  </g>
+
+  <g>
+    <circle cx="585" cy="150" r="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="585" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="#1F1B16">~90 days</text>
+    <text x="585" y="180" text-anchor="middle" font-size="12" fill="#4A443C">Still</text>
+    <text x="585" y="196" text-anchor="middle" font-size="12" fill="#4A443C">delinquent</text>
+    <text x="585" y="216" text-anchor="middle" font-size="11" fill="#4A443C">3rd credit report</text>
+  </g>
+
+  <g>
+    <circle cx="740" cy="150" r="10" fill="#FBEDEA" stroke="#B5493A" stroke-width="3"/>
+    <text x="740" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="#B5493A">Default</text>
+    <text x="740" y="180" text-anchor="middle" font-size="12" fill="#4A443C">Threshold</text>
+    <text x="740" y="196" text-anchor="middle" font-size="12" fill="#4A443C">varies by loan</text>
+    <text x="740" y="216" text-anchor="middle" font-size="11" fill="#4A443C">Acceleration, collections</text>
+  </g>
+
+  <rect x="120" y="250" width="580" height="36" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="410" y="273" text-anchor="middle" font-size="12" fill="#1F1B16">Exact day-counts vary by loan type and lender — the escalating shape is the constant.</text>
+</svg>

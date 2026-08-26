@@ -1,0 +1,41 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="creditFlowTitle">
+  <title id="creditFlowTitle">A diagram showing multiple lender boxes (Bank, Credit Card Company, Auto Lender) each sending arrows to some or all of three separate bureau boxes labeled Equifax, Experian, and TransUnion, illustrating that not every lender reports to every bureau, which is why the three resulting reports can differ.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <rect x="40" y="30" width="150" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="115" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Bank</text>
+
+  <rect x="40" y="110" width="150" height="50" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="115" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Credit Card</text>
+  <text x="115" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Company</text>
+
+  <rect x="40" y="190" width="150" height="50" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="115" y="212" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Auto Lender</text>
+  <text x="115" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">(reports to one bureau)</text>
+
+  <rect x="570" y="20" width="170" height="50" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="655" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Equifax</text>
+
+  <rect x="570" y="125" width="170" height="50" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="655" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Experian</text>
+
+  <rect x="570" y="230" width="170" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="655" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">TransUnion</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M190,50 C 380,50 420,45 568,44" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M190,50 C 380,90 420,140 568,150" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M190,50 C 380,150 420,240 568,255" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <path d="M190,135 C 380,110 420,80 568,50" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M190,135 C 380,145 420,150 568,152" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <path d="M190,215 C 380,220 420,222 568,256" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="390" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Not every lender reports to every bureau — so the three reports can differ.</text>
+</svg>

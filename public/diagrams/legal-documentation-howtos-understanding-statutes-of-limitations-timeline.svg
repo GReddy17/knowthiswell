@@ -1,0 +1,20 @@
+<svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="solTimelineTitle">
+  <title id="solTimelineTitle">A timeline showing an incident occurring, then a statute of limitations clock running for a set number of years, ending at a filing deadline. Filing a claim before the deadline is generally allowed; filing after the deadline is typically barred, regardless of how strong the underlying claim is.</title>
+  <rect width="620" height="260" fill="#FBF8F1"/>
+
+  <line x1="60" y1="140" x2="560" y2="140" stroke="#2C4A3E" stroke-width="3"/>
+
+  <circle cx="90" cy="140" r="8" fill="#2C4A3E"/>
+  <text x="90" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Incident occurs</text>
+  <text x="90" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Clock starts</text>
+
+  <rect x="150" y="125" width="330" height="30" rx="15" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="315" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Statute of limitations period (varies by claim type &amp; jurisdiction)</text>
+
+  <circle cx="530" cy="140" r="8" fill="#B5493A"/>
+  <text x="530" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Filing deadline</text>
+  <text x="530" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Clock expires</text>
+
+  <text x="315" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Filing before the deadline: claim can generally proceed</text>
+  <text x="315" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Filing after the deadline: claim is typically barred, regardless of merit</text>
+</svg>

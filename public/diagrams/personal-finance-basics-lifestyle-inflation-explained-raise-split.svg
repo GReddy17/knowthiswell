@@ -1,0 +1,16 @@
+<svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="lifestyleInflationTitle">
+  <title id="lifestyleInflationTitle">Two horizontal stacked bars representing a 12000 dollar raise. The top bar shows the raise fully allocated to increased spending, labeled 100% spending, 0% savings. The bottom bar shows the same raise split evenly, labeled 50% spending, 50% savings, with an arrow noting this split raises the overall savings rate while the fully-spent version does not.</title>
+  <rect width="620" height="260" fill="#FBF8F1"/>
+
+  <text x="40" y="40" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">$12,000 raise — Option A</text>
+  <rect x="40" y="55" width="540" height="46" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="310" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#1F1B16">100% Spending — 0% Savings (savings rate falls)</text>
+
+  <text x="40" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">$12,000 raise — Option B</text>
+  <rect x="40" y="165" width="270" height="46" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="175" y="193" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">50% Spending</text>
+  <rect x="310" y="165" width="270" height="46" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="445" y="193" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">50% Savings</text>
+
+  <text x="310" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same raise — Option B improves savings rate, Option A leaves it unchanged or lower.</text>
+</svg>

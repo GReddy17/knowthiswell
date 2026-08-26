@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="scamRedFlagsTitle">
+  <title id="scamRedFlagsTitle">A diagram listing four common red flags shared across legal document scams: unsolicited contact, manufactured urgency or threats, a demand for payment via gift card wire transfer or cryptocurrency, and a request for sensitive documents or information before any verification is possible</title>
+  <rect width="700" height="420" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="350" y="40" text-anchor="middle" font-size="15" font-weight="700" fill="#1F1B16">Four red flags shared across legal document scams</text>
+
+    <!-- flag 1 -->
+    <rect x="40" y="70" width="290" height="75" rx="8" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.8"/>
+    <text x="60" y="98" font-size="13" font-weight="700" fill="#1F1B16">1. Unsolicited contact</text>
+    <text x="60" y="118" font-size="11.5" fill="#4A443C">You didn't initiate the process — a call,</text>
+    <text x="60" y="134" font-size="11.5" fill="#4A443C">text, or email reaches you first.</text>
+
+    <!-- flag 2 -->
+    <rect x="370" y="70" width="290" height="75" rx="8" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.8"/>
+    <text x="390" y="98" font-size="13" font-weight="700" fill="#1F1B16">2. Manufactured urgency</text>
+    <text x="390" y="118" font-size="11.5" fill="#4A443C">Threats of arrest, lawsuits, or eviction</text>
+    <text x="390" y="134" font-size="11.5" fill="#4A443C">unless you act within hours.</text>
+
+    <!-- flag 3 -->
+    <rect x="40" y="165" width="290" height="75" rx="8" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.8"/>
+    <text x="60" y="193" font-size="13" font-weight="700" fill="#1F1B16">3. Unusual payment demand</text>
+    <text x="60" y="213" font-size="11.5" fill="#4A443C">Gift cards, wire transfer, or crypto —</text>
+    <text x="60" y="229" font-size="11.5" fill="#4A443C">hard to trace or reverse once sent.</text>
+
+    <!-- flag 4 -->
+    <rect x="370" y="165" width="290" height="75" rx="8" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.8"/>
+    <text x="390" y="193" font-size="13" font-weight="700" fill="#1F1B16">4. Upfront sensitive info</text>
+    <text x="390" y="213" font-size="11.5" fill="#4A443C">Asked for ID, SSN, or bank details</text>
+    <text x="390" y="229" font-size="11.5" fill="#4A443C">before anything is verified.</text>
+
+    <line x1="350" y1="255" x2="350" y2="285" stroke="#2C4A3E" stroke-width="1.6" marker-end="url(#a4)"/>
+
+    <rect x="130" y="290" width="440" height="90" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="350" y="320" text-anchor="middle" font-size="13" font-weight="700" fill="#1F1B16">Two or more flags together?</text>
+    <text x="350" y="342" text-anchor="middle" font-size="11.5" fill="#1F1B16">Stop. Independently look up the real court,</text>
+    <text x="350" y="360" text-anchor="middle" font-size="11.5" fill="#1F1B16">agency, or registry yourself before paying or replying.</text>
+  </g>
+
+  <defs>
+    <marker id="a4" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/></marker>
+  </defs>
+</svg>

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="checkingFlowTitle">
+  <title id="checkingFlowTitle">A central box labeled Checking Account Balance with arrows flowing in from three sources on the left — Direct Deposit (ACH, 1-2 business days), Cash Deposit (immediate), and Check Deposit (may take days to clear) — and arrows flowing out to three destinations on the right — Debit Card Purchase (immediate), Written Check (delayed until cashed), and Bill Pay/ACH Transfer (1-2 business days), illustrating that the account is a single balance fed and drained by channels with different settlement speeds</title>
+  <rect width="800" height="340" fill="#FBF8F1"/>
+
+  <!-- Inflows -->
+  <rect x="20" y="30" width="200" height="55" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="120" y="53" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Direct Deposit (ACH)</text>
+  <text x="120" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">1-2 business days</text>
+
+  <rect x="20" y="142" width="200" height="55" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="120" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Cash Deposit</text>
+  <text x="120" y="184" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Immediate</text>
+
+  <rect x="20" y="254" width="200" height="55" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="120" y="277" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Check Deposit</text>
+  <text x="120" y="296" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">May take days to clear</text>
+
+  <!-- Arrows in -->
+  <line x1="222" y1="57" x2="288" y2="150" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="222" y1="169" x2="288" y2="169" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="222" y1="281" x2="288" y2="188" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Center: Checking Account Balance -->
+  <rect x="292" y="128" width="216" height="82" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="400" y="163" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Checking Account</text>
+  <text x="400" y="184" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Balance</text>
+
+  <!-- Arrows out -->
+  <line x1="512" y1="150" x2="578" y2="57" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="512" y1="169" x2="578" y2="169" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="512" y1="188" x2="578" y2="281" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Outflows -->
+  <rect x="580" y="30" width="200" height="55" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="680" y="53" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Debit Card Purchase</text>
+  <text x="680" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Immediate</text>
+
+  <rect x="580" y="142" width="200" height="55" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="680" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Written Check</text>
+  <text x="680" y="184" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Delayed until cashed</text>
+
+  <rect x="580" y="254" width="200" height="55" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="680" y="272" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Bill Pay / ACH</text>
+  <text x="680" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">1-2 business days</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="680" height="260" fill="#FBF8F1"/>
+  <rect x="30" y="20" width="290" height="30" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="175" y="40" text-anchor="middle" font-size="13" fill="#1F1B16" font-weight="700">Living Will</text>
+  <rect x="360" y="20" width="290" height="30" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="505" y="40" text-anchor="middle" font-size="13" fill="#1F1B16" font-weight="700">Healthcare Power of Attorney</text>
+
+  <rect x="30" y="60" width="290" height="150" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="50" y="85" font-size="11" fill="#1F1B16">• States specific treatment</text>
+  <text x="50" y="100" font-size="11" fill="#1F1B16">  wishes in advance (life</text>
+  <text x="50" y="115" font-size="11" fill="#1F1B16">  support, resuscitation)</text>
+  <text x="50" y="140" font-size="11" fill="#1F1B16">• Works well for</text>
+  <text x="50" y="155" font-size="11" fill="#1F1B16">  foreseeable scenarios</text>
+  <text x="50" y="180" font-size="11" fill="#1F1B16">• No person makes</text>
+  <text x="50" y="195" font-size="11" fill="#1F1B16">  judgment calls</text>
+
+  <rect x="360" y="60" width="290" height="150" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="380" y="85" font-size="11" fill="#1F1B16">• Names a specific person</text>
+  <text x="380" y="100" font-size="11" fill="#1F1B16">  (proxy) to make decisions</text>
+  <text x="380" y="125" font-size="11" fill="#1F1B16">• Handles scenarios not</text>
+  <text x="380" y="140" font-size="11" fill="#1F1B16">  specifically anticipated</text>
+  <text x="380" y="165" font-size="11" fill="#1F1B16">• Requires trust in the</text>
+  <text x="380" y="180" font-size="11" fill="#1F1B16">  named person's judgment</text>
+
+  <rect x="30" y="222" width="620" height="30" rx="6" fill="#EDE7D8" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="340" y="242" text-anchor="middle" font-size="11" fill="#4A443C">Both activate only during a physician-determined incapacity — neither overrides a capable person's own decisions</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="summonsAnatomyTitle">
+  <title id="summonsAnatomyTitle">A diagram showing the key parts of a court summons — case information and court name, the parties involved, the response deadline, and consequences of non-response — with an arrow pointing from a missed deadline to a default judgment outcome</title>
+  <rect width="720" height="340" fill="#FBF8F1"/>
+
+  <rect x="60" y="20" width="600" height="180" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="360" y="46" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">COURT SUMMONS</text>
+  <line x1="90" y1="58" x2="630" y2="58" stroke="#2C4A3E" stroke-width="1"/>
+
+  <text x="90" y="82" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Case &amp; Court Info</text>
+  <text x="90" y="98" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Case number, court name, location</text>
+
+  <text x="390" y="82" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Parties Involved</text>
+  <text x="390" y="98" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Plaintiff and defendant named</text>
+
+  <rect x="90" y="118" width="540" height="60" rx="6" fill="#B5493A"/>
+  <text x="360" y="144" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">RESPONSE DEADLINE</text>
+  <text x="360" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">The single most important date on the document</text>
+
+  <line x1="360" y1="200" x2="230" y2="250" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow6)"/>
+  <line x1="360" y1="200" x2="490" y2="250" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow6)"/>
+  <defs>
+    <marker id="arrow6" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <rect x="130" y="260" width="200" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="230" y="284" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Respond by Deadline</text>
+  <text x="230" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Case proceeds normally</text>
+
+  <rect x="390" y="260" width="200" height="60" rx="6" fill="#2C4A3E"/>
+  <text x="490" y="284" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Miss the Deadline</text>
+  <text x="490" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">Risk of default judgment</text>
+</svg>

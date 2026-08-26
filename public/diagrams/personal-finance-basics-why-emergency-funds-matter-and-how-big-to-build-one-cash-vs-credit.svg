@@ -1,0 +1,28 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="emergFundTitle">
+  <title id="emergFundTitle">Two horizontal paths starting from the same labeled emergency expense of 1500 dollars. The top path, labeled Emergency Fund, leads directly to a box reading Total Cost: $1,500. The bottom path, labeled Credit Card at 22% APR over 12 months, leads to a box reading Total Cost: approximately $1,675, with the difference highlighted as Interest Paid: approximately $175.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="20" y="20" width="160" height="60" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="100" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Emergency</text>
+  <text x="100" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Expense: $1,500</text>
+
+  <!-- top path: emergency fund -->
+  <line x1="180" y1="50" x2="330" y2="50" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="255" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Emergency Fund</text>
+  <rect x="330" y="20" width="200" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="430" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Total Cost: $1,500</text>
+
+  <!-- bottom path: credit card -->
+  <line x1="180" y1="180" x2="330" y2="180" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="255" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Credit Card, 22% APR,</text>
+  <text x="255" y="174" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">12 months to pay off</text>
+  <rect x="330" y="150" width="220" height="60" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="440" y="178" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Total Cost: ≈$1,675</text>
+  <text x="440" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#B5493A">Interest Paid: ≈$175</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+</svg>

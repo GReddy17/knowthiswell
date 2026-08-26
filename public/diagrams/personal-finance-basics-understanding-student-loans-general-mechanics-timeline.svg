@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="ui-sans-serif, system-ui">
+  <rect width="800" height="380" fill="#FBF8F1"/>
+  <text x="400" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">Subsidized vs. unsubsidized loan: interest during school</text>
+
+  <!-- phase headers -->
+  <rect x="60" y="60" width="230" height="34" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="175" y="82" text-anchor="middle" font-size="13" fill="#1F1B16">In School</text>
+  <rect x="290" y="60" width="180" height="34" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="380" y="82" text-anchor="middle" font-size="13" fill="#1F1B16">Grace Period</text>
+  <rect x="470" y="60" width="270" height="34" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.5"/>
+  <text x="605" y="82" text-anchor="middle" font-size="13" fill="#1F1B16">Repayment</text>
+
+  <!-- subsidized track -->
+  <text x="60" y="140" font-size="13" font-weight="700" fill="#2C4A3E">Subsidized</text>
+  <line x1="60" y1="160" x2="740" y2="160" stroke="#EDE7D8" stroke-width="10"/>
+  <line x1="60" y1="160" x2="470" y2="160" stroke="#2C4A3E" stroke-width="4"/>
+  <text x="265" y="182" text-anchor="middle" font-size="12" fill="#4A443C">Balance flat — govt. pays interest</text>
+  <line x1="470" y1="160" x2="740" y2="130" stroke="#B5493A" stroke-width="4"/>
+  <text x="605" y="182" text-anchor="middle" font-size="12" fill="#4A443C">Amortizes down as scheduled</text>
+
+  <!-- unsubsidized track -->
+  <text x="60" y="240" font-size="13" font-weight="700" fill="#2C4A3E">Unsubsidized</text>
+  <line x1="60" y1="260" x2="740" y2="260" stroke="#EDE7D8" stroke-width="10"/>
+  <line x1="60" y1="260" x2="470" y2="220" stroke="#B5493A" stroke-width="4"/>
+  <text x="265" y="285" text-anchor="middle" font-size="12" fill="#4A443C">Balance rises — interest accrues unpaid</text>
+  <line x1="470" y1="220" x2="740" y2="235" stroke="#2C4A3E" stroke-width="4"/>
+  <text x="605" y="285" text-anchor="middle" font-size="12" fill="#4A443C">Starts higher (capitalized), then amortizes</text>
+
+  <rect x="150" y="320" width="500" height="42" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="400" y="346" text-anchor="middle" font-size="12" fill="#1F1B16">Both loan types repay the same way once regular repayment begins.</text>
+</svg>

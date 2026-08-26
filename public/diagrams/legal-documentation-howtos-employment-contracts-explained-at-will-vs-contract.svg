@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-labelledby="atwill-compare-title">
+  <title id="atwill-compare-title">Comparison diagram: at-will employment where either party can end the relationship at any time, versus a specific employment contract with fixed terms that override that default.</title>
+  <rect width="640" height="280" fill="#FBF8F1"/>
+  <style>
+    .boxa { fill: #EEF3EE; stroke: #2C4A3E; stroke-width: 2; }
+    .boxb { fill: #FBEDEA; stroke: #2C4A3E; stroke-width: 2; }
+    .label { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; fill: #1F1B16; font-weight: 600; }
+    .sub { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; fill: #4A443C; }
+    .heading { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px; fill: #4A443C; font-weight: 600; }
+  </style>
+
+  <text x="160" y="30" text-anchor="middle" class="heading">Default: at-will</text>
+  <rect x="40" y="50" width="240" height="90" rx="8" class="boxa"/>
+  <text x="160" y="82" text-anchor="middle" class="label">No overriding contract</text>
+  <text x="160" y="102" text-anchor="middle" class="sub">Either side can end the job</text>
+  <text x="160" y="118" text-anchor="middle" class="sub">at nearly any time, for</text>
+  <text x="160" y="133" text-anchor="middle" class="sub">almost any legal reason</text>
+
+  <text x="480" y="30" text-anchor="middle" class="heading">Overridden by contract</text>
+  <rect x="360" y="50" width="240" height="90" rx="8" class="boxb"/>
+  <text x="480" y="82" text-anchor="middle" class="label">Specific contract terms</text>
+  <text x="480" y="102" text-anchor="middle" class="sub">Fixed duration, "cause"</text>
+  <text x="480" y="118" text-anchor="middle" class="sub">requirement, or severance</text>
+  <text x="480" y="133" text-anchor="middle" class="sub">defined in writing</text>
+
+  <rect x="60" y="170" width="500" height="80" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="310" y="200" text-anchor="middle" class="label">Which one applies depends on the</text>
+  <text x="310" y="220" text-anchor="middle" class="label">actual document you signed</text>
+  <text x="310" y="238" text-anchor="middle" class="sub">not on general assumptions about "standard" jobs</text>
+</svg>

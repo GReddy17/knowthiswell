@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="taxFlowTitle">
+  <title id="taxFlowTitle">A flow diagram showing multiple information returns (W-2, 1099) feeding into a central Form 1040 tax return box, with optional schedules branching off to the side for self-employment, itemized deductions, and capital gains, all converging into a final Filed Return outcome</title>
+  <rect width="720" height="440" fill="#FBF8F1"/>
+
+  <rect x="40" y="30" width="150" height="50" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="115" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">W-2</text>
+
+  <rect x="40" y="100" width="150" height="50" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="115" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">1099(s)</text>
+
+  <rect x="285" y="65" width="150" height="60" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="360" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Form 1040</text>
+  <text x="360" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">(the tax return)</text>
+
+  <line x1="190" y1="55" x2="285" y2="85" stroke="#2C4A3E" stroke-width="2"/>
+  <line x1="190" y1="125" x2="285" y2="100" stroke="#2C4A3E" stroke-width="2"/>
+
+  <rect x="285" y="180" width="150" height="46" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="360" y="208" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Schedule C (self-emp.)</text>
+
+  <rect x="285" y="236" width="150" height="46" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="360" y="264" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Schedule A (itemized)</text>
+
+  <rect x="285" y="292" width="150" height="46" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="360" y="320" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Schedule D (cap. gains)</text>
+
+  <line x1="360" y1="180" x2="360" y2="125" stroke="#2C4A3E" stroke-width="2"/>
+  <line x1="360" y1="226" x2="360" y2="180" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="360" y1="292" x2="360" y2="226" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <rect x="530" y="65" width="150" height="60" rx="8" fill="#2C4A3E"/>
+  <text x="605" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Filed Return</text>
+  <text x="605" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">Refund or Balance Due</text>
+
+  <line x1="435" y1="95" x2="530" y2="95" stroke="#B5493A" stroke-width="2.5" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/>
+    </marker>
+  </defs>
+
+  <text x="360" y="400" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Schedules attach only when your situation requires them</text>
+</svg>

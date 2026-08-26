@@ -7,6 +7,8 @@ export interface CalcField {
   label: string;
   defaultValue: number;
   step?: number;
+  min?: number;
+  max?: number;
   suffix?: string; // e.g. "%" or "yrs", shown as a hint, not enforced
 }
 
@@ -249,14 +251,38 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
   caloriesFromMacros: (v) => v.proteinG * 4 + v.carbsG * 4 + v.fatG * 9, // Atwater general factors
   seaLevelRiseMm: (v) => v.rateMmPerYear * v.years,
   wasteDiversionRatePercent: (v) => (v.divertedKg / v.totalWasteKg) * 100,
+
+  // --- Personal Finance Basics (topic 11) ---
+  netWorth: (v) => v.totalAssets - v.totalLiabilities,
+  monthsToSavingsGoal: (v) => v.goalAmount / v.monthlySavings,
+  emergencyFundTarget: (v) => v.monthlyExpenses * v.monthsOfCoverage,
+  inflationAdjustedValue: (v) => v.presentValue / Math.pow(1 + v.inflationRate / 100, v.years), // real purchasing power after inflation
+  overdraftFeeCost: (v) => v.numberOfOverdrafts * v.feePerOverdraft,
+  creditCardMonthlyInterestCost: (v) => (v.balance * (v.aprPercent / 100)) / 12,
+  netPayFromGross: (v) => v.grossPay - v.totalDeductions,
+  progressiveTaxTwoBracket: (v) =>
+    v.income <= v.bracketThreshold
+      ? v.income * (v.lowRatePercent / 100)
+      : v.bracketThreshold * (v.lowRatePercent / 100) + (v.income - v.bracketThreshold) * (v.highRatePercent / 100), // illustrative two-bracket progressive tax, not a real filing calculator
+  selfEmploymentTaxOwed: (v) => v.netEarnings * (v.seTaxRatePercent / 100),
+  fireNumber: (v) => v.annualExpenses * v.withdrawalMultiple, // "4% rule" style FIRE target = annual expenses * 25 (or chosen multiple)
+
+  // --- Legal & Documentation How-Tos (topic 12) ---
+  securityDepositCapAmount: (v) => v.monthlyRent * v.capMultiple, // illustrative — actual caps vary by jurisdiction
+  warrantyDaysRemaining: (v) => v.warrantyLengthDays - v.daysSincePurchase,
+  proratedRefundAmount: (v) => v.originalPrice * (1 - v.daysUsed / v.totalServiceDays),
+  statuteOfLimitationsYearsRemaining: (v) => v.statuteYears - v.yearsSinceIncident, // illustrative — actual periods vary by claim type and jurisdiction
+  classActionShareEstimate: (v) => v.settlementTotal / v.numberOfClaimants, // simple equal-share illustration; real distributions often weight by claim size
 };
 
 interface EntryCalculatorProps {
   title: string;
+  description?: string;
   fields: CalcField[];
   resultLabel: string;
   formula: keyof typeof FORMULAS;
   formatResult?: 'currency' | 'years' | 'number';
+  disclaimer?: string;
 }
 
 function formatValue(v: number, format: EntryCalculatorProps['formatResult']): string {
@@ -274,10 +300,12 @@ function formatValue(v: number, format: EntryCalculatorProps['formatResult']): s
  */
 export function EntryCalculator({
   title,
+  description,
   fields,
   resultLabel,
   formula,
   formatResult = 'currency',
+  disclaimer,
 }: EntryCalculatorProps) {
   const normalizedFields = Array.isArray(fields) ? fields :
     typeof fields === 'string' ? JSON.parse(fields) : [];
@@ -303,6 +331,9 @@ export function EntryCalculator({
       <div className="mb-3 font-utility text-xs uppercase tracking-wider text-ink-soft">
         {title}
       </div>
+      {description ? (
+        <p className="mb-4 font-body text-sm text-ink-soft">{description}</p>
+      ) : null}
 
       <div className="mb-4 flex flex-wrap gap-4">
         {normalizedFields.map((f: CalcField) => (
@@ -317,6 +348,8 @@ export function EntryCalculator({
               id={f.key}
               type="number"
               step={f.step ?? 1}
+              min={f.min}
+              max={f.max}
               value={values[f.key]}
               onChange={(e) =>
                 setValues((v) => ({ ...v, [f.key]: parseFloat(e.target.value) || 0 }))
@@ -335,6 +368,9 @@ export function EntryCalculator({
           {formatValue(result, formatResult)}
         </span>
       </div>
+      {disclaimer ? (
+        <p className="mt-3.5 border-t border-rule pt-3.5 font-body text-xs text-ink-soft">{disclaimer}</p>
+      ) : null}
     </div>
   );
 }

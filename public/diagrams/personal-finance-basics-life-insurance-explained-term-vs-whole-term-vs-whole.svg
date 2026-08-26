@@ -1,0 +1,31 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="termWholeTitle">
+  <title id="termWholeTitle">A side-by-side comparison of two bars: the term life bar labeled entirely as death benefit funding for a fixed period with a line showing it ends at year 20 with no value, and the whole life bar divided into two stacked portions labeled death benefit funding and cash value, continuing for the insured's entire life</title>
+  <rect width="780" height="340" fill="#FBF8F1"/>
+
+  <text x="390" y="36" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">What each premium dollar funds</text>
+
+  <!-- Term life column -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="190" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="#1F1B16">Term Life (20-year)</text>
+    <rect x="110" y="90" width="160" height="160" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="190" y="165" text-anchor="middle" font-size="12" fill="#1F1B16">Death benefit</text>
+    <text x="190" y="182" text-anchor="middle" font-size="12" fill="#1F1B16">funding only</text>
+    <line x1="110" y1="260" x2="270" y2="260" stroke="#B5493A" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="190" y="280" text-anchor="middle" font-size="12" fill="#B5493A" font-weight="700">ends at year 20 — no value</text>
+  </g>
+
+  <!-- Whole life column -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="580" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="#1F1B16">Whole Life (lifelong)</text>
+    <rect x="500" y="90" width="160" height="110" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="580" y="140" text-anchor="middle" font-size="12" fill="#1F1B16">Death benefit</text>
+    <text x="580" y="157" text-anchor="middle" font-size="12" fill="#1F1B16">funding</text>
+    <rect x="500" y="200" width="160" height="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="580" y="225" text-anchor="middle" font-size="12" fill="#1F1B16">Cash value</text>
+    <text x="580" y="242" text-anchor="middle" font-size="12" fill="#1F1B16">(builds over time)</text>
+    <line x1="500" y1="260" x2="660" y2="260" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="580" y="280" text-anchor="middle" font-size="12" fill="#4A443C" font-weight="700">continues for entire life</text>
+  </g>
+
+  <text x="390" y="320" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Whole life bundles permanent death-benefit coverage with an ongoing cash value component.</text>
+</svg>

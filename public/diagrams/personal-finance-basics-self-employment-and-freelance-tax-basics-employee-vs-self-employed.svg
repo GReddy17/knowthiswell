@@ -1,0 +1,22 @@
+<svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="seVsEmployeeTitle">
+  <title id="seVsEmployeeTitle">Two side-by-side diagrams: an Employee's 7.65% contribution matched by an equal 7.65% Employer contribution for a combined 15.3%, and a Self-Employed worker covering the full 15.3% alone since there is no separate employer to match it</title>
+  <rect width="700" height="240" fill="#FBF8F1"/>
+
+  <text x="175" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Regular Employee</text>
+  <rect x="75" y="55" width="200" height="45" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="175" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Employee pays 7.65%</text>
+  <text x="175" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#B5493A">+</text>
+  <rect x="75" y="120" width="200" height="45" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="175" y="147" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Employer matches 7.65%</text>
+  <rect x="75" y="180" width="200" height="35" fill="#2C4A3E"/>
+  <text x="175" y="203" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Total: 15.3%</text>
+
+  <line x1="350" y1="20" x2="350" y2="220" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="525" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Self-Employed Worker</text>
+  <rect x="425" y="55" width="200" height="110" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="525" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Covers both halves alone</text>
+  <text x="525" y="125" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">(no separate employer)</text>
+  <rect x="425" y="180" width="200" height="35" fill="#2C4A3E"/>
+  <text x="525" y="203" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Total: 15.3% (full)</text>
+</svg>

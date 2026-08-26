@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="680" height="320" fill="#FBF8F1"/>
+
+  <text x="170" y="34" text-anchor="middle" font-size="14" fill="#1F1B16" font-weight="700">Centralized</text>
+  <rect x="100" y="50" width="140" height="55" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2.5"/>
+  <text x="170" y="82" text-anchor="middle" font-size="13" fill="#1F1B16" font-weight="600">National ID card</text>
+
+  <path d="M170 105 V130" stroke="#2C4A3E" stroke-width="1.5"/>
+  <path d="M100 130 H240" stroke="#2C4A3E" stroke-width="1.5"/>
+  <path d="M100 130 V150" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <path d="M170 130 V150" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <path d="M240 130 V150" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow2)"/>
+
+  <rect x="55" y="150" width="90" height="40" rx="5" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="100" y="174" text-anchor="middle" font-size="11" fill="#1F1B16">Voting</text>
+  <rect x="125" y="150" width="90" height="40" rx="5" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="170" y="174" text-anchor="middle" font-size="11" fill="#1F1B16">Banking</text>
+  <rect x="195" y="150" width="90" height="40" rx="5" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="240" y="174" text-anchor="middle" font-size="11" fill="#1F1B16">Healthcare</text>
+
+  <line x1="340" y1="20" x2="340" y2="300" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <text x="510" y="34" text-anchor="middle" font-size="14" fill="#1F1B16" font-weight="700">Decentralized (U.S.)</text>
+  <rect x="400" y="50" width="90" height="45" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="445" y="76" text-anchor="middle" font-size="10.5" fill="#1F1B16" font-weight="600">Driver's license</text>
+  <rect x="500" y="50" width="90" height="45" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="545" y="70" text-anchor="middle" font-size="10.5" fill="#1F1B16" font-weight="600">Social Security</text>
+  <text x="545" y="83" text-anchor="middle" font-size="10.5" fill="#1F1B16" font-weight="600">number</text>
+  <rect x="450" y="105" width="90" height="45" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="495" y="131" text-anchor="middle" font-size="10.5" fill="#1F1B16" font-weight="600">Passport</text>
+
+  <path d="M445 95 V160" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <path d="M545 95 V160" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <path d="M495 150 V180" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrow2)"/>
+
+  <rect x="405" y="160" width="90" height="40" rx="5" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="450" y="184" text-anchor="middle" font-size="11" fill="#1F1B16">Banking</text>
+  <rect x="500" y="160" width="90" height="40" rx="5" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="545" y="184" text-anchor="middle" font-size="11" fill="#1F1B16">Tax/benefits</text>
+  <rect x="450" y="190" width="90" height="40" rx="5" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="495" y="214" text-anchor="middle" font-size="11" fill="#1F1B16">Travel</text>
+
+  <text x="340" y="300" text-anchor="middle" font-size="11" fill="#4A443C">Same underlying need, two different structural approaches</text>
+
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="4" refY="8" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+</svg>

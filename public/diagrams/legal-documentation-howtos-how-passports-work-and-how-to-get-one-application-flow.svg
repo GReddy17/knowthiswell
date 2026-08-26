@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="680" height="260" fill="#FBF8F1"/>
+  <rect x="20" y="100" width="150" height="70" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="95" y="128" text-anchor="middle" font-size="13" fill="#1F1B16" font-weight="600">Birth certificate</text>
+  <text x="95" y="146" text-anchor="middle" font-size="13" fill="#1F1B16" font-weight="600">or existing ID</text>
+
+  <path d="M170 135 H210" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="210" y="100" width="150" height="70" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="285" y="128" text-anchor="middle" font-size="13" fill="#1F1B16" font-weight="600">Application</text>
+  <text x="285" y="146" text-anchor="middle" font-size="13" fill="#1F1B16" font-weight="600">submitted</text>
+
+  <path d="M360 135 H400" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="400" y="100" width="140" height="70" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="470" y="128" text-anchor="middle" font-size="13" fill="#1F1B16" font-weight="600">Agency</text>
+  <text x="470" y="146" text-anchor="middle" font-size="13" fill="#1F1B16" font-weight="600">processing</text>
+
+  <path d="M540 135 H580" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="580" y="100" width="80" height="70" rx="6" fill="#EEF3EE" stroke="#B5493A" stroke-width="2.5"/>
+  <text x="620" y="128" text-anchor="middle" font-size="12" fill="#1F1B16" font-weight="700">Passport</text>
+  <text x="620" y="146" text-anchor="middle" font-size="12" fill="#1F1B16" font-weight="700">issued</text>
+
+  <path d="M470 170 V200 Q470 210 480 210 H580 Q590 210 590 200 V170" fill="none" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="530" y="230" text-anchor="middle" font-size="11" fill="#4A443C">Expedited service: faster parallel path</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+</svg>

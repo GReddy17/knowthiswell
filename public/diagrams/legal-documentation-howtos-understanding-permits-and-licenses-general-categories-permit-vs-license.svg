@@ -1,0 +1,24 @@
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="permitLicenseTitle">
+  <title id="permitLicenseTitle">A two-column comparison diagram: the left column labeled Permit lists 'authorizes a specific action or project', 'often time-limited', and 'example: building permit'; the right column labeled License lists 'authorizes an ongoing activity', 'requires periodic renewal', and 'example: professional or business license'</title>
+  <rect width="720" height="320" fill="#FBF8F1"/>
+
+  <rect x="40" y="30" width="290" height="260" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="185" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700" fill="#1F1B16">Permit</text>
+  <line x1="65" y1="80" x2="305" y2="80" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="185" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Authorizes a specific</text>
+  <text x="185" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">action or project</text>
+  <text x="185" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Often time-limited</text>
+  <text x="185" y="198" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">e.g. building permit,</text>
+  <text x="185" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">event permit</text>
+
+  <rect x="390" y="30" width="290" height="260" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="535" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700" fill="#1F1B16">License</text>
+  <line x1="415" y1="80" x2="655" y2="80" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="535" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Authorizes an</text>
+  <text x="535" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">ongoing activity</text>
+  <text x="535" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Requires periodic renewal</text>
+  <text x="535" y="198" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">e.g. professional license,</text>
+  <text x="535" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">business license</text>
+
+  <text x="360" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">A general model — confirm actual requirements with the relevant authority</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cashFlowTitle">
+  <title id="cashFlowTitle">A simple flow diagram with two boxes on the left, Income and Expenses, both feeding into a subtraction operation, resulting in a Cash Flow box on the right that can be labeled either as a surplus in green or a shortfall in red depending on which input is larger</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="40" y="40" width="180" height="70" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="130" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Income</text>
+
+  <rect x="40" y="150" width="180" height="70" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="130" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Expenses</text>
+
+  <text x="280" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26" fill="#4A443C">−</text>
+
+  <text x="360" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26" fill="#4A443C">=</text>
+
+  <rect x="420" y="90" width="320" height="80" rx="10" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="580" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700" fill="#1F1B16">Cash Flow</text>
+  <text x="580" y="152" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Positive = surplus · Negative = shortfall</text>
+
+  <text x="390" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Every budgeting method is a different way of organizing the expense side of this same subtraction.</text>
+</svg>

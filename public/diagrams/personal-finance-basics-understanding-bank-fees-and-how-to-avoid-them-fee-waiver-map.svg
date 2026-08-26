@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="feeWaiverTitle">
+  <title id="feeWaiverTitle">A table with three columns — Fee Type, Typical Trigger, and Typical Waiver Condition — listing four rows: Monthly Maintenance Fee triggered by low balance, waived by minimum daily balance or direct deposit; Out-of-Network ATM Fee triggered by using another bank's machine, waived by using in-network ATMs; Overdraft Fee triggered by a negative balance transaction, waived by opting out of overdraft coverage or linking a backup account; Wire Transfer Fee triggered by sending an outgoing wire, waived rarely, sometimes for premium account tiers</title>
+  <rect width="800" height="260" fill="#FBF8F1"/>
+
+  <!-- Header row -->
+  <rect x="20" y="20" width="220" height="34" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="240" y="20" width="270" height="34" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="510" y="20" width="270" height="34" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="130" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Fee Type</text>
+  <text x="375" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Typical Trigger</text>
+  <text x="645" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Typical Waiver Condition</text>
+
+  <!-- Row 1 -->
+  <rect x="20" y="54" width="220" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="240" y="54" width="270" height="50" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="510" y="54" width="270" height="50" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="130" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Monthly Maintenance</text>
+  <text x="375" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Balance below threshold</text>
+  <text x="645" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Min. daily balance or direct deposit</text>
+
+  <!-- Row 2 -->
+  <rect x="20" y="104" width="220" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="240" y="104" width="270" height="50" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="510" y="104" width="270" height="50" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="130" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Out-of-Network ATM</text>
+  <text x="375" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Using another bank's ATM</text>
+  <text x="645" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Use in-network / partner ATMs</text>
+
+  <!-- Row 3 -->
+  <rect x="20" y="154" width="220" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="240" y="154" width="270" height="50" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="510" y="154" width="270" height="50" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="130" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Overdraft</text>
+  <text x="375" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Transaction exceeds balance</text>
+  <text x="645" y="169" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Opt out, or link backup</text>
+  <text x="645" y="184" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">account for transfers</text>
+
+  <!-- Row 4 -->
+  <rect x="20" y="204" width="220" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="240" y="204" width="270" height="50" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1"/>
+  <rect x="510" y="204" width="270" height="50" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="1"/>
+  <text x="130" y="233" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Wire Transfer</text>
+  <text x="375" y="233" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Sending an outgoing wire</text>
+  <text x="645" y="233" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">Rare — some premium tiers</text>
+</svg>

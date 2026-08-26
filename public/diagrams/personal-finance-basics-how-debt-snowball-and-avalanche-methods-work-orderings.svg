@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="ui-sans-serif, system-ui">
+  <rect width="800" height="460" fill="#FBF8F1"/>
+  <text x="200" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">Avalanche (by interest rate)</text>
+  <text x="600" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">Snowball (by balance)</text>
+
+  <!-- Avalanche stack -->
+  <g>
+    <rect x="70" y="60" width="260" height="70" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+    <text x="200" y="88" text-anchor="middle" font-size="14" fill="#1F1B16">Card A — $800 bal.</text>
+    <text x="200" y="110" text-anchor="middle" font-size="14" font-weight="700" fill="#B5493A">24% rate — target 1</text>
+
+    <rect x="70" y="150" width="260" height="70" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="200" y="178" text-anchor="middle" font-size="14" fill="#1F1B16">Card B — $2,500 bal.</text>
+    <text x="200" y="200" text-anchor="middle" font-size="14" fill="#4A443C">14% rate — target 2</text>
+
+    <rect x="70" y="240" width="260" height="70" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="200" y="268" text-anchor="middle" font-size="14" fill="#1F1B16">Loan C — $1,200 bal.</text>
+    <text x="200" y="290" text-anchor="middle" font-size="14" fill="#4A443C">9% rate — target 3</text>
+
+    <line x1="200" y1="130" x2="200" y2="150" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="200" y1="220" x2="200" y2="240" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Snowball stack -->
+  <g>
+    <rect x="470" y="60" width="260" height="70" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+    <text x="600" y="88" text-anchor="middle" font-size="14" fill="#1F1B16">Card A — $800 bal.</text>
+    <text x="600" y="110" text-anchor="middle" font-size="14" font-weight="700" fill="#B5493A">Smallest — target 1</text>
+
+    <rect x="470" y="150" width="260" height="70" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="600" y="178" text-anchor="middle" font-size="14" fill="#1F1B16">Loan C — $1,200 bal.</text>
+    <text x="600" y="200" text-anchor="middle" font-size="14" fill="#4A443C">2nd smallest — target 2</text>
+
+    <rect x="470" y="240" width="260" height="70" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="600" y="268" text-anchor="middle" font-size="14" fill="#1F1B16">Card B — $2,500 bal.</text>
+    <text x="600" y="290" text-anchor="middle" font-size="14" fill="#4A443C">Largest — target 3</text>
+
+    <line x1="600" y1="130" x2="600" y2="150" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="600" y1="220" x2="600" y2="240" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="350" text-anchor="middle" font-size="13" fill="#4A443C">Same three debts, minimums paid on all, extra dollars flow to the current "target" debt.</text>
+  <text x="400" y="372" text-anchor="middle" font-size="13" fill="#4A443C">Avalanche orders by rate (highest first); snowball orders by balance (smallest first).</text>
+  <rect x="200" y="400" width="400" height="40" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="400" y="425" text-anchor="middle" font-size="13" fill="#1F1B16">Once a target debt hits $0, its payment rolls into the next target.</text>
+</svg>

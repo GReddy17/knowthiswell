@@ -1,0 +1,16 @@
+<svg viewBox="0 0 780 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fixedVarTitle">
+  <title id="fixedVarTitle">A comparison diagram with two columns. The left column, labeled Fixed Expenses, shows a flat horizontal line staying constant across months with a lock icon, representing rent or a loan payment unaffected by spending decisions. The right column, labeled Variable Expenses, shows a jagged line rising and falling across months, representing groceries or utilities that respond immediately to usage and choices.</title>
+  <rect width="780" height="240" fill="#FBF8F1"/>
+
+  <text x="195" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Fixed Expenses 🔒</text>
+  <rect x="60" y="50" width="270" height="120" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <polyline points="70,110 90,110 110,110 130,110 150,110 170,110 190,110 210,110 230,110 250,110 270,110 290,110 310,110" fill="none" stroke="#2C4A3E" stroke-width="3"/>
+  <text x="195" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Same amount, every period</text>
+
+  <text x="585" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F1B16">Variable Expenses</text>
+  <rect x="450" y="50" width="270" height="120" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <polyline points="460,130 480,95 500,140 520,100 540,150 560,110 580,135 600,90 620,145 640,105 660,120 680,95 700,130" fill="none" stroke="#8A5A44" stroke-width="3"/>
+  <text x="585" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Changes with usage and choices</text>
+
+  <text x="390" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Fixed expenses require a structural change to move; variable expenses respond the next billing cycle.</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="nda-compare-title">
+  <title id="nda-compare-title">Comparison diagram: a one-way NDA with information flowing only from Party A to Party B, versus a mutual NDA with information flowing both ways between Party A and Party B.</title>
+  <rect width="640" height="300" fill="#FBF8F1"/>
+  <style>
+    .box { fill: #EEF3EE; stroke: #2C4A3E; stroke-width: 2; }
+    .label { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; fill: #1F1B16; font-weight: 600; }
+    .sub { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; fill: #4A443C; }
+    .heading { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px; fill: #4A443C; font-weight: 600; }
+    .arrow { stroke: #2C4A3E; stroke-width: 2; fill: none; marker-end: url(#ah3); }
+  </style>
+  <defs>
+    <marker id="ah3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <text x="150" y="30" text-anchor="middle" class="heading">One-way NDA</text>
+  <rect x="40" y="50" width="100" height="55" rx="8" class="box"/>
+  <text x="90" y="82" text-anchor="middle" class="label">Party A</text>
+  <rect x="220" y="50" width="100" height="55" rx="8" class="box"/>
+  <text x="270" y="82" text-anchor="middle" class="label">Party B</text>
+  <path d="M140,77 L220,77" class="arrow"/>
+  <text x="180" y="65" text-anchor="middle" class="sub">confidential info</text>
+
+  <text x="490" y="30" text-anchor="middle" class="heading">Mutual NDA</text>
+  <rect x="410" y="50" width="100" height="55" rx="8" class="box"/>
+  <text x="460" y="82" text-anchor="middle" class="label">Party A</text>
+  <rect x="580" y="50" width="0" height="55" rx="8" class="box" style="display:none"/>
+  <rect x="560" y="50" width="100" height="55" rx="8" class="box"/>
+  <text x="610" y="82" text-anchor="middle" class="label">Party B</text>
+  <path d="M510,68 L560,68" class="arrow"/>
+  <path d="M560,90 L510,90" class="arrow"/>
+  <text x="535" y="115" text-anchor="middle" class="sub">both parties disclose</text>
+  <text x="535" y="128" text-anchor="middle" class="sub">and are bound</text>
+
+  <rect x="60" y="180" width="500" height="80" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="310" y="210" text-anchor="middle" class="label">Both duties are only as strong</text>
+  <text x="310" y="230" text-anchor="middle" class="label">as the definition of "confidential"</text>
+  <text x="310" y="248" text-anchor="middle" class="sub">and the exceptions written into the agreement</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hysaGrowthTitle">
+  <title id="hysaGrowthTitle">A comparison chart showing two growth lines over five years starting from the same $10,000. The traditional savings line, at 0.05% APY, stays nearly flat ending near $10,025. The high-yield savings line, at 4.5% APY, curves upward ending near $12,461, with the gap between the two lines highlighted at year five.</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <line x1="80" y1="230" x2="720" y2="230" stroke="#2C4A3E" stroke-width="2"/>
+  <line x1="80" y1="30" x2="80" y2="230" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="60" y="235" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">$10,000</text>
+  <text x="60" y="65" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">$12,500</text>
+
+  <polyline points="80,225 200,224 320,223 440,222 560,221 680,220" fill="none" stroke="#4A443C" stroke-width="2.5"/>
+  <text x="690" y="217" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Traditional: ≈$10,025</text>
+
+  <polyline points="80,225 200,190 320,155 440,120 560,90 680,60" fill="none" stroke="#B5493A" stroke-width="3"/>
+  <text x="560" y="45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5493A">High-Yield: ≈$12,461</text>
+
+  <line x1="680" y1="60" x2="680" y2="220" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="700" y="145" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#2C4A3E" transform="rotate(90 700 145)">gap ≈ $2,436</text>
+
+  <text x="80" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Yr 0</text>
+  <text x="680" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Yr 5</text>
+</svg>

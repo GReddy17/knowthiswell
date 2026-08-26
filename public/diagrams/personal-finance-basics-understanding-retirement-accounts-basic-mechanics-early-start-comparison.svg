@@ -1,0 +1,18 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="retireStartTitle">
+  <title id="retireStartTitle">Two bars compared side by side. The left bar represents a person who contributed six thousand dollars a year for only ten years starting at age twenty five, reaching approximately five hundred thirty thousand dollars by age sixty five. The right bar represents a person who contributed the same six thousand dollars a year for thirty years starting at age thirty five, reaching approximately five hundred sixty seven thousand dollars by age sixty five, illustrating that starting a decade earlier lets a much smaller total contribution reach a comparable ending balance.</title>
+  <rect width="620" height="340" fill="#FBF8F1"/>
+
+  <line x1="60" y1="280" x2="560" y2="280" stroke="#2C4A3E" stroke-width="2"/>
+
+  <rect x="150" y="55" width="110" height="225" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="205" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">≈$530,000</text>
+  <text x="205" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Start at 25</text>
+  <text x="205" y="317" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">10 yrs, $60,000 total in</text>
+
+  <rect x="360" y="46" width="110" height="234" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="415" y="31" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">≈$567,000</text>
+  <text x="415" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" fill="#4A443C">Start at 35</text>
+  <text x="415" y="317" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">30 yrs, $180,000 total in</text>
+
+  <text x="310" y="20" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Comparable ending balance despite 3x less contributed</text>
+</svg>

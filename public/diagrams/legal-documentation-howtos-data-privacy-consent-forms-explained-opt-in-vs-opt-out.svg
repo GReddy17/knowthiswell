@@ -1,0 +1,31 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="optInOutTitle">
+  <title id="optInOutTitle">A comparison diagram showing two identical data-sharing disclosures branching by consent mechanism: opt-in with an unchecked box by default resulting in fewer users sharing data, versus opt-out with a pre-checked box by default resulting in more users sharing data</title>
+  <rect width="700" height="320" fill="#FBF8F1"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="350" y="30" text-anchor="middle" font-size="12" fill="#4A443C">Same disclosed data-sharing practice</text>
+
+    <rect x="30" y="55" width="290" height="230" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.8"/>
+    <text x="175" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#1F1B16">Opt-in</text>
+    <rect x="60" y="95" width="20" height="20" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="1.6"/>
+    <text x="90" y="110" font-size="11" fill="#1F1B16">Share my data (unchecked)</text>
+    <text x="175" y="150" text-anchor="middle" font-size="11" fill="#4A443C">Default: not shared</text>
+    <text x="175" y="170" text-anchor="middle" font-size="11" fill="#4A443C">Requires active click to share</text>
+    <rect x="65" y="200" width="220" height="50" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.4"/>
+    <text x="175" y="222" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">Fewer users end up</text>
+    <text x="175" y="239" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">sharing data</text>
+
+    <rect x="380" y="55" width="290" height="230" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.8"/>
+    <text x="525" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#1F1B16">Opt-out</text>
+    <rect x="410" y="95" width="20" height="20" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.6"/>
+    <path d="M413,105 L418,110 L427,99" stroke="#2C4A3E" stroke-width="2" fill="none"/>
+    <text x="440" y="110" font-size="11" fill="#1F1B16">Share my data (pre-checked)</text>
+    <text x="525" y="150" text-anchor="middle" font-size="11" fill="#4A443C">Default: already shared</text>
+    <text x="525" y="170" text-anchor="middle" font-size="11" fill="#4A443C">Requires active click to decline</text>
+    <rect x="415" y="200" width="220" height="50" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.4"/>
+    <text x="525" y="222" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">More users end up</text>
+    <text x="525" y="239" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">sharing data</text>
+  </g>
+
+  <text x="350" y="305" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">The default state of the checkbox, not the disclosure text, drives the outcome.</text>
+</svg>

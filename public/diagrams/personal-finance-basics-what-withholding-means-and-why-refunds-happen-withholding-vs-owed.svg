@@ -1,0 +1,22 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="withholdCompareTitle">
+  <title id="withholdCompareTitle">Two side-by-side vertical bars: Total Withheld This Year and Actual Tax Owed. When the withheld bar is taller, the gap is labeled Refund; when the owed bar is taller, the gap is labeled Balance Due</title>
+  <rect width="640" height="260" fill="#FBF8F1"/>
+
+  <text x="160" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Case A: Refund</text>
+  <rect x="90" y="60" width="70" height="150" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="125" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Withheld</text>
+  <rect x="180" y="90" width="70" height="120" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="215" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Owed</text>
+  <path d="M270 65 L290 65 L290 88 L270 88" fill="none" stroke="#B5493A" stroke-width="1.5"/>
+  <text x="330" y="80" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A" font-weight="700">Refund gap</text>
+
+  <text x="480" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Case B: Balance Due</text>
+  <rect x="410" y="110" width="70" height="100" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="445" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Withheld</text>
+  <rect x="500" y="60" width="70" height="150" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="535" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Owed</text>
+  <path d="M590 65 L610 65 L610 108 L590 108" fill="none" stroke="#B5493A" stroke-width="1.5"/>
+  <text x="580" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A" font-weight="700">Balance due gap</text>
+
+  <line x1="320" y1="20" x2="320" y2="240" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="4,4"/>
+</svg>
