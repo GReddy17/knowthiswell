@@ -67,8 +67,8 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "not-started",
-  youtubeUrl: "",
+  youtubeStatus: "published",
+  youtubeUrl: "https://www.youtube.com/watch?v=twQVIVQmJ7g",
   draft: false,
 };
 
