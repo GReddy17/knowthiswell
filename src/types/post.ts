@@ -64,6 +64,10 @@ export interface PostFrontmatter {
   glossary?: { term: string; definition: string }[];
   youtubeStatus?: string;
   youtubeUrl?: string;
+  /** ISO date the video goes public — only used when youtubeStatus is
+   *  "scheduled", to show a "coming on [date]" note instead of an embed
+   *  that would 404 on a still-private video. */
+  youtubeScheduledAt?: string;
   author: AuthorRef;
   draft?: boolean;
 }

@@ -11,9 +11,28 @@ function extractYouTubeId(url: string): string | null {
 interface VideoEmbedProps {
   youtubeUrl?: string;
   youtubeStatus?: string;
+  youtubeScheduledAt?: string;
 }
 
-export function VideoEmbed({ youtubeUrl, youtubeStatus }: VideoEmbedProps) {
+export function VideoEmbed({ youtubeUrl, youtubeStatus, youtubeScheduledAt }: VideoEmbedProps) {
+  if (youtubeStatus === 'scheduled') {
+    const dateLabel = youtubeScheduledAt
+      ? new Date(youtubeScheduledAt).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        })
+      : null;
+    return (
+      <div className="mb-11 flex items-center gap-3 border border-rule bg-paper p-4">
+        <span aria-hidden="true" className="text-xl">🎥</span>
+        <p className="font-utility text-[12.5px] uppercase tracking-wider text-ink-soft">
+          Video explainer {dateLabel ? `coming to YouTube on ${dateLabel}` : 'coming soon to YouTube'}
+        </p>
+      </div>
+    );
+  }
+
   if (youtubeStatus !== 'published' || !youtubeUrl) return null;
   const videoId = extractYouTubeId(youtubeUrl);
   if (!videoId) return null;
