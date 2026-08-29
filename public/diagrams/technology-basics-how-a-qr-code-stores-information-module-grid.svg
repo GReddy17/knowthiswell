@@ -1,0 +1,45 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="qrGridTitle">
+  <title id="qrGridTitle">A diagram showing a QR code's grid of black and white squares called modules, with the three large corner finder-pattern squares highlighted, an arrow pointing right labeled decode, and the resulting decoded text "https://example.com" shown as plain output.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Encoding data as a grid of black-and-white modules</text>
+
+  <!-- QR grid -->
+  <g transform="translate(60,55)">
+    <rect x="0" y="0" width="220" height="220" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="1.5"/>
+    <!-- random-ish module pattern -->
+    <g fill="#1F1B16">
+      <rect x="0" y="0" width="10" height="10"/><rect x="20" y="0" width="10" height="10"/><rect x="50" y="0" width="10" height="10"/><rect x="70" y="0" width="10" height="10"/><rect x="100" y="0" width="10" height="10"/><rect x="130" y="0" width="10" height="10"/><rect x="160" y="0" width="10" height="10"/>
+      <rect x="10" y="20" width="10" height="10"/><rect x="40" y="20" width="10" height="10"/><rect x="60" y="20" width="10" height="10"/><rect x="90" y="20" width="10" height="10"/><rect x="120" y="20" width="10" height="10"/><rect x="150" y="20" width="10" height="10"/>
+      <rect x="0" y="40" width="10" height="10"/><rect x="30" y="40" width="10" height="10"/><rect x="60" y="40" width="10" height="10"/><rect x="100" y="40" width="10" height="10"/><rect x="140" y="40" width="10" height="10"/><rect x="170" y="40" width="10" height="10"/>
+      <rect x="20" y="60" width="10" height="10"/><rect x="50" y="60" width="10" height="10"/><rect x="80" y="60" width="10" height="10"/><rect x="110" y="60" width="10" height="10"/><rect x="150" y="60" width="10" height="10"/>
+      <rect x="0" y="80" width="10" height="10"/><rect x="40" y="80" width="10" height="10"/><rect x="70" y="80" width="10" height="10"/><rect x="90" y="80" width="10" height="10"/><rect x="130" y="80" width="10" height="10"/><rect x="160" y="80" width="10" height="10"/>
+      <rect x="30" y="100" width="10" height="10"/><rect x="60" y="100" width="10" height="10"/><rect x="100" y="100" width="10" height="10"/><rect x="120" y="100" width="10" height="10"/><rect x="150" y="100" width="10" height="10"/><rect x="180" y="100" width="10" height="10"/>
+      <rect x="10" y="120" width="10" height="10"/><rect x="50" y="120" width="10" height="10"/><rect x="80" y="120" width="10" height="10"/><rect x="110" y="120" width="10" height="10"/><rect x="140" y="120" width="10" height="10"/>
+      <rect x="0" y="140" width="10" height="10"/><rect x="30" y="140" width="10" height="10"/><rect x="70" y="140" width="10" height="10"/><rect x="100" y="140" width="10" height="10"/><rect x="130" y="140" width="10" height="10"/><rect x="170" y="140" width="10" height="10"/>
+      <rect x="20" y="160" width="10" height="10"/><rect x="60" y="160" width="10" height="10"/><rect x="90" y="160" width="10" height="10"/><rect x="120" y="160" width="10" height="10"/><rect x="160" y="160" width="10" height="10"/>
+      <rect x="80" y="80" width="10" height="10"/><rect x="80" y="100" width="10" height="10"/><rect x="90" y="60" width="10" height="10"/>
+    </g>
+    <!-- finder patterns (corners) -->
+    <g>
+      <rect x="0" y="0" width="42" height="42" fill="none" stroke="#B5493A" stroke-width="3"/>
+      <rect x="178" y="0" width="42" height="42" fill="none" stroke="#B5493A" stroke-width="3"/>
+      <rect x="0" y="178" width="42" height="42" fill="none" stroke="#B5493A" stroke-width="3"/>
+    </g>
+    <text x="110" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">red boxes = finder patterns (locate + orient the grid)</text>
+  </g>
+
+  <defs>
+    <marker id="arrowQr" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+  <path d="M320,165 L400,165" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowQr)"/>
+  <text x="360" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#2C4A3E">decode</text>
+
+  <rect x="420" y="120" width="300" height="90" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="570" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Decoded output</text>
+  <text x="570" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">https://example.com</text>
+  <text x="570" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">(plus error-correction data)</text>
+
+  <text x="390" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Each square (module) is one bit — the pattern is the message, read in a fixed scanning order.</text>
+</svg>

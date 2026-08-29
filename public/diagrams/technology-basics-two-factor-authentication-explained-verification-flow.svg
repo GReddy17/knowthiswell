@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tfaFlowTitle">
+  <title id="tfaFlowTitle">A sequence diagram showing a login attempt in two steps. Step one, the user enters something they know, a password, which is checked against the server. Step two, the server requests something the user separately has, such as a code from a phone app, before granting access. A rejected branch shows that a correct password alone, without the second factor, does not grant access.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <text x="30" y="30" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Step 1 — something you know</text>
+
+  <rect x="30" y="45" width="120" height="46" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="90" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">User</text>
+
+  <rect x="330" y="45" width="140" height="46" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="400" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Server</text>
+
+  <defs>
+    <marker id="arrowTfa" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M150,68 L328,68" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowTfa)"/>
+  <text x="239" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">password submitted</text>
+
+  <text x="30" y="140" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Step 2 — something you have</text>
+
+  <rect x="30" y="155" width="120" height="46" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="90" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">User</text>
+
+  <rect x="230" y="155" width="140" height="46" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="300" y="177" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Authenticator</text>
+  <text x="300" y="191" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">app or device</text>
+
+  <rect x="530" y="155" width="140" height="46" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="600" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Server</text>
+
+  <path d="M150,178 L228,178" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowTfa)"/>
+  <text x="189" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">reads code</text>
+  <path d="M370,178 L528,178" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowTfa)"/>
+  <text x="449" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#2C4A3E">one-time code entered</text>
+
+  <rect x="530" y="220" width="200" height="46" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="630" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Access granted</text>
+  <path d="M600,201 L630,218" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowTfa)"/>
+
+  <rect x="30" y="220" width="260" height="46" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="160" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Password alone (no code)</text>
+  <text x="160" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#C9412C">= access denied</text>
+
+  <text x="400" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#B5493A">Two independent proofs are required — a stolen password alone satisfies only step 1.</text>
+</svg>

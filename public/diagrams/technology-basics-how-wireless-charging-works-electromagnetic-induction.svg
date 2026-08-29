@@ -1,0 +1,43 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wirelessChargingTitle">
+  <title id="wirelessChargingTitle">Diagram of a wireless charging pad's transmitter coil creating an alternating magnetic field that induces an alternating current in a receiver coil inside the phone, which is then converted to direct current to charge the battery</title>
+  <rect x="0" y="0" width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- phone on top -->
+  <rect x="190" y="60" width="260" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="320" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Phone</text>
+  <!-- receiver coil inside phone -->
+  <circle cx="320" cy="112" r="10" fill="none" stroke="#C9412C" stroke-width="2"/>
+  <circle cx="320" cy="112" r="16" fill="none" stroke="#C9412C" stroke-width="1.5" opacity="0.7"/>
+  <text x="380" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#C9412C">Receiver coil</text>
+
+  <!-- gap with field lines -->
+  <g stroke="#8B6F4E" stroke-width="1.5" fill="none" opacity="0.8">
+    <path d="M 260,132 C 260,160 260,175 260,195"/>
+    <path d="M 300,132 C 300,165 300,180 300,195" stroke-dasharray="4 4"/>
+    <path d="M 340,132 C 340,165 340,180 340,195" stroke-dasharray="4 4"/>
+    <path d="M 380,132 C 380,160 380,175 380,195"/>
+  </g>
+  <path d="M 220,163 Q 320,140 420,163" fill="none" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="320" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">alternating magnetic field</text>
+
+  <!-- charging pad -->
+  <rect x="190" y="195" width="260" height="70" rx="10" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="320" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F1B16">Charging pad</text>
+  <circle cx="320" cy="245" r="10" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+  <circle cx="320" cy="245" r="16" fill="none" stroke="#2C4A3E" stroke-width="1.5" opacity="0.7"/>
+  <text x="260" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#2C4A3E">Transmitter coil</text>
+
+  <!-- power cord -->
+  <path d="M 190,245 L 130,245 L 130,320" stroke="#1F1B16" stroke-width="2.5" fill="none"/>
+  <rect x="100" y="320" width="60" height="30" rx="4" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="130" y="340" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Wall power</text>
+
+  <!-- battery -->
+  <rect x="480" y="220" width="80" height="45" rx="6" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="520" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Battery</text>
+  <path d="M 450,240 L 478,240" stroke="#1F1B16" stroke-width="2" fill="none"/>
+  <path d="M 478,240 L 468,235 L 468,245 Z" fill="#1F1B16"/>
+  <text x="500" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">AC converted to DC first</text>
+
+  <text x="320" y="390" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">No physical contact needed — only a changing magnetic field crossing a small air gap.</text>
+</svg>

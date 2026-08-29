@@ -1,0 +1,37 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="thermoLoopTitle">
+  <title id="thermoLoopTitle">A circular feedback-loop diagram with four stages connected by arrows: Sense (temperature, motion, humidity readings), Log (each reading stored with a timestamp), Compare (new readings checked against the logged pattern of past behavior), and Adjust (the thermostat changes the target temperature ahead of when it predicts you'll want it), with the loop repeating continuously and a small side note that the stored pattern, not real-time mind-reading, is what drives predictions.</title>
+  <rect width="800" height="320" fill="#FBF8F1"/>
+
+  <defs>
+    <marker id="arrowThermo" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <circle cx="150" cy="100" r="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="150" y="96" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">1. Sense</text>
+  <text x="150" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">temp, motion,</text>
+  <text x="150" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">humidity readings</text>
+
+  <circle cx="400" cy="60" r="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="400" y="56" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">2. Log</text>
+  <text x="400" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">reading stored</text>
+  <text x="400" y="84" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">with a timestamp</text>
+
+  <circle cx="650" cy="100" r="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="650" y="96" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">3. Compare</text>
+  <text x="650" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">vs. the logged</text>
+  <text x="650" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">pattern of past days</text>
+
+  <circle cx="400" cy="220" r="60" fill="#F2ECE0" stroke="#B5493A" stroke-width="2"/>
+  <text x="400" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">4. Adjust</text>
+  <text x="400" y="232" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">shifts target temp</text>
+  <text x="400" y="244" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">ahead of predicted need</text>
+
+  <path d="M205,75 L345,55" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowThermo)"/>
+  <path d="M458,72 L595,95" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowThermo)"/>
+  <path d="M615,155 L448,205" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowThermo)"/>
+  <path d="M350,205 L200,140" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowThermo)"/>
+
+  <text x="400" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">It's pattern-matching against a logged history, repeated every cycle — not mind-reading.</text>
+</svg>

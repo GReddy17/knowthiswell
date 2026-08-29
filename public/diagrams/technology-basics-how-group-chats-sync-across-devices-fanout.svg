@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="groupSyncTitle">
+  <title id="groupSyncTitle">A fan-out diagram showing one person sending a message from their phone to a central server, which stores it once and then fans it out to every other group member's registered devices, including a second device belonging to the sender, so the same message and its state land almost simultaneously everywhere.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <rect x="20" y="120" width="120" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="80" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Sender's</text>
+  <text x="80" y="157" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">phone</text>
+
+  <rect x="330" y="120" width="140" height="50" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="400" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Server: stores</text>
+  <text x="400" y="157" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">message once</text>
+
+  <rect x="620" y="30" width="150" height="42" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="695" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Member 2's phone</text>
+
+  <rect x="620" y="90" width="150" height="42" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="695" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Member 3's laptop</text>
+
+  <rect x="620" y="150" width="150" height="42" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="695" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Member 4's tablet</text>
+
+  <rect x="620" y="210" width="150" height="42" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="695" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Sender's own</text>
+  <text x="695" y="243" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">second device</text>
+
+  <defs>
+    <marker id="arrowGroup" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M140,145 L328,145" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowGroup)"/>
+  <text x="234" y="137" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">one send</text>
+
+  <path d="M470,140 C 540,90 560,60 618,52" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowGroup)"/>
+  <path d="M470,148 C 540,130 560,115 618,111" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowGroup)"/>
+  <path d="M470,155 C 540,165 560,168 618,171" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowGroup)"/>
+  <path d="M470,162 C 540,200 560,220 618,231" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowGroup)"/>
+  <text x="545" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">fanned out to every</text>
+  <text x="545" y="207" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">registered device at once</text>
+
+  <rect x="60" y="255" width="680" height="35" fill="#F7F1E5" stroke="#D8D2C4" stroke-width="1"/>
+  <text x="90" y="278" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">A device that's offline during the fan-out receives the same queued message when it reconnects — sync catches it up rather than skipping it.</text>
+</svg>

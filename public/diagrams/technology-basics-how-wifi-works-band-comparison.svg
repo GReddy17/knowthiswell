@@ -1,0 +1,35 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wifiBandTitle">
+  <title id="wifiBandTitle">A diagram comparing a router broadcasting on 2.4GHz, shown reaching farther through multiple walls with a wider but shorter wave pattern, against the same router broadcasting on 5GHz, shown with a shorter, tighter wave pattern that reaches a smaller area and is blocked more by the same walls, illustrating the range-versus-speed trade-off between the two bands.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Same router, two frequency bands</text>
+
+  <!-- 2.4GHz row -->
+  <circle cx="80" cy="100" r="14" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="80" y="104" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">R</text>
+  <text x="80" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#2C4A3E">2.4GHz</text>
+
+  <rect x="180" y="70" width="8" height="60" fill="#4A443C"/>
+  <rect x="340" y="70" width="8" height="60" fill="#4A443C"/>
+  <rect x="500" y="70" width="8" height="60" fill="#4A443C"/>
+
+  <circle cx="80" cy="100" r="60" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <circle cx="80" cy="100" r="130" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <circle cx="80" cy="100" r="200" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="560" y="104" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">reaches through all 3 walls</text>
+
+  <!-- 5GHz row -->
+  <circle cx="80" cy="230" r="14" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="80" y="234" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">R</text>
+  <text x="80" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#B5493A">5GHz</text>
+
+  <rect x="180" y="200" width="8" height="60" fill="#4A443C"/>
+  <rect x="340" y="200" width="8" height="60" fill="#4A443C"/>
+  <rect x="500" y="200" width="8" height="60" fill="#4A443C"/>
+
+  <circle cx="80" cy="230" r="60" fill="none" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <circle cx="80" cy="230" r="115" fill="none" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="270" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">signal fades before wall 2</text>
+
+  <text x="390" y="305" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Same power, same walls — only the wavelength differs, so range differs too.</text>
+</svg>

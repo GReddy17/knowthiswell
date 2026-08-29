@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="offlineComparisonTitle">
+  <title id="offlineComparisonTitle">A comparison diagram. On top, an offline-capable app is shown with its own local data store on the device plus a sync queue, able to keep working and later reconcile with the server once a connection returns. On the bottom, an online-only thin client app is shown with no local data store, sending every single action straight to the server and having nothing to fall back on when there is no connection.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <text x="60" y="45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Offline-capable app</text>
+
+  <rect x="60" y="60" width="130" height="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="125" y="85" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Local data store</text>
+  <text x="125" y="99" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">+ sync queue</text>
+  <text x="125" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">on the device itself</text>
+
+  <defs>
+    <marker id="arrowOff" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M190,90 L328,90" fill="none" stroke="#2C4A3E" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrowOff)"/>
+  <text x="260" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">syncs when back online</text>
+
+  <rect x="330" y="60" width="130" height="60" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="395" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Server</text>
+  <text x="395" y="104" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">(eventually)</text>
+
+  <text x="600" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C" font-weight="700">works with no connection —</text>
+  <text x="600" y="104" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C" font-weight="700">reconciles later</text>
+
+  <line x1="30" y1="150" x2="770" y2="150" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+
+  <text x="60" y="180" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Online-only (thin client) app</text>
+
+  <rect x="60" y="195" width="130" height="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="125" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Device</text>
+  <text x="125" y="239" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#B5493A">no local data store</text>
+
+  <path d="M190,225 L328,225" fill="none" stroke="#B5493A" stroke-width="1.6" marker-end="url(#arrowOff)"/>
+  <text x="260" y="213" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#B5493A">every action, every time</text>
+
+  <rect x="330" y="195" width="130" height="60" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="395" y="229" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Server</text>
+
+  <text x="600" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#B5493A" font-weight="700">no connection =</text>
+  <text x="600" y="234" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#B5493A" font-weight="700">nothing to fall back on</text>
+
+  <text x="400" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Offline support is a local copy built in on purpose, not an accident of a good connection.</text>
+</svg>

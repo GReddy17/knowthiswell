@@ -273,6 +273,51 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
   proratedRefundAmount: (v) => v.originalPrice * (1 - v.daysUsed / v.totalServiceDays),
   statuteOfLimitationsYearsRemaining: (v) => v.statuteYears - v.yearsSinceIncident, // illustrative — actual periods vary by claim type and jurisdiction
   classActionShareEstimate: (v) => v.settlementTotal / v.numberOfClaimants, // simple equal-share illustration; real distributions often weight by claim size
+
+  // --- Technology Basics (topic 13): Internet & Networking Basics ---
+  fileTransferTimeSeconds: (v) => (v.fileSizeMB * 8) / v.bandwidthMbps, // time = data (converted Mb) / link speed (Mbps)
+  ipv4SubnetUsableHosts: (v) => Math.max(Math.pow(2, 32 - v.prefixLength) - 2, 0), // usable host addresses in a CIDR block (minus network + broadcast)
+  radioWavelengthCm: (v) => (299792458 / (v.frequencyGHz * 1e9)) * 100, // wavelength = speed of light / frequency, in centimeters
+  fiberOneWayDelayMs: (v) => (v.distanceKm / 200000) * 1000, // one-way propagation delay through fiber-optic glass (~200,000 km/s, ~2/3 c due to refractive index)
+  pingRoundTripLatencyMs: (v) => ((v.distanceKm / 200000) * 1000) * 2, // round-trip propagation delay (there and back) through fiber-optic glass
+
+  // --- Technology Basics (topic 13): Devices & Hardware Basics ---
+  storageTransferTimeSeconds: (v) => v.fileSizeMB / v.transferSpeedMBps, // time = file size / sustained sequential transfer speed, in MB/s
+  batteryChargeTimeHours: (v) => v.batteryCapacityMah / v.chargingCurrentMa, // simplified charge time = capacity / charging current (ignores the slower constant-voltage taper near full)
+  frameTimeMsFromFps: (v) => 1000 / v.fps, // milliseconds a GPU has to finish rendering each frame at a given frame rate
+  batteryRuntimeHours: (v) => v.batteryCapacityWh / v.powerDrawWatts, // runtime = energy stored (watt-hours) / power draw (watts)
+
+  // --- Technology Basics (topic 13): Software & Operating Systems ---
+  compressionRatio: (v) => v.originalSizeMB / v.compressedSizeMB, // original / compressed — e.g. 2.7 means the file shrank to about 1/2.7 of its original size
+  compressionPercentSpaceSaved: (v) => (1 - v.compressedSizeMB / v.originalSizeMB) * 100, // % smaller the compressed file is versus the original
+
+  // --- Technology Basics (topic 13): Cloud Computing & Storage ---
+  cloudStorageMonthlyCost: (v) => v.storageGB * v.pricePerGBPerMonth, // illustrative — actual provider pricing varies and changes over time
+  backupUploadTimeMinutes: (v) => (v.dataSizeGB * 8000) / v.uploadSpeedMbps / 60, // GB -> Mb (x8000), divided by Mbps link speed = seconds, /60 for minutes
+  streamingBufferHealthRatio: (v) => v.bandwidthMbps / v.requiredBitrateMbps, // >1 means the buffer can keep filling faster than playback drains it; <1 means it will eventually stall
+  downtimeMinutesPerYearFromUptimePercent: (v) => (1 - v.uptimePercent / 100) * 525600, // (1 - uptime%) * minutes in a year (365 * 24 * 60)
+
+  // --- Technology Basics (topic 13): Everyday Tech Curiosities ---
+  gpsDistanceFromSignalDelayKm: (v) => (v.signalDelayMs / 1000) * 299792.458, // distance = speed of light (km/s) * one-way signal travel time (converted from ms)
+  accelerometerTiltAngleDegrees: (v) => Math.atan2(v.xAxisG, v.zAxisG) * (180 / Math.PI), // tilt angle from the ratio of gravity sensed on two accelerometer axes
+
+  // --- Technology Basics (topic 13): Smart Devices & IoT Basics ---
+  stepsToDistanceKm: (v) => (v.steps * v.strideLengthCm) / 100000, // steps * stride length (cm), converted to km (100,000 cm per km)
+
+  // --- Technology Basics (topic 13): Cybersecurity Literacy Basics ---
+  passwordCrackTimeYears: (v) => {
+    // Total combinations = charsetSize^length (keyspace). An attacker
+    // guessing at a fixed rate finds the password on average after
+    // searching half the keyspace. Converted from seconds to years
+    // (365.25-day year) for a readable result.
+    const combinations = Math.pow(v.charsetSize, v.length);
+    const averageGuessesNeeded = combinations / 2;
+    const seconds = averageGuessesNeeded / v.guessesPerSecond;
+    return seconds / 31557600;
+  },
+
+  // --- Technology Basics (topic 13): Digital Literacy & Online Life ---
+  proratedSubscriptionCharge: (v) => (v.monthlyPrice / v.daysInBillingCycle) * v.daysRemaining, // prorated first-bill amount when a subscription starts mid-cycle, before the first full-price renewal
 };
 
 interface EntryCalculatorProps {

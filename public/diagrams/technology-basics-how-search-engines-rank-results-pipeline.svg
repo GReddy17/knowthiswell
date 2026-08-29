@@ -1,0 +1,50 @@
+<svg viewBox="0 0 820 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="searchPipelineTitle">
+  <title id="searchPipelineTitle">A three-stage flow diagram. Stage one, Crawl, shows an automated crawler following links between web pages to discover content. Stage two, Index, shows discovered pages being stored into an inverted index database. Stage three, Rank, shows a user's typed query being scored against matching pages in the index using multiple combined signals, producing an ordered list of results.</title>
+  <rect width="820" height="320" fill="#FBF8F1"/>
+
+  <text x="140" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">1. Crawl</text>
+  <rect x="40" y="45" width="90" height="40" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="85" y="69" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Page A</text>
+  <rect x="150" y="45" width="90" height="40" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="195" y="69" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Page B</text>
+  <rect x="95" y="110" width="90" height="40" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="140" y="134" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Crawler</text>
+
+  <defs>
+    <marker id="arrowSearch" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+  <path d="M140,108 L100,86" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSearch)"/>
+  <path d="M150,108 L190,86" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSearch)"/>
+  <text x="140" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">follows links, downloads content</text>
+
+  <line x1="270" y1="30" x2="270" y2="300" stroke="#D8D2C4" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="410" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">2. Index</text>
+  <rect x="330" y="110" width="160" height="46" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="410" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Inverted index</text>
+  <text x="410" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">word → matching pages</text>
+  <path d="M270,130 L328,130" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSearch)"/>
+  <text x="410" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">stored for near-instant lookup</text>
+
+  <line x1="540" y1="30" x2="540" y2="300" stroke="#D8D2C4" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="680" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">3. Rank</text>
+  <rect x="570" y="45" width="120" height="40" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="630" y="69" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">User's query</text>
+  <path d="M490,133 L568,66" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSearch)"/>
+
+  <rect x="570" y="110" width="220" height="80" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="680" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Combined signals scored:</text>
+  <text x="680" y="144" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">relevance · links · speed</text>
+  <text x="680" y="158" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">mobile usability · freshness</text>
+  <path d="M630,85 L650,108" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSearch)"/>
+
+  <rect x="600" y="220" width="160" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="680" y="243" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Ordered results</text>
+  <text x="680" y="258" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">highest score first</text>
+  <path d="M680,192 L680,218" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSearch)"/>
+
+  <text x="410" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">A page must clear each stage in order — skipping crawl or index means it never reaches rank at all.</text>
+</svg>

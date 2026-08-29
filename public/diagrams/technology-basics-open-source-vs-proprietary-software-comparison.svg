@@ -1,0 +1,29 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ossTitle">
+  <title id="ossTitle">Side-by-side comparison showing open source software with visible, editable, redistributable source code versus proprietary software with hidden source code compiled into a closed program</title>
+  <rect width="640" height="340" fill="#FBF8F1"/>
+  <text x="320" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#2C4A3E">What actually differs: who can see and change the source code</text>
+
+  <rect x="50" y="55" width="250" height="255" rx="12" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="175" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Open source</text>
+  <rect x="75" y="98" width="200" height="36" fill="#FBF8F1" stroke="#8B6F4E"/>
+  <text x="175" y="121" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#4A443C">source code — visible</text>
+  <text x="175" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">anyone can read it</text>
+  <text x="175" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">anyone can modify it</text>
+  <text x="175" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">anyone can redistribute it</text>
+  <text x="175" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">under the license's terms</text>
+  <text x="175" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E">license defines the terms —</text>
+  <text x="175" y="268" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E">not automatically free of rules</text>
+  <text x="175" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E">can still be sold as a product</text>
+
+  <rect x="340" y="55" width="250" height="255" rx="12" fill="#FBEDEA" stroke="#C9412C" stroke-width="1.5"/>
+  <text x="465" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Proprietary</text>
+  <rect x="365" y="98" width="200" height="36" fill="#E3DCC9" stroke="#8B6F4E"/>
+  <text x="465" y="121" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#4A443C">source code — hidden</text>
+  <text x="465" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">only the compiled program</text>
+  <text x="465" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">ships to users</text>
+  <text x="465" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">modification and resale</text>
+  <text x="465" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">generally prohibited</text>
+  <text x="465" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E">vendor controls updates,</text>
+  <text x="465" y="268" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E">pricing, and support</text>
+  <text x="465" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E">can also be free to use</text>
+</svg>

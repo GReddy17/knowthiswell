@@ -1,0 +1,42 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bufferTitle">
+  <title id="bufferTitle">A diagram comparing two buffer tanks: one where the download inflow arrow is thicker than the playback outflow arrow, keeping the tank mostly full and playing smoothly, and one where the download inflow is thinner than the playback outflow, causing the tank to empty and playback to pause and rebuffer.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">The buffer is a tank — buffering happens when it drains faster than it fills</text>
+
+  <!-- Scenario A: healthy -->
+  <g>
+    <text x="175" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#2C4A3E">Download faster than playback needs</text>
+    <rect x="130" y="70" width="90" height="140" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="2"/>
+    <rect x="130" y="120" width="90" height="90" fill="#EEF3EE"/>
+    <text x="175" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">buffer</text>
+    <path d="M60,90 L128,90" fill="none" stroke="#2C4A3E" stroke-width="6" marker-end="url(#arrowBuf)"/>
+    <text x="60" y="78" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#2C4A3E">download (fast)</text>
+    <path d="M222,150 L280,150" fill="none" stroke="#4A443C" stroke-width="3" marker-end="url(#arrowBuf)"/>
+    <text x="228" y="138" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">playback (steady)</text>
+    <text x="175" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">tank stays full -&gt; smooth playback</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="390" y1="55" x2="390" y2="270" stroke="#4A443C" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Scenario B: buffering -->
+  <g>
+    <text x="600" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5493A">Download slower than playback needs</text>
+    <rect x="555" y="70" width="90" height="140" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="2"/>
+    <rect x="555" y="185" width="90" height="25" fill="#FBEDEA"/>
+    <text x="600" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">buffer</text>
+    <path d="M485,90 L553,90" fill="none" stroke="#2C4A3E" stroke-width="2.5" marker-end="url(#arrowBuf)"/>
+    <text x="485" y="78" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#2C4A3E">download (slow)</text>
+    <path d="M647,150 L705,150" fill="none" stroke="#4A443C" stroke-width="5" marker-end="url(#arrowBuf)"/>
+    <text x="653" y="138" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">playback (steady)</text>
+    <text x="600" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">tank empties -&gt; playback pauses to refill</text>
+  </g>
+
+  <defs>
+    <marker id="arrowBuf" markerWidth="9" markerHeight="9" refX="6" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">"Buffering..." means the tank ran dry — the player paused itself rather than show a broken frame.</text>
+</svg>

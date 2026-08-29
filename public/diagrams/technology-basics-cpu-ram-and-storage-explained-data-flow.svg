@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cpuRamStorageTitle">
+  <title id="cpuRamStorageTitle">Diagram showing the CPU, RAM, and storage as a data pipeline, with a pyramid below showing how speed increases and capacity decreases the closer memory sits to the CPU</title>
+  <rect x="0" y="0" width="640" height="420" fill="#FBF8F1"/>
+
+  <!-- top row: three boxes -->
+  <rect x="30" y="40" width="150" height="90" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="105" y="78" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="19" font-weight="700" fill="#1F1B16">CPU</text>
+  <text x="105" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">does the work</text>
+  <text x="105" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">(billions of ops/sec)</text>
+
+  <rect x="245" y="40" width="150" height="90" rx="8" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="320" y="72" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="19" font-weight="700" fill="#1F1B16">RAM</text>
+  <text x="320" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">holds active data</text>
+  <text x="320" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">volatile — clears on power off</text>
+  <text x="320" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">nanosecond latency</text>
+
+  <rect x="460" y="40" width="150" height="90" rx="8" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="535" y="72" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="18" font-weight="700" fill="#1F1B16">Storage</text>
+  <text x="535" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">SSD / HDD</text>
+  <text x="535" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">non-volatile — keeps data</text>
+  <text x="535" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">millisecond-to-microsecond</text>
+
+  <!-- arrows between boxes -->
+  <path d="M 182,85 L 243,85" stroke="#1F1B16" stroke-width="2" fill="none"/>
+  <path d="M 243,85 L 233,80 L 233,90 Z" fill="#1F1B16"/>
+  <path d="M 243,100 L 182,100" stroke="#1F1B16" stroke-width="2" fill="none"/>
+  <path d="M 182,100 L 192,95 L 192,105 Z" fill="#1F1B16"/>
+
+  <path d="M 397,85 L 458,85" stroke="#1F1B16" stroke-width="2" fill="none"/>
+  <path d="M 458,85 L 448,80 L 448,90 Z" fill="#1F1B16"/>
+  <path d="M 458,100 L 397,100" stroke="#1F1B16" stroke-width="2" fill="none"/>
+  <path d="M 397,100 L 407,95 L 407,105 Z" fill="#1F1B16"/>
+
+  <text x="213" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">loads / writes back</text>
+  <text x="428" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">reads / saves</text>
+
+  <!-- pyramid -->
+  <text x="320" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Closer to the CPU = faster, but smaller and temporary</text>
+
+  <polygon points="320,205 280,245 360,245" fill="#C9412C" opacity="0.75"/>
+  <text x="320" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">Cache</text>
+
+  <polygon points="280,245 360,245 380,300 240,300" fill="#2C4A3E" opacity="0.6"/>
+  <text x="320" y="277" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#FBF8F1">RAM</text>
+
+  <polygon points="240,300 380,300 410,360 190,360" fill="#8B6F4E" opacity="0.55"/>
+  <text x="300" y="335" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#FBF8F1">Storage (SSD / HDD)</text>
+
+  <text x="140" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Fastest</text>
+  <text x="140" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Smallest</text>
+  <text x="500" y="345" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Slowest</text>
+  <text x="500" y="360" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Largest</text>
+
+  <text x="320" y="400" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">The CPU keeps pulling data one level down whenever it isn't found one level up.</text>
+</svg>

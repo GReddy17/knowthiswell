@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="apiFlowTitle">
+  <title id="apiFlowTitle">A sequence diagram showing an app on the left sending a structured request to an API in the middle, which is labeled as a defined menu of allowed requests, forwarding that request to a backend server and database on the right, then the response traveling back through the API to the app, illustrating that the app never touches the database directly.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <rect x="30" y="115" width="110" height="50" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="85" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">App</text>
+
+  <rect x="340" y="105" width="120" height="70" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="400" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">API</text>
+  <text x="400" y="147" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">(the allowed</text>
+  <text x="400" y="159" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">request menu)</text>
+
+  <rect x="640" y="115" width="130" height="50" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="705" y="138" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Server + data</text>
+  <text x="705" y="152" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">(never touched directly)</text>
+
+  <defs>
+    <marker id="arrowApi" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M140,130 L338,130" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowApi)"/>
+  <text x="240" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">1. request</text>
+
+  <path d="M460,132 L638,132" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowApi)"/>
+  <text x="550" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">2. forwarded</text>
+
+  <path d="M638,155 L462,153" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowApi)"/>
+  <text x="550" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">3. result</text>
+
+  <path d="M338,158 L142,150" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowApi)"/>
+  <text x="240" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">4. response</text>
+
+  <text x="400" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">The API defines exactly which requests are allowed and what shape the answer takes —</text>
+  <text x="400" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">everything on the other side of it stays hidden and can change without breaking the app.</text>
+
+  <text x="400" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">An API is the agreed-upon door, not the room behind it.</text>
+</svg>

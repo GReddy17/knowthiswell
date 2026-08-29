@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="storageComparisonTitle">
+  <title id="storageComparisonTitle">A comparison diagram. On the left, a device connects to a single local hard drive icon, labeled as one physical copy with no automatic backup if it fails. On the right, the same device connects over the internet to a cloud storage icon that itself branches into three separate server boxes in different locations, labeled as redundant copies maintained by the provider.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <text x="200" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Local storage</text>
+  <text x="600" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Cloud storage</text>
+
+  <line x1="400" y1="20" x2="400" y2="280" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+
+  <rect x="130" y="80" width="120" height="46" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="190" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Your device</text>
+
+  <defs>
+    <marker id="arrowStor" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M190,126 L190,175" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowStor)"/>
+  <rect x="140" y="180" width="100" height="46" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="190" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">One local drive</text>
+  <text x="190" y="219" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">single copy</text>
+
+  <rect x="530" y="80" width="120" height="46" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="590" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Your device</text>
+
+  <path d="M590,126 L590,150" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowStor)"/>
+  <text x="620" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">internet</text>
+
+  <rect x="530" y="155" width="120" height="34" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="590" y="176" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Provider&apos;s service</text>
+
+  <path d="M560,189 C 530,205 500,215 480,232" fill="none" stroke="#2C4A3E" stroke-width="1.3" marker-end="url(#arrowStor)"/>
+  <path d="M590,189 L590,232" fill="none" stroke="#2C4A3E" stroke-width="1.3" marker-end="url(#arrowStor)"/>
+  <path d="M620,189 C 650,205 680,215 700,232" fill="none" stroke="#2C4A3E" stroke-width="1.3" marker-end="url(#arrowStor)"/>
+
+  <rect x="440" y="236" width="80" height="34" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="480" y="257" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">copy A</text>
+  <rect x="550" y="236" width="80" height="34" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="590" y="257" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">copy B</text>
+  <rect x="660" y="236" width="80" height="34" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="700" y="257" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">copy C</text>
+
+  <text x="190" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#B5493A">No internet needed — but one failure loses everything</text>
+  <text x="590" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#B5493A">Needs internet — but redundant across copies</text>
+</svg>

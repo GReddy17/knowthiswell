@@ -1,0 +1,44 @@
+<svg viewBox="0 0 820 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="packetHopsTitle">
+  <title id="packetHopsTitle">A diagram showing a laptop sending a packet through a home router, to an ISP network, to a backbone network, through an intermediate router, and finally to a destination server, with each arrow labeled as one hop and a note that the return path may differ from the outbound path.</title>
+  <rect width="820" height="300" fill="#FBF8F1"/>
+
+  <rect x="20" y="110" width="120" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="80" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Your device</text>
+
+  <rect x="180" y="110" width="120" height="50" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="240" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Home router</text>
+
+  <rect x="340" y="110" width="120" height="50" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="400" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">ISP network</text>
+
+  <rect x="500" y="110" width="120" height="50" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="560" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Backbone</text>
+  <text x="560" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">router</text>
+
+  <rect x="660" y="110" width="140" height="50" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="730" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Destination</text>
+  <text x="730" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">server</text>
+
+  <defs>
+    <marker id="arrowHop" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M140,135 L178,135" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowHop)"/>
+  <text x="159" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">hop 1</text>
+
+  <path d="M300,135 L338,135" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowHop)"/>
+  <text x="319" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">hop 2</text>
+
+  <path d="M460,135 L498,135" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowHop)"/>
+  <text x="479" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">hop 3</text>
+
+  <path d="M620,135 L658,135" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowHop)"/>
+  <text x="639" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">hop 4</text>
+
+  <path d="M730,160 C 730,220 240,220 240,161" fill="none" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arrowHop)"/>
+  <text x="485" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Return path may take a different route than the outbound path</text>
+
+  <text x="410" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Each arrow = one router-to-router hop, decided independently in real time</text>
+</svg>

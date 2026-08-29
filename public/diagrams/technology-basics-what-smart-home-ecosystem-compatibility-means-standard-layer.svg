@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ecosystemTitle">
+  <title id="ecosystemTitle">A diagram showing three devices from three different brands, each normally locked into its own separate app, all connecting instead into one shared horizontal band labeled "Matter — a shared interoperability standard," which then connects upward to multiple different smart home apps and voice assistants, illustrating that a shared standard, not brand loyalty, is what lets devices work across ecosystems.</title>
+  <rect width="800" height="320" fill="#FBF8F1"/>
+
+  <defs>
+    <marker id="arrowEco" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <rect x="60" y="30" width="120" height="55" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5" rx="4"/>
+  <text x="120" y="53" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Brand A device</text>
+  <text x="120" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">(e.g. a bulb)</text>
+
+  <rect x="340" y="30" width="120" height="55" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5" rx="4"/>
+  <text x="400" y="53" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Brand B device</text>
+  <text x="400" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">(e.g. a lock)</text>
+
+  <rect x="620" y="30" width="120" height="55" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5" rx="4"/>
+  <text x="680" y="53" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Brand C device</text>
+  <text x="680" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">(e.g. a plug)</text>
+
+  <path d="M120,85 L120,140" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowEco)"/>
+  <path d="M400,85 L400,140" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowEco)"/>
+  <path d="M680,85 L680,140" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowEco)"/>
+
+  <rect x="60" y="145" width="680" height="60" fill="#F2ECE0" stroke="#B5493A" stroke-width="2.5" rx="6"/>
+  <text x="400" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5493A">A shared interoperability standard (e.g. Matter, running over Thread)</text>
+  <text x="400" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">devices that support the standard speak the same language, regardless of brand</text>
+
+  <path d="M250,205 L250,255" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowEco)"/>
+  <path d="M550,205 L550,255" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowEco)"/>
+
+  <rect x="170" y="258" width="160" height="45" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5" rx="4"/>
+  <text x="250" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Smart home app #1</text>
+
+  <rect x="470" y="258" width="160" height="45" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5" rx="4"/>
+  <text x="550" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Smart home app #2</text>
+</svg>

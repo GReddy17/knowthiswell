@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="videoLagTitle">
+  <title id="videoLagTitle">A diagram showing a camera capturing raw video, a compressor encoding it into a much smaller stream, that stream traveling across a network link constrained by bandwidth and delayed by latency, and a decoder on the receiving device reconstructing frames for display, with a separate callout showing that when available bandwidth drops below what the compressed stream needs, the app must lower quality or frames stall.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <rect x="20" y="30" width="110" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="75" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Camera</text>
+  <text x="75" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">raw video</text>
+
+  <rect x="180" y="30" width="120" height="50" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="240" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Encoder</text>
+  <text x="240" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">compresses frames</text>
+
+  <rect x="350" y="30" width="150" height="50" fill="#EDE7D8" stroke="#B5493A" stroke-width="2"/>
+  <text x="425" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Network link</text>
+  <text x="425" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#B5493A">bandwidth + latency</text>
+
+  <rect x="550" y="30" width="120" height="50" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="610" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Decoder</text>
+  <text x="610" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">rebuilds frames</text>
+
+  <rect x="700" y="30" width="90" height="50" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="745" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Screen</text>
+
+  <defs>
+    <marker id="arrowVid" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M130,55 L178,55" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowVid)"/>
+  <path d="M300,55 L348,55" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowVid)"/>
+  <path d="M500,55 L548,55" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowVid)"/>
+  <path d="M670,55 L698,55" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowVid)"/>
+
+  <rect x="60" y="130" width="680" height="140" fill="#FBF8F1" stroke="#D8D2C4" stroke-width="1"/>
+  <text x="90" y="155" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Two different bottlenecks, two different symptoms:</text>
+
+  <text x="90" y="182" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#2C4A3E">Low bandwidth (not enough room for the data)</text>
+  <text x="90" y="200" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">-&gt; blurry, blocky video; app drops resolution/frame rate to fit</text>
+
+  <text x="90" y="228" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#B5493A">High latency (data takes too long to arrive)</text>
+  <text x="90" y="246" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">-&gt; delay between speaking and being heard, talking over each other</text>
+
+  <text x="90" y="262" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">A call can have plenty of bandwidth and still lag badly if latency is high — they are independent problems.</text>
+</svg>

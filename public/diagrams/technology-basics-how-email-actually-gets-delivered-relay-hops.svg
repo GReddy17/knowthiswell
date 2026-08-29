@@ -1,0 +1,46 @@
+<svg viewBox="0 0 820 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="emailHopsTitle">
+  <title id="emailHopsTitle">A flow diagram showing a sender's email app submitting a message to their outgoing mail server, which looks up the recipient domain's MX record in DNS, then relays the message directly to the recipient's mail server over SMTP, which finally stores it in the recipient's mailbox for their email app to retrieve.</title>
+  <rect width="820" height="260" fill="#FBF8F1"/>
+
+  <rect x="20" y="30" width="130" height="46" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="85" y="52" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Sender's</text>
+  <text x="85" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">email app</text>
+
+  <rect x="200" y="30" width="140" height="46" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="270" y="52" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Outgoing mail</text>
+  <text x="270" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">server (MTA)</text>
+
+  <rect x="390" y="30" width="130" height="46" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="455" y="52" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">DNS: MX</text>
+  <text x="455" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">record lookup</text>
+
+  <rect x="570" y="30" width="130" height="46" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="635" y="52" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Recipient's mail</text>
+  <text x="635" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">server (MTA)</text>
+
+  <rect x="20" y="180" width="130" height="46" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="85" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Recipient's</text>
+  <text x="85" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">mailbox</text>
+
+  <defs>
+    <marker id="arrowEmail" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M150,53 L198,53" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowEmail)"/>
+  <text x="174" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">1. submit (port 587)</text>
+
+  <path d="M340,53 L388,53" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowEmail)"/>
+  <text x="364" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">2. "who handles</text>
+  <text x="364" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">this domain's mail?"</text>
+
+  <path d="M520,53 L568,53" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowEmail)"/>
+  <text x="544" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">3. MX answer</text>
+
+  <path d="M635,76 C 635,140 300,150 90,150 L 85,178" fill="none" stroke="#B5493A" stroke-width="1.5" marker-end="url(#arrowEmail)"/>
+  <text x="400" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#B5493A">5. SMTP relay direct to recipient's server (port 25)</text>
+  <text x="400" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">4. outgoing server connects straight to that server — no other server in between</text>
+
+  <text x="85" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">6. recipient's app retrieves new mail (IMAP/POP)</text>
+</svg>

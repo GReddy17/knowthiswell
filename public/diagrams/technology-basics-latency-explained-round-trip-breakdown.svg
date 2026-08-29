@@ -1,0 +1,27 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="latencyBreakdownTitle">
+  <title id="latencyBreakdownTitle">A timeline diagram showing a packet's round trip broken into stacked segments: propagation delay across a long physical distance shown as the largest segment, smaller segments for processing delay at each router hop, and a variable segment for queuing delay that grows during network congestion, together summing to the total round-trip time measured by a ping test.</title>
+  <rect width="800" height="260" fill="#FBF8F1"/>
+
+  <text x="400" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">What makes up round-trip time</text>
+
+  <rect x="40" y="70" width="460" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="270" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Propagation delay (fixed, distance-based)</text>
+
+  <rect x="500" y="70" width="110" height="50" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="555" y="93" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Processing</text>
+  <text x="555" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">delay</text>
+
+  <rect x="610" y="70" width="150" height="50" fill="#FBEDEA" stroke="#B5493A" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="685" y="93" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#B5493A">Queuing delay</text>
+  <text x="685" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#B5493A">(variable)</text>
+
+  <path d="M40,150 L760,150" stroke="#4A443C" stroke-width="1.5"/>
+  <path d="M40,145 L40,155" stroke="#4A443C" stroke-width="1.5"/>
+  <path d="M760,145 L760,155" stroke="#4A443C" stroke-width="1.5"/>
+  <text x="400" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">total round-trip time (what a ping test reports)</text>
+
+  <text x="270" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">Set by physical distance — bandwidth can't shorten this</text>
+  <text x="685" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">Grows under network congestion</text>
+
+  <text x="400" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Propagation delay is usually the largest, least fixable component for long-distance connections.</text>
+</svg>

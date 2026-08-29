@@ -1,0 +1,44 @@
+<svg viewBox="0 0 820 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="blockchainHashTitle">
+  <title id="blockchainHashTitle">Diagram of three blocks in a chain. Each block contains a list of transactions, its own hash, and the hash of the previous block. Arrows show each block's stored "previous hash" pointing back to the prior block, and a callout shows that changing any transaction in Block 1 would change its hash, which would break the link stored in Block 2, which would break the link in Block 3, making tampering detectable across the whole chain.</title>
+  <rect width="820" height="320" fill="#FBF8F1"/>
+
+  <rect x="30" y="60" width="220" height="140" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="140" y="84" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Block 1</text>
+  <text x="140" y="106" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Transactions: A→B, C→D</text>
+  <text x="140" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Previous hash: 000...0</text>
+  <text x="140" y="146" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2C4A3E">This block's hash:</text>
+  <text x="140" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2C4A3E">4f9a...c21</text>
+
+  <rect x="300" y="60" width="220" height="140" rx="8" fill="#F6F0E8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="410" y="84" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Block 2</text>
+  <text x="410" y="106" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Transactions: E→F, G→H</text>
+  <text x="410" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Previous hash: 4f9a...c21</text>
+  <text x="410" y="146" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2C4A3E">This block's hash:</text>
+  <text x="410" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2C4A3E">7b21...e88</text>
+
+  <rect x="570" y="60" width="220" height="140" rx="8" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="680" y="84" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Block 3</text>
+  <text x="680" y="106" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Transactions: I→J, K→L</text>
+  <text x="680" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Previous hash: 7b21...e88</text>
+  <text x="680" y="146" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2C4A3E">This block's hash:</text>
+  <text x="680" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2C4A3E">a03c...916</text>
+
+  <defs>
+    <marker id="arrowChain" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowChainRed" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/>
+    </marker>
+  </defs>
+
+  <path d="M250,130 L300,130" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowChain)"/>
+  <path d="M520,130 L570,130" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowChain)"/>
+  <text x="275" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">stores link</text>
+  <text x="545" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">stores link</text>
+
+  <rect x="60" y="230" width="700" height="70" rx="8" fill="#FBEDEA" stroke="#C9412C" stroke-width="1.5"/>
+  <text x="410" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Tamper with Block 1's transactions →</text>
+  <text x="410" y="275" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">its hash changes → no longer matches the "previous hash" Block 2 stored →</text>
+  <text x="410" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">the break is visible all the way down the chain</text>
+</svg>

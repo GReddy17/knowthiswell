@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cookieFlowTitle">
+  <title id="cookieFlowTitle">A sequence diagram showing a browser sending an initial request to a server, the server responding with a Set-Cookie instruction containing a value, the browser storing that value, and then the browser automatically attaching the same value as a Cookie header on every later request to that same server.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <rect x="30" y="30" width="130" height="46" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="95" y="57" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Browser</text>
+
+  <rect x="640" y="30" width="130" height="46" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="705" y="57" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Server</text>
+
+  <line x1="95" y1="76" x2="95" y2="270" stroke="#D8D2C4" stroke-width="1"/>
+  <line x1="705" y1="76" x2="705" y2="270" stroke="#D8D2C4" stroke-width="1"/>
+
+  <defs>
+    <marker id="arrowCookie" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M95,100 L705,100" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowCookie)"/>
+  <text x="400" y="92" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">1. first request (no cookie yet)</text>
+
+  <path d="M705,140 L97,140" fill="none" stroke="#8B6F4E" stroke-width="1.5" marker-end="url(#arrowCookie)"/>
+  <text x="400" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">2. response: Set-Cookie: id=8f21a</text>
+
+  <rect x="55" y="155" width="80" height="30" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="95" y="174" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">stored: id=8f21a</text>
+
+  <path d="M95,190 L705,190" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowCookie)"/>
+  <text x="400" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#2C4A3E">3. every later request: Cookie: id=8f21a (sent automatically)</text>
+
+  <path d="M705,230 L97,230" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowCookie)"/>
+  <text x="400" y="222" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">4. server recognizes id=8f21a as the same visitor</text>
+
+  <text x="400" y="272" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">Step 3 happens with no user action — that automatic resend is the entire mechanism.</text>
+</svg>

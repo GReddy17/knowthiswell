@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="smartAnatomyTitle">
+  <title id="smartAnatomyTitle">A comparison diagram: on the left, a "dumb" light switch labeled with only a mechanical toggle; on the right, a "smart" light bulb showing four internal parts — a sensor, a small processor, a wireless radio, and firmware — connected in a loop, with an arrow to a phone app and a cloud icon, illustrating that being "smart" means having sensing, processing, connectivity, and updatable software, not just an on/off function.</title>
+  <rect width="800" height="340" fill="#FBF8F1"/>
+
+  <text x="160" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">A "dumb" switch</text>
+  <rect x="90" y="70" width="140" height="90" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2" rx="4"/>
+  <rect x="145" y="95" width="30" height="40" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="160" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">mechanical toggle only</text>
+  <text x="160" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">no sensor, no radio, no software</text>
+
+  <line x1="330" y1="60" x2="330" y2="280" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3,4"/>
+
+  <text x="560" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">A "smart" bulb</text>
+  <circle cx="560" cy="120" r="55" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="560" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">sensor</text>
+  <text x="560" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">processor</text>
+  <text x="560" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">radio</text>
+  <text x="560" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#1F1B16">firmware</text>
+
+  <defs>
+    <marker id="arrowSmart" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M615,110 L690,80" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSmart)"/>
+  <rect x="690" y="55" width="70" height="46" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5" rx="4"/>
+  <text x="725" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">phone</text>
+  <text x="725" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">app</text>
+
+  <path d="M615,135 L690,165" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSmart)"/>
+  <ellipse cx="725" cy="185" rx="42" ry="26" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="725" y="189" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">cloud</text>
+
+  <text x="560" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">reads its environment, connects,</text>
+  <text x="560" y="219" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">and can be updated after purchase</text>
+
+  <text x="400" y="315" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">"Smart" = sensing + processing + connectivity + updatable software — not just an app.</text>
+</svg>

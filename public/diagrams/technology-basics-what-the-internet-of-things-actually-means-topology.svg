@@ -1,0 +1,48 @@
+<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="iotTopologyTitle">
+  <title id="iotTopologyTitle">Diagram showing several small sensor-equipped devices, such as a thermostat, a door lock, and a light bulb, each sending data to a local hub or directly to the internet, which relays that data to a cloud server for processing and storage, and a phone app on the right receiving processed data back from the cloud and able to send commands the same path in reverse.</title>
+  <rect width="820" height="340" fill="#FBF8F1"/>
+
+  <rect x="30" y="40" width="120" height="56" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="90" y="64" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="600" fill="#1F1B16">Thermostat</text>
+  <text x="90" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">temperature sensor</text>
+
+  <rect x="30" y="130" width="120" height="56" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="90" y="154" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="600" fill="#1F1B16">Door lock</text>
+  <text x="90" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">position sensor</text>
+
+  <rect x="30" y="220" width="120" height="56" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="90" y="244" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="600" fill="#1F1B16">Light bulb</text>
+  <text x="90" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">on/off + brightness</text>
+
+  <rect x="240" y="130" width="130" height="70" rx="8" fill="#F6F0E8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="305" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Hub / router</text>
+  <text x="305" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">local relay point</text>
+
+  <rect x="460" y="120" width="150" height="90" rx="8" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="535" y="152" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Cloud server</text>
+  <text x="535" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">stores data, runs</text>
+  <text x="535" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">automation rules</text>
+
+  <rect x="680" y="130" width="120" height="70" rx="8" fill="#FBEDEA" stroke="#C9412C" stroke-width="1.5"/>
+  <text x="740" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Phone app</text>
+  <text x="740" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">view + control</text>
+
+  <defs>
+    <marker id="arrowIot" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M150,68 L305,140" fill="none" stroke="#2C4A3E" stroke-width="1.3" marker-end="url(#arrowIot)"/>
+  <path d="M150,158 L240,165" fill="none" stroke="#2C4A3E" stroke-width="1.3" marker-end="url(#arrowIot)"/>
+  <path d="M150,248 L305,195" fill="none" stroke="#2C4A3E" stroke-width="1.3" marker-end="url(#arrowIot)"/>
+  <path d="M370,165 L460,165" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowIot)"/>
+  <path d="M610,165 L680,165" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowIot)"/>
+
+  <text x="415" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">over the internet</text>
+  <text x="645" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">view/control</text>
+
+  <rect x="100" y="255" width="620" height="60" rx="8" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="1"/>
+  <text x="410" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">"Smart" means it has a sensor, a network connection, and reports somewhere</text>
+  <text x="410" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">A device with no network chip, no matter how automated its internal logic, is not part of the IoT by this definition</text>
+</svg>

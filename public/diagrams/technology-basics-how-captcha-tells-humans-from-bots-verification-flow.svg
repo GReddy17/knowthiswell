@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="captchaTitle">
+  <title id="captchaTitle">A diagram comparing a human and an automated script solving the same challenge, plus a passive-signal track. In the classic challenge track, a human quickly and accurately identifies distorted text or matching images, while a script attempting the same challenge is far more likely to fail or take much longer. In the modern passive track, background signals like mouse movement, typing rhythm, and browsing history are scored continuously, often letting a real user proceed with no visible challenge at all.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <text x="30" y="28" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Classic challenge: same puzzle, different success rate</text>
+
+  <rect x="30" y="45" width="220" height="46" rx="6" fill="#F7F1E5" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="140" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Distorted-text or grid puzzle</text>
+
+  <defs>
+    <marker id="arrowCap" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M140,91 L140,120" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowCap)"/>
+  <path d="M140,91 L400,91 L400,120" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowCap)"/>
+
+  <rect x="30" y="122" width="220" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="140" y="146" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Human solver</text>
+  <text x="140" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Fast, high accuracy</text>
+  <text x="140" y="177" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#2C4A3E" font-weight="700">Passes</text>
+
+  <rect x="290" y="122" width="220" height="60" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="400" y="146" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Automated script</text>
+  <text x="400" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Slower, error-prone</text>
+  <text x="400" y="177" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#C9412C" font-weight="700">Usually fails</text>
+
+  <text x="600" y="55" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Modern passive track</text>
+  <rect x="560" y="70" width="200" height="112" rx="6" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="660" y="92" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Background signals</text>
+  <text x="660" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Mouse movement</text>
+  <text x="660" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Typing rhythm</text>
+  <text x="660" y="144" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Browsing history/cookies</text>
+  <text x="660" y="166" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#2C4A3E" font-weight="700">Scored — may skip challenge</text>
+
+  <text x="400" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">CAPTCHA measures a probability gap, not an absolute wall — determined scripts can and do solve some challenges.</text>
+</svg>

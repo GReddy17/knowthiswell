@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="modemRouterTitle">
+  <title id="modemRouterTitle">A diagram showing an ISP connection entering a home and passing into a modem, labeled as converting the ISP's signal into standard network data, then a single cable connecting the modem to a router, labeled as distributing that connection to multiple devices — a laptop, a phone, and a smart TV — via both WiFi and wired ports.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <rect x="20" y="110" width="110" height="50" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="75" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">ISP line</text>
+
+  <rect x="180" y="110" width="120" height="50" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="240" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Modem</text>
+  <text x="240" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">(signal → data)</text>
+
+  <rect x="350" y="110" width="120" height="50" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="410" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Router</text>
+  <text x="410" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">(distributes it)</text>
+
+  <rect x="580" y="30" width="120" height="46" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="640" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Laptop</text>
+
+  <rect x="580" y="112" width="120" height="46" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="640" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Phone</text>
+
+  <rect x="580" y="194" width="120" height="46" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="640" y="222" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Smart TV</text>
+
+  <defs>
+    <marker id="arrowMr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M130,135 L178,135" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowMr)"/>
+  <path d="M300,135 L348,135" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowMr)"/>
+
+  <path d="M470,130 C 520,110 550,80 578,58" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowMr)"/>
+  <path d="M470,135 L578,135" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowMr)"/>
+  <path d="M470,142 C 520,165 550,195 578,215" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowMr)"/>
+
+  <text x="240" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">translation job</text>
+  <text x="500" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">distribution job (WiFi + wired)</text>
+
+  <text x="400" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Two different jobs — sometimes bundled into one ISP-provided box.</text>
+</svg>

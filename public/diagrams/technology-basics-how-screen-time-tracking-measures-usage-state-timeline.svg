@@ -1,0 +1,31 @@
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="screenTimeTitle">
+  <title id="screenTimeTitle">A timeline showing a device's screen switching between an off state, App A in the foreground, App B in the foreground, and screen-off again. Only the durations while the screen is on and a specific app is in the foreground are added to that app's usage total; screen-off time and background time are excluded.</title>
+  <rect width="800" height="280" fill="#FBF8F1"/>
+
+  <line x1="40" y1="140" x2="760" y2="140" stroke="#2C4A3E" stroke-width="1.5"/>
+
+  <rect x="40" y="110" width="90" height="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="85" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#4A443C">Screen off</text>
+  <text x="85" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">not counted</text>
+
+  <rect x="130" y="90" width="220" height="100" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="240" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">App A foreground</text>
+  <text x="240" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">12 minutes counted</text>
+  <text x="240" y="163" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">timestamp start &#8594; timestamp end</text>
+
+  <rect x="350" y="90" width="180" height="100" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="440" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">App B foreground</text>
+  <text x="440" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">7 minutes counted</text>
+
+  <rect x="530" y="110" width="90" height="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="575" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#4A443C">Screen off</text>
+  <text x="575" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">not counted</text>
+
+  <rect x="630" y="90" width="130" height="100" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="695" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Daily total logged</text>
+  <text x="695" y="138" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">App A: 12 min</text>
+  <text x="695" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">App B: 7 min</text>
+  <text x="695" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">synced to dashboard</text>
+
+  <text x="400" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Only foreground, screen-on time between state transitions is added — background time is not.</text>
+</svg>

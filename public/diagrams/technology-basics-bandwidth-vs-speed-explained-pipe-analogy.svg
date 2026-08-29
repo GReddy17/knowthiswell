@@ -1,0 +1,34 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pipeAnalogyTitle">
+  <title id="pipeAnalogyTitle">A comparison diagram showing a wide, short pipe labeled high bandwidth low latency moving a large volume quickly, next to a narrow, very long pipe labeled low bandwidth high latency where water takes a long time to reach the far end despite eventually flowing steadily, illustrating that pipe width (bandwidth) and pipe length (latency) are independent properties of a connection.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="200" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Wide, short pipe</text>
+  <rect x="60" y="55" width="280" height="60" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="200" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">high bandwidth</text>
+  <text x="200" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">low latency (short travel time)</text>
+
+  <text x="580" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Narrow, long pipe</text>
+  <rect x="420" y="75" width="320" height="20" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="580" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#B5493A">low bandwidth</text>
+  <text x="580" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">high latency (long travel time)</text>
+
+  <defs>
+    <marker id="arrowPipe" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+  <path d="M40,85 L58,85" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowPipe)"/>
+  <path d="M400,85 L418,85" fill="none" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowPipe)"/>
+
+  <rect x="60" y="190" width="280" height="80" fill="none" stroke="#4A443C" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="200" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Good for:</text>
+  <text x="200" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">large downloads,</text>
+  <text x="200" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">high-res streaming</text>
+
+  <rect x="420" y="190" width="320" height="80" fill="none" stroke="#4A443C" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="580" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Bad for:</text>
+  <text x="580" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">video calls, gaming,</text>
+  <text x="580" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">quick page loads</text>
+
+  <text x="390" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Pipe width (bandwidth) and pipe length (latency) are independent — a connection can vary in either alone.</text>
+</svg>

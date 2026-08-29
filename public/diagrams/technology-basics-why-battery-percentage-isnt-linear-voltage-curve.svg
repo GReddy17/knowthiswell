@@ -1,0 +1,27 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="battCurveTitle">
+  <title id="battCurveTitle">A line chart with reported battery percentage from 100 to 0 on the horizontal axis and cell voltage on the vertical axis, showing the real voltage curve staying nearly flat from 100% down to about 20% and then dropping steeply near 0%, compared against a straight dashed reference line that would represent a truly linear relationship.</title>
+  <rect width="780" height="340" fill="#FBF8F1"/>
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Reported percentage vs. actual cell voltage</text>
+
+  <!-- axes -->
+  <line x1="90" y1="280" x2="720" y2="280" stroke="#1F1B16" stroke-width="1.5"/>
+  <line x1="90" y1="280" x2="90" y2="60" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="405" y="315" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Reported battery percentage</text>
+  <text x="100" y="35" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Cell voltage (high to low)</text>
+
+  <text x="90" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">100%</text>
+  <text x="405" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">50%</text>
+  <text x="715" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">0%</text>
+
+  <!-- linear reference line -->
+  <line x1="90" y1="70" x2="720" y2="280" stroke="#8A6D3B" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="500" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8A6D3B">if it were linear</text>
+
+  <!-- actual nonlinear curve: flat then steep drop -->
+  <path d="M90,80 C 250,90 420,110 560,150 C 620,168 660,210 720,280" fill="none" stroke="#B5493A" stroke-width="2.5"/>
+  <text x="270" y="70" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#B5493A">actual voltage curve</text>
+
+  <text x="600" y="205" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">steep drop near empty</text>
+
+  <text x="390" y="332" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">The phone reports "percentage remaining," but the underlying chemistry drops voltage in a curve, not a straight line — hence the fast plunge from 20% to 0%.</text>
+</svg>

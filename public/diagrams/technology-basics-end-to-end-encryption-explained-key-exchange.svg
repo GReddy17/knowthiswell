@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="e2eeTitle">
+  <title id="e2eeTitle">A diagram showing a sender encrypting a message with the recipient's public key before it leaves their device, the encrypted blob passing through the messaging company's server where it is shown as unreadable scrambled text, and the recipient's device decrypting it back to plain text using their own private key, which never leaves their device.</title>
+  <rect width="800" height="320" fill="#FBF8F1"/>
+
+  <rect x="20" y="40" width="150" height="60" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="95" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Sender's device</text>
+  <text x="95" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">encrypts with</text>
+  <text x="95" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">recipient's public key</text>
+
+  <rect x="320" y="40" width="160" height="60" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="400" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Messaging server</text>
+  <text x="400" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#B5493A">sees only:</text>
+  <text x="400" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-family-weight="700" fill="#B5493A">"kX92#!qLp..."</text>
+
+  <rect x="630" y="40" width="150" height="60" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="705" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Recipient's device</text>
+  <text x="705" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">decrypts with own</text>
+  <text x="705" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">private key (never shared)</text>
+
+  <defs>
+    <marker id="arrowE2ee" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M170,70 L318,70" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowE2ee)"/>
+  <text x="244" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">encrypted ciphertext</text>
+
+  <path d="M480,70 L628,70" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowE2ee)"/>
+  <text x="554" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">same ciphertext, unchanged</text>
+
+  <text x="400" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">The server relays and stores the ciphertext — it never holds the key that would unlock it.</text>
+
+  <rect x="60" y="175" width="680" height="115" fill="#F7F1E5" stroke="#D8D2C4" stroke-width="1"/>
+  <text x="90" y="200" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">What "end-to-end" does NOT hide from the server:</text>
+  <text x="90" y="222" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">- Who is messaging whom, and when (metadata) - the server must route the message somewhere</text>
+  <text x="90" y="242" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">- Group membership lists and, on many services, undecrypted backups stored outside this flow</text>
+  <text x="90" y="262" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">- The message content itself once it is displayed, unlocked, on either device's screen</text>
+</svg>

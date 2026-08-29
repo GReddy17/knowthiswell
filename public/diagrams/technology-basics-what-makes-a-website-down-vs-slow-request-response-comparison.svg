@@ -1,0 +1,43 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="downVsSlowTitle">
+  <title id="downVsSlowTitle">A comparison of three request paths from a browser to a website's server. The healthy path completes quickly. The slow path reaches the server but waits behind a backlog before a response comes back. The down path fails outright, either because the address can't be resolved or the server refuses the connection, and no response ever arrives.</title>
+  <rect width="800" height="320" fill="#FBF8F1"/>
+
+  <defs>
+    <marker id="arrowWeb" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowWebFail" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/>
+    </marker>
+  </defs>
+
+  <text x="30" y="35" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Healthy</text>
+  <rect x="30" y="45" width="90" height="34" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="75" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Browser</text>
+  <path d="M120,62 L288,62" fill="none" stroke="#2C4A3E" stroke-width="1.6" marker-end="url(#arrowWeb)"/>
+  <rect x="290" y="45" width="120" height="34" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="350" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Server responds fast</text>
+  <path d="M410,62 L578,62" fill="none" stroke="#2C4A3E" stroke-width="1.6" marker-end="url(#arrowWeb)"/>
+  <text x="600" y="66" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">page loads normally</text>
+
+  <text x="30" y="120" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Slow</text>
+  <rect x="30" y="130" width="90" height="34" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="75" y="151" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Browser</text>
+  <path d="M120,147 L288,147" fill="none" stroke="#2C4A3E" stroke-width="1.6" marker-end="url(#arrowWeb)"/>
+  <rect x="290" y="122" width="150" height="50" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="365" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Server is overloaded,</text>
+  <text x="365" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">request waits in queue</text>
+  <path d="M440,147 L578,147" fill="none" stroke="#2C4A3E" stroke-width="1.6" stroke-dasharray="4,3" marker-end="url(#arrowWeb)"/>
+  <text x="600" y="151" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">response eventually arrives, late</text>
+
+  <text x="30" y="205" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#B5493A">Down</text>
+  <rect x="30" y="215" width="90" height="34" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="75" y="236" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Browser</text>
+  <path d="M120,232 L288,232" fill="none" stroke="#B5493A" stroke-width="1.6" stroke-dasharray="4,3" marker-end="url(#arrowWebFail)"/>
+  <rect x="290" y="207" width="150" height="50" fill="#F2E4E1" stroke="#B5493A" stroke-width="1.5"/>
+  <text x="365" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">No DNS answer, or</text>
+  <text x="365" y="241" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">connection refused</text>
+  <text x="600" y="236" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#B5493A">no response ever comes back</text>
+
+  <text x="400" y="295" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Slow means a response eventually arrives; down means the request never completes at all.</text>
+</svg>

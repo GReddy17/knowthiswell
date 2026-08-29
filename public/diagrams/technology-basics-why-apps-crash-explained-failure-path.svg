@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="crashTitle">
+  <title id="crashTitle">Flow diagram showing a program running normally, hitting an instruction it cannot execute safely, raising an exception, and the operating system terminating the process, which the user sees as a crash</title>
+  <rect width="640" height="300" fill="#FBF8F1"/>
+  <text x="320" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#2C4A3E">What "crashing" actually is, step by step</text>
+
+  <rect x="20" y="70" width="140" height="80" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="90" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Running</text>
+  <text x="90" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">normally</text>
+
+  <rect x="185" y="70" width="140" height="80" rx="8" fill="#F6F0E8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="255" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Invalid</text>
+  <text x="255" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">operation hit</text>
+  <text x="255" y="134" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">(bad memory access,</text>
+  <text x="255" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">divide by zero, etc.)</text>
+
+  <rect x="350" y="70" width="140" height="80" rx="8" fill="#FBEDEA" stroke="#C9412C" stroke-width="1.5"/>
+  <text x="420" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Exception</text>
+  <text x="420" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">raised</text>
+
+  <rect x="480" y="70" width="140" height="80" rx="8" fill="#E3DCC9" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="550" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">OS terminates</text>
+  <text x="550" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">the process —</text>
+  <text x="550" y="134" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">you see "app closed"</text>
+
+  <line x1="160" y1="110" x2="183" y2="110" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow6)"/>
+  <line x1="325" y1="110" x2="348" y2="110" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow6)"/>
+  <line x1="490" y1="110" x2="478" y2="110" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow6)"/>
+
+  <text x="320" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#2C4A3E">The OS terminates the process on purpose — it's a safety mechanism, not a malfunction of the OS itself.</text>
+  <text x="320" y="222" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8B6F4E">Letting a broken process keep running risks corrupting memory other programs rely on.</text>
+
+  <defs>
+    <marker id="arrow6" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+</svg>

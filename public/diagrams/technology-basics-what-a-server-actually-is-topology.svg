@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="serverTopologyTitle">
+  <title id="serverTopologyTitle">A diagram showing three client devices — a phone, a laptop, and a smart speaker — each sending a labeled request to a single central server box, and the server sending a separate labeled response back to each one, illustrating that a server is simply a computer configured and left running to answer many incoming requests from many different clients.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <rect x="40" y="30" width="110" height="44" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="95" y="56" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Phone</text>
+
+  <rect x="40" y="128" width="110" height="44" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="95" y="154" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Laptop</text>
+
+  <rect x="40" y="226" width="110" height="44" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="95" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Smart speaker</text>
+
+  <rect x="340" y="110" width="140" height="80" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="410" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Server</text>
+  <text x="410" y="156" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">just a computer,</text>
+  <text x="410" y="169" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">always on, always listening</text>
+
+  <defs>
+    <marker id="arrowSrv" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M150,55 C 250,65 300,100 338,130" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSrv)"/>
+  <path d="M150,150 L338,150" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSrv)"/>
+  <path d="M150,248 C 250,238 300,205 338,175" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowSrv)"/>
+
+  <path d="M338,140 C 280,45 200,40 152,48" fill="none" stroke="#B5493A" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arrowSrv)"/>
+  <path d="M338,160 L152,160" fill="none" stroke="#B5493A" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arrowSrv)"/>
+  <path d="M338,170 C 280,250 200,255 152,244" fill="none" stroke="#B5493A" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arrowSrv)"/>
+
+  <rect x="600" y="120" width="160" height="60" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="680" y="143" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">solid = requests in</text>
+  <text x="680" y="163" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#B5493A">dashed = responses out</text>
+
+  <text x="400" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">One server can hold a running conversation with many clients at once.</text>
+</svg>

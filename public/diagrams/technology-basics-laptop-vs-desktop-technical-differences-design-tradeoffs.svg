@@ -1,0 +1,48 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="laptopDesktopTitle">
+  <title id="laptopDesktopTitle">Comparison diagram of a laptop's cramped, shared-airflow internal layout with soldered, low-power components versus a desktop's roomy case with separate fans, a full-size power supply, and modular, higher-power components</title>
+  <rect x="0" y="0" width="640" height="420" fill="#FBF8F1"/>
+
+  <text x="160" y="35" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="18" font-weight="700" fill="#1F1B16">Laptop</text>
+  <text x="480" y="35" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="18" font-weight="700" fill="#1F1B16">Desktop</text>
+
+  <!-- laptop cross-section: thin, cramped -->
+  <rect x="60" y="60" width="200" height="55" rx="6" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="70" y="68" width="55" height="20" rx="3" fill="#2C4A3E" opacity="0.7"/>
+  <text x="97" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">CPU</text>
+  <rect x="130" y="68" width="40" height="20" rx="3" fill="#8B6F4E" opacity="0.7"/>
+  <text x="150" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#FBF8F1">RAM</text>
+  <rect x="175" y="68" width="40" height="20" rx="3" fill="#C9412C" opacity="0.7"/>
+  <text x="195" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#FBF8F1">SSD</text>
+  <rect x="70" y="94" width="145" height="14" rx="2" fill="#4A443C" opacity="0.4"/>
+  <text x="142" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#FBF8F1">shared heat pipe + single small fan</text>
+  <text x="160" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Components soldered close</text>
+  <text x="160" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">together, tuned to a low</text>
+  <text x="160" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">power ceiling (TDP)</text>
+
+  <rect x="70" y="190" width="180" height="26" rx="4" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="160" y="207" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Battery fills remaining space</text>
+
+  <text x="160" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Priority: battery life + quiet,</text>
+  <text x="160" y="266" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">cool running in a small case</text>
+
+  <!-- desktop cross-section: roomy, modular -->
+  <rect x="390" y="60" width="220" height="180" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="405" y="75" width="60" height="30" rx="3" fill="#2C4A3E" opacity="0.7"/>
+  <text x="435" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">CPU + fan</text>
+  <rect x="475" y="75" width="40" height="30" rx="3" fill="#8B6F4E" opacity="0.7"/>
+  <text x="495" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#FBF8F1">RAM</text>
+  <rect x="525" y="75" width="65" height="30" rx="3" fill="#C9412C" opacity="0.7"/>
+  <text x="557" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#FBF8F1">GPU card</text>
+  <rect x="405" y="115" width="185" height="35" rx="3" fill="#4A443C" opacity="0.35"/>
+  <text x="497" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">large fans + open airflow</text>
+  <rect x="405" y="158" width="80" height="24" rx="3" fill="#8B6F4E" opacity="0.6"/>
+  <text x="445" y="174" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#FBF8F1">Storage bay(s)</text>
+  <rect x="495" y="158" width="95" height="24" rx="3" fill="#2C4A3E" opacity="0.55"/>
+  <text x="542" y="174" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#FBF8F1">Full power supply</text>
+  <text x="500" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Parts are separate, socketed, swappable</text>
+
+  <text x="500" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Priority: raw performance +</text>
+  <text x="500" y="266" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">upgradability, wall power available</text>
+
+  <text x="320" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1F1B16">Same building blocks — different constraints (space, heat, power) drive every design choice</text>
+</svg>

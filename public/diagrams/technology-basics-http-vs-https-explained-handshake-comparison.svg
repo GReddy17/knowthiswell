@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="httpsHandshakeTitle">
+  <title id="httpsHandshakeTitle">A comparison diagram showing, on top, a browser sending readable plain-text data over HTTP to a server with an eavesdropper icon able to read the content directly, and on the bottom, a browser performing a TLS handshake with certificate verification before sending the same data as encrypted, unreadable ciphertext over HTTPS, with the same eavesdropper icon unable to interpret the intercepted data.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <text x="30" y="30" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Plain HTTP</text>
+  <rect x="30" y="45" width="110" height="46" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="85" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Browser</text>
+  <rect x="640" y="45" width="130" height="46" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="705" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Server</text>
+
+  <circle cx="400" cy="68" r="20" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="400" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#B5493A">?</text>
+
+  <defs>
+    <marker id="arrowHttps" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+  <path d="M140,68 L638,68" fill="none" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowHttps)"/>
+  <text x="400" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#B5493A">readable plain text — visible to anyone in between</text>
+
+  <text x="30" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">HTTPS (HTTP + TLS)</text>
+  <rect x="30" y="165" width="110" height="46" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="85" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Browser</text>
+  <rect x="640" y="165" width="130" height="46" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="705" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Server</text>
+
+  <circle cx="400" cy="188" r="20" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="400" y="193" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#2C4A3E">✕</text>
+
+  <path d="M140,170 L638,170" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowHttps)"/>
+  <text x="400" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">1. TLS handshake + certificate check</text>
+
+  <path d="M140,206 L638,206" fill="none" stroke="#2C4A3E" stroke-width="2.5" marker-end="url(#arrowHttps)"/>
+  <text x="400" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#2C4A3E">2. encrypted ciphertext — unreadable in transit</text>
+
+  <text x="400" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">The padlock icon summarizes: handshake completed, identity verified, data now encrypted.</text>
+</svg>

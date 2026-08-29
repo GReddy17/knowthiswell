@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ppgTitle">
+  <title id="ppgTitle">A cross-section diagram of a wrist-worn fitness tracker's underside, showing a green LED shining light into the skin and a photodiode sensor next to it detecting how much light reflects back; a small wave graph shows the reflected light dipping slightly each time a pulse of blood passes underneath, which the tracker counts as one heartbeat, alongside a separate small diagram of an accelerometer graph showing a repeating step-like wave pattern used to count steps.</title>
+  <rect width="800" height="340" fill="#FBF8F1"/>
+
+  <text x="220" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Heart rate: PPG sensor (underside of tracker)</text>
+
+  <rect x="90" y="55" width="260" height="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2" rx="6"/>
+  <text x="220" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">tracker underside, pressed to skin</text>
+
+  <circle cx="150" cy="140" r="14" fill="#8FBF7F" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="150" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">green LED</text>
+  <path d="M150,154 L150,200" stroke="#8FBF7F" stroke-width="2" stroke-dasharray="3,2"/>
+
+  <circle cx="290" cy="140" r="14" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="290" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">photodiode</text>
+  <path d="M180,205 L260,205" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="2,2"/>
+  <path d="M260,205 L280,154" stroke="#8FBF7F" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <text x="220" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">skin + blood vessels</text>
+
+  <path d="M60,270 L100,270 L110,250 L125,290 L140,255 L150,270 L400,270" fill="none" stroke="#B5493A" stroke-width="2"/>
+  <text x="220" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">reflected light dips slightly with each pulse of blood — each dip = one heartbeat</text>
+
+  <line x1="450" y1="45" x2="450" y2="310" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3,4"/>
+
+  <text x="620" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Steps: accelerometer pattern</text>
+  <rect x="490" y="60" width="260" height="140" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2" rx="4"/>
+  <path d="M510,170 Q530,110 550,170 Q570,110 590,170 Q610,110 630,170 Q650,110 670,170 Q690,110 710,170 Q730,110 745,170" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="620" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">each repeating bounce = one step,</text>
+  <text x="620" y="234" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">counted by pattern-matching, not a literal foot sensor</text>
+
+  <text x="400" y="325" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Both metrics are inferred from indirect signals, then smoothed by an algorithm.</text>
+</svg>

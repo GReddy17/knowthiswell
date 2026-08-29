@@ -1,0 +1,48 @@
+<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dnsChainTitle">
+  <title id="dnsChainTitle">A sequence diagram showing a browser sending a domain name query to a DNS resolver, the resolver querying a root server, then a top-level-domain server, then the domain's authoritative name server, each response narrowing down the answer, and finally the resolver returning the resolved IP address back to the browser.</title>
+  <rect width="820" height="340" fill="#FBF8F1"/>
+
+  <rect x="20" y="30" width="120" height="46" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="80" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Browser</text>
+
+  <rect x="190" y="30" width="120" height="46" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="250" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Resolver</text>
+
+  <rect x="360" y="30" width="120" height="46" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="420" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Root server</text>
+
+  <rect x="530" y="30" width="120" height="46" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="590" y="52" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">TLD server</text>
+  <text x="590" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">(.com)</text>
+
+  <rect x="680" y="30" width="120" height="46" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="740" y="52" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Authoritative</text>
+  <text x="740" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">server</text>
+
+  <line x1="80" y1="76" x2="80" y2="310" stroke="#D8D2C4" stroke-width="1"/>
+  <line x1="250" y1="76" x2="250" y2="310" stroke="#D8D2C4" stroke-width="1"/>
+  <line x1="420" y1="76" x2="420" y2="310" stroke="#D8D2C4" stroke-width="1"/>
+  <line x1="590" y1="76" x2="590" y2="310" stroke="#D8D2C4" stroke-width="1"/>
+  <line x1="740" y1="76" x2="740" y2="310" stroke="#D8D2C4" stroke-width="1"/>
+
+  <defs>
+    <marker id="arrowDns" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M80,100 L250,100" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowDns)"/>
+  <text x="165" y="92" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">1. lookup domain</text>
+
+  <path d="M250,140 L420,140" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowDns)"/>
+  <text x="335" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">2. ask root</text>
+
+  <path d="M420,180 L590,180" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowDns)"/>
+  <text x="505" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">3. ask TLD server</text>
+
+  <path d="M590,220 L740,220" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowDns)"/>
+  <text x="665" y="212" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">4. ask authoritative</text>
+
+  <path d="M740,250 C 500,280 300,280 82,260" fill="none" stroke="#B5493A" stroke-width="1.5" marker-end="url(#arrowDns)"/>
+  <text x="410" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#B5493A">5. IP address returned to browser (and cached along the way)</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="billingTimelineTitle">
+  <title id="billingTimelineTitle">A horizontal billing timeline showing a subscription started partway through a monthly cycle. A small prorated charge covers only the remaining days of that first partial period, then the billing date resets to a fixed day each month, and every following charge is the full price for a complete cycle.</title>
+  <rect width="800" height="260" fill="#FBF8F1"/>
+
+  <defs>
+    <marker id="arrowBill" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <line x1="50" y1="140" x2="760" y2="140" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowBill)"/>
+
+  <circle cx="130" cy="140" r="5" fill="#B5493A"/>
+  <text x="130" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Sign-up (day 12)</text>
+  <text x="130" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">mid-cycle</text>
+
+  <rect x="130" y="185" width="230" height="34" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="245" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Prorated charge</text>
+  <text x="245" y="211" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">covers only 18 remaining days</text>
+
+  <circle cx="360" cy="140" r="5" fill="#2C4A3E"/>
+  <text x="360" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Cycle boundary</text>
+  <text x="360" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">billing date fixed here</text>
+
+  <rect x="360" y="185" width="200" height="34" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="460" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Full-price renewal</text>
+  <text x="460" y="211" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">complete billing cycle</text>
+
+  <circle cx="565" cy="140" r="5" fill="#2C4A3E"/>
+  <text x="565" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Next boundary</text>
+
+  <rect x="565" y="185" width="185" height="34" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="657" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">Full-price renewal</text>
+  <text x="657" y="211" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">same fixed date, every cycle</text>
+
+  <text x="400" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Only the very first charge is ever partial — every renewal after it is full price, on a fixed date.</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="patchFlowTitle">
+  <title id="patchFlowTitle">A left-to-right flow diagram: a security researcher discovers a flaw in a device's software, the manufacturer writes a fix and publishes a firmware update, the update travels over the internet to the device, and the device installs it in the background, closing the flaw; a branch below shows what happens if a device never receives this update — the flaw stays open indefinitely.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <defs>
+    <marker id="arrowPatch" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="50" width="140" height="70" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2" rx="4"/>
+  <text x="90" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">1. Flaw found</text>
+  <text x="90" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">in device software</text>
+
+  <path d="M160,85 L228,85" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowPatch)"/>
+
+  <rect x="230" y="50" width="140" height="70" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2" rx="4"/>
+  <text x="300" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">2. Fix written</text>
+  <text x="300" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">firmware update built</text>
+
+  <path d="M370,85 L438,85" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowPatch)"/>
+
+  <rect x="440" y="50" width="140" height="70" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2" rx="4"/>
+  <text x="510" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">3. Sent over-air</text>
+  <text x="510" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">travels to your device</text>
+
+  <path d="M580,85 L648,85" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowPatch)"/>
+
+  <rect x="650" y="50" width="130" height="70" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2" rx="4"/>
+  <text x="715" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">4. Installed</text>
+  <text x="715" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">flaw is closed</text>
+
+  <path d="M300,120 L300,180" fill="none" stroke="#B5493A" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrowPatch)"/>
+  <rect x="150" y="185" width="300" height="70" fill="#F2ECE0" stroke="#B5493A" stroke-width="2" rx="4"/>
+  <text x="300" y="212" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#B5493A">If a device never receives step 3-4:</text>
+  <text x="300" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">the known flaw stays open indefinitely,</text>
+  <text x="300" y="244" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">even though the device still "works"</text>
+
+  <text x="400" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">A device that still turns on isn't the same as a device that's still secure.</text>
+</svg>

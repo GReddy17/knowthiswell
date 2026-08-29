@@ -1,0 +1,37 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ccBccTitle">
+  <title id="ccBccTitle">A comparison diagram showing an email with one To recipient, one Cc recipient, and one Bcc recipient, with lines showing that the To and Cc header lists are copied into the message every recipient receives so everyone sees them, while the Bcc header is stripped out by the sending server before the message is relayed, so no recipient's copy shows that address at all.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <rect x="30" y="30" width="160" height="46" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="110" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">To: Alice</text>
+
+  <rect x="30" y="90" width="160" height="46" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="110" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Cc: Ben</text>
+
+  <rect x="30" y="150" width="160" height="46" fill="#EDE7D8" stroke="#B5493A" stroke-width="2"/>
+  <text x="110" y="178" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Bcc: Carla</text>
+
+  <rect x="480" y="30" width="290" height="130" fill="#F7F1E5" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="500" y="55" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Header block every recipient sees:</text>
+  <text x="500" y="78" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">To: Alice</text>
+  <text x="500" y="98" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Cc: Ben</text>
+  <text x="500" y="118" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#B5493A" text-decoration="line-through">Bcc: Carla</text>
+  <text x="500" y="140" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#B5493A">stripped before relay — never appears</text>
+
+  <defs>
+    <marker id="arrowCc" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowCcRed" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B5493A"/>
+    </marker>
+  </defs>
+
+  <path d="M190,53 L478,70" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowCc)"/>
+  <path d="M190,113 L478,95" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowCc)"/>
+  <path d="M190,173 L478,150" fill="none" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowCcRed)"/>
+
+  <rect x="60" y="220" width="680" height="60" fill="#FBF8F1" stroke="#D8D2C4" stroke-width="1"/>
+  <text x="90" y="243" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Alice and Ben both see "To: Alice, Cc: Ben" in their copy — Cc means visible but not the primary recipient.</text>
+  <text x="90" y="263" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Carla still receives the full message; her own address is just removed from the header block everyone else can read.</text>
+</svg>

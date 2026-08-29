@@ -1,0 +1,34 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="osStackTitle">
+  <title id="osStackTitle">Stacked layer diagram showing hardware at the bottom, the kernel above it, OS services above that, and applications on top, with the kernel labeled as the only layer that talks directly to hardware</title>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <text x="320" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#2C4A3E">Four layers between you and the hardware</text>
+
+  <rect x="70" y="56" width="500" height="70" rx="10" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="320" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">Applications</text>
+  <text x="320" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">browser, editor, game — call OS services, never touch hardware directly</text>
+
+  <line x1="320" y1="126" x2="320" y2="146" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="70" y="146" width="500" height="70" rx="10" fill="#F6F0E8" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="320" y="178" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">OS services</text>
+  <text x="320" y="198" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">file system, windowing, networking stack, permissions</text>
+
+  <line x1="320" y1="216" x2="320" y2="236" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="70" y="236" width="500" height="70" rx="10" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="320" y="268" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Kernel</text>
+  <text x="320" y="288" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">the only layer allowed to talk to hardware directly — schedules the CPU, manages memory</text>
+
+  <line x1="320" y1="306" x2="320" y2="326" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="70" y="326" width="500" height="70" rx="10" fill="#E3DCC9" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="320" y="358" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">Hardware</text>
+  <text x="320" y="378" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#4A443C">CPU, memory, disk, screen, network chip</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+</svg>

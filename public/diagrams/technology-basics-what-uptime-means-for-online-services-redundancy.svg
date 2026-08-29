@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="uptimeRedundancyTitle">
+  <title id="uptimeRedundancyTitle">A diagram showing many users connecting to a load balancer, which normally routes traffic to an active primary server, with a standby backup server shown in a second data center. A dashed arrow shows traffic automatically rerouting to the standby server if the primary fails, illustrating how redundancy and failover keep a service available despite a single server going down.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <rect x="30" y="120" width="100" height="50" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="80" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Users</text>
+  <text x="80" y="156" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">(everywhere)</text>
+
+  <defs>
+    <marker id="arrowUp" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M130,145 L198,145" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowUp)"/>
+
+  <rect x="200" y="120" width="120" height="50" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="260" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Load balancer</text>
+  <text x="260" y="156" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">watches server health</text>
+
+  <path d="M320,138 C 380,110 430,95 470,90" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowUp)"/>
+
+  <rect x="480" y="65" width="140" height="55" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="550" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Primary server</text>
+  <text x="550" y="103" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">data center A — active</text>
+
+  <path d="M320,155 C 380,190 430,205 470,210" fill="none" stroke="#B5493A" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrowUp)"/>
+
+  <rect x="480" y="185" width="140" height="55" fill="#FBEDEA" stroke="#2C4A3E" stroke-width="2" opacity="0.85"/>
+  <text x="550" y="208" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Standby server</text>
+  <text x="550" y="223" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">data center B — failover</text>
+
+  <text x="700" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C" font-weight="700">normal path</text>
+  <text x="700" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#B5493A" font-weight="700">rerouted only if</text>
+  <text x="700" y="234" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#B5493A" font-weight="700">A goes down</text>
+
+  <text x="400" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Uptime is a measured outcome of redundancy like this, not a promise on its own.</text>
+</svg>

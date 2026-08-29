@@ -1,0 +1,27 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="arVrFovTitle">
+  <title id="arVrFovTitle">Side-by-side comparison of a person's field of view. Left, labeled Augmented Reality: a see-through view of a real room with one small digital label overlaid on top of a real object, most of the view is the real world captured by an outward-facing camera or transparent lens. Right, labeled Virtual Reality: a fully opaque, entirely computer-generated scene filling the whole field of view, with the real room completely blocked out by the headset.</title>
+  <rect width="780" height="340" fill="#FBF8F1"/>
+
+  <text x="195" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">Augmented Reality (AR)</text>
+  <text x="585" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">Virtual Reality (VR)</text>
+
+  <rect x="50" y="55" width="290" height="200" rx="10" fill="#F6F0E8" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="70" y="75" width="60" height="90" fill="#E3DCC9" stroke="#8B6F4E" stroke-width="1"/>
+  <text x="100" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">real chair</text>
+  <rect x="160" y="100" width="80" height="60" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1"/>
+  <text x="200" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">real table</text>
+  <rect x="255" y="90" width="70" height="34" rx="5" fill="#FBEDEA" stroke="#C9412C" stroke-width="1.5"/>
+  <text x="290" y="111" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#C9412C">digital label</text>
+  <text x="195" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#2C4A3E">Real room stays visible —</text>
+  <text x="195" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#2C4A3E">a small digital layer is added on top</text>
+
+  <rect x="440" y="55" width="290" height="200" rx="10" fill="#1F1B16" stroke="#2C4A3E" stroke-width="2"/>
+  <circle cx="530" cy="150" r="45" fill="#2C4A3E" opacity="0.85"/>
+  <circle cx="640" cy="110" r="28" fill="#8B6F4E" opacity="0.85"/>
+  <polygon points="560,220 610,160 660,220" fill="#4A443C" opacity="0.85"/>
+  <text x="585" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#F7F1E5">Entire view is computer-generated —</text>
+  <text x="585" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#F7F1E5">the real room is fully blocked out</text>
+
+  <rect x="50" y="280" width="680" height="46" rx="6" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="1"/>
+  <text x="390" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">The dividing line is how much of the real world stays in view — partial-and-overlaid (AR) versus fully replaced (VR)</text>
+</svg>

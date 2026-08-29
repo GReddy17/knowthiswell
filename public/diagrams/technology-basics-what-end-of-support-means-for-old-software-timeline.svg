@@ -1,0 +1,40 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="eolTimelineTitle">
+  <title id="eolTimelineTitle">A timeline showing a supported period where a vendor regularly ships security patches as new vulnerabilities are discovered, up to an end-of-support date. After that date, newly discovered vulnerabilities in the same software are never patched by the vendor, so the count of known, unfixed weaknesses only grows over time even though the software looks and runs exactly the same as before.</title>
+  <rect width="800" height="260" fill="#FBF8F1"/>
+
+  <line x1="50" y1="130" x2="750" y2="130" stroke="#1F1B16" stroke-width="2"/>
+  <defs>
+    <marker id="arrowEol" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/>
+    </marker>
+  </defs>
+  <path d="M740,130 L750,130" fill="none" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrowEol)"/>
+
+  <rect x="50" y="110" width="380" height="40" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="240" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#2C4A3E">Supported period</text>
+
+  <rect x="430" y="110" width="320" height="40" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="590" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#C9412C">After end of support</text>
+
+  <line x1="430" y1="90" x2="430" y2="170" stroke="#8B6F4E" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="430" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#8B6F4E">End-of-support date</text>
+
+  <circle cx="120" cy="130" r="4" fill="#2C4A3E"/>
+  <circle cx="220" cy="130" r="4" fill="#2C4A3E"/>
+  <circle cx="320" cy="130" r="4" fill="#2C4A3E"/>
+  <text x="120" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">patch</text>
+  <text x="220" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">patch</text>
+  <text x="320" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">patch</text>
+
+  <circle cx="520" cy="130" r="4" fill="#C9412C"/>
+  <circle cx="620" cy="130" r="4" fill="#C9412C"/>
+  <circle cx="700" cy="130" r="4" fill="#C9412C"/>
+  <text x="520" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">flaw found,</text>
+  <text x="520" y="162" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">never fixed</text>
+  <text x="620" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">flaw found,</text>
+  <text x="620" y="162" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">never fixed</text>
+  <text x="700" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">flaw found,</text>
+  <text x="700" y="162" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">never fixed</text>
+
+  <text x="400" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">The software doesn't change on that date — but every flaw discovered afterward stays open, permanently.</text>
+</svg>

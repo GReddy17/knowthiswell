@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="speakerFlowTitle">
+  <title id="speakerFlowTitle">A flow diagram showing a smart speaker's microphone constantly feeding a small local processor that only checks a short rolling buffer of audio for a wake word pattern, discarding audio that doesn't match; once the wake word is detected, an arrow shows the recording that follows being sent over the internet to a cloud server for interpretation, and the cloud server's response being sent back down to the speaker.</title>
+  <rect width="800" height="320" fill="#FBF8F1"/>
+
+  <rect x="30" y="120" width="150" height="80" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2" rx="4"/>
+  <text x="105" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Microphone</text>
+  <text x="105" y="166" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">always capturing a</text>
+  <text x="105" y="179" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">short rolling buffer</text>
+
+  <defs>
+    <marker id="arrowSpk" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <path d="M180,160 L268,160" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowSpk)"/>
+
+  <rect x="270" y="110" width="170" height="100" fill="#F2ECE0" stroke="#2C4A3E" stroke-width="2" rx="4"/>
+  <text x="355" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">On-device wake-word</text>
+  <text x="355" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">detector (local)</text>
+  <text x="355" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">discards audio that</text>
+  <text x="355" y="183" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">doesn't match the pattern</text>
+  <text x="355" y="198" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">— nothing leaves the device yet</text>
+
+  <path d="M440,145 L520,80" fill="none" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrowSpk)"/>
+  <text x="480" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">no match</text>
+  <text x="480" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">→ audio discarded</text>
+
+  <path d="M440,180 L530,180" fill="none" stroke="#B5493A" stroke-width="2.5" marker-end="url(#arrowSpk)"/>
+  <text x="485" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#B5493A">wake word detected</text>
+
+  <rect x="535" y="130" width="150" height="100" fill="#EDE7D8" stroke="#B5493A" stroke-width="2" rx="4"/>
+  <text x="610" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Cloud server</text>
+  <text x="610" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">recording sent over</text>
+  <text x="610" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">the internet, interpreted,</text>
+  <text x="610" y="198" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">and answered</text>
+
+  <path d="M610,232 L610,255 L355,255 L355,212" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arrowSpk)"/>
+  <text x="480" y="272" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">response returned and spoken back</text>
+
+  <text x="400" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">Only audio after a detected wake word leaves the device — not a continuous stream.</text>
+</svg>

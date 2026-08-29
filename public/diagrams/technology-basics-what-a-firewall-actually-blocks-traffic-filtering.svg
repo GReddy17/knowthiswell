@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="firewallFilterTitle">
+  <title id="firewallFilterTitle">A diagram showing several incoming network connection attempts on the left approaching a firewall checkpoint in the middle. The firewall checks each connection against a rule set, allowing a request on an expected port through to the device on the right, and blocking two others: one on an unexpected port and one from a source explicitly denied by a rule. A legitimate-looking malicious file attached to an already-allowed connection passes through unexamined, showing what a firewall does not inspect.</title>
+  <rect width="800" height="300" fill="#FBF8F1"/>
+
+  <text x="30" y="26" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">A firewall filters connections by rule, not by content</text>
+
+  <!-- incoming connections -->
+  <rect x="30" y="50" width="150" height="34" rx="4" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="105" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Web request, port 443</text>
+
+  <rect x="30" y="100" width="150" height="34" rx="4" fill="#FBEDEA" stroke="#C9412C" stroke-width="1.5"/>
+  <text x="105" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Scan on port 5555</text>
+
+  <rect x="30" y="150" width="150" height="34" rx="4" fill="#FBEDEA" stroke="#C9412C" stroke-width="1.5"/>
+  <text x="105" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Denied source IP</text>
+
+  <rect x="30" y="200" width="150" height="34" rx="4" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="105" y="222" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Email attachment</text>
+
+  <!-- firewall checkpoint -->
+  <rect x="300" y="45" width="130" height="200" rx="6" fill="#F7F1E5" stroke="#8B6F4E" stroke-width="2.5"/>
+  <text x="365" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Firewall</text>
+  <text x="365" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">checks rules:</text>
+  <text x="365" y="104" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">port + source</text>
+  <text x="365" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">address only —</text>
+  <text x="365" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">not file content</text>
+
+  <defs>
+    <marker id="arrowFw" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowFwBlock" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C9412C"/>
+    </marker>
+  </defs>
+
+  <path d="M180,67 L298,67" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowFw)"/>
+  <path d="M180,117 L260,117" fill="none" stroke="#C9412C" stroke-width="1.5"/>
+  <text x="240" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#C9412C">&#10005;</text>
+  <text x="260" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">blocked: bad port</text>
+
+  <path d="M180,167 L260,167" fill="none" stroke="#C9412C" stroke-width="1.5"/>
+  <text x="240" y="158" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#C9412C">&#10005;</text>
+  <text x="260" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">blocked: bad source</text>
+
+  <path d="M180,217 L298,217" fill="none" stroke="#2C4A3E" stroke-width="1.5" marker-end="url(#arrowFw)"/>
+
+  <path d="M430,67 L560,67" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowFw)"/>
+  <path d="M430,217 L560,217" fill="none" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowFwBlock)"/>
+  <text x="495" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#B5493A">allowed port, unexamined content</text>
+
+  <rect x="565" y="45" width="180" height="200" rx="6" fill="#FFFFFF" stroke="#E3DCC9" stroke-width="2"/>
+  <text x="655" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Protected device</text>
+  <text x="655" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Receives allowed</text>
+  <text x="655" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">connections, including</text>
+  <text x="655" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">any malicious payload</text>
+  <text x="655" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">riding on a permitted port</text>
+
+  <text x="400" y="280" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#B5493A">A firewall filters connections by address and port — it does not inspect what's inside an allowed one.</text>
+</svg>

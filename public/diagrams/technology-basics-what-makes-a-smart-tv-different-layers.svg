@@ -1,0 +1,28 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="smartTvLayersTitle">
+  <title id="smartTvLayersTitle">A stacked-layer comparison: on the left, a "regular" TV shown as a single layer, just a display panel receiving a video signal; on the right, a "smart" TV shown as the same display panel plus three additional stacked layers on top — an embedded operating system, an apps layer, and a network/account layer — illustrating that the screen itself is not what changed.</title>
+  <rect width="800" height="320" fill="#FBF8F1"/>
+
+  <text x="160" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Regular TV</text>
+  <rect x="60" y="180" width="200" height="60" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2" rx="4"/>
+  <text x="160" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Display panel</text>
+  <text x="160" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">receives a signal, shows it — nothing more</text>
+
+  <line x1="380" y1="50" x2="380" y2="280" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3,4"/>
+
+  <text x="580" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Smart TV</text>
+  <rect x="480" y="60" width="200" height="45" fill="#F2ECE0" stroke="#B5493A" stroke-width="1.5" rx="4"/>
+  <text x="580" y="87" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Network / account layer</text>
+
+  <rect x="480" y="108" width="200" height="45" fill="#F2ECE0" stroke="#B5493A" stroke-width="1.5" rx="4"/>
+  <text x="580" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Apps layer (streaming apps)</text>
+
+  <rect x="480" y="156" width="200" height="45" fill="#F2ECE0" stroke="#B5493A" stroke-width="1.5" rx="4"/>
+  <text x="580" y="183" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Embedded operating system</text>
+
+  <rect x="480" y="204" width="200" height="45" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2" rx="4"/>
+  <text x="580" y="231" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Display panel (same as regular TV)</text>
+
+  <text x="580" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">everything above the panel is new — the panel itself often isn't better</text>
+
+  <text x="400" y="305" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#B5493A">A "smart" TV adds a full computer on top of the same kind of screen.</text>
+</svg>
