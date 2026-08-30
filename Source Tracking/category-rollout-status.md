@@ -1,6 +1,6 @@
 # Category Rollout Status (read + update this file every automated run)
 
-_Last updated: 2026-08-29_
+_Last updated: 2026-08-30_
 
 Tracks progress through the remaining 30 categories (Phase 3-5 of
 `site-rules.md` Section 8, minus categories already built: 01-13). Driven by
@@ -54,7 +54,7 @@ before finishing.
 
 | # | Category | Folder | Status |
 |---|----------|--------|--------|
-| 14 | Career & Study Skills | `14-career-study-skills` | not started |
+| 14 | Career & Study Skills | `14-career-study-skills` | in progress (10/50) |
 | 15 | Home & DIY Knowledge | `15-home-diy-knowledge` | not started |
 | 16 | Health & Wellness Deep Dive | `16-health-wellness-deep-dive` | not started |
 | 17 | Technology Deep Dives | `17-technology-deep-dives` | not started |
@@ -90,4 +90,12 @@ permitting) this is roughly 150 daily runs to cover the full list.
 
 ## Run log (append one line per run, most recent last)
 
-_(empty — first run appends here)_
+- 2026-08-30: Started Career & Study Skills (14) — designed the 50-topic plan
+  (`Source Tracking/career-study-skills-subtopics.md`, 10 clusters of 5) and
+  wrote its first 10 posts (clusters 1-2: Study Techniques & Learning Science,
+  Time Management & Productivity Systems), each with both ModeToggle variants,
+  3 worked examples + QuickChecks, 4+ FAQ, populated KeyTakeaways/MistakeList/
+  MisconceptionCallout/ActionChecklist, a hand-authored SVG diagram, and 3
+  new EntryCalculator formulas (spaced repetition interval, forgetting-curve
+  retention, Pomodoro focused minutes). eslint/tsc/build all clean. Next run
+  resumes at cluster 3 (Resume & Application Fundamentals, order 11).

@@ -318,6 +318,9 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
 
   // --- Technology Basics (topic 13): Digital Literacy & Online Life ---
   proratedSubscriptionCharge: (v) => (v.monthlyPrice / v.daysInBillingCycle) * v.daysRemaining, // prorated first-bill amount when a subscription starts mid-cycle, before the first full-price renewal
+  spacedRepetitionNextIntervalDays: (v) => v.previousIntervalDays * v.easeFactor, // simplified SM-2-style spaced repetition scheduling: next interval = previous interval * ease factor
+  forgettingCurveRetentionPercent: (v) => Math.exp(-v.elapsedHours / v.memoryStrengthHours) * 100, // Ebbinghaus-style exponential forgetting curve, R = e^(-t/S)
+  pomodoroFocusedMinutes: (v) => v.numberOfPomodoros * v.workMinutesPerPomodoro, // total focused work minutes across a set number of Pomodoro sessions
 };
 
 interface EntryCalculatorProps {

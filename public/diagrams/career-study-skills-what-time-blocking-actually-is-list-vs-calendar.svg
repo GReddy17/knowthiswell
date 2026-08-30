@@ -1,0 +1,38 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="timeBlockingTitle">
+  <title id="timeBlockingTitle">A side-by-side comparison diagram: on the left, an unordered vertical list of six task items with no time information attached; on the right, a calendar column divided into hourly slots with four of the same tasks placed into specific time blocks and small buffer gaps left between them, and two tasks left unplaced below the calendar because they didn't fit, illustrating how time blocking exposes when a day's tasks exceed the day's available hours.</title>
+  <rect width="780" height="340" fill="#FBF8F1"/>
+
+  <text x="150" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Task list (no times)</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">
+    <rect x="40" y="40" width="220" height="26" fill="#F7F1E5" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="50" y="57">Write report</text>
+    <rect x="40" y="70" width="220" height="26" fill="#F7F1E5" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="50" y="87">Reply to emails</text>
+    <rect x="40" y="100" width="220" height="26" fill="#F7F1E5" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="50" y="117">Client call</text>
+    <rect x="40" y="130" width="220" height="26" fill="#F7F1E5" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="50" y="147">Review budget</text>
+    <rect x="40" y="160" width="220" height="26" fill="#F7F1E5" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="50" y="177">Plan next project</text>
+    <rect x="40" y="190" width="220" height="26" fill="#F7F1E5" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="50" y="207">Team check-in</text>
+  </g>
+
+  <text x="530" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Time-blocked calendar</text>
+  <rect x="420" y="40" width="220" height="200" fill="none" stroke="#4A443C" stroke-width="1.5"/>
+  <rect x="420" y="40" width="220" height="42" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="430" y="65" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#2C4A3E">9:00 — Write report</text>
+  <rect x="420" y="90" width="220" height="26" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="430" y="107" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#2C4A3E">10:30 — Emails</text>
+  <rect x="420" y="126" width="220" height="34" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="430" y="147" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#2C4A3E">11:15 — Client call</text>
+  <rect x="420" y="180" width="220" height="34" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="430" y="201" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#2C4A3E">2:00 — Team check-in</text>
+
+  <rect x="420" y="255" width="220" height="26" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="430" y="272" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#B5493A">Review budget — didn't fit</text>
+  <rect x="420" y="285" width="220" height="26" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="430" y="302" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#B5493A">Plan next project — didn't fit</text>
+
+  <text x="390" y="332" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Two tasks don't fit the day's hours — invisible on the list, obvious once time-blocked.</text>
+</svg>

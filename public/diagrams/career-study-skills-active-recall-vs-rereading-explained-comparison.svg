@@ -1,0 +1,38 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="activeRecallCompTitle">
+  <title id="activeRecallCompTitle">A side-by-side comparison diagram: on the left, a labeled loop showing 'read text on page' feeding into 'feels familiar' with no retrieval step, marked as producing weak retention; on the right, a labeled loop showing 'attempt to recall from memory' feeding into 'check against source' and back into memory, marked as producing strong retention, illustrating that active recall involves a retrieval step rereading skips entirely.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="195" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#B5493A">Rereading</text>
+  <rect x="65" y="55" width="260" height="55" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="195" y="87" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Read text on the page</text>
+
+  <path d="M195,110 L195,140" fill="none" stroke="#B5493A" stroke-width="2" marker-end="url(#arrowDown1)"/>
+  <defs>
+    <marker id="arrowDown1" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto">
+      <path d="M0,0 L8,0 L4,8 Z" fill="#B5493A"/>
+    </marker>
+    <marker id="arrowDown2" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto">
+      <path d="M0,0 L8,0 L4,8 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <rect x="65" y="150" width="260" height="55" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="195" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Feels familiar</text>
+
+  <rect x="65" y="225" width="260" height="45" rx="6" fill="none" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="195" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#B5493A">no retrieval step — weak retention</text>
+
+  <text x="585" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#2C4A3E">Active recall</text>
+  <rect x="455" y="55" width="260" height="55" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="585" y="87" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Attempt recall from memory</text>
+
+  <path d="M585,110 L585,140" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowDown2)"/>
+
+  <rect x="455" y="150" width="260" height="55" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="585" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Check against the source</text>
+
+  <rect x="455" y="225" width="260" height="45" rx="6" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="585" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#2C4A3E">real retrieval step — strong retention</text>
+
+  <text x="390" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Active recall adds the one step rereading skips: producing the answer before checking it.</text>
+</svg>

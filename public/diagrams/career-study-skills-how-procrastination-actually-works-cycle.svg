@@ -1,0 +1,33 @@
+<svg viewBox="0 0 620 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="procrastinationCycleTitle">
+  <title id="procrastinationCycleTitle">A circular flow diagram with four connected stages: a task triggers a negative emotion, which leads to avoiding the task, which provides immediate relief, which leads to a larger deadline-related cost later, and an arrow looping back to show the cycle repeating on the next task attempt, illustrating procrastination as a short-term emotional relief cycle rather than a single isolated choice.</title>
+  <rect width="620" height="560" fill="#FBF8F1"/>
+
+  <rect x="210" y="20" width="200" height="70" rx="8" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="310" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Task triggers a</text>
+  <text x="310" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">negative emotion</text>
+
+  <path d="M410,90 C500,120 500,190 440,220" fill="none" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowCyc)"/>
+  <rect x="400" y="220" width="200" height="70" rx="8" fill="#F2ECE0" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="500" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Task avoided</text>
+  <text x="500" y="268" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">(scroll, delay, distract)</text>
+
+  <path d="M440,290 C500,330 460,390 380,410" fill="none" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowCyc)"/>
+  <rect x="210" y="410" width="200" height="70" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="310" y="440" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Immediate relief</text>
+  <text x="310" y="458" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">from the discomfort</text>
+
+  <path d="M210,440 C120,410 120,340 170,300" fill="none" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowCyc)"/>
+  <rect x="20" y="220" width="200" height="70" rx="8" fill="#FBEDEA" stroke="#B5493A" stroke-width="2"/>
+  <text x="120" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Larger cost later</text>
+  <text x="120" y="268" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">(rushed, worse deadline)</text>
+
+  <path d="M120,220 C120,150 210,100 210,90" fill="none" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowCyc)"/>
+
+  <defs>
+    <marker id="arrowCyc" markerWidth="9" markerHeight="9" refX="6" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+
+  <text x="310" y="530" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">Relief is immediate and real each time — the larger cost stays delayed until the deadline forces it.</text>
+</svg>
