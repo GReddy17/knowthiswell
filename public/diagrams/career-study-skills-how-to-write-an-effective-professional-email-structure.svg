@@ -1,0 +1,43 @@
+<svg viewBox="0 0 780 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="emailStructureTitle">
+  <title id="emailStructureTitle">A flow diagram showing five sequential parts of an effective professional email: subject line, opening line stating the purpose, supporting context and details, a specific call to action, and a sign-off, with the opening line and call to action highlighted as carrying the most weight.</title>
+  <rect width="780" height="220" fill="#FBF8F1"/>
+
+  <rect x="20" y="60" width="130" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="85" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Subject line</text>
+  <text x="85" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">specific, scannable</text>
+
+  <line x1="150" y1="100" x2="178" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowEmail)"/>
+
+  <rect x="180" y="50" width="130" height="100" rx="8" fill="#2C4A3E"/>
+  <text x="245" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#FBF8F1">Opening line</text>
+  <text x="245" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">states the purpose</text>
+  <text x="245" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">(bottom-line-up-front)</text>
+  <text x="245" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#FBF8F1">most weight</text>
+
+  <line x1="310" y1="100" x2="338" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowEmail)"/>
+
+  <rect x="340" y="60" width="130" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="405" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Context &amp; details</text>
+  <text x="405" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">only what's needed</text>
+
+  <line x1="470" y1="100" x2="498" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowEmail)"/>
+
+  <rect x="500" y="50" width="130" height="100" rx="8" fill="#8B6F4E"/>
+  <text x="565" y="87" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#FBF8F1">Call to action</text>
+  <text x="565" y="104" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">specific ask + deadline</text>
+  <text x="565" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#FBF8F1">most weight</text>
+
+  <line x1="630" y1="100" x2="658" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowEmail)"/>
+
+  <rect x="660" y="60" width="110" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="715" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Sign-off</text>
+  <text x="715" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">name, next step</text>
+
+  <text x="390" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">A busy reader who only reads two lines should still know what you need from them.</text>
+
+  <defs>
+    <marker id="arrowEmail" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

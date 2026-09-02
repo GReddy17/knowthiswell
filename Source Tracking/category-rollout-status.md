@@ -1,6 +1,6 @@
 # Category Rollout Status (read + update this file every automated run)
 
-_Last updated: 2026-09-02 (daily quota raised 10 -> 20 posts/day)_
+_Last updated: 2026-09-02 (Career & Study Skills at 40/50)_
 
 Tracks progress through the remaining 30 categories (Phase 3-5 of
 `site-rules.md` Section 8, minus categories already built: 01-13). Driven by
@@ -60,7 +60,7 @@ before finishing.
 
 | # | Category | Folder | Status |
 |---|----------|--------|--------|
-| 14 | Career & Study Skills | `14-career-study-skills` | in progress (20/50) |
+| 14 | Career & Study Skills | `14-career-study-skills` | in progress (40/50) |
 | 15 | Home & DIY Knowledge | `15-home-diy-knowledge` | not started |
 | 16 | Health & Wellness Deep Dive | `16-health-wellness-deep-dive` | not started |
 | 17 | Technology Deep Dives | `17-technology-deep-dives` | not started |
@@ -118,3 +118,25 @@ permitting) this is roughly 75 daily runs to cover the full list.
   was needed first — node_modules wasn't present in this fresh session).
   Category now at 20/50. Next run resumes at cluster 5 (Job Search Strategy,
   order 21).
+- 2026-09-02: Continued Career & Study Skills (14) — wrote 20 more posts via
+  4 parallel writer agents, one per cluster (clusters 5-8: Job Search
+  Strategy — job board ranking, the hidden job market, recruiter screening,
+  why job descriptions over-list requirements, reference checks; Workplace
+  Communication — professional email structure, active listening, feedback
+  that lands, effective meetings, disagreeing professionally; Networking &
+  Professional Relationships — what networking really means, informational
+  interviews, what a mentor does, how networking profiles get discovered,
+  why following up matters; Career Growth & Development — performance
+  reviews, asking for a raise, lateral move vs. promotion, skills gap
+  analysis, knowing when to change jobs). Each post has both ModeToggle
+  variants, 3 worked examples + QuickChecks, 4-5 FAQ, populated
+  KeyTakeaways/MistakeList/MisconceptionCallout/ActionChecklist, a
+  hand-authored SVG diagram, and real institutional sources (SHRM, BLS,
+  CareerOneStop, O*NET, EEOC, NCA, APA, Toastmasters, MENTOR as relevant per
+  topic). One new EntryCalculator formula added (requested-raise new salary,
+  used only in the raise post — the other 19 posts are conceptual with no
+  genuine formula, per the voice guide). Centralized verification after all
+  4 agents finished: eslint clean across all 20 files + EntryCalculator.tsx,
+  `tsc --noEmit` clean, registry regenerated (740 posts), `npm run build`
+  succeeded with zero errors. Category now at 40/50. Next run resumes at
+  cluster 9 (Exams & Test-Taking Strategy, order 41).

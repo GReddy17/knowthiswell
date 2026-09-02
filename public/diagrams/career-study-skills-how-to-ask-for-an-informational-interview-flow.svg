@@ -1,0 +1,47 @@
+<svg viewBox="0 0 780 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="infoInterviewFlowTitle">
+  <title id="infoInterviewFlowTitle">A five-step flow diagram for requesting an informational interview: research the person and role, find a specific connection point, send a short low-commitment ask naming a time and topics, hold the conversation by mostly listening and asking prepared questions, then follow up with a thank-you within 48 hours.</title>
+  <rect width="780" height="240" fill="#FBF8F1"/>
+
+  <rect x="35" y="55" width="130" height="120" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="100" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">1. Research</text>
+  <text x="100" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">the person,</text>
+  <text x="100" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">role &amp; company</text>
+
+  <line x1="165" y1="115" x2="178" y2="115" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowIF)"/>
+
+  <rect x="180" y="55" width="130" height="120" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="245" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">2. Find a link</text>
+  <text x="245" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">mutual contact,</text>
+  <text x="245" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">shared background</text>
+
+  <line x1="310" y1="115" x2="323" y2="115" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowIF)"/>
+
+  <rect x="325" y="45" width="130" height="140" rx="8" fill="#2C4A3E"/>
+  <text x="390" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">3. Send the ask</text>
+  <text x="390" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">name a specific</text>
+  <text x="390" y="116" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">time (15-20 min) &amp;</text>
+  <text x="390" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">1-2 topics</text>
+
+  <line x1="455" y1="115" x2="468" y2="115" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowIF)"/>
+
+  <rect x="470" y="45" width="130" height="140" rx="8" fill="#2C4A3E"/>
+  <text x="535" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">4. Talk &amp; listen</text>
+  <text x="535" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">mostly listen,</text>
+  <text x="535" y="116" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">ask 2-3 prepared</text>
+  <text x="535" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">questions</text>
+
+  <line x1="600" y1="115" x2="613" y2="115" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowIF)"/>
+
+  <rect x="615" y="55" width="130" height="120" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="680" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">5. Follow up</text>
+  <text x="680" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">thank-you within</text>
+  <text x="680" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">48 hours</text>
+
+  <text x="390" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">A specific, low-commitment ask about a fixed length of time gets answered far more often than an open-ended one.</text>
+
+  <defs>
+    <marker id="arrowIF" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

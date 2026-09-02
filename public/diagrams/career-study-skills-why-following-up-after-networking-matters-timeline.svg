@@ -1,0 +1,36 @@
+<svg viewBox="0 0 780 232" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="followUpTimelineTitle">
+  <title id="followUpTimelineTitle">A timeline chart comparing connection strength after a networking conversation over six months: a line with periodic follow-up touchpoints that steadily strengthens the relationship, next to a line with no follow-up that steadily fades toward being forgotten.</title>
+  <rect width="780" height="232" fill="#FBF8F1"/>
+
+  <rect x="280" y="18" width="14" height="10" fill="#2C4A3E"/>
+  <text x="300" y="27" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">With follow-up</text>
+  <rect x="450" y="18" width="14" height="10" fill="#8B6F4E"/>
+  <text x="470" y="27" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">No follow-up</text>
+
+  <line x1="70" y1="175" x2="730" y2="175" stroke="#4A443C" stroke-width="1.5"/>
+  <text x="48" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">Stronger</text>
+  <text x="48" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">Weaker</text>
+
+  <polyline points="80,90 240,120 400,145 560,160 720,168" fill="none" stroke="#8B6F4E" stroke-width="2.5"/>
+  <polyline points="80,90 240,80 400,65 560,55 720,45" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+
+  <circle cx="80" cy="90" r="5" fill="#1F1B16"/>
+  <circle cx="240" cy="80" r="5" fill="#2C4A3E"/>
+  <circle cx="400" cy="65" r="5" fill="#2C4A3E"/>
+  <circle cx="560" cy="55" r="5" fill="#2C4A3E"/>
+  <circle cx="720" cy="45" r="5" fill="#2C4A3E"/>
+  <circle cx="240" cy="120" r="4" fill="#8B6F4E" opacity="0.6"/>
+  <circle cx="400" cy="145" r="4" fill="#8B6F4E" opacity="0.6"/>
+  <circle cx="560" cy="160" r="4" fill="#8B6F4E" opacity="0.6"/>
+  <circle cx="720" cy="168" r="4" fill="#8B6F4E" opacity="0.6"/>
+
+  <text x="80" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#4A443C">conversation</text>
+
+  <text x="80" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">Day 0</text>
+  <text x="240" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">Week 1</text>
+  <text x="400" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">Month 1</text>
+  <text x="560" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">Month 3</text>
+  <text x="720" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">Month 6</text>
+
+  <text x="390" y="218" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Same starting conversation -- reinforced by periodic follow-up, or left to fade on its own.</text>
+</svg>

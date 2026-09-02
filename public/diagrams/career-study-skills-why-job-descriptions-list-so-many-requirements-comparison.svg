@@ -1,0 +1,25 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="jobReqsComparisonTitle">
+  <title id="jobReqsComparisonTitle">A comparison diagram showing hard requirements, which are usually non-negotiable items like a required license, degree, or legal work authorization, next to preferred or aspirational requirements, like years of experience or specific tool familiarity, that a candidate can often still apply without fully meeting.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="40" y="40" width="330" height="175" rx="8" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="205" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2C4A3E">Hard requirements</text>
+  <text x="205" y="85" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">usually non-negotiable</text>
+  <text x="60" y="108" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">• Government-issued license</text>
+  <text x="60" y="128" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">  or certification</text>
+  <text x="60" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">• Required degree, where</text>
+  <text x="60" y="168" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">  the role is regulated</text>
+  <text x="60" y="190" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">• Legal work authorization</text>
+
+  <rect x="410" y="40" width="330" height="175" rx="8" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="575" y="68" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#8B6F4E">Preferred / aspirational</text>
+  <text x="575" y="85" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">often flexible in practice</text>
+  <text x="430" y="108" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">• &quot;5+ years experience&quot;</text>
+  <text x="430" y="130" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">• Specific tool or software</text>
+  <text x="430" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">  familiarity</text>
+  <text x="430" y="170" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">• General &quot;nice to have&quot;</text>
+  <text x="430" y="188" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">  skills list</text>
+
+  <text x="205" y="238" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#2C4A3E">Missing one usually rules you out</text>
+  <text x="575" y="238" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">Meeting most is often enough to apply</text>
+</svg>

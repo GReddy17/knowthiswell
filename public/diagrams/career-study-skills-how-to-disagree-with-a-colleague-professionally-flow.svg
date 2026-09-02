@@ -1,0 +1,36 @@
+<svg viewBox="0 0 780 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="disagreeFlowTitle">
+  <title id="disagreeFlowTitle">A flow diagram showing four sequential steps for disagreeing professionally: stating the facts both people already agree on, naming the specific point where the reasoning diverges, offering an alternative interpretation backed by evidence, and proposing a concrete next step or test to resolve it, illustrating disagreement built on a chain of shared, checkable ground rather than a direct clash of conclusions.</title>
+  <rect width="780" height="220" fill="#FBF8F1"/>
+
+  <rect x="20" y="60" width="165" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="102" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Shared facts</text>
+  <text x="102" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">what you both agree on</text>
+
+  <line x1="185" y1="100" x2="213" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowDisagree)"/>
+
+  <rect x="215" y="50" width="165" height="100" rx="8" fill="#2C4A3E"/>
+  <text x="297" y="85" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">Point of</text>
+  <text x="297" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">divergence</text>
+  <text x="297" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">exactly where it splits</text>
+
+  <line x1="380" y1="100" x2="408" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowDisagree)"/>
+
+  <rect x="410" y="50" width="165" height="100" rx="8" fill="#8B6F4E"/>
+  <text x="492" y="85" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">Alternative</text>
+  <text x="492" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">reasoning</text>
+  <text x="492" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">your view + evidence</text>
+
+  <line x1="575" y1="100" x2="603" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowDisagree)"/>
+
+  <rect x="605" y="60" width="165" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="687" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Next step</text>
+  <text x="687" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">a way to test or resolve it</text>
+
+  <text x="390" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Each step is checkable by the other person before you move to the next one.</text>
+
+  <defs>
+    <marker id="arrowDisagree" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

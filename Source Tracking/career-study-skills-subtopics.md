@@ -1,7 +1,7 @@
 # Career & Study Skills — Subtopic Map (Category 14)
 
 _Parent topic: Career & Study Skills (Phase 3, general-audience, non-locale-specific)_
-_Last updated: 2026-09-02_
+_Last updated: 2026-09-02 (clusters 5-8 complete)_
 _Author: James H. Rivers_
 
 Deliberately scoped as evergreen study-science and career-mechanics content —
@@ -13,8 +13,8 @@ described generically so it doesn't date.
 50 posts across 10 subtopic clusters of 5 posts each. `order` is continuous
 1-50 across the whole category.
 
-**Resume point:** next batch starts at cluster 5, Job Search Strategy
-(order 21), post `how-job-boards-actually-rank-listings.tsx`.
+**Resume point:** next batch starts at cluster 9, Exams & Test-Taking
+Strategy (order 41), post `how-multiple-choice-exams-are-actually-designed.tsx`.
 
 ---
 
@@ -118,9 +118,9 @@ Folder: `skill-building-and-self-directed-learning/`
 | 2 | Time Management & Productivity Systems | done — verified (build/lint/typecheck clean) |
 | 3 | Resume & Application Fundamentals | done — verified (build/lint/typecheck clean) |
 | 4 | Interview Skills | done — verified (build/lint/typecheck clean) |
-| 5 | Job Search Strategy | not started |
-| 6 | Workplace Communication | not started |
-| 7 | Networking & Professional Relationships | not started |
-| 8 | Career Growth & Development | not started |
+| 5 | Job Search Strategy | done — verified (build/lint/typecheck clean) |
+| 6 | Workplace Communication | done — verified (build/lint/typecheck clean) |
+| 7 | Networking & Professional Relationships | done — verified (build/lint/typecheck clean) |
+| 8 | Career Growth & Development | done — verified (build/lint/typecheck clean) |
 | 9 | Exams & Test-Taking Strategy | not started |
 | 10 | Skill-Building & Self-Directed Learning | not started |

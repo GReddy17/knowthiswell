@@ -1,0 +1,45 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hiddenJobMarketTitle">
+  <title id="hiddenJobMarketTitle">A comparison diagram showing two paths to the same open role: the public job board path with four stages (posting goes public, many applicants apply, ATS and recruiter screening, interviews begin), next to the shorter referral or network path with three stages (referral or direct outreach, hiring manager review, interview begins) that skips the public posting and initial screening stages.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="190" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Public job board path</text>
+
+  <rect x="60" y="42" width="260" height="38" rx="6" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="190" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Posting goes public</text>
+  <line x1="190" y1="80" x2="190" y2="94" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowHJ)"/>
+
+  <rect x="60" y="96" width="260" height="38" rx="6" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="190" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Many applicants apply</text>
+  <line x1="190" y1="134" x2="190" y2="148" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowHJ)"/>
+
+  <rect x="60" y="150" width="260" height="38" rx="6" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="190" y="174" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">ATS + recruiter screen</text>
+  <line x1="190" y1="188" x2="190" y2="202" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowHJ)"/>
+
+  <rect x="60" y="204" width="260" height="38" rx="6" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="190" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Interviews begin</text>
+
+  <text x="590" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Referral / network path</text>
+
+  <rect x="460" y="70" width="260" height="38" rx="6" fill="#2C4A3E"/>
+  <text x="590" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#FBF8F1">Referral or direct outreach</text>
+  <line x1="590" y1="108" x2="590" y2="122" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowHJ)"/>
+
+  <rect x="460" y="124" width="260" height="38" rx="6" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="590" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Hiring manager review</text>
+  <line x1="590" y1="162" x2="590" y2="176" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowHJ)"/>
+
+  <rect x="460" y="178" width="260" height="38" rx="6" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="590" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Interview begins</text>
+
+  <line x1="340" y1="150" x2="420" y2="150" stroke="#8B6F4E" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="380" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">skips</text>
+
+  <text x="390" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Same open role — the referral path skips the public posting stage most candidates start from.</text>
+
+  <defs>
+    <marker id="arrowHJ" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto">
+      <path d="M0,0 L8,0 L4,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

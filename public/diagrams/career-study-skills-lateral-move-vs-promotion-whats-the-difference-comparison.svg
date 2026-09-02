@@ -1,0 +1,40 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="lateralPromoTitle">
+  <title id="lateralPromoTitle">A comparison diagram showing a promotion as an upward move on the job-level axis with the same functional domain, next to a lateral move as a sideways move across the functional-domain axis at the same job level, illustrating that the two types of moves change different, mostly independent things.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Two mostly independent axes</text>
+
+  <line x1="90" y1="220" x2="90" y2="55" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowLM)"/>
+  <text x="90" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Job level</text>
+
+  <line x1="90" y1="220" x2="730" y2="220" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowLM)"/>
+  <text x="740" y="224" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Function</text>
+
+  <rect x="150" y="175" width="150" height="46" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="225" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Analyst</text>
+  <text x="225" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">starting role</text>
+
+  <line x1="225" y1="173" x2="225" y2="110" stroke="#2C4A3E" stroke-width="2.5" marker-end="url(#arrowLM2)"/>
+  <rect x="150" y="65" width="150" height="46" rx="8" fill="#2C4A3E"/>
+  <text x="225" y="85" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Manager</text>
+  <text x="225" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">promotion — level up</text>
+
+  <line x1="298" y1="198" x2="450" y2="198" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowLM3)"/>
+  <rect x="455" y="175" width="150" height="46" rx="8" fill="#8B6F4E"/>
+  <text x="530" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Analyst</text>
+  <text x="530" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">lateral move — new team</text>
+
+  <text x="390" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">A promotion moves up the level axis; a lateral move moves across the function axis at the same level.</text>
+
+  <defs>
+    <marker id="arrowLM" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+    <marker id="arrowLM2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowLM3" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+</svg>

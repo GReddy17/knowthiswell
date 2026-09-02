@@ -328,6 +328,9 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
 
   // --- Career & Study Skills (topic 14): Interview Skills ---
   salaryRangeMidpoint: (v) => (v.rangeMin + v.rangeMax) / 2, // midpoint of a stated or researched salary range, a common anchor point when discussing salary expectations
+
+  // --- Career & Study Skills (topic 14): Career Growth & Development ---
+  requestedRaiseNewSalary: (v) => v.currentSalary * (1 + v.requestedIncreasePercent / 100), // new salary if a requested percentage raise is approved
 };
 
 interface EntryCalculatorProps {

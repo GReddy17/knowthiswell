@@ -1,0 +1,44 @@
+<svg viewBox="0 0 780 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="meetingStructureTitle">
+  <title id="meetingStructureTitle">A flow diagram showing five elements of an effective meeting: a clear purpose requiring a decision, inviting only the people needed for that decision, a time-boxed agenda with topic owners, decisions and owners recorded during the meeting, and a follow-up summary sent afterward, with the time-boxed agenda and recorded decisions highlighted as the two most commonly skipped steps.</title>
+  <rect width="780" height="220" fill="#FBF8F1"/>
+
+  <rect x="20" y="60" width="130" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="85" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Clear purpose</text>
+  <text x="85" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">a decision, not a sync</text>
+
+  <line x1="150" y1="100" x2="178" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowMeet)"/>
+
+  <rect x="180" y="60" width="130" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="245" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Right people</text>
+  <text x="245" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">only who's needed</text>
+
+  <line x1="310" y1="100" x2="338" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowMeet)"/>
+
+  <rect x="340" y="50" width="130" height="100" rx="8" fill="#2C4A3E"/>
+  <text x="405" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">Time-boxed</text>
+  <text x="405" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">agenda</text>
+  <text x="405" y="113" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">topics + owners</text>
+  <text x="405" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#FBF8F1">most skipped</text>
+
+  <line x1="470" y1="100" x2="498" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowMeet)"/>
+
+  <rect x="500" y="50" width="130" height="100" rx="8" fill="#8B6F4E"/>
+  <text x="565" y="83" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">Decisions</text>
+  <text x="565" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">recorded</text>
+  <text x="565" y="113" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">who, what, by when</text>
+  <text x="565" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#FBF8F1">most skipped</text>
+
+  <line x1="630" y1="100" x2="658" y2="100" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowMeet)"/>
+
+  <rect x="660" y="60" width="110" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="715" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Follow-up</text>
+  <text x="715" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">sent within a day</text>
+
+  <text x="390" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Skip the two highlighted steps and a meeting produces conversation but no actual outcome.</text>
+
+  <defs>
+    <marker id="arrowMeet" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

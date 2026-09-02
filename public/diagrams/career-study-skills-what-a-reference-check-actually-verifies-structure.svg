@@ -1,0 +1,36 @@
+<svg viewBox="0 0 780 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="referenceCheckTypesTitle">
+  <title id="referenceCheckTypesTitle">A diagram comparing three types of reference checks: employment verification, which is policy-limited and confirms only dates and title; a professional reference, chosen by the candidate and covering performance and character; and a back-channel reference, an unlisted informal contact in the employer's own network.</title>
+  <rect width="780" height="250" fill="#FBF8F1"/>
+
+  <rect x="25" y="45" width="230" height="165" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="140" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Employment</text>
+  <text x="140" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">verification</text>
+  <text x="140" y="106" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">HR dept., policy-limited</text>
+  <line x1="45" y1="118" x2="235" y2="118" stroke="#4A443C" stroke-width="1"/>
+  <text x="45" y="136" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Confirms: dates,</text>
+  <text x="45" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">title, rehire eligibility</text>
+  <text x="45" y="172" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Rarely comments on</text>
+  <text x="45" y="186" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">performance or character</text>
+
+  <rect x="275" y="35" width="230" height="185" rx="8" fill="#2C4A3E"/>
+  <text x="390" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#FBF8F1">Professional</text>
+  <text x="390" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#FBF8F1">reference</text>
+  <text x="390" y="96" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">candidate-chosen contact</text>
+  <line x1="295" y1="108" x2="485" y2="108" stroke="#FBF8F1" stroke-width="1"/>
+  <text x="295" y="126" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#FBF8F1">Confirms: work quality,</text>
+  <text x="295" y="140" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#FBF8F1">strengths, would-rehire</text>
+  <text x="295" y="162" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#FBF8F1">Most detailed and</text>
+  <text x="295" y="176" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#FBF8F1">qualitative of the three</text>
+
+  <rect x="525" y="45" width="230" height="165" rx="8" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="640" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">Back-channel</text>
+  <text x="640" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1F1B16">reference</text>
+  <text x="640" y="106" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">unlisted, informal contact</text>
+  <line x1="545" y1="118" x2="735" y2="118" stroke="#4A443C" stroke-width="1"/>
+  <text x="545" y="136" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Found through the</text>
+  <text x="545" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">employer&#8217;s own network</text>
+  <text x="545" y="172" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">Candid, but not on the</text>
+  <text x="545" y="186" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">candidate&#8217;s provided list</text>
+
+  <text x="390" y="238" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">All three feed into one trust chain — verifying what the resume already claims.</text>
+</svg>

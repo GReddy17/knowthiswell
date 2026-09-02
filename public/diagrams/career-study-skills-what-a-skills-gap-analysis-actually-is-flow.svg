@@ -1,0 +1,41 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="skillsGapFlowTitle">
+  <title id="skillsGapFlowTitle">A flow diagram showing a skills gap analysis as a repeating loop: define the target role's required skills and levels, assess your current skill levels, compare the two to find sized gaps, prioritize and close the highest-priority gaps, then reassess and repeat.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="30" y="70" width="160" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="110" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">1. Define target</text>
+  <text x="110" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">required skills +</text>
+  <text x="110" y="131" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">levels for the role</text>
+
+  <line x1="190" y1="110" x2="228" y2="110" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowSG)"/>
+
+  <rect x="230" y="70" width="160" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="310" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">2. Assess current</text>
+  <text x="310" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">honest self-rating +</text>
+  <text x="310" y="131" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">real evidence</text>
+
+  <line x1="390" y1="110" x2="428" y2="110" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowSG)"/>
+
+  <rect x="430" y="60" width="160" height="100" rx="8" fill="#2C4A3E"/>
+  <text x="510" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">3. Compare</text>
+  <text x="510" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">target minus current</text>
+  <text x="510" y="121" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">= sized gap per skill</text>
+
+  <line x1="590" y1="110" x2="628" y2="110" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowSG)"/>
+
+  <rect x="630" y="60" width="130" height="100" rx="8" fill="#8B6F4E"/>
+  <text x="695" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">4. Prioritize</text>
+  <text x="695" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">close gating</text>
+  <text x="695" y="121" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">skills first</text>
+
+  <path d="M695,163 C695,215 110,215 110,163" fill="none" stroke="#4A443C" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrowSG)"/>
+  <text x="400" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">5. Reassess periodically as targets and skills change</text>
+
+  <text x="390" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">A gap analysis is a repeating comparison loop, not a one-time list.</text>
+
+  <defs>
+    <marker id="arrowSG" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

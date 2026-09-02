@@ -1,0 +1,40 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mentorLoopTitle">
+  <title id="mentorLoopTitle">A cyclical flow diagram showing a mentoring relationship as a repeating loop: the mentee brings a challenge or decision, the mentor offers perspective grounded in their own experience, the mentee decides and acts on it, and the mentee reports back at the next session, with the cycle repeating over months or years.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <rect x="50" y="30" width="250" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="175" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">1. Mentee brings a</text>
+  <text x="175" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">challenge or decision</text>
+  <text x="175" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">a real, specific situation</text>
+
+  <rect x="480" y="30" width="250" height="80" rx="8" fill="#2C4A3E"/>
+  <text x="605" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">2. Mentor offers</text>
+  <text x="605" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">perspective</text>
+  <text x="605" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">grounded in their experience</text>
+
+  <rect x="480" y="170" width="250" height="80" rx="8" fill="#2C4A3E"/>
+  <text x="605" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">3. Mentee decides</text>
+  <text x="605" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">&amp; acts</text>
+  <text x="605" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">the mentee owns the decision</text>
+
+  <rect x="50" y="170" width="250" height="80" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="175" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">4. Reports back</text>
+  <text x="175" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">next session</text>
+  <text x="175" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">what happened, what changed</text>
+
+  <line x1="300" y1="70" x2="478" y2="70" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowLoop)"/>
+  <line x1="605" y1="112" x2="605" y2="168" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowLoop)"/>
+  <line x1="480" y1="210" x2="302" y2="210" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowLoop)"/>
+  <line x1="175" y1="168" x2="175" y2="112" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowLoop)"/>
+
+  <text x="390" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B6F4E">Repeats over</text>
+  <text x="390" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#8B6F4E">months or years</text>
+
+  <text x="390" y="280" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">A mentor's core job is perspective and feedback across repeated cycles -- not a single piece of advice or a one-time favor.</text>
+
+  <defs>
+    <marker id="arrowLoop" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

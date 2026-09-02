@@ -1,0 +1,42 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="perfReviewStructureTitle">
+  <title id="perfReviewStructureTitle">A structure diagram showing a performance review split into three separately weighted layers — results against role expectations, behavioral competencies, and a forward-looking growth signal — that combine into one final rating, which may then move again during a calibration step.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="150" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Three scored layers</text>
+
+  <rect x="30" y="50" width="240" height="46" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="150" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Results</text>
+  <text x="150" y="85" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">output vs. role expectations</text>
+
+  <rect x="30" y="106" width="240" height="46" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="150" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Competencies</text>
+  <text x="150" y="141" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">how the work got done</text>
+
+  <rect x="30" y="162" width="240" height="46" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="150" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Growth signal</text>
+  <text x="150" y="197" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">readiness for more scope</text>
+
+  <line x1="270" y1="73" x2="330" y2="130" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowPR)"/>
+  <line x1="270" y1="129" x2="330" y2="130" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowPR)"/>
+  <line x1="270" y1="185" x2="330" y2="130" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowPR)"/>
+
+  <rect x="335" y="98" width="150" height="64" rx="8" fill="#2C4A3E"/>
+  <text x="410" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">Blended</text>
+  <text x="410" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">rating</text>
+  <text x="410" y="154" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">manager's proposal</text>
+
+  <line x1="485" y1="130" x2="543" y2="130" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowPR)"/>
+
+  <rect x="548" y="98" width="200" height="64" rx="8" fill="#8B6F4E"/>
+  <text x="648" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">Calibration</text>
+  <text x="648" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">compared vs. peer group,</text>
+  <text x="648" y="149" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">may shift up or down</text>
+
+  <text x="390" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">The rating an employee receives is what survives this whole stack, not a direct readout of any one layer.</text>
+
+  <defs>
+    <marker id="arrowPR" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>
