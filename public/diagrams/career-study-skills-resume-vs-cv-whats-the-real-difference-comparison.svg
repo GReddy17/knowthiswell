@@ -1,0 +1,22 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="resumeCvCompTitle">
+  <title id="resumeCvCompTitle">A side-by-side comparison diagram: a resume column showing short length, one to two pages, tailored to one job, and used in general industry; a CV column showing long and growing length, comprehensive career record, used in academia, research, and medicine.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="50" y="30" width="320" height="200" rx="8" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="210" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2C4A3E">Resume</text>
+  <text x="75" y="88" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">• 1–2 pages, fixed length</text>
+  <text x="75" y="112" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">• Tailored to one specific job</text>
+  <text x="75" y="136" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">• Selective — omits irrelevant roles</text>
+  <text x="75" y="160" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">• Standard in general industry</text>
+  <text x="75" y="184" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">• Rewritten per application</text>
+
+  <rect x="410" y="30" width="320" height="200" rx="8" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="570" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#8B6F4E">Curriculum Vitae (CV)</text>
+  <text x="435" y="88" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">• Grows with the whole career</text>
+  <text x="435" y="112" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">• Complete academic/career record</text>
+  <text x="435" y="136" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">• Includes publications, grants, talks</text>
+  <text x="435" y="160" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">• Standard in academia/research/medicine</text>
+  <text x="435" y="184" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">• Updated continuously, not per job</text>
+
+  <text x="390" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Same goal — showing you're qualified — built on opposite principles: select vs. document everything.</text>
+</svg>

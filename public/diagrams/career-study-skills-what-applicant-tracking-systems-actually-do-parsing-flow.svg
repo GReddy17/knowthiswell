@@ -1,0 +1,38 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="atsFlowTitle">
+  <title id="atsFlowTitle">A flow diagram showing a resume being submitted, then parsed by the ATS into structured fields such as name, job titles, dates, and skills, then stored in a searchable database, and finally surfaced to a recruiter only when their keyword search matches the parsed fields.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="30" y="95" width="150" height="70" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="105" y="125" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Resume</text>
+  <text x="105" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">submitted</text>
+
+  <line x1="180" y1="130" x2="228" y2="130" stroke="#4A443C" stroke-width="2" marker-end="url(#arrow1)"/>
+
+  <rect x="230" y="85" width="150" height="90" rx="8" fill="#2C4A3E"/>
+  <text x="305" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Parsed into</text>
+  <text x="305" y="137" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">fields: name,</text>
+  <text x="305" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">titles, dates,</text>
+  <text x="305" y="169" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">skills</text>
+
+  <line x1="380" y1="130" x2="428" y2="130" stroke="#4A443C" stroke-width="2" marker-end="url(#arrow1)"/>
+
+  <rect x="430" y="95" width="150" height="70" rx="8" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="505" y="125" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Stored in a</text>
+  <text x="505" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">searchable database</text>
+
+  <line x1="580" y1="130" x2="628" y2="130" stroke="#4A443C" stroke-width="2" marker-end="url(#arrow1)"/>
+
+  <rect x="630" y="85" width="130" height="90" rx="8" fill="#8B6F4E"/>
+  <text x="695" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Recruiter</text>
+  <text x="695" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">searches by</text>
+  <text x="695" y="151" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">keyword</text>
+
+  <text x="390" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" fill="#1F1B16">A resume only reaches step four if it parsed cleanly and matches the recruiter's search terms.</text>
+  <text x="390" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">No single step "rejects" a candidate on its own — a break in the chain just means it doesn't surface.</text>
+
+  <defs>
+    <marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

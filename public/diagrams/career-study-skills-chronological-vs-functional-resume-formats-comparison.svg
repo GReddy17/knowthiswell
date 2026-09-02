@@ -1,0 +1,24 @@
+<svg viewBox="0 0 780 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chronoFuncCompTitle">
+  <title id="chronoFuncCompTitle">A comparison diagram showing a chronological resume structured as a list of jobs in reverse date order, next to a functional resume structured as skill category headings with dates de-emphasized at the bottom, illustrating the tradeoff between timeline visibility and skill grouping.</title>
+  <rect width="780" height="250" fill="#FBF8F1"/>
+
+  <rect x="50" y="30" width="300" height="195" rx="8" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="200" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2C4A3E">Chronological</text>
+  <rect x="70" y="68" width="260" height="24" fill="#F2ECDD"/>
+  <text x="78" y="84" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">2024–Present · Team Lead</text>
+  <rect x="70" y="98" width="260" height="24" fill="#F2ECDD"/>
+  <text x="78" y="114" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">2021–2024 · Senior Analyst</text>
+  <rect x="70" y="128" width="260" height="24" fill="#F2ECDD"/>
+  <text x="78" y="144" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">2018–2021 · Analyst</text>
+  <text x="200" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">Timeline visible &amp; upfront</text>
+
+  <rect x="430" y="30" width="300" height="195" rx="8" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="580" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#8B6F4E">Functional</text>
+  <rect x="450" y="68" width="260" height="24" fill="#F2ECDD"/>
+  <text x="458" y="84" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Skill: Leadership</text>
+  <rect x="450" y="98" width="260" height="24" fill="#F2ECDD"/>
+  <text x="458" y="114" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Skill: Project Management</text>
+  <rect x="450" y="128" width="260" height="18" fill="#EDE4D3"/>
+  <text x="458" y="141" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">Dates: brief, at bottom</text>
+  <text x="580" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">Skills visible, timeline de-emphasized</text>
+</svg>

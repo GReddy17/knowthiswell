@@ -1,0 +1,25 @@
+<svg viewBox="0 0 780 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="panelInterviewTitle">
+  <title id="panelInterviewTitle">A comparison diagram showing a one-on-one interview testing core competencies through a single perspective, next to a panel interview testing the same core competencies through multiple perspectives at once, plus an added layer testing how the candidate manages attention across several people.</title>
+  <rect width="780" height="240" fill="#FBF8F1"/>
+
+  <text x="185" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">One-on-one interview</text>
+  <circle cx="185" cy="90" r="24" fill="#2C4A3E"/>
+  <text x="185" y="96" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">You</text>
+  <line x1="185" y1="114" x2="185" y2="140" stroke="#4A443C" stroke-width="2"/>
+  <circle cx="185" cy="160" r="20" fill="#FFFFFF" stroke="#4A443C" stroke-width="2"/>
+  <text x="185" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Interviewer</text>
+  <text x="185" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">tests core competencies</text>
+
+  <text x="590" y="35" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Panel interview</text>
+  <circle cx="590" cy="90" r="24" fill="#2C4A3E"/>
+  <text x="590" y="96" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">You</text>
+  <line x1="590" y1="114" x2="510" y2="150" stroke="#4A443C" stroke-width="2"/>
+  <line x1="590" y1="114" x2="590" y2="150" stroke="#4A443C" stroke-width="2"/>
+  <line x1="590" y1="114" x2="670" y2="150" stroke="#4A443C" stroke-width="2"/>
+  <circle cx="510" cy="168" r="18" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="2"/>
+  <circle cx="590" cy="168" r="18" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="2"/>
+  <circle cx="670" cy="168" r="18" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="590" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">same competencies + multi-audience skill</text>
+
+  <line x1="380" y1="60" x2="380" y2="220" stroke="#E5DDC8" stroke-width="1.5"/>
+</svg>

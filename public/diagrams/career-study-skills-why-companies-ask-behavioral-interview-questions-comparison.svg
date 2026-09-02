@@ -1,0 +1,22 @@
+<svg viewBox="0 0 780 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="behavioralCompTitle">
+  <title id="behavioralCompTitle">A comparison diagram showing a behavioral question ('Tell me about a time...') producing evidence of real demonstrated past behavior, next to a hypothetical question ('What would you do...') producing reasoning about an imagined scenario that isn't necessarily demonstrated behavior.</title>
+  <rect width="780" height="240" fill="#FBF8F1"/>
+
+  <rect x="50" y="30" width="300" height="180" rx="8" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="200" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#2C4A3E">"Tell me about a time..."</text>
+  <text x="200" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Behavioral question</text>
+  <line x1="72" y1="95" x2="328" y2="95" stroke="#E5DDC8" stroke-width="1"/>
+  <text x="72" y="118" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">→ real, specific past event</text>
+  <text x="72" y="142" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">→ demonstrated behavior</text>
+  <text x="72" y="166" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">→ checkable evidence</text>
+
+  <rect x="430" y="30" width="300" height="180" rx="8" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="580" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#8B6F4E">"What would you do..."</text>
+  <text x="580" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Hypothetical question</text>
+  <line x1="452" y1="95" x2="708" y2="95" stroke="#E5DDC8" stroke-width="1"/>
+  <text x="452" y="118" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">→ imagined scenario</text>
+  <text x="452" y="142" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">→ reasoning, not proof</text>
+  <text x="452" y="166" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">→ harder to verify</text>
+
+  <text x="390" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">Same underlying competency — only one framing anchors the answer to something that actually happened.</text>
+</svg>

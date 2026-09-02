@@ -1,0 +1,28 @@
+<svg viewBox="0 0 780 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="coverLetterCompTitle">
+  <title id="coverLetterCompTitle">A comparison diagram showing the resume column listing facts such as job titles, dates, and quantified results, next to the cover letter column showing it explains the connection and reasoning between those facts and a specific employer's specific need.</title>
+  <rect width="780" height="250" fill="#FBF8F1"/>
+
+  <rect x="50" y="30" width="300" height="190" rx="8" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="200" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#2C4A3E">Resume: states facts</text>
+  <text x="72" y="88" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Job titles</text>
+  <text x="72" y="112" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Dates &amp; duration</text>
+  <text x="72" y="136" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Quantified results</text>
+  <text x="72" y="160" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Skills &amp; tools used</text>
+  <text x="72" y="192" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">A structured record — what happened</text>
+
+  <path d="M355,125 L425,125" stroke="#4A443C" stroke-width="2" marker-end="url(#arrow3)"/>
+
+  <rect x="430" y="30" width="300" height="190" rx="8" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="580" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#8B6F4E">Cover letter: explains it</text>
+  <text x="452" y="88" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Why this experience fits</text>
+  <text x="452" y="112" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Connects to employer's need</text>
+  <text x="452" y="136" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Names something specific</text>
+  <text x="452" y="160" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Shows genuine interest</text>
+  <text x="452" y="192" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">Reasoning — why it matters here</text>
+
+  <defs>
+    <marker id="arrow3" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

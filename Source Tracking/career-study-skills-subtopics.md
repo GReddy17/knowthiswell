@@ -1,7 +1,7 @@
 # Career & Study Skills — Subtopic Map (Category 14)
 
 _Parent topic: Career & Study Skills (Phase 3, general-audience, non-locale-specific)_
-_Last updated: 2026-08-30_
+_Last updated: 2026-09-02_
 _Author: James H. Rivers_
 
 Deliberately scoped as evergreen study-science and career-mechanics content —
@@ -13,8 +13,8 @@ described generically so it doesn't date.
 50 posts across 10 subtopic clusters of 5 posts each. `order` is continuous
 1-50 across the whole category.
 
-**Resume point:** next batch starts at cluster 3, Resume & Application
-Fundamentals (order 11), post `what-applicant-tracking-systems-actually-do.tsx`.
+**Resume point:** next batch starts at cluster 5, Job Search Strategy
+(order 21), post `how-job-boards-actually-rank-listings.tsx`.
 
 ---
 
@@ -116,8 +116,8 @@ Folder: `skill-building-and-self-directed-learning/`
 |---|----------|--------|
 | 1 | Study Techniques & Learning Science | done — verified (build/lint/typecheck clean) |
 | 2 | Time Management & Productivity Systems | done — verified (build/lint/typecheck clean) |
-| 3 | Resume & Application Fundamentals | not started |
-| 4 | Interview Skills | not started |
+| 3 | Resume & Application Fundamentals | done — verified (build/lint/typecheck clean) |
+| 4 | Interview Skills | done — verified (build/lint/typecheck clean) |
 | 5 | Job Search Strategy | not started |
 | 6 | Workplace Communication | not started |
 | 7 | Networking & Professional Relationships | not started |

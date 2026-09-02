@@ -1,6 +1,6 @@
 # Category Rollout Status (read + update this file every automated run)
 
-_Last updated: 2026-08-30_
+_Last updated: 2026-09-02_
 
 Tracks progress through the remaining 30 categories (Phase 3-5 of
 `site-rules.md` Section 8, minus categories already built: 01-13). Driven by
@@ -54,7 +54,7 @@ before finishing.
 
 | # | Category | Folder | Status |
 |---|----------|--------|--------|
-| 14 | Career & Study Skills | `14-career-study-skills` | in progress (10/50) |
+| 14 | Career & Study Skills | `14-career-study-skills` | in progress (20/50) |
 | 15 | Home & DIY Knowledge | `15-home-diy-knowledge` | not started |
 | 16 | Health & Wellness Deep Dive | `16-health-wellness-deep-dive` | not started |
 | 17 | Technology Deep Dives | `17-technology-deep-dives` | not started |
@@ -99,3 +99,16 @@ permitting) this is roughly 150 daily runs to cover the full list.
   new EntryCalculator formulas (spaced repetition interval, forgetting-curve
   retention, Pomodoro focused minutes). eslint/tsc/build all clean. Next run
   resumes at cluster 3 (Resume & Application Fundamentals, order 11).
+- 2026-09-02: Continued Career & Study Skills (14) — wrote 10 more posts
+  (clusters 3-4: Resume & Application Fundamentals — ATS, resume vs. CV,
+  quantifying achievements, cover letters, chronological vs. functional
+  formats; Interview Skills — the STAR method, why companies ask behavioral
+  questions, handling salary questions, panel interviews, why to ask
+  questions at the end), each with both ModeToggle variants, 3 worked
+  examples + QuickChecks, 4+ FAQ, populated KeyTakeaways/MistakeList/
+  MisconceptionCallout/ActionChecklist, a hand-authored SVG diagram, and 3
+  new EntryCalculator formulas (resume keyword match %, resume achievement
+  % change, salary range midpoint). eslint/tsc/build all clean (npm install
+  was needed first — node_modules wasn't present in this fresh session).
+  Category now at 20/50. Next run resumes at cluster 5 (Job Search Strategy,
+  order 21).
