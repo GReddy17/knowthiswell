@@ -1,10 +1,10 @@
 # Category Rollout Status (read + update this file every automated run)
 
-_Last updated: 2026-09-02_
+_Last updated: 2026-09-02 (daily quota raised 10 -> 20 posts/day)_
 
 Tracks progress through the remaining 30 categories (Phase 3-5 of
 `site-rules.md` Section 8, minus categories already built: 01-13). Driven by
-a daily automated job writing ~10 posts/day, publishing straight to
+a daily automated job writing ~20 posts/day, publishing straight to
 production. **This file is the only persistent state across daily runs** —
 each run is a fresh, isolated session with no memory of prior days, so it
 MUST read this file first to know where to resume, and MUST update it
@@ -20,7 +20,7 @@ before finishing.
    numbers 1-50, a build-status table). Create
    `Source Tracking/{category-slug}-subtopics.md`. Mark the category
    `in progress (0/50, plan created)` below.
-3. Write the next ~10 posts in that category's plan (continuing from
+3. Write the next ~20 posts in that category's plan (continuing from
    wherever the category's own build-status table says to resume) —
    follow `Source Tracking/author-voice-guide.md` and `CONTENT_GUIDE.md`
    exactly. Every non-negotiable item in the voice guide applies.
@@ -39,16 +39,22 @@ before finishing.
    `Source Tracking/{category-slug}-subtopics.md` build-status table too,
    commit everything (new posts + updated tracking docs + any new
    diagrams/formulas), and push directly to `main`.
-7. If this run's 10 posts complete a category (reaches 50/50): delete that
+7. If this run's 20 posts complete a category (reaches 50/50): delete that
    category's `coming-soon.tsx`, run the registry script + build once more
    to confirm, mark the category `done` below, and if there are still posts
-   left in today's quota of 10, continue into the next `not started`
+   left in today's quota of 20, continue into the next `not started`
    category in the same run rather than stopping early.
 8. Never work on more than one category's *topic planning* in a single run
    (design one plan, then write posts) — but finishing one category and
    starting the next category's posts in the same run is fine and expected
-   when the day's 10-post quota isn't used up by the category that just
+   when the day's 20-post quota isn't used up by the category that just
    finished.
+9. 20/day roughly doubles the per-run workload versus the original 10/day
+   pace. Watch for session-limit cutoffs mid-run — if the run gets cut off
+   partway, the partial posts already written and verified are fine to
+   commit; don't discard finished work just because the day's full quota
+   wasn't reached. Quality bar (voice guide compliance, real diagrams,
+   ESLint, full build) is not negotiable just because volume doubled.
 
 ## Categories (in phase order — do not skip ahead)
 
@@ -85,8 +91,8 @@ before finishing.
 | 42 | Automotive Industry | `42-automotive-industry` | not started |
 | 43 | Manufacturing Industry | `43-manufacturing-industry` | not started |
 
-30 categories × 50 posts = 1,500 posts remaining. At ~10/day (build-quality
-permitting) this is roughly 150 daily runs to cover the full list.
+30 categories × 50 posts = 1,500 posts remaining. At ~20/day (build-quality
+permitting) this is roughly 75 daily runs to cover the full list.
 
 ## Run log (append one line per run, most recent last)
 
