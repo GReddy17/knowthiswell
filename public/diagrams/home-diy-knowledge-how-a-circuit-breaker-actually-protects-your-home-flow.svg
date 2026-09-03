@@ -1,0 +1,39 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="breakerTripTitle">
+  <title id="breakerTripTitle">A flow diagram showing a circuit breaker's two trip paths: a bimetallic strip that slowly bends and trips the breaker during a sustained overload, and an electromagnet that snaps the breaker open almost instantly during a sudden short circuit, both ending in the same result of the contacts opening and the circuit being interrupted.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">A breaker trips two different ways, for two different problems</text>
+
+  <rect x="310" y="52" width="160" height="34" rx="6" fill="#4A443C"/>
+  <text x="390" y="74" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">Current flows through the breaker</text>
+
+  <line x1="390" y1="86" x2="200" y2="120" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowBRK)"/>
+  <line x1="390" y1="86" x2="580" y2="120" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowBRK)"/>
+
+  <rect x="90" y="120" width="220" height="42" rx="6" fill="#2C4A3E"/>
+  <text x="200" y="137" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Sustained overload</text>
+  <text x="200" y="152" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#FBF8F1">too much current, for seconds</text>
+
+  <text x="200" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#2C4A3E">Bimetallic strip heats</text>
+  <text x="200" y="193" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#2C4A3E">and slowly bends</text>
+
+  <rect x="470" y="120" width="220" height="42" rx="6" fill="#8B6F4E"/>
+  <text x="580" y="137" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Sudden short circuit</text>
+  <text x="580" y="152" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#FBF8F1">a current spike, in milliseconds</text>
+
+  <text x="580" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">Electromagnet yanks</text>
+  <text x="580" y="193" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">the trip bar instantly</text>
+
+  <line x1="200" y1="200" x2="360" y2="232" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowBRK)"/>
+  <line x1="580" y1="200" x2="420" y2="232" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowBRK)"/>
+
+  <rect x="255" y="234" width="270" height="42" rx="6" fill="#1F1B16"/>
+  <text x="390" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Trip lever releases</text>
+  <text x="390" y="267" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#FBF8F1">contacts open — circuit interrupted</text>
+
+  <defs>
+    <marker id="arrowBRK" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

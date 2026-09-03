@@ -1,0 +1,40 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mcAnatomyTitle">
+  <title id="mcAnatomyTitle">A labeled diagram of a single multiple-choice question broken into its parts: the stem at the top labeled as the sentence stating the actual construct being tested, one answer choice labeled the key as the credited correct response, and three other answer choices labeled distractors built from real, common errors rather than random wrong text, with a side note showing that after piloting, response data on each option's difficulty and discrimination is used to rewrite or replace weak distractors that nobody plausible picks.</title>
+  <rect width="780" height="340" fill="#FBF8F1"/>
+
+  <text x="30" y="30" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Anatomy of a multiple-choice item</text>
+
+  <rect x="30" y="48" width="460" height="42" rx="5" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="45" y="74" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Stem: the question or incomplete statement</text>
+  <text x="500" y="66" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#2C4A3E">STEM</text>
+  <text x="500" y="80" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">states the exact construct</text>
+  <text x="500" y="93" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">being tested, nothing else</text>
+
+  <rect x="30" y="104" width="460" height="34" rx="5" fill="#EAF2EC" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="45" y="126" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">A. [ correct response ]</text>
+  <text x="500" y="126" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#2C4A3E">KEY — the credited answer</text>
+
+  <rect x="30" y="146" width="460" height="34" rx="5" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="45" y="168" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">B. [ a common miscalculation ]</text>
+
+  <rect x="30" y="188" width="460" height="34" rx="5" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="45" y="210" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">C. [ result of a known misconception ]</text>
+
+  <rect x="30" y="230" width="460" height="34" rx="5" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5"/>
+  <text x="45" y="252" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">D. [ answer to a nearby, different question ]</text>
+  <text x="500" y="200" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#8B6F4E">DISTRACTORS</text>
+  <text x="500" y="216" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">each one is built from a</text>
+  <text x="500" y="229" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">real, documented error —</text>
+  <text x="500" y="242" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">not filler text</text>
+
+  <line x1="490" y1="280" x2="620" y2="280" stroke="#4A443C" stroke-width="1.5" marker-end="url(#arrowMC)"/>
+  <rect x="30" y="284" width="720" height="40" rx="5" fill="#FBF3EB" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="390" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">After piloting on real test-takers, each option's pick rate feeds difficulty and discrimination statistics —</text>
+  <text x="390" y="315" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">a distractor nobody plausible picks gets rewritten or replaced before the item is reused.</text>
+
+  <defs>
+    <marker id="arrowMC" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

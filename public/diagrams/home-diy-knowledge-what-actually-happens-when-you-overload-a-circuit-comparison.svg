@@ -1,0 +1,28 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="overloadHeatTitle">
+  <title id="overloadHeatTitle">A comparison diagram of a wire carrying a normal load, a wire carrying a continuous load near the breaker's rating, and a wire carrying an overload beyond the breaker's rating, showing that heat generated in the wire rises sharply with current because resistive heating scales with current squared, not current alone.</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Heat in a wire rises with the square of the current (I&#178;R)</text>
+
+  <text x="140" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#2C4A3E">Normal load — 8A</text>
+  <rect x="60" y="150" width="160" height="18" rx="4" fill="#2C4A3E"/>
+  <rect x="60" y="120" width="12" height="48" fill="#2C4A3E" opacity="0.35"/>
+  <text x="140" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#2C4A3E">wire runs cool</text>
+
+  <text x="390" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#8B6F4E">Continuous near-rated — 15A</text>
+  <rect x="310" y="128" width="160" height="40" rx="4" fill="#8B6F4E"/>
+  <rect x="310" y="98" width="12" height="70" fill="#8B6F4E" opacity="0.45"/>
+  <text x="390" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">warm — needs the 80% margin</text>
+
+  <text x="640" y="66" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Overload — 22A</text>
+  <rect x="560" y="90" width="160" height="78" rx="4" fill="#1F1B16"/>
+  <rect x="560" y="60" width="12" height="108" fill="#1F1B16" opacity="0.5"/>
+  <text x="640" y="192" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">hot — breaker trips or should</text>
+
+  <line x1="60" y1="210" x2="720" y2="210" stroke="#4A443C" stroke-width="1.5"/>
+  <text x="60" y="226" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">8A</text>
+  <text x="380" y="226" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">15A</text>
+  <text x="630" y="226" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">22A</text>
+
+  <text x="390" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Almost tripling the current here generates roughly seven times the heat, not three times.</text>
+</svg>

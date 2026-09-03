@@ -1,0 +1,26 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="crammingComparisonTitle">
+  <title id="crammingComparisonTitle">A line graph comparing retention over the days leading up to an exam for two study patterns: a spaced-review line in green that rises in several smaller steps across multiple earlier days and stays high and stable going into the exam, against a cramming line in brown that stays low until a single tall spike the night before, then drops sharply by exam morning because the material was never consolidated by sleep and the freshly packed similar facts interfere with each other at recall.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Retention across the week before an exam: two study patterns</text>
+
+  <line x1="60" y1="40" x2="60" y2="250" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="60" y1="250" x2="740" y2="250" stroke="#4A443C" stroke-width="1.5"/>
+  <text x="25" y="45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">high</text>
+  <text x="25" y="248" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">low</text>
+  <text x="60" y="270" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">6 days out</text>
+  <text x="600" y="270" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">night before</text>
+  <text x="700" y="270" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">exam</text>
+
+  <line x1="670" y1="40" x2="670" y2="250" stroke="#4A443C" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <path d="M60,190 L150,190 L150,150 L280,150 L280,115 L420,115 L420,85 L670,85" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+  <text x="130" y="205" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#2C4A3E">spaced review — several shorter sessions</text>
+
+  <path d="M60,240 L580,238 L620,60 L670,220" fill="none" stroke="#8B6F4E" stroke-width="2.5"/>
+  <text x="470" y="228" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#8B6F4E">cramming — one long session, night before</text>
+  <text x="600" y="248" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">drops before</text>
+  <text x="600" y="260" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">the exam itself</text>
+
+  <text x="390" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Cramming spikes exposure late but skips the sleep-dependent consolidation spaced review already banked.</text>
+</svg>

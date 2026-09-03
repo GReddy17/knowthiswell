@@ -1,0 +1,27 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="powerTriangleTitle">
+  <title id="powerTriangleTitle">A formula triangle showing watts at the top, volts and amps at the bottom two corners, illustrating that watts equal volts multiplied by amps, and that covering any one of the three quantities shows how to solve for it from the other two.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Watts = Volts &#215; Amps</text>
+
+  <polygon points="390,55 260,215 520,215" fill="none" stroke="#4A443C" stroke-width="2.5"/>
+  <line x1="325" y1="135" x2="455" y2="135" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="390" y1="135" x2="390" y2="215" stroke="#4A443C" stroke-width="1.5"/>
+
+  <circle cx="390" cy="95" r="34" fill="#1F1B16"/>
+  <text x="390" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF8F1">Watts</text>
+  <text x="390" y="104" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">(power)</text>
+
+  <circle cx="310" cy="185" r="34" fill="#2C4A3E"/>
+  <text x="310" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF8F1">Volts</text>
+  <text x="310" y="194" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">(pressure)</text>
+
+  <circle cx="470" cy="185" r="34" fill="#8B6F4E"/>
+  <text x="470" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF8F1">Amps</text>
+  <text x="470" y="194" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">(flow rate)</text>
+
+  <text x="130" y="255" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Cover the one you want to find:</text>
+  <text x="130" y="273" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Cover Watts &#8594; Volts &#215; Amps</text>
+  <text x="360" y="273" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Cover Volts &#8594; Watts &#247; Amps</text>
+  <text x="590" y="273" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Cover Amps &#8594; Watts &#247; Volts</text>
+</svg>

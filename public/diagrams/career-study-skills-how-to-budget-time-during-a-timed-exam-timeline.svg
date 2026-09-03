@@ -1,0 +1,28 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="examTimelineTitle">
+  <title id="examTimelineTitle">A horizontal timeline showing a timed exam's total minutes split into three segments: a large first-pass segment for answering every question once and flagging any that stall, a smaller flagged-review segment reserved in advance for returning to those flagged questions, and a short final-check segment for confirming the answer sheet, with a checkpoint marker partway through showing that checking your question number against the clock at a set point catches pacing drift early enough to correct it.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">One exam's total time, budgeted in advance</text>
+
+  <rect x="50" y="55" width="450" height="40" fill="#2C4A3E"/>
+  <text x="275" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">First pass — every question, once</text>
+
+  <rect x="500" y="55" width="160" height="40" fill="#8B6F4E"/>
+  <text x="580" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#FBF8F1">Flagged review</text>
+
+  <rect x="660" y="55" width="70" height="40" fill="#4A443C"/>
+  <text x="695" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#FBF8F1">Final check</text>
+
+  <line x1="50" y1="105" x2="730" y2="105" stroke="#4A443C" stroke-width="1"/>
+  <text x="50" y="120" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">minute 0</text>
+  <text x="730" y="120" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">time&#8217;s up</text>
+
+  <line x1="290" y1="45" x2="290" y2="145" stroke="#B5493A" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="290" cy="145" r="6" fill="#B5493A"/>
+  <text x="290" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#B5493A">checkpoint</text>
+  <text x="290" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#B5493A">at the halfway mark,</text>
+  <text x="290" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#B5493A">you should be about</text>
+  <text x="290" y="208" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#B5493A">halfway through the questions</text>
+
+  <text x="390" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Review and final-check time is set aside before the exam starts, not discovered by running out of minutes.</text>
+</svg>

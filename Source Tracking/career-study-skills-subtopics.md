@@ -1,7 +1,7 @@
 # Career & Study Skills — Subtopic Map (Category 14)
 
 _Parent topic: Career & Study Skills (Phase 3, general-audience, non-locale-specific)_
-_Last updated: 2026-09-02 (clusters 5-8 complete)_
+_Last updated: 2026-09-03 (category complete, 50/50)_
 _Author: James H. Rivers_
 
 Deliberately scoped as evergreen study-science and career-mechanics content —
@@ -13,8 +13,8 @@ described generically so it doesn't date.
 50 posts across 10 subtopic clusters of 5 posts each. `order` is continuous
 1-50 across the whole category.
 
-**Resume point:** next batch starts at cluster 9, Exams & Test-Taking
-Strategy (order 41), post `how-multiple-choice-exams-are-actually-designed.tsx`.
+**Category complete as of 2026-09-03.** All 50 posts written and verified,
+`coming-soon.tsx` deleted, registry regenerated, `npm run build` clean.
 
 ---
 
@@ -122,5 +122,5 @@ Folder: `skill-building-and-self-directed-learning/`
 | 6 | Workplace Communication | done — verified (build/lint/typecheck clean) |
 | 7 | Networking & Professional Relationships | done — verified (build/lint/typecheck clean) |
 | 8 | Career Growth & Development | done — verified (build/lint/typecheck clean) |
-| 9 | Exams & Test-Taking Strategy | not started |
-| 10 | Skill-Building & Self-Directed Learning | not started |
+| 9 | Exams & Test-Taking Strategy | done — verified (build/lint/typecheck clean) |
+| 10 | Skill-Building & Self-Directed Learning | done — verified (build/lint/typecheck clean) |

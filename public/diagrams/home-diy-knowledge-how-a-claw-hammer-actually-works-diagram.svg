@@ -1,0 +1,54 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hammerLeverTitle">
+  <title id="hammerLeverTitle">A claw hammer acting as a class-one lever when pulling a nail: the hammer head rests on the wood as the fulcrum, the short claw arm grips the nail (the load), and the long handle (the effort arm) is where hand force is applied, so a small hand force at the far end of the handle is multiplied into a much larger pulling force at the nail.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">The claw end: a class-one lever pulling a nail</text>
+
+  <!-- wood surface -->
+  <rect x="50" y="150" width="680" height="16" fill="#E8DEC8" stroke="#8B6F4E" stroke-width="1.5"/>
+  <line x1="60" y1="154" x2="80" y2="164" stroke="#8B6F4E" stroke-width="1" opacity="0.5"/>
+  <line x1="100" y1="154" x2="120" y2="164" stroke="#8B6F4E" stroke-width="1" opacity="0.5"/>
+  <line x1="400" y1="154" x2="420" y2="164" stroke="#8B6F4E" stroke-width="1" opacity="0.5"/>
+  <line x1="600" y1="154" x2="620" y2="164" stroke="#8B6F4E" stroke-width="1" opacity="0.5"/>
+  <line x1="650" y1="154" x2="670" y2="164" stroke="#8B6F4E" stroke-width="1" opacity="0.5"/>
+  <text x="390" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">wood surface</text>
+
+  <!-- nail -->
+  <rect x="163" y="98" width="10" height="55" fill="#8B6F4E"/>
+  <circle cx="168" cy="94" r="7" fill="#1F1B16"/>
+
+  <!-- fulcrum triangle -->
+  <polygon points="320,150 344,150 332,128" fill="#2C4A3E"/>
+  <text x="332" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#2C4A3E">Fulcrum</text>
+  <text x="332" y="218" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C4A3E">(hammer head rests on wood)</text>
+
+  <!-- load arm (short): fulcrum to claw/nail -->
+  <line x1="332" y1="130" x2="172" y2="98" stroke="#4A443C" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- effort arm (long): fulcrum to hand -->
+  <line x1="332" y1="130" x2="700" y2="52" stroke="#4A443C" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="700" cy="52" r="11" fill="#2C4A3E"/>
+
+  <defs>
+    <marker id="arrowHammerUp" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,8 L4,0 L8,8 Z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowHammerDown" markerWidth="8" markerHeight="8" refX="4" refY="1" orient="auto">
+      <path d="M0,0 L8,0 L4,8 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+
+  <!-- load force arrow: nail pulled upward -->
+  <line x1="172" y1="98" x2="172" y2="68" stroke="#2C4A3E" stroke-width="3" marker-end="url(#arrowHammerUp)"/>
+  <text x="90" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#2C4A3E">Load</text>
+  <text x="90" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C4A3E">nail resistance</text>
+  <text x="90" y="86" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C4A3E">(short arm)</text>
+
+  <!-- effort force arrow: hand pushes down on handle end -->
+  <line x1="700" y1="52" x2="700" y2="82" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowHammerDown)"/>
+  <text x="720" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#8B6F4E">Effort</text>
+  <text x="720" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">hand force</text>
+  <text x="720" y="131" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">(long arm)</text>
+
+  <text x="390" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Mechanical advantage = length of effort arm &#247; length of load arm — the longer handle multiplies hand force into pulling force.</text>
+</svg>

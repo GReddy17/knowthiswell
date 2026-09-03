@@ -1,0 +1,39 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="eightyTwentyTitle">
+  <title id="eightyTwentyTitle">A comparison chart showing that the vital few skill components — roughly 20% of everything there is to learn in a skill — account for roughly 80% of real-world use, while the remaining long tail of components, roughly 80% of the content, accounts for only about 20% of real-world use.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Share of skill content vs. share of real-world use</text>
+
+  <rect x="560" y="50" width="14" height="14" fill="#8B6F4E"/>
+  <text x="580" y="61" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">share of skill content</text>
+  <rect x="560" y="70" width="14" height="14" fill="#2C4A3E"/>
+  <text x="580" y="81" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">share of real-world use</text>
+
+  <text x="80" y="88" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">The vital few</text>
+  <text x="80" y="102" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">(≈20% of components)</text>
+
+  <rect x="260" y="72" width="92" height="20" fill="#8B6F4E"/>
+  <text x="360" y="87" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">≈20% of content</text>
+
+  <rect x="260" y="98" width="368" height="20" fill="#2C4A3E"/>
+  <text x="636" y="113" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">≈80% of use</text>
+
+  <text x="80" y="180" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">The long tail</text>
+  <text x="80" y="194" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">(remaining ≈80%)</text>
+
+  <rect x="260" y="164" width="368" height="20" fill="#8B6F4E"/>
+  <text x="636" y="179" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">≈80% of content</text>
+
+  <rect x="260" y="190" width="92" height="20" fill="#2C4A3E"/>
+  <text x="360" y="205" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">≈20% of use</text>
+
+  <line x1="260" y1="230" x2="628" y2="230" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="260" y1="226" x2="260" y2="234" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="444" y1="226" x2="444" y2="234" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="628" y1="226" x2="628" y2="234" stroke="#4A443C" stroke-width="1.5"/>
+  <text x="260" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">0%</text>
+  <text x="444" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">50%</text>
+  <text x="628" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">100%</text>
+
+  <text x="390" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">A small slice of content typically covers most of what actually gets used — the rest is where diminishing returns set in.</text>
+</svg>

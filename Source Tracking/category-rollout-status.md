@@ -1,6 +1,6 @@
 # Category Rollout Status (read + update this file every automated run)
 
-_Last updated: 2026-09-02 (Career & Study Skills at 40/50)_
+_Last updated: 2026-09-03 (Career & Study Skills done, Home & DIY Knowledge at 10/50)_
 
 Tracks progress through the remaining 30 categories (Phase 3-5 of
 `site-rules.md` Section 8, minus categories already built: 01-13). Driven by
@@ -60,8 +60,8 @@ before finishing.
 
 | # | Category | Folder | Status |
 |---|----------|--------|--------|
-| 14 | Career & Study Skills | `14-career-study-skills` | in progress (40/50) |
-| 15 | Home & DIY Knowledge | `15-home-diy-knowledge` | not started |
+| 14 | Career & Study Skills | `14-career-study-skills` | done |
+| 15 | Home & DIY Knowledge | `15-home-diy-knowledge` | in progress (10/50) |
 | 16 | Health & Wellness Deep Dive | `16-health-wellness-deep-dive` | not started |
 | 17 | Technology Deep Dives | `17-technology-deep-dives` | not started |
 | 18 | Business & Entrepreneurship Basics | `18-business-entrepreneurship-basics` | not started |
@@ -140,3 +140,34 @@ permitting) this is roughly 75 daily runs to cover the full list.
   `tsc --noEmit` clean, registry regenerated (740 posts), `npm run build`
   succeeded with zero errors. Category now at 40/50. Next run resumes at
   cluster 9 (Exams & Test-Taking Strategy, order 41).
+- 2026-09-03: Finished Career & Study Skills (14) via 2 parallel writer
+  agents (clusters 9-10: Exams & Test-Taking Strategy — how multiple-choice
+  exams are designed, test anxiety and performance, timed-exam budgeting,
+  process of elimination, why last-minute cramming backfires; Skill-Building
+  & Self-Directed Learning — the 80/20 rule for skills, deliberate practice
+  vs. plain practice, what a learning curve actually shows, building a
+  personal learning plan, the protégé effect). Category now complete at
+  50/50 — `coming-soon.tsx` deleted. Then designed and launched category 15,
+  Home & DIY Knowledge (`Source Tracking/home-diy-knowledge-subtopics.md`,
+  10 clusters of 5, mechanism-level DIY/home-maintenance scope, YMYL-aware
+  for electrical/structural topics), and wrote its first 10 posts via 2 more
+  parallel writer agents (cluster 1: Basic Tools & Toolkit Essentials — claw
+  hammer leverage, Phillips vs. flathead, stud finders, tape-measure hook
+  slop, torque; cluster 2: Electrical Basics & Safety — circuit breakers,
+  amps/volts/watts, GFCI outlets, verifying a wire is de-energized (written
+  encyclopedically, always pointing to a licensed electrician rather than as
+  a DIY tutorial), circuit overload). Each of the 20 posts has both
+  ModeToggle variants, 3 worked examples + QuickChecks, 4-5 FAQ, populated
+  KeyTakeaways/MistakeList/MisconceptionCallout/ActionChecklist, a
+  hand-authored SVG diagram, and real institutional sources (APA, NIMH, CDC,
+  ETS Research, AERA, NCME, FairTest for exams/learning; NIST, OSHA, NFPA,
+  ESFI, CPSC for tools/electrical). 7 new EntryCalculator formulas added
+  (exam time-per-question, elimination guess probability, proficiency-hours
+  learning curve x2, wrench torque, watts from volts/amps, max safe
+  continuous circuit watts). Centralized verification after all 4 agents
+  finished: eslint clean across all 20 files + EntryCalculator.tsx, `tsc
+  --noEmit` clean, registry regenerated (760 posts, 43 categories), `npm run
+  build` succeeded with zero errors — run twice, once before and once after
+  deleting career-study-skills' `coming-soon.tsx`. Career & Study Skills
+  (14): done. Home & DIY Knowledge (15): 10/50. Next run resumes Home & DIY
+  Knowledge at cluster 3 (Plumbing Basics & Common Fixes, order 11).

@@ -331,6 +331,26 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
 
   // --- Career & Study Skills (topic 14): Career Growth & Development ---
   requestedRaiseNewSalary: (v) => v.currentSalary * (1 + v.requestedIncreasePercent / 100), // new salary if a requested percentage raise is approved
+
+  // --- Career & Study Skills (topic 14): Exams & Test-Taking Strategy ---
+  examTimeBudgetMinutesPerQuestion: (v) => (v.totalExamMinutes - v.reservedReviewMinutes) / v.numberOfQuestions, // minutes available per question after setting aside a fixed review/final-check reserve up front
+  eliminationGuessProbabilityPercent: (v) => (1 / Math.max(v.totalOptions - v.eliminatedOptions, 1)) * 100, // odds of a correct guess = 1 / options remaining, after confidently eliminating some
+
+  // --- Home & DIY Knowledge (topic 15): Basic Tools & Toolkit Essentials ---
+  wrenchTorqueFromForceAndLeverArm: (v) => v.appliedForceLbs * (v.leverArmInches / 12), // torque (lb-ft) = applied force (lbf) x lever-arm length, converted from inches to feet
+
+  // --- Home & DIY Knowledge (topic 15): Electrical Basics & Safety ---
+  wattsFromVoltsAndAmps: (v) => v.volts * v.amps, // P = V x I — electrical power in watts
+  maxSafeContinuousWatts: (v) => v.breakerAmps * v.voltage * 0.8, // common 80% continuous-load safety margin applied to a breaker's rated amperage x circuit voltage
+
+  // --- Career & Study Skills (topic 14): Skill-Building & Self-Directed Learning ---
+  // Exponential (negatively accelerated) learning-curve model: proficiency approaches a
+  // ceiling as practice increases, with each additional unit of practice closing a shrinking
+  // fraction of the remaining gap. hoursToReachProficiencyPercent solves that model for time
+  // (t = -tau * ln(1 - target/100)); practiceProficiencyPercentFromHours runs it forward
+  // (P = 100 * (1 - e^(-t/tau))). Same underlying curve, opposite directions.
+  hoursToReachProficiencyPercent: (v) => -v.characteristicLearningHours * Math.log(1 - v.targetProficiencyPercent / 100),
+  practiceProficiencyPercentFromHours: (v) => 100 * (1 - Math.exp(-v.hoursPracticed / v.characteristicLearningHours)),
 };
 
 interface EntryCalculatorProps {

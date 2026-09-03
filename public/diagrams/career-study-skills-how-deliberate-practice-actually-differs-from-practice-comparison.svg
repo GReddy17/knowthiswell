@@ -1,0 +1,42 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="deliberatePracticeTitle">
+  <title id="deliberatePracticeTitle">A comparison diagram showing ordinary repetition as a flat, unchanging loop of attempts with no correction, versus deliberate practice as an ascending sequence where each attempt just past current ability is followed by specific feedback and a correction before the next attempt, producing steady improvement instead of a plateau.</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Ordinary repetition vs. deliberate practice, same number of attempts</text>
+
+  <text x="60" y="70" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#8B6F4E">Ordinary repetition</text>
+  <line x1="60" y1="95" x2="700" y2="95" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <circle cx="110" cy="95" r="10" fill="#8B6F4E"/>
+  <circle cx="270" cy="95" r="10" fill="#8B6F4E"/>
+  <circle cx="430" cy="95" r="10" fill="#8B6F4E"/>
+  <circle cx="590" cy="95" r="10" fill="#8B6F4E"/>
+  <text x="110" y="99" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">1</text>
+  <text x="270" y="99" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">2</text>
+  <text x="430" y="99" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">3</text>
+  <text x="590" y="99" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">4</text>
+  <text x="390" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">same technique repeated, no specific feedback, no correction — performance stays flat</text>
+
+  <text x="60" y="165" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#2C4A3E">Deliberate practice</text>
+  <path d="M60,235 Q 200,220 270,195 Q 340,175 430,160 Q 500,148 590,130" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <circle cx="110" cy="228" r="10" fill="#2C4A3E"/>
+  <circle cx="270" cy="195" r="10" fill="#2C4A3E"/>
+  <circle cx="430" cy="160" r="10" fill="#2C4A3E"/>
+  <circle cx="590" cy="130" r="10" fill="#2C4A3E"/>
+  <text x="110" y="232" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">1</text>
+  <text x="270" y="199" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">2</text>
+  <text x="430" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">3</text>
+  <text x="590" y="134" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">4</text>
+
+  <path d="M120,215 q 20,20 30,-5" fill="none" stroke="#4A443C" stroke-width="1.2" marker-end="url(#arrowDP)"/>
+  <path d="M280,182 q 20,20 30,-5" fill="none" stroke="#4A443C" stroke-width="1.2" marker-end="url(#arrowDP)"/>
+  <path d="M440,148 q 20,20 30,-5" fill="none" stroke="#4A443C" stroke-width="1.2" marker-end="url(#arrowDP)"/>
+  <text x="150" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">stretch attempt</text>
+  <text x="310" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">feedback + fix</text>
+  <text x="470" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">feedback + fix</text>
+
+  <defs>
+    <marker id="arrowDP" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

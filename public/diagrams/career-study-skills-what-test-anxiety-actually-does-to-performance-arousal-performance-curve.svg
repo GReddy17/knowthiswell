@@ -1,0 +1,28 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="arousalCurveTitle">
+  <title id="arousalCurveTitle">A line graph with physiological arousal on the horizontal axis and exam performance on the vertical axis, showing an inverted-U curve: performance rises as arousal increases from very low, peaks at a moderate, optimal arousal zone marked in green, then falls sharply as arousal keeps climbing into a red zone labeled where worry consumes the working memory capacity the task itself needs, illustrating that test anxiety is not simply low motivation or not caring, but arousal pushed past the point that helps performance.</title>
+  <rect width="780" height="340" fill="#FBF8F1"/>
+
+  <line x1="70" y1="30" x2="70" y2="270" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="70" y1="270" x2="730" y2="270" stroke="#4A443C" stroke-width="1.5"/>
+  <text x="40" y="45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">high</text>
+  <text x="40" y="265" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">low</text>
+  <text x="18" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16" transform="rotate(-90 18 150)">Exam performance</text>
+  <text x="400" y="300" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Physiological arousal / stress response &#8594;</text>
+
+  <path d="M70,255 C160,150 250,70 360,68 C470,70 560,150 690,250" fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+
+  <rect x="300" y="45" width="120" height="46" rx="6" fill="#EAF2EC" stroke="#2C4A3E" stroke-width="1.5"/>
+  <text x="360" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#2C4A3E">optimal zone</text>
+  <text x="360" y="77" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C4A3E">alert, focused,</text>
+  <text x="360" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C4A3E">recall works well</text>
+
+  <line x1="360" y1="91" x2="360" y2="68" stroke="#2C4A3E" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <rect x="540" y="150" width="170" height="60" rx="6" fill="#FBEDEA" stroke="#B5493A" stroke-width="1.5"/>
+  <text x="625" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#B5493A">past the peak</text>
+  <text x="625" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#B5493A">worry thoughts occupy</text>
+  <text x="625" y="194" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#B5493A">working memory the task</text>
+  <text x="625" y="206" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#B5493A">itself needs to run</text>
+
+  <text x="400" y="325" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Some arousal sharpens performance; past a threshold, the same response starts actively costing it.</text>
+</svg>

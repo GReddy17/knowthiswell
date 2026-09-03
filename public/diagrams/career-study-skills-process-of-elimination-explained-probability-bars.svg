@@ -1,0 +1,30 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="poeBarsTitle">
+  <title id="poeBarsTitle">A bar chart showing the probability of a correct guess rising as confidently-wrong options are eliminated: 25 percent with all four options still in play, 33 percent after eliminating one clearly wrong option, 50 percent after eliminating two, and 100 percent once only one option remains, illustrating that each option removed for a real, stated reason mechanically improves the odds on every option left, rather than being a leftover coin flip.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Odds of a correct guess as options are eliminated</text>
+
+  <line x1="70" y1="40" x2="70" y2="240" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="70" y1="240" x2="730" y2="240" stroke="#4A443C" stroke-width="1.5"/>
+  <text x="45" y="45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">100%</text>
+  <text x="45" y="143" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">50%</text>
+  <text x="50" y="244" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">0%</text>
+
+  <rect x="130" y="190" width="90" height="50" fill="#8B6F4E"/>
+  <text x="175" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">25%</text>
+  <text x="175" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">4 options left</text>
+
+  <rect x="280" y="174" width="90" height="66" fill="#8B6F4E"/>
+  <text x="325" y="166" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">33%</text>
+  <text x="325" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">3 options left</text>
+
+  <rect x="430" y="140" width="90" height="100" fill="#2C4A3E"/>
+  <text x="475" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">50%</text>
+  <text x="475" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">2 options left</text>
+
+  <rect x="580" y="40" width="90" height="200" fill="#2C4A3E"/>
+  <text x="625" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">100%</text>
+  <text x="625" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">1 option left</text>
+
+  <text x="390" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Each option eliminated for a real, stated reason mechanically raises the odds on everything still standing.</text>
+</svg>

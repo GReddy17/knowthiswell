@@ -1,0 +1,41 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="learningCurveTitle">
+  <title id="learningCurveTitle">A chart plotting proficiency against practice, comparing a dashed straight line showing the mistaken expectation of steady, constant gains with the actual solid curve, which rises steeply at first, flattens into a mid-practice plateau, then rises again after a strategy change before leveling off near a performance ceiling.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Proficiency vs. amount of practice</text>
+
+  <line x1="80" y1="40" x2="80" y2="270" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="80" y1="270" x2="720" y2="270" stroke="#4A443C" stroke-width="1.5"/>
+  <text x="46" y="46" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">high</text>
+  <text x="40" y="274" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">low</text>
+  <text x="400" y="298" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Practice (hours / repetitions) &#8594;</text>
+  <text x="30" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16" transform="rotate(-90 30 160)">Proficiency &#8594;</text>
+
+  <line x1="80" y1="65" x2="720" y2="65" stroke="#8B6F4E" stroke-width="1" stroke-dasharray="3,4"/>
+  <text x="700" y="60" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">performance ceiling</text>
+
+  <line x1="80" y1="270" x2="700" y2="70" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <text x="500" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E" transform="rotate(-21 500 150)">mistaken expectation: steady, constant gains</text>
+
+  <path d="M80,270 C 140,140 190,95 260,85 C 320,78 360,80 420,80 C 470,80 500,78 540,60 C 590,40 650,32 700,28"
+        fill="none" stroke="#2C4A3E" stroke-width="2.5"/>
+
+  <circle cx="260" cy="85" r="4" fill="#2C4A3E"/>
+  <circle cx="420" cy="80" r="4" fill="#2C4A3E"/>
+  <circle cx="700" cy="28" r="4" fill="#2C4A3E"/>
+
+  <text x="340" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">plateau</text>
+  <text x="340" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">same strategy, gains stall</text>
+
+  <path d="M420,95 q 20,25 45,10" fill="none" stroke="#4A443C" stroke-width="1.2" marker-end="url(#arrowLC)"/>
+  <text x="470" y="128" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">new strategy</text>
+  <text x="470" y="139" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#4A443C">breaks the plateau</text>
+
+  <text x="145" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#2C4A3E">fast early gains</text>
+
+  <defs>
+    <marker id="arrowLC" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,42 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="learningPlanTitle">
+  <title id="learningPlanTitle">A flow diagram showing a personal learning plan as five steps in sequence — define a specific target, assess your baseline against it, break the gap into an ordered sequence of sub-skills, practice on a schedule, and reach a checkpoint — with a return arrow from the checkpoint back to re-sequence sub-skills, showing the plan is revised on real practice results rather than fixed in advance.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Building a learning plan: a cycle, not a one-time document</text>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="30" y="60" width="128" height="56" rx="7" fill="#2C4A3E"/>
+    <text x="94" y="83" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">Define a</text>
+    <text x="94" y="97" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">specific target</text>
+
+    <rect x="188" y="60" width="128" height="56" rx="7" fill="#2C4A3E"/>
+    <text x="252" y="83" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">Assess your</text>
+    <text x="252" y="97" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">baseline (gap)</text>
+
+    <rect x="346" y="60" width="128" height="56" rx="7" fill="#8B6F4E"/>
+    <text x="410" y="83" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">Order the</text>
+    <text x="410" y="97" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">sub-skills</text>
+
+    <rect x="504" y="60" width="128" height="56" rx="7" fill="#8B6F4E"/>
+    <text x="568" y="83" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">Practice on</text>
+    <text x="568" y="97" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">a schedule</text>
+
+    <rect x="640" y="150" width="110" height="56" rx="7" fill="#2C4A3E"/>
+    <text x="695" y="173" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">Checkpoint</text>
+    <text x="695" y="187" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FBF8F1">&amp; reassess</text>
+  </g>
+
+  <line x1="158" y1="88" x2="186" y2="88" stroke="#4A443C" stroke-width="1.6" marker-end="url(#arrowLP)"/>
+  <line x1="316" y1="88" x2="344" y2="88" stroke="#4A443C" stroke-width="1.6" marker-end="url(#arrowLP)"/>
+  <line x1="474" y1="88" x2="502" y2="88" stroke="#4A443C" stroke-width="1.6" marker-end="url(#arrowLP)"/>
+  <path d="M632,90 Q 680,110 695,148" fill="none" stroke="#4A443C" stroke-width="1.6" marker-end="url(#arrowLP)"/>
+
+  <path d="M640,178 Q 420,235 410,118" fill="none" stroke="#4A443C" stroke-width="1.6" stroke-dasharray="4,4" marker-end="url(#arrowLP)"/>
+  <text x="420" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">re-order sub-skills based on what practice actually showed was hard</text>
+
+  <defs>
+    <marker id="arrowLP" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>
