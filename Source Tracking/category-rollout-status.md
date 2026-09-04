@@ -1,6 +1,6 @@
 # Category Rollout Status (read + update this file every automated run)
 
-_Last updated: 2026-09-03 (Career & Study Skills done, Home & DIY Knowledge at 10/50)_
+_Last updated: 2026-09-04 (Home & DIY Knowledge at 30/50)_
 
 Tracks progress through the remaining 30 categories (Phase 3-5 of
 `site-rules.md` Section 8, minus categories already built: 01-13). Driven by
@@ -61,7 +61,7 @@ before finishing.
 | # | Category | Folder | Status |
 |---|----------|--------|--------|
 | 14 | Career & Study Skills | `14-career-study-skills` | done |
-| 15 | Home & DIY Knowledge | `15-home-diy-knowledge` | in progress (10/50) |
+| 15 | Home & DIY Knowledge | `15-home-diy-knowledge` | in progress (30/50) |
 | 16 | Health & Wellness Deep Dive | `16-health-wellness-deep-dive` | not started |
 | 17 | Technology Deep Dives | `17-technology-deep-dives` | not started |
 | 18 | Business & Entrepreneurship Basics | `18-business-entrepreneurship-basics` | not started |
@@ -171,3 +171,48 @@ permitting) this is roughly 75 daily runs to cover the full list.
   deleting career-study-skills' `coming-soon.tsx`. Career & Study Skills
   (14): done. Home & DIY Knowledge (15): 10/50. Next run resumes Home & DIY
   Knowledge at cluster 3 (Plumbing Basics & Common Fixes, order 11).
+- 2026-09-04: Continued Home & DIY Knowledge (15) — wrote 20 more posts via
+  4 parallel writer agents, one per cluster (clusters 3-6: Plumbing Basics &
+  Common Fixes — toilet flush/refill cycle, why a faucet drips, how a P-trap
+  blocks sewer smell, what water pressure measures, how a plunger clears a
+  clog via pressure differential; Wall, Paint & Surface Repair — why drywall
+  cracks appear, paint drying vs. curing chemistry, what primer does, gloss
+  vs. matte finishes, spackle vs. caulk; Fasteners, Adhesives & Mounting — why
+  screws out-hold nails, how a wall anchor holds weight in hollow drywall,
+  cyanoacrylate (super glue) bonding chemistry, judging a wall's real weight
+  capacity, machine vs. wood screws vs. bolts; HVAC & Home Comfort Basics —
+  thermostat feedback loops, why air filters need replacing, the central-AC
+  refrigeration cycle, what R-value measures, why rooms run hot/cold
+  unevenly). Each post has both ModeToggle variants, 3 worked examples +
+  QuickChecks, 4-5 FAQ, populated KeyTakeaways/MistakeList/
+  MisconceptionCallout/ActionChecklist, a hand-authored SVG diagram, real
+  institutional sources (EPA WaterSense, IAPMO, ASPE, AWWA, CDC, CPSC, ASTM
+  International, DOE, ASHRAE as relevant per topic), 3-4 seeAlso entries, and
+  2+ inline cross-post TermLinks per post. 4 new EntryCalculator formulas
+  added (drip-faucet gallons wasted/year, water pressure from elevation head,
+  cooling tons to BTU/hr, R-value heat-loss rate) plus 1 existing formula
+  reused (screwMechanicalAdvantage). Centralized coordinator pass after all 4
+  agents finished: merged formulas into EntryCalculator.tsx, fixed 3 invalid
+  DiagramBlock type values agents had used ("diagram" isn't a valid type —
+  corrected to "comparison"/"detail"), fixed 1 remaining unescaped-JSX-entity
+  violation, confirmed every seeAlso/TermLink target resolves to a real file,
+  eslint clean, tsc --noEmit clean, registry regenerated (780 posts, 43
+  categories), npm run build succeeded with zero errors. Home & DIY Knowledge
+  (15) now at 30/50. Internal-linking pass (Part 2): computed inbound-link
+  counts (seeAlso + inline TermLink from 3+ other live posts) for all 20
+  posts written today — 6 were under 3, each fixed with 1 genuinely relevant
+  added link (seeAlso entry + one contextual inline TermLink) from an
+  existing sibling/adjacent post, all 20 now at 3+. Also ran the rotating
+  older-post batch on 01-general-science-facts/biology-and-human-body/ (11
+  posts, first folder in the rotation — no prior run had started one) —
+  found 4 posts under 3 inbound (nutrition-and-how-the-body-uses-food,
+  sleep-and-the-brain, the-eye-and-how-vision-works, the-five-senses) and
+  added 7 genuinely relevant links total across 6 source posts
+  (muscles-bones-and-movement, blood-and-the-circulatory-system-in-depth,
+  human-body-systems x2, cells-and-genetics-basics,
+  aging-and-the-human-lifespan, hormones-and-the-endocrine-system), each
+  with a real seeAlso entry and one natural inline TermLink — all 11 now at
+  3+ inbound. Rebuilt after the linking pass (eslint/tsc/build all clean).
+  Next rotation folder: 01-general-science-facts/chemistry/. Next run
+  resumes Home & DIY Knowledge at cluster 7 (Home Safety & Detection
+  Systems, order 31).

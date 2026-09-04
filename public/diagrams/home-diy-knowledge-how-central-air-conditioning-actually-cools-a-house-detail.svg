@@ -1,0 +1,41 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="acCycleTitle">
+  <title id="acCycleTitle">A diagram of the refrigeration cycle in central air conditioning, showing the indoor evaporator coil absorbing heat from house air, refrigerant carrying that heat to the compressor which pressurizes it, then to the outdoor condenser coil which releases the heat outside, and finally through an expansion valve that cools the refrigerant before it returns to the evaporator, forming a closed loop that moves heat from inside to outside rather than creating cold.</title>
+  <defs>
+    <marker id="arrowA" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+  <line x1="390" y1="20" x2="390" y2="280" stroke="#1F1B16" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="200" y="24" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">INDOORS</text>
+  <text x="585" y="24" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">OUTDOORS</text>
+
+  <rect x="60" y="110" width="180" height="60" rx="6" fill="#2C4A3E"/>
+  <text x="150" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Evaporator coil</text>
+  <text x="150" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">absorbs heat from</text>
+  <text x="150" y="162" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">indoor air (blower)</text>
+  <line x1="20" y1="140" x2="55" y2="140" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowA)"/>
+  <text x="20" y="128" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">warm room air in</text>
+
+  <rect x="440" y="110" width="180" height="60" rx="6" fill="#8B6F4E"/>
+  <text x="530" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Condenser coil</text>
+  <text x="530" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">releases that heat</text>
+  <text x="530" y="162" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">into outdoor air</text>
+  <line x1="625" y1="140" x2="660" y2="140" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowA)"/>
+  <text x="628" y="128" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">heat exhausted out</text>
+
+  <rect x="440" y="220" width="140" height="50" rx="6" fill="#4A443C"/>
+  <text x="510" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#FBF8F1">Compressor</text>
+  <text x="510" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#FBF8F1">pressurizes refrigerant</text>
+
+  <rect x="180" y="220" width="150" height="50" rx="6" fill="#4A443C"/>
+  <text x="255" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#FBF8F1">Expansion valve</text>
+  <text x="255" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#FBF8F1">drops pressure, cools refrigerant</text>
+
+  <path d="M240 170 L240 200 L440 200 L440 170" fill="none" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrowA)"/>
+  <path d="M530 170 L530 220" fill="none" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrowA)"/>
+  <path d="M440 245 L330 245" fill="none" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrowA)"/>
+  <path d="M180 245 L150 245 L150 170" fill="none" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrowA)"/>
+
+  <text x="390" y="288" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">A closed refrigerant loop moves heat from indoors to outdoors — it does not manufacture cold</text>
+</svg>

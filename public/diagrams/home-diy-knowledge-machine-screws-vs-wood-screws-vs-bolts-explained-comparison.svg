@@ -1,0 +1,67 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fastenerCompareTitle">
+  <title id="fastenerCompareTitle">A side-by-side comparison of a wood screw, a machine screw, and a bolt. The wood screw has a sharp tapered point and coarse, widely spaced threads that cut their own matching groove directly into wood fiber, so the wood itself acts as the nut. The machine screw has a blunt, uniform-diameter shank with fine, uniform threads sized to a standard, meant to turn into a pre-tapped hole or a nut, driven by turning its head. The bolt looks similar to a machine screw but is meant to be tightened by turning a nut (or driving into a tapped hole) while the head is held still, and is generally used to clamp two parts together under high load.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="24" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Wood screw vs. machine screw vs. bolt: what the geometry tells you</text>
+
+  <!-- Wood screw -->
+  <g>
+    <text x="130" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#2C4A3E">Wood screw</text>
+    <rect x="120" y="60" width="20" height="30" fill="#4A443C"/>
+    <path d="M110,60 L150,60 L145,68 L115,68 Z" fill="#4A443C"/>
+    <path d="M130,90 L130,210 L124,225 L136,225 Z" fill="none" stroke="#2C4A3E" stroke-width="1"/>
+    <path d="M118,95 L142,105 M118,115 L142,125 M118,135 L142,145 M118,155 L142,165 M118,175 L142,185 M120,195 L140,203" stroke="#2C4A3E" stroke-width="2.5"/>
+    <text x="130" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Sharp tapered tip,</text>
+    <text x="130" y="257" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">coarse wide threads.</text>
+    <text x="130" y="272" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">Cuts its own groove —</text>
+    <text x="130" y="284" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">wood itself is the &quot;nut.&quot;</text>
+  </g>
+
+  <line x1="255" y1="60" x2="255" y2="290" stroke="#B0A98F" stroke-width="1"/>
+
+  <!-- Machine screw -->
+  <g>
+    <text x="390" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#2C4A3E">Machine screw</text>
+    <rect x="380" y="60" width="20" height="30" fill="#4A443C"/>
+    <line x1="378" y1="60" x2="402" y2="60" stroke="#4A443C" stroke-width="6"/>
+    <rect x="386" y="90" width="8" height="130" fill="none" stroke="#2C4A3E" stroke-width="1"/>
+    <line x1="378" y1="98" x2="402" y2="98" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="378" y1="110" x2="402" y2="110" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="378" y1="122" x2="402" y2="122" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="378" y1="134" x2="402" y2="134" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="378" y1="146" x2="402" y2="146" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="378" y1="158" x2="402" y2="158" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="378" y1="170" x2="402" y2="170" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="378" y1="182" x2="402" y2="182" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="378" y1="194" x2="402" y2="194" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="378" y1="206" x2="402" y2="206" stroke="#2C4A3E" stroke-width="1.5"/>
+    <rect x="386" y="216" width="8" height="6" fill="none" stroke="#2C4A3E" stroke-width="1"/>
+    <text x="390" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Blunt, uniform shank,</text>
+    <text x="390" y="257" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">fine standard threads.</text>
+    <text x="390" y="272" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">Driven by turning the head</text>
+    <text x="390" y="284" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">into a tapped hole or nut.</text>
+  </g>
+
+  <line x1="515" y1="60" x2="515" y2="290" stroke="#B0A98F" stroke-width="1"/>
+
+  <!-- Bolt -->
+  <g>
+    <text x="650" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#2C4A3E">Bolt</text>
+    <path d="M632,58 L668,58 L668,72 L632,72 Z" fill="#4A443C"/>
+    <rect x="642" y="72" width="16" height="118" fill="none" stroke="#2C4A3E" stroke-width="1"/>
+    <line x1="634" y1="80" x2="666" y2="80" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="634" y1="94" x2="666" y2="94" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="634" y1="108" x2="666" y2="108" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="634" y1="122" x2="666" y2="122" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="634" y1="136" x2="666" y2="136" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="634" y1="150" x2="666" y2="150" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="634" y1="164" x2="666" y2="164" stroke="#2C4A3E" stroke-width="1.5"/>
+    <line x1="634" y1="178" x2="666" y2="178" stroke="#2C4A3E" stroke-width="1.5"/>
+    <path d="M626,190 L674,190 L668,204 L632,204 Z" fill="none" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="650" y="222" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#2C4A3E">nut</text>
+    <text x="650" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Head held still, nut</text>
+    <text x="650" y="257" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">turned to tighten.</text>
+    <text x="650" y="272" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">Clamps two parts together</text>
+    <text x="650" y="284" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B6F4E">under high load.</text>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rValueTitle">
+  <title id="rValueTitle">A diagram comparing heat flow through a low R-value wall, shown with wide, closely spaced arrows passing quickly through a thin insulation layer, against a high R-value wall, shown with fewer, more spread out arrows struggling through a thick insulation layer, illustrating that R-value measures resistance to heat flow rather than a physical thickness or a temperature.</title>
+  <defs>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="195" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Low R-value (thin/weak insulation)</text>
+  <text x="585" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">High R-value (thick/dense insulation)</text>
+
+  <rect x="60" y="55" width="30" height="170" fill="#4A443C"/>
+  <rect x="90" y="55" width="30" height="170" fill="#2C4A3E" opacity="0.55"/>
+  <rect x="120" y="55" width="30" height="170" fill="#4A443C"/>
+  <text x="105" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">thin insulation layer</text>
+
+  <line x1="20" y1="80" x2="55" y2="80" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowR)"/>
+  <line x1="150" y1="80" x2="200" y2="80" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowR)"/>
+  <line x1="20" y1="120" x2="55" y2="120" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowR)"/>
+  <line x1="150" y1="120" x2="200" y2="120" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowR)"/>
+  <line x1="20" y1="160" x2="55" y2="160" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowR)"/>
+  <line x1="150" y1="160" x2="200" y2="160" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowR)"/>
+  <line x1="20" y1="200" x2="55" y2="200" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowR)"/>
+  <line x1="150" y1="200" x2="200" y2="200" stroke="#8B6F4E" stroke-width="3" marker-end="url(#arrowR)"/>
+  <text x="105" y="46" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">warm side</text>
+  <text x="200" y="46" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">heat escapes fast</text>
+
+  <rect x="450" y="55" width="20" height="170" fill="#4A443C"/>
+  <rect x="470" y="55" width="90" height="170" fill="#2C4A3E" opacity="0.55"/>
+  <rect x="560" y="55" width="20" height="170" fill="#4A443C"/>
+  <text x="515" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">thick insulation layer</text>
+
+  <line x1="410" y1="90" x2="445" y2="90" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrowR)"/>
+  <line x1="580" y1="140" x2="600" y2="140" stroke="#8B6F4E" stroke-width="1.5" marker-end="url(#arrowR)"/>
+  <line x1="410" y1="190" x2="445" y2="190" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrowR)"/>
+  <text x="515" y="46" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">warm side</text>
+  <text x="640" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">heat escapes slowly</text>
+
+  <text x="390" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">R-value measures resistance to heat flow — higher R-value, slower heat loss per hour, per square foot</text>
+</svg>

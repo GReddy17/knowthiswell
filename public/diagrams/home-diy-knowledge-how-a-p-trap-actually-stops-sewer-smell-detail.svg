@@ -1,0 +1,43 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pTrapTitle">
+  <title id="pTrapTitle">A cross-section detail diagram of a P-trap under a sink, showing water draining in from the fixture, a curved bend that holds a standing column of water called the trap seal, the trap seal blocking sewer gas from rising up through the drain, and a waste line continuing to the sewer with a vent pipe admitting air so the trap seal isn't siphoned out.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">A P-trap's standing water column blocks sewer gas</text>
+
+  <text x="130" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">from the sink</text>
+  <line x1="130" y1="64" x2="130" y2="110" stroke="#4A443C" stroke-width="10"/>
+  <line x1="130" y1="90" x2="130" y2="105" stroke="#2C4A3E" stroke-width="4" marker-end="url(#arrowPT)"/>
+
+  <path d="M 110,110 L 110,170 A 40 40 0 0 0 190 170 L 190,120" fill="none" stroke="#4A443C" stroke-width="10"/>
+  <path d="M 190,120 L 190,150 L 300,150" fill="none" stroke="#4A443C" stroke-width="10"/>
+
+  <path d="M 115,150 L 115,168 A 35 35 0 0 0 185 168 L 185,140 L 296,140" fill="none" stroke="#2C4A3E" stroke-width="6" opacity="0.85"/>
+  <text x="150" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#2C4A3E">trap seal</text>
+  <text x="150" y="219" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">standing water, a few inches deep</text>
+
+  <path d="M 145,175 L 145,145" stroke="#1F1B16" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#arrowPTblock)"/>
+  <text x="205" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">sewer gas</text>
+  <text x="205" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">blocked here</text>
+
+  <rect x="300" y="132" width="220" height="36" fill="#8B6F4E"/>
+  <text x="410" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#FBF8F1">waste line to sewer</text>
+
+  <line x1="470" y1="132" x2="470" y2="60" stroke="#4A443C" stroke-width="8"/>
+  <line x1="470" y1="100" x2="470" y2="70" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrowPT)"/>
+  <text x="470" y="46" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">vent pipe</text>
+  <text x="470" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">lets air in, protects the trap seal</text>
+
+  <rect x="560" y="132" width="180" height="36" fill="none" stroke="#4A443C" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="650" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">toward municipal sewer</text>
+
+  <text x="390" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">The bend refills with water after every use, keeping the barrier in place without any moving parts.</text>
+
+  <defs>
+    <marker id="arrowPT" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowPTblock" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/>
+    </marker>
+  </defs>
+</svg>

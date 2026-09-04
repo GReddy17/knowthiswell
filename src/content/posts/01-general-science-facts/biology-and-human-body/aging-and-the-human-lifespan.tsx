@@ -46,6 +46,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/blood-and-the-circulatory-system-in-depth",
     "general-science-facts/hormones-and-the-endocrine-system",
     "general-science-facts/the-eye-and-how-vision-works",
+    "general-science-facts/the-five-senses",
   ],
   glossary: [
     { term: "Chronological age", definition: "The number of years a person has been alive, measured from their birth date." },
@@ -133,7 +134,7 @@ export default function Post() {
         altText="A row of chromosome diagrams shown across successive cell divisions from left to right, with the telomere caps at each chromosome end drawn progressively shorter at each step, ending with a final chromosome labeled as entering cellular senescence once its telomeres become critically short."
       />
       <p>
-      Read the diagram left to right as a timeline of divisions for a single cell lineage: each step shortens the telomere cap slightly, and the process is one-directional under normal conditions — telomeres don&apos;t grow back between divisions in most cell types. The final state, cellular senescence, isn&apos;t cell death; the cell survives and stays active but permanently stops dividing, which is a very different outcome from simply dying off.
+      Read the diagram left to right as a timeline of divisions for a single cell lineage: each step shortens the telomere cap slightly, and the process is one-directional under normal conditions — telomeres don&apos;t grow back between divisions in most cell types. The final state, cellular senescence, isn&apos;t cell death; the cell survives and stays active but permanently stops dividing, which is a very different outcome from simply dying off. This same slow accumulation of senescent, less-responsive cells is a major reason <TermLink href="/general-science-facts/the-five-senses">sensory sharpness</TermLink> — like near vision or high-frequency hearing — tends to decline gradually over decades rather than failing all at once.
       </p>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="roomTempTitle">
+  <title id="roomTempTitle">A cross-section diagram of a two-story house showing several reasons individual rooms run hotter or colder than the rest of the house: a sun-facing upstairs room gaining extra heat through windows, a distant room at the end of a long duct run receiving weaker airflow, a room with a closed vent restricting supply air, and a room above an unheated garage losing heat through the floor.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <rect x="40" y="30" width="700" height="240" fill="none" stroke="#4A443C" stroke-width="2"/>
+  <line x1="40" y1="150" x2="740" y2="150" stroke="#4A443C" stroke-width="1.5"/>
+
+  <rect x="560" y="35" width="170" height="110" fill="#8B6F4E" opacity="0.25"/>
+  <text x="645" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Sun-facing room</text>
+  <line x1="700" y1="20" x2="670" y2="60" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowH)"/>
+  <line x1="715" y1="30" x2="690" y2="65" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowH)"/>
+  <text x="645" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">extra solar heat gain</text>
+  <text x="645" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">through windows</text>
+
+  <rect x="60" y="35" width="150" height="110" fill="#2C4A3E" opacity="0.2"/>
+  <text x="135" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Far room</text>
+  <path d="M370 90 C 300 90 250 90 210 90" fill="none" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrowH)"/>
+  <text x="135" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">weak airflow at</text>
+  <text x="135" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">end of long duct run</text>
+
+  <rect x="230" y="35" width="150" height="110" fill="#4A443C" opacity="0.18"/>
+  <text x="305" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Closed-vent room</text>
+  <rect x="290" y="118" width="30" height="8" fill="#4A443C"/>
+  <text x="305" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">supply vent shut</text>
+
+  <rect x="400" y="35" width="150" height="110" fill="#2C4A3E" opacity="0.2"/>
+  <text x="475" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Room over garage</text>
+  <line x1="475" y1="145" x2="475" y2="175" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowH)"/>
+  <text x="475" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">heat lost through</text>
+
+  <rect x="400" y="150" width="150" height="115" fill="#8B6F4E" opacity="0.12"/>
+  <text x="475" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Unheated garage</text>
+  <text x="475" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">(floor below stays cold)</text>
+
+  <rect x="60" y="150" width="680" height="115" fill="#FBF8F1"/>
+  <text x="135" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Ground floor</text>
+
+  <defs>
+    <marker id="arrowH" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+  <text x="390" y="288" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">One thermostat reads one spot — every room still has its own heat gains, losses, and airflow</text>
+</svg>

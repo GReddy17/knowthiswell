@@ -1,0 +1,41 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="waterPressureTitle">
+  <title id="waterPressureTitle">A comparison diagram showing water pressure measured at a home's ground floor versus its third floor from the same municipal supply: the ground floor reading is higher and the third floor reading is lower, because each foot of elevation gained reduces static water pressure by about 0.433 psi.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Same supply, different elevation, different reading</text>
+
+  <rect x="120" y="46" width="150" height="200" fill="none" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="120" y1="112" x2="270" y2="112" stroke="#4A443C" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="120" y1="178" x2="270" y2="178" stroke="#4A443C" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="278" y="60" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">3rd floor</text>
+  <text x="278" y="126" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">2nd floor</text>
+  <text x="278" y="192" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">ground floor</text>
+
+  <line x1="345" y1="246" x2="345" y2="46" stroke="#2C4A3E" stroke-width="8"/>
+  <line x1="345" y1="200" x2="345" y2="60" stroke="#8B6F4E" stroke-width="8"/>
+  <text x="345" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">supply riser</text>
+
+  <rect x="150" y="55" width="16" height="16" rx="3" fill="#8B6F4E"/>
+  <text x="200" y="67" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#8B6F4E">≈ 43 psi</text>
+  <text x="200" y="80" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">(20 ft higher, weaker reading)</text>
+
+  <rect x="150" y="210" width="16" height="16" rx="3" fill="#2C4A3E"/>
+  <text x="200" y="222" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#2C4A3E">≈ 60 psi</text>
+  <text x="200" y="235" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">(supply pressure at grade)</text>
+
+  <rect x="470" y="60" width="260" height="150" rx="8" fill="none" stroke="#4A443C" stroke-width="1.5"/>
+  <text x="600" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">Why it drops</text>
+  <text x="600" y="106" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Pressure (psi) = height (ft) × 0.433</text>
+  <text x="600" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">20 ft of rise ≈ 8.7 psi lost</text>
+  <text x="600" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">to lifting the water column</text>
+  <text x="600" y="178" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">independent of pipe size</text>
+  <text x="600" y="196" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">or how far the water traveled</text>
+
+  <text x="390" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">PSI measures force pushing on a given area — elevation alone changes that number.</text>
+
+  <defs>
+    <marker id="arrowWP" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

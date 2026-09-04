@@ -45,6 +45,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/human-body-systems",
     "general-science-facts/diseases-immunity-and-how-the-body-fights-illness",
     "general-science-facts/atoms-and-elements",
+    "general-science-facts/the-eye-and-how-vision-works",
   ],
   glossary: [
     { term: "Cell", definition: "The basic structural and functional unit of life; the human body is made of roughly 30-37 trillion of them." },
@@ -87,7 +88,7 @@ export default function Post() {
       <FootnoteAside>The Human Genome Project, an international effort completed in 2003, found the human genome contains roughly 3 billion DNA base pairs but only about 20,000 protein-coding genes — far fewer than researchers had predicted in the 1990s, when estimates commonly ran to 100,000 or more.</FootnoteAside>
 
       <p>
-      Knowing that genes come in pairs explains a lot, but the real payoff is being able to predict the odds of a specific trait showing up in offspring — which is exactly what a Punnett square is built to do.
+      Knowing that genes come in pairs explains a lot, but the real payoff is being able to predict the odds of a specific trait showing up in offspring — which is exactly what a Punnett square is built to do. Eye color itself is actually set by several genes working together rather than one single pair, but the underlying reason it varies at all traces back to genetics, not to any difference in <TermLink href="/general-science-facts/the-eye-and-how-vision-works">how the eye itself processes light</TermLink> once it&apos;s built.
       </p>
 
       <QuickCheck

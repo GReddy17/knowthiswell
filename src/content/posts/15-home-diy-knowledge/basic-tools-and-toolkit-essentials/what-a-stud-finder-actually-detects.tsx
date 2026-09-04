@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/how-a-tape-measure-stays-accurate",
     "home-diy-knowledge/how-a-claw-hammer-actually-works",
     "home-diy-knowledge/what-torque-actually-means-for-a-wrench",
+    "home-diy-knowledge/how-to-tell-what-weight-a-wall-can-hold",
   ],
   glossary: [
     { term: "Capacitance", definition: "A measure of how much electric charge a material or gap can store for a given voltage — it changes depending on what material sits within an electric field, which is what a stud finder actually measures." },
@@ -106,7 +107,7 @@ export default function Post() {
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: Choosing between capacitive and magnetic before hanging a heavy shelf (real-world / applied case)</h3>
       <p>
-        Before mounting a heavy shelf, a homeowner uses a capacitive stud finder to locate the approximate edges of a stud, then confirms the exact center by locating the nail heads already in the drywall with a magnetic stud finder — since a stud edge found capacitively is only a density boundary, not a precise center point, and finding two nail lines with the magnetic tool pins down the stud&apos;s true middle for a stronger, centered anchor point.
+        Before mounting a heavy shelf, a homeowner uses a capacitive stud finder to locate the approximate edges of a stud, then confirms the exact center by locating the nail heads already in the drywall with a magnetic stud finder — since a stud edge found capacitively is only a density boundary, not a precise center point, and finding two nail lines with the magnetic tool pins down the stud&apos;s true middle for a stronger, centered anchor point. Locating the stud is only half the question, though — <TermLink href="/home-diy-knowledge/how-to-tell-what-weight-a-wall-can-hold">how much weight that mounting point can actually hold</TermLink> still depends on the fastener and the framing behind it, not just finding solid wood to drive into.
       </p>
       <QuickCheck
         question="Why might someone use both a capacitive and a magnetic stud finder together before driving a heavy-duty fastener?"

@@ -47,6 +47,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/blood-and-the-circulatory-system-in-depth",
     "general-science-facts/hormones-and-the-endocrine-system",
     "general-science-facts/aging-and-the-human-lifespan",
+    "general-science-facts/nutrition-and-how-the-body-uses-food",
   ],
   glossary: [
     { term: "Skeletal muscle", definition: "Muscle tissue attached to bone by tendons and under voluntary control, responsible for body movement." },
@@ -89,7 +90,7 @@ export default function Post() {
       <FootnoteAside>Babies are born with roughly 270 separate bones, more than the 206 an adult has — many of these fuse together as the skeleton matures, such as the multiple skull plates that gradually knit together in early childhood.</FootnoteAside>
 
       <p>
-      That pulling-only mechanism is easy to state but easy to underestimate — it explains not just how a single joint bends, but why the body needs so many muscles working in coordinated pairs and groups just to move at all.
+      That pulling-only mechanism is easy to state but easy to underestimate — it explains not just how a single joint bends, but why the body needs so many muscles working in coordinated pairs and groups just to move at all. Powering that repeated pull with ATP also means muscle tissue is one of the body&apos;s largest ongoing consumers of the fuel and protein <TermLink href="/general-science-facts/nutrition-and-how-the-body-uses-food">extracted from food</TermLink>, especially during repair and growth after exertion.
       </p>
 
       <QuickCheck

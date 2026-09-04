@@ -46,6 +46,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/muscles-bones-and-movement",
     "general-science-facts/blood-and-the-circulatory-system-in-depth",
     "general-science-facts/aging-and-the-human-lifespan",
+    "general-science-facts/sleep-and-the-brain",
   ],
   glossary: [
     { term: "Hormone", definition: "A chemical messenger released by a gland directly into the bloodstream that travels to and affects specific target cells elsewhere in the body." },
@@ -87,7 +88,7 @@ export default function Post() {
       <FootnoteAside>Adrenaline (epinephrine) can act as both a hormone and a neurotransmitter — released from the adrenal glands into the bloodstream as a hormone during stress, but also used locally as a chemical signal within the nervous system itself, one of a small number of substances the body uses both ways.</FootnoteAside>
 
       <p>
-      That feedback-loop mechanism is the working principle behind nearly every hormone system in the body, and it&apos;s easiest to see clearly by walking through exactly what happens when one loop is put under stress — like a sudden drop in blood sugar.
+      That feedback-loop mechanism is the working principle behind nearly every hormone system in the body, and it&apos;s easiest to see clearly by walking through exactly what happens when one loop is put under stress — like a sudden drop in blood sugar. Not every hormone loop responds to a body-condition signal like blood sugar, either — melatonin, released on a roughly 24-hour cycle set largely by light exposure, is what drives the <TermLink href="/general-science-facts/sleep-and-the-brain">brain&apos;s sleep-wake timing</TermLink> rather than any single measurable blood level.
       </p>
 
       <QuickCheck

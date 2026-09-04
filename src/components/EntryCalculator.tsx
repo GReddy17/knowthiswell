@@ -351,6 +351,14 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
   // (P = 100 * (1 - e^(-t/tau))). Same underlying curve, opposite directions.
   hoursToReachProficiencyPercent: (v) => -v.characteristicLearningHours * Math.log(1 - v.targetProficiencyPercent / 100),
   practiceProficiencyPercentFromHours: (v) => 100 * (1 - Math.exp(-v.hoursPracticed / v.characteristicLearningHours)),
+
+  // --- Home & DIY Knowledge (topic 15): Plumbing Basics & Common Fixes ---
+  dripFaucetGallonsWastedPerYear: (v) => v.dripsPerMinute * 50, // EPA WaterSense reference: ~1 drip/sec (60/min) wastes 3,000+ gal/yr, scaled linearly
+  waterPressureFromHeightFeet: (v) => v.heightFeet * 0.433, // hydrostatic pressure: psi = height of water column (ft) x 0.433
+
+  // --- Home & DIY Knowledge (topic 15): HVAC & Home Comfort Basics ---
+  coolingTonsToBtuPerHour: (v) => v.tons * 12000, // standard cooling-capacity conversion: 1 ton = 12,000 BTU/hr
+  heatLossRateBtuPerHour: (v) => (v.areaSqFt * v.tempDifferenceF) / v.rValue, // heat flow = area x temperature difference / R-value
 };
 
 interface EntryCalculatorProps {

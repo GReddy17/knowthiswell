@@ -46,6 +46,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/muscles-bones-and-movement",
     "general-science-facts/hormones-and-the-endocrine-system",
     "general-science-facts/aging-and-the-human-lifespan",
+    "general-science-facts/nutrition-and-how-the-body-uses-food",
   ],
   glossary: [
     { term: "Plasma", definition: "The straw-colored liquid portion of blood, making up about 55% of its volume, that carries blood cells, nutrients, hormones, and waste products." },
@@ -88,7 +89,7 @@ export default function Post() {
       <FootnoteAside>Red blood cells have no nucleus and no DNA — they&apos;re essentially bags of hemoglobin optimized purely for carrying oxygen. Each one lives about 120 days before being broken down and replaced, and the bone marrow produces roughly two million new ones every second to keep up.</FootnoteAside>
 
       <p>
-      That heart rate and stroke volume relationship isn&apos;t just a definition — it&apos;s the exact number that changes when you exercise, and understanding it explains why your heart pounds so much harder during a workout than it does at rest.
+      That heart rate and stroke volume relationship isn&apos;t just a definition — it&apos;s the exact number that changes when you exercise, and understanding it explains why your heart pounds so much harder during a workout than it does at rest. The nutrients that plasma carries out to the capillaries only reach the bloodstream in the first place because of how the digestive system <TermLink href="/general-science-facts/nutrition-and-how-the-body-uses-food">breaks food down and absorbs it</TermLink> — circulation is the delivery system, not the source.
       </p>
 
       <QuickCheck

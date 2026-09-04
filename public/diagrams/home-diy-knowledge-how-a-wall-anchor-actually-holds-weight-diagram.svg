@@ -1,0 +1,51 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wallAnchorTitle">
+  <title id="wallAnchorTitle">Three cross-sections through a hollow drywall panel. A screw driven straight into drywall alone concentrates all the pulling load onto a small point of paper-faced gypsum, which tears out under modest weight. An expansion-style anchor spreads that same load over a wider ring of the gypsum core as it is driven or set, raising the weight it can hold. A toggle-style anchor opens a wing or spring toggle behind the wall that presses against a much larger area of the drywall's backside, spreading the load the most and holding the most weight.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="24" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Holding weight in drywall: how the load gets spread</text>
+
+  <!-- Panel A: screw only -->
+  <g>
+    <rect x="45" y="55" width="18" height="170" fill="#B0A98F"/>
+    <text x="54" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#2C4A3E">Screw alone</text>
+    <line x1="54" y1="130" x2="54" y2="90" stroke="#4A443C" stroke-width="6"/>
+    <circle cx="54" cy="130" r="5" fill="#4A443C"/>
+    <path d="M40,128 A 20,15 0 0 1 68,128" fill="none" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="54" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Load hits one small</text>
+    <text x="54" y="262" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">point of paper-faced</text>
+    <text x="54" y="274" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">gypsum — tears out fast.</text>
+  </g>
+
+  <!-- Panel B: expansion anchor -->
+  <g>
+    <rect x="245" y="55" width="18" height="170" fill="#B0A98F"/>
+    <text x="254" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#2C4A3E">Expansion anchor</text>
+    <path d="M254,80 L254,150 L242,180 L266,180 L254,150" fill="#8B6F4E" stroke="#2C4A3E" stroke-width="1"/>
+    <ellipse cx="254" cy="180" rx="26" ry="7" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <line x1="254" y1="130" x2="254" y2="95" stroke="#4A443C" stroke-width="5"/>
+    <text x="254" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Anchor body flares out,</text>
+    <text x="254" y="262" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">spreading load over a</text>
+    <text x="254" y="274" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">wider ring of gypsum.</text>
+  </g>
+
+  <!-- Panel C: toggle -->
+  <g>
+    <rect x="445" y="55" width="18" height="170" fill="#B0A98F"/>
+    <text x="454" y="45" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#2C4A3E">Toggle anchor</text>
+    <line x1="454" y1="130" x2="454" y2="95" stroke="#4A443C" stroke-width="5"/>
+    <rect x="415" y="150" width="78" height="12" rx="4" fill="#2C4A3E"/>
+    <ellipse cx="454" cy="182" rx="42" ry="9" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <text x="454" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Wings spring open behind</text>
+    <text x="454" y="262" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">the wall, pressing a wide</text>
+    <text x="454" y="274" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">area — holds the most weight.</text>
+  </g>
+
+  <!-- weight indicator -->
+  <text x="660" y="80" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#8B6F4E">Approx. weight held</text>
+  <text x="660" y="98" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Screw alone: a few lb</text>
+  <text x="660" y="114" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Expansion: ~10&#8211;25 lb</text>
+  <text x="660" y="130" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Toggle: 50&#8211;100+ lb</text>
+  <line x1="640" y1="60" x2="640" y2="220" stroke="#B0A98F" stroke-width="1"/>
+
+  <text x="390" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Same drywall, same fastener size — the anchor's job is only ever to spread the point load over more area.</text>
+</svg>

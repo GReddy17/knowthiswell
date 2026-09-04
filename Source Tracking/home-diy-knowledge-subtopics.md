@@ -17,9 +17,9 @@ instructions for hazardous work).
 50 posts across 10 subtopic clusters of 5 posts each. `order` is continuous
 1-50 across the whole category.
 
-**Resume point:** next batch starts at cluster 3, Plumbing Basics & Common
-Fixes (order 11), post `how-a-toilet-actually-flushes-and-refills.tsx`.
-(Clusters 1-2, order 1-10, complete and verified as of 2026-09-03.)
+**Resume point:** next batch starts at cluster 7, Home Safety & Detection
+Systems (order 31), post `how-a-smoke-detector-actually-senses-smoke.tsx`.
+(Clusters 1-6, order 1-30, complete and verified as of 2026-09-04.)
 
 ---
 
@@ -121,10 +121,10 @@ Folder: `exterior-yard-and-structural-basics/`
 |---|----------|--------|
 | 1 | Basic Tools & Toolkit Essentials | done — verified (build/lint/typecheck clean) |
 | 2 | Electrical Basics & Safety | done — verified (build/lint/typecheck clean) |
-| 3 | Plumbing Basics & Common Fixes | not started |
-| 4 | Wall, Paint & Surface Repair | not started |
-| 5 | Fasteners, Adhesives & Mounting | not started |
-| 6 | HVAC & Home Comfort Basics | not started |
+| 3 | Plumbing Basics & Common Fixes | done — verified (build/lint/typecheck clean) |
+| 4 | Wall, Paint & Surface Repair | done — verified (build/lint/typecheck clean) |
+| 5 | Fasteners, Adhesives & Mounting | done — verified (build/lint/typecheck clean) |
+| 6 | HVAC & Home Comfort Basics | done — verified (build/lint/typecheck clean) |
 | 7 | Home Safety & Detection Systems | not started |
 | 8 | Seasonal & Preventive Maintenance | not started |
 | 9 | Flooring & Interior Basics | not started |

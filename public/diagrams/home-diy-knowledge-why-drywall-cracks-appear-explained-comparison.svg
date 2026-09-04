@@ -1,0 +1,32 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="crackCompareTitle">
+  <title id="crackCompareTitle">Two different drywall crack patterns compared: a diagonal crack radiating from the top corner of a door opening, caused by stress concentrating where framing members meet, versus a straight crack running along a taped seam, caused by the joint tape itself losing its bond to the drywall.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Two crack patterns, two different causes</text>
+
+  <!-- LEFT: corner stress crack -->
+  <rect x="60" y="50" width="250" height="190" rx="4" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <!-- door opening cut into wall -->
+  <rect x="150" y="150" width="80" height="90" fill="#FBF8F1" stroke="#1F1B16" stroke-width="2"/>
+  <!-- diagonal stress crack from door corner -->
+  <path d="M150,150 L138,128 L146,110 L128,90 L136,72" fill="none" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowCrack1)"/>
+  <text x="185" y="262" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Corner stress crack</text>
+  <text x="185" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Diagonal, starts at a door or</text>
+  <text x="185" y="291" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">window corner where stress concentrates</text>
+
+  <!-- RIGHT: seam/tape crack -->
+  <rect x="470" y="50" width="250" height="190" rx="4" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <line x1="490" y1="150" x2="700" y2="150" stroke="#4A443C" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <path d="M495,150 L525,146 L555,153 L585,148 L615,152 L645,147 L675,150" fill="none" stroke="#8B6F4E" stroke-width="2.5"/>
+  <text x="595" y="262" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Seam / tape crack</text>
+  <text x="595" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Straight, follows a taped joint</text>
+  <text x="595" y="291" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">where the tape bond itself failed</text>
+
+  <defs>
+    <marker id="arrowCrack1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="20" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="1" fill="none"> </text>
+</svg>

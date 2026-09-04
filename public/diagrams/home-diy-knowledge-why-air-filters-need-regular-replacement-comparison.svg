@@ -1,0 +1,47 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="filterCompareTitle">
+  <title id="filterCompareTitle">A side-by-side comparison of a clean HVAC air filter with open pleats letting air pass freely into the blower, versus a clogged filter with pleats packed with dust that restrict airflow, forcing the blower motor to work harder and reducing the air actually moved through the house.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="195" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Clean filter</text>
+  <text x="585" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Clogged filter</text>
+
+  <rect x="60" y="55" width="270" height="170" rx="6" fill="#FFFFFF" stroke="#2C4A3E" stroke-width="2"/>
+  <rect x="130" y="70" width="10" height="140" fill="#2C4A3E"/>
+  <rect x="160" y="70" width="10" height="140" fill="#2C4A3E"/>
+  <rect x="190" y="70" width="10" height="140" fill="#2C4A3E"/>
+  <rect x="220" y="70" width="10" height="140" fill="#2C4A3E"/>
+  <rect x="250" y="70" width="10" height="140" fill="#2C4A3E"/>
+  <line x1="75" y1="100" x2="115" y2="100" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowF)"/>
+  <line x1="75" y1="140" x2="115" y2="140" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowF)"/>
+  <line x1="75" y1="180" x2="115" y2="180" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowF)"/>
+  <line x1="270" y1="90" x2="315" y2="90" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowF)"/>
+  <line x1="270" y1="120" x2="315" y2="120" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowF)"/>
+  <line x1="270" y1="150" x2="315" y2="150" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowF)"/>
+  <line x1="270" y1="180" x2="315" y2="180" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowF)"/>
+  <text x="195" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Open pleats — full airflow reaches</text>
+  <text x="195" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">the blower and the ductwork</text>
+
+  <rect x="450" y="55" width="270" height="170" rx="6" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="2"/>
+  <g fill="#8B6F4E">
+    <circle cx="530" cy="90" r="3"/><circle cx="545" cy="110" r="3"/><circle cx="525" cy="130" r="3"/>
+    <circle cx="560" cy="95" r="3"/><circle cx="575" cy="130" r="3"/><circle cx="540" cy="150" r="3"/>
+    <circle cx="565" cy="165" r="3"/><circle cx="590" cy="105" r="3"/><circle cx="600" cy="150" r="3"/>
+    <circle cx="535" cy="180" r="3"/><circle cx="580" cy="185" r="3"/><circle cx="610" cy="175" r="3"/>
+  </g>
+  <rect x="520" y="70" width="10" height="140" fill="#4A443C"/>
+  <rect x="550" y="70" width="10" height="140" fill="#4A443C"/>
+  <rect x="580" y="70" width="10" height="140" fill="#4A443C"/>
+  <rect x="610" y="70" width="10" height="140" fill="#4A443C"/>
+  <rect x="640" y="70" width="10" height="140" fill="#4A443C"/>
+  <line x1="465" y1="140" x2="505" y2="140" stroke="#8B6F4E" stroke-width="2.5" marker-end="url(#arrowF)"/>
+  <line x1="660" y1="140" x2="680" y2="140" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arrowF)"/>
+  <text x="585" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Dust-packed pleats — blower motor</text>
+  <text x="585" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">strains and airflow drops sharply</text>
+
+  <defs>
+    <marker id="arrowF" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+  <text x="390" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Same blower, same duct system — the filter alone determines how freely air can move</text>
+</svg>

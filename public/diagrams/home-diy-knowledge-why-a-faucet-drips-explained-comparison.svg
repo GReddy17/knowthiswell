@@ -1,0 +1,36 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="faucetDripTitle">
+  <title id="faucetDripTitle">A comparison diagram of a compression faucet's washer seal: on the left, an intact rubber washer presses fully against the valve seat with no flow, and on the right, a worn, compressed, or torn washer leaves a small gap against the same valve seat, letting water seep through as a steady drip even with the handle fully closed.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Same handle, fully closed — different washer condition</text>
+
+  <text x="195" y="54" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#2C4A3E">New washer</text>
+  <rect x="70" y="66" width="250" height="176" rx="8" fill="none" stroke="#2C4A3E" stroke-width="1.5"/>
+  <rect x="165" y="80" width="60" height="60" fill="none" stroke="#4A443C" stroke-width="3"/>
+  <text x="195" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">stem</text>
+  <rect x="150" y="150" width="90" height="16" rx="2" fill="#2C4A3E"/>
+  <text x="195" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">washer</text>
+  <path d="M 140,170 L 250,170 L 235,192 L 155,192 Z" fill="none" stroke="#4A443C" stroke-width="2"/>
+  <text x="195" y="212" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">valve seat</text>
+  <text x="195" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#2C4A3E">full contact — sealed, no flow</text>
+
+  <text x="585" y="54" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#8B6F4E">Worn washer</text>
+  <rect x="460" y="66" width="250" height="176" rx="8" fill="none" stroke="#8B6F4E" stroke-width="1.5"/>
+  <rect x="555" y="80" width="60" height="60" fill="none" stroke="#4A443C" stroke-width="3"/>
+  <text x="585" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C">stem</text>
+  <path d="M 540,150 L 630,150 L 626,166 L 544,164 Z" fill="#8B6F4E"/>
+  <text x="585" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">compressed / torn washer</text>
+  <path d="M 530,170 L 640,170 L 625,192 L 545,192 Z" fill="none" stroke="#4A443C" stroke-width="2"/>
+  <text x="585" y="212" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">valve seat</text>
+  <line x1="575" y1="166" x2="575" y2="192" stroke="#1F1B16" stroke-width="2" stroke-dasharray="2,2"/>
+  <text x="660" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">tiny gap</text>
+  <text x="585" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#8B6F4E">gap remains — steady drip</text>
+
+  <text x="390" y="268" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Extra force on the handle can't compress a torn or hardened washer back into a full seal.</text>
+
+  <defs>
+    <marker id="arrowFD" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

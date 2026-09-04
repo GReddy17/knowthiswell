@@ -1,0 +1,48 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="toiletFlowTitle">
+  <title id="toiletFlowTitle">A flow diagram showing a toilet's flush and refill cycle: the handle lifts the flapper, tank water rushes into the bowl and trapway, a full trapway starts a siphon that pulls waste over the trap, air breaks the siphon and the flapper reseats, the float drops and the fill valve opens, and the tank and bowl refill until the rising float shuts the valve, ready for the next flush.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">One flush-and-refill cycle</text>
+
+  <rect x="28" y="52" width="220" height="52" rx="6" fill="#2C4A3E"/>
+  <text x="138" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Handle lifts the flapper</text>
+  <text x="138" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">flush valve opens</text>
+
+  <rect x="280" y="52" width="220" height="52" rx="6" fill="#2C4A3E"/>
+  <text x="390" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Tank water rushes in</text>
+  <text x="390" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">bowl and trapway fill fast</text>
+
+  <rect x="532" y="52" width="220" height="52" rx="6" fill="#4A443C"/>
+  <text x="642" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Siphon starts</text>
+  <text x="642" y="88" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">waste pulled over the trap</text>
+
+  <line x1="248" y1="78" x2="278" y2="78" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowWC)"/>
+  <line x1="500" y1="78" x2="530" y2="78" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowWC)"/>
+  <line x1="642" y1="104" x2="642" y2="164" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowWC)"/>
+
+  <rect x="532" y="166" width="220" height="52" rx="6" fill="#1F1B16"/>
+  <text x="642" y="187" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Siphon breaks</text>
+  <text x="642" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">air enters, flapper reseats</text>
+
+  <rect x="280" y="166" width="220" height="52" rx="6" fill="#8B6F4E"/>
+  <text x="390" y="187" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Float drops</text>
+  <text x="390" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">fill valve opens</text>
+
+  <rect x="28" y="166" width="220" height="52" rx="6" fill="#8B6F4E"/>
+  <text x="138" y="187" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">Tank and bowl refill</text>
+  <text x="138" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">rising float shuts the valve</text>
+
+  <line x1="530" y1="192" x2="502" y2="192" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowWC)"/>
+  <line x1="278" y1="192" x2="250" y2="192" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowWC)"/>
+
+  <path d="M 30,196 L 12,196 L 12,80 L 26,80" fill="none" stroke="#4A443C" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrowWC)"/>
+  <text x="20" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#4A443C" transform="rotate(-90 20 145)">cycle repeats</text>
+
+  <text x="390" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">The flush is driven by a physical siphon; the refill is a float-and-valve feedback loop.</text>
+
+  <defs>
+    <marker id="arrowWC" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

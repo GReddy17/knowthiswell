@@ -1,0 +1,37 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="glossMatteTitle">
+  <title id="glossMatteTitle">A comparison of light hitting two paint film surfaces: a smooth glossy film reflects incoming light in one direction, like a mirror, while a textured matte film, roughened by flattening agent particles, scatters incoming light in many directions.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Same light, two different film textures</text>
+
+  <!-- LEFT: gloss -->
+  <circle cx="200" cy="150" r="82" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <line x1="130" y1="175" x2="270" y2="175" stroke="#1F1B16" stroke-width="3"/>
+  <path d="M150,115 L185,175" fill="none" stroke="#8B6F4E" stroke-width="2.5"/>
+  <path d="M185,175 L220,115" fill="none" stroke="#2C4A3E" stroke-width="2.5" marker-end="url(#arrowGloss)"/>
+  <text x="200" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Gloss</text>
+  <text x="200" y="268" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Smooth film &#8212; specular</text>
+  <text x="200" y="281" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">(mirror-like) reflection</text>
+
+  <!-- RIGHT: matte -->
+  <circle cx="580" cy="150" r="82" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <path d="M500,175 Q512,164 524,175 T548,175 T572,175 T596,175 T620,175" fill="none" stroke="#1F1B16" stroke-width="3"/>
+  <path d="M560,115 L560,170" fill="none" stroke="#8B6F4E" stroke-width="2.5"/>
+  <path d="M560,170 L525,125" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowMatte)"/>
+  <path d="M560,170 L560,110" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowMatte)"/>
+  <path d="M560,170 L600,130" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowMatte)"/>
+  <text x="580" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Matte</text>
+  <text x="580" y="268" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Textured film &#8212; diffuse</text>
+  <text x="580" y="281" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">(scattered) reflection</text>
+
+  <defs>
+    <marker id="arrowGloss" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowMatte" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="20" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="1" fill="none"> </text>
+</svg>

@@ -1,0 +1,54 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="superGlueTitle">
+  <title id="superGlueTitle">A four-step flow showing why cyanoacrylate super glue bonds so fast: liquid cyanoacrylate monomer is spread as a thin film between two surfaces, trace moisture naturally present on those surfaces triggers a chain reaction, monomer molecules link end to end into long polymer chains within seconds, and those interlocked chains solidify into a rigid plastic that mechanically locks the two surfaces together.</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <text x="390" y="24" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Why cyanoacrylate glue sets in seconds, not minutes</text>
+
+  <!-- step boxes -->
+  <g>
+    <rect x="30" y="60" width="160" height="90" rx="6" fill="#2C4A3E"/>
+    <text x="110" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">1. Thin liquid film</text>
+    <text x="110" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">Monomer spreads between</text>
+    <text x="110" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">two close-fitting surfaces</text>
+    <text x="110" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">as a very thin layer.</text>
+  </g>
+
+  <g>
+    <rect x="225" y="60" width="160" height="90" rx="6" fill="#8B6F4E"/>
+    <text x="305" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">2. Moisture triggers it</text>
+    <text x="305" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">Trace water on the surfaces</text>
+    <text x="305" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">supplies hydroxide ions that</text>
+    <text x="305" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">start the reaction.</text>
+  </g>
+
+  <g>
+    <rect x="420" y="60" width="160" height="90" rx="6" fill="#4A443C"/>
+    <text x="500" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">3. Chains link fast</text>
+    <text x="500" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">Each triggered molecule</text>
+    <text x="500" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">links the next one, end to</text>
+    <text x="500" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">end, in a rapid chain reaction.</text>
+  </g>
+
+  <g>
+    <rect x="615" y="60" width="140" height="90" rx="6" fill="#2C4A3E"/>
+    <text x="685" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FBF8F1">4. Solid, locked bond</text>
+    <text x="685" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">Long solid polymer</text>
+    <text x="685" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">chains mechanically</text>
+    <text x="685" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">lock both surfaces.</text>
+  </g>
+
+  <line x1="190" y1="105" x2="220" y2="105" stroke="#4A443C" stroke-width="2.5" marker-end="url(#arrowSG1)"/>
+  <line x1="385" y1="105" x2="415" y2="105" stroke="#4A443C" stroke-width="2.5" marker-end="url(#arrowSG1)"/>
+  <line x1="580" y1="105" x2="610" y2="105" stroke="#4A443C" stroke-width="2.5" marker-end="url(#arrowSG1)"/>
+
+  <defs>
+    <marker id="arrowSG1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#1F1B16">This whole sequence, from step 1 to step 4, typically finishes in seconds to a couple of minutes.</text>
+  <text x="390" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Most other glues instead lose a solvent or water by evaporation, a process that takes far longer.</text>
+  <text x="390" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">A very dry surface has less moisture to trigger step 2, so cure slows down; a very humid one can trigger it</text>
+  <text x="390" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">too fast, weakening the bond before the parts are even fully pressed together.</text>
+</svg>
