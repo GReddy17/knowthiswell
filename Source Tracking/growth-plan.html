@@ -1,0 +1,652 @@
+<title>KnowThisWell Growth Plan</title>
+<meta name="description" content="An automation-first plan to build reach across web, YouTube, and TikTok from one science fact a day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+
+<style>
+  :root {
+    --ground: #FBF8F1;
+    --surface: #F4EEDF;
+    --surface-2: #EFE7D4;
+    --ink: #1F1B16;
+    --ink-soft: #4F483C;
+    --forest: #2C4A3E;
+    --forest-line: #2C4A3E;
+    --ochre: #8B6F4E;
+    --brick: #B23A26;
+    --rule: #E3DCC9;
+    --shadow: 0 1px 0 rgba(31,27,22,.04);
+
+    --measure: 63ch;
+    --font-display: "Fraunces", Georgia, serif;
+    --font-body: "Newsreader", Georgia, serif;
+    --font-util: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #16201B;
+      --surface: #1E2A24;
+      --surface-2: #24322B;
+      --ink: #EFE9DB;
+      --ink-soft: #ADA492;
+      --forest: #86AD96;
+      --forest-line: #3B5147;
+      --ochre: #CFA477;
+      --brick: #E27C64;
+      --rule: #313E38;
+      --shadow: 0 1px 0 rgba(0,0,0,.25);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #16201B;
+    --surface: #1E2A24;
+    --surface-2: #24322B;
+    --ink: #EFE9DB;
+    --ink-soft: #ADA492;
+    --forest: #86AD96;
+    --forest-line: #3B5147;
+    --ochre: #CFA477;
+    --brick: #E27C64;
+    --rule: #313E38;
+    --shadow: 0 1px 0 rgba(0,0,0,.25);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 19px;
+    line-height: 1.62;
+    font-optical-sizing: auto;
+  }
+  @media (max-width: 640px) { body { font-size: 17.5px; } }
+
+  .wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 clamp(20px, 5vw, 64px);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  @media (min-width: 1000px) {
+    .wrap { grid-template-columns: 200px minmax(0, 1fr); column-gap: 56px; }
+  }
+
+  /* ---- masthead ---- */
+  header.masthead {
+    grid-column: 1 / -1;
+    border-bottom: 2px solid var(--forest-line);
+    padding: 56px 0 34px;
+    margin-bottom: 48px;
+  }
+  .eyebrow {
+    font-family: var(--font-util);
+    font-size: 12.5px;
+    font-weight: 600;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--ochre);
+    margin: 0 0 18px;
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: clamp(2.5rem, 7vw, 4.6rem);
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    margin: 0 0 22px;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+  h1 .green { color: var(--forest); }
+  .standfirst {
+    font-family: var(--font-body);
+    font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+    line-height: 1.5;
+    color: var(--ink-soft);
+    max-width: 52ch;
+    margin: 0;
+  }
+  .meta {
+    font-family: var(--font-util);
+    font-size: 12.5px;
+    letter-spacing: .04em;
+    color: var(--ink-soft);
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+  }
+  .meta b { color: var(--ink); font-weight: 600; }
+
+  /* ---- side nav ---- */
+  nav.toc {
+    display: none;
+  }
+  @media (min-width: 1000px) {
+    nav.toc {
+      display: block;
+      position: sticky;
+      top: 32px;
+      align-self: start;
+      font-family: var(--font-util);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    nav.toc ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 11px; }
+    nav.toc a { color: var(--ink-soft); text-decoration: none; display: block; border-left: 2px solid var(--rule); padding-left: 12px; transition: color .15s, border-color .15s; }
+    nav.toc a:hover { color: var(--forest); border-color: var(--forest); }
+    nav.toc .n { color: var(--ochre); font-variant-numeric: tabular-nums; margin-right: 7px; }
+  }
+
+  main { grid-column: 2 / 3; min-width: 0; }
+  @media (max-width: 999px) { main { grid-column: 1 / -1; } }
+
+  section { margin-bottom: 60px; scroll-margin-top: 24px; }
+  section > p, section > ul, section > ol { max-width: var(--measure); }
+
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: clamp(1.6rem, 3.6vw, 2.3rem);
+    line-height: 1.08;
+    letter-spacing: -0.015em;
+    margin: 0 0 8px;
+    text-wrap: balance;
+    color: var(--ink);
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+  }
+  h2 .sec-n {
+    font-family: var(--font-util);
+    font-size: .72rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+    color: var(--ochre);
+    flex: none;
+    transform: translateY(-2px);
+  }
+  .kicker {
+    font-family: var(--font-util);
+    font-size: 12.5px;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0 0 22px;
+  }
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.22rem;
+    line-height: 1.25;
+    margin: 34px 0 6px;
+    color: var(--ink);
+  }
+  p { margin: 0 0 16px; }
+  a { color: var(--forest); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  strong { font-weight: 600; color: var(--ink); }
+  em { font-style: italic; }
+
+  ul, ol { margin: 0 0 16px; padding-left: 1.25em; }
+  li { margin: 0 0 7px; }
+  li::marker { color: var(--ochre); }
+
+  .lede {
+    font-size: 1.16em;
+    line-height: 1.5;
+    color: var(--ink);
+    border-left: 3px solid var(--forest);
+    padding-left: 20px;
+    margin: 0 0 26px;
+    max-width: 56ch;
+  }
+
+  /* ---- stop / start / keep ---- */
+  .ssk {
+    display: grid;
+    gap: 14px;
+    margin: 26px 0 8px;
+    max-width: 100%;
+  }
+  @media (min-width: 720px) { .ssk { grid-template-columns: repeat(3, 1fr); } }
+  .ssk > div {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--forest);
+    padding: 18px 18px 6px;
+  }
+  .ssk h4 {
+    font-family: var(--font-util);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    margin: 0 0 12px;
+  }
+  .ssk .stop { border-top-color: var(--brick); }
+  .ssk .stop h4 { color: var(--brick); }
+  .ssk .start h4 { color: var(--forest); }
+  .ssk .keep h4 { color: var(--ochre); }
+  .ssk .keep { border-top-color: var(--ochre); }
+  .ssk ul { padding-left: 1.1em; font-size: .92em; line-height: 1.5; }
+
+  /* ---- pipeline ---- */
+  .pipe {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 10px;
+    margin: 24px 0;
+    font-family: var(--font-util);
+  }
+  .pipe .node {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    padding: 12px 15px;
+    font-size: 13px;
+    line-height: 1.35;
+    flex: 1 1 120px;
+    min-width: 110px;
+  }
+  .pipe .node .src { color: var(--forest); font-weight: 600; display:block; margin-bottom: 3px; }
+  .pipe .seed { background: var(--forest); color: var(--ground); border-color: var(--forest); flex-basis: 100%; }
+  .pipe .seed .src { color: var(--ground); }
+
+  /* ---- tables ---- */
+  .tbl-wrap { overflow-x: auto; margin: 22px 0; border: 1px solid var(--rule); }
+  table { border-collapse: collapse; width: 100%; font-family: var(--font-util); font-size: 13.5px; }
+  th, td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  thead th {
+    background: var(--surface-2);
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .tag {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+  .tag.now { color: var(--forest); }
+  .tag.you { color: var(--brick); }
+
+  /* ---- callout ---- */
+  .call {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    padding: 20px 22px;
+    margin: 24px 0;
+    max-width: var(--measure);
+  }
+  .call p:last-child { margin-bottom: 0; }
+  .call .label {
+    font-family: var(--font-util);
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ochre);
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  hr.div {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 0 0 60px;
+    max-width: 100%;
+  }
+
+  footer {
+    grid-column: 1 / -1;
+    border-top: 2px solid var(--forest-line);
+    margin-top: 20px;
+    padding: 30px 0 60px;
+    font-family: var(--font-util);
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; scroll-behavior: auto !important; }
+  }
+  :focus-visible { outline: 2px solid var(--forest); outline-offset: 2px; }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow">KnowThisWell · Operating Plan</p>
+    <h1>One fact.<br><span class="green">Every surface.</span></h1>
+    <p class="standfirst">Stop publishing 20 posts a day into 43 categories. Run one surprising science fact through the whole machine every day — article, Short, TikTok, Reel, post — and let the algorithms do the distribution work no human has time for.</p>
+    <div class="meta">
+      <span><b>Goal</b> &nbsp;Brand + reach from every source</span>
+      <span><b>Constraint</b> &nbsp;Automation only, ~0 manual hrs</span>
+      <span><b>Horizon</b> &nbsp;90 days to a verdict</span>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Contents">
+    <ol>
+      <li><a href="#bet"><span class="n">01</span>The bet</a></li>
+      <li><a href="#engine"><span class="n">02</span>The engine</a></li>
+      <li><a href="#web"><span class="n">03</span>Web &amp; search</a></li>
+      <li><a href="#youtube"><span class="n">04</span>YouTube</a></li>
+      <li><a href="#tiktok"><span class="n">05</span>TikTok &amp; Reels</a></li>
+      <li><a href="#reach"><span class="n">06</span>Reach ceiling</a></li>
+      <li><a href="#automation"><span class="n">07</span>Automation changes</a></li>
+      <li><a href="#metrics"><span class="n">08</span>Metrics &amp; roadmap</a></li>
+      <li><a href="#decisions"><span class="n">09</span>Your decisions</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <section id="bet">
+      <p class="kicker">01 — The bet</p>
+      <h2>Pick the one thing that has actually worked.</h2>
+      <p class="lede">Nothing in the current numbers is working except two Shorts about counterintuitive physics — <strong>1,000 and 750 views</strong> with zero promotion. That is the entire signal. Build the whole operation around it.</p>
+
+      <p>The site has 720 posts across 43 categories, ~293 of them indexed, an average Google position of 66, and four clicks in the last 28 days. Traffic is trending down. This is what a broad, fast, automated content push looks like after Google's helpful-content and scaled-content updates: the volume works against you — crawl budget spread thin, no topical authority anywhere, no reason for any single page to rank.</p>
+
+      <p>Meanwhile the two Shorts that broke out share a shape: <em>one surprising, everyday, physical fact, explained in 60 seconds.</em> That shape is the highest free-distribution format on the internet right now — TikTok, YouTube Shorts, Instagram Reels, and Google Discover all push it to brand-new accounts without a single backlink or outreach email. It is also the one thing an automated pipeline can produce endlessly without quality collapsing.</p>
+
+      <h3>The pillar: counterintuitive everyday science</h3>
+      <p>Every day, one fact from the <strong>General Science</strong> library — the counterintuitive kind. "Heavier objects don't fall faster." "You see lightning before thunder because light basically doesn't travel — sound crawls." "A raise can't shrink your paycheck." One fact becomes six assets (next section). This is the brand: <em>the channel that explains the thing you thought you understood.</em></p>
+
+      <h3>The workhorse: Technology Basics, for search only</h3>
+      <p>Keep one slow stream of deep web articles in <strong>Technology Basics</strong> — "what a VPN actually does," "what the cloud actually is." 100 of these are already written. The intent is evergreen and search-driven, not curiosity-driven, so it doesn't need video. Two genuinely deep pieces a week, heavily interlinked. Nothing else.</p>
+
+      <h3>Everything else: frozen</h3>
+      <p>The other 41 categories stop receiving new content. They're not deleted — they're parked. Depth in two clusters beats a thin presence in forty-three. You can thaw a category later, from a position of authority, if the data ever asks for it.</p>
+    </section>
+
+    <hr class="div">
+
+    <section id="engine">
+      <p class="kicker">02 — The engine</p>
+      <h2>One fact in. Six assets out.</h2>
+      <p>The whole system runs off a single daily seed. Pick the fact, write it once, and every downstream asset is a transformation of the same source — which is exactly why the brand reads as consistent and the internal links write themselves.</p>
+
+      <div class="pipe" role="img" aria-label="One source fact feeds six outputs: web article, YouTube Short, TikTok, Instagram Reel, X post, and the long-form video queue.">
+        <div class="node seed"><span class="src">Daily seed</span>One counterintuitive science fact + its mechanism, sourced.</div>
+        <div class="node"><span class="src">Web article</span>800–1,100 words, the fact + why, diagram, interlinked to its cluster.</div>
+        <div class="node"><span class="src">YouTube Short</span>Vertical, 30–45s, hook in frame one, burned captions, no intro.</div>
+        <div class="node"><span class="src">TikTok</span>Same render, native caption, TikTok-keyworded, subscribe CTA stripped.</div>
+        <div class="node"><span class="src">Instagram Reel</span>Same render, 3–5 hashtags, cover frame chosen.</div>
+        <div class="node"><span class="src">X post</span>The fact as a one-liner + link, first-person voice.</div>
+        <div class="node"><span class="src">Long-form queue</span>Fact banked. Only produced if its Short breaks out.</div>
+      </div>
+
+      <div class="ssk">
+        <div class="stop">
+          <h4>Stop</h4>
+          <ul>
+            <li>The 20-posts/day rollout cron — it is actively diluting the domain</li>
+            <li>New content in 41 of 43 categories</li>
+            <li>Long-form YouTube on a schedule (12–58 views is a clear no)</li>
+            <li>Animated logo sting at the front of a Short — viewers swipe in 0.5s</li>
+            <li>Reporting on total post count and raw impressions</li>
+          </ul>
+        </div>
+        <div class="start">
+          <h4>Start</h4>
+          <ul>
+            <li>1 science fact/day → 6 assets, from one seed</li>
+            <li>2 deep Technology Basics articles/week, search-first</li>
+            <li>TikTok + Reels cross-post of every Short (one render, four platforms)</li>
+            <li>Thumbnail A/B: 2 variants per long-form via the generator</li>
+            <li>Community-tab posts 2–3×/week (polls, "did you know")</li>
+          </ul>
+        </div>
+        <div class="keep">
+          <h4>Keep</h4>
+          <ul>
+            <li>The brand system — logo, Fraunces, palette, thumbnail template</li>
+            <li>The daily Reddit / Quora / X automation (genuine answers, 9:1 ratio)</li>
+            <li>NotebookLM for the Explainer audio, with the custom hook prompt</li>
+            <li>The internal-linking pass (now on the content routine)</li>
+            <li>Native scheduled publishing, fixed daily time</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr class="div">
+
+    <section id="web">
+      <p class="kicker">03 — Web &amp; search</p>
+      <h2>Fix indexing first. Chase Discover, not rankings.</h2>
+
+      <h3>Get the pages you have into the index</h3>
+      <p>529 URLs sit in "Discovered — currently not indexed" and the count is rising because the firehose is still on. Turning the firehose down is step one. Then: keep the internal-linking pass running (every post linked from ≥3 others), resubmit the sitemap only when something new ships, and spend the daily ~10 URL-inspection indexing requests on the science pillar and the tech workhorse — nothing else.</p>
+
+      <h3>Prune, hard</h3>
+      <p>720 thin pages is a liability, not an asset. Cut or merge the weakest 30–40% — anything with no impressions after 60 days, near-duplicate coverage, or a locale-specific slug. A smaller site of genuinely useful pages ranks better than a large one Google half-trusts.</p>
+
+      <h3>Google Discover is the automation-friendly web traffic</h3>
+      <p>Discover doesn't need backlinks or rankings — it needs freshness, a strong lead image, a curiosity headline, and baseline trust signals. Counterintuitive science is precisely what Discover surfaces. Every pillar article gets a 1200×630 lead image (the OG generator already makes one), a question or myth-busting H1, and a visible publish/updated date.</p>
+
+      <h3>The E-E-A-T floor (one-time build, then automatic)</h3>
+      <ul>
+        <li>Real, consistent author identities — bio, photo, credentials, a linked profile. Pick two or three and stick to them.</li>
+        <li>A public <em>Editorial standards</em> page: how facts are checked, sources cited, what "reviewed" means.</li>
+        <li>Every article: 2–4 institutional sources, a "last reviewed" date, an author byline that links to the bio.</li>
+        <li>Organisation schema with the new logo (done), sameAs links to the real social accounts once they exist.</li>
+      </ul>
+    </section>
+
+    <hr class="div">
+
+    <section id="youtube">
+      <p class="kicker">04 — YouTube</p>
+      <h2>A Shorts channel that occasionally makes a long video.</h2>
+      <p>The retention data is unambiguous: Shorts work, long-form doesn't. Stop fighting it.</p>
+
+      <h3>Shorts — the growth engine</h3>
+      <ul>
+        <li>One per day, same time, forever. Consistency beats volume.</li>
+        <li>Hook is the first frame — no logo, no "in this video," straight to the surprising claim.</li>
+        <li>Burned-in captions the whole way (most viewing is muted).</li>
+        <li>21–40 seconds. End on a line that makes the loop rewatch.</li>
+        <li>Title = the exact question someone would type. Description = one keyword-rich sentence + source link.</li>
+      </ul>
+
+      <h3>Long-form — paused, not cancelled</h3>
+      <p>Produce a long video <em>only</em> when a Short crosses ~10k views. Then make the 6–8 minute version of that proven topic, link it from the Short's pinned comment and description, and add an end screen to the next one. Demand-driven, not calendar-driven.</p>
+
+      <h3>Thumbnails &amp; titles</h3>
+      <p>The new template is live. Add the built-in A/B: generate two variants per long-form (question vs. statement, or two different `--visual` icons) and let YouTube's Test &amp; Compare pick the winner on click-through. Drop <code>knowthiswell.com</code> from the thumbnail — invisible at grid size, and redundant with the handle.</p>
+
+      <h3>Free surface area</h3>
+      <p>Community tab 2–3×/week: a poll ("which of these is true?"), a single fact card, a "coming this week." Zero production cost, real reach, and it trains the algorithm that the channel is active between uploads.</p>
+    </section>
+
+    <hr class="div">
+
+    <section id="tiktok">
+      <p class="kicker">05 — TikTok &amp; Reels</p>
+      <h2>The channel that doesn't exist yet — and has the most room.</h2>
+      <p class="lede">TikTok gives brand-new accounts real distribution on day one. The format that already works for you as a Short <em>is</em> the native TikTok format. This is the single highest-upside move in the plan.</p>
+
+      <h3>Build the arm into the pipeline</h3>
+      <p>The same vertical render feeds three platforms with small per-platform edits:</p>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Platform</th><th>What changes from the YouTube Short</th></tr></thead>
+          <tbody>
+            <tr><td>TikTok</td><td>Strip any "subscribe" CTA. Export watermark-free. Post <strong>natively</strong> — never as a link to YouTube. Caption carries the keyword phrase + 3 specific hashtags.</td></tr>
+            <tr><td>Instagram Reels</td><td>Pick a clean cover frame. 3–5 hashtags. Keep it under 60s.</td></tr>
+            <tr><td>YouTube Shorts</td><td>As now — the "subscribe" ask is fine here.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>TikTok's ranking signals (all automatable)</h3>
+      <ul>
+        <li>The keyword phrase appears three ways: spoken in the audio, shown as on-screen text, and written in the caption. TikTok transcribes and reads all three.</li>
+        <li>First second is the hook — the claim, on screen, immediately.</li>
+        <li>3–4 <em>specific</em> hashtags (<code>#physicsexplained</code>, not <code>#science</code>). Broad tags don't help anymore.</li>
+        <li>Post 1–2×/day at a fixed time. Volume + consistency is how the FYP learns you.</li>
+      </ul>
+
+      <h3>The one semi-manual lever</h3>
+      <p>Replying to a comment <em>with a video</em> is the strongest free-reach move on TikTok. If even 10 minutes a week ever opens up, that's where it goes — pick the best question from yesterday's comments, answer it as tomorrow's Short. Otherwise the pipeline runs without it.</p>
+    </section>
+
+    <hr class="div">
+
+    <section id="reach">
+      <p class="kicker">06 — Reach ceiling</p>
+      <h2>What automation can't buy — and the honest limit.</h2>
+      <p>The near-zero-manual constraint has a real cost, and it's worth naming so the 90-day verdict is judged fairly.</p>
+
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Lever</th><th>Automatable?</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Short-form volume &amp; cross-posting</td><td>Yes</td><td>The core engine. Fully scripted.</td></tr>
+            <tr><td>Google Discover traffic</td><td>Yes</td><td>Freshness + images + curiosity headlines. No outreach needed.</td></tr>
+            <tr><td>Reddit / Quora / X presence</td><td>Yes (capped)</td><td>Genuine answers only, safe daily limits. Already running.</td></tr>
+            <tr><td>Backlinks / domain authority</td><td>No</td><td>Needs outreach, PR, partnerships. This will lag. Accept it.</td></tr>
+            <tr><td>Comment replies / community</td><td>Partly</td><td>Community-tab posts yes; per-comment video replies need a human.</td></tr>
+            <tr><td>Press, guest posts, "Show HN"</td><td>No</td><td>One-time human pushes. Optional, high-leverage if hours appear.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p><strong>The bet on the ceiling:</strong> short-form + Discover can plausibly reach a few thousand visits and views a day within 90 days on consistency alone. Getting past that — into the tens of thousands, into rankings for competitive terms — takes authority work no cron can do. The plan gets you to the first ceiling honestly; the second ceiling is a later conversation about trading some automation for a few hours a week.</p>
+    </section>
+
+    <hr class="div">
+
+    <section id="automation">
+      <p class="kicker">07 — Automation changes</p>
+      <h2>The concrete edits.</h2>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>What</th><th>Change</th><th></th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Cloud content routine<br><code>KnowThisWell Daily Category Rollout</code></td>
+              <td>Drop from ~20 posts/day to <strong>1 science-pillar article/day + 2 Technology Basics deep articles/week</strong>. Keep the internal-linking pass. Stop touching the other 41 categories.</td>
+              <td><span class="tag now">I can do now</span></td>
+            </tr>
+            <tr>
+              <td><code>daily-video</code> skill</td>
+              <td>Add the <strong>TikTok + Reels arm</strong> (strip CTA, watermark-free export, per-platform captions). Shorts get <strong>no intro sting</strong>. Long-form moves to <strong>demand-triggered</strong> (only after a Short clears ~10k).</td>
+              <td><span class="tag now">I can do now</span></td>
+            </tr>
+            <tr>
+              <td><code>yt-thumbnail.mjs</code></td>
+              <td>Generate <strong>2 A/B variants</strong> per long-form. Remove the URL line from the lockup.</td>
+              <td><span class="tag now">I can do now</span></td>
+            </tr>
+            <tr>
+              <td><code>daily-marketing</code> skill</td>
+              <td>Add a weekly <strong>Discover check</strong> (are pillar articles getting Discover impressions?) and a <strong>community-tab post</strong> step.</td>
+              <td><span class="tag now">I can do now</span></td>
+            </tr>
+            <tr>
+              <td>New: <code>daily-seed</code> orchestrator</td>
+              <td>One entry point that picks the day's fact and fans it out to the article routine, the video pipeline, and the social posters — so every asset traces to the same seed.</td>
+              <td><span class="tag now">I can do now</span></td>
+            </tr>
+            <tr>
+              <td>Prune pass</td>
+              <td>Script to flag the weakest 30–40% of posts (no impressions in 60 days, near-duplicates, locale slugs) for merge or removal.</td>
+              <td><span class="tag you">Needs your go-ahead</span></td>
+            </tr>
+            <tr>
+              <td>TikTok + Instagram accounts</td>
+              <td>Which account / handle. Native posting needs a logged-in session or a posting API token.</td>
+              <td><span class="tag you">Needs your decision</span></td>
+            </tr>
+            <tr>
+              <td>E-E-A-T pages</td>
+              <td>Editorial-standards page + consistent author bios with credentials.</td>
+              <td><span class="tag you">Needs your input on the personas</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <hr class="div">
+
+    <section id="metrics">
+      <p class="kicker">08 — Metrics &amp; roadmap</p>
+      <h2>Track the leading indicators. Give it 90 days.</h2>
+
+      <div class="ssk" style="grid-template-columns: repeat(2,1fr);">
+        <div class="stop">
+          <h4>Stop tracking</h4>
+          <ul>
+            <li>Total post count</li>
+            <li>Raw search impressions</li>
+            <li>Long-form view counts (paused)</li>
+            <li>"Categories launched"</li>
+          </ul>
+        </div>
+        <div class="start">
+          <h4>Start tracking</h4>
+          <ul>
+            <li>Indexed pages &amp; "discovered-not-indexed" trend</li>
+            <li>Avg position for striking-distance terms (5–20)</li>
+            <li>Shorts + TikTok views/day, and FYP/impression rate</li>
+            <li>Subscribers &amp; followers per week</li>
+            <li>Discover impressions in Search Console</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>By</th><th>Target state</th><th>Kill / continue signal</th></tr></thead>
+          <tbody>
+            <tr><td class="num">Day 30</td><td>TikTok live &amp; daily. Content firehose off. Indexed count rising, not falling. Seed orchestrator running.</td><td>If indexed count still dropping → the prune can't wait.</td></tr>
+            <tr><td class="num">Day 60</td><td>At least one Short or TikTok past 10k. Avg position under 50 for the science + tech clusters. ~100 subs.</td><td>No video past 5k in 60 days of daily posting → the format or the hook is wrong; rework before scaling.</td></tr>
+            <tr><td class="num">Day 90</td><td>~1,000 combined visits/views a day from organic surfaces. ~1,000 subs. One breakout topic identified for the first real long-form.</td><td>Under ~300/day → automation-only has hit its ceiling; the next stage needs human distribution hours.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <hr class="div">
+
+    <section id="decisions">
+      <p class="kicker">09 — Your decisions</p>
+      <h2>Four calls, then I build.</h2>
+      <ol>
+        <li><strong>Cut the content cron to 1/day + 2 tech/week?</strong> This is the load-bearing change. Everything else assumes it.</li>
+        <li><strong>TikTok + Instagram — which accounts?</strong> New handles, or existing? Native posting needs the login or a token.</li>
+        <li><strong>Prune the site 720 → ~450?</strong> I'll produce the flag list first; you approve before anything is removed.</li>
+        <li><strong>The author personas</strong> — keep the current names, add real credentials and photos to two of them, and publish an editorial-standards page?</li>
+      </ol>
+      <div class="call">
+        <span class="label">Recommended sequence</span>
+        <p>Week 1 — cut the cron, stand up the seed orchestrator, add no-intro Shorts. Week 2 — TikTok + Reels arm, thumbnail A/B, first cross-posts. Week 3 — prune list, E-E-A-T pages, Discover check. Then it runs, and the 30 / 60 / 90 gates decide the rest.</p>
+      </div>
+    </section>
+
+    <footer>
+      KnowThisWell operating plan · automation-first · drafted for the 90-day window. Brand system: <code>.claude/private/brand/BRAND.md</code>.
+    </footer>
+  </main>
+</div>

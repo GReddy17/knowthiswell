@@ -1,4 +1,4 @@
-# Category Rollout Status (read + update this file every automated run)
+# Category Rollout Status — PAUSED as of 2026-09-05
 
 > **Read `Source Tracking/roadmap.md` first — it is the current source of
 > truth for pace and category policy, not this file's own Step 3/6 "resume
@@ -11,16 +11,26 @@
 > continuing an already-in-progress category like 15 does not). Resynced
 > 2026-09-12 after discovering this file's progress numbers had drifted out
 > of sync on a different branch — verified against real `main` content.
+>
+> **This rollout is suspended.** The "20 posts/day across 43 categories" model
+> was hurting the domain (see the numbers in `content-strategy.md`). The daily
+> cloud routine is disabled. Content strategy is now the two-stream pillar
+> model in **`Source Tracking/content-strategy.md`** — read that, not this.
+>
+> Categories 14–43 below are **parked**, not cancelled. The table stays for
+> reference and for a possible future thaw. Do not resume this queue without
+> an explicit decision to.
 
 _Last updated: 2026-09-04 (Home & DIY Knowledge at 30/50)_
 
-Tracks progress through the remaining 30 categories (Phase 3-5 of
-`site-rules.md` Section 8, minus categories already built: 01-13). Driven by
-a daily automated job writing ~20 posts/day, publishing straight to
-production. **This file is the only persistent state across daily runs** —
-each run is a fresh, isolated session with no memory of prior days, so it
-MUST read this file first to know where to resume, and MUST update it
-before finishing.
+---
+
+_Historical. Last updated: 2026-09-02 (daily quota raised 10 -> 20 posts/day)._
+
+Tracked progress through the remaining 30 categories (Phase 3-5 of
+`site-rules.md` Section 8, minus categories already built: 01-13). Was driven
+by a daily automated job writing ~20 posts/day, publishing straight to
+production.
 
 ## How to resume (read this every run)
 
