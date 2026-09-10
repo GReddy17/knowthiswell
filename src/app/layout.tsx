@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Navbar } from '@/components/Navbar';
 import { BackToTop } from '@/components/BackToTop';
 import { LibrarySidebar } from '@/components/LibrarySidebar';
+import { SocialLinks } from '@/components/SocialLinks';
 import { getLibraryStructure } from '@/lib/content';
 import { siteConfig } from '@/config/site.config';
 import '../styles/tokens.css';
@@ -60,6 +61,7 @@ const orgSchema = {
   name: siteConfig.name,
   url: SITE_URL,
   logo: `${SITE_URL}${siteConfig.logo}`,
+  sameAs: siteConfig.social.map((s) => s.href),
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
@@ -96,13 +98,15 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <Analytics />
 
         <footer className="mt-20 border-t border-rule px-5 py-10 font-utility text-xs text-ink-soft md:px-10">
-          <div className="mx-auto flex max-w-[1180px] flex-wrap justify-between gap-6">
+          <div className="mx-auto flex max-w-[1180px] flex-col gap-6 md:flex-row md:flex-wrap md:items-center md:justify-between">
             <p>© {new Date().getFullYear()} {siteConfig.footer.copyrightHolder}. {siteConfig.footer.rightsNotice}</p>
-            <div className="flex gap-6">
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
               <Link href="/about/method" className="hover:text-forest">Editorial method</Link>
               <Link href="/legal/disclaimer" className="hover:text-forest">Disclaimer</Link>
               <Link href="/legal/dmca" className="hover:text-forest">DMCA</Link>
               <Link href="/legal/privacy" className="hover:text-forest">Privacy</Link>
+              <span aria-hidden="true" className="hidden text-rule sm:inline">|</span>
+              <SocialLinks />
             </div>
           </div>
         </footer>
