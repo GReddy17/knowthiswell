@@ -25,12 +25,14 @@ export const siteConfig = {
     copyrightHolder: 'KnowThisWell',
     rightsNotice: 'Content may not be reproduced without permission.',
   },
-  social: {
-    // Empty until real accounts exist — components should check for
-    // presence before rendering a link, not assume these are always set.
-    twitter: '',
-    github: '',
-  },
+  // Public brand channels. Order here is the order they render in the
+  // footer. Add/remove an entry and the SocialLinks component + the
+  // Organization `sameAs` schema pick it up automatically.
+  social: [
+    { label: 'YouTube', handle: '@KnowThisWell', href: 'https://www.youtube.com/@KnowThisWell' },
+    { label: 'TikTok', handle: '@knowthiswell', href: 'https://www.tiktok.com/@knowthiswell' },
+    { label: 'Instagram', handle: '@knowthis_well', href: 'https://www.instagram.com/knowthis_well' },
+  ],
   nav: [
     { label: 'Topics', href: '/' },
     { label: 'Glossary A–Z', href: '/glossary/a' },
