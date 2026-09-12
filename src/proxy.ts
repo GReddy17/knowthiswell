@@ -19,7 +19,7 @@ function sweepStaleEntries(now: number) {
   }
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const url = request.nextUrl;
   const ip = request.headers.get('x-forwarded-for')?.split(',')[0] ?? '127.0.0.1';
 
