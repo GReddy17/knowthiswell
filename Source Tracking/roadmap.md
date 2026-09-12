@@ -26,7 +26,18 @@ here conflicts with a skill's own defaults, this file wins.
    relevant post from any category. **Course-building is currently paused**
    — founder isn't yet convinced by the approach used on the first pilots
    (Job Search & Interview Readiness, Electrician); don't build more until
-   feedback lands.
+   feedback lands. Note: course-*mapping* of new posts (Step 2/4 below) is
+   still required going forward — only building brand-new course pilots is
+   paused.
+4. **Daily pace (founder override, 2026-09-12, standing)**: **10 new pages
+   every day**, 3 of them get a Short/video published to every automatable
+   platform, SEO+marketing runs to completion every day. This overrides the
+   Foundation-phase 1-3/day pace below. Flagged twice as a re-run of the
+   reversed 20-posts/day mistake given indexed ratio is still flat at 33% —
+   founder proceeded anyway both times; not re-litigated on every run. Full
+   detail: `.claude/skills/orchestrator/SKILL.md`. If indexed ratio or the
+   discovered-not-indexed backlog get worse after this, that's the signal to
+   bring pace back to `/seo-committee` — not a silent reversion.
 
 ## Current reality (refresh every check-in, don't let this go stale)
 
@@ -43,10 +54,14 @@ here conflicts with a skill's own defaults, this file wins.
 
 ## Milestone ladder
 
-- **Month 1-2 (Foundation, now)**: resume two-stream content cadence
-  (1 pillar/day + 2 Technology Basics/week), clear the indexing backlog,
-  target indexed ratio 33% → 50%+. Traffic stays low (10-30/day) — this is
-  foundation work, not payoff.
+- **Month 1-2 (Foundation, now)**: originally scoped as a 1-3 pages/day
+  cadence to clear the indexing backlog before adding volume; **superseded
+  2026-09-12 by the founder's standing 10 pages/day override** (see Product
+  objectives #4) — clearing the indexing backlog now runs in parallel with
+  higher volume instead of before it. Target indexed ratio 33% → 50%+ still
+  holds; watch it closely given the pace change. Traffic may stay low
+  (10-30/day) regardless of page count — this is foundation work, not
+  payoff.
 - **Month 3-4 (Compounding)**: if indexing recovery holds, start backlink
   outreach. Target 50-150/day.
 - **Month 5-6 (Target check)**: re-forecast against actual months 1-4 data.
