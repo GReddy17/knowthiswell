@@ -23,12 +23,12 @@ here conflicts with a skill's own defaults, this file wins.
 3. **Courses**: cross-category, tag/topic-based (the Learning Paths
    mechanism — an ordered `{category, slug}` list per course, no per-post
    frontmatter tagging). Selecting a course topic surfaces every genuinely
-   relevant post from any category. **Course-building is currently paused**
-   — founder isn't yet convinced by the approach used on the first pilots
-   (Job Search & Interview Readiness, Electrician); don't build more until
-   feedback lands. Note: course-*mapping* of new posts (Step 2/4 below) is
-   still required going forward — only building brand-new course pilots is
-   paused.
+   relevant post from any category. **Course-building is on demand**
+   (updated 2026-09-12, was "paused") — build a course when there's a real
+   reason to (a founder ask, a genuine content cluster ready for it), not
+   proactively as a standing daily task. Both pilots (Job Search & Interview
+   Readiness, Electrician) are live on `main` now, rebuilt against verified
+   real content after the tracking-doc drift below was found.
 4. **Daily pace (founder override, 2026-09-12, standing)**: **10 new pages
    every day**, 3 of them get a Short/video published to every automatable
    platform, SEO+marketing runs to completion every day. This overrides the
@@ -74,8 +74,9 @@ here conflicts with a skill's own defaults, this file wins.
   backlog via GSC URL Inspection. Owner: product-lead.
 - Two-stream content engine (1 pillar/day + 2 Technology Basics/week):
   resumed 2026-09-12 after being stalled since the Sep 5 pivot.
-- Learning Paths: mechanism built and live (2 pilots shipped). Further
-  course-building paused — see Product objectives #3.
+- Learning Paths: mechanism + both pilots (Job Search & Interview Readiness,
+  Electrician) live on `main`. Further course-building is on-demand, not
+  standing — see Product objectives #3.
 - Professional-topic category expansion: intent recorded, not yet started —
   needs a `/seo-committee` check before the first new category opens.
 
@@ -83,10 +84,7 @@ here conflicts with a skill's own defaults, this file wins.
 
 - **Production gate removed (founder override, 2026-09-12)**: new posts and
   videos push straight to `main`, no `content-auto` staging/review step. The
-  build/QA clean-build requirement is unaffected and still absolute. Does
-  not retroactively apply to the Learning Paths/Electrician commits already
-  on `content-auto` — those stay unmerged (course-building is paused, see
-  Product objectives #3).
+  build/QA clean-build requirement is unaffected and still absolute.
 - **Video scheduling, not immediate publish**: the daily 3 Shorts get
   scheduled into each platform's next available slot (YouTube API schedule,
   Meta Business Suite scheduler for IG/FB), never posted live immediately,
@@ -121,3 +119,20 @@ here conflicts with a skill's own defaults, this file wins.
 - 2026-09-12: Recorded the standing content-scope directive (professional
   topics, uncapped categories, paused course-building pending founder
   feedback). `content-auto@eab98f2`.
+- 2026-09-12: Founder set standing daily policy (10 pages/day, 3 scheduled
+  videos/day, mandatory course-mapping, production gate removed) and
+  approved courses "on demand." Merging `content-auto`'s clean work (pillar
+  post + docs) to `main` surfaced a real branch-divergence bug: `main` had 4
+  commits (Sep 2-10) that `growth-overhaul`/`content-auto` never got,
+  including Career & Study Skills already complete at 50/50 and Home & DIY
+  Knowledge at 30/50 with real trade content — both were tracked as
+  "20/50"/"not started" in the stale branch copies. The day's 2 "new" Job
+  Search Strategy posts collided with already-existing real posts at the
+  same paths; excluded from the `main` merge. `main@762aec9..cc424d4`.
+  Follow-up: resynced `category-rollout-status.md` with a pointer to this
+  file (career-study-skills-subtopics.md was already accurate on `main`),
+  ported the Learning Paths mechanism onto `main` directly, and rebuilt both
+  courses against verified real files — Job Search & Interview Readiness
+  extended to 15 steps (full 3 real clusters), Electrician now anchored by
+  the real Home & DIY electrical-basics-and-safety cluster instead of only
+  generic finance/legal content. `main@f916c4f`, `main@8c65669`.
