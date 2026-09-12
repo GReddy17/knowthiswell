@@ -8,8 +8,10 @@ import { AuthorCard, SourcesAndSeeAlso } from '@/components/EntryFooter';
 import { FeedbackWidget } from '@/components/FeedbackWidget';
 import { ArticleSchema } from '@/components/ArticleSchema';
 import { ContentErrorBoundary } from '@/components/ContentErrorBoundary';
+import { PathNav } from '@/components/PathNav';
 import { getPostBySlug, getAllPostSlugs, getRelatedPosts } from '@/lib/content';
 import { getCategoryLabel, formatSlugToLabel } from '@/lib/taxonomy';
+import { getLearningPathForPost } from '@/content/learning-paths';
 
 interface PageProps {
   params: Promise<{ category: string; slug: string }>;
@@ -43,6 +45,7 @@ export default async function PostPage({ params }: PageProps) {
   if (!post) notFound();
 
   const related = await getRelatedPosts(post);
+  const pathInfo = getLearningPathForPost(post.category, post.slug);
 
   const breadcrumbs = [
     { label: getCategoryLabel(post.category), href: `/${post.category}` },
@@ -94,6 +97,17 @@ export default async function PostPage({ params }: PageProps) {
             <p className="text-ink-soft italic">Content is being migrated to the new format. Please check back soon.</p>
           )}
         </article>
+
+        {pathInfo ? (
+          <PathNav
+            pathTitle={pathInfo.path.title}
+            pathSlug={pathInfo.path.slug}
+            stepIndex={pathInfo.stepIndex}
+            totalSteps={pathInfo.path.steps.length}
+            prev={pathInfo.prev}
+            next={pathInfo.next}
+          />
+        ) : null}
 
         <SourcesAndSeeAlso sources={post.sources} seeAlso={related} />
         <FeedbackWidget category={post.category} slug={post.slug} title={post.title} />

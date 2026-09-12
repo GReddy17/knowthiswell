@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/the-star-method-explained",
     "career-study-skills/what-a-panel-interview-actually-tests",
     "career-study-skills/how-to-handle-a-salary-question-in-an-interview",
+    "career-study-skills/what-the-hidden-job-market-actually-means",
   ],
   glossary: [
     { term: "Behavioral interview question", definition: "A question asking a candidate to describe a specific past experience, based on the premise that past behavior predicts future behavior." },

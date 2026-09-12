@@ -28,6 +28,7 @@ export function Navbar() {
         className="hidden gap-7 font-utility text-[13px] uppercase tracking-wider text-ink-soft md:flex"
       >
         <Link href="/" className="hover:text-forest">Topics</Link>
+        <Link href="/learning-paths" className="hover:text-forest">Learning Paths</Link>
         <Link href="/glossary/a" className="hover:text-forest">Glossary A–Z</Link>
         <Link href="/about/method" className="hover:text-forest">About &amp; Method</Link>
       </nav>
@@ -58,6 +59,13 @@ export function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Topics
+              </Link>
+              <Link
+                href="/learning-paths"
+                className="rounded px-2 py-1.5 hover:bg-rule-soft hover:text-forest"
+                onClick={() => setIsOpen(false)}
+              >
+                Learning Paths
               </Link>
               <Link
                 href="/glossary/a"

@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/why-companies-ask-behavioral-interview-questions",
     "career-study-skills/what-a-panel-interview-actually-tests",
     "career-study-skills/how-to-quantify-achievements-on-a-resume",
+    "career-study-skills/how-job-boards-actually-rank-listings",
   ],
   glossary: [
     { term: "STAR method", definition: "A four-part structure for answering behavioral interview questions: Situation, Task, Action, Result." },

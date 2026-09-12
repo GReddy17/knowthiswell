@@ -35,7 +35,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "career-study-skills/resume-vs-cv-whats-the-real-difference",
     "career-study-skills/how-to-quantify-achievements-on-a-resume",
-    "career-study-skills/chronological-vs-functional-resume-formats",
+    "career-study-skills/how-job-boards-actually-rank-listings",
   ],
   glossary: [
     { term: "Applicant tracking system (ATS)", definition: "Software used by employers to collect, store, parse, and search job applications, and to move candidates through hiring stages." },
