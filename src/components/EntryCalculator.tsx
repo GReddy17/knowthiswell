@@ -359,6 +359,9 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
   // --- Home & DIY Knowledge (topic 15): HVAC & Home Comfort Basics ---
   coolingTonsToBtuPerHour: (v) => v.tons * 12000, // standard cooling-capacity conversion: 1 ton = 12,000 BTU/hr
   heatLossRateBtuPerHour: (v) => (v.areaSqFt * v.tempDifferenceF) / v.rValue, // heat flow = area x temperature difference / R-value
+
+  // --- General Science Facts (topic 01): daily pillar posts ---
+  distanceFromEchoRoundTrip: (v) => (v.speedOfSoundMs * v.roundTripSeconds) / 2, // one-way distance to a reflecting object from its echo's round-trip travel time
 };
 
 interface EntryCalculatorProps {

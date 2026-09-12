@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "general-science-facts/forces-and-motion",
     "general-science-facts/electricity-and-magnetism-basics",
+    "general-science-facts/are-bats-really-blind",
   ],
   glossary: [
     { term: "Wavelength", definition: "The distance between successive peaks of a wave — determines color for light, pitch for sound." },
@@ -48,9 +49,8 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "scheduled",
+  youtubeStatus: "published",
   youtubeUrl: "https://www.youtube.com/watch?v=tF44O-pPidE",
-  youtubeScheduledAt: "2026-08-30T16:00:00Z",
   draft: false,
 };
 

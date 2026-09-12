@@ -70,6 +70,13 @@ export interface PostFrontmatter {
   youtubeScheduledAt?: string;
   author: AuthorRef;
   draft?: boolean;
+  /** Marks a daily "counterintuitive everyday science" pillar post (see
+   *  Source Tracking/content-strategy.md) — distinct from the encyclopedic
+   *  subtopic overview posts. */
+  pillar?: boolean;
+  /** Set alongside `pillar: true` — tells the video pipeline a Short/TikTok
+   *  is owed for this post and hasn't been produced yet. */
+  videoQueue?: boolean;
 }
 
 export interface PostMeta extends Omit<PostFrontmatter, 'category'> {

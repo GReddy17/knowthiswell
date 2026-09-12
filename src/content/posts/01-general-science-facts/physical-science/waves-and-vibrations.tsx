@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/light-color-and-sound",
     "general-science-facts/energy-types-and-conservation",
     "general-science-facts/forces-and-motion",
+    "general-science-facts/are-bats-really-blind",
   ],
   glossary: [
     { term: "Wave", definition: "A repeating disturbance that transfers energy from one point to another without permanently transporting the matter it travels through." },
