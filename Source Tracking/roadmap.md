@@ -69,6 +69,42 @@ number even though they still matter for distribution.
 - No paid ads. No monetization that trades away trust (thin affiliate,
   undisclosed sponsorship, ad density hurting Core Web Vitals).
 
+## Standing founder directive — future content scope (2026-09-12, intent recorded, execution pending)
+
+Founder direction for content going forward, given verbatim so it isn't
+diluted in future summarizing:
+1. New posts should target areas people genuinely search for and that help
+   their professional life — grounded in real demand (e.g. the 2026
+   course-search landscape: AI/ML, data science, cloud, cybersecurity,
+   digital marketing, project management, personal finance, etc. — see the
+   2026-09-12 course-demand research), not just more trivia/fact volume in
+   already-deep categories.
+2. **Category count is not capped at 43.** New categories can be created as
+   this professional-topic content needs them (e.g. AI/cloud/cybersecurity/
+   dev/marketing/PM have zero coverage today under any existing category,
+   including `13-technology-basics`, which is consumer tech literacy, not
+   professional/certification-level tech skill content).
+3. Courses stay the cross-category, tag/topic-based model already built (the
+   Learning Paths mechanism — an ordered `{category, slug}` list, no
+   per-post frontmatter tagging needed): selecting a course topic (e.g.
+   "Personal Finance") should surface every genuinely relevant post needed
+   for a full understanding, from any category, not just posts sitting in
+   one folder.
+
+**This directly reverses "categories 14-43 stay parked until indexed ratio
+moves" for professional-topic categories specifically** — opening any brand
+new category is exactly what `/seo-committee`'s own escalation list requires
+("changing which categories get built next"), and indexed ratio is still
+flat at 33% as of today. **Recording the founder's intent now; do not open a
+new category or start writing into this expanded scope without a fresh
+`/seo-committee` check first** — this note is direction, not a standing
+override of the indexing-capacity gate.
+
+**Also as of today: the founder is not yet convinced by the course-building
+approach used so far** (the Learning Paths / Electrician-style course
+pilots) — paused pending founder feedback on what specifically needs to
+change before building more courses.
+
 ## Log
 
 - 2026-09-12: Roadmap created. Baseline: 10-11 pageviews/day, 33% indexed,
