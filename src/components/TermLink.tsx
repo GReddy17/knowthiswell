@@ -11,7 +11,7 @@ export function TermLink({ href, children }: TermLinkProps) {
   return (
     <Link
       href={href}
-      className="border-b border-forest bg-gradient-to-b from-rule-soft to-rule-soft bg-[length:100%_0%] bg-no-repeat px-px text-forest no-underline transition-[background-size] duration-fast hover:bg-[length:100%_100%]"
+      className="border-b border-forest bg-linear-to-b from-rule-soft to-rule-soft bg-size-[100%_0%] bg-no-repeat px-px text-forest no-underline transition-[background-size] duration-fast hover:bg-size-[100%_100%]"
     >
       {children}
     </Link>
