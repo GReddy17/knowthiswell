@@ -81,6 +81,17 @@ here conflicts with a skill's own defaults, this file wins.
 
 ## Decided (don't re-litigate without new data)
 
+- **Production gate removed (founder override, 2026-09-12)**: new posts and
+  videos push straight to `main`, no `content-auto` staging/review step. The
+  build/QA clean-build requirement is unaffected and still absolute. Does
+  not retroactively apply to the Learning Paths/Electrician commits already
+  on `content-auto` — those stay unmerged (course-building is paused, see
+  Product objectives #3).
+- **Video scheduling, not immediate publish**: the daily 3 Shorts get
+  scheduled into each platform's next available slot (YouTube API schedule,
+  Meta Business Suite scheduler for IG/FB), never posted live immediately,
+  except a platform with no scheduling mechanism at all.
+
 - Two-stream pillar/workhorse model; categories 15-43 stay parked until
   indexed ratio moves, **except** professional-topic categories under the
   2026-09-12 content-scope directive above, which still need their own
