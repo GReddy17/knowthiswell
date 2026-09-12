@@ -11,6 +11,9 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },
+  "overrides": {
+    "js-yaml": "^3.15.2"
+  },
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.3",
     "@vercel/analytics": "^2.0.1",
