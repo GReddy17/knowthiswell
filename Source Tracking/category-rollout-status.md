@@ -1,5 +1,17 @@
 # Category Rollout Status (read + update this file every automated run)
 
+> **Read `Source Tracking/roadmap.md` first — it is the current source of
+> truth for pace and category policy, not this file's own Step 3/6 "resume
+> the daily job" instructions below.** Those instructions describe the old
+> pre-2026-09-05 ~20-posts/day rollout and were never updated here after the
+> content-strategy pivot paused it — this file's own progress numbers
+> (below) are accurate, but its *process* instructions are stale. As of
+> 2026-09-12 the roadmap sets a standing 10 pages/day target with its own
+> category-scope rules (new categories need a `/seo-committee` check;
+> continuing an already-in-progress category like 15 does not). Resynced
+> 2026-09-12 after discovering this file's progress numbers had drifted out
+> of sync on a different branch — verified against real `main` content.
+
 _Last updated: 2026-09-04 (Home & DIY Knowledge at 30/50)_
 
 Tracks progress through the remaining 30 categories (Phase 3-5 of
