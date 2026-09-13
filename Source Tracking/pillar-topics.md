@@ -24,7 +24,7 @@ Format: `- [ ] Wrong intuition → real mechanism  (subtopic)`
 - [ ] Hot water freezes slower than cold → sometimes it freezes faster (the Mpemba effect); evaporation and convection  (heat-and-temperature)
 - [ ] Glass is a slow-flowing liquid → it is an amorphous solid; old windows are thicker at the bottom from how they were made  (matter-and-states-of-matter)
 - [ ] Adding salt makes water boil faster → it raises the boiling point slightly; the water is hotter, food cooks a touch faster  (matter-and-states-of-matter)
-- [ ] Lightning never strikes the same place twice → tall structures get hit repeatedly; the Empire State Building ~25×/year  (light-color-and-sound)
+- [x] Lightning never strikes the same place twice → tall structures get hit repeatedly; the Empire State Building ~25×/year  (light-color-and-sound) (written: general-science-facts/does-lightning-really-never-strike-the-same-place-twice)
 - [ ] A falling cat lands on its feet by "twisting off" something → it uses conservation of angular momentum, no external push needed  (forces-and-motion)
 
 ## Body & biology

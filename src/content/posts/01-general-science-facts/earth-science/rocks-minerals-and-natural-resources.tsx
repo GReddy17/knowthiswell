@@ -45,6 +45,8 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/earths-structure-and-plate-tectonics",
     "general-science-facts/fossils-and-geological-time",
     "general-science-facts/renewable-vs-non-renewable-resources",
+    "general-science-facts/metals-vs-non-metals",
+    "home-diy-knowledge/why-radon-testing-matters-for-home-safety",
   ],
   glossary: [
     { term: "Mineral", definition: "A naturally occurring, inorganic solid with a definite chemical composition and an ordered, repeating crystal structure." },
@@ -91,7 +93,7 @@ export default function Post() {
       </p>
 
       <p className="prose-p">
-      This same rock-and-mineral science is what defines a natural resource in the ground. A mineral only becomes an <strong>ore</strong> — worth mining — when it&apos;s concentrated enough, in a large enough deposit, to extract profitably with current technology: iron ore is rock with a high enough concentration of iron-bearing minerals like hematite or magnetite to be worth processing, while the same iron dispersed thinly through ordinary rock isn&apos;t. Quarried rock itself is a resource too — limestone for cement, granite for countertops and construction, sand and gravel for concrete — extracted directly rather than refined for a specific element. Because ore grade and rock type are set by which of the three formation processes a deposit went through (metal ores often concentrate through igneous or hydrothermal processes; building stone is usually quarried igneous, sedimentary, or metamorphic rock directly), the same rock cycle covered above is what determines where on Earth these resources are found at all.
+      This same rock-and-mineral science is what defines a natural resource in the ground. A mineral only becomes an <strong>ore</strong> — worth mining — when it&apos;s concentrated enough, in a large enough deposit, to extract profitably with current technology: iron ore is rock with a high enough concentration of iron-bearing minerals like hematite or magnetite to be worth processing, while the same iron dispersed thinly through ordinary rock isn&apos;t — what actually makes a metal like iron worth extracting in the first place is covered in <TermLink href="/general-science-facts/metals-vs-non-metals">Metals vs. Non-Metals</TermLink>. Quarried rock itself is a resource too — limestone for cement, granite for countertops and construction, sand and gravel for concrete — extracted directly rather than refined for a specific element. Because ore grade and rock type are set by which of the three formation processes a deposit went through (metal ores often concentrate through igneous or hydrothermal processes; building stone is usually quarried igneous, sedimentary, or metamorphic rock directly), the same rock cycle covered above is what determines where on Earth these resources are found at all.
       </p>
 
       <QuickCheck

@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/what-r-value-actually-measures-in-insulation",
     "home-diy-knowledge/why-air-filters-need-regular-replacement",
     "home-diy-knowledge/what-a-stud-finder-actually-detects",
+    "home-diy-knowledge/what-weatherstripping-actually-does",
   ],
   glossary: [
     { term: "Zoning (HVAC)", definition: "A system that divides a house into separate areas, each with its own thermostat and dampers, so different zones can be heated or cooled independently instead of all sharing one thermostat's reading." },

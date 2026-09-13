@@ -46,6 +46,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/water-cycle-and-oceans",
     "general-science-facts/seasons-and-earths-tilt",
     "general-science-facts/natural-disasters",
+    "general-science-facts/does-lightning-really-never-strike-the-same-place-twice",
   ],
   glossary: [
     { term: "Weather", definition: "The state of the atmosphere at a specific place and time — temperature, humidity, wind, cloud cover, and precipitation over minutes to days." },

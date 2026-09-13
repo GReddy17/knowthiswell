@@ -1,0 +1,42 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pipeFreezeTitle">
+  <title id="pipeFreezeTitle">Diagram of a pipe section showing an ice plug growing, trapped liquid water compressed between the ice and a closed faucet, and the pipe rupturing at a weaker joint some distance from the ice plug due to built-up pressure.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">The burst happens where the pipe is weak, not where the ice is</text>
+
+  <!-- pipe run -->
+  <rect x="60" y="130" width="660" height="40" fill="#E8DEC8" stroke="#1F1B16" stroke-width="2.5"/>
+
+  <!-- closed faucet on right end -->
+  <rect x="700" y="120" width="20" height="60" fill="#4A443C" stroke="#1F1B16" stroke-width="2"/>
+  <text x="710" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">closed faucet</text>
+
+  <!-- ice plug -->
+  <rect x="150" y="130" width="70" height="40" fill="#A9D6E5" stroke="#2C6E8E" stroke-width="2"/>
+  <text x="185" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#2C6E8E">ice plug</text>
+  <text x="185" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C6E8E">expands ~9% as it forms</text>
+
+  <!-- trapped water between ice and faucet -->
+  <rect x="220" y="132" width="470" height="36" fill="#8FC1D6" opacity="0.55"/>
+  <text x="450" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16" font-weight="700">trapped liquid water — pressure rising</text>
+
+  <!-- pressure arrows pushing outward -->
+  <path d="M400,132 L400,110" stroke="#C9412C" stroke-width="2" marker-end="url(#arrowP1)"/>
+  <path d="M400,168 L400,190" stroke="#C9412C" stroke-width="2" marker-end="url(#arrowP1)"/>
+  <path d="M550,132 L550,110" stroke="#C9412C" stroke-width="2" marker-end="url(#arrowP1)"/>
+  <path d="M550,168 L550,190" stroke="#C9412C" stroke-width="2" marker-end="url(#arrowP1)"/>
+
+  <!-- rupture point at a weak joint, away from the ice -->
+  <circle cx="620" cy="150" r="14" fill="none" stroke="#C9412C" stroke-width="3"/>
+  <path d="M608,138 L632,162 M632,138 L608,162" stroke="#C9412C" stroke-width="3"/>
+  <text x="620" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#C9412C">pipe fails here</text>
+  <text x="620" y="214" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">(weak joint, not the ice)</text>
+
+  <defs>
+    <marker id="arrowP1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C9412C"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Ice growing into a sealed section compresses the trapped liquid — pressure, not ice, breaks the pipe</text>
+</svg>

@@ -34,6 +34,8 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "general-science-facts/matter-and-states-of-matter",
     "general-science-facts/electricity-and-magnetism-basics",
+    "general-science-facts/metals-vs-non-metals",
+    "home-diy-knowledge/why-radon-testing-matters-for-home-safety",
   ],
   glossary: [
     { term: "Proton", definition: "A positively charged particle in an atom's nucleus; its count defines the element." },
@@ -99,7 +101,7 @@ export default function Post() {
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: Why sodium and chlorine bond so readily (real-world / applied case)</h3>
       <div className="prose-p">
-      Sodium has one lone electron in its outermost shell, which it &quot;wants&quot; to lose to reach a more stable configuration. Chlorine is missing just one electron from a full outer shell, which it &quot;wants&quot; to gain. When they meet, sodium donates that electron to chlorine — both atoms become electrically charged ions, and their opposite charges attract strongly, forming an ionic bond. The result is ordinary table salt, sodium chloride, and this exact electron-count logic is why the periodic table&apos;s columns predict which elements bond easily with which.
+      Sodium has one lone electron in its outermost shell, which it &quot;wants&quot; to lose to reach a more stable configuration. Chlorine is missing just one electron from a full outer shell, which it &quot;wants&quot; to gain. When they meet, sodium donates that electron to chlorine — both atoms become electrically charged ions, and their opposite charges attract strongly, forming an ionic bond. The result is ordinary table salt, sodium chloride, and this exact electron-count logic is why the periodic table&apos;s columns predict which elements bond easily with which — it&apos;s also the underlying reason <TermLink href="/general-science-facts/metals-vs-non-metals">metals and non-metals</TermLink> behave so differently, since metals tend to lose outer electrons easily while non-metals tend to gain them.
       </div>
 
       <QuickCheck

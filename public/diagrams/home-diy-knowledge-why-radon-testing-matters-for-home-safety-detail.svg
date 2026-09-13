@@ -1,0 +1,56 @@
+<svg viewBox="0 0 780 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="radonDetailTitle">
+  <title id="radonDetailTitle">Cross-section of a house foundation showing radon gas rising from uranium decay in the soil, entering the basement through foundation cracks and gaps around pipes, versus the same house with a sub-slab depressurization mitigation pipe venting the gas above the roofline instead.</title>
+  <rect width="780" height="320" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Radon entry, and how mitigation redirects it</text>
+
+  <!-- LEFT: unmitigated house -->
+  <g>
+    <text x="185" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Without mitigation</text>
+    <!-- soil -->
+    <rect x="60" y="230" width="250" height="60" fill="#C9A45C" opacity="0.4"/>
+    <text x="185" y="264" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">soil &#8212; uranium decay releases radon</text>
+    <!-- foundation slab -->
+    <rect x="60" y="215" width="250" height="15" fill="#4A443C"/>
+    <!-- crack in slab -->
+    <path d="M180,230 L188,222 L182,215" stroke="#FBF8F1" stroke-width="2" fill="none"/>
+    <!-- house walls -->
+    <rect x="90" y="90" width="190" height="125" fill="#FBF8F1" stroke="#1F1B16" stroke-width="2"/>
+    <!-- roof -->
+    <path d="M75,90 L185,45 L295,90 Z" fill="#8B6F4E"/>
+    <!-- radon arrows rising through crack into basement, filling room -->
+    <path d="M183,222 L183,195" stroke="#B5794A" stroke-width="2.5" marker-end="url(#arrowRadon)"/>
+    <path d="M170,222 L165,180" stroke="#B5794A" stroke-width="2" marker-end="url(#arrowRadon)" opacity="0.7"/>
+    <path d="M196,222 L205,175" stroke="#B5794A" stroke-width="2" marker-end="url(#arrowRadon)" opacity="0.7"/>
+    <text x="185" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">radon accumulates</text>
+    <text x="185" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">indoors, unnoticed</text>
+  </g>
+
+  <!-- RIGHT: mitigated house -->
+  <g>
+    <text x="585" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">With sub-slab mitigation</text>
+    <rect x="460" y="230" width="250" height="60" fill="#C9A45C" opacity="0.4"/>
+    <text x="585" y="264" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">soil &#8212; same radon source</text>
+    <rect x="460" y="215" width="250" height="15" fill="#4A443C"/>
+    <rect x="490" y="90" width="190" height="125" fill="#FBF8F1" stroke="#1F1B16" stroke-width="2"/>
+    <path d="M475,90 L585,45 L695,90 Z" fill="#8B6F4E"/>
+    <!-- vent pipe from below slab to above roof -->
+    <rect x="600" y="30" width="10" height="200" fill="#7FA6B0" stroke="#1F1B16" stroke-width="1"/>
+    <!-- fan -->
+    <rect x="596" y="200" width="18" height="14" rx="2" fill="#4A443C"/>
+    <path d="M605,30 L598,45 M605,30 L612,45" stroke="#7FA6B0" stroke-width="2" marker-end="url(#arrowRadon2)"/>
+    <text x="647" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#1F1B16">vented above roofline</text>
+    <text x="585" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">fan pulls gas from</text>
+    <text x="585" y="163" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">under the slab before</text>
+    <text x="585" y="176" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">it enters the house</text>
+  </g>
+
+  <defs>
+    <marker id="arrowRadon" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B5794A"/>
+    </marker>
+    <marker id="arrowRadon2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7FA6B0"/>
+    </marker>
+  </defs>
+</svg>

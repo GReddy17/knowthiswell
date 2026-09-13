@@ -1,0 +1,51 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="securityFlowTitle">
+  <title id="securityFlowTitle">Flow diagram showing how a triggered sensor (contact, motion, or glass-break) sends a signal to the control panel, which relays it to a monitoring center, which then contacts the homeowner or dispatches emergency responders.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">From a triggered sensor to a dispatched response</text>
+
+  <!-- Step 1: sensors -->
+  <rect x="30" y="60" width="175" height="120" rx="4" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <text x="117" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">1. Sensor trips</text>
+  <text x="117" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Contact sensor: magnet</text>
+  <text x="117" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">separates from switch</text>
+  <text x="117" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">PIR sensor: detects a</text>
+  <text x="117" y="144" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">moving heat source</text>
+  <text x="117" y="162" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Glass-break mic: hears the</text>
+  <text x="117" y="174" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">frequency signature of glass</text>
+
+  <path d="M205,120 L242,120" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowSec)"/>
+
+  <!-- Step 2: panel -->
+  <rect x="245" y="60" width="150" height="120" rx="4" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <text x="320" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">2. Control panel</text>
+  <text x="320" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Checks if system is</text>
+  <text x="320" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">armed, starts entry</text>
+  <text x="320" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">delay if configured</text>
+
+  <path d="M395,120 L432,120" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowSec)"/>
+
+  <!-- Step 3: monitoring center -->
+  <rect x="435" y="60" width="170" height="120" rx="4" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <text x="520" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">3. Monitoring center</text>
+  <text x="520" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Signal reaches a staffed</text>
+  <text x="520" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">center over cellular, Wi-Fi,</text>
+  <text x="520" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">or phone line</text>
+
+  <path d="M605,120 L642,120" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowSec)"/>
+
+  <!-- Step 4: response -->
+  <rect x="645" y="60" width="105" height="120" rx="4" fill="#F3E3C7" stroke="#4A443C" stroke-width="2"/>
+  <text x="697" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">4. Response</text>
+  <text x="697" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Calls homeowner</text>
+  <text x="697" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">to confirm, then</text>
+  <text x="697" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">dispatches police</text>
+  <text x="697" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">if unconfirmed</text>
+
+  <text x="390" y="220" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Each sensor type reacts to a different physical signal &#8212; the panel and center never see the raw event, only its report.</text>
+  <defs>
+    <marker id="arrowSec" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

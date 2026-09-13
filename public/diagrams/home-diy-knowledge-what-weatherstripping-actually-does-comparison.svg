@@ -1,0 +1,39 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="weatherstripCompareTitle">
+  <title id="weatherstripCompareTitle">Comparison of air infiltration, where actual air moves through a physical gap around a door and weatherstripping seals it, versus conduction, where heat passes directly through a solid, gap-free wall and insulation slows it.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Two different heat-loss paths, two different fixes</text>
+
+  <!-- LEFT: infiltration -->
+  <text x="185" y="48" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#C9412C">Air infiltration</text>
+  <rect x="90" y="60" width="190" height="180" fill="#E8DEC8" stroke="#1F1B16" stroke-width="2.5"/>
+  <rect x="140" y="90" width="90" height="140" fill="#FBF8F1" stroke="#1F1B16" stroke-width="2"/>
+  <!-- gap at door bottom with air arrows -->
+  <path d="M105,215 L135,208 M105,222 L135,215 M105,229 L135,222" stroke="#C9412C" stroke-width="2" marker-end="url(#arrowW1)"/>
+  <rect x="140" y="222" width="90" height="8" fill="#C9412C" opacity="0.4"/>
+  <text x="185" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#C9412C">air moves through a gap</text>
+  <text x="185" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#2C4A3E">fix: weatherstripping</text>
+
+  <!-- divider -->
+  <line x1="390" y1="45" x2="390" y2="285" stroke="#4A443C" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- RIGHT: conduction -->
+  <text x="595" y="48" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#8B6F4E">Conduction</text>
+  <rect x="500" y="60" width="190" height="180" fill="#E8DEC8" stroke="#1F1B16" stroke-width="2.5"/>
+  <rect x="550" y="90" width="90" height="140" fill="#D8CBA8" stroke="#1F1B16" stroke-width="2"/>
+  <!-- heat arrows passing straight through solid wall, no gap -->
+  <path d="M545,120 L645,120" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrowW2)"/>
+  <path d="M545,155 L645,155" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrowW2)"/>
+  <path d="M545,190 L645,190" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrowW2)"/>
+  <text x="595" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">heat passes through solid material</text>
+  <text x="595" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#2C4A3E">fix: insulation (R-value)</text>
+
+  <defs>
+    <marker id="arrowW1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C9412C"/>
+    </marker>
+    <marker id="arrowW2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8B6F4E"/>
+    </marker>
+  </defs>
+</svg>

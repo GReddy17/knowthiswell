@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/acids-bases-and-ph",
     "general-science-facts/mixtures-solutions-and-separation",
     "general-science-facts/chemical-reactions-and-everyday-chemistry",
+    "general-science-facts/polymers-and-plastics",
   ],
   glossary: [
     { term: "Surfactant", definition: "A compound (like soap) that reduces water's surface tension and bridges water and oil-based substances, letting them mix and be rinsed away together." },
@@ -97,7 +98,7 @@ export default function Post() {
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 1: Washing a greasy plate with soap (baseline case)</h3>
       <div className="prose-p">
-      Rub soap onto a greasy plate under running water, and surfactant molecules immediately begin surrounding grease droplets with their oily tails burrowing into the fat and their water-loving heads facing outward into the surrounding water. This forms micelles — microscopic grease-carrying spheres that stay suspended in the water rather than re-sticking to the plate — which is why the water runs cloudy rather than the grease simply spreading thinner across the surface. Rinsing then carries those suspended micelles away entirely.
+      Rub soap onto a greasy plate — itself very likely molded from a <TermLink href="/general-science-facts/polymers-and-plastics">plastic polymer</TermLink> resistant to the same water and grease it&apos;s being washed of — under running water, and surfactant molecules immediately begin surrounding grease droplets with their oily tails burrowing into the fat and their water-loving heads facing outward into the surrounding water. This forms micelles — microscopic grease-carrying spheres that stay suspended in the water rather than re-sticking to the plate — which is why the water runs cloudy rather than the grease simply spreading thinner across the surface. Rinsing then carries those suspended micelles away entirely.
       </div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 2: Why bleach and ammonia must never be combined (edge case / variation)</h3>

@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/how-a-wall-anchor-actually-holds-weight",
     "home-diy-knowledge/how-to-tell-what-weight-a-wall-can-hold",
     "home-diy-knowledge/how-paint-actually-dries-and-cures",
+    "home-diy-knowledge/how-to-tell-if-a-roof-actually-needs-repair",
   ],
   glossary: [
     { term: "Stress concentration", definition: "A point in a material where an applied force is focused into a smaller area than elsewhere, making that spot far more likely to fail first — sharp corners and joints are classic examples." },

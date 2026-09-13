@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/energy-types-and-conservation",
     "general-science-facts/forces-and-motion",
     "general-science-facts/are-bats-really-blind",
+    "general-science-facts/does-lightning-really-never-strike-the-same-place-twice",
   ],
   glossary: [
     { term: "Wave", definition: "A repeating disturbance that transfers energy from one point to another without permanently transporting the matter it travels through." },

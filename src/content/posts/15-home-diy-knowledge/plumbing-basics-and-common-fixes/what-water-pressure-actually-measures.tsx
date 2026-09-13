@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/how-a-p-trap-actually-stops-sewer-smell",
     "home-diy-knowledge/how-central-air-conditioning-actually-cools-a-house",
     "home-diy-knowledge/how-a-plunger-actually-clears-a-clog",
+    "home-diy-knowledge/why-gutters-need-regular-cleaning",
   ],
   glossary: [
     { term: "PSI", definition: "Pounds per square inch — the standard unit for water pressure, measuring how much force water exerts against every square inch of the surface it's pushing on, such as a pipe wall." },

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="roofDetailTitle">
+  <title id="roofDetailTitle">Cross-section of a roof showing water shedding normally across the open shingle field, contrasted with a flashing seam at a chimney and a roof valley where a small gap lets water reach the underlayment and roof deck beneath.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">The shingle field sheds water — the seams are where it actually gets in</text>
+
+  <!-- roof deck cross-section -->
+  <path d="M40,220 L390,90 L740,220 Z" fill="none" stroke="#1F1B16" stroke-width="3"/>
+  <path d="M40,220 L390,90 L740,220" fill="#E8DEC8" opacity="0.5"/>
+
+  <!-- shingle field lines, left slope -->
+  <line x1="90" y1="205" x2="140" y2="190" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="130" y1="178" x2="180" y2="163" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="170" y1="151" x2="220" y2="136" stroke="#4A443C" stroke-width="1.5"/>
+  <line x1="210" y1="124" x2="260" y2="109" stroke="#4A443C" stroke-width="1.5"/>
+
+  <!-- water droplets shedding normally, left slope -->
+  <path d="M150,170 L138,195" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowR1)"/>
+  <path d="M200,140 L185,175" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowR1)"/>
+  <text x="150" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#2C4A3E">Open shingle field</text>
+  <text x="150" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C4A3E">sheds water as designed</text>
+
+  <!-- chimney with flashing -->
+  <rect x="500" y="120" width="50" height="90" fill="#8B8378" stroke="#1F1B16" stroke-width="2"/>
+  <path d="M485,205 L500,190 L550,190 L565,205" fill="none" stroke="#C9412C" stroke-width="3"/>
+  <text x="525" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#4A443C">chimney</text>
+  <!-- gap arrow into deck -->
+  <path d="M505,200 L505,222" stroke="#C9412C" stroke-width="2.5" marker-end="url(#arrowR2)"/>
+  <text x="565" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#C9412C">Flashing seam</text>
+  <text x="565" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">small gap reaches deck below</text>
+
+  <!-- roof valley marker at center -->
+  <path d="M390,90 L390,150" stroke="#8B6F4E" stroke-width="3" stroke-dasharray="3 3"/>
+  <path d="M390,150 L390,195" stroke="#C9412C" stroke-width="2.5" marker-end="url(#arrowR2)"/>
+  <text x="390" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#8B6F4E">roof valley</text>
+
+  <!-- underlayment/deck label -->
+  <text x="390" y="238" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">underlayment + roof deck</text>
+
+  <defs>
+    <marker id="arrowR1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/>
+    </marker>
+    <marker id="arrowR2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C9412C"/>
+    </marker>
+  </defs>
+</svg>

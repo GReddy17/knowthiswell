@@ -42,6 +42,8 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/atoms-and-elements",
     "general-science-facts/matter-and-states-of-matter",
     "general-science-facts/acids-bases-and-ph",
+    "general-science-facts/combustion-and-fire-science",
+    "general-science-facts/polymers-and-plastics",
   ],
   glossary: [
     { term: "Chemical reaction", definition: "A process where reactants are transformed into new substances (products) with different chemical properties, by breaking and forming atomic bonds." },
@@ -123,6 +125,10 @@ export default function Post() {
 
       <p>
       One more variable changes how fast any of these reactions run without changing what they produce: a <TermLink href="/general-science-facts/chemical-reactions-and-everyday-chemistry">catalyst</TermLink>. A catalyst provides an alternative reaction pathway that needs less activation energy to get started, so the same reaction happens faster at the same temperature — without the catalyst itself being consumed or showing up in the final products. The catalytic converter under a car is an everyday example: exhaust gases pass over a honeycomb coated in platinum, palladium, and rhodium, and those metals speed up the conversion of toxic carbon monoxide and unburned fuel into carbon dioxide and water vapor, without the metals themselves being used up — the same small amount of catalyst keeps working for the life of the car. The human body runs on the same principle at a much smaller scale: enzymes are biological catalysts that speed up digestion and metabolism by factors of millions, which is the only reason reactions that would otherwise take hours in a lab happen fast enough inside you to sustain life.
+      </p>
+
+      <p>
+      Two everyday reaction types are worth naming specifically because they show up constantly outside a chemistry classroom. One is <TermLink href="/general-science-facts/combustion-and-fire-science">combustion</TermLink> — the fast, exothermic reaction between a fuel and oxygen that produces a flame, and a special case of the same bond-breaking, bond-forming logic covered above. The other is polymerization, where small molecules called monomers link together, end to end, into long repeating chains — the chemical reaction behind every plastic, covered in <TermLink href="/general-science-facts/polymers-and-plastics">Polymers &amp; Plastics</TermLink>.
       </p>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>

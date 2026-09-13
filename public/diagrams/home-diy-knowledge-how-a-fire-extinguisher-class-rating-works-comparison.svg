@@ -1,0 +1,43 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="extinguisherCompareTitle">
+  <title id="extinguisherCompareTitle">Comparison showing why using a water-type Class A fire extinguisher on a grease fire is dangerous, spreading burning oil and creating a fireball, versus a Class K extinguisher, which smothers a grease fire safely by forming a foam layer that cuts off oxygen and cools the oil.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Wrong class vs. right class on a grease fire</text>
+
+  <!-- LEFT: wrong -->
+  <rect x="55" y="48" width="320" height="210" rx="4" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <text x="215" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Water (Class A agent) on grease</text>
+
+  <!-- pan -->
+  <path d="M140,170 L290,170 L275,190 L155,190 Z" fill="#4A443C"/>
+  <ellipse cx="215" cy="170" rx="75" ry="8" fill="#3A3530"/>
+  <!-- flame before -->
+  <path d="M200,168 q6,-22 -4,-32 q14,4 16,-10 q10,16 4,30 q10,-4 4,12 Z" fill="#8B6F4E"/>
+  <!-- water stream -->
+  <line x1="215" y1="95" x2="215" y2="150" stroke="#7FA6B0" stroke-width="4"/>
+  <text x="215" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">water stream</text>
+  <!-- fireball splatter -->
+  <circle cx="150" cy="120" r="5" fill="#B5794A"/>
+  <circle cx="280" cy="115" r="6" fill="#B5794A"/>
+  <circle cx="250" cy="100" r="4" fill="#B5794A"/>
+  <circle cx="180" cy="105" r="4" fill="#B5794A"/>
+  <text x="215" y="222" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Water sinks below the hot oil,</text>
+  <text x="215" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">flashes to steam, and hurls</text>
+  <text x="215" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">burning grease outward</text>
+
+  <!-- RIGHT: right -->
+  <rect x="405" y="48" width="320" height="210" rx="4" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <text x="565" y="70" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1F1B16">Class K agent on grease</text>
+
+  <path d="M490,170 L640,170 L625,190 L505,190 Z" fill="#4A443C"/>
+  <ellipse cx="565" cy="170" rx="75" ry="8" fill="#3A3530"/>
+  <!-- foam blanket covering pan, no flame -->
+  <ellipse cx="565" cy="158" rx="72" ry="16" fill="#F3E3C7" stroke="#C9A45C" stroke-width="1.5"/>
+  <ellipse cx="540" cy="150" rx="14" ry="7" fill="#FBF8F1" stroke="#C9A45C" stroke-width="1"/>
+  <ellipse cx="580" cy="152" rx="12" ry="6" fill="#FBF8F1" stroke="#C9A45C" stroke-width="1"/>
+  <text x="565" y="222" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Fine mist forms a soapy foam</text>
+  <text x="565" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">layer, cutting off oxygen and</text>
+  <text x="565" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">cooling the oil below flashpoint</text>
+
+  <text x="390" y="285" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Same fuel, opposite outcome &#8212; the agent has to match the fuel's class.</text>
+</svg>

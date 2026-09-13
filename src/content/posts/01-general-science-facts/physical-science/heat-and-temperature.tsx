@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/matter-and-states-of-matter",
     "general-science-facts/energy-types-and-conservation",
     "general-science-facts/density-and-buoyancy",
+    "general-science-facts/combustion-and-fire-science",
   ],
   glossary: [
     { term: "Temperature", definition: "A measure of the average kinetic energy of particles in a substance — how fast they're moving on average, not how much total energy is present." },
@@ -132,6 +133,10 @@ export default function Post() {
       />
       <p>
       Conduction dominates in solids where particles are locked close together (a metal spoon in hot soup). Convection dominates in fluids that can physically flow (a pot of boiling water, a heated room, ocean currents) — warmer fluid becomes less dense, rises, cools, and sinks again in a loop. Radiation is the only one of the three that needs no medium at all, which is the only reason the Sun&apos;s heat can cross the vacuum of space to reach Earth.
+      </p>
+
+      <p>
+      A flame is one of the few everyday heat sources that also generates its own heat rather than just transferring it — worth a closer look in <TermLink href="/general-science-facts/combustion-and-fire-science">Combustion &amp; Fire Science</TermLink> — but once that heat exists, it spreads to its surroundings through the exact same conduction, convection, and radiation covered here.
       </p>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>

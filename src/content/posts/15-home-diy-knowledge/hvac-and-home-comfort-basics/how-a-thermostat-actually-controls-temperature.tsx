@@ -36,6 +36,8 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/how-central-air-conditioning-actually-cools-a-house",
     "home-diy-knowledge/why-air-filters-need-regular-replacement",
     "home-diy-knowledge/how-a-circuit-breaker-actually-protects-your-home",
+    "home-diy-knowledge/how-a-home-security-system-actually-detects-intrusion",
+    "home-diy-knowledge/what-weatherstripping-actually-does",
   ],
   glossary: [
     { term: "Setpoint", definition: "The target temperature a thermostat is told to maintain." },

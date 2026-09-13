@@ -360,8 +360,14 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
   coolingTonsToBtuPerHour: (v) => v.tons * 12000, // standard cooling-capacity conversion: 1 ton = 12,000 BTU/hr
   heatLossRateBtuPerHour: (v) => (v.areaSqFt * v.tempDifferenceF) / v.rValue, // heat flow = area x temperature difference / R-value
 
+  // --- Home & DIY Knowledge (topic 15): Seasonal & Preventive Maintenance ---
+  iceExpansionVolumeMl: (v) => v.waterVolumeMl * 0.09, // water expands ~9% by volume when it freezes solid — the added volume that has nowhere to go inside a closed pipe section
+
   // --- General Science Facts (topic 01): daily pillar posts ---
   distanceFromEchoRoundTrip: (v) => (v.speedOfSoundMs * v.roundTripSeconds) / 2, // one-way distance to a reflecting object from its echo's round-trip travel time
+
+  // --- Home & DIY Knowledge (topic 15): Home Safety & Detection Systems ---
+  radonPicocuriesToBqPerM3: (v) => v.picocuriesPerLiter * 37, // unit conversion: 1 pCi/L = 37 Bq/m3 (1 Ci = 3.7x10^10 Bq, scaled per liter to per cubic meter)
 };
 
 interface EntryCalculatorProps {

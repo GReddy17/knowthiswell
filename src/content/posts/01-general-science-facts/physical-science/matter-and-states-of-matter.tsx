@@ -46,7 +46,8 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/heat-and-temperature",
     "general-science-facts/density-and-buoyancy",
     "general-science-facts/atoms-and-elements",
-    "general-science-facts/pressure"
+    "general-science-facts/pressure",
+    "general-science-facts/states-of-matter-changes-in-daily-life"
   ],
   glossary: [
     {"term":"Matter","definition":"Anything that has mass and takes up space (volume)."},
@@ -140,6 +141,9 @@ export default function Post() {
       <p>
       Trace a horizontal line across the diagram at normal atmospheric pressure (1 atm) — as you move left to right (increasing temperature), you cross the solid-liquid boundary at water&apos;s melting point (0°C) and the liquid-gas boundary at its boiling point (100°C). Now trace a vertical line at a fixed temperature and slide it up or down — that&apos;s what happens inside a pressure cooker (pressure rising pushes you further right along the liquid-gas boundary, raising the effective boiling point) or on a mountaintop (pressure falling pushes the boiling point down). The single point where all three regions meet is the triple point; above the point marked &quot;critical point&quot; at the top of the liquid-gas line, liquid and gas stop being physically distinguishable at all — this is called a supercritical fluid, used industrially in decaffeinating coffee with supercritical CO₂.
       </p>
+      <p>
+      These same solid-liquid-gas transitions show up constantly around an ordinary house too — fogged-up breath on a cold day, dew on morning grass, frost on a windshield — covered with everyday, non-lab examples in <TermLink href="/general-science-facts/states-of-matter-changes-in-daily-life">States of Matter Changes in Daily Life</TermLink>.
+      </p>
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>
       <MistakeList
       items={[
@@ -187,6 +191,7 @@ export default function Post() {
       "Next time you use a pressure cooker, connect the faster cooking time to a higher boiling point caused by higher internal pressure, not just 'more heat.'",
       "On a humid day, notice how much less effective sweating feels compared to a dry day — that's the evaporation mechanism being slowed by already-saturated air.",
       "Read the related entry on Heat & Temperature to go deeper on what temperature actually measures at the particle level, and Pressure for how it governs phase changes.",
+      "See States of Matter Changes in Daily Life for how these same phase changes show up as fogged-up breath, dew, and frost around the house.",
       ]}
       />
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">FAQ</h2>

@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/matter-and-states-of-matter",
     "general-science-facts/heat-and-temperature",
     "general-science-facts/energy-types-and-conservation",
+    "home-diy-knowledge/how-a-fire-extinguisher-class-rating-works",
   ],
   glossary: [
     { term: "Combustion", definition: "A rapid, exothermic chemical reaction between a fuel and an oxidizer (usually oxygen) that releases heat and light." },

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="coFlowTitle">
+  <title id="coFlowTitle">Flow diagram showing how carbon monoxide reaches a detector's electrochemical sensor, how the sensor's ppm-times-time reading builds toward an alarm threshold, and how the alarm response differs from a smoke alarm's response.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="390" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">How a CO alarm decides when to trip</text>
+
+  <!-- Step 1 -->
+  <rect x="35" y="70" width="165" height="100" rx="4" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <text x="117" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">1. CO source</text>
+  <text x="117" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Furnace, water heater,</text>
+  <text x="117" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">stove, or generator</text>
+  <text x="117" y="146" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">burning fuel incompletely</text>
+
+  <path d="M200,120 L245,120" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowCo)"/>
+
+  <!-- Step 2 -->
+  <rect x="248" y="70" width="165" height="100" rx="4" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <text x="330" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">2. Sensor cell</text>
+  <text x="330" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">CO diffuses into an</text>
+  <text x="330" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">electrochemical cell and</text>
+  <text x="330" y="146" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">generates a small current</text>
+
+  <path d="M413,120 L458,120" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowCo)"/>
+
+  <!-- Step 3 -->
+  <rect x="461" y="70" width="165" height="100" rx="4" fill="#E8DEC8" stroke="#4A443C" stroke-width="2"/>
+  <text x="543" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">3. ppm x time</text>
+  <text x="543" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">Circuit tracks concentration</text>
+  <text x="543" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">over time &#8212; high ppm trips</text>
+  <text x="543" y="146" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">fast, low ppm needs longer</text>
+
+  <path d="M626,120 L671,120" stroke="#4A443C" stroke-width="2" marker-end="url(#arrowCo)"/>
+
+  <!-- Step 4 -->
+  <rect x="670" y="70" width="95" height="100" rx="4" fill="#F3E3C7" stroke="#4A443C" stroke-width="2"/>
+  <text x="717" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">4. Alarm</text>
+  <text x="717" y="125" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Loud alert;</text>
+  <text x="717" y="138" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">leave and get</text>
+  <text x="717" y="151" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">fresh air</text>
+
+  <text x="390" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">CO is colorless and odorless &#8212; the sensor is the only thing that "notices" it in the room.</text>
+
+  <defs>
+    <marker id="arrowCo" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4A443C"/>
+    </marker>
+  </defs>
+</svg>

@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/why-some-rooms-are-always-hotter-or-colder",
     "home-diy-knowledge/how-a-thermostat-actually-controls-temperature",
     "home-diy-knowledge/why-drywall-cracks-appear-explained",
+    "home-diy-knowledge/how-to-tell-if-a-roof-actually-needs-repair",
   ],
   glossary: [
     { term: "Thermal resistance", definition: "A material's opposition to the conductive flow of heat through it — the physical property R-value quantifies." },

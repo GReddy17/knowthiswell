@@ -34,6 +34,9 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "general-science-facts/forces-and-motion",
     "general-science-facts/atoms-and-elements",
+    "general-science-facts/metals-vs-non-metals",
+    "home-diy-knowledge/how-a-home-security-system-actually-detects-intrusion",
+    "general-science-facts/does-lightning-really-never-strike-the-same-place-twice",
   ],
   glossary: [
     { term: "Current", definition: "The rate of flow of electric charge, measured in amperes (A)." },
@@ -101,7 +104,7 @@ export default function Post() {
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 2: Why thin wires overheat (edge case / variation)</h3>
       <div className="prose-p">
-      A thin wire has higher resistance per meter than a thick one, because there&apos;s less cross-sectional area for charge to flow through. Push the same current through a wire that&apos;s too thin for the load, and the wire&apos;s resistance converts more of that electrical energy into heat (power = I²R) — which is exactly why household wiring is sized to the expected current, and why an overloaded extension cord can get hot enough to start a fire.
+      A thin wire has higher resistance per meter than a thick one, because there&apos;s less cross-sectional area for charge to flow through — wiring is copper or aluminum specifically because <TermLink href="/general-science-facts/metals-vs-non-metals">metals</TermLink> have loosely-held outer electrons that carry current far more readily than non-metals do. Push the same current through a wire that&apos;s too thin for the load, and the wire&apos;s resistance converts more of that electrical energy into heat (power = I²R) — which is exactly why household wiring is sized to the expected current, and why an overloaded extension cord can get hot enough to start a fire.
       </div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: How an electric motor turns current into motion (real-world / applied case)</h3>
