@@ -136,3 +136,17 @@ here conflicts with a skill's own defaults, this file wins.
   extended to 15 steps (full 3 real clusters), Electrician now anchored by
   the real Home & DIY electrical-basics-and-safety cluster instead of only
   generic finance/legal content. `main@f916c4f`, `main@8c65669`.
+- 2026-09-12: Repo cleanup — recovered 3 real uncommitted planning docs
+  (shorts architecture/distribution/daily-plan), dropped a draft superseded
+  by the orchestrator skill, deleted ~961MB of dead local experiment files,
+  compacted `video-pipeline-queue.md` and `marketing-log.md` to current
+  state. `main@ba15788`. Deployed to production manually
+  (`vercel --prod`), then connected GitHub auto-deploy properly — root
+  cause of the earlier connect failures was that the Vercel GitHub App
+  itself was never installed on the account (separate from the login
+  connection, which was already correct). Also fixed the local 7pm
+  launchd orchestrator job, which was silently failing (`command not
+  found`, exit 127) because launchd's minimal PATH doesn't include where
+  the `claude` CLI lives — added an explicit PATH export, re-armed for
+  tomorrow. This log line is itself the live test of the new auto-deploy
+  wiring — no manual `vercel --prod` after this commit.
