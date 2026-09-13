@@ -150,3 +150,50 @@ here conflicts with a skill's own defaults, this file wins.
   the `claude` CLI lives — added an explicit PATH export, re-armed for
   tomorrow. This log line is itself the live test of the new auto-deploy
   wiring — no manual `vercel --prod` after this commit.
+- 2026-09-12 (7pm scheduled run): First real execution of the standing
+  10-pages/day policy. Escalation check: routine (continuing in-progress
+  category 15 + daily pillar, no new category opened) — no `/seo-committee`
+  run needed. Numbers: Vercel 7d 55 visitors (+22%)/90 pageviews (+53%);
+  GSC 3mo 10 clicks/20K impressions/avg pos 64.1 (flat, data lag);
+  indexed 344/1,039 (33.1%, flat). Shipped 10 pages: 1 pillar (general-
+  science-facts, "Does Lightning Really Never Strike the Same Place
+  Twice?") + 9 Home & DIY Knowledge (category 15, already in progress) —
+  cluster 7 Home Safety & Detection Systems complete (5/5: smoke
+  detectors, CO detectors, fire extinguisher ratings, security systems,
+  radon) and cluster 8 Seasonal & Preventive Maintenance at 4/5 (gutters,
+  roof-repair signs, pipe freezing, weatherstripping; order 40 left for
+  next run). Internal linking: rotated through 01-general-science-facts/
+  chemistry/ (next folder in rotation), fixed 4 zero-inbound posts to 3+;
+  brought all 10 new posts to 3+ inbound via targeted seeAlso additions.
+  Course mapping checked against both live paths (Job Search & Interview
+  Readiness, Electrician) — no genuine fit for any of today's 10, not
+  forced. Build/QA clean (eslint, tsc, registry regen to 791 posts, npm
+  run build) both for the main batch and a follow-up frontmatter fix.
+  Pushed straight to `main` per the production-gate removal:
+  `main@5ebc460`, `main@c700d6d`. Video: found the YouTube pipeline had
+  run ahead of content — a batch of ~13 Shorts (uploaded 9/11-9/12,
+  scheduled through 2026-10-15) was generated directly from
+  pillar-topics.md ideas before matching posts existed, linking to
+  guessed/dead URLs (a subtopic tag used as a fake slug). Closed the loop
+  on the 2 fixable ones today (lightning → today's real new post; bats →
+  the already-live are-bats-really-blind post) rather than generate 3
+  more new Shorts on top of an already 30+ day, mostly-unmatched backlog;
+  the other ~11 scheduled Shorts (seasons, moon, 10% brain myth, blood
+  color, tongue map, rockets, buoyancy, water conductivity, glass
+  viscosity, microwave, salt/boiling, goldfish memory, falling cats)
+  still have no matching post — flagging this pipeline-ahead-of-content
+  mismatch for founder attention rather than guessing further; it's a
+  real, fixable gap (write the matching posts, or slow new Short
+  generation until content catches up), not an emergency. Marketing:
+  1 X post + 1 Quora answer on the lightning myth (real, previously
+  unanswered question), both live with a link to the new post; Reddit
+  skipped — searched several genuine-looking threads, none were a real
+  fit (either off-topic, saturated/consensus-reached, or fringe) per the
+  no-forced-posting rule. SEO indexing: quota already exhausted for the
+  day by an earlier run (9 requests spent) — confirmed via "Quota
+  Exceeded" on the lightning post's own URL-inspection request; logged
+  rather than forced. Sitemap already shows "Success"/824 discovered
+  pages as of its last read, resubmission not force-able via UI today.
+  Video-pipeline queue file and marketing-log both updated to reflect the
+  real backlog state discovered this run — those tracking docs had gone
+  stale exactly the way `project_professional_content_scope` warned about.
