@@ -107,6 +107,8 @@ Every sentence moves the story.
 - [ ] One share-worthy "changes how you think" line
 - [ ] Comment prompt asks for a thought
 - [ ] ~40s (35–50 ok), no end card / outro / verbal sign-off
+- [ ] Narrative archetype differs from the immediately-previous clip (see "Narrative
+      archetypes — rotate, don't repeat")
 - [ ] Runs `/expert-panel` if it's a format experiment or a launch clip
 
 ## Worked example — "Metal isn't colder than wood" (plan #1)
@@ -165,11 +167,64 @@ sufficient** condition. For a new channel with no watch history:
 | Relative retention | above platform average most of the runtime |
 | Shares / Saves / Comments | above our own channel average |
 
-## Prompt skeleton — use this for every clip
+## Narrative archetypes — rotate, don't repeat
 
-Fill the `<slots>`. Keep the fixed blocks (DELIVERY, VISUAL STYLE frame, the ending
-note) verbatim. Paste the whole thing into NotebookLM → Video Overview → Short →
-Custom topic. **Draft the narration to the beat sheet above first, then drop it in.**
+**Set 2026-09-13, superseding the single fixed skeleton below.** Running every clip
+through the same Hook → Misconception → Mechanism → Number → Example → Conclusion shape
+works once, then the audience (and the algorithm's pattern-matching) starts predicting
+the rhythm even as the topic changes — flagged by the founder after the channel hit 34
+scheduled clips all built on that one shape.
+
+Fix: **4 fully-specified archetypes**, each with its own DELIVERY + VISUAL STYLE +
+NARRATION skeleton (below). Pick per clip by **topic fit first**, then by **not
+repeating the immediately-previous clip's archetype** — don't force a topic into a
+shape it doesn't naturally have. A loose starting sequence (repeat weekly, re-picking
+by fit as you go): **Intuition Trap → Direct Challenge → Mechanical Breakdown → Scale
+Shock**, then cycle again with new topics.
+
+| Archetype | Best for | Feeling it opens |
+|---|---|---|
+| 1. Intuition Trap | counterintuitive facts, common myths | "I believed the opposite" |
+| 2. Direct Challenge | binary/visual-identification facts | "can I get this right?" |
+| 3. Mechanical Breakdown | hidden engineering, biological/systemic processes | "I never knew that happened" |
+| 4. Scale Shock | huge numbers, extreme ratios, historical comparisons | "that's impossible" |
+
+All 4 still answer to every rule elsewhere in this doc — the 4 triggers, the
+must-haves (named+defined terms, no end card, one save-number, one share line, one
+comment prompt, dual-channel captions), Audio, Language, and the pre-publish checklist.
+Archetype changes the *shape of the narration*, not the production standard.
+
+### Global rules — apply no matter which archetype you pick
+
+- **~40–50s, ~90–120 spoken words.** Soft ceiling — a topic that needs more room to land
+  the payoff beats one rushed to hit a number.
+- **One narrator by default** (~85% of clips). Two-host only for genuine A-argues-wrong /
+  B-corrects disagreement (~15% of clips) — see "Voice" section above.
+- **Name every applicable scientific/technical term**, each defined in a few plain words
+  as it's spoken, integrated into the sentence — never a standalone glossary line.
+- **The number is soft** ("hundreds of times faster"), never a challengeable exact figure,
+  unless the archetype's whole point *is* the exact figure (Scale Shock) — then it's the
+  one deliberately precise number in the clip, not several.
+- **No bracketed per-line scene directions in the narration itself** — they inflated an
+  early clip to 0:55. Visuals live only in the VISUAL STYLE block, which is marked
+  "guidance only — do NOT read aloud."
+- **No end card / outro / verbal sign-off.** Comment prompt + knowthiswell.com link go in
+  the video description, never the narration.
+- **Plain language, zero filler** ("basically", "in fact", "as you know", "it's
+  interesting because").
+- **Do NOT** ask NotebookLM to "output the script / storyboard" — the field generates a
+  video, not text; it will read stage directions aloud.
+- Fill the `<slots>`, keep the fixed DELIVERY/VISUAL STYLE framing verbatim, paste the
+  whole thing into NotebookLM → Video Overview → Short → Custom topic. **Draft the
+  narration to the chosen archetype's flow first, then drop it in.**
+- One retry max if NotebookLM ignores part of the prompt — then proceed with what it
+  produced and note it in the log.
+
+### Archetype 1 — Intuition Trap (Paradox / Misconception)
+
+Pacing: fast setup → sharp contradiction → single core mechanism → punchy wrap. This is
+the shape the channel started on — still the default for myth-heavy science/finance
+topics.
 
 ```
 DELIVERY: one narrator, single voice. Premium science-documentary tone — not an
@@ -204,25 +259,146 @@ CONCLUSION line with one cut off mid-sentence on an em-dash whose missing word i
 first word of the HOOK; change the ending note to *"Land the final word on a RISING
 pitch, cut immediately, no trailing silence."*
 
-### Baked-in rules — don't override per clip
+Worked example (clip #1, metal vs wood) is below under "Filled example."
 
-- **~45s, ~100–120 spoken words.** Soft — 35–52s ok if the payoff needs the room.
-- **One narrator.** (Two-host only for a genuine A-argues-wrong / B-corrects exchange —
-  then swap DELIVERY line 1 for: *"Two hosts in real disagreement, handoffs every 3–5s."*)
-- **Name every applicable scientific term**, each defined in a few plain words as it's
-  spoken, integrated into the sentence (not a standalone definition). Don't skip a term
-  just to sound casual — but don't pad with jargon that isn't doing work either.
-- **The number is soft** ("hundreds of times faster"), never a challengeable exact figure.
-- **No bracketed per-line scene directions** — they inflated an early clip to 0:55.
-  Visuals live only in the VISUAL STYLE block.
-- **No end card / outro / sign-off.** Comment prompt + knowthiswell.com link go in the
-  video description, never the narration.
-- **Plain language, zero filler** ("basically", "in fact", "as you know", "it's
-  interesting because").
-- **Do NOT** ask NotebookLM to "output the script / storyboard" — the field generates a
-  video, not text; it will read stage directions aloud.
+### Archetype 2 — Direct Challenge (A/B Micro-Quiz)
 
-### Filled example — clip #1 (metal vs wood), clean-close
+Pacing: immediate binary choice → 2-second visual tension → answer reveal → the "why".
+Best for topics with a genuine, visually-stageable either/or (two objects, two
+outcomes) — don't force a false binary onto a topic that doesn't have one.
+
+```
+DELIVERY: one narrator, high-tempo, direct, sharp enunciation. Deliberate micro-pause
+after the question, then accelerate through the answer. No intro, no "did you know,"
+no "in this video," no channel name, no call to action, no sign-off.
+
+VISUAL STYLE (guidance only — do NOT read aloud): split-screen Option A vs Option B
+with a 2-second visual timer/tension beat, immediate zoom-in to the winning option on
+reveal, scene change every 2–3s, minimal text, no presenter.
+
+NARRATION — read exactly these lines, in order, then stop:
+
+<CHALLENGE — verbatim: "<Field/topic> challenge: between <Option A> and <Option B>,
+which one <surprising outcome>?">
+<PAUSE BEAT — one short line implying the wrong instinct: "If you picked <the
+intuitive-but-wrong option>, you just fell for the classic trap.">
+<REVEAL — the actual answer, stated flatly: "The actual answer is <Option B/correct
+option>.">
+<MECHANISM — name the term if one applies, defined in plain words: "Because <single
+decisive mechanical reason>, it beats <the other option> every single time.">
+<EXAMPLE — optional one-clause everyday extension of the same mechanism, only if it
+doesn't push past the word budget.>
+<CONCLUSION — one satisfying sentence restating the mental model in plain words.>
+
+Land that final line with calm, settled finality — a clean full stop.
+```
+
+Ready example (physics):
+> "Physics test: drop a solid steel sphere and a hollow steel sphere of the exact same
+> size in a vacuum — which hits first?
+> If you picked the heavier one, you fell for the trap.
+> They hit at the exact same millisecond.
+> Without air resistance, gravity accelerates all mass at the same rate — that's
+> gravitational acceleration, and it doesn't care about weight."
+
+### Archetype 3 — Mechanical Breakdown (How It Actually Works)
+
+Pacing: sudden observation → step 1 (trigger) → step 2 (hidden internal reaction) →
+conclusion. Best for hidden engineering, systemic/biological processes — the "Hidden
+Machine" shape.
+
+```
+DELIVERY: one narrator. Precise, analytical, matter-of-fact documentary narration.
+Steady, rhythmic cadence, no hype. No intro, no "did you know," no "in this video," no
+channel name, no call to action, no sign-off.
+
+VISUAL STYLE (guidance only — do NOT read aloud): macro close-up or cutaway schematic
+diagram of the internal parts, fast sequential transitions matching each step, scene
+change every 2–3s, minimal text, no presenter.
+
+NARRATION — read exactly these lines, in order, then stop:
+
+<OBSERVATION — verbatim: "When you <everyday action>, you assume <the assumed simple
+process>. What actually happens inside is <the real mechanism, teased not explained
+yet>.">
+<STEP 1 — the trigger event, concrete and immediate.>
+<STEP 2 — the internal mechanical/biological reaction nobody sees, with the scientific
+term named and defined in plain words as it's spoken.>
+<STEP 3 (optional, only if the mechanism genuinely has 3 beats) — the next link in the
+same chain.>
+<CONCLUSION — the single mechanism as the whole reason for the final outcome: "That
+single mechanism is the only reason <final critical outcome>.">
+
+Land that final line with calm, settled finality — a clean full stop.
+```
+
+Ready example (engineering/safety):
+> "When your car crashes, seatbelts don't just hold you back — they deliberately
+> stretch.
+> First, a pretensioner clamps the belt tight within milliseconds of impact.
+> Then an internal torsion bar slowly twists, letting controlled slack through so your
+> organs decelerate gradually instead of tearing — that's load limiting.
+> It isn't rigid fabric saving your life. It's engineered deformation."
+
+### Archetype 4 — Scale Shock (Data / Perspective Inversion)
+
+Pacing: absurd comparison → anchored reference point → shocking context → resonant
+takeaway. Best for astounding numbers, historical comparisons, extreme ratios — the one
+archetype where a precise (not soft) number is the whole point.
+
+```
+DELIVERY: one narrator. Understated, cold, clinical delivery — let the scale of the
+number create the impact, not artificial vocal excitement. No intro, no "did you know,"
+no "in this video," no channel name, no call to action, no sign-off.
+
+VISUAL STYLE (guidance only — do NOT read aloud): minimalist animated data
+visualization, scale-comparison bars, or rapid side-by-side size/time scaling. Scene
+change every 2–3s, minimal text, no presenter.
+
+NARRATION — read exactly these lines, in order, then stop:
+
+<FRAME — verbatim: "To understand just how <massive/small/fast/slow> <subject> really
+is, look at this comparison.">
+<ANCHOR — a relatable reference quantity and its familiar baseline time/effort.>
+<INVERSION — the same rate applied to the target subject, with the exact shocking
+comparative figure said slowly.>
+<CONCLUSION — one line the viewer can't unsee, tying the number back to something they
+already understand: "We simply cannot visualize numbers this extreme" or an
+equivalent concrete closer specific to the topic.>
+
+Land that final line with calm, settled finality — a clean full stop.
+```
+
+Ready example (math/economics):
+> "The difference between a million and a billion is almost impossible to visualize.
+> One million seconds is roughly eleven and a half days.
+> One billion seconds is thirty-one point seven years.
+> A billionaire isn't slightly wealthier than a millionaire — they're operating on an
+> entirely different scale of time."
+
+### Extended archetype set — backlog, not yet given full NotebookLM templates
+
+From an earlier 12-skeleton brainstorm (2026-09-13). These are real, distinct shapes
+worth adding once the 4 above are validated in production — each needs its own
+DELIVERY/VISUAL STYLE/NARRATION skeleton written to match the global rules before use,
+the same way the 4 above were:
+
+| Archetype | Emotion | Flow |
+|---|---|---|
+| Scale Shock detail: **Timeline Countdown** | "everything happens incredibly fast" | start event → 0.01s → 0.1s → 1s → final result (crashes, lightning, heartbeats, CPUs) |
+| **Myth vs Reality** | "the internet lied" | myth → reality → why people believe it → actual science |
+| **What If?** | "what would happen?" | hypothetical question → immediate prediction → actual result → explanation |
+| **Domino Effect** | "one thing caused all this" | tiny event → step 1 → step 2 → step 3 → unexpected consequence |
+| **Invisible Competition** | "everything is racing" | two things compete → which wins? → why → surprise |
+| **Reverse Thinking** | "the effect explains the cause" | weird observation → ask why → reveal hidden cause → finish |
+| **Before vs After** | transformation | before → trigger → after → reason (evolution, manufacturing, medicine, tech) |
+| **Tiny Detail, Huge Impact** | "something so small matters" | tiny object → hidden purpose → what happens without it → memorable ending |
+
+*(Baked-in production rules that used to live here are now under "Global rules — apply
+no matter which archetype you pick" above — they apply to all 4 archetypes, not just
+this one.)*
+
+### Filled example — Archetype 1, clip #1 (metal vs wood), clean-close
 
 ```
 DELIVERY: one narrator, single voice. Premium science-documentary tone — not an
