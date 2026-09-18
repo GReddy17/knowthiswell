@@ -83,7 +83,7 @@ production.
 | # | Category | Folder | Status |
 |---|----------|--------|--------|
 | 14 | Career & Study Skills | `14-career-study-skills` | done |
-| 15 | Home & DIY Knowledge | `15-home-diy-knowledge` | in progress (30/50) |
+| 15 | Home & DIY Knowledge | `15-home-diy-knowledge` | in progress (49/50) |
 | 16 | Health & Wellness Deep Dive | `16-health-wellness-deep-dive` | not started |
 | 17 | Technology Deep Dives | `17-technology-deep-dives` | not started |
 | 18 | Business & Entrepreneurship Basics | `18-business-entrepreneurship-basics` | not started |

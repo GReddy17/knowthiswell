@@ -20,11 +20,15 @@ first test cohort; a loop that triggers a second play pushes % viewed into promo
 
 ## Length
 
-**Aim ~40 seconds. Not a hard cap** — 35–50s is fine when the content earns it; a clip
-that needs a bit more room to land the payoff is better than one rushed to hit a number.
-~90–110 spoken words. What's non-negotiable: no padding, a reward every 3–5s, and a
-payoff that lands. Our first 26 clips ran 60–84s — *that* was too long (front half was
-setup); 40-ish keeps the whole thing dense.
+**Aim ~35 seconds, hard ceiling 45s — tightened 2026-09-17 on real retention data.**
+Last 7 days of YouTube Analytics (average percentage viewed, not a guess): the two
+clips that actually ran 34-35s hit 65.4% and 70.8% average viewed; clips that landed
+in the 1:15-1:30 range averaged ~35-40%. Sub-40s isn't just "fine when it earns it"
+anymore — it's the single biggest lever we have. ~80-100 spoken words. What's
+non-negotiable: no padding, a reward every 3–5s, and a payoff that lands. Our first 26
+clips ran 60–84s — *that* was too long (front half was setup); this new data says even
+40-50s was still too loose. If a topic genuinely can't land under 45s, that's a signal
+to cut the example, not extend the runtime.
 
 ## Voice: single narrator (default)
 
@@ -196,8 +200,22 @@ Archetype changes the *shape of the narration*, not the production standard.
 
 ### Global rules — apply no matter which archetype you pick
 
-- **~40–50s, ~90–120 spoken words.** Soft ceiling — a topic that needs more room to land
-  the payoff beats one rushed to hit a number.
+- **~35s, ~80–100 spoken words. Hard ceiling: 45s / 110 words, no exceptions**
+  (tightened 2026-09-17 — see "Length" above; this is now retention-backed, not
+  a style preference). 3 of the 2026-09-14 week's 7 clips (Mariana 87s,
+  Handwashing 72s, Touchscreens 71s) blew past the old 50s cap because the
+  custom-topic prompt phrased it as a soft target and NotebookLM ran long —
+  deleted and regenerated 2026-09-14. The cap still got missed again the
+  following week regardless (four clips landed 1:15-1:30, averaging ~40%
+  viewed vs 65-71% for the two clips that actually ran 34-35s) because the
+  ffprobe check below was written here but never actually enforced as a gate
+  in the daily-video skill's own QC step — it is now (see that skill's Step 3).
+  State the word/time cap as a hard instruction in the prompt itself (e.g.
+  "Narration must be 80-100 spoken words total, no more than 110 — do not
+  exceed this even if it means cutting an example"), and **check the actual
+  rendered duration before uploading**, not after — ffprobe the downloaded
+  file as part of Step 3 QC, not just at edit time. Over 45s = regenerate,
+  don't ship it anyway.
 - **One narrator by default** (~85% of clips). Two-host only for genuine A-argues-wrong /
   B-corrects disagreement (~15% of clips) — see "Voice" section above.
 - **Name every applicable scientific/technical term**, each defined in a few plain words

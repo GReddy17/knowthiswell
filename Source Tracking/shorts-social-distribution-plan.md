@@ -4,6 +4,17 @@ _Created 2026-09-05. Covers the 26 short-form companion videos (~65–90 s each,
 one per pillar/workhorse topic). Goal: push every Short to every free
 short-form surface, sequenced to reinforce the YouTube long-form + the site._
 
+**STALE (2026-09-17) — video-ID column is unreliable, don't act on it as-is.**
+Checked all 26 IDs against the YouTube Data API: 12 are still-live published
+videos. The other 14 (incl. `kd42CDkDlgw` power-of-attorney and
+`Vdbg_rDfkC4` vaccines, both flagged during a broken-link audit) come back
+not-found — confirmed these were part of the 49-video scheduled backlog
+deleted the same day (2026-09-17 mass wipe, see `video-log.md` /
+`marketing-log.md`), not placeholders that never shipped. `video-log.md` is
+the current single source of truth for what's actually live/scheduled per
+its own header; treat this doc as historical planning only, not a live
+tracker.
+
 Related: `content-strategy.md` (the two-stream model), `daily-video/SKILL.md`
 (how the videos are made), `.claude/private/accounts-registry.md` (which
 account each platform is).

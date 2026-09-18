@@ -197,3 +197,48 @@ here conflicts with a skill's own defaults, this file wins.
   Video-pipeline queue file and marketing-log both updated to reflect the
   real backlog state discovered this run — those tracking docs had gone
   stale exactly the way `project_professional_content_scope` warned about.
+- 2026-09-17: Real YouTube Analytics data confirmed the founder's retention
+  observation (sub-40s Shorts hit 65-71% avg-% viewed vs ~30-50% for
+  1:15-1:30 clips) — tightened Shorts spec to ~35s/80-100 words, ceiling
+  45s, and closed an enforcement gap (the old cap existed on paper since
+  2026-09-14 but was never wired into an actual QC gate). Founder then
+  authorized deleting the entire forward-scheduled backlog rather than
+  keep old-spec content live: 49 YouTube + 71 Meta + 31 TikTok scheduled
+  posts deleted, hard-verified 0 remaining on each platform, zero
+  live/published content touched. Found and reused Meta Business Suite's
+  bulk multi-select delete (new efficiency finding). One video
+  (`C4yjDKZNM50`) was missed by the batch and a follow-up solo delete was
+  blocked by the auto-mode permission classifier — still needs founder
+  cleanup, logged in `video-log.md` Open items. Followed up with a
+  site-wide broken-link audit: 8 posts had stale `youtubeStatus:
+  "scheduled"` pointing at now-deleted videos, reset to `"not-started"`
+  (one turned out to already be `"published"` live — corrected instead of
+  reset). Full detail in `marketing-log.md` and `video-log.md`.
+- 2026-09-17/18: **Fixed the daily orchestrator cron, dead since 2026-09-14.**
+  Diagnosed: launchd fired on schedule every day, but the LaunchAgent
+  couldn't read anything under `~/Downloads` (macOS Full Disk Access) — the
+  09-12 "fix" (a wrapper script to dodge a space-in-path bug) never
+  actually addressed this, so 09-15/16/17 all failed silently with zero
+  output despite `roadmap.md` reading like the job was healthy. Founder
+  granted `/bin/zsh` Full Disk Access; verified via a disposable test
+  script under real launchd (not a simulated env) before touching the real
+  wrapper again. Live end-to-end test: rescheduled the real job to fire at
+  21:50 (temporarily, restored to 19:00 after), watched it fire clean —
+  read the repo, correctly pulled today's picks from the new
+  `content-master-schedule.md`, wrote all 10 planned Home & DIY posts.
+  Got cut off by an unrelated session usage-limit before reaching video/
+  SEO/build/commit. Finished the rest by hand: fixed 23 `react/no-
+  unescaped-entities` eslint errors (recurring pattern, noted in
+  `category-rollout-status.md`), `tsc`/registry/build all clean, committed
+  + pushed (`main@78ce180`). Home & DIY Knowledge (15) now 49/50 — one
+  post short (`why-grading-and-drainage-around-a-house-matters`, order 50).
+  Video step (the day's Short: `how-a-sump-pump-actually-prevents-
+  flooding`) not yet done — full NotebookLM pipeline is large enough to be
+  its own pass rather than force through it tonight.
+  Also tightened the video-scheduling rule per founder call: YouTube's
+  date is now the anchor for TikTok/Meta too (same date everywhere, not
+  each platform's own independently-picked slot) — fixed a real
+  self-contradiction in `video-log.md` where "The rule" said date-matching
+  wasn't required while "Best practices" already assumed it was. Updated
+  `orchestrator/SKILL.md`, `daily-video/SKILL.md`, `video-master-
+  schedule.md` to match.

@@ -126,6 +126,6 @@ Folder: `exterior-yard-and-structural-basics/`
 | 5 | Fasteners, Adhesives & Mounting | done — verified (build/lint/typecheck clean) |
 | 6 | HVAC & Home Comfort Basics | done — verified (build/lint/typecheck clean) |
 | 7 | Home Safety & Detection Systems | done — verified (eslint/tsc/build clean, 2026-09-12) |
-| 8 | Seasonal & Preventive Maintenance | in progress (4/5, order 36-39 done, 2026-09-12) — resume at #40 (how-often-household-systems-actually-need-maintenance.tsx) |
-| 9 | Flooring & Interior Basics | not started |
-| 10 | Exterior, Yard & Structural Basics | not started |
+| 8 | Seasonal & Preventive Maintenance | done — verified (eslint/tsc/build clean, 2026-09-18) |
+| 9 | Flooring & Interior Basics | done — verified (eslint/tsc/build clean, 2026-09-18) |
+| 10 | Exterior, Yard & Structural Basics | in progress (4/5, order 46-49 done, 2026-09-18) — resume at #50 (why-grading-and-drainage-around-a-house-matters.tsx) |
