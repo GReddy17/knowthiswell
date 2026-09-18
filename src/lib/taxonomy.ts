@@ -6,10 +6,26 @@ const TAXONOMY_PATH = path.join(process.cwd(), 'content', 'taxonomy.json');
 interface TaxonomyEntry {
   label: string;
   description?: string;
+  focusGroup?: string;
   phase?: number;
   status?: 'active' | 'coming-soon';
   comingSoonPreview?: string[];
 }
+
+/** Homepage-only grouping of categories by what they're actually for,
+ *  so "Explore by Focus" doesn't have to show all 43 categories with
+ *  equal weight. Order here is display order. Purely a display grouping
+ *  on top of the real categories — not a new taxonomy layer, no new URLs.
+ *  See `seo-committee/SKILL.md` §0.6 for why a real Domain layer was
+ *  rejected. */
+export const FOCUS_GROUPS: { id: string; label: string; description: string }[] = [
+  { id: 'foundations', label: 'Foundations', description: 'The building blocks — how the world works, measured and explained plainly.' },
+  { id: 'world-society', label: 'World & Society', description: 'Geography, history, and the civic and cultural context around us.' },
+  { id: 'money-career', label: 'Money & Career', description: 'The financial and professional fundamentals no one formally teaches.' },
+  { id: 'health-home', label: 'Health & Home', description: 'Your body and your living space — the maintenance basics of both.' },
+  { id: 'technology', label: 'Technology', description: 'How computers, devices, and the systems behind them actually work.' },
+  { id: 'culture-leisure', label: 'Culture & Leisure', description: 'Arts, entertainment, sport, and the things people do for their own sake.' },
+];
 
 interface TaxonomyRegistry {
   [category: string]: TaxonomyEntry;
@@ -46,6 +62,11 @@ export function getCategoryDescription(category: string): string | undefined {
 export function getCategoryStatus(category: string): 'active' | 'coming-soon' | undefined {
   const registry = loadRegistry();
   return registry[category]?.status;
+}
+
+export function getCategoryFocusGroup(category: string): string | undefined {
+  const registry = loadRegistry();
+  return registry[category]?.focusGroup;
 }
 
 export function getCategoryPhase(category: string): number | undefined {

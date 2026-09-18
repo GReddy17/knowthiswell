@@ -2,42 +2,49 @@
   "general-science-facts": {
     "label": "01. General Science Facts",
     "description": "Fundamental scientific principles and interesting facts from the natural world.",
+    "focusGroup": "foundations",
     "phase": 1,
     "status": "active"
   },
   "math-numbers": {
     "label": "02. Math & Numbers",
     "description": "Practical mathematics and the role of numbers in everyday logic.",
+    "focusGroup": "foundations",
     "phase": 1,
     "status": "active"
   },
   "geography-world-facts": {
     "label": "03. Geography & World Facts",
     "description": "Understanding the world's layout, borders, and physical characteristics.",
+    "focusGroup": "world-society",
     "phase": 1,
     "status": "active"
   },
   "history-timeline-facts": {
     "label": "04. History Timeline Facts",
     "description": "Key events and eras that shaped human civilization.",
+    "focusGroup": "world-society",
     "phase": 1,
     "status": "active"
   },
   "language-vocabulary": {
     "label": "05. Language & Vocabulary",
     "description": "The evolution of language and how to expand your expressive power.",
+    "focusGroup": "foundations",
     "phase": 1,
     "status": "active"
   },
   "festivals-culture": {
     "label": "06. Festivals & Culture",
     "description": "Exploring global traditions, celebrations, and cultural norms.",
+    "focusGroup": "world-society",
     "phase": 1,
     "status": "active"
   },
   "units-measurement-conversions": {
     "label": "07. Units & Measurement Conversions",
     "description": "How to convert between systems and understand measurement standards.",
+    "focusGroup": "foundations",
     "phase": 2,
     "status": "active",
     "comingSoonPreview": [
@@ -51,6 +58,7 @@
   "general-awareness-basics": {
     "label": "08. General Awareness & Current Affairs Basics",
     "description": "Essential knowledge of what is happening in the world right now.",
+    "focusGroup": "world-society",
     "phase": 2,
     "status": "active",
     "comingSoonPreview": [
@@ -64,6 +72,7 @@
   "health-body-basics": {
     "label": "09. Health & Body Basics",
     "description": "Introduction to human anatomy and basic health maintenance.",
+    "focusGroup": "health-home",
     "phase": 2,
     "status": "active",
     "ymyl": true,
@@ -78,6 +87,7 @@
   "environment-nature": {
     "label": "10. Environment & Nature",
     "description": "The basics of ecology, biodiversity, and natural systems.",
+    "focusGroup": "world-society",
     "phase": 2,
     "status": "active",
     "comingSoonPreview": [
@@ -91,6 +101,7 @@
   "personal-finance-basics": {
     "label": "11. Personal Finance Basics",
     "description": "The absolute fundamentals of budgeting, saving, and spending.",
+    "focusGroup": "money-career",
     "phase": 3,
     "status": "active",
     "ymyl": true,
@@ -105,6 +116,7 @@
   "legal-documentation-howtos": {
     "label": "12. Legal & Documentation How-Tos",
     "description": "How to handle essential paperwork and legal documentation.",
+    "focusGroup": "money-career",
     "phase": 3,
     "status": "active",
     "ymyl": true,
@@ -119,6 +131,7 @@
   "technology-basics": {
     "label": "13. Technology Basics",
     "description": "The fundamental building blocks of modern computing and the internet.",
+    "focusGroup": "technology",
     "phase": 3,
     "status": "active",
     "comingSoonPreview": [
@@ -132,6 +145,7 @@
   "career-study-skills": {
     "label": "14. Career & Study Skills",
     "description": "How to learn effectively and present yourself professionally.",
+    "focusGroup": "money-career",
     "phase": 3,
     "status": "active",
     "comingSoonPreview": [
@@ -145,6 +159,7 @@
   "home-diy-knowledge": {
     "label": "15. Home & DIY Knowledge",
     "description": "Basic maintenance and improvement skills for the home.",
+    "focusGroup": "health-home",
     "phase": 3,
     "status": "active",
     "comingSoonPreview": [
@@ -158,6 +173,7 @@
   "health-wellness-deep-dive": {
     "label": "16. Health & Wellness Deep Dive",
     "description": "Advanced strategies for optimal physical and mental wellbeing.",
+    "focusGroup": "health-home",
     "phase": 4,
     "status": "coming-soon",
     "ymyl": true,
@@ -172,6 +188,7 @@
   "technology-deep-dives": {
     "label": "17. Technology Deep Dives",
     "description": "In-depth exploration of complex technological systems.",
+    "focusGroup": "technology",
     "phase": 4,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -185,6 +202,7 @@
   "business-entrepreneurship-basics": {
     "label": "18. Business & Entrepreneurship Basics",
     "description": "Starting from zero: the first steps of building a business.",
+    "focusGroup": "money-career",
     "phase": 4,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -198,6 +216,7 @@
   "travel-local-guides": {
     "label": "19. Travel & Local Guides",
     "description": "How to explore new places with purpose and efficiency.",
+    "focusGroup": "culture-leisure",
     "phase": 4,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -211,6 +230,7 @@
   "trivia-fun-facts": {
     "label": "20. Trivia & Fun Facts",
     "description": "The weird, the wonderful, and the unexpected facts of life.",
+    "focusGroup": "culture-leisure",
     "phase": 4,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -224,6 +244,7 @@
   "investing-markets-deep-dive": {
     "label": "21. Investing & Markets Deep Dive",
     "description": "Advanced analysis of financial markets and investment vehicles.",
+    "focusGroup": "money-career",
     "phase": 5,
     "status": "coming-soon",
     "ymyl": true,
@@ -238,6 +259,7 @@
   "government-schemes-benefits": {
     "label": "22. Government Schemes & Benefits",
     "description": "Navigating the landscape of public benefits and subsidies.",
+    "focusGroup": "money-career",
     "phase": 5,
     "status": "coming-soon",
     "ymyl": true,
@@ -252,6 +274,7 @@
   "competitive-exam-prep": {
     "label": "23. Competitive Exam Prep",
     "description": "Strategic preparation for high-stakes academic and professional exams.",
+    "focusGroup": "money-career",
     "phase": 5,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -265,6 +288,7 @@
   "professional-skills-certifications": {
     "label": "24. Professional Skills & Certifications",
     "description": "The path to becoming a certified expert in your field.",
+    "focusGroup": "money-career",
     "phase": 5,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -278,6 +302,7 @@
   "ai-future-tech-literacy": {
     "label": "25. AI & Future Tech Literacy",
     "description": "Staying ahead of the curve with AI and the next wave of technology.",
+    "focusGroup": "technology",
     "phase": 5,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -291,6 +316,7 @@
   "digital-safety-privacy": {
     "label": "26. Digital Safety & Privacy",
     "description": "Passwords, scams, phishing, and data privacy basics for all ages.",
+    "focusGroup": "technology",
     "phase": 5,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -304,6 +330,7 @@
   "life-skills-etiquette": {
     "label": "27. Life Skills & Etiquette",
     "description": "Practical life guidance, social skills, and professional etiquette.",
+    "focusGroup": "health-home",
     "phase": 5,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -317,6 +344,7 @@
   "psychology-human-behavior": {
     "label": "28. Psychology & Human Behavior",
     "description": "Understanding human psychology, motivation, and everyday behavior patterns.",
+    "focusGroup": "health-home",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -330,6 +358,7 @@
   "philosophy-ethics-wisdom": {
     "label": "29. Philosophy, Ethics & Wisdom",
     "description": "Core philosophical ideas, ethical frameworks, and how to think more clearly.",
+    "focusGroup": "culture-leisure",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -343,6 +372,7 @@
   "food-cooking": {
     "label": "30. Food & Cooking",
     "description": "How food actually works, and the techniques behind good cooking.",
+    "focusGroup": "health-home",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -356,6 +386,7 @@
   "agriculture-farming": {
     "label": "31. Agriculture & Farming",
     "description": "How food actually gets grown, from soil to harvest.",
+    "focusGroup": "health-home",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -369,6 +400,7 @@
   "economics": {
     "label": "32. Economics",
     "description": "How markets, money, and trade actually work at a national and global scale.",
+    "focusGroup": "money-career",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -382,6 +414,7 @@
   "religion-beliefs": {
     "label": "33. Religion & Beliefs",
     "description": "World religions and belief systems, explained factually and respectfully.",
+    "focusGroup": "world-society",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -395,6 +428,7 @@
   "literature-books": {
     "label": "34. Literature & Books",
     "description": "How to read more critically, and the ideas behind great books.",
+    "focusGroup": "culture-leisure",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -408,6 +442,7 @@
   "arts-design": {
     "label": "35. Arts & Design",
     "description": "Foundational principles behind visual art, design, and architecture.",
+    "focusGroup": "culture-leisure",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -421,6 +456,7 @@
   "music": {
     "label": "36. Music",
     "description": "How music actually works, in theory and in practice.",
+    "focusGroup": "culture-leisure",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -434,6 +470,7 @@
   "movies-entertainment": {
     "label": "37. Movies & Entertainment",
     "description": "How film and television actually get made, and the craft behind them.",
+    "focusGroup": "culture-leisure",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -447,6 +484,7 @@
   "sports": {
     "label": "38. Sports",
     "description": "The rules, science, and history behind major sports.",
+    "focusGroup": "culture-leisure",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -460,6 +498,7 @@
   "gaming-esports": {
     "label": "39. Gaming & Esports",
     "description": "How video games are designed, and how esports actually works.",
+    "focusGroup": "technology",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -473,6 +512,7 @@
   "fashion-beauty": {
     "label": "40. Fashion & Beauty",
     "description": "The basics of clothing, personal style, and skincare.",
+    "focusGroup": "culture-leisure",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -486,6 +526,7 @@
   "photography-video": {
     "label": "41. Photography & Video",
     "description": "How cameras actually work, and the fundamentals of visual storytelling.",
+    "focusGroup": "technology",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -499,6 +540,7 @@
   "automotive-industry": {
     "label": "42. Automotive Industry",
     "description": "How cars actually work, and what's changing with EVs.",
+    "focusGroup": "technology",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [
@@ -512,6 +554,7 @@
   "manufacturing-industry": {
     "label": "43. Manufacturing & Industry",
     "description": "How factories and industrial systems actually produce the things we use.",
+    "focusGroup": "technology",
     "phase": 6,
     "status": "coming-soon",
     "comingSoonPreview": [

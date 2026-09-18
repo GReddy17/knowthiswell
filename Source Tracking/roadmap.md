@@ -38,6 +38,20 @@ here conflicts with a skill's own defaults, this file wins.
    detail: `.claude/skills/orchestrator/SKILL.md`. If indexed ratio or the
    discovered-not-indexed backlog get worse after this, that's the signal to
    bring pace back to `/seo-committee` — not a silent reversion.
+5. **Long-term vision — "Human Knowledge Encyclopedia" (2026-09-18,
+   aspirational, NOT active):** founder's long-run direction for the site —
+   a structured Domain > Category > Subject > Topic knowledge base, well
+   beyond the current 43 categories. Recorded here so it's on the record as
+   a real destination, not to be confused with authorization to build it.
+   **Stays aspirational until, per `/seo-committee`'s standing hard rules:**
+   indexed ratio and avg position have moved meaningfully off the current
+   33%/pos-64 baseline, and real backlink/authority signal exists. Until
+   then: no Domain URL layer, no top-down taxonomy driving topic selection
+   (stay demand-driven per directive #2), no "encyclopedia" in external
+   brand copy (conflicts with "practical, 0-to-pro" positioning — internal
+   vision language only). Full rejection-as-current-initiative reasoning:
+   log entry below, 2026-09-18; standing rules: `seo-committee/SKILL.md`
+   §0.6, §5.
 
 ## Current reality (refresh every check-in, don't let this go stale)
 
@@ -242,3 +256,21 @@ here conflicts with a skill's own defaults, this file wins.
   wasn't required while "Best practices" already assumed it was. Updated
   `orchestrator/SKILL.md`, `daily-video/SKILL.md`, `video-master-
   schedule.md` to match.
+- 2026-09-18: Founder brought an external draft prompt proposing a "Human
+  Knowledge Encyclopedia" pivot — a Domain layer above Category, targeting
+  100+ domains / 10,000+ topics via top-down taxonomy. Ran `/seo-committee`
+  (Product & Business + Technical SEO + Founder Reality Check). Rejected as
+  a current initiative, unanimous: it's the reversed 20-posts/day breadth
+  mistake (`category-rollout-status.md`) at ~100x scale, proposed while
+  indexed ratio is still flat at 33% (344/1,039) and avg position 64 —
+  same numbers as the 2026-09-12 baseline, unmoved. Also red-lined: any new
+  URL segment/prefix on existing indexed URLs (re-crawl/re-index risk the
+  site can't absorb right now), and "encyclopedia" as external brand
+  framing (collides with the "practical, 0-to-pro" differentiation vs.
+  generic reference sites). No change to standing policy — content-scope
+  directive (#2 above) and the existing category→subcategory structure
+  already cover legitimate expansion, demand-driven, gated through
+  `/seo-committee` per new category as before. Recorded as standing
+  precedent in `seo-committee/SKILL.md` (§0.6, §5) so this isn't
+  re-litigated from scratch; re-open only if indexed ratio/avg position
+  actually move from this baseline.

@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3005",
-    "prebuild": "npm run process-images && node scripts/generate-post-registry.mjs",
+    "prebuild": "npm run process-images && node scripts/generate-post-registry.mjs && node scripts/generate-question-pool.mjs",
     "build": "next build",
     "postbuild": "npm run process-images",
     "process-images": "node scripts/process-images.mjs",
@@ -19,6 +19,7 @@
     "@vercel/analytics": "^2.0.1",
     "@vercel/blob": "^2.8.0",
     "@vercel/og": "^1.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.33.0",
     "next": "^16.3.1",
