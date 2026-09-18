@@ -1,0 +1,41 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="squeakTitle">
+  <title id="squeakTitle">Diagram of a floorboard, subfloor, and joist in cross-section showing a loosened nail with a small gap around its shank, and the board rubbing against the nail and subfloor when weight is applied, producing the squeak.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">A loosened nail, not a broken board</text>
+
+  <!-- floorboard -->
+  <rect x="140" y="90" width="500" height="40" fill="#C9A063" stroke="#1F1B16" stroke-width="2"/>
+  <text x="390" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">floorboard</text>
+
+  <!-- subfloor -->
+  <rect x="140" y="130" width="500" height="30" fill="#B7A98C" stroke="#1F1B16" stroke-width="2"/>
+  <text x="670" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">subfloor</text>
+
+  <!-- joist -->
+  <rect x="330" y="160" width="120" height="70" fill="#8A6D3B" stroke="#1F1B16" stroke-width="2"/>
+  <text x="390" y="243" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">joist</text>
+
+  <!-- nail with gap -->
+  <rect x="386" y="70" width="8" height="95" fill="#4A443C"/>
+  <path d="M382,90 L398,90" stroke="#C9412C" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <path d="M382,120 L398,120" stroke="#C9412C" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <text x="440" y="105" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">small gap around shank —</text>
+  <text x="440" y="118" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9412C">board rubs here under load</text>
+
+  <!-- weight arrow -->
+  <path d="M220,55 L220,88" stroke="#1F1B16" stroke-width="2.5" marker-end="url(#arrowS1)"/>
+  <text x="220" y="46" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">footstep weight</text>
+
+  <!-- squeak wave lines -->
+  <path d="M470,70 Q480,60 490,70 Q500,80 510,70" fill="none" stroke="#C98A2C" stroke-width="2"/>
+  <text x="530" y="73" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#C98A2C">squeak!</text>
+
+  <defs>
+    <marker id="arrowS1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Weight shifts the loosened board just enough to rub against the nail shank — that friction is the sound</text>
+</svg>

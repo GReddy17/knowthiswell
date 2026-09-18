@@ -1,0 +1,31 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="groutTitle">
+  <title id="groutTitle">Cross-section diagram of tile installation showing a substrate, a layer of thinset adhesive bonding each tile to the substrate, and grout filling only the joint space between adjacent tiles.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Adhesive bonds the tile — grout only fills the gap</text>
+
+  <!-- substrate -->
+  <rect x="90" y="200" width="600" height="30" fill="#B7A98C" stroke="#1F1B16" stroke-width="2"/>
+  <text x="710" y="220" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#1F1B16">substrate</text>
+
+  <!-- thinset layer -->
+  <rect x="90" y="185" width="290" height="15" fill="#8A7355" stroke="#1F1B16" stroke-width="1.5"/>
+  <rect x="400" y="185" width="290" height="15" fill="#8A7355" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="235" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#3F7D5C" font-weight="700">thinset adhesive (structural)</text>
+
+  <!-- tiles -->
+  <rect x="90" y="130" width="290" height="55" fill="#DCEAF2" stroke="#1F1B16" stroke-width="2.5"/>
+  <rect x="400" y="130" width="290" height="55" fill="#DCEAF2" stroke="#1F1B16" stroke-width="2.5"/>
+  <text x="235" y="162" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">tile</text>
+  <text x="545" y="162" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">tile</text>
+
+  <!-- grout joint -->
+  <rect x="380" y="130" width="20" height="55" fill="#C98A2C" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="390" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C98A2C" font-weight="700">grout</text>
+  <text x="390" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#C98A2C">(joint fill only —</text>
+  <text x="390" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#C98A2C">not structural)</text>
+
+  <path d="M390,130 L390,80" stroke="#C98A2C" stroke-width="1.2" stroke-dasharray="2,2"/>
+
+  <text x="390" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">The adhesive runs under the whole tile; grout never touches the structural bond at all</text>
+</svg>

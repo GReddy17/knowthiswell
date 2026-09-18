@@ -1,0 +1,39 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="woodMoveTitle">
+  <title id="woodMoveTitle">Diagram of a wood board showing minimal dimensional change along its length and significant dimensional change across its width as moisture content rises and falls, plus a hidden expansion gap at a room's perimeter under baseboard trim.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Wood moves across the grain, barely at all along it</text>
+
+  <!-- board, dry state -->
+  <rect x="90" y="70" width="280" height="46" fill="#C9A063" stroke="#1F1B16" stroke-width="2"/>
+  <text x="230" y="97" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">dry (winter) — narrower</text>
+  <path d="M90,130 L370,130" stroke="#1F1B16" stroke-width="1"/>
+  <text x="230" y="146" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">length: essentially unchanged</text>
+
+  <!-- board, humid state, wider -->
+  <rect x="420" y="60" width="280" height="66" fill="#B98C48" stroke="#1F1B16" stroke-width="2"/>
+  <text x="560" y="97" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">humid (summer) — wider</text>
+  <path d="M420,140 L700,140" stroke="#1F1B16" stroke-width="1"/>
+  <text x="560" y="156" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">width increases across the grain</text>
+
+  <!-- width arrows for humid board -->
+  <path d="M420,68 L400,68" stroke="#C9412C" stroke-width="2" marker-end="url(#arrowM1)"/>
+  <path d="M700,68 L720,68" stroke="#C9412C" stroke-width="2" marker-end="url(#arrowM1)"/>
+
+  <!-- expansion gap detail -->
+  <rect x="90" y="200" width="600" height="40" fill="#E8DEC8" stroke="#1F1B16" stroke-width="2"/>
+  <rect x="60" y="190" width="20" height="60" fill="#4A443C" stroke="#1F1B16" stroke-width="2"/>
+  <text x="70" y="266" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">wall</text>
+  <rect x="82" y="196" width="8" height="48" fill="#FBF8F1" stroke="#C9412C" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="86" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#C9412C">expansion gap</text>
+  <text x="86" y="266" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8.5" fill="#C9412C">(hidden under trim)</text>
+  <text x="390" y="224" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">hardwood floor</text>
+
+  <defs>
+    <marker id="arrowM1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C9412C"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="288" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">The perimeter gap gives cross-grain swelling somewhere to go, so the floor doesn't buckle against the wall</text>
+</svg>

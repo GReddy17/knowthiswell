@@ -368,6 +368,16 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
 
   // --- Home & DIY Knowledge (topic 15): Home Safety & Detection Systems ---
   radonPicocuriesToBqPerM3: (v) => v.picocuriesPerLiter * 37, // unit conversion: 1 pCi/L = 37 Bq/m3 (1 Ci = 3.7x10^10 Bq, scaled per liter to per cubic meter)
+
+  // --- Home & DIY Knowledge (topic 15): Flooring & Interior Basics ---
+  flooringCostPerYearPerSqFt: (v) => v.pricePerSqFt / v.lifespanYears, // annualized cost: installed price per sq ft divided by expected lifespan in years
+  woodMovementGapAllowanceInches: (v) => v.boardWidthInches * (v.movementCoefficient / 100) * v.moistureChangePercent, // wood movement = board width x species movement coefficient x expected moisture-content swing
+  tileAdhesiveCoverageSqFt: (v) => v.bagWeightLbs / v.coverageLbsPerSqFt, // bag coverage = total bag weight / manufacturer-rated coverage rate per sq ft at the chosen trowel notch size
+
+  // --- Home & DIY Knowledge (topic 15): Exterior, Yard & Structural Basics ---
+  foundationBearingPressurePsf: (v) => v.totalLoadLbs / v.footingAreaSqFt, // bearing pressure = total load / footing contact area, compared against soil's safe bearing capacity
+  airGapHeatLossBtuPerHour: (v) => v.gapLengthInches * v.gapWidthInches * v.tempDifferenceF * 0.0133, // approximate convective/infiltration heat loss through an uncaulked linear gap, scaled by area and temperature difference
+  sumpPumpCycleMinutes: (v) => v.basinCapacityGallons / v.inflowRateGpm, // minutes for groundwater inflow alone to refill the basin between pump cycles, at a given steady inflow rate
 };
 
 interface EntryCalculatorProps {

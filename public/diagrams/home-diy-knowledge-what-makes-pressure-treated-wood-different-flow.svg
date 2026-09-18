@@ -1,0 +1,39 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ptWoodTitle">
+  <title id="ptWoodTitle">Diagram showing raw lumber loaded into a sealed treatment cylinder, a vacuum stage removing air from the wood's cells, and a pressure stage forcing preservative deep into that cell structure.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Vacuum out the air, pressure in the preservative</text>
+
+  <!-- cylinder -->
+  <rect x="120" y="70" width="540" height="140" rx="20" fill="#DCEAF2" stroke="#1F1B16" stroke-width="2.5"/>
+  <text x="390" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">sealed treatment cylinder</text>
+
+  <!-- raw lumber inside -->
+  <rect x="160" y="120" width="200" height="40" fill="#C9A063" stroke="#1F1B16" stroke-width="2"/>
+  <text x="260" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">stage 1: vacuum removes air</text>
+  <text x="260" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C6E8E">from wood's cell structure</text>
+
+  <!-- arrow between stages -->
+  <path d="M380,140 L420,140" stroke="#1F1B16" stroke-width="2.5" marker-end="url(#arrowPt1)"/>
+
+  <!-- treated lumber -->
+  <rect x="430" y="120" width="200" height="40" fill="#8FA35C" stroke="#1F1B16" stroke-width="2"/>
+  <text x="530" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">stage 2: pressure forces</text>
+  <text x="530" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#3F7D5C">preservative deep into wood</text>
+
+  <!-- pressure arrows -->
+  <path d="M460,105 L460,118" stroke="#3F7D5C" stroke-width="2" marker-end="url(#arrowPt2)"/>
+  <path d="M530,100 L530,118" stroke="#3F7D5C" stroke-width="2" marker-end="url(#arrowPt2)"/>
+  <path d="M600,105 L600,118" stroke="#3F7D5C" stroke-width="2" marker-end="url(#arrowPt2)"/>
+
+  <defs>
+    <marker id="arrowPt1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/>
+    </marker>
+    <marker id="arrowPt2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#3F7D5C"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Same wood species throughout — only its decay resistance changes, not its strength</text>
+</svg>

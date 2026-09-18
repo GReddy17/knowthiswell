@@ -1,0 +1,38 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="foundationTitle">
+  <title id="foundationTitle">Diagram showing a house's load funneling through walls into a foundation footing that spreads load across a wide base to keep soil pressure under safe limits, compared against a narrow footing concentrating pressure and risking uneven settling.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">A wider footing means lower pressure on the same soil</text>
+
+  <!-- Left: wide footing, good -->
+  <text x="200" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#3F7D5C">Wide footing</text>
+  <rect x="180" y="65" width="40" height="60" fill="#B7A98C" stroke="#1F1B16" stroke-width="2"/>
+  <path d="M200,60 L200,68" stroke="#1F1B16" stroke-width="3" marker-end="url(#arrowF1)"/>
+  <rect x="130" y="125" width="140" height="24" fill="#8A7355" stroke="#1F1B16" stroke-width="2"/>
+  <rect x="100" y="149" width="200" height="16" fill="#D9C89A"/>
+  <text x="200" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#3F7D5C">load spread wide</text>
+  <text x="200" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#3F7D5C">low pressure per sq ft</text>
+  <path d="M120,165 L120,180" stroke="#3F7D5C" stroke-width="1.5" marker-end="url(#arrowF2)"/>
+  <path d="M280,165 L280,180" stroke="#3F7D5C" stroke-width="1.5" marker-end="url(#arrowF2)"/>
+
+  <!-- Right: narrow footing, bad -->
+  <text x="580" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#C9412C">Narrow footing</text>
+  <rect x="560" y="65" width="40" height="60" fill="#B7A98C" stroke="#1F1B16" stroke-width="2"/>
+  <path d="M580,60 L580,68" stroke="#1F1B16" stroke-width="3" marker-end="url(#arrowF1)"/>
+  <rect x="545" y="125" width="70" height="24" fill="#8A7355" stroke="#1F1B16" stroke-width="2"/>
+  <rect x="530" y="149" width="100" height="16" fill="#D9C89A"/>
+  <path d="M545,168 Q580,182 615,168" fill="none" stroke="#C9412C" stroke-width="2"/>
+  <text x="580" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#C9412C">load concentrated</text>
+  <text x="580" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#C9412C">high pressure, uneven sinking risk</text>
+
+  <defs>
+    <marker id="arrowF1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/>
+    </marker>
+    <marker id="arrowF2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#3F7D5C"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Same total load — the wider footing keeps soil pressure under the safe bearing capacity</text>
+</svg>

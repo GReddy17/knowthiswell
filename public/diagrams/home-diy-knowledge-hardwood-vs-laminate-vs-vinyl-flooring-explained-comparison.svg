@@ -1,0 +1,40 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="floorCompareTitle">
+  <title id="floorCompareTitle">Comparison diagram of three flooring cross-sections: solid hardwood as one uniform wood layer, laminate as a printed layer plus wear layer over a wood-fiber core, and vinyl as printed and wear layers over a synthetic rigid core.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Same look on top, different material underneath</text>
+
+  <!-- Hardwood column -->
+  <text x="140" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Hardwood</text>
+  <rect x="70" y="70" width="140" height="140" fill="#C9A063" stroke="#1F1B16" stroke-width="2"/>
+  <text x="140" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">solid wood</text>
+  <text x="140" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">all the way through</text>
+  <text x="140" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#3F7D5C">refinishable</text>
+  <text x="140" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#C9412C">moisture-sensitive</text>
+
+  <!-- Laminate column -->
+  <text x="390" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Laminate</text>
+  <rect x="320" y="70" width="140" height="18" fill="#DCEAF2" stroke="#1F1B16" stroke-width="1.5"/>
+  <rect x="320" y="88" width="140" height="14" fill="#C9A063" stroke="#1F1B16" stroke-width="1.5"/>
+  <rect x="320" y="102" width="140" height="108" fill="#B7A98C" stroke="#1F1B16" stroke-width="2"/>
+  <text x="390" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">wear layer</text>
+  <text x="390" y="97" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">printed wood photo</text>
+  <text x="390" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">wood-fiber core</text>
+  <text x="390" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">(HDF)</text>
+  <text x="390" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#C98A2C">not refinishable</text>
+  <text x="390" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#C9412C">core still swells with water</text>
+
+  <!-- Vinyl column -->
+  <text x="640" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Vinyl (LVP)</text>
+  <rect x="570" y="70" width="140" height="18" fill="#DCEAF2" stroke="#1F1B16" stroke-width="1.5"/>
+  <rect x="570" y="88" width="140" height="14" fill="#C9A063" stroke="#1F1B16" stroke-width="1.5"/>
+  <rect x="570" y="102" width="140" height="108" fill="#8FA3AE" stroke="#1F1B16" stroke-width="2"/>
+  <text x="640" y="82" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">wear layer</text>
+  <text x="640" y="97" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">printed wood photo</text>
+  <text x="640" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">synthetic rigid core</text>
+  <text x="640" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">(no wood fiber)</text>
+  <text x="640" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#3F7D5C">genuinely waterproof</text>
+  <text x="640" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#C98A2C">not refinishable</text>
+
+  <text x="390" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">The core material — not the surface look — decides moisture tolerance and repairability</text>
+</svg>

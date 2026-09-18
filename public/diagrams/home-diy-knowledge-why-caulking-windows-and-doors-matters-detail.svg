@@ -1,0 +1,31 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="caulkTitle">
+  <title id="caulkTitle">Diagram of a window installed in a wall's rough opening, showing air leaking through an uncaulked perimeter gap versus that gap sealed with a continuous bead of caulk.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">The leak is around the frame, not through the glass</text>
+
+  <!-- Left: uncaulked -->
+  <text x="190" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#C9412C">Uncaulked gap</text>
+  <rect x="100" y="70" width="180" height="140" fill="#E8DEC8" stroke="#1F1B16" stroke-width="2"/>
+  <rect x="120" y="90" width="140" height="100" fill="#DCEAF2" stroke="#1F1B16" stroke-width="2"/>
+  <path d="M105,90 L118,90 M105,120 L118,120 M105,150 L118,150 M105,180 L118,180" stroke="#C9412C" stroke-width="2" marker-end="url(#arrowC1)"/>
+  <text x="190" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#C9412C">air leaks around the frame</text>
+
+  <!-- Right: caulked -->
+  <text x="590" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#3F7D5C">Caulked gap</text>
+  <rect x="500" y="70" width="180" height="140" fill="#E8DEC8" stroke="#1F1B16" stroke-width="2"/>
+  <rect x="520" y="90" width="140" height="100" fill="#DCEAF2" stroke="#1F1B16" stroke-width="2"/>
+  <rect x="516" y="86" width="148" height="6" fill="#C98A2C"/>
+  <rect x="516" y="188" width="148" height="6" fill="#C98A2C"/>
+  <rect x="514" y="88" width="6" height="100" fill="#C98A2C"/>
+  <rect x="658" y="88" width="6" height="100" fill="#C98A2C"/>
+  <text x="590" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#3F7D5C">continuous caulk bead seals the gap</text>
+
+  <defs>
+    <marker id="arrowC1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C9412C"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="266" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Same window, same glass — the perimeter seal is what actually stops the air path</text>
+</svg>

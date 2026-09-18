@@ -1,0 +1,35 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="maintCurveTitle">
+  <title id="maintCurveTitle">Diagram of a wear curve over time showing gradual invisible decline, a maintenance point placed well before any visible symptom, and a failure threshold reached much later if maintenance is skipped, with repair cost rising sharply after the threshold.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Maintenance happens before the symptom, not after it</text>
+
+  <!-- axes -->
+  <path d="M70,250 L730,250" stroke="#1F1B16" stroke-width="2"/>
+  <path d="M70,250 L70,50" stroke="#1F1B16" stroke-width="2"/>
+  <text x="400" y="278" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">time</text>
+  <text x="40" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16" transform="rotate(-90 40 150)">condition</text>
+
+  <!-- wear curve declining -->
+  <path d="M90,80 C 250,90 400,140 600,220 C 650,240 690,246 710,248" fill="none" stroke="#2C6E8E" stroke-width="3"/>
+
+  <!-- maintenance point -->
+  <circle cx="330" cy="115" r="7" fill="#3F7D5C"/>
+  <text x="330" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#3F7D5C">maintenance point</text>
+  <text x="330" y="184" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#3F7D5C">cheap, scheduled fix</text>
+  <path d="M330,122 L330,175" stroke="#3F7D5C" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- visible symptom point -->
+  <circle cx="560" cy="195" r="7" fill="#C98A2C"/>
+  <text x="560" y="178" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#C98A2C">symptom becomes visible</text>
+
+  <!-- failure threshold line -->
+  <path d="M70,230 L730,230" stroke="#C9412C" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="700" y="222" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" fill="#C9412C">failure threshold</text>
+
+  <!-- failure point if skipped -->
+  <circle cx="655" cy="232" r="7" fill="#C9412C"/>
+  <text x="655" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700" fill="#C9412C">costly failure</text>
+
+  <text x="390" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Decline is gradual and invisible until it crosses the threshold — the interval exists to act before that</text>
+</svg>

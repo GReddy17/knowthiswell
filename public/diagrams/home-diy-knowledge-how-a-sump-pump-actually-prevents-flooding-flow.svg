@@ -1,0 +1,46 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sumpTitle">
+  <title id="sumpTitle">Diagram showing groundwater draining through a perimeter drain into a basement sump pit, a float switch triggering the pump at a set water level, and the pump discharging water through a check valve to a point away from the foundation.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="390" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">From perimeter drain to discharge, step by step</text>
+
+  <!-- ground / foundation -->
+  <rect x="30" y="60" width="720" height="200" fill="#E8DEC8"/>
+  <rect x="30" y="60" width="720" height="18" fill="#B7A98C"/>
+  <text x="60" y="72" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">basement floor</text>
+
+  <!-- perimeter drain -->
+  <path d="M60,150 L280,150" stroke="#2C6E8E" stroke-width="5" stroke-dasharray="10,4"/>
+  <text x="170" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C6E8E">perimeter drain</text>
+  <path d="M280,150 L340,150" stroke="#2C6E8E" stroke-width="5" marker-end="url(#arrowSp1)"/>
+
+  <!-- sump pit -->
+  <rect x="340" y="120" width="90" height="120" fill="#8FC1D6" opacity="0.6" stroke="#1F1B16" stroke-width="2"/>
+  <text x="385" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#1F1B16">sump pit</text>
+
+  <!-- float switch -->
+  <circle cx="360" cy="190" r="7" fill="#C98A2C" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="360" y="212" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#C98A2C">float switch</text>
+
+  <!-- pump -->
+  <rect x="395" y="200" width="25" height="30" fill="#4A443C" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="407" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">pump</text>
+
+  <!-- discharge line up and out -->
+  <path d="M407,200 L407,90 L680,90" stroke="#3F7D5C" stroke-width="5" marker-end="url(#arrowSp2)"/>
+  <circle cx="500" cy="90" r="9" fill="none" stroke="#1F1B16" stroke-width="2"/>
+  <text x="500" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">check valve</text>
+  <text x="680" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#3F7D5C">discharged away</text>
+  <text x="680" y="102" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#3F7D5C">from foundation</text>
+
+  <defs>
+    <marker id="arrowSp1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2C6E8E"/>
+    </marker>
+    <marker id="arrowSp2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#3F7D5C"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="284" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Every step after the pit — the float, the pump, the valve — needs electrical power to run</text>
+</svg>
