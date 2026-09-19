@@ -274,3 +274,39 @@ here conflicts with a skill's own defaults, this file wins.
   precedent in `seo-committee/SKILL.md` (§0.6, §5) so this isn't
   re-litigated from scratch; re-open only if indexed ratio/avg position
   actually move from this baseline.
+- 2026-09-18 (7pm scheduled orchestrator run): Loaded state first per Step 0
+  — found content (10 Home & DIY posts, `main@78ce180`) and video (full
+  Short batch through 2026-09-28, all 3 platforms) for today were already
+  shipped earlier the same calendar day by an earlier session/the cron's
+  own live-test fire. No new posts written this run to avoid duplicating
+  `content-master-schedule.md`'s 2026-09-18 entry — next unshipped day is
+  2026-09-19 (last Home & DIY post + 9 pillar). Escalation check: routine,
+  no `/seo-committee` run needed. Not a Monday — Step 5.5 weekly cinematic
+  check skipped. This run's actual work was the remaining Step 6 (SEO +
+  marketing), which per standing rule runs to completion every day
+  regardless of content/video status:
+  - Numbers: Vercel 7d 69 visitors (+30%)/108 page views (+59%); GSC 3mo 11
+    clicks/21.7K impressions/avg pos 62.7. Indexing dashboard: 478/1,193
+    (40.1%) indexed — real improvement over the 33% figure tracked since
+    9/3-9/12, not just absolute-count growth.
+  - SEO indexing: requested indexing on 2 of today's 10 new posts (the
+    sump-pump Short pick + household-systems-maintenance) before hitting
+    "Quota Exceeded" — quota was already partly spent earlier today on a
+    career-study-skills backlog batch. Remaining 8 of today's posts carry
+    over as top priority tomorrow. Sitemap resubmit attempt failed
+    ("Invalid sitemap address," likely a duplicate-resubmit quirk) —
+    not pursued further, Google recrawls on its own schedule.
+  - Marketing: found and closed a real gap — `marketing-log.md`'s last
+    several entries were all video-scheduling work, with no actual
+    X/Reddit/Quora posting logged in days. Posted a genuine Quora answer
+    (real live question, "How does a sump pump work?", tied to today's
+    Short topic, with link) and an X post (sump-pump failure-mode fact,
+    no link, per the 9:1 ratio) — both live. Reddit skipped: not an
+    accounts-registry/login issue, `reddit.com` is blocked at the
+    browser-automation tool level this session — flagged as a distinct
+    failure mode from the usual skip-if-not-logged-in case.
+  - No code/content changes this run, so the Step 7 build/QA gate didn't
+    apply — only tracking-doc updates (`seo-index-queue.md`,
+    `marketing-log.md`, this file).
+  Full detail in `.claude/private/marketing-log.md` and
+  `.claude/private/seo-index-queue.md`.
