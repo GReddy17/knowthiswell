@@ -361,3 +361,55 @@ we stand" has one real answer instead of a re-derived one each time.
     `marketing-log.md`, this file).
   Full detail in `.claude/private/marketing-log.md` and
   `.claude/private/seo-index-queue.md`.
+- 2026-09-19 (7pm orchestrator run): Escalation check: routine (continuing
+  in-progress category 15 completion + daily pillar myths, no new category
+  opened) — no `/seo-committee` run needed. Not a Monday — Step 5.5 weekly
+  cinematic check skipped. Video: today's Short (Density & Buoyancy) was
+  already scheduled across YouTube/TikTok/Meta by an earlier pass today —
+  see `video-log.md`, nothing further needed for Step 5.
+  **Content (10 posts)**: `why-grading-and-drainage-around-a-house-matters`
+  (order 50) — **completes Home & DIY Knowledge at 50/50**, deleted its
+  `coming-soon.tsx`, marked done in `category-rollout-status.md` and
+  `home-diy-knowledge-subtopics.md`. Plus 9 general-science-facts
+  physical-science pillar myth posts (order 53-61): falling objects/air
+  resistance, lightning-thunder delay, "cold" vs heat flow, microwave
+  penetration depth, metal-vs-wood thermal conductivity, density/buoyancy,
+  bird-on-a-wire voltage, thick-vs-thin wire resistance, pure-water
+  conductivity. Added 4 new `EntryCalculator` formulas. Course mapping: the
+  3 electricity/wire posts (bird-on-wire, thick-vs-thin-wire, pure-water)
+  were a genuine fit for the existing Electrician learning path, added in
+  sequence after the live-wire-check step; the other 7 weren't forced into
+  either existing course. Internal-link rotation: found and fixed 4
+  real under-3-inbound posts in life-science-and-nature/biology-and-human-
+  body (`insects-and-small-creatures` at 0 inbound, `microorganisms` at 1,
+  `marine-life-and-ocean-biology` at 2, `plant-biology-and-photosynthesis`
+  at 2) up to 3+ each via targeted `seeAlso` additions on relevant existing
+  posts. Also fixed stale `youtubeStatus` metadata on `density-and-buoyancy`
+  and the sump-pump post (both actually live/scheduled on YouTube per
+  `video-log.md` but still showed `"not-started"` in the file) — a small
+  drive-by fix, not the full metadata-drift audit flagged in earlier logs.
+  Build/QA: eslint (caught and fixed the usual `react/no-unescaped-entities`
+  batch, ~107 instances across the 10 new files — including two rounds of
+  a self-inflicted bug where a blind line-based auto-escape script also
+  corrupted a few JSX attribute quotes on lines that mixed prose text with
+  `className`/`href`, caught by a parsing-error re-run and fixed), tsc,
+  registry regen (811 posts), full `npm run build` all clean. Pushed
+  straight to `main@792fdb7` (also carried forward pre-existing uncommitted
+  work found at session start: Vercel Speed Insights in `layout.tsx`, and
+  this file's new Growth Gates section).
+  **SEO + marketing (Step 6)**: GSC 3mo 12 clicks/22K impressions/avg pos
+  62.2 (small real movement vs 9/18's 11/21.7K/62.7). Indexing dashboard
+  unchanged from 9/13's read (478/1,193, 40.1%), still within the 7-day
+  refresh threshold. Requested indexing on all 10 of today's new post URLs
+  — quota held up for the full batch, no "Quota Exceeded" hit (a first).
+  Sitemap had already auto-recrawled today (845 pages, Success) — no manual
+  resubmit needed. Vercel Analytics numbers skipped: not logged into Vercel
+  in this browser session (a different failure mode than a social-platform
+  login skip, same underlying "don't force a login" rule). Social: X post
+  (bird-on-wire voltage fact, no link) and a genuine Quora answer (real,
+  well-established question on the same topic, with a link, a distinct
+  angle from the existing top answers) both posted live. Reddit skipped
+  again — confirmed `reddit.com` is still blocked at the browser-automation
+  tool level this session, not an account issue (same finding as 9/18).
+  Full detail in `.claude/private/marketing-log.md` and
+  `.claude/private/seo-index-queue.md`.
