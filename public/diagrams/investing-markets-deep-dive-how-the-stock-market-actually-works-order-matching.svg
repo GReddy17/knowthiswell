@@ -1,0 +1,19 @@
+<svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stockMatchTitle">
+  <title id="stockMatchTitle">A buy order and a sell order both arrive at a stock exchange, get matched by price and time priority, execute as a trade, and that price becomes the new quoted market price.</title>
+  <rect width="620" height="260" fill="#FBF8F1"/>
+  <rect x="20" y="30" width="140" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="90" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Buy order</text>
+  <rect x="20" y="150" width="140" height="60" rx="8" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="90" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Sell order</text>
+  <path d="M160 60 L260 110" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow2)"/>
+  <path d="M160 180 L260 130" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow2)"/>
+  <rect x="260" y="90" width="150" height="60" rx="8" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="335" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Exchange matches</text>
+  <text x="335" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">by price/time</text>
+  <path d="M410 120 H460" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow2)"/>
+  <rect x="460" y="90" width="140" height="60" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="530" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Trade executes —</text>
+  <text x="530" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">new quoted price</text>
+  <defs><marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#8B6F4E"/></marker></defs>
+  <text x="310" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">The company itself is generally not part of this trade — it happens between the two investors.</text>
+</svg>

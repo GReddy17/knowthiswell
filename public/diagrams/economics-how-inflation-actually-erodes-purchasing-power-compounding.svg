@@ -1,0 +1,19 @@
+<svg viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="inflationCompoundTitle">
+  <title id="inflationCompoundTitle">The real purchasing power of $100 today shown after 5, 10, and 20 years under a steady 3 percent annual inflation rate, shrinking at each step.</title>
+  <rect width="600" height="260" fill="#FBF8F1"/>
+  <rect x="30" y="60" width="120" height="140" fill="#2C4A3E"/>
+  <text x="90" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Today</text>
+  <text x="90" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#FBF8F1"></text>
+  <text x="90" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">$100</text>
+  <rect x="190" y="90" width="120" height="110" fill="#4A6E5D"/>
+  <text x="250" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">5 years</text>
+  <text x="250" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">~$86</text>
+  <rect x="350" y="120" width="120" height="80" fill="#7C9884"/>
+  <text x="410" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">10 years</text>
+  <text x="410" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">~$74</text>
+  <rect x="470" y="155" width="100" height="45" fill="#C9412C"/>
+  <text x="520" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">20 years</text>
+  <text x="520" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">~$55</text>
+  <line x1="30" y1="200" x2="570" y2="200" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="300" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Same $100, steady 3% annual inflation — real purchasing power shrinks faster than a flat rate might suggest.</text>
+</svg>

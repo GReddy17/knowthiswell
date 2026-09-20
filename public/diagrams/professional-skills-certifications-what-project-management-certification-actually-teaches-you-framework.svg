@@ -1,0 +1,18 @@
+<svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pmFrameworkTitle">
+  <title id="pmFrameworkTitle">A central project management framework (scope, schedule, budget, risk, stakeholder communication) connecting to three industry examples: construction, software, and healthcare.</title>
+  <rect width="600" height="320" fill="#FBF8F1"/>
+  <rect x="200" y="120" width="200" height="90" rx="8" fill="#2C4A3E"/>
+  <text x="300" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">PM Framework</text>
+  <text x="300" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">Scope · Schedule · Budget</text>
+  <text x="300" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">Risk · Stakeholders</text>
+  <path d="M250 120 L110 60" stroke="#8B6F4E" stroke-width="2"/>
+  <rect x="30" y="30" width="160" height="55" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="110" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Construction</text>
+  <path d="M300 120 L300 60" stroke="#8B6F4E" stroke-width="2"/>
+  <rect x="220" y="30" width="160" height="55" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="300" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Software</text>
+  <path d="M350 120 L490 60" stroke="#8B6F4E" stroke-width="2"/>
+  <rect x="410" y="30" width="160" height="55" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="490" y="63" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Healthcare</text>
+  <text x="300" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Certification verifies the middle box — industry-specific knowledge is learned separately, on the job.</text>
+</svg>

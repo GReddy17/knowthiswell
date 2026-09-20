@@ -175,7 +175,7 @@
     "description": "Advanced strategies for optimal physical and mental wellbeing.",
     "focusGroup": "health-home",
     "phase": 4,
-    "status": "coming-soon",
+    "status": "active",
     "ymyl": true,
     "comingSoonPreview": [
       "Sleep science and how to actually improve it",
@@ -204,7 +204,7 @@
     "description": "Starting from zero: the first steps of building a business.",
     "focusGroup": "money-career",
     "phase": 4,
-    "status": "coming-soon",
+    "status": "active",
     "comingSoonPreview": [
       "How to actually start a business from zero",
       "Business models and basic strategy",
@@ -246,7 +246,7 @@
     "description": "Advanced analysis of financial markets and investment vehicles.",
     "focusGroup": "money-career",
     "phase": 5,
-    "status": "coming-soon",
+    "status": "active",
     "ymyl": true,
     "comingSoonPreview": [
       "Investing fundamentals: how markets actually work",
@@ -261,7 +261,7 @@
     "description": "Navigating the landscape of public benefits and subsidies.",
     "focusGroup": "money-career",
     "phase": 5,
-    "status": "coming-soon",
+    "status": "active",
     "ymyl": true,
     "comingSoonPreview": [
       "How government schemes actually work",
@@ -290,7 +290,7 @@
     "description": "The path to becoming a certified expert in your field.",
     "focusGroup": "money-career",
     "phase": 5,
-    "status": "coming-soon",
+    "status": "active",
     "comingSoonPreview": [
       "Workplace communication and soft skills",
       "Project and time management skills",
@@ -304,7 +304,7 @@
     "description": "Staying ahead of the curve with AI and the next wave of technology.",
     "focusGroup": "technology",
     "phase": 5,
-    "status": "coming-soon",
+    "status": "active",
     "comingSoonPreview": [
       "AI fundamentals: how it actually works",
       "AI in everyday life and tools",
@@ -318,21 +318,22 @@
     "description": "Passwords, scams, phishing, and data privacy basics for all ages.",
     "focusGroup": "technology",
     "phase": 5,
-    "status": "coming-soon",
+    "status": "active",
     "comingSoonPreview": [
       "Password and account security basics",
       "Recognizing scams and fraud attempts",
       "Privacy fundamentals for everyday life",
       "Device and network security basics",
       "Financial digital safety and data breach response"
-    ]
+    ],
+    "ymyl": true
   },
   "life-skills-etiquette": {
     "label": "27. Life Skills & Etiquette",
     "description": "Practical life guidance, social skills, and professional etiquette.",
     "focusGroup": "health-home",
     "phase": 5,
-    "status": "coming-soon",
+    "status": "active",
     "comingSoonPreview": [
       "Everyday life skills for independence",
       "Social etiquette that actually matters",
@@ -346,7 +347,7 @@
     "description": "Understanding human psychology, motivation, and everyday behavior patterns.",
     "focusGroup": "health-home",
     "phase": 6,
-    "status": "coming-soon",
+    "status": "active",
     "comingSoonPreview": [
       "How memory, attention, and learning actually work",
       "Personality frameworks and what they do (and don't) explain",
@@ -402,7 +403,7 @@
     "description": "How markets, money, and trade actually work at a national and global scale.",
     "focusGroup": "money-career",
     "phase": 6,
-    "status": "coming-soon",
+    "status": "active",
     "comingSoonPreview": [
       "Supply and demand, explained with real examples",
       "Inflation and interest rates: what's actually happening",

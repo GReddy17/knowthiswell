@@ -1,0 +1,13 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="validationLadderTitle">
+  <title id="validationLadderTitle">A ladder of validation strength: friends and family opinions weakest, then stranger surveys, then a landing page signup test, then a real pre-order or paid pilot strongest.</title>
+  <rect width="560" height="320" fill="#FBF8F1"/>
+  <rect x="40" y="240" width="480" height="50" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="60" y="270" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Friends &amp; family opinions — weakest signal</text>
+  <rect x="40" y="180" width="480" height="50" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="60" y="210" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Stranger surveys</text>
+  <rect x="40" y="120" width="480" height="50" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="60" y="150" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Landing page signup test</text>
+  <rect x="40" y="60" width="480" height="50" rx="6" fill="#2C4A3E" stroke="#20362D" stroke-width="2"/>
+  <text x="60" y="90" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Real pre-order / paid pilot — strongest signal</text>
+  <text x="280" y="20" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Validation strength increases going up the ladder</text>
+</svg>

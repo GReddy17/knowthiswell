@@ -142,8 +142,19 @@ we stand" has one real answer instead of a re-derived one each time.
 - Learning Paths: mechanism + both pilots (Job Search & Interview Readiness,
   Electrician) live on `main`. Further course-building is on-demand, not
   standing — see Product objectives #3.
-- Professional-topic category expansion: intent recorded, not yet started —
-  needs a `/seo-committee` check before the first new category opens.
+- **10-category parallel test round (2026-09-20 through 2026-10-21,
+  standing)**: supersedes the line above — the professional-topic
+  expansion intent is now executing, not just recorded. 10 categories
+  flipped to `active` in `taxonomy.json` (`ai-future-tech-literacy`,
+  `digital-safety-privacy`, `investing-markets-deep-dive`,
+  `business-entrepreneurship-basics`, `professional-skills-certifications`,
+  `psychology-human-behavior`, `life-skills-etiquette`,
+  `government-schemes-benefits`, `economics`, `health-wellness-deep-dive`),
+  1 post/day/category = 10/day total (same approved pace, reallocated from
+  the now-nearly-exhausted pillar queue). Full 30-day/300-topic plan,
+  built-in checkpoints at day 10 and day 20, in
+  `Source Tracking/content-master-schedule.md`. Owner: orchestrator,
+  per that schedule.
 
 ## Decided (don't re-litigate without new data)
 
@@ -413,3 +424,51 @@ we stand" has one real answer instead of a re-derived one each time.
   tool level this session, not an account issue (same finding as 9/18).
   Full detail in `.claude/private/marketing-log.md` and
   `.claude/private/seo-index-queue.md`.
+- 2026-09-20: **10-category parallel test round decided and built.**
+  Founder asked which categories to focus given the pillar queue's 2-day
+  runway; real 2026 search-demand research done first (AI/ML +245%,
+  "gemini" now #1 US search term, cybersecurity ranked #1 2026 skill
+  priority, personal finance search volume very strong) named 3
+  categories, then 10 once the founder wanted more coverage. Two earlier,
+  more aggressive versions of this ask were pushed back on and not
+  executed: (1) making all 3 categories the *exclusive* focus, pausing the
+  pillar/video pipeline entirely, 100 posts each blind — repeats the
+  reversed 20-posts/day breadth mistake at smaller scale; (2) round-robining
+  all ~30 parked categories at 10 posts/day, one new category per day for
+  30 days — an even bigger version of the same mistake, un-grounded in
+  demand data for most categories. Ran `/seo-committee` on the 3→10
+  version: verdict was modified-approve — category picks green (real
+  demand, closes the documented practical-knowledge gap), execution shape
+  red as proposed (validation batch, not blind volume; keep pillar alive
+  in parallel; flag `digital-safety-privacy` as missing its `ymyl` tag).
+  Founder then set final shape: 1 post/day/category, 10 categories running
+  in parallel (10/day total, same approved pace, reallocated — not an
+  increase), extended from a 10-day/100-post validation batch to a full
+  30-day/300-post plan. Built two mandatory checkpoints (day 10, day 20)
+  into the plan itself rather than dropping the committee's actual
+  condition when the scope grew — indexed ratio/avg position get
+  re-checked at each, and the orchestrator does not auto-continue into the
+  next 10-day block without a real check.
+  **Shipped**: `content/taxonomy.json` (10 categories → `active`,
+  `digital-safety-privacy` → `ymyl: true`), `content-master-schedule.md`
+  (full 30-day/300-topic table + checkpoints), this file (Active
+  workstreams + this entry).
+- 2026-09-20: **Day 1 of the 10-category round shipped manually** —
+  founder asked to test the pipeline today rather than wait for
+  tomorrow's automated start. All 10 first-round posts written (one per
+  new category, per the day-1 row of the schedule table above), each
+  with a real hand-authored SVG diagram and real institutional sources
+  (NIST, CISA/NIST SP 800-63B, SEC Investor.gov/FINRA, SBA/SCORE, PMI/
+  BLS, NIH NIA/NINDS, Harvard Program on Negotiation, DOL/CareerOneStop,
+  BLS CPI/Federal Reserve, NIH NHLBI/CDC). Also created each category's
+  own `{category}-subtopics.md` topic-plan doc — a real requirement in
+  `author-voice-guide.md` this run had initially missed in the schedule
+  doc alone — covering the full 30-topic first round per category, not
+  just day 1. One real mid-run catch: a first draft of the inflation
+  post used `EntryCalculator` with guessed prop names instead of
+  checking the component first — caught before commit, removed rather
+  than shipped wrong (the topic doesn't strictly need a calculator).
+  Registry regenerated (821 posts), eslint (6 `react/no-unescaped-
+  entities` hits, the recurring pattern, all fixed), tsc, and full
+  `npm run build` all clean. Pushed straight to `main` per standing
+  policy. Days 2-30 resume automatically tomorrow per the schedule.

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 620 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="uiFormulaTitle">
+  <title id="uiFormulaTitle">Base-period wages feed into a state-specific formula, producing a calculated weekly benefit, capped at that state's maximum before being paid out.</title>
+  <rect width="620" height="240" fill="#FBF8F1"/>
+  <rect x="20" y="80" width="140" height="80" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="90" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Base-period</text>
+  <text x="90" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">wages</text>
+  <path d="M160 120 H210" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow4)"/>
+  <rect x="210" y="80" width="170" height="80" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="295" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">State-specific</text>
+  <text x="295" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">formula</text>
+  <path d="M380 120 H430" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow4)"/>
+  <rect x="430" y="80" width="170" height="80" rx="8" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="515" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Weekly benefit</text>
+  <text x="515" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">(capped at state</text>
+  <text x="515" y="144" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">maximum)</text>
+  <defs><marker id="arrow4" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#8B6F4E"/></marker></defs>
+  <text x="310" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Each state controls both the formula and the cap — the same wages can yield different benefits elsewhere.</text>
+</svg>

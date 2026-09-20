@@ -1,0 +1,17 @@
+<svg viewBox="0 0 620 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="memStagesTitle">
+  <title id="memStagesTitle">An experience is encoded, then consolidated (supported by sleep) into longer-term storage, then later retrieved through a reconstructive process.</title>
+  <rect width="620" height="240" fill="#FBF8F1"/>
+  <rect x="20" y="80" width="150" height="80" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="95" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Encoding</text>
+  <text x="95" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">(experience → brain)</text>
+  <path d="M170 120 H220" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow3)"/>
+  <rect x="220" y="80" width="180" height="80" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="310" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Consolidation</text>
+  <text x="310" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">(sleep-supported)</text>
+  <path d="M400 120 H450" stroke="#8B6F4E" stroke-width="2" marker-end="url(#arrow3)"/>
+  <rect x="450" y="80" width="150" height="80" rx="8" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="525" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Retrieval</text>
+  <text x="525" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">(reconstructive)</text>
+  <defs><marker id="arrow3" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#8B6F4E"/></marker></defs>
+  <text x="310" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">A breakdown at any stage produces a different kind of forgetting or distortion.</text>
+</svg>
