@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Fraunces, Newsreader, Public_Sans } from 'next/font/google';
 import Link from 'next/link';
 import { Navbar } from '@/components/Navbar';
@@ -96,6 +97,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         </div>
         <BackToTop />
         <Analytics />
+        <SpeedInsights />
 
         <footer className="mt-20 border-t border-rule px-5 py-10 font-utility text-xs text-ink-soft md:px-10">
           <div className="mx-auto flex max-w-[1180px] flex-col gap-6 md:flex-row md:flex-wrap md:items-center md:justify-between">

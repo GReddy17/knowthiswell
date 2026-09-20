@@ -82,6 +82,57 @@ here conflicts with a skill's own defaults, this file wins.
   Realistic: 100-400/day typical, 1,000+/day only if backlinks + indexing +
   a content cluster all land together.
 
+## Growth gates (2026-09-19, standing — check status at every check-in)
+
+Criteria-based companion to the milestone ladder above. The ladder says
+*when*; this says *what has to actually be true* before moving to the next
+phase of ambition. Don't open new verticals, plan hiring, or expand scope
+because a calendar date arrived — advance only when a gate's criteria are
+met, and re-check this section (not memory) at every check-in so "where do
+we stand" has one real answer instead of a re-derived one each time.
+
+### Gate 0 — Idea validated
+- [x] Organic (Google) traffic exists without founder pushing it
+- [x] Specific content shows real search-intent match, not just impressions
+- **Status: PASSED.** Not the risk here — execution speed and domain authority are.
+
+### Gate 1 — MVP proven (content engine + SEO mechanics actually work)
+- [ ] Indexed ratio ≥50-60%, sustained 2+ consecutive weekly checks (currently 40.1%, up from 33% baseline)
+- [ ] Avg Google position ≤page 2 (top ~20) across a *sample* of posts, not 1-2 outliers (currently 62.7)
+- [ ] "Discovered - not indexed" backlog trending down 3+ consecutive weeks, not flat
+- [ ] Zero real crawl errors confirmed at URL level (site-side check came back clean 2026-09-19; needs re-confirming once the new GSC property populates)
+- [ ] Core Web Vitals passing
+- [ ] 4+ consecutive weeks of Google-referral visitor growth, not one good week (week 1 of tracking: 68 vs. 43, real but too little data yet)
+- [ ] At least one post ranking organically top-10 for a real non-branded query
+- [ ] Traffic isn't 100% dependent on 1-2 lucky posts
+- **Status: IN PROGRESS — this is where the site is right now.** Don't add new categories/verticals while this is red; more content on an unproven engine repeats the breadth-before-authority mistake `content-strategy.md` already reversed once.
+
+### Gate 2 — Monetization validated (can run in parallel with Gate 1)
+- [ ] A revenue model chosen (ads / affiliate / courses / other) — **not decided yet, this is a decision, not a numbers gate**
+- [ ] Real $ signal exists at small scale, even a few dollars/month
+- **Status: NOT STARTED.** Blocked on a founder decision, not on traffic — could move today independent of Gate 1's progress.
+
+### Gate 3 — Ready to open new verticals/categories at scale
+- [ ] Gate 1 fully green
+- [ ] Gate 2 fully green
+- [ ] One full category — every planned post in it — completed, indexed, *and* showing real traffic end-to-end
+- [ ] Production process (voice guide, QC, build gate) run enough times to be reliably repeatable, not ad hoc
+- [ ] Time/cost-per-post known and stable enough to state a real number
+- [ ] Revenue-per-visitor (or per-post) calculated for the one proven category
+- [ ] That revenue number × a realistic new-vertical post count clears "worth the effort" — math actually done, not assumed
+- [ ] New-vertical selection method is demand-driven (real keyword/search data), not gut feel
+- [ ] Zero open backlog/debt in the proven category (indexing requests caught up, no broken links, tracking docs current)
+- [ ] Bandwidth confirmed to maintain the proven vertical *and* build a new one without the first regressing
+- [ ] A pre-committed rollback trigger defined (what metric dropping means "stop opening verticals, go fix what's open")
+- [ ] `/seo-committee` sign-off obtained before the first new-vertical post ships (standing rule regardless of gate status)
+- **Status: NOT STARTED — 2+ gates away.**
+
+### Gate 4 — Ready to hire (2-5 employees)
+- [ ] Traffic ~20,000-50,000+ pageviews/day sustained, OR revenue run-rate clearing ~$50-75k/employee/year with margin
+- [ ] A documented, repeatable playbook — not just founder's own tacit knowledge
+- [ ] Gates 1-3 all cleared, in order
+- **Status: NOT STARTED.** Realistic horizon if Gates 1-3 clear on schedule: 2-4 years out — not a near-term planning input yet.
+
 ## Active workstreams
 
 - Indexing-request queue: paging through the "discovered-not-indexed"

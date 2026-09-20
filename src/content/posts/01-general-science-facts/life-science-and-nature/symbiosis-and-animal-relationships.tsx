@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/marine-life-and-ocean-biology",
     "general-science-facts/microorganisms",
     "general-science-facts/evolution-and-natural-selection-basics",
+    "general-science-facts/insects-and-small-creatures",
   ],
   glossary: [
     { term: "Symbiosis", definition: "A close, long-term biological relationship between two different species living in direct contact with each other." },

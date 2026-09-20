@@ -46,6 +46,8 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/diseases-immunity-and-how-the-body-fights-illness",
     "general-science-facts/atoms-and-elements",
     "general-science-facts/the-eye-and-how-vision-works",
+    "general-science-facts/microorganisms",
+    "general-science-facts/plant-biology-and-photosynthesis",
   ],
   glossary: [
     { term: "Cell", definition: "The basic structural and functional unit of life; the human body is made of roughly 30-37 trillion of them." },

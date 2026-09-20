@@ -1,0 +1,24 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fallTitle">
+  <title id="fallTitle">Comparison of a hammer and feather dropped together in a vacuum, landing simultaneously, versus in ordinary air, where the feather falls much slower.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <text x="195" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Vacuum (no air resistance)</text>
+  <rect x="30" y="40" width="330" height="220" fill="none" stroke="#B7A98C" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <rect x="120" y="220" width="14" height="30" fill="#4A443C"/>
+  <text x="127" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">hammer</text>
+  <ellipse cx="260" cy="235" rx="16" ry="9" fill="#C98A2C"/>
+  <text x="260" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">feather</text>
+  <line x1="127" y1="60" x2="127" y2="220" stroke="#2C6E8E" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="260" y1="60" x2="260" y2="226" stroke="#2C6E8E" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="195" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C6E8E">both land together</text>
+
+  <text x="585" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Air (with resistance)</text>
+  <rect x="420" y="40" width="330" height="220" fill="#EAF2F5"/>
+  <rect x="510" y="220" width="14" height="30" fill="#4A443C"/>
+  <text x="517" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">hammer</text>
+  <ellipse cx="650" cy="120" rx="16" ry="9" fill="#C98A2C"/>
+  <text x="650" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">feather (still falling)</text>
+  <path d="M655,105 Q670,115 655,125 Q640,135 655,145" stroke="#8FA06E" stroke-width="1.5" fill="none"/>
+
+  <defs></defs>
+</svg>

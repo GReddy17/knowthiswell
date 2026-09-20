@@ -1,0 +1,18 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sinkTitle">
+  <title id="sinkTitle">Diagram comparing a solid steel bolt sinking to the bottom of a water tank versus the same mass of steel shaped into a hollow hull floating on the surface.</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <text x="195" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Solid bolt: sinks</text>
+  <rect x="40" y="60" width="310" height="180" fill="#8FC1D6" opacity="0.5"/>
+  <rect x="180" y="205" width="30" height="30" fill="#4A443C"/>
+  <text x="195" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">density &gt; water</text>
+
+  <text x="585" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Hollow hull: floats</text>
+  <rect x="430" y="60" width="310" height="180" fill="#8FC1D6" opacity="0.5"/>
+  <path d="M500,140 L670,140 L650,175 L520,175 Z" fill="#4A443C"/>
+  <rect x="530" y="120" width="110" height="22" fill="none" stroke="#4A443C" stroke-width="2"/>
+  <text x="585" y="196" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">hollow (air) + steel</text>
+  <text x="585" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">average density &lt; water</text>
+
+  <line x1="390" y1="30" x2="390" y2="270" stroke="#B7A98C" stroke-width="1.5" stroke-dasharray="3,3"/>
+</svg>

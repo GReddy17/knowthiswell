@@ -45,6 +45,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/ecosystems-and-food-chains",
     "general-science-facts/symbiosis-and-animal-relationships",
     "general-science-facts/are-bats-really-blind",
+    "general-science-facts/insects-and-small-creatures",
   ],
   glossary: [
     { term: "Kingdom Animalia", definition: "The taxonomic kingdom containing all animals — multicellular organisms that eat other organisms for energy and typically can move under their own power." },

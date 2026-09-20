@@ -1,0 +1,19 @@
+<svg viewBox="0 0 780 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wireTitle">
+  <title id="wireTitle">Diagram comparing a thick wire and a thin wire carrying the same current, with the thin wire generating visibly more heat.</title>
+  <rect width="780" height="240" fill="#FBF8F1"/>
+
+  <text x="195" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Thick wire (low resistance)</text>
+  <rect x="50" y="110" width="300" height="26" fill="#C98A2C" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="195" y="127" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">20A</text>
+  <text x="195" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C6E8E">stays cool</text>
+
+  <text x="585" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Thin wire (high resistance)</text>
+  <rect x="470" y="117" width="300" height="10" fill="#C9542C" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="620" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">20A</text>
+  <ellipse cx="500" cy="122" rx="18" ry="16" fill="#E0965E" opacity="0.6"/>
+  <ellipse cx="560" cy="122" rx="18" ry="16" fill="#E0965E" opacity="0.6"/>
+  <ellipse cx="620" cy="122" rx="18" ry="16" fill="#E0965E" opacity="0.6"/>
+  <ellipse cx="680" cy="122" rx="18" ry="16" fill="#E0965E" opacity="0.6"/>
+  <ellipse cx="740" cy="122" rx="18" ry="16" fill="#E0965E" opacity="0.6"/>
+  <text x="620" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9542C">heats up dangerously</text>
+</svg>

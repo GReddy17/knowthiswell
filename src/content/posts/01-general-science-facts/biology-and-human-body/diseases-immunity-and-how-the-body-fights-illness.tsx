@@ -46,6 +46,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/human-body-systems",
     "general-science-facts/cells-and-genetics-basics",
     "general-science-facts/nutrition-and-how-the-body-uses-food",
+    "general-science-facts/microorganisms",
   ],
   glossary: [
     { term: "Pathogen", definition: "A microorganism, such as a virus or bacterium, capable of causing disease." },

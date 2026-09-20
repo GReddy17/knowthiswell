@@ -378,6 +378,12 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
   foundationBearingPressurePsf: (v) => v.totalLoadLbs / v.footingAreaSqFt, // bearing pressure = total load / footing contact area, compared against soil's safe bearing capacity
   airGapHeatLossBtuPerHour: (v) => v.gapLengthInches * v.gapWidthInches * v.tempDifferenceF * 0.0133, // approximate convective/infiltration heat loss through an uncaulked linear gap, scaled by area and temperature difference
   sumpPumpCycleMinutes: (v) => v.basinCapacityGallons / v.inflowRateGpm, // minutes for groundwater inflow alone to refill the basin between pump cycles, at a given steady inflow rate
+  drainageSlopeDropInches: (v) => v.distanceFeet * v.slopeInchesPerFoot, // total fall required over a run of grading, at a given slope rate (code minimum is commonly 1/4 in. per ft. for the first 10 ft.)
+
+  // --- General Science Facts (topic 1): Physical Science myths/misconceptions ---
+  stormDistanceKm: (v) => (v.thunderDelaySeconds * 0.343), // distance to a lightning strike = seconds between flash and thunder x speed of sound (~343 m/s), converted to km
+  heatConductionRateWatts: (v) => (v.thermalConductivityWPerMK * v.areaM2 * v.tempDiffC) / v.thicknessM, // Fourier's law: Q/t = kA(deltaT)/d
+  wireResistanceOhms: (v) => (v.resistivityOhmM * v.lengthM) / v.crossSectionAreaMm2 / 1000000, // R = (resistivity x length) / cross-sectional area (mm^2 converted to m^2)
 };
 
 interface EntryCalculatorProps {

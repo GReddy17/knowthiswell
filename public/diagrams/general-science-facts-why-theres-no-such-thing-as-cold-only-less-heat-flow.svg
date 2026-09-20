@@ -1,0 +1,22 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="coldTitle">
+  <title id="coldTitle">Diagram showing heat flowing one-directionally from a warm room through a window gap to the colder outside, with no reverse flow of cold.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <rect x="30" y="40" width="330" height="180" fill="#F4E3C6"/>
+  <text x="195" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Warm room (higher heat)</text>
+
+  <rect x="420" y="40" width="330" height="180" fill="#DCE8EE"/>
+  <text x="585" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Cold outside (lower heat)</text>
+
+  <rect x="360" y="60" width="60" height="140" fill="#8FC1D6" opacity="0.5" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="390" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">window gap</text>
+
+  <path d="M300,130 L470,130" stroke="#C9542C" stroke-width="6" marker-end="url(#arrowH)"/>
+  <text x="385" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#C9542C" font-weight="700">heat flows out</text>
+
+  <text x="385" y="165" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16" text-decoration="line-through">no "cold" flows in</text>
+
+  <defs>
+    <marker id="arrowH" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto"><path d="M0,0 L9,4 L0,9 Z" fill="#C9542C"/></marker>
+  </defs>
+</svg>

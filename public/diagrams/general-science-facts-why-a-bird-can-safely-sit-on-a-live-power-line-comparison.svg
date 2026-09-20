@@ -1,0 +1,21 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="birdTitle">
+  <title id="birdTitle">Diagram comparing a bird with both feet on the same wire (no voltage difference, safe) versus a bird also touching a grounded pole (large voltage difference, dangerous).</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="195" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Both feet, one wire: safe</text>
+  <line x1="40" y1="140" x2="350" y2="140" stroke="#4A443C" stroke-width="4"/>
+  <ellipse cx="190" cy="125" rx="26" ry="14" fill="#8B5E34"/>
+  <line x1="180" y1="139" x2="180" y2="150" stroke="#1F1B16" stroke-width="2"/>
+  <line x1="200" y1="139" x2="200" y2="150" stroke="#1F1B16" stroke-width="2"/>
+  <text x="190" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C6E8E">voltage difference ~ 0V</text>
+
+  <text x="585" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Wing touches grounded pole: danger</text>
+  <line x1="430" y1="140" x2="740" y2="140" stroke="#4A443C" stroke-width="4"/>
+  <rect x="670" y="140" width="12" height="90" fill="#9AA5AD"/>
+  <ellipse cx="580" cy="125" rx="26" ry="14" fill="#8B5E34"/>
+  <line x1="570" y1="139" x2="570" y2="150" stroke="#1F1B16" stroke-width="2"/>
+  <line x1="590" y1="139" x2="590" y2="150" stroke="#1F1B16" stroke-width="2"/>
+  <path d="M604,120 L672,150" stroke="#C9542C" stroke-width="3"/>
+  <text x="640" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#C9542C">wingtip touches pole</text>
+  <text x="585" y="180" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#C9542C">large voltage difference — current flows</text>
+</svg>

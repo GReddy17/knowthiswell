@@ -1,0 +1,21 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="thunderTitle">
+  <title id="thunderTitle">Diagram showing light and sound leaving a lightning strike at the same instant, with light reaching a distant observer almost instantly and sound arriving much later.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <path d="M50,30 L70,80 L55,80 L80,140" stroke="#C98A2C" stroke-width="4" fill="none"/>
+  <text x="62" y="20" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">strike</text>
+
+  <circle cx="700" cy="200" r="10" fill="#4A443C"/>
+  <text x="700" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">observer</text>
+
+  <path d="M80,100 L690,195" stroke="#E0B84A" stroke-width="3" marker-end="url(#arrowL)"/>
+  <text x="380" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#B08A1E">light: ~300,000 km/s (arrives almost instantly)</text>
+
+  <path d="M80,140 Q250,180 420,175 Q550,172 690,205" stroke="#2C6E8E" stroke-width="3" stroke-dasharray="6,4" marker-end="url(#arrowS)"/>
+  <text x="380" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#2C6E8E">sound: ~343 m/s (arrives several seconds later)</text>
+
+  <defs>
+    <marker id="arrowL" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#E0B84A"/></marker>
+    <marker id="arrowS" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C6E8E"/></marker>
+  </defs>
+</svg>

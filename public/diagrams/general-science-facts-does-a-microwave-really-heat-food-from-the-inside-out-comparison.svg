@@ -1,0 +1,18 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mwTitle">
+  <title id="mwTitle">Comparison of microwave penetration in a small food item, reaching the center directly, versus a large food item, where the center is left unreached and heated later by conduction.</title>
+  <rect width="780" height="280" fill="#FBF8F1"/>
+
+  <text x="195" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Small item: waves overlap at center</text>
+  <circle cx="195" cy="150" r="80" fill="#F4E3C6" stroke="#1F1B16" stroke-width="1.5"/>
+  <circle cx="195" cy="150" r="55" fill="#E0965E" opacity="0.7"/>
+  <text x="195" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">center reached directly</text>
+
+  <text x="585" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Large item: waves stop short</text>
+  <circle cx="585" cy="150" r="110" fill="#F4E3C6" stroke="#1F1B16" stroke-width="1.5"/>
+  <circle cx="585" cy="150" r="110" fill="none" stroke="#E0965E" stroke-width="30" opacity="0.7"/>
+  <circle cx="585" cy="150" r="40" fill="#8FC1D6" opacity="0.6"/>
+  <text x="585" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">cool center, heats via conduction later</text>
+
+  <text x="195" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#B08A1E">orange band = penetration depth (~1-1.5 in)</text>
+  <text x="585" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#B08A1E">same penetration depth, doesn't reach the middle</text>
+</svg>

@@ -45,6 +45,8 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/energy-types-and-conservation",
     "general-science-facts/evolution-and-natural-selection-basics",
     "general-science-facts/symbiosis-and-animal-relationships",
+    "general-science-facts/insects-and-small-creatures",
+    "general-science-facts/marine-life-and-ocean-biology",
   ],
   glossary: [
     { term: "Food chain", definition: "A linear sequence showing how energy passes from one organism to the next through eating relationships, starting with a producer." },

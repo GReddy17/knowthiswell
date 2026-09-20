@@ -128,4 +128,4 @@ Folder: `exterior-yard-and-structural-basics/`
 | 7 | Home Safety & Detection Systems | done — verified (eslint/tsc/build clean, 2026-09-12) |
 | 8 | Seasonal & Preventive Maintenance | done — verified (eslint/tsc/build clean, 2026-09-18) |
 | 9 | Flooring & Interior Basics | done — verified (eslint/tsc/build clean, 2026-09-18) |
-| 10 | Exterior, Yard & Structural Basics | in progress (4/5, order 46-49 done, 2026-09-18) — resume at #50 (why-grading-and-drainage-around-a-house-matters.tsx) |
+| 10 | Exterior, Yard & Structural Basics | done — verified (eslint/tsc/build clean, 2026-09-19). **Category 15 complete: 50/50.** |

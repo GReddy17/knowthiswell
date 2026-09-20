@@ -1,0 +1,27 @@
+<svg viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="metalTitle">
+  <title id="metalTitle">Diagram comparing a hand touching metal, losing heat rapidly, versus a hand touching wood at the same temperature, losing heat slowly.</title>
+  <rect width="780" height="260" fill="#FBF8F1"/>
+
+  <text x="195" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Metal (high conductivity)</text>
+  <circle cx="150" cy="150" r="28" fill="#E8C9A0"/>
+  <text x="150" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">hand</text>
+  <rect x="220" y="120" width="120" height="60" fill="#9AA5AD" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="280" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">metal</text>
+  <path d="M180,150 L215,150" stroke="#C9542C" stroke-width="10" marker-end="url(#arrowM)"/>
+  <text x="197" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#C9542C">fast heat loss</text>
+
+  <text x="585" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Wood (low conductivity)</text>
+  <circle cx="540" cy="150" r="28" fill="#E8C9A0"/>
+  <text x="540" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#1F1B16">hand</text>
+  <rect x="610" y="120" width="120" height="60" fill="#8B5E34" stroke="#1F1B16" stroke-width="1.5"/>
+  <text x="670" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#F4E3C6">wood</text>
+  <path d="M570,150 L603,150" stroke="#C9542C" stroke-width="2.5" marker-end="url(#arrowW)"/>
+  <text x="587" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#C9542C">slow heat loss</text>
+
+  <text x="390" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">both objects: identical actual temperature</text>
+
+  <defs>
+    <marker id="arrowM" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto"><path d="M0,0 L9,4 L0,9 Z" fill="#C9542C"/></marker>
+    <marker id="arrowW" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto"><path d="M0,0 L9,4 L0,9 Z" fill="#C9542C"/></marker>
+  </defs>
+</svg>

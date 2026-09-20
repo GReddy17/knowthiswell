@@ -1,0 +1,30 @@
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gradeTitle">
+  <title id="gradeTitle">Comparison of positive grade carrying water away from a foundation versus negative grade causing water to pool against it.</title>
+  <rect width="780" height="300" fill="#FBF8F1"/>
+
+  <!-- Panel 1: Positive grade -->
+  <text x="195" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Positive grade (correct)</text>
+  <rect x="20" y="140" width="80" height="120" fill="#B7A98C"/>
+  <text x="60" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">house</text>
+  <path d="M100,150 L370,220" stroke="#8FA06E" stroke-width="10"/>
+  <circle cx="130" cy="158" r="5" fill="#2C6E8E"/>
+  <path d="M130,158 L360,215" stroke="#2C6E8E" stroke-width="2.5" stroke-dasharray="4,4" marker-end="url(#arrowG1)"/>
+  <text x="250" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C6E8E">water runs away</text>
+
+  <!-- Panel 2: Negative grade -->
+  <text x="585" y="26" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Negative grade (problem)</text>
+  <rect x="410" y="140" width="80" height="120" fill="#B7A98C"/>
+  <text x="450" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">house</text>
+  <path d="M490,225 L760,155" stroke="#8FA06E" stroke-width="10"/>
+  <circle cx="720" cy="163" r="5" fill="#2C6E8E"/>
+  <path d="M720,163 L500,222" stroke="#2C6E8E" stroke-width="2.5" stroke-dasharray="4,4" marker-end="url(#arrowG2)"/>
+  <ellipse cx="495" cy="228" rx="22" ry="8" fill="#2C6E8E" opacity="0.55"/>
+  <text x="580" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#2C6E8E">water pools at wall</text>
+
+  <line x1="390" y1="40" x2="390" y2="280" stroke="#B7A98C" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <defs>
+    <marker id="arrowG1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C6E8E"/></marker>
+    <marker id="arrowG2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C6E8E"/></marker>
+  </defs>
+</svg>

@@ -47,6 +47,8 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/natural-disasters",
     "general-science-facts/states-of-matter-changes-in-daily-life",
     "home-diy-knowledge/why-gutters-need-regular-cleaning",
+    "general-science-facts/marine-life-and-ocean-biology",
+    "general-science-facts/plant-biology-and-photosynthesis",
   ],
   glossary: [
     { term: "Evaporation", definition: "The process by which liquid water absorbs enough heat energy to turn into water vapor, primarily from oceans, lakes, and rivers." },
