@@ -472,3 +472,39 @@ we stand" has one real answer instead of a re-derived one each time.
   entities` hits, the recurring pattern, all fixed), tsc, and full
   `npm run build` all clean. Pushed straight to `main` per standing
   policy. Days 2-30 resume automatically tomorrow per the schedule.
+- 2026-09-20 (7pm scheduled orchestrator run): Loaded state per Step 0.
+  Found content (Day 1 of the 10-category round, 10 posts, `main@d08d552`)
+  and video (today's slot already covered by the pre-existing pillar Short
+  batch scheduled through 2026-09-28 — "World Population Growth" was
+  today's row in `video-log.md`) already shipped earlier today by an
+  earlier session, same pattern as 2026-09-18. No new posts/video written
+  this run to avoid duplicating today's already-shipped work. Escalation
+  check: routine (Day 2+ of the already-approved 10-category schedule
+  resumes automatically tomorrow, no scope change) — no `/seo-committee`
+  run needed. Sunday — not a Monday, Step 5.5 weekly cinematic check
+  skipped. This run's actual work was Step 6 (SEO + marketing), which per
+  standing rule runs to completion every day regardless of content/video
+  status:
+  - Numbers: Vercel Analytics skipped (not logged in this session, same
+    failure mode as 9/19). GSC 3mo 14 clicks/22.3K impressions/avg pos
+    61.7 (up from 12/22K/62.2 on 9/19 — second consecutive small real
+    improvement). Indexing dashboard 478/1,197 (39.9%) indexed, roughly
+    flat vs 9/19.
+  - SEO indexing: quota was already exhausted before this run touched
+    GSC — first request attempt hit "Quota Exceeded" immediately, so 0 of
+    today's 10 new-post URLs got requested. All 10 carry over as top
+    priority tomorrow, ahead of the 9/18 flooring/exterior batch (8 URLs,
+    now 3 days stale). Sitemap resubmitted manually, succeeded cleanly
+    (no repeat of 9/18's "Invalid sitemap address" glitch).
+  - Marketing: X post (credential-stuffing fact, link-free, tied to
+    today's new password-managers post) and a genuine Quora answer (real
+    live question on password managers/password theft, distinct
+    "blast-radius" framing not already covered by the existing answers,
+    with a link) — both live. Reddit skipped again — confirmed
+    `reddit.com` is still blocked at the browser-automation tool level,
+    third consecutive run with this exact finding, not an account issue.
+  - No code/content changes this run, so the Step 7 build/QA gate didn't
+    apply — only tracking-doc updates (`seo-index-queue.md`,
+    `marketing-log.md`, this file).
+  Full detail in `.claude/private/marketing-log.md` and
+  `.claude/private/seo-index-queue.md`.
