@@ -508,3 +508,13 @@ we stand" has one real answer instead of a re-derived one each time.
     `marketing-log.md`, this file).
   Full detail in `.claude/private/marketing-log.md` and
   `.claude/private/seo-index-queue.md`.
+- 2026-09-20 (continued): **Day 1 (official) of the 10-category round
+  shipped, `main@4bb07e6`.** Founder call: the earlier same-day batch
+  (`d08d552`) stays live as bonus/uncounted coverage, not the plan's
+  official Day 1 — a fresh batch with 10 different topics (one per
+  category, none overlapping the bonus batch or any other row in
+  `content-master-schedule.md`'s table) shipped as the real Day 1 instead,
+  so the numbered 30-day/300-post plan has no duplicate entries. Same
+  structure and sourcing bar as the bonus batch. eslint/tsc/build clean
+  (831 posts). Days 2-30 resume automatically tomorrow per the schedule;
+  checkpoints at day 10 (2026-09-29) and day 20 (2026-10-09) unchanged.

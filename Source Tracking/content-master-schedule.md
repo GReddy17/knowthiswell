@@ -196,9 +196,14 @@ just not the official Day 1 of the 30-day/300-post plan**, per founder
 call 2026-09-20: keep it as bonus coverage, run a fresh Day 1 with
 different topics so nothing in the numbered plan duplicates it.
 
-**Day 1 (official) — 2026-09-20, second batch of the day.** Row 1 below
+**Day 1 (official) — shipped 2026-09-20, `main@4bb07e6`.** Row 1 below
 replaced with fresh topics (none overlapping the bonus batch above or any
-other row in this table). Days 2-30 run automatically starting tomorrow.
+other row in this table). All 10 posts written with real hand-authored
+SVG diagrams and real institutional sources (CISA/NIST, SEC/FINRA/SIPC,
+SBA/SCORE, U.S. Dept. of Labor/PMI, NIH/APA, Harvard PON, U.S. Dept. of
+State, Federal Reserve, NIH/CDC). eslint/tsc/full `npm run build` all
+clean (831 posts total), confirmed live. Days 2-30 run automatically
+starting tomorrow.
 
 | # | ai-future-tech-literacy | digital-safety-privacy | investing-markets-deep-dive | business-entrepreneurship-basics | professional-skills-certifications | psychology-human-behavior | life-skills-etiquette | government-schemes-benefits | economics | health-wellness-deep-dive |
 |---|---|---|---|---|---|---|---|---|---|---|
