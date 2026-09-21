@@ -1,0 +1,18 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="aiVsSoftwareTitle">
+  <title id="aiVsSoftwareTitle">Traditional software follows programmer-written rules to produce a deterministic output every time. AI/ML software is trained on data to produce a learned model, which produces a probabilistic, pattern-based output that can vary.</title>
+  <rect width="560" height="320" fill="#FBF8F1"/>
+  <text x="150" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2C4A3E">Traditional software</text>
+  <rect x="40" y="50" width="220" height="46" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="150" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Programmer writes explicit rules</text>
+  <text x="150" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓</text>
+  <rect x="40" y="120" width="220" height="46" rx="6" fill="#2C4A3E"/>
+  <text x="150" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#FBF8F1">Same input → same output, always</text>
+  <text x="410" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#8B6F4E">AI / machine learning software</text>
+  <rect x="300" y="50" width="220" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="410" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Trained on examples to build a model</text>
+  <text x="410" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8B6F4E">↓</text>
+  <rect x="300" y="120" width="220" height="46" rx="6" fill="#8B6F4E"/>
+  <text x="410" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#FBF8F1">Similar input → probable output, can vary</text>
+  <line x1="280" y1="50" x2="280" y2="166" stroke="#E3DCC9" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="280" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Neither is "smarter" — they solve different kinds of problems</text>
+</svg>

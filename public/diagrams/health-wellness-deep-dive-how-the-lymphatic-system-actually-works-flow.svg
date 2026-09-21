@@ -1,0 +1,23 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="lymphaticSystemTitle">
+  <title id="lymphaticSystemTitle">Fluid that leaks from blood capillaries into tissue is collected by lymph capillaries, filtered through lymph nodes for pathogens, then returned to the bloodstream through lymphatic ducts.</title>
+  <rect width="560" height="320" fill="#FBF8F1"/>
+  <rect x="30" y="50" width="120" height="55" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="90" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Fluid leaks from</text>
+  <text x="90" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">blood capillaries</text>
+  <text x="165" y="82" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">→</text>
+  <rect x="180" y="50" width="120" height="55" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="240" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Collected by lymph</text>
+  <text x="240" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">capillaries</text>
+  <text x="315" y="82" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">→</text>
+  <rect x="330" y="50" width="120" height="55" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="390" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Filtered through</text>
+  <text x="390" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">lymph nodes</text>
+  <text x="390" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓</text>
+  <rect x="300" y="145" width="180" height="55" rx="6" fill="#2C4A3E"/>
+  <text x="390" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">Pathogens/debris</text>
+  <text x="390" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">trapped and destroyed</text>
+  <text x="390" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓</text>
+  <rect x="240" y="240" width="300" height="55" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="390" y="263" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Cleaned fluid returned to</text>
+  <text x="390" y="281" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">bloodstream via lymphatic ducts</text>
+</svg>

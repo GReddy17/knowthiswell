@@ -1,0 +1,22 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rapportTitle">
+  <title id="rapportTitle">Rapport builds across a short interaction in four overlapping steps: matching tone and pace, genuine curiosity, active listening, then finding real common ground.</title>
+  <rect width="560" height="320" fill="#FBF8F1"/>
+  <line x1="60" y1="160" x2="500" y2="160" stroke="#E3DCC9" stroke-width="3"/>
+  <circle cx="90" cy="160" r="10" fill="#2C4A3E"/>
+  <text x="90" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Match tone</text>
+  <text x="90" y="137" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">&amp; pace</text>
+  <text x="90" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">first 10 seconds</text>
+  <circle cx="220" cy="160" r="10" fill="#8B6F4E"/>
+  <text x="220" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Genuine</text>
+  <text x="220" y="137" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">curiosity</text>
+  <text x="220" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">ask, don't perform</text>
+  <circle cx="350" cy="160" r="10" fill="#8B6F4E"/>
+  <text x="350" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Active</text>
+  <text x="350" y="137" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">listening</text>
+  <text x="350" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">reflect back what you hear</text>
+  <circle cx="480" cy="160" r="10" fill="#2C4A3E"/>
+  <text x="480" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Real common</text>
+  <text x="480" y="137" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">ground</text>
+  <text x="480" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#4A443C">specific, not generic</text>
+  <text x="280" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">These overlap in a real conversation — they aren't strict sequential steps</text>
+</svg>

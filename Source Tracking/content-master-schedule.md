@@ -20,7 +20,7 @@ picking them.
    `pillar: true` + `videoQueue: true` per `content-strategy.md` when used.
 3. **Technology Basics workhorse** — category complete (100/100 as of
    2026-08-29), no remaining backlog. Not a source right now.
-4. **10-category parallel test round (2026-09-22 onward, standing)** —
+4. **10-category parallel test round (2026-09-20 onward, standing)** —
    the current daily source. `/seo-committee` check completed 2026-09-20
    (modified-approve verdict: real 2026 demand data behind each category,
    validation-batch-first rather than blind 100/category — see
@@ -88,7 +88,14 @@ Written by the 7pm cron run (first successful fire post-FDA-fix),
 10. Water conducts electricity → pure water barely does, dissolved
     minerals do (electricity-and-magnetism-basics)
 
-### 2026-09-20 — 10 posts (pillar)
+### 2026-09-20 — 10 posts (pillar) — **SUPERSEDED, never written**
+
+This batch was the plan before the 10-category round got moved up to
+start the same day (2026-09-20) instead of 2026-09-22 — see that section
+below for what actually shipped today (Day 1 of the 10-category round,
+10 posts, `main@d08d552`). Kept here for the record, not as a backlog —
+these specific pillar topics remain unused in `pillar-topics.md` if pillar
+becomes a priority again later.
 
 1. Seasons are caused by Earth's distance from the Sun → axial tilt, not
    distance (space-and-astronomy)
@@ -112,7 +119,12 @@ Written by the 7pm cron run (first successful fire post-FDA-fix),
 10. Sugar makes kids hyperactive → controlled trials show no effect
     (nutrition-and-diet-basics)
 
-### 2026-09-21 — 10 posts (pillar, exhausts the current queue)
+### 2026-09-21 — 10 posts (pillar, exhausts the current queue) — **SUPERSEDED, will not be written**
+
+2026-09-21 is now **Day 2 of the 10-category round** (see below) — the
+daily 10 slots are fully reallocated there, not split between pillar and
+the new categories. These pillar topics stay unused in `pillar-topics.md`
+for whenever pillar gets picked up again.
 
 1. Cracking knuckles causes arthritis → gas bubbles collapsing, no link in
    long-term studies (biology-and-human-body)
@@ -135,7 +147,7 @@ Written by the 7pm cron run (first successful fire post-FDA-fix),
 10. 1 kg = 2.2 lb exactly → it's 2.20462, rounding compounds on large
     shipments (units cross-link)
 
-## 2026-09-22 onward — 10-category parallel test round
+## 2026-09-20 onward — 10-category parallel test round
 
 **Decided 2026-09-20** (`/seo-committee` modified-approve + founder
 confirmation — see `roadmap.md` log for full reasoning). Supersedes the
@@ -164,19 +176,33 @@ to feed `daily-video`.
 — primary sources required, no speculative financial/health/legal claims
 stated as certainty, per standing site rules.
 
-**Day 1 — shipped manually 2026-09-20** (founder-requested same-day test
-run, ahead of tomorrow's automated start): all 10 posts written, each with
-a real hand-authored SVG diagram, real institutional sources (NIST, CISA/
-NIST 800-63B, SEC/FINRA, SBA/SCORE, PMI/BLS, NIH, Harvard PON, DOL, BLS/
-Fed, NIH/CDC). Each category also got its own `{category}-subtopics.md`
-topic-plan doc (per `author-voice-guide.md`'s per-category-plan
-requirement), covering the full 30-topic first round, not just day 1.
-eslint/tsc/full `npm run build` all clean (821 posts total). Days 2-30
-run automatically starting tomorrow per the schedule below.
+**Bonus/test batch — shipped manually 2026-09-20, NOT counted as Day 1**
+(founder-requested same-day pipeline test, ahead of tomorrow's automated
+start): 10 posts written, one per category — "What Artificial Intelligence
+Actually Means," "How Password Managers Actually Protect You," "How the
+Stock Market Actually Works," "How to Actually Validate a Business Idea
+Before Building It," "What Project Management Certification Actually
+Teaches You," "How Memory Actually Forms and Fades," "How to Actually Have
+a Difficult Conversation," "How Unemployment Benefits Actually Get
+Calculated," "How Inflation Actually Erodes Purchasing Power," "How Sleep
+Cycles Actually Affect Recovery." Each with a real hand-authored SVG
+diagram, real institutional sources (NIST, CISA/NIST 800-63B, SEC/FINRA,
+SBA/SCORE, PMI/BLS, NIH, Harvard PON, DOL, BLS/Fed, NIH/CDC). Each category
+also got its own `{category}-subtopics.md` topic-plan doc (per
+`author-voice-guide.md`'s per-category-plan requirement), covering a full
+30-topic round. eslint/tsc/full `npm run build` all clean (821 posts
+total), `main@d08d552`, confirmed live. **Real, live, permanent content —
+just not the official Day 1 of the 30-day/300-post plan**, per founder
+call 2026-09-20: keep it as bonus coverage, run a fresh Day 1 with
+different topics so nothing in the numbered plan duplicates it.
+
+**Day 1 (official) — 2026-09-20, second batch of the day.** Row 1 below
+replaced with fresh topics (none overlapping the bonus batch above or any
+other row in this table). Days 2-30 run automatically starting tomorrow.
 
 | # | ai-future-tech-literacy | digital-safety-privacy | investing-markets-deep-dive | business-entrepreneurship-basics | professional-skills-certifications | psychology-human-behavior | life-skills-etiquette | government-schemes-benefits | economics | health-wellness-deep-dive |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | What Artificial Intelligence Actually Means — **Short pick** | How Password Managers Actually Protect You | How the Stock Market Actually Works | How to Actually Validate a Business Idea Before Building It | What Project Management Certification Actually Teaches You | How Memory Actually Forms and Fades | How to Actually Have a Difficult Conversation | How Unemployment Benefits Actually Get Calculated | How Inflation Actually Erodes Purchasing Power | How Sleep Cycles Actually Affect Recovery |
+| 1 | How AI Actually Differs From Traditional Software — **Short pick** | How Antivirus Software Actually Detects Threats | What a Brokerage Account Actually Is | What Working Capital Actually Means for a Business | What a Certificate Actually Differs From a Certification | How Cognitive Load Actually Affects Decision-Making | How to Actually Build Rapport Quickly | How to Actually Renew a Passport or National ID | What Fiscal Policy Actually Means vs. Monetary Policy | How the Lymphatic System Actually Works |
 | 2 | How Large Language Models Actually Work | What Two-Factor Authentication Actually Does — **Short pick** | What a Mutual Fund Actually Is | What a Business Plan Actually Needs to Include | How to Actually Choose Between Competing Certifications | What Cognitive Dissonance Actually Feels Like | What Active Listening Actually Looks Like in Practice | What Social Security Actually Pays Out and When | What GDP Actually Measures | What Cortisol Actually Does to the Body Under Stress |
 | 3 | Machine Learning vs Deep Learning Explained | How Phishing Scams Actually Work | Stocks vs Bonds: What Actually Differs — **Short pick** | How Small Business Loans Actually Work | What a CompTIA Security+ Certification Actually Covers | How Habits Actually Get Built in the Brain | How to Actually Set Boundaries Without Guilt | How to Actually Apply for Government Assistance Programs | How Interest Rates Actually Get Set | How Intermittent Fasting Actually Affects Metabolism |
 | 4 | What a Neural Network Actually Does | What a VPN Actually Protects You From | How Dividend Investing Actually Works | What an LLC Actually Protects You From — **Short pick** | How Agile and Scrum Actually Differ | What Confirmation Bias Actually Does to Decision-Making | What Professional Email Etiquette Actually Requires | What Tax Credits Actually Differ From Tax Deductions | What Supply and Demand Actually Predicts | What Resting Heart Rate Actually Reveals About Fitness |
@@ -187,7 +213,7 @@ run automatically starting tomorrow per the schedule below.
 | 9 | AI Agents Explained: What Makes Them Different From Chatbots | How Ransomware Actually Infects a Device | What an IPO Actually Is | How Profit Margin Actually Gets Calculated | What Continuing Education Credits Actually Require | How First Impressions Actually Form So Fast | How to Actually Disagree Without Being Disagreeable | How Small Business Government Grants Actually Get Awarded | How Unemployment Rate Actually Gets Calculated — **Short pick** | How Hydration Actually Affects Physical Performance |
 | 10 | How to Tell If Content Was AI-Generated | What Your Digital Footprint Actually Reveals | How Interest Rate Changes Actually Affect Investments | What Makes a Side Hustle Different From a Real Business | How Certifications Actually Compare to a College Degree | What Emotional Intelligence Actually Means | What Digital Etiquette Actually Means in Group Chats | What Veterans Benefits Actually Include | What Economic Indicators Actually Signal | What Gut Health Actually Means and Why It Matters — **Short pick** |
 
-**🛑 CHECKPOINT 1 — after day 10 (2026-10-01):** re-check indexed ratio and
+**🛑 CHECKPOINT 1 — after day 10 (2026-09-29):** re-check indexed ratio and
 avg position against the 2026-09-20 baseline (40.1% / 62.7). Real movement
 on both → continue to days 11-20. No movement or it got worse → stop, bring
 it back to `/seo-committee` before continuing. Do not auto-continue past
@@ -206,7 +232,7 @@ this day without doing the check.
 | 19 | What Edge AI Actually Means | How Credential Stuffing Attacks Actually Work | What an ETF Actually Is (vs. a Mutual Fund) | How to Actually Pitch to Investors | What a Data Analyst Certification Actually Tests | How Trauma Actually Changes the Brain | How to Actually Decline an Invitation Gracefully | How Child Tax Credit Actually Gets Calculated | How Wage Growth Actually Compares to Inflation — **Short pick** | How Vitamin D Actually Gets Synthesized From Sunlight |
 | 20 | How AI Detects Deepfakes | What a Security Breach Notification Actually Means for You | How Market Volatility Actually Gets Measured | What Equity Actually Means When You Give It Away | How to Actually Choose a Certification Worth the Cost | What Intrinsic vs. Extrinsic Motivation Actually Differ In | What Workplace Etiquette Actually Differs From Social Etiquette | What FAFSA Actually Determines | What the Gig Economy Actually Changed About Labor Markets | What REM Sleep Actually Does for the Brain — **Short pick** |
 
-**🛑 CHECKPOINT 2 — after day 20 (2026-10-11):** same check as checkpoint
+**🛑 CHECKPOINT 2 — after day 20 (2026-10-09):** same check as checkpoint
 1, against whatever the numbers were at checkpoint 1 this time (real
 week-over-week movement, not just vs. the original baseline). Same rule:
 no movement → stop, back to committee, don't auto-continue into days
@@ -225,7 +251,7 @@ no movement → stop, back to committee, don't auto-continue into days
 | 29 | What "AI Alignment" Actually Means | How Password Breaches Actually Get Detected | What Asset Allocation Actually Means for Risk | How to Actually Exit or Sell a Small Business | What a Financial Planning Certification (CFP) Actually Requires | How Nostalgia Actually Affects Mood | How to Actually Handle a Conflict With a Neighbor | What Makes an Economy Actually "Healthy" | How Globalization Actually Changed Manufacturing Jobs — **Short pick** | How Screen Time Actually Affects Sleep Quality |
 | 30 | How to Actually Spot an AI Scam Call | What Digital Estate Planning Actually Covers | How to Actually Read a Stock Chart | What Makes a Business "Scalable" vs. Just Busy | How to Actually Keep a Certification Current | What Makes a Habit Actually Stick Long-Term | What Makes Someone Actually Good Company | What Government Shutdown Actually Means for Benefits | What Economic Indicators Actually Signal | What Longevity Research Actually Says About Aging — **Short pick** |
 
-**After day 30 (2026-10-21)**: full round complete, 300 posts, each of the
+**After day 30 (2026-10-19)**: full round complete, 300 posts, each of the
 10 categories at 30/300. Re-check indexed ratio/avg position one more time
 against checkpoint 2 before deciding whether any category is ready to
 extend toward the full 100 originally floated — that decision goes back to

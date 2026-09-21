@@ -1,0 +1,18 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="brokerageAcctTitle">
+  <title id="brokerageAcctTitle">A bank account holds cash only. A brokerage account holds cash plus securities registered in your name, and connects to exchanges to place buy and sell orders.</title>
+  <rect width="560" height="320" fill="#FBF8F1"/>
+  <text x="150" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#4A443C">Bank account</text>
+  <rect x="50" y="50" width="200" height="70" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="150" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Holds cash only</text>
+  <text x="410" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2C4A3E">Brokerage account</text>
+  <rect x="310" y="50" width="200" height="70" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="410" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Holds cash +</text>
+  <text x="410" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">securities in your name</text>
+  <text x="410" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓</text>
+  <rect x="310" y="160" width="200" height="55" rx="6" fill="#2C4A3E"/>
+  <text x="410" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#FBF8F1">Connects to stock</text>
+  <text x="410" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#FBF8F1">exchanges to place orders</text>
+  <text x="410" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓</text>
+  <rect x="310" y="260" width="200" height="46" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="410" y="288" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">SIPC-insured up to limits</text>
+</svg>

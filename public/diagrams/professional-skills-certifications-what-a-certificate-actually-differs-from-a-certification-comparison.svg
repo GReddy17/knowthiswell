@@ -1,0 +1,21 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="certVsCertificateTitle">
+  <title id="certVsCertificateTitle">A certificate proves you completed a course, usually no exam, never expires. A certification proves tested competency, requires passing an exam, and often must be renewed with continuing education.</title>
+  <rect width="560" height="320" fill="#FBF8F1"/>
+  <text x="150" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#8B6F4E">Certificate</text>
+  <rect x="40" y="50" width="220" height="180" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="60" y="80" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Proves: course completion</text>
+  <text x="60" y="105" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Exam: usually none</text>
+  <text x="60" y="130" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Issued by: the training</text>
+  <text x="60" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">provider itself</text>
+  <text x="60" y="173" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Expires: never</text>
+  <text x="60" y="198" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Renewal: not required</text>
+  <text x="410" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2C4A3E">Certification</text>
+  <rect x="300" y="50" width="220" height="180" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="320" y="80" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Proves: tested competency</text>
+  <text x="320" y="105" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Exam: required, must pass</text>
+  <text x="320" y="130" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Issued by: an independent</text>
+  <text x="320" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">governing body</text>
+  <text x="320" y="173" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Expires: often 1-3 years</text>
+  <text x="320" y="198" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">Renewal: continuing-ed credits</text>
+  <text x="280" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#4A443C">Both can belong on a resume — they signal different things</text>
+</svg>
