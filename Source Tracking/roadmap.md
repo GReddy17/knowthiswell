@@ -518,3 +518,58 @@ we stand" has one real answer instead of a re-derived one each time.
   structure and sourcing bar as the bonus batch. eslint/tsc/build clean
   (831 posts). Days 2-30 resume automatically tomorrow per the schedule;
   checkpoints at day 10 (2026-09-29) and day 20 (2026-10-09) unchanged.
+- 2026-09-21 (7pm scheduled orchestrator run, Monday): Loaded state per
+  Step 0. Escalation check: routine (Day 2 of the already-approved
+  10-category schedule, no scope change) — no `/seo-committee` run needed.
+  **Content**: shipped Day 2 of the 10-category round — 10 posts, one per
+  category (LLMs, 2FA, mutual funds, business plans, choosing
+  certifications, cognitive dissonance, active listening, Social Security,
+  GDP, cortisol), real hand-authored SVG diagrams, real institutional
+  sources on the 4 ymyl:true categories. Beyond the standard >=3 outbound
+  `seeAlso` links per new post, also edited 19 older posts (same-category
+  siblings + topically related cross-category posts) to link back in to
+  today's new posts — addressing the "discovered - not indexed" lever
+  directly (inbound links), not just outbound, per the site's documented
+  indexing problem. Checked both existing Learning Paths for a genuine fit
+  for any of today's 10 topics — none, so no course edits (per
+  don't-force-a-weak-fit rule). eslint/tsc/registry/full `npm run build`
+  all clean (841 posts). Pushed straight to `main@2d5b9c7`.
+  **Video**: today's slot already covered by the pre-existing pillar Short
+  batch scheduled through 2026-09-28 ("0.999... repeating equals 1" was
+  today's row) — same pattern as 9/18 and 9/20, no new video shipped to
+  avoid duplicating already-scheduled work. Flagging a real mismatch this
+  run found: `video-master-schedule.md`'s Week 1 table still lists a
+  pillar topic ("Goldfish have a 3-second memory") for 2026-09-21, but
+  `content-master-schedule.md` explicitly superseded that pillar pick for
+  this date when the 10-category round took over daily content — the two
+  schedule docs have drifted out of sync on this point. Not fixed
+  unilaterally this run since the actual video pipeline is unaffected
+  (pre-existing batch already covers today); flagging for reconciliation.
+  **Monday weekly cinematic check (Step 5.5)**: ran the real last-7-day
+  view-count pull across all 3 platforms for every Short posted this week
+  (Sump Pump, Density&Buoyancy/steel-ship, World Population, 0.999...=1) —
+  YouTube via Data API (max 849 views), TikTok via Studio Analytics (max
+  322), Meta via Business Suite Insights (max 238). No Short crossed
+  10,000 views on any platform — no cinematic long-form triggered, logged
+  as expected at this account's current follower scale, not a failure.
+  Full detail in `.claude/private/video-log.md`.
+  **Step 6 (SEO + marketing)**: GSC 3mo 14 clicks/22.5K impressions/avg
+  pos 61.3 (small real improvement vs 9/20's 61.7, third daily tick in a
+  row). Vercel Analytics skipped again (not logged in, third consecutive
+  7pm run). Indexing dashboard flat at 478/1,197 (39.9%). All 10 of
+  today's new-post URLs got indexing requests through (one real snag: the
+  first attempt hit a false 404 because the Vercel production deploy for
+  today's push was still mid-build when first inspected — waited for the
+  deploy to finish, confirmed live, then all 10 succeeded). Sitemap
+  resubmitted (865 -> 885 discovered pages). Flagged a growing ~28-URL
+  backlog of older never-individually-requested posts (9/18 flooring
+  batch, 9/20 bonus batch, Day-1-official batch) — three straight days of
+  quota going entirely to same-day fresh posts per the priority rule,
+  worth a dedicated backlog-clearing run once volume allows. Social: X
+  (cognitive dissonance fact, link-free) and Quora (real live question,
+  genuinely distinct resolution-mechanism angle not covered by existing
+  answers, with a link) both posted live. Reddit skipped again — fourth
+  consecutive run confirming `reddit.com` is blocked at the
+  browser-automation tool level, not an account issue.
+  Full detail in `.claude/private/marketing-log.md` and
+  `.claude/private/seo-index-queue.md`.
