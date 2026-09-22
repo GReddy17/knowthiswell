@@ -573,3 +573,12 @@ we stand" has one real answer instead of a re-derived one each time.
   browser-automation tool level, not an account issue.
   Full detail in `.claude/private/marketing-log.md` and
   `.claude/private/seo-index-queue.md`.
+- 2026-09-22: **Dedicated backlog-clearing pass** on the ~28-URL indexing
+  backlog flagged 9/21, founder-approved, separate from tonight's 7pm
+  daily routine. Real result was much smaller than planned: quota hit
+  "Quota Exceeded" after just 1 request (real daily cap today was ~1, not
+  the usual ~10-12 — cause unconfirmed, tonight's 7pm run hadn't fired yet
+  so it wasn't that consuming it). Requested:
+  `home-diy-knowledge/why-hardwood-floors-expand-and-contract`. Remaining
+  27 of 28 carry over, full list in `seo-index-queue.md` — resume that
+  exact list next attempt before pulling any fresh GSC drilldown.
