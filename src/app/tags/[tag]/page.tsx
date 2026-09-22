@@ -1,15 +1,21 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { getAllTags, getPostsByTag } from '@/lib/content';
+import { getPostsByTag } from '@/lib/content';
 import { getCategoryLabel } from '@/lib/taxonomy';
 
 interface PageProps {
   params: Promise<{ tag: string }>;
 }
 
+// Tag pages are already `noindex` below (thin/duplicate content at low
+// post counts), so there's no SEO reason to pre-render any of them at
+// build time. Pre-building all ~3,300 of them was adding ~1.9GB to every
+// deployment's build output for pages search engines are told to skip
+// anyway. Rendering on-demand (dynamicParams defaults to true) keeps
+// every tag URL working — first visit to a given tag renders it live,
+// same content as before — without the build-time cost.
 export async function generateStaticParams() {
-  const tags = await getAllTags();
-  return tags.map((tag) => ({ tag }));
+  return [];
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
