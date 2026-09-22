@@ -60,7 +60,7 @@ Folder: `navigating-harder-moments-well/`
 | Order | Slug | Status |
 |---|---|---|
 | 1 | `how-to-actually-have-a-difficult-conversation` | done (2026-09-20) |
-| 2 | `what-active-listening-actually-looks-like-in-practice` | not started |
+| 2 | `what-active-listening-actually-looks-like-in-practice` | done (2026-09-21) |
 | 3 | `how-to-actually-set-boundaries-without-guilt` | not started |
 | 4 | `what-professional-email-etiquette-actually-requires` | not started |
 | 5 | `how-to-actually-negotiate-a-better-price` | not started |

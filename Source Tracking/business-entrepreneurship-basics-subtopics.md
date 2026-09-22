@@ -60,7 +60,7 @@ Folder: `growing-and-protecting-the-business/`
 | Order | Slug | Status |
 |---|---|---|
 | 1 | `how-to-actually-validate-a-business-idea-before-building-it` | done (2026-09-20) |
-| 2 | `what-a-business-plan-actually-needs-to-include` | not started |
+| 2 | `what-a-business-plan-actually-needs-to-include` | done (2026-09-21) |
 | 3 | `how-small-business-loans-actually-work` | not started |
 | 4 | `what-an-llc-actually-protects-you-from` | not started |
 | 5 | `how-to-actually-price-a-product-or-service` | not started |

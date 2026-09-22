@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/how-to-write-an-effective-professional-email",
     "career-study-skills/how-to-give-feedback-that-actually-lands",
     "career-study-skills/what-makes-a-meeting-actually-effective",
+    "life-skills-etiquette/what-active-listening-actually-looks-like-in-practice",
   ],
   glossary: [
     { term: "Paraphrasing", definition: "Restating what someone said in your own words to confirm you understood it correctly before responding to it." },

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="businessPlanDetailTitle">
+  <title id="businessPlanDetailTitle">The core sections of a business plan: executive summary, company and product description, market analysis, organization and management, and financial projections.</title>
+  <rect width="560" height="320" fill="#FBF8F1"/>
+  <rect x="30" y="30" width="500" height="45" rx="6" fill="#2C4A3E"/>
+  <text x="280" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Executive Summary (written last)</text>
+  <rect x="30" y="90" width="235" height="50" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="147" y="119" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Company &amp; Product/Service Description</text>
+  <rect x="295" y="90" width="235" height="50" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="412" y="119" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Market Analysis (real research)</text>
+  <rect x="30" y="160" width="235" height="50" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="147" y="189" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Organization &amp; Management</text>
+  <rect x="295" y="160" width="235" height="50" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="412" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Financial Projections</text>
+  <text x="412" y="198" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">(most scrutinized)</text>
+  <rect x="30" y="230" width="500" height="55" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="253" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Format flexes: traditional (lenders/investors)</text>
+  <text x="280" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">or lean one-page (owner clarity)</text>
+</svg>

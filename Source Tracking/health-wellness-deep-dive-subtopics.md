@@ -60,7 +60,7 @@ Folder: `advanced-wellness-science/`
 | Order | Slug | Status |
 |---|---|---|
 | 1 | `how-sleep-cycles-actually-affect-recovery` | done (2026-09-20) |
-| 2 | `what-cortisol-actually-does-to-the-body-under-stress` | not started |
+| 2 | `what-cortisol-actually-does-to-the-body-under-stress` | done (2026-09-21) |
 | 3 | `how-intermittent-fasting-actually-affects-metabolism` | not started |
 | 4 | `what-resting-heart-rate-actually-reveals-about-fitness` | not started |
 | 5 | `how-meditation-actually-changes-the-brain` | not started |

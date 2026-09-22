@@ -60,7 +60,7 @@ Folder: `getting-the-most-from-a-certification/`
 | Order | Slug | Status |
 |---|---|---|
 | 1 | `what-project-management-certification-actually-teaches-you` | done (2026-09-20) |
-| 2 | `how-to-actually-choose-between-competing-certifications` | not started |
+| 2 | `how-to-actually-choose-between-competing-certifications` | done (2026-09-21) |
 | 3 | `what-a-comptia-security-certification-actually-covers` | not started |
 | 4 | `how-agile-and-scrum-actually-differ` | not started |
 | 5 | `what-a-pmp-certification-actually-requires` | not started |

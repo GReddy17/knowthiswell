@@ -60,7 +60,7 @@ Folder: `protecting-yourself-and-your-data-long-term/`
 | Order | Slug | Status |
 |---|---|---|
 | 1 | `how-password-managers-actually-protect-you` | done (2026-09-20) |
-| 2 | `what-two-factor-authentication-actually-does` | not started |
+| 2 | `what-two-factor-authentication-actually-does` | done (2026-09-21) |
 | 3 | `how-phishing-scams-actually-work` | not started |
 | 4 | `what-a-vpn-actually-protects-you-from` | not started |
 | 5 | `how-data-breaches-actually-happen` | not started |

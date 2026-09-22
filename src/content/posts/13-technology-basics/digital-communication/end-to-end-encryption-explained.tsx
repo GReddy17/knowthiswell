@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/how-email-actually-gets-delivered",
     "technology-basics/how-group-chats-sync-across-devices",
     "technology-basics/read-receipts-and-typing-indicators-explained",
+    "digital-safety-privacy/what-two-factor-authentication-actually-does",
   ],
   glossary: [
     { term: "End-to-end encryption (E2EE)", definition: "A method of securing digital communication in which only the sender's and recipient's devices hold the keys to decrypt the message — no intermediate server can read the content." },

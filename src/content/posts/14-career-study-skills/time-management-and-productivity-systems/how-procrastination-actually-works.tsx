@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/the-two-minute-rule-explained",
     "career-study-skills/the-pomodoro-technique-explained",
     "career-study-skills/parkinsons-law-explained",
+    "psychology-human-behavior/what-cognitive-dissonance-actually-feels-like",
   ],
   glossary: [
     { term: "Procrastination", definition: "The voluntary delay of an intended task despite expecting to be worse off for the delay — distinct from a deliberate, reasoned decision to postpone a task for a good reason." },

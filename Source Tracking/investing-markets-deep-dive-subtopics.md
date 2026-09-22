@@ -60,7 +60,7 @@ Folder: `advanced-mechanics-and-risk/`
 | Order | Slug | Status |
 |---|---|---|
 | 1 | `how-the-stock-market-actually-works` | done (2026-09-20) |
-| 2 | `what-a-mutual-fund-actually-is` | not started |
+| 2 | `what-a-mutual-fund-actually-is` | done (2026-09-21) |
 | 3 | `stocks-vs-bonds-what-actually-differs` | not started |
 | 4 | `how-dividend-investing-actually-works` | not started |
 | 5 | `what-an-index-fund-actually-tracks` | not started |

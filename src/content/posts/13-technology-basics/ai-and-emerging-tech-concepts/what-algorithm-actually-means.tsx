@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/how-machine-learning-actually-works",
     "technology-basics/automation-vs-artificial-intelligence",
     "technology-basics/what-a-chatbot-is-actually-doing",
+    "ai-future-tech-literacy/how-large-language-models-actually-work",
   ],
   glossary: [
     { term: "Algorithm", definition: "A finite, precise sequence of steps for solving a specific problem or completing a task, expressed clearly enough that it can be followed exactly, by a person or a machine." },

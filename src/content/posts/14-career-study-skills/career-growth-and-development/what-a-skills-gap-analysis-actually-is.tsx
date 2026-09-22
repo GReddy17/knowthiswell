@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/lateral-move-vs-promotion-whats-the-difference",
     "career-study-skills/what-applicant-tracking-systems-actually-do",
     "career-study-skills/how-to-ask-for-a-raise-effectively",
+    "professional-skills-certifications/how-to-actually-choose-between-competing-certifications",
   ],
   glossary: [
     { term: "Skills gap", definition: "The measurable difference between the skill level a role or goal requires and a person's current skill level in that same area." },

@@ -33,6 +33,7 @@ export const metadata: PostFrontmatter = {
   ],
   seeAlso: [
     "investing-markets-deep-dive/how-the-stock-market-actually-works",
+    "investing-markets-deep-dive/what-a-mutual-fund-actually-is",
   ],
   glossary: [
     { term: "Brokerage firm", definition: "A licensed financial company that executes buy and sell orders for securities on behalf of clients, acting as the intermediary between an investor and the exchanges." },

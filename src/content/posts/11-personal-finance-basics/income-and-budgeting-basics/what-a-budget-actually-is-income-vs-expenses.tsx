@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "personal-finance-basics/the-50-30-20-budgeting-rule-explained",
     "personal-finance-basics/fixed-vs-variable-expenses",
     "personal-finance-basics/understanding-net-worth-assets-minus-liabilities",
+    "business-entrepreneurship-basics/what-a-business-plan-actually-needs-to-include",
   ],
   glossary: [
     {"term":"Income","definition":"Money received over a given period — wages, self-employment earnings, benefits, or other regular inflows — before it is spent, saved, or taxed further."},

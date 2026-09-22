@@ -1,0 +1,23 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dissonanceFlowTitle">
+  <title id="dissonanceFlowTitle">A belief and a conflicting behavior create psychological discomfort, which the mind resolves either by changing the behavior, changing the belief, or adding a justifying rationalization.</title>
+  <rect width="560" height="300" fill="#FBF8F1"/>
+  <rect x="20" y="30" width="230" height="50" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="135" y="59" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Held belief ("I value X")</text>
+  <rect x="310" y="30" width="230" height="50" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="425" y="59" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Conflicting behavior ("I did not-X")</text>
+  <text x="280" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓ ↓</text>
+  <rect x="150" y="115" width="260" height="50" rx="6" fill="#2C4A3E"/>
+  <text x="280" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">Psychological discomfort (dissonance)</text>
+  <text x="280" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓</text>
+  <rect x="15" y="200" width="170" height="70" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="100" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Change the</text>
+  <text x="100" y="243" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">behavior</text>
+  <text x="100" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">(effortful, less common)</text>
+  <rect x="195" y="200" width="170" height="70" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="280" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Change the</text>
+  <text x="280" y="243" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">belief</text>
+  <rect x="375" y="200" width="170" height="70" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="460" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Add a justifying</text>
+  <text x="460" y="243" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">rationalization</text>
+  <text x="460" y="260" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">(most common)</text>
+</svg>

@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "general-awareness-basics/understanding-civic-duties-and-responsibilities",
     "general-awareness-basics/what-local-government-actually-does",
     "general-awareness-basics/understanding-public-vs-private-sector",
+    "economics/what-gdp-actually-measures",
   ],
   glossary: [
     {"term":"Progressive taxation","definition":"A tax system where the tax rate increases as income rises, so higher earners pay a larger percentage of their income than lower earners."},

@@ -60,7 +60,7 @@ Folder: `ai-in-practice-and-its-limits/`
 | Order | Slug | Status |
 |---|---|---|
 | 1 | `what-artificial-intelligence-actually-means` | done (2026-09-20) |
-| 2 | `how-large-language-models-actually-work` | not started |
+| 2 | `how-large-language-models-actually-work` | done (2026-09-21) |
 | 3 | `machine-learning-vs-deep-learning-explained` | not started |
 | 4 | `what-a-neural-network-actually-does` | not started |
 | 5 | `how-ai-image-generators-actually-create-pictures` | not started |

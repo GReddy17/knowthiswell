@@ -205,6 +205,21 @@ State, Federal Reserve, NIH/CDC). eslint/tsc/full `npm run build` all
 clean (831 posts total), confirmed live. Days 2-30 run automatically
 starting tomorrow.
 
+**Day 2 — shipped 2026-09-21 (Monday 7pm orchestrator run).** Row 2
+below, one post per category. Real hand-authored SVG diagrams and real
+institutional sources (NIST/Stanford HAI, CISA/NIST 800-63B, SEC
+Investor.gov/FINRA, SBA/SCORE, BLS/PMI, APA Dictionary of Psychology,
+Harvard PON, SSA, BEA/BLS, MedlinePlus/APA). Each new post links out to
+≥3 existing live posts; additionally, 19 older posts (same-category
+siblings plus topically related cross-category posts) were edited to
+link back in to today's new posts, addressing the "discovered — not
+indexed" lever directly rather than only the outbound direction.
+Checked all 10 topics against both existing Learning Paths (Job Search &
+Interview Readiness, Electrician) — no genuine fit for any, so no course
+edits made (per the don't-force-a-weak-fit rule). eslint/tsc/registry/
+full `npm run build` all clean (841 posts total). Pushed straight to
+`main` per standing policy. Day 3 resumes automatically tomorrow.
+
 | # | ai-future-tech-literacy | digital-safety-privacy | investing-markets-deep-dive | business-entrepreneurship-basics | professional-skills-certifications | psychology-human-behavior | life-skills-etiquette | government-schemes-benefits | economics | health-wellness-deep-dive |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | How AI Actually Differs From Traditional Software — **Short pick** | How Antivirus Software Actually Detects Threats | What a Brokerage Account Actually Is | What Working Capital Actually Means for a Business | What a Certificate Actually Differs From a Certification | How Cognitive Load Actually Affects Decision-Making | How to Actually Build Rapport Quickly | How to Actually Renew a Passport or National ID | What Fiscal Policy Actually Means vs. Monetary Policy | How the Lymphatic System Actually Works |

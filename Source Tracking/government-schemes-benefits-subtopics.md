@@ -60,7 +60,7 @@ Folder: `navigating-the-system/`
 | Order | Slug | Status |
 |---|---|---|
 | 1 | `how-unemployment-benefits-actually-get-calculated` | done (2026-09-20) |
-| 2 | `what-social-security-actually-pays-out-and-when` | not started |
+| 2 | `what-social-security-actually-pays-out-and-when` | done (2026-09-21) |
 | 3 | `how-to-actually-apply-for-government-assistance-programs` | not started |
 | 4 | `what-tax-credits-actually-differ-from-tax-deductions` | not started |
 | 5 | `how-public-health-insurance-programs-actually-work` | not started |

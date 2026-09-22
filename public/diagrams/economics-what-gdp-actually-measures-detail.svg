@@ -1,0 +1,22 @@
+<svg viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gdpFormulaTitle">
+  <title id="gdpFormulaTitle">GDP equals consumer spending plus business investment plus government spending plus net exports (exports minus imports).</title>
+  <rect width="560" height="220" fill="#FBF8F1"/>
+  <rect x="20" y="30" width="110" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="75" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Consumer</text>
+  <text x="75" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">spending</text>
+  <text x="142" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">+</text>
+  <rect x="155" y="30" width="110" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="210" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Business</text>
+  <text x="210" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">investment</text>
+  <text x="277" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">+</text>
+  <rect x="290" y="30" width="110" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="345" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Government</text>
+  <text x="345" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">spending</text>
+  <text x="412" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">+</text>
+  <rect x="425" y="30" width="115" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="482" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Net exports</text>
+  <text x="482" y="73" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">(exports − imports)</text>
+  <text x="280" y="125" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓ =</text>
+  <rect x="150" y="140" width="260" height="55" rx="6" fill="#2C4A3E"/>
+  <text x="280" y="173" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">GDP (total economic output)</text>
+</svg>
