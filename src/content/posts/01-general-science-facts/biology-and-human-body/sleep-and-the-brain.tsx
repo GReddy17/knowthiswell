@@ -45,6 +45,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/human-body-systems",
     "general-science-facts/the-five-senses",
     "general-science-facts/cells-and-genetics-basics",
+    "general-science-facts/why-bears-need-to-double-their-body-fat-before-hibernation",
   ],
   glossary: [
     { term: "NREM sleep", definition: "Non-rapid eye movement sleep, made up of progressively deeper stages (N1, N2, N3), including deep, slow-wave sleep." },
@@ -85,7 +86,7 @@ export default function Post() {
       <FootnoteAside>During REM sleep, brain electrical activity closely resembles being awake — yet the body is nearly paralyzed at the same time, a documented mechanism called muscle atonia that normally prevents sleepers from physically acting out what&apos;s happening in a dream.</FootnoteAside>
 
       <p>
-      Knowing the stages exist is one thing; seeing how many complete cycles actually fit into a real night&apos;s sleep — and what happens when that math gets cut short — is where the concept becomes practical.
+      Knowing the stages exist is one thing; seeing how many complete cycles actually fit into a real night&apos;s sleep — and what happens when that math gets cut short — is where the concept becomes practical. Human sleep, cycling through stages every night, is a fundamentally different state from the months-long metabolic shutdown of <TermLink href="/general-science-facts/why-bears-need-to-double-their-body-fat-before-hibernation">bear hibernation</TermLink> — different mechanism, different purpose, despite the surface-level resemblance.
       </p>
 
       <QuickCheck

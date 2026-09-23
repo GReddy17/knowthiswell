@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "technology-basics/cpu-ram-and-storage-explained",
     "technology-basics/laptop-vs-desktop-technical-differences",
+    "technology-basics/why-deleting-a-file-doesnt-erase-it-right-away",
   ],
   glossary: [
     { term: "SSD", definition: "Solid-state drive — a storage device that reads and writes data electronically in flash memory chips, with no moving mechanical parts." },
@@ -77,7 +78,7 @@ export default function Post() {
       <FootnoteAside>Flash memory cells in an SSD do wear out after a finite number of write cycles, since each write physically stresses the insulating layer trapping the charge — but SSD controllers use <TermLink href="/technology-basics/ssd-vs-hdd-explained">wear leveling</TermLink> to spread writes evenly across the whole drive, and for typical personal use this limit is rarely the reason a drive actually fails.</FootnoteAside>
 
       <p>
-      That seek-time-and-rotation cost isn&apos;t a minor footnote — it&apos;s measured in milliseconds on an HDD versus microseconds or less on an SSD, a gap of roughly a thousand-fold for the worst-case random access pattern. The next section puts real operations through that gap.
+      That seek-time-and-rotation cost isn&apos;t a minor footnote — it&apos;s measured in milliseconds on an HDD versus microseconds or less on an SSD, a gap of roughly a thousand-fold for the worst-case random access pattern. The next section puts real operations through that gap. That same architectural difference also changes what happens after you hit delete — see <TermLink href="/technology-basics/why-deleting-a-file-doesnt-erase-it-right-away">why deleting a file doesn&apos;t erase it right away</TermLink> for how SSDs and HDDs handle freed-up space differently.
       </p>
 
       <QuickCheck

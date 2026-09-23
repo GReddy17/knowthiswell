@@ -49,6 +49,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/why-gutters-need-regular-cleaning",
     "general-science-facts/marine-life-and-ocean-biology",
     "general-science-facts/plant-biology-and-photosynthesis",
+    "general-science-facts/el-nino-and-la-nina-explained",
   ],
   glossary: [
     { term: "Evaporation", definition: "The process by which liquid water absorbs enough heat energy to turn into water vapor, primarily from oceans, lakes, and rivers." },
@@ -90,7 +91,7 @@ export default function Post() {
       <FootnoteAside>The average depth of Earth&apos;s oceans is about 3,682 meters (roughly 12,080 feet) — deep enough that if Mount Everest were dropped into the deepest known point, the Challenger Deep in the Mariana Trench (nearly 11,000 meters), its peak would still sit over 2 kilometers underwater.</FootnoteAside>
 
       <p>
-      That&apos;s the loop in outline. The details worth knowing are how unevenly Earth&apos;s water is actually distributed, and how differently each part of the system holds onto it before letting go.
+      That&apos;s the loop in outline. The details worth knowing are how unevenly Earth&apos;s water is actually distributed, and how differently each part of the system holds onto it before letting go. The ocean side of that loop isn&apos;t static, either — periodic shifts like <TermLink href="/general-science-facts/el-nino-and-la-nina-explained">El Niño and La Niña</TermLink> move huge volumes of warm surface water across the Pacific and change rainfall patterns across much of the planet for months at a time.
       </p>
 
       <QuickCheck

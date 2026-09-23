@@ -46,6 +46,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/symbiosis-and-animal-relationships",
     "general-science-facts/are-bats-really-blind",
     "general-science-facts/insects-and-small-creatures",
+    "general-science-facts/why-bears-need-to-double-their-body-fat-before-hibernation",
   ],
   glossary: [
     { term: "Kingdom Animalia", definition: "The taxonomic kingdom containing all animals — multicellular organisms that eat other organisms for energy and typically can move under their own power." },
@@ -91,7 +92,7 @@ export default function Post() {
       <FootnoteAside>Roughly 1.5 to 2 million animal species have been formally described so far, but estimates of the true total — including undiscovered species, mostly insects and deep-sea invertebrates — run as high as 8 million, according to Smithsonian researchers.</FootnoteAside>
 
       <p>
-      That vertebrate/invertebrate split is the single biggest branch in the animal kingdom, and the numbers on each side of it are far more lopsided than most people expect.
+      That vertebrate/invertebrate split is the single biggest branch in the animal kingdom, and the numbers on each side of it are far more lopsided than most people expect. Mammal adaptations get just as extreme within a single species — <TermLink href="/general-science-facts/why-bears-need-to-double-their-body-fat-before-hibernation">bears doubling their body fat before hibernation</TermLink> is one of the more dramatic examples of an animal physically reshaping itself for a coming season.
       </p>
 
       <QuickCheck

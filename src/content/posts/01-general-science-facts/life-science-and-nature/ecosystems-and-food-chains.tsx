@@ -47,6 +47,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/symbiosis-and-animal-relationships",
     "general-science-facts/insects-and-small-creatures",
     "general-science-facts/marine-life-and-ocean-biology",
+    "general-science-facts/real-parasites-that-control-their-hosts-behavior",
   ],
   glossary: [
     { term: "Food chain", definition: "A linear sequence showing how energy passes from one organism to the next through eating relationships, starting with a producer." },
@@ -112,7 +113,7 @@ export default function Post() {
       <FootnoteAside>Because energy loss compounds at every step, food chains longer than about five or six trophic levels are essentially unsustainable on land — there simply isn&apos;t enough energy left by that point to support a viable predator population, which is part of why &quot;apex predator of an apex predator&quot; ecosystems don&apos;t really exist.</FootnoteAside>
 
       <p>
-      That 10% figure isn&apos;t a rough guess — it&apos;s precise enough to run real numbers through, and doing so is the fastest way to see why big predators are always rare.
+      That 10% figure isn&apos;t a rough guess — it&apos;s precise enough to run real numbers through, and doing so is the fastest way to see why big predators are always rare. Predator-prey links aren&apos;t the only relationship shaping a food web, either — some <TermLink href="/general-science-facts/real-parasites-that-control-their-hosts-behavior">parasites manipulate their host&apos;s behavior directly</TermLink>, reshaping which animals end up eaten and when.
       </p>
 
       <QuickCheck

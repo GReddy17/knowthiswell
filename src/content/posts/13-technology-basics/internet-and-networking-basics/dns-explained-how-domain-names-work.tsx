@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-is-an-ip-address",
     "technology-basics/how-the-internet-actually-works",
     "technology-basics/http-vs-https-explained",
+    "technology-basics/why-one-outage-can-ground-flights-and-break-half-the-internet",
   ],
   glossary: [
     { term: "DNS (Domain Name System)", definition: "A distributed directory system that translates human-readable domain names into the numeric IP addresses computers use to locate each other." },
@@ -76,7 +77,7 @@ export default function Post() {
       <FootnoteAside>The domain name system is formally specified in IETF RFC 1035 (1987), which defines how domain names, resource records, and queries are structured — the same core specification, extended since, still underlies how every domain name on the internet resolves today.</FootnoteAside>
 
       <p>
-        This chain sounds slow described step by step, but it usually completes in a fraction of a second — and thanks to caching at nearly every layer, most everyday lookups skip most of the chain entirely.
+        This chain sounds slow described step by step, but it usually completes in a fraction of a second — and thanks to caching at nearly every layer, most everyday lookups skip most of the chain entirely. That same reliance on a small number of shared DNS providers is exactly the kind of dependency behind <TermLink href="/technology-basics/why-one-outage-can-ground-flights-and-break-half-the-internet">why one company&apos;s outage can take down hundreds of unrelated websites at once</TermLink>.
       </p>
 
       <QuickCheck

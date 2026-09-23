@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="deleteFileTitle">
+  <title id="deleteFileTitle">Diagram of a file system's file table with an entry being removed and marked free after deletion, while the actual data blocks that entry once pointed to remain physically present on the drive until new data overwrites them</title>
+  <defs>
+    <marker id="arrowDelete" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F1B16"/>
+    </marker>
+  </defs>
+  <rect width="640" height="340" fill="#FBF8F1"/>
+
+  <text x="320" y="32" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="18" font-weight="700" fill="#1F1B16">Delete removes the index entry, not the data</text>
+
+  <text x="150" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">File table (index)</text>
+  <rect x="40" y="80" width="220" height="34" fill="none" stroke="#1F1B16" stroke-width="1.2" opacity="0.6"/>
+  <text x="55" y="102" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">report.pdf -> Block 4</text>
+
+  <rect x="40" y="120" width="220" height="34" fill="#C9412C" opacity="0.15" stroke="#C9412C" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="55" y="142" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#C9412C">photo.jpg -&gt; Block 7 (deleted)</text>
+
+  <rect x="40" y="160" width="220" height="34" fill="none" stroke="#1F1B16" stroke-width="1.2" opacity="0.6"/>
+  <text x="55" y="182" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">notes.txt -&gt; Block 2</text>
+
+  <text x="150" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#C9412C">Entry removed, Block 7</text>
+  <text x="150" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#C9412C">marked "free" to reuse</text>
+
+  <path d="M275,137 C 340,137 380,220 430,235" fill="none" stroke="#1F1B16" stroke-width="2" stroke-dasharray="3 3" marker-end="url(#arrowDelete)" opacity="0.55"/>
+
+  <text x="490" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Data blocks on disk</text>
+  <rect x="400" y="80" width="180" height="32" fill="#EDE7D8" stroke="#1F1B16" stroke-width="1"/>
+  <text x="490" y="101" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Block 2: notes.txt data</text>
+
+  <rect x="400" y="118" width="180" height="32" fill="#EDE7D8" stroke="#1F1B16" stroke-width="1"/>
+  <text x="490" y="139" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Block 4: report.pdf data</text>
+
+  <rect x="400" y="156" width="180" height="32" fill="#EDE7D8" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="490" y="177" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">Block 7: photo.jpg data still here</text>
+
+  <text x="490" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">Unchanged — recoverable</text>
+  <text x="490" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">until something overwrites it</text>
+
+  <text x="320" y="300" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="14" font-weight="600" fill="#1F1B16">The card is pulled from the catalog — the book stays on the shelf</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="moonLockTitle">
+  <title id="moonLockTitle">Diagram of the Moon at four positions around its orbit of Earth, with the same marked face of the Moon always pointed toward Earth, showing that the Moon's rotation period exactly matches its orbital period</title>
+  <defs>
+    <marker id="arrowOrbitMoon" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2C4A3E"/>
+    </marker>
+  </defs>
+  <rect width="640" height="420" fill="#FBF8F1"/>
+
+  <text x="320" y="32" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="18" font-weight="700" fill="#1F1B16">Tidal locking: same face, every position</text>
+
+  <circle cx="320" cy="230" r="120" fill="none" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.6"/>
+  <path d="M320,110 A120,120 0 1 1 319,110" fill="none" stroke="#2C4A3E" stroke-width="0" marker-end="url(#arrowOrbitMoon)"/>
+
+  <circle cx="320" cy="230" r="34" fill="#2C4A3E"/>
+  <text x="320" y="236" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Earth</text>
+
+  <!-- Moon top -->
+  <g>
+    <circle cx="320" cy="110" r="20" fill="#FBF8F1" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="320" cy="222" r="6" fill="#C9412C"/>
+    <text x="320" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Marked face points at Earth</text>
+  </g>
+
+  <!-- Moon right -->
+  <g>
+    <circle cx="440" cy="230" r="20" fill="#FBF8F1" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="422" cy="230" r="6" fill="#C9412C"/>
+    <text x="470" y="234" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Moon has turned</text>
+    <text x="470" y="248" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">a quarter-spin too</text>
+  </g>
+
+  <!-- Moon bottom -->
+  <g>
+    <circle cx="320" cy="350" r="20" fill="#FBF8F1" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="320" cy="338" r="6" fill="#C9412C"/>
+    <text x="320" y="390" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Still the same marked face</text>
+  </g>
+
+  <!-- Moon left -->
+  <g>
+    <circle cx="200" cy="230" r="20" fill="#FBF8F1" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="218" cy="230" r="6" fill="#C9412C"/>
+    <text x="170" y="234" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Three-quarter spin,</text>
+    <text x="170" y="248" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">still facing Earth</text>
+  </g>
+
+  <path d="M340,130 A100,100 0 0 1 440,210" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowOrbitMoon)"/>
+  <path d="M440,250 A100,100 0 0 1 340,330" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowOrbitMoon)"/>
+  <path d="M300,330 A100,100 0 0 1 200,250" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowOrbitMoon)"/>
+  <path d="M200,210 A100,100 0 0 1 300,130" fill="none" stroke="#2C4A3E" stroke-width="2" marker-end="url(#arrowOrbitMoon)"/>
+
+  <text x="320" y="405" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="14" font-weight="600" fill="#1F1B16">One orbit = one full rotation, so the near side never changes</text>
+</svg>

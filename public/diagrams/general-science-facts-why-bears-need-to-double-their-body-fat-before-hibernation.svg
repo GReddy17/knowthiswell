@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bearHibernationTitle">
+  <title id="bearHibernationTitle">Comparison of an active bear's heart rate, body temperature, and metabolism against a hibernating bear's dramatically reduced heart rate and metabolism, powered entirely by stored fat</title>
+  <rect width="640" height="360" fill="#FBF8F1"/>
+
+  <text x="320" y="35" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="18" font-weight="700" fill="#1F1B16">Active bear vs. hibernating bear</text>
+
+  <text x="150" y="70" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="34">🐻</text>
+  <text x="150" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">Active (fall)</text>
+
+  <text x="490" y="70" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="34">🐻</text>
+  <text x="490" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F1B16">Hibernating (winter)</text>
+
+  <line x1="320" y1="55" x2="320" y2="330" stroke="#1F1B16" stroke-width="1" opacity="0.25"/>
+
+  <!-- Heart rate bars -->
+  <text x="60" y="140" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Heart rate</text>
+  <rect x="60" y="150" width="180" height="18" fill="#C9412C"/>
+  <text x="245" y="164" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#C9412C">~50 bpm</text>
+  <rect x="400" y="150" width="30" height="18" fill="#2C4A3E"/>
+  <text x="435" y="164" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#2C4A3E">8-19 bpm</text>
+
+  <!-- Metabolism bars -->
+  <text x="60" y="205" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Metabolic rate</text>
+  <rect x="60" y="215" width="180" height="18" fill="#C9412C"/>
+  <text x="245" y="229" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#C9412C">Normal (100%)</text>
+  <rect x="400" y="215" width="55" height="18" fill="#2C4A3E"/>
+  <text x="465" y="229" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#2C4A3E">25-50%</text>
+
+  <!-- Body temp bars -->
+  <text x="60" y="270" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1F1B16">Body temperature drop</text>
+  <rect x="60" y="280" width="180" height="18" fill="#C9412C"/>
+  <text x="245" y="294" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#C9412C">Baseline</text>
+  <rect x="400" y="280" width="165" height="18" fill="#2C4A3E"/>
+  <text x="480" y="294" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#FBF8F1">Only ~3-5°C lower</text>
+
+  <text x="320" y="345" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="14" font-weight="600" fill="#1F1B16">Heart rate and metabolism plunge — body temperature barely moves</text>
+</svg>

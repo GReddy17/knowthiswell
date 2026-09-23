@@ -47,6 +47,8 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/seasons-and-earths-tilt",
     "general-science-facts/natural-disasters",
     "general-science-facts/does-lightning-really-never-strike-the-same-place-twice",
+    "general-science-facts/el-nino-and-la-nina-explained",
+    "general-science-facts/what-makes-a-noreaster-different-from-a-hurricane",
   ],
   glossary: [
     { term: "Weather", definition: "The state of the atmosphere at a specific place and time — temperature, humidity, wind, cloud cover, and precipitation over minutes to days." },
@@ -87,7 +89,7 @@ export default function Post() {
       <FootnoteAside>The coldest surface temperature ever reliably recorded on Earth is -89.2°C (-128.6°F), measured at Russia&apos;s Vostok Station in Antarctica on July 21, 1983 — a single extreme weather reading, not a climate value, from one of the most isolated research stations on the planet.</FootnoteAside>
 
       <p>
-      Understanding that weather and climate operate on different timescales is the key to reading almost any forecast, headline, or data chart about the atmosphere correctly — including the mechanism that produces day-to-day weather in the first place.
+      Understanding that weather and climate operate on different timescales is the key to reading almost any forecast, headline, or data chart about the atmosphere correctly — including the mechanism that produces day-to-day weather in the first place. Two good examples of that distinction in action: <TermLink href="/general-science-facts/el-nino-and-la-nina-explained">El Niño and La Niña</TermLink> are climate-scale ocean patterns lasting months to years, while a <TermLink href="/general-science-facts/what-makes-a-noreaster-different-from-a-hurricane">nor&apos;easter</TermLink> is a single weather-scale storm system that can form and pass within days.
       </p>
 
       <QuickCheck

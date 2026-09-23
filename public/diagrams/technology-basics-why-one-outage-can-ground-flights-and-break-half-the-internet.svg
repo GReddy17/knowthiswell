@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="outageTitle">
+  <title id="outageTitle">Diagram showing many unrelated websites, apps, and services all funneling through one shared layer such as a DNS provider or cloud region, so a single failure there breaks all of them at once</title>
+  <defs>
+    <marker id="arrowBrickOut" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C9412C"/>
+    </marker>
+  </defs>
+  <rect width="640" height="340" fill="#FBF8F1"/>
+
+  <text x="320" y="30" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="18" font-weight="700" fill="#1F1B16">Many services, one shared point of failure</text>
+
+  <!-- top boxes -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">
+    <rect x="40" y="55" width="90" height="34" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <text x="85" y="76" text-anchor="middle">Retail site</text>
+    <rect x="150" y="55" width="90" height="34" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <text x="195" y="76" text-anchor="middle">News app</text>
+    <rect x="260" y="55" width="90" height="34" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <text x="305" y="76" text-anchor="middle">Bank app</text>
+    <rect x="370" y="55" width="90" height="34" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <text x="415" y="76" text-anchor="middle">Airline system</text>
+    <rect x="480" y="55" width="90" height="34" fill="none" stroke="#1F1B16" stroke-width="1.5"/>
+    <text x="525" y="76" text-anchor="middle">Game server</text>
+  </g>
+
+  <path d="M85,89 L300,180" stroke="#1F1B16" stroke-width="1.5" marker-end="url(#arrowBrickOut)"/>
+  <path d="M195,89 L300,180" stroke="#1F1B16" stroke-width="1.5" marker-end="url(#arrowBrickOut)"/>
+  <path d="M305,89 L310,180" stroke="#1F1B16" stroke-width="1.5" marker-end="url(#arrowBrickOut)"/>
+  <path d="M415,89 L325,180" stroke="#1F1B16" stroke-width="1.5" marker-end="url(#arrowBrickOut)"/>
+  <path d="M525,89 L330,180" stroke="#1F1B16" stroke-width="1.5" marker-end="url(#arrowBrickOut)"/>
+
+  <rect x="200" y="185" width="220" height="55" fill="#C9412C" opacity="0.15" stroke="#C9412C" stroke-width="2.5"/>
+  <text x="310" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#C9412C">Shared DNS / cloud layer</text>
+  <text x="310" y="228" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#C9412C">(fails here = everything above fails)</text>
+
+  <text x="310" y="290" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="15" font-weight="600" fill="#1F1B16">Different companies, same single point of failure</text>
+  <text x="310" y="312" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">One outage down here can even ground real flights, not just crash websites</text>
+</svg>

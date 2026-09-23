@@ -34,6 +34,8 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "health-body-basics/recognizing-signs-of-a-medical-emergency",
     "health-body-basics/basic-first-aid-kit-essentials",
+    "health-body-basics/why-bruises-change-color-as-they-heal",
+    "health-body-basics/why-the-collarbone-is-the-most-commonly-broken-bone",
   ],
   glossary: [
     {"term":"Sprain","definition":"An injury to a ligament (the tissue connecting bone to bone) caused by overstretching or tearing, most commonly at the ankle — distinct from a strain, which affects muscle or tendon instead."},
@@ -74,7 +76,7 @@ export default function Post() {
       <FootnoteAside>A wrap that causes numbness, tingling, or increased swelling below the compressed area is a sign it&apos;s been applied too tightly and is cutting off normal circulation — the goal is snug support, not the tightest possible wrap.</FootnoteAside>
 
       <p>
-      RICE is a well-known acronym precisely because each step is simple on its own — the parts people most often get wrong are the timing (icing too long, or not resting enough) rather than the concept itself.
+      RICE is a well-known acronym precisely because each step is simple on its own — the parts people most often get wrong are the timing (icing too long, or not resting enough) rather than the concept itself. The same soft-tissue injury that causes a sprain&apos;s swelling is often what&apos;s underneath the visible surface bruise too — see <TermLink href="/health-body-basics/why-bruises-change-color-as-they-heal">why bruises change color as they heal</TermLink> for the mechanism behind that color timeline.
       </p>
 
       <QuickCheck

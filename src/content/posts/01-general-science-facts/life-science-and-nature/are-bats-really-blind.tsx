@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/light-color-and-sound",
     "general-science-facts/the-five-senses",
     "general-science-facts/waves-and-vibrations",
+    "general-science-facts/real-parasites-that-control-their-hosts-behavior",
   ],
   glossary: [
     { term: "Echolocation", definition: "A biological sonar: an animal emits a sound and interprets the returning echo to sense objects around it." },
@@ -75,7 +76,7 @@ export default function Post() {
       <FootnoteAside>Donald Griffin and Robert Galambos first confirmed bat echolocation experimentally in 1938, using an early ultrasound detector to prove bats were navigating by sound, not sight — before that, the mechanism was genuinely unknown.</FootnoteAside>
 
       <p>
-      That&apos;s the mechanism in outline. The specific numbers behind it — how fast the calls fire, how short the delay is, and what a bat can actually resolve from it — are where the misconception really falls apart.
+      That&apos;s the mechanism in outline. The specific numbers behind it — how fast the calls fire, how short the delay is, and what a bat can actually resolve from it — are where the misconception really falls apart. Bats aren&apos;t the only animal behavior that sounds like fiction but holds up under real research — some <TermLink href="/general-science-facts/real-parasites-that-control-their-hosts-behavior">parasites genuinely do control their host&apos;s behavior</TermLink>, down to specific, measurable changes.
       </p>
 
       <QuickCheck

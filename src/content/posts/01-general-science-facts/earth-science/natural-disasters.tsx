@@ -46,6 +46,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/weather-and-climate-basics",
     "general-science-facts/water-cycle-and-oceans",
     "general-science-facts/pressure",
+    "general-science-facts/what-makes-a-noreaster-different-from-a-hurricane",
   ],
   glossary: [
     { term: "Magnitude", definition: "A single number representing the total energy released at an earthquake's source, measured on a logarithmic scale." },
@@ -91,7 +92,7 @@ export default function Post() {
       <FootnoteAside>The 2011 Tohoku earthquake off Japan, magnitude 9.0-9.1, released roughly as much energy as hundreds of magnitude-7 earthquakes combined — a direct consequence of the logarithmic magnitude scale, where every step up represents a dramatically larger jump in energy than the number alone suggests.</FootnoteAside>
 
       <p>
-      That&apos;s the outline of what causes each hazard. The parts worth understanding in more depth are exactly how much stronger a &quot;bigger&quot; earthquake really is, and why some disasters have geographic restrictions that feel counterintuitive at first.
+      That&apos;s the outline of what causes each hazard. The parts worth understanding in more depth are exactly how much stronger a &quot;bigger&quot; earthquake really is, and why some disasters have geographic restrictions that feel counterintuitive at first. Not every damaging coastal storm is tropical, either — a <TermLink href="/general-science-facts/what-makes-a-noreaster-different-from-a-hurricane">nor&apos;easter</TermLink> runs on a completely different, cold-core engine than a hurricane does, but can be just as destructive.
       </p>
 
       <QuickCheck

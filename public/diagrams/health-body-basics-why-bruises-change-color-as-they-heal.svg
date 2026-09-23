@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bruiseTimelineTitle">
+  <title id="bruiseTimelineTitle">Diagram of a bruise's typical color timeline, moving from red-purple on day one, to blue-black by day two to three, to green around day five to seven as hemoglobin breaks down into biliverdin, to yellow-brown around day seven to ten as it becomes bilirubin, then fading by two to three weeks</title>
+  <rect width="640" height="320" fill="#FBF8F1"/>
+
+  <text x="320" y="32" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="18" font-weight="700" fill="#1F1B16">A bruise's color timeline</text>
+
+  <!-- stage 1 -->
+  <circle cx="90" cy="140" r="42" fill="#7A2E3A"/>
+  <text x="90" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Day 0-2</text>
+  <text x="90" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Red / purple</text>
+  <text x="90" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16" opacity="0.75">Fresh hemoglobin</text>
+
+  <!-- stage 2 -->
+  <circle cx="230" cy="140" r="42" fill="#2B2440"/>
+  <text x="230" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Day 2-4</text>
+  <text x="230" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Blue-black</text>
+  <text x="230" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16" opacity="0.75">Hemoglobin loses oxygen</text>
+
+  <!-- stage 3 -->
+  <circle cx="370" cy="140" r="42" fill="#3E6B4A"/>
+  <text x="370" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Day 5-7</text>
+  <text x="370" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Green</text>
+  <text x="370" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16" opacity="0.75">Biliverdin forms</text>
+
+  <!-- stage 4 -->
+  <circle cx="510" cy="140" r="42" fill="#C79A3C"/>
+  <text x="510" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Day 7-10</text>
+  <text x="510" y="216" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Yellow / brown</text>
+  <text x="510" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16" opacity="0.75">Bilirubin forms</text>
+
+  <!-- stage 5 (faded) -->
+  <circle cx="590" cy="140" r="24" fill="#FBF8F1" stroke="#1F1B16" stroke-width="1.5" opacity="0.5"/>
+  <text x="590" y="258" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16" opacity="0.75">Fades by ~2-3 wks</text>
+
+  <path d="M132,140 L188,140" stroke="#1F1B16" stroke-width="2" opacity="0.4"/>
+  <path d="M272,140 L328,140" stroke="#1F1B16" stroke-width="2" opacity="0.4"/>
+  <path d="M412,140 L468,140" stroke="#1F1B16" stroke-width="2" opacity="0.4"/>
+  <path d="M552,140 L566,140" stroke="#1F1B16" stroke-width="2" opacity="0.4"/>
+
+  <text x="320" y="295" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="14" font-weight="600" fill="#1F1B16">Same trapped blood, different breakdown compound at each stage</text>
+</svg>

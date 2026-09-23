@@ -46,6 +46,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/space-exploration-and-technology",
     "general-science-facts/forces-and-motion",
     "general-science-facts/density-and-buoyancy",
+    "general-science-facts/why-we-always-see-the-same-side-of-the-moon",
   ],
   glossary: [
     { term: "Astronomical unit (AU)", definition: "The average distance from Earth to the Sun, about 149.6 million kilometers — used as a convenient yardstick for solar system distances." },
@@ -93,7 +94,7 @@ export default function Post() {
       <FootnoteAside>Pluto wasn&apos;t demoted for being too small — Eris, a dwarf planet discovered in 2005 out in the Kuiper Belt, is close to Pluto&apos;s size and even more massive. Its discovery is part of what forced astronomers to write a formal definition of &quot;planet&quot; in 2006, one that Pluto and Eris both fail because neither has gravitationally cleared its orbital neighborhood of other debris.</FootnoteAside>
 
       <p>
-      That formation story explains why the planets look the way they do. The next useful step is putting real numbers on it — distance, orbital period, and gravity — because those numbers are what let you calculate things like a planet&apos;s year length or how much you&apos;d weigh standing on it.
+      That formation story explains why the planets look the way they do. The next useful step is putting real numbers on it — distance, orbital period, and gravity — because those numbers are what let you calculate things like a planet&apos;s year length or how much you&apos;d weigh standing on it. That same gravity is also why <TermLink href="/general-science-facts/why-we-always-see-the-same-side-of-the-moon">the Moon always shows Earth the same face</TermLink> — its rotation and orbit have been locked together for billions of years.
       </p>
 
       <QuickCheck

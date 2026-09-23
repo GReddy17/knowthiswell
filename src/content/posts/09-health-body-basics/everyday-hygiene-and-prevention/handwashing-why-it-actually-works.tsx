@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "health-body-basics/personal-hygiene-and-infection-prevention",
     "health-body-basics/food-hygiene-and-safe-storage-basics",
+    "health-body-basics/why-illness-spreads-so-fast-on-cruise-ships",
   ],
   glossary: [
     {"term":"Amphiphilic molecule","definition":"A molecule with one water-attracting (hydrophilic) end and one fat-attracting (hydrophobic) end, the structural property that lets soap interact with both water and oily residue at once."},
@@ -74,7 +75,7 @@ export default function Post() {
       <FootnoteAside>Not every pathogen has a lipid envelope — norovirus and many bacteria don&apos;t — which is why handwashing&apos;s mechanical scrubbing and rinsing action (physically removing germs) matters just as much as soap&apos;s envelope-disrupting chemistry for full effectiveness.</FootnoteAside>
 
       <p>
-      Knowing the mechanism explains why certain handwashing habits actually make a measurable difference and others don&apos;t — it&apos;s not just a ritual, it&apos;s a specific physical and chemical process that needs enough time and the right technique to complete.
+      Knowing the mechanism explains why certain handwashing habits actually make a measurable difference and others don&apos;t — it&apos;s not just a ritual, it&apos;s a specific physical and chemical process that needs enough time and the right technique to complete. That soap-and-water advantage over sanitizer is exactly why it matters so much in settings like cruise ships, where <TermLink href="/health-body-basics/why-illness-spreads-so-fast-on-cruise-ships">norovirus outbreaks spread so quickly</TermLink> through shared surfaces and buffets.
       </p>
 
       <QuickCheck

@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "health-body-basics/recognizing-dehydration-and-when-its-serious",
     "health-body-basics/when-to-see-a-doctor-vs-self-care-general-framework",
     "health-body-basics/safe-drinking-water-basics",
+    "health-body-basics/why-illness-spreads-so-fast-on-cruise-ships",
   ],
   glossary: [
     {"term":"Gastroenteritis","definition":"Inflammation of the stomach and intestines, most often caused by a viral or bacterial infection, producing symptoms like nausea, vomiting, and diarrhea."},
@@ -75,7 +76,7 @@ export default function Post() {
       <FootnoteAside>Norovirus alone causes an estimated 19 to 21 million illnesses annually in the United States according to the CDC, making it one of the most common causes of short-term digestive upset — most cases resolve within one to three days without medical treatment.</FootnoteAside>
 
       <p>
-      Because most digestive upsets are self-limiting, the practical focus for the vast majority of cases is straightforward: stay hydrated, rest, and watch for the specific warning signs that indicate something beyond a typical case.
+      Because most digestive upsets are self-limiting, the practical focus for the vast majority of cases is straightforward: stay hydrated, rest, and watch for the specific warning signs that indicate something beyond a typical case. Crowded, shared-food settings raise the odds of catching one of these viruses in the first place — see <TermLink href="/health-body-basics/why-illness-spreads-so-fast-on-cruise-ships">why illness spreads so fast on cruise ships</TermLink> for a close look at exactly how that happens.
       </p>
 
       <QuickCheck

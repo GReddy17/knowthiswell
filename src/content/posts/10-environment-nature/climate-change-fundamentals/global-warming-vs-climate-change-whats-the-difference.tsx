@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "environment-nature/what-causes-climate-change-human-driven-mechanisms",
     "environment-nature/extreme-weather-and-the-climate-change-connection",
     "environment-nature/understanding-climate-models-and-predictions-general-literacy",
+    "general-science-facts/el-nino-and-la-nina-explained",
   ],
   glossary: [
     {"term":"Global warming","definition":"The long-term rise in Earth's average surface temperature, primarily driven by human greenhouse gas emissions since the mid-20th century."},
@@ -73,7 +74,7 @@ export default function Post() {
       <FootnoteAside>The term &quot;global warming&quot; dates to a 1975 paper by geochemist Wallace Broecker; &quot;climate change&quot; became the more common scientific and institutional term afterward as research revealed the wider range of regional and precipitation-related effects beyond a simple uniform temperature rise — the terminology shift reflects growing scientific understanding, not a rebranding to obscure anything.</FootnoteAside>
 
       <p>
-      The practical test for telling the two terms apart: if a claim is about the specific number (a temperature trend), it&apos;s about global warming; if it&apos;s about the broader pattern of effects (storms, droughts, sea level, ecosystem shifts), it&apos;s about climate change.
+      The practical test for telling the two terms apart: if a claim is about the specific number (a temperature trend), it&apos;s about global warming; if it&apos;s about the broader pattern of effects (storms, droughts, sea level, ecosystem shifts), it&apos;s about climate change. One thing worth not confusing with either: a natural, recurring ocean pattern like <TermLink href="/general-science-facts/el-nino-and-la-nina-explained">El Niño and La Niña</TermLink> shifts global weather for a year or two at a time, on top of the longer-term climate change trend, not as a substitute explanation for it.
       </p>
 
       <QuickCheck
