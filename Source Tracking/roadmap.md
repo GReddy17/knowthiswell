@@ -597,3 +597,42 @@ we stand" has one real answer instead of a re-derived one each time.
   `.claude/private/marketing-log.md`/`video-log.md` picked up a same-day
   entry for 2026-09-22 — PARTIAL, no verified Step 5/Step 6 status for
   that date, backfilled a day late from git history alone.
+- 2026-09-23 (7pm scheduled run): **PARTIAL, then completed late outside
+  the run itself.** Checklist:
+  - [x] Content matched schedule — row 3 of the 10-category round
+    (`content-master-schedule.md`), titles verified exact match: ML vs
+    deep learning, phishing, stocks vs bonds, small business loans,
+    CompTIA Security+, habit formation, boundaries, government
+    assistance, interest rates, intermittent fasting.
+  - [~] **Content step stalled mid-pipeline**: a separate content-writing
+    agent wrote all 10 posts + diagrams around 7:11-7:12pm but never ran
+    registry regen, the build/lint gate, or committed — files sat
+    untracked with no active agent for 2.5+ hours. Founder asked directly
+    why the posts hadn't landed; root cause diagnosed (content delegated
+    to a parallel agent, nothing in the orchestrator skill required that
+    agent to finish through Step 8 before stopping) and fixed in
+    `orchestrator/SKILL.md` Step 3. The stalled batch itself was then
+    finished manually this same evening: eslint/tsc/registry/full
+    `npm run build` clean (861 posts), committed and pushed
+    (`main@9bb4395`).
+  - [ ] Course mapping (Step 4) — **not verified as checked.** None of the
+    10 posts appear in `src/content/learning-paths/index.ts`; per the
+    don't-force-a-weak-fit rule that may be correct, but there's no record
+    the content-writing agent actually evaluated each post against
+    existing courses rather than skipping the step. Flagging, not fixing
+    unilaterally — needs a real check next time this category set gets
+    touched.
+  - [x] Video (Step 5) — logged properly: today's slot covered by the
+    pre-existing schedule ("Are Bats Really Blind"), all 3 platforms
+    confirmed, correctly not a Monday so 5.5 skipped. First real proof the
+    "always log video step" fix from 2026-09-22 works.
+  - [x] SEO/marketing (Step 6) — ran to completion, real numbers, all 10
+    priority indexing requests succeeded, Reddit skip logged with a real
+    reason (6th consecutive day, tool-level block, not account/login).
+  - [x] Build/QA gate — clean at time of the manual completion above.
+  Net: the individual step-logging fixes from 2026-09-22 held up (video
+  and marketing both self-documented correctly and on time) but surfaced a
+  new, different gap — a content batch split across agents with no
+  end-to-end owner — which is now also closed in the skill. Not a clean
+  autonomous success tonight, but a real one once finished, and the
+  founder's own question is what caught it, not the run's own checklist.
