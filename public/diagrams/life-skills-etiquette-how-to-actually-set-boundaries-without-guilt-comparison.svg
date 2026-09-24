@@ -1,0 +1,29 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="boundariesCompareTitle">
+  <title id="boundariesCompareTitle">Two paths for the same unmet need: staying silent leads to a resentment spiral, while stating the boundary clearly leads to a resolved, honest relationship.</title>
+  <rect width="620" height="320" fill="#FBF8F1"/>
+
+  <rect x="30" y="30" width="270" height="260" rx="8" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="165" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Need stays unspoken</text>
+  <text x="50" y="88" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Say yes to keep the peace</text>
+  <text x="165" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#C9412C">↓</text>
+  <text x="50" y="132" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Resentment quietly builds</text>
+  <text x="165" y="154" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#C9412C">↓</text>
+  <text x="50" y="176" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Snap, withdraw, or</text>
+  <text x="50" y="192" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">over-explain later</text>
+  <text x="165" y="214" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#C9412C">↓</text>
+  <text x="165" y="245" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#C9412C">Relationship strain,</text>
+  <text x="165" y="263" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#C9412C">the need still unmet</text>
+
+  <rect x="320" y="30" width="270" height="260" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="455" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Boundary stated plainly</text>
+  <text x="340" y="88" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">&quot;I can&apos;t take this on right now.&quot;</text>
+  <text x="455" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓</text>
+  <text x="340" y="132" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Brief discomfort, no drawn-out</text>
+  <text x="340" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">justification</text>
+  <text x="455" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓</text>
+  <text x="340" y="192" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">The other person adjusts,</text>
+  <text x="340" y="208" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">or the disagreement is clear</text>
+  <text x="455" y="230" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#2C4A3E">↓</text>
+  <text x="455" y="255" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#2C4A3E">Relationship stays honest,</text>
+  <text x="455" y="273" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#2C4A3E">the need is actually addressed</text>
+</svg>

@@ -220,6 +220,20 @@ edits made (per the don't-force-a-weak-fit rule). eslint/tsc/registry/
 full `npm run build` all clean (841 posts total). Pushed straight to
 `main` per standing policy. Day 3 resumes automatically tomorrow.
 
+**2026-09-22 — off-schedule, NOT counted as Day 3** (`main@4abb35d`,
+labeled "Day 3" in its commit message, which was wrong — flagged here per
+the 2026-09-20 bonus-batch precedent). An earlier session that day wrote
+10 posts in already-active categories 01/general-science, 09/health,
+13/technology-basics (El Niño/La Niña, nor'easter, parasite host
+manipulation, bear hibernation fat, tidal locking, bruise healing,
+collarbone fractures, cruise-ship illness spread, file deletion, internet
+outage cascades) instead of this table's row 3. Real, live, permanent
+content, kept as-is — not discarded — but it doesn't advance the
+10-category round. This table's Log section also never got updated that
+day (roadmap.md's Log section didn't either) — a real logging gap, not
+just a schedule miss; noted so it isn't silently repeated. **Row 3 below
+still had not shipped as of end of day 2026-09-22.**
+
 | # | ai-future-tech-literacy | digital-safety-privacy | investing-markets-deep-dive | business-entrepreneurship-basics | professional-skills-certifications | psychology-human-behavior | life-skills-etiquette | government-schemes-benefits | economics | health-wellness-deep-dive |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | How AI Actually Differs From Traditional Software — **Short pick** | How Antivirus Software Actually Detects Threats | What a Brokerage Account Actually Is | What Working Capital Actually Means for a Business | What a Certificate Actually Differs From a Certification | How Cognitive Load Actually Affects Decision-Making | How to Actually Build Rapport Quickly | How to Actually Renew a Passport or National ID | What Fiscal Policy Actually Means vs. Monetary Policy | How the Lymphatic System Actually Works |

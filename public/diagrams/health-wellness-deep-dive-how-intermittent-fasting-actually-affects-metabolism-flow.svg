@@ -1,0 +1,42 @@
+<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fastingMetabolismFlowTitle">
+  <title id="fastingMetabolismFlowTitle">The metabolic timeline of a fasting window: the fed state uses incoming glucose and stores extra as glycogen and fat, then liver glycogen is broken down to maintain blood sugar, then as glycogen depletes (commonly in a roughly 12 to 24 hour range that varies by person) the body increasingly shifts toward fat oxidation and ketone production.</title>
+  <rect width="640" height="280" fill="#FBF8F1"/>
+
+  <rect x="15" y="95" width="140" height="100" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="85" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Fed state</text>
+  <text x="85" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Glucose used for</text>
+  <text x="85" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">energy; extra stored</text>
+  <text x="85" y="166" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">as glycogen and fat</text>
+  <text x="85" y="183" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#6B5C48">0 hours</text>
+
+  <path d="M155 145 L203 145" stroke="#1F1B16" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+
+  <rect x="210" y="70" width="150" height="130" rx="6" fill="#2C4A3E"/>
+  <text x="285" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">Liver glycogen</text>
+  <text x="285" y="113" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">breaks down</text>
+  <text x="285" y="133" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">Maintains blood</text>
+  <text x="285" y="146" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">sugar as reserves</text>
+  <text x="285" y="159" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#FBF8F1">are drawn down</text>
+  <text x="285" y="182" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#E8E1D3">~a few to 12 hrs</text>
+
+  <path d="M360 145 L408 145" stroke="#1F1B16" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+
+  <rect x="415" y="50" width="210" height="170" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="520" y="78" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Metabolic switch</text>
+  <text x="520" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Fat oxidation increases;</text>
+  <text x="520" y="111" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">liver produces ketone</text>
+  <text x="520" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">bodies as glycogen</text>
+  <text x="520" y="137" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">reserves run low</text>
+  <text x="520" y="160" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B4A3C">roughly 12-24 hrs</text>
+  <text x="520" y="175" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#8B4A3C">(varies by person)</text>
+  <text x="520" y="198" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#6B5C48">not a fixed clock —</text>
+  <text x="520" y="209" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="8" fill="#6B5C48">gradual, individual timing</text>
+
+  <text x="320" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Gradual shift, not an instant switch — timing depends on glycogen stores, activity, and the individual</text>
+
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="comptiaDetailTitle">
+  <title id="comptiaDetailTitle">The five Security+ exam domains: general security concepts, threats/vulnerabilities/mitigations, security architecture, security operations, and security program management (governance, risk, and compliance).</title>
+  <rect width="560" height="340" fill="#FBF8F1"/>
+  <rect x="30" y="24" width="500" height="40" rx="6" fill="#2C4A3E"/>
+  <text x="280" y="49" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Security+ exam domains (per CompTIA)</text>
+
+  <rect x="30" y="80" width="500" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="99" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">General Security Concepts</text>
+  <text x="280" y="115" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Foundational terminology and control types</text>
+
+  <rect x="30" y="136" width="500" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Threats, Vulnerabilities &amp; Mitigations</text>
+  <text x="280" y="171" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Recognizing attack types and reducing exposure</text>
+
+  <rect x="30" y="192" width="500" height="46" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="280" y="211" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Security Architecture</text>
+  <text x="280" y="227" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Designing networks, systems, and cloud securely</text>
+
+  <rect x="30" y="248" width="500" height="46" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="280" y="267" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Security Operations</text>
+  <text x="280" y="283" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Day-to-day practices, including incident response</text>
+
+  <rect x="30" y="304" width="500" height="0" rx="6" fill="none"/>
+  <rect x="30" y="304" width="500" height="24" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="280" y="320" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="700" fill="#1F1B16">Security Program Management (Governance, Risk &amp; Compliance)</text>
+</svg>

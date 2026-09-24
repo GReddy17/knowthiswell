@@ -1,0 +1,32 @@
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="habitLoopFlowTitle">
+  <title id="habitLoopFlowTitle">A looping flow diagram: a cue leads to a routine, the routine leads to a reward, and the reward reinforces the cue, forming a repeating loop that becomes more automatic with repetition.</title>
+  <rect width="560" height="280" fill="#FBF8F1"/>
+
+  <rect x="30" y="100" width="150" height="80" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="105" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Cue</text>
+  <text x="105" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Trigger: time,</text>
+  <text x="105" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">place, feeling</text>
+
+  <rect x="205" y="40" width="150" height="80" rx="6" fill="#2C4A3E"/>
+  <text x="280" y="72" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Routine</text>
+  <text x="280" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">The behavior</text>
+  <text x="280" y="104" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">itself</text>
+
+  <rect x="380" y="100" width="150" height="80" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="455" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Reward</text>
+  <text x="455" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Payoff that</text>
+  <text x="455" y="164" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">reinforces it</text>
+
+  <path d="M 180 130 Q 195 110 205 90" fill="none" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrow1)"/>
+  <path d="M 355 90 Q 370 110 380 130" fill="none" stroke="#1F1B16" stroke-width="2" marker-end="url(#arrow1)"/>
+  <path d="M 380 165 Q 280 235 180 165" fill="none" stroke="#1F1B16" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow1)"/>
+
+  <text x="280" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">Reward reinforces the cue — repetition makes the loop more automatic</text>
+  <text x="280" y="242" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">as the basal ganglia takes over running it</text>
+
+  <defs>
+    <marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1F1B16"/>
+    </marker>
+  </defs>
+</svg>

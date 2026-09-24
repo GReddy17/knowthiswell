@@ -582,3 +582,18 @@ we stand" has one real answer instead of a re-derived one each time.
   `home-diy-knowledge/why-hardwood-floors-expand-and-contract`. Remaining
   27 of 28 carry over, full list in `seo-index-queue.md` — resume that
   exact list next attempt before pulling any fresh GSC drilldown.
+- 2026-09-22 (7pm scheduled run, backfilled 2026-09-23 — missed same-day,
+  a real gap in the completion gate this file exists to prevent): shipped
+  10 posts (`main@4abb35d`), commit mislabeled "Day 3" — actually
+  gap-fills in already-active categories 01/09/13 (El Niño/La Niña,
+  nor'easter, parasite host manipulation, bear hibernation fat, tidal
+  locking, bruise healing, collarbone fractures, cruise-ship illness
+  spread, file deletion, internet outage cascades), not row 3 of the
+  10-category round. Real content, full structure/sourcing, 15 older
+  posts got inbound links, eslint/tsc/build clean (851 posts) — kept
+  as-is. Reconciled in `content-master-schedule.md` 2026-09-23: marked
+  off-schedule/uncounted (same precedent as the 2026-09-20 bonus batch);
+  row 3 still outstanding going into 2026-09-23. Neither this file nor
+  `.claude/private/marketing-log.md`/`video-log.md` picked up a same-day
+  entry for 2026-09-22 — PARTIAL, no verified Step 5/Step 6 status for
+  that date, backfilled a day late from git history alone.

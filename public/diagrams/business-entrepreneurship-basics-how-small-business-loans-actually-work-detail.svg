@@ -1,0 +1,36 @@
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="loansDetailTitle">
+  <title id="loansDetailTitle">The five underwriting factors lenders evaluate for a small business loan: capacity, capital, collateral, conditions, and character, plus a note that an SBA guarantee reduces lender risk rather than replacing this evaluation.</title>
+  <rect width="560" height="340" fill="#FBF8F1"/>
+  <rect x="30" y="24" width="500" height="40" rx="6" fill="#2C4A3E"/>
+  <text x="280" y="49" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">What the lender evaluates (underwriting)</text>
+
+  <rect x="30" y="80" width="150" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="105" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Capacity</text>
+  <text x="105" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Cash flow to</text>
+  <text x="105" y="134" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">cover payments</text>
+
+  <rect x="205" y="80" width="150" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Capital</text>
+  <text x="280" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Owner's own</text>
+  <text x="280" y="134" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">money invested</text>
+
+  <rect x="380" y="80" width="150" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="455" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Collateral</text>
+  <text x="455" y="122" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Assets pledged</text>
+  <text x="455" y="134" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">against the loan</text>
+
+  <rect x="117" y="160" width="150" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="192" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Conditions</text>
+  <text x="192" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Loan purpose,</text>
+  <text x="192" y="214" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">industry, economy</text>
+
+  <rect x="293" y="160" width="150" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="368" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Character</text>
+  <text x="368" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">Credit history</text>
+  <text x="368" y="214" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="#1F1B16">and track record</text>
+
+  <rect x="30" y="245" width="500" height="75" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="280" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">An SBA guarantee doesn't replace this evaluation</text>
+  <text x="280" y="288" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">The bank still funds and underwrites the loan —</text>
+  <text x="280" y="304" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">the SBA guarantee just covers part of the lender's risk</text>
+</svg>
