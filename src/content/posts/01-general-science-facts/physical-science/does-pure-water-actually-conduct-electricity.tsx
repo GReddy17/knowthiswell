@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   pillar: true,
   tags: ["electrical conductivity", "ions", "water chemistry", "electrical safety", "physics misconceptions"],
   date: "2026-09-19",
-  updated: "2026-09-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-19",
   excerpt: "Truly pure water is actually a poor conductor of electricity — it's the dissolved minerals and salts in ordinary tap, rain, and body water that carry almost all of the current.",
   summary: "Electric current in a liquid is carried by ions — charged particles created when dissolved substances like salts and minerals split apart in water. Chemically pure H2O has extremely few free ions and is a poor electrical conductor, but truly pure water almost never exists outside a laboratory, since ordinary tap water, rainwater, sweat, and the water in the human body all contain enough dissolved minerals and salts to conduct electricity readily. This is exactly why electrical safety warnings around water are correct in practice even though \"pure water doesn't conduct\" is technically true in a lab.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What actually carries electric current through ordinary water?", "difficulty": "easy", "options": [{"text": "The water molecules themselves", "correct": false, "explanation": "Pure H2O molecules are poor conductors; they barely split into charged particles."}, {"text": "Dissolved ions from salts and minerals", "correct": true, "explanation": "Charged particles from dissolved substances are what move and carry the current."}, {"text": "Air bubbles trapped in the water", "correct": false, "explanation": "Bubbles don't carry current; if anything, they get in the way."}]},
+  {"question": "Which of these conducts electricity best?", "difficulty": "easy", "options": [{"text": "Freshly deionized lab water", "correct": false, "explanation": "With its ions removed, it barely conducts at all."}, {"text": "Seawater", "correct": true, "explanation": "Seawater is loaded with dissolved salt ions, so it conducts readily."}, {"text": "All three conduct equally", "correct": false, "explanation": "Conductivity depends on how many ions are dissolved, which varies hugely."}]},
+  {"question": "Are warnings about water and electricity still correct in everyday life?", "difficulty": "easy", "options": [{"text": "No, because water is actually a poor conductor", "correct": false, "explanation": "Only lab-pure water is a poor conductor, and you never meet it in daily life."}, {"text": "Yes, because everyday water always contains enough dissolved ions to conduct", "correct": true, "explanation": "Tap water, rain, sweat and bathwater all conduct readily."}, {"text": "Only for seawater, not tap water", "correct": false, "explanation": "Tap water conducts easily too."}]},
+  {"question": "Why does even deionized water still conduct a tiny amount?", "difficulty": "hard", "options": [{"text": "Water molecules self-dissociate into a very small number of hydrogen and hydroxide ions", "correct": true, "explanation": "That tiny ion concentration allows a trickle of current, nowhere near enough for real conduction."}, {"text": "Electrons flow freely through water molecules like through metal", "correct": false, "explanation": "Water doesn't have free electrons the way metals do."}, {"text": "The electrodes add ions to it", "correct": false, "explanation": "The baseline measurement shows the small conductivity comes from water itself."}]},
+  {"question": "Deionized water left open in a lab slowly becomes more conductive. What is the most likely cause?", "difficulty": "hard", "options": [{"text": "It absorbs gases like carbon dioxide from the air, which form ions in the water", "correct": true, "explanation": "Dissolved substances add ions, and more ions mean more conductivity."}, {"text": "Water molecules get more conductive as they age", "correct": false, "explanation": "The molecules don't change; the dissolved content does."}, {"text": "Light from the room charges the water", "correct": false, "explanation": "Ambient light doesn't add charge carriers to water."}]},
+];
 
 export default function Post() {
   return (

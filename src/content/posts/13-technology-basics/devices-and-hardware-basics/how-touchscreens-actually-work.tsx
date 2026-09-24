@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "devices-and-hardware-basics",
   tags: ["touchscreen", "capacitive touch", "smartphone hardware", "display technology", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Most modern touchscreens don't detect pressure at all — they detect your finger's electrical charge disturbing a grid of tiny electrodes, which is why gloves and styluses need special tips to work.",
   summary: "A modern touchscreen is a projected-capacitive sensor — a grid of transparent electrodes that detects a finger's natural electrical charge distorting the local electric field, rather than detecting physical pressure the way an older resistive touchscreen did.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a capacitive touchscreen detect?", "difficulty": "easy", "options": [{"text": "The electrical charge your finger draws from a grid in the screen", "correct": true, "explanation": "Your finger's conductivity disturbs the electric field at that spot."}, {"text": "How hard you press", "correct": false, "explanation": "Most capacitive screens don't measure pressure at all."}, {"text": "Your fingerprint pattern", "correct": false, "explanation": "Touch detection only locates the touch."}]},
+  {"question": "Why is your finger able to work the screen?", "difficulty": "easy", "options": [{"text": "It's slightly conductive, mostly water with dissolved salts", "correct": true, "explanation": "That lets it draw a little charge from the grid."}, {"text": "It's warm", "correct": false, "explanation": "Capacitive screens respond to conductivity, not heat."}, {"text": "It's heavy enough to press the screen", "correct": false, "explanation": "Pressure isn't what's detected."}]},
+  {"question": "What turns a touch into a location on screen?", "difficulty": "easy", "options": [{"text": "A controller chip that finds where the grid lost charge and calculates X/Y", "correct": true, "explanation": "The screen doesn't \"see\" the touch directly."}, {"text": "A tiny camera under the glass", "correct": false, "explanation": "No camera is used for touch."}, {"text": "The app you're using", "correct": false, "explanation": "The controller chip calculates the coordinates."}]},
+  {"question": "Why does a thick winter glove usually not work on a capacitive screen?", "difficulty": "hard", "options": [{"text": "The glove doesn't conduct charge the way skin does", "correct": true, "explanation": "Without conduction, the grid sees no change."}, {"text": "The glove presses too softly", "correct": false, "explanation": "Pressure isn't measured."}, {"text": "Cold turns the screen off", "correct": false, "explanation": "The issue is the glove's lack of conductivity."}]},
+  {"question": "Why can water droplets cause phantom touches?", "difficulty": "hard", "options": [{"text": "Water is conductive enough to disturb the grid like a finger", "correct": true, "explanation": "The controller can mistake a droplet for a touch."}, {"text": "Water makes the screen heavier", "correct": false, "explanation": "Weight isn't detected."}, {"text": "Water damages the pixels instantly", "correct": false, "explanation": "Phantom touches come from conductivity, not damage."}]},
+];
 
 export default function Post() {
   return (

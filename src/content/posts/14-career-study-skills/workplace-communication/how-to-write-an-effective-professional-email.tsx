@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "workplace-communication",
   tags: ["professional email", "email etiquette", "workplace communication", "business writing", "email structure"],
   date: "2026-09-02",
-  updated: "2026-09-02",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-02",
   excerpt: "An effective professional email states its purpose in the first line and ends with one specific, unambiguous request — everything in between exists only to support those two lines.",
   summary: "An effective professional email works by putting the purpose and the requested response where a skimming reader will actually see them — in the first line and the last — rather than making the reader dig through the middle to figure out why the message was sent or what to do about it.",
@@ -50,6 +50,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Where should the purpose of a professional email appear?", "difficulty": "easy", "options": [{"text": "In the final paragraph, after the background", "correct": false, "explanation": "Skimming readers often never reach the end, so the purpose gets missed."}, {"text": "In the subject line and first sentence", "correct": true, "explanation": "Most readers skim first; the opening decides whether the ask gets seen."}, {"text": "Only in the attachment", "correct": false, "explanation": "Readers decide from the email itself whether to open anything else."}]},
+  {"question": "Which subject line is most effective?", "difficulty": "easy", "options": [{"text": "\"Quick question\"", "correct": false, "explanation": "It hides the purpose, so the reader can't prioritize it."}, {"text": "\"Sign-off needed: Q3 report, by Friday\"", "correct": true, "explanation": "It states the action, the item and the deadline before the email is even opened."}, {"text": "\"Following up on some things\"", "correct": false, "explanation": "Vague subjects get skimmed past in a busy inbox."}]},
+  {"question": "How should an effective professional email end?", "difficulty": "easy", "options": [{"text": "With one specific, unambiguous call to action", "correct": true, "explanation": "A clear next step tells the reader exactly what happens now."}, {"text": "With a long recap of everything above", "correct": false, "explanation": "A recap adds length without telling the reader what to do."}, {"text": "With several optional requests so the reader can choose", "correct": false, "explanation": "Multiple loose asks make it easy to act on none of them."}]},
+  {"question": "A colleague says their emails get ignored because they're too long. Based on the article, what is the more likely cause?", "difficulty": "hard", "options": [{"text": "The purpose is buried, so skimming readers miss the ask", "correct": true, "explanation": "A long email with the ask up front outperforms a short one that hides it."}, {"text": "Professional emails must never exceed five sentences", "correct": false, "explanation": "Length isn't the core problem; a buried purpose is."}, {"text": "Readers ignore all emails with attachments", "correct": false, "explanation": "Attachments aren't the issue the article identifies."}]},
+  {"question": "You need three things from one person: approve a budget, review a draft and pick a meeting time. What works best?", "difficulty": "hard", "options": [{"text": "Put all three in one long paragraph so they arrive together", "correct": false, "explanation": "Blended asks get partially answered or lost."}, {"text": "Lead with the most urgent ask and list the three as separate, numbered requests with deadlines", "correct": true, "explanation": "Each ask stays visible and specific, so none gets buried or forgotten."}, {"text": "Send only the budget request and hope they remember the rest", "correct": false, "explanation": "Unstated requests don't get acted on."}]},
+];
 
 export default function Post() {
   return (

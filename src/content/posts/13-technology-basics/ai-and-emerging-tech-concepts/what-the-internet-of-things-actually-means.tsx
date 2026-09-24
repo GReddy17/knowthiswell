@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ai-and-emerging-tech-concepts",
   tags: ["what is the internet of things", "IoT explained", "internet of things definition", "smart device vs IoT device", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "The Internet of Things means a physical device has a sensor, a network connection, and reports its data somewhere else automatically.",
   summary: "The Internet of Things refers to physical devices that combine a sensor, a network connection, and the ability to send their data to another system (often a cloud server) automatically, without a person manually transferring that data — a definition based on connectivity and reporting, not on how advanced or automated the device's internal logic is.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which three things together define an IoT device?", "difficulty": "easy", "options": [{"text": "A sensor, a network connection and automatic reporting to another system", "correct": true, "explanation": "Advanced internal logic isn't required."}, {"text": "A screen, a speaker and a battery", "correct": false, "explanation": "Those aren't the defining features."}, {"text": "A high price and a brand name", "correct": false, "explanation": "The definition is about sensing and connecting."}]},
+  {"question": "Is a wind-up kitchen timer an IoT device?", "difficulty": "easy", "options": [{"text": "No, it does its job automatically but reports nothing to any network", "correct": true, "explanation": "Automation alone isn't IoT."}, {"text": "Yes, because it's automatic", "correct": false, "explanation": "It has no network connection."}, {"text": "Yes, all timers are IoT", "correct": false, "explanation": "Without connectivity it isn't IoT."}]},
+  {"question": "How do IoT devices usually reach the internet?", "difficulty": "easy", "options": [{"text": "Indirectly, through a local hub or router", "correct": true, "explanation": "Data still ends up traveling over the internet."}, {"text": "Each one has its own satellite link", "correct": false, "explanation": "Most connect through local hubs or routers."}, {"text": "They never reach the internet", "correct": false, "explanation": "Their data usually travels over the internet."}]},
+  {"question": "A sensor connects only to a local hub, never directly to Wi-Fi. Is it still IoT?", "difficulty": "hard", "options": [{"text": "Yes, if the hub relays its readings onward to another system", "correct": true, "explanation": "Indirect connection still counts."}, {"text": "No, it must connect directly to the internet", "correct": false, "explanation": "Most IoT devices connect indirectly."}, {"text": "Only if it has a screen", "correct": false, "explanation": "Screens aren't required."}]},
+  {"question": "What do many sensors on a shared platform add beyond any single sensor?", "difficulty": "hard", "options": [{"text": "Combined data that reveals patterns and triggers actions no single sensor could", "correct": true, "explanation": "The network effect is the payoff."}, {"text": "Nothing", "correct": false, "explanation": "Combining data adds real capability."}, {"text": "Longer battery life for each sensor", "correct": false, "explanation": "The benefit is combined insight, not battery."}]},
+];
 
 export default function Post() {
   return (

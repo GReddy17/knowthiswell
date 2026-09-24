@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   pillar: true,
   tags: ["electricity", "voltage", "electric shock safety", "power lines", "physics misconceptions"],
   date: "2026-09-19",
-  updated: "2026-09-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-19",
   excerpt: "A bird on a power line isn't protected by insulated feet — it's safe because both of its feet touch the same wire, so there's no voltage difference across its body for current to flow through.",
   summary: "Electric current only flows when there's a voltage difference between two points that a conductive path connects — a bird standing with both feet on the same wire has essentially zero voltage difference across its body, so almost no current flows through it, regardless of how high the wire's voltage is relative to the ground. The danger appears the moment a second contact point at a different voltage is introduced, such as a grounded pole, a transformer, or a second wire — which is exactly why linework safety training focuses on avoiding two-point contact, not on insulation.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Why is a bird safe sitting on a single live power line?", "difficulty": "easy", "options": [{"text": "Its feet are insulated", "correct": false, "explanation": "Bird feet aren't insulated; that's a myth."}, {"text": "Both feet touch the same wire, so there's no voltage difference across its body", "correct": true, "explanation": "Without a voltage difference, no current flows through the bird."}, {"text": "Power lines carry too little voltage to hurt birds", "correct": false, "explanation": "The wire may carry tens of thousands of volts relative to ground."}]},
+  {"question": "What makes electric current flow through something?", "difficulty": "easy", "options": [{"text": "A high absolute voltage on its own", "correct": false, "explanation": "Absolute voltage doesn't matter without a difference between two points."}, {"text": "A voltage difference between two points it touches", "correct": true, "explanation": "Current needs a path between different voltages."}, {"text": "Being high above the ground", "correct": false, "explanation": "Height alone doesn't create a current path."}]},
+  {"question": "When would the same bird suddenly be in danger?", "difficulty": "easy", "options": [{"text": "If it also touched a grounded pole or a second wire", "correct": true, "explanation": "That creates a second contact at a different voltage, so current flows through the bird."}, {"text": "If it stayed on the wire for several hours", "correct": false, "explanation": "Time on a single wire doesn't matter."}, {"text": "If the wire were painted", "correct": false, "explanation": "Paint isn't the factor; the voltage difference is."}]},
+  {"question": "A person on a ladder touches a power line while their feet rest on the ground. Why is this deadly when it isn't for the bird?", "difficulty": "hard", "options": [{"text": "Humans are heavier than birds", "correct": false, "explanation": "Weight has nothing to do with current flow."}, {"text": "Their body bridges the wire's voltage and the ground's, creating a path for current", "correct": true, "explanation": "Two contact points at different voltages is exactly what the bird avoids."}, {"text": "Humans have more metal in their blood", "correct": false, "explanation": "It's the voltage difference across the body, not body chemistry."}]},
+  {"question": "The two feet of a bird on a real wire sit a few inches apart. Is the voltage between them exactly zero?", "difficulty": "hard", "options": [{"text": "Yes, a wire has no resistance at all", "correct": false, "explanation": "Real wire has a little resistance per unit length."}, {"text": "Not exactly, but only a tiny fraction of a volt, far too small to drive a meaningful current", "correct": true, "explanation": "Over a few inches, the wire's resistance creates only a negligible difference."}, {"text": "No, it's thousands of volts, but birds can withstand it", "correct": false, "explanation": "Birds can't withstand high voltage; they're simply never exposed to a real difference."}]},
+];
 
 export default function Post() {
   return (

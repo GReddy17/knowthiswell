@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cybersecurity-literacy-basics",
   tags: ["data breach", "credential stuffing", "personal data exposure", "identity theft", "cybersecurity basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A data breach matters even when your password wasn't included — exposed personal details alone can fuel more convincing targeted phishing, while reused passwords enable credential stuffing.",
   summary: "A data breach is the unauthorized copying of data from an organization's systems, and its downstream risk to an individual takes two separate paths: directly, if an exposed password was reused elsewhere, enabling credential-stuffing attacks against other accounts, and indirectly, using exposed personal details to make future phishing attempts more convincing, even when no password was ever involved.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is credential stuffing?", "difficulty": "easy", "options": [{"text": "Trying a stolen email-and-password pair on many other sites automatically", "correct": true, "explanation": "It works when people reuse passwords."}, {"text": "Filling in forms quickly", "correct": false, "explanation": "It's an automated login attack."}, {"text": "Creating very long passwords", "correct": false, "explanation": "It exploits reused passwords."}]},
+  {"question": "What best protects you from credential stuffing?", "difficulty": "easy", "options": [{"text": "A unique password for every site", "correct": true, "explanation": "A stolen password then works on only one site."}, {"text": "Using the same strong password everywhere", "correct": false, "explanation": "Reuse is exactly what the attack exploits."}, {"text": "Changing your username", "correct": false, "explanation": "The weakness is the reused password."}]},
+  {"question": "What is the most important detail in a breach notification?", "difficulty": "easy", "options": [{"text": "Exactly what information was exposed", "correct": true, "explanation": "The right response depends on what was taken."}, {"text": "The company's logo", "correct": false, "explanation": "What was exposed matters most."}, {"text": "The date of the email", "correct": false, "explanation": "The exposed fields decide your response."}]},
+  {"question": "Only your email and home address were exposed, no password. Why does it still matter?", "difficulty": "hard", "options": [{"text": "Real personal details make future phishing messages far more convincing", "correct": true, "explanation": "Exposed details feed targeted scams."}, {"text": "It doesn't matter at all", "correct": false, "explanation": "Personal details still create real risk."}, {"text": "Your bank account is immediately emptied", "correct": false, "explanation": "The main risk is more convincing phishing."}]},
+  {"question": "Why is stolen data from a breach especially dangerous?", "difficulty": "hard", "options": [{"text": "It's already organized and searchable, so attackers can look up thousands of people at once", "correct": true, "explanation": "Like photographing a whole section of a card catalog."}, {"text": "It's always encrypted", "correct": false, "explanation": "Encryption would reduce, not increase, the danger."}, {"text": "It deletes the original data", "correct": false, "explanation": "Breaches copy data; they don't usually delete it."}]},
+];
 
 export default function Post() {
   return (

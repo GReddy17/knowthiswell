@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-literacy-and-online-life",
   tags: ["search engines", "how search ranking works", "SEO basics", "crawling and indexing", "digital literacy"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Search results aren't a neutral list of the 'best' pages — they're a ranked output of crawling, indexing, and a scored comparison against your exact query.",
   summary: "A search engine ranks results by first building an index of the web through crawling, then scoring every matching page in that index against hundreds of signals for a specific query, and returning the highest-scoring matches in order.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a search engine search when you type a query?", "difficulty": "easy", "options": [{"text": "Its own pre-built index of pages it crawled in advance", "correct": true, "explanation": "It doesn't read the whole web live for each query."}, {"text": "The entire live web from scratch", "correct": false, "explanation": "That would be far too slow; it uses an index."}, {"text": "Only pages you've visited", "correct": false, "explanation": "It searches its full index."}]},
+  {"question": "Is ranking based on one single \"best page\" rule?", "difficulty": "easy", "options": [{"text": "No, it combines hundreds of signals like relevance, speed and reputable links", "correct": true, "explanation": "No single factor decides ranking."}, {"text": "Yes, the longest page wins", "correct": false, "explanation": "Length isn't the deciding factor."}, {"text": "Yes, the newest page wins", "correct": false, "explanation": "Freshness is only one of many signals."}]},
+  {"question": "What must happen before a page can rank at all?", "difficulty": "easy", "options": [{"text": "It must be discovered and allowed into the index", "correct": true, "explanation": "An unindexed page never enters the competition."}, {"text": "It must have ads", "correct": false, "explanation": "Ads don't get pages into organic results."}, {"text": "It must be long", "correct": false, "explanation": "Indexing, not length, is the prerequisite."}]},
+  {"question": "Why can a well-written new page be missing from results hours after publishing?", "difficulty": "hard", "options": [{"text": "It hasn't been crawled and indexed yet", "correct": true, "explanation": "Quality doesn't matter until the page is in the index."}, {"text": "Search engines ban new pages", "correct": false, "explanation": "New pages just need to be discovered first."}, {"text": "Good writing lowers ranking", "correct": false, "explanation": "The issue is indexing, not writing quality."}]},
+  {"question": "Traffic drops to near zero after a relaunch because of a leftover setting. What kind of setting would do that?", "difficulty": "hard", "options": [{"text": "A leftover instruction blocking crawling or indexing, like a noindex tag", "correct": true, "explanation": "Blocked pages drop out of the index entirely."}, {"text": "A new font", "correct": false, "explanation": "Fonts don't remove pages from the index."}, {"text": "A faster server", "correct": false, "explanation": "Speed helps rankings; it doesn't remove pages."}]},
+];
 
 export default function Post() {
   return (

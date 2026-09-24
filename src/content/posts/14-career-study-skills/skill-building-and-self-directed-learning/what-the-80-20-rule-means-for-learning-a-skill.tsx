@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "skill-building-and-self-directed-learning",
   tags: ["80/20 rule", "Pareto principle", "skill acquisition", "self-directed learning", "diminishing returns"],
   date: "2026-09-03",
-  updated: "2026-09-03",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-03",
   excerpt: "The 80/20 rule for skill learning means a small slice of what there is to learn covers most of what actually gets used — not that you can master a skill with 20% of the work.",
   summary: "Applied to skill-building, the 80/20 rule means that in most skills, a relatively small subset of sub-skills or content — roughly 20% — accounts for a disproportionate share, often around 80%, of real-world use. It's a heuristic about a skewed usage distribution that tells you what to prioritize first, not a shortcut that lets you skip most of the work.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "In learning, what does the 80/20 rule point you toward?", "difficulty": "easy", "options": [{"text": "The small set of sub-skills that gets used most in the real activity", "correct": true, "explanation": "Front-loading those gets you functional fastest."}, {"text": "Studying only 20% of the time you planned", "correct": false, "explanation": "It's about where to focus first, not cutting total effort."}, {"text": "Skipping the basics", "correct": false, "explanation": "The high-use basics are usually exactly what it says to master first."}]},
+  {"question": "Is the 80/20 split an exact ratio?", "difficulty": "easy", "options": [{"text": "Yes, it's always exactly 20% of effort for 80% of results", "correct": false, "explanation": "The real ratio varies by skill."}, {"text": "No, it describes a skewed usage distribution that varies by skill", "correct": true, "explanation": "The point is the skew, not the specific numbers."}, {"text": "It only applies to business, not learning", "correct": false, "explanation": "It applies wherever usage is skewed, including skills."}]},
+  {"question": "A new language learner wants to hold basic conversations fast. What should they study first?", "difficulty": "easy", "options": [{"text": "Vocabulary in alphabetical order", "correct": false, "explanation": "Alphabetical order spreads effort evenly, including rare words."}, {"text": "The few hundred to few thousand most common words and core grammar", "correct": true, "explanation": "That small set covers most everyday conversation."}, {"text": "Rare, advanced words to sound impressive", "correct": false, "explanation": "Rare words give little everyday benefit early on."}]},
+  {"question": "For which goal would the 80/20 approach help least?", "difficulty": "hard", "options": [{"text": "Learning the most-used functions of a spreadsheet app", "correct": false, "explanation": "Usage there is heavily skewed, so it helps a lot."}, {"text": "Memorizing every element of the periodic table for an exam that tests them equally", "correct": true, "explanation": "When every part is used about equally, there's no small high-leverage subset."}, {"text": "Learning common phrases for a trip abroad", "correct": false, "explanation": "Travel phrases are skewed toward a small common set."}]},
+  {"question": "After reaching \"functional\" with the vital few, what is true about going further?", "difficulty": "hard", "options": [{"text": "The remaining 80% of the skill takes little extra time", "correct": false, "explanation": "The long tail takes far more hours for less added benefit."}, {"text": "The long tail still needs substantial work, with smaller gains per hour", "correct": true, "explanation": "80/20 speeds up functional competence; it doesn't shrink the effort mastery needs."}, {"text": "Nothing more can be learned", "correct": false, "explanation": "There's plenty left; it just pays back more slowly."}]},
+];
 
 export default function Post() {
   return (

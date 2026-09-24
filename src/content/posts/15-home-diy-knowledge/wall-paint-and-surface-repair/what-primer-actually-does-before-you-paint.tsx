@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "wall-paint-and-surface-repair",
   tags: ["primer", "paint prep", "adhesion", "stain blocking", "drywall"],
   date: "2026-09-04",
-  updated: "2026-09-04",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-04",
   excerpt: "Primer seals a porous surface, blocks stains from bleeding through, and gives the topcoat a uniform surface to bond to — jobs paint alone isn't built to do.",
   summary: "Primer is a separate preparatory coating, not just a cheaper first layer of paint — its job is to seal a porous surface so it absorbs evenly, block stains and odors from migrating through into the topcoat, and give the finish paint a consistent surface to chemically bond to, all things a topcoat paint's own formula isn't optimized to do on its own.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is primer's main job on porous surfaces like bare drywall?", "difficulty": "easy", "options": [{"text": "Sealing the surface so the topcoat absorbs evenly", "correct": true, "explanation": "Uneven absorption causes a blotchy, uneven sheen."}, {"text": "Adding color", "correct": false, "explanation": "Color comes from the topcoat."}, {"text": "Making the paint dry faster", "correct": false, "explanation": "Its job is even absorption and bonding."}]},
+  {"question": "What else does primer block that most finish paints don't?", "difficulty": "easy", "options": [{"text": "Stains, smoke residue and wood tannins bleeding through", "correct": true, "explanation": "Primer traps them underneath."}, {"text": "Sunlight", "correct": false, "explanation": "That's not primer's role."}, {"text": "Sound", "correct": false, "explanation": "Primer doesn't soundproof."}]},
+  {"question": "Is primer just a cheaper first coat of paint?", "difficulty": "easy", "options": [{"text": "Yes, it's the same thing", "correct": false, "explanation": "It does a different job from paint."}, {"text": "No, it seals, blocks stains and gives the topcoat something to bond to", "correct": true, "explanation": "It prepares the surface; paint provides the finish."}, {"text": "Yes, but only in white", "correct": false, "explanation": "Primer's role isn't about color."}]},
+  {"question": "Why does an old water stain bleed through fresh paint even after the leak is fixed?", "difficulty": "hard", "options": [{"text": "The stain's residue dissolves into water-based topcoat and wicks through without a stain-blocking primer", "correct": true, "explanation": "A stain-blocking primer traps it."}, {"text": "The leak is still active", "correct": false, "explanation": "It happens even after the leak is fixed."}, {"text": "The paint is the wrong color", "correct": false, "explanation": "Any color can let the stain through without primer."}]},
+  {"question": "Why use a bonding primer before repainting a glossy surface?", "difficulty": "hard", "options": [{"text": "New paint struggles to grip a slick gloss surface, so it can peel", "correct": true, "explanation": "Bonding primer (often with light sanding) gives it something to hold onto."}, {"text": "Gloss paint is toxic", "correct": false, "explanation": "The issue is adhesion, not toxicity."}, {"text": "To make the wall glossier", "correct": false, "explanation": "The goal is adhesion, not sheen."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "wall-paint-and-surface-repair",
   tags: ["spackle", "caulk", "wall repair", "sealant", "gap filler"],
   date: "2026-09-04",
-  updated: "2026-09-04",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-04",
   excerpt: "Spackle hardens rigid for sandable, still repairs on flat surfaces; caulk stays flexible for moving joints — mixing them up is why so many patches crack.",
   summary: "Spackle and caulk are both gap fillers, but they're built to solve opposite problems: spackle is formulated to harden into a rigid, sandable solid, which makes it ideal for a still nail hole or drywall dent that will never move again, while caulk is formulated to stay flexible and elastic indefinitely, which makes it suited to a joint — like where trim meets a wall — that keeps expanding, contracting, or shifting; using either one where the other belongs is why patches crack or beads peel.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is spackle designed to do once it dries?", "difficulty": "easy", "options": [{"text": "Stay soft and stretchy", "correct": false, "explanation": "That's caulk."}, {"text": "Dry hard so it can be sanded smooth and painted", "correct": true, "explanation": "Perfect for still gaps like nail holes."}, {"text": "Stay wet forever", "correct": false, "explanation": "Spackle dries rock-hard."}]},
+  {"question": "Which should you use where a baseboard meets the wall?", "difficulty": "easy", "options": [{"text": "Spackle", "correct": false, "explanation": "That joint moves, and rigid spackle cracks."}, {"text": "Caulk", "correct": true, "explanation": "Caulk stays flexible as the joint expands and contracts."}, {"text": "Nothing, it never needs filling", "correct": false, "explanation": "Gaps there are commonly sealed with caulk."}]},
+  {"question": "What is the one question that decides spackle versus caulk?", "difficulty": "easy", "options": [{"text": "Is the gap bigger than a coin?", "correct": false, "explanation": "Size isn't the deciding factor."}, {"text": "Does the gap move?", "correct": true, "explanation": "Still gaps get spackle; moving joints get caulk."}, {"text": "Which one is cheaper?", "correct": false, "explanation": "Price doesn't change which one will last."}]},
+  {"question": "Why does spackle along a moving joint crack within a season or two?", "difficulty": "hard", "options": [{"text": "It was applied too thick", "correct": false, "explanation": "Thickness isn't the root cause."}, {"text": "It can't stretch, so seasonal expansion and contraction breaks it", "correct": true, "explanation": "Rigid materials fail where movement is ongoing."}, {"text": "It absorbs paint", "correct": false, "explanation": "Paint absorption doesn't cause cracking."}]},
+  {"question": "You're fixing a small drywall hole next to a corner seam where the walls meet. What's the right approach?", "difficulty": "hard", "options": [{"text": "Spackle both, since they're close together", "correct": false, "explanation": "The corner seam moves, so spackle there would crack."}, {"text": "Spackle the hole in the flat wall, and caulk the corner seam", "correct": true, "explanation": "Match each material to whether its gap moves."}, {"text": "Caulk both", "correct": false, "explanation": "Caulk can't be sanded flush in the middle of a flat wall."}]},
+];
 
 export default function Post() {
   return (

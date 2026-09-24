@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "smart-devices-and-iot-basics",
   tags: ["smart speakers", "wake word", "voice assistant", "how smart speakers work", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A smart speaker isn't streaming everything you say to the cloud — a small local processor checks for a wake word first, and most audio never leaves the device.",
   summary: "Smart speakers appear to always be listening because a small on-device processor continuously checks a short rolling buffer of audio for a specific wake-word pattern, discarding everything else, and only sends audio to a remote server after that pattern is matched.",
@@ -50,6 +50,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Where is the wake-word check done?", "difficulty": "easy", "options": [{"text": "Locally, on a small processor inside the speaker", "correct": true, "explanation": "Sound that doesn't match is discarded on the spot."}, {"text": "In the cloud, for everything you say", "correct": false, "explanation": "Only audio after the wake word is sent."}, {"text": "On your phone", "correct": false, "explanation": "The speaker checks locally."}]},
+  {"question": "When does a smart speaker send audio to a remote server?", "difficulty": "easy", "options": [{"text": "Only after it matches the wake word", "correct": true, "explanation": "Everything before that stays in the room and is thrown away."}, {"text": "All the time", "correct": false, "explanation": "Non-matching sound isn't transmitted."}, {"text": "Only at midnight", "correct": false, "explanation": "It's triggered by the wake word."}]},
+  {"question": "Is the microphone always capturing sound?", "difficulty": "easy", "options": [{"text": "Yes, but only to check for the wake word", "correct": true, "explanation": "That's why it can respond instantly."}, {"text": "No, it's off until you press a button", "correct": false, "explanation": "It listens continuously for the wake word."}, {"text": "Only when music plays", "correct": false, "explanation": "It listens for the wake word regardless."}]},
+  {"question": "Why does a smart speaker sometimes activate on the wrong word?", "difficulty": "hard", "options": [{"text": "The local detector matches a sound pattern, and similar-sounding words can match", "correct": true, "explanation": "It's pattern-matching, not understanding."}, {"text": "It's secretly recording everything", "correct": false, "explanation": "False triggers come from similar sounds."}, {"text": "Someone else controls it remotely", "correct": false, "explanation": "Similar sounds are the usual cause."}]},
+  {"question": "What is the real privacy trade-off with smart speakers?", "difficulty": "hard", "options": [{"text": "False triggers can send unintended clips, but it's narrower than streaming everything you say", "correct": true, "explanation": "It's real, but limited by the local wake-word gate."}, {"text": "Every word is streamed and stored", "correct": false, "explanation": "Non-matching audio isn't transmitted."}, {"text": "There is no trade-off at all", "correct": false, "explanation": "Accidental activations are a real consideration."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cloud-computing-and-storage",
   tags: ["cloud computing", "what is the cloud", "data centers", "cloud storage basics", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "The cloud is not a place in the sky — it's someone else's physical computers, in a real building, that you reach over the internet.",
   summary: "\"The cloud\" is the common name for computing and storage that runs on someone else's physical servers in a data center, accessed remotely over the internet instead of on your own device.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What physically is \"the cloud\"?", "difficulty": "easy", "options": [{"text": "Real servers in data centers, reached over the internet", "correct": true, "explanation": "Your data sits on physical computers someone else owns."}, {"text": "Data floating in the sky", "correct": false, "explanation": "It's physical hardware in buildings."}, {"text": "Your own computer", "correct": false, "explanation": "It's another company's computers."}]},
+  {"question": "Where does the name \"cloud\" come from?", "difficulty": "easy", "options": [{"text": "Old network diagrams drew the internet as a fuzzy cloud shape", "correct": true, "explanation": "It meant \"the complicated part you don't need to see.\""}, {"text": "Data is stored in actual clouds", "correct": false, "explanation": "It's a nickname from diagrams."}, {"text": "A famous company named it after the weather", "correct": false, "explanation": "It came from network diagrams."}]},
+  {"question": "What is the real trade-off of using the cloud?", "difficulty": "easy", "options": [{"text": "Trusting another company's hardware, security and policies with your data", "correct": true, "explanation": "Not bad by default, but a real trade-off."}, {"text": "Your data becomes public", "correct": false, "explanation": "Cloud data isn't public by default."}, {"text": "There's no trade-off", "correct": false, "explanation": "You rely on the provider."}]},
+  {"question": "Several unrelated websites fail when one cloud provider has a regional outage. Why?", "difficulty": "hard", "options": [{"text": "They all run on that provider's servers in the affected region", "correct": true, "explanation": "A shared physical dependency fails together."}, {"text": "They share the same owner", "correct": false, "explanation": "They just share a provider."}, {"text": "Websites always fail together", "correct": false, "explanation": "Only those using that provider's region fail."}]},
+  {"question": "Why might a business choose a specific data-center region?", "difficulty": "hard", "options": [{"text": "Data physically lives there, which affects speed for nearby users and legal requirements", "correct": true, "explanation": "Physical location matters for latency and regulations."}, {"text": "Regions have different logos", "correct": false, "explanation": "The reasons are speed and law."}, {"text": "Region choice doesn't matter", "correct": false, "explanation": "It affects performance and compliance."}]},
+];
 
 export default function Post() {
   return (

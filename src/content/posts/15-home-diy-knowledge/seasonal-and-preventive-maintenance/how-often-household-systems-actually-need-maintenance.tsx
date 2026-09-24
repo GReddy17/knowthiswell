@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "seasonal-and-preventive-maintenance",
   tags: ["maintenance schedule", "preventive maintenance", "home upkeep", "HVAC filters", "water heater"],
   date: "2026-09-17",
-  updated: "2026-09-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-17",
   excerpt: "Maintenance intervals aren't guesses — they're set to the point on a wear curve where fixing something is still cheap, before it becomes a failure.",
   summary: "Manufacturers publish specific maintenance intervals (change this filter every 90 days, flush that tank every year) because most home systems degrade on a predictable, time-based curve, not a symptom-based one — by the time a problem is visible or audible, the cheap window to fix it has usually already closed.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How are maintenance intervals like \"every 90 days\" chosen?", "difficulty": "easy", "options": [{"text": "At the point where the part visibly fails", "correct": false, "explanation": "They're set well before that point."}, {"text": "At a point on the wear curve where fixing it is still cheap", "correct": true, "explanation": "Waiting for visible problems means you're already in the expensive zone."}, {"text": "At random", "correct": false, "explanation": "Manufacturers test wear rates to set them."}]},
+  {"question": "About how long does a standard 1-inch pleated HVAC filter last in typical homes?", "difficulty": "easy", "options": [{"text": "About 60 to 90 days", "correct": true, "explanation": "Sooner with pets or heavy use."}, {"text": "About 2 years", "correct": false, "explanation": "It clogs long before that."}, {"text": "About 1 week", "correct": false, "explanation": "Typical homes get far longer than a week."}]},
+  {"question": "What usually happens when a scheduled service is skipped?", "difficulty": "easy", "options": [{"text": "The cost is just delayed", "correct": false, "explanation": "It's usually multiplied, not just delayed."}, {"text": "The cost often grows as wear damages nearby parts too", "correct": true, "explanation": "Deferred wear tends to cascade."}, {"text": "Nothing, if the system still seems fine", "correct": false, "explanation": "Efficiency loss and wear are often invisible until failure."}]},
+  {"question": "A house \"always has decent airflow,\" so the owner skips filter changes. What is happening that they can't feel?", "difficulty": "hard", "options": [{"text": "Nothing, because airflow is fine", "correct": false, "explanation": "Comfort changes slowly while costs rise."}, {"text": "The blower motor is drawing more power to push air through a clogging filter", "correct": true, "explanation": "Efficiency loss is invisible long before comfort drops."}, {"text": "The filter is cleaning itself", "correct": false, "explanation": "Filters load up with dust; they don't self-clean."}]},
+  {"question": "A home on hard well water flushes its water heater once a year. Is that enough?", "difficulty": "hard", "options": [{"text": "Yes, once a year works everywhere", "correct": false, "explanation": "Hard water builds sediment faster than typical water."}, {"text": "Probably not; hard water builds sediment faster, so it may need more frequent flushing", "correct": true, "explanation": "Intervals assume typical conditions and should shorten for harsher ones."}, {"text": "Flushing is never needed with well water", "correct": false, "explanation": "Well water is often harder, which makes flushing more important."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "smart-devices-and-iot-basics",
   tags: ["smart device server shutdown", "IoT company shuts down", "cloud dependent devices", "device bricked", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "The hardware in a cloud-dependent smart device doesn't break when its company shuts down — the remote server it constantly asks for permission disappears.",
   summary: "Many smart devices rely on a request-and-response cycle with a manufacturer's cloud server for core features to work at all; when a company shuts down and stops running that server, the device's requests time out and get no response, so cloud-dependent features stop working even though the physical hardware is completely undamaged — though some features and some devices are built to keep working locally regardless.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Why can a smart device stop working when its company shuts down?", "difficulty": "easy", "options": [{"text": "Its features depended on requests to the company's cloud servers, which no longer answer", "correct": true, "explanation": "The hardware can be perfectly fine."}, {"text": "The company remotely breaks the hardware", "correct": false, "explanation": "The hardware is undamaged."}, {"text": "All smart devices have an expiry date", "correct": false, "explanation": "It depends on cloud dependency."}]},
+  {"question": "Does every smart device fail if its maker's servers go offline?", "difficulty": "easy", "options": [{"text": "No, features that run locally keep working", "correct": true, "explanation": "Impact varies device by device."}, {"text": "Yes, all of them fail completely", "correct": false, "explanation": "Local functions survive."}, {"text": "Only the expensive ones", "correct": false, "explanation": "It depends on design, not price."}]},
+  {"question": "Is cloud dependency required for a device to be smart?", "difficulty": "easy", "options": [{"text": "No, it's a design choice", "correct": true, "explanation": "Some smart devices work mostly locally."}, {"text": "Yes, always", "correct": false, "explanation": "Local-first designs exist."}, {"text": "Only for lights", "correct": false, "explanation": "It's a design choice for any device type."}]},
+  {"question": "After shutdown, a smart plug's physical button still works but the app doesn't. Why?", "difficulty": "hard", "options": [{"text": "The button works on local hardware; app control went through the dead cloud server", "correct": true, "explanation": "Local and cloud features fail differently."}, {"text": "The button has its own internet", "correct": false, "explanation": "The button is purely local."}, {"text": "The app was deleted", "correct": false, "explanation": "The server behind it stopped answering."}]},
+  {"question": "When comparing two smart locks for long-term risk, what should you check?", "difficulty": "hard", "options": [{"text": "Which features need the maker's cloud and which work locally", "correct": true, "explanation": "Local operation survives a company shutting down."}, {"text": "Which one has more colors", "correct": false, "explanation": "Cloud dependency is the risk factor."}, {"text": "Which is heavier", "correct": false, "explanation": "Weight doesn't affect server dependency."}]},
+];
 
 export default function Post() {
   return (

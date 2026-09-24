@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -29,7 +29,7 @@ export const metadata: PostFrontmatter = {
     "shopping math",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "How percentage allocation turns a paycheck into a budget, and how unit price math finds the actually-cheaper option at the store.",
   summary: "Budgeting math allocates income by percentage across spending categories, while shopping math compares unit price — cost per unit of quantity — rather than sticker price alone.",
@@ -59,6 +59,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "In the 50/30/20 rule, what gets the 20%?", "difficulty": "easy", "options": [{"text": "Wants", "correct": false, "explanation": "Wants get 30%."}, {"text": "Savings and debt paydown", "correct": true, "explanation": "Needs 50%, wants 30%, savings 20%."}, {"text": "Needs", "correct": false, "explanation": "Needs get 50%."}]},
+  {"question": "How do you calculate unit price?", "difficulty": "easy", "options": [{"text": "Price divided by quantity", "correct": true, "explanation": "It gives cost per ounce, item or liter so different sizes can be compared."}, {"text": "Quantity divided by price", "correct": false, "explanation": "That flips it and gives units per dollar."}, {"text": "Price times quantity", "correct": false, "explanation": "Multiplying gives a meaningless number here."}]},
+  {"question": "About how much does a $5 daily habit cost per year?", "difficulty": "easy", "options": [{"text": "$150", "correct": false, "explanation": "That's roughly one month."}, {"text": "$1,825", "correct": true, "explanation": "$5 × 365 days = $1,825."}, {"text": "$500", "correct": false, "explanation": "Daily costs add up faster than that."}]},
+  {"question": "Take-home pay is $4,200 a month. Using 50/30/20, how much goes to wants?", "difficulty": "hard", "options": [{"text": "$2,100", "correct": false, "explanation": "That's the 50% for needs."}, {"text": "$1,260", "correct": true, "explanation": "4,200 × 0.30 = $1,260."}, {"text": "$840", "correct": false, "explanation": "That's the 20% for savings."}]},
+  {"question": "A 12 oz item costs $3.00 and an 18 oz item costs $4.68. Which is the better deal per ounce?", "difficulty": "hard", "options": [{"text": "The 12 oz, at $0.25/oz versus $0.26/oz", "correct": true, "explanation": "3.00 ÷ 12 = $0.25; 4.68 ÷ 18 = $0.26."}, {"text": "The 18 oz, because bigger is always cheaper", "correct": false, "explanation": "Larger packages aren't automatically cheaper per unit."}, {"text": "They're exactly equal", "correct": false, "explanation": "The unit prices differ by a cent per ounce."}]},
+];
 
 export default function Post() {
   return (

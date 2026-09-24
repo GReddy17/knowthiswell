@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "smart-devices-and-iot-basics",
   tags: ["smart devices", "internet of things", "what is a smart device", "IoT basics", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A device isn't \"smart\" just because it has an app or a Bluetooth toggle — it needs to sense, connect, and run updatable software.",
   summary: "A \"smart\" device is one that combines a sensor or data source, an embedded processor, network connectivity, and updatable software — the combination is what lets it react to conditions and improve after purchase, not just being remote-controllable.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which set of features makes a device \"smart\"?", "difficulty": "easy", "options": [{"text": "A sensor or data source, a processor, network connectivity and updatable software", "correct": true, "explanation": "All four together."}, {"text": "Just having an app", "correct": false, "explanation": "An app alone doesn't make it smart."}, {"text": "A touchscreen", "correct": false, "explanation": "Screens aren't the defining feature."}]},
+  {"question": "Is a Bluetooth light that only turns on and off \"smart\"?", "difficulty": "easy", "options": [{"text": "Barely; with no sensing or logic, it's little more than a remote switch", "correct": true, "explanation": "Remote control alone isn't the full definition."}, {"text": "Yes, fully smart", "correct": false, "explanation": "It lacks sensing and decision-making."}, {"text": "Only at night", "correct": false, "explanation": "Time of day doesn't change what it can do."}]},
+  {"question": "What does \"Internet of Things\" (IoT) mean?", "difficulty": "easy", "options": [{"text": "The whole category of everyday objects built with sensing, processing and connectivity", "correct": true, "explanation": "A smart device is one member of it."}, {"text": "A single brand of devices", "correct": false, "explanation": "It's a broad category."}, {"text": "The internet on computers only", "correct": false, "explanation": "It's about physical everyday objects."}]},
+  {"question": "How does a smart plug differ from a mechanical outlet timer?", "difficulty": "hard", "options": [{"text": "It can sense, decide with software and respond to network commands, not just follow a fixed dial", "correct": true, "explanation": "The timer only runs a preset cycle."}, {"text": "Only its color", "correct": false, "explanation": "The difference is capability."}, {"text": "There's no difference", "correct": false, "explanation": "The smart plug adds sensing, logic and connectivity."}]},
+  {"question": "A device has a sensor and Bluetooth but never gets software updates. What is it missing?", "difficulty": "hard", "options": [{"text": "Updatable software, one of the four parts of a truly smart device", "correct": true, "explanation": "Updates let it improve and get security fixes."}, {"text": "A screen", "correct": false, "explanation": "Screens aren't required."}, {"text": "Nothing", "correct": false, "explanation": "Updatable software is part of the definition."}]},
+];
 
 export default function Post() {
   return (

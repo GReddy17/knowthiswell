@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cybersecurity-literacy-basics",
   tags: ["firewall", "network security", "port filtering", "cybersecurity basics", "network traffic"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A firewall decides whether a connection is allowed to happen at all — it doesn't inspect what's inside a connection it already permitted, which is why it isn't a complete security solution on its own.",
   summary: "A firewall is a checkpoint that decides which network connections are allowed to reach a device or network, based on rules like port, protocol, and source address, but it does not inspect the content of a connection it has already permitted — that job belongs to other tools like antivirus software or email filtering.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a firewall decide?", "difficulty": "easy", "options": [{"text": "Whether a connection is allowed to happen at all", "correct": true, "explanation": "It checks connections against a rule set."}, {"text": "Whether an email is a scam", "correct": false, "explanation": "It doesn't read the content of allowed connections."}, {"text": "How fast your internet is", "correct": false, "explanation": "It filters connections; it doesn't set speed."}]},
+  {"question": "What do firewall rules typically check?", "difficulty": "easy", "options": [{"text": "Port, protocol and source or destination address", "correct": true, "explanation": "Like checking an ID against an approved list."}, {"text": "The words inside each message", "correct": false, "explanation": "That's content inspection, beyond a basic firewall."}, {"text": "The color of your screen", "correct": false, "explanation": "Rules look at connection details."}]},
+  {"question": "What does a home router's firewall typically do with unsolicited inbound connections?", "difficulty": "easy", "options": [{"text": "Blocks them", "correct": true, "explanation": "Connections nobody inside requested are dropped."}, {"text": "Allows all of them", "correct": false, "explanation": "That would expose devices on your network."}, {"text": "Forwards them to your email", "correct": false, "explanation": "They're simply blocked."}]},
+  {"question": "Why didn't the firewall stop a phishing email's malicious attachment?", "difficulty": "hard", "options": [{"text": "It arrived over an already-allowed connection, and the firewall doesn't inspect content", "correct": true, "explanation": "Its job stops at the connection level."}, {"text": "The firewall was turned off", "correct": false, "explanation": "It worked as designed; content isn't its job."}, {"text": "Attachments can't carry malware", "correct": false, "explanation": "They can, which is why other defenses are needed."}]},
+  {"question": "Why is a firewall one layer of defense rather than a complete one?", "difficulty": "hard", "options": [{"text": "It answers \"should this connection happen?\", not \"is this content safe?\"", "correct": true, "explanation": "Other layers inspect content and behavior."}, {"text": "Firewalls are always weak", "correct": false, "explanation": "They do their specific job well."}, {"text": "Firewalls only work at night", "correct": false, "explanation": "Their scope, not timing, is the limit."}]},
+];
 
 export default function Post() {
   return (

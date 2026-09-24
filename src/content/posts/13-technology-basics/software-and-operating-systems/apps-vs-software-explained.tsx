@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "software-and-operating-systems",
   tags: ["apps vs software", "software basics", "system software", "application software", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "\"App\" and \"software\" get used interchangeably, but one is a category and the other is a subset of it — here's the actual dividing line.",
   summary: "Software is the umbrella term for any instructions a computer runs; an app is specifically application software — a program that does a visible, user-facing job — which makes every app software, but not all software an app.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How do \"software\" and \"app\" relate?", "difficulty": "easy", "options": [{"text": "Every app is software, but not all software is an app", "correct": true, "explanation": "Like every car is a vehicle, but not every vehicle is a car."}, {"text": "They mean exactly the same thing", "correct": false, "explanation": "App is one type within the broader software category."}, {"text": "Apps are hardware", "correct": false, "explanation": "Apps are software."}]},
+  {"question": "Which of these is software but not usually called an app?", "difficulty": "easy", "options": [{"text": "A device driver for your printer", "correct": true, "explanation": "It works in the background rather than doing a task you directly asked for."}, {"text": "A calculator program", "correct": false, "explanation": "A calculator is a textbook app."}, {"text": "A photo editor", "correct": false, "explanation": "A photo editor is a user-facing app."}]},
+  {"question": "Does size or price decide whether something is an app?", "difficulty": "easy", "options": [{"text": "Yes, only small programs are apps", "correct": false, "explanation": "Size isn't the dividing line."}, {"text": "No, the dividing line is whether it does a visible, user-facing job", "correct": true, "explanation": "Purpose decides it, not size, price or source."}, {"text": "Yes, only free programs are apps", "correct": false, "explanation": "Paid programs can be apps too."}]},
+  {"question": "While you use a calculator app, what is the operating system doing?", "difficulty": "hard", "options": [{"text": "Nothing, since the app is doing the work", "correct": false, "explanation": "The OS works constantly in the background."}, {"text": "Managing memory for the app, drawing its window and handling input", "correct": true, "explanation": "System software supports every app you run."}, {"text": "Shutting down to save power", "correct": false, "explanation": "The OS keeps running the whole time."}]},
+  {"question": "What one question sorts most confusing cases like background services or browser extensions?", "difficulty": "hard", "options": [{"text": "Did a person directly ask this program to do a visible task right now?", "correct": true, "explanation": "If yes, it behaves like an app; if not, more like system software."}, {"text": "How much did it cost?", "correct": false, "explanation": "Price doesn't decide the category."}, {"text": "Which company made it?", "correct": false, "explanation": "The maker doesn't decide its role."}]},
+];
 
 export default function Post() {
   return (

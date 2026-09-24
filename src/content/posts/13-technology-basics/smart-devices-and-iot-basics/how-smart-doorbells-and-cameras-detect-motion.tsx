@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "smart-devices-and-iot-basics",
   tags: ["smart doorbell motion detection", "PIR sensor", "how security cameras detect motion", "motion zones", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A smart doorbell doesn't watch constantly for anything unusual — a low-power heat sensor triggers first, then software checks shape and zone before alerting you.",
   summary: "A smart doorbell or camera typically stays in a low-power state until a passive infrared (PIR) sensor detects a change in heat and motion, which wakes the camera so software can check the moving object's size, shape, and location against defined zones, sending an alert only if it passes both filters — a two-stage feedback loop, not constant full analysis.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What usually detects motion first in a battery smart doorbell?", "difficulty": "easy", "options": [{"text": "A passive infrared (PIR) sensor that notices changes in heat and movement", "correct": true, "explanation": "The camera wakes only after the PIR sensor triggers."}, {"text": "The camera, recording all the time", "correct": false, "explanation": "Constant recording would drain the battery."}, {"text": "A microphone", "correct": false, "explanation": "PIR sensors handle the first detection."}]},
+  {"question": "What happens after the PIR sensor triggers?", "difficulty": "easy", "options": [{"text": "The camera wakes and software checks the object's size, shape and location against motion zones", "correct": true, "explanation": "An alert is sent only if it passes both filters."}, {"text": "An alert is always sent immediately", "correct": false, "explanation": "Software filters first."}, {"text": "The doorbell rings inside the house", "correct": false, "explanation": "Ringing is for button presses, not motion."}]},
+  {"question": "Why do smart doorbells use this two-stage design?", "difficulty": "easy", "options": [{"text": "To save power and cut false alerts", "correct": true, "explanation": "That's why they can run for months on a battery."}, {"text": "Because cameras can't see at night", "correct": false, "explanation": "The design is about power and filtering."}, {"text": "To make detection instant", "correct": false, "explanation": "It trades a little delay for battery life."}]},
+  {"question": "A doorbell keeps alerting for cars on the public street. What is the best fix?", "difficulty": "hard", "options": [{"text": "Adjust the motion zones to exclude the street", "correct": true, "explanation": "Software zones decide which motion becomes an alert."}, {"text": "Replace the PIR sensor", "correct": false, "explanation": "The hardware works; the zone settings need adjusting."}, {"text": "Turn motion detection off completely", "correct": false, "explanation": "Zones keep useful alerts while dropping the street."}]},
+  {"question": "Why might a doorbell miss or delay detecting something at the edge of its view?", "difficulty": "hard", "options": [{"text": "The design trades some delay and edge cases for lower power and fewer false alerts", "correct": true, "explanation": "It's a deliberate trade-off, not constant full video analysis."}, {"text": "The camera is broken", "correct": false, "explanation": "It's usually a design trade-off."}, {"text": "Motion detection only works at night", "correct": false, "explanation": "It works day and night."}]},
+];
 
 export default function Post() {
   return (

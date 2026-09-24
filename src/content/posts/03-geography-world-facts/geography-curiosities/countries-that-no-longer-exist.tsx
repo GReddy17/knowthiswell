@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -31,7 +31,7 @@ export const metadata: PostFrontmatter = {
     "state succession",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "How and why sovereign countries disappear — through dissolution, merger, or absorption — with real cases like the USSR, Yugoslavia, and Czechoslovakia.",
   summary: "Countries stop existing in three distinct ways — splitting into successor states, merging into a larger state, or being absorbed by a neighbor — and each leaves a different legal and geographic trail.",
@@ -63,6 +63,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What usually happens to a country's land when the country \"disappears\"?", "difficulty": "easy", "options": [{"text": "The land disappears too", "correct": false, "explanation": "Territory and people remain; the political arrangement ends."}, {"text": "The land stays; the government and recognized borders change", "correct": true, "explanation": "What ends is the specific political arrangement."}, {"text": "The land becomes international territory", "correct": false, "explanation": "It passes to successor or absorbing states."}]},
+  {"question": "What did Czechoslovakia split into in 1993?", "difficulty": "easy", "options": [{"text": "The Czech Republic and Slovakia", "correct": true, "explanation": "The peaceful \"Velvet Divorce\" created two equal successors."}, {"text": "Germany and Austria", "correct": false, "explanation": "Those are separate, unrelated countries."}, {"text": "Five new countries", "correct": false, "explanation": "It split into exactly two."}]},
+  {"question": "How many countries did the Soviet Union split into in 1991?", "difficulty": "easy", "options": [{"text": "15", "correct": true, "explanation": "The USSR dissolved into 15 independent countries."}, {"text": "2", "correct": false, "explanation": "That's Czechoslovakia's split."}, {"text": "7", "correct": false, "explanation": "The real number is 15."}]},
+  {"question": "Zaire renamed itself the Democratic Republic of the Congo in 1997. Is that a country disappearing?", "difficulty": "hard", "options": [{"text": "Yes, it's a dissolution", "correct": false, "explanation": "Dissolution means splitting into new states; this didn't happen."}, {"text": "No, it's the same state with a new name", "correct": true, "explanation": "Renaming isn't one of the three disappearance mechanisms."}, {"text": "Yes, it's an absorption", "correct": false, "explanation": "Nothing was absorbed into a neighbor."}]},
+  {"question": "Countries keep disappearing, yet UN membership grew from 51 in 1945 to 193 today. Why?", "difficulty": "hard", "options": [{"text": "New nations are being created faster than old ones disappear", "correct": true, "explanation": "Dissolutions and independence created many more states than were lost."}, {"text": "The UN counts former countries as members", "correct": false, "explanation": "Seats go to successor states through state succession."}, {"text": "Most countries joined the UN twice", "correct": false, "explanation": "The growth reflects genuinely new states."}]},
+];
 
 export default function Post() {
   return (

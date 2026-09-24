@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "software-and-operating-systems",
   tags: ["file compression", "zip files", "lossless vs lossy", "compression ratio", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Compression doesn't magically erase data — it finds repeated patterns and rewrites them more efficiently, and how much it can shrink a file depends entirely on how repetitive that file already is.",
   summary: "File compression works by finding redundant, repeated patterns inside data and rewriting them in a shorter form, either reversibly (lossless) or by deliberately discarding some detail for a smaller result (lossy), which is why a compressed file's size depends heavily on how repetitive the original content already was.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does compression exploit to make files smaller?", "difficulty": "easy", "options": [{"text": "Repeated, predictable patterns in the data", "correct": true, "explanation": "Like writing \"500 red\" instead of \"red\" 500 times."}, {"text": "Random deletion of data", "correct": false, "explanation": "Lossless compression deletes nothing."}, {"text": "Making the font smaller", "correct": false, "explanation": "It works on the underlying data, not appearance."}]},
+  {"question": "What makes ZIP compression \"lossless\"?", "difficulty": "easy", "options": [{"text": "It can be perfectly reversed to the exact original bytes", "correct": true, "explanation": "Nothing is permanently discarded."}, {"text": "It never makes files smaller", "correct": false, "explanation": "It often shrinks them a lot."}, {"text": "It only works on photos", "correct": false, "explanation": "ZIP works on any file type."}]},
+  {"question": "Which kind of data compresses the most?", "difficulty": "easy", "options": [{"text": "Highly repetitive data like plain text", "correct": true, "explanation": "More redundancy means more to squeeze out."}, {"text": "Already-compressed video", "correct": false, "explanation": "It has little redundancy left."}, {"text": "Random data", "correct": false, "explanation": "Random data has no patterns to exploit."}]},
+  {"question": "How does lossy compression like JPEG or MP3 differ from ZIP?", "difficulty": "hard", "options": [{"text": "It permanently discards some detail to reach a much smaller size", "correct": true, "explanation": "You can't get the exact original back."}, {"text": "It's always larger than ZIP", "correct": false, "explanation": "Lossy is usually much smaller."}, {"text": "It's the same as lossless", "correct": false, "explanation": "The discarding is the key difference."}]},
+  {"question": "Why doesn't zipping a ZIP file shrink it much further?", "difficulty": "hard", "options": [{"text": "The first pass already removed the redundancy, leaving little pattern to exploit", "correct": true, "explanation": "Compressed data looks nearly random."}, {"text": "ZIP files can't be zipped", "correct": false, "explanation": "They can be; it just doesn't help."}, {"text": "The computer blocks it", "correct": false, "explanation": "Nothing blocks it; there's simply little left to remove."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cybersecurity-literacy-basics",
   tags: ["password strength", "password entropy", "brute force", "keyspace", "cybersecurity basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Each character added to a password multiplies the total number of guesses an attacker must try, not just adds to it — that multiplicative math is why length matters more than most people assume.",
   summary: "A password's resistance to brute-force guessing depends on its keyspace, the total number of possible combinations, which grows multiplicatively (charset size raised to the power of length) rather than additively as characters are added, which is why a longer password can vastly outperform a shorter one even with fewer character types.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What happens to possible combinations when you add one character to a password?", "difficulty": "easy", "options": [{"text": "They multiply", "correct": true, "explanation": "Each character multiplies the total, not just adds to it."}, {"text": "They increase by one", "correct": false, "explanation": "Growth is multiplicative."}, {"text": "Nothing changes", "correct": false, "explanation": "Length has a huge effect."}]},
+  {"question": "What does current guidance, including NIST's, emphasize?", "difficulty": "easy", "options": [{"text": "Length over forced complexity rules", "correct": true, "explanation": "Long, unique passphrases beat short symbol-stuffed passwords."}, {"text": "Changing passwords every week", "correct": false, "explanation": "Mandatory periodic changes are no longer emphasized."}, {"text": "Using your name plus a symbol", "correct": false, "explanation": "Predictable patterns are weak."}]},
+  {"question": "What do attackers usually try first?", "difficulty": "easy", "options": [{"text": "Common patterns, dictionary words and known breached passwords", "correct": true, "explanation": "Real cracking isn't pure random guessing."}, {"text": "Truly random strings, in order", "correct": false, "explanation": "They start with likely guesses."}, {"text": "Only numbers", "correct": false, "explanation": "They try the most likely words and patterns."}]},
+  {"question": "Why can a long passphrase of common words be weaker than its length suggests?", "difficulty": "hard", "options": [{"text": "Attackers guess whole common words, not individual characters, which shrinks the search", "correct": true, "explanation": "Predictable words cut the real keyspace."}, {"text": "Long passwords are always weak", "correct": false, "explanation": "Random long passphrases are strong."}, {"text": "Websites truncate long passwords", "correct": false, "explanation": "The issue is predictability."}]},
+  {"question": "Why does a randomly generated 16-character passphrase resist dictionary shortcuts?", "difficulty": "hard", "options": [{"text": "Random words and order leave no predictable pattern to exploit", "correct": true, "explanation": "Attackers must search the full keyspace."}, {"text": "It uses only numbers", "correct": false, "explanation": "Randomness, not numbers, is the key."}, {"text": "Dictionaries don't exist for 16 characters", "correct": false, "explanation": "Randomness defeats dictionary attacks."}]},
+];
 
 export default function Post() {
   return (

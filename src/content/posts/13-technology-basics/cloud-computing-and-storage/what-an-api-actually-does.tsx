@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cloud-computing-and-storage",
   tags: ["what is an api", "api explained", "client server", "how apps talk to servers", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "An API is a defined menu of requests one piece of software can make to another, so apps can ask for data or actions without needing to know how the other side works.",
   summary: "An API (application programming interface) is a defined set of rules that lets one piece of software request data or actions from another, without either side needing to know the other's internal workings.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is an API?", "difficulty": "easy", "options": [{"text": "A defined menu of requests one program can make to another", "correct": true, "explanation": "Like ordering from a menu instead of entering the kitchen."}, {"text": "A database", "correct": false, "explanation": "The API is the interface, not the system behind it."}, {"text": "A type of computer", "correct": false, "explanation": "It's an agreed interface between programs."}]},
+  {"question": "Does an app usually access another company's database directly?", "difficulty": "easy", "options": [{"text": "No, it goes through the company's API, which decides what's allowed", "correct": true, "explanation": "The API controls access and answer format."}, {"text": "Yes, always", "correct": false, "explanation": "Direct access is rare and risky."}, {"text": "Only on weekends", "correct": false, "explanation": "Access goes through the API."}]},
+  {"question": "How does a weather app most likely get today's forecast?", "difficulty": "easy", "options": [{"text": "By requesting it from a weather service's API", "correct": true, "explanation": "The app shows data fetched through an API."}, {"text": "Its own weather satellite", "correct": false, "explanation": "Apps use data services, not their own satellites."}, {"text": "By guessing", "correct": false, "explanation": "It fetches real forecast data."}]},
+  {"question": "Why can the system behind an API change completely without breaking apps?", "difficulty": "hard", "options": [{"text": "The API is a stable contract; as long as it behaves the same, apps don't notice", "correct": true, "explanation": "Apps depend on the interface, not the internals."}, {"text": "Apps update themselves instantly", "correct": false, "explanation": "Stability comes from the unchanged contract."}, {"text": "Changes always break apps", "correct": false, "explanation": "Internal changes are hidden behind the API."}]},
+  {"question": "Dozens of unrelated apps fail at once when a mapping API goes down. What does that show?", "difficulty": "hard", "options": [{"text": "They all depend on the same outside API", "correct": true, "explanation": "A shared dependency is a shared point of failure."}, {"text": "They were all made by the same company", "correct": false, "explanation": "They just share one API provider."}, {"text": "Phones stopped working", "correct": false, "explanation": "Only features using that API failed."}]},
+];
 
 export default function Post() {
   return (

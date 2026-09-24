@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
     "Kingdom Animalia",
   ],
   date: "2026-08-16",
-  updated: "2026-08-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-19",
   excerpt: "How scientists sort every animal on Earth into a nested classification system, why 97% of animal species have no backbone, and what actually separates each major group.",
   summary: "Kingdom Animalia is organized into nested taxonomic ranks, from phylum down to species, and the overwhelming majority of animal species are invertebrates, not vertebrates.",
@@ -70,6 +70,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the two-part scientific name for the lion?", "difficulty": "easy", "options": [{"text": "Panthera leo", "correct": true, "explanation": "Genus plus species gives each animal a unique name."}, {"text": "Felis domesticus", "correct": false, "explanation": "That's not the lion's name."}, {"text": "Leo major", "correct": false, "explanation": "The lion is Panthera leo."}]},
+  {"question": "What share of known animal species are invertebrates?", "difficulty": "easy", "options": [{"text": "Over 97%", "correct": true, "explanation": "Insects and other arthropods alone are roughly 80%."}, {"text": "About half", "correct": false, "explanation": "Invertebrates make up the vast majority."}, {"text": "About 10%", "correct": false, "explanation": "It's far more than that."}]},
+  {"question": "What separates vertebrates from invertebrates?", "difficulty": "easy", "options": [{"text": "Whether the animal has a backbone", "correct": true, "explanation": "Vertebrates have one; invertebrates don't."}, {"text": "Whether it lives in water", "correct": false, "explanation": "Both groups live on land and in water."}, {"text": "Its size", "correct": false, "explanation": "Size doesn't decide the group."}]},
+  {"question": "Sharks and dolphins look alike. Why?", "difficulty": "hard", "options": [{"text": "Convergent evolution toward efficient swimming, not close ancestry", "correct": true, "explanation": "Similar problems produced similar body shapes."}, {"text": "Dolphins are a kind of shark", "correct": false, "explanation": "Dolphins are mammals; sharks are fish."}, {"text": "They share a recent common ancestor", "correct": false, "explanation": "Their resemblance isn't from close relation."}]},
+  {"question": "Which ranks come between kingdom and species in the classification system?", "difficulty": "hard", "options": [{"text": "Phylum, class, order, family, genus", "correct": true, "explanation": "Kingdom, phylum, class, order, family, genus, species."}, {"text": "Family, class, kingdom, order", "correct": false, "explanation": "That's out of order."}, {"text": "There are no ranks in between", "correct": false, "explanation": "The system is nested with several levels."}]},
+];
 
 export default function Post() {
   return (

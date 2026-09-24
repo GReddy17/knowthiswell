@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cybersecurity-literacy-basics",
   tags: ["phishing", "social engineering", "email scams", "cybersecurity basics", "online safety"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Phishing works by faking a trusted sender and manufacturing urgency, not by exploiting a technical flaw in your device — it targets human trust, not software.",
   summary: "Phishing is a social-engineering technique where an attacker impersonates a trusted sender, in an email, text, or call, to trick someone into revealing sensitive information or clicking a malicious link — it exploits human trust and urgency, not a technical vulnerability in a device.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What kind of attack is phishing, at its core?", "difficulty": "easy", "options": [{"text": "Social engineering aimed at a person's judgment", "correct": true, "explanation": "It fakes a trusted identity and adds urgency."}, {"text": "A technical hack of your device's hardware", "correct": false, "explanation": "It targets people, not device flaws."}, {"text": "A virus that spreads by itself", "correct": false, "explanation": "That's a worm, not phishing."}]},
+  {"question": "Which is a common phishing warning sign?", "difficulty": "easy", "options": [{"text": "A sender address that looks close to a real one but isn't exact", "correct": true, "explanation": "The mismatch between claim and reality is the core trick."}, {"text": "An email from a friend you emailed yesterday about the same topic", "correct": false, "explanation": "Expected, consistent contact is less suspicious."}, {"text": "A newsletter you subscribed to", "correct": false, "explanation": "Expected mail isn't the typical phishing pattern."}]},
+  {"question": "What is the best response to an urgent message asking you to \"verify your account\" via a link?", "difficulty": "easy", "options": [{"text": "Go to the company's site or app yourself, not through the link", "correct": true, "explanation": "Independent verification defeats a faked identity."}, {"text": "Click quickly before the deadline", "correct": false, "explanation": "Manufactured urgency is exactly how phishing works."}, {"text": "Reply with your password to confirm", "correct": false, "explanation": "Legitimate services don't ask for your password this way."}]},
+  {"question": "What makes spear phishing harder to spot than mass phishing?", "difficulty": "hard", "options": [{"text": "It uses real, personal details like names and projects to seem legitimate", "correct": true, "explanation": "It's designed to defeat generic caution."}, {"text": "It always comes from a real company", "correct": false, "explanation": "It impersonates real people or companies."}, {"text": "It only arrives by post", "correct": false, "explanation": "It usually arrives by email or message."}]},
+  {"question": "A link's visible text says bank.com. How can it still be phishing?", "difficulty": "hard", "options": [{"text": "The visible text can hide a different real destination behind it", "correct": true, "explanation": "What a link says and where it goes can differ."}, {"text": "Links always go where their text says", "correct": false, "explanation": "Displayed text and actual target can be different."}, {"text": "It can't; the text proves it's safe", "correct": false, "explanation": "The text is exactly what attackers fake."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-literacy-and-online-life",
   tags: ["how browsers work", "what does a browser do", "rendering engine", "DOM explained", "digital literacy"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A web browser isn't just a window onto the internet — it's a pipeline that fetches, parses, and renders raw code into the page you see, in a fixed order.",
   summary: "A web browser is software that requests a page's underlying code over the internet, then parses, structures, and paints that code into the visual page you interact with, repeating the process for every resource the page needs.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a browser do first when you visit a page?", "difficulty": "easy", "options": [{"text": "Fetches the page's raw code", "correct": true, "explanation": "Only then does it parse and paint the page."}, {"text": "Shows a finished picture of the page", "correct": false, "explanation": "It has to build the page from code first."}, {"text": "Downloads the whole website", "correct": false, "explanation": "It fetches what that page needs."}]},
+  {"question": "What does HTML become inside the browser?", "difficulty": "easy", "options": [{"text": "The DOM, a structured model of the page", "correct": true, "explanation": "CSS becomes the CSSOM; together they form the render tree."}, {"text": "An image file", "correct": false, "explanation": "It's parsed into a structure, not an image."}, {"text": "A video", "correct": false, "explanation": "HTML is parsed into the DOM."}]},
+  {"question": "Why do pages sometimes load in stages, like text before images?", "difficulty": "easy", "options": [{"text": "The browser runs a fixed pipeline, and some resources arrive later", "correct": true, "explanation": "Staged loading is a predictable side effect, not a glitch."}, {"text": "The page is broken", "correct": false, "explanation": "It's normal pipeline behavior."}, {"text": "Images are always forbidden at first", "correct": false, "explanation": "They just finish downloading later."}]},
+  {"question": "Why does a late-loading ad make the text below it jump?", "difficulty": "hard", "options": [{"text": "The layout is recalculated once the ad's size is known, pushing content down", "correct": true, "explanation": "Late content changes the render tree's layout."}, {"text": "The ad deletes the text", "correct": false, "explanation": "The text moves; it isn't deleted."}, {"text": "Your mouse moved", "correct": false, "explanation": "The jump comes from layout changes."}]},
+  {"question": "A page shows plain, unstyled text before its design appears. What happened?", "difficulty": "hard", "options": [{"text": "The HTML rendered before the CSS finished loading", "correct": true, "explanation": "Styling applies once the CSSOM is ready."}, {"text": "The site switched designs", "correct": false, "explanation": "The CSS was simply late."}, {"text": "The browser has no CSS support", "correct": false, "explanation": "The design did appear, just later."}]},
+];
 
 export default function Post() {
   return (

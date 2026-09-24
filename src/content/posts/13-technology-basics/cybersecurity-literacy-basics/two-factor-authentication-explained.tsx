@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cybersecurity-literacy-basics",
   tags: ["two-factor authentication", "2FA", "multi-factor authentication", "account security", "cybersecurity basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Two-factor authentication requires two independent kinds of proof, not just a stronger password — so a stolen password alone still isn't enough to get in.",
   summary: "Two-factor authentication (2FA) requires a person to prove their identity with two independent types of evidence — typically something they know, like a password, plus something they have or are — so that a stolen password alone is not enough to access an account.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does two-factor authentication require?", "difficulty": "easy", "options": [{"text": "Two independent kinds of proof, such as a password and a phone", "correct": true, "explanation": "Something you know plus something you have."}, {"text": "Two passwords", "correct": false, "explanation": "Two passwords are the same kind of proof."}, {"text": "A longer password", "correct": false, "explanation": "Length doesn't add a second factor."}]},
+  {"question": "Why does 2FA protect you if your password is stolen?", "difficulty": "easy", "options": [{"text": "The attacker still lacks the second factor", "correct": true, "explanation": "Like a lock that needs two separate keys."}, {"text": "It changes your password automatically", "correct": false, "explanation": "The second factor blocks them."}, {"text": "It hides your username", "correct": false, "explanation": "The protection comes from the second factor."}]},
+  {"question": "Which is a \"something you have\" factor?", "difficulty": "easy", "options": [{"text": "A hardware security key", "correct": true, "explanation": "It's a physical object you possess."}, {"text": "Your password", "correct": false, "explanation": "That's something you know."}, {"text": "Your mother's maiden name", "correct": false, "explanation": "That's something you know."}]},
+  {"question": "A site asks for a password and then a security question. Is that true 2FA?", "difficulty": "hard", "options": [{"text": "No, both are \"something you know\", the same category", "correct": true, "explanation": "Two factors must be independent categories."}, {"text": "Yes, it's two steps", "correct": false, "explanation": "Two steps of the same kind isn't two factors."}, {"text": "Yes, if the answer is long", "correct": false, "explanation": "Length doesn't change the category."}]},
+  {"question": "Why can a SIM-swap attack beat text-message codes but not an authenticator app?", "difficulty": "hard", "options": [{"text": "Hijacking your phone number redirects texts, while app codes are generated on your own device", "correct": true, "explanation": "Not all second factors are equally strong."}, {"text": "Authenticator apps don't use codes", "correct": false, "explanation": "They do, generated locally."}, {"text": "SIM swaps don't affect texts", "correct": false, "explanation": "Redirecting texts is exactly what a SIM swap does."}]},
+];
 
 export default function Post() {
   return (

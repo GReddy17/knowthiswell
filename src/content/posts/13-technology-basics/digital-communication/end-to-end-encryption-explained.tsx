@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-communication",
   tags: ["end-to-end encryption", "E2EE explained", "message privacy", "digital communication", "public key encryption", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "End-to-end encryption means only the sender and recipient hold the key to unlock a message — not that the app maker sees nothing at all about the conversation.",
   summary: "End-to-end encryption (E2EE) is a method of securing communication where a message is encrypted on the sender's device and can only be decrypted on the recipient's device, so no server in between ever holds the key needed to read it.",
@@ -55,6 +55,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "With end-to-end encryption, who can read a message's content?", "difficulty": "easy", "options": [{"text": "Only the sender and recipient", "correct": true, "explanation": "Only the recipient's device holds the key to unlock it."}, {"text": "The messaging company", "correct": false, "explanation": "The company relays it but can't read it."}, {"text": "Anyone on the same Wi-Fi", "correct": false, "explanation": "The content is scrambled before it leaves the device."}]},
+  {"question": "Where does the recipient's private key stay?", "difficulty": "easy", "options": [{"text": "On the recipient's own device", "correct": true, "explanation": "It never leaves, which is the whole point."}, {"text": "On the company's server", "correct": false, "explanation": "If the server held it, the company could read messages."}, {"text": "Inside the message", "correct": false, "explanation": "Sending the key with the message would defeat encryption."}]},
+  {"question": "What does E2EE usually NOT hide?", "difficulty": "easy", "options": [{"text": "Metadata: who messaged whom, when and how often", "correct": true, "explanation": "E2EE protects content, not the fact that a conversation happened."}, {"text": "The words in the message", "correct": false, "explanation": "Content is exactly what E2EE protects."}, {"text": "Attached photos", "correct": false, "explanation": "Attachments sent in the chat are also encrypted."}]},
+  {"question": "How is a message locked before it leaves the sender's device?", "difficulty": "hard", "options": [{"text": "With the recipient's public key, so only their private key can unlock it", "correct": true, "explanation": "Public key locks, private key unlocks."}, {"text": "With the sender's password", "correct": false, "explanation": "E2EE uses the recipient's key pair."}, {"text": "By the company's server after upload", "correct": false, "explanation": "Encryption happens on the device, before upload."}]},
+  {"question": "Chats are end-to-end encrypted, but the cloud backup of them isn't. What is the weak point?", "difficulty": "hard", "options": [{"text": "The backup, which may be readable by whoever can access where it's stored", "correct": true, "explanation": "Protection only covers the messaging path, not copies stored elsewhere."}, {"text": "Nothing; E2EE protects all copies", "correct": false, "explanation": "An unencrypted backup is outside E2EE's protection."}, {"text": "The recipient's screen", "correct": false, "explanation": "The backup is the gap described here."}]},
+];
 
 export default function Post() {
   return (

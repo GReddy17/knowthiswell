@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "flooring-and-interior-basics",
   tags: ["grout", "tile adhesive", "thinset mortar", "tile installation", "home maintenance"],
   date: "2026-09-17",
-  updated: "2026-09-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-17",
   excerpt: "Grout doesn't hold tile in place — it fills the gaps between tiles that are already structurally bonded to the floor by an entirely separate material.",
   summary: "Tile installation uses two chemically and functionally different materials that get confused because they're both applied during the same job: adhesive (thinset mortar or mastic) forms the actual structural bond holding each tile to the substrate beneath it, while grout is a separate, weaker material applied afterward purely to fill the joints between tiles, manage minor surface water, and prevent debris from collecting in the gaps.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What actually holds a tile to the floor or wall?", "difficulty": "easy", "options": [{"text": "Grout", "correct": false, "explanation": "Grout fills the joints; it has no structural bonding role."}, {"text": "The adhesive layer (thinset mortar or mastic) underneath", "correct": true, "explanation": "Adhesive forms the structural bond before grout goes in."}, {"text": "The tile's own weight", "correct": false, "explanation": "Tiles need an adhesive bond, especially on walls."}]},
+  {"question": "What is grout's job?", "difficulty": "easy", "options": [{"text": "Filling the gaps between tiles, managing minor surface water and finishing the look", "correct": true, "explanation": "It's cosmetic and a minor water barrier, not structural."}, {"text": "Bonding tiles to the floor", "correct": false, "explanation": "That's the adhesive's job."}, {"text": "Leveling uneven floors", "correct": false, "explanation": "Leveling happens before tiling."}]},
+  {"question": "When does grout go on in a standard installation?", "difficulty": "easy", "options": [{"text": "Before the tiles are set", "correct": false, "explanation": "Adhesive goes first; grout comes after."}, {"text": "After the tiles are set and the adhesive has cured", "correct": true, "explanation": "Grout fills joints between already-bonded tiles."}, {"text": "At the same time as the adhesive", "correct": false, "explanation": "They're applied in separate steps."}]},
+  {"question": "A homeowner sees cracked grout and assumes the tiles are coming loose. What is more likely?", "difficulty": "hard", "options": [{"text": "The adhesive has definitely failed", "correct": false, "explanation": "Grout and adhesive problems usually have separate causes."}, {"text": "It's a cosmetic grout issue; loose tiles would show up as rocking or hollow sounds instead", "correct": true, "explanation": "Tile attachment depends on the adhesive, not the grout."}, {"text": "The whole floor needs replacing", "correct": false, "explanation": "Cracked grout alone is a minor repair."}]},
+  {"question": "Why isn't mastic recommended for a shower floor?", "difficulty": "hard", "options": [{"text": "Mastic is too hard to spread", "correct": false, "explanation": "Ease of spreading isn't the issue."}, {"text": "Constant water exposure weakens it, while thinset mortar holds up in wet areas", "correct": true, "explanation": "Mastic is acceptable on dry walls but not in heavily wet zones."}, {"text": "Mastic is only for outdoor use", "correct": false, "explanation": "Mastic is an indoor adhesive for dry locations."}]},
+];
 
 export default function Post() {
   return (

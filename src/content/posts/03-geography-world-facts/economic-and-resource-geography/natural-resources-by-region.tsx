@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
     "mining",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Why cobalt clusters in one African country, oil pools under the Middle East, and lithium sits in South American salt flats — the geology behind uneven resource maps.",
   summary: "Natural resources are distributed unevenly across the world because the geologic processes that create them — ancient plate collisions, sedimentary burial, volcanic activity — only happened in specific places.",
@@ -63,6 +63,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Where do oil and gas form?", "difficulty": "easy", "options": [{"text": "Only in sedimentary basins where buried organic matter was heated and pressed for millions of years", "correct": true, "explanation": "That's why oil is concentrated in specific regions."}, {"text": "Anywhere underground, evenly", "correct": false, "explanation": "Resources are not scattered randomly."}, {"text": "Inside volcanoes", "correct": false, "explanation": "Metal ores relate to volcanic activity; oil forms in sedimentary basins."}]},
+  {"question": "Which region holds roughly half of the world's proven oil reserves?", "difficulty": "easy", "options": [{"text": "The Middle East", "correct": true, "explanation": "Its geology created unusually large oil deposits."}, {"text": "Western Europe", "correct": false, "explanation": "Western Europe holds a small share."}, {"text": "Central Africa", "correct": false, "explanation": "Central Africa is known for cobalt and copper, not most of the world's oil."}]},
+  {"question": "What is the \"resource curse\"?", "difficulty": "easy", "options": [{"text": "When resource-rich countries underperform resource-poor ones", "correct": true, "explanation": "It happens without strong institutions to manage resource wealth."}, {"text": "When resources run out overnight", "correct": false, "explanation": "It's about economic performance, not sudden depletion."}, {"text": "A legend about cursed mines", "correct": false, "explanation": "It's an economic term, not folklore."}]},
+  {"question": "Why does one country, the DRC, supply most of the world's mined cobalt?", "difficulty": "hard", "options": [{"text": "Cobalt is common everywhere, but only the DRC mines it", "correct": false, "explanation": "Cobalt is genuinely rare in Earth's crust overall."}, {"text": "A rare ancient geologic belt, the Copperbelt, concentrated cobalt ore there", "correct": true, "explanation": "Metal-rich fluids deposited ore hundreds of millions of years ago."}, {"text": "Other countries banned cobalt mining", "correct": false, "explanation": "The concentration is geological, not legal."}]},
+  {"question": "What does Japan's economy show about natural resources and wealth?", "difficulty": "hard", "options": [{"text": "A country can be rich with almost no domestic energy resources", "correct": true, "explanation": "Resources are neither necessary nor sufficient for wealth."}, {"text": "Countries without oil can't industrialize", "correct": false, "explanation": "Japan is a major industrial power with almost no domestic oil."}, {"text": "Japan secretly has large oil fields", "correct": false, "explanation": "Japan has almost no domestic oil, gas or coal."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-literacy-and-online-life",
   tags: ["website down", "website slow", "http status codes", "server timeout", "digital literacy"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A slow website still eventually returns a response; a down website's request never completes at all — two different failure points in the same request/response chain.",
   summary: "Whether a website is 'down' or just 'slow' comes down to where a request fails along the same request/response chain: slow means a response is delayed but still eventually arrives, while down means the chain breaks entirely and no response comes back at all.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does \"slow\" mean for a website?", "difficulty": "easy", "options": [{"text": "The request chain completes, but with a delay somewhere", "correct": true, "explanation": "The page does eventually load."}, {"text": "The page never loads", "correct": false, "explanation": "That's \"down\"."}, {"text": "The site has been deleted", "correct": false, "explanation": "A slow site still answers."}]},
+  {"question": "What does \"down\" mean?", "difficulty": "easy", "options": [{"text": "The request chain never completes because a step failed outright", "correct": true, "explanation": "No answer comes back, however long you wait."}, {"text": "The page loads in 10 seconds", "correct": false, "explanation": "That's slow, not down."}, {"text": "The page has typos", "correct": false, "explanation": "Down means no working response."}]},
+  {"question": "What commonly makes a site slow during a traffic surge?", "difficulty": "easy", "options": [{"text": "Server load from many simultaneous requests", "correct": true, "explanation": "The chain completes, just later."}, {"text": "Your screen brightness", "correct": false, "explanation": "Display settings don't affect load time."}, {"text": "The site's font", "correct": false, "explanation": "Load and distance are the usual causes."}]},
+  {"question": "A site won't load for you but works for everyone else. Where could the problem be?", "difficulty": "hard", "options": [{"text": "Your own network, your DNS resolver, or one specific server in a cluster", "correct": true, "explanation": "A failure can be local to your path."}, {"text": "The site must be down for everyone", "correct": false, "explanation": "Others can reach it, so it isn't down globally."}, {"text": "Your keyboard", "correct": false, "explanation": "The issue is in the network path."}]},
+  {"question": "A page shows an error message instantly. Is that the same as a slow load?", "difficulty": "hard", "options": [{"text": "No, a fast error means a step failed quickly, which is a different failure from a delay", "correct": true, "explanation": "Error pages point to a failed step, not congestion."}, {"text": "Yes, errors always mean slowness", "correct": false, "explanation": "An instant error isn't a delay."}, {"text": "Errors mean the internet is off", "correct": false, "explanation": "Getting an error page means you reached something."}]},
+];
 
 export default function Post() {
   return (

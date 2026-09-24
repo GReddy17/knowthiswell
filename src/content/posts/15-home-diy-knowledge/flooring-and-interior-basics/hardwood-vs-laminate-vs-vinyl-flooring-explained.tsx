@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "flooring-and-interior-basics",
   tags: ["flooring", "hardwood floors", "laminate flooring", "vinyl flooring", "home renovation"],
   date: "2026-09-17",
-  updated: "2026-09-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-17",
   excerpt: "The three floor types aren't ranked best-to-worst — they trade the same three properties (real wood, water resistance, repairability) in different directions.",
   summary: "Hardwood, laminate, and vinyl flooring differ mainly in what they're actually made of and how that material responds to moisture and wear: solid wood can be sanded and refinished but swells with water; laminate is a photographic wood image over a moisture-sensitive fiberboard core; vinyl is fully synthetic and genuinely waterproof but can't be refinished once it's damaged.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which of the three floor types is genuinely waterproof end to end?", "difficulty": "easy", "options": [{"text": "Hardwood", "correct": false, "explanation": "Real wood absorbs moisture and swells."}, {"text": "Laminate", "correct": false, "explanation": "Its wood-fiber core still fails with standing water."}, {"text": "Vinyl", "correct": true, "explanation": "It's made of synthetic layers with no wood to absorb water."}]},
+  {"question": "What is laminate flooring actually made of?", "difficulty": "easy", "options": [{"text": "Solid wood planks", "correct": false, "explanation": "That's hardwood."}, {"text": "A printed photo layer of wood over a compressed wood-fiber core", "correct": true, "explanation": "It looks like wood but the core is fiberboard."}, {"text": "Pure plastic with no wood content", "correct": false, "explanation": "That describes vinyl more closely."}]},
+  {"question": "Which floor can be sanded and refinished?", "difficulty": "easy", "options": [{"text": "Hardwood", "correct": true, "explanation": "It's solid wood all the way through, so there's wood to sand into."}, {"text": "Vinyl", "correct": false, "explanation": "Damaged vinyl planks get replaced, not sanded."}, {"text": "Laminate", "correct": false, "explanation": "Sanding would remove the thin photo layer."}]},
+  {"question": "A family wants a floor for a basement that sometimes gets damp. Which choice fits best, and why?", "difficulty": "hard", "options": [{"text": "Hardwood, because it lasts longest", "correct": false, "explanation": "Longevity doesn't help when moisture makes real wood swell and warp."}, {"text": "Vinyl, because moisture is the main risk and vinyl is waterproof", "correct": true, "explanation": "Match the material's tradeoffs to the room's biggest risk."}, {"text": "Laminate, because it's water-resistant", "correct": false, "explanation": "Its wood-fiber core still fails under standing water."}]},
+  {"question": "Why isn't flooring a simple good-better-best ranking?", "difficulty": "hard", "options": [{"text": "Each type trades the same properties (water tolerance, refinishability, cost, authenticity) in different directions", "correct": true, "explanation": "The best choice depends on which tradeoff matters most in that room."}, {"text": "All three perform identically", "correct": false, "explanation": "They differ clearly in water tolerance and repairability."}, {"text": "The most expensive is always best", "correct": false, "explanation": "Hardwood costs more but fails in wet rooms where vinyl excels."}]},
+];
 
 export default function Post() {
   return (

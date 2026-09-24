@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "devices-and-hardware-basics",
   tags: ["wireless charging", "Qi charging", "electromagnetic induction", "battery charging", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Wireless charging has no actual wireless power transmission across a room — it's electromagnetic induction between two coils held almost touching, the same physics behind a basic transformer.",
   summary: "Wireless charging works through electromagnetic induction — a transmitter coil in the charging pad creates an alternating magnetic field, which induces an electric current in a matching receiver coil inside the device, and that current is converted to direct current to charge the battery.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What physics does wireless charging use?", "difficulty": "easy", "options": [{"text": "Electromagnetic induction between two coils held almost touching", "correct": true, "explanation": "The same basic physics as a transformer."}, {"text": "Power beamed through the air across the room", "correct": false, "explanation": "It only works at very close range."}, {"text": "Solar power", "correct": false, "explanation": "It uses magnetic fields, not light."}]},
+  {"question": "Why is wireless charging usually slower than a cable?", "difficulty": "easy", "options": [{"text": "Some energy is lost as heat during induction", "correct": true, "explanation": "It's less efficient than a direct wired connection."}, {"text": "Wireless pads use batteries", "correct": false, "explanation": "Pads are plugged in; efficiency is the issue."}, {"text": "Phones limit wireless charging to one hour", "correct": false, "explanation": "The limit is efficiency, not a time cap."}]},
+  {"question": "Why does coil alignment matter?", "difficulty": "easy", "options": [{"text": "Misalignment weakens the magnetic coupling and cuts efficiency", "correct": true, "explanation": "Even small offsets reduce charging."}, {"text": "It doesn't matter at all", "correct": false, "explanation": "Alignment directly affects efficiency."}, {"text": "Alignment only affects the color of the light", "correct": false, "explanation": "It affects power transfer."}]},
+  {"question": "What happens before a pad ramps up to full power?", "difficulty": "hard", "options": [{"text": "A brief handshake with the phone confirms a compatible device is there", "correct": true, "explanation": "That prevents heating unknown objects."}, {"text": "The pad scans your fingerprint", "correct": false, "explanation": "It communicates with the phone, not your finger."}, {"text": "Nothing, it's always at full power", "correct": false, "explanation": "It checks first."}]},
+  {"question": "Why can a phone case with metal decorations stop wireless charging?", "difficulty": "hard", "options": [{"text": "Metal disrupts the magnetic field and can heat up, so the pad may reduce or stop power", "correct": true, "explanation": "Metal between the coils interferes with induction."}, {"text": "Cases block all electricity", "correct": false, "explanation": "Plain plastic cases usually work fine."}, {"text": "Metal makes the phone too heavy", "correct": false, "explanation": "Weight isn't the issue."}]},
+];
 
 export default function Post() {
   return (

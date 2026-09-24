@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-literacy-and-online-life",
   tags: ["subscription billing", "prorated charge", "billing cycle", "recurring payments", "digital literacy"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Streaming subscriptions bill on a fixed recurring cycle, with a prorated partial charge only at the very first sign-up — every renewal after that is full price.",
   summary: "A subscription's billing system tracks one piece of state — whether your account is currently active — and re-checks and re-charges it on a fixed recurring cycle, using a one-time prorated charge only to align an arbitrary sign-up date to that fixed cycle.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Why is a first subscription charge sometimes smaller than the monthly price?", "difficulty": "easy", "options": [{"text": "It's prorated to line up your sign-up date with the fixed billing date", "correct": true, "explanation": "Only the first charge is partial."}, {"text": "It's a discount that repeats every month", "correct": false, "explanation": "Later charges are full price."}, {"text": "The service made an error", "correct": false, "explanation": "Proration is intentional."}]},
+  {"question": "What do renewals after the first charge cost?", "difficulty": "easy", "options": [{"text": "The full price for each full cycle", "correct": true, "explanation": "Every renewal is a full charge."}, {"text": "Less and less each month", "correct": false, "explanation": "Renewals stay at full price."}, {"text": "It depends on how much you watched", "correct": false, "explanation": "Billing doesn't depend on usage."}]},
+  {"question": "What does cancelling a subscription do by default?", "difficulty": "easy", "options": [{"text": "Stops future charges from that point forward", "correct": true, "explanation": "It doesn't automatically refund the current period."}, {"text": "Refunds every past payment", "correct": false, "explanation": "Past charges aren't refunded by default."}, {"text": "Deletes your account immediately", "correct": false, "explanation": "Access usually lasts to the end of the paid period."}]},
+  {"question": "You cancel on day 10 of a 30-day cycle you already paid for. What should you expect by default?", "difficulty": "hard", "options": [{"text": "Access until the end of the paid cycle, with no automatic refund for the remaining days", "correct": true, "explanation": "Cancellation and refunds are separate mechanisms."}, {"text": "An automatic refund for 20 days", "correct": false, "explanation": "Refunds aren't automatic by default."}, {"text": "Immediate loss of access and a full refund", "correct": false, "explanation": "That's not the default behavior."}]},
+  {"question": "Your card expires and a renewal fails, but you can still stream for a few days. Why?", "difficulty": "hard", "options": [{"text": "The service allows a grace period and retries the charge before switching you to inactive", "correct": true, "explanation": "Status is re-checked on the cycle, with retries."}, {"text": "Expired cards still work", "correct": false, "explanation": "The charge did fail; access continues during the grace period."}, {"text": "The service forgot to bill you", "correct": false, "explanation": "It's retrying, not forgetting."}]},
+];
 
 export default function Post() {
   return (

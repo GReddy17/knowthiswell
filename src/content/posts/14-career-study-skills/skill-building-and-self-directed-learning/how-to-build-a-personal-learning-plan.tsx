@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "skill-building-and-self-directed-learning",
   tags: ["personal learning plan", "self-directed learning", "skill acquisition", "goal setting", "skills gap"],
   date: "2026-09-03",
-  updated: "2026-09-03",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-03",
   excerpt: "A personal learning plan that sticks breaks a vague goal into a specific target, a baseline assessment, an ordered sequence of sub-skills, and a checkpoint that revises the plan on real results.",
   summary: "A personal learning plan that actually sticks turns a vague goal like 'get better at X' into five concrete pieces: a specific target, a baseline assessment of your current gap, an ordered sequence of sub-skills built on each other, a realistic practice schedule, and a checkpoint that revises the plan based on what practice actually showed was hard. It works as a cycle you keep adjusting, not a one-time document you write once and follow exactly.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the first step in turning \"get better at public speaking\" into a learning plan?", "difficulty": "easy", "options": [{"text": "Buying every book on the topic", "correct": false, "explanation": "Resources come later; without a target you can't tell which ones matter."}, {"text": "Turning it into a specific target, such as a confident 10-minute talk to about 20 people in eight weeks", "correct": true, "explanation": "A concrete target is what the baseline, sub-skills and checkpoint are all measured against."}, {"text": "Practicing daily without deciding what to practice", "correct": false, "explanation": "Practice without a target tends to repeat what you already do."}]},
+  {"question": "What is a checkpoint for in a personal learning plan?", "difficulty": "easy", "options": [{"text": "To reassess progress and adjust the plan", "correct": true, "explanation": "Early guesses about order and pace are often wrong; the checkpoint is where they get corrected."}, {"text": "To decide whether to quit", "correct": false, "explanation": "A checkpoint is about adjusting the plan, not a pass-or-quit test."}, {"text": "To add more detail to the original plan", "correct": false, "explanation": "More upfront detail isn't the goal; correcting against real results is."}]},
+  {"question": "Why does a baseline assessment matter?", "difficulty": "easy", "options": [{"text": "It shows where you actually stand, so you practice the real gaps", "correct": true, "explanation": "Recording a real attempt reveals concrete issues instead of a vague sense of what's wrong."}, {"text": "It proves you have talent for the skill", "correct": false, "explanation": "A baseline measures your starting point, not your potential."}, {"text": "It replaces the need for a checkpoint later", "correct": false, "explanation": "The checkpoint compares against the baseline; you need both."}]},
+  {"question": "Two learners start the same goal. One spends a month writing a 30-page plan; the other writes a one-page plan and starts practicing in two days. Six weeks later, who is usually further along?", "difficulty": "hard", "options": [{"text": "The first, because a thorough plan prevents wasted effort", "correct": false, "explanation": "Over-detailed plans built before any practice are a documented reason self-directed learning stalls."}, {"text": "The second, because early practice produces real results that correct the plan", "correct": true, "explanation": "A specific target, a first sub-skill and a checkpoint do most of the work; practice data fixes the rest."}, {"text": "Both the same, since the goal is the same", "correct": false, "explanation": "Time spent planning instead of practicing and correcting makes a real difference."}]},
+  {"question": "Your first checkpoint shows the sub-skill you picked first wasn't the real bottleneck. What should you do?", "difficulty": "hard", "options": [{"text": "Stick with the original order, since changing the plan means it failed", "correct": false, "explanation": "Revising is the plan working as designed, not failing."}, {"text": "Reorder the sub-skills around the real bottleneck and continue", "correct": true, "explanation": "The plan is an adjustable cycle; checkpoints exist to catch exactly this."}, {"text": "Start over with a completely new goal", "correct": false, "explanation": "The goal is still valid; only the sequence needs correcting."}]},
+];
 
 export default function Post() {
   return (

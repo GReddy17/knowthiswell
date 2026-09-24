@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ai-and-emerging-tech-concepts",
   tags: ["how predictive text works", "how autocomplete works", "predictive text explained", "is autocomplete the same as autocorrect", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Predictive text ranks candidate next words by statistical likelihood given what's already been typed — it isn't a fixed list of popular words.",
   summary: "Predictive text and autocomplete work by ranking candidate next words or completions according to how statistically likely they are given the text typed so far, using a language model trained on large amounts of text and often personalized to an individual's own typing patterns — the same underlying prediction mechanism that appears in search bars, messaging apps, and document editors alike.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How does predictive text rank its suggestions?", "difficulty": "easy", "options": [{"text": "By statistical likelihood given the text typed so far", "correct": true, "explanation": "It guesses the most probable next word."}, {"text": "Alphabetically", "correct": false, "explanation": "Order comes from likelihood, not the alphabet."}, {"text": "From one fixed list of popular words", "correct": false, "explanation": "Rankings change with the context you've typed."}]},
+  {"question": "Which products use the same prediction mechanism?", "difficulty": "easy", "options": [{"text": "Phone keyboards, search bars, document editors and code editors", "correct": true, "explanation": "It's one mechanism across many products."}, {"text": "Only phone keyboards", "correct": false, "explanation": "Search autocomplete uses the same idea."}, {"text": "Only search engines", "correct": false, "explanation": "Keyboards use it too."}]},
+  {"question": "Why does predictive text struggle with uncommon surnames?", "difficulty": "easy", "options": [{"text": "Suggestions are based on frequency, and rare words appear seldom", "correct": true, "explanation": "It ranks by patterns, not by understanding what you mean."}, {"text": "Surnames are banned", "correct": false, "explanation": "They're just rare in the data."}, {"text": "It can only spell short words", "correct": false, "explanation": "Length isn't the issue; rarity is."}]},
+  {"question": "Why does your phone start suggesting a word you use often but that is rare in general?", "difficulty": "hard", "options": [{"text": "Your personal typing history is also used in ranking", "correct": true, "explanation": "Frequent personal use raises its likelihood for you."}, {"text": "The word became popular worldwide overnight", "correct": false, "explanation": "It's your own history adjusting the ranking."}, {"text": "Phones read your mind", "correct": false, "explanation": "It's frequency from your past typing."}]},
+  {"question": "After typing \"Can you call me,\" why might \"back\" be suggested first?", "difficulty": "hard", "options": [{"text": "\"Back\" most often follows that phrase in the text the system learned from", "correct": true, "explanation": "Context narrows the likely next words."}, {"text": "\"Back\" is the most common word in English", "correct": false, "explanation": "Its rank comes from this specific context."}, {"text": "The keyboard picks randomly", "correct": false, "explanation": "Suggestions are ranked by likelihood."}]},
+];
 
 export default function Post() {
   return (

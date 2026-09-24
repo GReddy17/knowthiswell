@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "smart-devices-and-iot-basics",
   tags: ["smart device updates", "firmware updates", "why do smart devices need updates", "IoT security", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A smart device that still turns on isn't the same as one that's still secure — updates close specific, discovered flaws that never fix themselves.",
   summary: "Smart devices need frequent software updates because newly discovered security flaws in their firmware only get closed when a manufacturer writes a fix and the device actually receives, verifies, and installs it — a device that never updates keeps every known flaw open indefinitely, even while it continues to function normally.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Does a discovered security flaw fix itself over time?", "difficulty": "easy", "options": [{"text": "No, it stays open until a fix is written and installed on the device", "correct": true, "explanation": "Nothing resolves it automatically."}, {"text": "Yes, flaws expire after a year", "correct": false, "explanation": "They don't expire."}, {"text": "Yes, if the device is turned off", "correct": false, "explanation": "Powering off doesn't fix code."}]},
+  {"question": "Does \"still works\" mean \"still secure\"?", "difficulty": "easy", "options": [{"text": "No, they're separate questions", "correct": true, "explanation": "A working device can run a known, unpatched flaw."}, {"text": "Yes, always", "correct": false, "explanation": "Function and security are different."}, {"text": "Only for new devices", "correct": false, "explanation": "Any device can work while being insecure."}]},
+  {"question": "What are the four steps of the update chain?", "difficulty": "easy", "options": [{"text": "Flaw found, fix written, fix sent, fix installed", "correct": true, "explanation": "If the last two steps never happen, the flaw stays open."}, {"text": "Buy, unbox, use, recycle", "correct": false, "explanation": "That's a product's lifecycle, not the update chain."}, {"text": "Download, delete, restart, repeat", "correct": false, "explanation": "The chain starts with finding a flaw."}]},
+  {"question": "Which step actually closes a known flaw on your specific device?", "difficulty": "hard", "options": [{"text": "Installing the fix on that device", "correct": true, "explanation": "Writing a fix alone doesn't protect devices that never install it."}, {"text": "The flaw being discovered", "correct": false, "explanation": "Discovery is only the start."}, {"text": "The fix being written", "correct": false, "explanation": "It has to reach and be installed on the device."}]},
+  {"question": "When deciding whether to keep relying on an old smart device, what matters most?", "difficulty": "hard", "options": [{"text": "Whether the maker still sends fixes and the device still installs them", "correct": true, "explanation": "Without updates, known flaws stay open indefinitely."}, {"text": "Whether it still turns on", "correct": false, "explanation": "Working isn't the same as secure."}, {"text": "Its color", "correct": false, "explanation": "Update support is what matters."}]},
+];
 
 export default function Post() {
   return (

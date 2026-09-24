@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-communication",
   tags: ["how email works", "SMTP explained", "email delivery", "digital communication", "DNS MX record", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Email doesn't teleport — it hops from your mail app to your provider's server, through a DNS lookup, straight to the recipient's mail server over SMTP.",
   summary: "Email is delivered by SMTP (Simple Mail Transfer Protocol), a standardized handoff process where your outgoing mail server looks up the recipient's mail server in DNS and relays the message directly to it.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which protocol handles sending and relaying email?", "difficulty": "easy", "options": [{"text": "SMTP", "correct": true, "explanation": "SMTP moves mail from server to server."}, {"text": "IMAP", "correct": false, "explanation": "IMAP retrieves mail that has already arrived."}, {"text": "HTTP", "correct": false, "explanation": "HTTP is for web pages, not mail relay."}]},
+  {"question": "What does your email app use to fetch messages already in your mailbox?", "difficulty": "easy", "options": [{"text": "IMAP or POP", "correct": true, "explanation": "Retrieval is a separate protocol from sending."}, {"text": "SMTP", "correct": false, "explanation": "SMTP only sends and relays."}, {"text": "FTP", "correct": false, "explanation": "FTP is for file transfer, not mailbox retrieval."}]},
+  {"question": "How does your mail server find the recipient's mail server?", "difficulty": "easy", "options": [{"text": "It looks up the domain's MX record in DNS", "correct": true, "explanation": "Like asking which post office covers a ZIP code."}, {"text": "It guesses from the recipient's name", "correct": false, "explanation": "It uses DNS, not guessing."}, {"text": "It sends to every server on the internet", "correct": false, "explanation": "It delivers directly to the one server the MX record names."}]},
+  {"question": "Why does thinking of email as a chain of hops help with delivery problems?", "difficulty": "hard", "options": [{"text": "Each hop is a specific place a delay, bounce or spam flag can happen", "correct": true, "explanation": "Knowing the hops tells you where to look."}, {"text": "Because email is always delivered instantly", "correct": false, "explanation": "Delays happen at specific hops."}, {"text": "Because only the first hop matters", "correct": false, "explanation": "Any hop can fail or flag a message."}]},
+  {"question": "An email arrives six hours late with no error. What most likely happened?", "difficulty": "hard", "options": [{"text": "The receiving server was temporarily unavailable, so the sending server queued and retried", "correct": true, "explanation": "SMTP retries delivery before giving up."}, {"text": "The recipient read it and marked it unread", "correct": false, "explanation": "That wouldn't change the arrival time."}, {"text": "Email always takes six hours", "correct": false, "explanation": "It normally takes seconds."}]},
+];
 
 export default function Post() {
   return (

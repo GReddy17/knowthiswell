@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   pillar: true,
   tags: ["density", "buoyancy", "Archimedes' principle", "ships and flotation", "physics misconceptions"],
   date: "2026-09-19",
-  updated: "2026-09-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-19",
   excerpt: "A massive steel cargo ship floats while a single steel bolt sinks — weight alone doesn't decide whether something floats; density relative to the fluid does.",
   summary: "Whether an object floats or sinks depends on its density compared to the fluid it's placed in, not its total weight — a huge steel ship floats because its hollow shape spreads that same steel mass over a large enough volume that the ship's overall (average) density is lower than water's, while a solid steel bolt, with the metal's full density and no hollow space, sinks. This is Archimedes' principle in action: an object floats when it can displace a weight of fluid equal to its own weight before it's fully submerged.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What decides whether an object floats or sinks?", "difficulty": "easy", "options": [{"text": "Its total weight", "correct": false, "explanation": "Huge ships float while tiny bolts sink."}, {"text": "Its density compared with the fluid it's in", "correct": true, "explanation": "Less dense than the fluid floats; denser sinks."}, {"text": "Its color", "correct": false, "explanation": "Color has no effect on buoyancy."}]},
+  {"question": "Why does a huge steel ship float?", "difficulty": "easy", "options": [{"text": "Ship steel is lighter than normal steel", "correct": false, "explanation": "It's ordinary steel; the shape is what matters."}, {"text": "Its hollow hull spreads the steel over a large volume, so its average density is lower than water's", "correct": true, "explanation": "Most of the hull's volume is air."}, {"text": "Engines hold it up", "correct": false, "explanation": "Ships float with their engines off."}]},
+  {"question": "What does Archimedes' principle say about a floating object?", "difficulty": "easy", "options": [{"text": "It displaces a weight of fluid equal to its own weight", "correct": true, "explanation": "That's the balance point where buoyant force equals weight."}, {"text": "It weighs nothing in water", "correct": false, "explanation": "It still has weight; buoyancy balances it."}, {"text": "It must be made of wood", "correct": false, "explanation": "Any material can float if its average density is low enough."}]},
+  {"question": "Steel is about 7,850 kg/m³ and fresh water about 1,000 kg/m³. What happens to a solid steel bolt?", "difficulty": "hard", "options": [{"text": "It floats if it's small enough", "correct": false, "explanation": "Size doesn't help; a solid bolt is denser than water throughout."}, {"text": "It sinks, because it can never displace its own weight of water", "correct": true, "explanation": "At nearly 8 times water's density, even fully submerged it displaces too little."}, {"text": "It hovers halfway down", "correct": false, "explanation": "It only hovers if its density exactly matches water's."}]},
+  {"question": "Why does a breached hull eventually sink a ship made of the same steel that normally floats?", "difficulty": "hard", "options": [{"text": "The steel gets heavier when wet", "correct": false, "explanation": "The steel's weight doesn't change."}, {"text": "Water replaces the air inside, raising the ship's average density above water's", "correct": true, "explanation": "Without the air-filled volume, the density advantage disappears."}, {"text": "Salt water dissolves the hull", "correct": false, "explanation": "Sinking comes from flooding, not dissolving."}]},
+];
 
 export default function Post() {
   return (

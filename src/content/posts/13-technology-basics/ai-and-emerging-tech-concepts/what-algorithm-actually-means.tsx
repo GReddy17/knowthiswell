@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ai-and-emerging-tech-concepts",
   tags: ["what is an algorithm", "algorithms explained", "computer science basics", "how algorithms work", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "An algorithm is just a precise, step-by-step procedure for solving a problem — a recipe is one, long division is one, and so is a social feed's ranking logic.",
   summary: "An algorithm is a finite, precise sequence of steps for solving a specific problem or completing a task, a concept far older than computers and far broader than the word's modern association with social media or AI.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is an algorithm?", "difficulty": "easy", "options": [{"text": "A precise, ordered set of steps for solving a problem", "correct": true, "explanation": "A recipe or long division counts too."}, {"text": "A type of artificial intelligence", "correct": false, "explanation": "Algorithms don't imply AI."}, {"text": "A secret code only computers understand", "correct": false, "explanation": "Anyone can follow an algorithm."}]},
+  {"question": "Did algorithms exist before computers?", "difficulty": "easy", "options": [{"text": "Yes, for centuries", "correct": true, "explanation": "Recipes and long division are old algorithms."}, {"text": "No, computers invented them", "correct": false, "explanation": "The concept is much older."}, {"text": "Only since the internet", "correct": false, "explanation": "Algorithms long predate the internet."}]},
+  {"question": "Does \"algorithm\" automatically mean bias or secrecy?", "difficulty": "easy", "options": [{"text": "No, it just means a step-by-step procedure", "correct": true, "explanation": "Sorting and searching are neutral algorithms."}, {"text": "Yes, always", "correct": false, "explanation": "The word itself doesn't imply those things."}, {"text": "Only on social media", "correct": false, "explanation": "A feed ranker is still just a procedure."}]},
+  {"question": "Two algorithms sort the same list correctly, but one is much faster. What does that show?", "difficulty": "hard", "options": [{"text": "Correct algorithms can differ hugely in time and resources used", "correct": true, "explanation": "A faster algorithm is a real engineering achievement."}, {"text": "The slower one is wrong", "correct": false, "explanation": "Both are correct; only their efficiency differs."}, {"text": "Speed depends only on the computer", "correct": false, "explanation": "The method itself matters a lot."}]},
+  {"question": "Why does finding the largest number need to check each item only once?", "difficulty": "hard", "options": [{"text": "It keeps the biggest so far and compares each new number to it", "correct": true, "explanation": "One pass is enough to know the maximum."}, {"text": "It sorts the whole list first", "correct": false, "explanation": "Sorting isn't needed for the maximum."}, {"text": "It guesses", "correct": false, "explanation": "It compares systematically."}]},
+];
 
 export default function Post() {
   return (

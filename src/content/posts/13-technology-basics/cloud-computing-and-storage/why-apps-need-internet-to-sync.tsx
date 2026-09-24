@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cloud-computing-and-storage",
   tags: ["how sync works", "app sync explained", "offline changes", "sync conflicts", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Two devices don't sync by talking to each other directly — they both reach the same central server, which is exactly why sync stops the moment either loses internet.",
   summary: "Syncing is the process of reconciling changes between a local copy of data and a central server so multiple devices reflect the same current state, which requires an internet connection because devices don't normally exchange changes directly with each other.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How do your phone and laptop usually sync?", "difficulty": "easy", "options": [{"text": "Each connects separately to the same central server", "correct": true, "explanation": "They rarely talk to each other directly."}, {"text": "They connect directly to each other", "correct": false, "explanation": "Sync goes through a server."}, {"text": "Through Bluetooth only", "correct": false, "explanation": "Most sync runs through an internet server."}]},
+  {"question": "What happens to changes made offline in a well-designed app?", "difficulty": "easy", "options": [{"text": "They're queued locally and sent once the connection returns", "correct": true, "explanation": "They aren't lost, just delayed."}, {"text": "They're deleted", "correct": false, "explanation": "Good apps keep them in a queue."}, {"text": "They're sent by text message", "correct": false, "explanation": "They wait for the internet."}]},
+  {"question": "Why does sync fail the moment a device loses internet?", "difficulty": "easy", "options": [{"text": "It can't reach the central server to send or receive changes", "correct": true, "explanation": "The server is the go-between."}, {"text": "The app forgets your account", "correct": false, "explanation": "It still knows your account; it just can't connect."}, {"text": "Sync only works at home", "correct": false, "explanation": "It works anywhere with internet."}]},
+  {"question": "The same note is edited differently on two offline devices. What does the app face when they reconnect?", "difficulty": "hard", "options": [{"text": "A genuine conflict it must resolve with its own rule", "correct": true, "explanation": "Different apps resolve conflicts differently."}, {"text": "A bug that deletes both", "correct": false, "explanation": "It's an expected situation, not a bug."}, {"text": "Nothing; both edits merge perfectly every time", "correct": false, "explanation": "Automatic merging isn't always possible."}]},
+  {"question": "After an office outage ends, a burst of old messages appears at once. Why?", "difficulty": "hard", "options": [{"text": "Messages queued during the outage all sync as soon as the connection returns", "correct": true, "explanation": "The queue empties in one go."}, {"text": "People all typed at once", "correct": false, "explanation": "They were already waiting in queues."}, {"text": "The server duplicated messages", "correct": false, "explanation": "It's the queued backlog arriving."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "software-and-operating-systems",
   tags: ["open source software", "proprietary software", "software licensing", "free software", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Open source is about who can see and change the code, not about price — plenty of open source software is sold, and plenty of free software is proprietary.",
   summary: "Open source and proprietary software differ in whether a program's source code is publicly published and legally allowed to be inspected, modified, and redistributed, which is a separate question from whether the software costs money.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What makes software open source?", "difficulty": "easy", "options": [{"text": "Its source code is public and legally modifiable under its license", "correct": true, "explanation": "Price has nothing to do with it."}, {"text": "It's free to download", "correct": false, "explanation": "Free proprietary software exists."}, {"text": "It has no license at all", "correct": false, "explanation": "Open source licenses have real, enforceable terms."}]},
+  {"question": "Does receiving free updates make software open source?", "difficulty": "easy", "options": [{"text": "No, updates say nothing about whether the source code is public", "correct": true, "explanation": "Source visibility is the dividing line."}, {"text": "Yes, always", "correct": false, "explanation": "Proprietary software often has free updates."}, {"text": "Only after 5 years", "correct": false, "explanation": "Time doesn't change the license."}]},
+  {"question": "What is a \"fork\"?", "difficulty": "easy", "options": [{"text": "An independent group taking a project's public code and developing it separately", "correct": true, "explanation": "It's only possible when the code is open."}, {"text": "A bug in the code", "correct": false, "explanation": "A fork is a separate line of development."}, {"text": "A paid upgrade", "correct": false, "explanation": "Forks come from public code, not purchases."}]},
+  {"question": "Can a company build a proprietary product on top of open source code?", "difficulty": "hard", "options": [{"text": "Often yes, depending on the open source license's terms", "correct": true, "explanation": "Permissive licenses allow it; some licenses add conditions."}, {"text": "Never", "correct": false, "explanation": "Many proprietary products include open source parts."}, {"text": "Only if the company is non-profit", "correct": false, "explanation": "For-profit companies do this often."}]},
+  {"question": "Does keeping source code private guarantee better security?", "difficulty": "hard", "options": [{"text": "No, hidden code isn't automatically safer; security depends on how it's built and reviewed", "correct": true, "explanation": "Public code can be widely audited, and private code can hide flaws."}, {"text": "Yes, private code is always secure", "correct": false, "explanation": "Secrecy isn't a guarantee."}, {"text": "Yes, attackers can't find bugs in private code", "correct": false, "explanation": "Attackers find flaws in closed software too."}]},
+];
 
 export default function Post() {
   return (

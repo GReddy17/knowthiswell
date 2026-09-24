@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "flooring-and-interior-basics",
   tags: ["hardwood floors", "wood movement", "humidity", "flooring installation", "home maintenance"],
   date: "2026-09-17",
-  updated: "2026-09-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-17",
   excerpt: "Wood boards don't swell evenly — they move almost entirely across the grain, which is why installers leave a gap you'll never see once trim is in place.",
   summary: "Wood is hygroscopic — it absorbs and releases moisture from the surrounding air — and as its internal moisture content rises or falls, the wood swells or shrinks almost entirely across the grain (its width), not along it (its length), which is why a hardwood floor visibly gaps in dry winter air and can cup or buckle in humid summer conditions if it wasn't installed with room to move.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does \"hygroscopic\" mean for wood?", "difficulty": "easy", "options": [{"text": "It constantly absorbs and releases moisture from the air", "correct": true, "explanation": "Even finished, installed floors keep doing this."}, {"text": "It repels all water", "correct": false, "explanation": "Wood takes up and gives off moisture."}, {"text": "It only changes size when wet", "correct": false, "explanation": "Ordinary humidity changes are enough."}]},
+  {"question": "In dry winter air, what do hardwood boards do?", "difficulty": "easy", "options": [{"text": "Swell and press together", "correct": false, "explanation": "That happens in humid air."}, {"text": "Shrink slightly, opening small gaps between boards", "correct": true, "explanation": "They lose moisture to the dry air."}, {"text": "Stay exactly the same", "correct": false, "explanation": "Wood moves with humidity."}]},
+  {"question": "Why do installers leave a hidden gap around a hardwood floor's edges?", "difficulty": "easy", "options": [{"text": "To give seasonal expansion somewhere to go without buckling", "correct": true, "explanation": "Without it, swelling boards push against the walls."}, {"text": "To save wood", "correct": false, "explanation": "The gap is about movement, not saving material."}, {"text": "For air circulation under the floor", "correct": false, "explanation": "Its job is room to expand."}]},
+  {"question": "Why do gaps appear between the sides of boards rather than at their ends?", "difficulty": "hard", "options": [{"text": "Almost all wood movement happens across the grain (width), not along it (length)", "correct": true, "explanation": "Boards change width far more than length."}, {"text": "Nails hold the ends tighter", "correct": false, "explanation": "The reason is how wood itself moves."}, {"text": "Board ends are glued", "correct": false, "explanation": "It's the direction of wood movement."}]},
+  {"question": "Why leave new flooring in the room for several days before installing it?", "difficulty": "hard", "options": [{"text": "To let it adjust to the room's humidity so it doesn't shrink or swell much after installation", "correct": true, "explanation": "Acclimating brings its moisture content in line with the space."}, {"text": "To let the finish dry", "correct": false, "explanation": "The purpose is matching moisture content."}, {"text": "To check for damage", "correct": false, "explanation": "Inspection is separate; acclimation is about moisture."}]},
+];
 
 export default function Post() {
   return (

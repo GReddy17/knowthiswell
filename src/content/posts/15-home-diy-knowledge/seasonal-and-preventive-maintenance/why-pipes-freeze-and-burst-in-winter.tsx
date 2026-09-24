@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "seasonal-and-preventive-maintenance",
   tags: ["frozen pipes", "winter maintenance", "plumbing", "water expansion", "home maintenance"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-12",
   excerpt: "A frozen pipe doesn't burst where the ice is — it bursts wherever trapped pressure builds up between the ice plug and a closed faucet, often far from the freeze itself.",
   summary: "Water is one of the few common substances that expands, not contracts, when it freezes — about 9% by volume. Inside a closed pipe, that expansion has nowhere to go, and continued freezing keeps building pressure between the ice blockage and whatever's sealed on the other side, until something gives, usually not at the ice itself but at a weaker point in the pipe wall some distance away.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "By how much does water expand when it freezes?", "difficulty": "easy", "options": [{"text": "About 9% in volume", "correct": true, "explanation": "Unusually, water expands instead of shrinking when it freezes."}, {"text": "It shrinks by 9%", "correct": false, "explanation": "Most liquids shrink, but water expands."}, {"text": "It doesn't change", "correct": false, "explanation": "The expansion is what causes trouble in pipes."}]},
+  {"question": "Where does a frozen pipe usually burst?", "difficulty": "easy", "options": [{"text": "Exactly where the ice is", "correct": false, "explanation": "It often fails somewhere else."}, {"text": "Wherever trapped water pressure finds the weakest point in the pipe", "correct": true, "explanation": "Pressure builds between the ice plug and a closed faucet."}, {"text": "Only at the water meter", "correct": false, "explanation": "It can be anywhere along the trapped section."}]},
+  {"question": "Why does leaving a faucet dripping help during a hard freeze?", "difficulty": "easy", "options": [{"text": "It keeps the system open so pressure can escape", "correct": true, "explanation": "Relieving pressure is the key, not the speed of the water."}, {"text": "It heats the water", "correct": false, "explanation": "Dripping doesn't add heat."}, {"text": "It stops ice from ever forming", "correct": false, "explanation": "Ice can still form; the pressure just has somewhere to go."}]},
+  {"question": "Why does leaving a hose attached to an outdoor spigot raise the burst risk?", "difficulty": "hard", "options": [{"text": "The hose seals the far end, trapping water between the ice plug and the hose", "correct": true, "explanation": "A closed system lets pressure build."}, {"text": "Hoses conduct cold into the house", "correct": false, "explanation": "The issue is trapped pressure, not cold conduction."}, {"text": "Hoses add extra water", "correct": false, "explanation": "The problem is sealing, not extra water."}]},
+  {"question": "A pipe bursts in a heated basement, but the ice is found in an unheated crawlspace. How?", "difficulty": "hard", "options": [{"text": "The ice plug trapped pressure that traveled to the weakest joint, far from the ice", "correct": true, "explanation": "Freezing and bursting can happen in different places."}, {"text": "The basement pipe froze too, unseen", "correct": false, "explanation": "A heated basement pipe usually doesn't freeze; the pressure moved."}, {"text": "Heat caused the burst", "correct": false, "explanation": "The trapped pressure from freezing did."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "devices-and-hardware-basics",
   tags: ["fingerprint sensor", "face unlock", "biometrics", "capacitive sensor", "device security", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Neither fingerprint nor face unlock stores an actual image of you — both convert the scan into a mathematical template and compare future scans against that template, never the raw picture.",
   summary: "Fingerprint unlock typically uses a capacitive sensor that reads the pattern of ridges and valleys on a finger as tiny differences in electrical capacitance, while 3D face unlock projects thousands of invisible infrared dots to build a depth map of the face — and both convert their reading into a mathematical template rather than storing a raw image.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How does a capacitive fingerprint sensor read your finger?", "difficulty": "easy", "options": [{"text": "Electrically, from the ridges sitting closer to the sensor than the valleys", "correct": true, "explanation": "It measures capacitance differences, not a photo."}, {"text": "By taking a close-up photo", "correct": false, "explanation": "Capacitive sensors don't take pictures."}, {"text": "By sensing body heat", "correct": false, "explanation": "It measures capacitance, not heat."}]},
+  {"question": "What does a phone store after you set up a fingerprint?", "difficulty": "easy", "options": [{"text": "A mathematical template of the pattern", "correct": true, "explanation": "Future scans are compared against the template."}, {"text": "A photo of your finger", "correct": false, "explanation": "No raw image is kept for comparison."}, {"text": "Your name in fingerprint form", "correct": false, "explanation": "It stores numbers describing the pattern."}]},
+  {"question": "What does secure 3D face unlock project onto your face?", "difficulty": "easy", "options": [{"text": "Thousands of invisible infrared dots", "correct": true, "explanation": "They let it build a depth map of your face."}, {"text": "A bright white flash", "correct": false, "explanation": "It uses invisible infrared light."}, {"text": "Nothing; it just uses the camera", "correct": false, "explanation": "Secure 3D systems project an infrared pattern."}]},
+  {"question": "Why can't a printed photo fool a 3D infrared face-unlock system?", "difficulty": "hard", "options": [{"text": "The photo is flat, so it has no depth to match the stored 3D map", "correct": true, "explanation": "Depth is exactly what a flat photo can't provide."}, {"text": "Phones can tell paper by its smell", "correct": false, "explanation": "It's about depth, not material."}, {"text": "Photos are always blurry", "correct": false, "explanation": "Even a sharp photo is flat."}]},
+  {"question": "Why does fingerprint setup ask for several touches at different angles?", "difficulty": "hard", "options": [{"text": "A single scan rarely captures the whole ridge pattern cleanly", "correct": true, "explanation": "Multiple angles build a fuller template."}, {"text": "To test the screen", "correct": false, "explanation": "The goal is a complete fingerprint template."}, {"text": "To register other fingers", "correct": false, "explanation": "It's the same finger, at different angles."}]},
+];
 
 export default function Post() {
   return (

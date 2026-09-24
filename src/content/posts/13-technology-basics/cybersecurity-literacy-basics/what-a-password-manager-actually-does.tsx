@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cybersecurity-literacy-basics",
   tags: ["password manager", "password security", "digital identity", "cybersecurity basics", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A password manager is an encrypted lookup vault, not a memory trick — it stores one unique password per site and matches it by exact address, unlocked by a single master password.",
   summary: "A password manager is software that stores a separate, unique password for every account inside an encrypted vault, and retrieves the correct one by matching the exact site address, so a person only ever has to remember one master password or unlock method.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a password manager, basically?", "difficulty": "easy", "options": [{"text": "An encrypted vault with one separate entry per site", "correct": true, "explanation": "Like a lockbox of labeled envelopes."}, {"text": "A tool that makes one password work everywhere", "correct": false, "explanation": "It stores a different password for each site."}, {"text": "A browser's history list", "correct": false, "explanation": "It's a dedicated encrypted vault."}]},
+  {"question": "How many passwords do you actually need to remember with a password manager?", "difficulty": "easy", "options": [{"text": "One: the master password", "correct": true, "explanation": "It unlocks the whole vault."}, {"text": "All of them", "correct": false, "explanation": "The manager remembers them for you."}, {"text": "None, ever", "correct": false, "explanation": "You still need the master password or device unlock."}]},
+  {"question": "What does a password manager make practical?", "difficulty": "easy", "options": [{"text": "A long, unique, computer-generated password for every account", "correct": true, "explanation": "You never have to memorize them."}, {"text": "Reusing one password safely", "correct": false, "explanation": "Its point is avoiding reuse."}, {"text": "Skipping passwords entirely on all sites", "correct": false, "explanation": "Sites still need passwords; the manager fills them."}]},
+  {"question": "A manager that usually autofills offers nothing on a page that looks identical to your bank's. What may be happening?", "difficulty": "hard", "options": [{"text": "The address doesn't exactly match the saved site, which can signal a phishing copy", "correct": true, "explanation": "It matches by exact address, not appearance."}, {"text": "The manager is broken", "correct": false, "explanation": "Silence on a lookalike page is often a useful warning."}, {"text": "Banks block password managers", "correct": false, "explanation": "The mismatch is the likely cause."}]},
+  {"question": "What remains a real risk even with a password manager?", "difficulty": "hard", "options": [{"text": "A weak master password, a lost recovery code or a breach of the provider", "correct": true, "explanation": "Any of these can expose everything at once."}, {"text": "Nothing at all", "correct": false, "explanation": "It reduces risk but isn't unbreakable."}, {"text": "Websites refusing long passwords", "correct": false, "explanation": "The main risks center on the vault's key."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "skill-building-and-self-directed-learning",
   tags: ["learning curve", "skill acquisition", "power law of practice", "plateau", "self-directed learning"],
   date: "2026-09-03",
-  updated: "2026-09-03",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-03",
   excerpt: "A learning curve plots proficiency against practice — and for nearly every real skill it bends, with fast early gains and slower gains later, rather than rising in a straight line.",
   summary: "A learning curve is a chart of how proficiency changes as practice accumulates. For most real skills it isn't a straight line: gains are steep early on, then progressively smaller for the same amount of added practice, often flattening into plateaus along the way and approaching, but rarely reaching, a performance ceiling. The bend itself is the useful information — it explains why early progress feels fast and later progress feels slow, even when both periods involve real improvement.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a learning curve plot?", "difficulty": "easy", "options": [{"text": "How much a skill improves against how much it's practiced", "correct": true, "explanation": "Proficiency on one axis, amount of practice on the other."}, {"text": "How much a person enjoys learning over time", "correct": false, "explanation": "It measures skill, not enjoyment."}, {"text": "The cost of training over time", "correct": false, "explanation": "Cost isn't what a learning curve shows."}]},
+  {"question": "What shape does a typical learning curve have?", "difficulty": "easy", "options": [{"text": "A straight line rising at a steady rate", "correct": false, "explanation": "Real skills rarely improve at a constant rate."}, {"text": "Steep early gains that bend toward flatter later", "correct": true, "explanation": "Fast early progress, then smaller gains as you approach the ceiling."}, {"text": "Flat at first, then a sudden jump", "correct": false, "explanation": "Most curves rise quickly at the start, not the end."}]},
+  {"question": "What is a plateau on a learning curve most often a sign of?", "difficulty": "easy", "options": [{"text": "You have reached your permanent natural limit", "correct": false, "explanation": "True hard limits exist but are far less common than perceived plateaus."}, {"text": "The current practice method has been maxed out", "correct": true, "explanation": "Changing something concrete about the method often restarts gains."}, {"text": "You are practicing too little", "correct": false, "explanation": "Plateaus often happen even at steady practice time."}]},
+  {"question": "Why does the same extra hour of practice buy less improvement for an expert than for a beginner?", "difficulty": "hard", "options": [{"text": "Experts practice with less effort", "correct": false, "explanation": "The effect happens even with equal effort."}, {"text": "The closer a skill gets to its ceiling, the smaller the remaining gap each hour can close", "correct": true, "explanation": "Curves approach the ceiling without reaching it, so gains shrink."}, {"text": "Experts forget more than beginners", "correct": false, "explanation": "Forgetting isn't what bends the curve."}]},
+  {"question": "A language learner's progress stalls for three weeks. What does the article suggest trying before concluding they've hit their limit?", "difficulty": "hard", "options": [{"text": "Stop studying for a few months", "correct": false, "explanation": "A break doesn't change the method that has been maxed out."}, {"text": "Change something concrete about the method, such as live conversation practice with feedback", "correct": true, "explanation": "A new strategy often restarts gains that the old one had exhausted."}, {"text": "Keep doing exactly the same routine until gains return", "correct": false, "explanation": "If the current strategy is maxed out, repeating it rarely breaks the plateau."}]},
+];
 
 export default function Post() {
   return (

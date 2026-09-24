@@ -95,3 +95,17 @@ export interface RawPost extends PostMeta {
   Component?: React.ComponentType;
   body?: string;
 }
+
+/**
+ * One question in a post's quiz bank: `export const quiz: QuizBankItem[]` in
+ * the post file. Not rendered inline. Together with the post's inline
+ * <QuickCheck>s it feeds the end-of-article "Test yourself" quiz (5 random
+ * per attempt) and the KnowThisWell game. Rule: 9+ questions per post
+ * counting inline QuickChecks, soft cap ~15; values must be plain literals so
+ * scripts/generate-question-pool.mjs can extract them.
+ */
+export interface QuizBankItem {
+  question: string;
+  options: { text: string; correct: boolean; explanation: string }[];
+  difficulty: 'easy' | 'medium' | 'hard';
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ai-and-emerging-tech-concepts",
   tags: ["machine learning", "how machine learning works", "training data", "artificial intelligence basics", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Machine learning is pattern-fitting from examples, not thinking — a model adjusts itself until its guesses match known answers, then freezes and applies the pattern.",
   summary: "Machine learning is a method for getting a computer to improve at a task by repeatedly comparing its own guesses against known correct answers and adjusting itself to reduce the error, rather than being explicitly programmed with fixed rules.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is machine learning's basic loop?", "difficulty": "easy", "options": [{"text": "Guess, check against a known answer, adjust slightly, repeat", "correct": true, "explanation": "It repeats until errors get small."}, {"text": "Follow rules a programmer wrote for every case", "correct": false, "explanation": "That's traditional programming, not ML."}, {"text": "Memorize the internet", "correct": false, "explanation": "It learns patterns from labeled examples."}]},
+  {"question": "What is \"inference\"?", "difficulty": "easy", "options": [{"text": "Using a trained model to answer new questions", "correct": true, "explanation": "It applies what was already learned."}, {"text": "Training the model", "correct": false, "explanation": "Training comes first; inference is using it."}, {"text": "Deleting old data", "correct": false, "explanation": "Inference means applying the model."}]},
+  {"question": "What does a trained model actually learn?", "difficulty": "easy", "options": [{"text": "A statistical pattern from its examples", "correct": true, "explanation": "Not an understanding of the subject."}, {"text": "A true understanding of the subject", "correct": false, "explanation": "It learns correlations in data."}, {"text": "The exact rules a human would write", "correct": false, "explanation": "It discovers patterns, not written rules."}]},
+  {"question": "Does a deployed model keep learning from each question you ask it?", "difficulty": "hard", "options": [{"text": "Not by default; once training stops, the model is frozen", "correct": true, "explanation": "Inference doesn't change the model."}, {"text": "Yes, every question retrains it", "correct": false, "explanation": "Training and using a model are separate phases."}, {"text": "Only on weekends", "correct": false, "explanation": "Deployed models don't update from normal use by default."}]},
+  {"question": "A home-price model trained on City A does worse in City B. Why?", "difficulty": "hard", "options": [{"text": "City B's data differs from the patterns it learned in City A", "correct": true, "explanation": "Models are confidently wrong on cases unlike their training data."}, {"text": "The model forgot City A", "correct": false, "explanation": "It remembers; City B just doesn't match."}, {"text": "City B's houses are all the same price", "correct": false, "explanation": "The issue is a mismatch with the training data."}]},
+];
 
 export default function Post() {
   return (

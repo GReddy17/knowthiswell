@@ -5,7 +5,56 @@ import Link from 'next/link';
 import { track } from '@vercel/analytics';
 import type { QuizQuestion } from '@/lib/article-quiz';
 
+const ATTEMPT_SIZE = 5;
+const ORDER = { easy: 0, medium: 1, hard: 2 } as const;
+
+/** Target mix per attempt; any shortfall is filled from whatever is left. */
+const MIX = { easy: 2, medium: 2, hard: 1 } as const;
+
+function shuffle<T>(items: T[], random: () => number): T[] {
+  const a = [...items];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/** Picks ATTEMPT_SIZE questions aiming for the MIX of difficulties, always
+ *  preferring questions the previous attempt didn't show, ordered easy → hard.
+ *  `random` is injected so the first (server-rendered) attempt is deterministic
+ *  and later ones are random. */
+function drawAttempt(bank: QuizQuestion[], previous: QuizQuestion[], random: () => number): QuizQuestion[] {
+  // Fresh questions first, previously seen ones only as a fallback.
+  const ranked = [
+    ...shuffle(bank.filter((q) => !previous.includes(q)), random),
+    ...shuffle(bank.filter((q) => previous.includes(q)), random),
+  ];
+  const picked: QuizQuestion[] = [];
+  for (const level of ['easy', 'medium', 'hard'] as const) {
+    picked.push(...ranked.filter((q) => q.difficulty === level).slice(0, MIX[level]));
+  }
+  for (const q of ranked) {
+    if (picked.length >= ATTEMPT_SIZE) break;
+    if (!picked.includes(q)) picked.push(q);
+  }
+  return picked.slice(0, ATTEMPT_SIZE).sort((a, b) => ORDER[a.difficulty] - ORDER[b.difficulty]);
+}
+
+/** Tiny seeded generator for the first attempt (stable across server/client). */
+function seeded(seed: string): () => number {
+  let x = 0;
+  for (let i = 0; i < seed.length; i++) x = (Math.imul(x, 31) + seed.charCodeAt(i)) | 0;
+  return () => {
+    x ^= x << 13;
+    x ^= x >>> 17;
+    x ^= x << 5;
+    return ((x >>> 0) % 10000) / 10000;
+  };
+}
+
 interface TestYourselfProps {
+  /** The article's whole bank; each attempt draws 5 of them. */
   questions: QuizQuestion[];
   /** "category/slug", used only to label analytics events. */
   articleKey: string;
@@ -17,13 +66,14 @@ interface TestYourselfProps {
  * Unlike the inline QuickCheck, this one is graded — it's the "did it stick?"
  * check after reading, and the web entry point for the KnowThisWell game.
  */
-export function TestYourself({ questions, articleKey }: TestYourselfProps) {
+export function TestYourself({ questions: bank, articleKey }: TestYourselfProps) {
+  const [questions, setQuestions] = useState(() => drawAttempt(bank, [], seeded(articleKey)));
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [answers, setAnswers] = useState<boolean[]>([]);
   const [started, setStarted] = useState(false);
 
-  if (questions.length === 0) return null;
+  if (bank.length === 0) return null;
 
   const done = answers.length === questions.length && selected === null;
   const score = answers.filter(Boolean).length;
@@ -53,6 +103,7 @@ export function TestYourself({ questions, articleKey }: TestYourselfProps) {
   }
 
   function restart() {
+    setQuestions(drawAttempt(bank, questions, Math.random));
     setIndex(0);
     setSelected(null);
     setAnswers([]);
@@ -109,7 +160,11 @@ export function TestYourself({ questions, articleKey }: TestYourselfProps) {
             onClick={restart}
             className="mt-4 rounded border border-ink px-4 py-2 font-utility text-sm text-ink hover:bg-paper"
           >
-            Try again
+            {bank.length >= 2 * ATTEMPT_SIZE
+              ? 'Try 5 new questions'
+              : bank.length > ATTEMPT_SIZE
+                ? 'Try again with different questions'
+                : 'Try again'}
           </button>
         </div>
       )}

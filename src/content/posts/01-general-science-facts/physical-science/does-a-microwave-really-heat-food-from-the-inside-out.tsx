@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   pillar: true,
   tags: ["microwaves", "electromagnetic radiation", "dielectric heating", "food safety", "physics misconceptions"],
   date: "2026-09-19",
-  updated: "2026-09-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-19",
   excerpt: "Microwaves don't heat from the inside out — they penetrate only a couple of centimeters into food from every exposed surface, which is why the center of a thick item often stays cold.",
   summary: "A microwave oven heats food by emitting electromagnetic waves that make water molecules rotate rapidly, generating heat through molecular friction — but those waves only penetrate roughly 1-1.5 inches (2.5-4 cm) into typical food before being absorbed, entering from every exposed surface at once, not from some special interior source. In a thin or small item, that penetration can reach the center from multiple sides almost simultaneously, creating the illusion of inside-out heating, but in a thick item the center is heated last, by conduction from the already-hot outer layers — exactly the opposite of \"inside out.\"",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How deep do microwaves typically penetrate food?", "difficulty": "easy", "options": [{"text": "About 1 to 1.5 inches (2.5 to 4 cm)", "correct": true, "explanation": "They enter from every exposed surface."}, {"text": "All the way through any size of food", "correct": false, "explanation": "Penetration is shallow."}, {"text": "Only the surface skin", "correct": false, "explanation": "They reach a few centimeters in."}]},
+  {"question": "Do microwaves heat food from the inside out?", "difficulty": "easy", "options": [{"text": "No, they enter from every surface and don't target the center", "correct": true, "explanation": "Size and shape create the illusion."}, {"text": "Yes, always", "correct": false, "explanation": "There's no inside-out targeting."}, {"text": "Only frozen food", "correct": false, "explanation": "The mechanism is the same for all food."}]},
+  {"question": "How does the center of a large roast get heated in a microwave?", "difficulty": "easy", "options": [{"text": "Last, by ordinary conduction from the hot outer layers", "correct": true, "explanation": "The opposite of inside-out."}, {"text": "First, directly by microwaves", "correct": false, "explanation": "Microwaves can't reach that deep."}, {"text": "It never heats", "correct": false, "explanation": "Conduction eventually carries heat inward."}]},
+  {"question": "Why can a small mug of water heat almost evenly?", "difficulty": "hard", "options": [{"text": "Microwaves reach its center from several sides at once", "correct": true, "explanation": "That's what creates the inside-out illusion in small items."}, {"text": "Water blocks microwaves", "correct": false, "explanation": "Water absorbs them well."}, {"text": "Mugs heat the water", "correct": false, "explanation": "The microwaves heat the water directly."}]},
+  {"question": "Why does standing time after microwaving matter for dense foods?", "difficulty": "hard", "options": [{"text": "Heat keeps conducting inward, evening out cold spots in the center", "correct": true, "explanation": "The center finishes heating during standing time."}, {"text": "It lets the microwave cool down", "correct": false, "explanation": "It's about heat spreading through the food."}, {"text": "It makes food taste saltier", "correct": false, "explanation": "Standing time evens out temperature."}]},
+];
 
 export default function Post() {
   return (

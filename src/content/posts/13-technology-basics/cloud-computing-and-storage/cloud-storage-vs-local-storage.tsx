@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cloud-computing-and-storage",
   tags: ["cloud storage", "local storage", "storage trade-offs", "data redundancy", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Cloud storage trades a single local drive for redundancy and remote access — but it requires internet, ongoing cost, and trust in a provider's practices.",
   summary: "Cloud storage keeps data on a provider's remote, redundant servers reachable over the internet, while local storage keeps data on a physical device you hold — each trades access, durability, and cost differently.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the main risk of keeping files only on one local drive?", "difficulty": "easy", "options": [{"text": "A single drive failure, theft or fire can destroy the only copy", "correct": true, "explanation": "Local-only storage is a single point of failure by default."}, {"text": "It's always slower than the cloud", "correct": false, "explanation": "Local access is usually faster."}, {"text": "Nobody can open the files", "correct": false, "explanation": "Local files open instantly; the risk is losing them."}]},
+  {"question": "What does cloud storage require that local storage doesn't?", "difficulty": "easy", "options": [{"text": "An internet connection and trust in the provider", "correct": true, "explanation": "You need to reach it and rely on the company."}, {"text": "A bigger computer", "correct": false, "explanation": "Cloud storage uses the provider's servers."}, {"text": "Nothing at all", "correct": false, "explanation": "It depends on connectivity and the provider."}]},
+  {"question": "Is either cloud or local storage a complete backup strategy on its own?", "difficulty": "easy", "options": [{"text": "No, the most resilient approach combines both", "correct": true, "explanation": "That follows the logic of the 3-2-1 backup rule."}, {"text": "Yes, cloud alone is always enough", "correct": false, "explanation": "Cloud still depends on connection and the provider."}, {"text": "Yes, local alone is always enough", "correct": false, "explanation": "Local-only has a single point of failure."}]},
+  {"question": "What does the 3-2-1 backup rule describe?", "difficulty": "hard", "options": [{"text": "3 copies of data, on 2 different kinds of storage, with 1 kept off-site", "correct": true, "explanation": "Combining local and cloud achieves this."}, {"text": "3 passwords, 2 devices, 1 account", "correct": false, "explanation": "It's about copies of data, not passwords."}, {"text": "Back up 3 times a day for 2 weeks", "correct": false, "explanation": "It's about where copies live, not frequency."}]},
+  {"question": "Why might a video editor work from a local drive even with fast cloud storage?", "difficulty": "hard", "options": [{"text": "Large video files load and scrub faster locally, with no connection delays", "correct": true, "explanation": "Local storage has no internet dependency or latency."}, {"text": "Cloud storage can't hold video", "correct": false, "explanation": "It can; speed and connection are the issue."}, {"text": "Local drives never fail", "correct": false, "explanation": "They can, which is why editors also back up."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   pillar: true,
   tags: ["thermal conductivity", "heat transfer", "temperature perception", "materials science", "physics misconceptions"],
   date: "2026-09-19",
-  updated: "2026-09-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-19",
   excerpt: "A metal railing and a wooden fence sitting in the same room are the same temperature — metal just pulls heat out of your hand far faster, which your nerves register as \"colder.\"",
   summary: "Temperature and the sensation of coldness aren't the same thing — what you feel is the rate at which heat leaves your skin, not the object's temperature itself. Metal has a thermal conductivity roughly 400-1,000 times higher than wood, so touching metal at room temperature draws heat away from your hand dramatically faster than touching wood at that identical temperature, and your skin's nerve endings interpret that fast heat loss as \"cold\" even though a thermometer would read the same number for both.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does your skin actually sense when you touch an object?", "difficulty": "easy", "options": [{"text": "The object's exact temperature", "correct": false, "explanation": "Skin has no built-in thermometer."}, {"text": "How fast heat is leaving or entering your skin", "correct": true, "explanation": "Nerve endings respond to the rate of heat transfer."}, {"text": "The object's weight", "correct": false, "explanation": "Weight is sensed by different nerves and isn't related to warmth."}]},
+  {"question": "Roughly how much faster does metal conduct heat than wood?", "difficulty": "easy", "options": [{"text": "About twice as fast", "correct": false, "explanation": "The real difference is far bigger."}, {"text": "About 400 to 1,000 times faster", "correct": true, "explanation": "That's why metal pulls warmth from your hand so quickly."}, {"text": "The same speed", "correct": false, "explanation": "They differ hugely in thermal conductivity."}]},
+  {"question": "A metal doorknob and a wooden door are in the same room. What would a thermometer show?", "difficulty": "easy", "options": [{"text": "The metal is much colder", "correct": false, "explanation": "It only feels colder; both are at room temperature."}, {"text": "Both are the same room temperature", "correct": true, "explanation": "The difference you feel is heat transfer rate, not temperature."}, {"text": "The wood is much warmer", "correct": false, "explanation": "Both settle to the same room temperature."}]},
+  {"question": "Why does a tile floor feel colder under bare feet than carpet at the same temperature?", "difficulty": "hard", "options": [{"text": "Tile conducts heat away from your feet much faster than carpet", "correct": true, "explanation": "Carpet traps air, a poor conductor, so it pulls heat slowly."}, {"text": "Tile is always a few degrees colder", "correct": false, "explanation": "Measured, they're the same temperature."}, {"text": "Carpet produces its own heat", "correct": false, "explanation": "Carpet doesn't generate heat; it just conducts it poorly."}]},
+  {"question": "Why does a metal spoon feel cold in a drawer but scalding when left in a hot pan?", "difficulty": "hard", "options": [{"text": "Metal changes temperature more than other materials", "correct": false, "explanation": "The swing in feeling comes from how fast it transfers heat, in either direction."}, {"text": "Its high conductivity moves heat quickly in whichever direction the temperature difference points", "correct": true, "explanation": "Out of your hand when cooler, into your hand when hotter."}, {"text": "Pans make metal radioactive", "correct": false, "explanation": "Heating doesn't make metal radioactive."}]},
+];
 
 export default function Post() {
   return (

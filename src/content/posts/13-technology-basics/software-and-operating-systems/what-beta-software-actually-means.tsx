@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "software-and-operating-systems",
   tags: ["beta software", "software testing", "release channels", "alpha vs beta", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Beta doesn't mean broken and it doesn't mean finished — it means feature-complete software being tested at scale before its official stable release.",
   summary: "Beta software is a feature-complete but not fully validated version of a program, released to a wider group of testers than earlier internal stages so real-world use can surface bugs before the software's official stable release.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does \"beta\" software mean?", "difficulty": "easy", "options": [{"text": "Feature-complete but not yet proven at real-world scale", "correct": true, "explanation": "All intended features are present; testing continues."}, {"text": "Missing most of its features", "correct": false, "explanation": "Beta is usually feature-complete."}, {"text": "Finished and fully supported", "correct": false, "explanation": "That's the stable release."}]},
+  {"question": "Why do companies recruit outside beta testers?", "difficulty": "easy", "options": [{"text": "No internal team can replicate the variety of real devices and usage", "correct": true, "explanation": "Real-world diversity exposes new bugs."}, {"text": "To save on paying testers", "correct": false, "explanation": "The goal is real-world variety."}, {"text": "Because internal testing is banned", "correct": false, "explanation": "It's about scale and diversity."}]},
+  {"question": "What is the trade-off of joining a beta?", "difficulty": "easy", "options": [{"text": "Earlier access to new features, with a real risk of bugs", "correct": true, "explanation": "Bugs can show up even in ordinary use."}, {"text": "Free money", "correct": false, "explanation": "The trade is early access for risk."}, {"text": "No trade-off at all", "correct": false, "explanation": "Bugs are a real possibility."}]},
+  {"question": "A beta breaks a feature that worked in the stable version. Is the beta a failure?", "difficulty": "hard", "options": [{"text": "No, catching regressions like this is what beta testing is for", "correct": true, "explanation": "Better found in beta than in the stable release."}, {"text": "Yes, betas should never have bugs", "correct": false, "explanation": "Finding bugs is the point."}, {"text": "Yes, the whole app is ruined", "correct": false, "explanation": "It's a fixable regression caught early."}]},
+  {"question": "Which analogy best fits beta software?", "difficulty": "hard", "options": [{"text": "A restaurant's soft opening with a full menu before the grand opening", "correct": true, "explanation": "Everything works; it's tested on a smaller crowd first."}, {"text": "A restaurant still under construction", "correct": false, "explanation": "Beta is usable, not unbuilt."}, {"text": "A closed restaurant", "correct": false, "explanation": "Beta serves real users."}]},
+];
 
 export default function Post() {
   return (

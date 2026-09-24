@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "software-and-operating-systems",
   tags: ["operating system", "kernel", "how computers work", "technology basics", "multitasking"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "An operating system is the layer that manages a device's hardware so every app doesn't have to — here's exactly what it juggles behind the scenes.",
   summary: "An operating system is the software that manages a computer's hardware — CPU time, memory, storage, and input/output — and exposes a shared, simplified set of services that every app relies on instead of talking to hardware directly.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is an operating system's real job?", "difficulty": "easy", "options": [{"text": "Managing resources: CPU time, memory and access to devices", "correct": true, "explanation": "Like a building superintendent keeping tenants from fighting over resources."}, {"text": "Running only one app at a time", "correct": false, "explanation": "It manages many programs at once."}, {"text": "Browsing the web", "correct": false, "explanation": "That's what a browser app does."}]},
+  {"question": "How do apps reach the hardware?", "difficulty": "easy", "options": [{"text": "Through system calls to the kernel", "correct": true, "explanation": "Only the kernel has privileged hardware access."}, {"text": "Directly, whenever they want", "correct": false, "explanation": "Apps never touch hardware directly."}, {"text": "Through the internet", "correct": false, "explanation": "They ask the kernel locally."}]},
+  {"question": "What is the kernel?", "difficulty": "easy", "options": [{"text": "The part of the OS with privileged access to the CPU, memory and devices", "correct": true, "explanation": "Everything else asks the kernel for access."}, {"text": "An app store", "correct": false, "explanation": "The kernel is the core of the OS."}, {"text": "A type of processor", "correct": false, "explanation": "It's software, not hardware."}]},
+  {"question": "On a single-core CPU, how do two apps appear to run at the same time?", "difficulty": "hard", "options": [{"text": "The kernel switches between them many times per second, giving each a tiny slice of CPU time", "correct": true, "explanation": "Multitasking there is an illusion built from speed."}, {"text": "They truly run at the same instant", "correct": false, "explanation": "One core runs one thing at a time."}, {"text": "One app pauses until the other quits", "correct": false, "explanation": "They take turns rapidly, not one after another."}]},
+  {"question": "Why shouldn't apps read storage directly instead of going through the OS?", "difficulty": "hard", "options": [{"text": "The OS enforces permissions and coordinates access so apps don't corrupt or spy on each other's data", "correct": true, "explanation": "Centralized control keeps the system safe and stable."}, {"text": "Direct access is always slower", "correct": false, "explanation": "Safety and coordination are the main reasons."}, {"text": "Storage can't be read at all", "correct": false, "explanation": "It can, through the kernel."}]},
+];
 
 export default function Post() {
   return (

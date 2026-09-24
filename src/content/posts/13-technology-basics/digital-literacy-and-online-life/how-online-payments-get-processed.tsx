@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-literacy-and-online-life",
   tags: ["payment processing", "card authorization", "PCI DSS", "payment gateway", "digital literacy"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "An online payment travels through a chain of checkable approvals — merchant, processor, card network, issuing bank — with the merchant never actually deciding whether it goes through.",
   summary: "Processing an online payment is a trust chain of verifications passed between a merchant, a payment processor, a card network, and the customer's bank, where each link only ever relays and checks the previous link's claim rather than approving anything on its own authority.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Who actually decides whether an online card payment is approved?", "difficulty": "easy", "options": [{"text": "The issuing bank at the end of the chain", "correct": true, "explanation": "Everyone in the middle just passes the request along."}, {"text": "The merchant's website", "correct": false, "explanation": "The checkout page can't approve a card by itself."}, {"text": "The shopper", "correct": false, "explanation": "The shopper requests it; the bank decides."}]},
+  {"question": "Which parties does an online payment pass through?", "difficulty": "easy", "options": [{"text": "Merchant, payment processor, card network and issuing bank", "correct": true, "explanation": "The answer travels back through the same chain."}, {"text": "Only the merchant and the shopper", "correct": false, "explanation": "Several parties sit in between."}, {"text": "The government tax office", "correct": false, "explanation": "Tax offices aren't part of authorization."}]},
+  {"question": "What does tokenization do to your card number?", "difficulty": "easy", "options": [{"text": "Replaces it with a stand-in so the real number isn't repeatedly exposed", "correct": true, "explanation": "That's why saved cards often show only the last four digits."}, {"text": "Makes it public", "correct": false, "explanation": "It hides the real number."}, {"text": "Deletes your account", "correct": false, "explanation": "It protects the number; it doesn't delete anything."}]},
+  {"question": "Why do declined payments often show only a generic message?", "difficulty": "hard", "options": [{"text": "Very different causes, like low funds, a fraud flag or an expired card, get passed back as the same decline", "correct": true, "explanation": "The specific reason often isn't shown to the merchant or shopper."}, {"text": "The merchant hides the reason to annoy you", "correct": false, "explanation": "The detail usually isn't passed along at all."}, {"text": "Declines always mean insufficient funds", "correct": false, "explanation": "Many different causes produce a decline."}]},
+  {"question": "Why can't a checkout page approve a card on its own authority?", "difficulty": "hard", "options": [{"text": "Only the bank that issued the card knows the account's funds and fraud status", "correct": true, "explanation": "Approval has to come from the account holder's bank."}, {"text": "Websites are too slow", "correct": false, "explanation": "Speed isn't the reason."}, {"text": "It's cheaper to ask the bank", "correct": false, "explanation": "It's about authority and information, not cost."}]},
+];
 
 export default function Post() {
   return (

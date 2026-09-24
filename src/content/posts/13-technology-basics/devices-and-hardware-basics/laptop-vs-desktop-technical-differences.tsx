@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "devices-and-hardware-basics",
   tags: ["laptop vs desktop", "computer hardware", "TDP", "thermal design", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A laptop isn't a shrunken desktop — it runs the same kind of components deliberately tuned to a much lower power ceiling, which is the real engineering reason it trades away raw performance for battery life.",
   summary: "A laptop and a desktop use fundamentally the same categories of components, but a laptop's cramped case, shared cooling, and reliance on a battery force every component to be tuned to a far lower power ceiling than a desktop's roomier case and constant wall power allow.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the real technical difference between a laptop and a desktop?", "difficulty": "easy", "options": [{"text": "The power and heat ceiling each is engineered to run within", "correct": true, "explanation": "They use the same categories of components."}, {"text": "Laptops use completely different kinds of parts", "correct": false, "explanation": "Both have a CPU, RAM, storage and graphics."}, {"text": "Desktops don't need an operating system", "correct": false, "explanation": "Both run operating systems."}]},
+  {"question": "Why do laptop components run at lower sustained power?", "difficulty": "easy", "options": [{"text": "A cramped case, shared cooling and battery life limits", "correct": true, "explanation": "Less heat can be removed, so parts are tuned down."}, {"text": "Laptop makers want them to be slow", "correct": false, "explanation": "It's a physical constraint, not intent."}, {"text": "Laptops don't use electricity", "correct": false, "explanation": "They do, often from a battery."}]},
+  {"question": "What do desktops trade away for more performance?", "difficulty": "easy", "options": [{"text": "Portability and battery life", "correct": true, "explanation": "In return they get upgradeable parts and plenty of cooling and power."}, {"text": "Their operating system", "correct": false, "explanation": "Both have one."}, {"text": "Their keyboard", "correct": false, "explanation": "The trade-off is portability."}]},
+  {"question": "Why is RAM often not upgradeable in thin laptops?", "difficulty": "hard", "options": [{"text": "It's soldered to the board to save space and power", "correct": true, "explanation": "Thinness pushes toward soldered, non-modular parts."}, {"text": "RAM upgrades are illegal", "correct": false, "explanation": "It's a design choice for thinness."}, {"text": "Laptops don't use RAM", "correct": false, "explanation": "They do; it's just often soldered."}]},
+  {"question": "Someone exports long videos daily and always works at the same desk. Which fits best, based on technical factors?", "difficulty": "hard", "options": [{"text": "A desktop, for sustained power and cooling during long exports", "correct": true, "explanation": "Portability isn't needed, and sustained performance is."}, {"text": "An ultra-thin laptop", "correct": false, "explanation": "It would throttle under long, heavy loads."}, {"text": "A tablet", "correct": false, "explanation": "Tablets have the tightest power limits."}]},
+];
 
 export default function Post() {
   return (

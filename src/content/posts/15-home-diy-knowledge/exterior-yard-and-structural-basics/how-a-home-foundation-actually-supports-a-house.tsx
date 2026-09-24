@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "exterior-yard-and-structural-basics",
   tags: ["home foundation", "footings", "bearing capacity", "structural basics", "home maintenance"],
   date: "2026-09-17",
-  updated: "2026-09-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-17",
   excerpt: "A foundation doesn't hold a house up by being strong — it holds it up by spreading the house's weight over enough soil that the soil doesn't compress unevenly.",
   summary: "A house's entire weight funnels down through its structural frame into a foundation, whose real job is spreading that concentrated load across a wide enough footing that the pressure on the soil below stays under the soil's safe bearing capacity — foundation problems overwhelmingly trace back to that pressure exceeding what the soil can support evenly, not to the concrete itself being weak.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a foundation's main job?", "difficulty": "easy", "options": [{"text": "Being strong enough concrete to hold the house up", "correct": false, "explanation": "Strength alone isn't enough; the house would still sink into soft soil."}, {"text": "Spreading the house's weight over enough soil that the pressure stays within what the soil can bear", "correct": true, "explanation": "Like snowshoes spreading weight over snow."}, {"text": "Keeping the basement warm", "correct": false, "explanation": "Insulation does that; the foundation carries load."}]},
+  {"question": "What causes most real foundation problems?", "difficulty": "easy", "options": [{"text": "Concrete that is too weak", "correct": false, "explanation": "The concrete itself rarely fails."}, {"text": "Uneven settling, where parts of the foundation sit on different soil conditions", "correct": true, "explanation": "Different pressure or soil under different parts causes cracks."}, {"text": "Houses that are too light", "correct": false, "explanation": "The issue is uneven support, not weight."}]},
+  {"question": "Why is soil tested before a foundation is designed?", "difficulty": "easy", "options": [{"text": "Because soil type matters as much as the foundation design", "correct": true, "explanation": "The same foundation performs very differently on different soils."}, {"text": "To check for buried treasure", "correct": false, "explanation": "It's about the soil's bearing capacity and behavior."}, {"text": "It's only done after cracks appear", "correct": false, "explanation": "Testing comes first so the design fits the soil."}]},
+  {"question": "Why can a correctly sized foundation still crack on expansive clay soil?", "difficulty": "hard", "options": [{"text": "The clay swells and shrinks with moisture, moving parts of the foundation unevenly", "correct": true, "explanation": "Soil movement, not undersizing, drives the damage."}, {"text": "Clay dissolves concrete", "correct": false, "explanation": "The problem is movement, not chemical attack."}, {"text": "Clay can't bear any load at all", "correct": false, "explanation": "Clay can bear load; its moisture-driven movement is the issue."}]},
+  {"question": "A stairstep crack appears at just one corner of a foundation. What does it usually point to?", "difficulty": "hard", "options": [{"text": "The whole house is sinking evenly", "correct": false, "explanation": "Even settling doesn't concentrate cracks in one corner."}, {"text": "A localized soil problem under that corner, such as poor drainage", "correct": true, "explanation": "Concentrated cracking suggests uneven settling at that spot."}, {"text": "The concrete mix was wrong everywhere", "correct": false, "explanation": "A bad mix would show problems more widely."}]},
+];
 
 export default function Post() {
   return (

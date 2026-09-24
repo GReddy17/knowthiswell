@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ai-and-emerging-tech-concepts",
   tags: ["AR vs VR", "augmented reality", "virtual reality", "what is the difference between AR and VR", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "AR overlays digital content onto the real world you can still see; VR replaces your entire field of view with a computer-generated one.",
   summary: "Augmented reality adds digital content on top of a real-world view the user can still see, while virtual reality replaces the user's entire field of view with a fully computer-generated environment — the dividing line is how much of the real world stays visible, not which headset is used.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What separates augmented reality from virtual reality?", "difficulty": "easy", "options": [{"text": "How much of the real world stays visible", "correct": true, "explanation": "AR adds to a view you can still see; VR replaces it entirely."}, {"text": "Which company makes the device", "correct": false, "explanation": "Both kinds can come from the same company."}, {"text": "The price of the headset", "correct": false, "explanation": "Price doesn't define the difference."}]},
+  {"question": "Seeing a virtual sofa in your real room through your phone camera is an example of what?", "difficulty": "easy", "options": [{"text": "Virtual reality", "correct": false, "explanation": "Your real room stays visible, so it isn't VR."}, {"text": "Augmented reality", "correct": true, "explanation": "A digital object is added on top of the real scene."}, {"text": "Neither", "correct": false, "explanation": "It's a classic AR example."}]},
+  {"question": "A headset shows only a computer-generated world and blocks the room. What is it?", "difficulty": "easy", "options": [{"text": "Virtual reality", "correct": true, "explanation": "The whole view is replaced by a synthetic scene."}, {"text": "Augmented reality", "correct": false, "explanation": "AR keeps the real world visible."}, {"text": "A normal TV", "correct": false, "explanation": "A headset that replaces your whole view is VR."}]},
+  {"question": "What underlying loop do AR and VR share?", "difficulty": "hard", "options": [{"text": "Sensors track where the head or device points, and the display updates to match", "correct": true, "explanation": "AR uses it to place objects in a real scene; VR uses it for a fully synthetic one."}, {"text": "Both require internet streaming", "correct": false, "explanation": "Tracking and display updates are the shared core."}, {"text": "Both use the same games", "correct": false, "explanation": "The shared part is the tracking-display loop."}]},
+  {"question": "Why might an airline use AR in the cockpit but VR for emergency training?", "difficulty": "hard", "options": [{"text": "Pilots must still see the real world while flying, but training can safely replace it with simulated emergencies", "correct": true, "explanation": "They solve different problems; neither replaces the other."}, {"text": "VR is cheaper, so it's used everywhere possible", "correct": false, "explanation": "The choice follows the need to see the real world or not."}, {"text": "AR can't show text", "correct": false, "explanation": "Heads-up displays show text and symbols."}]},
+];
 
 export default function Post() {
   return (

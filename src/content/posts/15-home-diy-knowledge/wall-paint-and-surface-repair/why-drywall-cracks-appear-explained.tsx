@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "wall-paint-and-surface-repair",
   tags: ["drywall", "cracks", "wall repair", "framing", "home maintenance"],
   date: "2026-09-04",
-  updated: "2026-09-04",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-04",
   excerpt: "Drywall cracks form where stress concentrates — at openings, seams, and framing joints — and where they appear tells you whether it's cosmetic or structural.",
   summary: "A drywall crack isn't random damage — it's a visible record of stress concentrating at a specific weak point, usually the corner of a door or window opening, a taped seam, or a spot where two different framing members move at different rates, and the crack's shape and location are the clues to which of those it is.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Why does drywall crack instead of flexing?", "difficulty": "easy", "options": [{"text": "It's a rigid, brittle gypsum sheet that can't stretch to absorb movement", "correct": true, "explanation": "When the house moves, drywall cracks at its weakest point."}, {"text": "It's too soft", "correct": false, "explanation": "Softness isn't the issue; rigidity is."}, {"text": "Paint makes it crack", "correct": false, "explanation": "Cracks come from building movement, not paint."}]},
+  {"question": "Where do drywall cracks most often form?", "difficulty": "easy", "options": [{"text": "In the middle of large, unbroken walls", "correct": false, "explanation": "Stress concentrates elsewhere."}, {"text": "At corners of door and window openings and along taped seams", "correct": true, "explanation": "That's where stress concentrates."}, {"text": "Only on ceilings", "correct": false, "explanation": "Walls crack too, especially at openings."}]},
+  {"question": "Are most drywall cracks a structural emergency?", "difficulty": "easy", "options": [{"text": "Yes, always", "correct": false, "explanation": "Most reflect normal seasonal movement."}, {"text": "No, most are cosmetic, from normal seasonal building movement", "correct": true, "explanation": "Only certain patterns warrant a structural look."}, {"text": "Only if they're diagonal", "correct": false, "explanation": "Diagonal corner cracks are usually ordinary framing stress."}]},
+  {"question": "A straight crack runs exactly along a taped seam. What does that usually mean?", "difficulty": "hard", "options": [{"text": "The framing is failing", "correct": false, "explanation": "Framing stress usually shows as diagonal cracks from corners."}, {"text": "The tape's bond to the drywall has failed", "correct": true, "explanation": "Crack shape and location are diagnostic."}, {"text": "The foundation is sinking", "correct": false, "explanation": "A seam crack alone points to the tape joint."}]},
+  {"question": "Which combination is worth a closer structural look?", "difficulty": "hard", "options": [{"text": "A thin, stable diagonal crack at one door corner", "correct": false, "explanation": "That's the most common cosmetic pattern."}, {"text": "A crack that keeps widening, plus a door that has started sticking or a floor that has become uneven", "correct": true, "explanation": "Several symptoms together suggest real movement."}, {"text": "A hairline crack that appears each winter and closes in summer", "correct": false, "explanation": "Seasonal cycling is normal movement."}]},
+];
 
 export default function Post() {
   return (

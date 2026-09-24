@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cloud-computing-and-storage",
   tags: ["file sharing links", "shareable link", "how sharing links work", "link permissions", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A file-sharing link doesn't move the file to you — it's a token pointing back to one stored copy, checked against permissions every single time it's opened.",
   summary: "A file-sharing link is a unique web address that points back to one file stored in a provider's cloud storage, granting access according to permissions the file's owner set, checked again each time the link is opened.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a file-sharing link actually give someone?", "difficulty": "easy", "options": [{"text": "An address pointing to one file in cloud storage", "correct": true, "explanation": "Like a coat-check ticket rather than the coat itself."}, {"text": "Their own copy of the file", "correct": false, "explanation": "No copy is sent; the file stays in one place."}, {"text": "Your account password", "correct": false, "explanation": "Links don't share passwords."}]},
+  {"question": "What happens every time someone opens a share link?", "difficulty": "easy", "options": [{"text": "The server checks the link and its permissions before serving the file", "correct": true, "explanation": "Access is re-checked on every open."}, {"text": "Nothing is checked", "correct": false, "explanation": "Validity is checked each time."}, {"text": "The owner must approve it by hand", "correct": false, "explanation": "The server checks automatically."}]},
+  {"question": "Is \"anyone with the link\" the same as private access?", "difficulty": "easy", "options": [{"text": "No, anyone who gets the link can open it", "correct": true, "explanation": "Forwarding the link forwards access."}, {"text": "Yes, only the person you sent it to can open it", "correct": false, "explanation": "Anyone holding the address can use it."}, {"text": "Yes, if the file is a PDF", "correct": false, "explanation": "File type doesn't change link permissions."}]},
+  {"question": "An owner changes a link from \"can edit\" to \"view only\" after sharing it. What happens to people who already have it?", "difficulty": "hard", "options": [{"text": "They can now only view, because permissions are checked on each open", "correct": true, "explanation": "The link is a re-checked pointer, not a one-time delivery."}, {"text": "They keep edit access forever", "correct": false, "explanation": "The change applies to everyone using the link."}, {"text": "The link breaks for everyone", "correct": false, "explanation": "It still works, with the new permission."}]},
+  {"question": "A business revokes a contract link before its expiry date. Can someone who saved the exact address still open it?", "difficulty": "hard", "options": [{"text": "No, revoking cuts access immediately even for saved links", "correct": true, "explanation": "The server's check fails once the link is revoked."}, {"text": "Yes, until the original expiry date", "correct": false, "explanation": "Revocation works right away."}, {"text": "Yes, if they bookmarked it", "correct": false, "explanation": "A bookmark is just the same address, which no longer passes the check."}]},
+];
 
 export default function Post() {
   return (

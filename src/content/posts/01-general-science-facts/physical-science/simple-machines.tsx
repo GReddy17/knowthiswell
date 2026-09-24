@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
     "physics",
   ],
   date: "2026-08-16",
-  updated: "2026-08-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-19",
   excerpt: "How all six simple machines — lever, pulley, wheel and axle, inclined plane, wedge, and screw — let you trade force for distance, with real mechanical-advantage numbers for each, and why none of them create free energy.",
   summary: "A simple machine changes the amount of force needed to do a job by changing the distance over which that force is applied — it never reduces the total work required.",
@@ -63,6 +63,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "https://www.youtube.com/watch?v=I6f7Wx_TbH0",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How many simple machines are there?", "difficulty": "easy", "options": [{"text": "Three", "correct": false, "explanation": "There are more: lever, pulley, wheel and axle, inclined plane, wedge and screw."}, {"text": "Six", "correct": true, "explanation": "Lever, pulley, wheel and axle, inclined plane, wedge and screw."}, {"text": "Ten", "correct": false, "explanation": "The classic list has six."}]},
+  {"question": "What does a simple machine trade?", "difficulty": "easy", "options": [{"text": "Force for distance", "correct": true, "explanation": "Less force over a longer distance, or more force over a shorter one."}, {"text": "Energy for nothing", "correct": false, "explanation": "Machines don't create energy; total work stays the same (ignoring friction)."}, {"text": "Weight for speed", "correct": false, "explanation": "The trade-off is force against distance."}]},
+  {"question": "Which everyday object is an inclined plane?", "difficulty": "easy", "options": [{"text": "A ramp", "correct": true, "explanation": "A ramp lets you raise a load with less force over a longer path."}, {"text": "A seesaw", "correct": false, "explanation": "A seesaw is a lever."}, {"text": "A doorknob", "correct": false, "explanation": "A doorknob is a wheel and axle."}]},
+  {"question": "A lever has a 2 m effort arm and a 0.5 m load arm. What is its mechanical advantage?", "difficulty": "hard", "options": [{"text": "4", "correct": true, "explanation": "Effort arm ÷ load arm = 2 ÷ 0.5 = 4."}, {"text": "2.5", "correct": false, "explanation": "That adds the arms; mechanical advantage divides them."}, {"text": "1", "correct": false, "explanation": "Equal arms would give 1; these are unequal."}]},
+  {"question": "With a mechanical advantage of 4, what is the cost of lifting a 100 kg load with 25 kg of force?", "difficulty": "hard", "options": [{"text": "Your end of the lever moves 4 times farther than the load rises", "correct": true, "explanation": "Force goes down by 4, distance goes up by 4, so the work stays the same."}, {"text": "The load gets 4 times heavier", "correct": false, "explanation": "The load's weight doesn't change."}, {"text": "There is no cost at all", "correct": false, "explanation": "Every force saving is paid for with extra distance."}]},
+];
 
 export default function Post() {
   return (

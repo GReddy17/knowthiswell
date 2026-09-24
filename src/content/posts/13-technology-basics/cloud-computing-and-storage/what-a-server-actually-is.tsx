@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cloud-computing-and-storage",
   tags: ["what is a server", "server explained", "client server model", "web server", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A server is just a computer set up to stay on and answer requests from other computers — not a special category of machine, but a role a machine is configured to play.",
   summary: "A server is a computer (or software running on one) configured to run continuously and respond to requests from other computers, called clients — the word describes a role a machine plays, not a fundamentally different kind of hardware.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What makes a computer a \"server\"?", "difficulty": "easy", "options": [{"text": "Its role: it stays running and answers requests from other computers", "correct": true, "explanation": "It's a role, not a special kind of hardware."}, {"text": "It's a special type of hardware that can't do anything else", "correct": false, "explanation": "Ordinary computers can act as servers."}, {"text": "It has no screen", "correct": false, "explanation": "Whether it has a screen is irrelevant."}]},
+  {"question": "What is a \"client\"?", "difficulty": "easy", "options": [{"text": "The computer making a request, like your phone loading a page", "correct": true, "explanation": "The server answers; the client asks."}, {"text": "A paying customer only", "correct": false, "explanation": "In computing, it means the requesting side."}, {"text": "A type of cable", "correct": false, "explanation": "It's the side that sends requests."}]},
+  {"question": "Can an old home laptop be a server?", "difficulty": "easy", "options": [{"text": "Yes, if it's set up to stay on and answer requests", "correct": true, "explanation": "Being a server is about the job it does."}, {"text": "No, servers must be in data centers", "correct": false, "explanation": "Location doesn't define the role."}, {"text": "Only if it's brand new", "correct": false, "explanation": "Age doesn't matter."}]},
+  {"question": "A web server asks a database server for data to answer a visitor. What role is the web server playing in that exchange?", "difficulty": "hard", "options": [{"text": "Client", "correct": true, "explanation": "The same machine can be a server for one job and a client for another."}, {"text": "Server", "correct": false, "explanation": "In this exchange, it's the one asking."}, {"text": "Router", "correct": false, "explanation": "It's requesting data, which makes it the client."}]},
+  {"question": "How does one server serve thousands of visitors at nearly the same time?", "difficulty": "hard", "options": [{"text": "It handles many simultaneous request-and-response exchanges with different clients", "correct": true, "explanation": "That's what lets one server support many users."}, {"text": "It serves them one per day", "correct": false, "explanation": "It handles many exchanges at once."}, {"text": "Every visitor gets their own server", "correct": false, "explanation": "One server can serve many clients."}]},
+];
 
 export default function Post() {
   return (

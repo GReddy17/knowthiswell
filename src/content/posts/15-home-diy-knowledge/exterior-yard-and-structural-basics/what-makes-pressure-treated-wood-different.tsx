@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "exterior-yard-and-structural-basics",
   tags: ["pressure-treated wood", "wood preservatives", "outdoor construction", "fasteners", "home maintenance"],
   date: "2026-09-17",
-  updated: "2026-09-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-17",
   excerpt: "Pressure-treated wood isn't a stronger or denser type of lumber — it's ordinary wood with a chemical preservative forced deep into its cells to resist rot and insects.",
   summary: "Pressure treatment doesn't change what species of wood is used or make it structurally stronger; it forces a chemical preservative (commonly a copper-based compound) deep into the wood's cell structure using vacuum and pressure cycles, so the wood resists fungal decay and insect damage from the inside out — the tradeoff is that the copper content is corrosive to standard steel fasteners, which is why treated-wood projects require specific corrosion-resistant hardware.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What makes wood \"pressure-treated\"?", "difficulty": "easy", "options": [{"text": "It's a stronger species of tree", "correct": false, "explanation": "It's usually ordinary softwood like pine."}, {"text": "A preservative is forced deep into the wood's cells to resist rot and insects", "correct": true, "explanation": "The process is chemical protection, not a different wood."}, {"text": "It's painted with sealant", "correct": false, "explanation": "The preservative goes deep inside, not just on the surface."}]},
+  {"question": "Is pressure-treated wood structurally stronger than the same untreated wood?", "difficulty": "easy", "options": [{"text": "Yes, much stronger", "correct": false, "explanation": "Treatment doesn't change strength."}, {"text": "No, its advantage is surviving moisture and pests", "correct": true, "explanation": "It won't hold more weight or bend less."}, {"text": "Only in winter", "correct": false, "explanation": "Season doesn't affect its strength."}]},
+  {"question": "Which fasteners should be used with modern pressure-treated wood?", "difficulty": "easy", "options": [{"text": "Standard steel screws", "correct": false, "explanation": "Copper-based preservatives corrode standard steel."}, {"text": "Hot-dip galvanized or stainless steel", "correct": true, "explanation": "They resist the preservative's corrosive effect."}, {"text": "Any fastener works the same", "correct": false, "explanation": "The wrong fasteners can fail years before the wood does."}]},
+  {"question": "Why is lumber rated for ground contact treated differently from above-ground lumber?", "difficulty": "hard", "options": [{"text": "Soil keeps wood constantly damp and full of decay organisms, so it needs a higher preservative level", "correct": true, "explanation": "Exposure category sets the required retention level."}, {"text": "Ground-contact wood is a different color", "correct": false, "explanation": "Color isn't the reason."}, {"text": "There is no difference between ratings", "correct": false, "explanation": "The ratings reflect very different exposure risks."}]},
+  {"question": "A fence post rated only for above-ground use is set in soil. What is the likely result?", "difficulty": "hard", "options": [{"text": "It lasts just as long as a ground-contact post", "correct": false, "explanation": "Its treatment level isn't made for constant soil contact."}, {"text": "Premature decay, because its preservative level is too low for ground contact", "correct": true, "explanation": "Using the wrong rating shortens the post's life."}, {"text": "It gets stronger over time", "correct": false, "explanation": "Wood doesn't strengthen in soil; it decays."}]},
+];
 
 export default function Post() {
   return (

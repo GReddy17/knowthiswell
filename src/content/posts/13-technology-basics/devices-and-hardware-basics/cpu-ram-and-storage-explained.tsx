@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "devices-and-hardware-basics",
   tags: ["CPU", "RAM", "storage", "computer hardware", "memory hierarchy", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "CPU, RAM, and storage do three completely different jobs — processing, temporary working memory, and permanent storage — confusing them is why 'more storage' doesn't fix a slow computer.",
   summary: "A CPU processes instructions, RAM temporarily holds the data a running program needs for instant access, and storage permanently keeps data even with the power off — three different jobs, each with its own speed and capacity trade-off.",
@@ -56,6 +56,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "In the desk analogy, what is RAM?", "difficulty": "easy", "options": [{"text": "The person doing the thinking", "correct": false, "explanation": "That's the CPU."}, {"text": "The desk holding what's currently in use", "correct": true, "explanation": "Fast to reach, but cleared when the power goes off."}, {"text": "The filing cabinet across the room", "correct": false, "explanation": "That's storage."}]},
+  {"question": "Why does unsaved work vanish in a crash while saved files survive?", "difficulty": "easy", "options": [{"text": "RAM is volatile and forgets everything without power; storage keeps data permanently", "correct": true, "explanation": "Saving moves work from the desk to the filing cabinet."}, {"text": "The CPU deletes unsaved files on purpose", "correct": false, "explanation": "It's about how RAM works, not deliberate deletion."}, {"text": "Storage is faster than RAM", "correct": false, "explanation": "RAM is faster; storage is the permanent one."}]},
+  {"question": "Which component does the actual calculating?", "difficulty": "easy", "options": [{"text": "The CPU", "correct": true, "explanation": "It's the \"thinker\" at the desk."}, {"text": "The storage drive", "correct": false, "explanation": "Storage holds data; it doesn't compute."}, {"text": "The RAM", "correct": false, "explanation": "RAM holds working data for the CPU."}]},
+  {"question": "A computer with lots of free disk space slows down with many browser tabs open. What would most likely help?", "difficulty": "hard", "options": [{"text": "More RAM", "correct": true, "explanation": "Many open tabs fill the desk; filing-cabinet space doesn't make the desk bigger."}, {"text": "A bigger hard drive", "correct": false, "explanation": "Storage capacity doesn't fix a RAM bottleneck."}, {"text": "A new monitor", "correct": false, "explanation": "The screen doesn't affect this slowdown."}]},
+  {"question": "What sets a computer's overall speed for a given task?", "difficulty": "hard", "options": [{"text": "Whichever of CPU, RAM or storage is the bottleneck for that task", "correct": true, "explanation": "The weakest link for the job limits it, not the biggest spec number."}, {"text": "Always the storage size", "correct": false, "explanation": "Storage size rarely limits everyday speed."}, {"text": "The price of the computer", "correct": false, "explanation": "Price doesn't decide which part is the bottleneck."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "seasonal-and-preventive-maintenance",
   tags: ["roofing", "shingles", "flashing", "roof leaks", "home maintenance"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-12",
   excerpt: "Cosmetic roof wear and an actual leak risk look different up close — granule loss, flashing gaps, and attic-side moisture are the signals that actually separate them.",
   summary: "A roof's job is to shed water completely, and most of its real vulnerabilities aren't the shingle field itself but the seams — flashing around chimneys, vents, and valleys — where two materials meet and a gap can let water through even while the shingles nearby still look intact. Telling ordinary cosmetic wear from an actual repair need means checking specific signs, not just eyeballing the roof's general age.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Where do most roof leaks start?", "difficulty": "easy", "options": [{"text": "In the middle of an intact shingle field", "correct": false, "explanation": "Flat, overlapping shingles are usually the most reliable part."}, {"text": "At seams: flashing around chimneys, vents, skylights and valleys", "correct": true, "explanation": "Interruptions in the roof surface fail first."}, {"text": "In the gutters", "correct": false, "explanation": "Gutters carry water away; leaks start at roof seams."}]},
+  {"question": "What does sandy grit in the gutters from an old asphalt roof usually mean?", "difficulty": "easy", "options": [{"text": "Normal aging granule loss, a sign to start planning replacement", "correct": true, "explanation": "On its own, it isn't an emergency."}, {"text": "The roof will collapse soon", "correct": false, "explanation": "Granule loss is gradual wear, not a collapse warning."}, {"text": "Someone threw sand on the roof", "correct": false, "explanation": "It comes from the shingles' own granules."}]},
+  {"question": "What is the more reliable sign of an actual leak?", "difficulty": "easy", "options": [{"text": "Cosmetic shingle wear", "correct": false, "explanation": "Wear alone doesn't confirm a leak."}, {"text": "Moisture or water stains on the attic side", "correct": true, "explanation": "Attic-side moisture confirms water is getting through."}, {"text": "A roof that's more than 5 years old", "correct": false, "explanation": "Age alone doesn't mean it leaks."}]},
+  {"question": "A ceiling stain appears only during heavy, wind-driven rain. What does that suggest?", "difficulty": "hard", "options": [{"text": "The shingles are all worn out", "correct": false, "explanation": "Worn shingles would leak in ordinary rain too."}, {"text": "A flashing or seam gap that only lets water in when wind pushes it sideways", "correct": true, "explanation": "Wind-driven leaks point to seams, not the shingle field."}, {"text": "Condensation from inside the house", "correct": false, "explanation": "Condensation isn't tied to wind-driven rain."}]},
+  {"question": "Why does fixing a small flashing gap early save so much money?", "difficulty": "hard", "options": [{"text": "Flashing is free to replace", "correct": false, "explanation": "The saving comes from avoiding damage, not free parts."}, {"text": "Left alone, water rots the roof deck, turning a repair into a deck replacement", "correct": true, "explanation": "Small seam repairs stop damage from spreading."}, {"text": "Insurance only covers early repairs", "correct": false, "explanation": "The main saving is avoiding structural damage."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "exterior-yard-and-structural-basics",
   tags: ["caulking", "air sealing", "windows and doors", "energy efficiency", "home maintenance"],
   date: "2026-09-17",
-  updated: "2026-09-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-17",
   excerpt: "A gap the width of a pencil around a window frame can leak more conditioned air over a year than the window's glass itself ever does.",
   summary: "Windows and doors are engineered and tested as sealed units, but the gap between the window/door frame and the surrounding wall opening is a completely separate weak point — caulk seals that specific gap, and because small gaps allow disproportionately large amounts of air infiltration relative to their size, this narrow bead of sealant often has an outsized effect on a home's actual energy loss.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Where is the real weak point around a window?", "difficulty": "easy", "options": [{"text": "The glass", "correct": false, "explanation": "The window unit itself is sealed and tested."}, {"text": "The gap between the window frame and the wall opening", "correct": true, "explanation": "That perimeter gap is what caulk closes."}, {"text": "The window lock", "correct": false, "explanation": "The perimeter gap is the main leak path."}]},
+  {"question": "What size gap is caulk meant for?", "difficulty": "easy", "options": [{"text": "Narrow, non-moving gaps, typically under 1/4 inch", "correct": true, "explanation": "Wider gaps need products like expanding foam."}, {"text": "Any gap, however big", "correct": false, "explanation": "Large gaps need other products."}, {"text": "Only gaps that move a lot", "correct": false, "explanation": "Moving joints need weatherstripping."}]},
+  {"question": "Why do small gaps leak so much air?", "difficulty": "easy", "options": [{"text": "Air funnels through the easiest path rather than spreading across the wall", "correct": true, "explanation": "A thin gap around several windows adds up to a big leak."}, {"text": "Small gaps are colder", "correct": false, "explanation": "The issue is air flow, not temperature."}, {"text": "They don't; only big gaps matter", "correct": false, "explanation": "Small gaps leak disproportionately."}]},
+  {"question": "Why does caulking a window's opening sash joint tend to fail?", "difficulty": "hard", "options": [{"text": "The sash moves, and caulk is meant for fixed gaps; moving joints need weatherstripping", "correct": true, "explanation": "Use caulk for the fixed perimeter, weatherstripping where parts move."}, {"text": "Caulk doesn't stick to windows", "correct": false, "explanation": "It sticks fine on fixed joints."}, {"text": "Sashes are always airtight", "correct": false, "explanation": "They need weatherstripping, not caulk."}]},
+  {"question": "An older window starts leaking air though the unit itself hasn't changed. What is likely?", "difficulty": "hard", "options": [{"text": "The perimeter caulk has aged, cracked or pulled away", "correct": true, "explanation": "The separate installation seal wears out over time."}, {"text": "The glass has gotten thinner", "correct": false, "explanation": "Glass doesn't thin over time."}, {"text": "The wall has moved closer", "correct": false, "explanation": "The perimeter seal is the usual culprit."}]},
+];
 
 export default function Post() {
   return (

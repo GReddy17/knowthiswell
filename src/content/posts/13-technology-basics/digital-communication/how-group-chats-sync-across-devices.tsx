@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-communication",
   tags: ["how group chats work", "group chat sync", "multi-device messaging", "digital communication", "message fan-out", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A group chat message isn't broadcast directly between phones — it's stored once on a server and fanned out individually to every member's registered devices.",
   summary: "Group chats sync across devices through a fan-out process: a server stores each new message once and then delivers an individual copy to every member's registered devices, including a sender's own other devices, which is what keeps everyone's view of the conversation consistent.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How does a message in a group chat reach every member?", "difficulty": "easy", "options": [{"text": "It goes to the server once, which sends a copy to each member's devices", "correct": true, "explanation": "That's called fan-out."}, {"text": "Your phone sends it directly to every other phone", "correct": false, "explanation": "Phones don't message each other directly in groups."}, {"text": "Members download it from your phone", "correct": false, "explanation": "The server handles delivery."}]},
+  {"question": "Why does your own message also appear on your laptop?", "difficulty": "easy", "options": [{"text": "The server fans out copies to your other signed-in devices too", "correct": true, "explanation": "Your own devices are on the delivery list."}, {"text": "Your phone emails it to your laptop", "correct": false, "explanation": "The server handles it."}, {"text": "Laptops copy the phone's screen", "correct": false, "explanation": "Each device gets its own copy from the server."}]},
+  {"question": "What does the server check on every new group message?", "difficulty": "easy", "options": [{"text": "The group's membership list", "correct": true, "explanation": "That decides whose devices get a copy."}, {"text": "The spelling", "correct": false, "explanation": "It checks who should receive it."}, {"text": "The weather", "correct": false, "explanation": "Membership decides delivery."}]},
+  {"question": "A member's phone is offline for 30 seconds when a message is sent. What happens?", "difficulty": "hard", "options": [{"text": "The server holds their copy and delivers it when the phone reconnects", "correct": true, "explanation": "Stored-then-fanned-out messages survive brief outages."}, {"text": "They miss it forever", "correct": false, "explanation": "The server keeps it for later delivery."}, {"text": "The whole group chat pauses", "correct": false, "explanation": "Other members get it right away."}]},
+  {"question": "Someone is removed from a group. What changes immediately?", "difficulty": "hard", "options": [{"text": "Future messages stop being fanned out to their devices", "correct": true, "explanation": "The membership list is checked on every new message."}, {"text": "All old messages vanish from their phone", "correct": false, "explanation": "Removal affects future delivery."}, {"text": "Nothing until the next day", "correct": false, "explanation": "The change applies to the next message."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "devices-and-hardware-basics",
   tags: ["GPU", "graphics card", "parallel processing", "frame rate", "computer hardware", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A GPU has thousands of small, simple cores instead of a CPU's handful of powerful ones, because rendering a screen means doing the same simple math on millions of pixels at once.",
   summary: "A GPU (graphics processing unit) is a specialized chip built with thousands of small, simple cores designed to perform the same calculation on massive amounts of data simultaneously — the exact shape of work involved in rendering pixels for a screen, which is very different from the complex, sequential work a CPU is built to handle.",
@@ -55,6 +55,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How is a GPU designed differently from a CPU?", "difficulty": "easy", "options": [{"text": "Thousands of small, simple cores instead of a handful of powerful ones", "correct": true, "explanation": "Built to do the same math on huge amounts of data at once."}, {"text": "One giant core", "correct": false, "explanation": "GPUs have thousands of cores."}, {"text": "No cores at all", "correct": false, "explanation": "Their strength is many cores working in parallel."}]},
+  {"question": "Why is rendering a screen ideal for a GPU?", "difficulty": "easy", "options": [{"text": "Shading millions of pixels is repetitive, independent work that can run in parallel", "correct": true, "explanation": "Each pixel can be calculated at the same time."}, {"text": "Screens need very little math", "correct": false, "explanation": "They need huge amounts of simple math."}, {"text": "GPUs store the images", "correct": false, "explanation": "Their strength is parallel calculation."}]},
+  {"question": "Roughly how many pixels are in one 1080p frame?", "difficulty": "easy", "options": [{"text": "About 2 million", "correct": true, "explanation": "1920 × 1080 ≈ 2.07 million."}, {"text": "About 1,000", "correct": false, "explanation": "Far more pixels than that."}, {"text": "About 1 billion", "correct": false, "explanation": "That's far too many for 1080p."}]},
+  {"question": "Why are GPUs also used to train machine learning models?", "difficulty": "hard", "options": [{"text": "ML training is also huge numbers of identical calculations that can run in parallel", "correct": true, "explanation": "Same shape of work as rendering pixels."}, {"text": "ML models need to display graphics", "correct": false, "explanation": "It's the parallel math that matters."}, {"text": "GPUs are cheaper than CPUs", "correct": false, "explanation": "The reason is parallel performance, not price."}]},
+  {"question": "A game drops from 60 to 30 FPS in a complex area. What does that tell you?", "difficulty": "hard", "options": [{"text": "The GPU needs more time per frame to render the heavier scene", "correct": true, "explanation": "More complex scenes mean more work per frame."}, {"text": "The monitor broke", "correct": false, "explanation": "The drop comes from rendering load."}, {"text": "The game saved progress", "correct": false, "explanation": "It reflects rendering workload."}]},
+];
 
 export default function Post() {
   return (

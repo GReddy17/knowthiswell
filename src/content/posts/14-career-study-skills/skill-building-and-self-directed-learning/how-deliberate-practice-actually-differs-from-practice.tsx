@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "skill-building-and-self-directed-learning",
   tags: ["deliberate practice", "skill acquisition", "feedback loop", "self-directed learning", "practice methods"],
   date: "2026-09-03",
-  updated: "2026-09-03",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-03",
   excerpt: "Deliberate practice means working on a specific weakness just past your current ability with immediate feedback and correction — not simply repeating a skill you already know.",
   summary: "Deliberate practice is a specific method: attempting a task just beyond your current ability, getting immediate, specific feedback against a clear standard, and correcting the exact error before repeating — not just logging hours doing something you already know how to do. Ordinary repetition, without that feedback-and-correction loop, tends to reinforce whatever pattern you're already using, errors included, rather than improving it.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which of these is the clearest example of deliberate practice?", "difficulty": "easy", "options": [{"text": "Playing a whole song start to finish ten times at a comfortable speed", "correct": false, "explanation": "Repeating the whole skill at a pace you already manage mostly reinforces the current version, errors included."}, {"text": "Slowing down the one passage you keep missing and correcting it each time with a metronome", "correct": true, "explanation": "It targets a specific weak point just past current ability, with immediate feedback and a correction before the next try."}, {"text": "Practicing for more total hours than anyone else in your class", "correct": false, "explanation": "Hours logged don't reliably predict improvement; what matters is the target-feedback-correction loop."}]},
+  {"question": "What does ordinary repetition without feedback tend to do?", "difficulty": "easy", "options": [{"text": "Reinforce whatever pattern you already use, including its errors", "correct": true, "explanation": "Without a correction step, you get more consistent at doing the task the way you already do it."}, {"text": "Automatically fix errors given enough time", "correct": false, "explanation": "Errors only get fixed when something shows you what went wrong and you change it."}, {"text": "Make the skill harder to perform over time", "correct": false, "explanation": "Repetition usually makes you more consistent, just not necessarily more correct."}]},
+  {"question": "How hard should a deliberate-practice task be?", "difficulty": "easy", "options": [{"text": "Easy enough to get right every single time", "correct": false, "explanation": "A task you already get right leaves no weakness to fix."}, {"text": "Far beyond your current ability, so you are stretched as much as possible", "correct": false, "explanation": "A task far out of reach gives failure without useful, correctable feedback."}, {"text": "Just past your current ability", "correct": true, "explanation": "A stretch that's slightly too hard exposes a specific, fixable gap."}]},
+  {"question": "A self-taught guitarist has played for 10 years but hasn't improved in 5. Which change most directly applies deliberate practice?", "difficulty": "hard", "options": [{"text": "Doubling daily playing time on the songs they already know", "correct": false, "explanation": "More of the same comfortable repetition keeps them at the same level."}, {"text": "Recording themselves, picking one flaw, and drilling just that with a teacher's feedback before replaying", "correct": true, "explanation": "It creates the missing loop: a specific target, an outside standard, fast feedback and a correction."}, {"text": "Switching to a new instrument to stay motivated", "correct": false, "explanation": "Novelty can help motivation, but it doesn't create the target-and-feedback loop that drives improvement."}]},
+  {"question": "Why can't every activity be improved with deliberate practice in the same way?", "difficulty": "hard", "options": [{"text": "Because it needs a real standard to compare against and a source of feedback, which some activities lack", "correct": true, "explanation": "Without a clear standard and feedback, there's no way to spot and correct the specific error."}, {"text": "Because deliberate practice only works for children", "correct": false, "explanation": "The feedback-loop mechanism applies at any age."}, {"text": "Because it only works for physical skills, not mental ones", "correct": false, "explanation": "It applies to mental skills too, such as programming or chess, wherever feedback exists."}]},
+];
 
 export default function Post() {
   return (

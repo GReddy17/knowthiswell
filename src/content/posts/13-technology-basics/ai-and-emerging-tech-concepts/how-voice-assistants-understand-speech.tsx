@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ai-and-emerging-tech-concepts",
   tags: ["how voice assistants work", "speech recognition", "voice assistant technology", "does Alexa understand me", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A voice assistant converts sound into text through statistical pattern matching, then matches that text against a limited set of recognized commands.",
   summary: "A voice assistant works by converting a captured sound wave into small units of speech, matching those units to the statistically likeliest words, and then comparing the resulting text against a limited set of known command patterns to decide what action to take — a pipeline of pattern matching, not comprehension of meaning.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the first step when a voice assistant processes your request?", "difficulty": "easy", "options": [{"text": "Converting the sound of your voice into text", "correct": true, "explanation": "Transcription comes before figuring out what to do."}, {"text": "Deciding what action to take", "correct": false, "explanation": "That happens after the speech becomes text."}, {"text": "Searching the web", "correct": false, "explanation": "First it has to turn sound into words."}]},
+  {"question": "How is transcribed text turned into an action?", "difficulty": "easy", "options": [{"text": "By matching it against a limited set of recognized intents", "correct": true, "explanation": "It's a matching step, not open-ended understanding."}, {"text": "By a human operator", "correct": false, "explanation": "It's automated matching."}, {"text": "By guessing randomly", "correct": false, "explanation": "It matches against known intents."}]},
+  {"question": "Are the wake-word listener and the full request processor the same system?", "difficulty": "easy", "options": [{"text": "No, they're two stages doing very different amounts of work", "correct": true, "explanation": "The wake-word check is small; full processing is much bigger."}, {"text": "Yes, one system does everything", "correct": false, "explanation": "They're separate stages."}, {"text": "Only on older devices", "correct": false, "explanation": "The two-stage design is standard."}]},
+  {"question": "The assistant does the wrong thing after apparently mishearing. Where did it most likely go wrong?", "difficulty": "hard", "options": [{"text": "In speech-to-text, which produced wrong words that then matched a different intent", "correct": true, "explanation": "An early transcription error flows into the wrong action."}, {"text": "The speaker's volume was too loud", "correct": false, "explanation": "Volume doesn't pick the action."}, {"text": "The action step ignored the text", "correct": false, "explanation": "The action step faithfully used the wrong text."}]},
+  {"question": "Why might \"turn off the lights\" work but \"lock the front door\" fail?", "difficulty": "hard", "options": [{"text": "The door lock may not be set up as a recognized, connected intent or device", "correct": true, "explanation": "Transcription can be perfect while no matching action exists."}, {"text": "Doors are too far away for voice", "correct": false, "explanation": "Distance to the door doesn't matter; the setup does."}, {"text": "Voice assistants can't understand the word \"lock\"", "correct": false, "explanation": "The word is fine; the matching action is missing."}]},
+];
 
 export default function Post() {
   return (

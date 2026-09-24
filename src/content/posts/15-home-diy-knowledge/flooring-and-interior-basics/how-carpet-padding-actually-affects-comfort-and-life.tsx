@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "flooring-and-interior-basics",
   tags: ["carpet padding", "carpet cushion", "flooring", "carpet installation", "home maintenance"],
   date: "2026-09-17",
-  updated: "2026-09-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-17",
   excerpt: "Thicker padding doesn't mean a longer-lasting carpet — density, not thickness, is what actually determines how much flexing the carpet backing survives.",
   summary: "Carpet padding is rated primarily by density (weight per cubic foot of material) and thickness, and while both affect how a floor feels underfoot, density is the property that actually governs carpet longevity — a thick but low-density pad compresses and lets the carpet backing flex excessively at every footstep, accelerating wear far faster than a thinner, denser pad would.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which pad property mainly decides how long the carpet above it lasts?", "difficulty": "easy", "options": [{"text": "Thickness", "correct": false, "explanation": "Thick, low-density pads can flatten quickly."}, {"text": "Density", "correct": true, "explanation": "How much material is packed in decides whether the pad holds its shape."}, {"text": "Color", "correct": false, "explanation": "Color has no effect on durability."}]},
+  {"question": "What happens to a thick, low-density pad under years of traffic?", "difficulty": "easy", "options": [{"text": "It stays plush forever", "correct": false, "explanation": "Low-density foam compresses permanently."}, {"text": "It flattens permanently, so the carpet flexes more with each step", "correct": true, "explanation": "More flexing wears the carpet backing out faster."}, {"text": "It gets thicker", "correct": false, "explanation": "Pads compress over time; they don't grow."}]},
+  {"question": "Where does pad density matter most?", "difficulty": "easy", "options": [{"text": "High-traffic areas like hallways", "correct": true, "explanation": "Constant footsteps compress weak pads fastest."}, {"text": "Rarely used guest rooms", "correct": false, "explanation": "Light traffic puts little stress on a pad."}, {"text": "Closets", "correct": false, "explanation": "Closets see very little foot traffic."}]},
+  {"question": "Why might a carpet warranty claim be denied even though the carpet fiber looks fine?", "difficulty": "hard", "options": [{"text": "The installed pad was outside the manufacturer's thickness or density specification", "correct": true, "explanation": "Using an unlisted pad can void the warranty on its own."}, {"text": "Warranties never cover wear", "correct": false, "explanation": "They can, but only when the specified pad was used."}, {"text": "The carpet was vacuumed too often", "correct": false, "explanation": "Normal vacuuming doesn't void a warranty."}]},
+  {"question": "A shopper picks the thickest, softest pad in the showroom for a busy family room. What is the likely outcome?", "difficulty": "hard", "options": [{"text": "The carpet lasts longer because the pad is thick", "correct": false, "explanation": "Thickness without density flattens and speeds wear."}, {"text": "It feels great at first but may flatten within a year or two and shorten the carpet's life", "correct": true, "explanation": "Showroom softness isn't the same as long-term support."}, {"text": "Nothing changes, since pads don't affect carpet life", "correct": false, "explanation": "The pad strongly affects how much the carpet flexes."}]},
+];
 
 export default function Post() {
   return (

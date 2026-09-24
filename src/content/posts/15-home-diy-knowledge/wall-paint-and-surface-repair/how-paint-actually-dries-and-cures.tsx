@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "wall-paint-and-surface-repair",
   tags: ["paint", "drying time", "curing", "chemistry", "VOC"],
   date: "2026-09-04",
-  updated: "2026-09-04",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-04",
   excerpt: "Paint is dry to the touch in hours through evaporation, but full curing — the film actually hardening — takes days to weeks through a separate chemical process.",
   summary: "Drying and curing are two separate physical processes that happen to overlap in the same wall paint: drying is solvent or water simply evaporating out of the wet film, which takes hours, while curing is the remaining polymer material chemically cross-linking or oxidizing into a hard, durable film, which takes days to weeks — a paint film can be completely dry to the touch while still soft and easily damaged underneath.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is paint \"drying\"?", "difficulty": "easy", "options": [{"text": "Water or solvent evaporating out of the paint film", "correct": true, "explanation": "That makes the surface feel dry, usually within hours."}, {"text": "The paint hardening fully", "correct": false, "explanation": "That's curing, a separate and slower process."}, {"text": "The color setting", "correct": false, "explanation": "Drying is evaporation, not color change."}]},
+  {"question": "How long does paint typically take to cure fully?", "difficulty": "easy", "options": [{"text": "About 2 hours", "correct": false, "explanation": "That's roughly the drying time."}, {"text": "About 2 to 4 weeks", "correct": true, "explanation": "Curing is a slow chemical hardening of the resin."}, {"text": "About 1 year", "correct": false, "explanation": "Most paints cure within weeks."}]},
+  {"question": "Can you usually apply a second coat of latex wall paint the same day?", "difficulty": "easy", "options": [{"text": "Yes, once the first coat has dried, often after about 4 hours", "correct": true, "explanation": "Recoating needs drying, not full curing."}, {"text": "No, you must wait weeks for full cure", "correct": false, "explanation": "Full cure isn't needed before a second coat."}, {"text": "Only if it's raining", "correct": false, "explanation": "Rain has no bearing on indoor recoat timing."}]},
+  {"question": "Why might a freshly painted door stick to its frame (blocking) even though it feels dry?", "difficulty": "hard", "options": [{"text": "The film is dry on the surface but not yet cured, so it's still soft enough to stick", "correct": true, "explanation": "Blocking resistance comes with curing, which takes weeks."}, {"text": "The paint was the wrong color", "correct": false, "explanation": "Color doesn't cause blocking."}, {"text": "Doors always stick after painting, forever", "correct": false, "explanation": "Sticking fades as the paint cures."}]},
+  {"question": "Paint in a cold garage feels dry on time but stays soft for much longer. Why?", "difficulty": "hard", "options": [{"text": "Cold slows the chemical curing reactions even when surface drying looks normal", "correct": true, "explanation": "Drying and curing respond differently to conditions."}, {"text": "Cold makes paint evaporate faster", "correct": false, "explanation": "Cold generally slows both processes."}, {"text": "The paint froze solid", "correct": false, "explanation": "Soft paint isn't frozen; it's under-cured."}]},
+];
 
 export default function Post() {
   return (

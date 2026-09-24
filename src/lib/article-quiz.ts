@@ -14,9 +14,12 @@ export interface QuizOption {
   explanation: string;
 }
 
+export type Difficulty = 'easy' | 'medium' | 'hard';
+
 export interface QuizQuestion {
   question: string;
   options: QuizOption[];
+  difficulty: Difficulty;
   /** Set when the question was borrowed from a sibling article in the same subtopic. */
   from?: { title: string; href: string };
 }
@@ -24,14 +27,15 @@ export interface QuizQuestion {
 interface PostQuizData {
   subtopic: string | null;
   title: string | null;
-  questions: { question: string; options: QuizOption[] }[];
+  questions: { question: string; options: QuizOption[]; difficulty?: Difficulty; inline?: boolean }[];
 }
 
 const DATA = quizzes as Record<string, PostQuizData>;
 
-/** Target quiz length. Articles with fewer questions are topped up from siblings. */
-const TARGET = 3;
-const MAX = 5;
+/** Questions per attempt. Banks smaller than this are topped up from siblings. */
+export const ATTEMPT_SIZE = 5;
+/** Soft cap on how much of a bank is shipped to the page. */
+const MAX_BANK = 20;
 
 // Small deterministic hash so the same page always renders the same quiz
 // (static pages must be stable across builds and server/client renders).
@@ -57,20 +61,35 @@ function seededShuffle<T>(items: T[], seed: string): T[] {
   return a;
 }
 
+/**
+ * Returns the article's whole question bank (inline QuickChecks + `quiz`
+ * export), topped up from siblings to at least ATTEMPT_SIZE. The component
+ * draws ATTEMPT_SIZE per attempt.
+ */
 export function getArticleQuiz(category: string, slug: string): QuizQuestion[] {
   const key = `${category}/${slug}`;
   const own = DATA[key];
   if (!own) return [];
 
-  const picked: QuizQuestion[] = own.questions.slice(0, MAX).map((q) => ({ ...q }));
+  const picked: QuizQuestion[] = own.questions.slice(0, MAX_BANK).map((q) => ({
+    question: q.question,
+    options: q.options,
+    difficulty: q.difficulty ?? 'medium',
+  }));
 
-  if (picked.length < TARGET && own.subtopic) {
+  if (picked.length < ATTEMPT_SIZE && own.subtopic) {
     const siblings = Object.entries(DATA).filter(
       ([k, v]) => k !== key && k.startsWith(`${category}/`) && v.subtopic === own.subtopic && v.questions.length > 0 && v.title
     );
     for (const [k, v] of seededShuffle(siblings, key)) {
-      if (picked.length >= TARGET) break;
-      picked.push({ ...v.questions[0], from: { title: v.title as string, href: `/${k}` } });
+      if (picked.length >= ATTEMPT_SIZE) break;
+      const q = v.questions[0];
+      picked.push({
+        question: q.question,
+        options: q.options,
+        difficulty: q.difficulty ?? 'medium',
+        from: { title: v.title as string, href: `/${k}` },
+      });
     }
   }
 

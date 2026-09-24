@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
     "10 percent rule",
   ],
   date: "2026-08-16",
-  updated: "2026-08-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-19",
   excerpt: "What makes something an ecosystem, why only about 10% of energy passes to the next link in a food chain, and how that single rule explains why apex predators are always rare.",
   summary: "A food chain is a sequence of who-eats-whom that moves energy through an ecosystem, and at each step roughly 90% of that energy is lost as heat rather than passed on.",
@@ -71,6 +71,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "At each step up a food chain, roughly how much energy passes to the next level?", "difficulty": "easy", "options": [{"text": "About 90%", "correct": false, "explanation": "About 90% is lost, mostly as heat, at each step."}, {"text": "About 10%", "correct": true, "explanation": "That's the 10% rule: most energy is used or lost as metabolic heat."}, {"text": "About 50%", "correct": false, "explanation": "The real transfer is much smaller than half."}]},
+  {"question": "What usually sits at the bottom of a food chain?", "difficulty": "easy", "options": [{"text": "Producers, usually plants that capture sunlight", "correct": true, "explanation": "Producers bring energy into the ecosystem through photosynthesis."}, {"text": "Apex predators", "correct": false, "explanation": "Apex predators sit at the top, not the bottom."}, {"text": "Decomposers only", "correct": false, "explanation": "Decomposers recycle matter, but producers are where energy enters."}]},
+  {"question": "Why are apex predators like owls or wolves always rare compared to plants?", "difficulty": "easy", "options": [{"text": "They are hunted more", "correct": false, "explanation": "The main reason is energy, not hunting."}, {"text": "Each level up has far less total energy available, so it supports far fewer organisms", "correct": true, "explanation": "After several 10% steps, little energy is left for the top level."}, {"text": "They reproduce too slowly to ever become common", "correct": false, "explanation": "Reproduction rate isn't the core reason; energy supply is."}]},
+  {"question": "Grass captures 10,000 kcal. Following the 10% rule, how much reaches an owl that eats shrews that eat grasshoppers that eat the grass?", "difficulty": "hard", "options": [{"text": "About 1,000 kcal", "correct": false, "explanation": "That's what the grasshoppers get after the first step."}, {"text": "About 100 kcal", "correct": false, "explanation": "That's the shrew level, one step short."}, {"text": "About 10 kcal", "correct": true, "explanation": "Three transfers at 10% each: 10,000 → 1,000 → 100 → 10."}]},
+  {"question": "Why did reintroducing wolves to Yellowstone eventually affect streamside trees and beavers?", "difficulty": "hard", "options": [{"text": "Wolves eat willow and aspen", "correct": false, "explanation": "Wolves don't eat trees; the effect ran through elk."}, {"text": "Fewer, more cautious elk grazed less, so willow and aspen recovered, which helped beavers", "correct": true, "explanation": "That chain of indirect effects is a trophic cascade in a food web."}, {"text": "Wolves directly hunted beavers into new areas", "correct": false, "explanation": "The recovery came from vegetation returning, not wolves moving beavers."}]},
+];
 
 export default function Post() {
   return (

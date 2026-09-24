@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-literacy-and-online-life",
   tags: ["digital footprint", "online privacy", "data broker", "active vs passive footprint", "digital literacy"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A digital footprint is the trail of data your devices and accounts leave behind — assembled after the fact into a profile, not built by any single site.",
   summary: "A digital footprint is the total trail of data created by everything you do online and with connected devices, which becomes meaningful not at the moment it's created but when separate trails get matched together into one profile.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a digital footprint?", "difficulty": "easy", "options": [{"text": "The sum of many separate data trails you leave across sites, apps and devices", "correct": true, "explanation": "It's not one single file."}, {"text": "One file a company keeps about you", "correct": false, "explanation": "It's spread across many places."}, {"text": "Your social media profile only", "correct": false, "explanation": "It includes much more than social posts."}]},
+  {"question": "Which is a passive footprint?", "difficulty": "easy", "options": [{"text": "A device ID or location ping collected automatically", "correct": true, "explanation": "Passive data is gathered in the background."}, {"text": "A restaurant review you wrote", "correct": false, "explanation": "That's an active footprint you chose to share."}, {"text": "A photo you posted", "correct": false, "explanation": "Posting is an active choice."}]},
+  {"question": "Do you have a digital footprint if you never post online?", "difficulty": "easy", "options": [{"text": "Yes, passive data is collected even if you never post", "correct": true, "explanation": "Browsing and app use leave trails automatically."}, {"text": "No, footprints only come from posts", "correct": false, "explanation": "Passive collection doesn't need posts."}, {"text": "Only if you have a smartphone", "correct": false, "explanation": "Any online activity leaves trails."}]},
+  {"question": "When does a footprint become a real privacy concern?", "difficulty": "hard", "options": [{"text": "When separate trails are matched to the same person through a shared identifier", "correct": true, "explanation": "Matching turns scattered fragments into one profile."}, {"text": "When a single purchase is recorded", "correct": false, "explanation": "One data point alone is usually low risk."}, {"text": "Never", "correct": false, "explanation": "Matched profiles are a real concern."}]},
+  {"question": "Why might a profile built from a deleted account still exist?", "difficulty": "hard", "options": [{"text": "Data copied and matched elsewhere before deletion isn't removed by deleting the account", "correct": true, "explanation": "Deletion doesn't reach copies held by others."}, {"text": "Deleted accounts are never really deleted", "correct": false, "explanation": "The account may be gone; the matched copies remain."}, {"text": "Profiles restore themselves", "correct": false, "explanation": "It's leftover copies, not self-restoring."}]},
+];
 
 export default function Post() {
   return (

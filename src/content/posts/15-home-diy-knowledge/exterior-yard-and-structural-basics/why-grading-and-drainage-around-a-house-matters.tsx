@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "exterior-yard-and-structural-basics",
   tags: ["grading", "drainage", "foundation water damage", "landscaping slope", "home maintenance"],
   date: "2026-09-19",
-  updated: "2026-09-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-19",
   excerpt: "The ground around a house is supposed to slope away from the foundation — a small, deliberate grade that's often the single biggest factor in whether a basement stays dry.",
   summary: "Grading is the shape of the ground immediately around a foundation, and it's supposed to slope downward away from the house — commonly a minimum of about 1/4 inch of drop per foot for the first several feet — so that rainwater and snowmelt run off away from the footing instead of pooling against it and seeping through. Negative grade (sloping toward the house, often from years of soil settling or mulch buildup) is one of the most common, most fixable causes of a wet basement, and it's usually cheaper to correct than any of the drainage systems (sump pumps, French drains) that exist to manage the water grading was supposed to keep away in the first place.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is grading?", "difficulty": "easy", "options": [{"text": "The deliberate slope of the ground next to a foundation", "correct": true, "explanation": "It decides which way rainwater runs."}, {"text": "The quality rating of lumber", "correct": false, "explanation": "Here it means the ground's slope."}, {"text": "A drainage pipe under the house", "correct": false, "explanation": "Grading is the soil's surface slope."}]},
+  {"question": "Which direction should the ground slope next to a house?", "difficulty": "easy", "options": [{"text": "Toward the house", "correct": false, "explanation": "That's negative grade and sends water at the walls."}, {"text": "Away from the house", "correct": true, "explanation": "Water runs off into the yard instead of pooling at the foundation."}, {"text": "Perfectly flat", "correct": false, "explanation": "Flat ground lets water sit near the foundation."}]},
+  {"question": "What slope do building codes commonly call for near the foundation?", "difficulty": "easy", "options": [{"text": "About 1/4 inch per foot for the first 6 to 10 feet", "correct": true, "explanation": "Enough to move water away before it reaches the walls."}, {"text": "About 1 foot per inch", "correct": false, "explanation": "That would be an extreme, impractical slope."}, {"text": "No slope at all", "correct": false, "explanation": "Codes require a slope away from the house."}]},
+  {"question": "A correctly graded house develops a water problem 15 years later with no changes made. What is a likely cause?", "difficulty": "hard", "options": [{"text": "Soil near the foundation settled over time, creating a negative grade", "correct": true, "explanation": "Settling can reverse the slope without anyone changing anything."}, {"text": "Rain got heavier every year", "correct": false, "explanation": "The usual culprit is the ground's slope changing."}, {"text": "The foundation grew", "correct": false, "explanation": "Foundations don't grow; soil settles."}]},
+  {"question": "Why do experienced contractors fix grading before recommending an interior drainage system?", "difficulty": "hard", "options": [{"text": "Grading stops water before it arrives, for free, so pumps may not be needed at all", "correct": true, "explanation": "It's the passive, cheapest first line of defense."}, {"text": "Interior systems are illegal", "correct": false, "explanation": "They're legal; they're just a later layer."}, {"text": "Grading is required before any permit", "correct": false, "explanation": "The reason is effectiveness and cost."}]},
+];
 
 export default function Post() {
   return (

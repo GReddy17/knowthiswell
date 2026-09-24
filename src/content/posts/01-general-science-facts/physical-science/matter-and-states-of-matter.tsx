@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -31,7 +31,7 @@ export const metadata: PostFrontmatter = {
     "refrigeration"
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "What matter is, why it exists as solid, liquid, gas, or plasma, and how phase changes power your fridge, your pressure cooker, and even sweating.",
   summary: "Matter is anything with mass and volume that exists as a solid, liquid, gas, or plasma depending on how much energy its particles hold.",
@@ -72,6 +72,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "https://www.youtube.com/watch?v=twQVIVQmJ7g",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What decides whether water is ice, liquid or steam?", "difficulty": "easy", "options": [{"text": "How much energy its particles have", "correct": true, "explanation": "More energy means faster, more spread-out particles; less energy packs them together."}, {"text": "Whether it contains cold particles", "correct": false, "explanation": "Cold isn't a substance; it's the absence of heat energy."}, {"text": "How much the water weighs", "correct": false, "explanation": "The same mass of H2O can be any of the three states."}]},
+  {"question": "What is \"cold\" in physics terms?", "difficulty": "easy", "options": [{"text": "A substance that flows into objects", "correct": false, "explanation": "Nothing called cold flows anywhere; heat flows out."}, {"text": "Heat energy being removed", "correct": true, "explanation": "Cooling is heat leaving; heat always flows from hot to cold."}, {"text": "A type of radiation", "correct": false, "explanation": "Cold is simply less thermal energy."}]},
+  {"question": "What temperature does ice stay at while it's melting?", "difficulty": "easy", "options": [{"text": "It rises steadily as it melts", "correct": false, "explanation": "During the phase change, energy breaks bonds instead of raising temperature."}, {"text": "0°C the whole time", "correct": true, "explanation": "Latent heat goes into melting, so the temperature holds at 0°C until it's all melted."}, {"text": "It drops below 0°C", "correct": false, "explanation": "Melting absorbs heat; it doesn't make the ice colder."}]},
+  {"question": "How does a refrigerator use latent heat to cool food?", "difficulty": "hard", "options": [{"text": "It blows cold air made by the motor", "correct": false, "explanation": "The motor doesn't make cold; it moves heat."}, {"text": "A refrigerant evaporates inside, absorbing heat, then releases that heat outside when it condenses", "correct": true, "explanation": "Phase changes move large amounts of heat without big temperature changes."}, {"text": "It adds ice to the food", "correct": false, "explanation": "No ice is added; the refrigerant cycle carries heat out."}]},
+  {"question": "Why does steam at 100°C burn skin worse than boiling water at 100°C?", "difficulty": "hard", "options": [{"text": "Steam is actually hotter than 100°C", "correct": false, "explanation": "At the same temperature, the difference isn't the thermometer reading."}, {"text": "When steam condenses on skin it releases its large latent heat on top of the heat of the hot water", "correct": true, "explanation": "Condensing releases the energy that was absorbed to boil it."}, {"text": "Steam sticks to skin better", "correct": false, "explanation": "The key factor is the extra energy released on condensing."}]},
+];
 
 export default function Post() {
   return (

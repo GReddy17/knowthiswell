@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cybersecurity-literacy-basics",
   tags: ["captcha", "bot detection", "verification", "web security", "cybersecurity basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "CAPTCHA works by giving automated scripts a task that's historically been easy for humans and hard for bots, or by scoring behavior in the background — it's a probabilistic filter, not an unbreakable lock.",
   summary: "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) verifies a visitor is likely human either by presenting a challenge that's historically been easy for people and hard for automated scripts, or, in modern systems, by continuously scoring passive behavioral signals in the background and only showing an explicit challenge when that score is ambiguous.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the basic idea behind a classic CAPTCHA?", "difficulty": "easy", "options": [{"text": "A task that's quick for humans but historically hard for automated scripts", "correct": true, "explanation": "Distorted text or picking images from a grid are examples."}, {"text": "Checking your ID card", "correct": false, "explanation": "CAPTCHA doesn't verify identity."}, {"text": "Asking for your password twice", "correct": false, "explanation": "That's not a human-versus-bot test."}]},
+  {"question": "How do modern \"invisible\" CAPTCHAs work?", "difficulty": "easy", "options": [{"text": "They score behavior such as mouse movement and typing rhythm in the background", "correct": true, "explanation": "Many real users pass without seeing any challenge."}, {"text": "They always show a hard puzzle", "correct": false, "explanation": "They often show nothing at all to real users."}, {"text": "They record your face", "correct": false, "explanation": "They use behavioral signals, not face recordings."}]},
+  {"question": "Is CAPTCHA an unbreakable lock against bots?", "difficulty": "easy", "options": [{"text": "No, it's a probabilistic filter that raises the cost of automation", "correct": true, "explanation": "Sophisticated bots and paid solving services can bypass it."}, {"text": "Yes, no bot can ever pass", "correct": false, "explanation": "Some bots and solving services do get through."}, {"text": "Yes, if it uses images", "correct": false, "explanation": "Image challenges can be bypassed too."}]},
+  {"question": "Why do websites layer CAPTCHA with rate limiting and account monitoring?", "difficulty": "hard", "options": [{"text": "Because CAPTCHA only filters probabilistically, so other defenses catch what gets through", "correct": true, "explanation": "No single filter is a hard wall."}, {"text": "Because CAPTCHA slows the site down", "correct": false, "explanation": "Layering is about coverage, not speed."}, {"text": "Because the law requires three layers", "correct": false, "explanation": "It's a security practice, not a legal count."}]},
+  {"question": "Why have challenge-based CAPTCHAs had to get harder over time?", "difficulty": "hard", "options": [{"text": "Automated tools keep getting better at solving them", "correct": true, "explanation": "What once stumped scripts becomes solvable, so challenges must evolve."}, {"text": "Humans got better at puzzles", "correct": false, "explanation": "The pressure comes from improving bots."}, {"text": "Websites want to annoy users", "correct": false, "explanation": "The goal is to stay ahead of automation."}]},
+];
 
 export default function Post() {
   return (

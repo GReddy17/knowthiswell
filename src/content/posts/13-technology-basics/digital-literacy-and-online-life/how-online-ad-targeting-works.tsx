@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-literacy-and-online-life",
   tags: ["how ad targeting works", "online advertising", "real-time bidding", "ad auction", "digital literacy"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "The ad that appears the instant a page loads was chosen through a real-time auction run in the milliseconds before the page finished loading.",
   summary: "Online ad targeting works by matching a stored profile of a browser's inferred interests to an advertiser's criteria, then running a near-instant automated auction among competing advertisers, all before the page finishes loading.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How is the ad on a web page usually chosen?", "difficulty": "easy", "options": [{"text": "By an automated real-time auction among advertisers as the page loads", "correct": true, "explanation": "It all happens in a fraction of a second."}, {"text": "By the website owner, by hand, each day", "correct": false, "explanation": "It's automated and happens per page view."}, {"text": "Randomly, with no bidding", "correct": false, "explanation": "Advertisers bid for each impression."}]},
+  {"question": "What is targeting usually based on?", "difficulty": "easy", "options": [{"text": "An inferred audience segment tied to a browser or device profile", "correct": true, "explanation": "Built from browsing behavior, not usually your real name."}, {"text": "Your verified passport details", "correct": false, "explanation": "It's usually a browser profile, not a verified identity."}, {"text": "Your phone number", "correct": false, "explanation": "Profiles are mostly tied to tracking identifiers."}]},
+  {"question": "What mostly tracks browsing behavior for ad targeting?", "difficulty": "easy", "options": [{"text": "Cookies and similar identifiers", "correct": true, "explanation": "They let a browser be recognized across visits."}, {"text": "Your screen brightness", "correct": false, "explanation": "Brightness isn't used for tracking."}, {"text": "Your keyboard", "correct": false, "explanation": "Tracking uses identifiers stored in the browser."}]},
+  {"question": "After clearing cookies, someone sees more generic, irrelevant ads. Why?", "difficulty": "hard", "options": [{"text": "Advertisers lost the identifier linking the browser to its past behavior", "correct": true, "explanation": "With no profile, bids can't be targeted."}, {"text": "Clearing cookies bans targeted ads by law", "correct": false, "explanation": "It's the missing identifier, not a law."}, {"text": "The computer got slower", "correct": false, "explanation": "Speed isn't related to ad relevance."}]},
+  {"question": "Why can the same system produce both \"creepily accurate\" and completely irrelevant ads?", "difficulty": "hard", "options": [{"text": "It's probabilistic, guessing from inferred segments, not a perfect record of who you are", "correct": true, "explanation": "Sometimes the inference fits, sometimes it misses."}, {"text": "Advertisers pick ads at random on purpose", "correct": false, "explanation": "They bid based on inferred segments."}, {"text": "Accurate ads use a different system", "correct": false, "explanation": "Both come from the same mechanism."}]},
+];
 
 export default function Post() {
   return (

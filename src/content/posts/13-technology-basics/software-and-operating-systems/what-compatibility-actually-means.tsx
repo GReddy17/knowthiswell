@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "software-and-operating-systems",
   tags: ["device compatibility", "standards", "interoperability", "usb standards", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "\"Compatible\" isn't one property — it's four separate layers (connector, protocol, OS support, software format) that all have to match independently.",
   summary: "Compatibility between two devices or a device and a piece of software means several independent layers — physical connection, communication protocol, operating system support, and software format — all match well enough for them to work together, and any single layer can fail on its own.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does \"compatible\" really mean between devices?", "difficulty": "easy", "options": [{"text": "Several layers match: connector, protocol, OS support and software format", "correct": true, "explanation": "It's not one yes-or-no property."}, {"text": "The plug fits", "correct": false, "explanation": "Fit is only the physical layer."}, {"text": "Same brand", "correct": false, "explanation": "Brand doesn't guarantee all layers match."}]},
+  {"question": "Can a cable that physically fits still not work?", "difficulty": "easy", "options": [{"text": "Yes, if a different layer, like the protocol, doesn't match", "correct": true, "explanation": "One mismatched layer can break everything."}, {"text": "No, if it fits it works", "correct": false, "explanation": "Fit alone isn't enough."}, {"text": "Only if it's a different color", "correct": false, "explanation": "Color is irrelevant."}]},
+  {"question": "Why do published technical standards exist?", "difficulty": "easy", "options": [{"text": "So products from competing companies work together without direct coordination", "correct": true, "explanation": "Everyone builds to the same public spec."}, {"text": "To make products more expensive", "correct": false, "explanation": "Their purpose is interoperability."}, {"text": "So only one company can make devices", "correct": false, "explanation": "They open the field to many makers."}]},
+  {"question": "A cable charges a laptop but can't transfer files. What does that show?", "difficulty": "hard", "options": [{"text": "It supports the power layer but not the data protocol", "correct": true, "explanation": "Charge-only cables lack data support."}, {"text": "The laptop is broken", "correct": false, "explanation": "Charging works, so the port is fine."}, {"text": "Files are too big", "correct": false, "explanation": "It's the cable's missing data capability."}]},
+  {"question": "Two people use \"the same app,\" but one person's file won't open for the other. Which layer likely differs?", "difficulty": "hard", "options": [{"text": "Software version or file format", "correct": true, "explanation": "Different versions can save incompatible formats."}, {"text": "The physical connector", "correct": false, "explanation": "No cable is involved in opening a file."}, {"text": "Their internet speed", "correct": false, "explanation": "Speed doesn't change whether a format opens."}]},
+];
 
 export default function Post() {
   return (

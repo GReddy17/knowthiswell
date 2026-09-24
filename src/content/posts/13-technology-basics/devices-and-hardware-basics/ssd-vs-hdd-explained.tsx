@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "devices-and-hardware-basics",
   tags: ["SSD", "HDD", "storage", "hard drive", "solid state drive", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "An HDD reads data by physically spinning a disk and moving an arm; an SSD reads data electronically with no moving parts at all — that mechanical difference is the entire reason SSDs are faster.",
   summary: "An SSD (solid-state drive) stores data electronically in flash memory chips with no moving parts, while an HDD (hard disk drive) stores data magnetically on a spinning platter read by a physically moving arm — the mechanical motion in an HDD is the direct cause of its slower speed.",
@@ -56,6 +56,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How does a hard disk drive (HDD) read data?", "difficulty": "easy", "options": [{"text": "By spinning a magnetic platter and moving an arm to the right spot", "correct": true, "explanation": "That physical movement takes time."}, {"text": "By checking flash memory cells electronically", "correct": false, "explanation": "That's how an SSD works."}, {"text": "Using a laser like a DVD", "correct": false, "explanation": "HDDs read magnetically."}]},
+  {"question": "Why is an SSD faster?", "difficulty": "easy", "options": [{"text": "It reads cells electronically with no moving parts", "correct": true, "explanation": "Nothing has to physically travel to the data."}, {"text": "It spins faster", "correct": false, "explanation": "SSDs don't spin at all."}, {"text": "It stores less data", "correct": false, "explanation": "Speed comes from having no moving parts."}]},
+  {"question": "Do SSDs wear out?", "difficulty": "easy", "options": [{"text": "Flash cells have a limited number of rewrites, which controllers manage with wear-leveling", "correct": true, "explanation": "No mechanical wear, but cells age with writes."}, {"text": "No, never", "correct": false, "explanation": "Cells have limited rewrite cycles."}, {"text": "Only their motors wear out", "correct": false, "explanation": "SSDs have no motors."}]},
+  {"question": "Why is the speed gap biggest when booting an operating system?", "difficulty": "hard", "options": [{"text": "Booting reads thousands of small scattered files, and each one costs an HDD seek time", "correct": true, "explanation": "Random access is where HDDs are weakest."}, {"text": "Booting reads one huge file", "correct": false, "explanation": "It's many small files."}, {"text": "SSDs skip booting", "correct": false, "explanation": "Both boot; SSDs do it faster."}]},
+  {"question": "An old HDD laptop feels sluggish browsing and opening apps. Which upgrade helps most?", "difficulty": "hard", "options": [{"text": "Replacing the HDD with an SSD", "correct": true, "explanation": "Everyday use involves lots of small random reads."}, {"text": "A bigger HDD", "correct": false, "explanation": "More space doesn't fix slow random access."}, {"text": "A brighter screen", "correct": false, "explanation": "The screen doesn't affect loading speed."}]},
+];
 
 export default function Post() {
   return (

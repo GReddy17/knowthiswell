@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
     "germ theory",
   ],
   date: "2026-08-16",
-  updated: "2026-08-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-19",
   excerpt: "How bacteria multiply by doubling, why most microbes aren't harmful, what separates a bacterium from a virus, and where fungi, protozoa, algae, and archaea fit in.",
   summary: "Microorganisms are living things too small to see without a microscope, and the vast majority — including most bacteria in and on your body — are harmless or actively beneficial, not disease-causing.",
@@ -66,6 +66,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How do most bacteria reproduce?", "difficulty": "easy", "options": [{"text": "By binary fission, one cell splitting into two", "correct": true, "explanation": "That doubling is what makes bacterial growth exponential."}, {"text": "By infecting other cells", "correct": false, "explanation": "That's how viruses reproduce, not bacteria."}, {"text": "By laying eggs", "correct": false, "explanation": "Bacteria are single cells that simply divide."}]},
+  {"question": "What is true of most microorganisms?", "difficulty": "easy", "options": [{"text": "Most cause disease", "correct": false, "explanation": "Disease-causing species are a small minority."}, {"text": "Most are harmless or beneficial", "correct": true, "explanation": "Gut bacteria, soil bacteria and fermenting bacteria are all helpful examples."}, {"text": "Most live only in hospitals", "correct": false, "explanation": "Microbes live almost everywhere: soil, water, air, food and our bodies."}]},
+  {"question": "What is the key difference between bacteria and viruses?", "difficulty": "easy", "options": [{"text": "Bacteria are living cells that reproduce on their own; viruses need a host cell's machinery", "correct": true, "explanation": "Viruses hijack host cells to copy themselves."}, {"text": "Viruses are bigger than bacteria", "correct": false, "explanation": "Viruses are generally much smaller than bacteria."}, {"text": "There is no real difference", "correct": false, "explanation": "They're fundamentally different kinds of things."}]},
+  {"question": "Starting with 100 cells and a 20-minute doubling time, how many cells are there after 1 hour, ignoring limits?", "difficulty": "hard", "options": [{"text": "300", "correct": false, "explanation": "Growth doubles; it doesn't add 100 each time."}, {"text": "800", "correct": true, "explanation": "1 hour is 3 doublings: 100 × 2³ = 800."}, {"text": "600", "correct": false, "explanation": "Doubling three times gives 800, not 600."}]},
+  {"question": "Why do real bacterial cultures stop growing exponentially?", "difficulty": "hard", "options": [{"text": "The bacteria get tired of dividing", "correct": false, "explanation": "Growth slows because of the environment, not fatigue."}, {"text": "Nutrients run low and waste products build up", "correct": true, "explanation": "The culture levels off into a plateau as conditions worsen."}, {"text": "Bacteria can only double 10 times", "correct": false, "explanation": "There's no fixed doubling limit; resources set the ceiling."}]},
+];
 
 export default function Post() {
   return (

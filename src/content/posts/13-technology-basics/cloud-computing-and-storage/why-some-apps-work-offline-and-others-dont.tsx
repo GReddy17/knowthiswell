@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cloud-computing-and-storage",
   tags: ["offline apps", "why apps need internet", "local data storage", "thin client vs offline-first", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Offline mode isn't automatic — it only exists because developers deliberately built a local data store and a way to reconcile changes once a connection returns.",
   summary: "An app works offline only when developers deliberately build in a local copy of its data and a mechanism to reconcile changes with the server later — apps without that architecture depend entirely on a live connection for every action.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What makes an app work offline?", "difficulty": "easy", "options": [{"text": "A deliberate design that keeps a local copy of data on the device", "correct": true, "explanation": "Offline support is an architecture choice."}, {"text": "A strong Wi-Fi signal", "correct": false, "explanation": "Offline means no signal at all."}, {"text": "An expensive phone", "correct": false, "explanation": "It's about how the app was built."}]},
+  {"question": "What is a \"thin client\" app?", "difficulty": "easy", "options": [{"text": "One that keeps little data locally and needs a server for almost every action", "correct": true, "explanation": "It breaks the instant the connection drops."}, {"text": "A very small app", "correct": false, "explanation": "It's about where data lives, not size."}, {"text": "An app with no screens", "correct": false, "explanation": "It still has screens; it just depends on a server."}]},
+  {"question": "Does an offline-capable app never need the internet?", "difficulty": "easy", "options": [{"text": "No, it still needs it eventually, but queues that need instead of requiring it for every action", "correct": true, "explanation": "It delays the dependency."}, {"text": "Yes, never", "correct": false, "explanation": "Syncing still needs a connection."}, {"text": "Only for updates", "correct": false, "explanation": "It needs internet to sync data too."}]},
+  {"question": "Why is a video call app much harder to make work offline than a notes app?", "difficulty": "hard", "options": [{"text": "A call is live communication with another person, which can't be stored ahead of time", "correct": true, "explanation": "Notes can be stored locally; a live call can't."}, {"text": "Video apps are badly built", "correct": false, "explanation": "The limit is the nature of live calls."}, {"text": "Notes apps use less battery", "correct": false, "explanation": "The issue is real-time data."}]},
+  {"question": "An email app lets you read old mail and draft offline, but not receive new mail. Why?", "difficulty": "hard", "options": [{"text": "Old mail and drafts are stored locally; new mail must come from the server", "correct": true, "explanation": "Only locally stored data works offline."}, {"text": "Offline mode blocks new mail on purpose", "correct": false, "explanation": "New mail simply can't arrive without a connection."}, {"text": "Drafts are sent instantly", "correct": false, "explanation": "Drafts wait in a queue until you're online."}]},
+];
 
 export default function Post() {
   return (

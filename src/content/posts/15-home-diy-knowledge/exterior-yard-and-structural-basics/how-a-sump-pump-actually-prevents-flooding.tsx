@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "exterior-yard-and-structural-basics",
   tags: ["sump pump", "basement flooding", "foundation drainage", "water damage prevention", "home maintenance"],
   date: "2026-09-17",
-  updated: "2026-09-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-17",
   excerpt: "A sump pump doesn't stop water from ever reaching your basement — it intercepts groundwater in a pit and pumps it out faster than it can rise past the floor.",
   summary: "A sump pump works by collecting groundwater that drains toward a low pit (the sump) built into a basement floor, then automatically switching on once the water level rises to a set trigger point and pumping that water out through a discharge line, away from the foundation — it's an active, powered race against rising groundwater, not a passive barrier, which is exactly why a power outage during a storm is the scenario that defeats it.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeScheduledAt: "2026-09-18T22:00:00Z",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a sump pump actually do?", "difficulty": "easy", "options": [{"text": "It blocks groundwater from reaching the house", "correct": false, "explanation": "It doesn't block anything."}, {"text": "It collects water draining into a low pit and pumps it out before it rises past the floor", "correct": true, "explanation": "Like automatically bailing out a boat."}, {"text": "It seals cracks in the foundation", "correct": false, "explanation": "It removes water; it doesn't seal."}]},
+  {"question": "What turns the pump on automatically?", "difficulty": "easy", "options": [{"text": "A float switch that rises with the water level", "correct": true, "explanation": "When water reaches a set level, the float triggers the pump."}, {"text": "A timer", "correct": false, "explanation": "It responds to the actual water level, not the clock."}, {"text": "The homeowner, by hand", "correct": false, "explanation": "It's designed to run without anyone present."}]},
+  {"question": "What is a standard sump pump's biggest weakness?", "difficulty": "easy", "options": [{"text": "It stops working when the power goes out", "correct": true, "explanation": "The whole system is electrically powered."}, {"text": "It is too loud", "correct": false, "explanation": "Noise isn't the failure point that floods basements."}, {"text": "It removes too much water", "correct": false, "explanation": "Removing water is its purpose."}]},
+  {"question": "Why do power outages and flooding so often happen together?", "difficulty": "hard", "options": [{"text": "The same heavy storms that raise groundwater also knock out power", "correct": true, "explanation": "Risk peaks exactly when the pump loses power."}, {"text": "Sump pumps cause power outages", "correct": false, "explanation": "The storm causes both."}, {"text": "Flooding damages the power station first", "correct": false, "explanation": "The link is the storm itself, not the order of damage."}]},
+  {"question": "How does a battery-backup sump pump address the main weakness?", "difficulty": "hard", "options": [{"text": "It keeps pumping from its own battery when mains power fails", "correct": true, "explanation": "It closes the single biggest failure point of a standard system."}, {"text": "It makes the main pump run faster", "correct": false, "explanation": "It's a separate backup, not a speed boost."}, {"text": "It stops groundwater from rising", "correct": false, "explanation": "Groundwater still rises; the backup keeps removing it."}]},
+];
 
 export default function Post() {
   return (

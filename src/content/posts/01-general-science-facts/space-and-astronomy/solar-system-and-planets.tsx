@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -31,7 +31,7 @@ export const metadata: PostFrontmatter = {
     "terrestrial planets",
   ],
   date: "2026-08-16",
-  updated: "2026-08-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-19",
   excerpt: "The 8 planets in order, why the inner four are rocky and the outer four are gas or ice giants, and how to calculate weight on another planet.",
   summary: "The solar system is the Sun plus everything gravitationally bound to it — 8 planets, their moons, dwarf planets, asteroids, and comets — with the Sun alone holding about 99.8% of the total mass.",
@@ -72,6 +72,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How many official planets does the solar system have?", "difficulty": "easy", "options": [{"text": "9", "correct": false, "explanation": "Pluto was reclassified as a dwarf planet in 2006."}, {"text": "8", "correct": true, "explanation": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."}, {"text": "10", "correct": false, "explanation": "There are 8 official planets."}]},
+  {"question": "Which is the hottest planet?", "difficulty": "easy", "options": [{"text": "Mercury, because it's closest to the Sun", "correct": false, "explanation": "Mercury peaks around 430°C in daytime, but Venus is hotter."}, {"text": "Venus", "correct": true, "explanation": "Venus averages around 465°C despite being farther from the Sun than Mercury."}, {"text": "Jupiter", "correct": false, "explanation": "Jupiter's cloud tops are extremely cold."}]},
+  {"question": "About how much of the solar system's mass is in the Sun?", "difficulty": "easy", "options": [{"text": "About 50%", "correct": false, "explanation": "The Sun holds far more than half."}, {"text": "About 99.8%", "correct": true, "explanation": "Everything else combined is roughly 0.2%."}, {"text": "About 75%", "correct": false, "explanation": "The real figure is about 99.8%."}]},
+  {"question": "A person weighs 70 kg on Earth. About how much would they weigh on Mars, where gravity is 0.38 times Earth's?", "difficulty": "hard", "options": [{"text": "About 26.6 kg, while their mass stays 70 kg", "correct": true, "explanation": "70 × 0.38 = 26.6. Weight depends on gravity; mass doesn't change."}, {"text": "70 kg, because weight never changes", "correct": false, "explanation": "Weight is a force that depends on local gravity."}, {"text": "About 184 kg", "correct": false, "explanation": "That multiplies instead of scaling down by 0.38."}]},
+  {"question": "Why do farther planets have much longer years than their distance alone suggests?", "difficulty": "hard", "options": [{"text": "They travel a longer path and also move more slowly (Kepler's third law)", "correct": true, "explanation": "Both effects stack, so the orbital period grows faster than distance."}, {"text": "They spin more slowly on their axis", "correct": false, "explanation": "Spin sets the length of a day, not a year."}, {"text": "The Sun's gravity pushes them backward", "correct": false, "explanation": "Gravity pulls them inward; weaker pull far away means slower orbits."}]},
+];
 
 export default function Post() {
   return (

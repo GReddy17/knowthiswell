@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-communication",
   tags: ["push notifications explained", "how push notifications work", "notification service", "digital communication", "background app refresh", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A push notification doesn't come from the app itself — it travels through one shared, always-on connection your device's operating system keeps open to a central notification service.",
   summary: "A push notification is a short alert delivered to a device through a persistent connection maintained by the device's operating system, not by the individual app keeping its own connection open in the background.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How do push notifications reach your phone?", "difficulty": "easy", "options": [{"text": "Through one shared, always-on connection the operating system keeps to a notification service", "correct": true, "explanation": "Every app's alerts arrive through that single pipe."}, {"text": "Each app keeps its own connection open and checks constantly", "correct": false, "explanation": "That would drain the battery; one shared channel is used."}, {"text": "By text message", "correct": false, "explanation": "They use the notification service, not SMS."}]},
+  {"question": "Does an app's own server contact your phone directly?", "difficulty": "easy", "options": [{"text": "No, it hands the notification to the notification service", "correct": true, "explanation": "Only that service holds a connection to your device."}, {"text": "Yes, always directly", "correct": false, "explanation": "The central service delivers it."}, {"text": "Only if the app is open", "correct": false, "explanation": "It never contacts the phone directly."}]},
+  {"question": "Why do notifications still arrive when an app is fully closed?", "difficulty": "easy", "options": [{"text": "The operating system's shared connection delivers them, not the app", "correct": true, "explanation": "The app doesn't need to be running."}, {"text": "The app secretly reopens", "correct": false, "explanation": "Delivery doesn't depend on the app running."}, {"text": "Closed apps can't get notifications", "correct": false, "explanation": "They can, through the shared channel."}]},
+  {"question": "Does turning off notifications for one app save the battery cost of the shared connection?", "difficulty": "hard", "options": [{"text": "No, the shared connection stays open for other apps anyway", "correct": true, "explanation": "Blocking one app doesn't remove the single channel."}, {"text": "Yes, each app has its own connection", "correct": false, "explanation": "All apps share one connection."}, {"text": "Yes, it turns off all notifications", "correct": false, "explanation": "Other apps keep receiving theirs."}]},
+  {"question": "After resetting a phone, an app's notifications stop with no error. What is a likely cause?", "difficulty": "hard", "options": [{"text": "The app's server still holds the old device token, so notifications are sent to the wrong address", "correct": true, "explanation": "Opening the app usually registers a fresh token."}, {"text": "The phone's screen is broken", "correct": false, "explanation": "Delivery depends on registration, not the screen."}, {"text": "The notification service was shut down worldwide", "correct": false, "explanation": "Other apps would also be affected."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-literacy-and-online-life",
   tags: ["screen time tracking", "app usage stats", "foreground state", "digital wellbeing", "digital literacy"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Screen time tracking logs the timestamps when an app moves to and from the foreground, then totals the durations between those state changes — it doesn't watch what's on screen.",
   summary: "Screen time tracking works by timestamping state transitions — when the screen turns on or off and when a specific app becomes the foreground app — and totaling the durations between those transitions, rather than by observing or interpreting anything shown on screen.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How does screen time tracking measure app usage?", "difficulty": "easy", "options": [{"text": "It logs when an app comes to the foreground and leaves it, then adds up the time", "correct": true, "explanation": "Like a parking meter that runs only while you're parked."}, {"text": "It watches what's on your screen", "correct": false, "explanation": "It records timestamps, not the content displayed."}, {"text": "It counts your taps only", "correct": false, "explanation": "Taps aren't what it totals."}]},
+  {"question": "Which time counts toward an app's usage?", "difficulty": "easy", "options": [{"text": "Only screen-on time while the app is in the foreground", "correct": true, "explanation": "Background activity and screen-off time are excluded."}, {"text": "Any time the app is installed", "correct": false, "explanation": "Installation alone doesn't count."}, {"text": "Time the app runs in the background", "correct": false, "explanation": "Background running isn't counted."}]},
+  {"question": "Does basic screen time tracking know if you were actively using the app?", "difficulty": "easy", "options": [{"text": "No, idle foreground time counts the same as active use", "correct": true, "explanation": "Leaving an app open untouched still adds time."}, {"text": "Yes, it tracks your eyes", "correct": false, "explanation": "Basic tools don't track engagement."}, {"text": "Yes, it only counts scrolling", "correct": false, "explanation": "It counts foreground time, not scrolling."}]},
+  {"question": "You leave a video paused on screen for 15 minutes while cooking. How does screen time record it?", "difficulty": "hard", "options": [{"text": "As 15 minutes of use, since the app stayed in the foreground with the screen on", "correct": true, "explanation": "The timer can't tell idle time from active use."}, {"text": "As zero, because nothing played", "correct": false, "explanation": "Foreground time is what gets counted."}, {"text": "As background time", "correct": false, "explanation": "It was the visible foreground app."}]},
+  {"question": "Why might an app's reported time seem higher than you expected?", "difficulty": "hard", "options": [{"text": "Idle stretches with the app open and the screen on all get counted", "correct": true, "explanation": "The tracker totals foreground time regardless of engagement."}, {"text": "The tracker adds a bonus", "correct": false, "explanation": "It simply totals timed stretches."}, {"text": "Background downloads are included", "correct": false, "explanation": "Background activity is excluded."}]},
+];
 
 export default function Post() {
   return (

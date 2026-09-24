@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -31,7 +31,7 @@ export const metadata: PostFrontmatter = {
     "astronomy",
   ],
   date: "2026-08-16",
-  updated: "2026-08-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-19",
   excerpt: "What a light-year actually measures, how big the Milky Way and the observable universe are, and why looking at distant stars means looking back in time.",
   summary: "Stars are massive spheres of plasma powered by nuclear fusion, grouped into galaxies containing billions of them, all within a roughly 13.8-billion-year-old universe so vast that distance is measured in light-years, not kilometers.",
@@ -72,6 +72,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a light-year measure?", "difficulty": "easy", "options": [{"text": "Time", "correct": false, "explanation": "Despite the name, it isn't a length of time."}, {"text": "Distance: how far light travels in one year", "correct": true, "explanation": "About 9.46 trillion kilometers."}, {"text": "Brightness", "correct": false, "explanation": "Brightness is measured in other units."}]},
+  {"question": "How do stars produce their light and heat?", "difficulty": "easy", "options": [{"text": "Nuclear fusion", "correct": true, "explanation": "Stars fuse lighter elements into heavier ones, releasing energy."}, {"text": "Burning gas like a fire", "correct": false, "explanation": "Stars don't burn chemically; they fuse atomic nuclei."}, {"text": "Reflecting light from other stars", "correct": false, "explanation": "That's what planets and moons do; stars make their own light."}]},
+  {"question": "About how many stars does the Milky Way contain?", "difficulty": "easy", "options": [{"text": "About 1 million", "correct": false, "explanation": "The real number is vastly larger."}, {"text": "An estimated 100 to 400 billion", "correct": true, "explanation": "And the Milky Way is one of hundreds of billions of galaxies."}, {"text": "Exactly 8", "correct": false, "explanation": "8 is the number of planets in our solar system, not stars in the galaxy."}]},
+  {"question": "Proxima Centauri is about 4.24 light-years away. Roughly how far is that in kilometers?", "difficulty": "hard", "options": [{"text": "About 40 trillion km", "correct": true, "explanation": "4.24 × 9.46 trillion km ≈ 40.1 trillion km."}, {"text": "About 4.24 billion km", "correct": false, "explanation": "A single light-year is already about 9.46 trillion km."}, {"text": "About 400 million km", "correct": false, "explanation": "That's roughly the scale of the inner solar system, far too small."}]},
+  {"question": "When you look at a galaxy millions of light-years away, what are you seeing?", "difficulty": "hard", "options": [{"text": "The galaxy exactly as it is right now", "correct": false, "explanation": "Light takes time to arrive, so the view is always delayed."}, {"text": "The galaxy as it was when that light left it, millions of years ago", "correct": true, "explanation": "The farther away, the further back in time you're looking."}, {"text": "A reflection of the Milky Way", "correct": false, "explanation": "It's the galaxy's own light, just old."}]},
+];
 
 export default function Post() {
   return (

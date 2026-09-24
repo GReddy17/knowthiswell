@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cloud-computing-and-storage",
   tags: ["streaming vs downloading", "buffering explained", "video streaming", "bitrate", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Downloading waits for a whole file before playback; streaming plays from a small buffer while data keeps arriving — which is exactly why only one of them can stall mid-play.",
   summary: "Streaming plays media from a small, continuously refilled buffer while data keeps arriving over the internet, while downloading transfers an entire file to local storage before playback begins — a difference that explains why only streaming can buffer.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the difference between downloading and streaming?", "difficulty": "easy", "options": [{"text": "Downloading saves the whole file first; streaming plays from a buffer while more arrives", "correct": true, "explanation": "Like waiting for a whole pizza versus eating slice by slice."}, {"text": "They're the same thing", "correct": false, "explanation": "They deliver data in different ways."}, {"text": "Streaming needs no internet", "correct": false, "explanation": "Streaming needs data arriving continuously."}]},
+  {"question": "What causes buffering?", "difficulty": "easy", "options": [{"text": "Incoming data falls behind what playback is using, so the buffer empties", "correct": true, "explanation": "Playback pauses to wait for more data."}, {"text": "The video file is corrupted", "correct": false, "explanation": "Buffering is about delivery speed."}, {"text": "The screen is too big", "correct": false, "explanation": "Screen size doesn't cause buffering."}]},
+  {"question": "Can a fully downloaded song buffer on a plane with no Wi-Fi?", "difficulty": "easy", "options": [{"text": "No, it's already fully stored on the device", "correct": true, "explanation": "Nothing is waiting to arrive."}, {"text": "Yes, all music buffers", "correct": false, "explanation": "Downloaded files play from local storage."}, {"text": "Only in airplane mode", "correct": false, "explanation": "It plays fine without any connection."}]},
+  {"question": "Why does lowering video quality often stop buffering?", "difficulty": "hard", "options": [{"text": "Lower quality needs less data per second, so the connection can keep up", "correct": true, "explanation": "Buffering is a race between bandwidth and bitrate."}, {"text": "It makes the internet faster", "correct": false, "explanation": "Your connection speed doesn't change."}, {"text": "It downloads the whole video first", "correct": false, "explanation": "It's still streaming, just at a lower bitrate."}]},
+  {"question": "What is a download's failure mode, instead of buffering?", "difficulty": "hard", "options": [{"text": "A stalled or slow transfer before anything plays", "correct": true, "explanation": "Nothing plays until the transfer is complete."}, {"text": "Pausing mid-playback", "correct": false, "explanation": "That's streaming's failure mode."}, {"text": "Playing at lower quality", "correct": false, "explanation": "A download's quality is fixed once saved."}]},
+];
 
 export default function Post() {
   return (

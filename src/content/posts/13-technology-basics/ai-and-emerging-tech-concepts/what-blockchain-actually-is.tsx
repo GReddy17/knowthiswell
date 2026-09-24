@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ai-and-emerging-tech-concepts",
   tags: ["what is blockchain", "blockchain explained", "distributed ledger", "how blockchain works", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Blockchain is a record-keeping method — a chain of linked, tamper-evident entries shared across many computers — that cryptocurrency happens to use, not the other way around.",
   summary: "A blockchain is a record-keeping structure where entries are grouped into blocks, each cryptographically linked to the one before it, and copied across many independent computers, making past entries extremely difficult to alter without the change being detected.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Is blockchain the same thing as cryptocurrency?", "difficulty": "easy", "options": [{"text": "No, cryptocurrency is one application of blockchain", "correct": true, "explanation": "Blockchain is a general record-keeping method."}, {"text": "Yes, they're identical", "correct": false, "explanation": "Blockchain has other uses too."}, {"text": "Blockchain came after cryptocurrency and replaced it", "correct": false, "explanation": "Cryptocurrency is built on blockchain."}]},
+  {"question": "What does each block store to link the chain?", "difficulty": "easy", "options": [{"text": "The previous block's hash (cryptographic fingerprint)", "correct": true, "explanation": "That link makes tampering detectable."}, {"text": "The user's password", "correct": false, "explanation": "It stores the previous block's hash."}, {"text": "Nothing, blocks are independent", "correct": false, "explanation": "The linking is essential."}]},
+  {"question": "Who holds the master copy of a blockchain?", "difficulty": "easy", "options": [{"text": "No single master; many independent computers hold matching copies", "correct": true, "explanation": "A consensus mechanism governs new additions."}, {"text": "One central company", "correct": false, "explanation": "There's no single authority by design."}, {"text": "The government", "correct": false, "explanation": "Copies are distributed across participants."}]},
+  {"question": "Someone secretly edits a transaction in an old block. What happens?", "difficulty": "hard", "options": [{"text": "That block's hash changes and no longer matches what later blocks recorded, exposing the edit", "correct": true, "explanation": "The chain of fingerprints makes tampering evident."}, {"text": "Nobody can ever tell", "correct": false, "explanation": "The hash mismatch reveals it."}, {"text": "The edit is automatically accepted", "correct": false, "explanation": "Other copies won't match."}]},
+  {"question": "An attacker recalculates all later hashes on their own copy. Why does that still fail?", "difficulty": "hard", "options": [{"text": "Their copy no longer matches everyone else's, so the network rejects it", "correct": true, "explanation": "Many matching copies outvote one altered one."}, {"text": "Recalculating hashes is impossible", "correct": false, "explanation": "It's possible on one copy; the network still disagrees."}, {"text": "It succeeds every time", "correct": false, "explanation": "Consensus across copies stops it."}]},
+];
 
 export default function Post() {
   return (

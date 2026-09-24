@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-communication",
   tags: ["how social media algorithms work", "feed ranking explained", "recommendation systems", "digital communication", "engagement algorithm", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A social feed isn't chronological or random — a ranking model scores thousands of candidate posts against your past behavior and sorts them by predicted engagement.",
   summary: "A social media feed's order is decided by a ranking model that scores a large pool of candidate posts against signals like a person's past behavior, then sorts and displays the highest-scoring results first.",
@@ -50,6 +50,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What mainly decides the order of posts in a ranked feed?", "difficulty": "easy", "options": [{"text": "A model predicting what you're likely to engage with", "correct": true, "explanation": "It's a personalized prediction, not a neutral timeline."}, {"text": "Strict posting time", "correct": false, "explanation": "That's the chronological view."}, {"text": "A human editor picking each post", "correct": false, "explanation": "Ranking is automated."}]},
+  {"question": "Does the feed model judge whether a post is true?", "difficulty": "easy", "options": [{"text": "No, it predicts engagement, not truth or quality", "correct": true, "explanation": "It ranks what you're likely to react to."}, {"text": "Yes, false posts are always hidden", "correct": false, "explanation": "The ranking model doesn't evaluate truth."}, {"text": "Only for news posts", "correct": false, "explanation": "It predicts engagement for all posts."}]},
+  {"question": "Why do two friends following the same accounts see different feeds?", "difficulty": "easy", "options": [{"text": "Their different past behavior leads the model to predict different interests", "correct": true, "explanation": "Reactions feed back into the ranking."}, {"text": "The platform is broken", "correct": false, "explanation": "Different feeds are the design."}, {"text": "One of them has a newer phone", "correct": false, "explanation": "Device doesn't drive feed ranking."}]},
+  {"question": "Why can a misleading post spread widely in a ranked feed?", "difficulty": "hard", "options": [{"text": "If it drives strong reactions, the model predicts high engagement and ranks it up", "correct": true, "explanation": "The model optimizes for reactions, not accuracy."}, {"text": "Misleading posts pay for placement", "correct": false, "explanation": "Organic ranking isn't bought per post."}, {"text": "Feeds prefer long posts", "correct": false, "explanation": "Predicted engagement, not length, drives ranking."}]},
+  {"question": "What changes when you switch to a chronological feed?", "difficulty": "hard", "options": [{"text": "Posts appear in time order instead of by predicted engagement", "correct": true, "explanation": "The personalized ranking step is removed."}, {"text": "You see posts from people you don't follow", "correct": false, "explanation": "Chronological usually means followed accounts in time order."}, {"text": "Nothing changes", "correct": false, "explanation": "The ordering method changes completely."}]},
+];
 
 export default function Post() {
   return (

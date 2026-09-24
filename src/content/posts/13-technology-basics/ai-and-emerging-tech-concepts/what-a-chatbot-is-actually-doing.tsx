@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ai-and-emerging-tech-concepts",
   tags: ["how chatbots work", "language models", "chatbot", "does a chatbot understand", "artificial intelligence basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A chatbot doesn't understand your question — it predicts the next likely chunk of text, one piece at a time, based on patterns learned from training data.",
   summary: "A chatbot built on a language model works by repeatedly predicting the most statistically likely next small chunk of text (a token), one at a time, based on patterns learned during training — not by understanding meaning the way a person does.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How does a language-model chatbot build its reply?", "difficulty": "easy", "options": [{"text": "One small chunk of text (a token) at a time, predicting the likeliest next piece", "correct": true, "explanation": "It feeds the growing text back into itself until it stops."}, {"text": "By copying a stored answer from a database", "correct": false, "explanation": "It generates text; it doesn't look up stored answers."}, {"text": "By asking a human", "correct": false, "explanation": "Replies are generated automatically."}]},
+  {"question": "What is a chatbot \"hallucination\"?", "difficulty": "easy", "options": [{"text": "Fluent, confident text that is factually wrong", "correct": true, "explanation": "Pattern prediction isn't fact-checking."}, {"text": "When the chatbot crashes", "correct": false, "explanation": "It's about wrong content, not crashes."}, {"text": "When it shows images", "correct": false, "explanation": "It refers to made-up facts."}]},
+  {"question": "Does a chatbot decide its whole answer before writing it?", "difficulty": "easy", "options": [{"text": "No, there's no single moment where the full answer is decided", "correct": true, "explanation": "It builds the reply piece by piece."}, {"text": "Yes, it plans every word first", "correct": false, "explanation": "Each token is predicted as it goes."}, {"text": "Only for short answers", "correct": false, "explanation": "Length doesn't change the mechanism."}]},
+  {"question": "Why can a chatbot state a false fact in the same confident tone as a true one?", "difficulty": "hard", "options": [{"text": "Tone comes from language patterns, not from checking whether the content is true", "correct": true, "explanation": "Fluency and accuracy are separate."}, {"text": "It knows it's lying", "correct": false, "explanation": "It predicts text; it doesn't knowingly deceive."}, {"text": "Confident tone means the fact is verified", "correct": false, "explanation": "Confidence isn't evidence of accuracy."}]},
+  {"question": "Why can rephrasing a question change a chatbot's answer?", "difficulty": "hard", "options": [{"text": "Different wording changes the text it predicts from, so the likely continuation changes", "correct": true, "explanation": "The input shapes every predicted token."}, {"text": "It remembers you and changes its mind", "correct": false, "explanation": "The change comes from the new input text."}, {"text": "Rephrasing resets its knowledge", "correct": false, "explanation": "Its learned patterns stay the same."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "skill-building-and-self-directed-learning",
   tags: ["protege effect", "teaching to learn", "retrieval practice", "self-directed learning", "generation effect"],
   date: "2026-09-03",
-  updated: "2026-09-03",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-03",
   excerpt: "Preparing to teach or actually teaching something forces you to organize it for an audience and anticipate their questions, exposing gaps that passive study doesn't reliably surface.",
   summary: "The protégé effect is the well-documented pattern where preparing to teach, or actually teaching, material to someone else improves the teacher's own understanding and retention compared with studying the same material to be tested on it individually. Teaching forces you to organize information for someone else's understanding and anticipate their likely questions, which drives deeper retrieval and reorganization than passive review — and exposes real gaps in your own grasp of the material that quiet self-study doesn't reliably surface.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the protégé effect?", "difficulty": "easy", "options": [{"text": "Learning material better because you prepare to teach it", "correct": true, "explanation": "Organizing it for someone else deepens your own understanding."}, {"text": "Students copying their teacher's habits", "correct": false, "explanation": "It's about the teacher's own learning."}, {"text": "Learning faster by listening to lectures", "correct": false, "explanation": "It comes from explaining, not listening."}]},
+  {"question": "When does the benefit start?", "difficulty": "easy", "options": [{"text": "Before any actual teaching, from expecting to explain the material", "correct": true, "explanation": "Preparing to teach is enough to trigger it."}, {"text": "Only after teaching a full class", "correct": false, "explanation": "The expectation alone helps."}, {"text": "Only if students give good feedback", "correct": false, "explanation": "It comes from your own preparation."}]},
+  {"question": "What does preparing to teach reveal that passive study often misses?", "difficulty": "easy", "options": [{"text": "Gaps in your own understanding", "correct": true, "explanation": "Questions you can't answer clearly show what to fill in."}, {"text": "The best font for slides", "correct": false, "explanation": "The payoff is finding gaps."}, {"text": "Nothing new", "correct": false, "explanation": "It surfaces real gaps."}]},
+  {"question": "Why does reading a prepared script aloud show much smaller gains than explaining in your own words?", "difficulty": "hard", "options": [{"text": "The effect depends on generating your own explanation, not just occupying the teacher role", "correct": true, "explanation": "Organizing and anticipating confusion is what drives learning."}, {"text": "Scripts are always wrong", "correct": false, "explanation": "The problem is the missing mental work, not accuracy."}, {"text": "Speaking aloud blocks memory", "correct": false, "explanation": "Generating explanations is what matters."}]},
+  {"question": "What is the best way to apply the protégé effect when studying alone?", "difficulty": "hard", "options": [{"text": "Study as if you'll explain it to someone, and treat any question you can't answer clearly as a gap to fill", "correct": true, "explanation": "Audience-directed study drives deeper retrieval."}, {"text": "Reread your notes many times", "correct": false, "explanation": "That's passive study."}, {"text": "Highlight everything", "correct": false, "explanation": "Highlighting doesn't force explanation."}]},
+];
 
 export default function Post() {
   return (

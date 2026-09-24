@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
     "states of matter",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Why your breath fogs up in cold air, why dew forms overnight, and how everyday evaporation and condensation shape weather and household life.",
   summary: "Everyday phenomena like fog, dew, steam, and frost are all the same handful of phase-change mechanisms — evaporation, condensation, and sublimation — playing out at kitchen-table scale.",
@@ -64,6 +64,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Why does a cold glass of lemonade \"sweat\" on a warm day?", "difficulty": "easy", "options": [{"text": "Lemonade leaks through the glass", "correct": false, "explanation": "Glass isn't porous; the water comes from the air."}, {"text": "Water vapor in the air cools on the glass and condenses", "correct": true, "explanation": "Air touching the cold glass drops below its dew point."}, {"text": "The glass is melting", "correct": false, "explanation": "The glass doesn't change; vapor turns into droplets on it."}]},
+  {"question": "How are evaporation and condensation related?", "difficulty": "easy", "options": [{"text": "They are the same process running in opposite directions", "correct": true, "explanation": "Evaporation absorbs latent heat; condensation releases it."}, {"text": "They are unrelated processes", "correct": false, "explanation": "They are mirror images of the same phase change."}, {"text": "Condensation only happens in clouds", "correct": false, "explanation": "It happens on mirrors, grass, glasses and windows too."}]},
+  {"question": "Why does a wet sidewalk dry after the rain stops?", "difficulty": "easy", "options": [{"text": "The water soaks into the concrete and disappears", "correct": false, "explanation": "Most of it evaporates into the air."}, {"text": "The liquid water evaporates into invisible water vapor", "correct": true, "explanation": "Adding heat turns liquid into vapor that mixes into the air."}, {"text": "The sidewalk absorbs it as ice", "correct": false, "explanation": "Drying doesn't involve freezing."}]},
+  {"question": "Daytime air is 20°C with a dew point of 12°C. When does dew form on grass overnight?", "difficulty": "hard", "options": [{"text": "When the grass surface cools to about 12°C", "correct": true, "explanation": "At the dew point, the air touching the grass can't hold all its vapor, so it condenses."}, {"text": "Only if it rains", "correct": false, "explanation": "No rain is needed; the water is already in the air."}, {"text": "When the air warms to 20°C", "correct": false, "explanation": "Warming makes the air hold more vapor, not less."}]},
+  {"question": "How is the fog on a bathroom mirror related to a rain cloud?", "difficulty": "hard", "options": [{"text": "They form by the same physics (vapor cooling below its dew point), just at different sizes", "correct": true, "explanation": "Small-scale condensation scales up into the global water cycle."}, {"text": "They are unrelated; clouds are made of smoke", "correct": false, "explanation": "Clouds are condensed water droplets or ice."}, {"text": "Mirror fog is steam, but clouds are gas", "correct": false, "explanation": "Both are visible liquid droplets condensed from invisible vapor."}]},
+];
 
 export default function Post() {
   return (

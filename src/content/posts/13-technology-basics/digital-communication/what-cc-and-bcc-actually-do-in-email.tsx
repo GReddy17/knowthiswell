@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-communication",
   tags: ["what does cc mean in email", "what does bcc mean", "cc vs bcc explained", "digital communication", "email headers", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Cc addresses are copied into the message header every recipient sees; Bcc addresses are used to deliver the message but stripped from that header before anyone's copy is generated.",
   summary: "Cc (carbon copy) and Bcc (blind carbon copy) are two ways of adding extra recipients to an email, distinguished by what happens to their addresses at the header level: Cc addresses are written into a header block copied into every recipient's version of the message, while Bcc addresses are used only to route delivery and are stripped out before that shared header block is generated.",
@@ -50,6 +50,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What can every recipient see about Cc addresses?", "difficulty": "easy", "options": [{"text": "The full Cc list", "correct": true, "explanation": "Cc addresses are written into the shared header."}, {"text": "Nothing", "correct": false, "explanation": "Cc is visible to all."}, {"text": "Only the first Cc address", "correct": false, "explanation": "The whole Cc list is visible."}]},
+  {"question": "What happens to Bcc addresses?", "difficulty": "easy", "options": [{"text": "They're used to deliver a copy, then stripped from the shared header", "correct": true, "explanation": "No other recipient's copy shows them."}, {"text": "They're shown to everyone", "correct": false, "explanation": "That's Cc."}, {"text": "They get a different message", "correct": false, "explanation": "They get identical content."}]},
+  {"question": "Does a Bcc recipient get the same message content as the others?", "difficulty": "easy", "options": [{"text": "Yes, the content is identical", "correct": true, "explanation": "Only header visibility differs."}, {"text": "No, a shorter version", "correct": false, "explanation": "Content is the same for all."}, {"text": "No, only the subject line", "correct": false, "explanation": "They receive the full message."}]},
+  {"question": "Fifty people are Bcc'd on one email. Can any of them see the other 49?", "difficulty": "hard", "options": [{"text": "No, Bcc addresses never appear on anyone else's copy", "correct": true, "explanation": "They're stripped before the shared header is built."}, {"text": "Yes, Bcc people can see each other", "correct": false, "explanation": "No Bcc address is visible to other recipients."}, {"text": "Only if they reply", "correct": false, "explanation": "Replying doesn't reveal the Bcc list."}]},
+  {"question": "A coworker Bcc'd on a client email hits \"Reply All.\" What's the risk?", "difficulty": "hard", "options": [{"text": "Their reply goes to everyone, revealing they were on the email", "correct": true, "explanation": "Bcc hides them only until they reply to the group."}, {"text": "No risk; Bcc replies are hidden", "correct": false, "explanation": "A reply-all is a new, visible message."}, {"text": "The email gets deleted", "correct": false, "explanation": "The reply reveals their involvement."}]},
+];
 
 export default function Post() {
   return (

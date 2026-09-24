@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "home-safety-and-detection-systems",
   tags: ["fire extinguisher", "extinguisher class rating", "fire safety", "grease fire", "electrical fire"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-12",
   excerpt: "Fire extinguisher classes (A, B, C, D, K) match specific fuel types, and using the wrong class — like water on a grease fire — can make a fire dramatically worse.",
   summary: "A fire extinguisher's class rating describes which fuel type its agent is actually built to fight, because putting out a fire means interrupting a specific chemical or physical process, and an agent that works perfectly on one fuel type can actively spread or reignite another.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does Class A on a fire extinguisher cover?", "difficulty": "easy", "options": [{"text": "Ordinary combustibles like paper and wood", "correct": true, "explanation": "Class A is for everyday solid fuels."}, {"text": "Cooking oils", "correct": false, "explanation": "That's Class K."}, {"text": "Live electrical equipment", "correct": false, "explanation": "That's Class C."}]},
+  {"question": "What does Class K cover?", "difficulty": "easy", "options": [{"text": "Combustible metals", "correct": false, "explanation": "That's Class D."}, {"text": "Cooking oils and fats", "correct": true, "explanation": "K units are built for deep fryers and kitchen grease."}, {"text": "Flammable liquids like gasoline", "correct": false, "explanation": "That's Class B."}]},
+  {"question": "Are class letters a strength scale from weak to strong?", "difficulty": "easy", "options": [{"text": "Yes, K is the strongest", "correct": false, "explanation": "Letters aren't a strength ranking."}, {"text": "No, they're a compatibility match with the type of fuel", "correct": true, "explanation": "Each agent is built for a specific fuel category."}, {"text": "Yes, A is the strongest", "correct": false, "explanation": "They describe fuel type, not power."}]},
+  {"question": "Why is water dangerous on a stovetop grease fire?", "difficulty": "hard", "options": [{"text": "Water makes grease burn hotter chemically", "correct": false, "explanation": "The danger is physical: flash boiling and splattering."}, {"text": "Water sinks under the hot oil, flashes to steam and throws flaming grease outward", "correct": true, "explanation": "Using the wrong class can spread burning fuel and make the fire far worse."}, {"text": "Water is harmless but just doesn't work", "correct": false, "explanation": "It's actively dangerous, not just ineffective."}]},
+  {"question": "Which home most needs a Class D extinguisher in addition to an A-B-C unit?", "difficulty": "hard", "options": [{"text": "A home with a workshop that machines reactive metals like magnesium", "correct": true, "explanation": "Combustible metals need a specific Class D agent."}, {"text": "Any home with a fireplace", "correct": false, "explanation": "Wood fires are Class A, which A-B-C covers."}, {"text": "A home with a TV", "correct": false, "explanation": "Electrical fires are Class C, which A-B-C covers."}]},
+];
 
 export default function Post() {
   return (

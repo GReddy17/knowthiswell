@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-communication",
   tags: ["delivered but not read", "why message not read", "message status explained", "digital communication", "read receipt", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "\"Delivered\" only confirms a message reached the recipient's device — it says nothing about whether that device has shown it on screen yet, which is what triggers a read status.",
   summary: "A message shows \"delivered\" the moment it successfully arrives on the recipient's device, and only advances to \"read\" once a separate, later event happens — the message actually being rendered on that device's screen — so a stall between the two states usually points to something on the recipient's side, not a delivery failure.",
@@ -50,6 +50,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does \"delivered\" mean for a message?", "difficulty": "easy", "options": [{"text": "It arrived on the recipient's device", "correct": true, "explanation": "Reading is a separate, later event."}, {"text": "The recipient read it", "correct": false, "explanation": "That's the separate \"read\" status."}, {"text": "The recipient replied", "correct": false, "explanation": "Delivery says nothing about replies."}]},
+  {"question": "What does \"read\" mean?", "difficulty": "easy", "options": [{"text": "The message was displayed on the recipient's screen", "correct": true, "explanation": "It's a separate event after delivery."}, {"text": "The message left your phone", "correct": false, "explanation": "That's sending."}, {"text": "The recipient agreed with it", "correct": false, "explanation": "Read only reports display."}]},
+  {"question": "Which is an ordinary reason a message stays at \"delivered\"?", "difficulty": "easy", "options": [{"text": "The recipient has read receipts turned off", "correct": true, "explanation": "Their device never sends a read signal."}, {"text": "The message was lost", "correct": false, "explanation": "\"Delivered\" means it arrived."}, {"text": "Your phone broke", "correct": false, "explanation": "Delivery already succeeded."}]},
+  {"question": "Why is \"delivered but not read for a day\" weak evidence that something is wrong?", "difficulty": "hard", "options": [{"text": "Many everyday conditions explain it, like receipts off or the chat not opened", "correct": true, "explanation": "The gap reflects which ordinary condition applies."}, {"text": "It always means they're ignoring you", "correct": false, "explanation": "There are many mundane explanations."}, {"text": "It means the app crashed", "correct": false, "explanation": "Delivery shows the app worked."}]},
+  {"question": "Someone reads your message in a notification preview. Why might it still show only \"delivered\"?", "difficulty": "hard", "options": [{"text": "Previews often don't count as a full in-app read event", "correct": true, "explanation": "The read signal fires when the chat renders the message."}, {"text": "Previews delete the message", "correct": false, "explanation": "The message stays; the read event just isn't triggered."}, {"text": "Delivered and read are the same", "correct": false, "explanation": "They're separate signals."}]},
+];
 
 export default function Post() {
   return (

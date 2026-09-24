@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cybersecurity-literacy-basics",
   tags: ["end of support", "end of life", "software updates", "vulnerability patching", "cybersecurity basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "End of support means a vendor stops shipping security patches for that software, not that the software stops working — the risk grows invisibly because it runs exactly the same as before.",
   summary: "\"End of support\" (or end of life) means a software vendor has stopped releasing security patches for a product, even as new vulnerabilities in it continue to be discovered — the software typically keeps running exactly as before, which is what makes the growing security risk easy to miss.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does \"end of support\" mean?", "difficulty": "easy", "options": [{"text": "The vendor stops shipping security patches", "correct": true, "explanation": "The software itself keeps working."}, {"text": "The software stops working that day", "correct": false, "explanation": "It runs exactly as before."}, {"text": "The software is deleted from your device", "correct": false, "explanation": "Nothing is removed."}]},
+  {"question": "What happens to vulnerabilities found after end of support?", "difficulty": "easy", "options": [{"text": "The vendor never patches them", "correct": true, "explanation": "Known, unfixed weaknesses keep piling up."}, {"text": "They fix themselves", "correct": false, "explanation": "Nothing fixes them without patches."}, {"text": "They're patched faster", "correct": false, "explanation": "No patches come at all."}]},
+  {"question": "Is end of support always a hard cutoff for everyone?", "difficulty": "easy", "options": [{"text": "No, some vendors sell paid extended support with continued patches", "correct": true, "explanation": "Organizations sometimes pay for more time."}, {"text": "Yes, always", "correct": false, "explanation": "Paid extended support exists."}, {"text": "Yes, but only on weekends", "correct": false, "explanation": "Timing isn't the issue."}]},
+  {"question": "Why is \"it still works fine\" a bad sign of safety for unsupported software?", "difficulty": "hard", "options": [{"text": "The risk grows invisibly as new flaws are found and never fixed", "correct": true, "explanation": "Working and being secure are different things."}, {"text": "Working software is always safe", "correct": false, "explanation": "Unpatched flaws can be exploited silently."}, {"text": "It will crash soon anyway", "correct": false, "explanation": "It may run for years while becoming riskier."}]},
+  {"question": "Which analogy best fits end of support?", "difficulty": "hard", "options": [{"text": "An old car model the maker no longer issues recalls or new parts for", "correct": true, "explanation": "It still runs, but new defects aren't fixed."}, {"text": "A car that stops running on a set date", "correct": false, "explanation": "The software keeps running."}, {"text": "A brand-new car", "correct": false, "explanation": "New products get full support."}]},
+];
 
 export default function Post() {
   return (

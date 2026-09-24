@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "software-and-operating-systems",
   tags: ["why apps crash", "software bugs", "memory errors", "app troubleshooting", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "An app crash is the operating system deliberately shutting down a process that hit an operation it can't safely continue from — a safety response, not a random glitch.",
   summary: "An app crash happens when a running process hits an operation it cannot execute safely — like accessing memory it doesn't own — which raises an error the operating system responds to by deliberately terminating that process before it can cause wider damage.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is an app crash, technically?", "difficulty": "easy", "options": [{"text": "The operating system deliberately stopping a process that hit an unsafe operation", "correct": true, "explanation": "It's a safety response, not random."}, {"text": "The operating system malfunctioning", "correct": false, "explanation": "The OS is working as designed."}, {"text": "The phone overheating", "correct": false, "explanation": "Crashes come from impossible instructions."}]},
+  {"question": "Which is a common cause of crashes?", "difficulty": "easy", "options": [{"text": "Trying to access memory the app doesn't own", "correct": true, "explanation": "Also: running out of memory or dividing by zero."}, {"text": "The screen being too bright", "correct": false, "explanation": "Brightness doesn't crash apps."}, {"text": "Using the app too slowly", "correct": false, "explanation": "Speed of use isn't a cause."}]},
+  {"question": "Why does the OS stop a crashing app instead of letting it continue?", "difficulty": "easy", "options": [{"text": "To protect the rest of the system and other apps from being corrupted", "correct": true, "explanation": "A broken process could damage other things."}, {"text": "To save battery", "correct": false, "explanation": "The purpose is safety."}, {"text": "To force an update", "correct": false, "explanation": "It's about containing the fault."}]},
+  {"question": "An app gets slower over hours, then crashes. What is the likely cause?", "difficulty": "hard", "options": [{"text": "A memory leak gradually using up available memory", "correct": true, "explanation": "Eventually it runs out and the OS stops it."}, {"text": "The app gets tired", "correct": false, "explanation": "Gradual slowdown points to growing memory use."}, {"text": "The phone's clock drifts", "correct": false, "explanation": "Memory, not the clock, is the usual cause."}]},
+  {"question": "Why is a crash report more useful to developers than \"it crashed when I opened it\"?", "difficulty": "hard", "options": [{"text": "It records the exact failing operation and where in the code it happened", "correct": true, "explanation": "That points straight to the bug."}, {"text": "It includes a screenshot", "correct": false, "explanation": "The technical details are what matter."}, {"text": "It's longer", "correct": false, "explanation": "Precision, not length, is the value."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "smart-devices-and-iot-basics",
   tags: ["smart thermostat", "how smart thermostats work", "feedback loop", "IoT basics", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A smart thermostat doesn't predict your future — it logs your past adjustments and matches new readings against that pattern to anticipate what you'll want next.",
   summary: "A smart thermostat \"learns\" by continuously logging sensor readings and manual temperature adjustments with timestamps, then comparing new readings against that stored pattern to predict and pre-adjust the temperature ahead of when you're expected to want a change.",
@@ -50,6 +50,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How does a smart thermostat \"learn\"?", "difficulty": "easy", "options": [{"text": "By logging readings and manual adjustments with timestamps and matching new conditions to that history", "correct": true, "explanation": "It's pattern-matching, not true prediction."}, {"text": "By reading your calendar", "correct": false, "explanation": "Its learning comes from logged adjustments and sensors."}, {"text": "By guessing randomly", "correct": false, "explanation": "It works from stored history."}]},
+  {"question": "What is the thermostat's core loop?", "difficulty": "easy", "options": [{"text": "Sense, compare to the learned pattern, adjust, repeat", "correct": true, "explanation": "It runs continuously."}, {"text": "Turn on once a day at noon", "correct": false, "explanation": "It adjusts continuously based on patterns."}, {"text": "Wait for the owner every time", "correct": false, "explanation": "It acts on its own once the pattern is clear."}]},
+  {"question": "What temporarily confuses a smart thermostat?", "difficulty": "easy", "options": [{"text": "A sudden schedule change, like a new job", "correct": true, "explanation": "Old data still dominates until new data replaces it."}, {"text": "A sunny day", "correct": false, "explanation": "Normal conditions are what it's built for."}, {"text": "Changing the Wi-Fi password", "correct": false, "explanation": "That's not what affects its learned pattern."}]},
+  {"question": "After a permanent schedule change, the thermostat keeps pre-heating at the old time. What will fix it over time?", "difficulty": "hard", "options": [{"text": "Enough new manual adjustments to overwrite the old pattern", "correct": true, "explanation": "The system depends entirely on logged data."}, {"text": "Nothing; it can never relearn", "correct": false, "explanation": "It relearns as new data accumulates."}, {"text": "Turning the heat higher", "correct": false, "explanation": "The pattern changes through new logged habits, not temperature."}]},
+  {"question": "Why does a learning thermostat wait for about a week of consistent data before acting?", "difficulty": "hard", "options": [{"text": "To tell a real pattern apart from one-off adjustments", "correct": true, "explanation": "Acting on a single change would make it jumpy."}, {"text": "Because it needs a firmware update first", "correct": false, "explanation": "The wait is about data, not updates."}, {"text": "Because it only works on weekends", "correct": false, "explanation": "It learns weekday and weekend routines."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cloud-computing-and-storage",
   tags: ["uptime explained", "server failover", "redundancy", "downtime", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Uptime is the measured percentage of time a service actually responds as expected — and the gap between 99% and 99.99% is far bigger than the numbers suggest.",
   summary: "Uptime is the percentage of time an online service is available and functioning as expected, typically achieved and measured through redundant servers and automatic failover rather than any single machine simply never failing.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is \"uptime\"?", "difficulty": "easy", "options": [{"text": "The measured percentage of time a service actually works", "correct": true, "explanation": "It describes an outcome, not a no-failure promise."}, {"text": "How fast a website loads", "correct": false, "explanation": "That's speed, not availability."}, {"text": "How long a server has existed", "correct": false, "explanation": "It's the share of time the service is working."}]},
+  {"question": "About how much downtime per year does 99% uptime allow?", "difficulty": "easy", "options": [{"text": "About 3.65 days", "correct": true, "explanation": "1% of a year is roughly 87.6 hours."}, {"text": "About 1 minute", "correct": false, "explanation": "That's far stricter than 99%."}, {"text": "About 1 hour", "correct": false, "explanation": "99% allows several days."}]},
+  {"question": "How is high uptime usually achieved?", "difficulty": "easy", "options": [{"text": "Redundant servers with automatic failover", "correct": true, "explanation": "Individual machines fail; backups take over."}, {"text": "One server that never breaks", "correct": false, "explanation": "No single machine is that reliable."}, {"text": "Turning servers off at night", "correct": false, "explanation": "That would reduce uptime."}]},
+  {"question": "About how much downtime per year does 99.99% uptime allow?", "difficulty": "hard", "options": [{"text": "About 52 minutes", "correct": true, "explanation": "0.01% of a year is roughly 52.6 minutes."}, {"text": "About 3.65 days", "correct": false, "explanation": "That's 99% uptime."}, {"text": "About 8.8 hours", "correct": false, "explanation": "That's roughly 99.9% uptime."}]},
+  {"question": "A primary server fails but users barely notice. What happened?", "difficulty": "hard", "options": [{"text": "A backup server took over automatically within seconds (failover)", "correct": true, "explanation": "Redundancy is how high uptime survives failures."}, {"text": "The server fixed itself instantly", "correct": false, "explanation": "A backup took over."}, {"text": "Users were all offline", "correct": false, "explanation": "Failover kept the service running."}]},
+];
 
 export default function Post() {
   return (

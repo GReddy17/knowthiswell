@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "home-safety-and-detection-systems",
   tags: ["home security system", "motion sensor", "contact sensor", "glass break sensor", "alarm monitoring"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-12",
   excerpt: "A home security system detects intrusion through specific sensor types — contact, motion, and glass-break — each reacting to a different physical signal, then reporting to a monitoring center.",
   summary: "A home security system isn't one device watching for \"intrusion\" in general — it's a set of sensors, each built to react to a specific physical signal (a door opening, a warm body moving, glass shattering), reporting through a control panel to a monitoring center that decides how to respond.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a door contact sensor detect?", "difficulty": "easy", "options": [{"text": "A magnet separating from its switch when the door opens", "correct": true, "explanation": "It's a simple, reliable open-or-closed signal."}, {"text": "Body heat", "correct": false, "explanation": "That's what a PIR motion sensor detects."}, {"text": "The sound of breaking glass", "correct": false, "explanation": "That's a glass-break sensor."}]},
+  {"question": "What does a PIR motion sensor react to?", "difficulty": "easy", "options": [{"text": "A moving heat source", "correct": true, "explanation": "Passive infrared sensors watch for heat moving across their view."}, {"text": "Door magnets", "correct": false, "explanation": "Magnets are for contact sensors."}, {"text": "Wi-Fi signals", "correct": false, "explanation": "PIR sensors respond to infrared heat, not wireless signals."}]},
+  {"question": "Does the monitoring center actually see the intrusion happen?", "difficulty": "easy", "options": [{"text": "Yes, through built-in cameras on every sensor", "correct": false, "explanation": "Most sensors send only a signal, not video."}, {"text": "No, it only receives the reports the sensors are built to send", "correct": true, "explanation": "That's why sensor type and placement matter so much."}, {"text": "Only if the police are already there", "correct": false, "explanation": "The center responds to sensor reports, not police observation."}]},
+  {"question": "What causes most false alarms?", "difficulty": "hard", "options": [{"text": "Broken control panels", "correct": false, "explanation": "System failures are the less common cause."}, {"text": "Sensors correctly reacting to something harmless, like a pet or a door left ajar", "correct": true, "explanation": "The sensor did its job; the trigger was innocent."}, {"text": "Hackers", "correct": false, "explanation": "The common cause is harmless triggers, not attacks."}]},
+  {"question": "A homeowner with a large dog wants motion detection without constant alarms. What is the best approach based on how sensors work?", "difficulty": "hard", "options": [{"text": "Turn motion sensors up to maximum sensitivity", "correct": false, "explanation": "Higher sensitivity makes pet triggers more likely."}, {"text": "Rely more on door and window contact sensors, and use pet-aware motion sensors placed away from the dog's paths", "correct": true, "explanation": "Match sensor type and placement to what each one reacts to."}, {"text": "Remove all sensors except glass-break", "correct": false, "explanation": "That leaves most entry points uncovered."}]},
+];
 
 export default function Post() {
   return (

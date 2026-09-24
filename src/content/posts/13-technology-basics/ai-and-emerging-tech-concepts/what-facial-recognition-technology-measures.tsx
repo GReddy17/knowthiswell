@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ai-and-emerging-tech-concepts",
   tags: ["how facial recognition works", "facial recognition technology", "facial landmarks", "verification vs identification", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Facial recognition doesn't store or compare a photo — it converts facial measurements into a numeric template and checks that number set against others.",
   summary: "Facial recognition technology measures the geometry of a face — distances between landmark points like the eyes, nose, and jaw — converts those measurements into a numeric template, and compares that template against one or more stored templates for a similarity score, rather than comparing images directly.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does facial recognition compare when matching?", "difficulty": "easy", "options": [{"text": "Numeric templates (faceprints) made from face geometry", "correct": true, "explanation": "It compares numbers, not photos side by side."}, {"text": "Two photos, pixel by pixel", "correct": false, "explanation": "It converts faces into measurements first."}, {"text": "Hair color only", "correct": false, "explanation": "It uses geometric proportions of the face."}]},
+  {"question": "What is \"verification\" in facial recognition?", "difficulty": "easy", "options": [{"text": "Checking whether a face matches one specific claimed identity", "correct": true, "explanation": "Like unlocking your own phone."}, {"text": "Searching a database for any match", "correct": false, "explanation": "That's identification."}, {"text": "Taking a new photo", "correct": false, "explanation": "It's a one-to-one match check."}]},
+  {"question": "Is a face match an exact equality check?", "difficulty": "easy", "options": [{"text": "No, it's a similarity score crossing a set threshold", "correct": true, "explanation": "That's why false matches and false rejections can happen."}, {"text": "Yes, it must match perfectly", "correct": false, "explanation": "Faces never measure identically twice."}, {"text": "Yes, but only in daylight", "correct": false, "explanation": "It's always a similarity threshold."}]},
+  {"question": "Why does searching a large database (identification) carry more error risk than verification?", "difficulty": "hard", "options": [{"text": "Comparing against many faces gives more chances for a false match", "correct": true, "explanation": "More comparisons mean more opportunities to cross the threshold wrongly."}, {"text": "Databases have blurry photos only", "correct": false, "explanation": "The main issue is the number of comparisons."}, {"text": "Verification never makes mistakes", "correct": false, "explanation": "Both can err; identification has more chances."}]},
+  {"question": "Why can identical twins challenge a facial recognition system?", "difficulty": "hard", "options": [{"text": "Their face geometry is so similar that their faceprints can fall within the match threshold", "correct": true, "explanation": "Similar measurements produce similar scores."}, {"text": "Twins confuse the camera's lens", "correct": false, "explanation": "The problem is similar measurements."}, {"text": "Systems ban twins", "correct": false, "explanation": "It's a limit of similarity scoring."}]},
+];
 
 export default function Post() {
   return (

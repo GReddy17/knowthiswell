@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "smart-devices-and-iot-basics",
   tags: ["smart TV explained", "what makes a TV smart", "smart TV operating system", "how smart TVs work", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A smart TV's screen isn't automatically better than a regular one — the real difference is an entire computer layered on top of the same kind of panel.",
   summary: "A smart TV differs from a regular TV by adding a full embedded computer — an operating system, an apps layer, and a network connection — on top of the same kind of display panel a regular TV uses, letting it run streaming apps and connect to accounts and the internet directly, rather than only display whatever signal a connected device sends it.",
@@ -50,6 +50,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What mainly makes a smart TV different from a regular TV?", "difficulty": "easy", "options": [{"text": "Software layers added on top: an operating system, apps and network accounts", "correct": true, "explanation": "The display panel can be identical."}, {"text": "A completely different kind of screen", "correct": false, "explanation": "Panels are often built the same way."}, {"text": "Bigger speakers", "correct": false, "explanation": "The difference is the built-in computer."}]},
+  {"question": "Does being \"smart\" make a TV's picture better?", "difficulty": "easy", "options": [{"text": "No, picture quality is a separate decision from being smart", "correct": true, "explanation": "The same panel can go in either type."}, {"text": "Yes, always", "correct": false, "explanation": "Smart features don't change the panel."}, {"text": "Only on weekends", "correct": false, "explanation": "Picture depends on the panel."}]},
+  {"question": "What can a smart TV do that a regular TV can't on its own?", "difficulty": "easy", "options": [{"text": "Run apps and stream directly over Wi-Fi", "correct": true, "explanation": "A small built-in computer does this."}, {"text": "Display a picture", "correct": false, "explanation": "Both display pictures."}, {"text": "Turn on", "correct": false, "explanation": "Both turn on."}]},
+  {"question": "A commercial display has a great picture but no apps or internet. What is it?", "difficulty": "hard", "options": [{"text": "A display without the smart software layers", "correct": true, "explanation": "A streaming stick can add them externally."}, {"text": "A broken smart TV", "correct": false, "explanation": "It was simply built without the software stack."}, {"text": "A smart TV in disguise", "correct": false, "explanation": "No OS or apps means it's not smart."}]},
+  {"question": "Streaming a show through a smart TV app versus a plugged-in streaming stick: what differs?", "difficulty": "hard", "options": [{"text": "Which built-in computer runs the app; the screen just displays the picture either way", "correct": true, "explanation": "The software source changes, not the panel."}, {"text": "The stick always makes the picture sharper", "correct": false, "explanation": "The panel sets picture quality."}, {"text": "Only the smart TV can play shows", "correct": false, "explanation": "Both can stream."}]},
+];
 
 export default function Post() {
   return (

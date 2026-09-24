@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-communication",
   tags: ["why video calls lag", "bandwidth vs latency", "video call quality", "digital communication", "video compression", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Video calls lag for two very different reasons — not enough bandwidth for the data, or too much delay getting it there — and the fix for each is completely different.",
   summary: "Video call lag happens when either bandwidth (how much data can flow per second) or latency (how long each bit of data takes to arrive) can't keep up with the compressed audio and video stream the call requires in real time.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is bandwidth, in the garden-hose analogy?", "difficulty": "easy", "options": [{"text": "How wide the hose is: how much data moves per second", "correct": true, "explanation": "Too little bandwidth makes video blurry or frozen."}, {"text": "How long the hose is", "correct": false, "explanation": "That's latency."}, {"text": "The water pressure", "correct": false, "explanation": "Bandwidth is capacity per second."}]},
+  {"question": "What is latency?", "difficulty": "easy", "options": [{"text": "How long data takes to arrive", "correct": true, "explanation": "High latency makes people talk over each other."}, {"text": "How much data fits per second", "correct": false, "explanation": "That's bandwidth."}, {"text": "The video's resolution", "correct": false, "explanation": "Latency is delay."}]},
+  {"question": "What is adaptive bitrate?", "difficulty": "easy", "options": [{"text": "The app adjusting video quality in real time based on network conditions", "correct": true, "explanation": "It compresses more when the connection gets worse."}, {"text": "A faster internet plan", "correct": false, "explanation": "It's the app's own adjustment."}, {"text": "A type of camera", "correct": false, "explanation": "It's a software feedback loop."}]},
+  {"question": "Why can't a faster internet plan fix the delay on a very long-distance call?", "difficulty": "hard", "options": [{"text": "Distance adds latency, which more bandwidth doesn't reduce", "correct": true, "explanation": "A wider hose doesn't make a long hose shorter."}, {"text": "Faster plans don't exist", "correct": false, "explanation": "They exist; they raise bandwidth, not reduce distance delay."}, {"text": "Video calls ignore internet speed", "correct": false, "explanation": "Speed helps quality, not distance delay."}]},
+  {"question": "Video turns blurry when someone starts a big download on the same network. Why?", "difficulty": "hard", "options": [{"text": "The download takes bandwidth, so the app lowers video quality to fit", "correct": true, "explanation": "Adaptive bitrate reacts to less available bandwidth."}, {"text": "The download increases distance", "correct": false, "explanation": "Bandwidth, not distance, changed."}, {"text": "The camera turned off", "correct": false, "explanation": "The app compressed more heavily."}]},
+];
 
 export default function Post() {
   return (

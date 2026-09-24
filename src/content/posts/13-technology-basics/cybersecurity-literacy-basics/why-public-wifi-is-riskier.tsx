@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cybersecurity-literacy-basics",
   tags: ["public wifi", "network security", "https", "packet sniffing", "cybersecurity basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Public WiFi is riskier because strangers share the same network, not because a password requirement is missing — what actually protects your data in transit is HTTPS encryption, regardless of the network.",
   summary: "Public WiFi is riskier than a home network mainly because many unrelated, unvetted people share the same network, making it easier for someone on that network to observe unencrypted traffic — what actually protects data in transit is whether a site or app uses HTTPS encryption, not whether the network itself required a password.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Why is public Wi-Fi riskier than home Wi-Fi?", "difficulty": "easy", "options": [{"text": "Many unvetted strangers share the same network", "correct": true, "explanation": "The radio technology itself isn't different."}, {"text": "Public Wi-Fi uses weaker radio waves", "correct": false, "explanation": "The technology is the same."}, {"text": "It's always slower", "correct": false, "explanation": "Speed isn't the security issue."}]},
+  {"question": "What mainly protects your data in transit on any network?", "difficulty": "easy", "options": [{"text": "HTTPS encryption on the site or app", "correct": true, "explanation": "It protects content whether the network is trusted or not."}, {"text": "Sitting close to the router", "correct": false, "explanation": "Distance doesn't encrypt anything."}, {"text": "Using a new phone", "correct": false, "explanation": "Encryption is what protects content."}]},
+  {"question": "Does a café Wi-Fi password make it as private as home Wi-Fi?", "difficulty": "easy", "options": [{"text": "No, every customer shares the same key", "correct": true, "explanation": "It's a weaker kind of protection."}, {"text": "Yes, exactly the same", "correct": false, "explanation": "Shared keys mean shared access."}, {"text": "Yes, if the password is long", "correct": false, "explanation": "Everyone still shares it."}]},
+  {"question": "What is an \"evil twin\" network?", "difficulty": "hard", "options": [{"text": "A fake hotspot named like the real one, set up by an attacker", "correct": true, "explanation": "You may connect to the attacker's network without realizing."}, {"text": "Two routers from the same brand", "correct": false, "explanation": "It's a deliberate impostor network."}, {"text": "A backup router", "correct": false, "explanation": "It's an attacker's lookalike."}]},
+  {"question": "Why is a bank's official app over public Wi-Fi reasonably safe?", "difficulty": "hard", "options": [{"text": "The app encrypts its own connection to the bank, so others on the network can't read it", "correct": true, "explanation": "Encryption protects content regardless of the network."}, {"text": "Banks own all public Wi-Fi", "correct": false, "explanation": "The app's encryption is what protects you."}, {"text": "Public Wi-Fi blocks attackers", "correct": false, "explanation": "It doesn't; the app's encryption does the work."}]},
+];
 
 export default function Post() {
   return (

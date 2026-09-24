@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-literacy-and-online-life",
   tags: ["app permissions", "operating system security", "sandboxing", "revoking permissions", "digital literacy"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "An app permission grants access to one specific resource, checked by the operating system on every use — not a one-time master key to the whole device.",
   summary: "An app permission is a stored, per-resource setting that the operating system checks every time an app requests access to something sensitive, acting as a gatekeeper layer between the app and the device's hardware or data rather than handing the app direct control.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does granting an app camera access allow?", "difficulty": "easy", "options": [{"text": "Access to the camera only", "correct": true, "explanation": "Each permission covers one specific resource."}, {"text": "Access to everything on the phone", "correct": false, "explanation": "Permissions aren't a master key."}, {"text": "Access to your contacts too", "correct": false, "explanation": "Contacts need a separate permission."}]},
+  {"question": "Who checks permissions when an app tries to use a resource?", "difficulty": "easy", "options": [{"text": "The operating system, on every access attempt", "correct": true, "explanation": "It acts as the gatekeeper."}, {"text": "The app itself", "correct": false, "explanation": "Apps can't grant themselves access."}, {"text": "Nobody, after installation", "correct": false, "explanation": "It's checked on each attempt."}]},
+  {"question": "Can you take a permission back later?", "difficulty": "easy", "options": [{"text": "Yes, in device settings, at any time", "correct": true, "explanation": "Revocation takes effect on the app's next access attempt."}, {"text": "No, it's permanent after install", "correct": false, "explanation": "Permissions can be revoked any time."}, {"text": "Only by deleting the app", "correct": false, "explanation": "Settings let you change it directly."}]},
+  {"question": "A navigation app has location access \"only while using the app.\" What happens when you switch away?", "difficulty": "hard", "options": [{"text": "Its location access stops until you return to it", "correct": true, "explanation": "The OS checks the stored rule on each access attempt."}, {"text": "It keeps tracking you all day", "correct": false, "explanation": "That would need \"always\" access."}, {"text": "The app is deleted", "correct": false, "explanation": "Only its location access pauses."}]},
+  {"question": "Why does a camera prompt usually appear only the first time an app asks?", "difficulty": "hard", "options": [{"text": "The OS stores your answer and applies it to later requests", "correct": true, "explanation": "The stored decision is checked on each access."}, {"text": "The app stops using the camera", "correct": false, "explanation": "It keeps using it under the stored permission."}, {"text": "Prompts only work once per phone", "correct": false, "explanation": "Each app and permission gets its own prompt."}]},
+];
 
 export default function Post() {
   return (

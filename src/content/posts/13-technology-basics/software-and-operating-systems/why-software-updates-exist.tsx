@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "software-and-operating-systems",
   tags: ["software updates", "patches", "security vulnerabilities", "software maintenance", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Software updates aren't just new features — most exist to close specific, known security flaws before someone with bad intentions finds and uses them.",
   summary: "A software update is a revised version of a program released to fix discovered bugs, close security vulnerabilities, or add capabilities — skipping one doesn't freeze a program in a safe state, it leaves known, already-public flaws unpatched on your device.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the main reason most software updates exist?", "difficulty": "easy", "options": [{"text": "To fix already-discovered flaws, like security holes or bugs", "correct": true, "explanation": "New features are often secondary."}, {"text": "To change the colors", "correct": false, "explanation": "Most updates fix specific problems."}, {"text": "To slow devices down", "correct": false, "explanation": "They exist to fix flaws."}]},
+  {"question": "When a vulnerability is publicly disclosed, who learns about it?", "difficulty": "easy", "options": [{"text": "Developers, researchers and attackers alike", "correct": true, "explanation": "The exposure clock starts for everyone unpatched."}, {"text": "Only the developer", "correct": false, "explanation": "Public disclosure reaches everyone."}, {"text": "Nobody", "correct": false, "explanation": "Disclosure is public."}]},
+  {"question": "What does skipping an update leave you with?", "difficulty": "easy", "options": [{"text": "A version with a now-publicly-known flaw the patch already fixes", "correct": true, "explanation": "Skipping doesn't keep you in a neutral state."}, {"text": "A safer, untouched device", "correct": false, "explanation": "The flaw is known and unpatched."}, {"text": "Nothing changes", "correct": false, "explanation": "Your risk grows once the flaw is public."}]},
+  {"question": "Is \"I haven't had a problem yet\" good evidence that skipping updates is safe?", "difficulty": "hard", "options": [{"text": "No, exploitation can be silent, and risk rises once the flaw is public", "correct": true, "explanation": "Absence of visible problems isn't safety."}, {"text": "Yes, no problem means no risk", "correct": false, "explanation": "Attacks aren't always visible."}, {"text": "Yes, if the device is new", "correct": false, "explanation": "Age doesn't change the logic."}]},
+  {"question": "Why do release notes that describe a fix increase the urgency to update?", "difficulty": "hard", "options": [{"text": "They make the flaw public, so attackers can target anyone still unpatched", "correct": true, "explanation": "The fix and the flaw become known together."}, {"text": "They include the attacker's name", "correct": false, "explanation": "They describe the flaw that was fixed."}, {"text": "They don't; release notes are secret", "correct": false, "explanation": "They're usually public."}]},
+];
 
 export default function Post() {
   return (

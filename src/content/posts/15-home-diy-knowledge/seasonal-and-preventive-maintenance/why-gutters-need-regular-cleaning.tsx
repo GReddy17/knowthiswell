@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "seasonal-and-preventive-maintenance",
   tags: ["gutters", "roof drainage", "foundation moisture", "home maintenance", "seasonal maintenance"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-12",
   excerpt: "A clogged gutter doesn't just overflow — it redirects a roof's entire rainfall load onto fascia, siding, and the soil right next to the foundation.",
   summary: "A gutter's whole job is to collect a roof's runoff and carry it away from the house through a controlled path — the downspout. Once debris blocks that path, the water doesn't stop coming; it just finds an uncontrolled route over the gutter's edge, and that redirected water is what actually causes fascia rot, siding damage, and foundation moisture problems, not the leaves themselves.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a gutter's only job?", "difficulty": "easy", "options": [{"text": "Moving roof runoff to a controlled discharge point, the downspout", "correct": true, "explanation": "It stops water sheeting off the whole roof edge."}, {"text": "Holding water for later use", "correct": false, "explanation": "Gutters move water; they don't store it."}, {"text": "Keeping birds off the roof", "correct": false, "explanation": "That isn't their purpose."}]},
+  {"question": "What is the most common cause of gutter clogs?", "difficulty": "easy", "options": [{"text": "Autumn leaves", "correct": true, "explanation": "A mat of wet leaves can plug a downspout after one storm."}, {"text": "Snow", "correct": false, "explanation": "Leaves are the most common cause."}, {"text": "Too much rain", "correct": false, "explanation": "Rain doesn't clog gutters; debris does."}]},
+  {"question": "What happens to rainwater when a gutter clogs?", "difficulty": "easy", "options": [{"text": "It disappears", "correct": false, "explanation": "The water still has to go somewhere."}, {"text": "It spills over the front edge in an uncontrolled sheet", "correct": true, "explanation": "That overflow is what damages fascia, siding and foundations."}, {"text": "It evaporates in the gutter", "correct": false, "explanation": "Most overflows before it could evaporate."}]},
+  {"question": "Why does a downspout usually clog before the rest of the gutter run?", "difficulty": "hard", "options": [{"text": "Debris gets funneled into its narrow opening, only a few inches wide", "correct": true, "explanation": "Everything in the gutter flows toward that small outlet."}, {"text": "Downspouts are made of weaker metal", "correct": false, "explanation": "Material isn't the reason."}, {"text": "Birds nest in them first", "correct": false, "explanation": "The funneling of debris is the main cause."}]},
+  {"question": "A basement corner stays damp on the same side as a long-overflowing gutter. What connects them?", "difficulty": "hard", "options": [{"text": "Overflow soaks the soil against that section of foundation", "correct": true, "explanation": "Water pools where it was never supposed to reach."}, {"text": "Coincidence", "correct": false, "explanation": "Overflow landing on one side is a direct cause."}, {"text": "Gutters carry water into the basement on purpose", "correct": false, "explanation": "Gutters are meant to carry water away."}]},
+];
 
 export default function Post() {
   return (

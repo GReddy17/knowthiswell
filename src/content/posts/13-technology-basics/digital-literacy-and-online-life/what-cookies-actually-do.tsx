@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-literacy-and-online-life",
   tags: ["what are cookies", "how cookies work", "browser cookies", "third-party cookies", "digital literacy"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Cookies are small pieces of text a site asks your browser to store and send back — the mechanism behind staying logged in and being followed by ads alike.",
   summary: "A cookie is a small piece of text a website asks your browser to store, then automatically sends back on every later request to that same site, which is how a stateless connection can remember who you are.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a cookie?", "difficulty": "easy", "options": [{"text": "A small piece of text a site gives your browser to store and send back", "correct": true, "explanation": "Like a coat-check ticket stub."}, {"text": "A program that runs on your computer", "correct": false, "explanation": "It's just stored text, not a program."}, {"text": "A virus", "correct": false, "explanation": "Cookies are a normal, simple web mechanism."}]},
+  {"question": "Why do websites need cookies?", "difficulty": "easy", "options": [{"text": "HTTP has no memory between requests, so cookies let a site recognize the same browser", "correct": true, "explanation": "Cookies are the bolt-on memory mechanism."}, {"text": "To make pages load faster", "correct": false, "explanation": "Their core purpose is recognition."}, {"text": "To store the whole website", "correct": false, "explanation": "They hold a small value, not the site."}]},
+  {"question": "What is a first-party cookie?", "difficulty": "easy", "options": [{"text": "One set by the site you're actually visiting", "correct": true, "explanation": "Often used to keep you logged in."}, {"text": "One set by an embedded ad", "correct": false, "explanation": "That's a third-party cookie."}, {"text": "The first cookie your browser ever saved", "correct": false, "explanation": "It's about who set it, not when."}]},
+  {"question": "How can an ad on one site know what you viewed on another site?", "difficulty": "hard", "options": [{"text": "The same ad company's third-party cookie is read on both sites", "correct": true, "explanation": "Same mechanism, used for cross-site tracking."}, {"text": "The two sites share your password", "correct": false, "explanation": "It's the ad company's own cookie."}, {"text": "Your browser emails your history", "correct": false, "explanation": "The cookie gets sent back to the ad company."}]},
+  {"question": "After clearing all cookies, why are you logged out everywhere?", "difficulty": "hard", "options": [{"text": "The login cookies that identified your browser are gone", "correct": true, "explanation": "Sites no longer recognize you."}, {"text": "All websites reset their passwords", "correct": false, "explanation": "Only your browser's stored tokens were removed."}, {"text": "Your account was deleted", "correct": false, "explanation": "Your account still exists; just log in again."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "devices-and-hardware-basics",
   tags: ["Bluetooth", "wireless", "frequency hopping", "pairing", "device hardware", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Bluetooth avoids interference from WiFi and other devices by hopping to a new radio channel roughly 1,600 times a second — a technique called frequency-hopping spread spectrum.",
   summary: "Bluetooth is a short-range wireless radio standard that transmits data over the crowded 2.4GHz radio band by rapidly and continuously hopping between dozens of channels, which is how two paired devices maintain a reliable connection despite sharing that airspace with WiFi and countless other devices.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How does Bluetooth avoid interference on a crowded radio band?", "difficulty": "easy", "options": [{"text": "Paired devices hop between dozens of channels about 1,600 times per second", "correct": true, "explanation": "Interference on any one channel lasts only a moment."}, {"text": "It uses a secret channel nobody else can use", "correct": false, "explanation": "It shares the band but keeps moving."}, {"text": "It turns up its power", "correct": false, "explanation": "Bluetooth is deliberately low power."}]},
+  {"question": "About how far does Bluetooth reach for everyday accessories?", "difficulty": "easy", "options": [{"text": "About 10 meters", "correct": true, "explanation": "It's designed as a short-range, personal-area standard."}, {"text": "About 1 kilometer", "correct": false, "explanation": "That's far beyond its design."}, {"text": "Unlimited range", "correct": false, "explanation": "Range is deliberately short."}]},
+  {"question": "Which radio band does Bluetooth share with Wi-Fi?", "difficulty": "easy", "options": [{"text": "2.4 GHz", "correct": true, "explanation": "That's why frequency hopping matters so much."}, {"text": "FM radio", "correct": false, "explanation": "Bluetooth doesn't use the FM band."}, {"text": "Satellite frequencies", "correct": false, "explanation": "It's the crowded 2.4 GHz band."}]},
+  {"question": "Why can paired earbuds reconnect automatically the next day?", "difficulty": "hard", "options": [{"text": "Pairing stored a shared secret and hopping pattern on both devices", "correct": true, "explanation": "They recognize each other when nearby."}, {"text": "Bluetooth connects to any nearby device", "correct": false, "explanation": "Only paired devices reconnect automatically."}, {"text": "The phone downloads a new pairing each morning", "correct": false, "explanation": "The pairing was saved the first time."}]},
+  {"question": "Why might Bluetooth headphones stutter in a hall with hundreds of wireless devices?", "difficulty": "hard", "options": [{"text": "So many devices crowd the band that hops collide more often", "correct": true, "explanation": "Frequency hopping reduces interference but can't eliminate it."}, {"text": "Bluetooth turns off in large rooms", "correct": false, "explanation": "It works; it just faces more competition."}, {"text": "Headphones only support one room at a time", "correct": false, "explanation": "The issue is radio crowding."}]},
+];
 
 export default function Post() {
   return (

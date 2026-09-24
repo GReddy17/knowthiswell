@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-communication",
   tags: ["read receipts explained", "typing indicator", "how read receipts work", "digital communication", "message status", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A read receipt is a small status update your device sends back to a server the moment a message is displayed on screen — it reports rendering, not comprehension.",
   summary: "Read receipts and typing indicators are small status messages that a messaging app automatically sends between devices to report a specific technical event — a message being displayed, or a text field being actively typed in — and neither one confirms what the other person actually did with that information.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "When does a read receipt fire?", "difficulty": "easy", "options": [{"text": "When the message is rendered on the recipient's screen", "correct": true, "explanation": "It's a technical display event, not proof they took it in."}, {"text": "When the recipient replies", "correct": false, "explanation": "Replying is separate."}, {"text": "When the message leaves your phone", "correct": false, "explanation": "That's sending, not reading."}]},
+  {"question": "What triggers a typing indicator?", "difficulty": "easy", "options": [{"text": "Activity in the other person's text field", "correct": true, "explanation": "It's a temporary signal that clears itself after a pause."}, {"text": "Opening the app", "correct": false, "explanation": "Opening alone doesn't show typing."}, {"text": "Reading your message", "correct": false, "explanation": "Reading triggers a read receipt, not typing."}]},
+  {"question": "Does \"read\" prove the person understood your message?", "difficulty": "easy", "options": [{"text": "No, it only confirms the message was displayed", "correct": true, "explanation": "Like a package marked delivered, not opened."}, {"text": "Yes, always", "correct": false, "explanation": "Display isn't the same as comprehension."}, {"text": "Only if they're online", "correct": false, "explanation": "It still only confirms display."}]},
+  {"question": "Someone reads a message's preview in a notification banner without opening the app. Is it marked read?", "difficulty": "hard", "options": [{"text": "Usually not, because the message wasn't rendered in the app", "correct": true, "explanation": "Receipts fire on in-app display, which previews often don't trigger."}, {"text": "Always yes", "correct": false, "explanation": "Many apps don't count notification previews."}, {"text": "Only if the preview is long", "correct": false, "explanation": "Length doesn't decide it."}]},
+  {"question": "How do read receipts relate to delivery status?", "difficulty": "hard", "options": [{"text": "Both are small state updates sent to a server and relayed to the other person", "correct": true, "explanation": "They're layers of synchronized state on each message."}, {"text": "They're sent by text message", "correct": false, "explanation": "They travel through the messaging service."}, {"text": "Read receipts replace delivery status", "correct": false, "explanation": "They're separate states that coexist."}]},
+];
 
 export default function Post() {
   return (

@@ -57,9 +57,11 @@ specifically, not general practical-knowledge topics). Default to James.
   `glossary[]`).
 - Minimum 3 worked examples: baseline case → edge/variation case →
   real-world applied case, each paired with a `QuickCheck`.
-- At least 3 `QuickCheck`s in total: they become the end-of-article "Test
-  yourself" quiz. Literal props only, 3 options, one correct, a real
-  explanation on every option (see `site-rules.md` Section 4).
+- Quiz bank of 9+ questions (soft cap ~15): 2-3 inline `QuickCheck`s plus
+  `export const quiz: QuizBankItem[]` in the post file, each with a
+  difficulty tag and an explanation on every option. It feeds the
+  end-of-article "Test yourself" quiz and the game. Full rule in
+  `site-rules.md` Section 4.
 - Minimum 4 FAQ questions, phrased as real search queries ("how does X
   work", "why does Y happen", "is X the same as Y").
 - `KeyTakeaways` (3 points), `MistakeList`, `MisconceptionCallout`,

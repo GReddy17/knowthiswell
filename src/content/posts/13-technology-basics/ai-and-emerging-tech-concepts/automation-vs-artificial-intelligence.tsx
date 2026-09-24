@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ai-and-emerging-tech-concepts",
   tags: ["automation vs AI", "artificial intelligence basics", "what is automation", "rule-based systems", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Automation follows fixed rules a person wrote; AI applies a pattern learned from data — and many real systems quietly use both together.",
   summary: "Automation is a system executing a fixed, explicitly programmed rule every time, while artificial intelligence is a system applying a pattern it learned from data, which can produce different, probability-based judgments as conditions change.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does automation run?", "difficulty": "easy", "options": [{"text": "A fixed rule a person explicitly wrote", "correct": true, "explanation": "Same input, same output, every time."}, {"text": "A pattern learned from data", "correct": false, "explanation": "That describes AI."}, {"text": "Random guesses", "correct": false, "explanation": "Automation is deterministic."}]},
+  {"question": "Which is automation with no AI involved?", "difficulty": "easy", "options": [{"text": "A thermostat that turns heat on below a set temperature", "correct": true, "explanation": "It executes one fixed rule."}, {"text": "A spam filter that learned from millions of emails", "correct": false, "explanation": "Learning from data is AI."}, {"text": "A face-recognition camera", "correct": false, "explanation": "Recognizing faces relies on learned patterns."}]},
+  {"question": "Did automation exist before modern AI?", "difficulty": "easy", "options": [{"text": "Yes, for decades", "correct": true, "explanation": "Conveyor systems, thermostats and auto-replies all predate modern AI."}, {"text": "No, automation requires AI", "correct": false, "explanation": "Plenty of automation uses no machine learning."}, {"text": "They were invented the same year", "correct": false, "explanation": "Automation came much earlier."}]},
+  {"question": "In a fraud system, a model scores transactions and a rule freezes any score above a threshold. Which part is which?", "difficulty": "hard", "options": [{"text": "Scoring is AI; freezing the account is automation", "correct": true, "explanation": "AI makes the judgment call, automation carries out the action."}, {"text": "Both parts are AI", "correct": false, "explanation": "The freeze is a fixed rule."}, {"text": "Both parts are automation", "correct": false, "explanation": "The learned scoring model is AI."}]},
+  {"question": "Why can AI give slightly different answers to similar inputs when automation doesn't?", "difficulty": "hard", "options": [{"text": "AI applies a learned pattern and can behave probabilistically; automation follows a fixed rule", "correct": true, "explanation": "Learned judgments can vary; written rules can't."}, {"text": "AI is broken", "correct": false, "explanation": "Variation is a property of learned patterns, not a defect."}, {"text": "Automation is always slower", "correct": false, "explanation": "Speed isn't the difference."}]},
+];
 
 export default function Post() {
   return (

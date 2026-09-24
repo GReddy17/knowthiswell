@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "home-safety-and-detection-systems",
   tags: ["smoke detector", "ionization sensor", "photoelectric sensor", "fire safety", "home safety"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-12",
   excerpt: "Smoke detectors sense smoke particles, not flame or heat, and ionization and photoelectric types detect very different kinds of particles at very different speeds.",
   summary: "A smoke detector isn't watching for fire — it's watching for smoke particles disrupting either a tiny electric current or a beam of light, and which of those two mechanisms a detector uses determines whether it reacts fastest to a flaming fire or a slow, smoldering one.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a smoke detector actually sense?", "difficulty": "easy", "options": [{"text": "Heat", "correct": false, "explanation": "Heat detectors are a separate device."}, {"text": "Smoke particles in the air", "correct": true, "explanation": "Particles disturb either a tiny current or a light beam inside."}, {"text": "Flames directly", "correct": false, "explanation": "It never sees the flame itself."}]},
+  {"question": "Which sensor type reacts fastest to a slow, smoldering fire?", "difficulty": "easy", "options": [{"text": "Photoelectric", "correct": true, "explanation": "Large, dense smoldering particles scatter its light beam onto the sensor."}, {"text": "Ionization", "correct": false, "explanation": "Ionization reacts fastest to small particles from flaming fires."}, {"text": "Neither can detect smoldering fires", "correct": false, "explanation": "Photoelectric sensors are good at exactly this."}]},
+  {"question": "Why do many modern alarms combine both sensor types?", "difficulty": "easy", "options": [{"text": "Each type reacts fastest to a different kind of fire", "correct": true, "explanation": "Ionization for flaming, photoelectric for smoldering."}, {"text": "It makes them louder", "correct": false, "explanation": "Loudness isn't related to the sensor types."}, {"text": "One type is required by law and the other is decoration", "correct": false, "explanation": "Both genuinely sense smoke, in different ways."}]},
+  {"question": "How does an ionization detector trigger?", "difficulty": "hard", "options": [{"text": "Smoke blocks a camera", "correct": false, "explanation": "There's no camera inside."}, {"text": "Smoke particles attach to ions in the chamber, dropping a small steady current below the trip level", "correct": true, "explanation": "The disturbed current is what sets off the alarm."}, {"text": "Smoke raises the chamber's temperature", "correct": false, "explanation": "That would be a heat detector."}]},
+  {"question": "An ionization alarm near a kitchen keeps going off during cooking. What is the most likely explanation?", "difficulty": "hard", "options": [{"text": "The unit is defective", "correct": false, "explanation": "Most nuisance alarms are a sensor-location mismatch, not a fault."}, {"text": "Cooking smoke and steam are triggering a sensor type that's sensitive to small particles, placed too close to the kitchen", "correct": true, "explanation": "Moving it or switching to a photoelectric unit usually fixes it."}, {"text": "The battery is too strong", "correct": false, "explanation": "Battery strength doesn't cause false alarms."}]},
+];
 
 export default function Post() {
   return (

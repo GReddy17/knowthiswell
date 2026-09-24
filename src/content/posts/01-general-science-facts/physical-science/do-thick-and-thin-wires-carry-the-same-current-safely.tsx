@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   pillar: true,
   tags: ["electrical resistance", "wire gauge", "electrical safety", "Ohm's law", "physics misconceptions"],
   date: "2026-09-19",
-  updated: "2026-09-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-19",
   excerpt: "A thin wire isn't just a smaller version of a thick one — it has more electrical resistance per foot, which makes it heat up more for the same current, the real reason wire gauge matters.",
   summary: "A thinner wire has a smaller cross-sectional area, and electrical resistance is inversely proportional to that area — meaning the same length of thinner wire has meaningfully more resistance than a thicker one made of the same material. Since resistive heating scales with the square of current times resistance, a thin wire forced to carry too much current heats up dramatically faster than a thick wire carrying the identical current, which is exactly why household circuits are protected by breakers sized to the wire gauge actually installed, not to the appliance plugged in.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which has more electrical resistance: a thin or a thick wire of the same material and length?", "difficulty": "easy", "options": [{"text": "The thin wire", "correct": true, "explanation": "Resistance depends on cross-sectional area."}, {"text": "The thick wire", "correct": false, "explanation": "More area means less resistance."}, {"text": "They're equal", "correct": false, "explanation": "Thickness changes resistance."}]},
+  {"question": "What is a wire's \"ampacity\"?", "difficulty": "easy", "options": [{"text": "The maximum current it can safely carry", "correct": true, "explanation": "Every gauge has a rated ampacity."}, {"text": "Its length", "correct": false, "explanation": "Ampacity is a safe current rating."}, {"text": "Its color code", "correct": false, "explanation": "It's about current, not color."}]},
+  {"question": "What can happen if a wire carries more current than it's rated for?", "difficulty": "easy", "options": [{"text": "It can overheat, melting insulation or starting a fire", "correct": true, "explanation": "Extra resistance turns into extra heat."}, {"text": "It gets stronger", "correct": false, "explanation": "Overloading only causes heat."}, {"text": "Nothing", "correct": false, "explanation": "Overloaded wires heat up dangerously."}]},
+  {"question": "Resistive heating scales with current squared times resistance. What happens if current doubles in the same wire?", "difficulty": "hard", "options": [{"text": "Heating becomes about four times greater", "correct": true, "explanation": "2² = 4."}, {"text": "Heating doubles", "correct": false, "explanation": "Current is squared, so doubling gives 4x."}, {"text": "Heating stays the same", "correct": false, "explanation": "More current means much more heat."}]},
+  {"question": "Why are circuit breakers sized to the wire, not to the appliance plugged in?", "difficulty": "hard", "options": [{"text": "The breaker protects the wire in the wall from carrying more current than it can safely handle", "correct": true, "explanation": "The installed wire is what could overheat inside the walls."}, {"text": "Appliances don't use current", "correct": false, "explanation": "They do; the breaker protects the wiring."}, {"text": "Breakers are always the same size", "correct": false, "explanation": "They're matched to each wire's ampacity."}]},
+];
 
 export default function Post() {
   return (

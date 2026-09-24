@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "smart-devices-and-iot-basics",
   tags: ["smart home hub", "what does a smart hub do", "Zigbee", "Thread", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A smart home hub's real job is translating between low-power wireless protocols a Wi-Fi router can't speak — not just relaying commands over Wi-Fi.",
   summary: "A smart home hub is a device that translates between multiple low-power wireless protocols — such as Zigbee, Z-Wave, and Thread — that many smart devices use instead of Wi-Fi, letting a single app or voice assistant control devices that otherwise couldn't communicate with a home network directly.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a smart home hub's core job?", "difficulty": "easy", "options": [{"text": "Translating between devices that speak different wireless protocols", "correct": true, "explanation": "It lets non-Wi-Fi devices join the home network."}, {"text": "Providing Wi-Fi to your laptop", "correct": false, "explanation": "That's the router's job."}, {"text": "Charging devices", "correct": false, "explanation": "It translates protocols; it doesn't charge."}]},
+  {"question": "Why do protocols like Zigbee and Z-Wave exist?", "difficulty": "easy", "options": [{"text": "Always-on Wi-Fi drains battery sensors too quickly", "correct": true, "explanation": "Low-power protocols let sensors run for a long time."}, {"text": "Wi-Fi is illegal in homes", "correct": false, "explanation": "It's about battery life."}, {"text": "They are faster than Wi-Fi for video", "correct": false, "explanation": "They're built for low power, not video."}]},
+  {"question": "Is a smart hub the same as a router?", "difficulty": "easy", "options": [{"text": "No, a router runs your Wi-Fi; a hub bridges devices the router can't see", "correct": true, "explanation": "They do different jobs."}, {"text": "Yes, they're identical", "correct": false, "explanation": "They serve different roles."}, {"text": "A hub replaces your router", "correct": false, "explanation": "You typically need both."}]},
+  {"question": "Why can a Wi-Fi smart plug skip a hub while a battery Zigbee sensor can't?", "difficulty": "hard", "options": [{"text": "The plug speaks Wi-Fi and has constant power; the sensor speaks Zigbee, which the router doesn't understand", "correct": true, "explanation": "The hub translates for non-Wi-Fi devices."}, {"text": "Plugs are newer", "correct": false, "explanation": "It's about protocol and power, not age."}, {"text": "Sensors don't need a network", "correct": false, "explanation": "They do, through a hub."}]},
+  {"question": "How can one routine trigger both Zigbee and Z-Wave devices?", "difficulty": "hard", "options": [{"text": "The hub understands both protocols and sends each device commands in its own language", "correct": true, "explanation": "Translation is exactly what the hub is for."}, {"text": "Zigbee and Z-Wave are the same protocol", "correct": false, "explanation": "They're different; the hub bridges them."}, {"text": "The phone speaks every protocol directly", "correct": false, "explanation": "Phones typically use Wi-Fi and Bluetooth; the hub does the translation."}]},
+];
 
 export default function Post() {
   return (

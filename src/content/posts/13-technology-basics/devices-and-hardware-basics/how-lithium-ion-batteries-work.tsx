@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "devices-and-hardware-basics",
   tags: ["lithium-ion battery", "battery health", "battery degradation", "device hardware", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A lithium-ion battery works by shuttling lithium ions between two electrodes — and every one of those shuttle trips very slightly wears the electrodes down, which is why battery capacity never lasts forever.",
   summary: "A lithium-ion battery stores and releases energy by moving lithium ions back and forth between a graphite anode and a metal-oxide cathode through a liquid electrolyte, and it degrades over time because every charge cycle causes small, permanent chemical wear to those electrodes.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What moves between the electrodes when a lithium-ion battery discharges?", "difficulty": "easy", "options": [{"text": "Lithium ions, through a liquid electrolyte", "correct": true, "explanation": "Their movement drives electricity out through the wires."}, {"text": "Water", "correct": false, "explanation": "The electrolyte carries lithium ions, not water."}, {"text": "Nothing; the battery just empties", "correct": false, "explanation": "Ions shuttle from one electrode to the other."}]},
+  {"question": "What does charging do inside the battery?", "difficulty": "easy", "options": [{"text": "Drives the ions back to the first electrode, ready for the next trip", "correct": true, "explanation": "Charging runs the discharge process in reverse."}, {"text": "Adds new lithium", "correct": false, "explanation": "No lithium is added; existing ions move back."}, {"text": "Cools the battery", "correct": false, "explanation": "Charging moves ions, it doesn't cool."}]},
+  {"question": "Is gradual battery capacity loss a defect?", "difficulty": "easy", "options": [{"text": "No, every charge cycle causes tiny, permanent wear", "correct": true, "explanation": "Capacity loss is a predictable result of normal use."}, {"text": "Yes, a good battery never loses capacity", "correct": false, "explanation": "All lithium-ion batteries degrade with use."}, {"text": "Only if you charge at night", "correct": false, "explanation": "Time of day isn't the cause."}]},
+  {"question": "Which habits speed up battery wear the most?", "difficulty": "hard", "options": [{"text": "Heat, full discharges and staying at 100% charge constantly", "correct": true, "explanation": "All three accelerate the chemical wear."}, {"text": "Charging in short sessions", "correct": false, "explanation": "Partial charging in a moderate range is gentler."}, {"text": "Using the phone in cool rooms", "correct": false, "explanation": "Cool conditions are gentler on the battery."}]},
+  {"question": "Why do manufacturers often suggest keeping a battery roughly between 20% and 80%?", "difficulty": "hard", "options": [{"text": "The extremes of full and empty stress the electrodes more", "correct": true, "explanation": "A moderate range slows permanent wear."}, {"text": "The battery can't show numbers above 80%", "correct": false, "explanation": "It can; the advice is about wear."}, {"text": "It saves electricity on the bill", "correct": false, "explanation": "The goal is battery lifespan."}]},
+];
 
 export default function Post() {
   return (

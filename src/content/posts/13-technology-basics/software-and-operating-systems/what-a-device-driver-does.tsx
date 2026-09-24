@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "software-and-operating-systems",
   tags: ["device driver", "hardware software", "operating system", "peripherals", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A driver is the translator between a generic OS request and one specific piece of hardware's exact commands — which is why the wrong driver breaks a device the OS otherwise supports fine.",
   summary: "A device driver is a small piece of software that translates an operating system's generic requests into the exact commands a specific piece of hardware understands, and translates that hardware's responses back into a form the OS and apps can use.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a device driver's job?", "difficulty": "easy", "options": [{"text": "Translating generic OS requests into commands one specific piece of hardware understands", "correct": true, "explanation": "Like a translator between two languages."}, {"text": "Driving your car", "correct": false, "explanation": "This is the software kind of driver."}, {"text": "Speeding up the internet", "correct": false, "explanation": "Drivers translate between the OS and hardware."}]},
+  {"question": "Why can one operating system work with thousands of hardware models?", "difficulty": "easy", "options": [{"text": "Each driver hides its device's specific differences behind generic commands", "correct": true, "explanation": "The OS and apps speak in generic terms."}, {"text": "All hardware is identical", "correct": false, "explanation": "Hardware varies widely; drivers bridge the gap."}, {"text": "The OS contains every model's manual", "correct": false, "explanation": "Drivers do the translation."}]},
+  {"question": "Why does a basic mouse usually work instantly with no installation?", "difficulty": "easy", "options": [{"text": "The OS already includes a generic driver for standard mice", "correct": true, "explanation": "Common devices use built-in, standard drivers."}, {"text": "Mice don't need drivers", "correct": false, "explanation": "They do; a generic one is already there."}, {"text": "The mouse installs the OS", "correct": false, "explanation": "The OS provides the driver."}]},
+  {"question": "A drawing tablet moves the cursor but pressure doesn't work until you install its driver. Why?", "difficulty": "hard", "options": [{"text": "The generic driver handles basic movement; pressure needs the tablet's specific driver", "correct": true, "explanation": "Special features need model-specific translation."}, {"text": "The tablet is broken", "correct": false, "explanation": "Basic movement working shows the hardware is fine."}, {"text": "Pressure only works on Tuesdays", "correct": false, "explanation": "It's about the missing specific driver."}]},
+  {"question": "Why can a badly written driver crash the whole computer, not just its device?", "difficulty": "hard", "options": [{"text": "Many drivers run with the same privileged access as the OS kernel", "correct": true, "explanation": "A kernel-level fault can bring down the entire system."}, {"text": "Drivers control the power supply", "correct": false, "explanation": "The issue is privileged access."}, {"text": "Crashes only happen to printers", "correct": false, "explanation": "Any kernel-level driver can cause it."}]},
+];
 
 export default function Post() {
   return (

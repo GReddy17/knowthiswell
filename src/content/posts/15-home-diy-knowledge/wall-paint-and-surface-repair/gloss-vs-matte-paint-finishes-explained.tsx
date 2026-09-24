@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "wall-paint-and-surface-repair",
   tags: ["paint sheen", "gloss", "matte", "finish", "surface texture"],
   date: "2026-09-04",
-  updated: "2026-09-04",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-04",
   excerpt: "Gloss and matte paint are chemically similar — the real difference is microscopic surface texture, which controls whether light reflects in one direction or scatters.",
   summary: "Gloss and matte paint finishes start from largely the same binder and pigment, but differ in the ratio of flattening agent (fine mineral particles) mixed in — more flattening agent leaves a rougher microscopic surface that scatters light in many directions (matte), while less of it leaves a smoother film that reflects light in one direction like a mirror (gloss), and that same surface texture difference is also why gloss resists scrubbing and stains better than matte.",
@@ -50,6 +50,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What mainly makes paint matte instead of glossy?", "difficulty": "easy", "options": [{"text": "A different color", "correct": false, "explanation": "Any color can come in any sheen."}, {"text": "More flattening agent, which makes the dried surface microscopically rougher", "correct": true, "explanation": "Rough surfaces scatter light, so they look flat."}, {"text": "More water in the paint", "correct": false, "explanation": "Sheen comes from surface texture, not water content."}]},
+  {"question": "Which finish is easiest to wipe clean?", "difficulty": "easy", "options": [{"text": "Flat matte", "correct": false, "explanation": "Its rougher surface holds onto grime."}, {"text": "Gloss or semi-gloss", "correct": true, "explanation": "The smoother film sheds dirt and grease more easily."}, {"text": "They are all the same", "correct": false, "explanation": "Surface texture changes how easily dirt wipes off."}]},
+  {"question": "Which finish is usually best for hiding surface flaws on a ceiling?", "difficulty": "easy", "options": [{"text": "High gloss", "correct": false, "explanation": "Mirror-like reflection highlights every bump."}, {"text": "Flat matte", "correct": true, "explanation": "Scattered light doesn't create reflections that reveal imperfections."}, {"text": "It makes no difference", "correct": false, "explanation": "Sheen strongly affects how visible flaws are."}]},
+  {"question": "Why does a glossy surface look shiny?", "difficulty": "hard", "options": [{"text": "Its smooth film reflects light in one direction (specular reflection)", "correct": true, "explanation": "A mirror-like bounce sends light straight back at you."}, {"text": "It contains glitter", "correct": false, "explanation": "Shine comes from smoothness, not added particles."}, {"text": "It scatters light in many directions", "correct": false, "explanation": "That's diffuse reflection, which makes matte look flat."}]},
+  {"question": "You scrub a stain on a flat matte wall and the spot turns shinier. What happened?", "difficulty": "hard", "options": [{"text": "Scrubbing smoothed the rough film, so it reflects more light in one direction", "correct": true, "explanation": "Smoothing a matte surface raises its sheen."}, {"text": "The cleaner added gloss paint", "correct": false, "explanation": "Cleaners don't add paint; they change the surface texture."}, {"text": "The stain was shiny underneath", "correct": false, "explanation": "The change comes from the paint surface being polished."}]},
+];
 
 export default function Post() {
   return (

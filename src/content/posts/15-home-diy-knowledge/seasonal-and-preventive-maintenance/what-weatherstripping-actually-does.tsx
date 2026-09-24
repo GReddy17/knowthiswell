@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "seasonal-and-preventive-maintenance",
   tags: ["weatherstripping", "air infiltration", "insulation", "energy efficiency", "home maintenance"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-12",
   excerpt: "Weatherstripping and insulation fix two different heat-loss problems — sealing air leaks versus slowing heat that passes straight through solid materials.",
   summary: "A house loses conditioned air two genuinely different ways: air infiltration, where whole packets of warm or cool air physically leak out through gaps and cracks, and conduction, where heat energy passes directly through walls, windows, and doors even with no gap at all. Weatherstripping addresses only the first problem — it seals the gaps air actually moves through — while insulation addresses the second, and neither one substitutes for the other.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which kind of heat loss does weatherstripping address?", "difficulty": "easy", "options": [{"text": "Air infiltration through gaps", "correct": true, "explanation": "It physically seals the gaps air leaks through."}, {"text": "Conduction through solid walls", "correct": false, "explanation": "That's what insulation addresses."}, {"text": "Both equally", "correct": false, "explanation": "It only stops air leaks, not conduction."}]},
+  {"question": "What is conduction?", "difficulty": "easy", "options": [{"text": "Air leaking through a crack", "correct": false, "explanation": "That's infiltration."}, {"text": "Heat passing directly through a solid material like glass or a wall", "correct": true, "explanation": "It happens even with no gap at all."}, {"text": "Heat moving through ductwork", "correct": false, "explanation": "Conduction is heat through solid materials."}]},
+  {"question": "You feel moving cold air near the bottom of an exterior door. What's the likely fix?", "difficulty": "easy", "options": [{"text": "A new door sweep and compression seal", "correct": true, "explanation": "A felt draft means an air gap that weatherstripping closes."}, {"text": "Thicker curtains", "correct": false, "explanation": "Curtains don't seal the gap."}, {"text": "More attic insulation", "correct": false, "explanation": "The draft is at the door, not the attic."}]},
+  {"question": "A wall feels uniformly cold but has no drafts anywhere. What is the problem?", "difficulty": "hard", "options": [{"text": "Air infiltration that weatherstripping will fix", "correct": false, "explanation": "No draft means no air gap to seal."}, {"text": "Conduction through the solid wall, which calls for insulation", "correct": true, "explanation": "A cold surface without drafts points to an insulation issue."}, {"text": "A broken thermostat", "correct": false, "explanation": "The surface itself is losing heat by conduction."}]},
+  {"question": "Why do energy auditors often recommend air-sealing before adding attic insulation?", "difficulty": "hard", "options": [{"text": "Leaking air carries heat straight past insulation, so sealing makes the insulation work", "correct": true, "explanation": "The two problems stack; fix the air leaks first."}, {"text": "Insulation is illegal before sealing", "correct": false, "explanation": "It's a performance order, not a legal one."}, {"text": "Sealing is always cheaper, so it's done first", "correct": false, "explanation": "The reason is effectiveness, not just cost."}]},
+];
 
 export default function Post() {
   return (

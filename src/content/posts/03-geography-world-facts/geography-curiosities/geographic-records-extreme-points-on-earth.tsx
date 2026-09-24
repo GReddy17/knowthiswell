@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
     "highest lowest",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Earth's true extremes — highest, lowest, deepest, hottest, coldest — and why the point 'highest above sea level' isn't the same as the point 'farthest from Earth's center.'",
   summary: "Earth's extreme points span nearly 20 kilometers of vertical relief, from the summit of Mount Everest to the bottom of the Mariana Trench, and 'highest' depends on exactly what you're measuring from.",
@@ -62,6 +62,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is Mount Everest's official height above sea level?", "difficulty": "easy", "options": [{"text": "8,849 meters", "correct": true, "explanation": "Announced jointly by China and Nepal after the 2020 survey."}, {"text": "10,935 meters", "correct": false, "explanation": "That's roughly the depth of Challenger Deep."}, {"text": "6,000 meters", "correct": false, "explanation": "Everest is much higher."}]},
+  {"question": "Where is the deepest known point in any ocean?", "difficulty": "easy", "options": [{"text": "Challenger Deep in the Mariana Trench", "correct": true, "explanation": "About 10,935 meters below sea level."}, {"text": "The Dead Sea", "correct": false, "explanation": "The Dead Sea shore is the lowest dry land, about 430 m below sea level."}, {"text": "The middle of the Atlantic", "correct": false, "explanation": "The deepest point is in the Pacific's Mariana Trench."}]},
+  {"question": "Which organization certifies official temperature records?", "difficulty": "easy", "options": [{"text": "The World Meteorological Organization", "correct": true, "explanation": "The WMO investigates and certifies extreme records."}, {"text": "The United Nations Security Council", "correct": false, "explanation": "Weather records aren't the Security Council's job."}, {"text": "Each country's tourism board", "correct": false, "explanation": "Records need independent scientific verification."}]},
+  {"question": "Why is Chimborazo's summit farther from Earth's center than Everest's, even though it's lower?", "difficulty": "hard", "options": [{"text": "Earth bulges at the equator, and Chimborazo sits near it", "correct": true, "explanation": "The bulge lifts its base farther from the center."}, {"text": "Chimborazo is secretly taller", "correct": false, "explanation": "It's about 2,500 m lower above sea level."}, {"text": "Everest is sinking", "correct": false, "explanation": "The difference comes from Earth's shape, not sinking."}]},
+  {"question": "Roughly how much vertical relief separates Everest's summit from Challenger Deep?", "difficulty": "hard", "options": [{"text": "About 19.8 km", "correct": true, "explanation": "8,849 + 10,935 ≈ 19,784 meters."}, {"text": "About 2 km", "correct": false, "explanation": "That subtracts the numbers; the span adds them."}, {"text": "About 8.8 km", "correct": false, "explanation": "That's Everest's height alone."}]},
+];
 
 export default function Post() {
   return (

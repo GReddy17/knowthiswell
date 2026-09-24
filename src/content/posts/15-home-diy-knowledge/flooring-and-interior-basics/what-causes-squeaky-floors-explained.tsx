@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "flooring-and-interior-basics",
   tags: ["squeaky floors", "subfloor", "flooring repair", "home maintenance", "wood floors"],
   date: "2026-09-17",
-  updated: "2026-09-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-17",
   excerpt: "The sound isn't the floorboard itself — it's two loose surfaces, usually a board and a nail shank, rubbing against each other under your weight.",
   summary: "A squeaky floor is almost always a friction problem, not a broken one: a floorboard has worked slightly loose from the subfloor or joist beneath it, and when weight shifts, the small gap lets the board rub against a nail shank or against the subfloor itself, and that friction is what produces the sound — the fix targets the friction, not the board.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What usually causes a floor squeak?", "difficulty": "easy", "options": [{"text": "A cracked, broken floorboard", "correct": false, "explanation": "The board itself is rarely damaged."}, {"text": "Friction between two surfaces that have worked slightly loose, like a board and a nail shank", "correct": true, "explanation": "The small shift under your weight makes them rub."}, {"text": "Air trapped under the floor", "correct": false, "explanation": "Squeaks come from rubbing, not trapped air."}]},
+  {"question": "What slowly loosens floor fasteners over the years?", "difficulty": "easy", "options": [{"text": "Seasonal expansion and contraction of the wood", "correct": true, "explanation": "Repeated movement gradually works nails loose."}, {"text": "Vacuuming", "correct": false, "explanation": "Cleaning doesn't loosen fasteners."}, {"text": "Sunlight", "correct": false, "explanation": "Wood movement from humidity changes is the driver."}]},
+  {"question": "What does fixing a squeak usually involve?", "difficulty": "easy", "options": [{"text": "Replacing the whole floor", "correct": false, "explanation": "The boards are rarely damaged."}, {"text": "Eliminating the friction, for example with a new screw or by pulling surfaces tight", "correct": true, "explanation": "Restoring a tight connection stops the rubbing."}, {"text": "Adding a rug and ignoring it", "correct": false, "explanation": "A rug may muffle it, but doesn't fix the cause."}]},
+  {"question": "Only one hallway board squeaks while the rest stay silent. What does that point to?", "difficulty": "hard", "options": [{"text": "A localized loose fastener at that exact spot", "correct": true, "explanation": "A targeted screw at that spot is usually the fix."}, {"text": "The whole subfloor has failed", "correct": false, "explanation": "A system-wide problem would affect many boards."}, {"text": "The house is sinking", "correct": false, "explanation": "A single squeak is a local friction issue."}]},
+  {"question": "Many boards start squeaking at once during a dry winter. What does that suggest?", "difficulty": "hard", "options": [{"text": "A single loose nail", "correct": false, "explanation": "One nail can't explain widespread squeaking."}, {"text": "Seasonal shrinkage from low humidity loosening many connections at once", "correct": true, "explanation": "A widespread, seasonal pattern points to moisture-driven wood movement."}, {"text": "Termites in every board", "correct": false, "explanation": "The seasonal timing points to humidity, not pests."}]},
+];
 
 export default function Post() {
   return (

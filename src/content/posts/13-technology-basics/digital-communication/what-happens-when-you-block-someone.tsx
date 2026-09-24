@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "digital-communication",
   tags: ["what does blocking do", "how blocking works", "block someone", "digital communication", "access control", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Blocking someone flips a permission flag on the server that checks every future message and view attempt between two accounts — it doesn't touch anything already delivered.",
   summary: "Blocking is a server-side permission setting that stops new messages, calls, or visibility between two accounts going forward, checked automatically on every future interaction attempt — it does not retroactively delete or hide content already exchanged before the block.",
@@ -50,6 +50,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does blocking someone do?", "difficulty": "easy", "options": [{"text": "Sets a server-side flag that rejects their future messages and views", "correct": true, "explanation": "Each new interaction is checked against it."}, {"text": "Deletes your whole conversation history", "correct": false, "explanation": "Blocking isn't retroactive."}, {"text": "Deletes their account", "correct": false, "explanation": "It only affects interactions with you."}]},
+  {"question": "What happens to messages exchanged before the block?", "difficulty": "easy", "options": [{"text": "They stay as they were", "correct": true, "explanation": "Blocking only stops new interactions."}, {"text": "They're deleted for both people", "correct": false, "explanation": "Past messages aren't touched."}, {"text": "They're unsent", "correct": false, "explanation": "Blocking doesn't unsend anything."}]},
+  {"question": "Where is the block enforced?", "difficulty": "easy", "options": [{"text": "On the server, so it applies on every device", "correct": true, "explanation": "It isn't a setting stored only on one phone."}, {"text": "Only on the phone where you blocked", "correct": false, "explanation": "The server check applies everywhere."}, {"text": "Only on Wi-Fi", "correct": false, "explanation": "Connection type doesn't matter."}]},
+  {"question": "A blocked person's new message looks sent on their own screen. Does it reach you?", "difficulty": "hard", "options": [{"text": "No, the server rejects it before delivery", "correct": true, "explanation": "Their screen may not reveal the rejection."}, {"text": "Yes, it arrives in a hidden folder", "correct": false, "explanation": "Blocked messages aren't delivered."}, {"text": "Yes, a day later", "correct": false, "explanation": "It never reaches you."}]},
+  {"question": "Can blocking someone remove photos you already sent them?", "difficulty": "hard", "options": [{"text": "No, blocking is forward-looking and doesn't touch past messages", "correct": true, "explanation": "Already-sent content stays with the recipient."}, {"text": "Yes, blocking erases everything", "correct": false, "explanation": "It isn't retroactive."}, {"text": "Only if you block twice", "correct": false, "explanation": "Blocking never reaches past content."}]},
+];
 
 export default function Post() {
   return (

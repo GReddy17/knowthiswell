@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   pillar: true,
   tags: ["lightning", "thunder", "speed of light", "speed of sound", "storm safety"],
   date: "2026-09-19",
-  updated: "2026-09-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-19",
   excerpt: "Lightning and thunder happen at the exact same instant — you just perceive them at wildly different speeds, because light travels about a million times faster than sound.",
   summary: "A lightning strike and its thunder are created simultaneously, by the same event — the flash is light from the superheated air channel, and the thunder is sound from that same air's explosive expansion. Light reaches your eyes almost instantly at about 300,000 km/s, while sound crawls along at only about 343 m/s in air, so the delay between seeing the flash and hearing the thunder is purely a measure of distance, not a sign the two happened at different times. That delay is exactly why the 'count the seconds, divide by five' method for estimating storm distance in miles actually works.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Are lightning and thunder created at different times?", "difficulty": "easy", "options": [{"text": "Yes, thunder comes a few seconds after the flash", "correct": false, "explanation": "Both are made by the same event at the same instant."}, {"text": "No, they happen at the same instant; the delay comes from light traveling faster than sound", "correct": true, "explanation": "Light arrives almost instantly; sound takes seconds."}, {"text": "Thunder happens first", "correct": false, "explanation": "They're simultaneous at the source."}]},
+  {"question": "About how fast does sound travel in air?", "difficulty": "easy", "options": [{"text": "About 343 meters per second", "correct": true, "explanation": "Roughly 1,125 feet per second."}, {"text": "About 300,000 km per second", "correct": false, "explanation": "That's the speed of light."}, {"text": "About 10 meters per second", "correct": false, "explanation": "Sound is far faster than that."}]},
+  {"question": "What is the flash-to-bang rule for miles?", "difficulty": "easy", "options": [{"text": "Count the seconds and multiply by 5", "correct": false, "explanation": "You divide, not multiply."}, {"text": "Count the seconds and divide by 5", "correct": true, "explanation": "Sound covers about a mile every 5 seconds."}, {"text": "Count the seconds; that's the distance in miles", "correct": false, "explanation": "Each mile takes about 5 seconds, so divide by 5."}]},
+  {"question": "You count 15 seconds between flash and thunder. About how far away is the strike?", "difficulty": "hard", "options": [{"text": "About 3 miles", "correct": true, "explanation": "15 ÷ 5 = 3 miles."}, {"text": "About 15 miles", "correct": false, "explanation": "Seconds aren't miles; divide by 5."}, {"text": "About 75 miles", "correct": false, "explanation": "That multiplies instead of dividing."}]},
+  {"question": "Why does a very close strike seem to flash and boom at the same moment?", "difficulty": "hard", "options": [{"text": "Close lightning makes sound travel faster", "correct": false, "explanation": "Sound's speed doesn't change with distance."}, {"text": "The distance is so short that sound's delay is a tiny fraction of a second", "correct": true, "explanation": "The delay is proportional to distance, so it nearly vanishes up close."}, {"text": "Close strikes don't make thunder", "correct": false, "explanation": "They make very loud thunder, just with almost no delay."}]},
+];
 
 export default function Post() {
   return (

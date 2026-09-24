@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "cloud-computing-and-storage",
   tags: ["automatic backups", "cloud backup", "backup vs sync", "data protection", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Automatic backup software copies your files on a schedule, keeping past versions — a fundamentally different job from sync, which mirrors your newest changes.",
   summary: "An automatic backup is a scheduled, ongoing copy of data to a separate location that preserves past versions over time, distinct from sync, which continuously mirrors the current state of files across devices.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is an automatic backup built to do?", "difficulty": "easy", "options": [{"text": "Keep scheduled copies and a history of past versions", "correct": true, "explanation": "It lets you go back in time, not just mirror now."}, {"text": "Delete old files to save space", "correct": false, "explanation": "Its purpose is preserving data."}, {"text": "Make your computer faster", "correct": false, "explanation": "Backups protect data; they don't speed things up."}]},
+  {"question": "Why is the first backup much slower than later ones?", "difficulty": "easy", "options": [{"text": "It copies everything; later incremental backups send only what changed", "correct": true, "explanation": "Only the first run is a full copy."}, {"text": "The internet gets faster over time", "correct": false, "explanation": "The difference is how much data each run copies."}, {"text": "Backups get smaller files", "correct": false, "explanation": "Later runs are faster because they copy less."}]},
+  {"question": "How does sync differ from backup?", "difficulty": "easy", "options": [{"text": "Sync mirrors the current state, including deletions; backup keeps earlier versions", "correct": true, "explanation": "A sync can faithfully copy a mistake everywhere."}, {"text": "They're the same thing", "correct": false, "explanation": "They behave very differently when something goes wrong."}, {"text": "Sync keeps more history than backup", "correct": false, "explanation": "Backup is the one built to keep history."}]},
+  {"question": "You accidentally delete a folder that's set to sync with the cloud. What most likely happens?", "difficulty": "hard", "options": [{"text": "The deletion syncs too, so the cloud copy is also removed", "correct": true, "explanation": "Sync mirrors deletions; a real backup would still have it."}, {"text": "The cloud keeps it forever automatically", "correct": false, "explanation": "Syncing mirrors your current state."}, {"text": "Your computer restores it immediately", "correct": false, "explanation": "Sync doesn't undo deletions."}]},
+  {"question": "To restore a failed server, a business needs the last full backup plus what else?", "difficulty": "hard", "options": [{"text": "Every incremental backup taken since that full backup, in order", "correct": true, "explanation": "Each incremental holds only the changes since the previous one."}, {"text": "Only the newest incremental backup", "correct": false, "explanation": "One incremental alone misses the earlier changes."}, {"text": "Nothing else", "correct": false, "explanation": "The full backup alone is missing later changes."}]},
+];
 
 export default function Post() {
   return (

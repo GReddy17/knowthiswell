@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   pillar: true,
   tags: ["heat transfer", "thermodynamics", "temperature", "insulation", "physics misconceptions"],
   date: "2026-09-19",
-  updated: "2026-09-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-19",
   excerpt: "Cold isn't a substance that flows into a room — heat always flows from warmer objects to cooler ones, so what you feel as a draft is actually your own body's heat leaving faster.",
   summary: "Physics recognizes heat as a real, measurable quantity of thermal energy, but \"cold\" has no equivalent existence — it's simply the perception of a lower temperature, produced by heat flowing away from a warmer object toward a cooler one. A drafty window doesn't let cold in; it lets your body's own heat escape faster than usual, which is why insulation and sealing gaps work by slowing heat loss, not by blocking some incoming cold substance.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which direction does heat naturally flow?", "difficulty": "easy", "options": [{"text": "From warmer to cooler", "correct": true, "explanation": "That one-way rule is the second law of thermodynamics."}, {"text": "From cooler to warmer", "correct": false, "explanation": "That only happens when outside energy is added, like in a fridge."}, {"text": "In both directions equally", "correct": false, "explanation": "Net heat flow always goes from warm to cool."}]},
+  {"question": "In physics, what is \"cold\"?", "difficulty": "easy", "options": [{"text": "A form of energy like heat", "correct": false, "explanation": "Cold has no definition as energy; heat does."}, {"text": "The absence or reduction of heat", "correct": true, "explanation": "Cold is just less heat, not a substance of its own."}, {"text": "A special kind of air", "correct": false, "explanation": "Air can be cool, but cold itself isn't a substance."}]},
+  {"question": "How does home insulation help in winter?", "difficulty": "easy", "options": [{"text": "It blocks cold from coming in", "correct": false, "explanation": "There's no cold to block; insulation slows heat going out."}, {"text": "It slows the heat escaping from your home", "correct": true, "explanation": "Insulation manages heat loss, which is the only real flow."}, {"text": "It produces heat", "correct": false, "explanation": "Insulation doesn't generate heat; it keeps it in."}]},
+  {"question": "Why does an ice cube feel colder for longer than a piece of metal at the same temperature?", "difficulty": "hard", "options": [{"text": "Ice contains more cold", "correct": false, "explanation": "There's no cold inside ice; heat is flowing out of your hand."}, {"text": "Melting the ice absorbs extra heat (latent heat of fusion) from your hand", "correct": true, "explanation": "Your hand's heat goes into melting as well as warming the ice."}, {"text": "Ice is always colder than metal", "correct": false, "explanation": "The comparison is at the same temperature; the difference is the melting."}]},
+  {"question": "Why does good insulation also cut cooling costs in summer?", "difficulty": "hard", "options": [{"text": "Insulation absorbs sunlight", "correct": false, "explanation": "Its job is slowing heat flow, not absorbing light."}, {"text": "It slows heat flowing in from the hot outside, the same mechanism as in winter in reverse", "correct": true, "explanation": "Heat always moves from warmer to cooler; insulation slows it either way."}, {"text": "It releases stored cold during the day", "correct": false, "explanation": "It stores no cold; it just slows heat transfer."}]},
+];
 
 export default function Post() {
   return (

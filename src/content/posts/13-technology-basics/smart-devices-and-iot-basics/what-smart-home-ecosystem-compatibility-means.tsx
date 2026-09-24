@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "smart-devices-and-iot-basics",
   tags: ["smart home compatibility", "Matter standard", "Thread protocol", "smart home ecosystem", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "Compatibility isn't about matching brand names — it's about whether devices and apps can read and change the same underlying state.",
   summary: "A smart home \"ecosystem\" is compatible when multiple devices, hubs, and apps can all read and reliably update the same underlying device state — historically achieved by everyone adopting one company's proprietary system, and increasingly achieved through a shared, brand-neutral interoperability standard that any manufacturer can build to.",
@@ -51,6 +51,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does smart home compatibility come down to?", "difficulty": "easy", "options": [{"text": "Whether all apps and hubs can read and change the same device state consistently", "correct": true, "explanation": "Brand names aren't the core issue."}, {"text": "Buying devices of the same color", "correct": false, "explanation": "Color has nothing to do with it."}, {"text": "Having the most expensive devices", "correct": false, "explanation": "Price doesn't ensure compatibility."}]},
+  {"question": "Why does a single-brand setup rarely have compatibility issues?", "difficulty": "easy", "options": [{"text": "One company designs all the devices to work together", "correct": true, "explanation": "That's the traditional lock-in approach."}, {"text": "Single brands use no wireless signals", "correct": false, "explanation": "They do; they just share one design."}, {"text": "Compatibility doesn't matter with one brand", "correct": false, "explanation": "It's guaranteed by shared design, not irrelevant."}]},
+  {"question": "What does a shared standard like Matter offer?", "difficulty": "easy", "options": [{"text": "Compatibility across brands without locking into one company", "correct": true, "explanation": "It achieves what single-brand systems did, more openly."}, {"text": "Faster internet", "correct": false, "explanation": "It's about device interoperability."}, {"text": "Free devices", "correct": false, "explanation": "It's a compatibility standard, not a price."}]},
+  {"question": "A Matter device still needs Thread or Wi-Fi. Why?", "difficulty": "hard", "options": [{"text": "Matter defines how devices understand each other; Thread or Wi-Fi actually carries the data", "correct": true, "explanation": "The standard and the protocol solve related but different problems."}, {"text": "Matter is only a brand name", "correct": false, "explanation": "It's a real interoperability standard."}, {"text": "It doesn't; Matter includes its own radio", "correct": false, "explanation": "It relies on an underlying protocol."}]},
+  {"question": "Before adding a new sensor to a mixed-brand home, what two things are worth checking?", "difficulty": "hard", "options": [{"text": "Which shared standard it supports and which protocol it uses to connect", "correct": true, "explanation": "Both decide whether your existing hubs and apps can use it."}, {"text": "Its color and weight", "correct": false, "explanation": "Neither affects compatibility."}, {"text": "The store's return policy only", "correct": false, "explanation": "Check the standard and protocol first."}]},
+];
 
 export default function Post() {
   return (

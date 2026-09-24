@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -25,7 +25,7 @@ export const metadata: PostFrontmatter = {
   videoQueue: true,
   tags: ["gravity", "free fall", "air resistance", "physics misconceptions", "Galileo"],
   date: "2026-09-19",
-  updated: "2026-09-19",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-19",
   excerpt: "In a vacuum, a feather and a hammer hit the ground at exactly the same time — gravity accelerates every mass equally, and it's air resistance alone that makes heavy objects seem to win.",
   summary: "Gravity gives every object the same acceleration regardless of mass — about 9.8 m/s² near Earth's surface — because the extra gravitational force on a heavier object is exactly canceled out by its extra resistance to acceleration (inertia). What actually makes a feather fall slower than a hammer in everyday life is air resistance, an unrelated force that acts far more on light, high-surface-area objects. Remove the air, as Apollo 15 demonstrated on the airless Moon, and a feather and a hammer land together every time.",
@@ -55,6 +55,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Near Earth's surface, how fast does gravity accelerate a falling object, ignoring air?", "difficulty": "easy", "options": [{"text": "About 9.8 m/s², for every object regardless of mass", "correct": true, "explanation": "Gravity's acceleration doesn't depend on how heavy the object is."}, {"text": "Faster for heavier objects", "correct": false, "explanation": "Heavier objects are pulled harder but also need more force to accelerate; the effects cancel."}, {"text": "Faster for lighter objects", "correct": false, "explanation": "Mass doesn't change the acceleration."}]},
+  {"question": "Why does a feather fall slowly on Earth?", "difficulty": "easy", "options": [{"text": "Gravity pulls less on feathers", "correct": false, "explanation": "Gravity gives it the same acceleration; something else slows it."}, {"text": "Air resistance slows it down", "correct": true, "explanation": "Air resistance acts strongly on light objects with a large surface area."}, {"text": "Feathers are magnetic", "correct": false, "explanation": "Magnetism isn't involved."}]},
+  {"question": "Who demonstrated the hammer-and-feather drop on the Moon?", "difficulty": "easy", "options": [{"text": "Apollo 15 astronaut David Scott in 1971", "correct": true, "explanation": "On the airless Moon, both objects landed at the same instant."}, {"text": "Isaac Newton", "correct": false, "explanation": "Newton never went to the Moon; this happened on Apollo 15."}, {"text": "Galileo, on the Moon", "correct": false, "explanation": "Galileo's reasoning predicted it about 380 years earlier, but the Moon drop was Apollo 15."}]},
+  {"question": "A heavy object is pulled by gravity with more force. Why doesn't it fall faster?", "difficulty": "hard", "options": [{"text": "Because it also needs proportionally more force to accelerate, so the two effects cancel", "correct": true, "explanation": "Double the mass means double the pull and double the inertia: same acceleration."}, {"text": "Because gravity weakens for heavy objects", "correct": false, "explanation": "Gravity's pull actually increases with mass."}, {"text": "Because heavy objects create more air resistance", "correct": false, "explanation": "The cancelling happens even in a vacuum."}]},
+  {"question": "When does the \"heavier falls faster\" intuition actually hold?", "difficulty": "hard", "options": [{"text": "In a vacuum", "correct": false, "explanation": "In a vacuum, all objects fall together."}, {"text": "In air, between objects of similar shape where one is much denser", "correct": true, "explanation": "Air resistance matters less for the dense one relative to its weight."}, {"text": "Never, under any conditions", "correct": false, "explanation": "In air it can hold, because of air resistance, not gravity."}]},
+];
 
 export default function Post() {
   return (

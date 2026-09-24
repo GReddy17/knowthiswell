@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "software-and-operating-systems",
   tags: ["file formats", "file extensions", "pdf vs docx", "image formats", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A file extension is a label, but the file format is a rulebook — mixing them up is why renaming a file's extension almost never makes it open correctly.",
   summary: "A file format is a defined set of rules for how information is structured and encoded inside a file, which determines which programs can read it correctly and what capabilities (editing, transparency, compression) it supports.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a file format?", "difficulty": "easy", "options": [{"text": "A rulebook for how the data inside a file is structured", "correct": true, "explanation": "The extension is just a label claiming which rulebook was used."}, {"text": "The file's name", "correct": false, "explanation": "The name and extension are labels, not the format itself."}, {"text": "The folder the file is in", "correct": false, "explanation": "Location has nothing to do with format."}]},
+  {"question": "What is the trade-off between .png and .jpg?", "difficulty": "easy", "options": [{"text": ".png keeps every pixel exact but is larger; .jpg discards some detail for a much smaller file", "correct": true, "explanation": "Each is built for a different goal."}, {"text": "They are identical", "correct": false, "explanation": "They store images very differently."}, {"text": ".jpg is always higher quality", "correct": false, "explanation": ".jpg gives up some detail to shrink the file."}]},
+  {"question": "Why send a resume as .pdf instead of .docx?", "difficulty": "easy", "options": [{"text": "A .pdf locks the layout so it looks the same on any device", "correct": true, "explanation": ".docx is editable and can shift between programs."}, {"text": "A .pdf is always smaller", "correct": false, "explanation": "Size isn't the main reason."}, {"text": "Employers can't open .docx", "correct": false, "explanation": "They can; the point is consistent layout."}]},
+  {"question": "You rename photo.jpg to photo.png. What happens to the data?", "difficulty": "hard", "options": [{"text": "Nothing; it's still JPEG data with a misleading label", "correct": true, "explanation": "Renaming doesn't rewrite the contents."}, {"text": "It converts to PNG", "correct": false, "explanation": "Conversion requires re-encoding, not renaming."}, {"text": "The image is deleted", "correct": false, "explanation": "The data stays intact."}]},
+  {"question": "A video plays sound but shows a black screen. What is the likely cause?", "difficulty": "hard", "options": [{"text": "The player understands the audio format but not the video format inside the file", "correct": true, "explanation": "Programs can only decode formats whose rules they know."}, {"text": "The file is always corrupted", "correct": false, "explanation": "Usually it's a format the player can't decode."}, {"text": "The screen is broken", "correct": false, "explanation": "Other videos would also fail if the screen were broken."}]},
+];
 
 export default function Post() {
   return (

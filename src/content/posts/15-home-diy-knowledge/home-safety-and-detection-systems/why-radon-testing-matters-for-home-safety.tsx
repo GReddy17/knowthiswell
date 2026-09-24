@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "home-safety-and-detection-systems",
   tags: ["radon testing", "radon gas", "indoor air quality", "radon mitigation", "home safety"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-12",
   excerpt: "Radon is an odorless, radioactive gas that seeps into homes from the soil below — testing in pCi/L is the only way to know it's there, and mitigation systems can safely remove it.",
   summary: "Radon forms continuously underground from the natural radioactive decay of uranium in soil and rock, seeps into homes through foundation cracks and gaps, and — because it has no smell, color, or taste — a pCi/L test result is the only realistic way to know whether a given home's indoor level is high enough to warrant mitigation.",
@@ -53,6 +53,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Where does radon come from?", "difficulty": "easy", "options": [{"text": "Uranium and radium naturally decaying in soil and rock", "correct": true, "explanation": "It's produced continuously in the ground."}, {"text": "Household cleaning products", "correct": false, "explanation": "Radon is natural and comes from the ground."}, {"text": "Car exhaust", "correct": false, "explanation": "That's carbon monoxide, not radon."}]},
+  {"question": "What level does the EPA recommend acting on?", "difficulty": "easy", "options": [{"text": "4 pCi/L or higher", "correct": true, "explanation": "Lower levels still carry some risk."}, {"text": "Any level above zero", "correct": false, "explanation": "The action level is 4 pCi/L."}, {"text": "Only above 100 pCi/L", "correct": false, "explanation": "The EPA's action level is far lower."}]},
+  {"question": "How can you know a specific home's radon level?", "difficulty": "easy", "options": [{"text": "Only by testing it", "correct": true, "explanation": "Radon has no smell, color or taste."}, {"text": "By the home's age", "correct": false, "explanation": "Age doesn't reliably predict radon."}, {"text": "By asking the neighbors", "correct": false, "explanation": "Neighboring homes can have very different levels."}]},
+  {"question": "Two similar homes on the same street test very differently. Why is that possible?", "difficulty": "hard", "options": [{"text": "Local soil, foundation cracks and entry paths vary from house to house", "correct": true, "explanation": "That's why each home needs its own test."}, {"text": "One test must be wrong", "correct": false, "explanation": "Large differences between neighbors are normal."}, {"text": "Radon only affects older homes", "correct": false, "explanation": "New homes can have high levels too."}]},
+  {"question": "How does a sub-slab depressurization system lower indoor radon?", "difficulty": "hard", "options": [{"text": "A fan pulls soil gas from under the slab and vents it outside before it enters the house", "correct": true, "explanation": "It reverses the pressure that draws radon inside."}, {"text": "It filters radon out of the living room air", "correct": false, "explanation": "It works below the slab, not by filtering room air."}, {"text": "It neutralizes radon chemically", "correct": false, "explanation": "Radon is vented away, not neutralized."}]},
+];
 
 export default function Post() {
   return (

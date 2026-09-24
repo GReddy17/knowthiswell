@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "home-safety-and-detection-systems",
   tags: ["carbon monoxide detector", "CO alarm", "incomplete combustion", "indoor air safety", "home safety"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-12",
   excerpt: "Carbon monoxide is colorless, odorless, and displaces oxygen in the blood — a CO detector's electrochemical sensor is the only practical way to notice it building up indoors.",
   summary: "Carbon monoxide forms whenever a fuel burns without quite enough oxygen, and because it has no color, smell, or taste, an electrochemical sensor tracking parts-per-million concentration over time is the only realistic way a household actually notices it before symptoms set in.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Why can't people notice carbon monoxide without a detector?", "difficulty": "easy", "options": [{"text": "It has no color, smell or taste", "correct": true, "explanation": "There's no natural warning sign."}, {"text": "It only appears at night", "correct": false, "explanation": "CO can form any time fuel burns incompletely."}, {"text": "It smells like smoke", "correct": false, "explanation": "CO itself is odorless."}]},
+  {"question": "When does carbon monoxide form?", "difficulty": "easy", "options": [{"text": "When fuel burns without enough oxygen to fully convert its carbon to carbon dioxide", "correct": true, "explanation": "Furnaces, stoves, engines and generators can all produce it."}, {"text": "Only in car exhaust", "correct": false, "explanation": "Any fuel-burning appliance can produce it."}, {"text": "When water boils", "correct": false, "explanation": "Boiling water doesn't produce CO."}]},
+  {"question": "What should you do first if a CO alarm sounds?", "difficulty": "easy", "options": [{"text": "Get everyone outside into fresh air, then call emergency services", "correct": true, "explanation": "Remove people from exposure first."}, {"text": "Remove the alarm's battery", "correct": false, "explanation": "That silences the warning without removing the danger."}, {"text": "Open one window and go back to sleep", "correct": false, "explanation": "Leave the building and get help."}]},
+  {"question": "Why does a CO detector track exposure over time rather than a single reading?", "difficulty": "hard", "options": [{"text": "CO builds up in the blood over time, so both concentration and duration matter", "correct": true, "explanation": "High levels trip it within minutes; lower levels take longer."}, {"text": "Detectors can only take one reading per hour", "correct": false, "explanation": "They monitor continuously."}, {"text": "To save battery", "correct": false, "explanation": "Tracking over time mirrors how CO actually affects people."}]},
+  {"question": "Why is carbon monoxide dangerous to the body?", "difficulty": "hard", "options": [{"text": "It binds to hemoglobin more readily than oxygen, crowding oxygen out of the blood", "correct": true, "explanation": "The blood carries less oxygen as CO builds up."}, {"text": "It burns the lungs", "correct": false, "explanation": "The main effect is on oxygen transport in the blood."}, {"text": "It is radioactive", "correct": false, "explanation": "CO isn't radioactive; it blocks oxygen transport."}]},
+];
 
 export default function Post() {
   return (

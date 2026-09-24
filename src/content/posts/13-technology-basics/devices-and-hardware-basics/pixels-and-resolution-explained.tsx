@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "devices-and-hardware-basics",
   tags: ["pixels", "resolution", "1080p", "4K", "PPI", "display technology", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "4K has four times as many pixels as 1080p, not four times the sharpness — resolution is a grid area, and doubling each side of a grid quadruples its total pixel count.",
   summary: "A pixel is the smallest individually controllable dot of light on a digital display, and resolution is simply the count of pixels arranged across the screen's width and height — 4K packs four times as many total pixels into the same screen area as 1080p, since both dimensions double.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a pixel?", "difficulty": "easy", "options": [{"text": "A single controllable dot of light on a screen", "correct": true, "explanation": "Screens are mosaics of these dots."}, {"text": "A unit of screen size in inches", "correct": false, "explanation": "Screen size is measured separately."}, {"text": "A type of cable", "correct": false, "explanation": "Pixels are the dots that make up the image."}]},
+  {"question": "What does \"1920x1080\" describe?", "difficulty": "easy", "options": [{"text": "1,920 pixels across and 1,080 pixels down", "correct": true, "explanation": "Resolution counts dots across width and height."}, {"text": "The screen's size in millimeters", "correct": false, "explanation": "It counts pixels, not physical size."}, {"text": "The screen's refresh rate", "correct": false, "explanation": "Refresh rate is measured in hertz."}]},
+  {"question": "How many times more pixels does 4K have than 1080p?", "difficulty": "easy", "options": [{"text": "2 times", "correct": false, "explanation": "Doubling both width and height multiplies area by 4."}, {"text": "4 times", "correct": true, "explanation": "2x the width × 2x the height = 4x the pixels."}, {"text": "8 times", "correct": false, "explanation": "It's exactly 4x."}]},
+  {"question": "Why does a 4K phone look sharper than a 4K TV with the same resolution?", "difficulty": "hard", "options": [{"text": "The phone packs the same pixels into a far smaller area, so its pixel density (PPI) is much higher", "correct": true, "explanation": "Sharpness depends on density and viewing distance, not resolution alone."}, {"text": "Phones use better pixels", "correct": false, "explanation": "It's about how tightly they're packed."}, {"text": "TVs secretly use 1080p", "correct": false, "explanation": "Both are genuinely 4K."}]},
+  {"question": "For close-up text work, which is sharper: a 27-inch or a 32-inch 4K monitor?", "difficulty": "hard", "options": [{"text": "The 27-inch, because the same pixels in a smaller area mean higher density", "correct": true, "explanation": "Higher PPI looks crisper up close."}, {"text": "The 32-inch, because bigger is always sharper", "correct": false, "explanation": "Same resolution on a bigger screen means lower density."}, {"text": "They're equally sharp", "correct": false, "explanation": "Pixel density differs with screen size."}]},
+];
 
 export default function Post() {
   return (

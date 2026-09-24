@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   videoQueue: true,
   tags: ["lightning", "weather safety", "misconceptions", "electricity", "storms"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-24",
   lastReviewed: "2026-09-12",
   excerpt: "Lightning strikes the same place constantly — tall, isolated, conductive structures like the Empire State Building get hit roughly 20-25 times a year, every storm season.",
   summary: "\"Lightning never strikes the same place twice\" is false. Lightning strikes wherever it finds the shortest, most conductive path from cloud to ground, and a tall, isolated, conductive structure is that path over and over — which is exactly why lightning rods are designed to accept repeat strikes safely rather than prevent them.",
@@ -54,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeStatus: "not-started",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Can lightning strike the same place twice?", "difficulty": "easy", "options": [{"text": "Yes, often", "correct": true, "explanation": "It follows the easiest path, which can be the same spot again and again."}, {"text": "No, never", "correct": false, "explanation": "That's a saying, not a law of physics."}, {"text": "Only in summer", "correct": false, "explanation": "Repeat strikes happen in any storm."}]},
+  {"question": "About how many times a year is the Empire State Building struck?", "difficulty": "easy", "options": [{"text": "Roughly 20 to 25 times", "correct": true, "explanation": "Tall structures get hit repeatedly."}, {"text": "Once in its history", "correct": false, "explanation": "It's struck many times a year."}, {"text": "Never", "correct": false, "explanation": "It's a frequent target."}]},
+  {"question": "Why does height attract lightning?", "difficulty": "easy", "options": [{"text": "It shortens the gap the charge has to jump", "correct": true, "explanation": "Lightning takes the shortest, most conductive path."}, {"text": "Tall things are magnetic", "correct": false, "explanation": "Magnetism isn't the reason."}, {"text": "Height makes objects hotter", "correct": false, "explanation": "It's about path length to the cloud."}]},
+  {"question": "What does a lightning rod actually do?", "difficulty": "hard", "options": [{"text": "Gives each strike a safe, planned path to ground", "correct": true, "explanation": "It doesn't reduce how often the building is struck."}, {"text": "Prevents lightning from striking", "correct": false, "explanation": "Strikes still happen; they're routed safely."}, {"text": "Stores lightning for electricity", "correct": false, "explanation": "It carries current to ground."}]},
+  {"question": "Why is a lone tree in a field struck more than a similar tree in a forest?", "difficulty": "hard", "options": [{"text": "It's the tallest, most isolated path to ground around it", "correct": true, "explanation": "In a forest, many similar targets share the risk."}, {"text": "Field trees contain more metal", "correct": false, "explanation": "Isolation and height are the factors."}, {"text": "Forests block storms", "correct": false, "explanation": "Storms pass over forests too."}]},
+];
 
 export default function Post() {
   return (

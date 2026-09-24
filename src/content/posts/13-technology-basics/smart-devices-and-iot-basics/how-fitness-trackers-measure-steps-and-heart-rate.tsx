@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "smart-devices-and-iot-basics",
   tags: ["fitness tracker", "how fitness trackers work", "PPG heart rate sensor", "step counting accelerometer", "technology basics"],
   date: "2026-08-28",
-  updated: "2026-08-28",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-28",
   excerpt: "A fitness tracker doesn't count steps or read your pulse directly — it infers both from motion patterns and light reflected off your skin.",
   summary: "A wearable fitness tracker estimates steps by pattern-matching the repeating bounce an accelerometer detects during walking, and estimates heart rate by shining light into the skin and measuring how much of it a photodiode detects being absorbed with each pulse of blood — both are indirect, algorithm-smoothed estimates, not direct measurements.",
@@ -52,6 +52,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How does a tracker count steps?", "difficulty": "easy", "options": [{"text": "By recognizing the repeating bounce pattern an accelerometer detects", "correct": true, "explanation": "Each bounce of your stride counts as a step."}, {"text": "With a sensor in your shoe", "correct": false, "explanation": "Wrist trackers use motion patterns, not shoe sensors."}, {"text": "By GPS alone", "correct": false, "explanation": "Step counting uses the motion sensor."}]},
+  {"question": "What is PPG, the method trackers use for heart rate?", "difficulty": "easy", "options": [{"text": "Shining light into the skin and detecting the tiny dip as each pulse of blood absorbs more", "correct": true, "explanation": "Each dip is counted as a heartbeat."}, {"text": "Listening to the heartbeat with a microphone", "correct": false, "explanation": "It uses light, not sound."}, {"text": "An electrode wired to the heart", "correct": false, "explanation": "It's an optical estimate at the wrist."}]},
+  {"question": "Are tracker step and heart-rate numbers exact?", "difficulty": "easy", "options": [{"text": "No, they're indirect estimates smoothed by an algorithm", "correct": true, "explanation": "They can drift during unusual movement."}, {"text": "Yes, always perfectly exact", "correct": false, "explanation": "They're pattern-based estimates."}, {"text": "Only at night", "correct": false, "explanation": "Accuracy depends on movement and conditions, not time of day."}]},
+  {"question": "Why might a wrist tracker undercount steps while pushing a stroller?", "difficulty": "hard", "options": [{"text": "The hands stay still on the handle, so the arm-swing bounce is weak", "correct": true, "explanation": "No arm swing means less of the pattern it counts."}, {"text": "Strollers block GPS", "correct": false, "explanation": "Step counting doesn't depend on GPS."}, {"text": "Walking slowly doesn't count as steps", "correct": false, "explanation": "The problem is the missing arm motion."}]},
+  {"question": "Why does a chest strap usually beat a wrist tracker for heart rate during intense exercise?", "difficulty": "hard", "options": [{"text": "It measures the heart's electrical signal directly, while wrist light readings get disrupted by movement", "correct": true, "explanation": "Vigorous motion interferes with optical readings."}, {"text": "Chest straps are newer technology", "correct": false, "explanation": "The difference is the measurement method."}, {"text": "Wrist trackers turn off during exercise", "correct": false, "explanation": "They keep reading, just less accurately."}]},
+];
 
 export default function Post() {
   return (

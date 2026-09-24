@@ -156,9 +156,12 @@ function extractFromFile(absPath, category, slug) {
             options.every((o) => o && typeof o.text === 'string' && typeof o.explanation === 'string') &&
             options.some((o) => o.correct === true)
           ) {
+            const difficulty = getAttrValue(attrs, 'difficulty');
             entries.push({
               id: `${category}/${slug}#qc-${quickCheckIdx++}`,
               type: 'quickcheck',
+              inline: true,
+              difficulty: ['easy', 'medium', 'hard'].includes(difficulty) ? difficulty : 'medium',
               question,
               options,
               category,
@@ -193,6 +196,41 @@ function extractFromFile(absPath, category, slug) {
     node.forEachChild(visit);
   }
   visit(sourceFile);
+
+  // Quiz bank: `export const quiz: QuizBankItem[] = [...]` (not rendered
+  // inline; feeds the end-of-article quiz and the game).
+  let bankIdx = 0;
+  sourceFile.forEachChild((node) => {
+    if (!ts.isVariableStatement(node)) return;
+    for (const decl of node.declarationList.declarations) {
+      if (!ts.isIdentifier(decl.name) || decl.name.text !== 'quiz' || !decl.initializer) continue;
+      let init = decl.initializer;
+      if (ts.isAsExpression(init) || ts.isSatisfiesExpression?.(init)) init = init.expression;
+      const items = literalToJs(init);
+      if (!Array.isArray(items)) continue;
+      for (const q of items) {
+        if (
+          q && typeof q.question === 'string' && Array.isArray(q.options) && q.options.length >= 2 &&
+          q.options.every((o) => o && typeof o.text === 'string' && typeof o.explanation === 'string') &&
+          q.options.filter((o) => o.correct === true).length === 1
+        ) {
+          entries.push({
+            id: `${category}/${slug}#bank-${bankIdx++}`,
+            type: 'quickcheck',
+            inline: false,
+            difficulty: ['easy', 'medium', 'hard'].includes(q.difficulty) ? q.difficulty : 'medium',
+            question: q.question,
+            options: q.options,
+            category,
+            categoryLabel,
+            slug,
+            postTitle,
+            href,
+          });
+        }
+      }
+    }
+  });
   return entries;
 }
 
@@ -250,6 +288,8 @@ function writeArticleQuizzes(importPaths, allEntries) {
     if (!byPost[key]) continue;
     byPost[key].title = e.postTitle;
     byPost[key].questions.push({
+      difficulty: e.difficulty,
+      inline: e.inline,
       question: e.question,
       options: e.options.map((o) => ({ text: o.text, correct: o.correct === true, explanation: o.explanation })),
     });
@@ -259,19 +299,21 @@ function writeArticleQuizzes(importPaths, allEntries) {
   fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(path.join(outDir, 'article-quizzes.json'), JSON.stringify(byPost));
 
-  const counts = { zero: [], one: [], twoPlus: 0 };
-  for (const [key, v] of Object.entries(byPost)) {
-    if (v.questions.length === 0) counts.zero.push(key);
-    else if (v.questions.length === 1) counts.one.push(key);
-    else counts.twoPlus++;
-  }
+  // Rule (2026-09-24): 9+ questions per post, inline QuickChecks + bank.
+  const MIN = 9;
+  const below = Object.entries(byPost)
+    .filter(([, v]) => v.questions.length < MIN)
+    .map(([key, v]) => ({ key, count: v.questions.length }))
+    .sort((a, b) => a.count - b.count);
+  const histogram = {};
+  for (const v of Object.values(byPost)) histogram[v.questions.length] = (histogram[v.questions.length] || 0) + 1;
   fs.writeFileSync(
     path.join(outDir, 'quiz-coverage.json'),
-    JSON.stringify({ posts: Object.keys(byPost).length, twoPlus: counts.twoPlus, one: counts.one, zero: counts.zero }, null, 1)
+    JSON.stringify({ posts: Object.keys(byPost).length, minimum: MIN, meetingMinimum: Object.keys(byPost).length - below.length, histogram, below }, null, 1)
   );
   console.log(
     `generate-question-pool: article quizzes for ${Object.keys(byPost).length} posts — ` +
-    `${counts.twoPlus} with 2+ questions, ${counts.one.length} with 1, ${counts.zero.length} with 0 ` +
+    `${Object.keys(byPost).length - below.length} meet the ${MIN}-question minimum, ${below.length} below ` +
     `(see src/content/generated/quiz-coverage.json).`
   );
 }
