@@ -225,6 +225,55 @@ function main() {
     `generate-question-pool: scanned ${scanned} posts, found ${allEntries.length} real QuickCheck/FAQ entries, ` +
     `shipped ${pool.length} in ${path.relative(ROOT, OUTPUT_PATH)}.`
   );
+
+  writeArticleQuizzes(importPaths, allEntries);
+}
+
+/**
+ * Per-article quiz data for the end-of-article "Test yourself" block
+ * (src/components/TestYourself.tsx, wired in [category]/[slug]/page.tsx).
+ * Only multiple-choice QuickChecks qualify — FAQ items have no options.
+ * Also writes a coverage audit so posts with too few extractable questions
+ * can be fixed (see the content skills' "Test yourself" rule).
+ */
+function writeArticleQuizzes(importPaths, allEntries) {
+  const byPost = {};
+  for (const importPath of importPaths) {
+    const parts = importPath.replace(/^\.\//, '').split('/');
+    const { category, slug } = categoryAndSlugFromImportPath(importPath);
+    const subtopic = parts.length >= 3 ? parts[1] : null;
+    byPost[`${category}/${slug}`] = { subtopic, title: null, questions: [] };
+  }
+  for (const e of allEntries) {
+    if (e.type !== 'quickcheck') continue;
+    const key = `${e.category}/${e.slug}`;
+    if (!byPost[key]) continue;
+    byPost[key].title = e.postTitle;
+    byPost[key].questions.push({
+      question: e.question,
+      options: e.options.map((o) => ({ text: o.text, correct: o.correct === true, explanation: o.explanation })),
+    });
+  }
+
+  const outDir = path.join(ROOT, 'src', 'content', 'generated');
+  fs.mkdirSync(outDir, { recursive: true });
+  fs.writeFileSync(path.join(outDir, 'article-quizzes.json'), JSON.stringify(byPost));
+
+  const counts = { zero: [], one: [], twoPlus: 0 };
+  for (const [key, v] of Object.entries(byPost)) {
+    if (v.questions.length === 0) counts.zero.push(key);
+    else if (v.questions.length === 1) counts.one.push(key);
+    else counts.twoPlus++;
+  }
+  fs.writeFileSync(
+    path.join(outDir, 'quiz-coverage.json'),
+    JSON.stringify({ posts: Object.keys(byPost).length, twoPlus: counts.twoPlus, one: counts.one, zero: counts.zero }, null, 1)
+  );
+  console.log(
+    `generate-question-pool: article quizzes for ${Object.keys(byPost).length} posts — ` +
+    `${counts.twoPlus} with 2+ questions, ${counts.one.length} with 1, ${counts.zero.length} with 0 ` +
+    `(see src/content/generated/quiz-coverage.json).`
+  );
 }
 
 main();

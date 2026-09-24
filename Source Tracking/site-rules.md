@@ -34,6 +34,7 @@ These apply to every entry before it can be marked `draft: false`:
 - **Both `ModeToggle` variants (plain + detailed) must be fully written.** Detailed is not a reworded version of plain — it must add mechanism/reasoning, at least one edge case, and precise terminology (added to `glossary[]` if introduced).
 - **Minimum 3 worked examples**, structured as: baseline case → edge/variation case → real-world applied case.
 - **Minimum 4 FAQ questions**, phrased as real search queries (researched via People Also Ask / autocomplete / keyword tools), not invented textbook questions.
+- **At least 3 `QuickCheck` questions, which double as the graded "Test yourself" quiz at the end of the page** (added 2026-09-24). Literal props only (no JSX or variables inside), 3 options with exactly one correct, an explanation on every option saying why, spread across the article's key idea, examples and misconception.
 - **Key Takeaways, Common Mistakes, Misconceptions, and Action Checklist must all be populated** — not left as placeholders.
 - **At least one diagram or visual** where the topic has any process, comparison, or relationship that benefits from being seen rather than read.
 - **Sources are required.** No entry ships without at least one credible, linkable source in `sources[]`.

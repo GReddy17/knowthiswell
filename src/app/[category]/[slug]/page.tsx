@@ -9,6 +9,8 @@ import { FeedbackWidget } from '@/components/FeedbackWidget';
 import { ArticleSchema } from '@/components/ArticleSchema';
 import { ContentErrorBoundary } from '@/components/ContentErrorBoundary';
 import { PathNav } from '@/components/PathNav';
+import { TestYourself } from '@/components/TestYourself';
+import { getArticleQuiz } from '@/lib/article-quiz';
 import { getPostBySlug, getAllPostSlugs, getRelatedPosts } from '@/lib/content';
 import { getCategoryLabel, formatSlugToLabel } from '@/lib/taxonomy';
 import { getLearningPathForPost } from '@/content/learning-paths';
@@ -46,6 +48,7 @@ export default async function PostPage({ params }: PageProps) {
 
   const related = await getRelatedPosts(post);
   const pathInfo = getLearningPathForPost(post.category, post.slug);
+  const quiz = getArticleQuiz(post.category, post.slug);
 
   const breadcrumbs = [
     { label: getCategoryLabel(post.category), href: `/${post.category}` },
@@ -97,6 +100,8 @@ export default async function PostPage({ params }: PageProps) {
             <p className="text-ink-soft italic">Content is being migrated to the new format. Please check back soon.</p>
           )}
         </article>
+
+        <TestYourself questions={quiz} articleKey={`${post.category}/${post.slug}`} />
 
         {pathInfo ? (
           <PathNav
