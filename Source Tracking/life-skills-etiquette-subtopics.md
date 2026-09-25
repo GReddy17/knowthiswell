@@ -61,8 +61,8 @@ Folder: `navigating-harder-moments-well/`
 |---|---|---|
 | 1 | `how-to-actually-have-a-difficult-conversation` | done (2026-09-20) |
 | 2 | `what-active-listening-actually-looks-like-in-practice` | done (2026-09-21) |
-| 3 | `how-to-actually-set-boundaries-without-guilt` | not started |
-| 4 | `what-professional-email-etiquette-actually-requires` | not started |
+| 3 | `how-to-actually-set-boundaries-without-guilt` | done — live on main |
+| 4 | `what-professional-email-etiquette-actually-requires` | done — live on main |
 | 5 | `how-to-actually-negotiate-a-better-price` | not started |
 | 6 | `what-table-manners-actually-matter-today` | not started |
 | 7 | `how-to-actually-apologize-in-a-way-that-lands` | not started |

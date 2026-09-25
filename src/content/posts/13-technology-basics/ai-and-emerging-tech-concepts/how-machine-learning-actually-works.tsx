@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-a-chatbot-is-actually-doing",
     "technology-basics/automation-vs-artificial-intelligence",
     "technology-basics/how-predictive-text-and-autocomplete-work",
+    "ai-future-tech-literacy/what-a-neural-network-actually-does",
   ],
   glossary: [
     { term: "Machine learning", definition: "A method of building software where a model improves at a task by learning patterns from data, rather than following rules a person wrote out explicitly." },

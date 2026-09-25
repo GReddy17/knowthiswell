@@ -61,8 +61,8 @@ Folder: `getting-the-most-from-a-certification/`
 |---|---|---|
 | 1 | `what-project-management-certification-actually-teaches-you` | done (2026-09-20) |
 | 2 | `how-to-actually-choose-between-competing-certifications` | done (2026-09-21) |
-| 3 | `what-a-comptia-security-certification-actually-covers` | not started |
-| 4 | `how-agile-and-scrum-actually-differ` | not started |
+| 3 | `what-a-comptia-security-certification-actually-covers` | done — live on main |
+| 4 | `how-agile-and-scrum-actually-differ` | done — live on main |
 | 5 | `what-a-pmp-certification-actually-requires` | not started |
 | 6 | `how-cloud-certifications-actually-boost-a-resume` | not started |
 | 7 | `what-google-analytics-certification-actually-verifies` | not started |

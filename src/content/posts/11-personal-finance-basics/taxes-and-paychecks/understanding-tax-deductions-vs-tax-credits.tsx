@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "personal-finance-basics/income-tax-basics-how-brackets-actually-work",
     "personal-finance-basics/reading-a-pay-stub-what-each-line-means",
     "personal-finance-basics/common-tax-filing-terms-explained",
+    "government-schemes-benefits/what-tax-credits-actually-differ-from-tax-deductions",
   ],
   glossary: [
     {"term":"Tax deduction","definition":"An amount subtracted from taxable income before tax is calculated, whose real dollar value depends on the taxpayer's marginal tax rate."},

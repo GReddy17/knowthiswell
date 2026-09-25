@@ -33,6 +33,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "economics/what-gdp-actually-measures",
     "economics/how-interest-rates-actually-get-set",
+    "economics/what-supply-and-demand-actually-predicts",
   ],
   glossary: [
     { term: "Inflation", definition: "A sustained rise in the general price level of goods and services in an economy over time, measured most commonly in the U.S. through the Consumer Price Index." },

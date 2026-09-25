@@ -61,8 +61,8 @@ Folder: `ai-in-practice-and-its-limits/`
 |---|---|---|
 | 1 | `what-artificial-intelligence-actually-means` | done (2026-09-20) |
 | 2 | `how-large-language-models-actually-work` | done (2026-09-21) |
-| 3 | `machine-learning-vs-deep-learning-explained` | not started |
-| 4 | `what-a-neural-network-actually-does` | not started |
+| 3 | `machine-learning-vs-deep-learning-explained` | done — live on main |
+| 4 | `what-a-neural-network-actually-does` | done — live on main |
 | 5 | `how-ai-image-generators-actually-create-pictures` | not started |
 | 6 | `what-ai-hallucination-actually-means` | not started |
 | 7 | `how-ai-chatbots-are-trained` | not started |

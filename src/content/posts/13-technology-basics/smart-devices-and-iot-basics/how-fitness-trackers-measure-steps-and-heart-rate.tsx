@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-makes-a-device-smart",
     "technology-basics/how-a-smart-thermostat-learns-your-habits",
     "technology-basics/how-smart-doorbells-and-cameras-detect-motion",
+    "health-wellness-deep-dive/what-resting-heart-rate-actually-reveals-about-fitness",
   ],
   glossary: [
     { term: "Accelerometer", definition: "A small sensor that detects the direction and intensity of movement and changes in speed, used by a fitness tracker to sense the repeating motion of a step." },

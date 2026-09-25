@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "general-awareness-basics/how-to-spot-misinformation-and-fake-news",
     "general-awareness-basics/primary-vs-secondary-news-sources",
     "general-awareness-basics/reading-beyond-the-headline-critical-reading-skills",
+    "psychology-human-behavior/what-confirmation-bias-actually-does-to-decision-making",
   ],
   glossary: [
     {"term":"Framing","definition":"The way a story's facts are organized and worded to emphasize a particular interpretation, even when every individual fact stated is accurate."},

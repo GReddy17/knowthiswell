@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
     "health-wellness-deep-dive/how-sleep-cycles-actually-affect-recovery",
     "health-wellness-deep-dive/how-the-lymphatic-system-actually-works",
     "health-body-basics/understanding-stress-and-the-body-general-overview",
+    "health-wellness-deep-dive/what-resting-heart-rate-actually-reveals-about-fitness",
   ],
   glossary: [
     { term: "HPA axis", definition: "The hypothalamic-pituitary-adrenal axis — the signaling pathway connecting the brain's hypothalamus and pituitary gland to the adrenal glands, which controls the release of cortisol in response to a perceived stressor." },

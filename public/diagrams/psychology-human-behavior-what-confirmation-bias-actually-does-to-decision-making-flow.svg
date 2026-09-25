@@ -1,0 +1,24 @@
+<svg viewBox="0 0 560 490" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cbFlowTitle">
+  <title id="cbFlowTitle">Confirmation bias acts at every stage of a decision: you start with a belief, search for evidence that fits it, interpret ambiguous evidence as supporting it, remember the hits better than the misses, and end up more confident, which strengthens the starting belief.</title>
+  <rect width="560" height="490" fill="#FBF8F1"/>
+  <rect x="150" y="20" width="260" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="46" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">1. Start with a belief</text>
+  <text x="280" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">or a favored option</text>
+  <text x="280" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8B6F4E">↓</text>
+  <rect x="150" y="106" width="260" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">2. Search: look for evidence</text>
+  <text x="280" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">that would confirm it</text>
+  <text x="280" y="184" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8B6F4E">↓</text>
+  <rect x="150" y="192" width="260" height="60" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="280" y="218" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">3. Interpret: read ambiguous</text>
+  <text x="280" y="234" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">evidence as support</text>
+  <text x="280" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8B6F4E">↓</text>
+  <rect x="150" y="278" width="260" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="304" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">4. Recall: remember the hits,</text>
+  <text x="280" y="320" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">forget the misses</text>
+  <text x="280" y="356" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8B6F4E">↓</text>
+  <rect x="150" y="364" width="260" height="60" rx="6" fill="#2C4A3E"/>
+  <text x="280" y="390" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">5. Confidence rises, whether</text>
+  <text x="280" y="406" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">or not accuracy does</text>
+  <text x="280" y="476" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">The loop feeds itself: step 5 becomes a stronger step 1 next time</text>
+</svg>

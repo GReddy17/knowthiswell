@@ -1,11 +1,12 @@
 {
- "posts": 861,
+ "posts": 871,
  "minimum": 9,
- "meetingMinimum": 165,
+ "meetingMinimum": 180,
  "histogram": {
-  "2": 243,
-  "3": 453,
-  "9": 165
+  "2": 242,
+  "3": 449,
+  "9": 170,
+  "10": 10
  },
  "below": [
   {
@@ -222,10 +223,6 @@
   },
   {
    "key": "general-awareness-basics/what-developing-vs-developed-nation-classifications-mean",
-   "count": 2
-  },
-  {
-   "key": "general-awareness-basics/executive-vs-legislative-vs-judicial-explained",
    "count": 2
   },
   {
@@ -1109,10 +1106,6 @@
    "count": 3
   },
   {
-   "key": "general-science-facts/density-and-buoyancy",
-   "count": 3
-  },
-  {
    "key": "general-science-facts/electricity-and-magnetism-basics",
    "count": 3
   },
@@ -1206,10 +1199,6 @@
   },
   {
    "key": "math-numbers/speed-math-for-everyday-use",
-   "count": 3
-  },
-  {
-   "key": "math-numbers/squares-cubes-and-roots",
    "count": 3
   },
   {
@@ -2117,10 +2106,6 @@
    "count": 3
   },
   {
-   "key": "general-awareness-basics/nobel-prizes-categories-and-how-winners-are-chosen",
-   "count": 3
-  },
-  {
    "key": "general-awareness-basics/the-g7-vs-g20-explained",
    "count": 3
   },
@@ -2134,10 +2119,6 @@
   },
   {
    "key": "general-awareness-basics/how-embassies-and-consulates-function",
-   "count": 3
-  },
-  {
-   "key": "general-awareness-basics/international-days-and-their-origins-un-designated-days",
    "count": 3
   },
   {

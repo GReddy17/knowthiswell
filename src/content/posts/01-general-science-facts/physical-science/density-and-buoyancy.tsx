@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -29,7 +29,7 @@ export const metadata: PostFrontmatter = {
     "physical science",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-25",
   lastReviewed: "2026-08-16",
   excerpt: "Why a massive steel ship floats but a small steel bolt sinks, and how Archimedes' principle explains buoyant force with real numbers.",
   summary: "An object floats when it's less dense than the fluid it's in, and sinks when it's more dense — buoyant force depends on the volume of fluid displaced, not the object's weight alone.",
@@ -60,6 +60,15 @@ export const metadata: PostFrontmatter = {
   youtubeScheduledAt: "2026-09-19T16:00:00Z",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is density?", "difficulty": "easy", "options": [{"text": "Mass divided by volume", "correct": true, "explanation": "Written as rho = m / V."}, {"text": "Weight multiplied by height", "correct": false, "explanation": "That's not a density formula."}, {"text": "How deep an object sinks", "correct": false, "explanation": "Sinking depth depends on density, but isn't its definition."}]},
+  {"question": "A 60 g wooden block has a volume of 100 cubic centimeters. Will it float in water?", "difficulty": "easy", "options": [{"text": "Yes, its density is 0.6 g/cm3, less than water's 1.0", "correct": true, "explanation": "Less dense than water means it floats."}, {"text": "No, anything over 50 g sinks", "correct": false, "explanation": "Mass alone doesn't decide floating."}, {"text": "No, wood always sinks", "correct": false, "explanation": "Most wood floats because it's less dense than water."}]},
+  {"question": "What does Archimedes' principle say?", "difficulty": "medium", "options": [{"text": "The buoyant force equals the weight of the fluid the object displaces", "correct": true, "explanation": "More displaced fluid means more upward push."}, {"text": "Heavy objects always sink", "correct": false, "explanation": "Floating depends on density, not weight."}, {"text": "Buoyant force depends only on depth", "correct": false, "explanation": "Depth isn't what sets the buoyant force."}]},
+  {"question": "Solid steel has a density of about 7.8 g/cm3. Why can a steel ship still float?", "difficulty": "medium", "options": [{"text": "Its hollow, air-filled hull brings its average density below water's", "correct": true, "explanation": "The whole ship, air included, is less dense than water."}, {"text": "Ship steel is a special light metal", "correct": false, "explanation": "It's ordinary steel; shape is what matters."}, {"text": "Salt water holds up any object", "correct": false, "explanation": "Salt water is only slightly denser than fresh water."}]},
+  {"question": "How does a submarine dive?", "difficulty": "medium", "options": [{"text": "It floods its ballast tanks with seawater to raise its average density", "correct": true, "explanation": "Pushing the water back out with compressed air lets it rise again."}, {"text": "It turns off its engines", "correct": false, "explanation": "Engines don't control buoyancy."}, {"text": "It becomes lighter", "correct": false, "explanation": "Diving means increasing average density, not reducing it."}]},
+  {"question": "Why does a floating wooden block with density 0.6 g/cm3 sit about 60% underwater?", "difficulty": "hard", "options": [{"text": "It sinks until the water it displaces weighs as much as the block itself", "correct": true, "explanation": "60% of its volume in water displaces water equal to its mass."}, {"text": "Water pulls 60% of anything down", "correct": false, "explanation": "There's no such force."}, {"text": "Wood absorbs exactly 60% water", "correct": false, "explanation": "Absorption isn't why; displacement is."}]},
+];
 
 export default function Post() {
   return (

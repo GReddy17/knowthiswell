@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "business-entrepreneurship-basics/what-working-capital-actually-means-for-a-business",
     "personal-finance-basics/understanding-loans-principal-interest-and-terms",
     "personal-finance-basics/what-a-credit-score-actually-measures",
+    "business-entrepreneurship-basics/what-an-llc-actually-protects-you-from",
   ],
   glossary: [
     { term: "SBA guarantee", definition: "A commitment from the U.S. Small Business Administration to repay a lender a set percentage of a loan if the borrower defaults — it reduces the lender's risk, but the lender still makes and services the loan with its own money." },

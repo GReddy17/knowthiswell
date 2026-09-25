@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
     "economics/how-inflation-actually-erodes-purchasing-power",
     "economics/what-fiscal-policy-actually-means-vs-monetary-policy",
     "general-awareness-basics/how-taxes-fund-public-services-conceptual-overview",
+    "economics/what-supply-and-demand-actually-predicts",
   ],
   glossary: [
     { term: "Final goods and services", definition: "Products sold to their end user, counted once in GDP to avoid double-counting the raw materials or components used to make them." },

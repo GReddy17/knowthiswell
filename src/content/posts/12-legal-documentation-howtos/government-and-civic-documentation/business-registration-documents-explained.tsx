@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "legal-documentation-howtos/understanding-permits-and-licenses-general-categories",
     "legal-documentation-howtos/understanding-tax-filing-documents-forms-overview",
     "legal-documentation-howtos/how-to-read-a-government-form-general-literacy",
+    "business-entrepreneurship-basics/what-an-llc-actually-protects-you-from",
   ],
   glossary: [
     {"term":"Employer Identification Number (EIN)","definition":"A federal tax ID number issued by the IRS to a business, used for tax filing, opening business bank accounts, and hiring employees, functioning similarly to a Social Security number for a business entity."},

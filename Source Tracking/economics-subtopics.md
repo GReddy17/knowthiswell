@@ -61,8 +61,8 @@ Folder: `the-bigger-economic-picture/`
 |---|---|---|
 | 1 | `how-inflation-actually-erodes-purchasing-power` | done (2026-09-20) |
 | 2 | `what-gdp-actually-measures` | done (2026-09-21) |
-| 3 | `how-interest-rates-actually-get-set` | not started |
-| 4 | `what-supply-and-demand-actually-predicts` | not started |
+| 3 | `how-interest-rates-actually-get-set` | done — live on main |
+| 4 | `what-supply-and-demand-actually-predicts` | done — live on main |
 | 5 | `how-a-recession-actually-gets-defined` | not started |
 | 6 | `what-the-federal-reserve-actually-does` | not started |
 | 7 | `how-tariffs-actually-affect-prices` | not started |

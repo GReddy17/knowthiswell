@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "government-schemes-benefits/how-unemployment-benefits-actually-get-calculated",
     "government-schemes-benefits/how-to-actually-renew-a-passport-or-national-id",
     "legal-documentation-howtos/how-to-read-a-government-form-general-literacy",
+    "government-schemes-benefits/what-tax-credits-actually-differ-from-tax-deductions",
   ],
   glossary: [
     { term: "Categorical eligibility", definition: "A route to qualifying for a program based on belonging to a defined group (such as receiving another specific benefit, being over a certain age, or having a qualifying disability), rather than purely on income and household size." },

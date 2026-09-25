@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/what-active-listening-actually-looks-like",
     "career-study-skills/how-to-write-an-effective-professional-email",
     "career-study-skills/how-note-taking-methods-actually-differ",
+    "professional-skills-certifications/how-agile-and-scrum-actually-differ",
   ],
   glossary: [
     { term: "Agenda", definition: "A planned list of topics, owners, and time allocations for a meeting, ideally distributed before it starts so participants can prepare." },

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "global-institutions-and-bodies",
   tags: ["Nobel Prize", "Nobel Committee", "awards", "science prizes", "civics"],
   date: "2026-08-21",
-  updated: "2026-08-21",
+  updated: "2026-09-25",
   lastReviewed: "2026-08-21",
   excerpt: "The Nobel Prize isn't one award decided by one committee — it's six separate prizes, run by different institutions, each with its own nomination and selection process.",
   summary: "The Nobel Prizes are six separate annual awards — Physics, Chemistry, Physiology or Medicine, Literature, Peace, and the related Economic Sciences prize — each administered by a different Swedish or Norwegian institution, selected through a confidential nomination process that runs roughly a year before the prize is announced.",
@@ -50,6 +50,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "How many Nobel Prize categories are there today?", "difficulty": "easy", "options": [{"text": "Six", "correct": true, "explanation": "Physics, Chemistry, Physiology or Medicine, Literature, Peace, and Economic Sciences."}, {"text": "Five", "correct": false, "explanation": "Five were in Nobel's will; Economic Sciences was added in 1968."}, {"text": "Ten", "correct": false, "explanation": "There are six."}]},
+  {"question": "Which country's committee chooses the Nobel Peace Prize?", "difficulty": "easy", "options": [{"text": "Norway", "correct": true, "explanation": "The Norwegian Nobel Committee, appointed by Norway's parliament, decides it."}, {"text": "Sweden", "correct": false, "explanation": "Sweden handles the other five prizes."}, {"text": "Switzerland", "correct": false, "explanation": "No Swiss body awards a Nobel Prize."}]},
+  {"question": "In what year was Alfred Nobel's will, which created the prizes, written?", "difficulty": "medium", "options": [{"text": "1895", "correct": true, "explanation": "The will funded prizes in five fields."}, {"text": "1968", "correct": false, "explanation": "That's when the Economic Sciences prize was created."}, {"text": "1901", "correct": false, "explanation": "That's when the first prizes were awarded, not when the will was written."}]},
+  {"question": "Which institution awards the Physiology or Medicine prize?", "difficulty": "medium", "options": [{"text": "The Karolinska Institute", "correct": true, "explanation": "The other prizes use different institutions."}, {"text": "The Swedish Academy", "correct": false, "explanation": "That body awards the Literature prize."}, {"text": "The Norwegian Nobel Committee", "correct": false, "explanation": "That committee awards the Peace Prize."}]},
+  {"question": "What is the maximum number of people who can share a single Nobel Prize?", "difficulty": "medium", "options": [{"text": "Three", "correct": true, "explanation": "When a prize is shared, the money is divided among the laureates."}, {"text": "Two", "correct": false, "explanation": "Up to three people can share one prize."}, {"text": "Unlimited", "correct": false, "explanation": "The rules cap it at three people."}]},
+  {"question": "Why isn't the Economic Sciences prize technically one of the original Nobel Prizes?", "difficulty": "hard", "options": [{"text": "Sweden's central bank created it in 1968, in Nobel's memory; it wasn't in his will", "correct": true, "explanation": "Its formal name is the Sveriges Riksbank Prize in Economic Sciences."}, {"text": "It's awarded by the United Nations", "correct": false, "explanation": "It's awarded by the Royal Swedish Academy of Sciences."}, {"text": "Nobel removed it from his will", "correct": false, "explanation": "It was never in the will to begin with."}]},
+];
 
 export default function Post() {
   return (

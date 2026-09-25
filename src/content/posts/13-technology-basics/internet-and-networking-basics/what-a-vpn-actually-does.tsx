@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/http-vs-https-explained",
     "technology-basics/what-is-an-ip-address",
     "technology-basics/latency-explained-why-fast-internet-can-feel-slow",
+    "digital-safety-privacy/what-a-vpn-actually-protects-you-from",
   ],
   glossary: [
     { term: "VPN (virtual private network)", definition: "A service that routes your internet traffic through an encrypted tunnel to an intermediary server, hiding the traffic's contents and original IP address from anyone between you and that server." },

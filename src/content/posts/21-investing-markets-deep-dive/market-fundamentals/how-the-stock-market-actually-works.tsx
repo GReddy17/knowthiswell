@@ -33,6 +33,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "investing-markets-deep-dive/what-a-mutual-fund-actually-is",
     "investing-markets-deep-dive/stocks-vs-bonds-what-actually-differs",
+    "investing-markets-deep-dive/how-dividend-investing-actually-works",
   ],
   glossary: [
     { term: "Share", definition: "A single unit of ownership in a company — owning shares means owning a small fractional piece of that company, including a claim on its future profits." },

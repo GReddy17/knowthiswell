@@ -61,8 +61,8 @@ Folder: `growing-and-protecting-the-business/`
 |---|---|---|
 | 1 | `how-to-actually-validate-a-business-idea-before-building-it` | done (2026-09-20) |
 | 2 | `what-a-business-plan-actually-needs-to-include` | done (2026-09-21) |
-| 3 | `how-small-business-loans-actually-work` | not started |
-| 4 | `what-an-llc-actually-protects-you-from` | not started |
+| 3 | `how-small-business-loans-actually-work` | done — live on main |
+| 4 | `what-an-llc-actually-protects-you-from` | done — live on main |
 | 5 | `how-to-actually-price-a-product-or-service` | not started |
 | 6 | `what-cash-flow-actually-means-for-a-small-business` | not started |
 | 7 | `how-to-actually-find-your-first-customers` | not started |

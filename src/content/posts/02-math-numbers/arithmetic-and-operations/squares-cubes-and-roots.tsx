@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
     "radical",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-25",
   lastReviewed: "2026-08-16",
   excerpt: "Squares, cubes, square roots, and cube roots explained with real numbers, including why cube roots work for negatives and square roots don't.",
   summary: "Squaring multiplies a number by itself once, cubing multiplies it by itself twice more, and square/cube roots reverse those operations exactly — except for one genuine asymmetry with negative numbers.",
@@ -62,6 +62,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is 7 squared?", "difficulty": "easy", "options": [{"text": "49", "correct": true, "explanation": "7 x 7 = 49."}, {"text": "14", "correct": false, "explanation": "That's 7 doubled, not squared."}, {"text": "343", "correct": false, "explanation": "That's 7 cubed."}]},
+  {"question": "What is 4 cubed?", "difficulty": "easy", "options": [{"text": "64", "correct": true, "explanation": "4 x 4 x 4 = 64."}, {"text": "12", "correct": false, "explanation": "That's 4 x 3."}, {"text": "16", "correct": false, "explanation": "That's 4 squared."}]},
+  {"question": "What is the square root of 144?", "difficulty": "easy", "options": [{"text": "12", "correct": true, "explanation": "12 x 12 = 144."}, {"text": "72", "correct": false, "explanation": "That's 144 divided by 2."}, {"text": "14", "correct": false, "explanation": "14 x 14 = 196."}]},
+  {"question": "Why does the square root of -9 have no real-number answer?", "difficulty": "medium", "options": [{"text": "Any real number squared is zero or positive, so nothing squares to -9", "correct": true, "explanation": "A negative times a negative is positive."}, {"text": "Because 9 is odd", "correct": false, "explanation": "Oddness isn't the reason."}, {"text": "It does: the answer is -3", "correct": false, "explanation": "(-3) x (-3) = +9, not -9."}]},
+  {"question": "Is the square root of 9 + 16 the same as the square root of 9 plus the square root of 16?", "difficulty": "medium", "options": [{"text": "No: the first is 5, the second is 7", "correct": true, "explanation": "Square roots don't split across addition."}, {"text": "Yes, both equal 7", "correct": false, "explanation": "The square root of 25 is 5."}, {"text": "Yes, both equal 5", "correct": false, "explanation": "The square root of 9 plus the square root of 16 is 3 + 4 = 7."}]},
+  {"question": "A square patio has an area of 225 square feet. How long is each side?", "difficulty": "hard", "options": [{"text": "15 feet", "correct": true, "explanation": "The side is the square root of the area: 15 x 15 = 225."}, {"text": "112.5 feet", "correct": false, "explanation": "That's half the area, not its square root."}, {"text": "56.25 feet", "correct": false, "explanation": "That divides the area by 4, which isn't how sides relate to area."}]},
+];
 
 export default function Post() {
   return (

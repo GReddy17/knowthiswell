@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-a-firewall-actually-blocks",
     "technology-basics/what-a-data-breach-actually-means-for-you",
     "technology-basics/phishing-explained",
+    "digital-safety-privacy/what-a-vpn-actually-protects-you-from",
   ],
   glossary: [
     { term: "Packet sniffing", definition: "Capturing and reading network traffic passing over a shared network, possible in practice against unencrypted traffic on a network an attacker also has access to." },

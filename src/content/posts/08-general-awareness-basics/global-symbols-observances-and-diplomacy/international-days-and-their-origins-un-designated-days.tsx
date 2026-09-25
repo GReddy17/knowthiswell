@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "global-symbols-observances-and-diplomacy",
   tags: ["international days", "united nations", "world observances", "civic literacy", "global awareness"],
   date: "2026-08-21",
-  updated: "2026-08-21",
+  updated: "2026-09-25",
   lastReviewed: "2026-08-21",
   excerpt: "World Water Day, International Women's Day, World Health Day — every UN-designated international day exists because a specific UN body formally adopted a resolution creating it, usually to spotlight one measurable global problem.",
   summary: "A UN-designated international day is a specific date formally adopted by resolution — typically of the UN General Assembly or a specialized agency — created to focus sustained global attention and reporting on one particular issue, not just a symbolic calendar entry.",
@@ -48,6 +48,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Which UN body creates most international days?", "difficulty": "easy", "options": [{"text": "The UN General Assembly, by resolution", "correct": true, "explanation": "Most days trace to a numbered General Assembly resolution."}, {"text": "The UN Security Council", "correct": false, "explanation": "The Security Council handles peace and security, not observance days."}, {"text": "The International Court of Justice", "correct": false, "explanation": "The court settles disputes between states; it doesn't create days."}]},
+  {"question": "When is World Water Day?", "difficulty": "easy", "options": [{"text": "March 22", "correct": true, "explanation": "It was set by General Assembly resolution A/RES/47/193 in 1992."}, {"text": "April 7", "correct": false, "explanation": "That's World Health Day."}, {"text": "March 8", "correct": false, "explanation": "That's International Women's Day."}]},
+  {"question": "Which of these is NOT a UN-designated international day?", "difficulty": "easy", "options": [{"text": "Valentine's Day", "correct": true, "explanation": "It's a cultural and commercial observance with no UN resolution behind it."}, {"text": "World Water Day", "correct": false, "explanation": "That one comes from a 1992 General Assembly resolution."}, {"text": "World Health Day", "correct": false, "explanation": "That one is designated by WHO's governing body."}]},
+  {"question": "Why is World Health Day on April 7?", "difficulty": "medium", "options": [{"text": "It marks WHO's founding date in 1948", "correct": true, "explanation": "The World Health Assembly chose its own founding anniversary."}, {"text": "It was chosen by public vote", "correct": false, "explanation": "International days are set by resolutions or agency decisions, not public votes."}, {"text": "It's the date of the first vaccine", "correct": false, "explanation": "The date commemorates WHO's founding, not a vaccine."}]},
+  {"question": "About how many international days does the UN officially recognize?", "difficulty": "medium", "options": [{"text": "Well over 100, and the list keeps growing", "correct": true, "explanation": "New days are added as member states and agencies pass new resolutions."}, {"text": "Exactly 12, one per month", "correct": false, "explanation": "The list is far longer and not tied to months."}, {"text": "Fewer than 10", "correct": false, "explanation": "There are many more than that."}]},
+  {"question": "What does International Day for Disaster Risk Reduction (October 13) show about how international days work?", "difficulty": "hard", "options": [{"text": "Days are often anchored to real reporting, like progress reports governments use to benchmark policy", "correct": true, "explanation": "The UN Office for Disaster Risk Reduction uses the day to coordinate reporting on the Sendai Framework."}, {"text": "They are purely symbolic dates with no follow-up", "correct": false, "explanation": "Many days are tied to reports, themes, and coordinating bodies."}, {"text": "Only the General Assembly can use days for reporting", "correct": false, "explanation": "Agencies coordinate the reporting for many days."}]},
+];
 
 export default function Post() {
   return (

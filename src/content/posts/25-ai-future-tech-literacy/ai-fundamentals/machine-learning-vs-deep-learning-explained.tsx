@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "ai-future-tech-literacy/how-large-language-models-actually-work",
     "technology-basics/how-machine-learning-actually-works",
     "technology-basics/what-algorithm-actually-means",
+    "ai-future-tech-literacy/what-a-neural-network-actually-does",
   ],
   glossary: [
     { term: "Machine learning", definition: "A branch of artificial intelligence where a system improves its performance on a task by learning patterns from data, rather than following only rules a person wrote in advance." },

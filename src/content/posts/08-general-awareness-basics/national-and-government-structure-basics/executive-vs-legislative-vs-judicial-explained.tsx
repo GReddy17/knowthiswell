@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "national-and-government-structure-basics",
   tags: ["executive branch", "legislative branch", "judicial branch", "civics", "government structure"],
   date: "2026-08-21",
-  updated: "2026-08-21",
+  updated: "2026-09-25",
   lastReviewed: "2026-08-21",
   excerpt: "The three branches differ in what they actually do day to day, how their members get their jobs, and how long those jobs last — not just in name.",
   summary: "The executive, legislative, and judicial branches differ across three concrete dimensions — what function they perform (enforcing, writing, or interpreting law), how their members are selected (election, appointment, or nomination-plus-confirmation), and how long those members typically serve.",
@@ -50,6 +50,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Which branch of government writes laws?", "difficulty": "easy", "options": [{"text": "The legislative branch", "correct": true, "explanation": "Parliaments and congresses debate and pass bills."}, {"text": "The executive branch", "correct": false, "explanation": "The executive carries laws out."}, {"text": "The judicial branch", "correct": false, "explanation": "Courts interpret laws and resolve disputes."}]},
+  {"question": "Which branch interprets laws and settles disputes about them?", "difficulty": "easy", "options": [{"text": "The judicial branch", "correct": true, "explanation": "Courts decide what a law means and whether it was applied correctly."}, {"text": "The legislative branch", "correct": false, "explanation": "Legislatures write laws; they don't rule on disputes."}, {"text": "The executive branch", "correct": false, "explanation": "The executive enforces laws."}]},
+  {"question": "In most democracies, how do judges usually get their jobs?", "difficulty": "easy", "options": [{"text": "They are nominated and then confirmed, not directly elected", "correct": true, "explanation": "Direct election of judges is the global exception, not the norm."}, {"text": "They are directly elected every two years", "correct": false, "explanation": "That's closer to how many legislators are chosen."}, {"text": "They inherit the position", "correct": false, "explanation": "Judicial posts aren't hereditary in democracies."}]},
+  {"question": "Which branch usually has the most employees?", "difficulty": "medium", "options": [{"text": "The executive branch", "correct": true, "explanation": "It includes agencies and a large civil service, not just the elected head."}, {"text": "The judicial branch", "correct": false, "explanation": "The judiciary is usually the smallest branch."}, {"text": "The legislative branch", "correct": false, "explanation": "Legislatures have many elected members, but far fewer employees than the executive."}]},
+  {"question": "In a parliamentary system, how is the prime minister usually connected to the legislature?", "difficulty": "medium", "options": [{"text": "The prime minister is a sitting member of the legislature, chosen by fellow legislators", "correct": true, "explanation": "That's a tighter link between executive and legislature than in a presidential system."}, {"text": "The prime minister is barred from the legislature", "correct": false, "explanation": "That describes a US-style president, not a prime minister."}, {"text": "The prime minister is appointed by the courts", "correct": false, "explanation": "Courts don't choose prime ministers."}]},
+  {"question": "Why do judges often get long terms or life appointments?", "difficulty": "medium", "options": [{"text": "To insulate their rulings from short-term political pressure", "correct": true, "explanation": "A judge who doesn't face frequent re-election can follow the law over public mood."}, {"text": "Because judging takes decades to learn", "correct": false, "explanation": "Training isn't the reason for the term length."}, {"text": "To save money on elections", "correct": false, "explanation": "Cost isn't the design reason."}]},
+  {"question": "A legislature passes an environmental law, an agency fines a company under it, and the company challenges the fine in court. How many branches were involved?", "difficulty": "hard", "options": [{"text": "All three: legislative, executive, and judicial", "correct": true, "explanation": "Writing, enforcing, and interpreting a law are three separate jobs."}, {"text": "Only the legislative branch", "correct": false, "explanation": "The agency and the court belong to other branches."}, {"text": "Only the executive and legislative branches", "correct": false, "explanation": "The court challenge brings in the judiciary."}]},
+];
 
 export default function Post() {
   return (

@@ -234,6 +234,30 @@ day (roadmap.md's Log section didn't either) — a real logging gap, not
 just a schedule miss; noted so it isn't silently repeated. **Row 3 below
 still had not shipped as of end of day 2026-09-22.**
 
+**Day 3 — shipped 2026-09-23** (`main@9bb4395`), row 3 below, finished
+manually after a stalled content agent (see `roadmap.md` Log).
+
+**2026-09-24 — no content shipped.** The 7pm orchestrator run hung at
+startup and was killed by the watchdog twice (exit 125). Per the
+orchestrator's pace rule the missed row is not doubled up; the round just
+runs one day later.
+
+**Day 4 — shipped 2026-09-25** (7pm orchestrator run), row 4 below, one
+post per category, titles matching the row exactly. Hand-authored SVG
+diagrams, institutional sources (Google MLCC/Stanford CS231n/MIT, FTC/EFF/
+NIST, SEC Investor.gov/IRS, SBA/IRS/Cornell LII, Agile Manifesto/Scrum
+Guide, APA/Nickerson 1998/Lord-Ross-Lepper 1979, Purdue OWL/plainlanguage
+.gov, IRS, OpenStax, AHA/MedlinePlus/Harvard Health), 10-question quiz bank
+on each. 21 older posts got an inbound `seeAlso` link to one of today's
+posts. Course mapping checked for all 10: the LLC post was added to the
+Electrician course (self-employed paperwork section); none of the others
+had a genuine fit.
+
+**Schedule slip, noted so the checkpoint isn't misread:** with Sep 24
+missed, row N now lands on 2026-09-21 + N (row 5 = Sep 26, row 10 = Oct 1).
+Checkpoint 1 is tied to *row 10*, so it moves from 2026-09-29 to
+2026-10-01; checkpoint 2 and the end-of-round dates slip by the same 2 days.
+
 | # | ai-future-tech-literacy | digital-safety-privacy | investing-markets-deep-dive | business-entrepreneurship-basics | professional-skills-certifications | psychology-human-behavior | life-skills-etiquette | government-schemes-benefits | economics | health-wellness-deep-dive |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | How AI Actually Differs From Traditional Software — **Short pick** | How Antivirus Software Actually Detects Threats | What a Brokerage Account Actually Is | What Working Capital Actually Means for a Business | What a Certificate Actually Differs From a Certification | How Cognitive Load Actually Affects Decision-Making | How to Actually Build Rapport Quickly | How to Actually Renew a Passport or National ID | What Fiscal Policy Actually Means vs. Monetary Policy | How the Lymphatic System Actually Works |

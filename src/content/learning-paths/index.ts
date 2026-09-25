@@ -60,6 +60,7 @@ export const LEARNING_PATHS: LearningPath[] = [
       { category: 'units-measurement-conversions', slug: 'watts-kilowatts-and-reading-an-electricity-bill' },
       { category: 'legal-documentation-howtos', slug: 'understanding-permits-and-licenses-general-categories' },
       { category: 'legal-documentation-howtos', slug: 'business-registration-documents-explained' },
+      { category: 'business-entrepreneurship-basics', slug: 'what-an-llc-actually-protects-you-from' },
       { category: 'legal-documentation-howtos', slug: 'what-makes-a-contract-legally-binding' },
       { category: 'legal-documentation-howtos', slug: 'freelance-and-service-contracts-explained' },
       { category: 'legal-documentation-howtos', slug: 'understanding-warranties-and-guarantees' },

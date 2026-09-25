@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/how-email-actually-gets-delivered",
     "technology-basics/end-to-end-encryption-explained",
     "technology-basics/what-happens-when-you-block-someone",
+    "life-skills-etiquette/what-professional-email-etiquette-actually-requires",
   ],
   glossary: [
     { term: "Cc (carbon copy)", definition: "A way of adding a recipient to an email whose address is written into a header block that gets copied into every recipient's version of the message, so everyone can see who else received it this way." },

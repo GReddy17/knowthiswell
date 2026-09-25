@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "investing-markets-deep-dive/what-a-brokerage-account-actually-is",
     "investing-markets-deep-dive/what-a-mutual-fund-actually-is",
     "personal-finance-basics/understanding-loans-principal-interest-and-terms",
+    "investing-markets-deep-dive/how-dividend-investing-actually-works",
   ],
   glossary: [
     { term: "Stock (equity)", definition: "A security representing a fractional ownership claim in a company, whose return depends on the company's performance — through price changes and, sometimes, dividends — with no guaranteed payment." },

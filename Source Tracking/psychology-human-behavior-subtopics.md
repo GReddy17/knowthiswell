@@ -61,8 +61,8 @@ Folder: `deeper-patterns-in-human-behavior/`
 |---|---|---|
 | 1 | `how-memory-actually-forms-and-fades` | done (2026-09-20) |
 | 2 | `what-cognitive-dissonance-actually-feels-like` | done (2026-09-21) |
-| 3 | `how-habits-actually-get-built-in-the-brain` | not started |
-| 4 | `what-confirmation-bias-actually-does-to-decision-making` | not started |
+| 3 | `how-habits-actually-get-built-in-the-brain` | done — live on main |
+| 4 | `what-confirmation-bias-actually-does-to-decision-making` | done — live on main |
 | 5 | `how-social-proof-actually-influences-behavior` | not started |
 | 6 | `what-the-placebo-effect-actually-reveals-about-the-mind` | not started |
 | 7 | `how-procrastination-actually-works-in-the-brain` | not started |

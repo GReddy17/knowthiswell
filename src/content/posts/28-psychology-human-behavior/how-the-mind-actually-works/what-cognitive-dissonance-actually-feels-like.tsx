@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
     "psychology-human-behavior/how-memory-actually-forms-and-fades",
     "psychology-human-behavior/how-cognitive-load-actually-affects-decision-making",
     "career-study-skills/how-procrastination-actually-works",
+    "psychology-human-behavior/what-confirmation-bias-actually-does-to-decision-making",
   ],
   glossary: [
     { term: "Cognition", definition: "A mental process such as a belief, attitude, or piece of knowledge — cognitive dissonance specifically concerns conflict between two or more cognitions." },
