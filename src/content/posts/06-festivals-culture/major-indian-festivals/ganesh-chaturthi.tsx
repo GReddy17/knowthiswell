@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-indian-festivals",
   tags: ["ganesh chaturthi", "hindu festivals", "ganesha", "maharashtra"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Ganesh Chaturthi celebrates the birth of the elephant-headed god Ganesha, marked by installing and later immersing clay idols over 1 to 11 days.",
   summary: "Ganesh Chaturthi honors the birth of Ganesha, the remover of obstacles, with clay idols installed in homes and public pandals and ceremonially immersed in water at the festival's end.",
@@ -50,6 +50,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does Ganesh Chaturthi celebrate?", "difficulty": "easy", "options": [{"text": "The birth of Ganesha", "correct": true, "explanation": "Ganesha is the elephant-headed god of wisdom and new beginnings."}, {"text": "The harvest", "correct": false, "explanation": "It celebrates Ganesha's birth."}, {"text": "The new year", "correct": false, "explanation": "It centers on Ganesha."}]},
+  {"question": "Ganesha is the god of what?", "difficulty": "easy", "options": [{"text": "Wisdom and new beginnings", "correct": true, "explanation": "He's often invoked before starting something new."}, {"text": "The sea", "correct": false, "explanation": "That's not Ganesha's role."}, {"text": "War", "correct": false, "explanation": "Ganesha is associated with wisdom and new beginnings."}]},
+  {"question": "What is visarjan?", "difficulty": "easy", "options": [{"text": "The ceremonial immersion of the Ganesha idol in water", "correct": true, "explanation": "It traditionally concludes the festival."}, {"text": "A festive meal", "correct": false, "explanation": "Visarjan is the immersion ceremony."}, {"text": "The first day of the festival", "correct": false, "explanation": "It comes at the end."}]},
+  {"question": "How long can the festival last?", "difficulty": "medium", "options": [{"text": "Anywhere from 1 to 11 days", "correct": true, "explanation": "Families and communities choose the duration."}, {"text": "Exactly 40 days", "correct": false, "explanation": "It lasts 1 to 11 days."}, {"text": "Only a few hours", "correct": false, "explanation": "It can run for days."}]},
+  {"question": "Why is the idol traditionally made of clay?", "difficulty": "medium", "options": [{"text": "It's meant to dissolve, symbolizing creation and return to nature", "correct": true, "explanation": "Immersion, not permanent display, is the traditional ending."}, {"text": "Clay is the only material available", "correct": false, "explanation": "The choice is symbolic."}, {"text": "So it can be kept forever", "correct": false, "explanation": "It's meant to dissolve after immersion."}]},
+  {"question": "In which state is Ganesh Chaturthi especially prominent as a large public festival?", "difficulty": "medium", "options": [{"text": "Maharashtra", "correct": true, "explanation": "It became a mass public event there in the 1890s."}, {"text": "Kerala", "correct": false, "explanation": "Kerala is known for Onam."}, {"text": "Punjab", "correct": false, "explanation": "Maharashtra is most associated with public celebrations."}]},
+  {"question": "Who popularized public Ganesh Chaturthi celebrations in the 1890s?", "difficulty": "hard", "options": [{"text": "Bal Gangadhar Tilak", "correct": true, "explanation": "Public gatherings also offered a legal space to organize under British rule."}, {"text": "Mahatma Gandhi", "correct": false, "explanation": "The public festival is linked to Tilak."}, {"text": "Jawaharlal Nehru", "correct": false, "explanation": "It was Tilak, in the 1890s."}]},
+  {"question": "Why did public celebrations matter under British colonial restrictions?", "difficulty": "hard", "options": [{"text": "They created a legal gathering space where people could organize", "correct": true, "explanation": "Large public meetings were otherwise restricted."}, {"text": "The British required them", "correct": false, "explanation": "They were popularized by Indian leaders."}, {"text": "They replaced all home worship", "correct": false, "explanation": "Home observance continued alongside."}]},
+];
 
 export default function Post() {
   return (

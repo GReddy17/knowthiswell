@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "number-basics",
   tags: ["numbers", "natural numbers", "integers", "rational numbers", "irrational numbers", "real numbers"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Natural, whole, integer, rational, and irrational numbers explained as one nested system, with the exact rule that separates each category from the next.",
   summary: "Every number you'll ever use belongs to a small set of nested categories — natural numbers sit inside whole numbers, which sit inside integers, which sit inside rational numbers, all inside the real numbers, with irrationals filling the rest.",
@@ -54,6 +54,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What are the natural numbers?", "difficulty": "easy", "options": [{"text": "The counting numbers: 1, 2, 3 and so on", "correct": true, "explanation": "Adding zero gives the whole numbers."}, {"text": "All numbers on the number line", "correct": false, "explanation": "Those are the real numbers."}, {"text": "Only even numbers", "correct": false, "explanation": "Natural numbers include odds."}]},
+  {"question": "What do you add to whole numbers to get the integers?", "difficulty": "easy", "options": [{"text": "Negative whole numbers", "correct": true, "explanation": "Integers are ..., -2, -1, 0, 1, 2, ..."}, {"text": "Fractions", "correct": false, "explanation": "Fractions take you to rational numbers."}, {"text": "Zero", "correct": false, "explanation": "Zero is already a whole number."}]},
+  {"question": "Which of these is irrational?", "difficulty": "easy", "options": [{"text": "Pi", "correct": true, "explanation": "Its decimal never ends and never repeats."}, {"text": "1/3", "correct": false, "explanation": "It's a fraction of two integers."}, {"text": "-7", "correct": false, "explanation": "Integers are rational."}]},
+  {"question": "Is 0 a natural number, in the article's convention?", "difficulty": "medium", "options": [{"text": "No; adding 0 turns the naturals into the whole numbers", "correct": true, "explanation": "Some textbooks include it, but this system uses 0 to mark the step."}, {"text": "Yes, it's the first natural number", "correct": false, "explanation": "Here, 0 is what separates whole from natural."}, {"text": "0 isn't any kind of number", "correct": false, "explanation": "0 is a whole number and an integer."}]},
+  {"question": "What single test separates rational from irrational?", "difficulty": "medium", "options": [{"text": "Whether it can be written as a fraction of two integers", "correct": true, "explanation": "Not how long or messy its decimal looks."}, {"text": "Whether its decimal has more than 5 digits", "correct": false, "explanation": "Length alone isn't the test."}, {"text": "Whether it's positive", "correct": false, "explanation": "Sign doesn't matter."}]},
+  {"question": "What are the real numbers?", "difficulty": "medium", "options": [{"text": "Every rational and irrational number combined", "correct": true, "explanation": "Every point on the number line."}, {"text": "Only whole numbers", "correct": false, "explanation": "That's a small subset."}, {"text": "Numbers you can count with", "correct": false, "explanation": "That describes natural numbers."}]},
+  {"question": "Which statement about -5 is true?", "difficulty": "hard", "options": [{"text": "It's an integer, rational and real, but not whole or natural", "correct": true, "explanation": "Categories nest; negatives enter at the integers."}, {"text": "It's irrational because it's negative", "correct": false, "explanation": "-5 = -5/1, a fraction of integers."}, {"text": "It's only an integer", "correct": false, "explanation": "Every integer also sits in the bigger boxes."}]},
+  {"question": "Is the square root of 16 rational or irrational?", "difficulty": "hard", "options": [{"text": "Rational, because it equals 4", "correct": true, "explanation": "Only non-perfect-square roots like the square root of 2 are irrational."}, {"text": "Irrational, like all square roots", "correct": false, "explanation": "Perfect squares give whole-number roots."}, {"text": "Neither", "correct": false, "explanation": "Every real number is one or the other."}]},
+];
 
 export default function Post() {
   return (

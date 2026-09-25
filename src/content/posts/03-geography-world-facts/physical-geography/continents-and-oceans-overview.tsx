@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "physical-geography",
   tags: ["continents", "oceans", "physical geography", "plate tectonics"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "The seven continents and five oceans explained: how many there really are, why the count is debated, and how they got their shapes.",
   summary: "Earth's landmasses are conventionally divided into seven continents and its single connected ocean into five named regions — but both numbers are conventions, not laws of nature, and geologists define continents differently than geographers do.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How many continents are there in the model most commonly taught?", "difficulty": "easy", "options": [{"text": "Seven", "correct": true, "explanation": "It's a convention, not a fixed fact of nature."}, {"text": "Five", "correct": false, "explanation": "Five is the common count of named oceans."}, {"text": "Twelve", "correct": false, "explanation": "The common model has seven."}]},
+  {"question": "Which are the five named oceans?", "difficulty": "easy", "options": [{"text": "Pacific, Atlantic, Indian, Southern and Arctic", "correct": true, "explanation": "They're regions of one connected ocean."}, {"text": "Pacific, Atlantic, Mediterranean, Caribbean and Red", "correct": false, "explanation": "Several of those are seas, not oceans."}, {"text": "North, South, East, West and Central", "correct": false, "explanation": "Those aren't the ocean names."}]},
+  {"question": "Are Earth's oceans separate bodies of water?", "difficulty": "easy", "options": [{"text": "No, they're all one connected body divided by convention", "correct": true, "explanation": "The five names label regions of a single ocean."}, {"text": "Yes, fully separated by land", "correct": false, "explanation": "They connect to each other."}, {"text": "Only the Pacific is connected", "correct": false, "explanation": "All of them connect."}]},
+  {"question": "What separates the Southern Ocean from the others?", "difficulty": "medium", "options": [{"text": "An ocean current, rather than a coastline", "correct": true, "explanation": "Other oceans are divided mainly at continental coasts."}, {"text": "A wall of ice", "correct": false, "explanation": "Its boundary is defined by a current."}, {"text": "An underwater mountain range", "correct": false, "explanation": "The defining boundary is a current."}]},
+  {"question": "Why do some countries teach a model that merges Europe and Asia?", "difficulty": "medium", "options": [{"text": "They're one continuous landmass, often called Eurasia", "correct": true, "explanation": "The split between them is cultural and historical."}, {"text": "Europe is an island", "correct": false, "explanation": "Europe and Asia are joined by land."}, {"text": "Asia has no mountains", "correct": false, "explanation": "The reason is that they share one landmass."}]},
+  {"question": "Would geologists always draw continent lines the same way as schoolbooks?", "difficulty": "medium", "options": [{"text": "No, geologists studying crust might draw them differently", "correct": true, "explanation": "The seven-continent model is a cultural convention."}, {"text": "Yes, always", "correct": false, "explanation": "Different disciplines count differently."}, {"text": "Geologists don't study continents", "correct": false, "explanation": "They study continental crust in depth."}]},
+  {"question": "Are continents in fixed positions?", "difficulty": "hard", "options": [{"text": "No, they ride on tectonic plates that are still moving slowly today", "correct": true, "explanation": "Plates have rearranged Earth's surface for billions of years."}, {"text": "Yes, they've never moved", "correct": false, "explanation": "Plate tectonics moves them."}, {"text": "They move a few meters every day", "correct": false, "explanation": "They move far too slowly to notice day to day."}]},
+  {"question": "Why is the count of continents and oceans called a \"convention\"?", "difficulty": "hard", "options": [{"text": "The numbers are agreed-upon ways of dividing continuous land and water, not facts nature hands us", "correct": true, "explanation": "Other countries and disciplines count differently."}, {"text": "Because the count changes every year", "correct": false, "explanation": "It's about how we choose to divide, not yearly change."}, {"text": "Because nobody has counted them", "correct": false, "explanation": "They've been mapped in detail; the divisions are chosen."}]},
+];
 
 export default function Post() {
   return (

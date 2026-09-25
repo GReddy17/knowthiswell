@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-indian-festivals",
   tags: ["christmas", "christian festivals", "indian festivals", "global festivals"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Christmas marks the Christian celebration of Jesus Christ's birth on December 25, observed with distinct regional customs both across India and worldwide.",
   summary: "Christmas is the Christian festival commemorating the birth of Jesus Christ, observed on December 25 by most Western churches, with customs that vary widely both within India's diverse Christian communities and across the world.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does Christmas commemorate?", "difficulty": "easy", "options": [{"text": "The birth of Jesus Christ", "correct": true, "explanation": "It's a Christian festival."}, {"text": "The resurrection of Jesus", "correct": false, "explanation": "That's Easter."}, {"text": "The start of the harvest", "correct": false, "explanation": "Christmas marks Jesus's birth."}]},
+  {"question": "On what date do most churches celebrate Christmas?", "difficulty": "easy", "options": [{"text": "December 25", "correct": true, "explanation": "Some Orthodox churches mark it on January 7."}, {"text": "January 1", "correct": false, "explanation": "That's New Year's Day."}, {"text": "A different Sunday each year", "correct": false, "explanation": "Christmas has a fixed date in each calendar."}]},
+  {"question": "What is Advent?", "difficulty": "easy", "options": [{"text": "The four-week preparation period before Christmas", "correct": true, "explanation": "It leads up to Christmas Day."}, {"text": "The day after Christmas", "correct": false, "explanation": "Advent comes before Christmas."}, {"text": "A Christmas meal", "correct": false, "explanation": "It's a season of preparation."}]},
+  {"question": "What is a Nativity scene?", "difficulty": "medium", "options": [{"text": "A depiction of the birth of Jesus", "correct": true, "explanation": "It's a common Christmas display."}, {"text": "A New Year fireworks show", "correct": false, "explanation": "It depicts the birth story."}, {"text": "A type of Christmas tree", "correct": false, "explanation": "It's a scene of the birth, not a tree."}]},
+  {"question": "How are Christmas customs in India best described?", "difficulty": "medium", "options": [{"text": "They vary significantly by region and community", "correct": true, "explanation": "There isn't one single national pattern."}, {"text": "Identical everywhere in the country", "correct": false, "explanation": "Customs differ by region and community."}, {"text": "Christmas isn't observed in India", "correct": false, "explanation": "India has one of the oldest Christian populations."}]},
+  {"question": "Is Christmas in Indian cities celebrated only in churches?", "difficulty": "medium", "options": [{"text": "No, in many cities it's also a broader public and commercial season", "correct": true, "explanation": "Decorations and festivities often extend beyond churches."}, {"text": "Yes, only in churches", "correct": false, "explanation": "Many cities celebrate more widely."}, {"text": "It's only celebrated online", "correct": false, "explanation": "It's celebrated in person in homes, churches and cities."}]},
+  {"question": "Why do some Orthodox churches celebrate Christmas on January 7?", "difficulty": "hard", "options": [{"text": "They use the older Julian calendar, which runs about 13 days behind the Gregorian calendar", "correct": true, "explanation": "December 25 on the Julian calendar falls on January 7 Gregorian."}, {"text": "They believe it's a different event", "correct": false, "explanation": "It's the same feast on a different calendar."}, {"text": "It's a random tradition", "correct": false, "explanation": "The date comes from calendar differences."}]},
+  {"question": "India has one of the oldest Christian populations in the world. What does that mean for its Christmas traditions?", "difficulty": "hard", "options": [{"text": "Long-established local communities have developed their own regional customs", "correct": true, "explanation": "That's why practices differ across communities."}, {"text": "All customs were imported recently", "correct": false, "explanation": "Many traditions are long-established."}, {"text": "Christmas is identical to Western celebrations", "correct": false, "explanation": "Local communities have distinct practices."}]},
+];
 
 export default function Post() {
   return (

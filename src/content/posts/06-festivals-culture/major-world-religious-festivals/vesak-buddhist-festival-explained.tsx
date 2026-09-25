@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-world-religious-festivals",
   tags: ["vesak", "buddhist festivals", "religious festivals", "buddha day"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Vesak is the most important festival in the Buddhist calendar, commemorating the birth, enlightenment, and death of the Buddha on a single day.",
   summary: "Vesak, also called Buddha Day, is the most significant festival in the Buddhist calendar, commemorating three major events in the life of the Buddha — his birth, enlightenment, and death — traditionally observed as coinciding on the same full-moon day.",
@@ -51,6 +51,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which religion's most important festival is Vesak?", "difficulty": "easy", "options": [{"text": "Buddhism", "correct": true, "explanation": "It's sometimes called Buddha Day."}, {"text": "Hinduism", "correct": false, "explanation": "Vesak is Buddhist."}, {"text": "Judaism", "correct": false, "explanation": "Vesak is the principal Buddhist holy day."}]},
+  {"question": "When does Vesak usually fall?", "difficulty": "easy", "options": [{"text": "On the full moon in May", "correct": true, "explanation": "Exact dates vary by country and tradition."}, {"text": "In December", "correct": false, "explanation": "It's usually in May."}, {"text": "On January 1", "correct": false, "explanation": "It follows the lunar calendar, usually in May."}]},
+  {"question": "Which is a common way Buddhists mark Vesak?", "difficulty": "easy", "options": [{"text": "Temple visits, meditation, chanting and charity", "correct": true, "explanation": "Some also release caged animals as an act of compassion."}, {"text": "Throwing colored powder", "correct": false, "explanation": "That's Holi."}, {"text": "Lighting a menorah", "correct": false, "explanation": "That's Hanukkah."}]},
+  {"question": "What is sometimes released at Vesak as a symbolic act?", "difficulty": "medium", "options": [{"text": "Caged animals, as an act of compassion", "correct": true, "explanation": "It reflects Buddhist emphasis on compassion."}, {"text": "Paper boats", "correct": false, "explanation": "The practice described is releasing caged animals."}, {"text": "Fireworks", "correct": false, "explanation": "The symbolic act is releasing animals."}]},
+  {"question": "Since when has the United Nations recognized Vesak?", "difficulty": "medium", "options": [{"text": "1999", "correct": true, "explanation": "It's recognized internationally as Buddhism's principal holy day."}, {"text": "1945", "correct": false, "explanation": "UN recognition came in 1999."}, {"text": "2020", "correct": false, "explanation": "It was 1999."}]},
+  {"question": "What is another name for Vesak?", "difficulty": "medium", "options": [{"text": "Buddha Day", "correct": true, "explanation": "It commemorates key events in the Buddha's life."}, {"text": "Diwali", "correct": false, "explanation": "Diwali is a Hindu festival."}, {"text": "Onam", "correct": false, "explanation": "Onam is a Kerala harvest festival."}]},
+  {"question": "In Theravada tradition, which three events does Vesak commemorate together?", "difficulty": "hard", "options": [{"text": "The Buddha's birth, enlightenment and death (Parinirvana)", "correct": true, "explanation": "They're traditionally understood to have occurred on the same full-moon day."}, {"text": "Only the Buddha's birth", "correct": false, "explanation": "Theravada tradition marks all three."}, {"text": "The founding of the first monastery", "correct": false, "explanation": "It centers on the Buddha's life events."}]},
+  {"question": "Do all Buddhist traditions mark all three events on one day?", "difficulty": "hard", "options": [{"text": "No, some Mahayana and Vajrayana traditions mark them on different days", "correct": true, "explanation": "Practices and even dates vary by tradition and country."}, {"text": "Yes, every tradition does", "correct": false, "explanation": "Practice varies across traditions."}, {"text": "No tradition marks them at all", "correct": false, "explanation": "Theravada marks all three on Vesak."}]},
+];
 
 export default function Post() {
   return (

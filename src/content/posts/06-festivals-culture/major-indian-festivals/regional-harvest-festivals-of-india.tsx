@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-indian-festivals",
   tags: ["harvest festivals", "indian festivals", "pongal", "bihu", "baisakhi"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "India marks the same winter harvest season with a set of distinct regional festivals — Pongal, Makar Sankranti, Lohri, Bihu, and more — each with its own name and customs.",
   summary: "India's winter harvest season is marked not by a single national festival but by a cluster of regionally distinct celebrations — including Pongal, Makar Sankranti, Lohri, and Magh Bihu — that share a common astronomical timing while differing in name, customs, and regional meaning.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Does India mark its main winter harvest with one national festival?", "difficulty": "easy", "options": [{"text": "No, with a cluster of regional festivals around mid-January", "correct": true, "explanation": "Pongal, Makar Sankranti, Lohri and Magh Bihu are examples."}, {"text": "Yes, one festival with one name", "correct": false, "explanation": "Regions celebrate under different names."}, {"text": "India has no harvest festivals", "correct": false, "explanation": "It has many."}]},
+  {"question": "How does Punjab mark Lohri?", "difficulty": "easy", "options": [{"text": "With a bonfire the night before", "correct": true, "explanation": "Bonfires are Lohri's signature custom."}, {"text": "With boat races", "correct": false, "explanation": "That's associated with Onam."}, {"text": "With color-throwing", "correct": false, "explanation": "That's Holi."}]},
+  {"question": "Which activity is common at Makar Sankranti in much of North India?", "difficulty": "easy", "options": [{"text": "Kite-flying", "correct": true, "explanation": "Kites fill the sky in many regions."}, {"text": "Lighting a menorah", "correct": false, "explanation": "That's a Hanukkah custom."}, {"text": "Snake-boat races", "correct": false, "explanation": "Those belong to Onam in Kerala."}]},
+  {"question": "Which state celebrates Bihu?", "difficulty": "medium", "options": [{"text": "Assam", "correct": true, "explanation": "Magh Bihu marks the winter harvest there."}, {"text": "Tamil Nadu", "correct": false, "explanation": "Tamil Nadu celebrates Pongal."}, {"text": "Punjab", "correct": false, "explanation": "Punjab celebrates Lohri."}]},
+  {"question": "How is Pongal marked in Tamil Nadu?", "difficulty": "medium", "options": [{"text": "Rice cooked in new clay pots", "correct": true, "explanation": "The dish shares the festival's name."}, {"text": "Bonfires only", "correct": false, "explanation": "Bonfires are Lohri's signature."}, {"text": "Garba dancing", "correct": false, "explanation": "Garba is linked to Navratri in Gujarat."}]},
+  {"question": "What do these regional festivals share, despite different customs?", "difficulty": "medium", "options": [{"text": "The same winter harvest season and astronomical occasion", "correct": true, "explanation": "Each region built its own tradition around it."}, {"text": "Identical rituals everywhere", "correct": false, "explanation": "Customs differ sharply by region."}, {"text": "Nothing at all", "correct": false, "explanation": "They share the harvest timing."}]},
+  {"question": "What astronomical event ties these festivals together?", "difficulty": "hard", "options": [{"text": "The sun's move into Capricorn (Makara) and the start of its northward movement (Uttarayan)", "correct": true, "explanation": "That's why their dates are fixed on the solar calendar."}, {"text": "A lunar eclipse", "correct": false, "explanation": "They're tied to the sun's position."}, {"text": "The first full moon of the year", "correct": false, "explanation": "They're solar, not lunar."}]},
+  {"question": "Why do these festivals fall on nearly fixed Gregorian dates, unlike Diwali or Holi?", "difficulty": "hard", "options": [{"text": "They're calculated from the solar calendar rather than the lunar one", "correct": true, "explanation": "Diwali and Holi follow lunar phases and move around."}, {"text": "The government sets them each year", "correct": false, "explanation": "The dates come from astronomy."}, {"text": "They follow the Islamic calendar", "correct": false, "explanation": "They follow the solar calendar."}]},
+];
 
 export default function Post() {
   return (

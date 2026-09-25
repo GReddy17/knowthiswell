@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-indian-festivals",
   tags: ["onam", "kerala festivals", "harvest festivals", "indian festivals"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Onam is Kerala's ten-day harvest festival, marking the mythical King Mahabali's annual homecoming and celebrated across religions with flower carpets and feasts.",
   summary: "Onam is a ten-day harvest festival native to the Indian state of Kerala, built around the legend of King Mahabali's yearly return and celebrated widely across religious communities as a shared cultural event, not only a Hindu one.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which Indian state is Onam centered on?", "difficulty": "easy", "options": [{"text": "Kerala", "correct": true, "explanation": "It's Kerala's major harvest festival."}, {"text": "Gujarat", "correct": false, "explanation": "Gujarat is known for Navratri garba."}, {"text": "West Bengal", "correct": false, "explanation": "West Bengal is known for Durga Puja."}]},
+  {"question": "What kind of festival is Onam?", "difficulty": "easy", "options": [{"text": "A harvest festival", "correct": true, "explanation": "It celebrates the harvest and Mahabali's homecoming."}, {"text": "A winter solstice festival", "correct": false, "explanation": "It's a harvest festival in August or September."}, {"text": "A fasting month", "correct": false, "explanation": "It's known for its large feast."}]},
+  {"question": "What is a pookalam?", "difficulty": "easy", "options": [{"text": "A flower carpet laid out at the doorstep", "correct": true, "explanation": "It's one of Onam's signature customs."}, {"text": "A boat", "correct": false, "explanation": "Boats feature in the races; pookalam is a flower design."}, {"text": "A sweet", "correct": false, "explanation": "It's a flower arrangement."}]},
+  {"question": "What is the Onasadya?", "difficulty": "medium", "options": [{"text": "The large festive Onam feast", "correct": true, "explanation": "Families cook and share it together."}, {"text": "A dance", "correct": false, "explanation": "It's the feast."}, {"text": "A temple ritual only for priests", "correct": false, "explanation": "It's a household feast."}]},
+  {"question": "How long does Onam last?", "difficulty": "medium", "options": [{"text": "Ten days", "correct": true, "explanation": "The tenth day, Thiruvonam, is the main event."}, {"text": "One day", "correct": false, "explanation": "It's a ten-day festival."}, {"text": "A full month", "correct": false, "explanation": "It runs ten days."}]},
+  {"question": "Which sporting tradition is associated with Onam?", "difficulty": "medium", "options": [{"text": "Snake-boat races", "correct": true, "explanation": "They're a famous part of the celebrations."}, {"text": "Kite fighting", "correct": false, "explanation": "Kites are linked to Makar Sankranti in some regions."}, {"text": "Bull running", "correct": false, "explanation": "Snake-boat races are the Onam tradition."}]},
+  {"question": "Whose annual homecoming does Onam celebrate?", "difficulty": "hard", "options": [{"text": "The mythical King Mahabali, who ruled during a golden age", "correct": true, "explanation": "He's said to visit his former subjects once a year."}, {"text": "Lord Rama", "correct": false, "explanation": "Rama's return is linked to Diwali."}, {"text": "Ganesha", "correct": false, "explanation": "Ganesha is honored at Ganesh Chaturthi."}]},
+  {"question": "What makes Onam distinctive compared with many Hindu-linked festivals?", "difficulty": "hard", "options": [{"text": "It's celebrated across religious lines by Hindu, Christian and Muslim Malayali households", "correct": true, "explanation": "It functions as a broad Kerala cultural festival."}, {"text": "Only priests celebrate it", "correct": false, "explanation": "It's widely observed by families."}, {"text": "It's celebrated only outside India", "correct": false, "explanation": "Its center is Kerala."}]},
+];
 
 export default function Post() {
   return (

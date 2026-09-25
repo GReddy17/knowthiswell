@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-world-religious-festivals",
   tags: ["easter", "christian festivals", "religious festivals", "lent"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Easter is the Christian festival commemorating the resurrection of Jesus Christ, its date calculated each year from the lunar calendar rather than fixed.",
   summary: "Easter is the central festival of the Christian liturgical calendar, commemorating the resurrection of Jesus Christ three days after his crucifixion, with its date calculated annually from the lunar cycle rather than fixed on the Gregorian calendar.",
@@ -51,6 +51,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does Easter commemorate?", "difficulty": "easy", "options": [{"text": "The resurrection of Jesus Christ", "correct": true, "explanation": "It's the central festival of the Christian calendar."}, {"text": "The birth of Jesus", "correct": false, "explanation": "That's Christmas."}, {"text": "The harvest", "correct": false, "explanation": "Easter centers on the resurrection."}]},
+  {"question": "What is Lent?", "difficulty": "easy", "options": [{"text": "A 40-day period of fasting and reflection before Easter", "correct": true, "explanation": "It leads up to Holy Week and Easter."}, {"text": "The day after Easter", "correct": false, "explanation": "Lent comes before Easter."}, {"text": "A Christmas tradition", "correct": false, "explanation": "Lent is part of the Easter season."}]},
+  {"question": "Which day of the week is Easter always on?", "difficulty": "easy", "options": [{"text": "Sunday", "correct": true, "explanation": "Easter is observed on a Sunday in spring."}, {"text": "Friday", "correct": false, "explanation": "Good Friday comes two days earlier."}, {"text": "Any day", "correct": false, "explanation": "It's always a Sunday."}]},
+  {"question": "Which days are part of Holy Week?", "difficulty": "medium", "options": [{"text": "Palm Sunday, Maundy Thursday and Good Friday", "correct": true, "explanation": "Holy Week leads up to Easter Sunday."}, {"text": "Christmas Eve and Boxing Day", "correct": false, "explanation": "Those belong to Christmas."}, {"text": "New Year's Day", "correct": false, "explanation": "Holy Week precedes Easter."}]},
+  {"question": "In Christian teaching, when did the resurrection happen?", "difficulty": "medium", "options": [{"text": "Three days after the crucifixion", "correct": true, "explanation": "Easter Sunday marks this."}, {"text": "One year later", "correct": false, "explanation": "Tradition places it three days after."}, {"text": "The same day", "correct": false, "explanation": "It's understood as three days later."}]},
+  {"question": "Why does Easter's date move each year while Christmas doesn't?", "difficulty": "medium", "options": [{"text": "Easter is calculated from the lunar calendar; Christmas has a fixed date", "correct": true, "explanation": "Lunar timing shifts against the solar calendar."}, {"text": "Countries vote on it", "correct": false, "explanation": "It's calculated, not voted on."}, {"text": "It follows school holidays", "correct": false, "explanation": "It's based on moon and equinox timing."}]},
+  {"question": "How is the date of Easter calculated?", "difficulty": "hard", "options": [{"text": "The first Sunday after the first full moon following the spring equinox", "correct": true, "explanation": "That's why it moves between March and April."}, {"text": "The last Sunday of March", "correct": false, "explanation": "It depends on the full moon, not a fixed Sunday."}, {"text": "Exactly 100 days after Christmas", "correct": false, "explanation": "It's based on the moon and equinox."}]},
+  {"question": "Why do Western and Orthodox churches often celebrate Easter on different dates?", "difficulty": "hard", "options": [{"text": "They calculate it using different calendars, Gregorian versus Julian", "correct": true, "explanation": "The dates occasionally align, but often don't."}, {"text": "They disagree on what Easter celebrates", "correct": false, "explanation": "Both celebrate the resurrection."}, {"text": "Orthodox churches don't celebrate Easter", "correct": false, "explanation": "They do, often on a different date."}]},
+];
 
 export default function Post() {
   return (

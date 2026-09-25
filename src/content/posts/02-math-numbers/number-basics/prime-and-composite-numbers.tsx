@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "number-basics",
   tags: ["prime numbers", "composite numbers", "factors", "number theory"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Prime numbers have exactly two factors, composite numbers have more than two, and 1 is neither — the one-sentence rule that ends most of the confusion.",
   summary: "A prime number has exactly two whole-number factors — 1 and itself. A composite number has more than two. The number 1 is a special case that belongs to neither group.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How many factors does a prime number have?", "difficulty": "easy", "options": [{"text": "Exactly two: 1 and itself", "correct": true, "explanation": "No more, no fewer."}, {"text": "Exactly one", "correct": false, "explanation": "That's only true of 1, which isn't prime."}, {"text": "At least three", "correct": false, "explanation": "That describes composite numbers."}]},
+  {"question": "Which of these is prime?", "difficulty": "easy", "options": [{"text": "7", "correct": true, "explanation": "Only 1 x 7 makes it."}, {"text": "9", "correct": false, "explanation": "3 x 3 = 9."}, {"text": "15", "correct": false, "explanation": "3 x 5 = 15."}]},
+  {"question": "Why is 8 composite?", "difficulty": "easy", "options": [{"text": "It has factors besides 1 and itself, like 2 and 4", "correct": true, "explanation": "Any extra factor pair makes it composite."}, {"text": "Because it's even", "correct": false, "explanation": "2 is even and prime."}, {"text": "Because it's bigger than 7", "correct": false, "explanation": "Size doesn't decide it."}]},
+  {"question": "What is the only even prime number?", "difficulty": "medium", "options": [{"text": "2", "correct": true, "explanation": "Every other even number divides by 2."}, {"text": "4", "correct": false, "explanation": "2 x 2 = 4."}, {"text": "There isn't one", "correct": false, "explanation": "2 has exactly two factors."}]},
+  {"question": "What is the prime factorization of 12?", "difficulty": "medium", "options": [{"text": "2 x 2 x 3", "correct": true, "explanation": "All the factors are prime."}, {"text": "3 x 4", "correct": false, "explanation": "4 isn't prime; break it down."}, {"text": "2 x 6", "correct": false, "explanation": "6 isn't prime; break it down."}]},
+  {"question": "Is 51 prime?", "difficulty": "medium", "options": [{"text": "No, 3 x 17 = 51", "correct": true, "explanation": "Its digits add to 6, a hint that 3 divides it."}, {"text": "Yes", "correct": false, "explanation": "It looks prime but 3 divides it."}, {"text": "No, because it's odd", "correct": false, "explanation": "Plenty of odd numbers are prime."}]},
+  {"question": "To test whether 97 is prime, which divisors do you actually need to check?", "difficulty": "hard", "options": [{"text": "Primes up to its square root: 2, 3, 5 and 7", "correct": true, "explanation": "Any factor pair has one member at or below the square root, about 9.8."}, {"text": "Every number from 2 to 96", "correct": false, "explanation": "That works but is far more than needed."}, {"text": "Only 2 and 5", "correct": false, "explanation": "Those only rule out even numbers and multiples of 5."}]},
+  {"question": "Why do primes matter for online encryption?", "difficulty": "hard", "options": [{"text": "Multiplying two huge primes is easy, but factoring the result back is extremely hard", "correct": true, "explanation": "That one-way difficulty protects the key."}, {"text": "Primes can't be stored on computers", "correct": false, "explanation": "They're stored all the time."}, {"text": "Encryption only uses the number 2", "correct": false, "explanation": "It relies on very large primes."}]},
+];
 
 export default function Post() {
   return (

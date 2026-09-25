@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-world-religious-festivals",
   tags: ["ramadan", "islamic festivals", "fasting", "religious festivals"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Ramadan is the Islamic month of dawn-to-sunset fasting, prayer, and reflection, observed by Muslims worldwide as one of the Five Pillars of Islam.",
   summary: "Ramadan is the ninth month of the Islamic lunar calendar, during which practicing Muslims fast from dawn to sunset as an act of spiritual discipline, one of the Five Pillars of Islam, alongside increased prayer, charity, and Quran reading.",
@@ -51,6 +51,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which month of the Islamic calendar is Ramadan?", "difficulty": "easy", "options": [{"text": "The ninth", "correct": true, "explanation": "It's the ninth month of the lunar Islamic calendar."}, {"text": "The first", "correct": false, "explanation": "Ramadan is the ninth month."}, {"text": "The twelfth", "correct": false, "explanation": "It's the ninth."}]},
+  {"question": "When do practicing Muslims fast during Ramadan?", "difficulty": "easy", "options": [{"text": "From dawn to sunset", "correct": true, "explanation": "No food, drink or smoking during daylight hours."}, {"text": "All day and night for a month", "correct": false, "explanation": "The fast is broken each evening."}, {"text": "Only on Fridays", "correct": false, "explanation": "The fast runs every day of the month."}]},
+  {"question": "What is iftar?", "difficulty": "easy", "options": [{"text": "The evening meal that breaks the day's fast", "correct": true, "explanation": "Suhoor is the meal eaten before dawn."}, {"text": "The meal before dawn", "correct": false, "explanation": "That's suhoor."}, {"text": "A festival at the end of Ramadan", "correct": false, "explanation": "That's Eid al-Fitr."}]},
+  {"question": "What is suhoor?", "difficulty": "medium", "options": [{"text": "The meal eaten before dawn", "correct": true, "explanation": "It comes before the day's fast begins."}, {"text": "The evening meal", "correct": false, "explanation": "That's iftar."}, {"text": "A prayer at noon", "correct": false, "explanation": "Suhoor is a pre-dawn meal."}]},
+  {"question": "Besides fasting, what does Ramadan emphasize?", "difficulty": "medium", "options": [{"text": "Increased prayer, charity and reading the Quran", "correct": true, "explanation": "The month is about devotion as well as fasting."}, {"text": "Travel and tourism", "correct": false, "explanation": "Its focus is spiritual."}, {"text": "Gift-giving only", "correct": false, "explanation": "Prayer, charity and Quran reading are central."}]},
+  {"question": "Which festival ends Ramadan?", "difficulty": "medium", "options": [{"text": "Eid al-Fitr", "correct": true, "explanation": "It celebrates the end of the month of fasting."}, {"text": "Eid al-Adha", "correct": false, "explanation": "That comes about two months later."}, {"text": "Diwali", "correct": false, "explanation": "Diwali is a Hindu festival."}]},
+  {"question": "In Islamic teaching, what is the primary purpose of the Ramadan fast?", "difficulty": "hard", "options": [{"text": "A spiritual discipline of self-restraint, devotion and empathy for those less fortunate", "correct": true, "explanation": "It's one of the Five Pillars of Islam, not a diet."}, {"text": "Weight loss", "correct": false, "explanation": "It's understood as a spiritual practice."}, {"text": "Saving money", "correct": false, "explanation": "The purpose is spiritual."}]},
+  {"question": "Over roughly how many years does Ramadan move through all four seasons?", "difficulty": "hard", "options": [{"text": "About 33 years", "correct": true, "explanation": "It shifts about 10 to 11 days earlier each Gregorian year."}, {"text": "About 4 years", "correct": false, "explanation": "The full cycle takes about 33 years."}, {"text": "It never changes season", "correct": false, "explanation": "It drifts because the calendar is purely lunar."}]},
+];
 
 export default function Post() {
   return (

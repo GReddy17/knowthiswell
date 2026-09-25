@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "physical-geography",
   tags: ["climate zones", "koppen", "physical geography", "latitude"],
   date: "2026-08-17",
-  updated: "2026-08-17",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-17",
   excerpt: "Why climate, not political borders, is what actually decides where rainforests, deserts, and tundra show up on the map.",
   summary: "Climate zones are regions with consistent long-term temperature and precipitation patterns, driven mainly by latitude, elevation, and distance from oceans — the widely used Koppen system sorts the whole planet into five main groups.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What defines a climate zone?", "difficulty": "easy", "options": [{"text": "Long-term temperature and precipitation patterns", "correct": true, "explanation": "Not political borders, and not always latitude alone."}, {"text": "Country borders", "correct": false, "explanation": "Climate ignores political lines."}, {"text": "Today's weather", "correct": false, "explanation": "Climate is the long-term pattern, not one day."}]},
+  {"question": "How is climate different from weather?", "difficulty": "easy", "options": [{"text": "Climate is the long-term pattern; weather is day-to-day conditions", "correct": true, "explanation": "A desert can have a rainy day and still have a dry climate."}, {"text": "They mean the same thing", "correct": false, "explanation": "They describe different timescales."}, {"text": "Weather lasts longer than climate", "correct": false, "explanation": "It's the other way around."}]},
+  {"question": "Which is the most widely used climate classification?", "difficulty": "easy", "options": [{"text": "The Koppen system", "correct": true, "explanation": "It sorts the world into five main groups."}, {"text": "The Richter scale", "correct": false, "explanation": "That measures earthquakes."}, {"text": "The Beaufort scale", "correct": false, "explanation": "That measures wind speed."}]},
+  {"question": "Which are the five main Koppen climate groups?", "difficulty": "medium", "options": [{"text": "Tropical, dry, temperate, continental and polar", "correct": true, "explanation": "Each has further subtypes."}, {"text": "Hot, warm, mild, cool and cold", "correct": false, "explanation": "The Koppen groups use specific names."}, {"text": "Coastal, inland, mountain, island and desert", "correct": false, "explanation": "Those aren't the Koppen groups."}]},
+  {"question": "Can a desert have a rainy day and still be a dry climate?", "difficulty": "medium", "options": [{"text": "Yes, because climate describes the long-term pattern", "correct": true, "explanation": "One rainy day doesn't change the classification."}, {"text": "No, one rainy day changes it", "correct": false, "explanation": "Classification is based on long-term data."}, {"text": "Deserts never get rain", "correct": false, "explanation": "They get little rain, not zero."}]},
+  {"question": "Which factors can override latitude in shaping climate?", "difficulty": "medium", "options": [{"text": "Mountains and oceans", "correct": true, "explanation": "They can give places at the same latitude very different climates."}, {"text": "Time zones", "correct": false, "explanation": "Time zones don't affect climate."}, {"text": "Population size", "correct": false, "explanation": "Geography, not population, drives these differences."}]},
+  {"question": "Why does a coastal city often have milder winters and cooler summers than an inland city at the same latitude?", "difficulty": "hard", "options": [{"text": "The ocean heats and cools slowly, moderating temperatures near the coast", "correct": true, "explanation": "Inland areas lack that buffer, so extremes are bigger."}, {"text": "Coastal cities are always farther south", "correct": false, "explanation": "The comparison is at the same latitude."}, {"text": "Cities make their own climate", "correct": false, "explanation": "The ocean is the main moderating factor."}]},
+  {"question": "Why aren't climate zones simply bands of latitude?", "difficulty": "hard", "options": [{"text": "Oceans, mountains and wind patterns break up the simple latitude pattern", "correct": true, "explanation": "Latitude is one factor among several."}, {"text": "Latitude has no effect on climate", "correct": false, "explanation": "It matters, just not alone."}, {"text": "Climate zones are drawn by governments", "correct": false, "explanation": "They come from long-term weather data."}]},
+];
 
 export default function Post() {
   return (

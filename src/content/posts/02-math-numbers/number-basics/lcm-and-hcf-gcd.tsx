@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "number-basics",
   tags: ["LCM", "HCF", "GCD", "factors", "multiples"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "LCM is the smallest number two numbers both divide into; HCF/GCD is the largest number that divides into both — opposite tools for opposite problems.",
   summary: "The Least Common Multiple (LCM) is the smallest multiple two or more numbers share. The Highest Common Factor (HCF), also called Greatest Common Divisor (GCD), is the largest factor they share. They solve opposite kinds of problems.",
@@ -50,6 +50,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the LCM of 4 and 6?", "difficulty": "easy", "options": [{"text": "12", "correct": true, "explanation": "The smallest number both 4 and 6 divide into evenly."}, {"text": "24", "correct": false, "explanation": "24 is a common multiple, but not the least."}, {"text": "2", "correct": false, "explanation": "2 is their highest common factor."}]},
+  {"question": "What is the HCF of 12 and 18?", "difficulty": "easy", "options": [{"text": "6", "correct": true, "explanation": "The largest number dividing evenly into both."}, {"text": "3", "correct": false, "explanation": "3 is a common factor, but 6 is bigger."}, {"text": "36", "correct": false, "explanation": "36 is their LCM."}]},
+  {"question": "HCF and GCD are...", "difficulty": "easy", "options": [{"text": "Two names for the same thing", "correct": true, "explanation": "Highest common factor = greatest common divisor."}, {"text": "Opposites", "correct": false, "explanation": "LCM is the one that works with multiples."}, {"text": "Used only in geometry", "correct": false, "explanation": "They're everyday number tools."}]},
+  {"question": "Which tool do you use to simplify the fraction 18/24?", "difficulty": "medium", "options": [{"text": "The HCF", "correct": true, "explanation": "HCF is 6, so 18/24 becomes 3/4."}, {"text": "The LCM", "correct": false, "explanation": "LCM helps combine, like adding fractions."}, {"text": "Neither", "correct": false, "explanation": "Dividing by the HCF simplifies in one step."}]},
+  {"question": "You have 24 apples and 36 oranges to pack into identical bags with none left over. What's the most bags you can make?", "difficulty": "medium", "options": [{"text": "12", "correct": true, "explanation": "HCF of 24 and 36 is 12: each bag gets 2 apples and 3 oranges."}, {"text": "72", "correct": false, "explanation": "That's the LCM; splitting problems use the HCF."}, {"text": "6", "correct": false, "explanation": "6 works, but 12 is the largest that does."}]},
+  {"question": "Which is a quick rule of thumb for choosing between them?", "difficulty": "medium", "options": [{"text": "LCM helps you combine things; HCF helps you split things", "correct": true, "explanation": "Adding fractions vs dividing into equal groups."}, {"text": "LCM is always smaller than HCF", "correct": false, "explanation": "It's the other way around."}, {"text": "They always give the same answer", "correct": false, "explanation": "They answer different questions."}]},
+  {"question": "Two buses leave together, one every 8 minutes and one every 12. When do they next leave together?", "difficulty": "hard", "options": [{"text": "After 24 minutes", "correct": true, "explanation": "LCM of 8 and 12 is 24."}, {"text": "After 4 minutes", "correct": false, "explanation": "4 is the HCF."}, {"text": "After 96 minutes", "correct": false, "explanation": "That's a common multiple, not the first."}]},
+  {"question": "For two numbers, what does HCF x LCM always equal?", "difficulty": "hard", "options": [{"text": "The product of the two numbers", "correct": true, "explanation": "For 4 and 6: 2 x 12 = 24 = 4 x 6."}, {"text": "Their sum", "correct": false, "explanation": "Check 4 and 6: 2 x 12 = 24, not 10."}, {"text": "1", "correct": false, "explanation": "Only if both numbers are 1."}]},
+];
 
 export default function Post() {
   return (

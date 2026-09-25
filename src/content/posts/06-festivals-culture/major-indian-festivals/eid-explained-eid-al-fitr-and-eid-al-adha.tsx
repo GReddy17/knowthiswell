@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-indian-festivals",
   tags: ["eid", "islamic festivals", "eid al-fitr", "eid al-adha"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Eid al-Fitr and Eid al-Adha are the two major Islamic festivals — one marking the end of Ramadan, the other commemorating Ibrahim's willingness to sacrifice.",
   summary: "Muslims celebrate two distinct festivals called Eid each year — Eid al-Fitr, ending the fasting month of Ramadan, and Eid al-Adha, marking the Hajj pilgrimage season and Ibrahim's test of faith.",
@@ -51,6 +51,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How many Eid festivals are there each year?", "difficulty": "easy", "options": [{"text": "Two: Eid al-Fitr and Eid al-Adha", "correct": true, "explanation": "They have different origins and fall about two months apart."}, {"text": "One", "correct": false, "explanation": "\"Eid\" refers to two distinct celebrations."}, {"text": "Five", "correct": false, "explanation": "There are two main Eids."}]},
+  {"question": "What does Eid al-Fitr mark?", "difficulty": "easy", "options": [{"text": "The end of Ramadan's month of fasting", "correct": true, "explanation": "It follows a month of fasting from dawn to sunset."}, {"text": "The start of Ramadan", "correct": false, "explanation": "It celebrates Ramadan's end."}, {"text": "The Hajj pilgrimage", "correct": false, "explanation": "That coincides with Eid al-Adha."}]},
+  {"question": "Which is a common way both Eids are marked?", "difficulty": "easy", "options": [{"text": "Special prayers, new clothes, family gatherings and charitable giving", "correct": true, "explanation": "Both share these celebrations."}, {"text": "Fasting all day", "correct": false, "explanation": "Eid al-Fitr ends the fast; Eid is a celebration."}, {"text": "Lighting bonfires", "correct": false, "explanation": "That's not a typical Eid custom."}]},
+  {"question": "What does Eid al-Adha commemorate?", "difficulty": "medium", "options": [{"text": "Ibrahim's willingness to sacrifice his son in obedience to God, before God provided a ram instead", "correct": true, "explanation": "It honors this act of faith."}, {"text": "The end of Ramadan", "correct": false, "explanation": "That's Eid al-Fitr."}, {"text": "The founding of Mecca", "correct": false, "explanation": "It commemorates Ibrahim's obedience."}]},
+  {"question": "Which pilgrimage coincides with Eid al-Adha?", "difficulty": "medium", "options": [{"text": "The Hajj", "correct": true, "explanation": "Eid al-Adha falls during the Hajj season."}, {"text": "The Kumbh Mela", "correct": false, "explanation": "That's a Hindu pilgrimage."}, {"text": "The Camino de Santiago", "correct": false, "explanation": "That's a Christian pilgrimage route."}]},
+  {"question": "About how far apart are the two Eids?", "difficulty": "medium", "options": [{"text": "About two months", "correct": true, "explanation": "Eid al-Adha comes about two months after Eid al-Fitr."}, {"text": "One week", "correct": false, "explanation": "They're about two months apart."}, {"text": "Exactly six months", "correct": false, "explanation": "The gap is about two months."}]},
+  {"question": "By roughly how much do Eid dates shift on the Gregorian calendar each year?", "difficulty": "hard", "options": [{"text": "About 10 to 11 days earlier", "correct": true, "explanation": "The lunar Islamic year is shorter than the solar year."}, {"text": "About 10 days later", "correct": false, "explanation": "They move earlier, not later."}, {"text": "They don't shift", "correct": false, "explanation": "They move every Gregorian year."}]},
+  {"question": "Why is there no fixed Western-calendar date for either Eid?", "difficulty": "hard", "options": [{"text": "Both follow the purely lunar Islamic calendar, which is shorter than the solar year", "correct": true, "explanation": "So they drift through the Gregorian seasons over time."}, {"text": "Each country picks dates by vote", "correct": false, "explanation": "The dates follow the lunar calendar."}, {"text": "They're always in December", "correct": false, "explanation": "They can fall in any season over the years."}]},
+];
 
 export default function Post() {
   return (

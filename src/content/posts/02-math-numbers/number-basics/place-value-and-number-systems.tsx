@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "number-basics",
   tags: ["place value", "number systems", "base 10", "decimal system"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Why the position of a digit changes its value by exactly a factor of ten, and how that one rule is the entire engine behind every number you write.",
   summary: "Place value means a digit's value depends on where it sits in a number — each position is worth ten times the position to its right, which is what makes our base-10 (decimal) system work with just ten symbols.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "In 4,582, what is the 4 worth?", "difficulty": "easy", "options": [{"text": "4,000", "correct": true, "explanation": "It sits in the thousands place."}, {"text": "4", "correct": false, "explanation": "Its position multiplies it."}, {"text": "400", "correct": false, "explanation": "That's the hundreds place, where the 5 sits."}]},
+  {"question": "Why is our everyday number system called base-10?", "difficulty": "easy", "options": [{"text": "It uses ten symbols, and each place is worth ten times the one to its right", "correct": true, "explanation": "0 through 9, then you carry."}, {"text": "Numbers can only go up to 10", "correct": false, "explanation": "Place value lets it go on forever."}, {"text": "It was invented in the 10th century", "correct": false, "explanation": "The name is about the ten digits."}]},
+  {"question": "Which digits does base-10 use?", "difficulty": "easy", "options": [{"text": "0 through 9", "correct": true, "explanation": "Ten symbols."}, {"text": "1 through 10", "correct": false, "explanation": "10 is written with two digits."}, {"text": "0 and 1", "correct": false, "explanation": "That's binary."}]},
+  {"question": "The same digit moves one place to the left. What happens to its value?", "difficulty": "medium", "options": [{"text": "It becomes ten times bigger", "correct": true, "explanation": "Each place is worth ten times the one to its right."}, {"text": "It doubles", "correct": false, "explanation": "In base-10 the jump is times ten."}, {"text": "It stays the same", "correct": false, "explanation": "Position changes value."}]},
+  {"question": "In 3,047, what does the 0 do?", "difficulty": "medium", "options": [{"text": "Holds the hundreds place so the other digits keep their values", "correct": true, "explanation": "Without it, 3,047 would read as 347."}, {"text": "Nothing; it can be dropped", "correct": false, "explanation": "Dropping it changes the number."}, {"text": "It means the number is even", "correct": false, "explanation": "It's a placeholder."}]},
+  {"question": "What makes place value so powerful?", "difficulty": "medium", "options": [{"text": "Ten symbols can write every number without inventing new ones", "correct": true, "explanation": "Position does the heavy lifting."}, {"text": "It makes numbers shorter than Roman numerals every time", "correct": false, "explanation": "The real gain is that a few symbols cover all numbers."}, {"text": "It only works for whole numbers", "correct": false, "explanation": "Decimals extend it past the ones place."}]},
+  {"question": "Why did Roman numerals make arithmetic harder?", "difficulty": "hard", "options": [{"text": "They lack true place value and a zero, so digits don't line up by position", "correct": true, "explanation": "Column addition doesn't work cleanly."}, {"text": "They used too few symbols to write large numbers", "correct": false, "explanation": "The issue is position, not symbol count."}, {"text": "They couldn't write numbers above 100", "correct": false, "explanation": "They could, just awkwardly."}]},
+  {"question": "In binary (base-2), what is the number written as 101?", "difficulty": "hard", "options": [{"text": "5", "correct": true, "explanation": "1x4 + 0x2 + 1x1."}, {"text": "101", "correct": false, "explanation": "That reads it in base-10."}, {"text": "3", "correct": false, "explanation": "The left 1 is worth 4, not 2."}]},
+];
 
 export default function Post() {
   return (

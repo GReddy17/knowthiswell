@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-indian-festivals",
   tags: ["holi", "hindu festivals", "festival of colors", "indian festivals"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Holi is the Hindu spring festival of colors, marking the triumph of good over evil and celebrated by throwing colored powder and water.",
   summary: "Holi is a two-day Hindu spring festival — beginning with Holika Dahan, a bonfire marking the defeat of evil, followed by the color-throwing celebration most people recognize.",
@@ -51,6 +51,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is Holi best known for?", "difficulty": "easy", "options": [{"text": "Throwing colored powder (gulal) and water", "correct": true, "explanation": "Friends, family and strangers join in."}, {"text": "Lighting oil lamps", "correct": false, "explanation": "That's Diwali."}, {"text": "Fasting from dawn to sunset", "correct": false, "explanation": "That's Ramadan."}]},
+  {"question": "What season is Holi associated with?", "difficulty": "easy", "options": [{"text": "Spring", "correct": true, "explanation": "It usually lands in March."}, {"text": "Winter", "correct": false, "explanation": "Holi is a spring festival."}, {"text": "Monsoon", "correct": false, "explanation": "It's a spring celebration."}]},
+  {"question": "How many days is Holi?", "difficulty": "easy", "options": [{"text": "Two: a bonfire night, then the color day", "correct": true, "explanation": "Holika Dahan comes first, then Rangwali Holi."}, {"text": "One", "correct": false, "explanation": "The bonfire night is also part of it."}, {"text": "Ten", "correct": false, "explanation": "It's a two-day festival."}]},
+  {"question": "When exactly does Holi fall?", "difficulty": "medium", "options": [{"text": "On the full moon of the Hindu month of Phalguna", "correct": true, "explanation": "That's usually in March."}, {"text": "On January 1", "correct": false, "explanation": "It follows the Hindu lunar calendar."}, {"text": "On the new moon in October", "correct": false, "explanation": "That's closer to Diwali's timing."}]},
+  {"question": "What does the Holika Dahan bonfire re-enact?", "difficulty": "medium", "options": [{"text": "Holika being burned instead of Prahlad, whose devotion protects him", "correct": true, "explanation": "The bonfire symbolizes burning away evil."}, {"text": "Rama's return to Ayodhya", "correct": false, "explanation": "That's linked to Diwali."}, {"text": "The harvest", "correct": false, "explanation": "It re-enacts the Prahlad and Holika story."}]},
+  {"question": "Who is Prahlad in the Holi story?", "difficulty": "medium", "options": [{"text": "The devoted son of a demon king", "correct": true, "explanation": "His devotion protects him from the fire."}, {"text": "A god of colors", "correct": false, "explanation": "He's the devoted son in the story."}, {"text": "Holika's husband", "correct": false, "explanation": "Holika is his aunt."}]},
+  {"question": "Do the individual colors in Holi carry fixed meanings?", "difficulty": "hard", "options": [{"text": "No, the tradition is about the shared act of playful color-throwing, not each color's symbolism", "correct": true, "explanation": "The point is joining in across social boundaries."}, {"text": "Yes, each color has one official meaning", "correct": false, "explanation": "No fixed meaning is assigned to each color."}, {"text": "Only red is allowed", "correct": false, "explanation": "Many colors are used."}]},
+  {"question": "What social meaning is often associated with Holi's color-throwing?", "difficulty": "hard", "options": [{"text": "Playing together across social boundaries", "correct": true, "explanation": "Strangers and friends alike join in."}, {"text": "Keeping groups separate", "correct": false, "explanation": "It's known for mixing across boundaries."}, {"text": "A private family-only ritual", "correct": false, "explanation": "It's widely public."}]},
+];
 
 export default function Post() {
   return (

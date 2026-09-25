@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "number-basics",
   tags: ["percentages", "percent", "fractions", "decimals"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "A percentage is just a fraction with a fixed denominator of 100 — \"per cent\" literally means \"per hundred.\"",
   summary: "A percentage expresses a number as a fraction of 100. 25% means 25 out of every 100, which is the same value as the fraction 1/4 and the decimal 0.25.",
@@ -50,6 +50,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "https://www.youtube.com/watch?v=lUrDd3XzDQ4",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does \"percent\" literally mean?", "difficulty": "easy", "options": [{"text": "Per hundred", "correct": true, "explanation": "40% is 40 out of every 100."}, {"text": "Per thousand", "correct": false, "explanation": "That's per mille."}, {"text": "Per ten", "correct": false, "explanation": "Percent is per hundred."}]},
+  {"question": "Which pair shows the same value as 25%?", "difficulty": "easy", "options": [{"text": "1/4 and 0.25", "correct": true, "explanation": "Three notations, one value."}, {"text": "1/25 and 0.025", "correct": false, "explanation": "Those are 4% and 2.5%."}, {"text": "2/5 and 0.4", "correct": false, "explanation": "Those are 40%."}]},
+  {"question": "How do you convert 0.6 to a percentage?", "difficulty": "easy", "options": [{"text": "Multiply by 100: 60%", "correct": true, "explanation": "Then add the % sign."}, {"text": "Divide by 100: 0.006%", "correct": false, "explanation": "Dividing goes the other way."}, {"text": "It's already 6%", "correct": false, "explanation": "0.6 is 60 hundredths, so 60%."}]},
+  {"question": "What is 15% of 80?", "difficulty": "medium", "options": [{"text": "12", "correct": true, "explanation": "10% is 8, 5% is 4, total 12."}, {"text": "15", "correct": false, "explanation": "That treats the percent as a plain number."}, {"text": "5.3", "correct": false, "explanation": "That's 80 divided by 15."}]},
+  {"question": "60% simplifies to which fraction?", "difficulty": "medium", "options": [{"text": "3/5", "correct": true, "explanation": "60/100 divided by 20 top and bottom."}, {"text": "3/50", "correct": false, "explanation": "That is 6%, not 60%."}, {"text": "1/6", "correct": false, "explanation": "That's about 16.7%."}]},
+  {"question": "A price rises from $50 to $60. What's the percent increase?", "difficulty": "medium", "options": [{"text": "20%", "correct": true, "explanation": "A $10 rise on a $50 start is 10/50."}, {"text": "10%", "correct": false, "explanation": "That's the dollar change, not the percent."}, {"text": "16.7%", "correct": false, "explanation": "That divides by the new price, not the starting one."}]},
+  {"question": "A price drops 50%, then rises 50%. Where does it end up?", "difficulty": "hard", "options": [{"text": "75% of the original", "correct": true, "explanation": "$100 falls to $50, then 50% of $50 adds $25."}, {"text": "Back at the original", "correct": false, "explanation": "The second 50% is of a smaller base."}, {"text": "125% of the original", "correct": false, "explanation": "It ends lower, not higher."}]},
+  {"question": "A tax rate goes from 10% to 12%. Which statement is correct?", "difficulty": "hard", "options": [{"text": "It rose 2 percentage points, which is a 20% increase", "correct": true, "explanation": "Points measure the gap; percent change measures it relative to the start."}, {"text": "It rose 2%", "correct": false, "explanation": "Ambiguous and wrong as percent change, which is 20%."}, {"text": "It rose 12%", "correct": false, "explanation": "12% is the new rate, not the change."}]},
+];
 
 export default function Post() {
   return (

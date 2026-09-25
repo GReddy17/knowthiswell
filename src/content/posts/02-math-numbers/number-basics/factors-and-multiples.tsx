@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "number-basics",
   tags: ["factors", "multiples", "divisibility"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Factors divide into a number evenly; multiples are what you get by multiplying it — two mirror-image ideas that people mix up constantly.",
   summary: "A factor of a number divides into it with no remainder. A multiple of a number is what you get when you multiply it by a whole number. Every number is both a factor and a multiple of itself.",
@@ -50,6 +50,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which of these is a factor of 12?", "difficulty": "easy", "options": [{"text": "4", "correct": true, "explanation": "12 divided by 4 is 3, nothing left over."}, {"text": "5", "correct": false, "explanation": "12 divided by 5 leaves a remainder."}, {"text": "24", "correct": false, "explanation": "24 is a multiple of 12, not a factor."}]},
+  {"question": "Which of these is a multiple of 12?", "difficulty": "easy", "options": [{"text": "36", "correct": true, "explanation": "12 x 3 = 36."}, {"text": "6", "correct": false, "explanation": "6 is a factor of 12."}, {"text": "20", "correct": false, "explanation": "20 isn't 12 times any whole number."}]},
+  {"question": "How many multiples does a number have?", "difficulty": "easy", "options": [{"text": "Infinitely many", "correct": true, "explanation": "You can keep multiplying forever."}, {"text": "Exactly ten", "correct": false, "explanation": "There's no limit."}, {"text": "Only as many as its factors", "correct": false, "explanation": "Factors are finite; multiples aren't."}]},
+  {"question": "What are all the factors of 12?", "difficulty": "medium", "options": [{"text": "1, 2, 3, 4, 6 and 12", "correct": true, "explanation": "Each divides 12 evenly."}, {"text": "12, 24, 36 and 48", "correct": false, "explanation": "Those are multiples."}, {"text": "2, 3, 4 and 6 only", "correct": false, "explanation": "1 and 12 count too."}]},
+  {"question": "Can a factor of a number be larger than the number itself?", "difficulty": "medium", "options": [{"text": "No, factors are never larger than the number", "correct": true, "explanation": "The largest factor is the number itself."}, {"text": "Yes, often", "correct": false, "explanation": "That's how multiples behave."}, {"text": "Only for even numbers", "correct": false, "explanation": "This holds for every positive whole number."}]},
+  {"question": "Is 7 a factor of itself, a multiple of itself, or both?", "difficulty": "medium", "options": [{"text": "Both", "correct": true, "explanation": "Every whole number is both; 7 x 1 = 7 and 7 divides 7."}, {"text": "Only a factor", "correct": false, "explanation": "7 x 1 makes it a multiple too."}, {"text": "Neither", "correct": false, "explanation": "It's both."}]},
+  {"question": "If 8 is a factor of a number, which must also be a factor of it?", "difficulty": "hard", "options": [{"text": "4", "correct": true, "explanation": "4 divides 8, and 8 divides the number, so 4 divides it too."}, {"text": "16", "correct": false, "explanation": "8 itself is divisible by 8 but not by 16."}, {"text": "3", "correct": false, "explanation": "8 isn't divisible by 3."}]},
+  {"question": "How many factors does 36 have?", "difficulty": "hard", "options": [{"text": "9", "correct": true, "explanation": "1, 2, 3, 4, 6, 9, 12, 18, 36. Odd because 36 is a perfect square."}, {"text": "8", "correct": false, "explanation": "Don't forget 6, which pairs with itself."}, {"text": "6", "correct": false, "explanation": "List the pairs: there are 9 factors."}]},
+];
 
 export default function Post() {
   return (

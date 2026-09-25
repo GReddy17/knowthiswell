@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "number-basics",
   tags: ["decimals", "decimal point", "place value"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Decimals extend place value to the right of the decimal point — tenths, hundredths, thousandths — as just another way of writing fractions.",
   summary: "A decimal number uses a decimal point to represent fractional amounts (tenths, hundredths, and beyond) using the same place-value system as whole numbers.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "In 4.75, what does the 4 represent?", "difficulty": "easy", "options": [{"text": "Four whole units", "correct": true, "explanation": "Digits left of the point are whole numbers."}, {"text": "Four tenths", "correct": false, "explanation": "Tenths are right of the point."}, {"text": "Four hundredths", "correct": false, "explanation": "The 4 is in the ones place."}]},
+  {"question": "What fraction equals 0.75?", "difficulty": "easy", "options": [{"text": "3/4", "correct": true, "explanation": "75 hundredths simplifies to 3/4."}, {"text": "7/5", "correct": false, "explanation": "That's 1.4."}, {"text": "1/75", "correct": false, "explanation": "That's about 0.013."}]},
+  {"question": "What is the first place to the right of the decimal point?", "difficulty": "easy", "options": [{"text": "Tenths", "correct": true, "explanation": "Then hundredths, then thousandths."}, {"text": "Tens", "correct": false, "explanation": "Tens is left of the ones place."}, {"text": "Hundredths", "correct": false, "explanation": "That's the second place."}]},
+  {"question": "How does each decimal place compare with the one to its left?", "difficulty": "medium", "options": [{"text": "It's worth one-tenth as much", "correct": true, "explanation": "Tenths, hundredths, thousandths, each ten times smaller."}, {"text": "It's worth ten times as much", "correct": false, "explanation": "Moving right makes places smaller."}, {"text": "Every place is worth the same", "correct": false, "explanation": "Place value changes by a factor of ten."}]},
+  {"question": "What is 2.5 + 0.35?", "difficulty": "medium", "options": [{"text": "2.85", "correct": true, "explanation": "Line up the points: 2.50 + 0.35 = 2.85."}, {"text": "0.60", "correct": false, "explanation": "That adds 25 + 35 with the points misaligned."}, {"text": "6.0", "correct": false, "explanation": "Line up the decimal points first."}]},
+  {"question": "What is the most important step when adding or subtracting decimals?", "difficulty": "medium", "options": [{"text": "Lining up the decimal points", "correct": true, "explanation": "That keeps every place value matched."}, {"text": "Rounding everything first", "correct": false, "explanation": "Rounding loses accuracy and isn't required."}, {"text": "Lining up the right-hand digits", "correct": false, "explanation": "That misaligns place values when lengths differ."}]},
+  {"question": "Which is the largest: 0.3, 0.29 or 0.305?", "difficulty": "hard", "options": [{"text": "0.305", "correct": true, "explanation": "As thousandths: 300, 290, 305."}, {"text": "0.29", "correct": false, "explanation": "It has the most digits after 0.305 but the smallest tenths value."}, {"text": "0.3", "correct": false, "explanation": "0.300 is less than 0.305."}]},
+  {"question": "How do you write 3/8 as a decimal?", "difficulty": "hard", "options": [{"text": "0.375", "correct": true, "explanation": "Divide 3 by 8."}, {"text": "0.38", "correct": false, "explanation": "That's rounded; the exact value is 0.375."}, {"text": "3.8", "correct": false, "explanation": "That's 38/10, far bigger than 3/8."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "number-basics",
   tags: ["ratios", "proportions", "scaling"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "A ratio compares two quantities; a proportion says two ratios are equal — the tool behind scaling recipes, maps, and mixtures correctly.",
   summary: "A ratio compares two quantities (like 2:3). A proportion is a statement that two ratios are equal, which is what lets you scale a ratio up or down while keeping it exactly the same relationship.",
@@ -50,6 +50,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a ratio of 2:3 mean?", "difficulty": "easy", "options": [{"text": "For every 2 of one thing, there are 3 of the other", "correct": true, "explanation": "A ratio compares two amounts directly."}, {"text": "There are 2 things out of 3 total", "correct": false, "explanation": "That would be 2 parts out of 5 total in a 2:3 ratio."}, {"text": "The two amounts differ by 1", "correct": false, "explanation": "Ratios compare by multiplication, not difference."}]},
+  {"question": "What is a proportion?", "difficulty": "easy", "options": [{"text": "A statement that two ratios are equal", "correct": true, "explanation": "Like 2:3 = 4:6."}, {"text": "Any single ratio", "correct": false, "explanation": "A proportion links two ratios."}, {"text": "A percentage", "correct": false, "explanation": "Percentages are ratios out of 100, not proportions."}]},
+  {"question": "Do 2:3 and 3:2 describe the same relationship?", "difficulty": "easy", "options": [{"text": "No, order matters", "correct": true, "explanation": "Swapping the order flips which thing there's more of."}, {"text": "Yes, it's the same numbers", "correct": false, "explanation": "The order carries meaning."}, {"text": "Only in recipes", "correct": false, "explanation": "Order matters everywhere."}]},
+  {"question": "Simplify the ratio 12:18.", "difficulty": "medium", "options": [{"text": "2:3", "correct": true, "explanation": "Divide both sides by 6."}, {"text": "3:2", "correct": false, "explanation": "That reverses the order."}, {"text": "6:9 is simplest", "correct": false, "explanation": "6:9 still divides by 3."}]},
+  {"question": "Solve for x: 4/10 = x/25.", "difficulty": "medium", "options": [{"text": "10", "correct": true, "explanation": "Cross-multiply: 4 x 25 = 100, then 100 / 10 = 10."}, {"text": "19", "correct": false, "explanation": "Adding the same amount doesn't keep a ratio."}, {"text": "62.5", "correct": false, "explanation": "That multiplied the wrong diagonal."}]},
+  {"question": "A class has boys and girls in the ratio 2:3 and 30 students. How many girls?", "difficulty": "medium", "options": [{"text": "18", "correct": true, "explanation": "5 parts total, each part is 6, girls get 3 parts."}, {"text": "20", "correct": false, "explanation": "Split into 5 parts of 6, not thirds."}, {"text": "12", "correct": false, "explanation": "That's the number of boys."}]},
+  {"question": "A map scale is 1:50,000. Two towns are 4 cm apart on the map. How far apart are they really?", "difficulty": "hard", "options": [{"text": "2 km", "correct": true, "explanation": "4 x 50,000 = 200,000 cm, which is 2 km."}, {"text": "20 km", "correct": false, "explanation": "Check the unit conversion: 200,000 cm is 2 km."}, {"text": "200 m", "correct": false, "explanation": "200,000 cm is 2,000 m."}]},
+  {"question": "Paint is mixed blue to white at 3:5. You have 12 liters of blue. How much white keeps the same shade?", "difficulty": "hard", "options": [{"text": "20 liters", "correct": true, "explanation": "Blue went up by 4x, so white does too: 5 x 4."}, {"text": "14 liters", "correct": false, "explanation": "Adding 2 to each side changes the ratio."}, {"text": "7.2 liters", "correct": false, "explanation": "That flips the ratio."}]},
+];
 
 export default function Post() {
   return (

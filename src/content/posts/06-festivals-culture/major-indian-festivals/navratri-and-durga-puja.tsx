@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-indian-festivals",
   tags: ["navratri", "durga puja", "hindu festivals", "goddess worship"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Navratri is a nine-night Hindu festival honoring the goddess Durga, celebrated differently across India — from Gujarat's garba dancing to Bengal's elaborate Durga Puja.",
   summary: "Navratri (\"nine nights\") is a Hindu festival honoring the goddess Durga in her various forms, culminating in Vijayadashami/Dussehra — its regional expressions range from Gujarati garba dance to West Bengal's Durga Puja pandals.",
@@ -51,6 +51,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does \"Navratri\" mean?", "difficulty": "easy", "options": [{"text": "Nine nights", "correct": true, "explanation": "It spans nine nights honoring the goddess Durga."}, {"text": "New year", "correct": false, "explanation": "It means nine nights."}, {"text": "Festival of lights", "correct": false, "explanation": "That's Diwali."}]},
+  {"question": "Which goddess is Navratri dedicated to?", "difficulty": "easy", "options": [{"text": "Durga", "correct": true, "explanation": "She is honored in nine forms."}, {"text": "Lakshmi only", "correct": false, "explanation": "Navratri centers on Durga."}, {"text": "Saraswati only", "correct": false, "explanation": "Durga is the central goddess."}]},
+  {"question": "When does Navratri usually fall?", "difficulty": "easy", "options": [{"text": "September or October", "correct": true, "explanation": "It follows the Hindu calendar."}, {"text": "January", "correct": false, "explanation": "That's around Makar Sankranti."}, {"text": "March", "correct": false, "explanation": "That's around Holi."}]},
+  {"question": "How is Navratri typically celebrated in Gujarat?", "difficulty": "medium", "options": [{"text": "With garba and dandiya-raas dancing", "correct": true, "explanation": "Dance nights are central there."}, {"text": "With boat races", "correct": false, "explanation": "Boat races are linked to Onam."}, {"text": "With color-throwing", "correct": false, "explanation": "That's Holi."}]},
+  {"question": "What form does the festival take in West Bengal?", "difficulty": "medium", "options": [{"text": "Durga Puja, an elaborate multi-day idol-worship and community festival", "correct": true, "explanation": "Same festival, expressed differently."}, {"text": "No celebration at all", "correct": false, "explanation": "West Bengal celebrates Durga Puja."}, {"text": "A single-day fast", "correct": false, "explanation": "Durga Puja is a multi-day festival."}]},
+  {"question": "What is the tenth day called?", "difficulty": "medium", "options": [{"text": "Vijayadashami, also called Dussehra", "correct": true, "explanation": "It concludes the festival."}, {"text": "Diwali", "correct": false, "explanation": "Diwali is a separate festival."}, {"text": "Onam", "correct": false, "explanation": "Onam is a Kerala harvest festival."}]},
+  {"question": "What victory does Vijayadashami mark?", "difficulty": "hard", "options": [{"text": "Durga's victory over the demon Mahishasura", "correct": true, "explanation": "It celebrates good triumphing over evil."}, {"text": "Rama's return to Ayodhya", "correct": false, "explanation": "That story is associated with Diwali."}, {"text": "Krishna's birth", "correct": false, "explanation": "That's Janmashtami."}]},
+  {"question": "One friend celebrates Navratri with garba, another by visiting a Durga pandal. Who is right?", "difficulty": "hard", "options": [{"text": "Both; they're describing different regional traditions of the same festival", "correct": true, "explanation": "How Navratri is celebrated varies dramatically by region."}, {"text": "Only the garba friend", "correct": false, "explanation": "Durga Puja is also Navratri."}, {"text": "Only the pandal friend", "correct": false, "explanation": "Garba is also Navratri."}]},
+];
 
 export default function Post() {
   return (

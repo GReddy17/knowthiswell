@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "physical-geography",
   tags: ["rivers", "watersheds", "physical geography", "water cycle"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "How a watershed decides where every drop of rain ends up, and why the Amazon carries more water than the next several biggest rivers combined.",
   summary: "A watershed is the entire area of land that drains into a given river, meaning a river's size depends less on its length than on how much land — and how much rainfall — feeds into it.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a watershed?", "difficulty": "easy", "options": [{"text": "All the land that drains into a given river system", "correct": true, "explanation": "Like a funnel draining to one spout."}, {"text": "A building that stores water", "correct": false, "explanation": "It's an area of land, not a building."}, {"text": "The mouth of a river", "correct": false, "explanation": "It's the whole drainage area."}]},
+  {"question": "How is river \"size\" usually measured?", "difficulty": "easy", "options": [{"text": "By discharge, the volume of water flowing per second", "correct": true, "explanation": "Length is a different measure."}, {"text": "By length only", "correct": false, "explanation": "Discharge is the usual measure of size."}, {"text": "By the number of bridges", "correct": false, "explanation": "Discharge measures a river's size."}]},
+  {"question": "What separates one watershed from another?", "difficulty": "easy", "options": [{"text": "A drainage divide, usually a ridge", "correct": true, "explanation": "Rain on either side flows to different rivers."}, {"text": "A country border", "correct": false, "explanation": "Divides are physical ridges."}, {"text": "A road", "correct": false, "explanation": "Ridges form drainage divides."}]},
+  {"question": "Which is longer, the Amazon or the Nile, in the article's comparison?", "difficulty": "medium", "options": [{"text": "The Nile is longer, but the Amazon carries far more water", "correct": true, "explanation": "Length and discharge measure different things."}, {"text": "The Amazon is longer and carries less water", "correct": false, "explanation": "The Amazon carries far more water."}, {"text": "They're identical", "correct": false, "explanation": "They differ in both measures."}]},
+  {"question": "About how much of South America does the Amazon's watershed cover?", "difficulty": "medium", "options": [{"text": "About 40%", "correct": true, "explanation": "Every tributary feeding it is part of the system."}, {"text": "About 5%", "correct": false, "explanation": "It's far larger than that."}, {"text": "All of it", "correct": false, "explanation": "It covers roughly 40%."}]},
+  {"question": "Is a small stream far upstream part of a big river's watershed?", "difficulty": "medium", "options": [{"text": "Yes, if it eventually feeds into that river", "correct": true, "explanation": "Every tributary counts as part of the system."}, {"text": "No, only the main channel counts", "correct": false, "explanation": "Watersheds include all tributaries."}, {"text": "Only if it's navigable", "correct": false, "explanation": "Size doesn't matter; drainage does."}]},
+  {"question": "Two raindrops land a few meters apart on opposite sides of a drainage divide. What can happen?", "difficulty": "hard", "options": [{"text": "They can end up in completely different rivers, even different oceans", "correct": true, "explanation": "The ridge sends them into separate watersheds."}, {"text": "They always meet in the same river", "correct": false, "explanation": "A divide sends them different ways."}, {"text": "They both evaporate", "correct": false, "explanation": "They flow into separate systems."}]},
+  {"question": "Why does thinking in watersheds explain where some borders and floods occur?", "difficulty": "hard", "options": [{"text": "Water collects according to drainage areas, so ridges and basins shape both boundaries and flood risk", "correct": true, "explanation": "Watersheds make much of geography less arbitrary."}, {"text": "Watersheds are drawn by governments", "correct": false, "explanation": "They're physical features."}, {"text": "Floods happen randomly", "correct": false, "explanation": "They follow drainage patterns."}]},
+];
 
 export default function Post() {
   return (

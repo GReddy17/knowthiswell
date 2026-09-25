@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "physical-geography",
   tags: ["volcanoes", "plate tectonics", "ring of fire", "physical geography"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Why volcanoes cluster along the Pacific Ring of Fire, what actually makes one erupt, and the difference between active, dormant, and extinct.",
   summary: "Volcanoes form mostly at tectonic plate boundaries where magma finds a path to the surface, which is why roughly 75% of the world's active volcanoes ring the Pacific Ocean along a belt geologists call the Ring of Fire.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a volcano, at its simplest?", "difficulty": "easy", "options": [{"text": "A vent where molten rock, gas and ash from underground reach the surface", "correct": true, "explanation": "The cone shape is just what builds up around the vent."}, {"text": "Any tall mountain", "correct": false, "explanation": "Most mountains aren't volcanoes."}, {"text": "A hole left by a meteor", "correct": false, "explanation": "That's an impact crater."}]},
+  {"question": "What is the Ring of Fire?", "difficulty": "easy", "options": [{"text": "A belt of volcanoes around the Pacific Ocean", "correct": true, "explanation": "It follows tectonic plate boundaries."}, {"text": "A chain of desert volcanoes in Africa", "correct": false, "explanation": "It rings the Pacific."}, {"text": "A lava lake in Hawaii", "correct": false, "explanation": "It's a belt spanning several continents."}]},
+  {"question": "Which of these countries sits on the Ring of Fire?", "difficulty": "easy", "options": [{"text": "Japan", "correct": true, "explanation": "So do Indonesia, the Philippines and the western Americas."}, {"text": "Egypt", "correct": false, "explanation": "Egypt is far from the Pacific belt."}, {"text": "Poland", "correct": false, "explanation": "Poland isn't on it."}]},
+  {"question": "About what share of the world's potentially active volcanoes are on the Ring of Fire?", "difficulty": "medium", "options": [{"text": "About 75%", "correct": true, "explanation": "Roughly 1,000 of about 1,350."}, {"text": "About 10%", "correct": false, "explanation": "It's the large majority."}, {"text": "All of them", "correct": false, "explanation": "Other belts and hotspots exist too."}]},
+  {"question": "Why does magma rise toward the surface?", "difficulty": "medium", "options": [{"text": "It's less dense than the solid rock around it and is pushed up by pressure", "correct": true, "explanation": "It takes whatever path it can: a vent, a crack or a weak point."}, {"text": "The Moon pulls it up", "correct": false, "explanation": "Density and pressure drive it."}, {"text": "It's heavier than rock", "correct": false, "explanation": "It's lighter, which is why it rises."}]},
+  {"question": "Why do volcanoes cluster along plate edges?", "difficulty": "medium", "options": [{"text": "Plate boundaries are where magma most easily forms and finds a way up", "correct": true, "explanation": "Their locations trace the plates, not coincidence."}, {"text": "Plate edges are always near the equator", "correct": false, "explanation": "Boundaries run at many latitudes."}, {"text": "They're randomly spread", "correct": false, "explanation": "They cluster heavily, especially around the Pacific."}]},
+  {"question": "What do \"active,\" \"dormant\" and \"extinct\" really describe?", "difficulty": "hard", "options": [{"text": "How likely a volcano is to erupt again, not a strict on/off switch", "correct": true, "explanation": "They're risk labels based on history and evidence."}, {"text": "The volcano's current temperature", "correct": false, "explanation": "They describe eruption likelihood."}, {"text": "The volcano's height", "correct": false, "explanation": "Height has nothing to do with it."}]},
+  {"question": "Why can a volcano that has been quiet for centuries still be a real risk?", "difficulty": "hard", "options": [{"text": "A dormant volcano has erupted before and is expected to again; long quiet spells are normal", "correct": true, "explanation": "Human lifetimes are short compared with eruption cycles."}, {"text": "Quiet volcanoes always become extinct", "correct": false, "explanation": "Dormant isn't the same as extinct."}, {"text": "It can't; quiet means safe", "correct": false, "explanation": "Silence isn't proof of safety."}]},
+];
 
 export default function Post() {
   return (

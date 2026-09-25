@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-world-religious-festivals",
   tags: ["hanukkah", "jewish festivals", "festival of lights", "religious festivals"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Hanukkah is the eight-day Jewish festival of lights, commemorating the rededication of the Second Temple and the legend of the oil that lasted eight days.",
   summary: "Hanukkah is an eight-day Jewish festival commemorating the rededication of the Second Temple in Jerusalem following the Maccabean Revolt, marked by lighting a menorah for eight nights in observance of the traditional story of a single day's oil lasting eight.",
@@ -51,6 +51,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How many days does Hanukkah last?", "difficulty": "easy", "options": [{"text": "Eight", "correct": true, "explanation": "One candle is added each night."}, {"text": "One", "correct": false, "explanation": "It's an eight-day festival."}, {"text": "Forty", "correct": false, "explanation": "It lasts eight days."}]},
+  {"question": "What is lit during Hanukkah?", "difficulty": "easy", "options": [{"text": "A menorah, adding one candle each night", "correct": true, "explanation": "That's the central custom."}, {"text": "A bonfire", "correct": false, "explanation": "The menorah is central."}, {"text": "Fireworks", "correct": false, "explanation": "Candle lighting is the key ritual."}]},
+  {"question": "When does Hanukkah usually fall?", "difficulty": "easy", "options": [{"text": "Late November or December", "correct": true, "explanation": "The exact dates follow the Hebrew calendar."}, {"text": "In April", "correct": false, "explanation": "That's closer to Passover."}, {"text": "In July", "correct": false, "explanation": "Hanukkah is in late autumn or early winter."}]},
+  {"question": "What does Hanukkah commemorate?", "difficulty": "medium", "options": [{"text": "The rededication of the Second Temple in Jerusalem", "correct": true, "explanation": "It followed the Maccabean Revolt."}, {"text": "The giving of the Torah", "correct": false, "explanation": "That's associated with Shavuot."}, {"text": "The exodus from Egypt", "correct": false, "explanation": "That's Passover."}]},
+  {"question": "Which foods are traditional at Hanukkah?", "difficulty": "medium", "options": [{"text": "Oil-fried foods like latkes", "correct": true, "explanation": "They recall the story of the oil."}, {"text": "Only raw vegetables", "correct": false, "explanation": "Fried foods are traditional."}, {"text": "Fasting all eight days", "correct": false, "explanation": "It's a festive time, not a fast."}]},
+  {"question": "What is a dreidel?", "difficulty": "medium", "options": [{"text": "A spinning top used in a Hanukkah game", "correct": true, "explanation": "It's a traditional game."}, {"text": "A type of candle", "correct": false, "explanation": "Candles go in the menorah."}, {"text": "A festive bread", "correct": false, "explanation": "It's a spinning top."}]},
+  {"question": "Who did the Maccabees revolt against?", "difficulty": "hard", "options": [{"text": "The Seleucid Empire, in the 2nd century BCE", "correct": true, "explanation": "The victory led to the Temple's rededication."}, {"text": "The Roman Empire", "correct": false, "explanation": "The Maccabean Revolt was against the Seleucids."}, {"text": "Ancient Egypt", "correct": false, "explanation": "That's the Passover story."}]},
+  {"question": "Why is Hanukkah prominent in some countries today despite being a minor festival in Judaism?", "difficulty": "hard", "options": [{"text": "Partly because of its closeness to Christmas, not greater religious significance", "correct": true, "explanation": "Yom Kippur and Passover carry more religious weight."}, {"text": "It's the most important Jewish holiday", "correct": false, "explanation": "It's traditionally a minor festival."}, {"text": "It lasts longer than other holidays", "correct": false, "explanation": "Its prominence is cultural timing, not length."}]},
+];
 
 export default function Post() {
   return (

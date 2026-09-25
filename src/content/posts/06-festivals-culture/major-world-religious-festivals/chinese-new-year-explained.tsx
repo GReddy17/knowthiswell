@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-world-religious-festivals",
   tags: ["chinese new year", "lunar new year", "spring festival", "east asian festivals"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Chinese New Year, also called the Spring Festival, marks the start of the lunisolar calendar year and is celebrated with family reunions, red decorations, and fireworks.",
   summary: "Chinese New Year, also known as the Spring Festival or Lunar New Year, marks the beginning of the traditional Chinese lunisolar calendar year, celebrated with family reunions, red decorations symbolizing luck, and a 15-day festival period ending with the Lantern Festival.",
@@ -51,6 +51,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is another name for Chinese New Year?", "difficulty": "easy", "options": [{"text": "The Spring Festival", "correct": true, "explanation": "It marks the start of the year on the traditional lunisolar calendar."}, {"text": "The Harvest Moon Festival", "correct": false, "explanation": "That's a different celebration."}, {"text": "The Dragon Boat Festival", "correct": false, "explanation": "That's a separate festival later in the year."}]},
+  {"question": "When does Chinese New Year usually fall?", "difficulty": "easy", "options": [{"text": "Between late January and mid-February", "correct": true, "explanation": "The date moves each year with the lunisolar calendar."}, {"text": "Always on January 1", "correct": false, "explanation": "It follows the lunisolar calendar, not the Gregorian one."}, {"text": "In mid-summer", "correct": false, "explanation": "It's a winter-to-spring festival."}]},
+  {"question": "What are hongbao?", "difficulty": "easy", "options": [{"text": "Red envelopes with money, given especially to children and unmarried relatives", "correct": true, "explanation": "Red is associated with good luck."}, {"text": "Special lanterns", "correct": false, "explanation": "Lanterns feature at the Lantern Festival; hongbao are envelopes."}, {"text": "New Year dumplings", "correct": false, "explanation": "Hongbao are red money envelopes."}]},
+  {"question": "About how long does the Chinese New Year festival period last?", "difficulty": "medium", "options": [{"text": "About 15 days, ending with the Lantern Festival", "correct": true, "explanation": "Customs are concentrated in the first few days."}, {"text": "One day", "correct": false, "explanation": "It's a multi-day festival period."}, {"text": "A full month with no set end", "correct": false, "explanation": "It ends with the Lantern Festival."}]},
+  {"question": "Why are homes decorated in red for the New Year?", "difficulty": "medium", "options": [{"text": "Red is associated with good luck", "correct": true, "explanation": "Decorations and envelopes use red for this reason."}, {"text": "Red is the only available dye", "correct": false, "explanation": "It's a symbolic choice."}, {"text": "To mark mourning", "correct": false, "explanation": "Red here signals luck and celebration."}]},
+  {"question": "What is the centerpiece of New Year's Eve for many families?", "difficulty": "medium", "options": [{"text": "A family reunion dinner", "correct": true, "explanation": "Families travel to gather for this meal."}, {"text": "A solo fast", "correct": false, "explanation": "It's a shared family meal."}, {"text": "A public exam", "correct": false, "explanation": "The reunion dinner is the focus."}]},
+  {"question": "Why does Chinese New Year fall on a different Gregorian date each year?", "difficulty": "hard", "options": [{"text": "It follows a lunisolar calendar tied to moon phases, not the fixed solar Gregorian calendar", "correct": true, "explanation": "Lunar months don't line up with Gregorian months."}, {"text": "The government picks a new date annually at random", "correct": false, "explanation": "The date is calculated from the calendar."}, {"text": "It is always on the first Monday of February", "correct": false, "explanation": "It's tied to the lunar calendar, not weekdays."}]},
+  {"question": "Which is a related Lunar New Year festival in another culture?", "difficulty": "hard", "options": [{"text": "Tết in Vietnam", "correct": true, "explanation": "Korea's Seollal is another; each has its own customs."}, {"text": "Diwali in India", "correct": false, "explanation": "Diwali is a Hindu festival of lights, not a lunar new year of this kind."}, {"text": "Thanksgiving in the US", "correct": false, "explanation": "That's an unrelated harvest holiday."}]},
+];
 
 export default function Post() {
   return (

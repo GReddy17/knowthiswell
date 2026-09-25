@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "income-and-budgeting-basics",
   tags: ["net worth", "assets and liabilities", "personal finance basics", "financial statements", "money management"],
   date: "2026-08-22",
-  updated: "2026-08-22",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-22",
   excerpt: "Net worth is a single number — total assets minus total liabilities — that summarizes overall financial position at a point in time, distinct from income, which measures cash flow over a period.",
   summary: "Net worth is calculated by subtracting everything owed (liabilities) from everything owned of value (assets), producing a single snapshot figure that reflects overall financial position rather than income or cash flow.",
@@ -49,6 +49,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How do you calculate net worth?", "difficulty": "easy", "options": [{"text": "Total assets minus total liabilities", "correct": true, "explanation": "What you own minus what you owe."}, {"text": "Annual income minus spending", "correct": false, "explanation": "That's cash flow, not net worth."}, {"text": "Total salary over your career", "correct": false, "explanation": "Net worth is a snapshot, not earnings."}]},
+  {"question": "Which of these is a liability?", "difficulty": "easy", "options": [{"text": "A credit card balance", "correct": true, "explanation": "It's money you owe."}, {"text": "Cash in a savings account", "correct": false, "explanation": "That's an asset."}, {"text": "A retirement account", "correct": false, "explanation": "That's an asset."}]},
+  {"question": "Can net worth be negative?", "difficulty": "easy", "options": [{"text": "Yes, when debts exceed what you own", "correct": true, "explanation": "Common early on with student loans."}, {"text": "No, it starts at zero", "correct": false, "explanation": "Debts can push it below zero."}, {"text": "Only for companies", "correct": false, "explanation": "It applies to people too."}]},
+  {"question": "How is net worth different from income?", "difficulty": "medium", "options": [{"text": "Net worth is a snapshot total; income is money coming in over time", "correct": true, "explanation": "A high earner can still have low net worth."}, {"text": "They're the same thing", "correct": false, "explanation": "One is a stock, the other a flow."}, {"text": "Income includes debts", "correct": false, "explanation": "Debts belong in the net worth calculation."}]},
+  {"question": "Someone has $10,000 in savings, a car worth $8,000, and a $12,000 car loan. What's their net worth?", "difficulty": "medium", "options": [{"text": "$6,000", "correct": true, "explanation": "$18,000 in assets minus $12,000 owed."}, {"text": "$18,000", "correct": false, "explanation": "Subtract the loan."}, {"text": "$30,000", "correct": false, "explanation": "The loan is subtracted, not added."}]},
+  {"question": "Is a negative net worth at age 23 with student loans a sign of financial distress?", "difficulty": "medium", "options": [{"text": "Not by itself; it's common early in adulthood", "correct": true, "explanation": "The trend over time matters more."}, {"text": "Yes, always", "correct": false, "explanation": "Early negative net worth is normal."}, {"text": "Only if the loans are federal", "correct": false, "explanation": "Loan type doesn't change that."}]},
+  {"question": "A home worth $300,000 has a $220,000 mortgage. How does it affect net worth?", "difficulty": "hard", "options": [{"text": "Adds $80,000 overall: $300,000 asset, $220,000 liability", "correct": true, "explanation": "List both sides; the net effect is the equity."}, {"text": "Adds $300,000", "correct": false, "explanation": "The mortgage is still owed."}, {"text": "It doesn't count until it's paid off", "correct": false, "explanation": "Both the home and the loan count now."}]},
+  {"question": "You use $2,000 of savings to pay off a $2,000 credit card balance. What happens to your net worth?", "difficulty": "hard", "options": [{"text": "It stays the same", "correct": true, "explanation": "Assets and liabilities both drop by $2,000."}, {"text": "It drops by $2,000", "correct": false, "explanation": "The debt disappears too."}, {"text": "It rises by $2,000", "correct": false, "explanation": "Both sides fall equally."}]},
+];
 
 export default function Post() {
   return (

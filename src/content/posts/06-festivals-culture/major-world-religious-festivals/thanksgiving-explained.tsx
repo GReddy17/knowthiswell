@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-world-religious-festivals",
   tags: ["thanksgiving", "american festivals", "harvest festivals", "wampanoag"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Thanksgiving is a US harvest holiday traced to an 1621 Plymouth gathering — a more complicated history than the simplified grade-school 'First Thanksgiving' story.",
   summary: "Thanksgiving is a national holiday in the United States (and, separately, Canada) rooted in a documented 1621 harvest gathering between Plymouth colonists and the Wampanoag, whose full history is more complex, and for the Wampanoag more difficult, than the simplified version often taught in schools.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "When is Thanksgiving held in the United States?", "difficulty": "easy", "options": [{"text": "The fourth Thursday of November", "correct": true, "explanation": "It's a national holiday."}, {"text": "December 25", "correct": false, "explanation": "That's Christmas."}, {"text": "The first Monday of October", "correct": false, "explanation": "Canada's Thanksgiving is in October, but not on that fixed day."}]},
+  {"question": "What is Thanksgiving centered on today?", "difficulty": "easy", "options": [{"text": "A family meal and gratitude", "correct": true, "explanation": "It's traced to a 1621 harvest gathering."}, {"text": "Fireworks", "correct": false, "explanation": "That's more Independence Day."}, {"text": "Religious fasting", "correct": false, "explanation": "It centers on a shared meal."}]},
+  {"question": "Does Canada have Thanksgiving?", "difficulty": "easy", "options": [{"text": "Yes, its own separate holiday in October", "correct": true, "explanation": "It's distinct from the US holiday."}, {"text": "No", "correct": false, "explanation": "Canada observes its own Thanksgiving."}, {"text": "Yes, on the same November day as the US", "correct": false, "explanation": "Canada's is in October."}]},
+  {"question": "Which two groups took part in the documented 1621 harvest gathering?", "difficulty": "medium", "options": [{"text": "Plymouth colonists and the Wampanoag", "correct": true, "explanation": "It's the event the holiday is often traced to."}, {"text": "French and Spanish settlers", "correct": false, "explanation": "The 1621 gathering involved Plymouth colonists and the Wampanoag."}, {"text": "Canadian and US soldiers", "correct": false, "explanation": "That's not the 1621 event."}]},
+  {"question": "In what year did Thanksgiving become a fixed annual national holiday?", "difficulty": "medium", "options": [{"text": "1863", "correct": true, "explanation": "During the Civil War, more than two centuries after 1621."}, {"text": "1621", "correct": false, "explanation": "That's the gathering, not the national holiday."}, {"text": "1776", "correct": false, "explanation": "That's the Declaration of Independence."}]},
+  {"question": "Who led the campaign that helped make Thanksgiving a national holiday?", "difficulty": "medium", "options": [{"text": "Writer Sarah Josepha Hale", "correct": true, "explanation": "President Abraham Lincoln then issued the proclamation."}, {"text": "George Washington", "correct": false, "explanation": "The 1863 national holiday followed Hale's campaign."}, {"text": "Benjamin Franklin", "correct": false, "explanation": "Hale led the campaign."}]},
+  {"question": "Which president proclaimed Thanksgiving a national holiday in 1863?", "difficulty": "hard", "options": [{"text": "Abraham Lincoln", "correct": true, "explanation": "It was during the Civil War."}, {"text": "Thomas Jefferson", "correct": false, "explanation": "It was Lincoln."}, {"text": "Franklin D. Roosevelt", "correct": false, "explanation": "Lincoln issued the 1863 proclamation."}]},
+  {"question": "How do historians and Wampanoag sources view the popular \"First Thanksgiving\" story?", "difficulty": "hard", "options": [{"text": "As a simplification of a limited event followed by decades of conflict, disease and land loss", "correct": true, "explanation": "The fuller history is more complicated than the school version."}, {"text": "As a complete and accurate account", "correct": false, "explanation": "It's considered a simplification."}, {"text": "As an event that never happened", "correct": false, "explanation": "The 1621 gathering is documented; its framing is what's questioned."}]},
+];
 
 export default function Post() {
   return (

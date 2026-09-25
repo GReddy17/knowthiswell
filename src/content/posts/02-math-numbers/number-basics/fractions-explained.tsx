@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "number-basics",
   tags: ["fractions", "numerator", "denominator"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "A fraction is a division that hasn't been carried out yet — the top number split by the bottom number, expressed as parts of a whole.",
   summary: "A fraction represents a part of a whole, written as a numerator (the part) over a denominator (the total number of equal parts the whole is divided into).",
@@ -51,6 +51,18 @@ export const metadata: PostFrontmatter = {
   youtubeStatus: "not-started",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "In 3/4, what does the 4 tell you?", "difficulty": "easy", "options": [{"text": "How many equal parts make up the whole", "correct": true, "explanation": "That's the denominator."}, {"text": "How many parts you have", "correct": false, "explanation": "That's the numerator, 3."}, {"text": "How many wholes there are", "correct": false, "explanation": "It counts parts of one whole."}]},
+  {"question": "Which fraction equals 1/2?", "difficulty": "easy", "options": [{"text": "3/6", "correct": true, "explanation": "Divide top and bottom by 3."}, {"text": "2/3", "correct": false, "explanation": "That's more than a half."}, {"text": "1/3", "correct": false, "explanation": "That's less than a half."}]},
+  {"question": "What is the top number of a fraction called?", "difficulty": "easy", "options": [{"text": "The numerator", "correct": true, "explanation": "It counts the parts you have."}, {"text": "The denominator", "correct": false, "explanation": "That's the bottom number."}, {"text": "The quotient", "correct": false, "explanation": "That's the result of a division."}]},
+  {"question": "A fraction is really which operation waiting to be done?", "difficulty": "medium", "options": [{"text": "Division", "correct": true, "explanation": "3/4 is 3 divided by 4."}, {"text": "Subtraction", "correct": false, "explanation": "The bar means divide."}, {"text": "Addition", "correct": false, "explanation": "The bar means divide."}]},
+  {"question": "When do you need a common denominator?", "difficulty": "medium", "options": [{"text": "When adding or subtracting fractions", "correct": true, "explanation": "Multiplying and dividing don't need one."}, {"text": "When multiplying fractions", "correct": false, "explanation": "Multiply tops and bottoms directly."}, {"text": "Always, for every operation", "correct": false, "explanation": "Only adding and subtracting need it."}]},
+  {"question": "What is 2/3 x 3/4?", "difficulty": "medium", "options": [{"text": "1/2", "correct": true, "explanation": "6/12 simplifies to 1/2."}, {"text": "5/7", "correct": false, "explanation": "That adds tops and bottoms, which isn't multiplication."}, {"text": "8/9", "correct": false, "explanation": "That divides instead of multiplying."}]},
+  {"question": "What is 3/4 - 1/6?", "difficulty": "hard", "options": [{"text": "7/12", "correct": true, "explanation": "9/12 - 2/12 = 7/12."}, {"text": "2/2", "correct": false, "explanation": "Subtracting tops and bottoms separately doesn't work."}, {"text": "1/2", "correct": false, "explanation": "Convert to twelfths: 9/12 - 2/12."}]},
+  {"question": "What is 1/2 divided by 1/4?", "difficulty": "hard", "options": [{"text": "2", "correct": true, "explanation": "Multiply by the flip: 1/2 x 4/1 = 2. Two quarters fit in a half."}, {"text": "1/8", "correct": false, "explanation": "That's multiplying, not dividing."}, {"text": "1/2", "correct": false, "explanation": "Flip the second fraction and multiply."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "income-and-budgeting-basics",
   tags: ["financial goals", "short-term goals", "long-term goals", "personal finance basics", "goal setting"],
   date: "2026-08-22",
-  updated: "2026-08-22",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-22",
   excerpt: "Financial goals are typically grouped by time horizon — short-term (under a year), medium-term (one to five years), and long-term (five-plus years) — because the time horizon determines how the money for that goal should be saved or invested.",
   summary: "Setting financial goals means defining a specific target amount and timeframe, then grouping goals by how soon the money is needed (short, medium, or long term), since the appropriate savings or investment approach differs sharply based on that timeframe.",
@@ -49,6 +49,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What makes something a financial goal rather than a wish?", "difficulty": "easy", "options": [{"text": "A specific amount, a date and a purpose", "correct": true, "explanation": "\"$3,000 for car repairs by June\" beats \"save more.\""}, {"text": "Telling friends about it", "correct": false, "explanation": "Specifics make it actionable."}, {"text": "Having a high income", "correct": false, "explanation": "Anyone can set a specific goal."}]},
+  {"question": "Roughly how far away is a short-term goal?", "difficulty": "easy", "options": [{"text": "Within about a year", "correct": true, "explanation": "Like a holiday fund."}, {"text": "Five-plus years", "correct": false, "explanation": "That's long-term."}, {"text": "Ten-plus years", "correct": false, "explanation": "That's firmly long-term."}]},
+  {"question": "Which is a typical long-term goal?", "difficulty": "easy", "options": [{"text": "Retirement", "correct": true, "explanation": "Usually decades away."}, {"text": "Next month's rent", "correct": false, "explanation": "That's immediate."}, {"text": "A weekend trip", "correct": false, "explanation": "That's short-term."}]},
+  {"question": "Where does money for a short-term goal usually belong?", "difficulty": "medium", "options": [{"text": "A regular savings account, safe and accessible", "correct": true, "explanation": "It needs to be there when the date arrives."}, {"text": "Individual volatile stocks", "correct": false, "explanation": "A drop right before you need it could sink the goal."}, {"text": "A locked retirement account", "correct": false, "explanation": "Withdrawing early can mean penalties."}]},
+  {"question": "Why can long-term goals usually be invested for growth?", "difficulty": "medium", "options": [{"text": "There's time to ride out ups and downs", "correct": true, "explanation": "Short-term drops matter less over many years."}, {"text": "Investments never fall over the long term", "correct": false, "explanation": "They can fall; time gives room to recover."}, {"text": "Savings accounts don't allow long-term deposits", "correct": false, "explanation": "They do, but growth is usually lower."}]},
+  {"question": "Which goal is written most usefully?", "difficulty": "medium", "options": [{"text": "Save $1,200 for a new laptop by next March", "correct": true, "explanation": "Amount, date and purpose tell you how much to set aside each month."}, {"text": "Be better with money", "correct": false, "explanation": "No amount, no date."}, {"text": "Save as much as possible", "correct": false, "explanation": "No target to measure progress against."}]},
+  {"question": "What is the main risk of investing money you need in 6 months in a volatile asset?", "difficulty": "hard", "options": [{"text": "It could lose value right when you need it", "correct": true, "explanation": "That's a time-horizon mismatch."}, {"text": "It will grow too fast", "correct": false, "explanation": "The risk is on the downside."}, {"text": "There's no risk if the asset is popular", "correct": false, "explanation": "Popular assets fall too."}]},
+  {"question": "You need $3,000 in 10 months. How much should you set aside each month?", "difficulty": "hard", "options": [{"text": "$300", "correct": true, "explanation": "$3,000 divided by 10 months."}, {"text": "$250", "correct": false, "explanation": "That spreads it over 12 months."}, {"text": "$30", "correct": false, "explanation": "That's off by a factor of ten."}]},
+];
 
 export default function Post() {
   return (

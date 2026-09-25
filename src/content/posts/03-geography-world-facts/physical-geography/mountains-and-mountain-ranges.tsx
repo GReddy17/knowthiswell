@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "physical-geography",
   tags: ["mountains", "plate tectonics", "physical geography", "erosion"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "How mountains form, why the Himalayas are still growing, and why the Appalachians are shorter than a mountain range their age has any right to be.",
   summary: "Mountains form mainly where tectonic plates collide, volcanoes erupt, or crust cracks and lifts along faults — and once formed, they're locked in a permanent tug-of-war between the forces building them up and erosion wearing them back down.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How do most great mountain ranges form?", "difficulty": "easy", "options": [{"text": "Tectonic plates colliding and crumpling the crust upward", "correct": true, "explanation": "The ground has nowhere to go but up."}, {"text": "Wind piling up sand", "correct": false, "explanation": "That forms dunes, not mountain ranges."}, {"text": "Meteor impacts", "correct": false, "explanation": "Plate collisions build most ranges."}]},
+  {"question": "Which collision formed the Himalayas?", "difficulty": "easy", "options": [{"text": "India colliding with Asia", "correct": true, "explanation": "India was once a separate landmass and is still pushing north."}, {"text": "Africa colliding with Europe", "correct": false, "explanation": "That relates to other ranges, not the Himalayas."}, {"text": "Australia colliding with Asia", "correct": false, "explanation": "It was India."}]},
+  {"question": "Are the Himalayas still rising?", "difficulty": "easy", "options": [{"text": "Yes, because India is still colliding with Asia", "correct": true, "explanation": "The collision is ongoing."}, {"text": "No, they stopped long ago", "correct": false, "explanation": "Uplift continues today."}, {"text": "They're shrinking fast", "correct": false, "explanation": "Uplift is still active."}]},
+  {"question": "Besides plate collisions, how else can mountains form?", "difficulty": "medium", "options": [{"text": "Volcanic eruptions, or blocks of rock pushed up along cracks in the crust", "correct": true, "explanation": "Not every mountain comes from collision."}, {"text": "Only from collisions", "correct": false, "explanation": "Volcanoes and fault blocks also build mountains."}, {"text": "From rivers depositing sand", "correct": false, "explanation": "Rivers erode mountains more than build them."}]},
+  {"question": "What decides a mountain's height over time?", "difficulty": "medium", "options": [{"text": "A balance between tectonic uplift and erosion", "correct": true, "explanation": "Height isn't a one-time event."}, {"text": "Only its original height", "correct": false, "explanation": "Erosion keeps changing it."}, {"text": "How many people climb it", "correct": false, "explanation": "Uplift and erosion are the forces."}]},
+  {"question": "Which forces wear mountains down?", "difficulty": "medium", "options": [{"text": "Wind, water and ice", "correct": true, "explanation": "Erosion constantly works against uplift."}, {"text": "Earthquakes only", "correct": false, "explanation": "Erosion by wind, water and ice is the main process."}, {"text": "Nothing; mountains are permanent", "correct": false, "explanation": "All mountains erode over time."}]},
+  {"question": "Why are the Appalachians so much lower than the Himalayas today?", "difficulty": "hard", "options": [{"text": "They're far older and have been eroded for roughly 300 million years", "correct": true, "explanation": "They may once have been as tall or taller."}, {"text": "They were always small", "correct": false, "explanation": "They were likely once very tall."}, {"text": "They're made of softer rock that never rose", "correct": false, "explanation": "Age and long erosion explain the difference."}]},
+  {"question": "How can you tell an old mountain range from a young one by shape?", "difficulty": "hard", "options": [{"text": "Old ranges tend to be worn down and rounded; young ones are taller and more jagged", "correct": true, "explanation": "Erosion rounds peaks over time."}, {"text": "Old ranges are always taller", "correct": false, "explanation": "Erosion lowers them."}, {"text": "There's no visible difference", "correct": false, "explanation": "Age shows in rounded versus sharp profiles."}]},
+];
 
 export default function Post() {
   return (

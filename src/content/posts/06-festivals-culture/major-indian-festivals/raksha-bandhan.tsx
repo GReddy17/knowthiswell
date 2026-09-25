@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-indian-festivals",
   tags: ["raksha bandhan", "rakhi", "hindu festivals", "sibling traditions"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Raksha Bandhan is a Hindu festival celebrating the bond between siblings, marked by sisters tying a sacred thread (rakhi) on their brothers' wrists.",
   summary: "Raksha Bandhan (\"the bond of protection\") is a Hindu festival where sisters tie a rakhi thread on their brothers' wrists as a symbol of protection and affection, and brothers respond with gifts and a pledge of protection.",
@@ -49,6 +49,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does \"Raksha Bandhan\" mean?", "difficulty": "easy", "options": [{"text": "The bond or tie of protection", "correct": true, "explanation": "It celebrates mutual care."}, {"text": "Festival of colors", "correct": false, "explanation": "That's Holi."}, {"text": "Nine nights", "correct": false, "explanation": "That's Navratri."}]},
+  {"question": "What is a rakhi?", "difficulty": "easy", "options": [{"text": "A decorative thread tied on the brother's wrist", "correct": true, "explanation": "It's the core ritual."}, {"text": "A festival meal", "correct": false, "explanation": "It's a thread."}, {"text": "An oil lamp", "correct": false, "explanation": "Lamps are Diwali's diyas."}]},
+  {"question": "What does the brother traditionally do in return?", "difficulty": "easy", "options": [{"text": "Gives a gift and promises to look out for his sister", "correct": true, "explanation": "The ritual symbolizes mutual care."}, {"text": "Ties a rakhi on the sister", "correct": false, "explanation": "Traditionally the sister ties it."}, {"text": "Nothing", "correct": false, "explanation": "He gives a gift and a promise."}]},
+  {"question": "When does Raksha Bandhan usually fall?", "difficulty": "medium", "options": [{"text": "On the full moon of Shravana, usually in August", "correct": true, "explanation": "It follows the Hindu lunar calendar."}, {"text": "In January", "correct": false, "explanation": "That's Makar Sankranti."}, {"text": "On December 25", "correct": false, "explanation": "That's Christmas."}]},
+  {"question": "How is the day usually celebrated?", "difficulty": "medium", "options": [{"text": "A short prayer ritual, sweets and a family gathering", "correct": true, "explanation": "It's a family occasion."}, {"text": "Throwing colors", "correct": false, "explanation": "That's Holi."}, {"text": "A month of fasting", "correct": false, "explanation": "That's Ramadan."}]},
+  {"question": "Is the rakhi's meaning a one-way favor from brother to sister?", "difficulty": "medium", "options": [{"text": "No, it symbolizes mutual care", "correct": true, "explanation": "The bond runs both ways."}, {"text": "Yes, only the brother protects", "correct": false, "explanation": "The meaning is mutual care."}, {"text": "It has no meaning", "correct": false, "explanation": "It symbolizes a protective bond."}]},
+  {"question": "Is Raksha Bandhan only for biological siblings?", "difficulty": "hard", "options": [{"text": "No, rakhis are also tied between cousins, close friends and even community protectors", "correct": true, "explanation": "The sibling-bond idea extends beyond blood relation."}, {"text": "Yes, strictly biological siblings", "correct": false, "explanation": "It's widely extended to other relationships."}, {"text": "It's only a workplace tradition", "correct": false, "explanation": "Family remains the most common setting."}]},
+  {"question": "Why might someone tie a rakhi on a community protector?", "difficulty": "hard", "options": [{"text": "To extend the idea of a protective bond beyond family", "correct": true, "explanation": "The concept is about mutual protection."}, {"text": "Because it's required by law", "correct": false, "explanation": "It's a symbolic, voluntary gesture."}, {"text": "To mark the harvest", "correct": false, "explanation": "Raksha Bandhan is about protective bonds."}]},
+];
 
 export default function Post() {
   return (

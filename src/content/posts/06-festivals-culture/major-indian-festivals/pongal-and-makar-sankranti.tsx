@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-indian-festivals",
   tags: ["pongal", "makar sankranti", "harvest festival", "tamil festivals"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Pongal and Makar Sankranti are harvest festivals celebrated across India in mid-January, marking the sun's movement into Capricorn and the start of longer days.",
   summary: "Pongal (Tamil Nadu) and Makar Sankranti (most of the rest of India) are regional names for harvest festivals falling around January 14-15, tied to the sun's transition into the Capricorn zodiac sign.",
@@ -49,6 +49,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Are Pongal and Makar Sankranti different festivals?", "difficulty": "easy", "options": [{"text": "No, they're regional names for essentially the same harvest festival", "correct": true, "explanation": "Pongal in Tamil Nadu, Makar Sankranti in much of India."}, {"text": "Yes, completely unrelated", "correct": false, "explanation": "They mark the same event."}, {"text": "Pongal is a Christian holiday", "correct": false, "explanation": "It's a Hindu harvest festival."}]},
+  {"question": "Around what date do they fall?", "difficulty": "easy", "options": [{"text": "January 14 to 15", "correct": true, "explanation": "The date barely changes year to year."}, {"text": "October", "correct": false, "explanation": "That's closer to Navratri or Diwali."}, {"text": "August", "correct": false, "explanation": "That's closer to Onam or Raksha Bandhan."}]},
+  {"question": "What do both festivals give thanks for?", "difficulty": "easy", "options": [{"text": "The harvest", "correct": true, "explanation": "They're harvest festivals."}, {"text": "The end of a fast", "correct": false, "explanation": "That's Eid al-Fitr."}, {"text": "A military victory", "correct": false, "explanation": "They center on the harvest."}]},
+  {"question": "How long is Pongal in Tamil Nadu?", "difficulty": "medium", "options": [{"text": "Four days", "correct": true, "explanation": "Makar Sankranti is typically one day elsewhere."}, {"text": "Nine nights", "correct": false, "explanation": "That's Navratri."}, {"text": "One day", "correct": false, "explanation": "Pongal lasts four days."}]},
+  {"question": "Besides the festival, what does \"Pongal\" also refer to?", "difficulty": "medium", "options": [{"text": "A signature rice-and-lentil dish cooked for the celebration", "correct": true, "explanation": "The dish shares the festival's name."}, {"text": "A type of dance", "correct": false, "explanation": "It's a dish."}, {"text": "A flower carpet", "correct": false, "explanation": "That's Onam's pookalam."}]},
+  {"question": "What astronomical event do both mark?", "difficulty": "medium", "options": [{"text": "The sun's move into the Capricorn zodiac sign", "correct": true, "explanation": "That transition sets the date."}, {"text": "A full moon", "correct": false, "explanation": "They're solar, not lunar."}, {"text": "A solar eclipse", "correct": false, "explanation": "They mark the sun's transition into Capricorn."}]},
+  {"question": "Why does Makar Sankranti fall on almost the same Gregorian date each year?", "difficulty": "hard", "options": [{"text": "It's fixed on the solar calendar, unlike most Hindu festivals, which are lunar", "correct": true, "explanation": "Solar events line up closely with the Gregorian calendar."}, {"text": "The government fixed it by law", "correct": false, "explanation": "Its date comes from astronomy."}, {"text": "It follows the lunar calendar", "correct": false, "explanation": "Lunar festivals move around; this one doesn't."}]},
+  {"question": "Most Hindu festivals move around the Gregorian calendar. Why is this one different?", "difficulty": "hard", "options": [{"text": "It tracks the sun's position rather than a moon phase", "correct": true, "explanation": "Solar timing barely shifts on the Gregorian calendar."}, {"text": "It's celebrated only in leap years", "correct": false, "explanation": "It's every year."}, {"text": "It isn't a Hindu festival", "correct": false, "explanation": "It is, but it's solar-based."}]},
+];
 
 export default function Post() {
   return (

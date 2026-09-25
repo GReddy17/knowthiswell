@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "major-indian-festivals",
   tags: ["diwali", "hindu festivals", "festival of lights", "indian festivals"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-24",
   lastReviewed: "2026-08-16",
   excerpt: "Diwali is the five-day Hindu festival of lights marking the victory of light over darkness, celebrated with lamps, family gatherings, and sweets.",
   summary: "Diwali (Deepavali) is a five-day Hindu festival of lights, celebrated by lighting oil lamps and candles, that marks the symbolic victory of light over darkness and good over evil.",
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is another name for Diwali?", "difficulty": "easy", "options": [{"text": "Deepavali", "correct": true, "explanation": "Both names are widely used."}, {"text": "Holi", "correct": false, "explanation": "Holi is a different festival of colors."}, {"text": "Onam", "correct": false, "explanation": "Onam is a harvest festival from Kerala."}]},
+  {"question": "What does Diwali celebrate at its core?", "difficulty": "easy", "options": [{"text": "Light winning over darkness and good over evil", "correct": true, "explanation": "Lamp-lighting symbolizes this."}, {"text": "The start of winter", "correct": false, "explanation": "Its core theme is light over darkness."}, {"text": "A national independence day", "correct": false, "explanation": "It's a religious and cultural festival."}]},
+  {"question": "What are diyas?", "difficulty": "easy", "options": [{"text": "Small oil lamps lit during Diwali", "correct": true, "explanation": "They're central to the festival of lights."}, {"text": "Sweets", "correct": false, "explanation": "Sweets are shared, but diyas are lamps."}, {"text": "Colored powders", "correct": false, "explanation": "Diyas are lamps."}]},
+  {"question": "How long is the Diwali festival?", "difficulty": "medium", "options": [{"text": "Five days", "correct": true, "explanation": "It isn't a single-day event."}, {"text": "One evening", "correct": false, "explanation": "It spans five days."}, {"text": "A month", "correct": false, "explanation": "The main festival is five days."}]},
+  {"question": "When does Diwali usually fall?", "difficulty": "medium", "options": [{"text": "October or November", "correct": true, "explanation": "The exact date follows the lunar calendar."}, {"text": "Always on December 25", "correct": false, "explanation": "That's Christmas."}, {"text": "In March", "correct": false, "explanation": "Diwali usually falls in October or November."}]},
+  {"question": "What is rangoli?", "difficulty": "medium", "options": [{"text": "Decorative patterns made at home entrances", "correct": true, "explanation": "Homes are decorated with rangoli for the festival."}, {"text": "A festive song", "correct": false, "explanation": "Rangoli is a decorative art form."}, {"text": "A type of firework", "correct": false, "explanation": "It's a floor or ground pattern."}]},
+  {"question": "Which stories are part of the Diwali tradition in different regions?", "difficulty": "hard", "options": [{"text": "Rama's return to Ayodhya, Krishna's defeat of Narakasura, and the worship of Lakshmi", "correct": true, "explanation": "They are all part of the tradition, not competing versions."}, {"text": "Only one story, the same everywhere", "correct": false, "explanation": "The story varies by region and community."}, {"text": "Stories unrelated to Hindu tradition", "correct": false, "explanation": "These are Hindu traditions, with Jain and Sikh meanings too."}]},
+  {"question": "Which communities celebrate Diwali, each with its own meaning?", "difficulty": "hard", "options": [{"text": "Hindus, Jains and Sikhs", "correct": true, "explanation": "They attach different meanings to the same lamp-lighting tradition."}, {"text": "Only Hindus", "correct": false, "explanation": "Jains and Sikhs also observe it."}, {"text": "No religious community; it's purely secular", "correct": false, "explanation": "It has religious meaning for several communities."}]},
+];
 
 export default function Post() {
   return (
