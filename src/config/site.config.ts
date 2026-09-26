@@ -36,7 +36,7 @@ export const siteConfig = {
   nav: [
     { label: 'Topics', href: '/' },
     { label: 'Glossary A–Z', href: '/glossary/a' },
-    { label: 'About & Method', href: '/about/method' },
+    { label: 'About', href: '/about' },
   ],
 } as const;
 

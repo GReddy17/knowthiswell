@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const metadata = { title: 'About & Editorial Method' };
 
 export default function MethodPage() {
@@ -33,7 +35,11 @@ export default function MethodPage() {
       <h2 className="mb-3 mt-10 font-display text-2xl">Corrections</h2>
       <p className="mb-6">
         If you find an error, factual or otherwise, corrections are
-        welcome — see the contact information in the site footer.
+        welcome. Use the feedback box at the bottom of the entry, or our{' '}
+        <Link href="/contact" className="text-forest underline underline-offset-2">
+          contact form
+        </Link>
+        .
       </p>
     </div>
   );

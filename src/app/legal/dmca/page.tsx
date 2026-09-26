@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const metadata = { title: 'DMCA Policy' };
 
 export default function DMCAPage() {
@@ -16,12 +18,16 @@ export default function DMCAPage() {
       <h2 className="mb-3 mt-10 font-display text-2xl">Filing a takedown notice</h2>
       <p className="mb-4">
         If you believe content on this site infringes your copyright,
-        send a written notice including:
+        send a notice through our{' '}
+        <Link href="/contact" className="text-forest underline underline-offset-2">
+          contact form
+        </Link>{' '}
+        (choose &quot;Copyright or content removal&quot;) including:
       </p>
       <ul className="mb-6 list-disc pl-6 text-ink-soft">
         <li>Identification of the copyrighted work claimed to be infringed</li>
         <li>The specific URL(s) on this site where the material is located</li>
-        <li>Your contact information (name, address, phone, email)</li>
+        <li>Your name and an email address where we can reach you</li>
         <li>
           A statement that you have a good-faith belief the use is not
           authorized by the copyright owner, its agent, or the law
@@ -37,14 +43,17 @@ export default function DMCAPage() {
       <h2 className="mb-3 mt-10 font-display text-2xl">Reporting unauthorized copies of this site&apos;s content</h2>
       <p className="mb-6 text-ink-soft">
         If you find content from this site reproduced elsewhere without
-        permission, please report it using the same contact channel — a
-        specific URL comparison speeds up review considerably.
+        permission, please report it through the same contact form. A
+        side-by-side list of the original and copied URLs speeds up review
+        considerably.
       </p>
 
-      <p className="mt-10 text-sm text-ink-soft">
-        <strong>ASSUMPTION FLAGGED:</strong> a real contact email/address
-        needs to be added here before this page is considered complete —
-        currently no contact channel is specified.
+      <h2 className="mb-3 mt-10 font-display text-2xl">What happens next</h2>
+      <p className="mb-6 text-ink-soft">
+        We review every complete notice and remove or disable access to
+        material that infringes. If your content was removed and you believe
+        that was a mistake, you can send a counter-notice through the same
+        form explaining why.
       </p>
     </div>
   );
