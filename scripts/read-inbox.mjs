@@ -26,7 +26,9 @@ if (!process.env.BLOB_READ_WRITE_TOKEN && existsSync('.claude/private/blob.env')
     if (m) process.env.BLOB_READ_WRITE_TOKEN = m[1].replace(/^"|"$/g, '');
   }
 }
-if (!process.env.BLOB_READ_WRITE_TOKEN) {
+if (process.env.BLOB_READ_WRITE_TOKEN) {
+  process.env.BLOB_READ_WRITE_TOKEN = process.env.BLOB_READ_WRITE_TOKEN.replace(/^"|"$/g, '');
+} else {
   console.error('read-inbox: no BLOB_READ_WRITE_TOKEN (set it, or run `vercel env pull` and copy it into .claude/private/blob.env).');
   process.exit(1);
 }
