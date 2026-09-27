@@ -22,14 +22,21 @@ export const metadata: PostFrontmatter = {
   subtopic: "vaccination-and-preventive-health-literacy",
   tags: ["vaccine myths", "vaccine safety", "misinformation", "immunology"],
   date: "2026-08-21",
-  updated: "2026-08-21",
-  lastReviewed: "2026-08-21",
+  updated: "2026-09-27",
+  lastReviewed: "2026-09-27",
   excerpt: "Several widely repeated vaccine claims have been directly tested and refuted by large, real studies — the science here is settled, not a matter of opinion, and stating it plainly is more accurate than hedging it.",
   summary: "A handful of vaccine myths circulate persistently despite being directly contradicted by large-scale, published research — including the vaccines-cause-autism claim (traced to a single retracted, fraudulent 1998 study), the idea that natural infection is always safer than vaccination, and the belief that vaccine ingredients like adjuvants are unsafe at the doses used, each of which has real, citable evidence against it from CDC, WHO, and independent research bodies.",
   sources: [
     { label: "CDC — Vaccine Safety: Autism and Vaccines", url: "https://www.cdc.gov/vaccinesafety/concerns/autism.html" },
     { label: "World Health Organization — Vaccine Safety Basics", url: "https://vaccine-safety-training.org/" },
     { label: "The Lancet — Editorial Retraction of Wakefield et al. (2010)", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)60175-4/fulltext" },
+    { label: "Hviid et al., Annals of Internal Medicine (2019) — MMR vaccination and autism: a nationwide cohort study", url: "https://www.acpjournals.org/doi/10.7326/M18-2101" },
+    { label: "CDC — Autism Spectrum Disorder: Data and Research", url: "https://www.cdc.gov/autism/data-research/index.html" },
+    { label: "Schechter & Grether, Archives of General Psychiatry (2008) — autism cases in California after thimerosal removal", url: "https://pubmed.ncbi.nlm.nih.gov/18180426/" },
+    { label: "Children's Hospital of Philadelphia Vaccine Education Center — Aluminum in vaccines", url: "https://www.chop.edu/centers-programs/vaccine-education-center/vaccine-ingredients/aluminum" },
+    { label: "Mitkus et al., Vaccine (2011) — FDA analysis of infant aluminum exposure from vaccines and diet", url: "https://pubmed.ncbi.nlm.nih.gov/22001122/" },
+    { label: "CDC — The U.S. Public Health Service Untreated Syphilis Study at Tuskegee: timeline", url: "https://www.cdc.gov/tuskegee/about/timeline.html" },
+    { label: "HHS Office for Human Research Protections — The Belmont Report (1979)", url: "https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html" },
   ],
   seeAlso: [
     "health-body-basics/how-vaccines-work-general-immunology-overview",
@@ -39,6 +46,7 @@ export const metadata: PostFrontmatter = {
   glossary: [
     {"term":"Adjuvant","definition":"An ingredient added to some vaccines to boost the strength of the immune response they generate, used in carefully studied, regulated amounts."},
     {"term":"Retraction (scientific publishing)","definition":"A formal withdrawal of a published study by a journal, usually due to serious errors, fraud, or ethical violations, meaning the study's findings are no longer considered valid evidence."},
+    {"term":"Aluminum adjuvant","definition":"A small amount of an aluminum salt added to some non-live vaccines to strengthen the immune response. Live vaccines such as MMR don't contain it."},
     {"term":"Cohort study","definition":"A research design that follows a large group of people over time to compare outcomes between those exposed to a factor (like a vaccine) and those who weren't — one of the main study types used to evaluate vaccine safety at scale."},
   ],
   author: {
@@ -46,8 +54,8 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "not-started",
-  youtubeUrl: "",
+  youtubeStatus: "published",
+  youtubeUrl: "https://www.youtube.com/watch?v=2jp9IqKN44E",
   draft: false,
 };
 
@@ -114,6 +122,16 @@ export default function Post() {
       A commonly repeated claim holds that the number of vaccines on a modern childhood schedule &quot;overwhelms&quot; or &quot;overloads&quot; a child&apos;s immune system. Immunological research has found that the immune system encounters and responds to a vastly larger number of distinct antigens from ordinary daily environmental exposure than it does from the entire recommended vaccine schedule combined — a point the American Academy of Pediatrics and CDC both cite directly when addressing this specific claim. The immune system&apos;s capacity to respond to multiple antigens simultaneously is not the limiting factor this claim assumes it to be.
       </div>
 
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 4: &quot;Autism rose at the same time vaccines did&quot; (correlation vs cause)</h3>
+      <div className="prose-p">
+      Autism diagnoses really have risen a lot over the past few decades, and so has the number of routine childhood vaccines. Two things rising together doesn&apos;t mean one causes the other, and most of the rise in diagnoses has a documented explanation. The definition widened: the DSM-IV in 1994 added Asperger&apos;s disorder, and the DSM-5 in 2013 folded several diagnoses into a single autism spectrum. Screening expanded too, with U.S. pediatricians advised since 2007 to screen every child for autism at 18 and 24 months, and awareness among parents and teachers grew. There&apos;s also a direct test of the vaccine explanation: thimerosal, the preservative most blamed at the time, was taken out of routine U.S. childhood vaccines around 2001, and autism cases in California kept rising afterward. If vaccines were driving the trend, removing the suspected ingredient should have bent the curve. It didn&apos;t.
+      </div>
+
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 5: &quot;Aluminum is a neurotoxin&quot; (dose matters)</h3>
+      <div className="prose-p">
+      Aluminum can harm nerve tissue at high enough exposures, which is where this claim starts. Some non-live vaccines use a small amount of an aluminum salt as an adjuvant, while live vaccines such as MMR contain none at all. The amounts matter: according to the Children&apos;s Hospital of Philadelphia, a baby receives about 4.4 milligrams of aluminum from vaccines in the first six months, compared with about 7 milligrams from breast milk, about 38 milligrams from standard formula, and about 117 milligrams from soy-based formula over the same period. An FDA analysis of infant aluminum exposure from both vaccines and diet found the combined amount stayed below the federal minimal risk level, a deliberately conservative safety threshold, throughout the first year. A substance being toxic at high doses doesn&apos;t make every amount of it dangerous. The dose is what decides.
+      </div>
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How it works (visual)</h2>
       <DiagramBlock
       title="Timeline: the Wakefield claim, investigation, and retraction"
@@ -165,6 +183,9 @@ export default function Post() {
       { question: "Can too many vaccines overwhelm a child's immune system?", answer: "No. Research cited by the CDC and American Academy of Pediatrics shows the immune system handles vastly more antigens from ordinary daily exposure than from the entire recommended vaccine schedule combined." },
       { question: "Are vaccine ingredients like adjuvants safe?", answer: "Adjuvants and other vaccine ingredients are tested and regulated at the specific doses used in actual vaccines — many circulating ingredient-safety claims compare doses that don't match real vaccine formulations." },
       { question: "Is the vaccine-autism question still being actively researched?", answer: "Vaccine safety overall is continuously monitored through real surveillance systems, but the specific autism-link hypothesis has already been tested by multiple large, independent studies that consistently found no connection." },
+      { question: "Autism rates rose as the vaccine schedule grew. Doesn't that show a link?", answer: "No. Two trends rising together isn't evidence of cause. Most of the rise is explained by a broader definition (1994 and 2013), routine screening since 2007, and more awareness, and cases kept rising after thimerosal was removed from routine childhood vaccines around 2001." },
+      { question: "Isn't aluminum in vaccines a neurotoxin?", answer: "Aluminum is harmful at high doses, but the dose decides. MMR contains no aluminum at all, and the aluminum an infant gets from vaccines in the first six months (about 4.4 mg) is less than from breast milk (about 7 mg) or formula (about 38 mg), according to the Children's Hospital of Philadelphia." },
+      { question: "Given past medical abuses like Tuskegee, why trust vaccine research?", answer: "The abuses were real: the Tuskegee study ran from 1932 to 1972 without informed consent. The public outcry that followed led to the 1974 National Research Act and the 1979 Belmont Report, which is why modern trials, including vaccine trials, require informed consent and independent ethics review. Vaccine safety is also monitored after approval, and the evidence is published so anyone can check it." },
       ]}
       />
 
