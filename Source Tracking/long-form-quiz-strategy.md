@@ -20,7 +20,7 @@ exists, so it links straight back to the site.
 |---|---|---|---|
 | Shorts (existing) | Reach: discovery on 3 platforms | ≤35s (45s ceiling) | 1/day |
 | Cinematic explainer (existing) | Depth on a proven topic | 4–6 min | Only when a Short crosses 10k views (Monday gate) |
-| **Quiz episode (new)** | **Engagement + subscribers + watch time** | **6–9 min** | **Founder decision pending**: proposed 1/week |
+| **Quiz episode (new)** | **Engagement + subscribers + watch time** | **6–9 min** | Independent of the Shorts lane (founder, 2026-09-27). Cadence proposed 1/week |
 
 **Cadence and the one-video-per-day rule:** the founder's HARD RULE is exactly
 one video per day per platform, aligned with YouTube. Until the founder
@@ -171,4 +171,5 @@ in `hook-playbook.md`. After 3 episodes, keep what works and drop what doesn't.
 | 2026-09-26 | Format approved after pilots. NotebookLM Cinematic rejected (ignored the quiz structure, invented charts). MoneyPrinterTurbo stock b-roll rejected ("a quiz should be a single visual like KBC"). KBC stage with our own renderer approved. |
 | 2026-09-26 | Playback 1.1×. Hook ≤30s with a rotating strategy. Visual explanations required (to build next). |
 | 2026-09-27 | Thumbnail must lead with the topic name. It is also the first frame of the video and the cover art. |
-| pending | Cadence and how episodes interact with the one-video-per-day rule. First publish approval. |
+| 2026-09-27 | **Shorts and long-form are independent tracks** (founder). The one-video-per-day rule applies to the Shorts lane only, so quiz episodes don't take a Short's slot. First episode approved and scheduled: `I2uWoXwQvmk`, 2026-09-27 23:00 UTC. |
+| pending | Regular episode cadence (proposal: 1/week). |

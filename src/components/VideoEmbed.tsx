@@ -15,7 +15,14 @@ interface VideoEmbedProps {
 }
 
 export function VideoEmbed({ youtubeUrl, youtubeStatus, youtubeScheduledAt }: VideoEmbedProps) {
-  if (youtubeStatus === 'scheduled') {
+  // A scheduled video whose publish time has passed is live: show it. Pages
+  // are static, so this flips on the first build after the publish time
+  // (the daily run redeploys), without anyone editing the post's status.
+  const isLive =
+    youtubeStatus === 'published' ||
+    (youtubeStatus === 'scheduled' && !!youtubeScheduledAt && new Date(youtubeScheduledAt).getTime() <= Date.now());
+
+  if (youtubeStatus === 'scheduled' && !isLive) {
     const dateLabel = youtubeScheduledAt
       ? new Date(youtubeScheduledAt).toLocaleDateString('en-US', {
           year: 'numeric',
@@ -33,7 +40,7 @@ export function VideoEmbed({ youtubeUrl, youtubeStatus, youtubeScheduledAt }: Vi
     );
   }
 
-  if (youtubeStatus !== 'published' || !youtubeUrl) return null;
+  if (!isLive || !youtubeUrl) return null;
   const videoId = extractYouTubeId(youtubeUrl);
   if (!videoId) return null;
 
