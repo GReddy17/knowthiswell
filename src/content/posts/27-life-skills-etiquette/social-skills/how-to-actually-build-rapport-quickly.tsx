@@ -32,6 +32,7 @@ export const metadata: PostFrontmatter = {
   ],
   seeAlso: [
     "life-skills-etiquette/how-to-actually-have-a-difficult-conversation",
+    "life-skills-etiquette/how-to-actually-negotiate-a-better-price",
   ],
   glossary: [
     { term: "Rapport", definition: "A felt sense of mutual trust, connection, and ease between two people, typically built through matched communication style and genuine attentiveness." },

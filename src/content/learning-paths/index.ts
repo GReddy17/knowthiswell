@@ -63,6 +63,7 @@ export const LEARNING_PATHS: LearningPath[] = [
       { category: 'business-entrepreneurship-basics', slug: 'what-an-llc-actually-protects-you-from' },
       { category: 'legal-documentation-howtos', slug: 'what-makes-a-contract-legally-binding' },
       { category: 'legal-documentation-howtos', slug: 'freelance-and-service-contracts-explained' },
+      { category: 'business-entrepreneurship-basics', slug: 'how-to-actually-price-a-product-or-service' },
       { category: 'legal-documentation-howtos', slug: 'understanding-warranties-and-guarantees' },
       { category: 'personal-finance-basics', slug: 'self-employment-and-freelance-tax-basics' },
       { category: 'personal-finance-basics', slug: 'understanding-tax-deductions-vs-tax-credits' },

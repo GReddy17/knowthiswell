@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
     "banker's rounding",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-26",
   lastReviewed: "2026-08-16",
   excerpt: "The actual rule behind rounding numbers, how estimation is used to sanity-check exact calculations, and why rounding down isn't automatically the 'safe' choice.",
   summary: "Rounding replaces a number with a nearby, simpler one by checking the digit just past your target place value; estimation uses that simplification to get a fast, close answer worth trusting as a check.",
@@ -60,6 +60,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is 3,482 rounded to the nearest hundred?", "difficulty": "easy", "options": [{"text": "3,500", "correct": true, "explanation": "The tens digit is 8, which is 5 or more, so the hundreds digit rounds up."}, {"text": "3,400", "correct": false, "explanation": "That would require the tens digit to be below 5."}, {"text": "3,480", "correct": false, "explanation": "That's rounding to the nearest ten, not hundred."}]},
+  {"question": "When rounding to a place value, which digit decides the direction?", "difficulty": "easy", "options": [{"text": "The single digit immediately after that place", "correct": true, "explanation": "Only that one digit matters."}, {"text": "The last digit of the number", "correct": false, "explanation": "Later digits don't matter once you've checked the next one."}, {"text": "The first digit of the number", "correct": false, "explanation": "The leading digit doesn't decide rounding direction."}]},
+  {"question": "Under round-half-to-even (banker's rounding), what is 2.5 rounded to the nearest whole number?", "difficulty": "medium", "options": [{"text": "2", "correct": true, "explanation": "Exact .5 values go to the nearest even neighbor, which is 2."}, {"text": "3", "correct": false, "explanation": "That's the classroom round-half-up rule."}, {"text": "2.5 stays as it is", "correct": false, "explanation": "Rounding to a whole number must give a whole number."}]},
+  {"question": "Why do financial and computing systems often use round-half-to-even?", "difficulty": "hard", "options": [{"text": "Always rounding .5 up adds a small upward bias across many roundings", "correct": true, "explanation": "Sending half the ties down and half up cancels that bias; it's the IEEE 754 default."}, {"text": "It's easier to calculate by hand", "correct": false, "explanation": "The motivation is bias, not ease."}, {"text": "It always produces larger numbers", "correct": false, "explanation": "It produces smaller numbers half the time at ties."}]},
+  {"question": "What is 'double rounding'?", "difficulty": "medium", "options": [{"text": "Rounding in two stages, which can give a different answer than rounding once", "correct": true, "explanation": "2.449 to 2.45 then to 2.5 is wrong; rounding directly gives 2.4."}, {"text": "Rounding two different numbers at once", "correct": false, "explanation": "That's just rounding twice, not double rounding."}, {"text": "Doubling a number before rounding it", "correct": false, "explanation": "Doubling isn't involved."}]},
+  {"question": "A cart holds items at $4.75, $12.30, $2.99 and $7.10. What's a quick estimate by rounding to the nearest dollar?", "difficulty": "easy", "options": [{"text": "$27", "correct": true, "explanation": "$5 + $12 + $3 + $7 = $27; the exact total is $27.14."}, {"text": "$25", "correct": false, "explanation": "That underestimates each rounded price."}, {"text": "$30", "correct": false, "explanation": "That's a rougher estimate than rounding to the nearest dollar gives."}]},
+  {"question": "A recipe needs 2.3 bags of flour and bags can't be split. What should you buy?", "difficulty": "medium", "options": [{"text": "3 bags, because running short is the real risk", "correct": true, "explanation": "Here rounding up is the safe direction."}, {"text": "2 bags, because rounding down is always safer", "correct": false, "explanation": "Rounding down leaves you short."}, {"text": "2.3 bags", "correct": false, "explanation": "You can only buy whole bags."}]},
+];
 
 export default function Post() {
   return (

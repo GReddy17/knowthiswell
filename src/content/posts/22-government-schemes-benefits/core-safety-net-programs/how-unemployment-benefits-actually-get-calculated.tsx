@@ -33,6 +33,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "government-schemes-benefits/what-social-security-actually-pays-out-and-when",
     "government-schemes-benefits/how-to-actually-apply-for-government-assistance-programs",
+    "economics/how-a-recession-actually-gets-defined",
   ],
   glossary: [
     { term: "Base period", definition: "A defined recent window of past earnings (commonly the first four of the last five completed calendar quarters) that a state uses to calculate an unemployment claimant's benefit amount." },

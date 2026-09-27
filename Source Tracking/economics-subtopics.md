@@ -63,7 +63,7 @@ Folder: `the-bigger-economic-picture/`
 | 2 | `what-gdp-actually-measures` | done (2026-09-21) |
 | 3 | `how-interest-rates-actually-get-set` | done — live on main |
 | 4 | `what-supply-and-demand-actually-predicts` | done — live on main |
-| 5 | `how-a-recession-actually-gets-defined` | not started |
+| 5 | `how-a-recession-actually-gets-defined` | done — live on main |
 | 6 | `what-the-federal-reserve-actually-does` | not started |
 | 7 | `how-tariffs-actually-affect-prices` | not started |
 | 8 | `what-minimum-wage-debates-actually-center-on` | not started |

@@ -63,7 +63,7 @@ Folder: `growing-and-protecting-the-business/`
 | 2 | `what-a-business-plan-actually-needs-to-include` | done (2026-09-21) |
 | 3 | `how-small-business-loans-actually-work` | done — live on main |
 | 4 | `what-an-llc-actually-protects-you-from` | done — live on main |
-| 5 | `how-to-actually-price-a-product-or-service` | not started |
+| 5 | `how-to-actually-price-a-product-or-service` | done — live on main |
 | 6 | `what-cash-flow-actually-means-for-a-small-business` | not started |
 | 7 | `how-to-actually-find-your-first-customers` | not started |
 | 8 | `what-a-business-license-actually-requires` | not started |

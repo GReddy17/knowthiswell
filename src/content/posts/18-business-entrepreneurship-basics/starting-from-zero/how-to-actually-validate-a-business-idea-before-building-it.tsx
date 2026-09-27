@@ -33,6 +33,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "business-entrepreneurship-basics/what-a-business-plan-actually-needs-to-include",
     "business-entrepreneurship-basics/how-to-actually-find-your-first-customers",
+    "business-entrepreneurship-basics/how-to-actually-price-a-product-or-service",
   ],
   glossary: [
     { term: "Validation", definition: "The process of gathering real evidence — such as pre-orders, signups, or paying customers — that people actually want a specific product or service, before investing heavily in building it." },

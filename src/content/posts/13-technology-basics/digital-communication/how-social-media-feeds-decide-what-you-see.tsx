@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/how-push-notifications-work",
     "technology-basics/what-happens-when-you-block-someone",
     "technology-basics/read-receipts-and-typing-indicators-explained",
+    "psychology-human-behavior/how-social-proof-actually-influences-behavior",
   ],
   glossary: [
     { term: "Ranking model", definition: "A computer program trained to predict how likely a person is to engage with each piece of content, used to sort a feed from most to least predicted engagement." },

@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "professional-skills-certifications/how-to-actually-choose-between-competing-certifications",
     "professional-skills-certifications/what-a-certificate-actually-differs-from-a-certification",
     "career-study-skills/what-makes-a-meeting-actually-effective",
+    "professional-skills-certifications/what-a-pmp-certification-actually-requires",
   ],
   glossary: [
     { term: "Agile", definition: "An approach to building products in short, iterative cycles with frequent feedback, defined by the four values and twelve principles of the 2001 Agile Manifesto." },

@@ -33,6 +33,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "professional-skills-certifications/how-agile-and-scrum-actually-differ",
     "professional-skills-certifications/how-to-actually-choose-between-competing-certifications",
+    "professional-skills-certifications/what-a-pmp-certification-actually-requires",
   ],
   glossary: [
     { term: "Project management", definition: "The discipline of planning, organizing, and overseeing the resources, timeline, and scope needed to complete a specific project's goals." },

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   videoQueue: true,
   tags: ["parasites", "cordyceps", "toxoplasmosis", "animal behavior", "evolution"],
   date: "2026-09-22",
-  updated: "2026-09-22",
+  updated: "2026-09-26",
   lastReviewed: "2026-09-22",
   excerpt: "\"Zombie\" parasites aren't science fiction — real fungi and protozoans genuinely hijack their hosts' behavior to complete their own life cycle.",
   summary: "Several real parasites manipulate their host's behavior in ways that sound like fiction: a fungus that compels ants to climb and clamp onto a leaf before killing them from within, and a protozoan that appears to make infected rodents less afraid of cats. Neither is \"mind control\" in a conscious sense — both are evolved side effects that happen to help the parasite complete its life cycle, which is exactly why natural selection favors them.",
@@ -51,6 +51,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does the zombie-ant fungus make an infected ant do before killing it?", "difficulty": "easy", "options": [{"text": "Leave the colony, climb vegetation and clamp its jaws onto a leaf", "correct": true, "explanation": "That 'death grip' positions the fungus to rain spores onto ant trails below."}, {"text": "Attack its own colony", "correct": false, "explanation": "The ant leaves the colony rather than attacking it."}, {"text": "Bury itself underground", "correct": false, "explanation": "It climbs up, not down."}]},
+  {"question": "In which animal can Toxoplasma gondii reproduce sexually?", "difficulty": "easy", "options": [{"text": "Cats", "correct": true, "explanation": "Cats are its definitive host, which is why reduced fear of cats helps the parasite."}, {"text": "Rodents", "correct": false, "explanation": "Rodents are intermediate hosts."}, {"text": "Humans", "correct": false, "explanation": "Humans can be infected but aren't where it reproduces sexually."}]},
+  {"question": "How does Toxoplasma appear to change infected rodents' behavior?", "difficulty": "medium", "options": [{"text": "It reduces their instinctive fear of cat scent", "correct": true, "explanation": "That makes them easier for cats to catch."}, {"text": "It makes them hunt cats", "correct": false, "explanation": "They don't hunt cats."}, {"text": "It makes them sleep all day", "correct": false, "explanation": "Sleep changes aren't the documented effect."}]},
+  {"question": "Why can't Ophiocordyceps fungi realistically infect humans?", "difficulty": "medium", "options": [{"text": "They're adapted to specific insects and can't survive human body temperature", "correct": true, "explanation": "Around 37°C is well above what these fungi tolerate."}, {"text": "Humans are immune to all fungi", "correct": false, "explanation": "Humans do get some fungal infections."}, {"text": "The fungus is too large to enter the body", "correct": false, "explanation": "Size isn't the barrier."}]},
+  {"question": "What's the best way to describe parasite 'mind control' in these cases?", "difficulty": "hard", "options": [{"text": "An evolved side effect of infection that helps the parasite reproduce", "correct": true, "explanation": "Natural selection favored it; there's no intent involved."}, {"text": "A conscious strategy the parasite plans", "correct": false, "explanation": "Parasites don't plan."}, {"text": "Pure coincidence with no benefit to the parasite", "correct": false, "explanation": "It reliably helps the parasite complete its life cycle."}]},
+  {"question": "How strong is the evidence that Toxoplasma changes human behavior?", "difficulty": "hard", "options": [{"text": "Much weaker and more debated than the rodent evidence", "correct": true, "explanation": "Human studies show correlations, not a clear effect."}, {"text": "As strong as the rodent evidence", "correct": false, "explanation": "The rodent findings are far more established."}, {"text": "Proven to cause major personality changes", "correct": false, "explanation": "No such proof exists."}]},
+  {"question": "What is a 'definitive host'?", "difficulty": "medium", "options": [{"text": "The host where a parasite reaches maturity and reproduces sexually", "correct": true, "explanation": "For Toxoplasma, that's the cat."}, {"text": "The first animal a parasite ever infects", "correct": false, "explanation": "The first host can be an intermediate one."}, {"text": "Any animal that dies from a parasite", "correct": false, "explanation": "Death isn't what defines it."}]},
+];
 
 export default function Post() {
   return (

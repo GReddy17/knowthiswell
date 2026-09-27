@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "personal-finance-basics/why-insurance-exists-the-concept-of-pooled-risk",
     "personal-finance-basics/understanding-insurance-claims",
     "personal-finance-basics/life-insurance-explained-term-vs-whole",
+    "government-schemes-benefits/how-public-health-insurance-programs-actually-work",
   ],
   glossary: [
     {"term":"Deductible","definition":"The amount a policyholder must pay out of pocket for covered health services before the insurance plan begins sharing costs, resetting each plan year."},

@@ -63,7 +63,7 @@ Folder: `ai-in-practice-and-its-limits/`
 | 2 | `how-large-language-models-actually-work` | done (2026-09-21) |
 | 3 | `machine-learning-vs-deep-learning-explained` | done — live on main |
 | 4 | `what-a-neural-network-actually-does` | done — live on main |
-| 5 | `how-ai-image-generators-actually-create-pictures` | not started |
+| 5 | `how-ai-image-generators-actually-create-pictures` | done — live on main |
 | 6 | `what-ai-hallucination-actually-means` | not started |
 | 7 | `how-ai-chatbots-are-trained` | not started |
 | 8 | `what-prompt-engineering-actually-is` | not started |

@@ -1,28 +1,16 @@
 {
- "posts": 871,
+ "posts": 881,
  "minimum": 9,
- "meetingMinimum": 180,
+ "meetingMinimum": 195,
  "histogram": {
-  "2": 242,
-  "3": 449,
-  "9": 170,
-  "10": 10
+  "2": 239,
+  "3": 447,
+  "9": 173,
+  "10": 22
  },
  "below": [
   {
    "key": "general-science-facts/el-nino-and-la-nina-explained",
-   "count": 2
-  },
-  {
-   "key": "general-science-facts/what-makes-a-noreaster-different-from-a-hurricane",
-   "count": 2
-  },
-  {
-   "key": "general-science-facts/are-bats-really-blind",
-   "count": 2
-  },
-  {
-   "key": "general-science-facts/real-parasites-that-control-their-hosts-behavior",
    "count": 2
   },
   {
@@ -1010,10 +998,6 @@
    "count": 3
   },
   {
-   "key": "general-science-facts/sleep-and-the-brain",
-   "count": 3
-  },
-  {
    "key": "general-science-facts/the-eye-and-how-vision-works",
    "count": 3
   },
@@ -1179,10 +1163,6 @@
   },
   {
    "key": "math-numbers/averages-mean-median-mode",
-   "count": 3
-  },
-  {
-   "key": "math-numbers/estimation-and-rounding",
    "count": 3
   },
   {

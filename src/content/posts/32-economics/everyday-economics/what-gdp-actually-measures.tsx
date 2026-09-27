@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "economics/what-fiscal-policy-actually-means-vs-monetary-policy",
     "general-awareness-basics/how-taxes-fund-public-services-conceptual-overview",
     "economics/what-supply-and-demand-actually-predicts",
+    "economics/how-a-recession-actually-gets-defined",
   ],
   glossary: [
     { term: "Final goods and services", definition: "Products sold to their end user, counted once in GDP to avoid double-counting the raw materials or components used to make them." },

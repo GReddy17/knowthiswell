@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   videoQueue: true,
   tags: ["bats", "echolocation", "vision", "animal senses", "misconceptions"],
   date: "2026-09-12",
-  updated: "2026-09-12",
+  updated: "2026-09-26",
   lastReviewed: "2026-09-12",
   excerpt: "“Blind as a bat” is a real phrase but a false fact — nearly every bat species can see, and echolocation is a second sense layered on top of working eyes, not a replacement for them.",
   summary: "No bat species is actually blind. Most bats have functional eyes and use them, especially in daylight or open spaces; echolocation is an additional sense — active sound-based ranging — that lets them navigate and hunt with precision in total darkness where vision alone would fail.",
@@ -54,6 +54,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Are any bat species actually blind?", "difficulty": "easy", "options": [{"text": "No, nearly all bats have working eyes", "correct": true, "explanation": "Echolocation is added to sight, not a replacement for it."}, {"text": "Yes, all of them", "correct": false, "explanation": "That's the myth."}, {"text": "Only fruit bats", "correct": false, "explanation": "Fruit bats often see very well."}]},
+  {"question": "A bat's echo returns after 0.04 seconds. About how far away is the wall?", "difficulty": "hard", "options": [{"text": "About 6.9 meters", "correct": true, "explanation": "343 m/s × 0.04 s = 13.7 m round trip, so half is about 6.9 m."}, {"text": "About 13.7 meters", "correct": false, "explanation": "That's the round-trip distance, not the distance to the wall."}, {"text": "About 34 meters", "correct": false, "explanation": "That's far too long for a 0.04-second echo."}]},
+  {"question": "What is a bat's 'feeding buzz'?", "difficulty": "medium", "options": [{"text": "A burst of calls, up to 150-200 per second, as it closes in on prey", "correct": true, "explanation": "Faster calls give faster distance updates at close range."}, {"text": "The sound of its wings", "correct": false, "explanation": "The buzz is vocal calls."}, {"text": "A mating call", "correct": false, "explanation": "It's used while hunting."}]},
+  {"question": "Why do most large fruit bats not echolocate?", "difficulty": "medium", "options": [{"text": "Their food doesn't move fast, and their eyes and sense of smell work well enough", "correct": true, "explanation": "The extra sense wasn't worth its cost."}, {"text": "They're blind", "correct": false, "explanation": "They see well."}, {"text": "They live only in caves", "correct": false, "explanation": "Many roost in trees."}]},
+  {"question": "Is echolocation the same idea as sonar?", "difficulty": "easy", "options": [{"text": "Yes, both send out a signal and read its reflection", "correct": true, "explanation": "Sonar is the engineered version of the same principle."}, {"text": "No, sonar uses light", "correct": false, "explanation": "Sonar uses sound."}, {"text": "No, echolocation uses smell", "correct": false, "explanation": "It uses sound."}]},
+  {"question": "Which other animals also use echolocation?", "difficulty": "easy", "options": [{"text": "Dolphins and whales", "correct": true, "explanation": "Toothed whales and dolphins echolocate underwater."}, {"text": "Cats and dogs", "correct": false, "explanation": "They rely on other senses."}, {"text": "Butterflies", "correct": false, "explanation": "They don't echolocate."}]},
+  {"question": "Where does the phrase 'blind as a bat' come from?", "difficulty": "medium", "options": [{"text": "Bats' fluttery nighttime flight looked clumsy to people", "correct": true, "explanation": "It predates any study of bat vision."}, {"text": "Scientific studies of bat eyes", "correct": false, "explanation": "Studies show bats can see."}, {"text": "A rule that bats have no eyes", "correct": false, "explanation": "Bats have eyes."}]},
+];
 
 export default function Post() {
   return (

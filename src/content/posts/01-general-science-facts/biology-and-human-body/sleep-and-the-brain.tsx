@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -31,7 +31,7 @@ export const metadata: PostFrontmatter = {
     "biology basics",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-26",
   lastReviewed: "2026-08-16",
   excerpt: "How the brain cycles through light, deep, and REM sleep roughly every 90 minutes, and why the circadian rhythm governs when you feel sleepy or alert.",
   summary: "Sleep is not a passive shutdown but an active cycling process, moving the brain through light sleep, deep sleep, and REM sleep roughly every 90 minutes, timed by an internal circadian clock.",
@@ -64,6 +64,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "About how long is one sleep cycle?", "difficulty": "easy", "options": [{"text": "About 90 minutes", "correct": true, "explanation": "Typically around 90-110 minutes, with 4-6 cycles a night."}, {"text": "About 20 minutes", "correct": false, "explanation": "That's far too short for a full cycle."}, {"text": "About 4 hours", "correct": false, "explanation": "A night contains several cycles."}]},
+  {"question": "Which part of the brain runs the circadian clock?", "difficulty": "medium", "options": [{"text": "The suprachiasmatic nucleus", "correct": true, "explanation": "It sits in the hypothalamus and is reset mainly by light."}, {"text": "The cerebellum", "correct": false, "explanation": "The cerebellum coordinates movement."}, {"text": "The occipital lobe", "correct": false, "explanation": "That area processes vision."}]},
+  {"question": "What mainly resets the circadian rhythm each day?", "difficulty": "easy", "options": [{"text": "Light exposure", "correct": true, "explanation": "Light is the strongest signal to the brain's clock."}, {"text": "How tired you feel", "correct": false, "explanation": "Tiredness doesn't set the clock's timing."}, {"text": "What you eat for breakfast", "correct": false, "explanation": "Meals have a much smaller effect than light."}]},
+  {"question": "Which sleep stage is concentrated early in the night?", "difficulty": "medium", "options": [{"text": "Deep (slow-wave) sleep", "correct": true, "explanation": "REM periods get longer later in the night."}, {"text": "REM sleep", "correct": false, "explanation": "REM is concentrated in later cycles."}, {"text": "Neither; all stages are spread evenly", "correct": false, "explanation": "Stages aren't evenly distributed."}]},
+  {"question": "How much sleep does the CDC recommend for most adults?", "difficulty": "easy", "options": [{"text": "7-9 hours", "correct": true, "explanation": "Enough for several full cycles."}, {"text": "4-5 hours", "correct": false, "explanation": "That's well below the recommendation."}, {"text": "10-12 hours", "correct": false, "explanation": "That's more than recommended for most adults."}]},
+  {"question": "Roughly how fast do travelers adjust to a new time zone?", "difficulty": "hard", "options": [{"text": "About one time zone per day", "correct": true, "explanation": "An 8-hour shift can take around a week."}, {"text": "Instantly after one night's sleep", "correct": false, "explanation": "The clock resets gradually."}, {"text": "One time zone per week", "correct": false, "explanation": "Adjustment is faster than that for most people."}]},
+  {"question": "What happens to the body's muscles during REM sleep?", "difficulty": "medium", "options": [{"text": "They're temporarily paralyzed", "correct": true, "explanation": "That's why the body stays still despite high brain activity."}, {"text": "They tense up fully", "correct": false, "explanation": "Muscle tone drops, not rises."}, {"text": "They move in sync with dreams", "correct": false, "explanation": "Most movement is blocked."}]},
+];
 
 export default function Post() {
   return (

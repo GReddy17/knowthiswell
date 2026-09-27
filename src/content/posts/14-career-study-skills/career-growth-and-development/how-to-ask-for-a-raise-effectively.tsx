@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/what-a-performance-review-actually-evaluates",
     "career-study-skills/how-to-handle-a-salary-question-in-an-interview",
     "career-study-skills/lateral-move-vs-promotion-whats-the-difference",
+    "life-skills-etiquette/how-to-actually-negotiate-a-better-price",
   ],
   glossary: [
     { term: "Merit increase pool", definition: "The total budget an organization sets aside for raises across a group of employees in a given cycle, from which individual increases are drawn." },

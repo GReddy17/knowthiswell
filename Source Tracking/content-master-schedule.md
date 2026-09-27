@@ -253,6 +253,18 @@ posts. Course mapping checked for all 10: the LLC post was added to the
 Electrician course (self-employed paperwork section); none of the others
 had a genuine fit.
 
+**Day 5 — shipped 2026-09-26** (7pm orchestrator run), row 5 below, one
+post per category, titles matching the row exactly. Hand-authored SVG
+diagrams, institutional/primary sources (DDPM/CLIP/latent-diffusion papers +
+NIST AI 100-4, Verizon DBIR/FTC/IdentityTheft.gov, SEC Investor.gov/S&P
+SPIVA, SBA/OpenStax, PMI PMP handbook/BLS, APA + Milgram 1969/Goldstein 2008/
+Cialdini 2003/Asch 1956, Harvard PON/Tversky-Kahneman 1974/FTC/IRS 501(r),
+Medicare.gov/Medicaid.gov/SSA, NBER/BEA/FRED, NCCIH + Goyal 2014/Kral 2022/
+Hölzel 2011/Brewer 2011), 10-question quiz on each. 20 older posts got an
+inbound `seeAlso` link. Course mapping checked for all 10: the pricing post
+was added to the Electrician course (after freelance contracts); no genuine
+fit for the other 9. Row 6 lands Sep 27.
+
 **Schedule slip, noted so the checkpoint isn't misread:** with Sep 24
 missed, row N now lands on 2026-09-21 + N (row 5 = Sep 26, row 10 = Oct 1).
 Checkpoint 1 is tied to *row 10*, so it moves from 2026-09-29 to

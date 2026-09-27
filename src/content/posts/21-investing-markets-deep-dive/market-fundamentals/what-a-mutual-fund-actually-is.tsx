@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
     "investing-markets-deep-dive/what-a-brokerage-account-actually-is",
     "investing-markets-deep-dive/how-the-stock-market-actually-works",
     "personal-finance-basics/understanding-retirement-accounts-basic-mechanics",
+    "investing-markets-deep-dive/what-an-index-fund-actually-tracks",
   ],
   glossary: [
     { term: "Net asset value (NAV)", definition: "The per-share value of a mutual fund, calculated by dividing the total value of everything the fund owns (minus liabilities) by the number of shares outstanding, typically once per trading day." },

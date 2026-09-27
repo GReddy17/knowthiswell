@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "technology-basics/how-touchscreens-actually-work",
     "technology-basics/what-a-graphics-card-actually-does",
+    "ai-future-tech-literacy/how-ai-image-generators-actually-create-pictures",
   ],
   glossary: [
     { term: "Pixel", definition: "The smallest individually controllable unit of a digital display, short for 'picture element,' typically made of red, green, and blue subpixels." },

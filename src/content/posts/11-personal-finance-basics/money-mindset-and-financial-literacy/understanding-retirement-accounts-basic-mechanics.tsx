@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "personal-finance-basics/financial-independence-and-early-retirement-fire-explained",
     "personal-finance-basics/personal-finance-myths-and-misconceptions",
     "investing-markets-deep-dive/what-a-mutual-fund-actually-is",
+    "investing-markets-deep-dive/what-an-index-fund-actually-tracks",
   ],
   glossary: [
     {"term":"Tax-advantaged account","definition":"An investment account that receives special tax treatment from the government, typically by deferring taxes until withdrawal, allowing contributions to grow tax-free, or both, depending on the account type."},

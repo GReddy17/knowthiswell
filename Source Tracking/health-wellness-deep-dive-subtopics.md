@@ -63,7 +63,7 @@ Folder: `advanced-wellness-science/`
 | 2 | `what-cortisol-actually-does-to-the-body-under-stress` | done (2026-09-21) |
 | 3 | `how-intermittent-fasting-actually-affects-metabolism` | done — live on main |
 | 4 | `what-resting-heart-rate-actually-reveals-about-fitness` | done — live on main |
-| 5 | `how-meditation-actually-changes-the-brain` | not started |
+| 5 | `how-meditation-actually-changes-the-brain` | done — live on main |
 | 6 | `what-macronutrients-actually-do-in-the-body` | not started |
 | 7 | `how-chronic-stress-actually-damages-long-term-health` | not started |
 | 8 | `what-burnout-actually-is-medically` | not started |

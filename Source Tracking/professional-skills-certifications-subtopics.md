@@ -63,7 +63,7 @@ Folder: `getting-the-most-from-a-certification/`
 | 2 | `how-to-actually-choose-between-competing-certifications` | done (2026-09-21) |
 | 3 | `what-a-comptia-security-certification-actually-covers` | done — live on main |
 | 4 | `how-agile-and-scrum-actually-differ` | done — live on main |
-| 5 | `what-a-pmp-certification-actually-requires` | not started |
+| 5 | `what-a-pmp-certification-actually-requires` | done — live on main |
 | 6 | `how-cloud-certifications-actually-boost-a-resume` | not started |
 | 7 | `what-google-analytics-certification-actually-verifies` | not started |
 | 8 | `how-to-actually-prepare-for-a-certification-exam` | not started |

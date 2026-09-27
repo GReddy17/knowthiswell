@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "health-body-basics/physical-activity-guidelines-explained",
     "health-body-basics/everyday-hygiene-and-prevention",
     "health-wellness-deep-dive/what-cortisol-actually-does-to-the-body-under-stress",
+    "health-wellness-deep-dive/how-meditation-actually-changes-the-brain",
   ],
   glossary: [
     {"term":"HPA axis","definition":"The hypothalamic-pituitary-adrenal axis — the hormonal signaling pathway that coordinates the body's stress response, ending in the release of cortisol from the adrenal glands."},

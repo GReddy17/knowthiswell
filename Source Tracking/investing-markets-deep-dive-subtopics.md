@@ -63,7 +63,7 @@ Folder: `advanced-mechanics-and-risk/`
 | 2 | `what-a-mutual-fund-actually-is` | done (2026-09-21) |
 | 3 | `stocks-vs-bonds-what-actually-differs` | done — live on main |
 | 4 | `how-dividend-investing-actually-works` | done — live on main |
-| 5 | `what-an-index-fund-actually-tracks` | not started |
+| 5 | `what-an-index-fund-actually-tracks` | done — live on main |
 | 6 | `how-compound-interest-actually-builds-wealth-over-time` | not started |
 | 7 | `what-a-bull-market-vs-bear-market-actually-means` | not started |
 | 8 | `how-diversification-actually-reduces-risk` | not started |

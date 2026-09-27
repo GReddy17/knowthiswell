@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   videoQueue: true,
   tags: ["noreaster", "hurricanes", "weather patterns", "storms", "atlantic coast"],
   date: "2026-09-22",
-  updated: "2026-09-22",
+  updated: "2026-09-26",
   lastReviewed: "2026-09-22",
   excerpt: "A nor'easter and a hurricane are both big coastal storms, but they run on opposite fuel — one needs warm ocean heat, the other needs a clash of cold and warm air.",
   summary: "Hurricanes are warm-core tropical storms fueled entirely by heat evaporating off warm ocean water. Nor'easters are cold-core storms powered by the temperature clash between cold continental air and the warm Gulf Stream along the U.S. East Coast — a completely different engine that can also bring snow and blizzard conditions a hurricane never could.",
@@ -51,6 +51,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What fuels a hurricane?", "difficulty": "easy", "options": [{"text": "Heat from warm ocean water", "correct": true, "explanation": "Hurricanes are warm-core storms."}, {"text": "A clash between cold and warm air masses", "correct": false, "explanation": "That's the nor'easter's engine."}, {"text": "Snow melting on land", "correct": false, "explanation": "Hurricanes weaken over land."}]},
+  {"question": "Why is a nor'easter called that?", "difficulty": "easy", "options": [{"text": "The winds on the coast blow from the northeast", "correct": true, "explanation": "The storm itself usually travels south to north."}, {"text": "It always travels toward the northeast", "correct": false, "explanation": "The name is about wind direction on the coast."}, {"text": "It forms in the northeast Atlantic", "correct": false, "explanation": "Most form near the U.S. East Coast."}]},
+  {"question": "When are nor'easters most frequent and intense?", "difficulty": "medium", "options": [{"text": "October through April", "correct": true, "explanation": "That's when the cold air and Gulf Stream contrast is sharpest."}, {"text": "June through August", "correct": false, "explanation": "That's closer to hurricane season."}, {"text": "Only in January", "correct": false, "explanation": "The season is much longer."}]},
+  {"question": "What is a 'bomb cyclone'?", "difficulty": "medium", "options": [{"text": "A storm whose central pressure drops at least 24 millibars in 24 hours", "correct": true, "explanation": "It describes rapid intensification."}, {"text": "A hurricane that hits a city", "correct": false, "explanation": "The term isn't about landfall."}, {"text": "A tornado inside a hurricane", "correct": false, "explanation": "It's about pressure drop."}]},
+  {"question": "Can a nor'easter produce a blizzard?", "difficulty": "easy", "options": [{"text": "Yes, its cold-air side can bring heavy snow", "correct": true, "explanation": "A hurricane's warm-core engine can't."}, {"text": "No, only rain", "correct": false, "explanation": "Nor'easters often bring snow."}, {"text": "Only in the tropics", "correct": false, "explanation": "Blizzards need cold air."}]},
+  {"question": "Can a nor'easter turn into a hurricane?", "difficulty": "hard", "options": [{"text": "Not directly, since they run on different engines", "correct": true, "explanation": "The reverse, a hurricane becoming extratropical, sometimes happens."}, {"text": "Yes, every nor'easter becomes one", "correct": false, "explanation": "They don't transition that way."}, {"text": "Yes, if it reaches Canada", "correct": false, "explanation": "Location doesn't change its engine."}]},
+  {"question": "Why can a slow nor'easter cause repeated coastal flooding?", "difficulty": "medium", "options": [{"text": "Its onshore winds push surge in over several high tides", "correct": true, "explanation": "Surge builds over multiple tide cycles."}, {"text": "It carries more water than the ocean", "correct": false, "explanation": "The ocean supplies the water."}, {"text": "It always hits at night", "correct": false, "explanation": "Timing of day isn't the cause."}]},
+];
 
 export default function Post() {
   return (

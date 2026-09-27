@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "ai-future-tech-literacy/how-large-language-models-actually-work",
     "technology-basics/how-machine-learning-actually-works",
     "ai-future-tech-literacy/how-ai-actually-differs-from-traditional-software",
+    "ai-future-tech-literacy/how-ai-image-generators-actually-create-pictures",
   ],
   glossary: [
     { term: "Neural network", definition: "A machine learning model built from layers of simple computing units, each combining its inputs with learned weights, so that the whole stack can map inputs (like pixels) to outputs (like labels)." },
