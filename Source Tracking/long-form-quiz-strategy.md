@@ -117,9 +117,14 @@ The equivalents for long-form are these:
 - **Title** puts the keyword first plus the challenge, e.g. "[Topic] Quiz:
   Can You [Beat/Pass] …? (10 Questions)". Write 2 titles and A/B them with
   YouTube Test & Compare when available.
-- **Thumbnail:** one bold puzzle or question element from the episode (like
-  "2 · 4 · 6 / WHAT'S THE RULE?"), 3–4 words at most, brand navy and gold,
-  no fake UI or clickbait. Built with `.claude/private/yt-thumbnail.mjs`.
+- **Thumbnail = the video's first frame** (also the file cover).
+  - **Topic name first and biggest**, because the viewer must know what it's
+    about at a glance (founder, 2026-09-27).
+  - Then a highlighted challenge line.
+  - One focal visual from the episode with the mystery element ringed.
+  - A "10-QUESTION QUIZ" badge.
+  - Navy and gold brand, one logo, no fake stats.
+  - The engine generates it from `THUMB` in episode.py.
 - **Gate:** run the expert panel on title + thumbnail. Every lens must score
   above 7 before upload.
 
@@ -165,4 +170,5 @@ in `hook-playbook.md`. After 3 episodes, keep what works and drop what doesn't.
 |---|---|
 | 2026-09-26 | Format approved after pilots. NotebookLM Cinematic rejected (ignored the quiz structure, invented charts). MoneyPrinterTurbo stock b-roll rejected ("a quiz should be a single visual like KBC"). KBC stage with our own renderer approved. |
 | 2026-09-26 | Playback 1.1×. Hook ≤30s with a rotating strategy. Visual explanations required (to build next). |
+| 2026-09-27 | Thumbnail must lead with the topic name. It is also the first frame of the video and the cover art. |
 | pending | Cadence and how episodes interact with the one-video-per-day rule. First publish approval. |
