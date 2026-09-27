@@ -55,3 +55,4 @@ is the one that must rotate.
 |---|---|---|---|
 | 2026-09-26 | Confirmation bias quiz (pilot v1, rejected) | #1 Shocking result (60s intro, too long) | — |
 | 2026-09-26 | Confirmation bias quiz (v2, current cut) | #2 Live puzzle (2 · 4 · 6 on screen from frame 0) | #1 Shocking-result open loop (Q5 Wason, Q9 Stanford) |
+| 2026-09-27 | Everyday Physics quiz (ep 2) | #9 Question ("Steel bolt sinks, steel ship floats: why?") | Number open loop (Q10: one heel, ~40× pressure) |

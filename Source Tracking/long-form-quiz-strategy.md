@@ -20,7 +20,7 @@ exists, so it links straight back to the site.
 |---|---|---|---|
 | Shorts (existing) | Reach: discovery on 3 platforms | ≤35s (45s ceiling) | 1/day |
 | Cinematic explainer (existing) | Depth on a proven topic | 4–6 min | Only when a Short crosses 10k views (Monday gate) |
-| **Quiz episode (new)** | **Engagement + subscribers + watch time** | **6–9 min** | Independent of the Shorts lane (founder, 2026-09-27). Cadence proposed 1/week |
+| **Quiz episode (new)** | **Engagement + subscribers + watch time** | **6–9 min** | Independent of the Shorts lane. **3–4/week** (founder, 2026-09-27) |
 
 **Cadence and the one-video-per-day rule:** the founder's HARD RULE is exactly
 one video per day per platform, aligned with YouTube. Until the founder
@@ -92,6 +92,12 @@ The equivalents for long-form are these:
   each option fits one lozenge (≤36 characters).
 - Spoken: each option is 8 words or fewer.
 - Each question stands alone. Never "in Example 2…".
+- **Sound-off clarity test (founder, 2026-09-27):** a muted viewer who is new
+  to the topic must understand the question from the screen alone. That
+  means naming who, the situation and the exact ask, with no shorthand, no
+  assumed names, and a scenario card when the setup doesn't fit. The first
+  episode failed this on Q4, Q5, Q6, Q9 and Q10 (screen text was compressed
+  and relied on the narration).
 - Every answer and explanation traces to the source article or its cited
   sources. **No invented statistics, charts or "most people" claims without
   a study behind them.**
@@ -170,6 +176,19 @@ in `hook-playbook.md`. After 3 episodes, keep what works and drop what doesn't.
 |---|---|
 | 2026-09-26 | Format approved after pilots. NotebookLM Cinematic rejected (ignored the quiz structure, invented charts). MoneyPrinterTurbo stock b-roll rejected ("a quiz should be a single visual like KBC"). KBC stage with our own renderer approved. |
 | 2026-09-26 | Playback 1.1×. Hook ≤30s with a rotating strategy. Visual explanations required (to build next). |
+| 2026-09-27 | Thumbnail layouts rotate per episode, built around the episode's own idea (the founder rejected ep 2's first thumbnail as 'exactly the same' as ep 1). |
 | 2026-09-27 | Thumbnail must lead with the topic name. It is also the first frame of the video and the cover art. |
 | 2026-09-27 | **Shorts and long-form are independent tracks** (founder). The one-video-per-day rule applies to the Shorts lane only, so quiz episodes don't take a Short's slot. First episode approved and scheduled: `I2uWoXwQvmk`, 2026-09-27 23:00 UTC. |
-| pending | Regular episode cadence (proposal: 1/week). |
+| 2026-09-27 | Cadence: **3–4 episodes/week** (founder), Mon/Wed/Fri 6:00 PM CT, plus Sun for a 4th. Built one at a time: each is finalized with the founder before the next starts. |
+
+## 12. Episode queue
+
+| # | Episode | Main article | Demand signal | Hook strategy | Status |
+|---|---|---|---|---|---|
+| 1 | Confirmation Bias Quiz | psychology-human-behavior/what-confirmation-bias-actually-does-to-decision-making | 10-question bank | #2 Live puzzle | Published 2026-09-27 (`I2uWoXwQvmk`) |
+| 2 | Everyday Physics Quiz: Why Do Steel Ships Float? | general-science-facts/density-and-buoyancy (+ pressure, electricity, light & sound) | Shorts 1,026 / 852 / 759 / 400 views | #9 Question | Scheduled 2026-09-28 18:00 CT (`o_gfxT-D61U`) |
+| 3 | Earth's Extremes Quiz: The Biggest Desert Isn't the Sahara | geography-world-facts/deserts-of-the-world (+ extremes posts) | Short 1,246 (top) | #4 Myth flip | Queued |
+| 4 | Million vs Billion vs Trillion Quiz | math-numbers/big-numbers-explained-million-billion-trillion-what-they-actually-mean | Shorts 906 / 1,056 | #6 Scale shock | Queued |
+| 5 | Credit Score Quiz: What Actually Counts? | personal-finance-basics/what-a-credit-score-actually-measures | Short 503 | #8 Stakes | Queued |
+| alt | 20% + 10% off isn't 30% off | math-numbers/percentages-explained (9-question bank ready) | Short 373 | — | Alternate |
+
