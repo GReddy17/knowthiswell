@@ -281,6 +281,11 @@ genuine fit for the other 9. Row 7 lands Sep 28.
 missed, row N now lands on 2026-09-21 + N (row 5 = Sep 26, row 10 = Oct 1).
 Checkpoint 1 is tied to *row 10*, so it moves from 2026-09-29 to
 2026-10-01; checkpoint 2 and the end-of-round dates slip by the same 2 days.
+**Update 2026-09-28:** the founder paused the 9/28 run, so row 7 ships
+9/29, row 10 on 10/2, and **checkpoint 1 gates row 11 (the 10/3 run)**.
+Enforcement is now automatic: `state_digest.py` flags `CHECKPOINT DUE` and
+the orchestrator/`write-round` block content until `checkpoint row 10:
+<verdict>` is logged in `roadmap.md`.
 
 | # | ai-future-tech-literacy | digital-safety-privacy | investing-markets-deep-dive | business-entrepreneurship-basics | professional-skills-certifications | psychology-human-behavior | life-skills-etiquette | government-schemes-benefits | economics | health-wellness-deep-dive |
 |---|---|---|---|---|---|---|---|---|---|---|
