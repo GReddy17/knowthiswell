@@ -1,12 +1,12 @@
 {
- "posts": 881,
+ "posts": 891,
  "minimum": 9,
- "meetingMinimum": 195,
+ "meetingMinimum": 210,
  "histogram": {
-  "2": 239,
-  "3": 447,
-  "9": 173,
-  "10": 22
+  "2": 237,
+  "3": 444,
+  "9": 184,
+  "10": 26
  },
  "below": [
   {
@@ -23,10 +23,6 @@
   },
   {
    "key": "general-science-facts/energy-types-and-conservation",
-   "count": 2
-  },
-  {
-   "key": "general-science-facts/forces-and-motion",
    "count": 2
   },
   {
@@ -427,10 +423,6 @@
   },
   {
    "key": "personal-finance-basics/understanding-student-loans-general-mechanics",
-   "count": 2
-  },
-  {
-   "key": "personal-finance-basics/what-a-credit-score-actually-measures",
    "count": 2
   },
   {
@@ -1095,14 +1087,6 @@
   },
   {
    "key": "general-science-facts/heat-and-temperature",
-   "count": 3
-  },
-  {
-   "key": "general-science-facts/light-color-and-sound",
-   "count": 3
-  },
-  {
-   "key": "general-science-facts/pressure",
    "count": 3
   },
   {
@@ -2291,10 +2275,6 @@
   },
   {
    "key": "health-body-basics/understanding-stress-and-the-body-general-overview",
-   "count": 3
-  },
-  {
-   "key": "health-body-basics/common-vaccine-myths-and-misconceptions",
    "count": 3
   },
   {

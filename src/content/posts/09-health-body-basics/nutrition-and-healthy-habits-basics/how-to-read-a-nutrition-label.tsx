@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "health-body-basics/understanding-a-balanced-plate-macronutrients-overview",
     "health-body-basics/portion-control-basics",
+    "health-wellness-deep-dive/what-macronutrients-actually-do-in-the-body",
   ],
   glossary: [
     {"term":"Percent Daily Value (%DV)","definition":"A percentage on a nutrition label showing how much a nutrient in one serving contributes to a total daily diet, based on a standardized 2,000-calorie reference diet."},

@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "business-entrepreneurship-basics/how-to-actually-validate-a-business-idea-before-building-it",
     "business-entrepreneurship-basics/how-to-actually-price-a-product-or-service",
+    "business-entrepreneurship-basics/what-cash-flow-actually-means-for-a-small-business",
   ],
   glossary: [
     { term: "Current assets", definition: "Cash and anything a business expects to convert to cash within twelve months, such as inventory and accounts receivable." },

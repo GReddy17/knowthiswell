@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -29,7 +29,7 @@ export const metadata: PostFrontmatter = {
     "physical science",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-27",
   lastReviewed: "2026-08-16",
   excerpt: "How the same force spread over different areas explains why knives cut, snowshoes prevent sinking, and altitude affects boiling and breathing.",
   summary: "Pressure is force spread over an area — the same force concentrated on a small area creates far more pressure than spread across a large one.",
@@ -60,6 +60,16 @@ export const metadata: PostFrontmatter = {
   youtubeScheduledAt: "2026-09-28T23:00:00Z",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is pressure?", "difficulty": "easy", "options": [{"text": "Force divided by the area it acts on", "correct": true, "explanation": "P = F ÷ A, so the same force on a smaller area gives more pressure."}, {"text": "The total weight of an object", "correct": false, "explanation": "Weight is a force. Pressure depends on how that force is spread."}, {"text": "How fast an object is moving", "correct": false, "explanation": "Speed has nothing to do with the definition of pressure."}]},
+  {"question": "What is the SI unit of pressure?", "difficulty": "easy", "options": [{"text": "The pascal, one newton per square meter", "correct": true, "explanation": "1 Pa = 1 N/m²."}, {"text": "The newton", "correct": false, "explanation": "The newton is the unit of force, not pressure."}, {"text": "The joule", "correct": false, "explanation": "The joule is the unit of energy."}]},
+  {"question": "Why does a sharp knife cut more easily than a dull one with the same push?", "difficulty": "medium", "options": [{"text": "Its thinner edge has less area, so the same force creates much more pressure", "correct": true, "explanation": "Sharpness raises pressure by shrinking the contact area, not by adding force."}, {"text": "A sharp knife applies more force on its own", "correct": false, "explanation": "The force comes from your hand either way."}, {"text": "Dull knives are heavier", "correct": false, "explanation": "Weight isn't the difference; edge area is."}]},
+  {"question": "About how much pressure does the atmosphere exert at sea level?", "difficulty": "medium", "options": [{"text": "About 101,000 pascals (101 kPa)", "correct": true, "explanation": "Standard atmospheric pressure is 101,325 Pa."}, {"text": "About 10 pascals", "correct": false, "explanation": "That's roughly ten thousand times too small."}, {"text": "Zero, because air has no weight", "correct": false, "explanation": "Air does have weight, and its pressure is what pushes liquid up a straw."}]},
+  {"question": "A 700 N person stands on 0.08 m² of feet, then on one 0.002 m² heel. What happens to the pressure on the ground?", "difficulty": "hard", "options": [{"text": "It rises about 40 times, from 8,750 Pa to 350,000 Pa", "correct": true, "explanation": "700 ÷ 0.08 = 8,750 and 700 ÷ 0.002 = 350,000."}, {"text": "It stays the same because the weight didn't change", "correct": false, "explanation": "Force stayed the same, but the area shrank 40 times."}, {"text": "It halves because only one foot is used", "correct": false, "explanation": "Less area means more pressure, not less."}]},
+  {"question": "Why do tractors on soft farmland use very wide tires?", "difficulty": "medium", "options": [{"text": "Spreading the weight over more area lowers pressure so they don't sink", "correct": true, "explanation": "It's the same principle as snowshoes."}, {"text": "Wide tires make the tractor lighter", "correct": false, "explanation": "Tire width doesn't meaningfully change weight."}, {"text": "Wide tires increase the force on the soil", "correct": false, "explanation": "The force is the same; the pressure is lower."}]},
+  {"question": "What actually holds a suction cup against a smooth window?", "difficulty": "hard", "options": [{"text": "Higher outside air pressure pushing it against the lower-pressure pocket behind it", "correct": true, "explanation": "Like a straw, it's atmospheric pressure pushing from outside, not a pull from inside."}, {"text": "Glue built into the rubber", "correct": false, "explanation": "A clean suction cup has no adhesive."}, {"text": "Magnetism between rubber and glass", "correct": false, "explanation": "Neither material is magnetic."}]},
+];
 
 export default function Post() {
   return (

@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "personal-finance-basics/savings-accounts-explained-how-interest-actually-works",
     "personal-finance-basics/high-yield-savings-accounts-explained",
     "math-numbers/percentages-explained",
+    "investing-markets-deep-dive/how-compound-interest-actually-builds-wealth-over-time",
   ],
   glossary: [
     {"term":"Simple interest","definition":"Interest calculated only on the original principal amount for every period, regardless of how much interest has already accumulated."},

@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-a-server-actually-is",
     "technology-basics/cloud-storage-vs-local-storage",
     "technology-basics/what-uptime-means-for-online-services",
+    "professional-skills-certifications/how-cloud-certifications-actually-boost-a-resume",
   ],
   glossary: [
     { term: "Cloud computing", definition: "Computing power, storage, or software delivered over the internet from remote servers a provider owns and maintains, rather than running on the device in front of you." },

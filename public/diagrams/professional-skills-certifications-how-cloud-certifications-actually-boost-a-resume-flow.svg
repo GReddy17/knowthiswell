@@ -1,0 +1,24 @@
+<svg viewBox="0 0 560 510" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cloudFlowTitle">
+  <title id="cloudFlowTitle">How a cloud certification helps a resume: it gets past keyword screens, gives a recruiter a verifiable baseline, earns an interview where hands-on projects are tested, and projects plus the cert win the offer.</title>
+  <rect width="560" height="510" fill="#FBF8F1"/>
+  <rect x="130" y="20" width="300" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="46" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">1. Resume enters an applicant</text>
+  <text x="280" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">tracking system with keyword filters</text>
+  <text x="280" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8B6F4E">↓</text>
+  <rect x="130" y="106" width="300" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">2. A named cert (e.g. AWS SAA)</text>
+  <text x="280" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">matches the job post&#x27;s keywords</text>
+  <text x="280" y="184" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8B6F4E">↓</text>
+  <rect x="130" y="192" width="300" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="218" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">3. Recruiter sees a verifiable,</text>
+  <text x="280" y="234" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">vendor-issued baseline of knowledge</text>
+  <text x="280" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8B6F4E">↓</text>
+  <rect x="130" y="278" width="300" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="280" y="304" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">4. Interview tests whether you can</text>
+  <text x="280" y="320" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">actually build and troubleshoot</text>
+  <text x="280" y="356" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8B6F4E">↓</text>
+  <rect x="130" y="364" width="300" height="60" rx="6" fill="#2C4A3E"/>
+  <text x="280" y="390" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">5. Offer comes from cert + projects,</text>
+  <text x="280" y="406" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBF8F1">not from the cert alone</text>
+  <text x="280" y="488" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">A certification opens the door; hands-on work is what gets you through it</text>
+</svg>

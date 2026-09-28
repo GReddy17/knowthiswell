@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "psychology-human-behavior/how-memory-actually-forms-and-fades",
     "general-awareness-basics/understanding-media-bias",
     "psychology-human-behavior/how-social-proof-actually-influences-behavior",
+    "psychology-human-behavior/what-the-placebo-effect-actually-reveals-about-the-mind",
   ],
   glossary: [
     { term: "Confirmation bias", definition: "The tendency to search for, interpret, favor, and remember information in ways that support existing beliefs or expectations." },

@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "language-vocabulary/how-translation-apps-work-basic-overview",
     "language-vocabulary/language-learning-methods-and-tips",
     "language-vocabulary/parts-of-speech-explained",
+    "ai-future-tech-literacy/what-ai-hallucination-actually-means",
   ],
   glossary: [
     { term: "Natural language processing (NLP)", definition: "The field of computer science and artificial intelligence focused on enabling computers to process, analyze, and generate human language." },

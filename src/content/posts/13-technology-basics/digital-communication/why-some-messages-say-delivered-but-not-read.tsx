@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/read-receipts-and-typing-indicators-explained",
     "technology-basics/how-push-notifications-work",
     "technology-basics/what-happens-when-you-block-someone",
+    "digital-safety-privacy/what-end-to-end-encryption-actually-means",
   ],
   glossary: [
     { term: "Delivered status", definition: "A status confirming that a message successfully transferred to and was received by the recipient's device — an event separate from, and earlier than, that device displaying the message on screen." },

@@ -39,6 +39,7 @@ export const metadata: PostFrontmatter = {
     "psychology-human-behavior/how-habits-actually-get-built-in-the-brain",
     "technology-basics/how-social-media-feeds-decide-what-you-see",
     "general-awareness-basics/how-to-spot-misinformation-and-fake-news",
+    "psychology-human-behavior/what-the-placebo-effect-actually-reveals-about-the-mind",
   ],
   glossary: [
     { term: "Social proof", definition: "Using what other people do as evidence of what's correct or appropriate, most strongly when we're uncertain." },

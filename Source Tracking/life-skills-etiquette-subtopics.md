@@ -64,7 +64,7 @@ Folder: `navigating-harder-moments-well/`
 | 3 | `how-to-actually-set-boundaries-without-guilt` | done — live on main |
 | 4 | `what-professional-email-etiquette-actually-requires` | done — live on main |
 | 5 | `how-to-actually-negotiate-a-better-price` | done — live on main |
-| 6 | `what-table-manners-actually-matter-today` | not started |
+| 6 | `what-table-manners-actually-matter-today` | done — live on main |
 | 7 | `how-to-actually-apologize-in-a-way-that-lands` | not started |
 | 8 | `what-small-talk-is-actually-for` | not started |
 | 9 | `how-to-actually-disagree-without-being-disagreeable` | not started |

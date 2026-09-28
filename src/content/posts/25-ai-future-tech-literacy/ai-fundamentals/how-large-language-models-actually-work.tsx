@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
     "ai-future-tech-literacy/what-artificial-intelligence-actually-means",
     "ai-future-tech-literacy/how-ai-actually-differs-from-traditional-software",
     "technology-basics/what-algorithm-actually-means",
+    "ai-future-tech-literacy/what-ai-hallucination-actually-means",
   ],
   glossary: [
     { term: "Token", definition: "A chunk of text — often a word, part of a word, or punctuation mark — that a language model treats as one unit when reading input or generating output." },

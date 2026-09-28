@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -58,6 +58,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "https://www.youtube.com/watch?v=2jp9IqKN44E",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Why was Wakefield's 1998 MMR-autism paper retracted?", "difficulty": "easy", "options": [{"text": "Investigations found undisclosed conflicts of interest and manipulated case data", "correct": true, "explanation": "The Lancet retracted it in 2010, and he was struck off the UK medical register."}, {"text": "A newer vaccine replaced MMR", "correct": false, "explanation": "MMR is still in use; the retraction was about the paper's misconduct."}, {"text": "It was too long for the journal", "correct": false, "explanation": "Length had nothing to do with it."}]},
+  {"question": "What did the 2019 Danish study of more than 650,000 children find?", "difficulty": "medium", "options": [{"text": "No increased autism risk from MMR, including in higher-risk subgroups", "correct": true, "explanation": "It was designed to test the same hypothesis at far larger scale."}, {"text": "A small increase in autism risk", "correct": false, "explanation": "It found no increase in any subgroup studied."}, {"text": "That autism is caused by genetics alone", "correct": false, "explanation": "It tested MMR specifically; it didn't settle every cause of autism."}]},
+  {"question": "Why does the 'too many vaccines overwhelm the immune system' claim fail?", "difficulty": "medium", "options": [{"text": "Children encounter far more antigens from everyday life than from the whole vaccine schedule", "correct": true, "explanation": "The immune system handles huge numbers of antigens daily."}, {"text": "Vaccines contain no antigens", "correct": false, "explanation": "They do; that's how they train immunity."}, {"text": "Children's immune systems don't respond to vaccines", "correct": false, "explanation": "They do respond, which is why vaccines work."}]},
+  {"question": "Autism diagnoses rose as the vaccine schedule grew. What explains most of the rise?", "difficulty": "hard", "options": [{"text": "Wider diagnostic definitions, routine screening and greater awareness", "correct": true, "explanation": "DSM changes in 1994 and 2013 and universal screening at 18 and 24 months broadened who was diagnosed."}, {"text": "Vaccines, because the two rose together", "correct": false, "explanation": "Two trends rising together doesn't show one causes the other."}, {"text": "Nothing; the rise isn't real", "correct": false, "explanation": "The rise in diagnoses is real; the causes are documented changes in diagnosis."}]},
+  {"question": "Does the MMR vaccine contain aluminum?", "difficulty": "medium", "options": [{"text": "No. Live vaccines like MMR contain no aluminum adjuvant", "correct": true, "explanation": "Aluminum salts are used in some non-live vaccines only."}, {"text": "Yes, more than any other vaccine", "correct": false, "explanation": "MMR has none."}, {"text": "Yes, the same amount as soy-based formula", "correct": false, "explanation": "MMR contains no aluminum at all."}]},
+  {"question": "A child shows first signs of a condition a week after a vaccine. What does that timing prove?", "difficulty": "easy", "options": [{"text": "On its own, nothing about cause; many conditions first appear at ages when vaccines are given", "correct": true, "explanation": "Coincidental timing is why controlled studies are needed."}, {"text": "That the vaccine caused it", "correct": false, "explanation": "Timing alone can't separate cause from coincidence."}, {"text": "That the vaccine was expired", "correct": false, "explanation": "Timing says nothing about the vaccine's condition."}]},
+];
 
 export default function Post() {
   return (

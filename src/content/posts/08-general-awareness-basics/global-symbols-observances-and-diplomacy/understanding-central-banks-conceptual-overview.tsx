@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "general-awareness-basics/understanding-sanctions-what-they-are-and-how-they-work",
     "general-awareness-basics/how-taxes-fund-public-services-conceptual-overview",
     "general-awareness-basics/what-developing-vs-developed-nation-classifications-mean",
+    "economics/what-the-federal-reserve-actually-does",
   ],
   glossary: [
     {"term":"Central bank","definition":"A country's (or currency union's) monetary authority, responsible for controlling the money supply, setting benchmark interest rates, and overseeing the stability of the banking system."},

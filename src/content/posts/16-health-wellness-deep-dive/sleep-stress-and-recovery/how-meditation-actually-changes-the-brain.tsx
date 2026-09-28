@@ -39,6 +39,7 @@ export const metadata: PostFrontmatter = {
     "psychology-human-behavior/how-habits-actually-get-built-in-the-brain",
     "health-body-basics/understanding-stress-and-the-body-general-overview",
     "general-science-facts/sleep-and-the-brain",
+    "psychology-human-behavior/what-the-placebo-effect-actually-reveals-about-the-mind",
   ],
   glossary: [
     { term: "Mindfulness meditation", definition: "A practice of paying attention to present-moment experience, such as the breath, and noticing when the mind wanders without judging it." },

@@ -385,6 +385,7 @@ const FORMULAS: Record<string, (values: Record<string, number>) => number> = {
   heatConductionRateWatts: (v) => (v.thermalConductivityWPerMK * v.areaM2 * v.tempDiffC) / v.thicknessM, // Fourier's law: Q/t = kA(deltaT)/d
   wireResistanceOhms: (v) => (v.resistivityOhmM * v.lengthM) / v.crossSectionAreaMm2 / 1000000, // R = (resistivity x length) / cross-sectional area (mm^2 converted to m^2)
   hyperphagiaDaysToTargetGain: (v) => v.targetGainLbs / v.dailyGainLbs, // days of fall hyperphagia needed to reach a target fat-weight gain, at a given average daily gain rate
+  macroCalories: (v) => v.carbsG * 4 + v.proteinG * 4 + v.fatG * 9, // Atwater factors: 4 kcal/g carbohydrate and protein, 9 kcal/g fat
 };
 
 interface EntryCalculatorProps {

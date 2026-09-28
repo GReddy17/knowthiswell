@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "physical-science",
   tags: ["forces", "motion", "newtons laws", "physics", "acceleration"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-27",
   lastReviewed: "2026-08-16",
   excerpt: "What a force actually is, how Newton's three laws explain everyday motion, and why F = ma predicts exactly how hard something accelerates.",
   summary: "A force is any push or pull that changes an object's motion. Newton's three laws describe when objects stay still, how much they accelerate under a force, and why every force has an equal, opposite reaction.",
@@ -50,6 +50,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "https://www.youtube.com/watch?v=JXVCevyDRNs",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does Newton's second law, F = ma, say?", "difficulty": "easy", "options": [{"text": "Force equals mass times acceleration", "correct": true, "explanation": "More mass or more acceleration needs more force."}, {"text": "Force equals mass times speed", "correct": false, "explanation": "It's acceleration, the change in speed, not speed itself."}, {"text": "Heavier objects always move faster", "correct": false, "explanation": "The law says heavier objects need more force for the same acceleration."}]},
+  {"question": "How much force does it take to accelerate a 15 kg cart at 0.5 m/s²?", "difficulty": "easy", "options": [{"text": "7.5 newtons", "correct": true, "explanation": "15 × 0.5 = 7.5 N."}, {"text": "30 newtons", "correct": false, "explanation": "That divides mass by acceleration."}, {"text": "150 newtons", "correct": false, "explanation": "That multiplies by 10 instead of 0.5."}]},
+  {"question": "Why does pushing a stalled car take even more than the F = ma number suggests?", "difficulty": "medium", "options": [{"text": "You first have to overcome static friction before any force goes into acceleration", "correct": true, "explanation": "Net force, not applied force, sets the acceleration."}, {"text": "Cars get heavier when stalled", "correct": false, "explanation": "The mass doesn't change."}, {"text": "F = ma doesn't apply to cars", "correct": false, "explanation": "It applies; friction adds to the force needed."}]},
+  {"question": "A hockey puck slides across ice at a steady speed. What force is needed to keep it moving?", "difficulty": "medium", "options": [{"text": "Essentially none; with almost no friction it keeps moving on its own", "correct": true, "explanation": "Constant speed needs zero net force (Newton's first law)."}, {"text": "A constant forward push", "correct": false, "explanation": "That's the common mistake: force changes motion, it isn't needed to maintain it."}, {"text": "A force equal to its weight", "correct": false, "explanation": "Weight acts downward and is balanced by the ice."}]},
+  {"question": "What's the difference between mass and weight?", "difficulty": "medium", "options": [{"text": "Mass is the amount of matter (kg); weight is the gravitational force on it (newtons)", "correct": true, "explanation": "Your mass is the same on the Moon; your weight is about one-sixth."}, {"text": "They're the same thing in different units", "correct": false, "explanation": "Weight changes with gravity; mass doesn't."}, {"text": "Weight is measured in kilograms and mass in newtons", "correct": false, "explanation": "It's the other way around."}]},
+  {"question": "In a crash, a seatbelt stretches the stopping time from 0.1 s to 1 s. What happens to the force on the passenger?", "difficulty": "hard", "options": [{"text": "It drops by about 10 times", "correct": true, "explanation": "Same change in speed over 10 times the time means one-tenth the acceleration, so one-tenth the force."}, {"text": "It stays the same because the speed is the same", "correct": false, "explanation": "Stopping time changes the acceleration."}, {"text": "It increases", "correct": false, "explanation": "Longer stopping time lowers the force."}]},
+  {"question": "A feather and a hammer are dropped together on the Moon. What happens?", "difficulty": "hard", "options": [{"text": "They hit the ground at the same time", "correct": true, "explanation": "With no air resistance, all objects fall with the same acceleration."}, {"text": "The hammer lands first", "correct": false, "explanation": "On Earth air resistance slows the feather; the Moon has no air."}, {"text": "The feather floats away", "correct": false, "explanation": "The Moon's gravity pulls both down equally in acceleration."}]},
+];
 
 export default function Post() {
   return (

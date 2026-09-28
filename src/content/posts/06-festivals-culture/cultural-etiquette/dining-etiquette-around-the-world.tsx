@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "festivals-culture/cultural-taboos-to-be-aware-of",
     "festivals-culture/street-food-culture-globally",
     "festivals-culture/festival-foods-of-india",
+    "life-skills-etiquette/what-table-manners-actually-matter-today",
   ],
   glossary: [
     { term: "Chopstick rest", definition: "A small stand used to hold chopsticks off the table between bites; sticking chopsticks upright in a bowl of rice is avoided because it visually resembles incense offered to the dead." },

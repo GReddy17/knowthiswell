@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "physical-science",
   tags: ["light", "sound", "waves", "color", "physics", "pitch and loudness", "decibels"],
   date: "2026-08-16",
-  updated: "2026-08-19",
+  updated: "2026-09-27",
   lastReviewed: "2026-08-19",
   excerpt: "Why light and sound are both waves, why light travels a million times faster than sound, how color is really just wavelength, and the real difference between pitch and loudness.",
   summary: "Light and sound both travel as waves, but light is an electromagnetic wave that needs no medium while sound is a mechanical wave that needs one — which is why light reaches you almost instantly and sound noticeably lags behind, like in a thunderstorm.",
@@ -53,6 +53,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "https://www.youtube.com/watch?v=tF44O-pPidE",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Why can light cross the vacuum of space but sound can't?", "difficulty": "easy", "options": [{"text": "Light is an electromagnetic wave that needs no medium; sound is a vibration that needs matter to travel through", "correct": true, "explanation": "With no air or other matter, there's nothing for sound to vibrate."}, {"text": "Light is louder than sound", "correct": false, "explanation": "Loudness doesn't apply to light, and it isn't the reason."}, {"text": "Sound is too slow to reach Earth", "correct": false, "explanation": "Speed isn't the issue; sound can't travel through a vacuum at all."}]},
+  {"question": "About how fast does sound travel in air?", "difficulty": "easy", "options": [{"text": "About 343 meters per second", "correct": true, "explanation": "Roughly 1 km every 3 seconds."}, {"text": "About 300,000 kilometers per second", "correct": false, "explanation": "That's the speed of light."}, {"text": "About 3 meters per second", "correct": false, "explanation": "That's walking pace, far too slow."}]},
+  {"question": "Why does a red apple look red?", "difficulty": "medium", "options": [{"text": "It absorbs most wavelengths and reflects mainly red light to your eyes", "correct": true, "explanation": "Color is the light an object reflects, not a substance inside it."}, {"text": "It produces its own red light", "correct": false, "explanation": "Apples don't emit light; they reflect it."}, {"text": "It absorbs red light", "correct": false, "explanation": "The color you see is the light that's reflected, not absorbed."}]},
+  {"question": "Why does a black car get hotter in the sun than a white one?", "difficulty": "medium", "options": [{"text": "Black absorbs most visible light and turns it into heat; white reflects most of it", "correct": true, "explanation": "Black isn't the absence of interaction with light; it's strong absorption."}, {"text": "Black paint is thicker", "correct": false, "explanation": "Paint thickness isn't the main factor."}, {"text": "White cars are made of different metal", "correct": false, "explanation": "The color of the surface, not the metal, makes the difference."}]},
+  {"question": "What property of a sound wave sets its pitch?", "difficulty": "medium", "options": [{"text": "Frequency, the number of cycles per second", "correct": true, "explanation": "Higher frequency means higher pitch."}, {"text": "Amplitude", "correct": false, "explanation": "Amplitude sets loudness, not pitch."}, {"text": "The speed of sound", "correct": false, "explanation": "Different pitches travel at the same speed in air."}]},
+  {"question": "A rock concert at 110 dB versus conversation at 60 dB carries about how much more sound energy?", "difficulty": "hard", "options": [{"text": "About 100,000 times more", "correct": true, "explanation": "Every 10 dB is 10 times the energy, so 50 dB more is 10^5 times."}, {"text": "About twice as much", "correct": false, "explanation": "The decibel scale is logarithmic, not linear."}, {"text": "About 50 times more", "correct": false, "explanation": "Each 10 dB step multiplies energy by 10."}]},
+  {"question": "Why is white light not 'colorless'?", "difficulty": "hard", "options": [{"text": "It's a mix of all visible wavelengths, which a prism or raindrop can separate", "correct": true, "explanation": "A rainbow is white sunlight spread into its component colors."}, {"text": "It contains only blue light", "correct": false, "explanation": "White light contains the whole visible spectrum."}, {"text": "It has no wavelength", "correct": false, "explanation": "It's many wavelengths combined."}]},
+];
 
 export default function Post() {
   return (

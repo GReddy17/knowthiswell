@@ -33,6 +33,7 @@ export const metadata: PostFrontmatter = {
     "life-skills-etiquette/how-to-actually-have-a-difficult-conversation",
     "life-skills-etiquette/how-to-actually-build-rapport-quickly",
     "career-study-skills/what-active-listening-actually-looks-like",
+    "life-skills-etiquette/what-table-manners-actually-matter-today",
   ],
   glossary: [
     { term: "Reflective listening", definition: "Restating what a speaker said, in your own words, specifically to confirm you understood correctly before responding — the core technique that distinguishes active listening from passive silence." },

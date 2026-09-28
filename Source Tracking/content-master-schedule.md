@@ -265,6 +265,18 @@ inbound `seeAlso` link. Course mapping checked for all 10: the pricing post
 was added to the Electrician course (after freelance contracts); no genuine
 fit for the other 9. Row 6 lands Sep 27.
 
+**Day 6 — shipped 2026-09-27** (7pm orchestrator run), row 6 below, one
+post per category, titles matching the row exactly. Hand-authored SVG
+diagrams, primary/institutional sources (NIST AI 600-1/Kalai et al. 2025/
+Mata v. Avianca docket, EFF/NIST/Signal/Apple/WhatsApp, SEC/FINRA/CFPB,
+SBA/IRS Pub 538, AWS/Microsoft/Google Cloud/BLS, NEJM/Lancet/Science/JAMA/
+PLoS ONE placebo trials, Emily Post/Pew, SSA + 20 CFR 404.1520 with 2026
+SGA/SSI figures, Federal Reserve Act §2A/FOMC, National Academies DRI/
+MedlinePlus/FDA), 9-10 quiz questions each. 30 older posts got an inbound
+`seeAlso` link to one of today's posts. Course mapping checked for all 10:
+the cash flow post was added to the Electrician course (after pricing); no
+genuine fit for the other 9. Row 7 lands Sep 28.
+
 **Schedule slip, noted so the checkpoint isn't misread:** with Sep 24
 missed, row N now lands on 2026-09-21 + N (row 5 = Sep 26, row 10 = Oct 1).
 Checkpoint 1 is tied to *row 10*, so it moves from 2026-09-29 to

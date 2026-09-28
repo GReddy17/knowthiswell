@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "math-numbers/math-behind-discounts-and-sales",
     "math-numbers/math-for-budgeting-and-shopping",
     "math-numbers/percentages-explained",
+    "investing-markets-deep-dive/how-compound-interest-actually-builds-wealth-over-time",
   ],
   glossary: [
     { term: "Principal", definition: "The original amount of money deposited or borrowed, before any interest is added." },

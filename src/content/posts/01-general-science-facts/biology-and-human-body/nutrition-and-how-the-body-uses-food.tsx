@@ -45,6 +45,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/human-body-systems",
     "general-science-facts/energy-types-and-conservation",
     "general-science-facts/chemical-reactions-and-everyday-chemistry",
+    "health-wellness-deep-dive/what-macronutrients-actually-do-in-the-body",
   ],
   glossary: [
     { term: "Macronutrient", definition: "A nutrient the body needs in large amounts for energy and structure: carbohydrates, protein, and fat." },

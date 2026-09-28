@@ -1,0 +1,27 @@
+<svg viewBox="0 0 560 336" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="macroCompTitle">
+  <title id="macroCompTitle">What each macronutrient does: carbohydrates provide 4 calories per gram and are the brain&#x27;s main fuel; protein provides 4 calories per gram and builds and repairs tissue; fat provides 9 calories per gram, stores energy and carries fat-soluble vitamins.</title>
+  <rect width="560" height="336" fill="#FBF8F1"/>
+  <rect x="20" y="20" width="250" height="56" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="145" y="44" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Carbohydrate + protein</text>
+  <text x="145" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1F1B16">4 calories per gram each</text>
+  <rect x="20" y="92" width="250" height="36" rx="4" fill="#FFFFFF" stroke="#D9CBB3" stroke-width="1"/>
+  <text x="145" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Carbs: glucose, the brain&#x27;s main fuel</text>
+  <rect x="20" y="136" width="250" height="36" rx="4" fill="#FFFFFF" stroke="#D9CBB3" stroke-width="1"/>
+  <text x="145" y="158" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Carbs: fiber feeds gut bacteria</text>
+  <rect x="20" y="180" width="250" height="36" rx="4" fill="#FFFFFF" stroke="#D9CBB3" stroke-width="1"/>
+  <text x="145" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Protein: builds muscle, enzymes, antibodies</text>
+  <rect x="20" y="224" width="250" height="36" rx="4" fill="#FFFFFF" stroke="#D9CBB3" stroke-width="1"/>
+  <text x="145" y="246" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Protein: 9 amino acids must come from food</text>
+  <rect x="290" y="20" width="250" height="56" rx="6" fill="#2C4A3E"/>
+  <text x="415" y="44" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Fat</text>
+  <text x="415" y="62" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">9 calories per gram</text>
+  <rect x="290" y="92" width="250" height="36" rx="4" fill="#FFFFFF" stroke="#D9CBB3" stroke-width="1"/>
+  <text x="415" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Densest energy store in the body</text>
+  <rect x="290" y="136" width="250" height="36" rx="4" fill="#FFFFFF" stroke="#D9CBB3" stroke-width="1"/>
+  <text x="415" y="158" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Builds cell membranes and hormones</text>
+  <rect x="290" y="180" width="250" height="36" rx="4" fill="#FFFFFF" stroke="#D9CBB3" stroke-width="1"/>
+  <text x="415" y="202" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">Carries vitamins A, D, E and K</text>
+  <rect x="290" y="224" width="250" height="36" rx="4" fill="#FFFFFF" stroke="#D9CBB3" stroke-width="1"/>
+  <text x="415" y="246" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5" fill="#1F1B16">2 essential fatty acids from food</text>
+  <text x="280" y="314" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Adult ranges: carbs 45-65%, fat 20-35%, protein 10-35% of calories (National Academies)</text>
+</svg>

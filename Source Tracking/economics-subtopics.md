@@ -64,7 +64,7 @@ Folder: `the-bigger-economic-picture/`
 | 3 | `how-interest-rates-actually-get-set` | done — live on main |
 | 4 | `what-supply-and-demand-actually-predicts` | done — live on main |
 | 5 | `how-a-recession-actually-gets-defined` | done — live on main |
-| 6 | `what-the-federal-reserve-actually-does` | not started |
+| 6 | `what-the-federal-reserve-actually-does` | done — live on main |
 | 7 | `how-tariffs-actually-affect-prices` | not started |
 | 8 | `what-minimum-wage-debates-actually-center-on` | not started |
 | 9 | `how-unemployment-rate-actually-gets-calculated` | not started |

@@ -64,7 +64,7 @@ Folder: `deeper-patterns-in-human-behavior/`
 | 3 | `how-habits-actually-get-built-in-the-brain` | done — live on main |
 | 4 | `what-confirmation-bias-actually-does-to-decision-making` | done — live on main |
 | 5 | `how-social-proof-actually-influences-behavior` | done — live on main |
-| 6 | `what-the-placebo-effect-actually-reveals-about-the-mind` | not started |
+| 6 | `what-the-placebo-effect-actually-reveals-about-the-mind` | done — live on main |
 | 7 | `how-procrastination-actually-works-in-the-brain` | not started |
 | 8 | `what-imposter-syndrome-actually-is` | not started |
 | 9 | `how-first-impressions-actually-form-so-fast` | not started |

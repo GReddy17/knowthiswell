@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "general-awareness-basics/how-fact-checking-organizations-work",
     "general-awareness-basics/understanding-media-bias",
     "general-awareness-basics/reading-beyond-the-headline-critical-reading-skills",
+    "ai-future-tech-literacy/what-ai-hallucination-actually-means",
   ],
   glossary: [
     {"term":"Misinformation","definition":"False or inaccurate information spread regardless of intent to deceive — it can result from error, not just malice."},

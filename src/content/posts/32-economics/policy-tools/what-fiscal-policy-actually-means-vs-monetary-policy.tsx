@@ -32,6 +32,7 @@ export const metadata: PostFrontmatter = {
   ],
   seeAlso: [
     "economics/how-inflation-actually-erodes-purchasing-power",
+    "economics/what-the-federal-reserve-actually-does",
   ],
   glossary: [
     { term: "Fiscal policy", definition: "Government decisions about taxation and spending, used to influence the overall economy, set through the legislative process." },

@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "professional-skills-certifications/what-a-certificate-actually-differs-from-a-certification",
     "career-study-skills/what-a-skills-gap-analysis-actually-is",
     "professional-skills-certifications/how-agile-and-scrum-actually-differ",
+    "professional-skills-certifications/how-cloud-certifications-actually-boost-a-resume",
   ],
   glossary: [
     { term: "Issuing body", definition: "The organization that creates, administers, and stands behind a certification — its reputation and recognition in the field directly affects how much weight the credential carries." },

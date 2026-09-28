@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "economics/how-inflation-actually-erodes-purchasing-power",
     "personal-finance-basics/understanding-loans-principal-interest-and-terms",
     "personal-finance-basics/savings-accounts-explained-how-interest-actually-works",
+    "economics/what-the-federal-reserve-actually-does",
   ],
   glossary: [
     { term: "Federal funds rate", definition: "The interest rate banks charge each other for overnight loans of reserve balances — the specific rate the Federal Reserve targets, not a rate charged directly to consumers." },

@@ -64,7 +64,7 @@ Folder: `ai-in-practice-and-its-limits/`
 | 3 | `machine-learning-vs-deep-learning-explained` | done — live on main |
 | 4 | `what-a-neural-network-actually-does` | done — live on main |
 | 5 | `how-ai-image-generators-actually-create-pictures` | done — live on main |
-| 6 | `what-ai-hallucination-actually-means` | not started |
+| 6 | `what-ai-hallucination-actually-means` | done — live on main |
 | 7 | `how-ai-chatbots-are-trained` | not started |
 | 8 | `what-prompt-engineering-actually-is` | not started |
 | 9 | `ai-agents-explained-what-makes-them-different-from-chatbots` | not started |

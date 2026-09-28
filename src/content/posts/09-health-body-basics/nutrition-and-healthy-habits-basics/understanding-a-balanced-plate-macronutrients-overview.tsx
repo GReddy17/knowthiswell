@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "health-body-basics/how-to-read-a-nutrition-label",
     "health-body-basics/understanding-food-groups-and-dietary-variety",
     "health-body-basics/portion-control-basics",
+    "health-wellness-deep-dive/what-macronutrients-actually-do-in-the-body",
   ],
   glossary: [
     {"term":"Macronutrient","definition":"One of the three nutrients the body needs in large amounts for energy and function: protein, carbohydrate, and fat."},

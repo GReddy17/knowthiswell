@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "government-schemes-benefits/how-to-actually-renew-a-passport-or-national-id",
     "personal-finance-basics/understanding-retirement-accounts-basic-mechanics",
     "government-schemes-benefits/how-public-health-insurance-programs-actually-work",
+    "government-schemes-benefits/what-disability-benefits-actually-require-to-qualify",
   ],
   glossary: [
     { term: "Full retirement age (FRA)", definition: "The age at which a worker is entitled to their full calculated Social Security benefit, set by the Social Security Administration based on birth year — currently 66 to 67 for most workers." },

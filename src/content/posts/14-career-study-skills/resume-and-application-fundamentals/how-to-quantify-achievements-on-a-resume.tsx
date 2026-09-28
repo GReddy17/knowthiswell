@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/what-applicant-tracking-systems-actually-do",
     "career-study-skills/resume-vs-cv-whats-the-real-difference",
     "career-study-skills/chronological-vs-functional-resume-formats",
+    "professional-skills-certifications/how-cloud-certifications-actually-boost-a-resume",
   ],
   glossary: [
     { term: "Quantified achievement", definition: "A resume bullet point that states a measurable result (a number, percentage, dollar amount, or scale) rather than only describing a task or responsibility." },
