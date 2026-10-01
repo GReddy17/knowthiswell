@@ -40,6 +40,7 @@ export const metadata: PostFrontmatter = {
     "investing-markets-deep-dive/how-dividend-investing-actually-works",
     "personal-finance-basics/understanding-retirement-accounts-basic-mechanics",
     "personal-finance-basics/credit-cards-explained-interest-grace-periods-minimum-payments",
+    "investing-markets-deep-dive/what-a-bull-market-vs-bear-market-actually-means",
   ],
   glossary: [
     { term: "Compound interest", definition: "Interest or returns earned on both the original amount and on returns already added to it." },

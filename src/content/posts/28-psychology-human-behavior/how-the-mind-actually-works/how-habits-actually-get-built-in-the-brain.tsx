@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "how-the-mind-actually-works",
   tags: ["habit formation", "basal ganglia", "cue routine reward", "behavior change", "psychology human behavior"],
   date: "2026-09-23",
-  updated: "2026-09-23",
+  updated: "2026-09-30",
   lastReviewed: "2026-09-23",
   excerpt: "A habit isn't willpower failing — it's a repeated cue-routine-reward loop the brain has automated so it takes less conscious effort each time.",
   summary: "A habit forms as the brain repeatedly links a cue, a routine, and a reward into a loop, and the basal ganglia — a brain structure involved in automating repeated behavior — gradually takes over running that loop with less involvement from the more deliberate, conscious parts of the brain, per the American Psychological Association and the National Institutes of Health; this is also why habits are so hard to simply 'delete': the old neural pathway doesn't disappear once formed, so breaking a habit generally means building a competing routine strong enough to override it, not erasing the original one.",
@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "psychology-human-behavior/what-cognitive-dissonance-actually-feels-like",
     "psychology-human-behavior/how-cognitive-load-actually-affects-decision-making",
     "general-science-facts/sleep-and-the-brain",
+    "psychology-human-behavior/how-procrastination-actually-works-in-the-brain",
   ],
   glossary: [
     { term: "Cue-routine-reward loop", definition: "The repeating pattern behind a habit: a trigger (cue) leads to a behavior (routine) that produces an outcome (reward), which reinforces the loop happening again." },
@@ -51,6 +52,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What are the three parts of the habit loop described by the APA?", "difficulty": "easy", "options": [{"text": "Cue, routine and reward", "correct": true, "explanation": "A cue triggers the routine, and the reward reinforces the link between them."}, {"text": "Goal, plan and deadline", "correct": false, "explanation": "That describes planning, not how habits form."}, {"text": "Thought, decision and action", "correct": false, "explanation": "Habits work because they bypass much of the deliberate decision step."}]},
+  {"question": "Which brain structures does the NIH link to automating repeated behavior?", "difficulty": "medium", "options": [{"text": "The basal ganglia", "correct": true, "explanation": "As a behavior repeats, control shifts toward this more automatic processing."}, {"text": "The cerebellum alone", "correct": false, "explanation": "The basal ganglia are the structures named here for habit automation."}, {"text": "The optic nerve", "correct": false, "explanation": "That carries visual signals. It doesn't automate behavior."}]},
+  {"question": "What happens to the old neural pathway when a new routine replaces a habit?", "difficulty": "medium", "options": [{"text": "It isn't deleted. The new routine forms a separate, competing pathway", "correct": true, "explanation": "That's why old habits can return, especially under stress."}, {"text": "It is permanently erased", "correct": false, "explanation": "Per the NIH, the old pathway generally remains available."}, {"text": "It merges with the new pathway into one", "correct": false, "explanation": "The two run side by side and compete."}]},
+  {"question": "Someone who quit biting their nails years ago starts again during a stressful week. What best explains it?", "difficulty": "medium", "options": [{"text": "Stress makes the brain fall back on older, well-established pathways that were never erased", "correct": true, "explanation": "The NIH notes stress tends to push people back toward old habits."}, {"text": "Their progress was fully reset and they must start over", "correct": false, "explanation": "It isn't a full reset. The newer routine still exists alongside the old one."}, {"text": "Nail-biting is caused only by stress", "correct": false, "explanation": "Stress triggered the relapse, but the old pathway is what made it possible."}]},
+  {"question": "What does 'automaticity' mean in habit formation?", "difficulty": "medium", "options": [{"text": "How much a behavior runs without deliberate, effortful decision-making", "correct": true, "explanation": "Automaticity rises as control shifts toward the basal ganglia."}, {"text": "How quickly a habit can be deleted", "correct": false, "explanation": "Habits generally aren't deleted at all."}, {"text": "How rewarding a behavior feels", "correct": false, "explanation": "Reward reinforces the loop, but automaticity is about effort and attention."}]},
+  {"question": "Someone wants to stop scrolling their phone right after waking up. Which approach fits the cue-routine-reward framework best?", "difficulty": "hard", "options": [{"text": "Attach a new routine, like drinking a glass of water, to the same waking-up cue", "correct": true, "explanation": "Building a competing routine on the same cue is more workable than suppressing the old one with willpower."}, {"text": "Rely on willpower to simply not scroll", "correct": false, "explanation": "Willpower alone leaves the cue in place with no alternative routine."}, {"text": "Try to forget the habit ever existed", "correct": false, "explanation": "The old pathway persists, so forgetting isn't an option the brain offers."}]},
+  {"question": "In the coffee example, what is the cue?", "difficulty": "easy", "options": [{"text": "Finishing brushing their teeth", "correct": true, "explanation": "Brushing triggers the routine of making coffee, and the taste and alertness are the reward."}, {"text": "The taste of the coffee", "correct": false, "explanation": "That's the reward, not the cue."}, {"text": "Filling the kettle", "correct": false, "explanation": "That's part of the routine itself."}]},
+];
 
 export default function Post() {
   return (

@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/matter-and-states-of-matter",
     "general-science-facts/density-and-buoyancy",
     "general-science-facts/forces-and-motion",
+    "units-measurement-conversions/tire-pressure-units-psi-bar-and-kpa",
   ],
   glossary: [
     { term: "Pressure", definition: "Force applied per unit area, measured in pascals (Pa) or pounds per square inch (psi) — the same force spread over a smaller area creates higher pressure." },

@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/cloud-storage-vs-local-storage",
     "technology-basics/what-uptime-means-for-online-services",
     "technology-basics/why-some-apps-work-offline-and-others-dont",
+    "technology-basics/why-video-calls-lag",
   ],
   glossary: [
     { term: "Buffer", definition: "A small amount of media data downloaded slightly ahead of playback and held temporarily in memory, giving playback a cushion against brief slowdowns in the incoming data." },

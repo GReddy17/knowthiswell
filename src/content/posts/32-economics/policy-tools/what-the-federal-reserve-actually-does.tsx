@@ -39,6 +39,7 @@ export const metadata: PostFrontmatter = {
     "economics/how-inflation-actually-erodes-purchasing-power",
     "economics/how-a-recession-actually-gets-defined",
     "general-awareness-basics/understanding-central-banks-conceptual-overview",
+    "economics/how-tariffs-actually-affect-prices",
   ],
   glossary: [
     { term: "Federal funds rate", definition: "The interest rate banks charge each other for overnight loans of reserves; the Fed sets a target range for it." },

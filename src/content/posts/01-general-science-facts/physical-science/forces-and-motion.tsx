@@ -33,6 +33,7 @@ export const metadata: PostFrontmatter = {
   ],
   seeAlso: [
     "general-science-facts/matter-and-states-of-matter",
+    "general-science-facts/simple-machines",
   ],
   glossary: [
     { term: "Force", definition: "Any push or pull on an object, measured in newtons (N)." },

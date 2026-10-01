@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "festivals-culture/diwali-explained",
     "festivals-culture/regional-harvest-festivals-of-india",
     "festivals-culture/classical-indian-dance-forms-overview",
+    "festivals-culture/ganesh-chaturthi",
   ],
   glossary: [
     { term: "Vijayadashami (Dussehra)", definition: "The tenth day concluding Navratri, marking Durga's victory over the buffalo demon Mahishasura and, in North India, Rama's victory over Ravana." },

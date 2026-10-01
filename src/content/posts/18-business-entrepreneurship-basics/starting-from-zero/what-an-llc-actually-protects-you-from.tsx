@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "legal-documentation-howtos/business-registration-documents-explained",
     "personal-finance-basics/self-employment-and-freelance-tax-basics",
     "legal-documentation-howtos/what-makes-a-contract-legally-binding",
+    "business-entrepreneurship-basics/how-to-actually-find-your-first-customers",
   ],
   glossary: [
     { term: "LLC (limited liability company)", definition: "A business structure created under state law that is legally separate from its owners (called members), combining limited liability with flexible tax treatment." },

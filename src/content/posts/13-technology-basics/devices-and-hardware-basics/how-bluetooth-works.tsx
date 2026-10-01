@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "technology-basics/how-wireless-charging-works",
     "technology-basics/how-touchscreens-actually-work",
+    "general-science-facts/does-a-microwave-really-heat-food-from-the-inside-out",
   ],
   glossary: [
     { term: "Bluetooth SIG", definition: "The Bluetooth Special Interest Group, the industry organization that owns, develops, and licenses the Bluetooth wireless standard." },

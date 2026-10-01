@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -29,7 +29,7 @@ export const metadata: PostFrontmatter = {
     "conversion formula",
   ],
   date: "2026-08-21",
-  updated: "2026-08-21",
+  updated: "2026-09-30",
   lastReviewed: "2026-08-21",
   excerpt: "Celsius to Fahrenheit isn't a simple multiplication — it's °F = (°C × 9/5) + 32, because the two scales assign different numbers to the same zero point.",
   summary: "Converting between Celsius and Fahrenheit requires both scaling and an offset — °F = (°C × 9/5) + 32 — because the two scales don't share a common zero point the way length or weight units do.",
@@ -58,6 +58,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "https://www.youtube.com/watch?v=oupXXVWOYzk",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a comfortable room temperature of 20°C in Fahrenheit?", "difficulty": "easy", "options": [{"text": "68°F", "correct": true, "explanation": "(20 × 9/5) + 32 = 36 + 32 = 68°F, a handy reference point to memorize."}, {"text": "36°F", "correct": false, "explanation": "That's only the multiplication step. You still need to add 32."}, {"text": "52°F", "correct": false, "explanation": "That adds 32 without multiplying by 9/5 first."}]},
+  {"question": "A winter forecast reads −10°C. What is that in Fahrenheit?", "difficulty": "medium", "options": [{"text": "14°F", "correct": true, "explanation": "(−10 × 9/5) + 32 = −18 + 32 = 14°F."}, {"text": "−18°F", "correct": false, "explanation": "That skips the +32 offset."}, {"text": "50°F", "correct": false, "explanation": "−10 × 9/5 is −18, not +18, so the answer is 14°F."}]},
+  {"question": "A US weather app shows 95°F. What is that in Celsius?", "difficulty": "medium", "options": [{"text": "35°C", "correct": true, "explanation": "(95 − 32) × 5/9 = 63 × 5/9 = 35°C."}, {"text": "about 21°C", "correct": false, "explanation": "That multiplies by 5/9 first and only then subtracts. Subtract 32 first."}, {"text": "203°C", "correct": false, "explanation": "That runs the Celsius-to-Fahrenheit formula on a Fahrenheit number."}]},
+  {"question": "At what Fahrenheit temperature does water freeze at standard pressure?", "difficulty": "easy", "options": [{"text": "32°F", "correct": true, "explanation": "The same physical temperature is 0°C. That gap is the +32 offset in the formula."}, {"text": "0°F", "correct": false, "explanation": "0°F is well below water's freezing point."}, {"text": "100°F", "correct": false, "explanation": "100°F is a hot day, far above freezing."}]},
+  {"question": "Where does the 9/5 scaling factor come from?", "difficulty": "medium", "options": [{"text": "Water's freezing-to-boiling range is 100 Celsius degrees but 180 Fahrenheit degrees", "correct": true, "explanation": "180 ÷ 100 = 9/5, so a Fahrenheit degree is a smaller step than a Celsius degree."}, {"text": "It was chosen to make the numbers look neat", "correct": false, "explanation": "It follows directly from how each scale divides the same physical range."}, {"text": "A Fahrenheit degree is larger than a Celsius degree", "correct": false, "explanation": "It's the reverse: you need 9/5 as many Fahrenheit degrees for the same change."}]},
+  {"question": "Why is water's freezing point the odd-looking 32°F?", "difficulty": "hard", "options": [{"text": "It's left over from how Fahrenheit calibrated his 1724 scale, originally using a brine solution's freezing point as zero", "correct": true, "explanation": "The number is a historical artifact, not a designed value like Celsius's 0 and 100."}, {"text": "Because 32 is exactly one-third of 100", "correct": false, "explanation": "32 isn't a designed fraction of anything. It came from the original calibration."}, {"text": "Because it marks the coldest temperature ever recorded", "correct": false, "explanation": "0°F, not 32°F, was tied to Fahrenheit's brine reference."}]},
+  {"question": "What's the single most common mistake when converting between Celsius and Fahrenheit?", "difficulty": "easy", "options": [{"text": "Skipping the +32 or −32 offset step", "correct": true, "explanation": "Both steps, scaling and offset, are needed because the two scales don't share a zero point."}, {"text": "Using 9/5 instead of 1.8", "correct": false, "explanation": "They're the same number, so this isn't a mistake."}, {"text": "Rounding the final answer", "correct": false, "explanation": "Rounding only causes small errors. Dropping the offset is off by 32 degrees."}]},
+  {"question": "At what temperature do the Celsius and Fahrenheit scales show the same number?", "difficulty": "hard", "options": [{"text": "−40", "correct": true, "explanation": "Solving (°C × 9/5) + 32 = °C gives −40, so −40°C equals −40°F."}, {"text": "0", "correct": false, "explanation": "0°C is 32°F, so they differ there."}, {"text": "100", "correct": false, "explanation": "100°C is 212°F, so they differ there too."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "physical-science",
   tags: ["electricity", "magnetism", "circuits", "ohms law", "physics", "series and parallel circuits", "magnetic poles"],
   date: "2026-08-16",
-  updated: "2026-08-19",
+  updated: "2026-09-30",
   lastReviewed: "2026-08-19",
   excerpt: "How electric current, voltage, and resistance relate through Ohm's law, why magnets have poles, series vs. parallel circuits, and why electricity and magnetism are one connected force.",
   summary: "Electric current is the flow of charge through a circuit, driven by voltage and limited by resistance (Ohm's law: V = IR). Moving electric charge also creates magnetism — the two are linked, not separate forces.",
@@ -57,6 +57,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "https://www.youtube.com/watch?v=X4mNWJydzTA",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does Ohm's law state?", "difficulty": "easy", "options": [{"text": "Voltage equals current times resistance (V = IR)", "correct": true, "explanation": "Raise voltage and current rises; raise resistance and current falls for the same voltage."}, {"text": "Current equals voltage times resistance", "correct": false, "explanation": "Current is voltage divided by resistance, not multiplied."}, {"text": "Resistance always equals voltage", "correct": false, "explanation": "Resistance is voltage divided by current."}]},
+  {"question": "A bulb with 6 ohms of resistance is connected to a 3-volt battery. How much current flows?", "difficulty": "medium", "options": [{"text": "0.5 amps", "correct": true, "explanation": "I = V ÷ R = 3 ÷ 6 = 0.5 A."}, {"text": "18 amps", "correct": false, "explanation": "That's V × R, but Ohm's law gives current as V ÷ R."}, {"text": "2 amps", "correct": false, "explanation": "That's R ÷ V, which flips the formula."}]},
+  {"question": "In the water-pipe analogy, what does voltage correspond to?", "difficulty": "easy", "options": [{"text": "The water pressure pushing the flow", "correct": true, "explanation": "Voltage pushes the charge; current is how much flows per second; resistance is like a narrow pipe."}, {"text": "The amount of water flowing per second", "correct": false, "explanation": "That's current."}, {"text": "A narrow section of pipe", "correct": false, "explanation": "That's resistance."}]},
+  {"question": "What did Hans Christian Ørsted discover in 1820?", "difficulty": "medium", "options": [{"text": "A moving electric charge creates a magnetic field around it", "correct": true, "explanation": "That's why current through a coiled wire makes it magnetic, the basis of electromagnetism."}, {"text": "That a changing magnetic field induces current", "correct": false, "explanation": "That's Faraday's law, from 1831."}, {"text": "That light is an electromagnetic wave", "correct": false, "explanation": "Maxwell's equations made that link in the 1860s."}]},
+  {"question": "Why can a wire that is too thin for its load start a fire?", "difficulty": "medium", "options": [{"text": "Its higher resistance turns more electrical energy into heat (power = I²R)", "correct": true, "explanation": "Thinner wire has less cross-sectional area, so more resistance per meter and more heating at the same current."}, {"text": "Thin wires carry less voltage, which makes sparks", "correct": false, "explanation": "The danger comes from heating through resistance, not low voltage."}, {"text": "Thin wires are made of a different, flammable metal", "correct": false, "explanation": "Wiring is copper or aluminum regardless of thickness."}]},
+  {"question": "You cut a bar magnet in half. What do you get?", "difficulty": "medium", "options": [{"text": "Two smaller magnets, each with its own north and south pole", "correct": true, "explanation": "Poles come from the alignment of electrons inside the material, so every piece has both ends."}, {"text": "One piece that's only north and one that's only south", "correct": false, "explanation": "An isolated single pole doesn't appear. Each half has both."}, {"text": "Two pieces that are no longer magnetic", "correct": false, "explanation": "The alignment remains, so each half is still a magnet."}]},
+  {"question": "Why does a compass needle point north?", "difficulty": "hard", "options": [{"text": "Its north pole is pulled toward Earth's magnetic south pole, which sits near the geographic North Pole", "correct": true, "explanation": "Opposite poles attract, and the needle is just a small, freely spinning magnet."}, {"text": "It's pulled toward Earth's magnetic north pole", "correct": false, "explanation": "Like poles repel, so the needle's north end goes to a magnetic south pole."}, {"text": "Electric current in the needle steers it", "correct": false, "explanation": "A compass needle has no current. It's a permanent magnet."}]},
+  {"question": "How fast do individual electrons actually move along a wire in a working circuit?", "difficulty": "hard", "options": [{"text": "Very slowly, often just millimeters per second", "correct": true, "explanation": "What moves at nearly light speed is the electric field that starts all the electrons drifting at once, which is why a switch seems instant."}, {"text": "At about the speed of light", "correct": false, "explanation": "That's the electric field, not the electrons themselves."}, {"text": "About as fast as sound", "correct": false, "explanation": "Electrons drift far slower than sound."}]},
+];
 
 export default function Post() {
   return (

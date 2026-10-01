@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-a-web-browser-is-actually-doing",
     "technology-basics/how-online-ad-targeting-works",
     "technology-basics/what-a-digital-footprint-actually-means",
+    "professional-skills-certifications/what-google-analytics-certification-actually-verifies",
   ],
   glossary: [
     { term: "Cookie", definition: "A small piece of text data a website asks a browser to store, which the browser then automatically resends to that same website on later requests." },

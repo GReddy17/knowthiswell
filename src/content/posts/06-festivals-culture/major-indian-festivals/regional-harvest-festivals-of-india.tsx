@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "festivals-culture/onam",
     "festivals-culture/diwali-explained",
     "festivals-culture/navratri-and-durga-puja",
+    "festivals-culture/thanksgiving-explained",
   ],
   glossary: [
     { term: "Uttarayan", definition: "The period marking the sun's northward movement (as observed from Earth) after the winter solstice, which several harvest festivals, including Makar Sankranti, are tied to." },

@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/malware-viruses-and-ransomware-explained",
     "technology-basics/two-factor-authentication-explained",
     "technology-basics/what-a-data-breach-actually-means-for-you",
+    "digital-safety-privacy/how-identity-theft-actually-starts",
   ],
   glossary: [
     { term: "Phishing", definition: "A social-engineering technique where an attacker impersonates a trusted person or organization, usually by email, text, or phone, to trick a target into revealing information or taking a harmful action." },

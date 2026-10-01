@@ -46,6 +46,8 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/the-five-senses",
     "general-science-facts/cells-and-genetics-basics",
     "general-science-facts/why-bears-need-to-double-their-body-fat-before-hibernation",
+    "health-wellness-deep-dive/how-chronic-stress-actually-damages-long-term-health",
+    "health-body-basics/sleep-hygiene-building-healthy-sleep-habits",
   ],
   glossary: [
     { term: "NREM sleep", definition: "Non-rapid eye movement sleep, made up of progressively deeper stages (N1, N2, N3), including deep, slow-wave sleep." },

@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-a-digital-footprint-actually-means",
     "technology-basics/what-app-permissions-actually-grant",
     "technology-basics/how-online-payments-get-processed",
+    "technology-basics/streaming-vs-downloading-explained",
   ],
   glossary: [
     { term: "Billing cycle", definition: "The fixed, recurring interval — commonly one month — on which a subscription re-checks account status and charges the next payment." },

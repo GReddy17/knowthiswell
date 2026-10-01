@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-a-password-manager-actually-does",
     "technology-basics/phishing-explained",
     "digital-safety-privacy/how-data-breaches-actually-happen",
+    "digital-safety-privacy/how-identity-theft-actually-starts",
   ],
   glossary: [
     { term: "Data breach", definition: "An incident where data is copied, viewed, or taken from a system without authorization, often affecting a large number of people's records stored by an organization at once." },

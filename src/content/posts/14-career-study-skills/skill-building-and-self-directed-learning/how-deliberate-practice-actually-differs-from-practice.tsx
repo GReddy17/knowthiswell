@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/what-the-80-20-rule-means-for-learning-a-skill",
     "career-study-skills/what-a-learning-curve-actually-shows",
     "career-study-skills/how-spaced-repetition-actually-works",
+    "career-study-skills/why-teaching-something-helps-you-learn-it",
   ],
   glossary: [
     { term: "Deliberate practice", definition: "A structured practice method that targets a specific weakness just past current ability, paired with immediate, specific feedback and correction, then repetition of the corrected version." },

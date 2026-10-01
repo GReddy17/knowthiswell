@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-beta-software-actually-means",
     "technology-basics/why-apps-crash-explained",
     "technology-basics/what-an-operating-system-actually-does",
+    "technology-basics/what-end-of-support-means-for-old-software",
   ],
   glossary: [
     { term: "Patch", definition: "A software update targeted at fixing specific bugs or security flaws in an already-released program, without necessarily adding new features." },

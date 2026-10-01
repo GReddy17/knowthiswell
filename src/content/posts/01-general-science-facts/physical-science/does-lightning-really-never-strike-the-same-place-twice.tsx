@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/light-color-and-sound",
     "general-science-facts/waves-and-vibrations",
     "general-science-facts/heat-and-temperature",
+    "general-science-facts/why-you-see-lightning-before-you-hear-the-thunder",
   ],
   glossary: [
     { term: "Stepped leader", definition: "A negatively charged channel of ionized air that descends from a storm cloud in short, rapid jumps, feeling out the path of least resistance toward the ground." },

@@ -38,6 +38,8 @@ export const metadata: PostFrontmatter = {
     "economics/what-fiscal-policy-actually-means-vs-monetary-policy",
     "economics/how-inflation-actually-erodes-purchasing-power",
     "government-schemes-benefits/how-unemployment-benefits-actually-get-calculated",
+    "investing-markets-deep-dive/what-a-bull-market-vs-bear-market-actually-means",
+    "economics/how-tariffs-actually-affect-prices",
   ],
   glossary: [
     { term: "Recession", definition: "Per the NBER, a significant decline in economic activity that is spread across the economy and lasts more than a few months." },

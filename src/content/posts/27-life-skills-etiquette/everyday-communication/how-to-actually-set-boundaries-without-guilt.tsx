@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "everyday-communication",
   tags: ["boundaries", "guilt", "assertiveness", "communication skills"],
   date: "2026-09-23",
-  updated: "2026-09-23",
+  updated: "2026-09-30",
   lastReviewed: "2026-09-23",
   excerpt: "A boundary is a limit you state and hold, not a request for permission — the guilt shows up when you treat someone else's disappointment as proof you did something wrong.",
   summary: "A personal boundary is a clearly communicated limit on what you will do, accept, or tolerate, and it functions very differently from silently absorbing something you don't want and hoping it resolves itself; the guilt that shows up when stating a boundary is typically a reaction to someone else's discomfort, not a signal that the boundary itself is wrong, and clinical guidance on boundary-setting consistently recommends stating the limit plainly, once, without an extended justification, rather than over-explaining to try to earn the other person's agreement.",
@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "life-skills-etiquette/what-active-listening-actually-looks-like-in-practice",
     "life-skills-etiquette/how-to-actually-build-rapport-quickly",
     "career-study-skills/how-to-ask-for-a-raise-effectively",
+    "life-skills-etiquette/how-to-actually-apologize-in-a-way-that-lands",
   ],
   glossary: [
     { term: "Boundary", definition: "A clearly communicated limit on what you will do, accept, or tolerate — distinct from a preference you keep to yourself and hope others notice." },
@@ -50,6 +51,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What makes something a boundary rather than a private expectation?", "difficulty": "easy", "options": [{"text": "It's a limit you actually communicate to the other person", "correct": true, "explanation": "An unstated limit gives the other person no chance to meet it."}, {"text": "It's a limit you feel strongly about", "correct": false, "explanation": "Strong feelings don't help if the limit is never said."}, {"text": "It's written down somewhere", "correct": false, "explanation": "Writing it privately doesn't communicate it."}]},
+  {"question": "Which categories of boundaries does Cleveland Clinic's guidance mention?", "difficulty": "medium", "options": [{"text": "Physical, emotional and time-based", "correct": true, "explanation": "Boundaries generally fall into these few categories."}, {"text": "Legal, financial and medical only", "correct": false, "explanation": "Those aren't the categories named in the guidance."}, {"text": "Public and secret", "correct": false, "explanation": "The guidance doesn't sort boundaries this way."}]},
+  {"question": "What kind of language does the guidance recommend when stating a boundary?", "difficulty": "easy", "options": [{"text": "Clear, specific 'I' language", "correct": true, "explanation": "Hints force the other person to decode what you mean."}, {"text": "Hints the other person can pick up on", "correct": false, "explanation": "Hints are exactly what the guidance advises against."}, {"text": "Long explanations with many reasons", "correct": false, "explanation": "Over-explaining invites argument."}]},
+  {"question": "Why can over-explaining a boundary backfire?", "difficulty": "medium", "options": [{"text": "Each extra reason reads as an opening for the other person to argue", "correct": true, "explanation": "Stating the limit plainly, once, is what clinical guidance recommends."}, {"text": "Because long explanations are rude", "correct": false, "explanation": "The issue is that they invite negotiation, not rudeness."}, {"text": "Because the other person won't read it", "correct": false, "explanation": "The problem is the counter-arguments it invites."}]},
+  {"question": "A family member reacts with disappointment to a boundary about hosting holidays. What does the guidance suggest?", "difficulty": "medium", "options": [{"text": "Calmly restate the limit; you don't need their agreement for it to stand", "correct": true, "explanation": "Their reaction is information about them, not evidence the boundary should be withdrawn."}, {"text": "Withdraw the boundary to keep the peace", "correct": false, "explanation": "Caving because the reaction wasn't warm is what the guidance warns against."}, {"text": "Keep arguing until they agree", "correct": false, "explanation": "Holding a boundary doesn't require winning the other person over."}]},
+  {"question": "Why are unstated boundaries closely linked to resentment?", "difficulty": "hard", "options": [{"text": "The underlying need goes unmet over and over, and recurring unmet needs build resentment", "correct": true, "explanation": "The need doesn't disappear when the limit goes unsaid."}, {"text": "Because stating a boundary always causes resentment", "correct": false, "explanation": "It's the unstated limits that build resentment over time."}, {"text": "Because resentment is a personality trait", "correct": false, "explanation": "The article links it to unmet needs, not fixed traits."}]},
+  {"question": "When is the best time to state a boundary like 'I don't check messages after 7pm'?", "difficulty": "medium", "options": [{"text": "While it's still a preference, before it turns into a grievance", "correct": true, "explanation": "That keeps the conversation calmer and more matter-of-fact."}, {"text": "Only after resentment boils over", "correct": false, "explanation": "Waiting tends to turn it into a tense confrontation."}, {"text": "Never, if it might disappoint someone", "correct": false, "explanation": "Someone else's disappointment isn't a reason the boundary is wrong."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "physical-science",
   tags: ["atoms", "elements", "periodic table", "protons", "chemistry"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-09-30",
   lastReviewed: "2026-08-16",
   excerpt: "What atoms are actually made of, why the number of protons defines which element you have, and how the periodic table organizes every known element by pattern.",
   summary: "An atom is made of protons, neutrons, and electrons — the number of protons alone determines which element it is. The periodic table arranges all known elements by that proton count, revealing repeating patterns in how they behave.",
@@ -53,6 +53,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "https://www.youtube.com/watch?v=nTlxTnFVaXM",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is an element's atomic number?", "difficulty": "easy", "options": [{"text": "The number of protons in each of its atoms", "correct": true, "explanation": "Atomic number is the single defining property: carbon is any atom with exactly 6 protons."}, {"text": "The number of neutrons in the nucleus", "correct": false, "explanation": "Neutrons add mass but don't change the element."}, {"text": "The total number of particles in the atom", "correct": false, "explanation": "Only the proton count sets the atomic number."}]},
+  {"question": "An atom has 8 protons. Which element is it?", "difficulty": "easy", "options": [{"text": "Oxygen, whatever its neutron or electron count", "correct": true, "explanation": "8 protons is oxygen, full stop. The periodic table is ordered by that proton count."}, {"text": "It depends on how many neutrons it has", "correct": false, "explanation": "Changing neutrons gives a different isotope of oxygen, not a different element."}, {"text": "It depends on how many electrons it has", "correct": false, "explanation": "Gaining or losing electrons makes an ion, but the element stays the same."}]},
+  {"question": "Where is nearly all of an atom's mass?", "difficulty": "medium", "options": [{"text": "In the tiny, dense nucleus at the center", "correct": true, "explanation": "Protons and neutrons sit in the nucleus, while electrons take up almost all of the atom's volume."}, {"text": "Spread evenly through the whole atom", "correct": false, "explanation": "The mass is packed into the nucleus, not spread out."}, {"text": "In the electrons orbiting the nucleus", "correct": false, "explanation": "Electrons take up the space, but very little of the mass."}]},
+  {"question": "Why do elements in the same column of the periodic table tend to react in similar ways?", "difficulty": "medium", "options": [{"text": "They share the same pattern of outer electrons, which controls bonding", "correct": true, "explanation": "Bonding behavior comes from the outermost electrons, and that pattern repeats down each column."}, {"text": "They have the same number of protons", "correct": false, "explanation": "Every element has a different proton count, including those in the same column."}, {"text": "They were discovered at the same time", "correct": false, "explanation": "The table is ordered by atomic number and behavior, not discovery date."}]},
+  {"question": "How does carbon dating estimate when an organism died?", "difficulty": "medium", "options": [{"text": "By measuring how much carbon-14 is left compared with stable carbon-12", "correct": true, "explanation": "After death, no new carbon-14 is absorbed and the existing carbon-14 decays at a steady rate, with a half-life of about 5,730 years."}, {"text": "By counting how many carbon atoms have turned into oxygen", "correct": false, "explanation": "Carbon-14 decays into nitrogen, and the test measures the isotope ratio."}, {"text": "By measuring how much total carbon the sample has", "correct": false, "explanation": "The total amount of carbon doesn't reveal age. The ratio of isotopes does."}]},
+  {"question": "When carbon-14 decays, what does it turn into?", "difficulty": "hard", "options": [{"text": "Nitrogen", "correct": true, "explanation": "Carbon-14 is unstable and decays into nitrogen at a known, steady rate."}, {"text": "Carbon-12", "correct": false, "explanation": "Carbon-12 is a stable isotope. Carbon-14 doesn't decay into it."}, {"text": "Oxygen", "correct": false, "explanation": "Carbon-14's decay produces nitrogen, not oxygen."}]},
+  {"question": "What made Mendeleev's 1869 periodic table more than a list of elements?", "difficulty": "hard", "options": [{"text": "He left gaps and predicted the properties of undiscovered elements, such as germanium", "correct": true, "explanation": "His 'eka-silicon' prediction matched germanium almost exactly when it was found in 1886."}, {"text": "It was the first list to include every element known today", "correct": false, "explanation": "Many elements were still undiscovered, which is why he left gaps."}, {"text": "It ordered elements alphabetically for easy lookup", "correct": false, "explanation": "The table is ordered by pattern and atomic number, which is what gave it predictive power."}]},
+  {"question": "In chemical reactions, how do metals and non-metals usually differ?", "difficulty": "medium", "options": [{"text": "Metals tend to lose outer electrons, while non-metals tend to gain them", "correct": true, "explanation": "The same electron-count logic explains why sodium gives up an electron and chlorine takes one."}, {"text": "Metals gain electrons and non-metals lose them", "correct": false, "explanation": "It's the reverse: metals give up outer electrons easily."}, {"text": "Neither ever exchanges electrons", "correct": false, "explanation": "Ionic bonds like table salt form exactly because electrons transfer."}]},
+  {"question": "Is the atom really the smallest, indivisible piece of matter?", "difficulty": "medium", "options": [{"text": "No. Atoms are made of protons, neutrons and electrons, and protons and neutrons are made of quarks", "correct": true, "explanation": "The Greek idea of an indivisible unit was a philosophical guess. Splitting atoms is how nuclear power works."}, {"text": "Yes, nothing smaller than an atom exists", "correct": false, "explanation": "20th-century physics found smaller particles inside atoms."}, {"text": "Yes, but only for the heaviest elements", "correct": false, "explanation": "Every atom is built from smaller particles, light or heavy."}]},
+];
 
 export default function Post() {
   return (

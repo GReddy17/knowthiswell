@@ -39,6 +39,7 @@ export const metadata: PostFrontmatter = {
     "digital-safety-privacy/how-password-managers-actually-protect-you",
     "digital-safety-privacy/what-two-factor-authentication-actually-does",
     "personal-finance-basics/how-credit-reports-work",
+    "digital-safety-privacy/how-identity-theft-actually-starts",
   ],
   glossary: [
     { term: "Data breach", definition: "An incident where information is accessed or taken by someone who isn't authorized to have it, whether through an attack or an accident." },

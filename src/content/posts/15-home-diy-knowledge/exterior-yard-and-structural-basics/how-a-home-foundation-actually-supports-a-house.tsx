@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/how-a-sump-pump-actually-prevents-flooding",
     "home-diy-knowledge/why-pipes-freeze-and-burst-in-winter",
     "home-diy-knowledge/why-gutters-need-regular-cleaning",
+    "home-diy-knowledge/what-makes-pressure-treated-wood-different",
   ],
   glossary: [
     { term: "Footing", definition: "The widened base of concrete at the bottom of a foundation wall or column, specifically sized to spread the structure's load over a large enough soil area." },

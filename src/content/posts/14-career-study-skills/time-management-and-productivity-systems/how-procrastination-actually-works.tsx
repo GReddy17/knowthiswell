@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "time-management-and-productivity-systems",
   tags: ["procrastination", "task avoidance", "time management", "psychology", "productivity"],
   date: "2026-08-30",
-  updated: "2026-08-30",
+  updated: "2026-09-30",
   lastReviewed: "2026-08-30",
   excerpt: "Procrastination is a short-term emotion-regulation strategy, not a discipline problem — avoiding a task relieves discomfort now, at the cost of the same task later.",
   summary: "Procrastination is the act of voluntarily delaying a task despite expecting the delay to make things worse, and psychological research frames it primarily as short-term mood regulation — avoiding the discomfort a task causes right now, at the cost of a worse version of the same task later — rather than as a simple failure of willpower or time management.",
@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/the-pomodoro-technique-explained",
     "career-study-skills/parkinsons-law-explained",
     "psychology-human-behavior/what-cognitive-dissonance-actually-feels-like",
+    "psychology-human-behavior/how-procrastination-actually-works-in-the-brain",
   ],
   glossary: [
     { term: "Procrastination", definition: "The voluntary delay of an intended task despite expecting to be worse off for the delay — distinct from a deliberate, reasoned decision to postpone a task for a good reason." },
@@ -51,6 +52,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What separates procrastination from simply putting a task off?", "difficulty": "easy", "options": [{"text": "Procrastination is delaying a task even though you expect the delay to make things worse", "correct": true, "explanation": "A reasoned decision to postpone something for a good reason isn't procrastination."}, {"text": "Procrastination is any delay longer than a day", "correct": false, "explanation": "Length of delay isn't the test. Expecting to be worse off for it is."}, {"text": "Procrastination only counts at work or school", "correct": false, "explanation": "It can happen with any task, anywhere."}]},
+  {"question": "What is 'mood repair' in the context of procrastination?", "difficulty": "medium", "options": [{"text": "Doing something else to escape the bad feeling a task triggers right now", "correct": true, "explanation": "Avoiding the task gives real, immediate relief from boredom, anxiety or self-doubt."}, {"text": "Fixing a bad mood by finishing the task early", "correct": false, "explanation": "Mood repair works through avoidance, not completion."}, {"text": "A therapy technique for curing procrastination", "correct": false, "explanation": "It's the name for the driver of the delay, not a treatment."}]},
+  {"question": "What does 'present bias' add to the explanation of procrastination?", "difficulty": "medium", "options": [{"text": "Immediate relief gets weighted more heavily than the larger, delayed cost of putting the task off", "correct": true, "explanation": "That's why people still delay even when they can accurately predict the regret."}, {"text": "People don't know a task will be harder later", "correct": false, "explanation": "The point is that they often do know. The future cost is discounted, not unknown."}, {"text": "Tasks genuinely get easier the longer you wait", "correct": false, "explanation": "The task doesn't change. Only the time left before the deadline shrinks."}]},
+  {"question": "Which emotions does the research named here commonly link to procrastination?", "difficulty": "easy", "options": [{"text": "Boredom, anxiety and self-doubt", "correct": true, "explanation": "These are the uncomfortable feelings a task can trigger, which avoidance relieves for a moment."}, {"text": "Excitement and curiosity", "correct": false, "explanation": "Those feelings tend to pull people toward a task, not away from it."}, {"text": "Only anger", "correct": false, "explanation": "Anger isn't one of the main drivers described here."}]},
+  {"question": "Why do better planners or stricter deadlines alone often fail to stop procrastination?", "difficulty": "medium", "options": [{"text": "They add time pressure but don't reduce the emotional discomfort of starting", "correct": true, "explanation": "If the driver is emotional avoidance, a fix has to target that barrier as well as the schedule."}, {"text": "Planners are poorly designed", "correct": false, "explanation": "The tool isn't the problem. It just doesn't address the emotional trigger."}, {"text": "Deadlines have no effect at all on behavior", "correct": false, "explanation": "Deadlines can add urgency. They just don't reach the underlying cause on their own."}]},
+  {"question": "Someone scrolls their phone instead of opening a report that makes them doubt themselves. What has the delay changed?", "difficulty": "medium", "options": [{"text": "Only their emotional state, at the cost of less time before the deadline", "correct": true, "explanation": "The report is no easier or harder. The relief is temporary and the time cost is real."}, {"text": "The report has become easier to write", "correct": false, "explanation": "Nothing about the report itself changed."}, {"text": "Their skill at writing the report has improved", "correct": false, "explanation": "Avoiding the task doesn't build the skill it needs."}]},
+  {"question": "Why is the procrastination cycle so hard to break on its own?", "difficulty": "hard", "options": [{"text": "Each time, the relief is real and immediate while the cost is delayed and abstract until the deadline", "correct": true, "explanation": "That asymmetry keeps favoring avoidance in the moment, so the loop repeats."}, {"text": "Because the cost of procrastinating arrives first", "correct": false, "explanation": "It's the opposite: relief comes first, the cost comes later."}, {"text": "Because people who procrastinate don't feel any relief", "correct": false, "explanation": "The relief is real, which is exactly what reinforces the loop."}]},
+];
 
 export default function Post() {
   return (
@@ -68,7 +79,7 @@ export default function Post() {
       <ModeToggle
         labels={{ plain: "Plain", detailed: "Detailed" }}
         plain={<div className="prose-p"><TermLink href="/career-study-skills/how-procrastination-actually-works">Procrastination</TermLink> isn&apos;t simply putting something off — it&apos;s putting something off despite expecting to regret it. That distinction matters: a reasoned decision to postpone a task for a genuinely good reason isn&apos;t procrastination. What actually drives procrastination, according to psychological research, is avoiding an uncomfortable feeling a task triggers right now — boredom, anxiety, self-doubt — even when the person knows full well the delay will make things worse later.</div>}
-        detailed={<div className="prose-p">This is a case of <TermLink href="/career-study-skills/how-procrastination-actually-works">mood repair</TermLink> combined with <TermLink href="/career-study-skills/how-procrastination-actually-works">present bias</TermLink>: avoiding the task provides real, immediate relief from a negative emotional state, and that immediate relief gets weighted more heavily in the moment than the delayed, larger cost of procrastinating — even by people who can accurately predict that cost. This is why procrastination survives contact with obvious logic (&quot;I know I&apos;ll regret this&quot;) — the decision isn&apos;t being made on incomplete information, it&apos;s being made with the future cost systematically discounted relative to the present relief. The edge case worth knowing: procrastination on a specific task is often task-specific, not a general trait — the same person can be highly disciplined about tasks that don&apos;t trigger the same negative emotional response, which is further evidence the mechanism is emotional avoidance tied to a particular task, not a fixed personal failing.</div>}
+        detailed={<div className="prose-p">This is a case of <TermLink href="/career-study-skills/how-procrastination-actually-works">mood repair</TermLink> combined with <TermLink href="/psychology-human-behavior/how-procrastination-actually-works-in-the-brain">present bias</TermLink>: avoiding the task provides real, immediate relief from a negative emotional state, and that immediate relief gets weighted more heavily in the moment than the delayed, larger cost of procrastinating — even by people who can accurately predict that cost. This is why procrastination survives contact with obvious logic (&quot;I know I&apos;ll regret this&quot;) — the decision isn&apos;t being made on incomplete information, it&apos;s being made with the future cost systematically discounted relative to the present relief. The edge case worth knowing: procrastination on a specific task is often task-specific, not a general trait — the same person can be highly disciplined about tasks that don&apos;t trigger the same negative emotional response, which is further evidence the mechanism is emotional avoidance tied to a particular task, not a fixed personal failing.</div>}
       />
       <FootnoteAside>Research distinguishing procrastination from simple delay has grown substantially since the 1990s, with much of the modern academic framing (procrastination as emotion regulation rather than a time-management failure) associated with psychologists studying self-regulation and motivation, including work published through outlets like the journals indexed on PubMed Central.</FootnoteAside>
 

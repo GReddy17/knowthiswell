@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "professional-skills-certifications/how-to-actually-choose-between-competing-certifications",
     "professional-skills-certifications/what-a-certificate-actually-differs-from-a-certification",
     "career-study-skills/how-to-quantify-achievements-on-a-resume",
+    "professional-skills-certifications/what-google-analytics-certification-actually-verifies",
   ],
   glossary: [
     { term: "PMP (Project Management Professional)", definition: "A professional certification from the Project Management Institute that requires documented project leadership experience, project management education, and passing an exam." },

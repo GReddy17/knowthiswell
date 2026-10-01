@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/how-to-give-feedback-that-actually-lands",
     "career-study-skills/how-to-disagree-with-a-colleague-professionally",
     "life-skills-etiquette/what-professional-email-etiquette-actually-requires",
+    "career-study-skills/what-a-cover-letter-actually-needs-to-do",
   ],
   glossary: [
     { term: "Bottom-line-up-front (BLUF)", definition: "A writing approach that states the main point or request in the first sentence, before any supporting detail, so the core message lands even if that's the only line the reader gets to." },

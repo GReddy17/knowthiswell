@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "everyday-communication",
   tags: ["difficult conversations", "communication skills", "conflict resolution", "life skills"],
   date: "2026-09-20",
-  updated: "2026-09-20",
+  updated: "2026-09-30",
   lastReviewed: "2026-09-20",
   excerpt: "A difficult conversation goes wrong less often because of what you say and more because of what you're actually trying to accomplish going in — win the argument, or actually resolve the issue.",
   summary: "Difficult conversations tend to go better when the goal shifts from winning the exchange to understanding the other person's perspective and clearly stating your own, using structured approaches (separating observation from interpretation, stating impact rather than accusation) developed by conflict-resolution research to keep the conversation productive rather than defensive.",
@@ -32,6 +32,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "life-skills-etiquette/what-active-listening-actually-looks-like-in-practice",
     "life-skills-etiquette/how-to-actually-set-boundaries-without-guilt",
+    "life-skills-etiquette/how-to-actually-apologize-in-a-way-that-lands",
   ],
   glossary: [
     { term: "Observation vs. interpretation", definition: "The distinction between describing what actually happened (an observable fact) and describing what you concluded it meant — collapsing the two together is a common source of defensiveness in difficult conversations." },
@@ -47,6 +48,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What goal tends to make a difficult conversation go better?", "difficulty": "easy", "options": [{"text": "Understanding the other person and clearly stating your own view", "correct": true, "explanation": "Going in to win tends to make the other person defensive and shuts down listening."}, {"text": "Winning the argument", "correct": false, "explanation": "A win mindset almost guarantees defensiveness."}, {"text": "Avoiding the topic until it fades", "correct": false, "explanation": "The issue usually doesn't fade, and the conversation never happens."}]},
+  {"question": "Which statement separates observation from interpretation?", "difficulty": "medium", "options": [{"text": "\"The report was submitted two days late.\"", "correct": true, "explanation": "It describes what happened without claiming to know the other person's motive."}, {"text": "\"You don't respect my time.\"", "correct": false, "explanation": "That's an interpretation of intent stated as a fact."}, {"text": "\"You never take anything seriously.\"", "correct": false, "explanation": "That's a character judgment, which invites defensiveness."}]},
+  {"question": "Why does stating your interpretation as fact tend to trigger defensiveness?", "difficulty": "medium", "options": [{"text": "The other person is being told what they meant instead of being asked", "correct": true, "explanation": "Most defensiveness is a reaction to feeling accused, not to the facts themselves."}, {"text": "Because interpretations are always wrong", "correct": false, "explanation": "An interpretation might be accurate. The trouble is presenting it as settled fact."}, {"text": "Because facts are upsetting to hear", "correct": false, "explanation": "Facts alone are much harder to argue with than a stated motive."}]},
+  {"question": "Which training program's frameworks does the article draw on?", "difficulty": "easy", "options": [{"text": "Harvard's Program on Negotiation", "correct": true, "explanation": "Its conflict-resolution frameworks teach separating observation from interpretation."}, {"text": "The US Army field manual", "correct": false, "explanation": "The article doesn't draw on military guidance."}, {"text": "A sales-closing course", "correct": false, "explanation": "The source is conflict-resolution training, not sales."}]},
+  {"question": "Two coworkers both listen and explain their reasoning well, but still disagree at the end. How should that be judged?", "difficulty": "medium", "options": [{"text": "As a realistic, valuable outcome, since they now understand each other's reasoning", "correct": true, "explanation": "Negotiation research treats genuine mutual understanding as an outcome in itself."}, {"text": "As a failed conversation", "correct": false, "explanation": "Treating it as failure sets a bar that discourages having the talk at all."}, {"text": "As proof one of them didn't listen", "correct": false, "explanation": "Understanding and agreement are different things."}]},
+  {"question": "A roommate leaves dishes in the sink for days. Which opener follows the article's approach?", "difficulty": "medium", "options": [{"text": "\"I've noticed dishes in the sink for a couple of days this week, and it's been stressing me out.\"", "correct": true, "explanation": "It states the observable fact and your own reaction without judging their character."}, {"text": "\"You're so inconsiderate about the kitchen.\"", "correct": false, "explanation": "That's an accusation about character, which invites a standoff."}, {"text": "Saying nothing and washing the dishes angrily", "correct": false, "explanation": "That avoids the conversation and lets resentment build."}]},
+  {"question": "A manager wants to address a pattern of missed deadlines. What should come right after stating the specific pattern and its impact?", "difficulty": "hard", "options": [{"text": "An open question about what's been going on", "correct": true, "explanation": "That keeps the focus on solving the problem rather than defending against a character judgment."}, {"text": "A statement about the employee's work ethic", "correct": false, "explanation": "Opening with an assumption about character is what the article warns against."}, {"text": "An immediate list of penalties", "correct": false, "explanation": "Jumping to consequences skips understanding what's actually causing the problem."}]},
+];
 
 export default function Post() {
   return (

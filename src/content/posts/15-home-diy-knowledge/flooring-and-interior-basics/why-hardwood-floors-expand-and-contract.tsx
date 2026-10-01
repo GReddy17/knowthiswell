@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/what-r-value-actually-measures-in-insulation",
     "home-diy-knowledge/why-some-rooms-are-always-hotter-or-colder",
     "home-diy-knowledge/hardwood-vs-laminate-vs-vinyl-flooring-explained",
+    "home-diy-knowledge/what-causes-squeaky-floors-explained",
   ],
   glossary: [
     { term: "Hygroscopic", definition: "A property of a material, like wood, that causes it to absorb or release moisture from the surrounding air until it reaches equilibrium with the air's humidity." },

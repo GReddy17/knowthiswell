@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/how-deliberate-practice-actually-differs-from-practice",
     "career-study-skills/what-a-learning-curve-actually-shows",
     "career-study-skills/what-a-skills-gap-analysis-actually-is",
+    "career-study-skills/how-to-build-a-personal-learning-plan",
   ],
   glossary: [
     { term: "Pareto principle", definition: "A pattern where a small share of contributing factors accounts for a disproportionately large share of an outcome — originally observed in economics, applied loosely elsewhere as a rough heuristic, not a fixed law." },

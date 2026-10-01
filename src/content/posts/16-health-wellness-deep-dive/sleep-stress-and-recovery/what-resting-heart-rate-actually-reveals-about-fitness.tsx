@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "health-wellness-deep-dive/what-cortisol-actually-does-to-the-body-under-stress",
     "health-wellness-deep-dive/how-sleep-cycles-actually-affect-recovery",
     "general-science-facts/blood-and-the-circulatory-system-in-depth",
+    "health-wellness-deep-dive/how-chronic-stress-actually-damages-long-term-health",
   ],
   glossary: [
     { term: "Resting heart rate", definition: "The number of times the heart beats per minute while you're fully at rest, best measured after waking and before getting up." },

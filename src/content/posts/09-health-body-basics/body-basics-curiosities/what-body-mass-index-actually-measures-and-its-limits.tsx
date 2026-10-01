@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "body-basics-curiosities",
   tags: ["body mass index", "BMI", "health screening", "health literacy", "population health"],
   date: "2026-08-22",
-  updated: "2026-08-22",
+  updated: "2026-09-30",
   lastReviewed: "2026-08-22",
   excerpt: "BMI is weight divided by height squared — a fast population-screening ratio that cannot tell the difference between muscle and fat, which is exactly why it has well-documented limits as an individual health measure.",
   summary: "Body Mass Index (BMI) is calculated as weight in kilograms divided by height in meters squared, producing a single number originally designed for population-level health screening and research — it correlates with body fat on average across large groups, but it cannot distinguish muscle mass from fat mass in any one individual, which is the well-documented limitation health agencies themselves publish alongside the measure.",
@@ -50,6 +50,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "https://www.youtube.com/watch?v=f47ghz12uxg",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "How is BMI calculated?", "difficulty": "easy", "options": [{"text": "Weight in kilograms divided by height in meters squared", "correct": true, "explanation": "BMI = kg ÷ m². Only two numbers go in: weight and height."}, {"text": "Body fat percentage divided by height", "correct": false, "explanation": "Body fat isn't an input at all, which is its main limit."}, {"text": "Weight in kilograms divided by height in centimeters", "correct": false, "explanation": "Height must be in meters, and it's squared."}]},
+  {"question": "A person weighs 70 kg and is 1.75 m tall. What is their BMI, roughly?", "difficulty": "medium", "options": [{"text": "About 22.9, inside the WHO 'normal weight' range", "correct": true, "explanation": "70 ÷ (1.75 × 1.75) = 70 ÷ 3.0625 ≈ 22.9."}, {"text": "About 40", "correct": false, "explanation": "That divides 70 by 1.75 only once instead of by height squared."}, {"text": "About 12.3", "correct": false, "explanation": "That isn't what the formula gives; 70 ÷ 3.0625 is about 22.9."}]},
+  {"question": "What BMI range does the WHO classify as 'normal weight'?", "difficulty": "medium", "options": [{"text": "18.5 to 24.9", "correct": true, "explanation": "Below 18.5 is underweight; 25 and above is the overweight range."}, {"text": "25 to 29.9", "correct": false, "explanation": "That's the overweight range."}, {"text": "10 to 18.5", "correct": false, "explanation": "Below 18.5 is classed as underweight."}]},
+  {"question": "Two people are both 175 cm tall and weigh 85 kg. One is a powerlifter, the other is sedentary. What does BMI say about them?", "difficulty": "medium", "options": [{"text": "Both have the same BMI, about 27.8, even though their body composition differs a lot", "correct": true, "explanation": "The formula only sees weight and height, so it can't tell muscle from fat."}, {"text": "The powerlifter's BMI is lower because muscle is healthier", "correct": false, "explanation": "BMI counts a kilogram of muscle exactly the same as a kilogram of fat."}, {"text": "The sedentary person's BMI is higher because of more fat", "correct": false, "explanation": "Body fat isn't part of the calculation."}]},
+  {"question": "Which of these measures body fat directly, unlike BMI?", "difficulty": "medium", "options": [{"text": "A DEXA scan", "correct": true, "explanation": "DEXA, skinfold calipers and bioelectrical impedance estimate fat itself. BMI is only a weight-to-height ratio."}, {"text": "A bathroom scale", "correct": false, "explanation": "A scale gives total weight, not how much of it is fat."}, {"text": "A tape measure for height", "correct": false, "explanation": "Height alone says nothing about body composition."}]},
+  {"question": "According to health agencies, how should a doctor use BMI with an individual patient?", "difficulty": "medium", "options": [{"text": "As one quick screening input alongside measures like waist circumference and blood pressure", "correct": true, "explanation": "BMI is a fast first-pass filter that prompts a fuller look, not a diagnosis on its own."}, {"text": "As a complete diagnosis of the person's health", "correct": false, "explanation": "The CDC and WHO describe it as a screening tool, not a standalone diagnosis."}, {"text": "It shouldn't be used at all", "correct": false, "explanation": "It stays useful for screening and population trends, combined with other measures."}]},
+  {"question": "For which groups do health agencies say BMI categories can be less accurate?", "difficulty": "hard", "options": [{"text": "Older adults, athletes and some ethnic groups with different typical body compositions", "correct": true, "explanation": "The cutoffs were set using population data drawn largely from certain groups."}, {"text": "Only children under five", "correct": false, "explanation": "The listed limits apply to several adult groups, not just young children."}, {"text": "No group. The cutoffs are equally accurate for everyone", "correct": false, "explanation": "Agencies themselves publish these limits."}]},
+];
 
 export default function Post() {
   return (

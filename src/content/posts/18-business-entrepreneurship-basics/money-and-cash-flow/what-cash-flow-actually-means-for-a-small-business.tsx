@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "business-entrepreneurship-basics/how-to-actually-price-a-product-or-service",
     "business-entrepreneurship-basics/what-a-business-plan-actually-needs-to-include",
     "personal-finance-basics/what-a-budget-actually-is-income-vs-expenses",
+    "business-entrepreneurship-basics/how-to-actually-find-your-first-customers",
   ],
   glossary: [
     { term: "Cash flow", definition: "The money moving into and out of a business over a period, counted when it actually changes hands." },

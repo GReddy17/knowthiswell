@@ -1,13 +1,13 @@
 {
  "posts": 901,
  "minimum": 9,
- "meetingMinimum": 220,
+ "meetingMinimum": 230,
  "histogram": {
-  "2": 237,
-  "3": 444,
-  "9": 184,
-  "10": 30,
-  "11": 3,
+  "2": 232,
+  "3": 439,
+  "9": 187,
+  "10": 33,
+  "11": 7,
   "12": 3
  },
  "below": [
@@ -17,14 +17,6 @@
   },
   {
    "key": "general-science-facts/why-bears-need-to-double-their-body-fat-before-hibernation",
-   "count": 2
-  },
-  {
-   "key": "general-science-facts/atoms-and-elements",
-   "count": 2
-  },
-  {
-   "key": "general-science-facts/energy-types-and-conservation",
    "count": 2
   },
   {
@@ -912,23 +904,11 @@
    "count": 2
   },
   {
-   "key": "life-skills-etiquette/how-to-actually-have-a-difficult-conversation",
-   "count": 2
-  },
-  {
-   "key": "life-skills-etiquette/how-to-actually-set-boundaries-without-guilt",
-   "count": 2
-  },
-  {
    "key": "life-skills-etiquette/what-active-listening-actually-looks-like-in-practice",
    "count": 2
   },
   {
    "key": "life-skills-etiquette/how-to-actually-build-rapport-quickly",
-   "count": 2
-  },
-  {
-   "key": "psychology-human-behavior/how-habits-actually-get-built-in-the-brain",
    "count": 2
   },
   {
@@ -1081,10 +1061,6 @@
   },
   {
    "key": "general-science-facts/symbiosis-and-animal-relationships",
-   "count": 3
-  },
-  {
-   "key": "general-science-facts/electricity-and-magnetism-basics",
    "count": 3
   },
   {
@@ -1904,10 +1880,6 @@
    "count": 3
   },
   {
-   "key": "units-measurement-conversions/celsius-vs-fahrenheit-the-conversion-formula",
-   "count": 3
-  },
-  {
    "key": "units-measurement-conversions/oven-temperature-conversions-worldwide",
    "count": 3
   },
@@ -2181,10 +2153,6 @@
   },
   {
    "key": "health-body-basics/understanding-growth-and-development-milestones-general-informational",
-   "count": 3
-  },
-  {
-   "key": "health-body-basics/what-body-mass-index-actually-measures-and-its-limits",
    "count": 3
   },
   {
@@ -2600,19 +2568,11 @@
    "count": 3
   },
   {
-   "key": "career-study-skills/how-procrastination-actually-works",
-   "count": 3
-  },
-  {
    "key": "career-study-skills/parkinsons-law-explained",
    "count": 3
   },
   {
    "key": "career-study-skills/the-eisenhower-matrix-explained",
-   "count": 3
-  },
-  {
-   "key": "career-study-skills/the-two-minute-rule-explained",
    "count": 3
   },
   {

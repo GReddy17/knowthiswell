@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/why-pipes-freeze-and-burst-in-winter",
     "home-diy-knowledge/what-r-value-actually-measures-in-insulation",
     "home-diy-knowledge/why-drywall-cracks-appear-explained",
+    "home-diy-knowledge/how-often-household-systems-actually-need-maintenance",
   ],
   glossary: [
     { term: "Downspout", definition: "The vertical pipe that carries water collected in a horizontal gutter run down to the ground, ideally discharging well away from the foundation." },

@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "government-schemes-benefits/how-to-actually-apply-for-government-assistance-programs",
     "personal-finance-basics/what-withholding-means-and-why-refunds-happen",
     "government-schemes-benefits/what-social-security-actually-pays-out-and-when",
+    "government-schemes-benefits/how-student-loan-forgiveness-programs-actually-work",
   ],
   glossary: [
     { term: "Tax deduction", definition: "An amount subtracted from income before tax is calculated. It lowers taxable income, so its value depends on your tax rate." },

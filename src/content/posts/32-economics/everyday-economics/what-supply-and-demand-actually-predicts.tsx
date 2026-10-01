@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "economics/how-interest-rates-actually-get-set",
     "economics/what-gdp-actually-measures",
     "economics/what-fiscal-policy-actually-means-vs-monetary-policy",
+    "economics/how-tariffs-actually-affect-prices",
   ],
   glossary: [
     { term: "Demand", definition: "The relationship between a good's price and the quantity buyers are willing and able to buy. At lower prices people generally want more." },

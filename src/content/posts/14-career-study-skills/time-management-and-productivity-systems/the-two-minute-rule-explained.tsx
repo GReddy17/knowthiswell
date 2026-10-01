@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "time-management-and-productivity-systems",
   tags: ["two minute rule", "task management", "productivity", "procrastination", "time management"],
   date: "2026-08-30",
-  updated: "2026-08-30",
+  updated: "2026-09-30",
   lastReviewed: "2026-08-30",
   excerpt: "The two-minute rule says if a task takes less than two minutes, do it immediately — because tracking it for later usually costs more effort than just finishing it.",
   summary: "The two-minute rule is a simple task-management heuristic stating that if a task takes less than roughly two minutes to complete, it should be done immediately rather than deferred, because the overhead of capturing, tracking, and revisiting it later typically exceeds the cost of just finishing it on the spot.",
@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/how-procrastination-actually-works",
     "career-study-skills/the-eisenhower-matrix-explained",
     "career-study-skills/what-time-blocking-actually-is",
+    "psychology-human-behavior/how-procrastination-actually-works-in-the-brain",
   ],
   glossary: [
     { term: "Two-minute rule", definition: "A task-management heuristic stating that any task taking less than roughly two minutes should be done immediately rather than added to a list for later." },
@@ -50,6 +51,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does the two-minute rule say?", "difficulty": "easy", "options": [{"text": "If a task takes less than about two minutes, do it right away instead of putting it on a list", "correct": true, "explanation": "Replying to a short message or filing one document are typical examples."}, {"text": "Spend two minutes planning before starting any task", "correct": false, "explanation": "The rule is about finishing tiny tasks immediately, not planning time."}, {"text": "Work on any task for only two minutes at a time", "correct": false, "explanation": "It's a filter for small tasks, not a time limit for big ones."}]},
+  {"question": "What is 'tracking overhead'?", "difficulty": "medium", "options": [{"text": "The hidden effort of writing a task down, storing it, re-scanning it and coming back to it later", "correct": true, "explanation": "For a tiny task, that overhead can exceed the time the task itself needs."}, {"text": "The time it takes to actually do a task", "correct": false, "explanation": "That's execution time. Overhead is everything around it."}, {"text": "The cost of buying a task-management app", "correct": false, "explanation": "It's an effort cost, not a money cost."}]},
+  {"question": "A message asks you to confirm a meeting time, and replying takes about 30 seconds. What does the rule suggest?", "difficulty": "easy", "options": [{"text": "Reply immediately", "correct": true, "explanation": "Listing it, remembering it and opening it again would take longer in total than the reply."}, {"text": "Add it to your to-do list for later", "correct": false, "explanation": "That adds tracking overhead to a 30-second job."}, {"text": "Wait until you have several messages to batch", "correct": false, "explanation": "Batching makes sense for bigger work, not a single 30-second reply."}]},
+  {"question": "Where is the rule commonly said to be applied in task-capture systems?", "difficulty": "medium", "options": [{"text": "As a filter during the first pass through a list of captured tasks", "correct": true, "explanation": "Item by item, you decide whether each is fast enough to finish on the spot rather than track."}, {"text": "Only at the end of the workday", "correct": false, "explanation": "It's tied to initial processing, not a time of day."}, {"text": "Only for tasks assigned by a manager", "correct": false, "explanation": "It applies to any small, standalone task."}]},
+  {"question": "Is the two-minute rule a reason to break off deep work whenever a small task comes to mind?", "difficulty": "medium", "options": [{"text": "No. It works best during natural breaks or a dedicated pass through small items", "correct": true, "explanation": "Used as constant interruption, it undermines the focus that deep work depends on."}, {"text": "Yes, small tasks should always be done the instant they appear", "correct": false, "explanation": "That turns a time-saving filter into a focus-breaking habit."}, {"text": "Yes, but only for tasks under 30 seconds", "correct": false, "explanation": "Even tiny tasks can wait for a natural break when you're in focused work."}]},
+  {"question": "Someone clears fifteen small admin tasks in under twenty minutes instead of listing them. What else does this avoid, besides tracking overhead?", "difficulty": "hard", "options": [{"text": "A lingering sense of unfinished obligation from a long backlog", "correct": true, "explanation": "Each listed item would sit there as something still owed, on top of the extra time cost."}, {"text": "The need to do the tasks at all", "correct": false, "explanation": "The tasks still get done. They just get done immediately."}, {"text": "Any chance of a mistake", "correct": false, "explanation": "Speed doesn't guarantee accuracy. The gain is time and mental clutter."}]},
+  {"question": "What actually decides whether a short task is a two-minute-rule candidate?", "difficulty": "hard", "options": [{"text": "Whether it's truly standalone and done in two minutes, rather than part of a bigger project already underway", "correct": true, "explanation": "A quick piece of a larger project is better handled with the rest of that project."}, {"text": "Only how long the task takes", "correct": false, "explanation": "Duration matters, but a short slice of a big project is the exception."}, {"text": "Whether the task is enjoyable", "correct": false, "explanation": "Enjoyment isn't part of the rule."}]},
+];
 
 export default function Post() {
   return (

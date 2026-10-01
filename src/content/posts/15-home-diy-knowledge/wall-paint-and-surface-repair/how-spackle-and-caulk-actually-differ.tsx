@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/how-a-wall-anchor-actually-holds-weight",
     "home-diy-knowledge/what-makes-super-glue-actually-bond-so-fast",
     "home-diy-knowledge/gloss-vs-matte-paint-finishes-explained",
+    "home-diy-knowledge/how-grout-and-tile-adhesive-actually-differ",
   ],
   glossary: [
     { term: "Spackle", definition: "A gypsum- or vinyl-based paste designed to dry hard and be sanded flush, used to fill still, non-moving gaps like nail holes and small drywall dents or holes." },

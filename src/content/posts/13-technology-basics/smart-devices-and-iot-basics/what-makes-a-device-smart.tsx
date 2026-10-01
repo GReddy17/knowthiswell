@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-a-smart-home-hub-actually-does",
     "technology-basics/why-smart-devices-need-constant-updates",
     "technology-basics/what-smart-home-ecosystem-compatibility-means",
+    "technology-basics/what-makes-a-smart-tv-different",
   ],
   glossary: [
     { term: "Smart device", definition: "A physical object with an embedded sensor, processor, network connection, and software that can be updated after purchase, letting it sense conditions and act on them." },

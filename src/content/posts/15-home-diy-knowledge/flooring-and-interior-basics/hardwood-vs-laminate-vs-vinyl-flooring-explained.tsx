@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/what-r-value-actually-measures-in-insulation",
     "home-diy-knowledge/gloss-vs-matte-paint-finishes-explained",
     "home-diy-knowledge/why-hardwood-floors-expand-and-contract",
+    "home-diy-knowledge/how-carpet-padding-actually-affects-comfort-and-life",
   ],
   glossary: [
     { term: "Wear layer", definition: "The clear, protective top coating on laminate and vinyl flooring that resists scuffs and scratches; its thickness largely determines how much foot traffic the floor can take before showing damage." },

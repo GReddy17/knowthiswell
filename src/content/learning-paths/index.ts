@@ -64,6 +64,7 @@ export const LEARNING_PATHS: LearningPath[] = [
       { category: 'legal-documentation-howtos', slug: 'what-makes-a-contract-legally-binding' },
       { category: 'legal-documentation-howtos', slug: 'freelance-and-service-contracts-explained' },
       { category: 'business-entrepreneurship-basics', slug: 'how-to-actually-price-a-product-or-service' },
+      { category: 'business-entrepreneurship-basics', slug: 'how-to-actually-find-your-first-customers' },
       { category: 'business-entrepreneurship-basics', slug: 'what-cash-flow-actually-means-for-a-small-business' },
       { category: 'legal-documentation-howtos', slug: 'understanding-warranties-and-guarantees' },
       { category: 'personal-finance-basics', slug: 'self-employment-and-freelance-tax-basics' },

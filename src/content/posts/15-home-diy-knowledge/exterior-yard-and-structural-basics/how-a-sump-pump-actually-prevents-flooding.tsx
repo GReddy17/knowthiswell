@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/how-a-home-foundation-actually-supports-a-house",
     "home-diy-knowledge/what-water-pressure-actually-measures",
     "home-diy-knowledge/why-gutters-need-regular-cleaning",
+    "home-diy-knowledge/why-grading-and-drainage-around-a-house-matters",
   ],
   glossary: [
     { term: "Sump pit", definition: "A basin, typically 18-24 inches deep, built into the lowest point of a basement floor to collect groundwater draining toward it before it can spread across the floor." },
