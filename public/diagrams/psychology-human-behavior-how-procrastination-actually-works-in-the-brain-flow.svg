@@ -1,0 +1,43 @@
+<svg viewBox="0 0 560 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="procTitle">
+  <title id="procTitle">The procrastination loop: a task cue triggers an immediate bad feeling, the distant reward and distant future self lose, avoidance brings relief, and relief reinforces avoidance. Exits: a close deadline, mini-deadlines, a tiny first step, self-forgiveness.</title>
+  <rect width="560" height="470" fill="#FBF8F1"/>
+  <text x="280" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">The procrastination loop</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="170" y="50" width="220" height="50" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="72" font-size="12" font-weight="700" fill="#1F1B16">1. Task cue</text>
+    <text x="280" y="89" font-size="11" fill="#4A443C">&quot;I should start the report&quot;</text>
+    <text x="280" y="118" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="170" y="126" width="220" height="56" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="148" font-size="12" font-weight="700" fill="#1F1B16">2. Instant &quot;this feels bad&quot;</text>
+    <text x="280" y="166" font-size="11" fill="#4A443C">threat signal (amygdala-linked)</text>
+    <text x="280" y="200" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="150" y="208" width="260" height="56" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="230" font-size="12" font-weight="700" fill="#1F1B16">3. Reward is far; future you</text>
+    <text x="280" y="248" font-size="11" fill="#4A443C">feels like someone else, so it&#x27;s discounted</text>
+    <text x="280" y="282" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="170" y="290" width="220" height="50" rx="6" fill="#2C4A3E"/>
+    <text x="280" y="312" font-size="12" font-weight="700" fill="#FBF8F1">4. Avoid: open something else</text>
+    <text x="280" y="329" font-size="11" fill="#FBF8F1">instant relief</text>
+    <text x="280" y="358" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="170" y="366" width="220" height="44" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="386" font-size="12" font-weight="700" fill="#1F1B16">5. Relief rewards avoidance</text>
+    <text x="280" y="401" font-size="11" fill="#4A443C">loop is stronger next time</text>
+  </g>
+  <path d="M170 388 H70 V75 H162" fill="none" stroke="#8B6F4E" stroke-width="2" stroke-dasharray="5 4"/>
+  <path d="M156 70 L166 75 L156 80 Z" fill="#8B6F4E"/>
+  <text x="62" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-style="italic" fill="#8B6F4E" transform="rotate(-90 62 235)">repeats</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="418" y="126" width="128" height="214" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="482" y="146" text-anchor="middle" font-size="11" font-weight="700" fill="#2C4A3E">Ways out</text>
+    <text x="428" y="170" font-size="10" fill="#1F1B16">• Tiny first step</text>
+    <text x="436" y="184" font-size="10" fill="#4A443C">(less &quot;feels bad&quot;)</text>
+    <text x="428" y="208" font-size="10" fill="#1F1B16">• Mini-deadlines</text>
+    <text x="436" y="222" font-size="10" fill="#4A443C">(reward is closer)</text>
+    <text x="428" y="246" font-size="10" fill="#1F1B16">• If-then plan</text>
+    <text x="436" y="260" font-size="10" fill="#4A443C">(cue triggers action)</text>
+    <text x="428" y="284" font-size="10" fill="#1F1B16">• Self-forgiveness</text>
+    <text x="436" y="298" font-size="10" fill="#4A443C">(less shame next time)</text>
+    <text x="428" y="322" font-size="10" fill="#1F1B16">• Deadline arrives</text>
+  </g>
+  <text x="280" y="446" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Based on Steel (2007), Schlüter et al. (2018), Ersner-Hershfield et al. (2009). Brain links are correlational.</text>
+</svg>

@@ -65,7 +65,7 @@ Folder: `navigating-the-system/`
 | 4 | `what-tax-credits-actually-differ-from-tax-deductions` | done — live on main |
 | 5 | `how-public-health-insurance-programs-actually-work` | done — live on main |
 | 6 | `what-disability-benefits-actually-require-to-qualify` | done — live on main |
-| 7 | `how-student-loan-forgiveness-programs-actually-work` | not started |
+| 7 | `how-student-loan-forgiveness-programs-actually-work` | done — live on main |
 | 8 | `what-housing-assistance-programs-actually-offer` | not started |
 | 9 | `how-small-business-government-grants-actually-get-awarded` | not started |
 | 10 | `what-veterans-benefits-actually-include` | not started |

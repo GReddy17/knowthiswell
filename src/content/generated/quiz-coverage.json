@@ -1,12 +1,14 @@
 {
- "posts": 891,
+ "posts": 901,
  "minimum": 9,
- "meetingMinimum": 210,
+ "meetingMinimum": 220,
  "histogram": {
   "2": 237,
   "3": 444,
   "9": 184,
-  "10": 26
+  "10": 30,
+  "11": 3,
+  "12": 3
  },
  "below": [
   {

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 560 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tarTitle">
+  <title id="tarTitle">How a 25 percent tariff on a 200 dollar import travels to the shelf price: the importer pays 50 dollars at the border, then the retailer absorbs part, passes on exactly 50 dollars, or applies its percentage markup and adds 70 dollars.</title>
+  <rect width="560" height="480" fill="#FBF8F1"/>
+  <text x="280" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">How a tariff travels from the border to the shelf</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="150" y="48" width="260" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="68" font-size="12" font-weight="700" fill="#1F1B16">Foreign price: $200</text>
+    <text x="280" y="84" font-size="11" fill="#4A443C">vacuum leaves the factory</text>
+    <text x="280" y="112" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="150" y="120" width="260" height="54" rx="6" fill="#2C4A3E"/>
+    <text x="280" y="142" font-size="12" font-weight="700" fill="#FBF8F1">At the border: importer pays</text>
+    <text x="280" y="160" font-size="12" font-weight="700" fill="#FBF8F1">25% tariff = $50 to customs</text>
+    <text x="280" y="192" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="150" y="200" width="260" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="220" font-size="12" font-weight="700" fill="#1F1B16">Importer&#x27;s cost: $250</text>
+    <text x="280" y="236" font-size="11" fill="#4A443C">old shelf price was $280 (40% markup)</text>
+    <path d="M280 250 V266 M100 266 H460 M100 266 V280 M280 266 V280 M460 266 V280" fill="none" stroke="#8B6F4E" stroke-width="2"/>
+    <rect x="22" y="284" width="156" height="70" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="100" y="304" font-size="11" font-weight="700" fill="#1F1B16">Absorb half</text>
+    <text x="100" y="324" font-size="13" font-weight="700" fill="#1F1B16">$305 (+$25)</text>
+    <text x="100" y="342" font-size="10" fill="#4A443C">smaller profit</text>
+    <rect x="202" y="284" width="156" height="70" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="304" font-size="11" font-weight="700" fill="#1F1B16">Pass on the tariff</text>
+    <text x="280" y="324" font-size="13" font-weight="700" fill="#1F1B16">$330 (+$50)</text>
+    <text x="280" y="342" font-size="10" fill="#4A443C">same dollar profit</text>
+    <rect x="382" y="284" width="156" height="70" rx="6" fill="#2C4A3E"/>
+    <text x="460" y="304" font-size="11" font-weight="700" fill="#FBF8F1">Keep 40% markup</text>
+    <text x="460" y="324" font-size="13" font-weight="700" fill="#FBF8F1">$350 (+$70)</text>
+    <text x="460" y="342" font-size="10" fill="#FBF8F1">more than the tariff</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">
+    <rect x="22" y="372" width="516" height="66" rx="6" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="36" y="392">• Exporter price cuts or a weaker exporter currency can shrink the $50 (little of this in 2018).</text>
+    <text x="36" y="409">• Domestic competitors may raise prices too (U.S. washers, 2018).</text>
+    <text x="36" y="426">• Paired products can follow (untariffed dryers rose about as much as washers).</text>
+  </g>
+  <text x="280" y="462" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Illustrative numbers. Evidence: Amiti et al. (2019); Cavallo et al. (2021); Flaaen et al. (2020).</text>
+</svg>

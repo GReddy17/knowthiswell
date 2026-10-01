@@ -65,7 +65,7 @@ Folder: `protecting-yourself-and-your-data-long-term/`
 | 4 | `what-a-vpn-actually-protects-you-from` | done — live on main |
 | 5 | `how-data-breaches-actually-happen` | done — live on main |
 | 6 | `what-end-to-end-encryption-actually-means` | done — live on main |
-| 7 | `how-identity-theft-actually-starts` | not started |
+| 7 | `how-identity-theft-actually-starts` | done — live on main |
 | 8 | `what-public-wi-fi-risks-actually-are` | not started |
 | 9 | `how-ransomware-actually-infects-a-device` | not started |
 | 10 | `what-your-digital-footprint-actually-reveals` | not started |

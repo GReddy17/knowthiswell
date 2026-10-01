@@ -1,0 +1,51 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="firstCustTitle">
+  <title id="firstCustTitle">The first-customer loop: narrow to a customer you can list by name, list 50 to 100 real people, reach out one to one, converse and offer a small pilot, then deliver and ask for a referral, which feeds back into the list. An illustrative funnel shows 80 contacts, 18 replies, 9 calls and 3 customers.</title>
+  <rect width="640" height="440" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="190" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">The loop</text>
+
+    <rect x="40" y="40" width="300" height="52" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="190" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">1. Narrow</text>
+    <text x="190" y="80" text-anchor="middle" font-size="10" fill="#4A443C">A customer you could list by name</text>
+    <text x="190" y="108" text-anchor="middle" font-size="14" fill="#8B6F4E">↓</text>
+
+    <rect x="40" y="116" width="300" height="52" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="190" y="138" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">2. List 50 to 100 real people</text>
+    <text x="190" y="156" text-anchor="middle" font-size="10" fill="#4A443C">Warm network first, then where they gather</text>
+    <text x="190" y="184" text-anchor="middle" font-size="14" fill="#8B6F4E">↓</text>
+
+    <rect x="40" y="192" width="300" height="52" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="190" y="214" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">3. Reach out one to one</text>
+    <text x="190" y="232" text-anchor="middle" font-size="10" fill="#4A443C">Personal messages, CAN-SPAM compliant</text>
+    <text x="190" y="260" text-anchor="middle" font-size="14" fill="#8B6F4E">↓</text>
+
+    <rect x="40" y="268" width="300" height="52" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+    <text x="190" y="290" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">4. Converse + offer a pilot</text>
+    <text x="190" y="308" text-anchor="middle" font-size="10" fill="#4A443C">Learn the problem; small, low-risk first order</text>
+    <text x="190" y="336" text-anchor="middle" font-size="14" fill="#8B6F4E">↓</text>
+
+    <rect x="40" y="344" width="300" height="52" rx="6" fill="#2C4A3E"/>
+    <text x="190" y="366" text-anchor="middle" font-size="12" font-weight="700" fill="#FBF8F1">5. Deliver, then ask for a referral</text>
+    <text x="190" y="384" text-anchor="middle" font-size="10" fill="#FBF8F1">Testimonials and introductions</text>
+
+    <path d="M340 370 C 375 370, 375 142, 345 142" fill="none" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="5 4"/>
+    <polygon points="345,137 345,147 337,142" fill="#2C4A3E"/>
+    <text x="380" y="262" font-size="10" fill="#2C4A3E" transform="rotate(-90 380 262)" text-anchor="middle">referrals refill the list</text>
+
+    <text x="510" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">Illustrative funnel</text>
+    <rect x="410" y="50" width="200" height="40" rx="4" fill="#8B6F4E"/>
+    <text x="510" y="75" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">80 contacts</text>
+    <rect x="440" y="104" width="140" height="40" rx="4" fill="#8B6F4E" opacity="0.85"/>
+    <text x="510" y="129" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">18 replies (23%)</text>
+    <rect x="460" y="158" width="100" height="40" rx="4" fill="#C9412C" opacity="0.85"/>
+    <text x="510" y="183" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">9 calls (50%)</text>
+    <rect x="475" y="212" width="70" height="40" rx="4" fill="#2C4A3E"/>
+    <text x="510" y="237" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">3 buy</text>
+    <text x="510" y="272" text-anchor="middle" font-size="10" fill="#4A443C">33% of calls; ~4% of contacts</text>
+    <text x="510" y="300" text-anchor="middle" font-size="10" fill="#4A443C">Measure each step. The</text>
+    <text x="510" y="314" text-anchor="middle" font-size="10" fill="#4A443C">biggest drop is where</text>
+    <text x="510" y="328" text-anchor="middle" font-size="10" fill="#4A443C">to work next.</text>
+    <text x="510" y="360" text-anchor="middle" font-size="9" fill="#4A443C">Numbers are an example,</text>
+    <text x="510" y="373" text-anchor="middle" font-size="9" fill="#4A443C">not benchmarks.</text>
+  </g>
+</svg>

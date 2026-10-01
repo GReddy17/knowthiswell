@@ -1,0 +1,27 @@
+<svg viewBox="0 0 560 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="apolTitle">
+  <title id="apolTitle">The six parts of an apology ranked by importance in a 2016 study of 755 people: acknowledging responsibility first, offering repair second, regret, explanation and repentance roughly tied, and asking for forgiveness last.</title>
+  <rect width="560" height="420" fill="#FBF8F1"/>
+  <text x="280" y="34" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">What makes an apology land</text>
+  <text x="280" y="54" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Six components, ranked (Lewicki, Polin &amp; Lount, 2016; 755 participants)</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="30" y="96" font-size="12" font-weight="700" fill="#2C4A3E">1</text>
+    <rect x="50" y="78" width="440" height="30" rx="5" fill="#2C4A3E"/>
+    <text x="62" y="98" font-size="12" font-weight="700" fill="#FBF8F1">Acknowledge responsibility: &quot;That was my fault.&quot;</text>
+    <text x="30" y="138" font-size="12" font-weight="700" fill="#2C4A3E">2</text>
+    <rect x="50" y="120" width="380" height="30" rx="5" fill="#2C4A3E"/>
+    <text x="62" y="140" font-size="12" font-weight="700" fill="#FBF8F1">Offer repair: &quot;Here&#x27;s how I&#x27;ll fix it.&quot;</text>
+    <rect x="44" y="166" width="472" height="138" rx="8" fill="none" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="508" y="184" text-anchor="end" font-size="10" font-style="italic" fill="#8B6F4E">roughly tied</text>
+    <rect x="50" y="190" width="330" height="30" rx="5" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="62" y="210" font-size="12" fill="#1F1B16">Express regret: &quot;I&#x27;m sorry.&quot;</text>
+    <rect x="50" y="228" width="330" height="30" rx="5" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="62" y="248" font-size="12" fill="#1F1B16">Explain what went wrong (after owning it)</text>
+    <rect x="50" y="266" width="330" height="30" rx="5" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="62" y="286" font-size="12" fill="#1F1B16">Declare repentance: &quot;It won&#x27;t happen again.&quot;</text>
+    <text x="30" y="340" font-size="12" font-weight="700" fill="#8B6F4E">6</text>
+    <rect x="50" y="322" width="150" height="30" rx="5" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="62" y="342" font-size="12" fill="#4A443C">Ask for forgiveness</text>
+    <text x="210" y="342" font-size="11" font-style="italic" fill="#4A443C">least important</text>
+  </g>
+  <text x="280" y="392" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Bar length shows rank, not a measured score. Apologies with more parts were rated more effective.</text>
+</svg>

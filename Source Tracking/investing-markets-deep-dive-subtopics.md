@@ -65,7 +65,7 @@ Folder: `advanced-mechanics-and-risk/`
 | 4 | `how-dividend-investing-actually-works` | done — live on main |
 | 5 | `what-an-index-fund-actually-tracks` | done — live on main |
 | 6 | `how-compound-interest-actually-builds-wealth-over-time` | done — live on main |
-| 7 | `what-a-bull-market-vs-bear-market-actually-means` | not started |
+| 7 | `what-a-bull-market-vs-bear-market-actually-means` | done — live on main |
 | 8 | `how-diversification-actually-reduces-risk` | not started |
 | 9 | `what-an-ipo-actually-is` | not started |
 | 10 | `how-interest-rate-changes-actually-affect-investments` | not started |

@@ -65,7 +65,7 @@ Folder: `advanced-wellness-science/`
 | 4 | `what-resting-heart-rate-actually-reveals-about-fitness` | done — live on main |
 | 5 | `how-meditation-actually-changes-the-brain` | done — live on main |
 | 6 | `what-macronutrients-actually-do-in-the-body` | done — live on main |
-| 7 | `how-chronic-stress-actually-damages-long-term-health` | not started |
+| 7 | `how-chronic-stress-actually-damages-long-term-health` | done — live on main |
 | 8 | `what-burnout-actually-is-medically` | not started |
 | 9 | `how-hydration-actually-affects-physical-performance` | not started |
 | 10 | `what-gut-health-actually-means-and-why-it-matters` | not started |
