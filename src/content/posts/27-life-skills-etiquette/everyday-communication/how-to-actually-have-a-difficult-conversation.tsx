@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     "life-skills-etiquette/what-active-listening-actually-looks-like-in-practice",
     "life-skills-etiquette/how-to-actually-set-boundaries-without-guilt",
     "life-skills-etiquette/how-to-actually-apologize-in-a-way-that-lands",
+    "life-skills-etiquette/what-small-talk-is-actually-for",
   ],
   glossary: [
     { term: "Observation vs. interpretation", definition: "The distinction between describing what actually happened (an observable fact) and describing what you concluded it meant — collapsing the two together is a common source of defensiveness in difficult conversations." },

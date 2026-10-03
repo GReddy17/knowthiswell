@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/sleep-and-the-brain",
     "psychology-human-behavior/what-the-placebo-effect-actually-reveals-about-the-mind",
     "health-wellness-deep-dive/how-chronic-stress-actually-damages-long-term-health",
+    "health-wellness-deep-dive/what-burnout-actually-is-medically",
   ],
   glossary: [
     { term: "Mindfulness meditation", definition: "A practice of paying attention to present-moment experience, such as the breath, and noticing when the mind wanders without judging it." },

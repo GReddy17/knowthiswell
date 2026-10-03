@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   videoQueue: true,
   tags: ["moon", "tidal locking", "astronomy", "orbital mechanics", "far side of the moon"],
   date: "2026-09-22",
-  updated: "2026-09-22",
+  updated: "2026-10-02",
   youtubeShort: true, youtubeLong: false,
   seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
@@ -55,6 +55,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "How long does the Moon take to rotate once on its own axis?", "difficulty": "easy", "options": [{"text": "About 24 hours, like Earth", "correct": false, "explanation": "That's Earth's day. The Moon spins far more slowly."}, {"text": "About 27.3 days, the same as one orbit of Earth", "correct": true, "explanation": "Correct. Spin and orbit take the same time, so one face always points at us."}, {"text": "It doesn't rotate at all", "correct": false, "explanation": "It does rotate. If it didn't, every side would swing into view over an orbit."}]},
+  {"question": "What is the name for a moon whose spin period matches its orbital period?", "difficulty": "easy", "options": [{"text": "Tidal locking, or synchronous rotation", "correct": true, "explanation": "Correct. It's the end state of gravity braking a moon's spin until it matches its orbit."}, {"text": "Retrograde rotation", "correct": false, "explanation": "Retrograde means spinning backwards relative to most bodies, which isn't what's happening here."}, {"text": "Libration", "correct": false, "explanation": "Libration is the slight wobble that lets us see a bit past the edges, not the lock itself."}]},
+  {"question": "What slowed the young Moon's rotation down until it matched its orbit?", "difficulty": "medium", "options": [{"text": "Collisions with asteroids", "correct": false, "explanation": "Impacts left craters, but the steady braking came from Earth's gravity."}, {"text": "Friction with Earth's atmosphere", "correct": false, "explanation": "The Moon is far outside Earth's atmosphere."}, {"text": "Earth's gravity tugging on a slight tidal bulge in the Moon", "correct": true, "explanation": "Correct. As the spinning Moon dragged its bulge out of line, Earth pulled it back, a braking torque that slowed the spin."}]},
+  {"question": "Is the far side of the Moon permanently dark?", "difficulty": "easy", "options": [{"text": "Yes, it never receives sunlight", "correct": false, "explanation": "It gets sunlight on the same roughly 29.5-day cycle as the near side."}, {"text": "No, it's just the half that always faces away from Earth", "correct": true, "explanation": "Correct. 'Far side' is the accurate term; it faces away from us, not away from the Sun."}, {"text": "Only during a solar eclipse", "correct": false, "explanation": "Eclipses don't decide which side we see. The far side has its own day and night."}]},
+  {"question": "Thanks to libration, roughly how much of the Moon's surface can be seen from Earth over time?", "difficulty": "medium", "options": [{"text": "Exactly 50%", "correct": false, "explanation": "At any one moment we see one hemisphere, but the wobble adds more over weeks and months."}, {"text": "About 59%", "correct": true, "explanation": "Correct. The slightly elliptical orbit and tilted axis let us peek past the edges."}, {"text": "100%", "correct": false, "explanation": "The far side's core region never comes into view from Earth."}]},
+  {"question": "What causes libration?", "difficulty": "hard", "options": [{"text": "The Moon's slightly elliptical orbit and tilted axis keep spin and orbital position in step only on average", "correct": true, "explanation": "Correct. That small mismatch produces a slow apparent wobble."}, {"text": "Earth's atmosphere bending the Moon's image", "correct": false, "explanation": "Atmospheric effects can blur the view but don't reveal extra lunar terrain."}, {"text": "The Moon speeding up its spin each month", "correct": false, "explanation": "The spin rate is locked. The wobble comes from orbital shape and tilt."}]},
+  {"question": "Which spacecraft returned the first photographs of the Moon's far side, and when?", "difficulty": "medium", "options": [{"text": "Apollo 11, in 1969", "correct": false, "explanation": "Apollo 11 landed on the near side ten years after the far side was first photographed."}, {"text": "The Soviet Luna 3 probe, in October 1959", "correct": true, "explanation": "Correct. It flew around the Moon and radioed back the first blurry far-side images."}, {"text": "The Hubble Space Telescope, in 1990", "correct": false, "explanation": "Hubble orbits Earth, so it can't see the far side either."}]},
+  {"question": "How did the far side look different from the near side in those first images?", "difficulty": "hard", "options": [{"text": "Far fewer dark, smooth maria and far more heavily cratered highlands", "correct": true, "explanation": "Correct. That contrast is still studied to understand why the crust is thicker on that side."}, {"text": "It was covered in large dark maria", "correct": false, "explanation": "It's the reverse. The near side has most of the big dark maria that form the familiar face."}, {"text": "It looked identical to the near side", "correct": false, "explanation": "The difference was striking, which is why it's still a research topic."}]},
+  {"question": "Which of these moons are also tidally locked to their planets?", "difficulty": "medium", "options": [{"text": "None; our Moon is unique", "correct": false, "explanation": "Tidal locking is common for large moons close to their planets."}, {"text": "Only moons with atmospheres", "correct": false, "explanation": "Atmosphere has nothing to do with it. Gravity and time do."}, {"text": "Jupiter's four Galilean moons and Saturn's Titan", "correct": true, "explanation": "Correct. They lock for exactly the same gravitational reason our Moon did."}]},
+];
 
 export default function Post() {
   return (

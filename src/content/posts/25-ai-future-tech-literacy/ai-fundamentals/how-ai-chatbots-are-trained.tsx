@@ -40,6 +40,7 @@ export const metadata: PostFrontmatter = {
     "ai-future-tech-literacy/what-ai-hallucination-actually-means",
     "ai-future-tech-literacy/what-a-neural-network-actually-does",
     "technology-basics/what-a-chatbot-is-actually-doing",
+    "ai-future-tech-literacy/what-prompt-engineering-actually-is",
   ],
   glossary: [
     { term: "Pretraining", definition: "The first and most expensive training stage, where a language model learns to predict the next token across a very large body of text." },

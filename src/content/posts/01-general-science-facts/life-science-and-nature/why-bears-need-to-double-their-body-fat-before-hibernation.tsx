@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -24,7 +24,9 @@ export const metadata: PostFrontmatter = {
   videoQueue: true,
   tags: ["hibernation", "bears", "hyperphagia", "animal physiology", "fat bear week"],
   date: "2026-09-22",
-  updated: "2026-09-22",
+  updated: "2026-10-02",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "Bear hibernation isn't a long nap — it's a five-to-seven-month fast with no food, water, or waste, run entirely on fat a bear has to eat 20,000+ calories a day to build.",
   summary: "Before winter, bears enter hyperphagia, a feeding frenzy that can add 3-6 pounds of fat a day, because hibernation itself is an extreme metabolic shutdown: heart rate falls by more than half, metabolism drops sharply, and the bear survives months without eating, drinking, urinating, or defecating, running entirely on stored fat.",
@@ -48,10 +50,22 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "not-started",
-  youtubeUrl: "",
+  youtubeStatus: "scheduled",
+  youtubeUrl: "https://www.youtube.com/watch?v=k9IcJYbB5HU",
+  youtubeScheduledAt: "2026-10-05T16:00:00Z",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "How long does a bear's hibernation fast typically last?", "difficulty": "easy", "options": [{"text": "About 2 to 3 weeks", "correct": false, "explanation": "Far too short. The denning fast runs for months, which is why the fat reserve has to be so large."}, {"text": "About 5 to 7 months", "correct": true, "explanation": "Correct. A bear goes 5 to 7 months without eating, drinking, urinating or defecating, running on stored fat."}, {"text": "A full year", "correct": false, "explanation": "Bears emerge each spring and spend summer and fall feeding, so the fast lasts months, not a year."}]},
+  {"question": "What is hyperphagia?", "difficulty": "easy", "options": [{"text": "A late-summer and fall feeding frenzy that builds fat before denning", "correct": true, "explanation": "Correct. During hyperphagia a bear eats almost constantly, sometimes gaining 3 to 6 pounds a day."}, {"text": "A disease that makes bears overeat", "correct": false, "explanation": "It isn't an illness. Rapid fall fat gain is a normal, essential survival adaptation."}, {"text": "The deepest stage of hibernation", "correct": false, "explanation": "Hyperphagia happens before the den, while the bear is fully active and feeding."}]},
+  {"question": "At peak salmon season, roughly how many calories a day can a Katmai brown bear eat?", "difficulty": "medium", "options": [{"text": "About 2,000", "correct": false, "explanation": "That's a typical human day. A bear's normal intake is already 5,000 to 6,000, and hyperphagia pushes it much higher."}, {"text": "About 5,000", "correct": false, "explanation": "That's closer to its usual year-round intake, before the salmon runs peak."}, {"text": "20,000 or more", "correct": true, "explanation": "Correct. That's roughly the caloric equivalent of 35 large hamburgers a day."}]},
+  {"question": "What happens to a hibernating bear's heart rate?", "difficulty": "medium", "options": [{"text": "It stays at about 50 beats per minute", "correct": false, "explanation": "Around 50 is the active rate. In hibernation it falls by more than half."}, {"text": "It can drop to roughly 8 to 19 beats per minute", "correct": true, "explanation": "Correct. The heart slows to single digits or low teens as part of the controlled metabolic shutdown."}, {"text": "It speeds up to keep the bear warm", "correct": false, "explanation": "The opposite happens. Slowing the heart and metabolism is how the bear stretches its fat supply."}]},
+  {"question": "How much does a bear's body temperature fall during hibernation?", "difficulty": "medium", "options": [{"text": "Only about 3 to 5°C", "correct": true, "explanation": "Correct. That small drop is why bear hibernation counts as a milder torpor than a ground squirrel's."}, {"text": "Down to near freezing", "correct": false, "explanation": "That describes true deep hibernators like ground squirrels, not bears."}, {"text": "It doesn't change at all", "correct": false, "explanation": "It does drop, just modestly compared with heart rate and metabolism."}]},
+  {"question": "How does a hibernating bear get water without drinking for months?", "difficulty": "hard", "options": [{"text": "It eats snow at the den entrance", "correct": false, "explanation": "The bear doesn't eat or drink during hibernation at all."}, {"text": "It stores water in its stomach before denning", "correct": false, "explanation": "There's no stored water tank. The water comes from metabolism itself."}, {"text": "Breaking down fat produces metabolic water as a byproduct", "correct": true, "explanation": "Correct. Fat oxidation supplies both energy and water, solving the water problem without a single drink."}]},
+  {"question": "Why does a bear's relatively small temperature drop matter for its survival?", "difficulty": "hard", "options": [{"text": "It lets the bear rouse relatively quickly if disturbed", "correct": true, "explanation": "Correct. A large predator can't afford to be helpless for months, and a milder torpor keeps it able to wake."}, {"text": "It means the bear needs no fat at all", "correct": false, "explanation": "The bear still runs entirely on fat. The temperature drop just affects how fast it can wake."}, {"text": "It lets the bear keep hunting through winter", "correct": false, "explanation": "Hibernating bears don't hunt. They stay in the den on stored fat."}]},
+  {"question": "What does Fat Bear Week at Katmai National Park actually reflect?", "difficulty": "easy", "options": [{"text": "Which bear is the oldest", "correct": false, "explanation": "The contest compares weight gained over the salmon season, not age."}, {"text": "A real survival signal: fatter bears have better odds of making it through winter", "correct": true, "explanation": "Correct. A visibly fatter bear heading into October is better placed to survive the fast and, for females, raise cubs."}, {"text": "Which bear catches the most salmon in one day", "correct": false, "explanation": "It's judged on before-and-after fat gain across the season, not a single day's catch."}]},
+];
 
 export default function Post() {
   return (

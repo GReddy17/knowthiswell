@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "psychology-human-behavior/how-social-proof-actually-influences-behavior",
     "career-study-skills/what-test-anxiety-actually-does-to-performance",
     "career-study-skills/what-a-performance-review-actually-evaluates",
+    "health-wellness-deep-dive/what-burnout-actually-is-medically",
   ],
   glossary: [
     { term: "Impostor phenomenon", definition: "The original 1978 term from Clance and Imes for the persistent belief among high achievers that their success is undeserved and that they will be exposed as frauds." },

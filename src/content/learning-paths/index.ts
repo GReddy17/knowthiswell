@@ -59,6 +59,7 @@ export const LEARNING_PATHS: LearningPath[] = [
       { category: 'home-diy-knowledge', slug: 'phillips-vs-flathead-screwdrivers-explained' },
       { category: 'units-measurement-conversions', slug: 'watts-kilowatts-and-reading-an-electricity-bill' },
       { category: 'legal-documentation-howtos', slug: 'understanding-permits-and-licenses-general-categories' },
+      { category: 'business-entrepreneurship-basics', slug: 'what-a-business-license-actually-requires' },
       { category: 'legal-documentation-howtos', slug: 'business-registration-documents-explained' },
       { category: 'business-entrepreneurship-basics', slug: 'what-an-llc-actually-protects-you-from' },
       { category: 'legal-documentation-howtos', slug: 'what-makes-a-contract-legally-binding' },

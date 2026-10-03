@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "government-schemes-benefits/how-unemployment-benefits-actually-get-calculated",
     "general-awareness-basics/understanding-public-vs-private-sector",
     "government-schemes-benefits/what-disability-benefits-actually-require-to-qualify",
+    "government-schemes-benefits/what-housing-assistance-programs-actually-offer",
   ],
   glossary: [
     { term: "Medicare", definition: "The federal health insurance program for people 65 and older, certain younger people with disabilities, and people with end-stage renal disease or ALS." },

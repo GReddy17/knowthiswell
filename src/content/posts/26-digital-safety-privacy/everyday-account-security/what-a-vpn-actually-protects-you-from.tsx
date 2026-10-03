@@ -40,6 +40,7 @@ export const metadata: PostFrontmatter = {
     "digital-safety-privacy/how-antivirus-software-actually-detects-threats",
     "technology-basics/end-to-end-encryption-explained",
     "digital-safety-privacy/what-end-to-end-encryption-actually-means",
+    "digital-safety-privacy/what-public-wi-fi-risks-actually-are",
   ],
   glossary: [
     { term: "VPN (virtual private network)", definition: "A service that encrypts internet traffic between your device and a remote server, then sends it on to the wider internet from that server." },

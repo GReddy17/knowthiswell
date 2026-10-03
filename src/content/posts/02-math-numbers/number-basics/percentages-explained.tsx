@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "math-numbers/decimals-explained",
     "math-numbers/ratios-and-proportions",
     "math-numbers/understanding-percentages-in-real-life-discounts-tax-tips",
+    "math-numbers/currency-and-exchange-rate-math",
   ],
   glossary: [
     { term: "Percent", definition: "\"Per hundred\" — a way of expressing a number as parts out of 100, written with the % symbol." },

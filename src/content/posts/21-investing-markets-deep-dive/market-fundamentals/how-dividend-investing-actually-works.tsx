@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "investing-markets-deep-dive/stocks-vs-bonds-what-actually-differs",
     "investing-markets-deep-dive/what-a-mutual-fund-actually-is",
     "personal-finance-basics/simple-vs-compound-interest-cross-link-to-math-and-numbers",
+    "investing-markets-deep-dive/how-diversification-actually-reduces-risk",
   ],
   glossary: [
     { term: "Dividend", definition: "A payment a company makes to its shareholders, usually cash, out of its earnings or accumulated profits. The board decides whether and how much to pay." },

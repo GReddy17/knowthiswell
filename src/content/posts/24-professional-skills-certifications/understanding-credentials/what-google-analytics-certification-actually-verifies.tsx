@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "professional-skills-certifications/how-to-actually-choose-between-competing-certifications",
     "professional-skills-certifications/how-cloud-certifications-actually-boost-a-resume",
     "technology-basics/what-cookies-actually-do",
+    "professional-skills-certifications/how-to-actually-prepare-for-a-certification-exam",
   ],
   glossary: [
     { term: "Google Analytics 4 (GA4)", definition: "Google's current web and app analytics product, which records user activity as events and replaced Universal Analytics in 2023." },

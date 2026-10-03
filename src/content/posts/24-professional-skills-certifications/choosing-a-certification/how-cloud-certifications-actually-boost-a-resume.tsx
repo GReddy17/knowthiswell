@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-the-cloud-actually-is",
     "career-study-skills/how-to-quantify-achievements-on-a-resume",
     "professional-skills-certifications/what-google-analytics-certification-actually-verifies",
+    "professional-skills-certifications/how-to-actually-prepare-for-a-certification-exam",
   ],
   glossary: [
     { term: "Cloud certification", definition: "A credential from a cloud provider (AWS, Microsoft, Google) showing you passed its proctored exam on that platform." },

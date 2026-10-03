@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "psychology-human-behavior/how-habits-actually-get-built-in-the-brain",
     "psychology-human-behavior/how-cognitive-load-actually-affects-decision-making",
     "career-study-skills/the-two-minute-rule-explained",
+    "psychology-human-behavior/what-imposter-syndrome-actually-is",
   ],
   glossary: [
     { term: "Temporal motivation theory", definition: "Piers Steel's model of procrastination: motivation for a task equals expectancy times value, divided by one plus impulsiveness times delay. The longer the delay to the reward, the weaker the pull." },

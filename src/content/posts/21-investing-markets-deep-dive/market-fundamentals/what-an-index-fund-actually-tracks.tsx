@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "personal-finance-basics/understanding-retirement-accounts-basic-mechanics",
     "investing-markets-deep-dive/how-compound-interest-actually-builds-wealth-over-time",
     "investing-markets-deep-dive/what-a-bull-market-vs-bear-market-actually-means",
+    "investing-markets-deep-dive/how-diversification-actually-reduces-risk",
   ],
   glossary: [
     { term: "Index", definition: "A published, rules-based list of securities, with a formula for weighting them, used to measure a slice of the market. The index itself isn't something you can buy." },

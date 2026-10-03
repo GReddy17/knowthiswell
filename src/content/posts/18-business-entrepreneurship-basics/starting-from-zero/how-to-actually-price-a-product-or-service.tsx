@@ -41,6 +41,7 @@ export const metadata: PostFrontmatter = {
     "personal-finance-basics/self-employment-and-freelance-tax-basics",
     "business-entrepreneurship-basics/what-cash-flow-actually-means-for-a-small-business",
     "business-entrepreneurship-basics/how-to-actually-find-your-first-customers",
+    "business-entrepreneurship-basics/what-a-business-license-actually-requires",
   ],
   glossary: [
     { term: "Cost-plus pricing", definition: "Setting a price by adding a fixed percentage markup to what the item costs you." },

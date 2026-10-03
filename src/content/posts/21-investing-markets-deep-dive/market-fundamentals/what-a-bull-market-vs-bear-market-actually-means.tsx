@@ -46,6 +46,7 @@ export const metadata: PostFrontmatter = {
     "investing-markets-deep-dive/what-an-index-fund-actually-tracks",
     "investing-markets-deep-dive/stocks-vs-bonds-what-actually-differs",
     "economics/how-a-recession-actually-gets-defined",
+    "investing-markets-deep-dive/how-diversification-actually-reduces-risk",
   ],
   glossary: [
     { term: "Bear market", definition: "A decline of 20% or more in a broad market index from its most recent high, by common market convention." },

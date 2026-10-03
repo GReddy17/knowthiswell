@@ -39,6 +39,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/automation-vs-artificial-intelligence",
     "ai-future-tech-literacy/how-ai-chatbots-are-trained",
     "technology-basics/how-captcha-tells-humans-from-bots",
+    "ai-future-tech-literacy/what-prompt-engineering-actually-is",
   ],
   glossary: [
     { term: "Token", definition: "A small chunk of text — often a word or part of a word — that a language model reads and generates as its basic unit, rather than working with whole sentences at once." },

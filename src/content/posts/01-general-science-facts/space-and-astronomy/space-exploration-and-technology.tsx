@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -31,7 +31,7 @@ export const metadata: PostFrontmatter = {
     "space technology",
   ],
   date: "2026-08-16",
-  updated: "2026-08-19",
+  updated: "2026-10-02",
   youtubeShort: true, youtubeLong: false,
   seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
@@ -73,6 +73,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "About how long does a radio signal take to travel one way from Earth to the Moon?", "difficulty": "easy", "options": [{"text": "About 1.3 seconds", "correct": true, "explanation": "Correct. 384,400 km divided by about 299,792 km/s comes to roughly 1.28 seconds."}, {"text": "About 3 minutes", "correct": false, "explanation": "That's the shortest one-way delay to Mars, which is much farther away."}, {"text": "It's instant", "correct": false, "explanation": "Radio travels at the speed of light, which is fast but finite, so there's always a lag."}]},
+  {"question": "What is Earth's escape velocity from the surface?", "difficulty": "medium", "options": [{"text": "About 2.4 km/s", "correct": false, "explanation": "That's roughly the Moon's escape velocity, less than a quarter of Earth's."}, {"text": "About 7.8 km/s", "correct": false, "explanation": "That's roughly the sideways speed needed to orbit at low altitude, not to escape entirely."}, {"text": "About 11.2 km/s", "correct": true, "explanation": "Correct. That's the minimum speed to break free of Earth's gravity without further propulsion."}]},
+  {"question": "Why could the Apollo lunar module's ascent stage be so small?", "difficulty": "medium", "options": [{"text": "The Moon's escape velocity is only about 2.38 km/s, far below Earth's", "correct": true, "explanation": "Correct. Leaving the Moon takes much less speed, so a single modest engine was enough."}, {"text": "The Moon has no gravity", "correct": false, "explanation": "The Moon does have gravity. It's just much weaker because the Moon has far less mass."}, {"text": "It was towed off the surface by the command module", "correct": false, "explanation": "The ascent stage lifted itself off with its own engine."}]},
+  {"question": "Why do most orbital rockets use multiple stages?", "difficulty": "medium", "options": [{"text": "To carry more passengers", "correct": false, "explanation": "Staging is about mass, not seating."}, {"text": "Dropping burned-out stages means the rest of the rocket isn't accelerating dead weight", "correct": true, "explanation": "Correct. Shedding empty tanks and spent engines lets the remaining stages reach orbital speed."}, {"text": "Each stage points in a different direction", "correct": false, "explanation": "All stages push the same way. The benefit is losing mass as fuel is spent."}]},
+  {"question": "About how many sunrises do astronauts on the ISS see in 24 hours?", "difficulty": "easy", "options": [{"text": "1", "correct": false, "explanation": "That's a ground-based day. The ISS laps Earth about every 92-93 minutes."}, {"text": "About 16", "correct": true, "explanation": "Correct. Around 15.5 orbits a day means roughly 16 sunrises and 16 sunsets."}, {"text": "About 100", "correct": false, "explanation": "That would need an orbit every 15 minutes, far faster than the ISS's 7.66 km/s."}]},
+  {"question": "What was Sputnik 1, launched in 1957?", "difficulty": "easy", "options": [{"text": "The first crewed spacecraft", "correct": false, "explanation": "The first human in space was Yuri Gagarin, in 1961."}, {"text": "The first Moon lander", "correct": false, "explanation": "The first crewed Moon landing was Apollo 11, in 1969."}, {"text": "The first artificial satellite", "correct": true, "explanation": "Correct. The Soviet Union's Sputnik 1 proved an object could reach orbital velocity."}]},
+  {"question": "What changed in 2015 with the Falcon 9 rocket?", "difficulty": "hard", "options": [{"text": "A first stage landed upright after launch so it could be reflown", "correct": true, "explanation": "Correct. Reusing a stage spreads its cost over many missions instead of building a new one each time."}, {"text": "It was the first rocket to reach the Moon", "correct": false, "explanation": "Saturn V carried Apollo crews to the Moon decades earlier."}, {"text": "It was the first rocket to use liquid fuel", "correct": false, "explanation": "Liquid-fuel rockets were long established. The milestone was landing and reusing a stage."}]},
+  {"question": "Why do space telescopes like Hubble and James Webb sit above the atmosphere?", "difficulty": "medium", "options": [{"text": "To be closer to the stars they observe", "correct": false, "explanation": "Their distance from Earth is tiny compared with the distance to any star."}, {"text": "Earth's atmosphere blurs and blocks starlight, including wavelengths like infrared", "correct": true, "explanation": "Correct. Above the atmosphere they get sharper images and wavelengths ground telescopes can't."}, {"text": "Because ground telescopes are illegal in many countries", "correct": false, "explanation": "Ground observatories are common. The atmosphere is the limitation."}]},
+  {"question": "Why are many communications and weather satellites placed in geostationary orbit?", "difficulty": "hard", "options": [{"text": "It is the lowest and cheapest orbit to reach", "correct": false, "explanation": "Geostationary orbit is far higher than low Earth orbit. The appeal is staying put over one spot."}, {"text": "Satellites there never need power", "correct": false, "explanation": "They still need power. The appeal is their fixed position."}, {"text": "That orbit keeps a satellite fixed over one point on Earth", "correct": true, "explanation": "Correct. A dish on the ground can point at it once and never have to track it."}]},
+];
 
 export default function Post() {
   return (

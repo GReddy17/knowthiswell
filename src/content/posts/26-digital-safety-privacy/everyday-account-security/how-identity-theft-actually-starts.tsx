@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "digital-safety-privacy/what-two-factor-authentication-actually-does",
     "personal-finance-basics/how-credit-reports-work",
     "technology-basics/what-a-data-breach-actually-means-for-you",
+    "digital-safety-privacy/what-public-wi-fi-risks-actually-are",
   ],
   glossary: [
     { term: "Identity theft", definition: "Using someone else's personal information, such as their name, Social Security number or account details, without permission to commit fraud or obtain money, credit or services." },

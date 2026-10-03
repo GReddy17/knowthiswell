@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   videoQueue: true,
   tags: ["file deletion", "data recovery", "file systems", "ssd vs hdd", "data sanitization"],
   date: "2026-09-22",
-  updated: "2026-09-22",
+  updated: "2026-10-02",
   youtubeShort: true, youtubeLong: false,
   seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
@@ -55,6 +55,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does a normal delete usually change on a drive?", "difficulty": "easy", "options": [{"text": "It overwrites the file's data with zeros", "correct": false, "explanation": "By default the file system doesn't zero out the blocks. That's what secure-erase tools do."}, {"text": "It removes the file's index entry and marks its blocks as free", "correct": true, "explanation": "Correct. The data stays physically on the drive until something new is written into that space."}, {"text": "It moves the file to a hidden folder", "correct": false, "explanation": "Once the recycle bin is emptied, the file isn't stored anywhere new. Its index entry is simply removed."}]},
+  {"question": "In the library analogy, what does deleting a file most resemble?", "difficulty": "easy", "options": [{"text": "Burning the book", "correct": false, "explanation": "That would be physical destruction, the strongest form of sanitization, not an ordinary delete."}, {"text": "Lending the book to someone else", "correct": false, "explanation": "Nothing leaves the drive. The data stays put."}, {"text": "Pulling the book's card from the catalog while the book stays on the shelf", "correct": true, "explanation": "Correct. The record is gone, but the book sits there until something replaces it."}]},
+  {"question": "What is the leftover data from a deleted file called?", "difficulty": "medium", "options": [{"text": "Data remanence", "correct": true, "explanation": "Correct. Data remanence is exactly what file-recovery software scans for and rebuilds."}, {"text": "Cache", "correct": false, "explanation": "A cache is temporary stored data for speed, not the remains of a deleted file."}, {"text": "Metadata", "correct": false, "explanation": "Metadata describes a file. The leftover content itself is data remanence."}]},
+  {"question": "Why is recovering a deleted file less reliable on an SSD than on a traditional hard drive?", "difficulty": "medium", "options": [{"text": "SSDs encrypt every file automatically", "correct": false, "explanation": "Not all SSDs do. The key difference is the TRIM command."}, {"text": "After TRIM marks blocks as free, many SSDs erase that data in the background", "correct": true, "explanation": "Correct. SSDs need pre-erased blocks to write efficiently, so freed data can vanish within seconds to minutes."}, {"text": "SSDs don't use a file table", "correct": false, "explanation": "SSDs still use a file system with an index. The difference is what happens to the freed blocks."}]},
+  {"question": "Which NIST publication sets standards for media sanitization?", "difficulty": "hard", "options": [{"text": "SP 800-53", "correct": false, "explanation": "SP 800-53 is a catalog of security controls, not the media sanitization guidance."}, {"text": "SP 800-63", "correct": false, "explanation": "SP 800-63 covers digital identity, such as passwords and authentication."}, {"text": "SP 800-88", "correct": true, "explanation": "Correct. NIST SP 800-88 defines what it takes to actually destroy data beyond recovery."}]},
+  {"question": "You accidentally delete a file you need. What's the best first move?", "difficulty": "medium", "options": [{"text": "Keep working normally and try recovery next week", "correct": false, "explanation": "Every new write raises the chance the file's blocks get overwritten."}, {"text": "Stop using that drive and run recovery software as soon as possible", "correct": true, "explanation": "Correct. The sooner you recover, the less likely the data has been overwritten."}, {"text": "Install several new programs to free up space", "correct": false, "explanation": "Installing software writes new data, which can overwrite the very blocks you want back."}]},
+  {"question": "Which of these is a recommended way to make data unrecoverable before giving away a laptop?", "difficulty": "medium", "options": [{"text": "Deleting each file and emptying the trash", "correct": false, "explanation": "That's exactly the step the FTC warns isn't enough."}, {"text": "Renaming the sensitive files", "correct": false, "explanation": "Renaming changes the index entry, not the data."}, {"text": "A full-disk wipe, or full-disk encryption with the key destroyed", "correct": true, "explanation": "Correct. Those, or physical destruction, are the approaches NIST and FTC guidance point to."}]},
+  {"question": "Why do recovery tools usually work right after a deletion on a hard drive?", "difficulty": "hard", "options": [{"text": "The drive keeps a backup of every deleted file", "correct": false, "explanation": "There's no automatic backup. The original blocks simply haven't been reused yet."}, {"text": "The data blocks probably haven't been overwritten, so the tool can rebuild a pointer to them", "correct": true, "explanation": "Correct. The tool scans raw blocks for data matching a removed entry and reconstructs the file."}, {"text": "Deleting takes several hours to complete", "correct": false, "explanation": "The index change is near-instant. The data just isn't touched by it."}]},
+];
 
 export default function Post() {
   return (

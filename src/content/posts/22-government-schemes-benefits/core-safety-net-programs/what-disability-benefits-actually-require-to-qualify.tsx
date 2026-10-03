@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "government-schemes-benefits/how-unemployment-benefits-actually-get-calculated",
     "personal-finance-basics/understanding-retirement-accounts-basic-mechanics",
     "government-schemes-benefits/how-student-loan-forgiveness-programs-actually-work",
+    "government-schemes-benefits/what-housing-assistance-programs-actually-offer",
   ],
   glossary: [
     { term: "SSDI", definition: "Social Security Disability Insurance: benefits for disabled workers who paid enough Social Security taxes, based on their earnings record." },

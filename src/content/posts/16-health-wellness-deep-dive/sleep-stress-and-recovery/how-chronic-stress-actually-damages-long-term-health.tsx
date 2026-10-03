@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "health-wellness-deep-dive/how-meditation-actually-changes-the-brain",
     "health-body-basics/understanding-stress-and-the-body-general-overview",
     "health-wellness-deep-dive/what-resting-heart-rate-actually-reveals-about-fitness",
+    "health-wellness-deep-dive/what-burnout-actually-is-medically",
   ],
   glossary: [
     { term: "Allostasis", definition: "The body's process of staying stable by changing: adjusting heart rate, hormones and energy use to meet a challenge, then returning to baseline." },

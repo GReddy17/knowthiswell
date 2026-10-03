@@ -1,26 +1,18 @@
 {
  "posts": 911,
  "minimum": 9,
- "meetingMinimum": 240,
+ "meetingMinimum": 245,
  "histogram": {
-  "2": 232,
-  "3": 439,
+  "2": 229,
+  "3": 437,
   "9": 187,
-  "10": 34,
-  "11": 11,
-  "12": 8
+  "10": 36,
+  "11": 12,
+  "12": 10
  },
  "below": [
   {
    "key": "general-science-facts/el-nino-and-la-nina-explained",
-   "count": 2
-  },
-  {
-   "key": "general-science-facts/why-bears-need-to-double-their-body-fat-before-hibernation",
-   "count": 2
-  },
-  {
-   "key": "general-science-facts/why-we-always-see-the-same-side-of-the-moon",
    "count": 2
   },
   {
@@ -788,10 +780,6 @@
    "count": 2
   },
   {
-   "key": "technology-basics/why-deleting-a-file-doesnt-erase-it-right-away",
-   "count": 2
-  },
-  {
    "key": "health-wellness-deep-dive/how-the-lymphatic-system-actually-works",
    "count": 2
   },
@@ -1072,10 +1060,6 @@
    "count": 3
   },
   {
-   "key": "general-science-facts/space-exploration-and-technology",
-   "count": 3
-  },
-  {
    "key": "math-numbers/linear-equations-explained",
    "count": 3
   },
@@ -1165,10 +1149,6 @@
   },
   {
    "key": "math-numbers/the-pythagorean-theorem",
-   "count": 3
-  },
-  {
-   "key": "math-numbers/big-numbers-explained-million-billion-trillion-what-they-actually-mean",
    "count": 3
   },
   {

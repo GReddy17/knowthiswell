@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "life-skills-etiquette/how-to-actually-build-rapport-quickly",
     "career-study-skills/how-to-ask-for-a-raise-effectively",
     "life-skills-etiquette/how-to-actually-apologize-in-a-way-that-lands",
+    "life-skills-etiquette/what-small-talk-is-actually-for",
   ],
   glossary: [
     { term: "Boundary", definition: "A clearly communicated limit on what you will do, accept, or tolerate — distinct from a preference you keep to yourself and hope others notice." },

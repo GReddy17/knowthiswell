@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "general-awareness-basics/how-to-spot-misinformation-and-fake-news",
     "psychology-human-behavior/what-confirmation-bias-actually-does-to-decision-making",
     "ai-future-tech-literacy/how-ai-chatbots-are-trained",
+    "ai-future-tech-literacy/what-prompt-engineering-actually-is",
   ],
   glossary: [
     { term: "Hallucination", definition: "A generative AI output that sounds plausible but is false or not supported by any source." },

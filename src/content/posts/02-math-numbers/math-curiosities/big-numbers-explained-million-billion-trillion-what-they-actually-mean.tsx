@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -29,7 +29,7 @@ export const metadata: PostFrontmatter = {
     "math curiosities",
   ],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-02",
   youtubeShort: true, youtubeLong: false,
   seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -63,6 +63,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "How many zeros does a trillion have?", "difficulty": "easy", "options": [{"text": "9", "correct": false, "explanation": "Nine zeros is a billion. A trillion adds three more."}, {"text": "12", "correct": true, "explanation": "Correct. A trillion is 1,000,000,000,000, or 10¹²."}, {"text": "15", "correct": false, "explanation": "Fifteen zeros is a quadrillion, the next step up."}]},
+  {"question": "Which SI prefix stands for a billion (10⁹)?", "difficulty": "easy", "options": [{"text": "Giga-", "correct": true, "explanation": "Correct. That's why a gigabyte is roughly a billion bytes."}, {"text": "Mega-", "correct": false, "explanation": "Mega- is a million (10⁶)."}, {"text": "Tera-", "correct": false, "explanation": "Tera- is a trillion (10¹²)."}]},
+  {"question": "What is 4,500,000,000 written in scientific notation?", "difficulty": "medium", "options": [{"text": "45 × 10⁸", "correct": false, "explanation": "Proper scientific notation keeps one non-zero digit before the decimal point."}, {"text": "4.5 × 10⁹", "correct": true, "explanation": "Correct. The decimal moves 9 places, and 10⁹ matches the name 'billion.'"}, {"text": "4.5 × 10⁶", "correct": false, "explanation": "10⁶ is a million, so this would be 4.5 million."}]},
+  {"question": "Counting nonstop at one number per second, about how long would it take to reach one billion?", "difficulty": "medium", "options": [{"text": "About 31.7 years", "correct": true, "explanation": "Correct. A billion seconds is about 31.7 years, versus about 11.6 days for a million."}, {"text": "About 116 days", "correct": false, "explanation": "That's only ten times the million figure. A billion is a thousand times a million."}, {"text": "About 3 years", "correct": false, "explanation": "Still far too short. A billion seconds runs past three decades."}]},
+  {"question": "Under the historical 'long scale' used in parts of Europe, what did 'a billion' mean?", "difficulty": "hard", "options": [{"text": "A thousand million (10⁹)", "correct": false, "explanation": "That's the short-scale meaning used in the US and most modern international usage."}, {"text": "A hundred million (10⁸)", "correct": false, "explanation": "Neither scale defines a billion that way."}, {"text": "A million million (10¹²)", "correct": true, "explanation": "Correct. That mismatch still causes confusion in cross-border financial reporting."}]},
+  {"question": "In what year did France officially switch to the short scale?", "difficulty": "hard", "options": [{"text": "1948", "correct": true, "explanation": "Correct. France adopted the short scale in 1948, though the long scale survives in parts of Europe."}, {"text": "1795", "correct": false, "explanation": "That's around when France introduced the metric system, a separate change."}, {"text": "2002", "correct": false, "explanation": "That's when euro notes and coins came into circulation, unrelated to naming large numbers."}]},
+  {"question": "A $50 billion program sits inside a $2.3 trillion budget. Roughly what share is that?", "difficulty": "medium", "options": [{"text": "About 22%", "correct": false, "explanation": "Off by a factor of ten. Check the exponents: 50 × 10⁹ ÷ 2.3 × 10¹²."}, {"text": "About 2.2%", "correct": true, "explanation": "Correct. It sounds big next to 'trillion,' but it's a small slice of the total."}, {"text": "About 0.2%", "correct": false, "explanation": "Too small. 50 billion out of 2,300 billion is just over 2%."}]},
+  {"question": "Why do million, billion and trillion look evenly spaced on a logarithmic scale?", "difficulty": "hard", "options": [{"text": "Because each is a fixed 1,000-fold jump, which a log scale shows as equal steps", "correct": true, "explanation": "Correct. The equal spacing hides the fact that each step is enormous in linear terms."}, {"text": "Because they differ by the same fixed amount", "correct": false, "explanation": "The gaps in actual value grow hugely: 999 million, then 999 billion."}, {"text": "Because log scales round large numbers down", "correct": false, "explanation": "Log scales don't round. They space values by their exponent."}]},
+  {"question": "If a billion $1 bills stacked up would reach about 63 miles high, how high would a trillion reach?", "difficulty": "medium", "options": [{"text": "About 630 miles", "correct": false, "explanation": "That's only ten times higher. A trillion is a thousand times a billion."}, {"text": "About 6,300 miles", "correct": false, "explanation": "Still a factor of ten short."}, {"text": "About 63,000 miles, more than a quarter of the way to the Moon", "correct": true, "explanation": "Correct. The same 1,000-fold jump turns 63 miles into about 63,000."}]},
+];
 
 export default function Post() {
   return (

@@ -40,6 +40,7 @@ export const metadata: PostFrontmatter = {
     "life-skills-etiquette/how-to-actually-set-boundaries-without-guilt",
     "language-vocabulary/email-and-letter-writing-basics",
     "life-skills-etiquette/how-to-actually-apologize-in-a-way-that-lands",
+    "life-skills-etiquette/what-small-talk-is-actually-for",
   ],
   glossary: [
     { term: "Bottom line up front (BLUF)", definition: "Putting the main point or request at the very start of a message, so the reader knows what's needed before reading the details." },
