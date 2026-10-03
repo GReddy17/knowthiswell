@@ -1,0 +1,36 @@
+<svg viewBox="0 0 560 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="impTitle">
+  <title id="impTitle">The imposter cycle: an achievement task triggers anxiety, which leads to over-preparation or procrastination then a rush; the task succeeds with brief relief; the success is credited to effort or luck and praise is discounted, so the next task restarts the loop. The attribution step is where the cycle can be broken.</title>
+  <rect width="560" height="500" fill="#FBF8F1"/>
+  <text x="280" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">The imposter cycle (Clance, 1978)</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="160" y="48" width="240" height="46" rx="6" fill="#2C4A3E"/>
+    <text x="280" y="68" font-size="12" font-weight="700" fill="#FBF8F1">1. Achievement task</text>
+    <text x="280" y="84" font-size="11" fill="#FBF8F1">exam, presentation, new role</text>
+    <text x="280" y="112" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="160" y="120" width="240" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="140" font-size="12" font-weight="700" fill="#1F1B16">2. Anxiety and self-doubt</text>
+    <text x="280" y="156" font-size="11" fill="#4A443C">&quot;This time they&#x27;ll find out&quot;</text>
+    <path d="M280 170 V184 M140 184 H420 M140 184 V198 M420 184 V198" fill="none" stroke="#8B6F4E" stroke-width="2"/>
+    <rect x="40" y="200" width="200" height="50" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="140" y="221" font-size="12" font-weight="700" fill="#1F1B16">3a. Over-prepare</text>
+    <text x="140" y="238" font-size="11" fill="#4A443C">far more work than needed</text>
+    <rect x="320" y="200" width="200" height="50" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="420" y="221" font-size="12" font-weight="700" fill="#1F1B16">3b. Procrastinate</text>
+    <text x="420" y="238" font-size="11" fill="#4A443C">then a frantic last-minute rush</text>
+    <path d="M140 254 V268 M420 254 V268 M140 268 H420 M280 268 V280" fill="none" stroke="#8B6F4E" stroke-width="2"/>
+    <rect x="160" y="282" width="240" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="302" font-size="12" font-weight="700" fill="#1F1B16">4. Success, brief relief</text>
+    <text x="280" y="318" font-size="11" fill="#4A443C">the task goes well</text>
+    <text x="280" y="346" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="130" y="354" width="300" height="54" rx="6" fill="#8B6F4E"/>
+    <text x="280" y="376" font-size="12" font-weight="700" fill="#FBF8F1">5. Credit goes to effort or luck</text>
+    <text x="280" y="394" font-size="11" fill="#FBF8F1">praise discounted, ability never counted</text>
+    <path d="M130 381 H30 V71 H156" fill="none" stroke="#8B6F4E" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="22" y="300" font-size="10" fill="#4A443C" transform="rotate(-90 22 300)">next task restarts the loop</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">
+    <rect x="40" y="426" width="480" height="56" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="280" y="448" text-anchor="middle" font-weight="700">Break point: step 5</text>
+    <text x="280" y="466" text-anchor="middle" fill="#4A443C">Name the skill that contributed, so the success can count as evidence.</text>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 600 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="promptFlowTitle">
+  <title id="promptFlowTitle">Five prompt ingredients (task and audience, context and sources, examples, output format, steps) feed into a language model that predicts likely text. The draft output then needs a human check, because a prompt shapes the model's guess but cannot add knowledge it doesn't have.</title>
+  <rect width="600" height="330" fill="#FBF8F1"/>
+  <text x="110" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2C4A3E">What you put in</text>
+  <rect x="20" y="42" width="180" height="34" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="110" y="64" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">1. Task and audience</text>
+  <rect x="20" y="84" width="180" height="34" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="110" y="106" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">2. Context and source text</text>
+  <rect x="20" y="126" width="180" height="34" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="110" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">3. Examples (few-shot)</text>
+  <rect x="20" y="168" width="180" height="34" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="110" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">4. Output format</text>
+  <rect x="20" y="210" width="180" height="34" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="110" y="232" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">5. Steps / reasoning</text>
+  <line x1="200" y1="143" x2="238" y2="143" stroke="#2C4A3E" stroke-width="2"/>
+  <polygon points="238,137 250,143 238,149" fill="#2C4A3E"/>
+  <rect x="252" y="103" width="150" height="80" rx="8" fill="#2C4A3E"/>
+  <text x="327" y="135" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Language model</text>
+  <text x="327" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">predicts likely text</text>
+  <line x1="402" y1="143" x2="430" y2="143" stroke="#2C4A3E" stroke-width="2"/>
+  <polygon points="430,137 442,143 430,149" fill="#2C4A3E"/>
+  <rect x="444" y="103" width="136" height="36" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="512" y="126" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Draft output</text>
+  <line x1="512" y1="139" x2="512" y2="153" stroke="#8B6F4E" stroke-width="2"/>
+  <polygon points="506,153 512,165 518,153" fill="#8B6F4E"/>
+  <rect x="444" y="167" width="136" height="36" rx="6" fill="#8B6F4E"/>
+  <text x="512" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">Human check</text>
+  <rect x="252" y="214" width="328" height="44" rx="6" fill="#FBF8F1" stroke="#E3DCC9" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="416" y="233" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">The model&apos;s trained knowledge stays fixed.</text>
+  <text x="416" y="249" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">The prompt only changes what it reads.</text>
+  <text x="300" y="292" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">A better prompt narrows the guess.</text>
+  <text x="300" y="310" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">It doesn&apos;t make the answer true.</text>
+</svg>

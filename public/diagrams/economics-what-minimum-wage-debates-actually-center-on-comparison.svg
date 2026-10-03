@@ -1,0 +1,56 @@
+<svg viewBox="0 0 580 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mwTitle">
+  <title id="mwTitle">Where the cost of a minimum wage increase goes: higher prices, lower profits, fewer jobs or hours, or savings from lower turnover. The competitive model predicts employment falls; the monopsony model predicts a moderate floor can raise pay and jobs together. Effects grow with the bite, the minimum as a share of the local median wage.</title>
+  <rect width="580" height="480" fill="#FBF8F1"/>
+  <text x="290" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Where the cost of a higher minimum wage goes</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="170" y="46" width="240" height="44" rx="6" fill="#2C4A3E"/>
+    <text x="290" y="65" font-size="12" font-weight="700" fill="#FBF8F1">Minimum wage rises</text>
+    <text x="290" y="81" font-size="10" fill="#FBF8F1">employer&#x27;s labor cost goes up</text>
+    <path d="M290 94 V106 M74 106 H506 M74 106 V118 M218 106 V118 M362 106 V118 M506 106 V118" fill="none" stroke="#8B6F4E" stroke-width="2"/>
+    <rect x="16" y="120" width="116" height="62" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="74" y="142" font-size="11" font-weight="700" fill="#1F1B16">Higher prices</text>
+    <text x="74" y="158" font-size="10" fill="#4A443C">customers pay</text>
+    <text x="74" y="172" font-size="10" fill="#4A443C">(pass-through)</text>
+    <rect x="160" y="120" width="116" height="62" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="218" y="142" font-size="11" font-weight="700" fill="#1F1B16">Lower profits</text>
+    <text x="218" y="158" font-size="10" fill="#4A443C">owners pay</text>
+    <rect x="304" y="120" width="116" height="62" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="362" y="142" font-size="11" font-weight="700" fill="#1F1B16">Fewer jobs/hours</text>
+    <text x="362" y="158" font-size="10" fill="#4A443C">some workers pay</text>
+    <rect x="448" y="120" width="116" height="62" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="506" y="142" font-size="11" font-weight="700" fill="#1F1B16">Lower turnover</text>
+    <text x="506" y="158" font-size="10" fill="#4A443C">offsets part</text>
+    <text x="506" y="172" font-size="10" fill="#4A443C">of the cost</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="16" y="204" width="268" height="112" rx="6" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="150" y="226" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">Competitive model</text>
+    <text x="30" y="248" font-size="10" fill="#4A443C">• Wage floor above market wage</text>
+    <text x="30" y="266" font-size="10" fill="#4A443C">• Employers demand less labor</text>
+    <text x="30" y="284" font-size="10" fill="#4A443C">• Prediction: employment falls</text>
+    <text x="30" y="302" font-size="10" fill="#4A443C">• How much: labor demand elasticity</text>
+    <rect x="296" y="204" width="268" height="112" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="430" y="226" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">Monopsony model</text>
+    <text x="310" y="248" font-size="10" fill="#4A443C">• Employers have wage-setting power</text>
+    <text x="310" y="266" font-size="10" fill="#4A443C">• They hire less to keep wages low</text>
+    <text x="310" y="284" font-size="10" fill="#4A443C">• Prediction: moderate floor can raise</text>
+    <text x="310" y="300" font-size="10" fill="#4A443C">  pay and jobs together</text>
+    <text x="290" y="344" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">What the evidence turns on: the &quot;bite&quot; (minimum ÷ local median wage)</text>
+    <defs>
+      <linearGradient id="biteGrad" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#F3EBDD"/>
+        <stop offset="1" stop-color="#2C4A3E"/>
+      </linearGradient>
+    </defs>
+    <rect x="40" y="356" width="500" height="22" rx="4" fill="url(#biteGrad)" stroke="#8B6F4E"/>
+    <line x1="335" y1="350" x2="335" y2="384" stroke="#1F1B16" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="40" y="396" font-size="10" fill="#4A443C">30%</text>
+    <text x="335" y="396" text-anchor="middle" font-size="10" font-weight="700" fill="#1F1B16">~59%</text>
+    <text x="540" y="396" text-anchor="end" font-size="10" fill="#4A443C">80%+</text>
+    <text x="188" y="414" text-anchor="middle" font-size="10" fill="#4A443C">small job effects in much research</text>
+    <text x="450" y="414" text-anchor="middle" font-size="10" fill="#4A443C">little U.S. evidence; more risk</text>
+    <rect x="16" y="428" width="548" height="40" rx="6" fill="#F3EBDD" stroke="#8B6F4E"/>
+    <text x="290" y="446" text-anchor="middle" font-size="10" fill="#1F1B16">CBO 2019, $15 federal by 2025: 17M get a raise · 1.3M out of poverty · median 1.3M jobs lost (range ~0 to 3.7M)</text>
+    <text x="290" y="461" text-anchor="middle" font-size="10" fill="#4A443C">Federal minimum $7.25 since July 2009 (DOL). Sources: Card &amp; Krueger 1994; Cengiz et al. 2019.</text>
+  </g>
+</svg>

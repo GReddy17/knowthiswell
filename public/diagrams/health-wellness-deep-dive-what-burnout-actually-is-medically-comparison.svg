@@ -1,0 +1,60 @@
+<svg viewBox="0 0 600 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="boTitle">
+  <title id="boTitle">Burnout vs depression vs ordinary work stress: ordinary stress is short-term and eases with rest; burnout (ICD-11 QD85) is chronic unmanaged workplace stress with exhaustion, cynicism about the job and reduced efficacy, classed as an occupational phenomenon; depression is low mood or loss of interest across life and is a diagnosable mood disorder. Exhaustion overlaps all three, so a clinician also rules out physical causes.</title>
+  <rect width="600" height="470" fill="#FBF8F1"/>
+  <text x="300" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Burnout vs depression vs ordinary work stress</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="16" y="48" width="180" height="40" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="106" y="73" font-size="12" font-weight="700" fill="#1F1B16">Ordinary work stress</text>
+    <rect x="210" y="48" width="180" height="40" rx="6" fill="#2C4A3E"/>
+    <text x="300" y="66" font-size="12" font-weight="700" fill="#FBF8F1">Burnout</text>
+    <text x="300" y="81" font-size="10" fill="#FBF8F1">ICD-11 QD85</text>
+    <rect x="404" y="48" width="180" height="40" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="494" y="73" font-size="12" font-weight="700" fill="#1F1B16">Depression</text>
+
+    <rect x="16" y="98" width="180" height="250" rx="6" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="106" y="122" font-size="11" font-weight="700" fill="#1F1B16">Timescale</text>
+    <text x="106" y="138" font-size="10" fill="#4A443C">days to weeks</text>
+    <text x="106" y="166" font-size="11" font-weight="700" fill="#1F1B16">Where it shows up</text>
+    <text x="106" y="182" font-size="10" fill="#4A443C">tied to a deadline</text>
+    <text x="106" y="196" font-size="10" fill="#4A443C">or busy period</text>
+    <text x="106" y="224" font-size="11" font-weight="700" fill="#1F1B16">Pattern</text>
+    <text x="106" y="240" font-size="10" fill="#4A443C">eases with rest or when</text>
+    <text x="106" y="254" font-size="10" fill="#4A443C">the pressure passes</text>
+    <text x="106" y="282" font-size="11" font-weight="700" fill="#1F1B16">Classification</text>
+    <text x="106" y="298" font-size="10" fill="#4A443C">none; a normal response</text>
+
+    <rect x="210" y="98" width="180" height="250" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="300" y="122" font-size="11" font-weight="700" fill="#2C4A3E">Timescale</text>
+    <text x="300" y="138" font-size="10" fill="#4A443C">chronic, not managed</text>
+    <text x="300" y="166" font-size="11" font-weight="700" fill="#2C4A3E">Where it shows up</text>
+    <text x="300" y="182" font-size="10" fill="#4A443C">work only (WHO: not</text>
+    <text x="300" y="196" font-size="10" fill="#4A443C">other areas of life)</text>
+    <text x="300" y="224" font-size="11" font-weight="700" fill="#2C4A3E">Three dimensions</text>
+    <text x="300" y="240" font-size="10" fill="#4A443C">1. exhaustion</text>
+    <text x="300" y="254" font-size="10" fill="#4A443C">2. mental distance / cynicism</text>
+    <text x="300" y="268" font-size="10" fill="#4A443C">3. reduced efficacy</text>
+    <text x="300" y="296" font-size="11" font-weight="700" fill="#2C4A3E">Classification</text>
+    <text x="300" y="312" font-size="10" fill="#4A443C">occupational phenomenon,</text>
+    <text x="300" y="326" font-size="10" fill="#4A443C">not a disease; not in DSM</text>
+
+    <rect x="404" y="98" width="180" height="250" rx="6" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="494" y="122" font-size="11" font-weight="700" fill="#1F1B16">Timescale</text>
+    <text x="494" y="138" font-size="10" fill="#4A443C">most days, for weeks</text>
+    <text x="494" y="166" font-size="11" font-weight="700" fill="#1F1B16">Where it shows up</text>
+    <text x="494" y="182" font-size="10" fill="#4A443C">across all of life:</text>
+    <text x="494" y="196" font-size="10" fill="#4A443C">home, hobbies, work</text>
+    <text x="494" y="224" font-size="11" font-weight="700" fill="#1F1B16">Pattern</text>
+    <text x="494" y="240" font-size="10" fill="#4A443C">low mood or loss of</text>
+    <text x="494" y="254" font-size="10" fill="#4A443C">interest or pleasure</text>
+    <text x="494" y="282" font-size="11" font-weight="700" fill="#1F1B16">Classification</text>
+    <text x="494" y="298" font-size="10" fill="#4A443C">diagnosable mood disorder</text>
+    <text x="494" y="312" font-size="10" fill="#4A443C">(ICD-11, DSM-5-TR);</text>
+    <text x="494" y="326" font-size="10" fill="#4A443C">treatable</text>
+
+    <rect x="16" y="362" width="568" height="52" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="300" y="383" font-size="11" font-weight="700" fill="#1F1B16">Overlap: exhaustion appears in all three</text>
+    <text x="300" y="401" font-size="10" fill="#4A443C">A clinician also rules out physical causes such as thyroid problems, anemia and sleep disorders.</text>
+  </g>
+  <text x="300" y="440" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Sources: WHO ICD-11 (QD85), WHO 2019, Maslach &amp; Leiter (2016), Bianchi et al. (2015), Mayo Clinic.</text>
+  <text x="300" y="456" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">Not a diagnosis. Talk to a health care provider about your own situation.</text>
+</svg>

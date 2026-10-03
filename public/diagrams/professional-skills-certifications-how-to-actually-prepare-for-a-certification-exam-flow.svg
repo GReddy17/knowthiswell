@@ -1,0 +1,41 @@
+<svg viewBox="0 0 600 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="examPrepTitle">
+  <title id="examPrepTitle">The certification exam prep loop. Step 1: read the official exam objectives and domain weights. Step 2: take a baseline practice exam. Step 3: study the weakest, most heavily weighted domain using practice questions. Step 4: review earlier topics again days later. Loop back to step 2 to re-measure. Step 5: timed full practice exams in the final weeks, then sit the exam.</title>
+  <rect width="600" height="330" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="20" y="40" width="170" height="60" rx="6" fill="#2C4A3E"/>
+    <text x="105" y="64" text-anchor="middle" font-size="12" font-weight="700" fill="#FBF8F1">1. Blueprint</text>
+    <text x="105" y="82" text-anchor="middle" font-size="10" fill="#FBF8F1">Official objectives + weights</text>
+    <rect x="215" y="40" width="170" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="300" y="64" text-anchor="middle" font-size="12" font-weight="700" fill="#2C4A3E">2. Diagnose</text>
+    <text x="300" y="82" text-anchor="middle" font-size="10" fill="#1F1B16">Practice exam, score by domain</text>
+    <rect x="410" y="40" width="170" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="495" y="64" text-anchor="middle" font-size="12" font-weight="700" fill="#2C4A3E">3. Retrieve</text>
+    <text x="495" y="82" text-anchor="middle" font-size="10" fill="#1F1B16">Weakest heavy domain, via questions</text>
+    <rect x="410" y="150" width="170" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="495" y="174" text-anchor="middle" font-size="12" font-weight="700" fill="#2C4A3E">4. Space</text>
+    <text x="495" y="192" text-anchor="middle" font-size="10" fill="#1F1B16">Re-quiz older topics days later</text>
+    <rect x="215" y="150" width="170" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="300" y="174" text-anchor="middle" font-size="12" font-weight="700" fill="#8B6F4E">Re-measure</text>
+    <text x="300" y="192" text-anchor="middle" font-size="10" fill="#1F1B16">Loop back to step 2</text>
+    <rect x="20" y="250" width="365" height="56" rx="6" fill="#8B6F4E"/>
+    <text x="202" y="273" text-anchor="middle" font-size="12" font-weight="700" fill="#FBF8F1">5. Rehearse: timed full practice exams</text>
+    <text x="202" y="291" text-anchor="middle" font-size="10" fill="#FBF8F1">Final 2 weeks, review every miss, sleep before exam day</text>
+    <rect x="410" y="250" width="170" height="56" rx="6" fill="#2C4A3E"/>
+    <text x="495" y="283" text-anchor="middle" font-size="12" font-weight="700" fill="#FBF8F1">Exam</text>
+  </g>
+  <g stroke="#2C4A3E" stroke-width="2" fill="#2C4A3E">
+    <line x1="190" y1="70" x2="205" y2="70"/><polygon points="205,64 215,70 205,76" stroke="none"/>
+    <line x1="385" y1="70" x2="400" y2="70"/><polygon points="400,64 410,70 400,76" stroke="none"/>
+    <line x1="495" y1="100" x2="495" y2="140"/><polygon points="489,140 495,150 501,140" stroke="none"/>
+    <line x1="410" y1="180" x2="395" y2="180"/><polygon points="395,174 385,180 395,186" stroke="none"/>
+    <line x1="385" y1="278" x2="400" y2="278"/><polygon points="400,272 410,278 400,284" stroke="none"/>
+  </g>
+  <g stroke="#8B6F4E" stroke-width="2" fill="#8B6F4E">
+    <line x1="300" y1="150" x2="300" y2="110"/><polygon points="294,110 300,100 306,110" stroke="none"/>
+    <line x1="260" y1="210" x2="260" y2="240"/><polygon points="254,240 260,250 266,240" stroke="none"/>
+  </g>
+  <text x="105" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">High-utility techniques</text>
+  <text x="105" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">(Dunlosky et al., 2013):</text>
+  <text x="105" y="170" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">practice testing and</text>
+  <text x="105" y="185" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#4A443C">spaced practice</text>
+</svg>

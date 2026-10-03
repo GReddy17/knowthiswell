@@ -1,0 +1,35 @@
+<svg viewBox="0 0 560 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stTitle">
+  <title id="stTitle">How small talk climbs from ritual to real conversation: ritual, then facts, then opinions, then feelings and stories, with a follow-up question on offered free information moving the talk up each step, and a polite exit possible at every step.</title>
+  <rect width="560" height="470" fill="#FBF8F1"/>
+  <text x="280" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">How small talk climbs to real conversation</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="30" y="340" width="330" height="58" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="44" y="362" font-size="12" font-weight="700" fill="#1F1B16">1. Ritual</text>
+    <text x="44" y="380" font-size="11" fill="#4A443C">&quot;Busy week?&quot;  Message: I&#x27;m friendly and safe</text>
+    <rect x="80" y="258" width="330" height="58" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="94" y="280" font-size="12" font-weight="700" fill="#1F1B16">2. Facts (free information)</text>
+    <text x="94" y="298" font-size="11" fill="#4A443C">&quot;We&#x27;re moving offices Friday.&quot;</text>
+    <rect x="130" y="176" width="330" height="58" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="144" y="198" font-size="12" font-weight="700" fill="#1F1B16">3. Opinions</text>
+    <text x="144" y="216" font-size="11" fill="#4A443C">&quot;Honestly, I&#x27;ll miss the old building.&quot;</text>
+    <rect x="180" y="94" width="330" height="58" rx="6" fill="#2C4A3E"/>
+    <text x="194" y="116" font-size="12" font-weight="700" fill="#FBF8F1">4. Feelings and stories</text>
+    <text x="194" y="134" font-size="11" fill="#FBF8F1">&quot;It&#x27;s where I started my career.&quot;</text>
+    <g font-size="10" fill="#8B6F4E" font-weight="700">
+      <path d="M60 336 V320 H76" fill="none" stroke="#8B6F4E" stroke-width="2"/>
+      <text x="370" y="332">↑ follow-up question</text>
+      <path d="M110 254 V238 H126" fill="none" stroke="#8B6F4E" stroke-width="2"/>
+      <text x="420" y="250">↑ follow-up</text>
+      <path d="M160 172 V156 H176" fill="none" stroke="#8B6F4E" stroke-width="2"/>
+      <text x="470" y="168">↑ follow-up</text>
+    </g>
+    <rect x="30" y="94" width="130" height="58" rx="6" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="95" y="116" text-anchor="middle" font-size="11" font-weight="700" fill="#1F1B16">Exit any step</text>
+    <text x="95" y="134" text-anchor="middle" font-size="10" fill="#4A443C">&quot;Good to meet you!&quot;</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C" text-anchor="middle">
+    <rect x="30" y="414" width="500" height="44" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="280" y="432">Each step up needs both people to add a little. One-word answers = a polite &quot;no thanks&quot;.</text>
+    <text x="280" y="449">Phatic talk (Malinowski, 1923): the words carry goodwill, not news.</text>
+  </g>
+</svg>

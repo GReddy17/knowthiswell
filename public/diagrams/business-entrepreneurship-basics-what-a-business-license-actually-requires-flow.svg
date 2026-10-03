@@ -1,0 +1,27 @@
+<svg viewBox="0 0 600 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="licStackTitle">
+  <title id="licStackTitle">The US business license stack. Federal layer: only for regulated activities such as alcohol, firearms, aviation and broadcasting. State layer: occupational licenses for regulated trades, a sales tax permit, and entity registration. Local layer: a city or county business license, zoning or home-occupation approval, and health, fire and sign permits. Separately, the IRS issues a free EIN, needed once you hire.</title>
+  <rect width="600" height="330" fill="#FBF8F1"/>
+  <text x="230" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Which layers apply depends on what you do and where</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="150" y="44" width="160" height="62" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="230" y="66" text-anchor="middle" font-size="12" font-weight="700" fill="#8B6F4E">Federal</text>
+    <text x="230" y="83" text-anchor="middle" font-size="10" fill="#1F1B16">Only regulated activities:</text>
+    <text x="230" y="97" text-anchor="middle" font-size="10" fill="#1F1B16">alcohol, firearms, aviation, FCC</text>
+    <rect x="90" y="116" width="280" height="72" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="230" y="138" text-anchor="middle" font-size="12" font-weight="700" fill="#2C4A3E">State</text>
+    <text x="230" y="156" text-anchor="middle" font-size="10" fill="#1F1B16">Occupational licenses (trades, professions)</text>
+    <text x="230" y="171" text-anchor="middle" font-size="10" fill="#1F1B16">Sales tax permit · Entity registration (LLC etc.)</text>
+    <rect x="30" y="198" width="400" height="80" rx="6" fill="#2C4A3E"/>
+    <text x="230" y="221" text-anchor="middle" font-size="12" font-weight="700" fill="#FBF8F1">Local (city / county)</text>
+    <text x="230" y="240" text-anchor="middle" font-size="10" fill="#FBF8F1">General business license or tax registration</text>
+    <text x="230" y="255" text-anchor="middle" font-size="10" fill="#FBF8F1">Zoning and home-occupation approval</text>
+    <text x="230" y="270" text-anchor="middle" font-size="10" fill="#FBF8F1">Health, fire, building and sign permits</text>
+    <rect x="452" y="116" width="128" height="104" rx="6" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="516" y="138" text-anchor="middle" font-size="12" font-weight="700" fill="#8B6F4E">Alongside</text>
+    <text x="516" y="158" text-anchor="middle" font-size="10" fill="#1F1B16">IRS EIN (free)</text>
+    <text x="516" y="174" text-anchor="middle" font-size="10" fill="#1F1B16">needed once</text>
+    <text x="516" y="188" text-anchor="middle" font-size="10" fill="#1F1B16">you hire</text>
+    <text x="516" y="206" text-anchor="middle" font-size="10" fill="#1F1B16">DBA for trade names</text>
+  </g>
+  <text x="300" y="306" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#4A443C">Most small businesses live mainly in the bottom two layers.</text>
+</svg>

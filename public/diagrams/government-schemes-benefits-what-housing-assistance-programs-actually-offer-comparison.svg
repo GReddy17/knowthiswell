@@ -1,0 +1,60 @@
+<svg viewBox="0 0 600 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="haTitle">
+  <title id="haTitle">Comparison of U.S. housing assistance: Housing Choice Voucher, public housing and other programs, showing where you live, what you pay, the income limit, and whether help moves with you. Figures as of October 2026.</title>
+  <rect width="600" height="470" fill="#FBF8F1"/>
+  <text x="300" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">What U.S. housing assistance actually offers</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="20" y="46" width="110" height="40" fill="#FBF8F1"/>
+    <rect x="134" y="46" width="222" height="40" rx="6" fill="#2C4A3E"/>
+    <text x="245" y="64" text-anchor="middle" font-size="12" font-weight="700" fill="#FBF8F1">Housing Choice Voucher</text>
+    <text x="245" y="79" text-anchor="middle" font-size="10" fill="#FBF8F1">(&quot;Section 8&quot;)</text>
+    <rect x="360" y="46" width="220" height="40" rx="6" fill="#2C4A3E"/>
+    <text x="470" y="71" text-anchor="middle" font-size="12" font-weight="700" fill="#FBF8F1">Public housing</text>
+
+    <g font-size="11">
+      <text x="24" y="114" font-weight="700" fill="#1F1B16">Where you live</text>
+      <rect x="134" y="94" width="222" height="44" rx="4" fill="#F3EBDD" stroke="#8B6F4E"/>
+      <text x="144" y="112" fill="#1F1B16">Private rental you find</text>
+      <text x="144" y="128" fill="#4A443C" font-size="10">landlord must accept the voucher</text>
+      <rect x="360" y="94" width="220" height="44" rx="4" fill="#F3EBDD" stroke="#8B6F4E"/>
+      <text x="370" y="112" fill="#1F1B16">Government-owned unit</text>
+      <text x="370" y="128" fill="#4A443C" font-size="10">managed by the local agency</text>
+
+      <text x="24" y="164" font-weight="700" fill="#1F1B16">What you pay</text>
+      <rect x="134" y="146" width="222" height="56" rx="4" fill="#F3EBDD" stroke="#8B6F4E"/>
+      <text x="144" y="164" fill="#1F1B16">~30% of adjusted income</text>
+      <text x="144" y="180" fill="#4A443C" font-size="10">+ any rent above payment standard</text>
+      <text x="144" y="194" fill="#4A443C" font-size="10">max 40% at first lease</text>
+      <rect x="360" y="146" width="220" height="56" rx="4" fill="#F3EBDD" stroke="#8B6F4E"/>
+      <text x="370" y="164" fill="#1F1B16">Highest of: 30% adjusted income,</text>
+      <text x="370" y="180" fill="#1F1B16">10% gross income, welfare rent,</text>
+      <text x="370" y="194" fill="#1F1B16">or $25-$50 minimum rent</text>
+
+      <text x="24" y="228" font-weight="700" fill="#1F1B16">Who pays rest</text>
+      <rect x="134" y="210" width="222" height="40" rx="4" fill="#F3EBDD" stroke="#8B6F4E"/>
+      <text x="144" y="234" fill="#1F1B16">Agency pays landlord directly</text>
+      <rect x="360" y="210" width="220" height="40" rx="4" fill="#F3EBDD" stroke="#8B6F4E"/>
+      <text x="370" y="234" fill="#1F1B16">HUD operating subsidy to agency</text>
+
+      <text x="24" y="276" font-weight="700" fill="#1F1B16">Income limit</text>
+      <rect x="134" y="258" width="222" height="40" rx="4" fill="#F3EBDD" stroke="#8B6F4E"/>
+      <text x="144" y="282" fill="#1F1B16">Generally 50% of area median</text>
+      <rect x="360" y="258" width="220" height="40" rx="4" fill="#F3EBDD" stroke="#8B6F4E"/>
+      <text x="370" y="282" fill="#1F1B16">Up to 80% of area median</text>
+
+      <text x="24" y="324" font-weight="700" fill="#1F1B16">If you move</text>
+      <rect x="134" y="306" width="222" height="40" rx="4" fill="#F3EBDD" stroke="#8B6F4E"/>
+      <text x="144" y="330" fill="#1F1B16">Help moves with you</text>
+      <rect x="360" y="306" width="220" height="40" rx="4" fill="#F3EBDD" stroke="#8B6F4E"/>
+      <text x="370" y="330" fill="#1F1B16">Help stays with the unit</text>
+    </g>
+
+    <rect x="20" y="360" width="560" height="44" rx="6" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="34" y="378" font-size="11" font-weight="700" fill="#1F1B16">Other help:</text>
+    <text x="104" y="378" font-size="10" fill="#4A443C">project-based Section 8 (subsidy tied to a building) · HUD-VASH (veterans)</text>
+    <text x="34" y="395" font-size="10" fill="#4A443C">USDA rural rental assistance · tax-credit (LIHTC) apartments: capped rent, not income-based share</text>
+
+    <rect x="20" y="416" width="560" height="40" rx="6" fill="#2C4A3E"/>
+    <text x="300" y="434" text-anchor="middle" font-size="11" font-weight="700" fill="#FBF8F1">Eligible usually means a waiting list first: funding is limited.</text>
+    <text x="300" y="449" text-anchor="middle" font-size="10" fill="#FBF8F1">Source: HUD program pages, as of Oct 2026. Check your local Public Housing Agency.</text>
+  </g>
+</svg>
