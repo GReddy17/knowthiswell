@@ -31,7 +31,7 @@ export const metadata: PostFrontmatter = {
     "astronomy",
   ],
   date: "2026-08-16",
-  updated: "2026-09-24",
+  updated: "2026-10-03",
   youtubeShort: false, youtubeLong: true,
   seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
@@ -70,8 +70,9 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "not-started",
-  youtubeUrl: "",
+  youtubeStatus: "scheduled",
+  youtubeUrl: "https://www.youtube.com/watch?v=o_uGDSJyn08",
+  youtubeScheduledAt: "2026-10-03T23:00:00Z",
   draft: false,
 };
 
@@ -82,6 +83,13 @@ export const quiz: QuizBankItem[] = [
   {"question": "About how many stars does the Milky Way contain?", "difficulty": "easy", "options": [{"text": "About 1 million", "correct": false, "explanation": "The real number is vastly larger."}, {"text": "An estimated 100 to 400 billion", "correct": true, "explanation": "And the Milky Way is one of hundreds of billions of galaxies."}, {"text": "Exactly 8", "correct": false, "explanation": "8 is the number of planets in our solar system, not stars in the galaxy."}]},
   {"question": "Proxima Centauri is about 4.24 light-years away. Roughly how far is that in kilometers?", "difficulty": "hard", "options": [{"text": "About 40 trillion km", "correct": true, "explanation": "4.24 × 9.46 trillion km ≈ 40.1 trillion km."}, {"text": "About 4.24 billion km", "correct": false, "explanation": "A single light-year is already about 9.46 trillion km."}, {"text": "About 400 million km", "correct": false, "explanation": "That's roughly the scale of the inner solar system, far too small."}]},
   {"question": "When you look at a galaxy millions of light-years away, what are you seeing?", "difficulty": "hard", "options": [{"text": "The galaxy exactly as it is right now", "correct": false, "explanation": "Light takes time to arrive, so the view is always delayed."}, {"text": "The galaxy as it was when that light left it, millions of years ago", "correct": true, "explanation": "The farther away, the further back in time you're looking."}, {"text": "A reflection of the Milky Way", "correct": false, "explanation": "It's the galaxy's own light, just old."}]},
+  {"question": "Moon light travels very fast, and the Moon is about 384,400 km away. About how long does Moon light take to reach us?", "difficulty": "easy", "options": [{"text": "About 1 second", "correct": true, "explanation": "384,400 km divided by about 300,000 km/s is roughly 1.3 seconds, so the Moon you see is about a second old."}, {"text": "About 1 hour", "correct": false, "explanation": "Light covers about 300,000 km every second, so the Moon's distance takes far less than an hour."}, {"text": "About 1 day", "correct": false, "explanation": "A day is 86,400 seconds. Moon light needs only about one of them."}]},
+  {"question": "A star is 100 light-years away and you look at it tonight. When did the light you see leave the star?", "difficulty": "medium", "options": [{"text": "A few seconds ago", "correct": false, "explanation": "Light from 100 light-years away needs 100 years, not seconds."}, {"text": "About 100 years ago", "correct": true, "explanation": "A light-year is the distance light travels in one year, so light from 100 light-years away left about 100 years ago. You see the star as it was then."}, {"text": "About a million years ago", "correct": false, "explanation": "A million years would mean the star is about a million light-years away."}]},
+  {"question": "Voyager 1 flies about 17 km every second. If it flew to the next closest star, about 40 trillion km away, how long would the trip take?", "difficulty": "medium", "options": [{"text": "About 75 years", "correct": false, "explanation": "That is a human lifetime. At 17 km/s, 75 years covers only a tiny part of the distance."}, {"text": "About 75,000 years", "correct": true, "explanation": "40 trillion km divided by 17 km/s is about 2.4 trillion seconds, roughly 75,000 years. Voyager 1 is not actually aimed at that star."}, {"text": "About 7,500 years", "correct": false, "explanation": "Closer, but still ten times too short for that distance at 17 km/s."}]},
+  {"question": "The Milky Way has about 100 billion stars. If you counted one star every second without stopping, how long would it take?", "difficulty": "medium", "options": [{"text": "About 3 weeks", "correct": false, "explanation": "3 weeks is only about 1.8 million seconds. You need 100 billion."}, {"text": "About 300 years", "correct": false, "explanation": "300 years is only about 9.5 billion seconds, ten times too few."}, {"text": "Over 3,000 years", "correct": true, "explanation": "100 billion seconds is about 3,170 years, roughly 40 lifetimes of counting day and night. And that is only one galaxy."}]},
+  {"question": "About how old is the whole universe?", "difficulty": "medium", "options": [{"text": "About 13 million years", "correct": false, "explanation": "That is far too young. Andromeda's light alone has traveled for 2.5 million years, and the universe is much older still."}, {"text": "About 13.8 billion years", "correct": true, "explanation": "Measured from the expansion of space and the leftover light of the early universe. Counting one year per second would take over 400 years."}, {"text": "About 138 billion years", "correct": false, "explanation": "That is ten times too old. The best measurements give about 13.8 billion years."}]},
+  {"question": "Where did the Big Bang happen?", "difficulty": "hard", "options": [{"text": "At one spot in empty space", "correct": false, "explanation": "There was no empty space waiting around it. Space itself began growing."}, {"text": "Everywhere", "correct": true, "explanation": "All of space started hot and dense and has been growing since. Like dots on a balloon being blown up, every dot moves away from every other dot, and no dot is the middle."}, {"text": "At the center of the universe", "correct": false, "explanation": "The universe has no center. Every point sees the others moving away."}]},
+  {"question": "The Milky Way and Andromeda are both spirals and are predicted to crash and join in about 4 to 5 billion years. What shape will the new galaxy most likely be?", "difficulty": "hard", "options": [{"text": "A bigger spiral with more arms", "correct": false, "explanation": "A crash this big usually scrambles the neat spiral arms instead of keeping them."}, {"text": "One big, round galaxy (an elliptical)", "correct": true, "explanation": "Scientists think merging spirals often become smooth, round elliptical galaxies. This is a prediction, not a certainty."}, {"text": "A tiny galaxy, smaller than ours", "correct": false, "explanation": "Two galaxies joining make a larger galaxy, not a smaller one."}]},
 ];
 
 export default function Post() {
@@ -141,6 +149,11 @@ export default function Post() {
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: Andromeda&apos;s light as a look back in time (real-world / applied case)</h3>
       <p>
       The Andromeda Galaxy, the nearest large spiral galaxy to the Milky Way, sits about 2.5 million light-years away. Any light reaching a telescope on Earth tonight from Andromeda left that galaxy roughly 2.5 million years ago — around the time early human ancestors were first using stone tools on Earth. Astronomers use this literally, not just poetically: to study how galaxies looked in the early universe, they simply look at galaxies far enough away that their light has taken billions of years to arrive, which is one reason powerful telescopes are built to see extremely faint, extremely distant objects — the fainter and farther, the further back in cosmic history they&apos;re revealing.
+      </p>
+
+      <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 4: Two quick sense-checks, the Moon&apos;s light and counting the Milky Way (arithmetic variation)</h3>
+      <p>
+      Light travels about 299,792 km every second, and the Moon is about 384,400 km away, so Moon light needs 384,400 ÷ 299,792 ≈ <strong>1.3 seconds</strong> to reach you. Even the Moon in the night sky is slightly in the past. Scale up: if you counted one star per second, never stopping, the Milky Way&apos;s roughly 100 billion stars would take about 100 billion seconds, which is <strong>over 3,000 years</strong> (about 3,170), or roughly 40 lifetimes of counting day and night. For the age of the universe, counting one year per second for 13.8 billion years would take over 400 years, the same trick in reverse.
       </p>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">How we know the universe is 13.8 billion years old</h2>
