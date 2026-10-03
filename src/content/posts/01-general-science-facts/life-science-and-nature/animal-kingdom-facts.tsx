@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "How scientists sort every animal on Earth into a nested classification system, why 97% of animal species have no backbone, and what actually separates each major group.",
   summary: "Kingdom Animalia is organized into nested taxonomic ranks, from phylum down to species, and the overwhelming majority of animal species are invertebrates, not vertebrates.",

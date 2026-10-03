@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["two-factor authentication", "2FA", "MFA", "account security", "password"],
   date: "2026-09-21",
   updated: "2026-09-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-21",
   excerpt: "A stolen password alone stops opening the door once a second, separate proof is required — that's the entire point of two-factor authentication.",
   summary: "Two-factor authentication (2FA) requires two different categories of proof before granting account access — typically something you know (a password) plus something you have (a code from an app or device) or something you are (a fingerprint) — so that a stolen or guessed password alone is no longer enough to log in, because an attacker would also need to separately compromise the second, independent factor.",

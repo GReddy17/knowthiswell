@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["website down", "website slow", "http status codes", "server timeout", "digital literacy"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A slow website still eventually returns a response; a down website's request never completes at all — two different failure points in the same request/response chain.",
   summary: "Whether a website is 'down' or just 'slow' comes down to where a request fails along the same request/response chain: slow means a response is delayed but still eventually arrives, while down means the chain breaks entirely and no response comes back at all.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["body temperature", "thermoregulation", "fever basics", "homeostasis"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "\"98.6°F\" is a population average, not a fixed number every healthy body must hit — normal body temperature actually spans a real range and shifts through the day.",
   summary: "The body maintains its core temperature within a tightly controlled range through a feedback system centered in the hypothalamus, which triggers sweating and blood-vessel dilation to cool down or shivering and blood-vessel constriction to warm up — and the commonly cited '98.6°F' figure is a 19th-century population average, not a fixed target every healthy individual matches exactly.",

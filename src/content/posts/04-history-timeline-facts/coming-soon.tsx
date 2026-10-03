@@ -24,6 +24,7 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
   lastReviewed: "",
   excerpt: "This topic is currently being developed.",
   summary: "We are working on comprehensive content for this topic.",

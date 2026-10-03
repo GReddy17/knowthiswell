@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["two minute rule", "task management", "productivity", "procrastination", "time management"],
   date: "2026-08-30",
   updated: "2026-09-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-30",
   excerpt: "The two-minute rule says if a task takes less than two minutes, do it immediately — because tracking it for later usually costs more effort than just finishing it.",
   summary: "The two-minute rule is a simple task-management heuristic stating that if a task takes less than roughly two minutes to complete, it should be done immediately rather than deferred, because the overhead of capturing, tracking, and revisiting it later typically exceeds the cost of just finishing it on the spot.",

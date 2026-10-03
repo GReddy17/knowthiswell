@@ -29,6 +29,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The distance-speed-time triangle behind every 'how long will it take' question, and why average speed over a round trip isn't the simple average of the two speeds.",
   summary: "Distance, speed, and time are linked by one formula — distance = speed × time — rearranged depending on which two values are known, but average speed over uneven segments must be weighted by time, not simply averaged.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["parasites", "cordyceps", "toxoplasmosis", "animal behavior", "evolution"],
   date: "2026-09-22",
   updated: "2026-09-26",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "\"Zombie\" parasites aren't science fiction — real fungi and protozoans genuinely hijack their hosts' behavior to complete their own life cycle.",
   summary: "Several real parasites manipulate their host's behavior in ways that sound like fiction: a fungus that compels ants to climb and clamp onto a leaf before killing them from within, and a protozoan that appears to make infected rodents less afraid of cats. Neither is \"mind control\" in a conscious sense — both are evolved side effects that happen to help the parasite complete its life cycle, which is exactly why natural selection favors them.",

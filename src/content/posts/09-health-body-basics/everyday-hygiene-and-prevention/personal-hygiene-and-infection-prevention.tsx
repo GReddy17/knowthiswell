@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["personal hygiene", "infection prevention", "chain of infection", "public health basics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Every infection needs a full chain of six links to spread — a germ, a reservoir, an exit, a transmission route, an entry point, and a susceptible host — and personal hygiene habits work by breaking one specific link.",
   summary: "Infection prevention isn't a vague notion of 'cleanliness' — epidemiologists describe it as breaking the chain of infection, a six-link sequence (infectious agent, reservoir, portal of exit, mode of transmission, portal of entry, susceptible host) that must all be intact for disease to spread, and most everyday hygiene habits work by disrupting the transmission link specifically.",

@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 64, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A '27-inch' monitor and a '6.1-inch' phone are both measured the same way — corner to corner, diagonally — but that single number says nothing about how sharp the image actually looks.",
   summary: "Screen 'size' is conventionally a diagonal length measurement in inches, while sharpness is a separate quantity, pixels per inch (PPI), calculated from the screen's pixel resolution and its physical diagonal size — two different units answering two different questions that are easy to conflate.",

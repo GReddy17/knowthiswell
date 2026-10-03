@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["kilograms", "pounds", "ounces", "unit conversion", "avoirdupois"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "One kilogram equals about 2.20462 pounds, and one pound splits into 16 ounces — two separate, fixed conversion factors that most mix-ups come from applying in the wrong order.",
   summary: "Converting between kilograms, pounds, and ounces uses two distinct fixed factors chained together: kilograms to pounds (× 2.20462, a metric-to-customary conversion) and pounds to ounces (× 16, entirely within the customary system).",

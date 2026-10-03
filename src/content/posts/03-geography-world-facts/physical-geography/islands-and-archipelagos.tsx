@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why islands form in at least four completely different ways — and how the Hawaiian Islands prove exactly which one built them.",
   summary: "An island is any landmass smaller than a continent surrounded by water, formed by one of four mechanisms: continental separation, volcanic activity, coral reef growth, or sediment deposition.",

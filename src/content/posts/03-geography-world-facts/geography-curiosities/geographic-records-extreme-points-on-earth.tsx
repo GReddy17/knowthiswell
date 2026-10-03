@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Earth's true extremes — highest, lowest, deepest, hottest, coldest — and why the point 'highest above sea level' isn't the same as the point 'farthest from Earth's center.'",
   summary: "Earth's extreme points span nearly 20 kilometers of vertical relief, from the summit of Mount Everest to the bottom of the Mariana Trench, and 'highest' depends on exactly what you're measuring from.",

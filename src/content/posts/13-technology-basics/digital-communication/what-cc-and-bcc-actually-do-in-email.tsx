@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["what does cc mean in email", "what does bcc mean", "cc vs bcc explained", "digital communication", "email headers", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Cc addresses are copied into the message header every recipient sees; Bcc addresses are used to deliver the message but stripped from that header before anyone's copy is generated.",
   summary: "Cc (carbon copy) and Bcc (blind carbon copy) are two ways of adding extra recipients to an email, distinguished by what happens to their addresses at the header level: Cc addresses are written into a header block copied into every recipient's version of the message, while Bcc addresses are used only to route delivery and are stripped out before that shared header block is generated.",

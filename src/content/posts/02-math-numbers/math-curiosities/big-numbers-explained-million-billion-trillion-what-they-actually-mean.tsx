@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How million, billion, and trillion relate to each other by powers of 1,000, why a billion is far bigger than most people intuitively guess, and how scientific notation keeps big numbers manageable.",
   summary: "Million (10⁶), billion (10⁹), and trillion (10¹²) each jump by a factor of exactly 1,000 from the one before, which means a trillion is not 'a somewhat bigger billion' — it's one thousand billions.",

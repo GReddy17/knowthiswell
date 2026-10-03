@@ -25,6 +25,8 @@ export const metadata: PostFrontmatter = {
   tags: ["density", "buoyancy", "Archimedes' principle", "ships and flotation", "physics misconceptions"],
   date: "2026-09-19",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-19",
   excerpt: "A massive steel cargo ship floats while a single steel bolt sinks — weight alone doesn't decide whether something floats; density relative to the fluid does.",
   summary: "Whether an object floats or sinks depends on its density compared to the fluid it's placed in, not its total weight — a huge steel ship floats because its hollow shape spreads that same steel mass over a large enough volume that the ship's overall (average) density is lower than water's, while a solid steel bolt, with the metal's full density and no hollow space, sinks. This is Archimedes' principle in action: an object floats when it can displace a weight of fluid equal to its own weight before it's fully submerged.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["macronutrients", "balanced plate", "nutrition basics", "calories", "USDA MyPlate"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Protein, carbohydrates, and fat each supply a different number of calories per gram — knowing those three numbers is the entire arithmetic behind reading how a meal is actually composed.",
   summary: "A balanced plate is one that includes all three macronutrients — protein, carbohydrates, and fat — each of which supplies energy at a different fixed rate per gram (4, 4, and 9 calories respectively), which is why the same gram count of fat contributes far more energy than the same gram count of protein or carbohydrate.",

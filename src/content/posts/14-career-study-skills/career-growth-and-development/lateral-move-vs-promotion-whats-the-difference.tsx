@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["lateral move", "promotion", "career ladder", "internal mobility", "career growth"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "A promotion changes your formal level and pay band; a lateral move changes your role or team at the same level — and the second isn't automatically a step backward.",
   summary: "A promotion moves you to a higher formal job level, usually with a new pay band and more authority, while a lateral move keeps your level and pay band roughly the same but changes your role, team, or functional domain — and because organizations track level and function as mostly separate things, a lateral move isn't structurally a step backward, even though it isn't a level increase either.",

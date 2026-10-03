@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["idioms", "figurative language", "vocabulary", "english idioms", "esl"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 62, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "'Break the ice' has nothing to do with actual ice — idioms carry a figurative meaning you can't work out from the individual words, which is exactly why they're so hard to translate.",
   summary: "An idiom is a fixed phrase whose overall figurative meaning can't be worked out from the literal meaning of its individual words — 'break the ice' means to ease social tension, not to physically shatter frozen water — and every language has its own set of idioms that usually don't translate word-for-word into any other.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What biological aging actually is at the cellular level, how it differs from simply counting birthdays, and why life expectancy and lifespan are not the same measurement.",
   summary: "Aging is the cumulative buildup of biological changes at the cellular and tissue level over time, which is why two people of the same chronological age can have meaningfully different biological ages.",

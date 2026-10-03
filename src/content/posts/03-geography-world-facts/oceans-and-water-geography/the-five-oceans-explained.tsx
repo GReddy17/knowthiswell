@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the Pacific, Atlantic, Indian, Southern, and Arctic Oceans are defined, why they're really one connected World Ocean, and why the Southern Ocean is the newest official addition.",
   summary: "Earth has one continuous World Ocean that geographers divide into five named oceans — Pacific, Atlantic, Indian, Southern, and Arctic — by continent boundaries and, for the Southern Ocean, by a current instead of a coastline.",

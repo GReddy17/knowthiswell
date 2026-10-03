@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "North America's physiographic regions, its highest point, and why the continent's official southern border sits at the Isthmus of Panama.",
   summary: "North America is Earth's third-largest continent, built from distinct west-to-east bands — the Rockies, the Great Plains, and the Appalachians — atop an ancient bedrock core.",

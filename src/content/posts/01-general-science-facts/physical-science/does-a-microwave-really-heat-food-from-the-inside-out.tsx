@@ -25,6 +25,8 @@ export const metadata: PostFrontmatter = {
   tags: ["microwaves", "electromagnetic radiation", "dielectric heating", "food safety", "physics misconceptions"],
   date: "2026-09-19",
   updated: "2026-09-24",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-19",
   excerpt: "Microwaves don't heat from the inside out — they penetrate only a couple of centimeters into food from every exposed surface, which is why the center of a thick item often stays cold.",
   summary: "A microwave oven heats food by emitting electromagnetic waves that make water molecules rotate rapidly, generating heat through molecular friction — but those waves only penetrate roughly 1-1.5 inches (2.5-4 cm) into typical food before being absorbed, entering from every exposed surface at once, not from some special interior source. In a thin or small item, that penetration can reach the center from multiple sides almost simultaneously, creating the illusion of inside-out heating, but in a thick item the center is heated last, by conduction from the already-hot outer layers — exactly the opposite of \"inside out.\"",

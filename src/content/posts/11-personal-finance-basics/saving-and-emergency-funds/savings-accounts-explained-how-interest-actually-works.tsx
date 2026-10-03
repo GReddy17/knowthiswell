@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["savings account", "interest rate", "APY", "FDIC insurance", "personal finance basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A savings account pays interest because the bank lends out your deposited money and shares a slice of what it earns back with you — the account itself is a real, federally insured loan arrangement, not just a digital jar.",
   summary: "A savings account is a deposit account that pays interest because the bank uses deposited funds to make loans and other investments, sharing a portion of that return with depositors as interest — in the US, deposits up to $250,000 per depositor per bank are FDIC-insured against bank failure.",

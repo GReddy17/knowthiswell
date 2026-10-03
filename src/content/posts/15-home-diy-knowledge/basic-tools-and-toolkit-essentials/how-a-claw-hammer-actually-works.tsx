@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["claw hammer", "hand tools", "leverage", "lever", "driving nails", "pulling nails"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "A claw hammer uses two different mechanisms: momentum and energy transfer to drive a nail, and true class-one lever action to pull one back out.",
   summary: "A claw hammer actually relies on two separate mechanisms depending on which end you use: the flat face drives a nail by transferring the kinetic energy of a fast-moving mass into the nail head on impact, while the curved claw pulls a nail out as a genuine class-one lever, with the hammer head resting on the wood as the fulcrum.",

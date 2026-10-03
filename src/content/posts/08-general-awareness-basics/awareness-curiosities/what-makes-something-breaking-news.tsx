@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["breaking news", "news judgment", "journalism basics", "media literacy", "news values"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "\"Breaking news\" is a specific editorial judgment about timeliness and significance, not a label that guarantees a story is more important or more reliable than other coverage.",
   summary: "News organizations label a story \"breaking\" when it's happening right now, significant enough to interrupt regular coverage, and not yet fully verified — a designation that describes urgency and editorial priority, not necessarily the story's ultimate long-term importance or accuracy.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["festivals of light", "diwali", "hanukkah", "christmas lights", "lantern festival", "comparative religion"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Diwali, Hanukkah, Christmas lights, and the Chinese Lantern Festival are separate traditions that share one human pattern: lighting flames against the year's darkest stretch.",
   summary: "Across unrelated cultures and religions, a recurring human pattern shows up every year: lighting flames or lanterns to mark a turn from darkness toward light, at whatever point in the calendar that culture's own tradition places it.",

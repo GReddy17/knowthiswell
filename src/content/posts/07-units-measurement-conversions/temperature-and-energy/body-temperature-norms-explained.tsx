@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The famous '98.6°F' normal body temperature is a rounded average from an 1868 study — real body temperature varies by person, time of day, and measurement site, and reading a thermometer means understanding which scale and threshold applies.",
   summary: "This is a unit-literacy overview of body temperature scales and commonly cited reference ranges — not personalized medical advice — covering how to read a thermometer in either Celsius or Fahrenheit and what threshold values typically get labeled a fever.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["seasonal illness", "flu season", "respiratory virus", "indoor crowding", "humidity and viruses"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Cold weather doesn't cause illness directly — it drives indoor crowding and changes air humidity in ways that help respiratory viruses spread more easily.",
   summary: "Respiratory illness rises in colder months mainly because of indoor crowding (people spending more time in shared enclosed spaces, aiding transmission) and lower indoor humidity (which can help some respiratory viruses survive longer in the air), not because cold temperatures directly cause illness the way the folk phrase 'catching a cold' implies.",

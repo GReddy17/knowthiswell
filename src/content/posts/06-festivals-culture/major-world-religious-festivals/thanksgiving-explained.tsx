@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["thanksgiving", "american festivals", "harvest festivals", "wampanoag"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Thanksgiving is a US harvest holiday traced to an 1621 Plymouth gathering — a more complicated history than the simplified grade-school 'First Thanksgiving' story.",
   summary: "Thanksgiving is a national holiday in the United States (and, separately, Canada) rooted in a documented 1621 harvest gathering between Plymouth colonists and the Wampanoag, whose full history is more complex, and for the Wampanoag more difficult, than the simplified version often taught in schools.",

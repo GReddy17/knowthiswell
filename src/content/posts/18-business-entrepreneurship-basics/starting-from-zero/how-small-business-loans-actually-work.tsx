@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["small business loans", "SBA loans", "term loans", "line of credit", "underwriting", "business entrepreneurship basics"],
   date: "2026-09-23",
   updated: "2026-09-23",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-23",
   excerpt: "Most small business loans aren't made by the government — a bank makes the loan and evaluates the risk, and an SBA guarantee just covers part of the bank's loss if the borrower defaults.",
   summary: "A small business loan is fundamentally a bank deciding whether to lend its own money to a business, evaluated against a real underwriting framework — capacity, capital, collateral, conditions, and character — and where a program is described as an 'SBA loan,' the Small Business Administration is not the lender; per SBA.gov, the agency instead guarantees a portion of the loan so the bank carries less risk, which is why SBA-backed loans often reach businesses a bank wouldn't otherwise approve.",

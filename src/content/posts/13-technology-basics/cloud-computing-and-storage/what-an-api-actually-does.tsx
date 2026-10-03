@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["what is an api", "api explained", "client server", "how apps talk to servers", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "An API is a defined menu of requests one piece of software can make to another, so apps can ask for data or actions without needing to know how the other side works.",
   summary: "An API (application programming interface) is a defined set of rules that lets one piece of software request data or actions from another, without either side needing to know the other's internal workings.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why heat and temperature aren't the same thing, how specific heat explains why sand burns your feet but the ocean stays cool, and how heat actually moves.",
   summary: "Temperature measures how fast particles are moving on average; heat is the total thermal energy transferred between objects, and the two don't always move together.",

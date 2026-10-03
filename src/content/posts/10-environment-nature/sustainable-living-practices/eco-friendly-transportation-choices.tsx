@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["transportation emissions", "per-mile emissions", "EPA", "commuting", "electric vehicles"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Comparing transportation options by 'total emissions' is misleading — the useful comparison is emissions per passenger-mile, since a full bus and an empty bus release very different amounts of CO2 per rider even on an identical route.",
   summary: "Transportation modes are best compared by emissions per passenger-mile, not total vehicle emissions, since the same trip's environmental cost per rider depends heavily on occupancy — a single-occupant car produces far more CO2 per mile per person than the same car full of passengers, or than public transit running at typical ridership.",

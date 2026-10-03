@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["AR vs VR", "augmented reality", "virtual reality", "what is the difference between AR and VR", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "AR overlays digital content onto the real world you can still see; VR replaces your entire field of view with a computer-generated one.",
   summary: "Augmented reality adds digital content on top of a real-world view the user can still see, while virtual reality replaces the user's entire field of view with a fully computer-generated environment — the dividing line is how much of the real world stays visible, not which headset is used.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["dry measure", "liquid measure", "US customary units", "quart", "cooking measurements"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The US customary system quietly runs two separate volume systems — a dry quart (1.101 L) is about 16% larger than a liquid quart (0.946 L), even though both are called \"quart.\"",
   summary: "US customary measurement has two parallel volume systems, dry and liquid, that share unit names like pint and quart but define them at different sizes — a dry quart is about 16% larger than a liquid quart.",

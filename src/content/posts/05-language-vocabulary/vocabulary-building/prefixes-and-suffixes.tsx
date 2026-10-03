@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["prefixes", "suffixes", "morphology", "word formation", "vocabulary", "spelling rules"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 63, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Prefixes attach before a word to shift its meaning, suffixes attach after and often change its part of speech — and knowing both helps you decode words you've never seen.",
   summary: "A prefix is a word part added to the front of a root or base word to change its meaning (unhappy, rewrite), and a suffix is a word part added to the end that often changes its part of speech (happiness, quickly) — together they're the main way English builds new words out of existing ones.",

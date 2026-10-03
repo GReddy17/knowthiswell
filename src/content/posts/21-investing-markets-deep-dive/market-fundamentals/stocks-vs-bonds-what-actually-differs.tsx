@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["stocks", "bonds", "equity", "fixed income", "investing basics"],
   date: "2026-09-23",
   updated: "2026-09-23",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-23",
   excerpt: "A stock is an ownership claim with a variable, uncapped return; a bond is a loan with a fixed claim that gets paid before stockholders if the issuer goes bankrupt.",
   summary: "Per SEC Investor.gov and FINRA investor education materials, a stock represents a fractional ownership (equity) claim on a company with a variable return and no repayment guarantee, while a bond represents a loan (debt) to a company or government that carries a fixed interest claim and repayment schedule and stands ahead of stockholders in bankruptcy — the structural difference between owning a piece of a business and lending money to one is what drives their different risk and return characteristics, not one being simply \"safer\" or \"better\" than the other.",

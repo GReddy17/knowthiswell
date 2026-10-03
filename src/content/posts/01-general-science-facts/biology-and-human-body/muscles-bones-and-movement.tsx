@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the 206 bones and roughly 600 skeletal muscles in the human body work together as levers and pulling forces to produce every movement you make.",
   summary: "Movement happens because skeletal muscles contract and pull on bones acting as levers around joints — muscles can only pull, never push, so opposing motions require paired muscles.",

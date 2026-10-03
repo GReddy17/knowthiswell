@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What an angle actually measures, the difference between acute, obtuse, and reflex, and why a triangle's angles always add to 180° — except on a globe.",
   summary: "An angle measures the amount of rotation between two rays sharing an endpoint, expressed in degrees, and follows fixed rules — complementary pairs sum to 90°, supplementary pairs sum to 180°, and a flat triangle's three angles always sum to 180°.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["translation apps", "machine translation", "neural machine translation", "language technology"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Modern translation apps don't swap words one at a time — they process whole sentences at once using neural networks trained on huge amounts of bilingual text.",
   summary: "Today's translation apps mostly use neural machine translation, a method that breaks text into tokens and processes an entire sentence's context at once to produce a translation, rather than looking up and substituting one word at a time the way older systems did.",

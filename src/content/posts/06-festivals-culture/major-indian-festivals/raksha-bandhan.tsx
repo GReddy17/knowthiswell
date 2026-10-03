@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["raksha bandhan", "rakhi", "hindu festivals", "sibling traditions"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 62, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Raksha Bandhan is a Hindu festival celebrating the bond between siblings, marked by sisters tying a sacred thread (rakhi) on their brothers' wrists.",
   summary: "Raksha Bandhan (\"the bond of protection\") is a Hindu festival where sisters tie a rakhi thread on their brothers' wrists as a symbol of protection and affection, and brothers respond with gifts and a pledge of protection.",

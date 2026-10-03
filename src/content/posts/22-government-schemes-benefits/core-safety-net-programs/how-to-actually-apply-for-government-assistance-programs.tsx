@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["government benefits", "public assistance", "SNAP", "housing assistance", "eligibility"],
   date: "2026-09-23",
   updated: "2026-09-23",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-23",
   excerpt: "Government assistance programs generally decide eligibility from income and household size, or from belonging to a defined category — but the exact rules always live on the program's own official page.",
   summary: "Applying for a U.S. government assistance program generally follows the same underlying mechanism regardless of which specific program is involved: an agency determines eligibility from a combination of income and household-size thresholds and, for some programs, categorical eligibility (belonging to a defined group such as seniors, people with disabilities, or veterans), then requires documentation (identity, income, household, and residency records) before verifying the application and issuing a determination; USA.gov's Benefit Finder (the successor to Benefits.gov) is the real federal tool for locating the specific program that applies to an individual situation, and because eligibility rules and benefit amounts vary by program and by state, this article explains the general process only — it is not a guarantee of eligibility for any specific program, and the authoritative answer for any individual case always comes from that program's own official government page.",

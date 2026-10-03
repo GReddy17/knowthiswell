@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["job description", "job requirements", "should i apply", "job search strategy", "qualifications"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Job descriptions blend true hard requirements with an aspirational wish list drafted by multiple people, which is why meeting most, but not all, of the listed items is often still enough to apply.",
   summary: "A job description isn't a strict pass/fail checklist — it's a compressed, multi-author summary of a hiring need, usually written by combining a hiring manager's wish list with HR or legal phrasing, which blends genuine hard requirements (a required license, a legally required credential) with aspirational \"nice to have\" items that were never meant to filter out an otherwise strong candidate.",

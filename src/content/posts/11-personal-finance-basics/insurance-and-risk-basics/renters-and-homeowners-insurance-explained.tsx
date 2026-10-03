@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["renters insurance", "homeowners insurance", "personal property", "liability coverage", "dwelling coverage"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Renters and homeowners insurance share the same core building blocks — personal property, liability, and additional living expenses — but homeowners policies add dwelling coverage for the structure itself, which is the biggest structural difference between the two.",
   summary: "Homeowners insurance covers the physical structure of a home (dwelling coverage), the owner's personal belongings, personal liability for injuries or damage to others, and additional living expenses if the home becomes uninhabitable. Renters insurance covers the same personal property, liability, and additional living expenses categories, but not the structure itself, since a landlord's own policy typically covers the building.",

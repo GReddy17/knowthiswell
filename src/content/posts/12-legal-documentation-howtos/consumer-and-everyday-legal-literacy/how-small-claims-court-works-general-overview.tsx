@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["small claims court", "civil litigation basics", "dollar limits", "self-representation", "legal literacy"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Small claims court is designed to be used without a lawyer — simplified procedures, a lower filing fee, and a dollar limit that caps how large a case can be — which makes it the most accessible court path for a specific, provable dispute over a modest amount of money.",
   summary: "Small claims court is a simplified, lower-cost civil court track built specifically for people to represent themselves, generally handling disputes up to a set dollar limit that varies by state or jurisdiction, and the mechanics — filing a claim, serving the other party, presenting evidence at a short hearing, and collecting a judgment if you win — are deliberately more streamlined than a standard civil lawsuit.",

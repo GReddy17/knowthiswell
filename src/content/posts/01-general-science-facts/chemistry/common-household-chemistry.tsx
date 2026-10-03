@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How soap actually lifts away grease, why bleach and ammonia must never be mixed, and what's really going on inside common household cleaning chemistry.",
   summary: "Household cleaning products work through real, predictable chemistry — soap bridges water and oil, and certain combinations like bleach and ammonia react dangerously, not just as a warning label.",

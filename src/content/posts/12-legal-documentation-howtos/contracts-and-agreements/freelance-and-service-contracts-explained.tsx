@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["freelance contract", "service agreement", "scope of work", "independent contractor", "payment terms"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A freelance or service contract's job is to answer four questions before work begins: exactly what's being delivered, by when, for how much, and what happens if either side changes their mind.",
   summary: "A freelance or service contract defines the working relationship between an independent contractor and a client — the scope of work, payment terms, timeline, and ownership of the finished product — and most disputes between freelancers and clients trace back to one of these terms being vague or missing entirely rather than a genuine disagreement over the underlying facts.",

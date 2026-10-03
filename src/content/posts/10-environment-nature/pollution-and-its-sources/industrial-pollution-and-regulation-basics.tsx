@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["industrial pollution", "environmental regulation", "permitting", "Clean Air Act", "pollution control"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Industrial pollution regulation doesn't ban emissions outright — it works through a permit system that sets a legally enforceable limit on how much a specific facility can release, measured and reported on an ongoing basis.",
   summary: "Modern industrial pollution regulation works primarily through permitting systems that set enforceable, facility-specific limits on emissions and discharges, backed by required monitoring, reporting, and legal penalties for exceeding those limits — a fundamentally different mechanism than an outright ban.",

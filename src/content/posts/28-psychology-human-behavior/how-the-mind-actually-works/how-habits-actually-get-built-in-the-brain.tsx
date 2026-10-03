@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["habit formation", "basal ganglia", "cue routine reward", "behavior change", "psychology human behavior"],
   date: "2026-09-23",
   updated: "2026-09-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-23",
   excerpt: "A habit isn't willpower failing — it's a repeated cue-routine-reward loop the brain has automated so it takes less conscious effort each time.",
   summary: "A habit forms as the brain repeatedly links a cue, a routine, and a reward into a loop, and the basal ganglia — a brain structure involved in automating repeated behavior — gradually takes over running that loop with less involvement from the more deliberate, conscious parts of the brain, per the American Psychological Association and the National Institutes of Health; this is also why habits are so hard to simply 'delete': the old neural pathway doesn't disappear once formed, so breaking a habit generally means building a competing routine strong enough to override it, not erasing the original one.",

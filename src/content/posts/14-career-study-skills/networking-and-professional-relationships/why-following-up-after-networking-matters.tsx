@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["follow-up", "networking etiquette", "relationship building", "thank-you note", "staying in touch"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Following up after a networking conversation matters because goodwill from a single conversation fades quickly, and a prompt, specific follow-up is often what turns it into a lasting connection.",
   summary: "Following up after a networking conversation matters because a single conversation, however good, is just one unreinforced data point — goodwill and memory of it fade quickly on their own, and each specific, genuine follow-up acts as a link that chains a one-time exchange into an actual, trusted relationship rather than letting it quietly disappear.",

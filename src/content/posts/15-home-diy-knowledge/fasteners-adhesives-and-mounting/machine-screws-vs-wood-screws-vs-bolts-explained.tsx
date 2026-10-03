@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["machine screws", "wood screws", "bolts", "fasteners", "thread types"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "The real difference between a wood screw, a machine screw, and a bolt is thread geometry and how each is tightened — not just size, shape, or which aisle it's sold in.",
   summary: "A wood screw has a sharp tapered point and coarse, self-cutting threads that carve their own matching groove into wood so the material itself acts as the nut, a machine screw has a blunt, uniform shank with fine, standardized threads made to turn into a pre-tapped hole or a nut, and a bolt is generally the same thread profile as a machine screw but is defined by installation method — tightened by turning a nut (or into a tapped hole) while the head is held still, rather than by turning the head itself.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["greenhouse effect", "radiative forcing", "infrared radiation", "climate change", "energy balance"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "The greenhouse effect isn't a metaphor — it's a measurable energy imbalance where added greenhouse gases delay how fast Earth radiates heat back to space, so extra energy accumulates in the climate system.",
   summary: "The greenhouse effect works by letting incoming sunlight reach Earth's surface freely while greenhouse gas molecules absorb and re-emit outgoing infrared radiation, delaying its escape to space; adding more of these gases increases that delay, so more energy accumulates in the atmosphere and oceans over time.",

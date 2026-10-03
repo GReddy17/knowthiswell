@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["insurance policy", "declarations page", "exclusions", "deductible", "legal literacy"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "An insurance policy document is really three separate parts working together — the declarations page (what's actually covered and for how much), the insuring agreement and exclusions (what triggers a payout and what doesn't), and the conditions (the rules you have to follow to keep coverage valid) — and most coverage surprises trace back to skipping one of the three.",
   summary: "An insurance policy document generally breaks down into three functional parts: the declarations page, which states the specific coverage amounts and the policy period; the insuring agreement and exclusions, which define what triggers a payout and what's specifically carved out; and the conditions section, which lays out the policyholder's own obligations for keeping coverage valid — and most disputes over a denied or reduced claim trace back to one of these three sections rather than to the policy as a whole.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["super glue", "cyanoacrylate", "adhesives", "bonding", "chemistry"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "Super glue doesn't dry — it reacts. Trace moisture on almost any surface triggers its molecules to link into rigid chains within seconds, which is why it sets so much faster than ordinary glue.",
   summary: "Super glue is a cyanoacrylate monomer that bonds fast because it doesn't cure by evaporating a solvent the way ordinary glue does — instead, trace moisture naturally present on most surfaces triggers a rapid chain reaction that links individual monomer molecules into long, rigid polymer chains within seconds, mechanically locking the two surfaces together almost as soon as they touch.",

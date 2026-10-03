@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["percentages", "percent", "fractions", "decimals"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: true, youtubeLong: true,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "A percentage is just a fraction with a fixed denominator of 100 — \"per cent\" literally means \"per hundred.\"",
   summary: "A percentage expresses a number as a fraction of 100. 25% means 25 out of every 100, which is the same value as the fraction 1/4 and the decimal 0.25.",

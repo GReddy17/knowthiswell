@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["grammar", "common mistakes", "subject-verb agreement", "writing errors"],
   date: "2026-08-17",
   updated: "2026-08-17",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-17",
   excerpt: "The grammar mistakes that show up again and again in everyday writing — subject-verb agreement, dangling modifiers, who versus whom — and the quick fix for each.",
   summary: "A handful of grammar mistakes — subject-verb agreement errors, dangling modifiers, mismatched pronouns, and mixed-up homophone pairs — account for most of the errors that make otherwise-good writing look sloppy.",

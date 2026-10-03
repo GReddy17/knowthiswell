@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["student loans", "federal student aid", "loan repayment", "personal finance basics", "interest"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Student loans work like other installment loans in the basics — principal, interest, a repayment term — but federal loans add distinct mechanics around subsidized interest, grace periods, and income-driven repayment that private loans don't have.",
   summary: "A student loan is principal borrowed for education that accrues interest and gets repaid over a set term, with federal loans (originated and guaranteed by the U.S. Department of Education) offering mechanics private lenders generally don't, including a grace period before repayment starts, subsidized loans where the government pays interest while a borrower is in school, and income-driven repayment plans that tie the monthly payment to income rather than a fixed amortization schedule.",

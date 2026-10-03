@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["AI chatbot", "pretraining", "fine-tuning", "RLHF", "large language model"],
   date: "2026-09-30",
   updated: "2026-09-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-30",
   excerpt: "A chatbot is built in stages. First a model learns to predict text from a huge pile of writing. Then people teach it to follow instructions and rank its answers, which is where most of its helpful, polite behavior comes from.",
   summary: "Modern AI chatbots are trained in three broad stages. Pretraining teaches a large language model to predict the next token across trillions of tokens of text, which gives it grammar, facts and patterns but not the habit of answering questions helpfully. Supervised fine-tuning then trains it on thousands of example conversations written by people, so it learns the shape of a good reply. Finally, preference training, most famously reinforcement learning from human feedback (RLHF), has people rank several candidate answers; a reward model learns those preferences and the chatbot is tuned toward answers people rate higher. OpenAI's 2022 InstructGPT paper found labelers preferred answers from a 1.3-billion-parameter model trained this way over the raw 175-billion-parameter GPT-3. Variants such as Anthropic's Constitutional AI replace some human rankings with AI feedback guided by written principles. Training shapes behavior but doesn't guarantee accuracy, which is why chatbots can still state wrong things confidently.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How waves carry energy without carrying matter along with it, why frequency and wavelength trade off at a fixed speed, and how this explains sound, light, and ocean waves.",
   summary: "A wave is a repeating disturbance that transfers energy from one place to another without permanently moving the medium it travels through.",

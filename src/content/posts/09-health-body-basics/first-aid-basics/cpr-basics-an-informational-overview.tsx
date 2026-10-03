@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["CPR overview", "chain of survival", "cardiac arrest", "emergency response awareness"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "CPR is a real, structured emergency response with a documented sequence — but competently performing it requires certified hands-on training, not a webpage.",
   summary: "The American Heart Association frames CPR as one link in a documented 'chain of survival' — recognize cardiac arrest, call emergency services, begin chest compressions, use an AED if available, and hand off to advanced care — and while the general sequence is public information, performing effective compressions and using an AED correctly are physical skills that can only be reliably learned through certified, hands-on training.",

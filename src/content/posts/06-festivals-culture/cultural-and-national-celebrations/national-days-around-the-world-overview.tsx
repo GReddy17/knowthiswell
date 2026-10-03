@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["national days", "national holidays", "bastille day", "national day comparison"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "A 'national day' can mark independence, unification, a founding event, or a monarch's birthday — the term covers several different kinds of holidays, not one template.",
   summary: "A national day is a country's designated holiday marking a defining historical or civic moment, but what that moment actually is varies widely — independence, unification, a revolution, a founding date, or a monarch's official birthday are all real, distinct categories of national day.",

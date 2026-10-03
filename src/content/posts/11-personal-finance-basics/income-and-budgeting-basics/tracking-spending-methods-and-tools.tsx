@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["spending tracking", "budgeting tools", "expense tracking", "personal finance basics", "money management"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Every spending-tracking method — manual ledgers, spreadsheets, or bank-linked apps — does the same core job of turning invisible spending into a visible record; the differences are in effort and automation, not accuracy.",
   summary: "Tracking spending means recording where money actually goes, using a method that ranges from manual (writing down every purchase) to fully automated (bank-linked apps that categorize transactions), all serving the same purpose of converting invisible spending patterns into a reviewable record.",

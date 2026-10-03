@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["guardianship", "conservatorship", "minor children", "incapacitated adults", "legal documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Guardianship documentation exists to give a named adult legal authority over someone who can't fully exercise it themselves — a minor child or an incapacitated adult — and a court, not a private form, is what actually grants that authority.",
   summary: "Guardianship is a court-supervised legal arrangement giving a named adult authority to make decisions for someone who can't fully make or communicate their own decisions — typically a minor child (after a parent's incapacity or death) or an incapacitated adult — and it always requires actual court appointment, not just a private designation form, though naming a preferred guardian in advance carries real legal weight with the court. This is general legal literacy, not personalized legal advice.",

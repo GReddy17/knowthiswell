@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cognitive dissonance", "psychology", "decision-making", "beliefs and behavior"],
   date: "2026-09-21",
   updated: "2026-09-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-21",
   excerpt: "The uncomfortable feeling after acting against your own stated values has a name — and the mind's usual fix isn't changing the behavior, it's changing the belief.",
   summary: "Cognitive dissonance is the psychological discomfort that arises when a person holds two contradictory beliefs, or when their behavior conflicts with a belief they hold about themselves — per the American Psychological Association's definition, this discomfort creates real motivational pressure to resolve the inconsistency, which the mind can do either by changing the belief, changing the behavior, or adding a justifying rationalization, with the least effortful option (rationalizing) often winning out over actually changing behavior.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["constitution", "constitutional law", "supreme law", "amendment process", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A constitution's defining feature isn't its content — it's that it sits above ordinary law, so any regular law that conflicts with it can be struck down.",
   summary: "A constitution functions as a country's supreme legal document — it establishes how government power is structured and limited, and any ordinary law that conflicts with it can be invalidated, which is what separates a constitution from a regular statute even when both are written laws.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["email writing", "letter writing", "business writing", "correspondence"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The parts every effective email or letter needs — subject line, salutation, clear ask, sign-off — and how to match tone to who's actually reading it.",
   summary: "Effective emails and letters share the same basic anatomy — a clear subject or purpose, an appropriate greeting, a focused body with one main ask, and a matching sign-off — with tone adjusted to the reader and the relationship.",

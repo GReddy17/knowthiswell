@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["boundaries", "guilt", "assertiveness", "communication skills"],
   date: "2026-09-23",
   updated: "2026-09-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-23",
   excerpt: "A boundary is a limit you state and hold, not a request for permission — the guilt shows up when you treat someone else's disappointment as proof you did something wrong.",
   summary: "A personal boundary is a clearly communicated limit on what you will do, accept, or tolerate, and it functions very differently from silently absorbing something you don't want and hoping it resolves itself; the guilt that shows up when stating a boundary is typically a reaction to someone else's discomfort, not a signal that the boundary itself is wrong, and clinical guidance on boundary-setting consistently recommends stating the limit plainly, once, without an extended justification, rather than over-explaining to try to earn the other person's agreement.",

@@ -26,6 +26,8 @@ export const metadata: PostFrontmatter = {
   tags: ["gravity", "free fall", "air resistance", "physics misconceptions", "Galileo"],
   date: "2026-09-19",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-19",
   excerpt: "In a vacuum, a feather and a hammer hit the ground at exactly the same time — gravity accelerates every mass equally, and it's air resistance alone that makes heavy objects seem to win.",
   summary: "Gravity gives every object the same acceleration regardless of mass — about 9.8 m/s² near Earth's surface — because the extra gravitational force on a heavier object is exactly canceled out by its extra resistance to acceleration (inertia). What actually makes a feather fall slower than a hammer in everyday life is air resistance, an unrelated force that acts far more on light, high-surface-area objects. Remove the air, as Apollo 15 demonstrated on the airless Moon, and a feather and a hammer land together every time.",

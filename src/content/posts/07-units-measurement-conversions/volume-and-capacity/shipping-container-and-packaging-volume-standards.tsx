@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["shipping container", "TEU", "cubic meters", "packaging volume", "logistics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Global shipping runs on one standard box size, counted in a unit called the TEU — and the math behind how many boxes fit on a ship is just length × width × height, at industrial scale.",
   summary: "The global shipping industry standardizes cargo volume around the ISO container, counted in TEUs (twenty-foot equivalent units) — a 20-foot container holds about 33.2 cubic meters and counts as 1 TEU, while a 40-foot container holds about 67.7 cubic meters and counts as 2 TEU, letting ports and ships measure capacity in one consistent unit regardless of what's actually inside each box.",

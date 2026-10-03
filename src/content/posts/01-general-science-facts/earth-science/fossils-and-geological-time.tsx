@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Most fossils aren't literal bone turned to stone — they're mineral replacements of the original structure. Here's the real mechanism, and how scientists date them.",
   summary: "A fossil is preserved evidence of past life, most often formed through mineral replacement of original tissue, and dated using rock layer position combined with radiometric decay of isotopes with known half-lives.",

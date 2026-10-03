@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["needs vs wants", "budgeting basics", "spending priorities", "personal finance"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 62, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A need is something required to maintain basic health, safety, and ability to work or live; a want improves comfort or enjoyment beyond that baseline — the line is about function, not price or feeling.",
   summary: "A need is a cost required to maintain basic health, safety, employment, and shelter — the baseline a person cannot go without for long without real consequences. A want improves comfort, enjoyment, or convenience beyond that baseline. The distinction is functional, not about price, guilt, or how essential something feels in the moment, and most budgeting frameworks rely on making this call honestly rather than by rigid formula.",

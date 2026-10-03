@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["composting", "food waste", "aerobic decomposition", "soil health", "backyard composting"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Composting isn't just letting scraps rot — it's managing a specific ratio of carbon-rich to nitrogen-rich material so aerobic microbes can break it down efficiently instead of anaerobically, which is what causes smell.",
   summary: "Composting works by giving oxygen-breathing (aerobic) microorganisms a roughly 25-30:1 ratio of carbon-rich \"browns\" to nitrogen-rich \"greens,\" along with enough moisture and airflow, so they break organic material down into stable, nutrient-rich humus instead of the smelly, slow process that results when the pile goes anaerobic.",

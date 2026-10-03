@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["rental agreement", "lease", "tenant", "landlord", "legal documentation how-tos"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A rental agreement is a set of individually enforceable clauses, not one block of legal text — knowing what each section actually does is what lets a tenant or landlord spot a problem before signing rather than after.",
   summary: "A rental agreement (or lease) is a legally binding contract between a landlord and tenant that spells out the terms of occupying a property — rent amount, duration, responsibilities, and rules — and it works clause by clause: each numbered section covers one specific obligation or right, and problems usually hide inside a single overlooked clause rather than the document as a whole.",

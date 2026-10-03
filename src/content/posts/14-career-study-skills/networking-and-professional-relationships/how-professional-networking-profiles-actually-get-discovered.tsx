@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["professional profile", "recruiter search", "profile optimization", "keyword matching", "online visibility"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Professional profiles get discovered by literally matching the words in a search query to the words in a profile, then ranking matches by completeness and recent activity.",
   summary: "Professional networking profiles get discovered through keyword and skill matching against a search index, not through some general sense of a person's qualifications — a search query is matched to the literal words in a profile's fields, and among matching profiles, results are ranked further by how complete the profile is and how recently the person has been active.",

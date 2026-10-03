@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["census", "population count", "apportionment", "civics", "government data"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A census isn't just a headcount for curiosity's sake — in most systems it directly determines political representation and how public funding gets distributed.",
   summary: "A census is an official, periodic count of a country's population, typically conducted every 5 or 10 years, whose results directly shape how many legislative seats each region gets, how electoral districts are drawn, and how much government funding flows to different areas based on population.",

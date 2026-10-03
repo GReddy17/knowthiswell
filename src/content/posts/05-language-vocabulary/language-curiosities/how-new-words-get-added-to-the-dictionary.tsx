@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["lexicography", "dictionary", "merriam-webster", "oxford english dictionary", "new words"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "No committee invents dictionary words — lexicographers track how words are actually used, then add the ones that show widespread, sustained, meaningful use.",
   summary: "Dictionaries are descriptive records of how a language is actually being used, not lists of officially approved words — lexicographers track real-world usage through citation evidence, and a word earns an entry once it shows sufficiently widespread, sustained, and meaningful use, not by committee vote or invention.",

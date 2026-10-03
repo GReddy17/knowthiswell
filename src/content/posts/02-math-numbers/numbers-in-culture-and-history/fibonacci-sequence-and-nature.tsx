@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the Fibonacci sequence actually works, why it wasn't originally discovered by Fibonacci, and the real mechanism that makes it show up in sunflowers and pinecones.",
   summary: "The Fibonacci sequence is a list of numbers where each term is the sum of the two before it, and it appears in certain plant growth patterns because of an efficient packing mechanism, not mysticism.",

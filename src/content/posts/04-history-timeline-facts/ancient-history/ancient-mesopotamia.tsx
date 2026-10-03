@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["mesopotamia", "sumer", "babylon", "cuneiform", "ancient civilizations"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Mesopotamia, the land between the Tigris and Euphrates, produced the first cities, the first writing system, and the first law codes — the template later civilizations built on.",
   summary: "Ancient Mesopotamia was a region in modern-day Iraq between the Tigris and Euphrates rivers where, starting around 3500 BCE, humans built the first cities, invented writing, and wrote the first law codes.",

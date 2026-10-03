@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["environmental impact assessment", "EIA", "environmental policy", "NEPA", "environmental review"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "An environmental impact assessment is a formal, legally required study of a project's likely environmental effects, done before approval — not an opinion poll, but a structured prediction-and-mitigation process.",
   summary: "An environmental impact assessment (EIA) is a structured process, usually required by law before a major project can be approved, that predicts a project's likely environmental effects, proposes ways to reduce the worst of them, and puts the findings in front of the public before a final decision is made.",

@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-25",
+  youtubeShort: true, youtubeLong: true,
+  seoScore: 89, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why a massive steel ship floats but a small steel bolt sinks, and how Archimedes' principle explains buoyant force with real numbers.",
   summary: "An object floats when it's less dense than the fluid it's in, and sinks when it's more dense — buoyant force depends on the volume of fluid displaced, not the object's weight alone.",

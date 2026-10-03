@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["renaissance", "italian renaissance", "humanism", "medici", "leonardo da vinci", "european history", "art history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Renaissance was a roughly 14th-to-17th-century revival of classical learning and art that began in Italian city-states and built directly on medieval foundations.",
   summary: "The Renaissance was a period of renewed interest in classical Greek and Roman learning, art, and humanism that began in the Italian city-states around the 14th century and spread across Europe through the 17th century, reshaping art, science, and how people thought about human potential.",

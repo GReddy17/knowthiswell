@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["street food", "hawker culture", "food stalls", "world food culture"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 61, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Street food is a distinct culinary tradition worldwide — from Singapore's UNESCO-recognized hawker centres to Mexico's taquerias to Thailand's night markets, not a lesser substitute for restaurant dining.",
   summary: "Street food is ready-to-eat food sold by vendors in public spaces — stalls, carts, or small stands — rather than sit-down restaurants, and it functions in many countries as a primary, culturally central way people eat, not a fallback option.",

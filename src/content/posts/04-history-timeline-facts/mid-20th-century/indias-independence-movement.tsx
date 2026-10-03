@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["india independence", "gandhi", "partition of india", "decolonization", "20th century history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "India's independence movement spanned six decades and multiple strategies and leaders, culminating in independence and partition in August 1947.",
   summary: "India's independence movement was a decades-long, multi-strategy struggle against British colonial rule, involving the Indian National Congress, the Muslim League, Mahatma Gandhi's campaigns of nonviolent resistance, and other movements, which culminated in India's independence on August 15, 1947, accompanied by the partition of British India into India and Pakistan, per Encyclopaedia Britannica.",

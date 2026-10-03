@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["berlin wall", "cold war", "german reunification", "1989", "east germany", "20th century history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the Berlin Wall fell on November 9, 1989, why it was built in 1961, and how it led to German reunification less than a year later.",
   summary: "The Berlin Wall was a fortified barrier built by East Germany in 1961 to divide Berlin and stop East Germans from fleeing to the West, and its fall on November 9, 1989 — the result of months of mounting political pressure and a specific bureaucratic mistake — became the defining symbol of the Cold War's end.",

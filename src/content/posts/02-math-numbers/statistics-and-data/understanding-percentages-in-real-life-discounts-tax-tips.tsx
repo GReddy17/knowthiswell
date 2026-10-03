@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How to calculate discounts, sales tax, and tips correctly, and why stacking two 50%-off discounts doesn't make an item free.",
   summary: "A percentage is a rate 'per hundred,' and every real-world percentage calculation — discount, tax, or tip — comes down to converting that rate to a decimal and multiplying it against the right starting amount.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["personal learning plan", "self-directed learning", "skill acquisition", "goal setting", "skills gap"],
   date: "2026-09-03",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "A personal learning plan that sticks breaks a vague goal into a specific target, a baseline assessment, an ordered sequence of sub-skills, and a checkpoint that revises the plan on real results.",
   summary: "A personal learning plan that actually sticks turns a vague goal like 'get better at X' into five concrete pieces: a specific target, a baseline assessment of your current gap, an ordered sequence of sub-skills built on each other, a realistic practice schedule, and a checkpoint that revises the plan based on what practice actually showed was hard. It works as a cycle you keep adjusting, not a one-time document you write once and follow exactly.",

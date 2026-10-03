@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["CompTIA Security+", "cybersecurity certification", "IT certifications", "entry-level security", "professional skills certifications"],
   date: "2026-09-23",
   updated: "2026-09-23",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-23",
   excerpt: "Security+ isn't a hacking credential — per CompTIA, it tests foundational knowledge across threats, architecture, implementation, operations, and governance for entry-level security roles.",
   summary: "CompTIA Security+ is a vendor-neutral certification that tests a candidate's foundational cybersecurity knowledge across a defined set of exam domains — per CompTIA, these cover general security concepts, threats/vulnerabilities/mitigations, security architecture, security operations, and security program management (governance, risk, and compliance) — and it is positioned as an entry-level credential for people moving into a first security-focused IT role, not an advanced or offensive-hacking certification.",

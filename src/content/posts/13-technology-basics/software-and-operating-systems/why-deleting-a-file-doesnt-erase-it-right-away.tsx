@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["file deletion", "data recovery", "file systems", "ssd vs hdd", "data sanitization"],
   date: "2026-09-22",
   updated: "2026-09-22",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "Deleting a file, even from the recycle bin, usually just removes its listing — the actual data can keep sitting on the drive until something else overwrites it.",
   summary: "When you delete a file and empty the recycle bin or trash, most operating systems don't immediately wipe the underlying data. They remove the file's entry from the file system's index and mark that storage space as available for reuse — the data itself often remains physically present until new data happens to overwrite it. That's why file-recovery software can often restore recently deleted files, and why real permanent erasure requires deliberately overwriting or securely wiping the data, not just deleting it.",

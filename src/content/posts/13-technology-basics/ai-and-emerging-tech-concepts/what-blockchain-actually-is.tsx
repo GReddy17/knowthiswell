@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["what is blockchain", "blockchain explained", "distributed ledger", "how blockchain works", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Blockchain is a record-keeping method — a chain of linked, tamper-evident entries shared across many computers — that cryptocurrency happens to use, not the other way around.",
   summary: "A blockchain is a record-keeping structure where entries are grouped into blocks, each cryptographically linked to the one before it, and copied across many independent computers, making past entries extremely difficult to alter without the change being detected.",

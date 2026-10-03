@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how facial recognition works", "facial recognition technology", "facial landmarks", "verification vs identification", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Facial recognition doesn't store or compare a photo — it converts facial measurements into a numeric template and checks that number set against others.",
   summary: "Facial recognition technology measures the geometry of a face — distances between landmark points like the eyes, nose, and jaw — converts those measurements into a numeric template, and compares that template against one or more stored templates for a similarity score, rather than comparing images directly.",

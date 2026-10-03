@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Not every populated place on the map is a fully sovereign country — territories, dependencies, and disputed regions each sit at a different point on the spectrum of self-governance, presented here factually and without taking sides on active disputes.",
   summary: "A territory or dependency is an area under the sovereignty of another country without being fully independent itself, while a disputed region is a territory whose sovereignty is actively contested by two or more parties — this entry presents the recognized facts and multiple positions on each, citing the United Nations and other neutral authorities rather than endorsing any single claim.",

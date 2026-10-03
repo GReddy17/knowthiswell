@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["device driver", "hardware software", "operating system", "peripherals", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A driver is the translator between a generic OS request and one specific piece of hardware's exact commands — which is why the wrong driver breaks a device the OS otherwise supports fine.",
   summary: "A device driver is a small piece of software that translates an operating system's generic requests into the exact commands a specific piece of hardware understands, and translates that hardware's responses back into a form the OS and apps can use.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["caulking", "air sealing", "windows and doors", "energy efficiency", "home maintenance"],
   date: "2026-09-17",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "A gap the width of a pencil around a window frame can leak more conditioned air over a year than the window's glass itself ever does.",
   summary: "Windows and doors are engineered and tested as sealed units, but the gap between the window/door frame and the surrounding wall opening is a completely separate weak point — caulk seals that specific gap, and because small gaps allow disproportionately large amounts of air infiltration relative to their size, this narrow bead of sealant often has an outsized effect on a home's actual energy loss.",

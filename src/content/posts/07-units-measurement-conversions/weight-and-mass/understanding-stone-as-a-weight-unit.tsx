@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["stone", "pounds", "kilograms", "body weight", "UK measurement"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A stone is a fixed 14 pounds (about 6.35 kg) — a UK and Irish body-weight unit that survived the country's broader metric switch because everyday conversation resisted it.",
   summary: "One stone equals exactly 14 pounds, or about 6.35 kilograms — a unit still used conversationally for body weight in the UK and Ireland even though both countries otherwise use the metric system for most measurements.",

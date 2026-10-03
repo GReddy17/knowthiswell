@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["portion control", "portion size", "serving size", "nutrition basics", "MyPlate"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A 'serving size' on a label and a real-world 'portion' are two different things — the label figure is a fixed reference unit, while a portion is whatever amount actually ends up on your plate.",
   summary: "Portion control distinguishes between a labeled serving size (a fixed reference amount set for label comparability) and the actual portion eaten, which can differ substantially — USDA's MyPlate model offers a simple visual method for balancing portions across food groups without requiring exact measurement.",

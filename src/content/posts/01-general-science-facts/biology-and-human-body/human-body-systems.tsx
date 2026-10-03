@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-19",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "How the body's roughly 11 major organ systems — circulatory, respiratory, nervous, and more — divide labor and depend on each other to keep you alive.",
   summary: "The human body is organized into about 11 major organ systems, each handling a distinct job, that constantly exchange oxygen, nutrients, and signals to keep the whole body functioning.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Where country names actually come from — indigenous words, colonial claims, geographic features, and real people — and how names keep changing long after independence.",
   summary: "Country names generally trace back to one of a few recurring sources — a local word for 'people' or 'land,' a geographic feature, a historical ruler, or a colonial claim — and many have been deliberately renamed since.",

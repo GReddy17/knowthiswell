@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["GPU", "graphics card", "parallel processing", "frame rate", "computer hardware", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A GPU has thousands of small, simple cores instead of a CPU's handful of powerful ones, because rendering a screen means doing the same simple math on millions of pixels at once.",
   summary: "A GPU (graphics processing unit) is a specialized chip built with thousands of small, simple cores designed to perform the same calculation on massive amounts of data simultaneously — the exact shape of work involved in rendering pixels for a screen, which is very different from the complex, sequential work a CPU is built to handle.",

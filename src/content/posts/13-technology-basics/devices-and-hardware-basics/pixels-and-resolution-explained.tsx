@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["pixels", "resolution", "1080p", "4K", "PPI", "display technology", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "4K has four times as many pixels as 1080p, not four times the sharpness — resolution is a grid area, and doubling each side of a grid quadruples its total pixel count.",
   summary: "A pixel is the smallest individually controllable dot of light on a digital display, and resolution is simply the count of pixels arranged across the screen's width and height — 4K packs four times as many total pixels into the same screen area as 1080p, since both dimensions double.",

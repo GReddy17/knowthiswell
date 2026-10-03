@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["autocorrect", "predictive text", "keyboard", "technology basics", "everyday tech"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Autocorrect compares each keystroke against a dictionary and your own typing history, then learns from every correction you accept or undo.",
   summary: "Autocorrect works as a feedback loop: it compares what you type against a built-in dictionary and a personal word list built from your own typing history, suggests the most likely intended word, and then updates that personal list based on whether you accept or reject the suggestion — which is why it 'fixes' unfamiliar words wrong at first and gets better at them over time.",

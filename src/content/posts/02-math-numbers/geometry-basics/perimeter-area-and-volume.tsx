@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How perimeter, area, and volume measure length, space, and capacity — and why doubling a shape's dimensions never just doubles its total.",
   summary: "Perimeter measures the distance around a shape, area measures the flat space it covers, and volume measures the space a 3D shape encloses — each uses its own formula and its own unit, and each scales differently when a shape's size changes.",

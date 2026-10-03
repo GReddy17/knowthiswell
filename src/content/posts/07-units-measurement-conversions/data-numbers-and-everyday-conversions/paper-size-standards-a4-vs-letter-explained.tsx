@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A4 paper is designed so that folding it exactly in half always produces the next size down — US Letter was never designed around that idea at all.",
   summary: "The ISO A-series (A0 through A4 and beyond) is built on a single mathematical rule — a root-2 aspect ratio that lets every size fold exactly in half into the next size while keeping the same proportions — while US Letter and Legal sizes were set by historical convention with no such underlying rule, which is why the two systems don't convert cleanly into each other.",

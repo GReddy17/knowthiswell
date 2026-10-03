@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["language learning", "second language acquisition", "language learning methods", "study tips"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The methods behind real language learning — comprehensible input, spaced repetition, immersion — and why combining structured study with exposure tends to beat either alone.",
   summary: "Effective language learning generally combines structured study — vocabulary, grammar, spaced repetition — with comprehensible input and real communication practice, and how long it takes depends heavily on how linguistically distant the target language is from one you already know.",

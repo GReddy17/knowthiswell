@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["nature-based solutions", "urban greening", "green infrastructure", "climate adaptation", "sustainable cities"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Cities are increasingly using trees, wetlands, and green roofs instead of (or alongside) concrete and pipes to solve flooding, heat, and pollution problems — often at lower cost than traditional engineering.",
   summary: "Nature-based solutions use living systems — trees, wetlands, soil, vegetation — to manage urban problems like flooding, extreme heat, and air pollution, often delivering the same or better results than traditional gray infrastructure at a lower long-term cost.",

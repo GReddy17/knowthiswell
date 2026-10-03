@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["dimensional weight", "shipping", "billed weight", "carrier pricing", "logistics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Carriers bill packages by whichever is greater — actual scale weight or dimensional weight (a formula based on box size) — which is why a large, lightweight box can cost more to ship than its bathroom-scale weight suggests.",
   summary: "Dimensional weight is a carrier-calculated figure — a package's length × width × height divided by a standard divisor (commonly 166 for domestic air shipping) — and shippers are billed for whichever is greater, actual scale weight or dimensional weight, so bulky, lightweight packages often cost more than their true weight implies.",

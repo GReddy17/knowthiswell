@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["health insurance", "deductible", "copay", "coinsurance", "premiums"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A health plan's premium, deductible, copay, and coinsurance aren't separate fees — they're four connected pieces of one cost-sharing structure, each one shifting who pays first and how much.",
   summary: "Health insurance cost-sharing runs through a defined sequence: a premium keeps the plan active regardless of use, a deductible is the amount paid out of pocket before the plan starts sharing costs, coinsurance splits costs by percentage after the deductible, and a copay is a fixed fee for a specific service — all bounded by an annual out-of-pocket maximum after which the plan covers 100%.",

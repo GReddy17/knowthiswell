@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Decimal and binary are the same idea — columns worth increasing powers of a base number — just with a different base, which is why every digital storage unit in this topic ultimately traces back to base 2.",
   summary: "Binary (base 2) and decimal (base 10) are both place-value number systems that represent quantities using columns worth increasing powers of their base; decimal uses ten digits and powers of ten, binary uses two digits and powers of two, and the same place-value logic converts between them.",

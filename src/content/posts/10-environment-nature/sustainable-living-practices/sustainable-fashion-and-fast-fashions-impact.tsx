@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fast fashion", "textile waste", "sustainable fashion", "clothing lifecycle", "circular economy"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Fast fashion's environmental cost isn't mainly about the fabric — it's about how few times, on average, each garment gets worn before it's discarded.",
   summary: "Fast fashion's core environmental problem is garment lifespan, not just material choice: a business model built on rapid style turnover and low prices produces clothing that is worn far fewer times on average before disposal, so most of a garment's manufacturing footprint — water, dye chemicals, energy, and raw material — is spread across a shrinking number of actual uses.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["french revolution", "bastille day", "reign of terror", "napoleon", "declaration of the rights of man", "french history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The French Revolution (1789-1799) didn't end at the Bastille — it ran through a decade of upheaval, a king's execution, the Reign of Terror, and Napoleon's rise.",
   summary: "The French Revolution was a decade of political and social upheaval in France, from the storming of the Bastille in 1789 to Napoleon Bonaparte's coup in 1799, that overthrew the absolute monarchy and reshaped ideas of citizenship, rights, and government across Europe.",

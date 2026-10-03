@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["social reformers", "b r ambedkar", "wangari maathai", "emmeline pankhurst", "suffrage movement", "historical figures"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "From an Indian jurist who wrote caste protections into a national constitution, to a Kenyan biologist who turned tree-planting into a Nobel Peace Prize-winning movement.",
   summary: "Social reformers and activists have driven lasting legal and cultural change outside of formal political office — figures like B. R. Ambedkar, who fought caste discrimination and helped draft India's constitution, Emmeline Pankhurst, who led the militant campaign for British women's suffrage, and Wangari Maathai, who founded Kenya's Green Belt Movement and became the first African woman to win the Nobel Peace Prize.",

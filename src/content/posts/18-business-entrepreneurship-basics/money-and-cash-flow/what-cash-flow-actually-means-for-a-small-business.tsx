@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cash flow", "small business finance", "profit vs cash flow", "cash flow forecast", "accounts receivable", "statement of cash flows"],
   date: "2026-09-27",
   updated: "2026-09-27",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "Cash flow is the money actually moving in and out of your bank account, not the profit on paper. A profitable business can still run out of cash when customers pay late and bills come due first.",
   summary: "Cash flow is the movement of money into and out of a business over a period, and it differs from profit mainly in timing. Under accrual accounting, a sale counts as revenue when it's earned, even if the customer pays 30 or 60 days later; cash flow only counts it when the money arrives. That's why a profitable business can still be unable to pay rent or payroll. A statement of cash flows splits movement into three parts: operating activities (day-to-day sales and expenses), investing activities (buying or selling equipment and other long-term assets) and financing activities (loans, repayments and owner contributions or draws). Growth often makes the gap worse, because materials and wages are paid before customers pay. The standard defenses are a rolling 13-week cash forecast, invoicing promptly with clear payment terms, a cash reserve, and arranging a line of credit before it's needed. The U.S. Small Business Administration lists cash flow management as a core part of running a business's finances.",

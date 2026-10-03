@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["machine learning", "deep learning", "neural networks", "artificial intelligence"],
   date: "2026-09-23",
   updated: "2026-09-23",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-23",
   excerpt: "Deep learning isn't a rival to machine learning — it's a specific type of machine learning built from many-layered neural networks that learn their own features from raw data.",
   summary: "Machine learning is the broader field of getting a system to improve at a task from data rather than from explicit programmer-written rules; deep learning is a subset of machine learning that uses neural networks with many stacked layers to learn its own internal representations directly from raw data, rather than relying on features a person hand-selects in advance.",

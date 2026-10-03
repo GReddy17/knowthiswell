@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cover letter", "job application", "cover letter tips", "resume vs cover letter", "job search"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "A cover letter's real job is to connect a candidate's experience to a specific employer's need — the resume already lists the facts, so a good cover letter interprets them instead of repeating them.",
   summary: "A cover letter's real function is to connect the dots between a candidate's experience and a specific employer's specific need — the resume already states the facts (roles, dates, results), so a cover letter that just restates those facts in paragraph form isn't doing the one job a resume can't already do.",

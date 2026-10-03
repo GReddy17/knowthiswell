@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fixed expenses", "variable expenses", "budgeting basics", "expense categories", "personal finance"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 64, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Fixed expenses stay the same amount each period; variable expenses change — knowing which category a cost falls into determines how much control a budget actually has over it.",
   summary: "A fixed expense is a cost that stays the same amount each billing period (like rent or a loan payment), while a variable expense changes in amount from period to period (like groceries or utility bills) — the distinction matters because fixed expenses are locked in by contract while variable expenses are the part of a budget that responds to day-to-day choices.",

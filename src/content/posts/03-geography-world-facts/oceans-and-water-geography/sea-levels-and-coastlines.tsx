@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why global sea level has risen roughly 21-24 cm since 1880, what actually causes it, and why the rise is measurably worse for some coastlines than others.",
   summary: "Sea level rise is the ongoing increase in the average height of the ocean's surface, driven mainly by thermal expansion of warming seawater and melting land ice, and it does not affect every coastline equally.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How human migration has worked historically and today — the scale of international movement, the difference between migrants and refugees, and the main documented causes.",
   summary: "Human migration is the movement of people from one place to live in another, and today involves roughly 280 million international migrants worldwide, most moving for economic, family, or educational reasons rather than as refugees.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["carbon trading", "carbon tax", "cap and trade", "emissions trading", "carbon pricing"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Carbon trading and carbon tax are the two main ways governments put a real price on emitting carbon dioxide — one sets the price and lets the market find the quantity, the other sets the quantity and lets the market find the price.",
   summary: "Carbon pricing puts a real cost on emitting carbon dioxide, and it comes in two main forms: a carbon tax, which fixes a price per ton of CO2 and lets total emissions float, and cap-and-trade (carbon trading), which fixes a total emissions cap and lets the price per ton float based on how emitters trade a limited number of permits.",

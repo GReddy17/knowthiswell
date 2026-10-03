@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["world trade organization", "WTO", "international trade", "trade disputes", "global governance"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The WTO doesn't set tariffs or ban trade practices directly — it's a rulebook members agreed to, plus a dispute process for when one member accuses another of breaking it.",
   summary: "The World Trade Organization, founded in 1995 as the successor to the GATT, is a member-run system of trade rules built around non-discrimination between trading partners, with a structured dispute settlement process for resolving disagreements over whether a member has broken those rules.",

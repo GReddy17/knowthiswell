@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["FOIA", "freedom of information", "public records", "government transparency", "civic documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A FOIA request is a formal, legally grounded way for anyone to ask a government agency for records — not a complaint or an appeal, but a structured document request with defined response timelines.",
   summary: "A Freedom of Information Act (FOIA) request is a formal, legally grounded mechanism allowing any person to request records from a U.S. federal government agency, with defined response timelines, specific statutory exemptions an agency can invoke to withhold certain information, and a formal appeals process if a request is denied — most U.S. states have parallel public records laws covering state and local agencies.",

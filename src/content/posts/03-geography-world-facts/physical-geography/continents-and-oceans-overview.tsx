@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["continents", "oceans", "physical geography", "plate tectonics"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The seven continents and five oceans explained: how many there really are, why the count is debated, and how they got their shapes.",
   summary: "Earth's landmasses are conventionally divided into seven continents and its single connected ocean into five named regions — but both numbers are conventions, not laws of nature, and geologists define continents differently than geographers do.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fact-checking", "media literacy", "journalism", "misinformation", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A fact-check rating isn't a single yes-or-no verdict for most claims — most established fact-checkers use a graded scale specifically because most claims aren't purely true or false.",
   summary: "Fact-checking organizations verify specific factual claims by tracing them to primary sources, consulting subject-matter experts, and publishing their reasoning alongside a rating — most use a graded scale (like true, mostly true, mixed, mostly false, false) rather than a strict binary, since most real-world claims contain partial accuracy or missing context rather than being purely true or false.",

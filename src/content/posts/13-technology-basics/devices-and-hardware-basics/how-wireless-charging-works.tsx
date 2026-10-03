@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["wireless charging", "Qi charging", "electromagnetic induction", "battery charging", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Wireless charging has no actual wireless power transmission across a room — it's electromagnetic induction between two coils held almost touching, the same physics behind a basic transformer.",
   summary: "Wireless charging works through electromagnetic induction — a transmitter coil in the charging pad creates an alternating magnetic field, which induces an electric current in a matching receiver coil inside the device, and that current is converted to direct current to charge the battery.",

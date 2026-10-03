@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The math difference between simple and compound interest, why compounding pulls ahead over time, and how the Rule of 72 quickly estimates doubling time.",
   summary: "Simple interest grows a balance by a fixed amount every period based only on the original principal, while compound interest grows it by a percentage of the current balance, which includes previously earned interest — a difference that widens dramatically over long time spans.",

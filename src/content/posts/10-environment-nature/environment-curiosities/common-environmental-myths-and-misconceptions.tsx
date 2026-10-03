@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["environmental myths", "climate misconceptions", "recycling myths", "sustainability facts", "environmental literacy"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Several widely repeated environmental claims — from 'plastic recycling solves plastic waste' to 'electric cars are worse for the planet' — don't hold up against the actual data.",
   summary: "Environmental misconceptions persist because they sound plausible and are rarely fact-checked against the underlying data — this entry corrects five of the most common ones with sourced numbers.",

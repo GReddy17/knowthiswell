@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why Monaco and Mongolia sit at opposite ends of the population density scale, and why total population size and population density measure completely different things.",
   summary: "Population density measures how many people live per unit of land area, which is a fundamentally different measurement from a place's total population — a country can have a huge population and low density, or the reverse.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["skimming", "scanning", "speed reading", "reading strategies", "study skills"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Skimming and scanning both mean reading fast, but they're not interchangeable — one hunts for a specific fact, the other builds a general sense of a whole text.",
   summary: "Skimming and scanning are two distinct fast-reading techniques: skimming moves quickly through a whole text to get a general sense of its content, while scanning searches quickly for one specific piece of information without reading the surrounding material at all.",

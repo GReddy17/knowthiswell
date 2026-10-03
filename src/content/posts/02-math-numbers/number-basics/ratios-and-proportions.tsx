@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ratios", "proportions", "scaling"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "A ratio compares two quantities; a proportion says two ratios are equal — the tool behind scaling recipes, maps, and mixtures correctly.",
   summary: "A ratio compares two quantities (like 2:3). A proportion is a statement that two ratios are equal, which is what lets you scale a ratio up or down while keeping it exactly the same relationship.",

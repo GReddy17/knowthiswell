@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["active listening", "communication skills", "listening", "interpersonal communication"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 62, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Active listening isn't just staying quiet while someone talks — it's a set of visible, deliberate behaviors that confirm you're actually processing what's being said.",
   summary: "Active listening is a deliberate communication practice of fully concentrating on, understanding, and responding to a speaker — through behaviors like paraphrasing, asking clarifying questions, and giving nonverbal feedback — rather than simply waiting silently for a turn to speak.",

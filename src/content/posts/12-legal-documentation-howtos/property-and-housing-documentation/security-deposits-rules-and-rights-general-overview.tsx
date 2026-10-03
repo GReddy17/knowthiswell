@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["security deposit", "rental agreement", "tenant rights", "landlord", "legal documentation how-tos"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A security deposit is a refundable safeguard, not a fee — how much can be charged, how it must be handled, and how it gets returned are all shaped by rules that vary by jurisdiction, but the underlying mechanism works the same way almost everywhere.",
   summary: "A security deposit is a sum of money a tenant pays upfront that a landlord holds as protection against unpaid rent or damage beyond normal wear and tear, and that must generally be returned (minus any legitimate deductions, with an itemized explanation) within a set time after the tenant moves out — the specific dollar caps, holding rules, and deadlines vary significantly by state and country.",

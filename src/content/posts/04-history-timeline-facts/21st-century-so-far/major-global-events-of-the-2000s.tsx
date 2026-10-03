@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["2000s history", "global events", "9/11", "indian ocean tsunami", "financial crisis"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The decade's defining global events, from the September 11 attacks to the 2004 Indian Ocean tsunami and the 2008 financial crisis, stated factually with sourced figures.",
   summary: "The 2000s opened with the September 11 attacks and their global security aftermath, were marked mid-decade by the deadly 2004 Indian Ocean tsunami, and closed with the 2008 global financial crisis, alongside a rapid expansion of the internet and mobile technology.",

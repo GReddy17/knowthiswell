@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["bull market", "bear market", "market correction", "S&P 500", "stock market cycles"],
   date: "2026-09-30",
   updated: "2026-09-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-30",
   excerpt: "A bear market is a drop of 20% or more from a recent high in a broad index; a bull market is a rise of 20% or more from a low. The labels are conventions, not official declarations, and they are only ever confirmed in hindsight.",
   summary: "Bull and bear markets are labels for the direction and size of a broad market move. By the convention FINRA describes, a bear market is a decline of 20% or more in a broad index such as the S&P 500 from its recent high, a correction is a decline of at least 10%, and a bull market is a rise of 20% or more from a low. No regulator or exchange declares them; financial media and analysts apply the threshold after the fact, measured on closing prices. Real examples show the range: the S&P 500 fell about 57% from October 2007 to March 2009, about 34% in just over a month in early 2020, and about 25% across most of 2022, after which a new bull market was dated from the October 2022 low once the index closed 20% above it in June 2023. Because the labels are applied in hindsight, they describe what already happened rather than predicting what comes next. Losses also need larger percentage gains to recover: a 50% fall requires a 100% rise to get back to even.",

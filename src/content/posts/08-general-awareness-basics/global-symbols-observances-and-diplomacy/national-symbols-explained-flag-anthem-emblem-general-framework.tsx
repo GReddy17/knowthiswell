@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["national symbols", "flags", "national anthems", "state emblems", "civic literacy"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A country's flag, anthem, and emblem aren't decoration — each is a legally defined symbol with its own adoption process, protocol rules, and specific encoded meaning.",
   summary: "National symbols — the flag, anthem, and state emblem — are formally adopted, legally protected representations of a country's identity, each carrying deliberately chosen colors, imagery, or lyrics that encode a specific national narrative.",

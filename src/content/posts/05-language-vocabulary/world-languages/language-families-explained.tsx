@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["language families", "linguistics", "indo-european", "sino-tibetan", "niger-congo", "austronesian", "dravidian"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The world's roughly 7,000 languages sort into families by descent from a shared ancestor, not by how similar they sound — here's how linguists actually group them.",
   summary: "A language family is a group of languages that descended from a single common ancestral language, proven through systematic sound and grammar correspondences rather than surface resemblance — and the world's languages sort into dozens of these families, from Indo-European to Sino-Tibetan to Niger-Congo to Austronesian.",

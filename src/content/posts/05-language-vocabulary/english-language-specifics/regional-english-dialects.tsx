@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["dialects", "accents", "aave", "cockney", "sociolinguistics", "regional english"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Regional English dialects have their own consistent grammar and vocabulary rules — a dialect isn't a broken version of 'standard' English, it's a different, equally systematic variety of it.",
   summary: "A dialect is a regional or social variety of a language with its own patterns of vocabulary and grammar, not just a different accent — and every English dialect, from Cockney to African American Vernacular English, follows internally consistent rules of its own rather than being a careless deviation from a 'standard' form.",

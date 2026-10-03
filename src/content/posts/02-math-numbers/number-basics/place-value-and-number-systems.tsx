@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["place value", "number systems", "base 10", "decimal system"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why the position of a digit changes its value by exactly a factor of ten, and how that one rule is the entire engine behind every number you write.",
   summary: "Place value means a digit's value depends on where it sits in a number — each position is worth ten times the position to its right, which is what makes our base-10 (decimal) system work with just ten symbols.",

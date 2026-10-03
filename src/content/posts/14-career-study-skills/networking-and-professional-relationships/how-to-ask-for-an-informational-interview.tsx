@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["informational interview", "career research", "networking outreach", "job search", "career exploration"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Asking for an informational interview works best as a specific, low-commitment request focused on learning, not a disguised pitch for a job.",
   summary: "An informational interview is a short, requested conversation with someone in a role or industry you want to learn about — asking for one works best when the request is specific (a named length of time and topic) and low-commitment, and the conversation itself stays focused on learning rather than turning into an indirect pitch for a job.",

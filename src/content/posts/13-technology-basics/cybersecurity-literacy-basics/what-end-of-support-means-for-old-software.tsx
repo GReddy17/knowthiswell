@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["end of support", "end of life", "software updates", "vulnerability patching", "cybersecurity basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "End of support means a vendor stops shipping security patches for that software, not that the software stops working — the risk grows invisibly because it runs exactly the same as before.",
   summary: "\"End of support\" (or end of life) means a software vendor has stopped releasing security patches for a product, even as new vulnerabilities in it continue to be discovered — the software typically keeps running exactly as before, which is what makes the growing security risk easy to miss.",

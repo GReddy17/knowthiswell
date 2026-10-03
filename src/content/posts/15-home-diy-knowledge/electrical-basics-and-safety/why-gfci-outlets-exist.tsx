@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["GFCI outlet", "ground fault circuit interrupter", "electrical shock protection", "kitchen bathroom outlets", "home electrical safety"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "A GFCI outlet exists to sense tiny current leaks to ground, like current passing through a person, and cut power in milliseconds — a job a standard breaker doesn't do.",
   summary: "A GFCI, or ground-fault circuit interrupter, exists because standard circuit breakers don't react to the small amount of current that can pass through a person during a ground fault — a GFCI continuously compares outgoing and returning current and trips within milliseconds the moment the two stop matching.",

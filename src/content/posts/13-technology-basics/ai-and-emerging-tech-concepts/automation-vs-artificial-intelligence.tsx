@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["automation vs AI", "artificial intelligence basics", "what is automation", "rule-based systems", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Automation follows fixed rules a person wrote; AI applies a pattern learned from data — and many real systems quietly use both together.",
   summary: "Automation is a system executing a fixed, explicitly programmed rule every time, while artificial intelligence is a system applying a pattern it learned from data, which can produce different, probability-based judgments as conditions change.",

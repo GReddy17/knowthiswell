@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why metals conduct electricity and bend without breaking, why most non-metals don't, and where metalloids like silicon blur the line between them.",
   summary: "Metals and non-metals are separated by how tightly their atoms hold onto outer electrons — that single difference in electron behavior explains conductivity, malleability, luster, and nearly every everyday distinction between the two groups.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why BODMAS and PEMDAS describe the same fixed sequence for evaluating expressions, with worked examples showing exactly where left-to-right reading goes wrong.",
   summary: "Order of operations is the fixed sequence — brackets, then exponents, then multiplication and division left to right, then addition and subtraction left to right — that lets any written expression have exactly one correct value.",

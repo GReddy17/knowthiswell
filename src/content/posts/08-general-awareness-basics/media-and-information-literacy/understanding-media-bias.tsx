@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["media bias", "news literacy", "story selection", "framing", "journalism"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Media bias mostly isn't outright lying — it's selection and framing: which stories run, which facts lead, and which words describe the same event, all of which can shift a reader's impression without a single false claim.",
   summary: "Media bias operates mainly through story selection and framing — which events get covered, which facts are placed first, and which words are chosen to describe them — rather than through outright factual falsehoods, which is why reading multiple outlets on the same story reveals more than checking any single one for accuracy.",

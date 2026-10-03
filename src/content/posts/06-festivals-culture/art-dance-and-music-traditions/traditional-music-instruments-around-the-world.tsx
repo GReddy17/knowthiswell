@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["traditional instruments", "sitar", "djembe", "didgeridoo", "world music", "ethnomusicology"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Traditional instruments like the sitar, djembe, didgeridoo, and steelpan are still actively played today, spanning every continent and instrument family.",
   summary: "Traditional musical instruments are region-specific instruments developed within a particular culture's musical system — spanning string, percussion, and wind families across every continent, from India's sitar to West Africa's djembe to Trinidad's steelpan, and most remain in active, living use today.",

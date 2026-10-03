@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["screenshots", "pixel density", "resolution", "technology basics", "everyday tech"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A screenshot captures a device's actual pixel grid — and since pixel density, resolution, and screen shape all vary between devices, the same content rarely produces an identical image.",
   summary: "A screenshot isn't a universal, pixel-perfect snapshot — it's a capture of one specific device's own pixel grid, and because pixel density, native resolution, and screen aspect ratio all vary between devices, the same on-screen content can produce screenshots that differ in sharpness, raw dimensions, and even how much content is visible at once.",

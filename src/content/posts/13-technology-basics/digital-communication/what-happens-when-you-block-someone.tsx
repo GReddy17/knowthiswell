@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["what does blocking do", "how blocking works", "block someone", "digital communication", "access control", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Blocking someone flips a permission flag on the server that checks every future message and view attempt between two accounts — it doesn't touch anything already delivered.",
   summary: "Blocking is a server-side permission setting that stops new messages, calls, or visibility between two accounts going forward, checked automatically on every future interaction attempt — it does not retroactively delete or hide content already exchanged before the block.",

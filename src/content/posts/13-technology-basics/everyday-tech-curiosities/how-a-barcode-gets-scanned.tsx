@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["barcodes", "UPC", "point of sale", "encoding data", "technology basics", "everyday tech"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A barcode doesn't store a price at all — it stores a short product number, and the scanner uses that number to look up the price in the store's own database.",
   summary: "A barcode encodes a short numeric product identifier as a pattern of parallel bars and gaps of varying width, which a scanner reads by measuring reflected light along a line and converts back into digits — the price itself is looked up separately, from the store's own database, not stored in the barcode.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How natural selection actually works — a mechanistic, evidence-based explanation of genetic variation, differential survival, and how new species arise.",
   summary: "Evolution by natural selection is the well-evidenced process by which heritable traits that improve survival and reproduction become more common in a population over successive generations.",

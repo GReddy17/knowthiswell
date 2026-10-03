@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["torque", "wrench", "lever arm", "mechanics", "bolts", "NIST"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Torque is force times lever-arm length — which is why a longer wrench handle turns a stubborn bolt more easily than a shorter one, using the same hand strength.",
   summary: "Torque is the rotational equivalent of force, equal to how hard you push or pull multiplied by the length of the lever arm — the distance from the pivot point (the bolt) to where that force is applied — and only the part of the force that's perpendicular to the handle actually contributes, which is why a longer wrench turns a stubborn bolt more easily and why pulling at an angle wastes effort.",

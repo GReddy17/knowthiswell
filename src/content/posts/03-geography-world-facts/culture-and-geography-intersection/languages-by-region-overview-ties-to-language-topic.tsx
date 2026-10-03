@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Roughly 7,000 languages are spoken worldwide, but they're wildly unevenly distributed — one country alone, Papua New Guinea, accounts for over 800 of them.",
   summary: "The world's roughly 7,000 living languages cluster into a small number of large language families, are unevenly distributed by region — with Papua New Guinea alone home to over 800 languages — and are disappearing fast enough that linguists estimate close to 40% are currently endangered.",

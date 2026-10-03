@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["vesak", "buddhist festivals", "religious festivals", "buddha day"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Vesak is the most important festival in the Buddhist calendar, commemorating the birth, enlightenment, and death of the Buddha on a single day.",
   summary: "Vesak, also called Buddha Day, is the most significant festival in the Buddhist calendar, commemorating three major events in the life of the Buddha — his birth, enlightenment, and death — traditionally observed as coinciding on the same full-moon day.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["public holidays", "observances", "civic literacy", "national holidays", "international days"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A public holiday legally closes government offices, banks, and often businesses; an observance is a designated day of recognition that carries no such legal closure requirement at all.",
   summary: "A public holiday is a legally mandated non-working day, typically set by national or regional government statute and enforced through labor and banking law, while an observance is simply an officially designated day of recognition with no legal requirement to close anything.",

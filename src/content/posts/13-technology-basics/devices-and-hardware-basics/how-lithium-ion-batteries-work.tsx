@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["lithium-ion battery", "battery health", "battery degradation", "device hardware", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A lithium-ion battery works by shuttling lithium ions between two electrodes — and every one of those shuttle trips very slightly wears the electrodes down, which is why battery capacity never lasts forever.",
   summary: "A lithium-ion battery stores and releases energy by moving lithium ions back and forth between a graphite anode and a metal-oxide cathode through a liquid electrolyte, and it degrades over time because every charge cycle causes small, permanent chemical wear to those electrodes.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["german unification", "italian unification", "otto von bismarck", "giuseppe garibaldi", "19th century europe", "nationalism"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Neither Germany nor Italy existed as unified nations before the 1860s-70s — both were patchworks of separate states unified through deliberate, often military, campaigns.",
   summary: "German and Italian unification were 19th-century processes that combined dozens of separate kingdoms, duchies, and city-states into two single nation-states — Italy formally unified in 1861-71 under the Kingdom of Sardinia, and Germany in 1871 under the Kingdom of Prussia — both driven by rising nationalism and achieved substantially through war and political maneuvering rather than peaceful negotiation alone.",

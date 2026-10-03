@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["rangoli", "mehndi", "henna", "festival crafts", "folk art"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Rangoli, mehndi, and similar festival art traditions carry region-specific styles and meanings — mehndi alone varies significantly between Indian, Arabic, and African design traditions.",
   summary: "Festival art and craft traditions are decorative practices tied to specific celebrations — rangoli floor art and mehndi (henna) body art in South Asia are two of the best known, but comparable traditions, like Ukrainian pysanky and Chinese paper-cutting, exist across many cultures' festival calendars.",

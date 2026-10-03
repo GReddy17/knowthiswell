@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["difficult conversations", "communication skills", "conflict resolution", "life skills"],
   date: "2026-09-20",
   updated: "2026-09-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "A difficult conversation goes wrong less often because of what you say and more because of what you're actually trying to accomplish going in — win the argument, or actually resolve the issue.",
   summary: "Difficult conversations tend to go better when the goal shifts from winning the exchange to understanding the other person's perspective and clearly stating your own, using structured approaches (separating observation from interpretation, stating impact rather than accusation) developed by conflict-resolution research to keep the conversation productive rather than defensive.",

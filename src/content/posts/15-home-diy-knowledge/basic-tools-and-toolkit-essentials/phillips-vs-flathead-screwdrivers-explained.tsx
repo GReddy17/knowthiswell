@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["screwdrivers", "phillips head", "flathead", "cam-out", "hand tools", "screws"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Phillips and flathead screwdrivers differ in more than shape — the cross recess is designed to intentionally slip at high torque, which the flat slot never does.",
   summary: "Phillips and flathead screwdrivers differ in more than the shape of the tip: a flathead's straight slot lets a blade slide sideways when torque is applied off-center, while a Phillips head's tapered cross recess was deliberately designed to self-center the bit and then cam out — pop straight up — once torque gets high enough, protecting the screw and the tool at the cost of sometimes releasing before a joint is fully tight.",

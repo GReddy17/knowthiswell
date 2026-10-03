@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["online banking", "mobile banking", "mobile check deposit", "bank security", "banking basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Online and mobile banking don't hold your money separately from a branch — they're a different door into the same account, one that happens to route through encrypted networks and image-recognition software instead of a teller window.",
   summary: "Online and mobile banking give account access through the internet and smartphone apps instead of a physical branch, using encrypted connections, multi-factor authentication, and image-processing technology (for mobile check deposit) to perform the same underlying account actions a teller would.",

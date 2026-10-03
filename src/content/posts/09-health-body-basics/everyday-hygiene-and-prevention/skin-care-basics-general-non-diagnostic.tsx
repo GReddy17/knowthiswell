@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["skin barrier", "moisturizer", "sunscreen", "skin care basics", "dermatology literacy"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Skin's outer layer is a physical barrier that keeps water in and irritants out — most everyday skin care is really about supporting that barrier, not treating a condition.",
   summary: "Healthy skin depends on an intact outer barrier (the stratum corneum) that retains moisture and blocks irritants; everyday skin care — gentle cleansing, moisturizing, and sun protection — works mainly by supporting that barrier function, and this entry covers that general literacy rather than diagnosing or treating any specific skin condition.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["civic duties", "civic responsibilities", "citizenship", "jury duty", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Civic duties are the legally required or strongly expected obligations that come paired with the rights a citizen holds — the other half of the citizenship relationship.",
   summary: "Civic duties are the obligations a citizen owes to their political community in exchange for the protections and rights that community provides — some are legally mandatory (like paying taxes or jury service), while others are strongly expected but not enforced by law (like voting, in most countries).",

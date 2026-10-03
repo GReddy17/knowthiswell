@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["room temperature imbalance", "hvac zoning", "duct airflow", "solar heat gain", "home comfort"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "A single thermostat only controls temperature at its own location — sun exposure, duct length, closed vents, and insulation gaps explain why other rooms still run hotter or colder.",
   summary: "A house with one central thermostat is only guaranteed to hold the temperature at that one sensor's location. Every other room has its own combination of duct length, airflow, sun exposure, insulation, and adjacent unconditioned spaces — factors that add up to real, measurable temperature differences the single thermostat has no way to detect or correct for.",

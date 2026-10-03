@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["dining etiquette", "table manners", "chopstick etiquette", "cross-cultural etiquette"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Dining etiquette varies significantly worldwide — from chopstick rules in East Asia to left-hand taboos in South Asia and the Middle East to finishing-your-plate customs.",
   summary: "Dining etiquette is the set of culturally expected behaviors around eating a meal — utensil use, hand use, seating, and even whether finishing your plate is polite or rude — and the specific rules differ enough across cultures that the same action can be read as courteous in one place and rude in another.",

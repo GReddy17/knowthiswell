@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why a compass needle doesn't actually point to the North Pole — and why the correction you need to fix that changes depending on where you're standing.",
   summary: "A compass needle points toward magnetic north, not true (geographic) north, and the angular gap between the two — magnetic declination — must be corrected for accurate navigation.",

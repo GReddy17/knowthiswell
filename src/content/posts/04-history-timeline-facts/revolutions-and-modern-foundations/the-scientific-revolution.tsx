@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["scientific revolution", "copernicus", "galileo", "isaac newton", "heliocentrism", "history of science", "european history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Scientific Revolution (roughly 1543 to 1687) replaced Earth-centered astronomy with evidence-based inquiry — and it leaned heavily on earlier non-European scholarship.",
   summary: "The Scientific Revolution was a period of roughly 1543 to 1687 during which European thinkers overturned the ancient geocentric model of the universe and developed systematic, evidence-based methods of studying the natural world, laying the foundation for modern science.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["consumer protection", "consumer rights", "FTC", "deceptive practices", "legal literacy"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Consumer protection law generally works by targeting the seller's conduct — deception, unfairness, and unsafe products — rather than guaranteeing a satisfied buyer, which is why 'I didn't like it' and 'I was misled about it' can lead to very different outcomes.",
   summary: "Consumer protection law is built around regulating seller conduct — prohibiting deceptive claims, unfair practices, and unsafe products — rather than promising a satisfying purchase, so the practical question in most disputes is whether the seller's conduct crossed a specific line, not whether the buyer is simply unhappy.",

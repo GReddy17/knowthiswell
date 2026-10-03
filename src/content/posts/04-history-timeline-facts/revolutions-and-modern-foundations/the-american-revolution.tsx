@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["american revolution", "declaration of independence", "george washington", "boston tea party", "us history", "1776"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The American Revolution (1765-1783) grew from disputes over representation and self-governance, not taxes alone, and reshaped Atlantic-world politics for decades after.",
   summary: "The American Revolution was the political and military struggle, from roughly 1765 to 1783, in which thirteen British colonies in North America declared independence and, with French support, secured recognition as the independent United States.",

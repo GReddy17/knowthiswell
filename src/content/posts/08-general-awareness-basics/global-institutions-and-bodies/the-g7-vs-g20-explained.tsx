@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["G7", "G20", "international summits", "global economy", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The G7 and G20 aren't rival organizations at different sizes — they're two separate forums with different membership logic and neither has any binding legal power over anyone.",
   summary: "The G7 is a forum of seven major advanced economies (plus the EU) that meets to coordinate economic and foreign policy, while the G20 is a larger, broader forum of 19 countries plus the EU and African Union covering roughly 85% of world economic output — both are informal groupings with no treaty basis and no power to pass binding law.",

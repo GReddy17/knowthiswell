@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["active recall", "study techniques", "testing effect", "retrieval practice", "how to study"],
   date: "2026-08-30",
   updated: "2026-08-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-30",
   excerpt: "Rereading feels productive because it builds familiarity, but active recall — retrieving the answer from memory — builds retention rereading can't.",
   summary: "Active recall means retrieving information from memory without looking at the source, while rereading means passively looking at the source again — research consistently shows active recall produces stronger, longer-lasting retention despite feeling harder in the moment.",

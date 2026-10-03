@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["mass", "weight", "gravity", "newtons", "kilograms", "physics of measurement"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Mass is how much matter something contains and never changes; weight is the force gravity exerts on that mass, and it changes with location — which is why the same body weighs less on the Moon.",
   summary: "Mass measures the amount of matter in an object and stays constant everywhere in the universe; weight is the force of gravity acting on that mass, calculated as weight = mass × local gravitational acceleration, so the same mass produces a different weight on Earth, the Moon, or Mars.",

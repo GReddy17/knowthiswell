@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["terms of service", "terms and conditions", "clickwrap agreements", "consumer literacy", "digital agreements"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Clicking 'I agree' on a terms of service page forms a real, enforceable contract — even though almost nobody reads it — and the handful of clauses that actually matter most (arbitration, data use, unilateral changes) are usually buried in the middle.",
   summary: "A terms of service (ToS) agreement is a binding contract formed the moment a user clicks 'agree' or continues using a service, and while the bulk of the document is boilerplate, a small number of recurring clause types — arbitration requirements, data licensing, and the company's right to change terms unilaterally — do most of the practical work and are worth knowing how to spot.",

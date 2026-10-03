@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["pride month", "stonewall", "lgbtq history", "modern celebrations"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Pride Month is observed each June to mark the anniversary of the 1969 Stonewall uprising, a documented event with a specific, well-recorded history.",
   summary: "Pride Month is a June observance commemorating LGBTQ history, anchored to the documented 1969 Stonewall uprising in New York City, the Pride marches that followed in 1970, and the US federal recognition that began in 1999.",

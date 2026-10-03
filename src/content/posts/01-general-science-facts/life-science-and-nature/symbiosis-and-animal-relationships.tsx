@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The three real categories of symbiosis — mutualism, commensalism, and parasitism — and how to tell which one you're actually looking at.",
   summary: "Symbiosis describes any close, long-term relationship between two different species, and it splits into three distinct categories depending on whether both, one, or neither species benefits.",

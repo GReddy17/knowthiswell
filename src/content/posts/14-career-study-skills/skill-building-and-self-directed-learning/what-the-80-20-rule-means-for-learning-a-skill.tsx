@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["80/20 rule", "Pareto principle", "skill acquisition", "self-directed learning", "diminishing returns"],
   date: "2026-09-03",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "The 80/20 rule for skill learning means a small slice of what there is to learn covers most of what actually gets used — not that you can master a skill with 20% of the work.",
   summary: "Applied to skill-building, the 80/20 rule means that in most skills, a relatively small subset of sub-skills or content — roughly 20% — accounts for a disproportionate share, often around 80%, of real-world use. It's a heuristic about a skewed usage distribution that tells you what to prioritize first, not a shortcut that lets you skip most of the work.",

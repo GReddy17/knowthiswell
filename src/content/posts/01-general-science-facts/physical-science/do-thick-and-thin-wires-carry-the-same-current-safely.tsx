@@ -25,6 +25,8 @@ export const metadata: PostFrontmatter = {
   tags: ["electrical resistance", "wire gauge", "electrical safety", "Ohm's law", "physics misconceptions"],
   date: "2026-09-19",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-19",
   excerpt: "A thin wire isn't just a smaller version of a thick one — it has more electrical resistance per foot, which makes it heat up more for the same current, the real reason wire gauge matters.",
   summary: "A thinner wire has a smaller cross-sectional area, and electrical resistance is inversely proportional to that area — meaning the same length of thinner wire has meaningfully more resistance than a thicker one made of the same material. Since resistive heating scales with the square of current times resistance, a thin wire forced to carry too much current heats up dramatically faster than a thick wire carrying the identical current, which is exactly why household circuits are protected by breakers sized to the wire gauge actually installed, not to the appliance plugged in.",

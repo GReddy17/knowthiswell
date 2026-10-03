@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["engine displacement", "fuel tank capacity", "liters", "cubic centimeters", "cubic inches"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A classic \"350\" V8 and a modern \"5.7-liter\" V8 can be the exact same engine — cubic inches, cubic centimeters, and liters are three different labels for identical displacement.",
   summary: "Engine displacement and fuel tank size are both volume measurements that get quoted in different unit systems depending on era and country — liters and cubic centimeters (metric) and cubic inches (older US convention) — and converting between them is ordinary unit conversion, not a difference in what's actually being measured.",

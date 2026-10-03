@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["legal aid", "pro bono", "free legal help", "access to justice"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Legal aid and pro bono services exist specifically to close the gap between needing a lawyer and being able to afford one — but eligibility and availability both vary.",
   summary: "Legal aid organizations and pro bono (volunteer, unpaid) attorney programs provide free or reduced-cost legal help, generally to people who meet income and case-type eligibility criteria, funded through a mix of government support, bar association programs, and volunteer attorney time — though capacity is limited and not every case type or income level qualifies.",

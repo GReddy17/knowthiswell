@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["business plan", "startup", "small business", "market analysis", "financial projections"],
   date: "2026-09-21",
   updated: "2026-09-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-21",
   excerpt: "A business plan isn't a formality for investors — it's the document that forces you to answer the questions that actually determine whether a business survives.",
   summary: "A business plan is a structured document that lays out what a business will sell, who it will sell to, how it will operate, and how it expects to make and spend money — per U.S. Small Business Administration guidance, the core sections generally cover an executive summary, company and product/service description, market analysis, organization and management structure, and financial projections, with the specific format allowed to vary as long as those core questions are genuinely answered rather than skipped.",

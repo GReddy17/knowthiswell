@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "An exchange rate is a conversion factor exactly like miles-to-kilometers — the only twist is that the factor itself moves constantly, and real transactions bolt a fee on top.",
   summary: "Converting between currencies uses the exact same multiply-by-a-fixed-factor logic as converting length or weight units, with two added complications: the 'factor' (the exchange rate) fluctuates continuously with the market, and real-world currency exchange almost always deducts a fee or spread on top of the quoted rate.",

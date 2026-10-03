@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["marriage certificate", "marriage license", "vital records", "civil registration", "legal documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A marriage license and a marriage certificate are two different documents in the same process — one is permission to marry, issued before the ceremony, and the other is proof the marriage actually happened, issued after.",
   summary: "A marriage license is government permission to marry, obtained before a wedding, while a marriage certificate is the official record proving a marriage legally took place, issued after the ceremony and officiant's paperwork are filed — the exact process, required documents, and waiting periods vary by jurisdiction, and this is general legal literacy, not personalized legal advice.",

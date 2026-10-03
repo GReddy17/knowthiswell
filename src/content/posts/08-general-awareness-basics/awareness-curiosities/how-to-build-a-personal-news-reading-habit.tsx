@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["news habits", "media literacy", "information diet", "critical reading", "current affairs"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A sustainable news habit is a small, fixed set of sources checked on a schedule — not an open-ended feed checked whenever a notification fires.",
   summary: "A durable personal news-reading habit is built by deliberately narrowing input (a small, fixed set of trusted sources) and scheduling it (a set time rather than continuous checking), which is the opposite of how most people default into news consumption through algorithmic feeds and push notifications.",

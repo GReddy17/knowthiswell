@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["indian festival food", "diwali sweets", "festival cuisine", "indian food traditions"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Indian festival foods vary enormously by region and occasion — from Diwali sweets to Pongal's rice dish to Eid's biryani — each tied to a specific ritual meaning.",
   summary: "Festival foods in India aren't one fixed menu — they're a set of region- and occasion-specific dishes, each carrying its own ritual or symbolic meaning, from sweets offered to deities to specific grains cooked on a specific day.",

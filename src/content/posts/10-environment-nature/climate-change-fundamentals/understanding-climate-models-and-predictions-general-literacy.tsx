@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["climate models", "climate projections", "emissions scenarios", "IPCC", "general literacy"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Climate models aren't weather forecasts extended further out — they're physics-based simulations tested against decades of past data, run under multiple future emissions scenarios rather than one single guess.",
   summary: "Climate models are physics-based simulations of the atmosphere, oceans, and land surface that are validated by successfully reproducing decades of already-observed climate data, then run forward under several different future greenhouse gas emissions scenarios to project a range of possible outcomes rather than a single fixed prediction.",

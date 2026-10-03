@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["what is a server", "server explained", "client server model", "web server", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A server is just a computer set up to stay on and answer requests from other computers — not a special category of machine, but a role a machine is configured to play.",
   summary: "A server is a computer (or software running on one) configured to run continuously and respond to requests from other computers, called clients — the word describes a role a machine plays, not a fundamentally different kind of hardware.",

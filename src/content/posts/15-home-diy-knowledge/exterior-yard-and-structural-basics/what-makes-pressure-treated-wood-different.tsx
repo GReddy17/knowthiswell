@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["pressure-treated wood", "wood preservatives", "outdoor construction", "fasteners", "home maintenance"],
   date: "2026-09-17",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "Pressure-treated wood isn't a stronger or denser type of lumber — it's ordinary wood with a chemical preservative forced deep into its cells to resist rot and insects.",
   summary: "Pressure treatment doesn't change what species of wood is used or make it structurally stronger; it forces a chemical preservative (commonly a copper-based compound) deep into the wood's cell structure using vacuum and pressure cycles, so the wood resists fungal decay and insect damage from the inside out — the tradeoff is that the copper content is corrosive to standard steel fasteners, which is why treated-wood projects require specific corrosion-resistant hardware.",

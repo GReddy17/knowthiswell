@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["sanskrit", "indo-european languages", "etymology", "indian languages", "linguistics", "loanwords"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Sanskrit isn't just ancient — it's still actively shaping modern vocabulary, from everyday English words like 'avatar' to the formal registers of Hindi, Bengali, and Marathi today.",
   summary: "Sanskrit, one of the oldest documented Indo-European languages, continues to shape modern vocabulary in two directions — supplying English with everyday loanwords like 'guru' and 'karma,' and supplying modern Indo-Aryan languages with formal and technical vocabulary the way Latin and Greek supply English.",

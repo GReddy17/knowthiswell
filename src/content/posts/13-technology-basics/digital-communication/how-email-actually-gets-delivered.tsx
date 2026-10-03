@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how email works", "SMTP explained", "email delivery", "digital communication", "DNS MX record", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Email doesn't teleport — it hops from your mail app to your provider's server, through a DNS lookup, straight to the recipient's mail server over SMTP.",
   summary: "Email is delivered by SMTP (Simple Mail Transfer Protocol), a standardized handoff process where your outgoing mail server looks up the recipient's mail server in DNS and relays the message directly to it.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["SSD", "HDD", "storage", "hard drive", "solid state drive", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "An HDD reads data by physically spinning a disk and moving an arm; an SSD reads data electronically with no moving parts at all — that mechanical difference is the entire reason SSDs are faster.",
   summary: "An SSD (solid-state drive) stores data electronically in flash memory chips with no moving parts, while an HDD (hard disk drive) stores data magnetically on a spinning platter read by a physically moving arm — the mechanical motion in an HDD is the direct cause of its slower speed.",

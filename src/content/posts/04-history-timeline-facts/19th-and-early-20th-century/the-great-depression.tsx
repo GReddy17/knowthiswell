@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["great depression", "1929 stock market crash", "new deal", "franklin d roosevelt", "economic history", "20th century history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The 1929 stock market crash didn't cause the Great Depression by itself — bank failures, a shrinking money supply, and policy mistakes turned a market crash into a decade-long global crisis.",
   summary: "The Great Depression was a severe worldwide economic downturn that began in 1929 and lasted through most of the 1930s, marked by mass unemployment, widespread bank failures, and a collapse in industrial production and trade, driven not by the 1929 stock market crash alone but by a combination of banking crises, poor monetary policy, and contracting global trade.",

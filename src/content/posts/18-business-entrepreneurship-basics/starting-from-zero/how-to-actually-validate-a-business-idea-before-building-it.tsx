@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["business validation", "startup basics", "market research", "entrepreneurship"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "Validating a business idea means testing whether strangers will actually pay for it before you spend months building it — not asking friends if they like it.",
   summary: "Validating a business idea means testing, with real evidence from strangers rather than friends or family, whether people will actually pay for a specific solution to a specific problem — through methods like pre-selling, landing-page signups, or direct customer interviews — before committing significant time or money to building it out fully.",

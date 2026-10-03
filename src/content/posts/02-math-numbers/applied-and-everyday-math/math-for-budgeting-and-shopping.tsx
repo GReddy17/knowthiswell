@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How percentage allocation turns a paycheck into a budget, and how unit price math finds the actually-cheaper option at the store.",
   summary: "Budgeting math allocates income by percentage across spending categories, while shopping math compares unit price — cost per unit of quantity — rather than sticker price alone.",

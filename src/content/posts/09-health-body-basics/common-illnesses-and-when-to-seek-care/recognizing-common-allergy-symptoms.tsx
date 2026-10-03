@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["allergies", "allergic reaction", "hay fever", "immune system", "histamine"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 60, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Allergies happen when the immune system mistakes a harmless substance for a threat and releases histamine — the resulting symptoms overlap with colds, but tend to lack fever and last as long as exposure continues.",
   summary: "An allergic reaction occurs when the immune system misidentifies a normally harmless substance (like pollen or pet dander) as a threat and releases histamine and other chemicals, producing symptoms such as sneezing, itching, and congestion — general patterns like an absence of fever and symptoms lasting as long as exposure continues can help distinguish allergies from a viral illness, though only a doctor or allergist can confirm a true allergy.",

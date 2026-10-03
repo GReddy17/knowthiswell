@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["IMF", "World Bank", "Bretton Woods", "international finance", "global governance"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Both were born at the same 1944 conference, but the IMF fixes short-term monetary crises and the World Bank funds long-term development — different timeframes, different jobs.",
   summary: "The IMF and World Bank were both created at the 1944 Bretton Woods conference but serve different purposes: the IMF focuses on short-to-medium-term monetary and financial stability, including crisis lending, while the World Bank focuses on long-term development financing for infrastructure, education, and poverty reduction projects.",

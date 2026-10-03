@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["synonyms", "antonyms", "vocabulary", "connotation", "thesaurus", "word choice"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Synonyms rarely mean exactly the same thing, and antonyms come in three different flavors — here's how to actually tell them apart and use both well.",
   summary: "A synonym is a word close enough in meaning to another word to substitute for it in some contexts, and an antonym is a word opposite in meaning — but few synonym pairs are truly interchangeable, and antonyms split into distinct types depending on whether the opposite is a scale, a strict either/or, or a relationship.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["insurance basics", "pooled risk", "actuarial science", "law of large numbers", "premiums"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Insurance works because a large group's rare, expensive losses become predictable in aggregate, even though no individual can predict their own — pooling many small premiums covers the few large claims.",
   summary: "Insurance exists because pooling risk across a large group turns an unpredictable individual event into a predictable group statistic — insurers collect small, regular premiums from many policyholders and use that pool to pay the full cost of the few claims that actually occur, a mechanism formalized through actuarial science and the law of large numbers.",

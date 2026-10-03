@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["islamic golden age", "abbasid caliphate", "house of wisdom", "medieval history", "al-khwarizmi"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Islamic Golden Age wasn't just Greek texts passed along untouched — scholars in Baghdad and Cordoba built genuinely new mathematics, optics, and medicine on top of them.",
   summary: "The Islamic Golden Age was a period of roughly the 8th through the 13th century, centered on the Abbasid Caliphate and its capital Baghdad, during which scholars translated, preserved, and substantially expanded on Greek, Persian, and Indian knowledge in mathematics, astronomy, medicine, and optics.",

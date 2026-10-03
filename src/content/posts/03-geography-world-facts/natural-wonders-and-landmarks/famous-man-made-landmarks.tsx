@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why Machu Picchu's stones fit without mortar, how Petra survives in a desert, and the truth about whether the Great Wall of China is visible from space.",
   summary: "Famous man-made landmarks were built by engineering solutions specifically tailored to their local geography — mountain terrain, desert aridity, or river access — and studying them reveals how much geography still shapes human construction.",

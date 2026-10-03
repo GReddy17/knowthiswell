@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["divorce", "divorce decree", "settlement agreement", "family court", "legal documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A divorce isn't final the moment a couple decides to separate — it's final when a court issues a divorce decree, the document that actually and legally ends the marriage and records the terms both sides are bound by.",
   summary: "Divorce is a court process, not just a personal decision — it involves filing a petition, addressing property, support, and (if applicable) custody through either agreement or court decision, and concluding with a court-issued divorce decree that legally ends the marriage. The exact requirements, forms, and terminology vary substantially by jurisdiction, and this is general legal literacy, not personalized legal advice for any specific case.",

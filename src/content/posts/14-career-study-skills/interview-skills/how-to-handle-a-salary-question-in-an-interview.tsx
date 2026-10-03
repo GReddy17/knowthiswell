@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["salary question", "salary negotiation", "job interview", "salary range", "compensation discussion"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Handling a salary question well means answering with a researched range instead of a single fixed number, because a range preserves room to negotiate on both sides.",
   summary: "Handling a salary question in an interview means answering with a researched range rather than a single fixed number and anchoring that range to market data instead of a personal minimum — a single number gives up negotiating room on both sides, while a range keeps the conversation open without under- or over-committing.",

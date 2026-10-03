@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["colonialism", "imperialism", "decolonization", "world history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What colonialism was as a historical practice, the main mechanisms empires used to extend control, and the documented timeline from early modern expansion to 20th-century decolonization.",
   summary: "Colonialism is the historical practice of one country establishing political and economic control over another territory or people, most often through settlement, administration, and resource extraction, spanning roughly the late 15th century to the late 20th century in its European form.",

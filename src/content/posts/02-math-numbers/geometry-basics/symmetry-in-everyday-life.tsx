@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How to tell line symmetry from rotational symmetry, why snowflakes have six-fold symmetry, and why a 'perfectly symmetrical face' is more myth than measurement.",
   summary: "Symmetry means a shape looks unchanged after a specific transformation — a reflection (line symmetry), a rotation (rotational symmetry), or both — and the two kinds don't always come as a package deal.",

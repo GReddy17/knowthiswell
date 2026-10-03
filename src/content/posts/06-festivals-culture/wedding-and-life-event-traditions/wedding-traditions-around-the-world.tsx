@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["wedding traditions", "wedding customs", "marriage rituals", "cultural traditions"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Weddings around the world share some universal elements — joined hands, exchanged rings, shared food — but the ceremony's actual structure varies enormously by culture and religion.",
   summary: "Wedding traditions vary widely across cultures — a Jewish couple marries beneath a chuppah, a Hindu couple circles a sacred fire, a Japanese Shinto couple exchanges vows to the kami — but a small set of symbolic acts (joined hands, exchanged rings, shared food) recur across many of them.",

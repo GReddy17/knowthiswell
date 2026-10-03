@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["software updates", "patches", "security vulnerabilities", "software maintenance", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Software updates aren't just new features — most exist to close specific, known security flaws before someone with bad intentions finds and uses them.",
   summary: "A software update is a revised version of a program released to fix discovered bugs, close security vulnerabilities, or add capabilities — skipping one doesn't freeze a program in a safe state, it leaves known, already-public flaws unpatched on your device.",

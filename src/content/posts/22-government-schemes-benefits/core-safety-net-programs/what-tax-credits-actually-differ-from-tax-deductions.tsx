@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["tax credits", "tax deductions", "refundable credits", "earned income tax credit", "child tax credit"],
   date: "2026-09-25",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "A deduction lowers the income you're taxed on, so it's worth only your tax rate times the amount. A credit cuts the tax bill itself dollar for dollar, and a refundable credit can pay you even when you owe nothing, which is why credits like the EITC work as benefit programs.",
   summary: "A tax deduction reduces taxable income, so its value equals the deduction multiplied by the taxpayer's marginal tax rate (a $1,000 deduction saves $220 for someone in the 22% bracket), and itemized deductions only help if they exceed the standard deduction. A tax credit reduces the tax owed directly, dollar for dollar. Credits come in two kinds, per the IRS: nonrefundable credits can reduce tax only to zero, while refundable credits, such as the Earned Income Tax Credit and the refundable part of the Child Tax Credit, are paid out as a refund even when the credit exceeds the tax owed. That refundability is why the IRS and researchers treat credits like the EITC as one of the largest U.S. income-support programs for working families, and why eligible people with low incomes may need to file a return to receive money even if they aren't otherwise required to file. This is general information, not tax advice; rules and amounts change yearly.",

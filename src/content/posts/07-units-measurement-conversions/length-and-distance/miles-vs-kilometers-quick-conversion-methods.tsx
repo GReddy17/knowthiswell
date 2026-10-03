@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["miles", "kilometers", "mental math", "unit conversion", "travel math"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "1 mile equals exactly 1.609344 kilometers — close enough to the golden ratio (1.618) that consecutive Fibonacci numbers give a surprisingly accurate mental-math shortcut for converting between the two.",
   summary: "Converting miles to kilometers precisely means multiplying by 1.609344, but for fast mental estimates, multiplying by 1.6 (or reading the next number in the Fibonacci sequence) both stay within about 1% of the exact answer for everyday distances.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["factors", "multiples", "divisibility"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Factors divide into a number evenly; multiples are what you get by multiplying it — two mirror-image ideas that people mix up constantly.",
   summary: "A factor of a number divides into it with no remainder. A multiple of a number is what you get when you multiply it by a whole number. Every number is both a factor and a multiple of itself.",

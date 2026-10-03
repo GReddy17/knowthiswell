@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["WiFi", "wireless networking", "2.4GHz vs 5GHz", "router range", "radio waves", "networking basics"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "WiFi carries internet data over radio waves instead of a cable — the frequency it uses is a direct trade-off between speed, range, and how well it passes through walls.",
   summary: "WiFi is a way of sending internet data over radio waves instead of a cable, using a router as a translator between the wireless signal and the wired internet connection.",

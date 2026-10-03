@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how chatbots work", "language models", "chatbot", "does a chatbot understand", "artificial intelligence basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 86, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A chatbot doesn't understand your question — it predicts the next likely chunk of text, one piece at a time, based on patterns learned from training data.",
   summary: "A chatbot built on a language model works by repeatedly predicting the most statistically likely next small chunk of text (a token), one at a time, based on patterns learned during training — not by understanding meaning the way a person does.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["preventive care", "health checkups", "early detection", "screening"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Several common conditions — high blood pressure, high cholesterol, early-stage diabetes — produce no symptoms for years, which is exactly the gap preventive checkups exist to close.",
   summary: "A preventive health checkup exists to catch conditions before they cause symptoms, since a meaningful number of common serious conditions (like hypertension and type 2 diabetes) can develop silently for years — waiting for symptoms means, by definition, waiting until a condition has already progressed.",

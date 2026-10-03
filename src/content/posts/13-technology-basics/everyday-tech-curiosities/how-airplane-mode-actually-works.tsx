@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["airplane mode", "radios", "cellular", "GPS", "technology basics", "everyday tech"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Airplane mode is one switch controlling several separate radios — and GPS, being receive-only, usually isn't restricted the way cellular is.",
   summary: "Airplane mode is a single toggle that individually turns off several separate radios inside a device — cellular, WiFi, and Bluetooth — because each one transmits signals that regulators historically wanted silenced in flight, while GPS reception typically remains available because a GPS receiver only listens for satellite signals and never transmits anything back.",

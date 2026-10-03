@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Weather is the atmosphere's state right now; climate is its decades-long average. Here's the mechanism behind both, and what real temperature data shows.",
   summary: "Weather describes the atmosphere's short-term condition, while climate is the long-term statistical average of that weather for a place, typically measured over 30 years.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["air pollution", "AQI", "PM2.5", "air quality", "public health"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The Air Quality Index isn't a raw pollutant reading — it's a converted 0-500 health-risk scale built from the worst-performing pollutant of the moment, most often fine particulate matter (PM2.5).",
   summary: "Air pollution comes from a handful of major source categories — vehicle exhaust, power generation, industrial combustion, and wildfire smoke — and its health impact is tracked through the Air Quality Index, a standardized scale that converts raw pollutant concentrations into a single comparable health-risk number.",

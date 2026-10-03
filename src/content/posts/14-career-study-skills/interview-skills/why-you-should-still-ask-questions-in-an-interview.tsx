@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["interview questions", "job interview", "interview tips", "questions to ask interviewer", "interview closing"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Asking questions at the end of an interview is itself evidence of genuine interest and critical thinking, not just a chance to gather information about the role.",
   summary: "Asking questions at the end of an interview does two things at once: it gives a candidate real information for deciding whether to accept an offer, and it independently signals genuine interest and critical thinking to the interviewer — which is why skipping this step, even with a strong interview otherwise, costs a candidate a piece of evidence they don't get back.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["changing jobs", "job search timing", "career plateau", "job satisfaction", "career growth"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "It's usually time to change jobs when a gap in growth, pay, or fit is persistent rather than a temporary rough patch, and attempts to close it while staying haven't worked.",
   summary: "It's actually time to change jobs when the gap between what a role provides and what you need from it has been persistent across a real stretch of time — not just a rough week or a hard project — and you've tried a credible path to closing that gap while staying (a development conversation, a raise request, an internal move) without it working, which is different from a single bad stretch that will most likely pass.",

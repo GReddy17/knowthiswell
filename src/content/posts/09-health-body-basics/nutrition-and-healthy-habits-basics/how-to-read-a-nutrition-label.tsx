@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["nutrition label", "percent daily value", "FDA labeling", "serving size", "nutrition literacy"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "The Percent Daily Value column on a nutrition label tells you how one serving compares to a full day's recommended amount — 5% or less is low, 20% or more is high, per FDA's own published rule.",
   summary: "A nutrition label's Percent Daily Value (%DV) column expresses each nutrient amount in a serving as a percentage of a standardized daily reference value, calculated by dividing the nutrient amount by its daily reference value and multiplying by 100 — the same %DV math applies whether the nutrient is one to limit (like sodium) or one to seek out (like fiber).",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What actually makes plastic 'plastic', how monomers link into long polymer chains, and why some plastics melt and reshape while others never do again.",
   summary: "A polymer is a long chain built from repeating molecular units called monomers — the length and structure of that chain, not the base chemical elements alone, is what determines whether a plastic is flexible, rigid, meltable, or permanently set.",

@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How your phone pinpoints your location using satellites 20,200km overhead — and why GPS needs atomic-clock precision down to the nanosecond to work at all.",
   summary: "GPS calculates your position by measuring how long radio signals take to arrive from at least four satellites and using those precise time differences to trilaterate an exact location on Earth.",

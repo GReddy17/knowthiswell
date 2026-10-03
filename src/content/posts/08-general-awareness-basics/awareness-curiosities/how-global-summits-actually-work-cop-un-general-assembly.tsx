@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["global summits", "COP", "UN General Assembly", "international negotiation", "diplomacy"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A global summit like COP or the UN General Assembly isn't one meeting — it's a structured multi-week process of negotiating blocs, drafting text, and a final plenary vote.",
   summary: "Global summits like the UN Climate Change Conference (COP) and the UN General Assembly follow a defined process: national delegations negotiate through smaller working groups and regional blocs over one to two weeks, draft text gets revised repeatedly, and the summit closes with a plenary session where the final document is adopted or voted on.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cultural taboos", "cross-cultural awareness", "travel etiquette", "gestures"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Cultural taboos — like foot placement, gesture meaning, and gift colors — make sense within their own cultural logic; understanding why helps travelers avoid honest missteps.",
   summary: "A cultural taboo is a behavior considered disrespectful or inappropriate within a specific culture, usually rooted in a coherent local logic — religious symbolism, hygiene practice, or historical association — rather than being an arbitrary or random rule.",

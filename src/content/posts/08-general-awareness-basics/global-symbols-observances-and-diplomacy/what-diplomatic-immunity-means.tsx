@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["diplomatic immunity", "Vienna Convention", "diplomacy", "international law", "embassies"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Diplomatic immunity isn't a blanket exemption from all law — it's a specific, treaty-defined legal protection from a host country's criminal jurisdiction, meant to protect the function of diplomacy, not the individual.",
   summary: "Diplomatic immunity is a set of legal protections, codified in the 1961 Vienna Convention on Diplomatic Relations, that shields accredited diplomats from arrest and prosecution under a host country's laws, so that diplomatic communication can continue even when relations between two countries are strained.",

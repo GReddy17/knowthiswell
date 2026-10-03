@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["push notifications explained", "how push notifications work", "notification service", "digital communication", "background app refresh", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A push notification doesn't come from the app itself — it travels through one shared, always-on connection your device's operating system keeps open to a central notification service.",
   summary: "A push notification is a short alert delivered to a device through a persistent connection maintained by the device's operating system, not by the individual app keeping its own connection open in the background.",

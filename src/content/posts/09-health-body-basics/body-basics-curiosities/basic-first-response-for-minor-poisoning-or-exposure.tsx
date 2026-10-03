@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["poison control", "poisoning first aid", "chemical exposure", "health literacy", "emergency response"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "For any real poisoning or chemical exposure, call Poison Control (1-800-222-1222) or emergency services immediately — this entry explains only what that call actually does, never a substitute for making it.",
   summary: "Poison Control is a real, free, 24/7 hotline (1-800-222-1222 in the US) staffed by specialists who give exposure-specific guidance in real time — for any actual poisoning or chemical exposure the correct first action is always to call Poison Control or emergency services immediately, not to look up general safety information, and this entry exists only to explain what that call does and why general principles like 'don't induce vomiting unless instructed' exist, never as a substitute for making the call.",

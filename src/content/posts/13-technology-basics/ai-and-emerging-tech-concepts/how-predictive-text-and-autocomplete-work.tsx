@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how predictive text works", "how autocomplete works", "predictive text explained", "is autocomplete the same as autocorrect", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Predictive text ranks candidate next words by statistical likelihood given what's already been typed — it isn't a fixed list of popular words.",
   summary: "Predictive text and autocomplete work by ranking candidate next words or completions according to how statistically likely they are given the text typed so far, using a language model trained on large amounts of text and often personalized to an individual's own typing patterns — the same underlying prediction mechanism that appears in search bars, messaging apps, and document editors alike.",

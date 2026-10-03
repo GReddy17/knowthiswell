@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["travel health", "travel vaccines", "yellow fever", "traveler's diarrhea"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Travel vaccine needs depend on where you're going and what disease risks actually exist there, not on where you live — which is why travel health guidance is destination-specific rather than one-size-fits-all.",
   summary: "Travel health planning layers destination-specific vaccines and precautions on top of a person's routine vaccinations, because disease risk varies geographically — a vaccine irrelevant at home can be strongly recommended or even legally required for entry into a specific country, and this destination-specific risk assessment is best done well before departure with a travel medicine provider.",

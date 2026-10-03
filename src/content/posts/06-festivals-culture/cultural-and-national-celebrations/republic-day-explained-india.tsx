@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["republic day", "india", "indian constitution", "national holidays"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Republic Day, January 26, marks the date India's constitution came into force in 1950, turning the country from a dominion into a sovereign republic.",
   summary: "Republic Day is India's national holiday marking January 26, 1950, the date the Constitution of India came into force, formally making India a sovereign democratic republic rather than a British Commonwealth dominion.",

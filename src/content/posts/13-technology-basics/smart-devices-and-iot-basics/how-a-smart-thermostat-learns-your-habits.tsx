@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["smart thermostat", "how smart thermostats work", "feedback loop", "IoT basics", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A smart thermostat doesn't predict your future — it logs your past adjustments and matches new readings against that pattern to anticipate what you'll want next.",
   summary: "A smart thermostat \"learns\" by continuously logging sensor readings and manual temperature adjustments with timestamps, then comparing new readings against that stored pattern to predict and pre-adjust the temperature ahead of when you're expected to want a change.",

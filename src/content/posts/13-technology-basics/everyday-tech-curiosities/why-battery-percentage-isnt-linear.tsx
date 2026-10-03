@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["battery percentage", "lithium-ion", "state of charge", "technology basics", "everyday tech"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Battery percentage is an estimate read off a voltage curve, not a direct measurement — which is why it can stay steady for a long time, then drop fast near empty.",
   summary: "A phone's battery percentage isn't measured directly like water in a tank — it's estimated from the battery's voltage and current, translated through a calibrated curve, because a lithium-ion cell's voltage stays nearly flat through most of its charge and only drops sharply near empty, making the relationship between voltage and remaining charge fundamentally non-linear.",

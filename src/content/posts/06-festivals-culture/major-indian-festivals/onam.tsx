@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["onam", "kerala festivals", "harvest festivals", "indian festivals"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Onam is Kerala's ten-day harvest festival, marking the mythical King Mahabali's annual homecoming and celebrated across religions with flower carpets and feasts.",
   summary: "Onam is a ten-day harvest festival native to the Indian state of Kerala, built around the legend of King Mahabali's yearly return and celebrated widely across religious communities as a shared cultural event, not only a Hindu one.",

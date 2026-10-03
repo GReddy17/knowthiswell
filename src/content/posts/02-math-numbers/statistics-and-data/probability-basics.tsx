@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How to calculate the probability of an event, why independent events like coin flips have no memory, and why a 30% rain forecast doesn't mean it will rain 30% of the day.",
   summary: "Probability is a number from 0 to 1 (or 0% to 100%) that measures how likely an event is, calculated as the number of favorable outcomes divided by the total number of possible outcomes.",

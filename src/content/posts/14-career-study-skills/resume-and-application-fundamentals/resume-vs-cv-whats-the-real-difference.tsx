@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["resume vs cv", "curriculum vitae", "job application", "resume basics", "academic cv"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "A resume is a short, tailored summary of relevant experience; a CV is a comprehensive, chronological record of an entire academic and professional career.",
   summary: "The real difference between a resume and a CV (curriculum vitae) isn't regional spelling — it's purpose and length: a resume is a short, tailored document highlighting relevant experience for one specific role, while a CV is a comprehensive, ever-growing record of a person's full academic and professional history.",

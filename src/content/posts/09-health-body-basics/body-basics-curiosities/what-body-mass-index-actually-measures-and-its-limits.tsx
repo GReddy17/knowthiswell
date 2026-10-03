@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["body mass index", "BMI", "health screening", "health literacy", "population health"],
   date: "2026-08-22",
   updated: "2026-09-30",
+  youtubeShort: true, youtubeLong: true,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "BMI is weight divided by height squared — a fast population-screening ratio that cannot tell the difference between muscle and fat, which is exactly why it has well-documented limits as an individual health measure.",
   summary: "Body Mass Index (BMI) is calculated as weight in kilograms divided by height in meters squared, producing a single number originally designed for population-level health screening and research — it correlates with body fat on average across large groups, but it cannot distinguish muscle mass from fat mass in any one individual, which is the well-documented limitation health agencies themselves publish alongside the measure.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["memory", "psychology", "how memory works", "forgetting curve"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "Memory isn't a recording that plays back unchanged — it's reconstructed each time you recall it, which is why memories can feel vivid and certain while still being partly wrong.",
   summary: "Memory formation involves encoding new information, consolidating it into longer-term storage (often strengthened during sleep), and later retrieving it — a reconstructive process rather than an exact playback, which is why forgetting follows a predictable curve over time and why even confident, vivid memories can contain real inaccuracies.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["panel interview", "job interview", "interview format", "group interview", "interview skills"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "A panel interview tests the same competencies a one-on-one interview does, but also reveals how a candidate manages multiple audiences and reduces individual interviewer bias.",
   summary: "A panel interview — multiple interviewers questioning one candidate at once — exists partly to reduce any single interviewer's individual bias by combining several perspectives on the same answers, and it additionally reveals something a one-on-one interview can't: how a candidate manages attention and communication across multiple people with potentially different priorities at the same time.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cubit", "foot", "yard", "history of measurement", "unit conversion"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Nearly every traditional length unit started as a body-based measurement — a foot, a cubit (forearm), a yard (stride or reach) — before being fixed to an exact, reproducible standard centuries later.",
   summary: "The foot, cubit, and yard all originated as body-based measurements that varied from person to person, and were each eventually standardized against a fixed physical or metric reference — the royal Egyptian cubit around 52.4 cm, the English yard finally fixed in 1959 at exactly 0.9144 meters.",

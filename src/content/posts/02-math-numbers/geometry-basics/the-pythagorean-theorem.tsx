@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How a² + b² = c² lets you find any missing side of a right triangle, and why builders, screen makers, and GPS systems all quietly depend on it.",
   summary: "The Pythagorean theorem states that in any right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides (a² + b² = c²) — a relationship that holds for every right triangle without exception.",

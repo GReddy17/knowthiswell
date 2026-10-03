@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["toilet flush mechanism", "siphon action", "fill valve", "flapper valve", "home plumbing basics"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "A toilet flush isn't sewer suction — it's a self-contained siphon in the trapway, followed by a float-and-valve feedback loop that quietly refills the tank and bowl.",
   summary: "A toilet flushes by briefly creating a siphon inside its own trapway — a physical effect that pulls waste and water up and over the trap once enough water flows through fast enough — and refills afterward through a float-controlled fill valve that shuts itself off the instant the water reaches a set level.",

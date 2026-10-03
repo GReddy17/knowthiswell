@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why cobalt clusters in one African country, oil pools under the Middle East, and lithium sits in South American salt flats — the geology behind uneven resource maps.",
   summary: "Natural resources are distributed unevenly across the world because the geologic processes that create them — ancient plate collisions, sedimentary burial, volcanic activity — only happened in specific places.",

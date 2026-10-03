@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["middle ages", "medieval europe", "feudalism", "dark ages", "european history"],
   date: "2026-08-17",
   updated: "2026-08-17",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-17",
   excerpt: "The \"Dark Ages\" weren't actually dark — the label says more about later historians' bias than about the thousand years it describes.",
   summary: "The Middle Ages (roughly 500-1500 CE) was the period of European history between the fall of the Western Roman Empire and the start of the Renaissance, marked by feudal political organization, the influence of the Church, and — despite the old \"Dark Ages\" label — significant technological and institutional development.",

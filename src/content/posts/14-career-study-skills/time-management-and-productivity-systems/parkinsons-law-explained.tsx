@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["parkinsons law", "time management", "deadlines", "productivity", "task duration"],
   date: "2026-08-30",
   updated: "2026-08-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-30",
   excerpt: "Parkinson's Law says work expands to fill the time allotted to it — a task given a week often takes a week, even if it could genuinely be done in an afternoon.",
   summary: "Parkinson's Law is the observation that work tends to expand to fill the time available for its completion — a task given a generous deadline often stretches to consume all of it, not because the task genuinely requires that long, but because a loose deadline provides no pressure to stop.",

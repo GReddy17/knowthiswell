@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["exam time management", "timed test strategy", "pacing", "test-taking skills", "exam checkpoints"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Budgeting time on a timed exam means reserving review time up front, then checking your pace against set checkpoints — not discovering the clock is a problem near the end.",
   summary: "Budgeting time during a timed exam means setting a per-question pace before you start, reserving a fixed block for reviewing flagged questions, and checking your actual progress against planned checkpoints as you go — a feedback loop that catches pacing drift early enough to correct it, instead of a single silent countdown that only becomes visible once it's nearly too late.",

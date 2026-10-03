@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["wire services", "news agencies", "journalism", "media literacy", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Many outlets running an identical breaking-news paragraph aren't copying each other — they're all running the same wire-service story, word for word, on purpose.",
   summary: "A wire service (or news agency) is an organization that gathers news and distributes it to many other media outlets, which pay to license and republish the content, meaning a single wire story can appear near-identically across dozens of otherwise unrelated news outlets simultaneously.",

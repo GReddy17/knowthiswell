@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["star method", "behavioral interview", "interview technique", "interview questions", "job interview"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "The STAR method structures an interview answer as Situation, Task, Action, Result — it works because it forces a specific real example instead of a vague general claim.",
   summary: "The STAR method is a way of structuring answers to behavioral interview questions in four parts — Situation, Task, Action, Result — that forces the answer to describe one specific, real example instead of a vague general claim about how the candidate 'usually' handles something.",

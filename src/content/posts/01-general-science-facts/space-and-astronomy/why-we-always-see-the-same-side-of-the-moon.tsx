@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["moon", "tidal locking", "astronomy", "orbital mechanics", "far side of the moon"],
   date: "2026-09-22",
   updated: "2026-09-22",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "The Moon isn't frozen in place — it spins on its own axis. It just spins at exactly the same rate it orbits Earth, so the same face stays pointed our way.",
   summary: "From Earth, we only ever see one face of the Moon because its rotation period and its orbital period are locked to the exact same length — about 27.3 days for both. This is called tidal locking, a result of Earth's gravity dragging on a slight bulge in the Moon over billions of years until the Moon's spin matched its orbit. The Moon still rotates; it just rotates in perfect sync, so the far side stays permanently turned away from us, not permanently dark.",

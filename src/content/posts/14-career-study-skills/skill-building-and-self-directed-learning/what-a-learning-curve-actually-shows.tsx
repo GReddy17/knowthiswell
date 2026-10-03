@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["learning curve", "skill acquisition", "power law of practice", "plateau", "self-directed learning"],
   date: "2026-09-03",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "A learning curve plots proficiency against practice — and for nearly every real skill it bends, with fast early gains and slower gains later, rather than rising in a straight line.",
   summary: "A learning curve is a chart of how proficiency changes as practice accumulates. For most real skills it isn't a straight line: gains are steep early on, then progressively smaller for the same amount of added practice, often flattening into plateaus along the way and approaching, but rarely reaching, a performance ceiling. The bend itself is the useful information — it explains why early progress feels fast and later progress feels slow, even when both periods involve real improvement.",

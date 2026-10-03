@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["zero-based budgeting", "budgeting methods", "budgeting basics", "personal finance"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Zero-based budgeting assigns every dollar of income a specific job — spending, saving, or debt repayment — until income minus assigned dollars equals zero, rather than just tracking leftover money.",
   summary: "Zero-based budgeting is a method where every dollar of income is deliberately assigned a job — a spending category, a savings goal, or a debt payment — before the month begins, so that income minus all assignments equals zero. It doesn't mean spending everything; money assigned to savings is still assigned, just to a savings job rather than being left unassigned. The method's value is forcing an explicit decision about every dollar rather than discovering at month's end what's left over.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["landlord responsibilities", "habitability", "fair housing", "renting", "legal documentation how-tos"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Being a landlord comes with legal obligations that exist independently of what a lease says — maintaining habitable conditions, following fair housing rules, and respecting notice requirements before entering a unit chief among them.",
   summary: "Landlord responsibilities are the legal obligations that generally accompany renting out a property to a tenant — most notably maintaining habitable conditions, complying with fair housing/anti-discrimination law, providing proper notice before entering a rented unit, and following the correct legal process for eviction — and while specific rules vary by jurisdiction, these categories of obligation recur widely across rental law systems.",

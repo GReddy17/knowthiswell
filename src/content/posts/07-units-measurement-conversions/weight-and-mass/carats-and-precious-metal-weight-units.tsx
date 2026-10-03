@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["carat", "karat", "troy ounce", "gold", "diamonds", "precious metals"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A diamond's carat measures weight (1 carat = 0.2 g), while gold's karat measures purity out of 24 — two units that sound almost identical but describe completely different physical properties.",
   summary: "The metric carat, used to weigh gemstones, equals exactly 0.2 grams; karat, used for gold, is a purity scale out of 24 parts rather than a unit of weight at all — and precious metals are additionally weighed in troy ounces (≈31.1 g), heavier than the everyday avoirdupois ounce (≈28.35 g).",

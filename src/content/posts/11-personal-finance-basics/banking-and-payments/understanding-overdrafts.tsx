@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["overdraft", "overdraft fees", "NSF fees", "banking basics", "checking accounts"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 61, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "An overdraft happens when a bank chooses to pay a transaction anyway even though your available balance can't cover it — a discretionary courtesy, not an automatic account feature, and one that typically comes with a flat fee per occurrence.",
   summary: "An overdraft occurs when a bank covers a transaction that exceeds your available balance instead of declining it, and because banks generally charge a flat fee per overdraft occurrence rather than a percentage of the shortfall, repeated small overdrafts can add up to a cost far larger than the original shortfall itself.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["rewilding", "trophic cascade", "keystone species", "conservation", "ecosystem restoration"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Rewilding restores ecosystem processes by reintroducing key species — most famously wolves in Yellowstone — rather than managing every detail of a landscape by hand.",
   summary: "Rewilding is a conservation approach that restores natural ecological processes, often by reintroducing a keystone species removed by humans, so the ecosystem regulates itself rather than requiring ongoing intensive human management.",

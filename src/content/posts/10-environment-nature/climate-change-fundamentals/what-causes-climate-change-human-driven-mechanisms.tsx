@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["climate change", "greenhouse gases", "carbon dioxide", "radiative forcing", "global warming"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Human-caused climate change comes down to one measurable mechanism: burning fossil fuels adds CO2 to the atmosphere faster than natural processes remove it, and that extra CO2 traps more outgoing heat.",
   summary: "Climate change today is driven overwhelmingly by human activity — primarily burning fossil fuels and clearing forests — which raises atmospheric concentrations of carbon dioxide and other greenhouse gases well above pre-industrial levels, trapping additional heat that would otherwise radiate back to space.",

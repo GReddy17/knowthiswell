@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["spackle", "caulk", "wall repair", "sealant", "gap filler"],
   date: "2026-09-04",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "Spackle hardens rigid for sandable, still repairs on flat surfaces; caulk stays flexible for moving joints — mixing them up is why so many patches crack.",
   summary: "Spackle and caulk are both gap fillers, but they're built to solve opposite problems: spackle is formulated to harden into a rigid, sandable solid, which makes it ideal for a still nail hole or drywall dent that will never move again, while caulk is formulated to stay flexible and elastic indefinitely, which makes it suited to a joint — like where trim meets a wall — that keeps expanding, contracting, or shifting; using either one where the other belongs is why patches crack or beads peel.",

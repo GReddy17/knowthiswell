@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["screen time", "digital eye strain", "20-20-20 rule", "eye health basics", "blinking"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Staring at a screen measurably reduces how often you blink — a documented mechanism behind digital eye strain that a simple 20-20-20 break habit is designed to counteract.",
   summary: "Extended screen use is associated with digital eye strain, a real, well-documented cluster of symptoms (dryness, fatigue, blurred vision) linked partly to reduced blink rate during screen focus — the widely recommended 20-20-20 rule (every 20 minutes, look at something 20 feet away for 20 seconds) is a simple behavioral habit aimed at interrupting sustained near-focus and encouraging blinking.",

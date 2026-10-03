@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["flooring", "hardwood floors", "laminate flooring", "vinyl flooring", "home renovation"],
   date: "2026-09-17",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "The three floor types aren't ranked best-to-worst — they trade the same three properties (real wood, water resistance, repairability) in different directions.",
   summary: "Hardwood, laminate, and vinyl flooring differ mainly in what they're actually made of and how that material responds to moisture and wear: solid wood can be sanded and refinished but swells with water; laminate is a photographic wood image over a moisture-sensitive fiberboard core; vinyl is fully synthetic and genuinely waterproof but can't be refinished once it's damaged.",

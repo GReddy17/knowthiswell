@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["home security system", "motion sensor", "contact sensor", "glass break sensor", "alarm monitoring"],
   date: "2026-09-12",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "A home security system detects intrusion through specific sensor types — contact, motion, and glass-break — each reacting to a different physical signal, then reporting to a monitoring center.",
   summary: "A home security system isn't one device watching for \"intrusion\" in general — it's a set of sensors, each built to react to a specific physical signal (a door opening, a warm body moving, glass shattering), reporting through a control panel to a monitoring center that decides how to respond.",

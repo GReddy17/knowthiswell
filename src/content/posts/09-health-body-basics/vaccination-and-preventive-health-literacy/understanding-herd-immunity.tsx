@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["herd immunity", "R0", "vaccination coverage", "epidemiology"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Herd immunity is a direct mathematical consequence of a disease's contagiousness — the more contagious a disease, the higher the vaccination coverage needed to stop it from spreading through a population.",
   summary: "Herd immunity occurs when enough of a population is immune to a disease that sustained person-to-person transmission can no longer continue, indirectly protecting those who aren't immune — the exact coverage threshold needed is calculated directly from a disease's basic reproduction number (R0), using the formula 1 minus 1 divided by R0, expressed as a percentage.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["recession", "nber", "business cycle", "two quarters rule", "sahm rule"],
   date: "2026-09-26",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "'Two quarters of shrinking GDP' is a rule of thumb, not the official U.S. definition. A private committee of economists at the NBER decides, looking at jobs and income across the economy, and it usually announces a recession months after it began.",
   summary: "In the United States, recessions are officially dated by the Business Cycle Dating Committee of the National Bureau of Economic Research (NBER), a private, nonprofit research organization. Its definition is 'a significant decline in economic activity that is spread across the economy and lasts more than a few months,' judged on three criteria, depth, diffusion and duration, which the committee treats as somewhat interchangeable. It relies mainly on monthly data such as real personal income less government transfers and nonfarm payroll employment, alongside real consumer spending, household-survey employment, inflation-adjusted manufacturing and trade sales, industrial production, and quarterly GDP and GDI. The popular 'two consecutive quarters of falling real GDP' test is only a rule of thumb: in 2022, first estimates showed two quarters of GDP decline without a recession being declared, while the 2020 downturn lasted only two months and still counted because it was so deep and widespread. The committee dates peaks and troughs after the fact, often many months later, so real-time signals like the Sahm rule, based on rising unemployment, are used to spot recessions sooner.",

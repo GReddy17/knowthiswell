@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["loanwords", "etymology", "borrowed words", "language contact", "vocabulary origins"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "English has borrowed words from more than 350 languages — from French and Latin to Hindi, Arabic, Japanese, and Native American languages — making loanwords the rule in English vocabulary, not the exception.",
   summary: "A loanword is a word one language adopts from another and gradually makes its own — and English has borrowed so extensively, from French and Latin to Hindi, Arabic, Japanese, and Indigenous American languages, that loanwords make up the majority of the English vocabulary rather than a small foreign minority within it.",

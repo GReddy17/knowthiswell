@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["folk dance", "bhangra", "garba", "lavani", "indian dance", "regional traditions"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "India's folk dances number in the hundreds, each tied to a specific community, occasion, or harvest season, distinct from the country's formally codified classical forms.",
   summary: "Folk dances of India are community-rooted, informally transmitted dance traditions tied to a specific region, occasion, or harvest cycle — distinct from the eight formally codified classical dance forms, though the two categories sometimes overlap and influence each other.",

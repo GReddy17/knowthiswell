@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Unlike a mile or a kilogram, a US size 9 shoe has no single fixed definition — which is why every US-to-EU size chart is an approximation, not a conversion.",
   summary: "Shoe and clothing sizes differ fundamentally from the physical unit conversions elsewhere in this topic: there is no single internationally agreed physical definition behind 'US size 9' or 'EU size 42,' so conversions between them are brand-dependent approximations rather than fixed, exact conversion factors.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["lost ID", "identity theft", "identity documents", "legal documentation", "replacement documents"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Losing your ID is a two-part problem — replacing the document, and making sure whoever finds it can't use it to impersonate you in the meantime.",
   summary: "Replacing a lost identity document generally means acting on two tracks at once: requesting a replacement from the specific issuing agency, and taking protective steps (like fraud alerts) in case the lost document is used for identity theft before the replacement process finishes.",

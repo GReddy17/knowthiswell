@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["court summons", "legal notice", "service of process", "civil procedure", "civic documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A court summons is a legal document that starts a real deadline running — ignoring it doesn't make a case disappear, it generally forfeits the chance to respond at all.",
   summary: "A court summons is a formal legal document notifying a person they're being sued or otherwise required to appear or respond in a legal proceeding, and it generally sets a specific, binding response deadline — failing to respond by that deadline can result in a default judgment against the recipient without their side of the case ever being heard.",

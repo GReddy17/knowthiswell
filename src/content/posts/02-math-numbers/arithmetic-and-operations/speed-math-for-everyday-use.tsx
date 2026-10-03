@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Fast, reliable math for checkout-line situations — stacking discounts correctly, comparing unit prices, and estimating tax without a calculator.",
   summary: "Everyday 'speed math' situations — discounts, tax, comparing package sizes — reduce to a handful of repeatable patterns, and the single biggest trap is treating stacked percentage changes as if they simply add together.",

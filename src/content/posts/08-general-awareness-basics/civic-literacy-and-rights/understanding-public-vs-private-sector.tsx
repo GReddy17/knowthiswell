@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["public sector", "private sector", "nonprofit sector", "civics", "economy"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The line between public and private isn't always where people assume — plenty of everyday services are delivered by private companies working under a government contract.",
   summary: "The public sector is government-owned and government-run, funded through taxes and generally accountable to elected officials and the public; the private sector is owned and operated by individuals or companies pursuing profit; a third category, the nonprofit or voluntary sector, is privately run but organized around a mission rather than profit distribution.",

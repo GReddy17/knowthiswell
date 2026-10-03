@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A 'kilo' of storage means two different things depending on whether you're reading a spec sheet or your operating system — and that gap is exactly why a 1TB drive shows up as 931 GB.",
   summary: "Digital storage units stack the same byte-based ladder as any measurement system, but two competing conventions for what counts as a 'kilo' — decimal (1,000) and binary (1,024) — mean the same physical drive reports a different number depending on who's counting.",

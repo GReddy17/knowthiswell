@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["smart doorbell motion detection", "PIR sensor", "how security cameras detect motion", "motion zones", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A smart doorbell doesn't watch constantly for anything unusual — a low-power heat sensor triggers first, then software checks shape and zone before alerting you.",
   summary: "A smart doorbell or camera typically stays in a low-power state until a passive infrared (PIR) sensor detects a change in heat and motion, which wakes the camera so software can check the moving object's size, shape, and location against defined zones, sending an alert only if it passes both filters — a two-stage feedback loop, not constant full analysis.",

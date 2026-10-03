@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["british empire", "east india company", "commonwealth", "decolonization", "world history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "At its early-20th-century peak, the British Empire was the largest empire in recorded history by land area — built through trade, settlement, conquest, and documented systems of forced labor and resistance.",
   summary: "The British Empire was a global network of colonies, protectorates, and dominions that grew from England's first permanent overseas settlements in the early 1600s to become, by the 1920s, the largest empire in recorded history by land area, before undergoing decolonization across the mid-to-late 20th century.",

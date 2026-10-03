@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How exchange rates work as a ratio, why converting there-and-back doesn't return your original amount, and how conversion fees quietly eat into the rate you actually get.",
   summary: "An exchange rate is a ratio expressing how much of one currency equals one unit of another, and the amount you actually receive when converting money is that rate applied to your amount, minus whatever fee or spread the converter charges.",

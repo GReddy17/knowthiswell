@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["first aid kit", "home safety", "emergency preparedness", "wound care supplies"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A well-stocked first aid kit follows a real checklist — wound care, tools, protection, and medications — not a random grab-bag of bandages.",
   summary: "A basic first aid kit, per American Red Cross guidance, is organized around four functions: treating wounds, tools for managing an injury, protective supplies for the responder, and space for any personal medications — each item earns its place by addressing a specific, common home or travel injury.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["metric prefixes", "millimeters", "kilometers", "unit conversion", "measurement"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Every metric length prefix — milli, centi, deci, deka, hecto, kilo — is a fixed power of ten away from the meter, so moving between millimeters and kilometers is just tracking how many decimal places to shift.",
   summary: "Converting between millimeters and kilometers means multiplying or dividing by a power of ten equal to the number of steps between the two prefixes on the metric ladder — six steps of ×10 (a factor of one million) separate a millimeter from a kilometer in either direction.",

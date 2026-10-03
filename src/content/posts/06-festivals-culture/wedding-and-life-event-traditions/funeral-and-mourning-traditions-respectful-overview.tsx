@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["funeral traditions", "mourning customs", "death rites", "cultural traditions"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "A factual, comparative overview of how different religious and cultural traditions mark death and mourning — Hindu cremation rites, Jewish shivah, Christian burial customs, and more.",
   summary: "Funeral and mourning traditions are the documented religious and cultural practices communities use to mark a death and support the bereaved — this overview describes what different traditions actually involve, factually and comparatively, without ranking or judging any of them.",

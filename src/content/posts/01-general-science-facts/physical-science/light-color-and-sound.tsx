@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["light", "sound", "waves", "color", "physics", "pitch and loudness", "decibels"],
   date: "2026-08-16",
   updated: "2026-09-27",
+  youtubeShort: true, youtubeLong: true,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "Why light and sound are both waves, why light travels a million times faster than sound, how color is really just wavelength, and the real difference between pitch and loudness.",
   summary: "Light and sound both travel as waves, but light is an electromagnetic wave that needs no medium while sound is a mechanical wave that needs one — which is why light reaches you almost instantly and sound noticeably lags behind, like in a thunderstorm.",

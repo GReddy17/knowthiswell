@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["stress response", "cortisol", "HPA axis", "fight or flight", "general health literacy"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "The body's stress response evolved to handle short, physical threats — the same hormonal system now activates for non-physical stressors like a work deadline, which is part of why chronic stress affects the body differently than a brief scare.",
   summary: "The body's stress response is coordinated by the hypothalamic-pituitary-adrenal (HPA) axis, which releases cortisol and other hormones to prepare the body for short-term physical demand — a mechanism well-suited to brief physical threats, but one that can remain activated by ongoing, non-physical stressors in a way linked to documented negative health effects when sustained over time.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["health myths", "medical misconceptions", "health literacy", "debunking"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Cracking your knuckles doesn't cause arthritis, you don't lose most of your body heat through your head, and sugar doesn't directly cause hyperactivity — here's what the actual evidence says.",
   summary: "Many widely repeated health claims — that cracking knuckles causes arthritis, that you 'lose most of your heat through your head,' that sugar causes hyperactivity in children, or that you need to 'detox' your body — do not hold up against the actual clinical and physiological evidence, which is well documented by major health agencies.",

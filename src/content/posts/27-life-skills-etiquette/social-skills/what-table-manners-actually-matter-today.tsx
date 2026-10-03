@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["table manners", "dining etiquette", "phone at the table", "business dinner", "place setting", "etiquette"],
   date: "2026-09-27",
   updated: "2026-09-27",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "Most table manners that still matter are about other people: phone away, wait for everyone to be served, chew with your mouth closed, pass instead of reaching. Fork style and elbow rules matter far less.",
   summary: "Table manners that still matter today are the ones that affect the people eating with you, not the ones that test knowledge of formal rules. The most noticed today is phone use: in a 2015 Pew Research Center survey, 88% of U.S. adults said it is generally not OK to use a cellphone during a family dinner. Other manners that still carry weight: waiting until everyone is served (or the host starts) before eating, chewing with your mouth closed, not talking with food in your mouth, passing dishes rather than reaching across people, and keeping your napkin on your lap. The Emily Post Institute's guidance adds practical conventions: pass food counterclockwise (to the right) so dishes don't collide, and remember 'b and d' (bread plate on the left, drink on the right). Rules that matter much less now include American versus continental fork style, which are both correct, and elbows on the table between courses. In business meals and other cultures, the stakes and specifics change, so it's worth watching the host.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["laptop vs desktop", "computer hardware", "TDP", "thermal design", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A laptop isn't a shrunken desktop — it runs the same kind of components deliberately tuned to a much lower power ceiling, which is the real engineering reason it trades away raw performance for battery life.",
   summary: "A laptop and a desktop use fundamentally the same categories of components, but a laptop's cramped case, shared cooling, and reliance on a battery force every component to be tuned to a far lower power ceiling than a desktop's roomier case and constant wall power allow.",

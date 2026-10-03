@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fire extinguisher", "extinguisher class rating", "fire safety", "grease fire", "electrical fire"],
   date: "2026-09-12",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "Fire extinguisher classes (A, B, C, D, K) match specific fuel types, and using the wrong class — like water on a grease fire — can make a fire dramatically worse.",
   summary: "A fire extinguisher's class rating describes which fuel type its agent is actually built to fight, because putting out a fire means interrupting a specific chemical or physical process, and an agent that works perfectly on one fuel type can actively spread or reignite another.",

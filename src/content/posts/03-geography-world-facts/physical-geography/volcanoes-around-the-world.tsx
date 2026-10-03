@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["volcanoes", "plate tectonics", "ring of fire", "physical geography"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why volcanoes cluster along the Pacific Ring of Fire, what actually makes one erupt, and the difference between active, dormant, and extinct.",
   summary: "Volcanoes form mostly at tectonic plate boundaries where magma finds a path to the surface, which is why roughly 75% of the world's active volcanoes ring the Pacific Ocean along a belt geologists call the Ring of Fire.",

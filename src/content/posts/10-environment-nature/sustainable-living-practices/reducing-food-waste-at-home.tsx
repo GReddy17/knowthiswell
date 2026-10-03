@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["food waste", "EPA food recovery hierarchy", "landfill methane", "sustainability", "household waste"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Food waste sent to a landfill doesn't just represent lost meals — it decomposes without oxygen there, producing methane, a greenhouse gas far more potent than the carbon dioxide released if that same food had simply been eaten.",
   summary: "Wasted food carries a double environmental cost: all the water, land, energy, and labor used to grow, process, and transport it are wasted the moment it's discarded, and once in a landfill, food waste decomposes anaerobically (without oxygen) and produces methane, a greenhouse gas roughly 28-36 times more potent than carbon dioxide over a 100-year period.",

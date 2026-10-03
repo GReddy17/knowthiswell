@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["financial goals", "short-term goals", "long-term goals", "personal finance basics", "goal setting"],
   date: "2026-08-22",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Financial goals are typically grouped by time horizon — short-term (under a year), medium-term (one to five years), and long-term (five-plus years) — because the time horizon determines how the money for that goal should be saved or invested.",
   summary: "Setting financial goals means defining a specific target amount and timeframe, then grouping goals by how soon the money is needed (short, medium, or long term), since the appropriate savings or investment approach differs sharply based on that timeframe.",

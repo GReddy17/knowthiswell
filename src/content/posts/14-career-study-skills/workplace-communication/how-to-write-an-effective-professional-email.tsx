@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["professional email", "email etiquette", "workplace communication", "business writing", "email structure"],
   date: "2026-09-02",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "An effective professional email states its purpose in the first line and ends with one specific, unambiguous request — everything in between exists only to support those two lines.",
   summary: "An effective professional email works by putting the purpose and the requested response where a skimming reader will actually see them — in the first line and the last — rather than making the reader dig through the middle to figure out why the message was sent or what to do about it.",

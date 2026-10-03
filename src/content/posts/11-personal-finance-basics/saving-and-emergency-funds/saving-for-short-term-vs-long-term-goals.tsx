@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["savings goals", "short-term savings", "long-term savings", "personal finance basics", "goal planning"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A short-term goal, like a vacation next year, and a long-term goal, like a house down payment in ten years, generally call for different account types because of how soon the money needs to be accessible and how much risk it can safely carry.",
   summary: "Saving for a short-term goal (typically under 3 years) generally favors accounts that keep the money liquid and stable, such as a savings account, while a long-term goal (many years out) has more room to consider accounts or vehicles that accept short-term fluctuation in exchange for potentially higher long-run growth — the deciding factor is the time horizon and how much the money can afford to fluctuate before it's needed.",

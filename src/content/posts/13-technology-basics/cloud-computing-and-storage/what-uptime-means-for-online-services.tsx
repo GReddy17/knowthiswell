@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["uptime explained", "server failover", "redundancy", "downtime", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Uptime is the measured percentage of time a service actually responds as expected — and the gap between 99% and 99.99% is far bigger than the numbers suggest.",
   summary: "Uptime is the percentage of time an online service is available and functioning as expected, typically achieved and measured through redundant servers and automatic failover rather than any single machine simply never failing.",

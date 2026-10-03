@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["english language", "old english", "middle english", "etymology", "language history", "great vowel shift"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "English moved through four distinct stages — Old, Middle, Early Modern, and Modern — reshaped along the way by Viking settlers, Norman conquerors, and centuries of borrowing.",
   summary: "English didn't begin as one fixed language and stay that way — it started as a West Germanic dialect brought to Britain in the 5th century CE, then was reshaped in turn by Old Norse, Norman French, and a continuous stream of borrowed vocabulary into the language spoken today.",

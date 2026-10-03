@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["loan default", "delinquency", "collections", "credit score", "personal finance basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Default isn't a single event — it's the end point of a defined sequence that starts with a missed payment, moves through delinquency reporting, and only becomes default after a lender-defined number of missed payments.",
   summary: "Default is the formal status a loan enters after a borrower fails to make payments for a lender-defined period (often 90 to 270 days depending on the loan type), following an earlier stage called delinquency that begins with the very first missed payment — and each stage carries its own escalating consequences, from late fees and credit score damage to collections activity, acceleration of the full balance, and in some cases lawsuits or asset seizure.",

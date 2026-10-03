@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why more than half the world now lives in cities, which regions are urbanizing fastest, and why urban growth isn't universal — some rural areas are growing too.",
   summary: "Urbanization is the ongoing shift of the world's population from rural to urban areas, which passed the 50% global mark around 2007-2008 and is projected by the UN to reach roughly 68% by 2050, though the pace varies enormously by region.",

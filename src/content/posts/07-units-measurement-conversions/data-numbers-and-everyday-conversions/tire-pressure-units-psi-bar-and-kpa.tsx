@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A US tire sticker reads '32 psi'; a European one reads '2.2 bar' — same pressure, two regional unit conventions, and a fixed conversion factor between them.",
   summary: "Tire pressure is measured in psi (pounds per square inch) in the US and predominantly in bar or kilopascals (kPa) elsewhere, all measuring the identical physical quantity — force per unit area — related to each other by fixed conversion factors, exactly like any other unit pair in this topic.",

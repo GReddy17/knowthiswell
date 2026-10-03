@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["food safety", "food storage", "danger zone temperature", "cross-contamination", "foodborne illness prevention"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Bacteria multiply fastest between 40°F and 140°F — the 'danger zone' that determines nearly every food-safety storage and cooking rule.",
   summary: "Food hygiene centers on limiting the time perishable food spends in the temperature 'danger zone' (roughly 40°F to 140°F / 4°C to 60°C) where bacteria multiply fastest, alongside preventing cross-contamination between raw and ready-to-eat food — a small set of mechanisms behind most specific food-safety guidance.",

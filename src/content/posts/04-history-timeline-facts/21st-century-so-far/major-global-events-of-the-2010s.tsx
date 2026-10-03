@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["2010s history", "global events", "arab spring", "tohoku earthquake", "brexit"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The decade's defining global events, from the Arab Spring to the 2011 Japan earthquake and tsunami and the Brexit referendum, stated factually with sourced figures.",
   summary: "The 2010s were marked by the Arab Spring protest movements beginning in 2010-2011, the 2011 Japan earthquake, tsunami, and Fukushima nuclear disaster, and the 2016 Brexit referendum, alongside the mainstreaming of smartphones and social media worldwide.",

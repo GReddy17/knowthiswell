@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["treaties", "international law", "ratification", "diplomacy", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A treaty isn't final the moment negotiators sign it — signature and ratification are two separate steps, and a country can sign without ever completing the second one.",
   summary: "An international treaty typically moves through negotiation, signature, and ratification — with signature signaling a country's intent to be bound but ratification, usually requiring separate domestic legislative approval, being the step that actually creates a binding legal obligation under international law.",

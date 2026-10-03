@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the immune system's layered defenses — barriers, innate response, and adaptive memory — fight infection, and how herd immunity depends on a disease's contagiousness.",
   summary: "The immune system defends the body in layers, from physical barriers to a fast general response to a slower but highly specific response that remembers pathogens it has encountered before.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["plastic pollution", "microplastics", "ocean gyres", "marine debris", "ocean pollution"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Ocean plastic doesn't biodegrade the way food waste does — it photodegrades into ever-smaller microplastic fragments that persist for centuries, which is why the 'Great Pacific Garbage Patch' is mostly not visible floating trash.",
   summary: "Plastic entering the ocean breaks down through sunlight-driven photodegradation into progressively smaller microplastic fragments rather than decomposing biologically, which is why large ocean gyres accumulate plastic as a diffuse soup of fragments rather than a solid visible island of trash.",

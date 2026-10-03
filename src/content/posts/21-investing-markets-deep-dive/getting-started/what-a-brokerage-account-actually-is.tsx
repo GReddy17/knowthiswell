@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["brokerage account", "how to start investing", "SIPC insurance", "investing basics"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "A brokerage account isn't a bank account with a different name — it's what actually lets you own stocks, bonds, and funds in your own name, connected to the exchanges where they trade.",
   summary: "A brokerage account is an account held at a licensed brokerage firm that holds both cash and securities registered in your name, and connects to stock exchanges so you can place buy and sell orders — distinct from a bank account, which only ever holds cash, and protected (within limits) by SIPC coverage against the brokerage's failure, though not against market losses.",

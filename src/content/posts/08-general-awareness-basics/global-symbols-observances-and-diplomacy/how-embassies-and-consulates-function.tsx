@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["embassies", "consulates", "diplomacy", "Vienna Convention", "foreign missions"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "An embassy and a consulate aren't the same thing wearing two names — they're legally distinct missions with different functions, different treaty protections, and often different physical locations within the same host country.",
   summary: "An embassy is a country's official political mission to a host country's national government, located in the capital, while a consulate is a separate mission focused on serving citizens and issuing visas, often located in other major cities — the two are governed by different treaties and serve different core functions.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["asking for a raise", "salary negotiation", "compensation review", "merit increase", "career growth"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Asking for a raise effectively means timing the request around the compensation budget cycle and framing it around demonstrated value, not personal need.",
   summary: "Asking for a raise effectively means two things working together: timing the request before the compensation budget for the cycle is already committed, and framing it around documented impact and market value rather than personal financial need — because most managers operate inside a fixed pool of raise money they don't fully control.",

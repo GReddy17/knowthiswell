@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["sea level rise", "thermal expansion", "ice sheet melt", "coastal flooding", "NOAA"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Sea levels are rising for two combined reasons: warming ocean water physically expands, and melting land ice adds new water — NOAA satellite data measures the current global average rate directly.",
   summary: "Global sea level rise comes from two combined physical mechanisms — thermal expansion of warming ocean water and the addition of new water from melting land-based ice sheets and glaciers — and satellite altimetry currently measures the global average rate at a little over 4 millimeters per year, an increase from a slower rate throughout most of the 20th century.",

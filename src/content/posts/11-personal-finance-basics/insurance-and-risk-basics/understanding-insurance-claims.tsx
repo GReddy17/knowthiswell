@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["insurance claims", "claims adjuster", "premiums", "deductible", "policy limits"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Filing an insurance claim follows a fairly consistent sequence across policy types — reporting the loss, an adjuster investigating and valuing it, and a settlement bounded by the policy's deductible and limits — and understanding that sequence explains why claims sometimes get denied or paid less than expected.",
   summary: "An insurance claim moves through a defined sequence: the policyholder reports the loss, a claims adjuster investigates and documents it, the loss is evaluated against the specific policy's covered perils and exclusions, and any payout is calculated after subtracting the deductible and is capped by the policy's coverage limits — a claim can be reduced, delayed, or denied at any of these steps depending on what the investigation finds.",

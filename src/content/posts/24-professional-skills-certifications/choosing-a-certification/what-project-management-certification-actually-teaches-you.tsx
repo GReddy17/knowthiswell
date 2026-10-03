@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["project management", "PMP", "certification", "career skills"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "A project management certification isn't really about the exam — it verifies you know a standardized vocabulary and process framework that lets you coordinate a project the same way across almost any employer or industry.",
   summary: "Project management certification, most commonly PMI's Project Management Professional (PMP) credential, verifies knowledge of a standardized framework for planning, executing, and closing projects — covering scope, schedule, budget, risk, and stakeholder management — using a shared vocabulary that lets certified project managers coordinate work consistently across industries rather than reinventing process at every new job.",

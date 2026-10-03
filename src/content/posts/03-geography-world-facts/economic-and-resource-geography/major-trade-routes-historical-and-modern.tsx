@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How mountain passes, monsoon winds, and narrow straits shaped the Silk Road and still bottleneck 90% of world trade through the same handful of chokepoints today.",
   summary: "Trade routes, from the ancient Silk Road to modern container shipping lanes, form where physical geography — coastlines, straits, mountain passes, and wind patterns — makes moving goods most efficient.",

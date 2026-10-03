@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["traditional dress", "kimono", "hanbok", "kilt", "world clothing"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Japanese kimono, Korean hanbok, Scottish kilt, and Ghanaian kente cloth are all traditional garments still actively worn today — for special occasions rather than daily life, in most cases.",
   summary: "Traditional attire around the world spans an enormous range of garments — the Japanese kimono, Korean hanbok, Scottish kilt, Ghanaian kente cloth, and countless others — most of which remain actively worn today, typically for holidays, ceremonies, and formal occasions rather than daily life.",

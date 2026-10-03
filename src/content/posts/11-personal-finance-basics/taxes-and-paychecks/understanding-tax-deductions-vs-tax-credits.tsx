@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["tax deductions", "tax credits", "taxable income", "marginal rate", "tax literacy"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A tax deduction only saves you a fraction of its face value — a tax credit saves you the full dollar amount, which is why the two aren't remotely equivalent even at the same headline number.",
   summary: "A tax deduction reduces the income subject to tax, so its real dollar value equals the deduction amount multiplied by your marginal tax rate; a tax credit reduces the tax bill itself dollar for dollar, so a $1,000 credit is always worth more than a $1,000 deduction.",

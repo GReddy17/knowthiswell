@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["grammar", "punctuation", "commas", "apostrophes", "semicolons", "writing"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The punctuation marks that actually cause confusion — commas, semicolons, colons, and apostrophes — explained by what job each one does, not a giant rule list to memorize.",
   summary: "Most punctuation marks each do one specific job — separating, joining, introducing, or showing possession — and most punctuation mistakes come from using the wrong mark for the job, not from not knowing any rules at all.",

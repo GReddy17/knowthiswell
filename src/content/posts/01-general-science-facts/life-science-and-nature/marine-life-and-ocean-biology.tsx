@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How ocean depth zones shape where marine life can survive, and why sunlight — not just pressure or cold — is the real limiting factor.",
   summary: "The ocean is organized into depth zones based mainly on how much sunlight penetrates, and that single factor governs where photosynthetic life, and everything that depends on it, can survive.",

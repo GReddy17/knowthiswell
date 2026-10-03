@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["video buffering", "streaming", "adaptive bitrate", "technology basics", "everyday tech"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Buffering happens when a video app's download rate can't keep up with its playback rate — a reservoir running dry, not a mysterious app failure.",
   summary: "A video buffers when the rate at which data is downloading falls behind the rate at which the video is playing, draining a temporary reservoir of stored video called the buffer faster than it can refill — and streaming apps try to prevent this first by quietly lowering video quality before ever pausing playback.",

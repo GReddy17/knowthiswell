@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why the pH scale is logarithmic, what makes a substance an acid or a base, and why lemon juice, soap, and stomach acid all sit at very different points on it.",
   summary: "pH measures how many free hydrogen ions are in a solution on a logarithmic scale from 0 to 14, with acids below 7 and bases above 7.",

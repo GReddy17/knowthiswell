@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["diplomatic titles", "protocol", "ambassador", "envoy", "diplomacy basics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Ambassador, envoy, and consul aren't interchangeable diplomatic titles — each marks a distinct rank and role defined by international convention.",
   summary: "Diplomatic titles like ambassador, envoy, chargé d'affaires, and consul each correspond to a specific formal rank or function defined largely by the Vienna Convention on Diplomatic Relations, and diplomatic protocol — the accepted order of precedence and formal courtesies between officials — exists to prevent rank disputes from becoming genuine diplomatic incidents.",

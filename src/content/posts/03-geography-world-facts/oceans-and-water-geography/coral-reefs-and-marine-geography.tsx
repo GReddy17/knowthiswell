@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How coral reefs form, why they support roughly a quarter of all marine species from under 1% of the ocean floor, and what actually happens during coral bleaching.",
   summary: "A coral reef is a living limestone structure built over centuries by colonies of tiny animals called polyps, which secrete calcium carbonate skeletons and rely on symbiotic algae for most of their energy.",

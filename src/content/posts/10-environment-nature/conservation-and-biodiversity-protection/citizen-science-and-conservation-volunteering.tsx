@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["citizen science", "conservation volunteering", "biodiversity monitoring", "community science"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Citizen science lets ordinary volunteers collect real research-grade data at a scale professional scientists could never cover alone — species counts spanning entire continents, gathered one observation at a time.",
   summary: "Citizen science is the practice of non-professional volunteers collecting or analyzing scientific data, often coordinated through structured platforms, giving researchers geographic and temporal coverage that would be impossible to achieve with professional scientists alone.",

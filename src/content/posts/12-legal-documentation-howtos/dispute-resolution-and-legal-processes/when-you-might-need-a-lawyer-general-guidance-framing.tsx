@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["hiring a lawyer", "legal help", "when to get an attorney", "legal decision-making"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Not every legal situation needs a lawyer — but stakes, complexity, and irreversibility are the three questions worth asking before deciding either way.",
   summary: "Deciding whether a situation calls for a licensed attorney generally comes down to three factors — how much is at stake, how legally complex the matter is, and how reversible a mistake would be — since low-stakes, simple, and reversible situations are often manageable without one, while high-stakes, complex, or hard-to-undo situations usually are not.",

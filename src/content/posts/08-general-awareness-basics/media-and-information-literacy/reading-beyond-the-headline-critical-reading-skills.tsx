@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["critical reading", "headlines", "media literacy", "journalism", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A headline and the article underneath it are often written by two different people with two different jobs — which is exactly why a headline can technically be accurate while still misleading.",
   summary: "Critical reading of news means distinguishing a headline (often written by an editor for attention and clicks, separately from the reporter) from the full article's actual content and caveats, checking sourcing and quotes in context, and noticing when a claim is presented with more certainty than the underlying evidence actually supports.",

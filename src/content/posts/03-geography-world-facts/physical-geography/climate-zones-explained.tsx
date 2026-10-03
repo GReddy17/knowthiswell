@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["climate zones", "koppen", "physical geography", "latitude"],
   date: "2026-08-17",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-17",
   excerpt: "Why climate, not political borders, is what actually decides where rainforests, deserts, and tundra show up on the map.",
   summary: "Climate zones are regions with consistent long-term temperature and precipitation patterns, driven mainly by latitude, elevation, and distance from oceans — the widely used Koppen system sorts the whole planet into five main groups.",

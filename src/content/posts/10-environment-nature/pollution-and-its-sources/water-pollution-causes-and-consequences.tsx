@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["water pollution", "eutrophication", "nonpoint source pollution", "dead zones", "water quality"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Most water pollution today doesn't come from a single identifiable pipe — it comes from nutrient runoff spread across entire watersheds, which triggers algal blooms and oxygen-starved 'dead zones' far downstream.",
   summary: "Water pollution splits into point-source pollution (a single identifiable discharge, like a factory outfall pipe) and nonpoint-source pollution (diffuse runoff from farms, lawns, and streets across a whole watershed) — the latter is now the larger driver of major consequences like eutrophication and dead zones.",

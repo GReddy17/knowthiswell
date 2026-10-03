@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["frozen pipes", "winter maintenance", "plumbing", "water expansion", "home maintenance"],
   date: "2026-09-12",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 86, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "A frozen pipe doesn't burst where the ice is — it bursts wherever trapped pressure builds up between the ice plug and a closed faucet, often far from the freeze itself.",
   summary: "Water is one of the few common substances that expands, not contracts, when it freezes — about 9% by volume. Inside a closed pipe, that expansion has nowhere to go, and continued freezing keeps building pressure between the ice blockage and whatever's sealed on the other side, until something gives, usually not at the ice itself but at a weaker point in the pipe wall some distance away.",

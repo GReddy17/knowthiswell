@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["headache", "migraine", "warning signs", "when to see a doctor", "neurological symptoms"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Most headaches are common and not dangerous, but certain warning-sign combinations — sudden severe onset, neurological symptoms, or head injury — are consistently flagged by health agencies as reasons to seek urgent care.",
   summary: "The overwhelming majority of headaches are primary headaches (like tension headaches or migraines) that aren't signs of a serious underlying problem, but health agencies including the NHS and CDC consistently identify a specific set of warning-sign combinations — such as sudden severe onset ('worst headache of your life'), headache with neurological symptoms, or headache after a head injury — as reasons to seek urgent medical evaluation rather than self-manage.",

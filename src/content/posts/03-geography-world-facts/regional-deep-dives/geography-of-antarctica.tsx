@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Antarctica's ice sheet, its status as Earth's largest desert, and how a continent with no government or permanent residents is actually run.",
   summary: "Antarctica is Earth's fifth-largest continent, almost entirely covered by an ice sheet and governed cooperatively by treaty rather than by any single nation.",

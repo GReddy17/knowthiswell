@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["recipe conversion", "cooking measurements", "volume vs weight", "scaling recipes"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Most of the world weighs flour in grams; the US scoops it by the cup — and that's a bigger source of recipe error than any single unit-conversion factor.",
   summary: "Converting a recipe between countries means handling two separate problems at once: converting the units themselves (cups to milliliters, ounces to grams) and converting between measuring by volume (the US convention) and measuring by weight (the convention almost everywhere else), which is the more consequential difference for baking accuracy.",

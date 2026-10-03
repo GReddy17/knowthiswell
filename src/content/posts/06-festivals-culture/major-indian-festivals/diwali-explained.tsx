@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["diwali", "hindu festivals", "festival of lights", "indian festivals"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Diwali is the five-day Hindu festival of lights marking the victory of light over darkness, celebrated with lamps, family gatherings, and sweets.",
   summary: "Diwali (Deepavali) is a five-day Hindu festival of lights, celebrated by lighting oil lamps and candles, that marks the symbolic victory of light over darkness and good over evil.",

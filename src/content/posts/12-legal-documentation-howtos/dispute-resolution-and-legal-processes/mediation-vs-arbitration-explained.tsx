@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["mediation", "arbitration", "alternative dispute resolution", "ADR", "settling disputes"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Mediation and arbitration are both alternatives to a lawsuit, but they work in opposite ways: one keeps the decision with the parties, the other hands it to a third party.",
   summary: "Mediation and arbitration are the two most common forms of alternative dispute resolution (ADR) — mediation uses a neutral facilitator to help two sides reach their own voluntary agreement, while arbitration uses a neutral decision-maker who hears both sides and issues a ruling that is typically binding, much like a private, simplified trial.",

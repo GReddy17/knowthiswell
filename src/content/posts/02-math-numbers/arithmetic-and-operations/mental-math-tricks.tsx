@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Mental math shortcuts like the ×11 trick and near-100 multiplication explained with the algebra that actually makes them work, plus where they break down.",
   summary: "Mental math tricks aren't memorized magic — each one is the distributive property or place value rearranged into a shortcut that's faster to run in your head than the standard written method.",

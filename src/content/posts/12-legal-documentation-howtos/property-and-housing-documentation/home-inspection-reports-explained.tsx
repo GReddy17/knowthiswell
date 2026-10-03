@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["home inspection", "real estate", "property condition", "contingency", "legal documentation how-tos"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A home inspection report is a documented snapshot of a property's condition at one moment in time — it's not a guarantee, not a pass/fail grade, and not a substitute for specialized inspections it explicitly doesn't cover.",
   summary: "A home inspection report is a written record of a licensed (or otherwise qualified) inspector's visual examination of a property's major systems and components — structure, roof, electrical, plumbing, HVAC — organized by system and typically flagging issues by severity, and it exists to inform a buyer's decision, not to certify the home as defect-free.",

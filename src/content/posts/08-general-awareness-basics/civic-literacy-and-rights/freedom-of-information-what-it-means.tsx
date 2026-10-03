@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["freedom of information", "government transparency", "public records", "civics", "FOIA"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Freedom of information laws give the public a real, legally enforceable right to government records — but that right almost always comes with a defined list of exemptions.",
   summary: "Freedom of information laws give members of the public a legal right to request and receive records held by government bodies, subject to specific, defined exemptions (such as national security, ongoing law enforcement investigations, or personal privacy) that agencies can invoke to withhold particular records or portions of them.",

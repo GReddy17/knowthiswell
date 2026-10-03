@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["certifications", "career development", "credentials", "professional skills"],
   date: "2026-09-21",
   updated: "2026-09-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-21",
   excerpt: "When two certifications claim to cover the same ground, the real difference usually shows up in who actually recognizes each one, not in the course description.",
   summary: "Choosing between competing certifications in the same field generally comes down to checking a small set of concrete factors rather than marketing claims — per U.S. Bureau of Labor Statistics occupational guidance, the most reliable signals are whether employers in your specific target role actually list or prefer that credential, whether the issuing organization is an established, recognized body in the field, and whether the total cost and time investment (including any recertification requirements) fit realistic constraints.",

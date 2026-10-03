@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["circuit overload", "overloaded circuit", "continuous load", "wire heating", "home electrical safety"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Overloading a circuit forces more current through the wire than it's rated for, and the resulting heat rises with the square of the current, not in a straight line with it.",
   summary: "Overloading a circuit means drawing more current through it than the wire is rated to carry, and because a wire's resistive heating scales with the square of the current rather than in a straight line, even a moderate overload can generate disproportionately more heat than the numbers alone might suggest.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["public wifi", "network security", "https", "packet sniffing", "cybersecurity basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Public WiFi is riskier because strangers share the same network, not because a password requirement is missing — what actually protects your data in transit is HTTPS encryption, regardless of the network.",
   summary: "Public WiFi is riskier than a home network mainly because many unrelated, unvetted people share the same network, making it easier for someone on that network to observe unencrypted traffic — what actually protects data in transit is whether a site or app uses HTTPS encryption, not whether the network itself required a password.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["christmas", "christian festivals", "indian festivals", "global festivals"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Christmas marks the Christian celebration of Jesus Christ's birth on December 25, observed with distinct regional customs both across India and worldwide.",
   summary: "Christmas is the Christian festival commemorating the birth of Jesus Christ, observed on December 25 by most Western churches, with customs that vary widely both within India's diverse Christian communities and across the world.",

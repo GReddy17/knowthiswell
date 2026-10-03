@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["circular economy", "waste reduction", "sustainable design", "resource efficiency", "Ellen MacArthur Foundation"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "The circular economy is a design framework, not just a recycling slogan — it means designing products from the start so materials stay in use instead of becoming waste.",
   summary: "The circular economy is a framework, formalized by the Ellen MacArthur Foundation, for designing products and systems around three principles: eliminating waste and pollution by design, keeping materials in use at their highest value, and regenerating natural systems — replacing the traditional linear take-make-dispose model.",

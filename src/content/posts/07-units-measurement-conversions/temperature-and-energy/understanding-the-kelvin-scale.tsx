@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Kelvin doesn't use degrees and never goes negative, because it's anchored to absolute zero — the coldest temperature physically possible, not an arbitrary reference point.",
   summary: "The Kelvin scale measures temperature from absolute zero, the point where atomic motion theoretically stops, which is why Kelvin values are never negative and why converting from Celsius is just addition — no scaling needed.",

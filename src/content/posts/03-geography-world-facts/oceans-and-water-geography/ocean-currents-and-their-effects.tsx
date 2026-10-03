@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What drives ocean currents — wind and density, not tides — how the Gulf Stream keeps Western Europe mild, and how a 1992 rubber duck spill helped map the Pacific.",
   summary: "Ocean currents are large-scale, semi-permanent flows of seawater driven mainly by wind at the surface and by temperature and salinity differences (thermohaline circulation) at depth, and they redistribute heat around the entire planet.",

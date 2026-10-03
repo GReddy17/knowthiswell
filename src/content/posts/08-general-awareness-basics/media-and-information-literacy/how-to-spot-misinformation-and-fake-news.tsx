@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["misinformation", "fake news", "media literacy", "fact-checking", "critical thinking"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 86, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Spotting misinformation isn't about instinct — it's a repeatable checklist: check the source, check the date, check who else is reporting it, and check what the actual evidence says.",
   summary: "Misinformation spreads because it's designed to trigger a fast emotional reaction before a reader slows down to check the source, the date, and the evidence — a short, repeatable verification habit catches most of it before it's shared.",

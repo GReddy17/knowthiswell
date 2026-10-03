@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["FIRE movement", "financial independence", "withdrawal rate", "Trinity study", "early retirement"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "FIRE math rests on one number: a withdrawal multiple derived from historical research, which estimates how large a portfolio needs to be before withdrawals from it can plausibly last decades.",
   summary: "Financial Independence, Retire Early (FIRE) is built around estimating a target portfolio size — typically a multiple of annual expenses derived from historical safe-withdrawal-rate research — that could theoretically support those expenses indefinitely through investment withdrawals, though the underlying research carries well-documented assumptions and limitations.",

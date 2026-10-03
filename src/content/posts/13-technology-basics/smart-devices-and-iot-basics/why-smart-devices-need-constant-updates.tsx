@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["smart device updates", "firmware updates", "why do smart devices need updates", "IoT security", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A smart device that still turns on isn't the same as one that's still secure — updates close specific, discovered flaws that never fix themselves.",
   summary: "Smart devices need frequent software updates because newly discovered security flaws in their firmware only get closed when a manufacturer writes a fix and the device actually receives, verifies, and installs it — a device that never updates keeps every known flaw open indefinitely, even while it continues to function normally.",

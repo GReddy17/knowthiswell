@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["dividends", "dividend yield", "ex-dividend date", "total return", "investing"],
   date: "2026-09-25",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "A dividend is a company paying out part of its value in cash, and the share price typically drops by about that amount on the ex-dividend date. Dividends are one part of total return, not free money on top of it.",
   summary: "A dividend is a distribution of a company's earnings to shareholders, declared by its board of directors with a record date and a payment date; only investors who own the stock before the ex-dividend date receive it, per the SEC's Investor.gov. Because cash leaves the company, the share price typically falls by roughly the dividend amount on the ex-dividend date, so a dividend converts part of an investment's value into cash rather than adding value on top of it. Dividends are not guaranteed and can be cut, a very high yield can signal that the price has fallen on bad news, and in the U.S. dividends are taxable in the year received, with qualified dividends taxed at lower capital-gains rates, per IRS Topic 404. This article is general education, not personalized investment advice.",

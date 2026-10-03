@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["carbon footprint", "greenhouse gas emissions", "EPA emission factors", "personal emissions", "climate change"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A carbon footprint is just a unit conversion: multiply an activity (miles driven, kWh used) by a published emission factor to get the equivalent kilograms of CO2 that activity produced.",
   summary: "A carbon footprint estimates the total greenhouse gas emissions caused by an individual's or organization's activities, calculated by multiplying each activity's quantity by a published, activity-specific emission factor and expressing the result in a common unit — CO2-equivalent.",

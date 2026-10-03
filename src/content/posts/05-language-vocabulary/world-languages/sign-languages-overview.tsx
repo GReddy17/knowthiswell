@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["sign language", "asl", "bsl", "deaf culture", "linguistics"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Sign languages are complete, independent languages with their own grammar — not gestured versions of the local spoken language, and there is no single universal sign language.",
   summary: "Sign languages are full natural languages, with grammar and vocabulary built from handshape, movement, location, palm orientation, and facial expression rather than sound — and there are hundreds of distinct sign languages worldwide, most not mutually intelligible and not derived from the spoken language of the surrounding hearing community.",

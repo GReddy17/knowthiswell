@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the heart, blood, and blood vessels work together to deliver oxygen throughout the body, and what cardiac output and blood pressure numbers actually mean.",
   summary: "The circulatory system uses the heart as a pump to push about 5 liters of blood through arteries, veins, and capillaries, delivering oxygen and nutrients while carrying away waste.",

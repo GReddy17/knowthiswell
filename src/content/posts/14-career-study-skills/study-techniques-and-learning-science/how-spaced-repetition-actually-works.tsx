@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["spaced repetition", "study techniques", "memory science", "how to study", "learning science"],
   date: "2026-08-30",
   updated: "2026-08-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 87, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-30",
   excerpt: "Spaced repetition works by reviewing information right before you're about to forget it, which strengthens memory more than reviewing it while it's still fresh.",
   summary: "Spaced repetition is a study method that spreads review sessions out over increasing intervals of time, timed to hit just before you'd naturally forget the material — which strengthens long-term memory far more than reviewing the same material repeatedly in one sitting.",

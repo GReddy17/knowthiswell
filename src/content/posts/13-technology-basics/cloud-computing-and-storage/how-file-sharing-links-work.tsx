@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["file sharing links", "shareable link", "how sharing links work", "link permissions", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A file-sharing link doesn't move the file to you — it's a token pointing back to one stored copy, checked against permissions every single time it's opened.",
   summary: "A file-sharing link is a unique web address that points back to one file stored in a provider's cloud storage, granting access according to permissions the file's owner set, checked again each time the link is opened.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how to apologize", "apology", "sincere apology", "non-apology", "repairing relationships", "communication skills"],
   date: "2026-09-30",
   updated: "2026-09-30",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-30",
   excerpt: "An apology lands when it names what you did and owns it, then offers to fix it. Research on 755 people found that taking responsibility mattered most and asking for forgiveness mattered least.",
   summary: "An effective apology is built from specific parts, and they are not equally important. In a 2016 study of 755 people, Lewicki, Polin and Lount tested six components of an apology: expressing regret, explaining what went wrong, acknowledging responsibility, declaring repentance, offering repair and requesting forgiveness. Acknowledging responsibility was rated most important, an offer of repair came second, and requesting forgiveness was rated least important; apologies containing more of the components were rated more effective. Timing matters too: Frantz and Bennigson (2005) found apologies were more satisfying when they came after the hurt person had a chance to be heard, because an early apology can feel like a way to close the subject. Non-apologies such as 'I'm sorry if you were offended' fail because they move responsibility onto the listener's reaction. Apologizing is also harder than it looks for a reason: Okimoto, Wenzel and Hedrick (2013) found that refusing to apologize temporarily boosted people's feelings of power and self-worth. Norms around how often and how formally to apologize vary by culture, so the structure matters more than any fixed script.",

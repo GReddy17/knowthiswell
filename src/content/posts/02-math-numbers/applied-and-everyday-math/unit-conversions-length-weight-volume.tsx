@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Every unit conversion is the same operation — multiply by a fixed conversion factor — whether you're converting length, weight, volume, or anything else.",
   summary: "Converting between units of length, weight, or volume means multiplying the original value by a fixed conversion factor that expresses how many of the new unit equal one of the old unit.",

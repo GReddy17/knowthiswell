@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["annual checkup", "preventive care", "health screening", "wellness visit"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "An annual checkup isn't about waiting until something feels wrong — it's a scheduled opportunity to catch problems (high blood pressure, blood sugar changes, cholesterol) that often have no symptoms until they're advanced.",
   summary: "An annual health checkup is a routine, scheduled visit to a primary care provider for preventive screening and baseline tracking — distinct from an urgent-care or emergency visit, which happens only after a specific problem appears — and its value comes largely from catching silent, symptomless conditions like hypertension and high cholesterol before they cause complications.",

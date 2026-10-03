@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["passport", "identity documents", "travel documents", "legal documentation", "government ID"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A passport is a government-issued claim about your identity and nationality that other countries agree to trust — the application process exists to build a paper trail solid enough to back that claim.",
   summary: "A passport is an official government document that certifies a person's identity and nationality for international travel; getting one generally means proving identity and citizenship with underlying documents, then having a government agency issue a booklet or card that other countries' border authorities agree to recognize.",

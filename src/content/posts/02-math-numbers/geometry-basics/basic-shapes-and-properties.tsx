@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What makes a shape a triangle, square, or pentagon, how sides and angles define every polygon, and why a square is secretly a rectangle.",
   summary: "A shape's properties — its number of sides, vertices, and angles — determine what it's called and what mathematical rules it must follow, including a fixed, predictable interior angle total.",

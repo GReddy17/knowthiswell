@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How DNA, genes, and chromosomes inside every cell carry inherited instructions, and why dominant and recessive traits follow predictable probability patterns.",
   summary: "Every cell in your body carries a nearly complete copy of your DNA, organized into genes and chromosomes, which determine inherited traits through predictable patterns of probability.",

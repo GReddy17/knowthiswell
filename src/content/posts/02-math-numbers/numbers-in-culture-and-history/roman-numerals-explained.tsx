@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How Roman numerals actually work — the seven symbols, the addition and subtraction rules that combine them, and why the system was eventually replaced for real calculation.",
   summary: "Roman numerals represent numbers with seven letter-symbols combined by addition and subtraction rules, rather than by position and a zero, which made them useful for labeling but impractical for calculation.",

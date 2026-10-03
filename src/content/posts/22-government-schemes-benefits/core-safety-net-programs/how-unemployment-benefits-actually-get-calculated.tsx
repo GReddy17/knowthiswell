@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["unemployment benefits", "unemployment insurance", "government benefits", "job loss"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "Unemployment benefits aren't a flat national amount — each state runs its own program, sets its own formula (usually based on recent wages), and sets its own maximum weekly amount.",
   summary: "Unemployment insurance is a joint federal-state program where each state sets its own eligibility rules, benefit formula, and maximum weekly amount, typically calculating a weekly benefit as a percentage of a claimant's wages during a defined recent base period, capped at a state-specific maximum, with benefits generally limited to workers who lost a job through no fault of their own and are actively seeking new work.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["stock market", "investing basics", "shares", "how stocks work"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "The stock market isn't a single place — it's a network of exchanges where ownership shares in companies are continuously priced by buyers and sellers, not by any company or government setting the price.",
   summary: "The stock market is a network of regulated exchanges where investors buy and sell small ownership shares in public companies, with prices set continuously by supply and demand between buyers and sellers rather than by the companies themselves, and share prices moving based on changing expectations about a company's future earnings, not just its current performance.",

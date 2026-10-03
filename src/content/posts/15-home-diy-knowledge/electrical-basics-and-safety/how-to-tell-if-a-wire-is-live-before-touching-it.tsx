@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["is a wire live", "non-contact voltage tester", "de-energized wire", "electrical safety verification", "licensed electrician"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "No visual inspection reliably shows whether a wire is live — a non-contact voltage tester, used correctly, is the standard verification method professionals rely on.",
   summary: "There is no reliable way to tell whether a wire is live just by looking at it — wire color, insulation condition, and even a flipped breaker can all be misleading, which is why licensed electricians verify a wire is de-energized with a voltage tester rather than trusting appearance or labeling alone.",

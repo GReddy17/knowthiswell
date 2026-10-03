@@ -25,6 +25,8 @@ export const metadata: PostFrontmatter = {
   tags: ["electrical conductivity", "ions", "water chemistry", "electrical safety", "physics misconceptions"],
   date: "2026-09-19",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-19",
   excerpt: "Truly pure water is actually a poor conductor of electricity — it's the dissolved minerals and salts in ordinary tap, rain, and body water that carry almost all of the current.",
   summary: "Electric current in a liquid is carried by ions — charged particles created when dissolved substances like salts and minerals split apart in water. Chemically pure H2O has extremely few free ions and is a poor electrical conductor, but truly pure water almost never exists outside a laboratory, since ordinary tap water, rainwater, sweat, and the water in the human body all contain enough dissolved minerals and salts to conduct electricity readily. This is exactly why electrical safety warnings around water are correct in practice even though \"pure water doesn't conduct\" is technically true in a lab.",

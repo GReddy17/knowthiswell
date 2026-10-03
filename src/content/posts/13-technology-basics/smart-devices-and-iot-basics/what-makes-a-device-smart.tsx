@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["smart devices", "internet of things", "what is a smart device", "IoT basics", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 89, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A device isn't \"smart\" just because it has an app or a Bluetooth toggle — it needs to sense, connect, and run updatable software.",
   summary: "A \"smart\" device is one that combines a sensor or data source, an embedded processor, network connectivity, and updatable software — the combination is what lets it react to conditions and improve after purchase, not just being remote-controllable.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["press freedom", "journalism", "media literacy", "civil liberties", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Press freedom rankings compress many separate legal and safety indicators into a single country score — the score is a summary, not a raw legal fact.",
   summary: "Press freedom rankings, published annually by organizations like Reporters Without Borders, combine multiple indicators — legal protections for journalists, political pressure, economic sustainability of independent media, safety of journalists, and more — into a composite score used to compare countries, with methodology published separately from the score itself.",

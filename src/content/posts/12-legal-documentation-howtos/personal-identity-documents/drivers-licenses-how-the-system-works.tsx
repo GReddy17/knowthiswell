@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["driver's license", "state ID", "identity documents", "legal documentation", "REAL ID"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A driver's license does two separate jobs at once — it's a legal permit to drive, and it's also become the everyday photo-ID standard most Americans use for everything else.",
   summary: "A driver's license is a state-issued document that legally authorizes someone to operate a motor vehicle, and — because states also design it to meet common photo-ID needs — it has become the de facto everyday identity document most U.S. adults use for tasks that have nothing to do with driving, from boarding flights to opening bank accounts.",

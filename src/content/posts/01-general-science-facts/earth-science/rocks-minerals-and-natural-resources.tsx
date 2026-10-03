@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-19",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "A rock is a mix of minerals; a mineral has a fixed chemical recipe. Here's how the rock cycle turns one type into another, and what actually makes a mineral worth mining.",
   summary: "Minerals are naturally occurring solids with a defined chemical composition and crystal structure, and rocks are aggregates of one or more minerals formed through igneous, sedimentary, or metamorphic processes.",

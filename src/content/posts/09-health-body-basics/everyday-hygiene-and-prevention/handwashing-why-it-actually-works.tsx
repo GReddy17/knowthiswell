@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["handwashing", "hand hygiene", "infection prevention", "soap chemistry", "public health"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Soap doesn't just add slipperiness — its molecules physically tear apart the fatty outer envelope many viruses and bacteria rely on, which is why 20 seconds of proper handwashing outperforms water alone.",
   summary: "Handwashing works because soap molecules are amphiphilic — one end binds fat, the other binds water — which lets them pry apart the lipid envelope of many viruses and lift germs off the skin into the rinse water, rather than simply diluting them the way plain water does.",

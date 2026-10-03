@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["large language models", "LLM", "AI", "machine learning", "how AI works"],
   date: "2026-09-21",
   updated: "2026-09-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-21",
   excerpt: "An LLM doesn't look anything up when it answers you — it's predicting the next word, one token at a time, based on patterns learned from enormous amounts of text.",
   summary: "A large language model is a neural network trained on huge volumes of text to predict the next word (technically, the next \"token\") in a sequence, repeatedly, given everything that came before it — through that single mechanism, repeated billions of times during training, the model learns statistical patterns in grammar, facts, and reasoning-like structure well enough to generate coherent, often useful text one token at a time, without retrieving stored facts from a database the way a search engine does.",

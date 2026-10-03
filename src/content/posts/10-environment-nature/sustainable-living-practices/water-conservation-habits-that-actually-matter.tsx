@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["water conservation", "WaterSense", "flow rate", "household water use", "EPA"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Turning off the tap while brushing your teeth saves water for a minute or two; swapping to a WaterSense-labeled showerhead saves the same fixed amount every single day, on autopilot.",
   summary: "Household water conservation habits fall into two categories — one-time behavioral changes that save water only while actively practiced, and fixture upgrades that reduce a flow rate permanently — and the fixture-level changes, like WaterSense-certified showerheads and faucet aerators, typically produce far larger cumulative savings because they work automatically on every single use.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["metric system", "imperial units", "length conversion", "measurement", "SI units"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Metric length units relate to each other by clean powers of ten; imperial units use irregular historical ratios like 12 inches per foot — both systems are internally consistent, just built on different logic.",
   summary: "The metric system measures length in units related by powers of ten (millimeter, centimeter, meter, kilometer), while the imperial system uses units related by irregular historical ratios (12 inches per foot, 3 feet per yard, 1,760 yards per mile) — the two systems are connected to each other by a single fixed conversion factor, 1 inch equals exactly 2.54 centimeters.",

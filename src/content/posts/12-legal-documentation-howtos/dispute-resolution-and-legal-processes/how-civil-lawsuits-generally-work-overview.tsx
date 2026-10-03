@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["civil lawsuit", "litigation", "discovery", "complaint", "how courts work"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Most civil lawsuits follow the same general shape — filing, response, discovery, and resolution — long before most people picture the courtroom scene from TV.",
   summary: "A civil lawsuit (a legal case between private parties, as opposed to a criminal case brought by the government) generally moves through a predictable sequence — filing a complaint, the other side's response, a discovery phase where both sides exchange evidence, and then either a negotiated settlement or a trial — with the vast majority of cases actually resolving before ever reaching trial.",

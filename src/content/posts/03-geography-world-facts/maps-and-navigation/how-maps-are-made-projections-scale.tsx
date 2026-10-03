@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why every flat map distorts the Earth in some way, and why the Mercator projection makes Greenland look as big as Africa when it's actually 14 times smaller.",
   summary: "A map projection is a mathematical method for flattening the curved Earth onto a flat surface, and every method necessarily distorts either shape, area, distance, or direction to some degree.",

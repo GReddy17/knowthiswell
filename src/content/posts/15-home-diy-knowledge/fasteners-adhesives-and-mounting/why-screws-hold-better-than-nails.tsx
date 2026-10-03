@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["screws", "nails", "threads", "fasteners", "mechanical advantage"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "A nail holds through friction alone; a screw's thread is a wedge wrapped around a cylinder that physically interlocks with the material — which is why it resists pulling out so much more.",
   summary: "A nail holds in place purely through friction, as compressed wood fibers spring back against its smooth shank, while a screw's helical thread acts as a wedge wrapped around a cylinder, cutting a matching groove into the material and creating a genuine mechanical interlock along its full length — which is why a screw resists a straight pull-out so much more strongly than a nail of similar size.",

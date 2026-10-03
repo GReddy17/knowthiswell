@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["primer", "paint prep", "adhesion", "stain blocking", "drywall"],
   date: "2026-09-04",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "Primer seals a porous surface, blocks stains from bleeding through, and gives the topcoat a uniform surface to bond to — jobs paint alone isn't built to do.",
   summary: "Primer is a separate preparatory coating, not just a cheaper first layer of paint — its job is to seal a porous surface so it absorbs evenly, block stains and odors from migrating through into the topcoat, and give the finish paint a consistent surface to chemically bond to, all things a topcoat paint's own formula isn't optimized to do on its own.",

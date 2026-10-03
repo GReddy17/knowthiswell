@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ramadan", "islamic festivals", "fasting", "religious festivals"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Ramadan is the Islamic month of dawn-to-sunset fasting, prayer, and reflection, observed by Muslims worldwide as one of the Five Pillars of Islam.",
   summary: "Ramadan is the ninth month of the Islamic lunar calendar, during which practicing Muslims fast from dawn to sunset as an act of spiritual discipline, one of the Five Pillars of Islam, alongside increased prayer, charity, and Quran reading.",

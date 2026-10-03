@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["international days", "united nations", "world observances", "civic literacy", "global awareness"],
   date: "2026-08-21",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "World Water Day, International Women's Day, World Health Day — every UN-designated international day exists because a specific UN body formally adopted a resolution creating it, usually to spotlight one measurable global problem.",
   summary: "A UN-designated international day is a specific date formally adopted by resolution — typically of the UN General Assembly or a specialized agency — created to focus sustained global attention and reporting on one particular issue, not just a symbolic calendar entry.",

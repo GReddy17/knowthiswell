@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["conversational english", "idioms", "small talk", "spoken english", "discourse markers"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Small talk, filler words, and casual phrases like 'you know' or 'long time no see' aren't sloppy English — they follow their own consistent, studied rules of spoken conversation.",
   summary: "Everyday conversational phrases — greetings, small talk, filler words, and set idioms like 'break a leg' — follow their own consistent rules of spoken English, serving real functions like softening requests, managing turn-taking, and signaling politeness, not just casual shortcuts around 'proper' grammar.",

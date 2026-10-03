@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["wills", "estate planning", "last will and testament", "executor", "legal documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A will's actual mechanism is a set of written, witnessed instructions that a court recognizes as evidence of how a person wanted specific property distributed after death — it does nothing on its own until a court validates it.",
   summary: "A will (last will and testament) is a legal document that names who receives a person's property after death and who is responsible for carrying that out, but it only takes legal effect once a court validates it through probate — this is general legal literacy, not a substitute for drafting a will with a licensed attorney.",

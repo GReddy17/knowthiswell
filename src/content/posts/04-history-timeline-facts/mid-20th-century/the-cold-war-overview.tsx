@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cold war", "united states", "soviet union", "20th century history", "nuclear arms race"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Cold War (roughly 1947-1991) was a decades-long standoff between the US and Soviet Union, fought through an arms race, proxy wars, and rivalry rather than direct war between them.",
   summary: "The Cold War was a prolonged geopolitical and ideological rivalry between the United States and the Soviet Union and their respective allies, lasting from roughly 1947 to 1991, marked by an arms race, proxy wars, and competition for global influence, without direct large-scale military conflict between the two superpowers themselves, per Encyclopaedia Britannica.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["editing", "proofreading", "revision", "writing process"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Editing and proofreading are two different passes with two different jobs — one fixes the big picture, the other catches what's left on the surface.",
   summary: "Editing revises writing for clarity, organization, and argument strength, while proofreading is the final pass that catches surface-level errors like spelling and punctuation — and doing them in the right order, editing before proofreading, saves real time.",

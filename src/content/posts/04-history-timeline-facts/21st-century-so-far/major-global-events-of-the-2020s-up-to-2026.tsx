@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["2020s history", "global events", "covid-19 pandemic", "generative ai", "recent history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The decade's defining events so far, from the COVID-19 pandemic to Russia's invasion of Ukraine and the rapid mainstream rise of generative AI, stated factually with sourced figures.",
   summary: "The 2020s opened with the COVID-19 pandemic, a global public health emergency declared by the World Health Organization in March 2020, followed by Russia's large-scale invasion of Ukraine in February 2022 and the rapid mainstream adoption of generative AI tools beginning in late 2022.",

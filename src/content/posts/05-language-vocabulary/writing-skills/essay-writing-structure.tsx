@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["essay writing", "essay structure", "thesis statement", "five-paragraph essay"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How an essay's introduction, body paragraphs, and conclusion actually work together — built around a thesis statement, not just a length requirement.",
   summary: "A standard essay is built around a thesis statement introduced early, developed across body paragraphs that each support it with one point and evidence, and closed with a conclusion that restates the argument and its broader significance.",

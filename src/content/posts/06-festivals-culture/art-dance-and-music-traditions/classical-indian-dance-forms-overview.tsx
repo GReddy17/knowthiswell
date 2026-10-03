@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["classical indian dance", "bharatanatyam", "kathak", "odissi", "kathakali", "sangeet natak akademi"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "India has eight officially recognized classical dance forms, each tied to a distinct region, technique, and repertoire — not one shared style.",
   summary: "Classical Indian dance is not a single tradition but a family of eight regionally distinct, formally codified performance styles — Bharatanatyam, Kathak, Odissi, Kathakali, Manipuri, Kuchipudi, Mohiniyattam, and Sattriya — each recognized by India's national academy for the performing arts.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["permits", "licenses", "zoning", "professional licensing", "civic documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Permits and licenses aren't interchangeable terms — they generally authorize different things (an action or a project vs. an ongoing right to practice or operate) issued by different authorities.",
   summary: "Permits and licenses are often used interchangeably in everyday speech but generally serve different functions: a permit typically authorizes a specific action or project (like a home renovation), while a license typically authorizes an ongoing right to practice a profession or operate a business — each issued by a different authority with its own renewal and compliance requirements.",

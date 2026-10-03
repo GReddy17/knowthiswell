@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["e-waste", "electronic waste", "hazardous waste", "recycling", "urban mining"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Electronic waste is simultaneously one of the fastest-growing waste streams on Earth and one of the richest — a ton of discarded circuit boards contains more recoverable gold than a ton of mined gold ore.",
   summary: "E-waste is discarded electronic equipment that contains both hazardous materials (lead, mercury, cadmium) and valuable recoverable metals (gold, copper, palladium), which is why proper e-waste disposal matters both for pollution prevention and for the resource-recovery opportunity informal, unsafe recycling wastes.",

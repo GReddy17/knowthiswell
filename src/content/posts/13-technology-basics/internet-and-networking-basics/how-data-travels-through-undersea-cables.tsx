@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["undersea cables", "submarine cables", "physical internet", "fiber optic cable", "networking basics"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Almost all international internet traffic travels through fiber-optic cables laid on the ocean floor, not satellites — the internet is a physical, undersea network.",
   summary: "The overwhelming majority of international internet traffic — video calls, emails, financial transactions — travels as pulses of light through fiber-optic cables physically laid across the ocean floor, not through satellites.",

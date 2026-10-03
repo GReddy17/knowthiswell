@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["national ID", "identity documents", "government ID", "legal documentation", "identity verification"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Countries approach 'proving who you are' very differently — some issue a single mandatory national ID card, others (like the U.S.) rely on a patchwork of state-issued IDs and federal identifiers instead.",
   summary: "A national identity system is the set of documents and identifiers a government uses to let people prove who they are for legal, civic, and administrative purposes; some countries centralize this into a single mandatory ID card, while others — the U.S. among them — spread the function across state-level driver's licenses, Social Security numbers, and other overlapping identifiers.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cloud computing", "what is the cloud", "data centers", "cloud storage basics", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "The cloud is not a place in the sky — it's someone else's physical computers, in a real building, that you reach over the internet.",
   summary: "\"The cloud\" is the common name for computing and storage that runs on someone else's physical servers in a data center, accessed remotely over the internet instead of on your own device.",

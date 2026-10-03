@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "BTUs measure the same thing kilowatt-hours do — energy — and appliance ratings like air conditioner size use them because they trace back to a simple, literal definition: the heat needed to warm a pound of water by one degree Fahrenheit.",
   summary: "The British Thermal Unit (BTU) is an energy unit still used for appliance ratings — especially air conditioners and heaters — in the US, and converts to the more familiar kilowatt-hour by a fixed factor of about 0.000293071.",

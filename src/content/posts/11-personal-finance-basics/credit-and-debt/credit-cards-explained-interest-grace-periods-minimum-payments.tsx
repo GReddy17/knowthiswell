@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["credit cards", "interest", "APR", "minimum payment", "grace period", "personal finance basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A credit card only charges interest on a carried balance, not on every purchase — the grace period, APR, and minimum payment formula each work by specific, learnable mechanics that determine exactly when and how much interest accrues.",
   summary: "Credit card interest, grace periods, and minimum payments each follow specific mechanical rules set by the card issuer and disclosed in the cardholder agreement — understanding how these mechanics interact explains why carrying even a small balance can be expensive, and why paying only the minimum extends repayment dramatically.",

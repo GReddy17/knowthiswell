@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["world leaders", "ashoka", "simon bolivar", "nelson mandela", "mahatma gandhi", "mansa musa", "historical figures"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "From an Indian emperor who renounced war after seeing its cost, to a South African president who chose reconciliation over revenge — world leaders across every continent and era.",
   summary: "History's most consequential leaders span every continent and era — from ancient emperors like Ashoka and medieval rulers like Mansa Musa to modern figures like Simón Bolívar, Mahatma Gandhi, and Nelson Mandela, each of whom used political or moral authority to permanently redirect the societies, and often the regions, they led.",

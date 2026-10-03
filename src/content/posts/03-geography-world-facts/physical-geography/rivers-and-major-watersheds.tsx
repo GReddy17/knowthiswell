@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["rivers", "watersheds", "physical geography", "water cycle"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How a watershed decides where every drop of rain ends up, and why the Amazon carries more water than the next several biggest rivers combined.",
   summary: "A watershed is the entire area of land that drains into a given river, meaning a river's size depends less on its length than on how much land — and how much rainfall — feeds into it.",

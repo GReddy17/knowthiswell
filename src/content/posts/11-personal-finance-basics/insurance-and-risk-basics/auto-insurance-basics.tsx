@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["auto insurance", "liability coverage", "collision coverage", "premiums", "deductible"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Auto insurance isn't one policy — it's a bundle of separate coverage types, each responding to a different kind of loss, and understanding which coverage does what is the key to reading any auto policy.",
   summary: "A typical auto insurance policy bundles several distinct coverage types: liability coverage (which pays for damage or injury the policyholder causes to others), collision coverage (which pays for damage to the policyholder's own vehicle from a crash), and comprehensive coverage (which pays for non-crash damage like theft or weather) — each with its own limits, and collision/comprehensive typically carrying their own separate deductible.",

@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-19",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "How to tell a chemical reaction from a physical change, why rust and rising bread dough are both real chemistry, and how a catalyst speeds a reaction up without being consumed.",
   summary: "A chemical reaction rearranges atoms into new substances with new properties, and the total mass of everything involved never changes.",

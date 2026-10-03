@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["environmental justice", "environmental policy", "pollution disparities", "environmental racism", "EPA"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Environmental justice is the principle that no group of people should bear a disproportionate share of environmental harm — a framework that traces to a specific 1982 protest in Warren County, North Carolina.",
   summary: "Environmental justice is the principle and policy framework holding that environmental burdens — pollution, toxic waste sites, poor air quality — and environmental benefits should be distributed fairly across communities, regardless of race or income, a field that traces to a specific, well-documented 1982 protest against a PCB landfill in Warren County, North Carolina.",

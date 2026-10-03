@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["operating system", "kernel", "how computers work", "technology basics", "multitasking"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "An operating system is the layer that manages a device's hardware so every app doesn't have to — here's exactly what it juggles behind the scenes.",
   summary: "An operating system is the software that manages a computer's hardware — CPU time, memory, storage, and input/output — and exposes a shared, simplified set of services that every app relies on instead of talking to hardware directly.",

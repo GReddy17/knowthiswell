@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["wall anchors", "drywall", "toggle bolts", "hollow wall", "mounting"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 86, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "A wall anchor doesn't create new strength — it spreads a fastener's point load over more of the drywall's paper-and-gypsum surface, so it can't tear out as easily.",
   summary: "A hollow-wall anchor holds weight by spreading a fastener's pulling force over a much wider area of the drywall's paper-faced gypsum core than a bare screw ever touches — a screw alone concentrates all the load onto one small point that tears out under a light pull, while an expanding or toggling anchor spreads that same load across a ring, cone, or panel of material large enough to resist it.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["opportunity cost", "compound growth", "spending decisions", "financial literacy", "investing basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Every dollar spent today is also a dollar that stops compounding — opportunity cost is what that forgone growth is actually worth in real numbers.",
   summary: "Opportunity cost in personal finance is the value of the next-best alternative given up when money is spent rather than saved or invested — concretely, it's what that same amount could have grown to over time if left to compound instead.",

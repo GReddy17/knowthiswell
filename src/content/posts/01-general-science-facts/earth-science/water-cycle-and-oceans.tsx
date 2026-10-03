@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Over 96% of Earth's water is ocean saltwater, and most of the remaining freshwater is locked in ice or deep underground — here's how the water cycle moves it all.",
   summary: "The water cycle is the continuous movement of water between oceans, atmosphere, and land through evaporation, condensation, precipitation, and runoff.",

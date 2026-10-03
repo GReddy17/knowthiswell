@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["the holocaust", "world war ii", "nazi germany", "genocide", "20th century history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Holocaust was Nazi Germany's state-organized genocide of six million European Jews between 1933 and 1945, documented by the USHMM and Yad Vashem.",
   summary: "The Holocaust was the systematic, state-organized persecution and murder of six million European Jews by Nazi Germany and its collaborators between 1933 and 1945, part of a broader campaign of persecution that also targeted Roma people, people with disabilities, Soviet prisoners of war, political dissidents, and other groups, as documented by the United States Holocaust Memorial Museum and Yad Vashem.",

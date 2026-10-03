@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["birth certificate", "vital records", "identity documents", "legal documentation", "government ID"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A birth certificate is the root document nearly every other identity document depends on — lose it, and getting a passport, license, or Social Security number gets meaningfully harder.",
   summary: "A birth certificate is an official government record of a person's birth, generally created shortly after birth and used as the foundational proof of identity, age, and citizenship or nationality that most other identity documents — passports, driver's licenses, Social Security numbers — are built on top of.",

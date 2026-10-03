@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["religious fasting", "ramadan", "lent", "yom kippur", "ekadashi"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Religious fasting takes very different forms across traditions — Ramadan's dawn-to-sunset fast, Yom Kippur's 25-hour fast, Lent's 40-day abstention, and Hindu ekadashi fasts.",
   summary: "Fasting — deliberately abstaining from food, drink, or specific foods for a set period — is a spiritual practice found across nearly every major religious tradition, though the rules, duration, and meaning differ significantly from one to the next.",

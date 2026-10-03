@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["civil rights movement", "us history", "martin luther king jr", "segregation", "voting rights act", "20th century history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "A factual timeline of the US civil rights movement, from Brown v. Board (1954) through the Civil Rights Act (1964) and Voting Rights Act (1965).",
   summary: "The US civil rights movement was a sustained campaign, roughly from the mid-1950s to the late 1960s, by Black Americans and allies to end legal racial segregation and secure equal voting and civil rights, achieved through organized protest, litigation, and federal legislation rather than any single event.",

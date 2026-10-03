@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["water pressure", "psi", "static water pressure", "pressure-reducing valve", "home plumbing basics"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 89, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "Water pressure measures force pushing on a fixed area, in pounds per square inch — and elevation alone, not just pipe size or distance, changes that number.",
   summary: "Water pressure, measured in pounds per square inch (psi), is a measure of how hard water pushes against a given area inside a pipe — a number shaped by the supply source, by any pressure-reducing valve regulating it, and, independent of both, by simple elevation, since every foot a home's plumbing sits above (or below) the source changes the reading by a fixed, predictable amount.",

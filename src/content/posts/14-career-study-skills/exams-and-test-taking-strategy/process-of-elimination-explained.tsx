@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["process of elimination", "test-taking strategy", "multiple choice strategy", "guessing strategy", "exam skills"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Process of elimination isn't a fallback guess — each option ruled out for a real, stated reason mechanically raises the odds of a correct guess on everything left.",
   summary: "Process of elimination is the practice of ruling out answer options you can positively verify are wrong, for a specific stated reason, rather than guessing which option feels correct. Each option eliminated with a real reason mechanically shrinks the field, raising the odds that a remaining guess lands on the correct answer — which is why it functions as a legitimate strategy, not a weaker substitute for actually knowing the answer.",

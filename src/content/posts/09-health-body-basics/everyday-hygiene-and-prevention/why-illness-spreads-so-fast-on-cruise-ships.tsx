@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["norovirus", "cruise ships", "outbreaks", "hand hygiene", "public health"],
   date: "2026-09-22",
   updated: "2026-09-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "Cruise ship outbreaks aren't usually about dirty ships — they're about a uniquely contagious virus meeting shared buffets, close quarters, and a hand sanitizer blind spot.",
   summary: "Cruise ship illness outbreaks, almost always norovirus, spread quickly because of a specific combination: thousands of people sharing enclosed spaces and self-serve buffets, a virus that needs only a tiny dose to infect someone and survives for weeks on surfaces, and the fact that alcohol-based hand sanitizer barely affects norovirus at all — soap and water matter far more here than on a typical illness.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["urban wildlife", "animal adaptation", "synanthropic species", "behavioral adaptation", "urban ecology"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Coyotes learning to look both ways before crossing streets and urban birds singing at a higher pitch aren't cute coincidences — they're measurable adaptations to human-built environments.",
   summary: "Some wild species survive and even thrive alongside humans by adapting their behavior, diet, or physiology to city and suburban conditions — a process distinct from, and much faster than, genetic evolution.",

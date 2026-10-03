@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["circuit breaker", "electrical panel", "overcurrent protection", "home electrical safety", "breaker trip"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "A circuit breaker protects your home's wiring from overheating by sensing excess current and interrupting the circuit — through a thermal or a magnetic trip mechanism.",
   summary: "A circuit breaker actually protects the wiring in the walls, not directly the person plugging something in — it senses when current flowing through a circuit exceeds a safe threshold and physically opens the circuit before the wire itself overheats enough to melt insulation or start a fire.",

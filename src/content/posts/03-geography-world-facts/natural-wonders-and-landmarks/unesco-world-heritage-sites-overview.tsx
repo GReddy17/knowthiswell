@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How a place actually becomes a UNESCO World Heritage Site, why most designated sites are cultural rather than natural, and how a site can even be removed.",
   summary: "A UNESCO World Heritage Site is a place formally recognized under the 1972 World Heritage Convention as having Outstanding Universal Value, through a multi-stage nomination and evaluation process — most designated sites are cultural, not natural.",

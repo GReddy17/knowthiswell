@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["space race", "cold war", "apollo 11", "nasa", "soviet union", "20th century history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Space Race was a Cold War-era competition between the US and Soviet Union to achieve spaceflight milestones, culminating in the 1969 Apollo 11 Moon landing.",
   summary: "The Space Race was a Cold War-era competition between the United States and the Soviet Union to achieve superiority in spaceflight, spanning from the Soviet launch of Sputnik 1 in 1957 to the U.S. Apollo 11 Moon landing in 1969, driven as much by geopolitical prestige and military rocket technology as by scientific curiosity, per NASA and Encyclopaedia Britannica.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["building rapport", "social skills", "first impressions", "active listening"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "Rapport isn't a personality trait some people are just born with — it's a specific, learnable sequence of small behaviors that happen in the first minute of an interaction.",
   summary: "Building rapport quickly comes down to a handful of overlapping, learnable behaviors — matching the other person's tone and pace, showing genuine curiosity rather than performed interest, actively listening and reflecting back what you hear, and finding specific (not generic) common ground — and these behaviors work because they signal safety and similarity, two things people's social instincts are specifically tuned to notice within seconds of meeting someone.",

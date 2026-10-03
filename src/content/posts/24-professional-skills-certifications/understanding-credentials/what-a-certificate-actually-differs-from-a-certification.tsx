@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["certificate vs certification", "professional credentials", "resume credentials", "continuing education"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "The words get used interchangeably, but a certificate and a certification signal genuinely different things to an employer — one proves you showed up, the other proves you passed.",
   summary: "A certificate proves you completed a course or training program, is issued by the training provider itself, usually requires no exam, and never expires, while a certification proves tested competency against an industry standard, is issued by an independent governing body after passing an exam, and typically must be renewed every one to three years through continuing education — meaning the two credentials signal genuinely different things to an employer, despite the terms often being used interchangeably in casual conversation.",

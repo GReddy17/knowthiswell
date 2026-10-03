@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["plastic bans", "single-use plastics", "environmental policy", "plastic pollution policy", "EU directive"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Plastic bans range from narrow bag bans to sweeping single-use-item directives, and the strictness varies enormously by country — Rwanda and Kenya have some of the toughest plastic bag laws in the world.",
   summary: "Plastic bans are laws restricting or prohibiting specific plastic products, ranging narrowly (a single-use bag fee) to broadly (the EU's Single-Use Plastics Directive banning entire categories of disposable items), with enforcement strictness and scope varying enormously between countries.",

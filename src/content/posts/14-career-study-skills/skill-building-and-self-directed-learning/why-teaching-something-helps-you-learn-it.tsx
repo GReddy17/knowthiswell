@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["protege effect", "teaching to learn", "retrieval practice", "self-directed learning", "generation effect"],
   date: "2026-09-03",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Preparing to teach or actually teaching something forces you to organize it for an audience and anticipate their questions, exposing gaps that passive study doesn't reliably surface.",
   summary: "The protégé effect is the well-documented pattern where preparing to teach, or actually teaching, material to someone else improves the teacher's own understanding and retention compared with studying the same material to be tested on it individually. Teaching forces you to organize information for someone else's understanding and anticipate their likely questions, which drives deeper retrieval and reorganization than passive review — and exposes real gaps in your own grasp of the material that quiet self-study doesn't reliably surface.",

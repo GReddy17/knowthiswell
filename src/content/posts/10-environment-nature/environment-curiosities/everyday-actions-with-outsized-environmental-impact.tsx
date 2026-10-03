@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["carbon footprint", "individual action", "climate impact", "sustainable habits", "high-impact actions"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Not all eco-friendly habits carry equal weight — research comparing individual actions by their actual measured carbon impact shows a handful of choices matter far more than most commonly promoted ones.",
   summary: "Individual actions vary enormously in real measured environmental impact — research directly comparing options shows a small number of high-impact choices (like avoiding a car, or one fewer long-haul flight) outweigh many commonly promoted but comparatively low-impact habits.",

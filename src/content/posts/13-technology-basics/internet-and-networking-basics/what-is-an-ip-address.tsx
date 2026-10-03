@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["IP address", "IPv4", "IPv6", "private IP", "public IP", "networking basics"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "An IP address is the numeric mailing address every internet-connected device needs so replies know where to come back to — here's how it's assigned and shared.",
   summary: "An IP address is a unique numeric label assigned to a device on a network so that other devices know exactly where to send data meant for it.",

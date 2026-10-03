@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["most spoken languages", "world languages", "linguistics", "mandarin", "hindi", "spanish", "swahili"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "English or Mandarin? Hindi or Spanish? The ranking flips depending on whether you count native speakers or total speakers — here's how it actually breaks down.",
   summary: "Rankings of the world's most spoken languages change depending on whether you count only native (first-language) speakers or total speakers including everyone who uses the language as a second language — and the top of either list spans language families from Indo-European to Sino-Tibetan to Niger-Congo to Austronesian, not just one region.",

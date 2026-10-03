@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why latitude lines stay a fixed 111km apart everywhere on Earth, while longitude lines squeeze together and meet at the poles.",
   summary: "Latitude measures angular distance north or south of the equator, and longitude measures angular distance east or west of the Prime Meridian, together pinpointing any location on Earth with a pair of coordinates.",

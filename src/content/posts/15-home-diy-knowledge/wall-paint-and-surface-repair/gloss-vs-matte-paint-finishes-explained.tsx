@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["paint sheen", "gloss", "matte", "finish", "surface texture"],
   date: "2026-09-04",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "Gloss and matte paint are chemically similar — the real difference is microscopic surface texture, which controls whether light reflects in one direction or scatters.",
   summary: "Gloss and matte paint finishes start from largely the same binder and pigment, but differ in the ratio of flattening agent (fine mineral particles) mixed in — more flattening agent leaves a rougher microscopic surface that scatters light in many directions (matte), while less of it leaves a smoother film that reflects light in one direction like a mirror (gloss), and that same surface texture difference is also why gloss resists scrubbing and stains better than matte.",

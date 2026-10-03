@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How glands like the pituitary, thyroid, adrenals, and pancreas release hormones into the bloodstream to regulate metabolism, stress response, blood sugar, and growth.",
   summary: "The endocrine system is a network of glands that release hormones directly into the bloodstream, acting as slower, longer-lasting chemical messengers that regulate metabolism, stress response, growth, and blood sugar.",

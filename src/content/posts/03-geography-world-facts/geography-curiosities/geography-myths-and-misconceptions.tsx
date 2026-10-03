@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why Greenland looks as big as Africa on most maps, why the Great Wall of China isn't visible from space, and other persistent geography myths — with the real numbers behind each.",
   summary: "Many popular geography 'facts' are map-projection artifacts, oversimplified physics, or outdated claims that persist because they sound plausible, not because they hold up against measurement.",

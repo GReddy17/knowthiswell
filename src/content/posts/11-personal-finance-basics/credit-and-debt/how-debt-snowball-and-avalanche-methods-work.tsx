@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["debt snowball", "debt avalanche", "debt payoff", "personal finance basics", "interest rate"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "The debt snowball and debt avalanche are two different rules for choosing which debt to attack first when paying down several at once — one optimizes for math, the other for momentum.",
   summary: "The debt snowball method pays off the smallest balance first regardless of interest rate, prioritizing early psychological wins, while the debt avalanche method pays off the highest interest rate first regardless of balance size, minimizing total interest paid — both apply any extra payment to one target debt while making minimum payments on the rest.",

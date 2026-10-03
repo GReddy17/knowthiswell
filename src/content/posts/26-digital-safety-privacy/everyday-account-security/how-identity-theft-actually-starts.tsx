@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["identity theft", "credit freeze", "account takeover", "SIM swap", "IdentityTheft.gov"],
   date: "2026-09-30",
   updated: "2026-09-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-30",
   excerpt: "Identity theft rarely starts with a genius hacker. It starts when a few pieces of your information end up in the wrong hands, through a breach, a phishing message, stolen mail or a lost wallet, and someone uses them to open or take over an account.",
   summary: "Identity theft has two phases: someone collects pieces of your personal information, then uses them to pretend to be you. Collection usually happens through ordinary routes: data breaches at companies that hold your records, phishing messages and phone scams that trick you into handing details over, stolen mail or wallets, SIM swaps that hijack your phone number, and sometimes people you know. The information is then used to open new credit accounts, take over existing ones, file a fake tax return, or claim benefits or medical care in your name. The FTC received more than 1.1 million identity theft reports through IdentityTheft.gov in 2024, with credit card fraud the most commonly reported type. The defenses that address the most common routes are a free credit freeze at all three bureaus, multi-factor authentication, an IRS Identity Protection PIN, and regular checks of your credit reports. If it happens, IdentityTheft.gov provides a federal report and a personalized recovery plan.",

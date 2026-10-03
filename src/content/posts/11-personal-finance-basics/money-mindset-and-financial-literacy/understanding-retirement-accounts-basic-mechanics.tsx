@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["retirement accounts", "tax-advantaged accounts", "compound growth", "financial literacy", "long-term saving"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Retirement accounts aren't a separate investment — they're a tax treatment wrapped around ordinary investments, and the specific tax treatment is what changes how much of your growth you actually keep.",
   summary: "A retirement account is a special tax-advantaged wrapper around investments — the account itself doesn't determine what you invest in, it determines when and how the money is taxed, which changes the effective growth you keep over a long time horizon.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["social security", "retirement benefits", "government benefits", "full retirement age"],
   date: "2026-09-21",
   updated: "2026-09-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-21",
   excerpt: "The age you claim Social Security permanently changes your monthly check — claiming early locks in a smaller amount for life, not a temporary discount.",
   summary: "Social Security retirement benefits are calculated from a worker's highest 35 years of earnings, adjusted into an average monthly figure that determines the benefit paid at full retirement age — per the Social Security Administration, a worker can claim as early as age 62 for a permanently reduced monthly benefit, wait until their full retirement age (66-67, depending on birth year) for their full calculated benefit, or delay up to age 70 for permanently increased monthly payments, with each year of early or delayed claiming changing the monthly amount for the rest of the recipient's life, not just temporarily.",

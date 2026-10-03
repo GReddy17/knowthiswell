@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What national flag colors and symbols really represent — and why Nepal's flag isn't a rectangle, why Mozambique's has a rifle, and why not every color choice is deeply symbolic.",
   summary: "National flags encode real history through color, shape, and symbol, but not every element carries deep meaning — some are practical or historical accidents rather than deliberate symbolism.",

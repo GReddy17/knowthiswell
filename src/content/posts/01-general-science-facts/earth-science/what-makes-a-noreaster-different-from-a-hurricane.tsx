@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["noreaster", "hurricanes", "weather patterns", "storms", "atlantic coast"],
   date: "2026-09-22",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "A nor'easter and a hurricane are both big coastal storms, but they run on opposite fuel — one needs warm ocean heat, the other needs a clash of cold and warm air.",
   summary: "Hurricanes are warm-core tropical storms fueled entirely by heat evaporating off warm ocean water. Nor'easters are cold-core storms powered by the temperature clash between cold continental air and the warm Gulf Stream along the U.S. East Coast — a completely different engine that can also bring snow and blizzard conditions a hurricane never could.",

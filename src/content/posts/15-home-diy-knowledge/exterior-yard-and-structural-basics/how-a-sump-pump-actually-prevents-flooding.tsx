@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["sump pump", "basement flooding", "foundation drainage", "water damage prevention", "home maintenance"],
   date: "2026-09-17",
   updated: "2026-09-24",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 88, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "A sump pump doesn't stop water from ever reaching your basement — it intercepts groundwater in a pit and pumps it out faster than it can rise past the floor.",
   summary: "A sump pump works by collecting groundwater that drains toward a low pit (the sump) built into a basement floor, then automatically switching on once the water level rises to a set trigger point and pumping that water out through a discharge line, away from the foundation — it's an active, powered race against rising groundwater, not a passive barrier, which is exactly why a power outage during a storm is the scenario that defeats it.",

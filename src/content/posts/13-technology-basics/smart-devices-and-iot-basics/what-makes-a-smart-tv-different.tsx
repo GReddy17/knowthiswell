@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["smart TV explained", "what makes a TV smart", "smart TV operating system", "how smart TVs work", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A smart TV's screen isn't automatically better than a regular one — the real difference is an entire computer layered on top of the same kind of panel.",
   summary: "A smart TV differs from a regular TV by adding a full embedded computer — an operating system, an apps layer, and a network connection — on top of the same kind of display panel a regular TV uses, letting it run streaming apps and connect to accounts and the internet directly, rather than only display whatever signal a connected device sends it.",

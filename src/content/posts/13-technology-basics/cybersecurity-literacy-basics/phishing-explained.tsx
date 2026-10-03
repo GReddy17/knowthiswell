@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["phishing", "social engineering", "email scams", "cybersecurity basics", "online safety"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Phishing works by faking a trusted sender and manufacturing urgency, not by exploiting a technical flaw in your device — it targets human trust, not software.",
   summary: "Phishing is a social-engineering technique where an attacker impersonates a trusted sender, in an email, text, or call, to trick someone into revealing sensitive information or clicking a malicious link — it exploits human trust and urgency, not a technical vulnerability in a device.",

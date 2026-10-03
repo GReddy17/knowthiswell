@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["mortgage", "loan document", "real estate", "homeownership", "legal documentation how-tos"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A mortgage isn't one document — it's a loan agreement (the note) paired with a separate document (the mortgage or deed of trust) that gives the lender a legal claim on the property if the loan isn't repaid.",
   summary: "A mortgage is a loan used to purchase real property, structured as two related but distinct legal documents: a promissory note (the promise to repay a specific amount under specific terms) and a mortgage or deed of trust (the document that pledges the property itself as collateral, giving the lender the right to foreclose if payments aren't made) — understanding both pieces separately is what makes the overall obligation clear.",

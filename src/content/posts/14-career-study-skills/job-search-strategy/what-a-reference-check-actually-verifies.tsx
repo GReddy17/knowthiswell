@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["reference check", "employment verification", "background check", "job search strategy", "hiring process"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "A reference check often verifies less than candidates assume — many employers only confirm dates and title by policy, while a chosen professional reference is where real character and performance feedback happens.",
   summary: "A reference check builds a trust chain around what a candidate's resume and interviews already claim — but what it actually confirms varies a lot by type: an employer's HR department frequently follows a neutral-reference policy that discloses only employment dates and title to limit legal liability, while a professional reference the candidate personally chose is where genuine qualitative feedback about performance and character tends to come through instead.",

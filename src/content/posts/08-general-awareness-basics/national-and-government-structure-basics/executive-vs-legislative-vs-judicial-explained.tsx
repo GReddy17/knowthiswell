@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["executive branch", "legislative branch", "judicial branch", "civics", "government structure"],
   date: "2026-08-21",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The three branches differ in what they actually do day to day, how their members get their jobs, and how long those jobs last — not just in name.",
   summary: "The executive, legislative, and judicial branches differ across three concrete dimensions — what function they perform (enforcing, writing, or interpreting law), how their members are selected (election, appointment, or nomination-plus-confirmation), and how long those members typically serve.",

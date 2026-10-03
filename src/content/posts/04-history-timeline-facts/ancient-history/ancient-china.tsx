@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ancient china", "dynasty", "great wall", "confucius", "ancient civilizations"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Ancient China ran on a single idea — the Mandate of Heaven — that justified every dynasty's rise and, eventually, every dynasty's fall.",
   summary: "Ancient China developed along the Yellow and Yangtze Rivers from around 2070 BCE, ruled through a sequence of dynasties legitimized by the \"Mandate of Heaven,\" and produced writing, philosophy, and technology that shaped East Asia for millennia.",

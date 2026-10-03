@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["power of attorney", "durable power of attorney", "agent", "principal", "financial decision-making"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 64, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A power of attorney lets one person legally act on another's behalf — but the scope of that authority, and whether it survives the person becoming incapacitated, depends entirely on which type of power of attorney document is used.",
   summary: "A power of attorney (POA) is a legal document in which one person (the principal) grants another person (the agent, sometimes called an attorney-in-fact) the authority to act on their behalf, and the practical scope of that authority varies enormously depending on whether the POA is general or limited, and whether it's 'durable' (remains valid if the principal becomes incapacitated) or not.",

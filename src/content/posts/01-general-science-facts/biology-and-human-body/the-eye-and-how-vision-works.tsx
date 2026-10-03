@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the cornea, lens, and retina turn light into an upside-down image, and how the brain flips and interprets it into what you actually perceive as sight.",
   summary: "Vision happens when the cornea and lens bend incoming light to focus an upside-down image on the retina, which converts that light into nerve signals the brain then interprets and flips right-side up.",

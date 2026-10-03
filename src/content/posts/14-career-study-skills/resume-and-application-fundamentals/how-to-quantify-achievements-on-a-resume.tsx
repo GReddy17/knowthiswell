@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["resume achievements", "quantify resume", "resume metrics", "resume bullet points", "job application"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 86, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Quantifying a resume achievement means replacing a vague duty statement with a specific, measurable result, because numbers give a reviewer a scale to judge impact that a duty alone can't.",
   summary: "Quantifying an achievement on a resume means converting a vague description of a duty (\"responsible for sales\") into a specific, measurable outcome (\"grew regional sales 34% over one year\") — numbers give a resume reviewer a concrete scale to judge impact, which a list of responsibilities alone cannot provide.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ottoman empire", "constantinople", "suleiman the magnificent", "istanbul", "middle east history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Ottoman Empire lasted 623 years, from 1299 to 1922, spanning Southeast Europe, the Middle East, and North Africa at its height — far broader than a single-region empire.",
   summary: "The Ottoman Empire was a Turkish-led empire founded in 1299 that, at its height under Suleiman the Magnificent, spanned Southeast Europe, the Middle East, and North Africa, before dissolving in 1922 following defeat in World War I.",

@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the United Nations is actually structured — its six main organs, why five countries hold veto power on the Security Council, and how it differs from regional bodies like the EU or NATO.",
   summary: "The United Nations, founded in 1945 and now made up of 193 member states, works through six main organs — most notably the General Assembly, where every member state gets one vote, and the Security Council, where five permanent members hold veto power over substantive decisions.",

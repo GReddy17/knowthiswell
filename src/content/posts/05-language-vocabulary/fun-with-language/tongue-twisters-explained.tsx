@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["tongue twisters", "phonetics", "pronunciation", "wordplay", "spoonerisms", "linguistics"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 63, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Tongue twisters aren't hard because the words are long or unusual — they're hard because of which specific sounds sit next to each other. Here's the actual mechanism.",
   summary: "A tongue twister is a phrase deliberately built from a close sequence of similar-but-distinct sounds, which forces the brain's speech-planning system to switch rapidly between near-identical articulations and makes real slips of the tongue far more likely.",

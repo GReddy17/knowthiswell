@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["smart home hub", "what does a smart hub do", "Zigbee", "Thread", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 87, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A smart home hub's real job is translating between low-power wireless protocols a Wi-Fi router can't speak — not just relaying commands over Wi-Fi.",
   summary: "A smart home hub is a device that translates between multiple low-power wireless protocols — such as Zigbee, Z-Wave, and Thread — that many smart devices use instead of Wi-Fi, letting a single app or voice assistant control devices that otherwise couldn't communicate with a home network directly.",

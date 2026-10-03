@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["gift-giving customs", "cross-cultural etiquette", "red envelope", "potlatch"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Gift-giving customs vary widely across cultures — what's given, how it's wrapped, and even whether it's opened in front of the giver all follow different local rules.",
   summary: "Gift-giving customs are the culturally specific rules around what to give, how to present it, and when to open it, and they differ enough between cultures that a gesture considered thoughtful in one place can be considered awkward or even offensive in another.",

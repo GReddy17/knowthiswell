@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["developing nations", "developed nations", "Human Development Index", "World Bank classification", "global economics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "\"Developing\" and \"developed\" aren't defined by one universal rulebook — different institutions use different real methodologies, from income thresholds to multi-dimensional indices, and they don't always agree on where a country falls.",
   summary: "There is no single, universally agreed definition of \"developing\" versus \"developed\" nation — different institutions use different real methodologies, including the World Bank's income-based classification and the UN's multi-dimensional Human Development Index, and a country's classification can differ depending on which system is used.",

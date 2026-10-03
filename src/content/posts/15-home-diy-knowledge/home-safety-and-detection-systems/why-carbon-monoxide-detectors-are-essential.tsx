@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["carbon monoxide detector", "CO alarm", "incomplete combustion", "indoor air safety", "home safety"],
   date: "2026-09-12",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "Carbon monoxide is colorless, odorless, and displaces oxygen in the blood — a CO detector's electrochemical sensor is the only practical way to notice it building up indoors.",
   summary: "Carbon monoxide forms whenever a fuel burns without quite enough oxygen, and because it has no color, smell, or taste, an electrochemical sensor tracking parts-per-million concentration over time is the only realistic way a household actually notices it before symptoms set in.",

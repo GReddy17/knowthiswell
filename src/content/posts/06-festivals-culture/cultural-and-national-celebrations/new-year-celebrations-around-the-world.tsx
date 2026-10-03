@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["new year", "lunar new year", "nowruz", "rosh hashanah", "gregorian calendar"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "January 1 is only one of several New Year dates observed worldwide — Lunar New Year, Nowruz, and Rosh Hashanah each mark a new year on their own calendar.",
   summary: "New Year celebrations mark the start of a new annual cycle, but because different cultures use different calendar systems, there is no single universal New Year date — January 1, Lunar New Year, Nowruz, and Rosh Hashanah are among several independently calculated New Year observances.",

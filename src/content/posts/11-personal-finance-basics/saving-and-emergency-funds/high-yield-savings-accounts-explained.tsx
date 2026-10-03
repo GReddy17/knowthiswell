@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["high-yield savings", "online banks", "APY", "compound interest", "personal finance basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A high-yield savings account pays a meaningfully higher rate than a typical brick-and-mortar bank mainly because online-only banks skip the cost of physical branches and pass some of that savings to depositors.",
   summary: "A high-yield savings account is a standard, FDIC-insured deposit account that pays a substantially higher interest rate than a traditional brick-and-mortar bank's savings account — usually offered by online-only banks that save on branch overhead and pass part of that savings on as a higher rate.",

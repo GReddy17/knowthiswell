@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["deforestation", "reforestation", "forests", "carbon sink", "conservation"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Reforesting cleared land takes decades to rebuild the ecological complexity of an original forest — planting trees is the easy part; restoring the ecosystem is the hard part.",
   summary: "Deforestation is the large-scale clearing of forest, most often for agriculture, while reforestation and afforestation are efforts to restore tree cover — though a young replanted forest takes decades to approach the biodiversity and carbon storage of the original ecosystem it replaced.",

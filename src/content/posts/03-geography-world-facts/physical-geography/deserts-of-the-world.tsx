@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why deserts are defined by dryness, not heat — and why Antarctica, not the Sahara, is technically Earth's largest desert.",
   summary: "A desert is any region that receives less than about 250mm of precipitation a year, regardless of temperature — which is why the Sahara, the Gobi, and Antarctica all qualify.",

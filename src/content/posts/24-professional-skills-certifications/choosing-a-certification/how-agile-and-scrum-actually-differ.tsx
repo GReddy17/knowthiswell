@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["agile", "scrum", "project management", "kanban", "certifications"],
   date: "2026-09-25",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "Agile is a set of values and principles for building things in small, feedback-driven steps. Scrum is one specific framework for doing that, with fixed roles, events, and sprints. Most agile teams use Scrum, but they aren't the same thing.",
   summary: "Agile is a philosophy of software and product development defined by the 2001 Manifesto for Agile Software Development's four values and twelve principles, which favor working results, customer collaboration, and responding to change delivered in short, iterative cycles; it prescribes no specific roles, meetings, or timeboxes. Scrum is one concrete framework for putting agile into practice, defined by the Scrum Guide (Schwaber and Sutherland, 2020 edition) with three accountabilities (Product Owner, Scrum Master, Developers), five events (the Sprint, Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective), and three artifacts (Product Backlog, Sprint Backlog, Increment), in Sprints of one month or less. Other agile approaches include Kanban and Extreme Programming, and certifications split along the same line: Scrum certifications test the framework, while broader agile credentials such as PMI-ACP cover multiple approaches.",

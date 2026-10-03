@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how social media algorithms work", "feed ranking explained", "recommendation systems", "digital communication", "engagement algorithm", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A social feed isn't chronological or random — a ranking model scores thousands of candidate posts against your past behavior and sorts them by predicted engagement.",
   summary: "A social media feed's order is decided by a ranking model that scores a large pool of candidate posts against signals like a person's past behavior, then sorts and displays the highest-scoring results first.",

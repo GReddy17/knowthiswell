@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["supply and demand", "equilibrium price", "shortage", "surplus", "price ceiling"],
   date: "2026-09-25",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "Supply and demand is best at predicting the direction prices and quantities move after a change, like a shortage pushing prices up, not exact numbers. It also predicts what happens when prices are held down by rule: persistent shortages.",
   summary: "The supply and demand model, as taught in OpenStax's Principles of Economics, predicts how the price and quantity of a good change when conditions change: an increase in demand (from higher incomes, a change in tastes, or a heat wave for fans) creates a shortage at the old price, which pushes the price up until quantity demanded and quantity supplied meet at a new equilibrium, while an increase in supply pushes price down. The model distinguishes a movement along a curve, caused by the good's own price changing, from a shift of the whole curve, caused by other factors. It also predicts that a price ceiling set below equilibrium produces a persistent shortage and a price floor above it produces a surplus. Its strength is predicting the direction of change; the size depends on elasticity, which must be measured, and real markets add delays, market power, and regulation that the basic model leaves out.",

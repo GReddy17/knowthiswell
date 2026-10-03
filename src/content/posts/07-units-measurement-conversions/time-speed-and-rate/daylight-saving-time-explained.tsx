@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Daylight saving time doesn't create more daylight — it just relabels the clock so the daylight that already exists lines up with more people's waking hours.",
   summary: "Daylight saving time shifts clocks forward by one hour in spring and back by one hour in fall, moving an hour of daylight from the early morning (when most people are still asleep) to the evening (when more people are awake to use it), without changing the total amount of daylight in a day.",

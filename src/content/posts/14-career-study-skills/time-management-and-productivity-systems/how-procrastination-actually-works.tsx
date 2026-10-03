@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["procrastination", "task avoidance", "time management", "psychology", "productivity"],
   date: "2026-08-30",
   updated: "2026-09-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 86, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-30",
   excerpt: "Procrastination is a short-term emotion-regulation strategy, not a discipline problem — avoiding a task relieves discomfort now, at the cost of the same task later.",
   summary: "Procrastination is the act of voluntarily delaying a task despite expecting the delay to make things worse, and psychological research frames it primarily as short-term mood regulation — avoiding the discomfort a task causes right now, at the cost of a worse version of the same task later — rather than as a simple failure of willpower or time management.",

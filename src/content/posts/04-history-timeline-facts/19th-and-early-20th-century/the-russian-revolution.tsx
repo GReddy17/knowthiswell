@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["russian revolution", "bolsheviks", "vladimir lenin", "tsar nicholas ii", "1917", "soviet union origins"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Russian Revolution was actually two revolutions in 1917, not one — the February Revolution toppled the Tsar, and the October Revolution brought the Bolsheviks to power months later.",
   summary: "The Russian Revolution refers to the two 1917 upheavals that ended centuries of tsarist rule in Russia — the February Revolution, which forced Tsar Nicholas II to abdicate and installed a Provisional Government, and the October Revolution, in which the Bolshevik Party led by Vladimir Lenin seized power and began building what became the Soviet Union.",

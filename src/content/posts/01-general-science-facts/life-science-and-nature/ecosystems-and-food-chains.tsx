@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "What makes something an ecosystem, why only about 10% of energy passes to the next link in a food chain, and how that single rule explains why apex predators are always rare.",
   summary: "A food chain is a sequence of who-eats-whom that moves energy through an ecosystem, and at each step roughly 90% of that energy is lost as heat rather than passed on.",

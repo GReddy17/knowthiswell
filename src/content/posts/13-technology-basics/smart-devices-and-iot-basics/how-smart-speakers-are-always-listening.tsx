@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["smart speakers", "wake word", "voice assistant", "how smart speakers work", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A smart speaker isn't streaming everything you say to the cloud — a small local processor checks for a wake word first, and most audio never leaves the device.",
   summary: "Smart speakers appear to always be listening because a small on-device processor continuously checks a short rolling buffer of audio for a specific wake-word pattern, discarding everything else, and only sends audio to a remote server after that pattern is matched.",

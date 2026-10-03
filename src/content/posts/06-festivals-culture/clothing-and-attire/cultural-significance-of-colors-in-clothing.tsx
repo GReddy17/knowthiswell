@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["color symbolism", "clothing colors", "wedding colors", "mourning colors"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "White signals a wedding in much of the West and mourning in parts of East and South Asia — color meaning in clothing is culturally specific, not universal.",
   summary: "The meaning of a clothing color depends heavily on cultural context — white is a bridal color in much of the Western tradition but a mourning color in parts of East and South Asia, and red is auspicious bridal wear across much of South Asia and China rather than a warning color.",

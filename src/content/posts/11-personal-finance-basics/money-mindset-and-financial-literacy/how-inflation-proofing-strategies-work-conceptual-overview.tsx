@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["inflation", "purchasing power", "real returns", "cost of living", "inflation-proofing"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Inflation doesn't just raise prices — it quietly shrinks the purchasing power of money that sits still, which is the actual problem \"inflation-proofing\" strategies try to address.",
   summary: "Inflation-proofing is not about eliminating inflation's effect on money, which isn't possible for an individual, but about choosing where money is held so its growth rate has a realistic chance of keeping pace with — or exceeding — the rate at which prices rise, since money earning less than the inflation rate loses real purchasing power even while its nominal balance stays the same or grows.",

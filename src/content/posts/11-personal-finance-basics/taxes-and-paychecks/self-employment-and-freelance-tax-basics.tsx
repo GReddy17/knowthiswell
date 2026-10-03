@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["self-employment tax", "freelance taxes", "estimated taxes", "1099", "quarterly taxes"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Freelance income doesn't have an employer withholding taxes automatically, which is why self-employed workers owe both income tax and the full self-employment tax themselves, usually in quarterly installments.",
   summary: "Self-employed and freelance workers must pay both regular income tax and self-employment tax (which covers the full Social Security and Medicare contribution normally split between employer and employee), typically through quarterly estimated tax payments since no employer is withholding on their behalf.",

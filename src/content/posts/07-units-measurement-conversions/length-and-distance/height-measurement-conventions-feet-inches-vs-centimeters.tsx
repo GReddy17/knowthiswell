@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["height conversion", "feet and inches", "centimeters", "measurement conventions", "unit conversion"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Human height is one of the few measurements still routinely written as a mixed-unit combination (feet AND inches) rather than a single decimal number — converting it to centimeters requires combining both parts before applying the conversion factor.",
   summary: "Converting a height given in feet and inches to centimeters means first combining both parts into a single number of inches, then multiplying by 2.54 — skipping the combination step and converting feet and inches separately produces a wrong answer unless the results are added correctly.",

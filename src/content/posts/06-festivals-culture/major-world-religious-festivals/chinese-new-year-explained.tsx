@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["chinese new year", "lunar new year", "spring festival", "east asian festivals"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Chinese New Year, also called the Spring Festival, marks the start of the lunisolar calendar year and is celebrated with family reunions, red decorations, and fireworks.",
   summary: "Chinese New Year, also known as the Spring Festival or Lunar New Year, marks the beginning of the traditional Chinese lunisolar calendar year, celebrated with family reunions, red decorations symbolizing luck, and a 15-day festival period ending with the Lantern Festival.",

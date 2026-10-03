@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["tax forms", "tax filing", "IRS documents", "W-2", "1099"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Tax filing involves a handful of document types with distinct jobs — income-reporting forms, the return itself, and supporting schedules — knowing which is which prevents most filing confusion.",
   summary: "U.S. tax filing revolves around a small set of document types, each with a distinct job: income-reporting forms issued to you (like a W-2 or 1099), the tax return itself (like Form 1040) that you or a preparer complete using those documents, and supporting schedules attached when a situation is more complex than the base return covers.",

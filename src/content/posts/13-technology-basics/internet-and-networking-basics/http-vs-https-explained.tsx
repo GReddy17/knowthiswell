@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["HTTP vs HTTPS", "TLS encryption", "padlock icon", "website security", "networking basics"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "HTTPS is HTTP wrapped in encryption — the padlock icon confirms your connection to a site is private and verified, not that the site itself is trustworthy.",
   summary: "HTTPS is the standard web protocol HTTP combined with TLS encryption, which scrambles data in transit and verifies the site's identity — the padlock icon confirms a private, verified connection, not that the site's content is safe or honest.",

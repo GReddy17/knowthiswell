@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["invasive species", "biodiversity", "ecosystem disruption", "conservation", "ecology"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "An invasive species isn't just any non-native animal or plant — it's one that causes real ecological or economic harm because it arrives without the predators, competitors, or diseases that kept it in check at home.",
   summary: "An invasive species is a non-native organism that causes measurable ecological or economic harm in its new environment, typically because it lacks the natural checks — predators, competitors, parasites — that regulated its population where it evolved.",

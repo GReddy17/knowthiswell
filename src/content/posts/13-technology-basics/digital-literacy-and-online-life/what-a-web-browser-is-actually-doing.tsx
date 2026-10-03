@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how browsers work", "what does a browser do", "rendering engine", "DOM explained", "digital literacy"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A web browser isn't just a window onto the internet — it's a pipeline that fetches, parses, and renders raw code into the page you see, in a fixed order.",
   summary: "A web browser is software that requests a page's underlying code over the internet, then parses, structures, and paints that code into the visual page you interact with, repeating the process for every resource the page needs.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["figurative language", "metaphor", "simile", "idiom", "personification", "literary devices"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Metaphors, similes, and idioms aren't decorative extras confined to poetry — figurative language is baked into ordinary speech, and telling the types apart makes both reading and writing sharper.",
   summary: "Figurative language is language that means something other than its literal, word-for-word sense — including metaphors (implied comparisons), similes (comparisons using 'like' or 'as'), idioms, personification, and hyperbole — and it shows up constantly in everyday speech, not just in literature.",

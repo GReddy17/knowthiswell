@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["apartheid", "south africa", "nelson mandela", "20th century history", "de klerk", "1994 election"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "A factual timeline of how apartheid ended in South Africa, from Nelson Mandela's 1990 release through the multi-year negotiated transition to the 1994 election.",
   summary: "Apartheid was South Africa's system of legally enforced racial segregation from 1948 to the early 1990s, dismantled through a negotiated, multi-year political transition between 1990 and 1994 rather than a single event, culminating in the country's first democratic election in April 1994.",

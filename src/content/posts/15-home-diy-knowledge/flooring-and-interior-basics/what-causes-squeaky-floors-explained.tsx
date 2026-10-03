@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["squeaky floors", "subfloor", "flooring repair", "home maintenance", "wood floors"],
   date: "2026-09-17",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "The sound isn't the floorboard itself — it's two loose surfaces, usually a board and a nail shank, rubbing against each other under your weight.",
   summary: "A squeaky floor is almost always a friction problem, not a broken one: a floorboard has worked slightly loose from the subfloor or joist beneath it, and when weight shifts, the small gap lets the board rub against a nail shank or against the subfloor itself, and that friction is what produces the sound — the fix targets the friction, not the board.",

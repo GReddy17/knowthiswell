@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["plunger", "clogged drain", "clogged toilet", "hydraulic pressure", "home plumbing basics"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "A plunger works mainly by pushing an incompressible column of trapped water against a clog, not by sucking it out — which is why water depth and sealing both matter.",
   summary: "A plunger clears a clog mainly through its push stroke, which compresses the water trapped under its cup and transmits that force, largely undiminished because water can't compress, straight down through the trap against the clog — the pull stroke that follows adds a second, weaker force in the opposite direction, but the plunger was never primarily a suction tool.",

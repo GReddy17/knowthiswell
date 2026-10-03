@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["current affairs myths", "civic misconceptions", "united nations", "democracy", "misinformation"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The UN has no army of its own, votes don't decide most laws directly, and sanctions rarely hit the people who caused them — a roundup of civic misconceptions worth correcting.",
   summary: "A handful of durable misconceptions about how global institutions and democratic government actually function keep recurring across otherwise well-informed conversations, and each one traces back to confusing a simplified mental model for the real, more procedural mechanism underneath.",

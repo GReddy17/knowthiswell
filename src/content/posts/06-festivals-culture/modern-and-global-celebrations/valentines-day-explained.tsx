@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["valentine's day", "february 14", "romantic holidays", "modern celebrations"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Valentine's Day traces from an obscure early Christian feast day through a 14th-century literary tradition to today's widely celebrated holiday.",
   summary: "Valentine's Day is a February 14 observance of romantic love, rooted in an early Christian feast day and a medieval literary tradition, that grew over centuries into today's widely celebrated, largely commercial holiday.",

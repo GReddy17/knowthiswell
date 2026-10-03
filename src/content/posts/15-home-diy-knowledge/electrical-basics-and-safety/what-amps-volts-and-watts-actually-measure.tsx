@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["amps volts watts", "electrical units", "watts law", "ohms law", "home electrical basics"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Volts measure electrical pressure, amps measure flow rate, and watts measure the power delivered — related by the formula watts equal volts times amps.",
   summary: "Volts, amps, and watts measure three different but connected things about electricity — voltage is the electrical pressure pushing current along, amperage is the rate that current actually flows, and wattage is the resulting power, calculated as volts multiplied by amps.",

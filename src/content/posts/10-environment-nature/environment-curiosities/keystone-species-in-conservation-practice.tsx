@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["keystone species", "trophic cascade", "conservation biology", "ecosystem management", "biodiversity"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A keystone species has an outsized effect on its ecosystem relative to its numbers — remove it, and the whole food web can reorganize, which is exactly what happened when wolves returned to Yellowstone.",
   summary: "A keystone species is one whose impact on its ecosystem is disproportionately large relative to its population size, meaning its removal or reintroduction can trigger a trophic cascade — a chain reaction of changes through multiple levels of the food web.",

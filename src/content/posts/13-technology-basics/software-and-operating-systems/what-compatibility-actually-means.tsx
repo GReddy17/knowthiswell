@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["device compatibility", "standards", "interoperability", "usb standards", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "\"Compatible\" isn't one property — it's four separate layers (connector, protocol, OS support, software format) that all have to match independently.",
   summary: "Compatibility between two devices or a device and a piece of software means several independent layers — physical connection, communication protocol, operating system support, and software format — all match well enough for them to work together, and any single layer can fail on its own.",

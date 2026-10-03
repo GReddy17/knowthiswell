@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["payment processing", "card authorization", "PCI DSS", "payment gateway", "digital literacy"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "An online payment travels through a chain of checkable approvals — merchant, processor, card network, issuing bank — with the merchant never actually deciding whether it goes through.",
   summary: "Processing an online payment is a trust chain of verifications passed between a merchant, a payment processor, a card network, and the customer's bank, where each link only ever relays and checks the previous link's claim rather than approving anything on its own authority.",

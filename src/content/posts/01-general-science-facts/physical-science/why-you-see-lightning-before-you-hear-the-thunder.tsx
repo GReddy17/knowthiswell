@@ -25,6 +25,8 @@ export const metadata: PostFrontmatter = {
   tags: ["lightning", "thunder", "speed of light", "speed of sound", "storm safety"],
   date: "2026-09-19",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-19",
   excerpt: "Lightning and thunder happen at the exact same instant — you just perceive them at wildly different speeds, because light travels about a million times faster than sound.",
   summary: "A lightning strike and its thunder are created simultaneously, by the same event — the flash is light from the superheated air channel, and the thunder is sound from that same air's explosive expansion. Light reaches your eyes almost instantly at about 300,000 km/s, while sound crawls along at only about 343 m/s in air, so the delay between seeing the flash and hearing the thunder is purely a measure of distance, not a sign the two happened at different times. That delay is exactly why the 'count the seconds, divide by five' method for estimating storm distance in miles actually works.",

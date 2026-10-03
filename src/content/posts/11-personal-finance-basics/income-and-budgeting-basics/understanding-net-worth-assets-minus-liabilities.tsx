@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["net worth", "assets and liabilities", "personal finance basics", "financial statements", "money management"],
   date: "2026-08-22",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Net worth is a single number — total assets minus total liabilities — that summarizes overall financial position at a point in time, distinct from income, which measures cash flow over a period.",
   summary: "Net worth is calculated by subtracting everything owed (liabilities) from everything owned of value (assets), producing a single snapshot figure that reflects overall financial position rather than income or cash flow.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["health screenings", "preventive care", "age-based checkups", "early detection"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Health screenings are organized by age because a condition's likelihood, and the point at which catching it early actually changes the outcome, both shift predictably as people get older.",
   summary: "A health screening is a test performed on someone without symptoms, aimed at catching a condition early enough that treatment works better — screening schedules are organized by age group because the statistical likelihood of specific conditions, and the age at which early detection meaningfully improves outcomes, are both well-documented and shift across the lifespan.",

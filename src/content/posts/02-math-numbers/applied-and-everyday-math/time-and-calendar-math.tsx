@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why finding a future day of the week is modular arithmetic, and why the leap year rule needs three conditions, not one, to keep the calendar accurate.",
   summary: "Calendar math relies on modular (remainder) arithmetic for cycles like the 7-day week, and on a three-part leap year rule to keep the 365-day calendar aligned with Earth's roughly 365.2422-day orbit.",

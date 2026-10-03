@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["file compression", "zip files", "lossless vs lossy", "compression ratio", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Compression doesn't magically erase data — it finds repeated patterns and rewrites them more efficiently, and how much it can shrink a file depends entirely on how repetitive that file already is.",
   summary: "File compression works by finding redundant, repeated patterns inside data and rewriting them in a shorter form, either reversibly (lossless) or by deliberately discarding some detail for a smaller result (lossy), which is why a compressed file's size depends heavily on how repetitive the original content already was.",

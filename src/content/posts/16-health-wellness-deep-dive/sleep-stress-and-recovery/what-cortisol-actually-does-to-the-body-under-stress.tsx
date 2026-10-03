@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cortisol", "stress response", "HPA axis", "hormones", "chronic stress"],
   date: "2026-09-21",
   updated: "2026-09-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-21",
   excerpt: "Cortisol isn't simply a 'stress hormone' to eliminate — it's a normal, necessary signal that becomes a problem mainly when it stays elevated for too long.",
   summary: "Cortisol is a hormone released by the adrenal glands, under control of the brain's hypothalamic-pituitary-adrenal (HPA) axis, in response to a perceived stressor — it temporarily raises blood sugar, sharpens alertness, and redirects the body's energy toward an immediate demand, then normally falls again once the stressor passes through a negative feedback loop; per NIH-affiliated medical reference sources, the documented health concerns associated with cortisol come mainly from chronically elevated levels over weeks or months, not from a normal, short-lived stress response, which is a necessary and healthy part of how the body reacts to real demands.",

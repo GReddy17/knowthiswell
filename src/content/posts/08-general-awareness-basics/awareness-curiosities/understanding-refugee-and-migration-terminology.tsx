@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["refugee", "asylum seeker", "migration terminology", "UNHCR", "internally displaced person"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Refugee, asylum seeker, migrant, and internally displaced person are distinct legal categories, not interchangeable words for the same situation.",
   summary: "Refugee, asylum seeker, internally displaced person, and migrant each have a specific, legally distinct meaning under international frameworks — the differences turn on whether someone crossed an international border, why they left, and whether their legal status has been formally recognized.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["budgeting basics", "income vs expenses", "cash flow", "personal finance", "money management"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A budget is just a plan matching money coming in against money going out — the mechanics are simple arithmetic, even though following one consistently is the harder part.",
   summary: "A budget is a plan that matches income (money coming in over a period) against expenses (money going out over that same period), so a person can see in advance whether they'll have a surplus, a shortfall, or a break-even result before the money actually moves.",

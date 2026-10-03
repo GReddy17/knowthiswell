@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["QR codes", "barcodes", "error correction", "encoding data", "technology basics", "everyday tech"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A QR code stores its data directly in a grid of black and white squares — no internet connection is involved until your phone acts on what it decodes.",
   summary: "A QR code is a two-dimensional pattern of black and white squares, called modules, that directly encodes text or data as a fixed sequence of bits, plus built-in error-correction data that lets it still be read even when part of the pattern is damaged or covered.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["tariffs", "how tariffs work", "who pays tariffs", "tariff pass-through", "import prices", "trade policy", "consumer prices"],
   date: "2026-09-30",
   updated: "2026-09-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-30",
   excerpt: "A tariff is a tax the importing company pays at the border. Studies of the 2018 U.S. tariffs found nearly all of it showed up in U.S. import prices, and domestic competitors raised prices too.",
   summary: "A tariff is a tax on imported goods, collected by the importing country's customs agency from the importer of record, which in the U.S. is usually a U.S. company. The foreign exporter doesn't write the check, though it can absorb some of the cost by cutting its price. How much of a tariff reaches consumers is called pass-through. Research on the 2018-2019 U.S. tariffs found pass-through to U.S. import prices was close to complete: Amiti, Redding and Weinstein (2019) estimated the tariffs cost U.S. consumers and importers about $3 billion a month in added taxes by the end of 2018, and Fajgelbaum and colleagues (2020) found the full cost fell on U.S. buyers. Retail prices rose by less than border prices in many categories because retailers absorbed part of the cost in their margins (Cavallo, Gopinath, Neiman and Tang, 2021). Tariffs also let domestic competitors raise prices: after 2018 washing-machine tariffs, Flaaen, Hortaçsu and Tintelnot found washer prices rose about 12%, and untariffed dryers rose by a similar dollar amount. How much a given tariff raises a given price depends on competition, substitutes, markups and exchange rates, and rates have changed repeatedly in 2025 and 2026.",

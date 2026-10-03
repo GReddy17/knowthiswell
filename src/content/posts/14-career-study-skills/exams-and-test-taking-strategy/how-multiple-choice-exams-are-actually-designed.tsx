@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["multiple choice exams", "test design", "distractors", "item writing", "standardized testing"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Multiple-choice questions are built from a stem, a correct key, and distractors written from real, common errors — not random wrong answers thrown in to fill space.",
   summary: "A multiple-choice question is a deliberately engineered object: a stem that states one exact thing being tested, a key that is the credited correct answer, and distractors written from documented, common errors rather than arbitrary wrong text. Understanding that design is what separates reading a question for what it is actually asking from reading it as a random guess between similar-looking options.",

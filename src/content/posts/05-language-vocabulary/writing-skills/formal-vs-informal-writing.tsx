@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["formal writing", "informal writing", "tone", "register", "writing style"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Formal and informal writing aren't 'correct vs incorrect' — they're two registers with different rules for tone, contractions, and word choice, suited to different situations.",
   summary: "Formal and informal writing are two different registers of the same language, each with its own conventions for tone, vocabulary, contractions, and sentence length, and choosing between them is about matching audience and purpose, not about one being more grammatically correct.",

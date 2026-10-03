@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["read receipts explained", "typing indicator", "how read receipts work", "digital communication", "message status", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A read receipt is a small status update your device sends back to a server the moment a message is displayed on screen — it reports rendering, not comprehension.",
   summary: "Read receipts and typing indicators are small status messages that a messaging app automatically sends between devices to report a specific technical event — a message being displayed, or a text field being actively typed in — and neither one confirms what the other person actually did with that information.",

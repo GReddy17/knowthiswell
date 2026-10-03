@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["gutters", "roof drainage", "foundation moisture", "home maintenance", "seasonal maintenance"],
   date: "2026-09-12",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 87, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "A clogged gutter doesn't just overflow — it redirects a roof's entire rainfall load onto fascia, siding, and the soil right next to the foundation.",
   summary: "A gutter's whole job is to collect a roof's runoff and carry it away from the house through a controlled path — the downspout. Once debris blocks that path, the water doesn't stop coming; it just finds an uncontrolled route over the gutter's edge, and that redirected water is what actually causes fascia rot, siding damage, and foundation moisture problems, not the leaves themselves.",

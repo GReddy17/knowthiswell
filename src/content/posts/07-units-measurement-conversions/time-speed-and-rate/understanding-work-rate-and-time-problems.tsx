@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Two workers finishing a job together are never as slow as just averaging their individual times — because rates add, but times don't.",
   summary: "Work-rate problems (classically 'two pipes filling a tank') are solved by converting each worker's or machine's time into a rate (fraction of the job per hour), adding the rates together, then taking the reciprocal of the combined rate to find the combined time — a method that generalizes directly to person-hours and staffing calculations.",

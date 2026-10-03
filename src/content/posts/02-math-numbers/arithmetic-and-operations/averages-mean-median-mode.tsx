@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Mean, median, and mode explained with real datasets, including why outliers can make the mean a misleading 'typical' value.",
   summary: "Mean, median, and mode are three different ways of describing a dataset's 'typical' value, and they can disagree with each other sharply the moment a dataset has outliers or a skewed shape.",

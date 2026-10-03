@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["LCM", "HCF", "GCD", "factors", "multiples"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "LCM is the smallest number two numbers both divide into; HCF/GCD is the largest number that divides into both — opposite tools for opposite problems.",
   summary: "The Least Common Multiple (LCM) is the smallest multiple two or more numbers share. The Highest Common Factor (HCF), also called Greatest Common Divisor (GCD), is the largest factor they share. They solve opposite kinds of problems.",

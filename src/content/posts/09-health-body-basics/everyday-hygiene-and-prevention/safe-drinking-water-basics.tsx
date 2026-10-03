@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["water safety", "water treatment", "boil water advisory", "waterborne illness", "public health"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Municipal water treatment removes pathogens through a multi-step process — but a boil water advisory means that process has been compromised, not that boiling is an everyday extra precaution.",
   summary: "Safe drinking water depends on a multi-step treatment process (filtration, disinfection) that removes or inactivates pathogens and reduces contaminants before water reaches a tap, and understanding when that process can be disrupted — after main breaks, floods, or system failures — explains why boil water advisories exist and what they actually require.",

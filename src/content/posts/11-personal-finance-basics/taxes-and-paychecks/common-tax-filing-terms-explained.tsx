@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["tax terms", "gross income", "AGI", "standard deduction", "filing status"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Gross income, AGI, taxable income, and filing status all sound similar but each means something distinct — and mixing them up is one of the easiest ways to misread a tax form or a tax bracket table.",
   summary: "A tax return moves through a specific sequence of terms — gross income, adjustments, adjusted gross income (AGI), deductions, taxable income, and filing status — each narrowing or classifying the number differently, and each playing a distinct role in how the final tax bill is calculated.",

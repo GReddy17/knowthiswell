@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["world war i", "first world war", "1914", "trench warfare", "treaty of versailles", "20th century history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "World War I (1914-1918) killed roughly 20 million people and grew out of years of alliance-building and rivalry — the assassination that triggered it was a spark, not the sole cause.",
   summary: "World War I was a global conflict fought from 1914 to 1918, primarily between the Allied Powers (including France, Britain, Russia, and later the United States) and the Central Powers (Germany, Austria-Hungary, and the Ottoman Empire), triggered by the assassination of Archduke Franz Ferdinand but rooted in decades of alliance systems, militarism, and imperial competition.",

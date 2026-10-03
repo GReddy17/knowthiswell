@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["captcha", "bot detection", "verification", "web security", "cybersecurity basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "CAPTCHA works by giving automated scripts a task that's historically been easy for humans and hard for bots, or by scoring behavior in the background — it's a probabilistic filter, not an unbreakable lock.",
   summary: "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) verifies a visitor is likely human either by presenting a challenge that's historically been easy for people and hard for automated scripts, or, in modern systems, by continuously scoring passive behavioral signals in the background and only showing an explicit challenge when that score is ambiguous.",

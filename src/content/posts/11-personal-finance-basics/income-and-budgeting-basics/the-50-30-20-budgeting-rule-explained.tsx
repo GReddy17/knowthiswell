@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["50/30/20 rule", "budgeting basics", "needs vs wants", "savings rate", "personal finance"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "The 50/30/20 rule splits after-tax income into three rough buckets — needs, wants, and savings — as a starting framework, not a rigid formula that fits every income level.",
   summary: "The 50/30/20 rule is a budgeting framework that allocates after-tax income into three categories: roughly 50% to needs, 30% to wants, and 20% to savings and debt repayment, popularized as a simple starting split rather than a precise formula every household must follow exactly.",

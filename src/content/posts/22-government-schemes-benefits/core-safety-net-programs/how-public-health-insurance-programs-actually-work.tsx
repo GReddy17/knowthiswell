@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["medicare", "medicaid", "chip", "public health insurance", "medicare enrollment"],
   date: "2026-09-26",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "In the U.S., Medicare is mostly based on age or disability, while Medicaid and CHIP are based on income and run by each state. Medicare isn't free, Medicaid rules differ by state, and some people qualify for both.",
   summary: "The U.S. has three main public health insurance programs. Medicare, run by the federal government, covers people 65 and older, people under 65 who have received Social Security disability benefits for 24 months, and people with end-stage renal disease or ALS, per Medicare.gov and the Social Security Administration. It has parts: Part A (hospital, usually premium-free after about 10 years of Medicare-taxed work), Part B (doctor and outpatient care, with a monthly premium), Part C (Medicare Advantage plans from private insurers), and Part D (prescription drugs). Medicaid is jointly funded by the federal government and states and run by each state under federal rules, covering people with limited income and resources; states that adopted the Affordable Care Act expansion cover most adults up to 138% of the federal poverty level. CHIP covers children in families that earn too much for Medicaid but can't afford private coverage. People who qualify for both Medicare and Medicaid are called dual eligibles. Medicaid and CHIP applications are accepted year-round, while Medicare has set enrollment periods and late penalties.",

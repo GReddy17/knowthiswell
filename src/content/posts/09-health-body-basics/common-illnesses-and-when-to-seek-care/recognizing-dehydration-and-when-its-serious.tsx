@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["dehydration", "fluid balance", "electrolytes", "heat illness", "when to see a doctor"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Dehydration happens on a spectrum from mild (easily fixed by drinking fluids) to severe (a medical emergency) — urine color, thirst, and mental alertness are practical everyday signals for where someone falls on that spectrum.",
   summary: "Dehydration occurs when the body loses more fluid than it takes in, and it exists on a real spectrum from mild (thirst, slightly darker urine, easily corrected by drinking fluids) to severe (dizziness, confusion, very little or no urination), with severe dehydration representing a medical emergency requiring prompt care rather than home management, per CDC and NHS guidance.",

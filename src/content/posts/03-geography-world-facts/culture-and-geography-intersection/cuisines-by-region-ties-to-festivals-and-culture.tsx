@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why regional cuisines look the way they do — climate and crops set the base ingredients, and centuries of trade and migration did the rest, including the surprisingly recent arrival of chili peppers and tomatoes outside the Americas.",
   summary: "Regional cuisines are shaped primarily by climate and geography, which determine what crops and animals a region can realistically produce, layered with centuries of trade, migration, and colonization that moved specific ingredients — like chili peppers, tomatoes, and spices — far beyond their original growing regions.",

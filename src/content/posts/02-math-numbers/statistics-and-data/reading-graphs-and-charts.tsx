@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How bar, line, and pie charts encode data, how to read them accurately, and how a truncated axis can make a small change look enormous.",
   summary: "Reading a graph correctly means knowing what visual feature — position, length, or angle — actually carries the data, and checking whether the axis is being used honestly.",

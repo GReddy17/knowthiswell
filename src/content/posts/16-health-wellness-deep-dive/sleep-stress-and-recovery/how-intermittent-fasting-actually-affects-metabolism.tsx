@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["intermittent fasting", "metabolism", "glycogen", "ketones", "metabolic switching"],
   date: "2026-09-23",
   updated: "2026-09-23",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-23",
   excerpt: "Fat-burning doesn't start the moment you stop eating — the body draws down stored glycogen first, then gradually shifts toward fat and ketones, on a timeline that varies by person.",
   summary: "During a fasting window, the body first maintains blood sugar by breaking down stored liver glycogen, and as those reserves are drawn down — commonly somewhere in a roughly 12-to-24-hour range after the last meal, though the exact timing varies by individual, activity level, and prior diet, per National Institute on Aging descriptions of this process — it increasingly shifts toward burning fat for energy and producing ketone bodies as an alternative fuel; this metabolic shift is a normal, well-documented process, but the broader health effects of intermittent fasting for outcomes like long-term weight, blood sugar control, or longevity are still being actively studied in humans, and this article is general educational information, not medical advice.",

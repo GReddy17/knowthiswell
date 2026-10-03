@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fundamental rights", "civil liberties", "constitutional rights", "human rights", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Fundamental rights are the specific protections a constitution guarantees against the state itself — a narrower, legally enforceable subset of the broader idea of human rights.",
   summary: "Fundamental rights are the specific legal protections written into a country's constitution that guarantee individuals freedom from state overreach and access to basic legal fairness — they differ from ordinary laws in that they typically can't be removed by a simple act of the legislature.",

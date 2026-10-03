@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["federalism", "unitary state", "government structure", "devolution", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The real dividing line between federal and unitary systems is where sovereign power constitutionally originates — split permanently between national and regional governments, or held centrally and merely delegated outward.",
   summary: "A federal system constitutionally divides sovereign power between a national government and constituent states or provinces, each with authority the other cannot simply revoke, while a unitary system holds sovereign power centrally and any regional authority exists only because the central government has chosen to delegate it, and can in principle take it back.",

@@ -25,6 +25,8 @@ export const metadata: PostFrontmatter = {
   tags: ["electricity", "voltage", "electric shock safety", "power lines", "physics misconceptions"],
   date: "2026-09-19",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-19",
   excerpt: "A bird on a power line isn't protected by insulated feet — it's safe because both of its feet touch the same wire, so there's no voltage difference across its body for current to flow through.",
   summary: "Electric current only flows when there's a voltage difference between two points that a conductive path connects — a bird standing with both feet on the same wire has essentially zero voltage difference across its body, so almost no current flows through it, regardless of how high the wire's voltage is relative to the ground. The danger appears the moment a second contact point at a different voltage is introduced, such as a grounded pole, a transformer, or a second wire — which is exactly why linework safety training focuses on avoiding two-point contact, not on insulation.",

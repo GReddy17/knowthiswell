@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cramming", "last-minute studying", "memory consolidation", "sleep and memory", "exam preparation"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Late-night cramming often backfires because it trades sleep-dependent memory consolidation for a few extra hours of exposure, and packs similar facts together in a way that makes them interfere with each other.",
   summary: "A last-minute cram session often backfires for two compounding reasons: it typically cuts into sleep, which is when the brain consolidates newly studied material into stable long-term memory, and it packs many similar facts into one short window, which increases interference between memories that are still fresh and unconsolidated — so the added exposure can cost more retrieval reliability than it adds.",

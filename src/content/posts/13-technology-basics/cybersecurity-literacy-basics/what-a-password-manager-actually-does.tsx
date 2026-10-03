@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["password manager", "password security", "digital identity", "cybersecurity basics", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A password manager is an encrypted lookup vault, not a memory trick — it stores one unique password per site and matches it by exact address, unlocked by a single master password.",
   summary: "A password manager is software that stores a separate, unique password for every account inside an encrypted vault, and retrieves the correct one by matching the exact site address, so a person only ever has to remember one master password or unlock method.",

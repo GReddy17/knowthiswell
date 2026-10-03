@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["social proof", "conformity", "social norms", "persuasion", "descriptive norms"],
   date: "2026-09-26",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "When we're unsure what to do, we copy what people around us are doing. The effect is strongest with uncertainty and similar others, and it can backfire: telling people 'many others do the bad thing' can increase the bad thing.",
   summary: "Social proof is the tendency to treat other people's behavior as evidence of the correct thing to do, especially when a situation is uncertain, as described in the APA Dictionary of Psychology. Field studies show its size. In a 1969 street experiment by Milgram, Bickman and Berkowitz, as the crowd staring up at a building grew from 1 person to 15, the share of passersby who stopped rose from about 4% to about 40%. In a 2008 hotel study, Goldstein, Cialdini and Griskevicius found that a card saying most guests reused their towels increased reuse compared with a standard environmental appeal, and a card referring to guests who had stayed in the same room did better still. Social proof can backfire: Cialdini (2003) reported that a sign stressing how many visitors stole petrified wood from a national park was associated with more theft than a sign simply asking people not to. Asch's 1950s line-judgment studies showed people will sometimes give an answer they can see is wrong when a group agrees on it.",

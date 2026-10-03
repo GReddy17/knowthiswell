@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["thermostat", "hvac basics", "feedback loop", "home heating and cooling", "setpoint"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 87, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "A thermostat doesn't produce heat or cold — it senses room temperature, compares it to a setpoint, and switches the heating or cooling system on or off.",
   summary: "A thermostat is a feedback-loop controller: it senses the current room temperature, compares that reading to a target setpoint, and switches the heating or cooling system on or off to close the gap — a small buffer called a deadband keeps it from switching rapidly back and forth around the setpoint.",

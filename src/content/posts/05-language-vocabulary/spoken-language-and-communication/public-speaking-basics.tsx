@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["public speaking", "communication skills", "glossophobia", "presentations", "speech delivery"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 64, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Nervousness before speaking to a group is a normal physical response, not evidence of skill — public speaking is a learnable technique, built on preparation, structure, and practice.",
   summary: "Public speaking is the practice of delivering a spoken message to an audience with clarity and structure, and it's a learnable skill built on preparation, organization, and delivery technique — not a fixed trait some people simply have and others lack.",

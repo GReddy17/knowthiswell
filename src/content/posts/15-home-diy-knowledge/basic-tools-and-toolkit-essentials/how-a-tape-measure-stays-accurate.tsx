@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["tape measure", "measurement accuracy", "true zero hook", "NIST", "hand tools"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "A tape measure's end hook wobbles on purpose — it's riveted with slack equal to its own thickness so the reading stays accurate whether you're pulling or pushing it.",
   summary: "The wobble in a tape measure's end hook isn't a defect — it's a deliberate design called a true-zero hook, riveted with just enough slack (roughly the thickness of the hook metal itself) that it slides to the outer limit of its travel when pulled over an edge and to the inner limit when pushed into a corner, keeping the printed zero mark accurate for both ways the tool gets used.",

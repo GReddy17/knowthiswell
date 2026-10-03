@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cloud storage", "local storage", "storage trade-offs", "data redundancy", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Cloud storage trades a single local drive for redundancy and remote access — but it requires internet, ongoing cost, and trust in a provider's practices.",
   summary: "Cloud storage keeps data on a provider's remote, redundant servers reachable over the internet, while local storage keeps data on a physical device you hold — each trades access, durability, and cost differently.",

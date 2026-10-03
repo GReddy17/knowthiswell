@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["language change", "sound change", "semantic shift", "grammaticalization", "creoles", "linguistics"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Languages never stop changing — sound shifts, borrowed words, and drifting meanings reshape every living language, generation by generation.",
   summary: "Language change is a constant, universal process driven by how each new generation of speakers acquires and reshapes what it hears — through sound change, semantic shift, grammaticalization, and borrowing — not a sign of decline from some earlier 'correct' form.",

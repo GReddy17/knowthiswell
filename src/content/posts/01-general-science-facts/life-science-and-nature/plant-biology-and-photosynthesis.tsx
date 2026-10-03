@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How photosynthesis converts light, water, and carbon dioxide into sugar and oxygen — and why most of a plant's mass never comes from the soil.",
   summary: "Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water into glucose and oxygen, powering nearly all life on Earth's food chains.",

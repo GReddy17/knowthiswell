@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["test anxiety", "exam stress", "working memory", "performance anxiety", "test-taking strategy"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Test anxiety lowers exam scores by consuming working memory with worry, not by erasing knowledge — the material is often still there, but harder to retrieve under pressure.",
   summary: "Test anxiety doesn't work by erasing what someone studied. It works by consuming a limited mental resource, working memory, with worry and physical arousal, leaving less of that resource available for the actual task of recalling and reasoning through the exam itself — which is why a well-prepared person can still underperform badly under high stress.",

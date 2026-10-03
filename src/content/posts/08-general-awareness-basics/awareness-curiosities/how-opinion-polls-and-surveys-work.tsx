@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["opinion polls", "margin of error", "sampling", "survey methodology", "polling"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A poll's margin of error isn't a minor footnote — it's a mathematically required part of reading the actual result correctly.",
   summary: "A well-conducted opinion poll estimates a population's views by surveying a smaller random sample, then reports both a headline percentage and a margin of error that quantifies the statistical uncertainty introduced by sampling only a subset of the full population rather than everyone.",

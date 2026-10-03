@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["local government", "municipal services", "civics", "public services", "government structure"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "National government sets broad policy, but the services people interact with daily — trash collection, local roads, permits — almost always trace back to local government instead.",
   summary: "Local government (cities, towns, counties, and similar municipal bodies) is typically responsible for the day-to-day public services residents interact with most directly, such as waste collection, local roads, water and sewer systems, zoning, and local law enforcement, funded largely through local taxes and often supplemented by higher-level government funding.",

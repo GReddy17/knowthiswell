@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["data breach", "stolen credentials", "misconfiguration", "credit freeze", "cybersecurity"],
   date: "2026-09-26",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "Most data breaches aren't movie-style hacks. They start with a stolen password, a tricked employee, an unpatched system, or a storage bucket left open, and they are often discovered weeks or months later.",
   summary: "A data breach happens when someone gets access to information they shouldn't have and it's exposed or taken. Verizon's annual Data Breach Investigations Report has found year after year that the most common ways in are stolen or reused credentials, phishing and other tricks aimed at people, exploited vulnerabilities in unpatched systems, and simple errors such as misconfigured cloud storage, with vendors and other third parties an increasingly common path. After getting in, attackers typically move to more valuable systems, locate data, and copy it out, often long before anyone notices. The FTC's breach-response guidance tells businesses to secure systems, fix the vulnerabilities, and notify affected people as their state's laws require; every U.S. state has a breach notification law. For individuals, the practical defenses are unique passwords, multi-factor authentication, and a free credit freeze at the three bureaus, with IdentityTheft.gov as the federal recovery resource if data is misused.",

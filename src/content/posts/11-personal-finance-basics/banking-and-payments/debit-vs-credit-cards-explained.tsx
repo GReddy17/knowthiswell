@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["debit card", "credit card", "banking basics", "consumer protection", "Regulation E"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A debit card spends money you already have; a credit card spends the bank's money on your behalf and bills you later — and that one difference in whose money moves first drives nearly every other distinction between them.",
   summary: "A debit card draws directly from a linked checking account balance in real time, while a credit card is a short-term loan the issuer extends at the point of sale, repaid later — a difference that also explains why the two cards carry different fraud-liability rules and different effects on credit history.",

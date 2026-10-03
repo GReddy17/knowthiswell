@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["hidden job market", "networking", "referrals", "job search strategy", "informational interviews"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "The hidden job market refers to roles filled through referrals, internal moves, and direct outreach before or instead of a public posting — not a secret list of listings anywhere.",
   summary: "The \"hidden job market\" isn't a secret database of unlisted jobs — it's the ordinary practice of employers filling roles through referrals, internal promotions, or direct outreach to known candidates, sometimes before a public posting exists at all and sometimes even after one is technically live, because a personal or professional vouch reduces the employer's hiring risk more cheaply than screening the open pool.",

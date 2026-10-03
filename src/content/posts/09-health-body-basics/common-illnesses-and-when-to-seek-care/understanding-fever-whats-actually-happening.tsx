@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fever", "body temperature", "hypothalamus", "immune response", "when to see a doctor"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A fever is the brain deliberately raising the body's temperature set point to fight infection more effectively — it's a sign the immune system is working, not a malfunction by itself.",
   summary: "Fever happens when the hypothalamus, the brain's temperature-control center, deliberately raises the body's internal temperature set point in response to infection — a mechanism that makes the body less hospitable to many pathogens, meaning fever itself is generally a sign the immune system is responding, not damage occurring, though very high or prolonged fevers, or fever in certain groups, do warrant medical attention.",

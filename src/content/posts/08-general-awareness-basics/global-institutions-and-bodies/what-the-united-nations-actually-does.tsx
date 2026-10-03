@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["united nations", "UN Security Council", "international organizations", "global governance", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The UN isn't a world government — it's a forum of 193 member states plus a small set of standing bodies, each with different, deliberately limited powers.",
   summary: "The United Nations is an intergovernmental organization of 193 member states built around six principal organs — most notably the General Assembly, where every country gets one equal vote, and the Security Council, where 15 members (5 of them permanent, veto-holding) handle matters of international peace and security.",

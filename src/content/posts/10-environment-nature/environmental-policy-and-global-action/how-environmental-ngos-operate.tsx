@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["environmental NGOs", "conservation organizations", "nonprofit funding", "advocacy", "environmental policy"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Environmental NGOs range from advocacy-focused groups that lobby and campaign to land-trust organizations that directly buy and manage habitat — and how each one is funded shapes what kind of work it actually does.",
   summary: "Environmental NGOs (non-governmental organizations) fall into a few broad operating models — advocacy and campaigning, direct land conservation, scientific research, and legal action — funded through a mix of individual donations, membership dues, foundation grants, and corporate partnerships, with the funding mix strongly shaping which model an organization can sustain.",

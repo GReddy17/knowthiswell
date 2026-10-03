@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A unit rate is just a ratio reduced down to a denominator of exactly 1 — and every 'per' in everyday language (per ounce, per hour, per mile) is quietly one already.",
   summary: "A unit rate expresses a ratio as an amount per single unit of something else — price per ounce, distance per hour, minutes per mile — by dividing the total by the quantity, which is what makes two differently sized or priced things directly comparable.",

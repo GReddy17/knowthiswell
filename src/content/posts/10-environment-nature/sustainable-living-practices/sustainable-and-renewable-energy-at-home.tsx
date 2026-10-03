@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["renewable energy", "solar power", "net metering", "energy efficiency", "home energy"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Rooftop solar doesn't work by storing sunlight — it converts photons directly into electric current the moment light hits the panel, which is why output tracks the sun in real time, not a battery charge.",
   summary: "Home renewable energy, most commonly rooftop solar photovoltaic (PV) panels, converts sunlight directly into electricity through the photovoltaic effect, and net metering lets a home send surplus power back to the grid in exchange for credit rather than requiring an on-site battery to use it later.",

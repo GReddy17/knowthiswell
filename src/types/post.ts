@@ -49,6 +49,8 @@ export interface PostFrontmatter {
   date: string;                // ISO date, original publish
   updated: string;             // ISO date, any edit (typos included)
   lastReviewed?: string;       // ISO date, substantive fact re-check — surfaced in UI
+  seoScore?: number;           // 0-100 content/title quality (scripts/seo-score.mjs); LOW = Short priority
+  seoScoredOn?: string;        // ISO date seoScore was computed
   excerpt: string;             // meta description / card blurb, ~155 chars
   summary: string;             // on-page italic dek — the "definitional lede"
   sources?: SourceRef[];       // required in CI lint for YMYL categories
@@ -62,6 +64,11 @@ export interface PostFrontmatter {
    */
   seeAlso?: string[];
   glossary?: { term: string; definition: string }[];
+  /** true once a Short (<=3 min) for this post is on the YouTube channel (public or scheduled).
+   *  Set by .claude/private/tools/sync_video_flags.py from the real channel, never by hand. */
+  youtubeShort?: boolean;
+  /** true once a long-form (>3 min) video for this post is on the channel. Same sync script. */
+  youtubeLong?: boolean;
   youtubeStatus?: string;
   youtubeUrl?: string;
   /** ISO date the video goes public — only used when youtubeStatus is

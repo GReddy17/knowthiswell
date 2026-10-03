@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["metric tonne", "short ton", "long ton", "freight", "unit conversion"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "There are three different units all called 'a ton' — the metric tonne (1,000 kg), the US short ton (2,000 lb), and the UK long ton (2,240 lb) — and they are not the same weight.",
   summary: "The metric tonne equals 1,000 kilograms (about 2,204.62 lb), the US short ton equals 2,000 pounds (about 907.18 kg), and the UK long ton equals 2,240 pounds (about 1,016.05 kg) — three distinct units sharing the same common name, differing from each other by up to about 10%.",

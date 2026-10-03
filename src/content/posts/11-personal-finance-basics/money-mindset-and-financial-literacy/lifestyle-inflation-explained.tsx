@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["lifestyle inflation", "savings rate", "income growth", "financial literacy", "budgeting"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Lifestyle inflation is spending rising to match income growth — a raise that quietly gets absorbed into higher fixed costs instead of a higher savings rate.",
   summary: "Lifestyle inflation is the tendency for spending to increase as income increases, often through recurring fixed costs (housing, car payments, subscriptions) rather than one-time purchases, which can keep a person's savings rate flat even as their income grows substantially.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["screen time tracking", "app usage stats", "foreground state", "digital wellbeing", "digital literacy"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Screen time tracking logs the timestamps when an app moves to and from the foreground, then totals the durations between those state changes — it doesn't watch what's on screen.",
   summary: "Screen time tracking works by timestamping state transitions — when the screen turns on or off and when a specific app becomes the foreground app — and totaling the durations between those transitions, rather than by observing or interpreting anything shown on screen.",

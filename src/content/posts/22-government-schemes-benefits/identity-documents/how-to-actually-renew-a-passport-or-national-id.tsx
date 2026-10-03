@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["passport renewal", "national ID renewal", "government documents", "identity document expiration"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "Renewal windows, required documents, and processing times all vary — but the underlying process follows the same four steps almost everywhere, and missing the timing is the single most common way people get caught out.",
   summary: "Renewing a passport or national ID generally follows four steps — checking the document's specific expiration and renewal-eligibility window, gathering the required supporting documents (often including proof of identity, a recent photo, and the expiring document itself), submitting the application online or in person depending on eligibility, and waiting through a processing period that varies by country and service level — with the most common real-world mistake being applicants discovering too late that a passport near expiration doesn't meet another country's minimum-validity entry requirement, not the renewal process itself.",

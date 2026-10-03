@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["password manager", "digital security", "password safety", "account security"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "A password manager's real value isn't convenience — it's that it lets you use a unique, long password on every account, which stops a single breach from cascading into every other account you own.",
   summary: "A password manager stores encrypted credentials behind one master password and generates unique, high-entropy passwords for every account, which closes the single biggest real-world password risk — reuse — since a password manager makes a genuinely unique password for every site just as easy as typing a memorized one.",

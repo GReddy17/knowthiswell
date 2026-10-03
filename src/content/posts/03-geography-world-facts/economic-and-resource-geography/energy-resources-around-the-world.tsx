@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why the Middle East sits on nearly half the world's oil, coal turns up on every continent including Antarctica, and Iceland runs almost entirely on geothermal power.",
   summary: "Energy resources are distributed by two separate logics — fossil fuels follow ancient sedimentary geology, while renewable potential follows present-day climate, terrain, and tectonic activity.",

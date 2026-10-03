@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["radon testing", "radon gas", "indoor air quality", "radon mitigation", "home safety"],
   date: "2026-09-12",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "Radon is an odorless, radioactive gas that seeps into homes from the soil below — testing in pCi/L is the only way to know it's there, and mitigation systems can safely remove it.",
   summary: "Radon forms continuously underground from the natural radioactive decay of uranium in soil and rock, seeps into homes through foundation cracks and gaps, and — because it has no smell, color, or taste — a pCi/L test result is the only realistic way to know whether a given home's indoor level is high enough to warrant mitigation.",

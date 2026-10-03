@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["acres", "hectares", "square feet", "land area", "unit conversion"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "An acre and a hectare both measure land area but come from unrelated origins — an acre was historically how much land one ox-team could plow in a day, while a hectare is simply 10,000 square meters, a clean metric unit.",
   summary: "1 acre equals 43,560 square feet or approximately 4,046.86 square meters, while 1 hectare is exactly 10,000 square meters — an acre is about 40.5% the size of a hectare, so converting between them means multiplying by roughly 0.4047 (acres to hectares) or 2.47105 (hectares to acres).",

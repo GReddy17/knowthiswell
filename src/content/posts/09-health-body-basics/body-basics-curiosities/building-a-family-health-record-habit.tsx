@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["family health history", "health records", "preventive care", "health literacy", "medical history"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A family health history is one of the few free, genuinely predictive health tools available — and most families never actually write it down.",
   summary: "A family health record — a written history of significant health conditions across close blood relatives — is a genuinely useful, free tool that helps a doctor assess personal risk for hereditary conditions, and health agencies recommend actively building and periodically updating one rather than relying on memory during an appointment.",

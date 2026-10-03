@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["wall mounting", "stud finder", "wall anchors", "hanging shelves", "load ratings"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "What a wall can hold depends on what's behind the surface, not the wall itself — solid framing, the anchor type used, and the direction of the load all matter more than the drywall.",
   summary: "How much weight a wall can safely hold isn't really a property of the wall's surface at all — it's determined by what's directly behind that surface (solid stud or joist framing versus hollow drywall), which fastener or anchor is used to reach it, and whether the load pulls straight out or applies a sideways, rotating shear force, with the weakest of those three factors always setting the real-world limit.",

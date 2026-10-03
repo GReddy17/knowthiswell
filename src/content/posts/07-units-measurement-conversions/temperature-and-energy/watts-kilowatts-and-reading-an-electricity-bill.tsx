@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A watt measures how fast electricity is used, not how much — the actual amount billed is kilowatt-hours, which is power multiplied by the time it ran.",
   summary: "Watts and kilowatts measure electrical power — a rate — while the kilowatt-hour that actually appears on an electricity bill measures energy, calculated by multiplying an appliance's power rating by how long it ran.",

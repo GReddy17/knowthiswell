@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["harvest festivals", "thanksgiving", "chuseok", "sukkot", "pongal", "mid-autumn festival"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Thanksgiving, Chuseok, Sukkot, Pongal, and the Mid-Autumn Festival each mark a local harvest — the same human gratitude ritual, timed to each region's own crop cycle.",
   summary: "A harvest festival marks the end of a growing season with gratitude, food, and community gathering — but because crops ripen at different times in different places, each culture's harvest festival falls on its own local calendar, not one shared date.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["noise pollution", "decibel scale", "hearing loss", "urban noise", "environmental health"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "The decibel scale is logarithmic, not linear — a jump from 70 to 80 decibels isn't 'a bit louder,' it represents ten times more sound energy, which is why noise exposure limits look deceptively small on paper.",
   summary: "Noise pollution is measured on a logarithmic decibel scale, where every 10-decibel increase represents ten times more sound energy even though it's perceived as only about twice as loud, which is why chronic exposure limits set by health agencies are far stricter than the numbers might suggest at first glance.",

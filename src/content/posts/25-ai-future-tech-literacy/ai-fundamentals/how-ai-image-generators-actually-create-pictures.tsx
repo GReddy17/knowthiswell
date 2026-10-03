@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ai image generator", "diffusion model", "text to image", "generative ai", "latent diffusion"],
   date: "2026-09-26",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "Most AI image generators don't paste together stored photos. They start from pure random noise and remove it step by step, steered by your text prompt, using patterns learned from millions of captioned images.",
   summary: "Most modern AI image generators are diffusion models. During training, a neural network sees millions of captioned images with increasing amounts of random noise added and learns to predict the noise, a method described in the 2020 paper 'Denoising Diffusion Probabilistic Models' (Ho, Jain and Abbeel). To make a new picture, the model starts from pure noise and removes a little of it at each of many steps, steered at every step by a numerical encoding of the text prompt from a text-image model like CLIP (Radford et al., 2021). Latent diffusion (Rombach et al., 2022) does this in a compressed representation rather than on full-size pixels, which makes it fast enough for ordinary hardware. The model doesn't store and collage training photos, though researchers have shown it can reproduce a small number of heavily duplicated training images almost exactly (Carlini et al., 2023). Its errors with hands and lettering come from learning statistical patterns rather than rules about anatomy or spelling.",

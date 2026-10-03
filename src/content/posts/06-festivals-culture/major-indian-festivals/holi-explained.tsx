@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["holi", "hindu festivals", "festival of colors", "indian festivals"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Holi is the Hindu spring festival of colors, marking the triumph of good over evil and celebrated by throwing colored powder and water.",
   summary: "Holi is a two-day Hindu spring festival — beginning with Holika Dahan, a bonfire marking the defeat of evil, followed by the color-throwing celebration most people recognize.",

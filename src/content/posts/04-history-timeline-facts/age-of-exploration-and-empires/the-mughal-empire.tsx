@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["mughal empire", "india history", "akbar", "taj mahal", "south asian history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Mughal Empire ruled most of the Indian subcontinent from 1526 to 1857, blending Persian, Central Asian, and Indian traditions into a distinctly syncretic culture, art, and administration.",
   summary: "The Mughal Empire was a Muslim-ruled dynastic empire that controlled most of the Indian subcontinent from 1526 to 1857, founded by Babur and known for its administrative reforms, religious pluralism under Akbar, and monumental architecture including the Taj Mahal.",

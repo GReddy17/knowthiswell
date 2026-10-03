@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["business vocabulary", "workplace communication", "corporate jargon", "professional writing"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 64, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Some business vocabulary names a genuinely precise concept ('stakeholder,' 'scope creep'); a lot of it is just dressed-up plain language ('synergy,' 'circle back') — telling the two apart is the actual skill.",
   summary: "Business and professional vocabulary is a mix of two very different things: precise terms that name a real concept everyday words don't capture cleanly, and buzzwords that just restate a plain idea in fancier packaging — and workplace communication improves when a speaker or reader can tell which is which.",

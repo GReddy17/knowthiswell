@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["professional networking", "career relationships", "weak ties", "networking skills", "career development"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Networking means deliberately building and maintaining professional relationships based on mutual value over time, not making pleasant conversation at a single event.",
   summary: "Networking is the deliberate, ongoing practice of building professional relationships based on mutual value exchange — not a single pleasant conversation at an event, but a maintained connection you invest in before you need anything, so that when you do need something, an actual relationship already exists to draw on.",

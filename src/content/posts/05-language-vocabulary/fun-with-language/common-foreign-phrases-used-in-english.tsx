@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["foreign phrases", "loanwords", "latin phrases", "french phrases", "vocabulary", "etymology"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Carpe diem, déjà vu, zeitgeist — English regularly borrows whole phrases from Latin, French, and German rather than translating them. Here's why, and what each one actually means.",
   summary: "English has borrowed hundreds of whole phrases directly from other languages, especially Latin, French, and German, rather than translating them, and many of these phrases have drifted in meaning or pronunciation since they were adopted.",

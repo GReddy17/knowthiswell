@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["devanagari", "tamil script", "telugu script", "brahmi script", "writing systems", "indian languages"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Devanagari, Tamil, Telugu, and Bengali all descend from one ancient script — but 2,000 years of independent evolution made them genuinely distinct writing systems, not stylistic variants.",
   summary: "Most of India's regional scripts, including Devanagari, Bengali, Tamil, and Telugu, descend from the ancient Brahmi script but evolved independently for well over a thousand years into genuinely distinct writing systems, most of them abugidas in which each consonant character carries a built-in default vowel.",

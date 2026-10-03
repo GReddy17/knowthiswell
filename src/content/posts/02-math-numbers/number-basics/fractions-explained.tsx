@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fractions", "numerator", "denominator"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "A fraction is a division that hasn't been carried out yet — the top number split by the bottom number, expressed as parts of a whole.",
   summary: "A fraction represents a part of a whole, written as a numerator (the part) over a denominator (the total number of equal parts the whole is divided into).",

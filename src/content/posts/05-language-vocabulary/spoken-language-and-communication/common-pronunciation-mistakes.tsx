@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["pronunciation", "English pronunciation", "spelling pronunciation", "regional accents", "spoken English"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 60, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Many so-called pronunciation 'mistakes' — like a silent letter said aloud, or a word pronounced the way it's spelled — come from predictable patterns in English, not carelessness, and some aren't errors at all.",
   summary: "Common pronunciation mistakes are recurring, predictable ways English words get mispronounced — often because a word's spelling misleadingly suggests a sound that isn't actually said, or because a word was learned from reading rather than hearing — and they're distinct from regional accents, which are legitimate, rule-governed variation rather than error.",

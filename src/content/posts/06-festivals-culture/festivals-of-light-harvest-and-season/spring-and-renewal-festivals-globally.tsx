@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["spring festivals", "holi", "nowruz", "easter", "cherry blossom festivals", "renewal festivals"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Holi, Nowruz, Easter, and cherry blossom viewing all mark spring's return with renewal themes — independent traditions built around the same seasonal turning point.",
   summary: "Spring and renewal festivals mark the shift from winter dormancy to new growth, using rituals of color, fire, fasting, or flowering to celebrate rebirth — a theme that recurs independently across cultures rather than descending from one shared tradition.",

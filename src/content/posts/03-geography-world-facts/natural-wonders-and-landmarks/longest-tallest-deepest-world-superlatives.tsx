@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why Everest is the highest point but not the tallest mountain, why the Nile-vs-Amazon 'longest river' debate is still unresolved, and what makes the Mariana Trench so deep.",
   summary: "Earth's geographic superlatives — highest point, deepest trench, longest river, largest desert — each trace back to a specific tectonic or climatic cause, and several of the most famous 'records' depend heavily on how exactly they're measured.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["silk road", "trade routes", "marco polo", "pax mongolica", "medieval history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Silk Road wasn't a single road at all — it was a shifting network of land and sea routes that carried paper, religion, and disease as readily as silk.",
   summary: "The Silk Road was a network of overland and maritime trade routes connecting China, Central Asia, the Middle East, and Europe from roughly the 2nd century BCE to the 15th–16th century CE, carrying goods, technologies, religions, and diseases across Eurasia.",

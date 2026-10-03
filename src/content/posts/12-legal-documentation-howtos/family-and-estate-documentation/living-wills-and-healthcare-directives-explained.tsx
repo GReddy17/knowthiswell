@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["living will", "advance directive", "healthcare proxy", "power of attorney", "legal documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A living will and a healthcare power of attorney solve two different problems — one states specific treatment wishes in advance, the other names a person to make judgment calls — and most complete advance care plans use both together.",
   summary: "A living will (a type of advance directive) states a person's wishes about specific medical treatments in situations where they can't communicate, while a healthcare power of attorney (healthcare proxy) names a person to make broader medical decisions on their behalf — these are distinct documents that often work together, and this is general legal literacy, not personalized medical or legal advice.",

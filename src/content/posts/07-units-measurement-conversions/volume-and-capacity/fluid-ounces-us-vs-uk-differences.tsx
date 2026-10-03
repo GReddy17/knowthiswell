@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fluid ounces", "US customary units", "imperial units", "volume conversion"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A US fluid ounce (29.5735 mL) is about 4.1% larger than a UK fluid ounce (28.4131 mL) — the reverse of the gallon, where the UK unit is the bigger one.",
   summary: "The US fluid ounce and UK (imperial) fluid ounce are different sizes because each was derived from its own country's gallon divided into a different number of parts, and the US fluid ounce ends up larger even though the US gallon is smaller.",

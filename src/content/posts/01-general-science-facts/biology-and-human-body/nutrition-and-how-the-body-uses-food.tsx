@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How carbohydrates, protein, and fat give the body energy, how digestion breaks food into usable fuel, and what BMI actually measures (and doesn't).",
   summary: "Food provides energy measured in calories, drawn from three macronutrients — carbohydrates, protein, and fat — that the digestive system breaks down into molecules cells use for fuel, growth, and repair.",

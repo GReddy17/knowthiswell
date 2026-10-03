@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["grammar", "active voice", "passive voice", "writing style"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The real difference between active and passive voice, when passive voice is actually the better choice, and why 'passive voice is always bad writing' is a myth.",
   summary: "Active voice puts the doer of an action as the sentence's subject ('the dog bit the man'); passive voice puts the receiver of the action as the subject instead ('the man was bitten by the dog') — and each has legitimate uses.",

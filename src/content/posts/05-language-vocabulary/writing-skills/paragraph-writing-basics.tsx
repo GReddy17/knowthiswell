@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["paragraph writing", "topic sentence", "writing skills", "composition", "transitions"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 63, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What actually makes a paragraph work — one controlling idea, a topic sentence, and supporting details — not just a block of text between two blank lines.",
   summary: "A paragraph is a group of sentences built around a single controlling idea, usually announced in a topic sentence and developed with supporting details, and a new paragraph signals to the reader that the idea has shifted.",

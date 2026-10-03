@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why rice needs flooded paddies, coffee grows in mountains near the equator, and the US Midwest became a wheat belt — the climate and soil math behind global crop maps.",
   summary: "Crops grow where a region's temperature, rainfall, growing-season length, and soil match that plant's specific biological requirements — which is why global food maps follow climate belts, not political borders.",

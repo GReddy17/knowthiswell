@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["vaccination schedule", "immunization", "CDC schedule", "maternal antibodies"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Vaccination schedules aren't arbitrary — the ages and spacing between doses are set based on when a person's immune system can actually respond well, and when natural protection (like maternal antibodies) fades.",
   summary: "A vaccination schedule is a published sequence of recommended ages and intervals for each vaccine, timed around two biological facts: how long a newborn's temporary, maternally-inherited antibodies last, and how much spacing between doses of the same vaccine produces the strongest, most durable immune memory.",

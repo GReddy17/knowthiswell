@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["latin american independence", "simon bolivar", "haitian revolution", "mexican independence", "jose de san martin", "latin american history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Latin American independence wasn't one event — it was a staggered series of distinct movements from Haiti's 1804 revolution to South America's wars through the 1820s.",
   summary: "Latin American independence movements were a series of separate uprisings across the Americas, from Haiti's revolution beginning in 1791 through the wars of independence across Spanish and Portuguese America in the 1810s and 1820s, that ended roughly three centuries of European colonial rule region by region rather than all at once.",

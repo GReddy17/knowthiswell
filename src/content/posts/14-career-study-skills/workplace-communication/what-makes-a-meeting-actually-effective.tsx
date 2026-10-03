@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["effective meetings", "workplace communication", "meeting agenda", "meeting productivity", "synchronous communication"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "An effective meeting exists only to synchronize understanding across people in real time — anything that could be resolved by one person reading an update doesn't need a meeting at all.",
   summary: "A meeting is effective when it's used for what only real-time, synchronous discussion can actually do — resolving a decision that needs multiple people's input at once — rather than for status updates or information sharing that could be handled asynchronously, which is the single biggest reason most meetings feel like a waste of time.",

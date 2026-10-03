@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["dripping faucet", "compression faucet washer", "faucet cartridge", "valve seat", "home plumbing basics"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "A dripping faucet usually means a worn rubber washer (or O-ring, or ceramic disc) no longer seals fully against its valve seat — no amount of extra handle force fixes that.",
   summary: "A faucet drips because the small rubber, ceramic, or O-ring seal that presses closed against a fixed valve seat when you shut the handle off has worn, compressed, or torn enough to leave a microscopic gap — and once that seal is damaged, tightening the handle harder just compresses degraded material without closing the gap.",

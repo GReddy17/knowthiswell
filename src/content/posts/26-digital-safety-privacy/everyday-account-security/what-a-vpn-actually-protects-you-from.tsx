@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["vpn", "privacy", "public wi-fi", "encryption", "ip address"],
   date: "2026-09-25",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "A VPN hides your traffic from the local network and your internet provider and masks your IP address. It doesn't stop phishing, malware, or tracking by accounts you're logged into, and it shifts your trust to the VPN company.",
   summary: "A virtual private network (VPN) creates an encrypted tunnel between your device and a VPN server, so the local network (such as public Wi-Fi) and your internet service provider see only encrypted traffic going to the VPN, and the websites you visit see the VPN server's IP address instead of yours. Per the FTC and the Electronic Frontier Foundation, a VPN does not protect against phishing, malware, or tracking through logged-in accounts, cookies, and browser fingerprinting, and it moves visibility of your traffic to the VPN provider, which makes choosing a trustworthy provider part of the protection itself. Because most websites already use HTTPS encryption, a VPN's main added value today is hiding which sites you visit from the network and ISP, and changing your apparent location.",

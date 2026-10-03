@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["language myths", "eskimo words for snow", "sapir-whorf", "linguistics", "prescriptivism"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "No, Eskimo languages don't have 100 words for snow, and no language is 'primitive' — the most repeated language facts are often the least accurate ones.",
   summary: "Language is full of widely repeated but poorly sourced claims — from exaggerated vocabulary counts to the idea that some languages lack real grammar — and most trace back to a single offhand remark or a misreading of real linguistic research, not to documented evidence.",

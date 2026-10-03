@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["endangered languages", "extinct languages", "language revitalization", "unesco", "linguistics"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Roughly 40% of the world's languages are endangered, according to UNESCO's tracking — here's what that actually means, and why some can be revived.",
   summary: "A language is endangered when it stops being reliably passed to children as a first language, regardless of how many older speakers still use it fluently — and while most endangered languages are lost within a generation or two without intervention, deliberate revitalization has brought a small number back from the brink.",

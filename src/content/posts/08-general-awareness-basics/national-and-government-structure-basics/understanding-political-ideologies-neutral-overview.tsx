@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["political ideology", "left-right spectrum", "political science", "civics", "government"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The left-right political spectrum is a simplification political scientists themselves openly acknowledge — real ideological positions rarely fit neatly onto one straight line.",
   summary: "A political ideology is a coherent set of beliefs about how government and society should be organized; the common left-right spectrum offers a rough, widely-used shorthand for comparing ideologies on questions like the role of government and social change, though political scientists also use additional axes (like authoritarian-libertarian) to capture positions the single left-right line misses.",

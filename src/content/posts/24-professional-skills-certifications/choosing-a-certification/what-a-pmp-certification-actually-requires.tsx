@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["pmp", "project management professional", "pmi", "pmp eligibility", "pdu"],
   date: "2026-09-26",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "You can't just study for the PMP and sit the exam. PMI first requires three to five years of documented experience leading projects plus 35 hours of project management education, and the credential lapses unless you earn 60 PDUs every three years.",
   summary: "The Project Management Professional (PMP) credential from the Project Management Institute (PMI) is gated by experience, not just an exam. Per PMI's PMP handbook, applicants with a four-year degree need at least 36 months of non-overlapping experience leading and directing projects within the past eight years; applicants with a high school diploma or associate's degree need 60 months; graduates of a GAC-accredited program need 24 months. All applicants also need 35 contact hours of project management education, unless they hold an active CAPM. Applications can be selected for a random audit. The handbook describes a 180-question exam (5 of them unscored pretest questions) with 230 minutes of testing time, covering people, process and business-environment domains and roughly equal parts predictive and agile/hybrid approaches. Candidates get up to three attempts within a one-year eligibility period. To keep the credential, holders earn 60 professional development units (PDUs) every three years.",

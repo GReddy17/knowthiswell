@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["hanukkah", "jewish festivals", "festival of lights", "religious festivals"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Hanukkah is the eight-day Jewish festival of lights, commemorating the rededication of the Second Temple and the legend of the oil that lasted eight days.",
   summary: "Hanukkah is an eight-day Jewish festival commemorating the rededication of the Second Temple in Jerusalem following the Maccabean Revolt, marked by lighting a menorah for eight nights in observance of the traditional story of a single day's oil lasting eight.",

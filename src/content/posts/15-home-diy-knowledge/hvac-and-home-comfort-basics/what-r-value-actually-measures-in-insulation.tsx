@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["r-value", "insulation basics", "thermal resistance", "heat loss", "home energy efficiency"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 87, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "R-value measures a material's resistance to heat flow — a higher number means heat passes through more slowly, which is why the same insulation loses effectiveness when compressed.",
   summary: "R-value is a measurement of thermal resistance — how strongly a material resists conductive heat flow through it. A higher R-value means heat moves through the material more slowly for a given temperature difference, which is why insulation loses R-value when compressed, gets wet, or is installed with gaps, even though the material itself hasn't changed.",

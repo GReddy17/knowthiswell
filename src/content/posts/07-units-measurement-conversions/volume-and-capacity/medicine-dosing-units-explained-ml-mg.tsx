@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["medicine units", "mL vs mg", "dosing concentration", "unit literacy"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 64, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Milligrams measure how much medicine is actually in a dose; milliliters measure how much liquid you pour out — confusing the two is one of the most common real-world unit-reading mistakes.",
   summary: "Liquid medicine labels carry two different kinds of unit: milligrams (mg), which describe the amount of active drug, and milliliters (mL), which describe the volume of liquid carrying it — reading a dose correctly means multiplying a concentration (mg per mL) by a volume (mL given) to get a total dose (mg), not treating the two units as interchangeable.",

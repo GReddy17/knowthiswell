@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["government forms", "form literacy", "plain language", "civic literacy", "paperwork"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Nearly every government form follows the same underlying skeleton — identifying information, instructions, fields, certification, and submission — once you know the skeleton, any new form is less intimidating.",
   summary: "Government forms across agencies and levels of government share a common structure — identifying information, instructions, fields to complete, a signature or certification section, and submission details — recognizing that structure makes an unfamiliar form far less intimidating to fill out correctly.",

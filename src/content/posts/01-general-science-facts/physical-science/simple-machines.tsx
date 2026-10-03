@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: true, youtubeLong: true,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "How all six simple machines — lever, pulley, wheel and axle, inclined plane, wedge, and screw — let you trade force for distance, with real mechanical-advantage numbers for each, and why none of them create free energy.",
   summary: "A simple machine changes the amount of force needed to do a job by changing the distance over which that force is applied — it never reduces the total work required.",

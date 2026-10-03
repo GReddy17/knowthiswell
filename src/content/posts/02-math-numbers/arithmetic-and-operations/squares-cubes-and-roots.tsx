@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Squares, cubes, square roots, and cube roots explained with real numbers, including why cube roots work for negatives and square roots don't.",
   summary: "Squaring multiplies a number by itself once, cubing multiplies it by itself twice more, and square/cube roots reverse those operations exactly — except for one genuine asymmetry with negative numbers.",

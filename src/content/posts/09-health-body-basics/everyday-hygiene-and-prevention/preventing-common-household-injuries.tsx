@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fall prevention", "home safety", "household injuries", "injury prevention", "safety hazards"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Falls, not fires or poisoning, are the leading cause of home injury across most age groups — which changes where basic home-safety attention is best spent.",
   summary: "Falls are the most common cause of home injury across most age groups, followed by cuts, burns, and poisoning, and most household injury-prevention guidance targets the small set of recurring hazard mechanisms — unsecured rugs and clutter, poor lighting, unlabeled chemicals, unattended stovetops — behind the large majority of these incidents.",

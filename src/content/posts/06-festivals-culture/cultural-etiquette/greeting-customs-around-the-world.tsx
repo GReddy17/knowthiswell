@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["greeting customs", "cross-cultural etiquette", "bowing", "namaste", "handshakes"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Greeting customs vary widely — handshakes, bows, the Indian namaste, cheek kisses — and no single greeting is the universal 'correct' one worldwide.",
   summary: "A greeting custom is the culturally expected way people acknowledge each other on meeting, and it varies significantly worldwide in physical contact, formality, and meaning — there is no single global default.",

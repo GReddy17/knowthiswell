@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["carbon offsets", "carbon credits", "emissions reduction", "additionality", "climate finance"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A carbon offset doesn't remove your own emissions — it pays for an equivalent reduction to happen somewhere else, which only works if that reduction genuinely wouldn't have happened otherwise.",
   summary: "A carbon offset is a purchased credit representing one metric ton of CO2-equivalent emissions reduced, avoided, or removed elsewhere, used to counterbalance emissions from an activity like a flight; offsets are only environmentally meaningful when they meet 'additionality' — the reduction must be something that genuinely would not have happened without the offset funding.",

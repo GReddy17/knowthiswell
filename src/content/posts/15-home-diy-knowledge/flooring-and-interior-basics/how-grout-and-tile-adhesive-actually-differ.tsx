@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["grout", "tile adhesive", "thinset mortar", "tile installation", "home maintenance"],
   date: "2026-09-17",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "Grout doesn't hold tile in place — it fills the gaps between tiles that are already structurally bonded to the floor by an entirely separate material.",
   summary: "Tile installation uses two chemically and functionally different materials that get confused because they're both applied during the same job: adhesive (thinset mortar or mastic) forms the actual structural bond holding each tile to the substrate beneath it, while grout is a separate, weaker material applied afterward purely to fill the joints between tiles, manage minor surface water, and prevent debris from collecting in the gaps.",

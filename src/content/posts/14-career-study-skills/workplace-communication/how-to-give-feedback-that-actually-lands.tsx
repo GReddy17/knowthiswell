@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["giving feedback", "workplace communication", "performance feedback", "constructive criticism", "SBI model"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Feedback that actually lands names a specific situation, a specific behavior, and its concrete impact — feedback that names a trait instead almost always gets heard as an attack.",
   summary: "Feedback that actually lands works by encoding an observation into specific, behavior-focused language before it reaches the other person — naming the situation, the observable behavior, and its concrete impact — because vague or trait-based feedback tends to decode on the receiving end as a personal judgment instead of something actionable.",

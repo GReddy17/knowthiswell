@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["grams", "ounces", "cooking measurements", "baking", "kitchen scale"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 61, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "One ounce equals about 28.35 grams — but the real reason professional bakers weigh ingredients in grams isn't the conversion factor, it's that weight ignores how loosely an ingredient is packed and volume doesn't.",
   summary: "One avoirdupois ounce equals approximately 28.3495 grams; weighing cooking ingredients by mass (grams or ounces) is more accurate than measuring by volume (cups) because a fixed volume of a dry ingredient can weigh a different amount depending on how densely it's packed.",

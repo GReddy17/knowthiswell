@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["sleep cycles", "sleep science", "REM sleep", "recovery", "sleep basics"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "Sleep isn't one uniform state — it cycles through distinct stages roughly every 90 minutes, and different stages do different repair work, which is why waking mid-cycle can leave you groggier than sleeping a bit longer.",
   summary: "Sleep progresses through repeating cycles of roughly 90 minutes each, moving through light sleep, deep slow-wave sleep, and REM sleep, with deep sleep doing more physical restoration and REM sleep supporting memory consolidation and emotional processing — which is why both total sleep time and being woken at the right point in a cycle affect how rested a person feels.",

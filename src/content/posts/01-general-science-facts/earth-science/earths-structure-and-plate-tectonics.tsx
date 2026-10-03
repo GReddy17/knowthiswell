@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Earth is built from four layers, and the outermost one is broken into plates that drift a few centimeters a year — slow enough to ignore, powerful enough to build mountains.",
   summary: "Earth is made of a thin crust, a thick mostly-solid mantle, a liquid outer core, and a solid inner core, with the crust broken into moving tectonic plates.",

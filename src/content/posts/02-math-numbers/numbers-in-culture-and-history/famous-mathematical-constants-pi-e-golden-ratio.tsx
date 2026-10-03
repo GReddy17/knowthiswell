@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What pi, e, and the golden ratio actually measure, why all three are irrational, and how each one shows up in a real, verifiable calculation you can run yourself.",
   summary: "Pi, e, and the golden ratio are irrational constants that each arise from a specific, concrete relationship — circles, continuous growth, and a self-repeating proportion — not from mysticism or coincidence.",

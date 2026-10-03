@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["business registration", "EIN", "business structure", "starting a business", "civic documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Registering a business generally means choosing a legal structure, filing with the state, and getting a federal tax ID — three distinct documents with three distinct purposes.",
   summary: "Business registration typically involves three distinct documentation steps in sequence: choosing and filing a legal business structure with a state authority (like an LLC or corporation), obtaining a federal Employer Identification Number (EIN) from the IRS, and then applying for any industry- or location-specific licenses and permits — each serving a different legal and administrative purpose.",

@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-27",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 88, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the same force spread over different areas explains why knives cut, snowshoes prevent sinking, and altitude affects boiling and breathing.",
   summary: "Pressure is force spread over an area — the same force concentrated on a small area creates far more pressure than spread across a large one.",

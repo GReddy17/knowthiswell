@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["apps vs software", "software basics", "system software", "application software", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "\"App\" and \"software\" get used interchangeably, but one is a category and the other is a subset of it — here's the actual dividing line.",
   summary: "Software is the umbrella term for any instructions a computer runs; an app is specifically application software — a program that does a visible, user-facing job — which makes every app software, but not all software an app.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ponzi scheme", "financial scams", "investor protection", "financial literacy", "fraud red flags"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A Ponzi scheme pays existing investors with new investors' money, not real returns — it works only as long as new money keeps arriving faster than payouts go out, which makes its collapse mathematically inevitable.",
   summary: "A Ponzi scheme is a fraud that pays purported returns to earlier investors using money from newer investors rather than from any actual profit-generating activity, meaning it requires an ever-growing base of new investors to survive and collapses once that growth can no longer outpace withdrawals.",

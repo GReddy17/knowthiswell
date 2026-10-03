@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["physical activity", "exercise guidelines", "target heart rate", "moderate intensity", "CDC"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "CDC and WHO both publish the same general benchmark: about 150 minutes of moderate-intensity activity a week — a published population-level guideline, not a personal prescription.",
   summary: "Published physical activity guidelines from the CDC and WHO recommend adults get roughly 150 minutes of moderate-intensity aerobic activity per week (or 75 minutes of vigorous activity), plus muscle-strengthening activity on 2 or more days — general population benchmarks that a target-heart-rate calculation can help translate into a felt intensity level during exercise.",

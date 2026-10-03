@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Wind chill and heat index aren't real air temperatures — they're calculated \"feels like\" numbers that adjust the actual thermometer reading for how wind or humidity change perceived cold or heat.",
   summary: "Wind chill and heat index are calculated apparent-temperature values, not direct thermometer readings — wind chill adjusts cold-weather temperatures downward for how fast wind strips heat from skin, and heat index adjusts hot-weather temperatures upward for how humidity impairs sweat evaporation.",

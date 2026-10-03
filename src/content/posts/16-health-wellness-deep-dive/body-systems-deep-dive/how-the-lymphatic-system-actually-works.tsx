@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["lymphatic system", "immune system", "lymph nodes", "body systems"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "It doesn't have a pump like the circulatory system does, and most people only think about it when a lymph node swells — but this quiet network is doing constant, essential filtering work in the background.",
   summary: "The lymphatic system collects excess fluid that leaks out of blood capillaries into surrounding tissue, filters it through lymph nodes that trap pathogens and debris for the immune system to address, and returns the cleaned fluid to the bloodstream through a network of lymphatic vessels and ducts — unlike the circulatory system, it has no central pump like the heart, and instead relies mainly on muscle movement and one-way valves to keep fluid moving.",

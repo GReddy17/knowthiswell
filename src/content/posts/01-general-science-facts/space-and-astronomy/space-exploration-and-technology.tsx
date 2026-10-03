@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-19",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "How rockets push forward with nothing to push against, why astronauts really float in orbit, and how long it takes to talk to Mars.",
   summary: "Space exploration relies on rockets that use Newton's third law to accelerate to orbital or escape velocity, after which spacecraft either fall continuously around a planet in orbit or coast freely through deep space.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["homophones", "homonyms", "homographs", "spelling", "vocabulary", "there their theyre"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 62, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "There/their/they're, its/it's, lead/led — homophones sound alike but spell differently, and that's exactly why spell-check can't catch them.",
   summary: "A homophone is a word that sounds identical to another word but usually has a different spelling and meaning (there/their/they're), while a homonym, strictly defined, shares both spelling and pronunciation with a different-meaning word (bat the animal versus bat the sports equipment) — the two terms get used loosely and interchangeably in everyday speech, but they describe different things.",

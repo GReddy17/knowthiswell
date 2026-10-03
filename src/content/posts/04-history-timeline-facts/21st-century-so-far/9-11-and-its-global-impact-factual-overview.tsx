@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["september 11 attacks", "9/11", "world trade center", "war on terror", "21st century history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What happened on September 11, 2001, the documented death toll, and the security and policy changes that followed, stated factually and sourced to primary institutions.",
   summary: "On September 11, 2001, terrorists affiliated with al-Qaeda hijacked four commercial airplanes and used them to attack the World Trade Center and the Pentagon, with a fourth plane crashing in Pennsylvania after passengers intervened, killing 2,977 people and reshaping global security policy for decades.",

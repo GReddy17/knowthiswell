@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["olympics", "world cup", "host city bidding", "IOC", "FIFA"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Host cities and countries aren't chosen by public vote — they're selected by a governing body's own membership after a formal, multi-year bidding and evaluation process.",
   summary: "Major international sporting events like the Olympics and the FIFA World Cup are awarded through a formal bidding process in which candidate cities or countries submit detailed proposals evaluated against technical, financial, and infrastructure criteria, with the final host selected by a vote of the governing body's own membership, not the general public.",

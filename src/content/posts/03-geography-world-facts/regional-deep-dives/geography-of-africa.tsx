@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Africa's real size, its climate bands from desert to rainforest, and the rift valley that's slowly splitting the continent apart.",
   summary: "Africa is Earth's second-largest continent, straddling the equator with symmetric climate bands and a tectonic rift that is gradually tearing East Africa away from the rest of the continent.",

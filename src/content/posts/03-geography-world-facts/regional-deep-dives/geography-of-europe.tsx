@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why Europe and Asia are one landmass split by convention, plus the peninsulas, mountain ranges, and coastline that define Europe's unusual shape.",
   summary: "Europe is the second-smallest continent by area but the most peninsula-heavy and one of the most densely populated, sharing an unbroken landmass with Asia.",

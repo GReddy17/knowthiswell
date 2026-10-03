@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["marine protected areas", "ocean conservation", "fisheries", "biodiversity", "no-take zone"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Marine protected areas range from lightly regulated zones to strict no-take reserves — the level of protection, not just the label, determines whether marine life actually recovers.",
   summary: "A marine protected area is a designated ocean or coastal region managed to conserve marine ecosystems, with protection levels ranging from restrictions on specific activities to fully protected no-take zones where no extraction is allowed at all.",

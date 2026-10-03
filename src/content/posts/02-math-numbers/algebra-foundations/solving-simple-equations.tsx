@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How to solve a simple algebraic equation using inverse operations, why the same move must happen on both sides, and worked examples with real numbers.",
   summary: "Solving an equation means finding the value of the variable that makes both sides equal, using inverse operations to undo whatever was done to the variable, one step at a time.",

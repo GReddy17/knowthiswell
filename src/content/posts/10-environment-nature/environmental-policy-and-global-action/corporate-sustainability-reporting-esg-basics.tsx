@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ESG", "sustainability reporting", "corporate disclosure", "TCFD", "ISSB"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "ESG reporting is how companies formally disclose their environmental, social, and governance performance — and standardized frameworks now exist specifically so those disclosures can actually be compared across companies.",
   summary: "ESG (Environmental, Social, Governance) reporting is the practice of a company formally disclosing data on its environmental impact, social practices, and governance structure, following standardized frameworks so investors and regulators can compare performance across companies rather than trusting each company's own self-description.",

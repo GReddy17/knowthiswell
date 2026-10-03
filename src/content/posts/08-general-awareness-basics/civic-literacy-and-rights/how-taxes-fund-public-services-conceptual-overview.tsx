@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["taxes", "public services", "public finance", "progressive taxation", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Taxes work as a pooling mechanism — individually small, mandatory contributions combine into a budget large enough to fund services no single household could buy on its own.",
   summary: "Taxes fund public services by pooling many individually modest, legally mandatory contributions into a collective budget large enough to pay for infrastructure, defense, and services that would be impractical or impossible for any single household to purchase alone.",

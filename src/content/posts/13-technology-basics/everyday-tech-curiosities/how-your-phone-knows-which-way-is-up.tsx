@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["accelerometer", "gyroscope", "screen rotation", "sensors", "technology basics", "everyday tech"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A phone senses which way is up by measuring how Earth's gravity splits across three internal axes, not with a compass or GPS.",
   summary: "A phone's accelerometer constantly measures how the constant pull of Earth's gravity is distributed across its three internal axes (X, Y, and Z), and by comparing how that distribution shifts as the phone tilts, it determines orientation and drives features like screen auto-rotation — a sense-compare-adjust feedback loop entirely separate from the compass or GPS.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["behavioral interview", "interview questions", "job interview", "interview psychology", "hiring process"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Behavioral interview questions are built on the idea that specific past behavior predicts future behavior far more reliably than a hypothetical answer or a general self-description.",
   summary: "Behavioral interview questions — 'Tell me about a time when...' — exist because research on hiring consistently finds that a candidate's specific past behavior predicts their future behavior on the job far more reliably than a hypothetical answer, a general self-description, or how well they perform in a purely conversational interview.",

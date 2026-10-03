@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["end-to-end encryption", "E2EE explained", "message privacy", "digital communication", "public key encryption", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "End-to-end encryption means only the sender and recipient hold the key to unlock a message — not that the app maker sees nothing at all about the conversation.",
   summary: "End-to-end encryption (E2EE) is a method of securing communication where a message is encrypted on the sender's device and can only be decrypted on the recipient's device, so no server in between ever holds the key needed to read it.",

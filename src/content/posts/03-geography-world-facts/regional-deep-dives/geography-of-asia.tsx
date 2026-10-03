@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Asia's size, borders, mountain ranges, and monsoon climate explained — why it's Earth's largest continent and home to three in five people alive.",
   summary: "Asia is Earth's largest continent by area and population, stretching from the Arctic to the tropics and holding both the planet's highest point and one of its lowest.",

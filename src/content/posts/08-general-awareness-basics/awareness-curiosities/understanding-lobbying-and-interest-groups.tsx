@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["lobbying", "interest groups", "advocacy", "public policy", "civic literacy"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Lobbying is the formal, often disclosure-regulated practice of advocating to lawmakers on behalf of an organized interest — not a synonym for corruption, even though the two are sometimes conflated.",
   summary: "Lobbying is the structured practice of individuals or organizations communicating with lawmakers and officials to influence policy on behalf of an interest group, operating through legal, often publicly disclosed channels that are formally distinct from, though sometimes entangled with, corruption.",

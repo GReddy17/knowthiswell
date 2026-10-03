@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["sustainable habits", "carbon footprint", "everyday sustainability", "checklist", "environmental impact"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Not every sustainable habit carries the same weight — ranking personal actions by their actual measured impact, rather than by how visible or popular they feel, is what makes a habit checklist worth following.",
   summary: "A personal sustainability checklist is most useful when its items are ordered by measured environmental impact rather than by visibility or popularity — household energy and transportation choices generally outweigh single-item swaps like straws or shopping bags, even though the smaller swaps get more attention.",

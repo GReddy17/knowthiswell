@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: true, youtubeLong: true,
+  seoScore: 88, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What matter is, why it exists as solid, liquid, gas, or plasma, and how phase changes power your fridge, your pressure cooker, and even sweating.",
   summary: "Matter is anything with mass and volume that exists as a solid, liquid, gas, or plasma depending on how much energy its particles hold.",

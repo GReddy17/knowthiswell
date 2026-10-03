@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["bank fees", "monthly maintenance fee", "minimum balance", "ATM fees", "banking basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Most common bank fees exist to reward specific account behaviors — a minimum balance, a direct deposit, in-network ATM use — which means most of them are avoidable once you know exactly which behavior triggers each one.",
   summary: "Bank fees fall into a small number of recurring categories — monthly maintenance, out-of-network ATM, overdraft, and wire transfer fees being the most common — and most of them are structured with a specific, published condition that waives them, making the fee avoidable rather than fixed.",

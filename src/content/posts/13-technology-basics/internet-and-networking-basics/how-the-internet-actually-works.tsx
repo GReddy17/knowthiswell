@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how the internet works", "packets", "routers", "TCP/IP", "networking basics", "protocols"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 86, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "The internet has no central switchboard — it moves data by chopping it into packets and letting routers pass each one along, hop by hop, toward its destination.",
   summary: "The internet is a global network of networks that moves information by breaking it into small packets, addressing each one, and letting independent routers forward it hop by hop until it reaches its destination.",

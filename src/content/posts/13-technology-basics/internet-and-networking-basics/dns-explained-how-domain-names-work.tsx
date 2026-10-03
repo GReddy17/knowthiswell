@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["DNS", "domain names", "how DNS works", "IP address lookup", "networking basics"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "DNS is the internet's directory lookup — it turns a domain name you can remember into the numeric IP address computers actually need to connect.",
   summary: "DNS (the Domain Name System) is the internet's directory service, translating human-readable domain names into the numeric IP addresses that computers use to find each other.",

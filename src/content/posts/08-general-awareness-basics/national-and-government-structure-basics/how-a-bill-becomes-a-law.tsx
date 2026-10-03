@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["legislative process", "bill", "lawmaking", "civics", "government"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A bill isn't law the moment it's proposed — it's one draft among thousands, and most never survive the committee stage where the real filtering happens.",
   summary: "In most legislative systems, a bill moves through introduction, committee review, floor debate and amendment, a vote (often in more than one chamber), and finally executive approval — with committee review acting as the main filter where the overwhelming majority of proposed bills quietly die.",

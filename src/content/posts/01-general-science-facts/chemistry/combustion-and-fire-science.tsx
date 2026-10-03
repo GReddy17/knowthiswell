@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What actually has to be present for fire to exist, why water can make a grease fire worse instead of better, and the real chemistry behind a flame.",
   summary: "Fire is a self-sustaining chemical reaction — rapid oxidation that releases heat and light — and it only exists where fuel, oxygen, and enough heat are all present together at once, a relationship known as the fire triangle.",

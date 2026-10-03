@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["NATO", "collective defense", "military alliances", "Article 5", "international security"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "NATO's core promise is collective defense — an armed attack on one member is treated as an attack on all — but that promise is triggered by member consultation, not automatically.",
   summary: "NATO (the North Atlantic Treaty Organization) is a collective-defense military alliance built around Article 5 of its founding treaty, under which an armed attack on one member is treated as an attack on all, though the treaty leaves each member to decide what response it individually takes rather than mandating an automatic joint military reaction.",

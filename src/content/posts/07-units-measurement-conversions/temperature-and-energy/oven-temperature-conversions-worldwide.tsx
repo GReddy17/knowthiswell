@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "UK recipes use gas marks, US recipes use Fahrenheit, and most of the world uses Celsius — converting between them means combining the standard temperature formula with a rough gas-mark approximation.",
   summary: "Oven temperatures appear in three common systems worldwide — Celsius, Fahrenheit, and UK gas marks — and converting between them combines the standard Celsius-Fahrenheit formula with an approximate gas-mark-to-Celsius relationship.",

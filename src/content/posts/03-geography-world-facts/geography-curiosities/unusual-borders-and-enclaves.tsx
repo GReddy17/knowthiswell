@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why Lesotho sits entirely inside South Africa, how a Belgian-Dutch town split its border through living rooms, and what actually separates an enclave from an exclave.",
   summary: "An enclave is territory completely surrounded by one other country, while an exclave is territory separated from its parent state by foreign land — and a single piece of land can be both at once.",

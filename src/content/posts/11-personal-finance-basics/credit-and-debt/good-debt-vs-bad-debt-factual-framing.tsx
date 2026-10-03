@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["good debt", "bad debt", "debt-to-income", "asset-backed debt", "personal finance basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "\"Good debt\" and \"bad debt\" are common financial-literacy shorthand, not formal categories — the underlying factual distinction financial educators point to is usually about what the debt is used to acquire and whether it can reasonably be expected to build value or income over time.",
   summary: "The commonly used \"good debt vs. bad debt\" framing is a financial-literacy heuristic, not a formal classification — it typically distinguishes debt used to acquire an appreciating or income-generating asset (like a mortgage or student loantied to earning potential) from debt used for depreciating purchases or consumption (like high-interest credit card debt for non-essential spending), though real situations often blend both categories.",

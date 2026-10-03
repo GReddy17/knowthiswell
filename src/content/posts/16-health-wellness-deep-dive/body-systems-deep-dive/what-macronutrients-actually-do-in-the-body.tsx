@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["macronutrients", "carbohydrates", "protein", "dietary fat", "calories per gram", "AMDR", "nutrition"],
   date: "2026-09-27",
   updated: "2026-09-27",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "Carbohydrates fuel the brain and muscles, protein builds and repairs tissue, and fat stores energy, builds cells and carries vitamins A, D, E and K. Each gram gives 4, 4 and 9 calories respectively.",
   summary: "Macronutrients are the three nutrients the body needs in large amounts: carbohydrate, protein and fat. Carbohydrates provide 4 calories per gram and are broken down mainly to glucose, the brain's preferred fuel; the National Academies set the adult RDA for carbohydrate at 130 grams a day, based on the brain's glucose needs, and fiber, a carbohydrate humans can't digest, feeds gut bacteria. Protein also provides 4 calories per gram and supplies amino acids for muscle, enzymes, hormones and antibodies; 9 of the 20 amino acids are essential and must come from food, and the adult RDA is 0.8 grams per kilogram of body weight. Fat provides 9 calories per gram, is the body's densest energy store, forms cell membranes and some hormones, and is needed to absorb vitamins A, D, E and K; linoleic acid and alpha-linolenic acid are essential fatty acids. The National Academies' Acceptable Macronutrient Distribution Ranges for adults are 45–65% of calories from carbohydrate, 20–35% from fat and 10–35% from protein. Alcohol also provides calories (7 per gram) but isn't a nutrient the body needs.",

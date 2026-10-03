@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["extreme weather", "attribution science", "heatwaves", "hurricanes", "climate change"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "No single storm or heatwave is 'caused by' climate change alone — but attribution science can now measure how much more likely or intense climate change made a specific event.",
   summary: "Climate change doesn't create extreme weather events from nothing, but it measurably shifts the odds and intensity of many types of events — a scientific field called attribution science can now estimate, for specific real events, how much more likely or severe climate change made them compared to a world without human-driven warming.",

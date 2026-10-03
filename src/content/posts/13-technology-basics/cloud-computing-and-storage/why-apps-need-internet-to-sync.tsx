@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how sync works", "app sync explained", "offline changes", "sync conflicts", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Two devices don't sync by talking to each other directly — they both reach the same central server, which is exactly why sync stops the moment either loses internet.",
   summary: "Syncing is the process of reconciling changes between a local copy of data and a central server so multiple devices reflect the same current state, which requires an internet connection because devices don't normally exchange changes directly with each other.",

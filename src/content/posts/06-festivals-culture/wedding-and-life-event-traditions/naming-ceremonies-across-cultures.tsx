@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["naming ceremonies", "baptism", "namkaran", "life event traditions"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Naming ceremonies mark a child's formal entry into family and community — from Christian baptism to the Hindu Namakarana to secular civil naming ceremonies.",
   summary: "A naming ceremony is a ritual that formally marks a newborn's entry into a family, faith, or community — its form ranges from Christian baptism and Islamic Aqiqah to the Hindu Namakarana and entirely secular civil ceremonies.",

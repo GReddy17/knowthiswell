@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["vaccines", "immune system", "immunology", "antibodies", "immunization"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Vaccines work by showing the immune system a harmless version of a pathogen's antigens, so it builds memory cells that respond faster and stronger if the real pathogen ever shows up.",
   summary: "A vaccine introduces a piece or a weakened/inactivated form of a pathogen — its antigens — so the immune system can build antibodies and memory cells against it without the person having to survive the actual disease first, which is why a vaccinated immune system can respond within hours to days instead of the week or more a first-time natural infection takes.",

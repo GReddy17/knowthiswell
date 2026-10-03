@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["first customers", "customer acquisition", "small business marketing", "sales outreach", "startup"],
   date: "2026-09-30",
   updated: "2026-09-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-30",
   excerpt: "Your first customers almost never come from ads or a launch post. They come from a short list of specific people with a specific problem, contacted one at a time, and the conversations that follow.",
   summary: "Finding your first customers is a manual process, not a marketing one. It starts with narrowing who you serve to a group specific enough to list by name, then contacting those people directly through your existing network and the places they already gather, such as trade groups, local associations and online communities. Each conversation is part research and part sale: you learn what the problem costs them and offer a small, low-risk first purchase or pilot. Because only a fraction of outreach becomes a conversation and only a fraction of conversations become a sale, the work is a numbers game you should measure. The SBA recommends grounding this in market research about who your customers are and where they buy. Paid ads and broad social posts tend to work better later, once you know which message and which customer actually convert. Outreach also has legal limits: commercial email must follow the FTC's CAN-SPAM rules, including a working opt-out and a valid postal address.",

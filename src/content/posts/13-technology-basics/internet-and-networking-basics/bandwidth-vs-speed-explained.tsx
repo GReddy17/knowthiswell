@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["bandwidth vs speed", "Mbps explained", "internet plan speeds", "latency", "networking basics"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Bandwidth measures how much data your connection can carry at once, not how quickly any single piece of it arrives — that second part is latency.",
   summary: "Bandwidth is the maximum amount of data a connection can carry per second, while the feeling of a connection being 'fast' also depends on latency — the delay before data starts arriving at all — which higher bandwidth alone doesn't fix.",

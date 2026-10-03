@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["green building", "energy efficiency", "insulation", "building envelope", "ENERGY STAR"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A home's insulation and air sealing usually save more energy over its lifetime than any single efficient appliance inside it — the building envelope determines how much heating and cooling work even has to happen.",
   summary: "Green building and home energy efficiency center on the building envelope — insulation, air sealing, and windows — because a well-sealed, well-insulated home reduces how much energy is needed for heating and cooling in the first place, which typically has a larger lifetime impact than upgrading individual appliances alone, even though appliance efficiency (ENERGY STAR ratings) is a real, additional lever.",

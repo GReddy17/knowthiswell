@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["legal myths", "documentation misconceptions", "notarization", "wills", "contracts", "consumer literacy"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Verbal agreements can be binding contracts, a will doesn't need a lawyer to be valid, and a notary doesn't check whether a document's contents are true — a roundup of the documentation myths that trip people up most often.",
   summary: "A number of persistent myths about everyday legal documents — from what makes a contract enforceable to what a notary actually verifies — lead people to either overestimate a document's protection or underestimate an obligation they've actually taken on; this roundup corrects the most common of these across the document types covered in this category.",

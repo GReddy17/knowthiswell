@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Clock time is a base-60 system hiding inside a world of base-10 arithmetic — which is exactly why subtracting hours and minutes trips people up who are otherwise fine at subtraction.",
   summary: "Adding and subtracting durations expressed as hours and minutes requires carrying or borrowing in base 60 (60 minutes to an hour) instead of the base 10 used for ordinary number subtraction, so a minutes column that goes negative has to borrow a full 60 minutes from the hours column, not 10.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "How bacteria multiply by doubling, why most microbes aren't harmful, what separates a bacterium from a virus, and where fungi, protozoa, algae, and archaea fit in.",
   summary: "Microorganisms are living things too small to see without a microscope, and the vast majority — including most bacteria in and on your body — are harmless or actively beneficial, not disease-causing.",

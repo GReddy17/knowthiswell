@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["smart home compatibility", "Matter standard", "Thread protocol", "smart home ecosystem", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Compatibility isn't about matching brand names — it's about whether devices and apps can read and change the same underlying state.",
   summary: "A smart home \"ecosystem\" is compatible when multiple devices, hubs, and apps can all read and reliably update the same underlying device state — historically achieved by everyone adopting one company's proprietary system, and increasingly achieved through a shared, brand-neutral interoperability standard that any manufacturer can build to.",

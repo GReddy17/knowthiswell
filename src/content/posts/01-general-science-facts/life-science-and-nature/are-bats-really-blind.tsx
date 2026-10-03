@@ -25,6 +25,8 @@ export const metadata: PostFrontmatter = {
   tags: ["bats", "echolocation", "vision", "animal senses", "misconceptions"],
   date: "2026-09-12",
   updated: "2026-09-26",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "“Blind as a bat” is a real phrase but a false fact — nearly every bat species can see, and echolocation is a second sense layered on top of working eyes, not a replacement for them.",
   summary: "No bat species is actually blind. Most bats have functional eyes and use them, especially in daylight or open spaces; echolocation is an additional sense — active sound-based ranging — that lets them navigate and hunt with precision in total darkness where vision alone would fail.",

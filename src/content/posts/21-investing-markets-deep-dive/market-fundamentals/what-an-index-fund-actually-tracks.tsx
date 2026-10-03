@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["index fund", "s&p 500", "market cap weighting", "expense ratio", "passive investing"],
   date: "2026-09-26",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "An index fund doesn't pick stocks. It copies a published list, usually weighted by company size, so what you actually own depends entirely on the index's rules. The rules, and the fee, matter more than the fund's name.",
   summary: "An index fund is a mutual fund or ETF that tries to match the performance of a market index, per the SEC's Investor.gov, rather than beat it by picking stocks. The index is a rules-based list maintained by a company such as S&P Dow Jones Indices: the S&P 500, for example, holds about 500 large U.S. companies chosen by a committee under published eligibility rules and weighted by the market value of their publicly available shares. Because of that weighting, the biggest companies make up a much larger share of the fund than the smallest, so an index fund can be more concentrated than '500 stocks' suggests. Index funds usually charge low fees because no one is paid to pick stocks, and S&P's SPIVA scorecards have repeatedly found that most actively managed large-company funds trail the S&P 500 over long periods. An index fund still falls when its market falls. This is general education, not investment advice.",

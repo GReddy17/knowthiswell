@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["search engines", "how search ranking works", "SEO basics", "crawling and indexing", "digital literacy"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Search results aren't a neutral list of the 'best' pages — they're a ranked output of crawling, indexing, and a scored comparison against your exact query.",
   summary: "A search engine ranks results by first building an index of the web through crawling, then scoring every matching page in that index against hundreds of signals for a specific query, and returning the highest-scoring matches in order.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["why apps crash", "software bugs", "memory errors", "app troubleshooting", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "An app crash is the operating system deliberately shutting down a process that hit an operation it can't safely continue from — a safety response, not a random glitch.",
   summary: "An app crash happens when a running process hits an operation it cannot execute safely — like accessing memory it doesn't own — which raises an error the operating system responds to by deliberately terminating that process before it can cause wider damage.",

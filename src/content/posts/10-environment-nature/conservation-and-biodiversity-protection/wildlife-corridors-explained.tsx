@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["wildlife corridors", "habitat connectivity", "conservation", "biodiversity", "genetic diversity"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A wildlife corridor reconnects fragmented habitat so animals can move, breed, and maintain genetic diversity across patches that would otherwise isolate them.",
   summary: "A wildlife corridor is a strip of habitat connecting two or more larger habitat patches, allowing animals to move safely between them for feeding, breeding, and seasonal migration, which prevents the genetic and population problems that come from isolated, fragmented habitat.",

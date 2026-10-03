@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["european union", "maastricht treaty", "european history", "eu formation", "20th century history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the European Union formed gradually from 1950s economic communities to the 1993 Maastricht Treaty, not as a single unified entity from day one.",
   summary: "The European Union was formally established by the Maastricht Treaty, which took effect on November 1, 1993, but it grew gradually out of earlier European economic cooperation dating back to the 1950s, rather than being created as a single unified political entity from the start.",

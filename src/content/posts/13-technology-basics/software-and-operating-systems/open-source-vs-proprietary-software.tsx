@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["open source software", "proprietary software", "software licensing", "free software", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Open source is about who can see and change the code, not about price — plenty of open source software is sold, and plenty of free software is proprietary.",
   summary: "Open source and proprietary software differ in whether a program's source code is publicly published and legally allowed to be inspected, modified, and redistributed, which is a separate question from whether the software costs money.",

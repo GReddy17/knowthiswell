@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["independence day", "india", "national holidays", "decolonization"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 64, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Independence Day marks the date a nation formally gained sovereignty from colonial or foreign rule — India's falls August 15, 1947, one of dozens of such national holidays.",
   summary: "Independence Day is the annual national holiday marking the specific date a country formally became sovereign, most commonly by ending colonial rule — India observes it August 15, commemorating its 1947 transfer of power from British rule.",

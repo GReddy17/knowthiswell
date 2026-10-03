@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["wire transfer", "payment apps", "Zelle", "Venmo", "ACH", "banking basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A wire transfer moves money bank-to-bank, is nearly irreversible once sent, and typically settles the same day; a payment app like Venmo or Zelle moves money person-to-person over a much friendlier interface — but that friendliness hides very different reversal and fraud protections underneath.",
   summary: "Wire transfers move funds directly between banks through a secure interbank messaging network and settle quickly but are extremely difficult to reverse once sent, while consumer payment apps route smaller person-to-person payments through their own or linked bank infrastructure with generally weaker reversal protections than a credit card, making it critical to know a recipient before sending through either method.",

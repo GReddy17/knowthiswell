@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["common cold", "influenza", "cold vs flu", "respiratory illness", "virus basics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: true, youtubeLong: true,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Colds and flu are both respiratory viral infections, but different virus families, and flu tends to hit harder and faster — general symptom patterns can help tell them apart, though only testing confirms which one you have.",
   summary: "The common cold and influenza (flu) are caused by different families of respiratory viruses; flu symptoms typically start more abruptly and hit harder (higher fever, more body aches, more fatigue) than a cold, though the only way to know for certain which virus is involved is testing, not symptoms alone.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["checking account", "banking basics", "FDIC insurance", "demand deposit", "bank account"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A checking account is a demand deposit account — money you can pull out on demand, any time, with no advance notice — and that single property is what makes it different from every other account type.",
   summary: "A checking account is a bank product built for frequent access to your own money: deposits are held as a liability the bank owes you, insured up to $250,000 per depositor per bank by the FDIC, and moved in and out through checks, debit cards, and electronic transfers rather than in person over a counter.",

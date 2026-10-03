@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "The 8 planets in order, why the inner four are rocky and the outer four are gas or ice giants, and how to calculate weight on another planet.",
   summary: "The solar system is the Sun plus everything gravitationally bound to it — 8 planets, their moons, dwarf planets, asteroids, and comets — with the Sun alone holding about 99.8% of the total mass.",

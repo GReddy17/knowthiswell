@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["allergic reaction", "anaphylaxis awareness", "epinephrine auto-injector", "allergy first aid"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Most allergic reactions stay mild and localized, but anaphylaxis is a distinct, rapid, whole-body reaction that health agencies classify as a medical emergency requiring immediate action.",
   summary: "The American College of Allergy, Asthma & Immunology and CDC both distinguish a mild, localized allergic reaction (like isolated hives or itching) from anaphylaxis, a rapid, whole-body reaction involving symptoms like difficulty breathing, swelling of the throat, or a sudden drop in blood pressure — anaphylaxis is treated as a medical emergency requiring an epinephrine auto-injector (if prescribed and available) and an immediate call to emergency services, since epinephrine's effect can wear off before full treatment is complete.",

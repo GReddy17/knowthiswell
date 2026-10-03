@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["decolonization", "colonialism", "independence movements", "20th century history", "post-war history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 64, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Decolonization was the decades-long, uneven process by which former colonies across Asia and Africa gained independence from European powers, mostly between the 1940s and 1970s.",
   summary: "Decolonization refers to the process by which countries across Asia, Africa, the Caribbean, and the Pacific gained independence from European colonial rule, unfolding in waves from the mid-1940s through the 1970s, driven by nationalist movements, the weakening of European powers after World War II, and international pressure including from the United Nations.",

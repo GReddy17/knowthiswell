@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["inflation", "purchasing power", "savings", "consumer price index", "personal finance basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Inflation doesn't shrink the number in a savings account — it shrinks what that number can actually buy, which is why a savings rate below the inflation rate still means losing ground in real terms.",
   summary: "Inflation is the general rise in prices across an economy over time, which reduces the purchasing power of a fixed amount of money — meaning cash sitting in an account earning less than the inflation rate is quietly losing real value even though the account balance itself keeps growing or staying flat.",

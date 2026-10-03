@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["digital ID", "e-signature", "electronic signature", "identity documents", "legal documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "An e-signature isn't a picture of your handwriting — legally, it's evidence of intent to sign, which is why typing your name and clicking a scribbled cursive font both can count.",
   summary: "An electronic signature is a broad legal category covering any electronic mark or process a person uses to signal intent to sign a document — typed names, click-to-sign buttons, and cursive-style images can all qualify — and it's legally recognized in the U.S. under federal and state law for most (though not all) types of documents; a digital ID is a related but separate concept referring to electronically verifiable proof of identity.",

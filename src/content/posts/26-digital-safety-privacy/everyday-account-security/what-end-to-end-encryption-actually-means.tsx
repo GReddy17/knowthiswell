@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["end-to-end encryption", "E2EE", "encrypted messaging", "Signal", "WhatsApp", "metadata", "encrypted backups"],
   date: "2026-09-27",
   updated: "2026-09-27",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "End-to-end encryption means only the sender's and recipient's devices can read a message, not the company in the middle. It protects content in transit, but not your unlocked phone, your metadata or unencrypted backups.",
   summary: "End-to-end encryption (E2EE) means a message is encrypted on the sender's device and can only be decrypted on the recipient's device, so the service that carries it, its employees, and anyone who breaches its servers see only scrambled data. That's different from encryption in transit, used by most email and many apps, where data is protected on the way to the server but the provider can read it once it arrives. Signal, WhatsApp (which adopted the Signal Protocol in 2016) and Apple's iMessage use E2EE by default. It has real limits: it does not protect a message once it's on an unlocked or compromised phone, it usually does not hide metadata such as who you contacted and when, and cloud backups are only covered if a setting such as WhatsApp's end-to-end encrypted backup or Apple's Advanced Data Protection is turned on. Comparing safety numbers or security codes confirms you're talking to the right device.",

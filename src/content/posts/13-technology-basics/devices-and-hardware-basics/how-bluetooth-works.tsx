@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["Bluetooth", "wireless", "frequency hopping", "pairing", "device hardware", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Bluetooth avoids interference from WiFi and other devices by hopping to a new radio channel roughly 1,600 times a second — a technique called frequency-hopping spread spectrum.",
   summary: "Bluetooth is a short-range wireless radio standard that transmits data over the crowded 2.4GHz radio band by rapidly and continuously hopping between dozens of channels, which is how two paired devices maintain a reliable connection despite sharing that airspace with WiFi and countless other devices.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ancient egypt", "pharaohs", "pyramids", "hieroglyphics", "nile river"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Ancient Egypt lasted roughly 3,000 years along the Nile, longer than the gap between the last pyramid and today — here's how it actually held together that long.",
   summary: "Ancient Egypt was a civilization along the Nile River in northeastern Africa that lasted from around 3100 BCE to 30 BCE, ruled by pharaohs believed to be divine, and famous for its pyramids, hieroglyphic writing, and mummification.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["outages", "single point of failure", "internet infrastructure", "cloud computing", "redundancy"],
   date: "2026-09-22",
   updated: "2026-09-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "One company's server failure can silently break hundreds of unrelated apps, websites, and even flight operations — because they all quietly depend on the same shared layer.",
   summary: "Thousands of unrelated websites, apps, and even airline systems often run on the same small set of shared infrastructure — a DNS provider, a cloud region, a telecom network. When that shared layer fails, everything built on top of it fails at once, even though none of those individual companies did anything wrong. This is called a single point of failure, and it's why one outage can feel like the whole internet went down.",

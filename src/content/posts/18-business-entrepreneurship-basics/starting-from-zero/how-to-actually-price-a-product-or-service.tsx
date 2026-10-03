@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["pricing", "cost-plus pricing", "value-based pricing", "markup vs margin", "freelance rates"],
   date: "2026-09-26",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "A price has a floor (your full cost), a ceiling (what the customer thinks it's worth), and competitors somewhere in between. Most new businesses underprice because they count only direct costs and confuse markup with margin.",
   summary: "Pricing a product or service means finding a number between two limits: a floor set by your full costs, including overhead and your own time, and a ceiling set by the value customers place on what you offer, with competitors' prices as a reference point in between. The SBA's business guide stresses knowing your costs and researching competitors and customers before setting prices. Common methods are cost-plus (cost times a markup), competitor-based (priced relative to alternatives), and value-based (priced from the customer's gain or willingness to pay), as covered in standard marketing texts such as OpenStax's Principles of Marketing. Two arithmetic traps catch many new owners: markup and margin aren't the same (a 50% markup yields a 33% margin), and freelancers who divide their target income by 2,080 working hours forget that many of those hours won't be billable.",

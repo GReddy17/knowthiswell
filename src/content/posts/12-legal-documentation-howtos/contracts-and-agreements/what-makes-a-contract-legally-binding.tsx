@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["contracts", "contract law basics", "legally binding agreements", "offer and acceptance", "consideration"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A contract doesn't need a fancy title or a notary stamp to be legally binding — it needs a specific set of ingredients: an offer, an acceptance of that offer, consideration exchanged by both sides, and the mutual intent to be legally bound.",
   summary: "A legally binding contract generally requires four elements — a clear offer, an acceptance of that offer's exact terms, consideration (something of value exchanged by each side), and mutual intent to create a legal obligation — and the label 'contract' or the presence of signatures isn't what makes an agreement enforceable; the underlying elements are.",

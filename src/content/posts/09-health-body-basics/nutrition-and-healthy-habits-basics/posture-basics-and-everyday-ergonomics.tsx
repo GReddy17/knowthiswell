@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["posture", "ergonomics", "workstation setup", "neutral spine", "musculoskeletal health"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Good posture is about keeping joints near their neutral, low-strain positions — not about sitting perfectly rigid, which creates its own fatigue.",
   summary: "Ergonomic guidance from OSHA and NIOSH centers on positioning the body so major joints stay close to their neutral (natural, low-strain) alignment during a task, reducing sustained muscular load — a workstation setup checklist (monitor height, chair support, keyboard position) is a practical application of this same neutral-joint-position principle.",

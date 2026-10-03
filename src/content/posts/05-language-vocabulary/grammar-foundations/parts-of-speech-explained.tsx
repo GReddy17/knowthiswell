@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["grammar", "parts of speech", "nouns", "verbs", "adjectives", "sentence structure"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The eight parts of speech explained with real examples — what each one does in a sentence, and why the same word can be a different part of speech depending on context.",
   summary: "Parts of speech are the job categories every word in a sentence falls into — noun, verb, adjective, adverb, pronoun, preposition, conjunction, and interjection — and a word's category can change depending on how it's used.",

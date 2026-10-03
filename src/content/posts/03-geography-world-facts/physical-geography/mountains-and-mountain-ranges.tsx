@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["mountains", "plate tectonics", "physical geography", "erosion"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How mountains form, why the Himalayas are still growing, and why the Appalachians are shorter than a mountain range their age has any right to be.",
   summary: "Mountains form mainly where tectonic plates collide, volcanoes erupt, or crust cracks and lifts along faults — and once formed, they're locked in a permanent tug-of-war between the forces building them up and erosion wearing them back down.",

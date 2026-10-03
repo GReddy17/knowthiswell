@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["carpet padding", "carpet cushion", "flooring", "carpet installation", "home maintenance"],
   date: "2026-09-17",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "Thicker padding doesn't mean a longer-lasting carpet — density, not thickness, is what actually determines how much flexing the carpet backing survives.",
   summary: "Carpet padding is rated primarily by density (weight per cubic foot of material) and thickness, and while both affect how a floor feels underfoot, density is the property that actually governs carpet longevity — a thick but low-density pad compresses and lets the carpet backing flex excessively at every footstep, accelerating wear far faster than a thinner, denser pad would.",

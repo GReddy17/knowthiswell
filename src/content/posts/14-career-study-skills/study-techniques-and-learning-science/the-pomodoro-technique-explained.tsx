@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["pomodoro technique", "focus", "time management", "study techniques", "productivity"],
   date: "2026-08-30",
   updated: "2026-08-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-30",
   excerpt: "The Pomodoro Technique breaks work into short, timed intervals with forced breaks, which works because it manages attention fatigue, not just the clock.",
   summary: "The Pomodoro Technique is a time-management method that breaks work into fixed intervals (traditionally 25 minutes) separated by short breaks, using a hard time boundary to reduce procrastination and manage attention fatigue rather than simply scheduling tasks.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["el nino", "la nina", "ENSO", "ocean currents", "weather patterns"],
   date: "2026-09-22",
   updated: "2026-09-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "El Niño isn't a storm — it's a shift in Pacific Ocean temperature that rearranges weather patterns worldwide for months at a time.",
   summary: "El Niño and La Niña are the warm and cool phases of a single, recurring Pacific Ocean cycle (ENSO) driven by trade winds. Neither is a storm itself — each is a persistent temperature shift in the tropical Pacific that redirects where the atmosphere rains, and where it stays dry, across much of the planet for months.",

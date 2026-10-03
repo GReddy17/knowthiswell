@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["email etiquette", "professional communication", "workplace etiquette", "writing", "reply all"],
   date: "2026-09-25",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "Professional email etiquette is less about formal phrases and more about the reader's time: a clear subject, the point up front, only the context needed, an obvious next step, and a check of who's on the thread before you hit send.",
   summary: "Professional email etiquette comes down to respecting the reader's time and attention, per writing guidance from Purdue University's Online Writing Lab and the U.S. federal government's plain language guidelines: a specific subject line, the request or main point in the opening lines rather than at the end, only the background the reader needs to act, a clear next step with any deadline, a tone suited to a message that may be forwarded, and a final check of recipients, names, and attachments. Formality level varies by workplace and relationship, but these structural habits hold across nearly all of them, and most real email mistakes (reply-all to a large list, a buried request, a message sent to the wrong person) are structural, not about greetings or sign-offs.",

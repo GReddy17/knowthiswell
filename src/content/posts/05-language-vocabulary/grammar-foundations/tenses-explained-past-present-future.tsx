@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["grammar", "verb tenses", "past present future", "English verbs"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "English has three time periods but twelve verb tenses — here's how simple, continuous, perfect, and perfect continuous forms actually work, with real examples for each.",
   summary: "English tenses combine three time periods (past, present, future) with four aspects (simple, continuous, perfect, perfect continuous) to produce twelve total verb tenses, each signaling something specific about when and how an action happens.",

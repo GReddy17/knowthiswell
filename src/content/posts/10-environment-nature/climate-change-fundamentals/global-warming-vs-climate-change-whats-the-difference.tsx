@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["global warming", "climate change", "terminology", "weather vs climate", "NASA"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Global warming is one specific measurement — rising average temperature. Climate change is the broader set of effects that rising temperature triggers, including some regions getting colder or wetter, not just hotter.",
   summary: "Global warming refers specifically to the long-term rise in Earth's average surface temperature, while climate change is the broader term covering all the resulting shifts — in precipitation, storm intensity, sea level, and regional weather patterns — some of which don't look like simple warming at all.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["data privacy", "consent forms", "privacy policy", "opt-in vs opt-out", "legal literacy"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A data privacy consent form's actual mechanism — whether it requires you to opt in before data is collected, or requires you to opt out after it already is being collected — determines far more about your actual privacy than the length or tone of the accompanying privacy policy.",
   summary: "Data privacy consent generally works through one of two structurally different mechanisms — opt-in, where collection or a specific use requires your affirmative agreement first, or opt-out, where collection happens by default unless you actively decline — and which mechanism a given form uses matters more to your actual privacy outcome than how detailed or well-written the surrounding privacy policy text is.",

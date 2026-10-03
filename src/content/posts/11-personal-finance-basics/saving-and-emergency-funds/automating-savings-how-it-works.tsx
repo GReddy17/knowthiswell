@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["automatic savings", "direct deposit split", "recurring transfer", "personal finance basics", "money habits"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 63, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Automating savings means setting up a recurring, hands-off transfer of money into a savings account, so the saving happens before there's a chance to spend it instead of depending on remembering to do it manually.",
   summary: "Automating savings is the mechanism of setting up a recurring transfer — through a bank's automatic transfer feature, a direct deposit split, or a round-up program — that moves money into savings without requiring a manual decision each time, which removes the dependence on willpower or memory as the thing standing between a paycheck and a growing savings balance.",

@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why scaling a recipe is a ratio problem, why cups don't convert cleanly to grams across ingredients, and why doubling batter doesn't mean doubling bake time.",
   summary: "Scaling a recipe multiplies every ingredient by the same ratio of desired-to-original servings, but volume-to-weight conversions and cooking time depend on ingredient density and heat transfer, not on that same ratio.",

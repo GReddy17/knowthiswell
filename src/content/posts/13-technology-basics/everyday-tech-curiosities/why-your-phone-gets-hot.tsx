@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["phone heat", "thermal throttling", "battery", "technology basics", "everyday tech"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Phone heat comes from four sources feeding one shared heat pool, and a built-in feedback loop called thermal throttling deliberately slows the processor to cool it back down.",
   summary: "A phone gets hot because several sources — the processor, battery charging, screen brightness, and radio signal — all dump heat into the same small enclosure, and the device responds with thermal throttling, a self-correcting feedback loop that slows performance to bring the temperature back down.",

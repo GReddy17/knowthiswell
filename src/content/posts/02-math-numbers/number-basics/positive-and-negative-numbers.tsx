@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How positive and negative numbers work on the number line, why subtracting a negative means adding, and why a negative times a negative is positive.",
   summary: "Positive and negative numbers describe both a size and a direction from zero — the sign tells you which side of the number line you're on, and every operation you do with them follows directly from that one idea.",

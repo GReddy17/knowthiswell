@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["loans", "principal", "interest rate", "amortization", "loan term", "personal finance basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Every installment loan is built from three moving parts — principal, interest rate, and term — and the same monthly payment formula banks use can be run by hand to see exactly how changing any one of the three reshapes the whole loan.",
   summary: "An installment loan's monthly payment is a direct mathematical function of three variables — the amount borrowed (principal), the interest rate, and the repayment term — and understanding how those three interact explains why a longer term lowers the monthly payment but usually raises the total interest paid.",

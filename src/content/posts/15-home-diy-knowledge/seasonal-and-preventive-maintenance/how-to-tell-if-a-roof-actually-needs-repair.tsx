@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["roofing", "shingles", "flashing", "roof leaks", "home maintenance"],
   date: "2026-09-12",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "Cosmetic roof wear and an actual leak risk look different up close — granule loss, flashing gaps, and attic-side moisture are the signals that actually separate them.",
   summary: "A roof's job is to shed water completely, and most of its real vulnerabilities aren't the shingle field itself but the seams — flashing around chimneys, vents, and valleys — where two materials meet and a gap can let water through even while the shingles nearby still look intact. Telling ordinary cosmetic wear from an actual repair need means checking specific signs, not just eyeballing the roof's general age.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["voting systems", "elections", "proportional representation", "first-past-the-post", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The same set of votes can produce different winners depending on the counting method — first-past-the-post, proportional representation, and ranked-choice voting aren't just paperwork variations, they change outcomes.",
   summary: "A voting system is the specific mathematical method used to convert votes into winners or seats — first-past-the-post awards the seat to whoever gets the most votes even without a majority, proportional representation allocates seats to parties roughly matching their overall vote share, and ranked-choice voting eliminates candidates and redistributes votes until someone has a true majority.",

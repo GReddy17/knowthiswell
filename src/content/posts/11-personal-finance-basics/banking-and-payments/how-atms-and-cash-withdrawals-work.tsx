@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ATM", "cash withdrawal", "banking networks", "ATM fees", "banking basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "An ATM withdrawal is really a real-time conversation between three separate systems — your bank, the ATM's network, and the machine itself — which is exactly why network choice, not just the machine's owner, determines whether a fee applies.",
   summary: "An ATM withdrawal works by routing a real-time request through your card's network to your bank, which checks your balance and authorizes the exact amount before the machine dispenses cash — and whether a fee applies depends on whether the ATM belongs to your bank's own network or a partner network, not just who physically owns the machine.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["stud finder", "capacitive sensor", "wall studs", "home tools", "electric field"],
   date: "2026-09-03",
   updated: "2026-09-03",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Most stud finders don't detect metal at all — they sense a change in material density behind the wall using a small electric field, which is why they're fooled by wiring and plumbing too.",
   summary: "Most stud finders are capacitive sensors that detect a change in material density behind the wall by measuring how that material affects a small electric field, not metal detectors — a separate, less common magnetic type finds a stud only indirectly, by sensing the metal nails or screws already driven into it.",

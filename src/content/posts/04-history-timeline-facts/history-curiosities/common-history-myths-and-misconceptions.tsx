@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["history myths", "vikings", "napoleon", "marie antoinette", "flat earth myth"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Vikings didn't wear horned helmets, Napoleon wasn't unusually short, and Marie Antoinette never said 'let them eat cake' — where these persistent history myths actually came from.",
   summary: "Many widely repeated \"facts\" about history — from horned Viking helmets to Napoleon's height to Marie Antoinette's most famous supposed quote — are documented myths, often traceable to a specific later source rather than the historical period they claim to describe.",

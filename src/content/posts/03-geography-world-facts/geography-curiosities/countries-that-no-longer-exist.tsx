@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How and why sovereign countries disappear — through dissolution, merger, or absorption — with real cases like the USSR, Yugoslavia, and Czechoslovakia.",
   summary: "Countries stop existing in three distinct ways — splitting into successor states, merging into a larger state, or being absorbed by a neighbor — and each leaves a different legal and geographic trail.",

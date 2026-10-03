@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why zero took thousands of years to be invented, how it was independently discovered at least twice, and why treating it as a real number (not just a placeholder) was the hard part.",
   summary: "Zero is a genuine mathematical invention, not an obvious idea — it had to be discovered separately as a placeholder in positional notation and, much later, as a number with its own arithmetic rules.",

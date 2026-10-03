@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ganesh chaturthi", "hindu festivals", "ganesha", "maharashtra"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 63, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Ganesh Chaturthi celebrates the birth of the elephant-headed god Ganesha, marked by installing and later immersing clay idols over 1 to 11 days.",
   summary: "Ganesh Chaturthi honors the birth of Ganesha, the remover of obstacles, with clay idols installed in homes and public pandals and ceremonially immersed in water at the festival's end.",

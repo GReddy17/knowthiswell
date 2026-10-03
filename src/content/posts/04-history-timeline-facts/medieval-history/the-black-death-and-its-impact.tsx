@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["black death", "bubonic plague", "medieval history", "yersinia pestis", "medieval europe"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Black Death killed roughly a third of Europe's population between 1347 and 1351 — and reshaped labor, land, and power for generations after the dying stopped.",
   summary: "The Black Death was a pandemic of plague, caused by the bacterium Yersinia pestis, that swept through Europe, the Middle East, and parts of Asia between 1347 and 1351, killing an estimated 25 million people in Europe alone, roughly a third of the continent's population at the time.",

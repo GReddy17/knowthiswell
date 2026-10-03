@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["petitions", "advocacy", "civic participation", "civics", "grassroots organizing"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A petition with a million signatures doesn't obligate a government to do anything — its real power depends entirely on which specific mechanism (if any) is attached to it.",
   summary: "A public petition is a formal request signed by members of the public asking a government body or institution to take (or not take) a specific action; most petitions are advisory with no binding legal effect, though a smaller category of formal petition mechanisms — with fixed signature thresholds set in law — can legally require a government response or trigger a specific process like a ballot initiative.",

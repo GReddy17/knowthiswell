@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["liters", "gallons", "volume conversion", "US customary units", "imperial units"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A US gallon and a UK gallon are both called \"gallon,\" but the UK gallon holds about 20% more liquid — converting correctly means knowing which one you're dealing with.",
   summary: "A liter converts to gallons by dividing by a fixed factor, but \"gallon\" itself isn't one fixed size — the US gallon (3.78541 L) and the UK imperial gallon (4.54609 L) are different volumes that share a name.",

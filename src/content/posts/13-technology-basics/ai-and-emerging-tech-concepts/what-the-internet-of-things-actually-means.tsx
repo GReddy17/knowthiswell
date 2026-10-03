@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["what is the internet of things", "IoT explained", "internet of things definition", "smart device vs IoT device", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "The Internet of Things means a physical device has a sensor, a network connection, and reports its data somewhere else automatically.",
   summary: "The Internet of Things refers to physical devices that combine a sensor, a network connection, and the ability to send their data to another system (often a cloud server) automatically, without a person manually transferring that data — a definition based on connectivity and reporting, not on how advanced or automated the device's internal logic is.",

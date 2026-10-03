@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["medical emergency signs", "when to call 911", "emergency warning signs", "first aid awareness"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Health agencies publish general categories of warning signs — like sudden severe pain or trouble breathing — where the guidance is simply to call emergency services, not to self-diagnose what's wrong.",
   summary: "The American College of Emergency Physicians and CDC both publish general categories of warning signs (sudden severe pain, trouble breathing, sudden confusion, uncontrolled bleeding, among others) where the correct action is the same regardless of the underlying cause: call emergency services immediately, rather than trying to determine a diagnosis first.",

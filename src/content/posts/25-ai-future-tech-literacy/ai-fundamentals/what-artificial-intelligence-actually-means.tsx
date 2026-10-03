@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["artificial intelligence", "machine learning", "AI basics", "what is AI"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "AI isn't one thing — it's an umbrella term for systems that perform tasks normally requiring human judgment, most of them today built by finding statistical patterns in huge amounts of data.",
   summary: "Artificial intelligence is an umbrella term for computer systems that perform tasks normally requiring human judgment — recognizing images, generating text, making predictions — and the vast majority of today's AI achieves this not through reasoning like a human, but by finding statistical patterns across enormous datasets during a training process, then applying those patterns to new inputs.",

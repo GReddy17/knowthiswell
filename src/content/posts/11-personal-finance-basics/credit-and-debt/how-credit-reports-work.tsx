@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["credit report", "credit bureaus", "credit history", "personal finance basics", "financial literacy"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A credit report is the raw record your credit score is calculated from — three separate companies each keep their own version, built from data lenders voluntarily report, which is why the same person can have three slightly different reports.",
   summary: "A credit report is a detailed record of a person's borrowing and repayment history, compiled independently by each of three major credit bureaus from data voluntarily reported by lenders — it's the underlying data source that credit scores are calculated from, not the score itself.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["job boards", "job search", "job listing ranking", "applicant tracking", "job search strategy"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Job boards rank listings using a composite score built from keyword relevance, how recently a posting was published, applicant engagement, and paid placement — not simply who posted first.",
   summary: "Job boards rank listings the way a search engine ranks pages: each posting is indexed by its keywords, skills, and location, then scored on relevance, recency, applicant engagement, and sometimes paid placement — and that composite score, recalculated with every search, determines where a listing lands rather than a fixed or chronological order.",

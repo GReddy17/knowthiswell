@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["hvac air filter", "furnace filter replacement", "MERV rating", "airflow restriction", "hvac maintenance"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 86, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "A clogged HVAC filter doesn't just let more dust through — it restricts airflow, forcing the blower to strain and making the whole system work harder and less evenly.",
   summary: "An HVAC air filter's job is to trap airborne particles before they reach the blower and coils, but as it fills with debris it also increasingly restricts the volume of air that can pass through it — that restriction, not just filtration quality, is the main reason regular replacement matters for both comfort and equipment life.",

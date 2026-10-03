@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["neural networks", "machine learning", "backpropagation", "weights", "deep learning"],
   date: "2026-09-25",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "A neural network is a stack of simple multiply-add-and-squash steps whose millions of weights get nudged, example by example, until its guesses stop being wrong. It doesn't think the way a brain does.",
   summary: "A neural network is a mathematical function made of layers of simple units: each unit multiplies its inputs by learned weights, adds them up, and passes the sum through an activation function, and the layers feed forward into an output guess. Training compares that guess with the correct answer, measures the error with a loss function, and uses backpropagation with gradient descent to adjust every weight slightly in the direction that shrinks the error, repeated over many examples, per Google's Machine Learning Crash Course and Stanford's CS231n notes. What the network has learned lives entirely in those weight values; the loose analogy to biological neurons is historical, not a description of how brains work.",

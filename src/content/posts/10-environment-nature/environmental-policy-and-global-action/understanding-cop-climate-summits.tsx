@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["COP", "climate summit", "UNFCCC", "climate negotiations", "climate policy"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "COP stands for Conference of the Parties — the annual meeting of every country that signed the 1992 UN climate treaty, and the body that produced both the Kyoto Protocol and the Paris Agreement.",
   summary: "A COP (Conference of the Parties) is the annual formal meeting of every country that ratified the 1992 UN Framework Convention on Climate Change, held in a different host country each year, where negotiators review progress and adopt new climate agreements by consensus.",

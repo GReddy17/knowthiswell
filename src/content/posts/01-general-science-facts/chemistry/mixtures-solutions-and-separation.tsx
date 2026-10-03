@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-19",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "The difference between a mixture and a solution, why salt disappears in water but sand doesn't, and how filtration, evaporation, distillation, and chromatography separate them again.",
   summary: "A mixture combines two or more substances physically, without a chemical reaction — a solution is a special case where the mixture becomes completely uniform, and separation techniques exploit differences in physical properties to pull the parts back apart.",

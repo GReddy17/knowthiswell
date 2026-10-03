@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["emergency fund", "savings", "financial safety net", "budgeting", "personal finance basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "An emergency fund exists to stop a single unexpected expense from turning into debt — the actual mechanism is substituting cash you already have for a loan you'd otherwise be forced to take.",
   summary: "An emergency fund is cash set aside specifically to cover unplanned expenses or income loss without borrowing, commonly sized as three to six months of essential expenses, though the right size depends on job stability and other factors — this is general financial literacy, not a personal recommendation for your situation.",

@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How to systematically solve classic math puzzles like the handshake problem, why brute-force listing fails as puzzles scale up, and the reasoning tricks that crack most logic riddles.",
   summary: "Math puzzles and logic riddles are solved not by guessing but by finding the underlying structure — counting rules, elimination, or symmetry — that brute-force listing breaks down on once a puzzle gets large.",

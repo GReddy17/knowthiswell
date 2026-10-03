@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["harvest festivals", "indian festivals", "pongal", "bihu", "baisakhi"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "India marks the same winter harvest season with a set of distinct regional festivals — Pongal, Makar Sankranti, Lohri, Bihu, and more — each with its own name and customs.",
   summary: "India's winter harvest season is marked not by a single national festival but by a cluster of regionally distinct celebrations — including Pongal, Makar Sankranti, Lohri, and Magh Bihu — that share a common astronomical timing while differing in name, customs, and regional meaning.",

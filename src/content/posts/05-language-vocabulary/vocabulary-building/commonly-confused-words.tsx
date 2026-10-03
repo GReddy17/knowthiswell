@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["commonly confused words", "affect vs effect", "fewer vs less", "who vs whom", "usage", "vocabulary"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Affect versus effect, fewer versus less, who versus whom — the words English speakers mix up most aren't random, they follow specific, learnable rules.",
   summary: "Commonly confused words are pairs or sets of words that get mixed up because they sound alike, look alike, or have overlapping meanings but different grammatical roles — affect (usually a verb) versus effect (usually a noun), fewer (for countable things) versus less (for uncountable amounts), and who (subject) versus whom (object) are the classic examples, and each has a specific, checkable rule behind it.",

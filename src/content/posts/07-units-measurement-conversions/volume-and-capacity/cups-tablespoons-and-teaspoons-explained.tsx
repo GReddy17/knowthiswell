@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cooking measurements", "tablespoons", "teaspoons", "cups", "volume conversion"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "1 US cup equals 16 tablespoons equals 48 teaspoons — a clean chain of ratios, until an Australian recipe's tablespoon (20 mL, not 15 mL) breaks it.",
   summary: "US cooking measures nest in clean whole-number ratios — 1 cup = 16 tablespoons = 48 teaspoons — but the tablespoon itself isn't a single global size, since Australia defines it as 20 mL instead of the 15 mL used in the US and UK.",

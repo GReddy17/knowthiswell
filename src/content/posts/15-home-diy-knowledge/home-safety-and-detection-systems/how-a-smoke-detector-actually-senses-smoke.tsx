@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["smoke detector", "ionization sensor", "photoelectric sensor", "fire safety", "home safety"],
   date: "2026-09-12",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 87, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "Smoke detectors sense smoke particles, not flame or heat, and ionization and photoelectric types detect very different kinds of particles at very different speeds.",
   summary: "A smoke detector isn't watching for fire — it's watching for smoke particles disrupting either a tiny electric current or a beam of light, and which of those two mechanisms a detector uses determines whether it reacts fastest to a flaming fire or a slow, smoldering one.",

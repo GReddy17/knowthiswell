@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["academic vocabulary", "academic word list", "hedging language", "essay writing", "research writing"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 63, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Academic vocabulary isn't just 'fancier' words — hedging terms like 'suggests' versus 'proves,' or 'correlates with' versus 'causes,' mark real, substantively different claims.",
   summary: "Academic vocabulary is a specific register built around precision and caution — general terms shared across disciplines (like 'analyze' or 'hypothesis'), discipline-specific technical terms, and hedging language that carefully distinguishes what evidence actually shows from what it merely suggests.",

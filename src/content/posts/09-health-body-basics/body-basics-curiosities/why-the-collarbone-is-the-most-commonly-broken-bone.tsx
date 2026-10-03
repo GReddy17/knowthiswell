@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["clavicle", "collarbone", "broken bones", "sports injuries", "anatomy"],
   date: "2026-09-22",
   updated: "2026-09-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "The collarbone isn't especially fragile — it breaks so often because of where it sits and the shape it's built in, not because it's a weak bone.",
   summary: "The clavicle (collarbone) is the bone most often broken in falls and sports collisions, not because it's structurally weak, but because it's the only bony strut connecting the arm to the torso, sits with little muscle protection just under the skin, and has a thin, curved midpoint that concentrates the force from a fall onto an outstretched hand or a direct hit to the shoulder.",

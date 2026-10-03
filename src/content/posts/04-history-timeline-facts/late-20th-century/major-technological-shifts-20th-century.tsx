@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["20th century technology", "personal computer", "internet history", "space race", "technology timeline"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "From powered flight in 1903 to the World Wide Web in the early 1990s — the major technological shifts that reshaped the 20th century, and how they built on each other.",
   summary: "The 20th century saw a compressed sequence of major technological shifts — powered flight, mass electrification, nuclear power, space travel, and personal computing among them — each of which typically built directly on infrastructure or discoveries from the shift before it, rather than arriving as isolated, unrelated breakthroughs.",

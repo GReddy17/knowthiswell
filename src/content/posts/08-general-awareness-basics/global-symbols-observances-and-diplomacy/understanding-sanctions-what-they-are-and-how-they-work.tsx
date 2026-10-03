@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["sanctions", "international relations", "diplomacy", "trade policy", "foreign policy tools"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Sanctions are deliberate, government-imposed restrictions on trade, finance, or travel used as a policy tool short of military force — and they come in several structurally different types, not one single mechanism.",
   summary: "A sanction is a government-imposed restriction — on trade, financial transactions, travel, or asset access — used to pressure a target country, organization, or individual to change behavior, functioning as a policy tool positioned between diplomacy and military action.",

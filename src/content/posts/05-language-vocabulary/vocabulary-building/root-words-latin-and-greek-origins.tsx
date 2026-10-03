@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["root words", "etymology", "latin roots", "greek roots", "vocabulary", "word origins"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "A huge share of English vocabulary is built from a small set of reusable Latin and Greek roots — and knowing them is one of the fastest ways to decode unfamiliar words.",
   summary: "A root word is the core word part that carries a term's central meaning, and a large share of English vocabulary — especially academic, scientific, and legal vocabulary — is built from a relatively small, reusable set of Latin and Greek roots that get combined with prefixes and suffixes to form new words.",

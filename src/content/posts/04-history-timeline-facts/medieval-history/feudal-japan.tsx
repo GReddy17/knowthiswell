@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["feudal japan", "samurai", "shogun", "kamakura", "medieval history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Feudal Japan ran on shoguns, samurai, and land loyalty for nearly 700 years — but its rules were never a copy of European feudalism, despite the shared label.",
   summary: "Feudal Japan describes the roughly 700-year period from 1185 to 1868 during which military rulers called shoguns, supported by a warrior class known as samurai, held real political power in Japan, even though emperors formally remained on the throne throughout.",

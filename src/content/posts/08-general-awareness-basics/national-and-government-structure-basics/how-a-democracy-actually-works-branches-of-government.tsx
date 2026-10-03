@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["democracy", "branches of government", "separation of powers", "civics", "checks and balances"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A working democracy runs on three separated branches of government — legislative, executive, judicial — each with the power to check the others, not on any single office holding unchecked authority.",
   summary: "Democracy, as a system of government, functions by splitting state power across three separated branches — the legislative branch that writes laws, the executive branch that enforces them, and the judicial branch that interprets them — each able to check the others so no single branch accumulates unchecked authority.",

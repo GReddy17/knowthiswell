@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A '100 Mbps' internet plan doesn't download at 100 megabytes per second — it downloads at about 12.5, because bandwidth is sold in bits and files are measured in bytes.",
   summary: "Internet speed advertised in megabits per second (Mbps) and file-transfer speed shown in megabytes per second (MB/s) differ by a factor of 8, because a byte is defined as 8 bits — the single most common source of 'my internet isn't as fast as advertised' confusion.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["digital footprint", "online privacy", "data broker", "active vs passive footprint", "digital literacy"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 88, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A digital footprint is the trail of data your devices and accounts leave behind — assembled after the fact into a profile, not built by any single site.",
   summary: "A digital footprint is the total trail of data created by everything you do online and with connected devices, which becomes meaningful not at the moment it's created but when separate trails get matched together into one profile.",

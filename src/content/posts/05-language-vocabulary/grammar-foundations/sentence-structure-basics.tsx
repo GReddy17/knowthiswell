@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["grammar", "sentence structure", "clauses", "subject and predicate", "writing"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How English sentences are actually built — subjects, predicates, clauses, and the four sentence types — explained with real examples, not diagramming worksheets.",
   summary: "Every complete English sentence needs a subject and a predicate, and combining clauses in different ways produces the four sentence types: simple, compound, complex, and compound-complex.",

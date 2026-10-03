@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How world population passed 8 billion in 2022, why its growth rate has actually been slowing since the 1960s, and when the UN projects it will peak.",
   summary: "World population surpassed 8 billion people in November 2022, and while the total keeps rising, the annual growth rate has been slowing for decades and is projected by the UN to bring population to a peak later this century.",

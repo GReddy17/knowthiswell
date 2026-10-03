@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A calendar year of 365 days is about a quarter-day shorter than Earth's actual trip around the sun — leap years exist purely to correct that accumulating gap.",
   summary: "Earth takes approximately 365.2422 days to orbit the sun, not a clean 365, so a calendar using exactly 365 days every year would drift out of sync with the seasons — leap years add a corrective extra day roughly every 4 years, with a further century-based exception to keep the correction from overshooting.",

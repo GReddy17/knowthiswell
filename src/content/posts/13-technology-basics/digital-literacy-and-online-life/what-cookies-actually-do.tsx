@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["what are cookies", "how cookies work", "browser cookies", "third-party cookies", "digital literacy"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Cookies are small pieces of text a site asks your browser to store and send back — the mechanism behind staying logged in and being followed by ads alike.",
   summary: "A cookie is a small piece of text a website asks your browser to store, then automatically sends back on every later request to that same site, which is how a stateless connection can remember who you are.",

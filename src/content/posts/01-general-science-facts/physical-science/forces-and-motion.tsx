@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["forces", "motion", "newtons laws", "physics", "acceleration"],
   date: "2026-08-16",
   updated: "2026-09-27",
+  youtubeShort: false, youtubeLong: true,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What a force actually is, how Newton's three laws explain everyday motion, and why F = ma predicts exactly how hard something accelerates.",
   summary: "A force is any push or pull that changes an object's motion. Newton's three laws describe when objects stay still, how much they accelerate under a force, and why every force has an equal, opposite reaction.",

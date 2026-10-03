@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["latency explained", "ping", "round-trip time", "why internet feels slow", "networking basics"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Latency is the delay before data starts arriving at all, driven mostly by physical distance — and no amount of extra bandwidth can shorten it.",
   summary: "Latency is the time it takes a single piece of data to make a round trip between your device and a server, driven mainly by physical distance and the number of network hops, which is why a high-bandwidth connection can still feel sluggish.",

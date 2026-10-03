@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["NDA", "non-disclosure agreement", "confidentiality agreement", "mutual NDA", "trade secrets"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "An NDA is a contract that creates a legal duty to keep specific information confidential — but the protection only extends as far as what the document actually defines as confidential, for how long, and under which exceptions.",
   summary: "A non-disclosure agreement (NDA) is a contract in which one or both parties agree not to share defined confidential information with outsiders, and its real-world strength depends heavily on the specifics — how narrowly or broadly 'confidential information' is defined, how long the duty lasts, whether it's mutual or one-way, and what carve-outs (like information already public) exist.",

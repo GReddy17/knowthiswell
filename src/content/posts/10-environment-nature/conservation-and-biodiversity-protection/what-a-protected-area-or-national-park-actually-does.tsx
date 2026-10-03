@@ -29,6 +29,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 87, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A protected area is a legally defined boundary with enforceable restrictions on activities like logging, mining, and development — not just a scenic label on a map.",
   summary: "A protected area or national park is a geographic space with a formal legal designation that restricts specific human activities within its boundary, ranked by the IUCN into seven management categories from strict no-access reserves to areas that still allow regulated resource use.",

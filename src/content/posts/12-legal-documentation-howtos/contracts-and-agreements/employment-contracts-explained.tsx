@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["employment contract", "at-will employment", "non-compete clause", "offer letter", "employment terms"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "An employment contract can range from a one-page offer letter to a detailed multi-year agreement, and in the U.S., most jobs default to 'at-will' employment unless a specific contract says otherwise.",
   summary: "An employment contract sets out the terms of a working relationship — compensation, duties, duration, and often clauses like non-compete or confidentiality provisions — and in the United States, employment is generally presumed 'at-will' (terminable by either side at any time, for almost any legal reason) unless a specific written or implied contract overrides that default.",

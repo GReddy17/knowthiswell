@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["adoption", "home study", "adoption decree", "amended birth certificate", "legal documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Adoption's paperwork trail exists to do one specific legal thing — permanently and formally transfer parental rights — and the process, timeline, and required documents differ significantly depending on which type of adoption is involved.",
   summary: "Adoption is a court process that permanently and legally transfers parental rights from birth parents (or the state, in foster care cases) to adoptive parents, generally involving a home study, formal filings, a court hearing, a final adoption decree, and often an amended birth certificate — the specific steps, timelines, and requirements vary substantially by adoption type (domestic infant, foster care, stepparent, international) and by jurisdiction, and this is general legal literacy, not personalized legal advice.",

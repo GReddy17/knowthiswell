@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["bruises", "contusion", "hemoglobin", "healing", "body basics"],
   date: "2026-09-22",
   updated: "2026-09-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "A bruise's color parade — red to purple to green to yellow — isn't random. It's your body chemically breaking down trapped blood, one pigment at a time.",
   summary: "A bruise forms when an impact breaks small blood vessels under intact skin, leaking blood into the surrounding tissue. The color changes over the following days and weeks aren't random — they track your body breaking hemoglobin down into a sequence of different pigmented compounds and clearing them away. This general information is not a substitute for medical evaluation, and color alone isn't a reliable way to judge how serious an injury is.",

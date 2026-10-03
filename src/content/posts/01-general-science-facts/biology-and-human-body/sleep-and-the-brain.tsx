@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-26",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the brain cycles through light, deep, and REM sleep roughly every 90 minutes, and why the circadian rhythm governs when you feel sleepy or alert.",
   summary: "Sleep is not a passive shutdown but an active cycling process, moving the brain through light sleep, deep sleep, and REM sleep roughly every 90 minutes, timed by an internal circadian clock.",

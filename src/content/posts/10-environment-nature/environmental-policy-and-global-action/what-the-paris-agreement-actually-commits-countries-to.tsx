@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["Paris Agreement", "climate policy", "UNFCCC", "NDCs", "international treaties"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The Paris Agreement doesn't set binding emissions targets for any country — it legally binds each country only to submit and pursue its own self-determined climate plan, resubmitted and strengthened every five years.",
   summary: "The Paris Agreement's core legal mechanism is the Nationally Determined Contribution (NDC): each of the 190+ signatory countries sets its own emissions-reduction target, with a binding obligation only to submit, report on, and periodically strengthen that plan — not a binding obligation to hit any specific number.",

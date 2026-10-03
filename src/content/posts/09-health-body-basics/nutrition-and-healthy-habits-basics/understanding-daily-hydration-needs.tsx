@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["hydration", "water intake", "fluid needs", "nutrition basics", "electrolytes"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Fluid needs scale roughly with body weight and shift with activity, heat, and health status — there is no single fixed daily number that applies to everyone.",
   summary: "Daily hydration needs are commonly estimated from body weight using a rough milliliters-per-kilogram guideline, but the true requirement varies with activity level, climate, and individual health factors — published general guidelines exist as a starting reference point, not a fixed target.",

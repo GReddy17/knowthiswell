@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how ad targeting works", "online advertising", "real-time bidding", "ad auction", "digital literacy"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "The ad that appears the instant a page loads was chosen through a real-time auction run in the milliseconds before the page finished loading.",
   summary: "Online ad targeting works by matching a stored profile of a browser's inferred interests to an advertiser's criteria, then running a near-instant automated auction among competing advertisers, all before the page finishes loading.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["applicant tracking system", "ats", "resume", "job application", "resume formatting"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "An applicant tracking system parses a resume into structured data and ranks it by keyword match — it doesn't reject candidates on its own the way most job seekers assume.",
   summary: "An applicant tracking system (ATS) is software that stores, parses, and searches job applications for a hiring team — it extracts a resume's text into structured fields and lets recruiters filter or rank candidates by keyword, not silently reject anyone by itself.",

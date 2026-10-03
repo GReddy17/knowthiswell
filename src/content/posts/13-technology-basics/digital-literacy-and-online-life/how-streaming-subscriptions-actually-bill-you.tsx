@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["subscription billing", "prorated charge", "billing cycle", "recurring payments", "digital literacy"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Streaming subscriptions bill on a fixed recurring cycle, with a prorated partial charge only at the very first sign-up — every renewal after that is full price.",
   summary: "A subscription's billing system tracks one piece of state — whether your account is currently active — and re-checks and re-charges it on a fixed recurring cycle, using a one-time prorated charge only to align an arbitrary sign-up date to that fixed cycle.",

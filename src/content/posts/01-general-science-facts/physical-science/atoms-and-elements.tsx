@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["atoms", "elements", "periodic table", "protons", "chemistry"],
   date: "2026-08-16",
   updated: "2026-09-30",
+  youtubeShort: true, youtubeLong: true,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What atoms are actually made of, why the number of protons defines which element you have, and how the periodic table organizes every known element by pattern.",
   summary: "An atom is made of protons, neutrons, and electrons — the number of protons alone determines which element it is. The periodic table arranges all known elements by that proton count, revealing repeating patterns in how they behave.",

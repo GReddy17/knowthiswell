@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["crusades", "medieval history", "jerusalem", "byzantine empire", "pope urban ii"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Crusades weren't one continuous war — they were roughly two centuries of distinct campaigns that, at one point, saw crusaders sack a fellow Christian capital.",
   summary: "The Crusades were a series of military campaigns, beginning with Pope Urban II's call in 1095 and generally dated through the fall of Acre in 1291, fought primarily over control of Jerusalem and the eastern Mediterranean, involving Western European Christian, Islamic, and Byzantine Christian powers whose interests and accounts of events often diverged.",

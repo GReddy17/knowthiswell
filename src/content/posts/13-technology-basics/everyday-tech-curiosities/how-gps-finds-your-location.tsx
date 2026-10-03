@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["GPS", "trilateration", "satellites", "location services", "technology basics", "everyday tech"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "GPS doesn't use your phone's internet or cell signal to find you — it times radio signals from orbiting satellites and calculates distance from the delay.",
   summary: "GPS finds a receiver's location by timing how long radio signals take to arrive from multiple orbiting satellites, converting each delay into a distance, and calculating the one point on Earth consistent with all of those distances at once — a process called trilateration.",

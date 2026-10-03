@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["indus valley", "harappa", "mohenjo-daro", "ancient india", "ancient civilizations"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Indus Valley Civilization built the most advanced urban planning of the ancient world — and left behind a writing system nobody has ever been able to read.",
   summary: "The Indus Valley Civilization, also called the Harappan Civilization, flourished from around 3300 to 1300 BCE across what is now Pakistan and northwest India, known for advanced city planning, standardized weights, and a script that remains undeciphered today.",

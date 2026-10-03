@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["festival myths", "misconceptions", "diwali", "halloween", "lunar new year"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "From \"Diwali is just Indian Christmas\" to \"Halloween has no real history,\" popular festival myths tend to flatten genuinely documented traditions into oversimplified stories.",
   summary: "Common festival myths and misconceptions are popular but historically inaccurate beliefs about well-known celebrations — often oversimplifying a festival's origin, flattening distinct traditions into one another, or presenting a modern commercial version as the whole story.",

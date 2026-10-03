@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["deliberate practice", "skill acquisition", "feedback loop", "self-directed learning", "practice methods"],
   date: "2026-09-03",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-03",
   excerpt: "Deliberate practice means working on a specific weakness just past your current ability with immediate feedback and correction — not simply repeating a skill you already know.",
   summary: "Deliberate practice is a specific method: attempting a task just beyond your current ability, getting immediate, specific feedback against a clear standard, and correcting the exact error before repeating — not just logging hours doing something you already know how to do. Ordinary repetition, without that feedback-and-correction loop, tends to reinforce whatever pattern you're already using, errors included, rather than improving it.",

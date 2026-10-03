@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The difference between arithmetic and geometric sequences, how to find any term without listing every one before it, and where each type shows up in real life.",
   summary: "A sequence is an ordered list of numbers following a rule; arithmetic sequences add a constant difference between terms, while geometric sequences multiply by a constant ratio.",

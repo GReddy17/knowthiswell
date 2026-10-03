@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["maya", "aztec", "inca", "mesoamerica", "ancient civilizations"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Maya, Aztec, and Inca were three separate civilizations, centuries and thousands of kilometers apart — not one culture with three names.",
   summary: "The Maya, Aztec, and Inca were three distinct civilizations that developed independently in the Americas — the Maya across present-day Mexico and Central America from around 2000 BCE, the Aztec in central Mexico from the 14th century CE, and the Inca along the Andes from the 13th century CE — each with its own writing, engineering, and government systems, before European colonization.",

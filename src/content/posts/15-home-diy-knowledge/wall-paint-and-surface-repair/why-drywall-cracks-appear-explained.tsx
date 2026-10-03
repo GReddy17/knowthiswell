@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["drywall", "cracks", "wall repair", "framing", "home maintenance"],
   date: "2026-09-04",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 92, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "Drywall cracks form where stress concentrates — at openings, seams, and framing joints — and where they appear tells you whether it's cosmetic or structural.",
   summary: "A drywall crack isn't random damage — it's a visible record of stress concentrating at a specific weak point, usually the corner of a door or window opening, a taped seam, or a spot where two different framing members move at different rates, and the crack's shape and location are the clues to which of those it is.",

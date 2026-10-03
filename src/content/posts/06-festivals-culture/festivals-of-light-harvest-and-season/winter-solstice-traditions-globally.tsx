@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["winter solstice", "yule", "dongzhi", "st lucia's day", "saturnalia"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The winter solstice is the year's shortest day in one hemisphere and longest in the other — a single astronomical event marked by very different traditions worldwide.",
   summary: "The winter solstice is the astronomical moment when a hemisphere is tilted furthest from the sun, producing that hemisphere's shortest day and longest night — a single global event that different cultures have marked with independent traditions like Yule, Dongzhi, and St. Lucia's Day.",

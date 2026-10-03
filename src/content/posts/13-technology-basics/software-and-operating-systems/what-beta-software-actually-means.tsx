@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["beta software", "software testing", "release channels", "alpha vs beta", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Beta doesn't mean broken and it doesn't mean finished — it means feature-complete software being tested at scale before its official stable release.",
   summary: "Beta software is a feature-complete but not fully validated version of a program, released to a wider group of testers than earlier internal stages so real-world use can surface bugs before the software's official stable release.",

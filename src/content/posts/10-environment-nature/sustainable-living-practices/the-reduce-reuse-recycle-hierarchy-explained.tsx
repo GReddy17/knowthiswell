@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["waste hierarchy", "recycling", "source reduction", "sustainability", "EPA"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Reduce, reuse, and recycle aren't three equal options — they're a ranked hierarchy where preventing waste in the first place beats recycling it, every time.",
   summary: "The waste management hierarchy ranks source reduction and reuse above recycling and composting, which in turn rank above energy recovery and landfill disposal — the phrase 'reduce, reuse, recycle' is already listed in the correct order of environmental preference, not three interchangeable options.",

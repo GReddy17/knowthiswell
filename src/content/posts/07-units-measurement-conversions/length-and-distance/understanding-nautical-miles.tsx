@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["nautical mile", "knots", "navigation", "latitude", "unit conversion"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A nautical mile isn't an arbitrary historical unit like the statute mile — it's defined as exactly one minute of arc of latitude, which is why sailors and pilots can measure distance directly off a chart's latitude scale.",
   summary: "A nautical mile equals exactly 1.852 kilometers by international definition, chosen because it corresponds to one minute of latitude on Earth's surface — a knot is a nautical mile per hour, the standard speed unit in marine and air navigation.",

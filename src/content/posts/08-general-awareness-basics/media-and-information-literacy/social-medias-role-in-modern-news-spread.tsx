@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["social media", "algorithmic feed", "media literacy", "news distribution", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Social platforms mostly don't decide what's true — their algorithms are generally built to predict what you'll engage with, which is a fundamentally different optimization target than accuracy.",
   summary: "Social media platforms distribute news primarily through algorithmic feeds that rank content by predicted engagement, meaning stories that provoke strong reaction tend to spread faster and further than a platform's own explicit judgment about factual accuracy, which is why the same underlying story can spread very differently across platforms with different feed designs.",

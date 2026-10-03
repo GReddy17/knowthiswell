@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The 24-hour clock isn't a different kind of time — it's the same 24 hours labeled with one number each, instead of two repeating sets of 1 through 12.",
   summary: "The 12-hour clock counts to 12 twice a day and relies on an AM/PM label to say which half; the 24-hour clock assigns every hour of the day a single, unrepeated number from 0 to 23, so no label is ever needed.",

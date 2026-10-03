@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["pongal", "makar sankranti", "harvest festival", "tamil festivals"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Pongal and Makar Sankranti are harvest festivals celebrated across India in mid-January, marking the sun's movement into Capricorn and the start of longer days.",
   summary: "Pongal (Tamil Nadu) and Makar Sankranti (most of the rest of India) are regional names for harvest festivals falling around January 14-15, tied to the sun's transition into the Capricorn zodiac sign.",

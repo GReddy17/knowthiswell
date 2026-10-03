@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["soil contamination", "heavy metals", "bioaccumulation", "brownfield", "environmental remediation"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Unlike air or water pollution, soil contamination mostly stays put — heavy metals like lead don't wash away or blow off, they persist in place for decades, which is why old industrial sites need active remediation rather than time alone.",
   summary: "Soil contamination happens when pollutants like heavy metals, petroleum byproducts, or pesticide residue accumulate in soil, and because soil doesn't disperse the way air or flowing water does, contamination tends to stay concentrated at its original location for decades unless actively removed or treated.",

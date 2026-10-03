@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fitness tracker", "how fitness trackers work", "PPG heart rate sensor", "step counting accelerometer", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A fitness tracker doesn't count steps or read your pulse directly — it infers both from motion patterns and light reflected off your skin.",
   summary: "A wearable fitness tracker estimates steps by pattern-matching the repeating bounce an accelerometer detects during walking, and estimates heart rate by shining light into the skin and measuring how much of it a photodiode detects being absorbed with each pulse of blood — both are indirect, algorithm-smoothed estimates, not direct measurements.",

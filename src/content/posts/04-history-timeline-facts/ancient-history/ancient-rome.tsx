@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ancient rome", "roman empire", "roman republic", "julius caesar", "ancient civilizations"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Rome spent almost 500 years as a republic before it became an empire — the switch happened because the republic's own system couldn't survive its success.",
   summary: "Ancient Rome grew from a small city-state around 753 BCE into a Republic (509 BCE–27 BCE) and then an Empire that at its height controlled territory from Britain to Egypt, leaving a lasting mark on law, language, architecture, and government still visible today.",

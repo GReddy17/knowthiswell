@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["tax brackets", "marginal tax rate", "effective tax rate", "progressive tax", "income tax basics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Moving into a higher tax bracket doesn't tax your whole income at the higher rate — only the slice of income that falls inside that bracket gets taxed at it.",
   summary: "A progressive income tax system taxes income in slices: each bracket's rate applies only to the portion of income that falls within that bracket, not to the entire income once a higher bracket is reached — which is why the top rate you're 'in' (marginal rate) is always higher than the average rate you actually pay (effective rate).",

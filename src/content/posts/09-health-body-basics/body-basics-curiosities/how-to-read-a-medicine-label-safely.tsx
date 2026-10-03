@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["drug facts label", "medicine label", "FDA labeling", "health literacy", "medication safety"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Every US over-the-counter medicine carries the same standardized Drug Facts panel, in the same order — once you know the six sections, any label becomes readable in seconds.",
   summary: "The FDA requires every over-the-counter medicine sold in the US to carry a standardized 'Drug Facts' label with the same sections in the same order — active ingredients, purpose, uses, warnings, directions, and other information — a format designed specifically so a consumer can read any OTC label the same way regardless of the product or brand.",

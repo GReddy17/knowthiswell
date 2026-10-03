@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["smart device server shutdown", "IoT company shuts down", "cloud dependent devices", "device bricked", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "The hardware in a cloud-dependent smart device doesn't break when its company shuts down — the remote server it constantly asks for permission disappears.",
   summary: "Many smart devices rely on a request-and-response cycle with a manufacturer's cloud server for core features to work at all; when a company shuts down and stops running that server, the device's requests time out and get no response, so cloud-dependent features stop working even though the physical hardware is completely undamaged — though some features and some devices are built to keep working locally regardless.",

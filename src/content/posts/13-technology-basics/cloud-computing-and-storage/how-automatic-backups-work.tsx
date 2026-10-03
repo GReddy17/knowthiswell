@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["automatic backups", "cloud backup", "backup vs sync", "data protection", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Automatic backup software copies your files on a schedule, keeping past versions — a fundamentally different job from sync, which mirrors your newest changes.",
   summary: "An automatic backup is a scheduled, ongoing copy of data to a separate location that preserves past versions over time, distinct from sync, which continuously mirrors the current state of files across devices.",

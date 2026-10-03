@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "mpg and L/100km don't just use different units — they measure fuel economy in opposite directions, so a bigger mpg number is good but a bigger L/100km number is bad.",
   summary: "Miles per gallon (mpg) measures distance covered per unit of fuel, so a higher number means better efficiency, while liters per 100 kilometers (L/100km) measures fuel consumed per unit of distance, so a lower number means better efficiency — the two scales are structurally inverses of each other, not just different units on the same scale.",

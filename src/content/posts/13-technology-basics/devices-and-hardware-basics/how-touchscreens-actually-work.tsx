@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["touchscreen", "capacitive touch", "smartphone hardware", "display technology", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Most modern touchscreens don't detect pressure at all — they detect your finger's electrical charge disturbing a grid of tiny electrodes, which is why gloves and styluses need special tips to work.",
   summary: "A modern touchscreen is a projected-capacitive sensor — a grid of transparent electrodes that detects a finger's natural electrical charge distorting the local electric field, rather than detecting physical pressure the way an older resistive touchscreen did.",

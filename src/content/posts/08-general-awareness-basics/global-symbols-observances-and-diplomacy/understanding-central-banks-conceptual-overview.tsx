@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["central banks", "monetary policy", "interest rates", "inflation", "economics literacy"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A central bank isn't a regular bank you can open an account with — it's a country's monetary authority, controlling the money supply and interest rates to manage inflation and support economic stability.",
   summary: "A central bank is a country's (or currency union's) monetary authority, responsible for controlling the money supply, setting benchmark interest rates, and acting as a lender of last resort to the banking system — a structurally different institution from a commercial bank that ordinary people or businesses use.",

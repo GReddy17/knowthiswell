@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["light pollution", "skyglow", "circadian rhythm", "dark sky", "nocturnal wildlife"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Light pollution isn't just wasted electricity lighting up an empty sky — scattered artificial light disrupts the day-night cycle that migrating birds, sea turtle hatchlings, and human circadian rhythms all depend on.",
   summary: "Light pollution is excess or misdirected artificial light that scatters into the atmosphere as skyglow and spills where it isn't needed, disrupting circadian rhythms in humans and navigational and behavioral cues in nocturnal wildlife that evolved around a natural day-night light cycle.",

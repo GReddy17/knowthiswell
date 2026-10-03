@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how group chats work", "group chat sync", "multi-device messaging", "digital communication", "message fan-out", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A group chat message isn't broadcast directly between phones — it's stored once on a server and fanned out individually to every member's registered devices.",
   summary: "Group chats sync across devices through a fan-out process: a server stores each new message once and then delivers an individual copy to every member's registered devices, including a sender's own other devices, which is what keeps everyone's view of the conversation consistent.",

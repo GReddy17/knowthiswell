@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["indian weddings", "hindu wedding rituals", "wedding traditions", "life event traditions"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Indian wedding traditions vary sharply by region and religion — Hindu Saptapadi, Sikh Anand Karaj, and Muslim Nikah are all distinct ceremonies, not variations of one script.",
   summary: "\"Indian wedding traditions\" isn't one ceremony — it's an umbrella over distinct religious and regional rites, from the Hindu Saptapadi (seven steps around a sacred fire) to the Sikh Anand Karaj and the Muslim Nikah, each with its own structure and meaning.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["pay stub", "gross pay", "net pay", "payroll deductions", "paycheck literacy"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A pay stub is a receipt for your paycheck — gross pay minus a stack of separate deductions equals what actually lands in your bank account.",
   summary: "A pay stub breaks a paycheck into gross pay (total earned before anything is taken out), a list of individual deductions (taxes, benefits, retirement contributions), and net pay (gross minus every deduction) — the number that actually gets deposited.",

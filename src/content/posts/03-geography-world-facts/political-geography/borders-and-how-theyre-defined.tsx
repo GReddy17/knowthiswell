@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How international borders actually get drawn — the legal process behind the line, and why some borders follow rivers while others cut straight through open land.",
   summary: "A border is a legally agreed line separating two countries' territory, established through a two-step process of delimitation (defining the line on paper) and demarcation (marking it physically on the ground), and it can follow a natural feature, a straight geometric line, or a historical or cultural boundary.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["portmanteau", "blend words", "wordplay", "neologisms", "vocabulary", "etymology"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Brunch, smog, and motel are all portmanteau words — blends that fuse parts of two words together. Here's how they differ from ordinary compound words.",
   summary: "A portmanteau word (or blend) fuses parts of two or more words into a new word that combines their meanings, distinct from a compound word, which joins two whole words intact.",

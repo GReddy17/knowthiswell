@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["mutual fund", "investing basics", "diversification", "fund manager", "shares"],
   date: "2026-09-21",
   updated: "2026-09-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-21",
   excerpt: "Buying one share of a mutual fund means owning a small slice of dozens or hundreds of different investments at once, not betting on a single stock.",
   summary: "A mutual fund pools money from many investors into a single professionally managed portfolio that buys a diversified basket of stocks, bonds, or other securities on their behalf, then divides ownership of that basket into shares — each investor's returns rise and fall with the value of the whole pooled portfolio, in proportion to the shares they own, rather than depending on the performance of any single underlying investment.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["offline apps", "why apps need internet", "local data storage", "thin client vs offline-first", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Offline mode isn't automatic — it only exists because developers deliberately built a local data store and a way to reconcile changes once a connection returns.",
   summary: "An app works offline only when developers deliberately build in a local copy of its data and a mechanism to reconcile changes with the server later — apps without that architecture depend entirely on a live connection for every action.",

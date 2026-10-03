@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["indian attire", "sari", "traditional clothing", "indian fashion"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "There's no single 'Indian traditional dress' — the sari, salwar kameez, dhoti, and sherwani each belong to different regions, genders, and occasions across the subcontinent.",
   summary: "Traditional Indian attire isn't one garment — it's a large family of region-, gender-, and occasion-specific clothing, from the draped sari and dhoti to the stitched salwar kameez and sherwani, each with its own history and regional variation.",

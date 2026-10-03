@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["scientists", "marie curie", "ibn al-haytham", "tu youyou", "history of science", "historical figures"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "From an 11th-century scholar who invented the scientific method centuries before it had a name, to a 2015 Nobel laureate whose malaria drug came from a 1,600-year-old Chinese medical text.",
   summary: "Scientists across every era and region have reshaped human understanding and everyday life — from Ibn al-Haytham's foundational work on optics and experimental method in 11th-century Iraq, to Marie Curie's discoveries in radioactivity, to Tu Youyou's 2015 Nobel Prize-winning malaria treatment drawn from traditional Chinese medicine.",

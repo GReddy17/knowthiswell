@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["life insurance", "term life", "whole life", "cash value", "beneficiary"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Term and whole life insurance solve different problems: one rents pure death-benefit protection for a fixed period, the other bundles that protection with a permanent, cash-building savings component — and the mechanism behind each explains why their costs differ so much.",
   summary: "Term life insurance provides a death benefit only for a fixed period at a lower premium, with no cash value, and simply expires if the insured outlives the term. Whole life insurance provides a death benefit for the insured's entire life at a much higher premium, and builds a cash value component the policyholder can potentially borrow against — the price difference reflects the fact that whole life bundles investment-like savings with insurance, while term life is pure, temporary risk pooling.",

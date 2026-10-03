@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cloud certification", "AWS certification", "Azure certification", "Google Cloud certification", "resume", "applicant tracking system"],
   date: "2026-09-27",
   updated: "2026-09-27",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "A cloud certification helps a resume in three ways: it matches keyword filters, gives recruiters a verifiable baseline, and earns you an interview. It won't replace hands-on projects, which is what the interview tests.",
   summary: "Cloud certifications from Amazon Web Services (AWS), Microsoft Azure and Google Cloud are vendor-issued credentials that confirm you passed a proctored exam on that platform. On a resume, they help in three specific ways: they match the exact keywords many job postings and applicant tracking systems screen for, they give a recruiter a standardized and verifiable baseline, and they signal current knowledge because they expire and must be renewed. They come in tiers. Entry-level exams such as AWS Certified Cloud Practitioner (US$100) or Microsoft Azure Fundamentals AZ-900 cover concepts; associate-level exams such as AWS Solutions Architect – Associate (US$150), Azure Administrator AZ-104 and Google Associate Cloud Engineer (US$125) test hands-on skills and carry more weight with employers. AWS certifications are valid for three years, Microsoft role-based certifications must be renewed yearly through a free online assessment, and Google Cloud certifications also require periodic renewal. A certification rarely gets someone hired on its own; paired with projects you can show and explain, it's much more convincing.",

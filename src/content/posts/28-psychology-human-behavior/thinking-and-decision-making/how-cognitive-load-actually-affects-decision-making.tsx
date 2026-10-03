@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["cognitive load", "decision fatigue", "working memory", "psychology of decisions"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "Working memory can only hold a handful of things at once — and once it's full, the brain doesn't slow down and think harder, it quietly switches to faster, less careful shortcuts.",
   summary: "Cognitive load is the amount of working memory a task demands at a given moment, and because working memory has a small, well-documented capacity limit, once task demands exceed that limit the brain doesn't simply work harder — it shifts toward faster, less deliberate mental shortcuts (heuristics), which is why complex decisions made while multitasking, tired, or overwhelmed with options tend to be measurably worse than the same decisions made with full attention.",

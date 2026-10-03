@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why insects outnumber every other animal group combined, and what an exoskeleton, compound eyes, and metamorphosis actually do for them.",
   summary: "Insects are the most species-rich group of animals on Earth, built around a hard external exoskeleton, a three-part body plan, and — in most species — a dramatic transformation called metamorphosis.",

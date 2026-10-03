@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["modem vs router", "home network setup", "gateway device", "networking basics", "ISP equipment"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A modem translates your ISP's incoming signal into internet data; a router then shares that single connection across all the devices in your home.",
   summary: "A modem converts the signal format your internet provider delivers (over cable, fiber, or phone line) into data your home network can use, while a router takes that single connection and shares it — often wirelessly — among multiple devices.",

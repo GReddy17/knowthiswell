@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["negotiation", "batna", "anchoring", "haggling", "asking for a discount"],
   date: "2026-09-26",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "Good price negotiation is mostly preparation: know your walk-away option, know the real market price, and ask politely for something specific. Aggression isn't what gets the discount; a credible alternative is.",
   summary: "Negotiating a better price depends less on bargaining tactics than on preparation. Negotiation research from Harvard's Program on Negotiation centers on the BATNA, your best alternative to a negotiated agreement: the better your fallback (another seller, waiting, doing without), the more leverage you have. Tversky and Kahneman's 1974 work on anchoring shows that the first number mentioned pulls later estimates toward it, which is why researching the market price and naming a specific, justified number early matters. Consumer agencies such as the FTC note that prices on items like used cars are often negotiable, and some prices people assume are fixed have formal routes to reduction: nonprofit U.S. hospitals, for example, must maintain written financial assistance policies under IRS rules. Courtesy matters too. A calm, specific request that leaves the other side a way to say yes tends to work better than pressure.",

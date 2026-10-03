@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fingerprint sensor", "face unlock", "biometrics", "capacitive sensor", "device security", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Neither fingerprint nor face unlock stores an actual image of you — both convert the scan into a mathematical template and compare future scans against that template, never the raw picture.",
   summary: "Fingerprint unlock typically uses a capacitive sensor that reads the pattern of ridges and valleys on a finger as tiny differences in electrical capacitance, while 3D face unlock projects thousands of invisible infrared dots to build a depth map of the face — and both convert their reading into a mathematical template rather than storing a raw image.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["personal finance myths", "financial literacy", "money misconceptions", "capstone"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Most personal finance myths survive because they contain a grain of truth stretched past the specific conditions where it actually applies.",
   summary: "A capstone review of recurring personal finance misconceptions covered across this category — from budgeting and credit scores to emergency funds and scams — showing that most myths aren't outright false so much as an oversimplified rule applied outside the specific conditions where the underlying mechanism actually holds.",

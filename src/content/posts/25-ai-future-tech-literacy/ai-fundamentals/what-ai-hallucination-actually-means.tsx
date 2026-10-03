@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["AI hallucination", "large language models", "ChatGPT accuracy", "confabulation", "retrieval-augmented generation"],
   date: "2026-09-27",
   updated: "2026-09-27",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "An AI hallucination is a confident, fluent answer that isn't supported by facts. It happens because chatbots predict likely words rather than look facts up, and it sounds just as sure either way.",
   summary: "An AI hallucination is output from a generative AI system that sounds plausible but is false or unsupported by its sources; NIST's Generative AI Profile (AI 600-1) calls the same risk 'confabulation.' It happens because a large language model generates text by predicting likely next words, not by retrieving verified records, so it can produce invented citations, numbers or quotes with the same fluency as true ones. A 2025 OpenAI paper (Kalai et al.) argues that common training and scoring methods reward a confident guess over 'I don't know.' The best-known real-world case is Mata v. Avianca (2023), where a federal judge in New York sanctioned two lawyers $5,000 for filing a brief that cited court cases ChatGPT had invented. Grounding answers in retrieved documents reduces hallucination but does not eliminate it, so anything that matters still needs checking against a primary source.",

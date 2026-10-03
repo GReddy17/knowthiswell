@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["skills gap analysis", "career development", "skills assessment", "professional development", "career growth"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 86, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "A skills gap analysis lists what a target role actually requires, rates your current level honestly, and treats the difference as a specific, prioritized to-do list.",
   summary: "A skills gap analysis means defining the specific skills and proficiency level a target role or goal actually requires, rating your current level in each honestly, and treating the measurable gap between the two — prioritized by how much each gap actually blocks the goal — as a concrete development plan, rather than a vague, unranked sense that you need to \"get better\" at your job.",

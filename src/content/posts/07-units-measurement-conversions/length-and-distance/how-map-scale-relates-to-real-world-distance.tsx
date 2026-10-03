@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["map scale", "cartography", "distance conversion", "ratio scale", "unit conversion"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A map's scale (like 1:50,000) is a ratio, not a distance — it tells you how many real centimeters equal one map centimeter, so reading real-world distance off a map requires measuring, then multiplying by the scale denominator.",
   summary: "A representative fraction map scale like 1:50,000 means every 1 unit of distance on the map equals 50,000 of that same unit in the real world — to find real distance, measure the map distance, multiply by the scale denominator, then convert the result into a convenient real-world unit like kilometers.",

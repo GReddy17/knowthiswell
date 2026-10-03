@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["active listening", "workplace communication", "listening skills", "communication skills", "reflective listening"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Active listening means proving you understood someone by reflecting their point back in your own words, not just staying quiet and nodding while they talk.",
   summary: "Active listening is a communication technique built around reflecting back what someone said — in your own words, before responding — so that misunderstandings surface and get corrected immediately, instead of silently going unnoticed the way they do when a listener just waits for their turn to talk.",

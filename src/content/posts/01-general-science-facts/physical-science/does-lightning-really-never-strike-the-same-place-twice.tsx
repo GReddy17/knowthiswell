@@ -25,6 +25,8 @@ export const metadata: PostFrontmatter = {
   tags: ["lightning", "weather safety", "misconceptions", "electricity", "storms"],
   date: "2026-09-12",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 87, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "Lightning strikes the same place constantly — tall, isolated, conductive structures like the Empire State Building get hit roughly 20-25 times a year, every storm season.",
   summary: "\"Lightning never strikes the same place twice\" is false. Lightning strikes wherever it finds the shortest, most conductive path from cloud to ground, and a tall, isolated, conductive structure is that path over and over — which is exactly why lightning rods are designed to accept repeat strikes safely rather than prevent them.",

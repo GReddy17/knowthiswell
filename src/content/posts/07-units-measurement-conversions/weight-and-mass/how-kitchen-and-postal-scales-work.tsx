@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["load cell", "strain gauge", "digital scale", "postal scale", "kitchen scale"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Nearly every digital scale — kitchen or postal — works the same way: a load cell flexes by a tiny, precise amount under weight, and a strain gauge converts that flex into an electrical signal the display translates into grams or ounces.",
   summary: "Most modern digital scales measure weight using a load cell — a metal beam that flexes slightly under load — fitted with a strain gauge whose electrical resistance changes proportionally to that flex, which the scale's electronics amplify, digitize, and convert into the number shown on the display.",

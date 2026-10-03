@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["VPN", "how VPNs work", "online privacy", "encrypted tunnel", "networking basics"],
   date: "2026-08-28",
   updated: "2026-08-28",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A VPN encrypts your traffic and routes it through another server, hiding it from your local network and ISP — but it doesn't make you anonymous online.",
   summary: "A VPN (virtual private network) is a service that encrypts your internet traffic and routes it through an intermediary server, hiding your activity from your local network and ISP while shifting that visibility to the VPN provider instead.",

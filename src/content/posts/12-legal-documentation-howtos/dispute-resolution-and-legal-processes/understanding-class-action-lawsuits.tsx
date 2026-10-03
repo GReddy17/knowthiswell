@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["class action", "class certification", "settlement distribution", "opt out"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A class action lets one lawsuit represent many similarly harmed people at once — and most class members end up in it automatically unless they actively opt out.",
   summary: "A class action lawsuit allows a small number of representative plaintiffs to sue on behalf of a larger group of people (a class) who suffered similar harm, after a court formally certifies the class; class members are generally included automatically once notified, unless they take an affirmative step to opt out, and any settlement fund is typically distributed among the class members who remain.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["nonverbal communication", "body language", "communication skills", "gestures", "proxemics"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 64, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Facial expressions, gestures, and posture carry real communicative weight alongside spoken words — but they don't mean the same thing in every culture, which is where nonverbal communication most often goes wrong.",
   summary: "Nonverbal communication is the transmission of meaning through channels other than spoken or written words — facial expressions, gestures, posture, eye contact, and use of physical space — and while some signals (like basic facial expressions of emotion) are widely recognized, many gestures and spatial norms vary significantly across cultures.",

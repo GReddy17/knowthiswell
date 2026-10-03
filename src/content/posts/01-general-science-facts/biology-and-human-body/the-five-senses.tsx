@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the eyes, ears, nose, tongue, and skin convert light, sound, chemicals, and pressure into nerve signals the brain turns into sight, sound, smell, taste, and touch.",
   summary: "The five classic senses each rely on specialized receptor cells that convert a specific type of physical or chemical signal into electrical nerve impulses the brain interprets.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["warranty", "guarantee", "implied warranty", "express warranty", "consumer protection"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A warranty is a promise about a product's quality or performance — but not every warranty is written down, and not every 'lifetime guarantee' means what it sounds like it means.",
   summary: "A warranty is a legally enforceable promise about a product's condition or performance, and it can be express (explicitly stated, written or verbal) or implied (arising automatically by law, like a basic expectation that a product will work for its ordinary purpose) — understanding which type applies, and what specific terms and time limits govern it, matters more than the presence of the word 'warranty' or 'guarantee' itself.",

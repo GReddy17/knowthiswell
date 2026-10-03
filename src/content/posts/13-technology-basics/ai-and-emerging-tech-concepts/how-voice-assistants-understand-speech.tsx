@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["how voice assistants work", "speech recognition", "voice assistant technology", "does Alexa understand me", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A voice assistant converts sound into text through statistical pattern matching, then matches that text against a limited set of recognized commands.",
   summary: "A voice assistant works by converting a captured sound wave into small units of speech, matching those units to the statistically likeliest words, and then comparing the resulting text against a limited set of known command patterns to decide what action to take — a pipeline of pattern matching, not comprehension of meaning.",

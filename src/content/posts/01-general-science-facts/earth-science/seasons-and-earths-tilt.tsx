@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Earth is actually closest to the Sun in January, during Northern Hemisphere winter. Seasons come from axial tilt changing sunlight angle and day length, not distance.",
   summary: "Seasons are caused by Earth's roughly 23.5° axial tilt, which changes the angle and duration of sunlight each hemisphere receives as Earth orbits the Sun — not by changing distance from the Sun.",

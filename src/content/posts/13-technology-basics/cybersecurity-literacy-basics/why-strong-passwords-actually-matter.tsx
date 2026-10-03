@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["password strength", "password entropy", "brute force", "keyspace", "cybersecurity basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Each character added to a password multiplies the total number of guesses an attacker must try, not just adds to it — that multiplicative math is why length matters more than most people assume.",
   summary: "A password's resistance to brute-force guessing depends on its keyspace, the total number of possible combinations, which grows multiplicatively (charset size raised to the power of length) rather than additively as characters are added, which is why a longer password can vastly outperform a shorter one even with fewer character types.",

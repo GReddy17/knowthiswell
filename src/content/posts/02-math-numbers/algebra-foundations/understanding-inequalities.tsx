@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How inequalities work, why the direction of the sign flips only when you multiply or divide by a negative number, and how to graph a solution on a number line.",
   summary: "An inequality compares two expressions using greater than, less than, or their 'or equal to' variants, describing a whole range of possible solutions instead of a single exact value.",

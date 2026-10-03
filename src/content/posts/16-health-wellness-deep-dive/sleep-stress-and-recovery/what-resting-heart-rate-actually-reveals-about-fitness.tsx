@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["resting heart rate", "cardiovascular fitness", "aerobic exercise", "stroke volume", "heart health"],
   date: "2026-09-25",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "A lower resting heart rate often reflects a heart that pumps more blood per beat, a common result of aerobic training. But it's also shaped by sleep, stress, illness, medications, and genes, so the trend over weeks says more than any single number.",
   summary: "Resting heart rate, the number of heartbeats per minute while at complete rest, normally ranges from 60 to 100 beats per minute for adults, per the American Heart Association and MedlinePlus, and well-trained athletes often have rates closer to 40. Regular aerobic exercise tends to lower it because the heart adapts to pump more blood with each beat (higher stroke volume) and resting parasympathetic tone increases, so fewer beats are needed to supply the same blood flow. A resting rate that stays higher than usual can also reflect poor sleep, stress, dehydration, illness, caffeine, or overtraining, while some medications such as beta blockers lower it, and Harvard Health notes that higher resting rates have been associated with greater cardiovascular risk in population studies. The most useful signal is an individual's own trend measured consistently over time, not comparison with other people; a low rate accompanied by dizziness or fainting, or a rate persistently above 100, warrants medical evaluation. This article is general educational information, not medical advice.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["industrial revolution", "steam engine", "factory system", "urbanization", "british history", "economic history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The Industrial Revolution began in Britain around 1760 and mechanized production — but living and working conditions for many workers worsened before they broadly improved.",
   summary: "The Industrial Revolution was a period beginning around 1760 in Britain during which manufacturing shifted from hand production and home-based work to machine-powered factories, transforming economies, cities, and daily life across the following century and a half.",

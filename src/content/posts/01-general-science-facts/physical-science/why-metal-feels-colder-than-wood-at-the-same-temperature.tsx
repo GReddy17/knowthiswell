@@ -25,6 +25,8 @@ export const metadata: PostFrontmatter = {
   tags: ["thermal conductivity", "heat transfer", "temperature perception", "materials science", "physics misconceptions"],
   date: "2026-09-19",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-19",
   excerpt: "A metal railing and a wooden fence sitting in the same room are the same temperature — metal just pulls heat out of your hand far faster, which your nerves register as \"colder.\"",
   summary: "Temperature and the sensation of coldness aren't the same thing — what you feel is the rate at which heat leaves your skin, not the object's temperature itself. Metal has a thermal conductivity roughly 400-1,000 times higher than wood, so touching metal at room temperature draws heat away from your hand dramatically faster than touching wood at that identical temperature, and your skin's nerve endings interpret that fast heat loss as \"cold\" even though a thermometer would read the same number for both.",

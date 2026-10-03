@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why humans have used base-10, base-60, base-20, and base-2 systems across history, and how decimal, binary, and hexadecimal actually convert into each other.",
   summary: "A number system's base sets how many digits it uses before rolling over to a new place — decimal (base 10), binary (base 2), and hexadecimal (base 16) all encode the exact same values, just with different digit counts.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["earth day", "awareness days", "environmental history", "modern celebrations"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Earth Day began as a single US teach-in on April 22, 1970, founded by Senator Gaylord Nelson, and only became a global observance in 1990.",
   summary: "Earth Day is an April 22 environmental observance founded in the United States in 1970 by Senator Gaylord Nelson, that grew from a single-country teach-in into today's internationally observed awareness day.",

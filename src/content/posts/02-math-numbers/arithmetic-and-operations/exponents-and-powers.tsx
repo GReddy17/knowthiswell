@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How exponents work, why any number to the power of 0 is 1, and why negative exponents mean a reciprocal, not a negative number.",
   summary: "An exponent is shorthand for repeated multiplication — b to the power of n means b multiplied by itself n times — and every exponent rule, including negative and zero exponents, falls directly out of counting those multiplications consistently.",

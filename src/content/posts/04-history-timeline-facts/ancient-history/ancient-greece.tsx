@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ancient greece", "athens", "sparta", "democracy", "ancient civilizations"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Ancient Greece was never one country — it was hundreds of independent, often warring city-states, and that fragmentation is exactly what produced Athenian democracy.",
   summary: "Ancient Greece was a collection of independent city-states across the Greek mainland, islands, and coastal settlements from around 800 to 146 BCE, which developed early democracy, foundational Western philosophy, and drama, before being absorbed into the Roman Republic.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["medieval india", "delhi sultanate", "chola dynasty", "vijayanagara empire", "medieval history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Medieval India was never one empire — it was the Cholas ruling the south by sea, the Delhi Sultanate ruling the north by conquest, and Vijayanagara rising to challenge both.",
   summary: "Medieval India, roughly the 8th through early 16th century, was not a single unified state but a patchwork of major regional powers, including the Chola dynasty in the south, the Delhi Sultanate in the north, and the Vijayanagara Empire, whose rise and fall shaped the subcontinent until the Mughal Empire's founding in 1526.",

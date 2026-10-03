@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["easter", "christian festivals", "religious festivals", "lent"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Easter is the Christian festival commemorating the resurrection of Jesus Christ, its date calculated each year from the lunar calendar rather than fixed.",
   summary: "Easter is the central festival of the Christian liturgical calendar, commemorating the resurrection of Jesus Christ three days after his crucifixion, with its date calculated annually from the lunar cycle rather than fixed on the Gregorian calendar.",

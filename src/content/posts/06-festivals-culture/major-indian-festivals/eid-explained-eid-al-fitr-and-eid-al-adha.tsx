@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["eid", "islamic festivals", "eid al-fitr", "eid al-adha"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Eid al-Fitr and Eid al-Adha are the two major Islamic festivals — one marking the end of Ramadan, the other commemorating Ibrahim's willingness to sacrifice.",
   summary: "Muslims celebrate two distinct festivals called Eid each year — Eid al-Fitr, ending the fasting month of Ramadan, and Eid al-Adha, marking the Hajj pilgrimage season and Ibrahim's test of faith.",

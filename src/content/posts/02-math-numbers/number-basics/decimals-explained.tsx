@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["decimals", "decimal point", "place value"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Decimals extend place value to the right of the decimal point — tenths, hundredths, thousandths — as just another way of writing fractions.",
   summary: "A decimal number uses a decimal point to represent fractional amounts (tenths, hundredths, and beyond) using the same place-value system as whole numbers.",

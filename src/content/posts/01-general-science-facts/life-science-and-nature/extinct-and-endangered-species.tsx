@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How conservation scientists actually classify extinction risk, and why today's extinction rate runs far above the natural background rate.",
   summary: "Extinction is the permanent loss of a species, and conservation scientists like the IUCN classify how close a living species is to that point using measurable criteria like population decline rate and range size.",

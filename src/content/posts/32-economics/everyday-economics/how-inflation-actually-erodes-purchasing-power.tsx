@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["inflation", "purchasing power", "cost of living", "economics basics"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "Inflation doesn't mean prices went up once — it means money itself buys a little less over time, which compounds the same way interest does, just working against you instead of for you.",
   summary: "Inflation is a sustained rise in the general price level, tracked in the U.S. primarily through the Bureau of Labor Statistics' Consumer Price Index, which means a fixed amount of money buys progressively less over time — and because inflation compounds year over year, even a modest annual rate meaningfully erodes purchasing power over a decade if income doesn't rise at least as fast.",

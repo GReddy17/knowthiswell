@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["urban sustainability", "green cities", "sustainable transportation", "urban planning", "case studies"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Copenhagen, Curitiba, and Singapore each became sustainability case studies through very different strategies — bicycle infrastructure, bus rapid transit, and vertical greenery — showing there's no single template for a green city.",
   summary: "Cities that are widely cited as sustainability leaders got there through distinct, deliberately chosen strategies matched to their own geography and constraints, not a single universal green-city template.",

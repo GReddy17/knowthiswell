@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["context clues", "vocabulary", "reading strategies", "word meaning", "literacy"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Context clues let you figure out an unfamiliar word without a dictionary — but they usually only get you close enough to keep reading, not to the word's exact definition.",
   summary: "Context clues are the hints a sentence or paragraph gives about the meaning of an unfamiliar word — through definitions, restatements, examples, contrast, or general sense — that let a reader infer a usable meaning without stopping to look the word up.",

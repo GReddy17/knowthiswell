@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["grading", "drainage", "foundation water damage", "landscaping slope", "home maintenance"],
   date: "2026-09-19",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-19",
   excerpt: "The ground around a house is supposed to slope away from the foundation — a small, deliberate grade that's often the single biggest factor in whether a basement stays dry.",
   summary: "Grading is the shape of the ground immediately around a foundation, and it's supposed to slope downward away from the house — commonly a minimum of about 1/4 inch of drop per foot for the first several feet — so that rainwater and snowmelt run off away from the footing instead of pooling against it and seeping through. Negative grade (sloping toward the house, often from years of soil settling or mulch buildup) is one of the most common, most fixable causes of a wet basement, and it's usually cheaper to correct than any of the drainage systems (sump pumps, French drains) that exist to manage the water grading was supposed to keep away in the first place.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["terms and conditions", "terms of service", "clickwrap agreements", "consumer contracts", "arbitration clauses"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Nobody reads all 9,000 words of a terms-and-conditions page, and you don't have to — a handful of specific clauses (arbitration, auto-renewal, liability limits, and data use) account for most of the real-world consequences buried in that wall of text.",
   summary: "Clicking 'I agree' to a terms-and-conditions page generally creates a binding contract even though almost nobody reads the whole thing, but a targeted scan for a small set of high-impact clauses — arbitration and class-action waivers, auto-renewal terms, liability limitations, and data-use permissions — captures most of what actually matters without reading every word.",

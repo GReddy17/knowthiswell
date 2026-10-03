@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["refund policy", "return policy", "consumer rights", "prorated refunds", "legal literacy"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "There is no general legal right to a refund just because you changed your mind — refund and return rights mostly come from the seller's own stated policy, with a much smaller set of situations (defective goods, certain cancellation windows) governed by actual consumer protection law.",
   summary: "In most everyday purchases, the right to a refund or return comes from the seller's own posted policy rather than a general law requiring it, while a narrower set of situations — like defective products, specific cancellation-right windows for some contracts, or a service billed but not fully used — are instead governed by actual consumer protection rules, which is why reading the specific policy or the specific right that applies matters more than assuming a universal rule exists.",

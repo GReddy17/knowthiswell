@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What makes an equation linear, how slope and y-intercept control the shape of its graph, and how to read a real-world rate from a straight line.",
   summary: "A linear equation is any equation whose graph forms a straight line, most commonly written as y = mx + b, where m is the slope (steepness) and b is the y-intercept (starting value).",

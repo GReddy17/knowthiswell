@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["confirmation bias", "cognitive bias", "decision-making", "critical thinking", "wason task"],
   date: "2026-09-25",
   updated: "2026-09-25",
+  youtubeShort: false, youtubeLong: true,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "Confirmation bias isn't just ignoring facts you dislike. It shapes which evidence you look for, how you read ambiguous evidence, and what you remember, so your confidence can climb while your accuracy stays put.",
   summary: "Confirmation bias is the tendency to seek, interpret, favor, and recall information in ways that support what one already believes or expects, per the APA Dictionary of Psychology. Raymond Nickerson's 1998 review in Review of General Psychology describes it as operating at several stages of reasoning: people test ideas by looking for confirming cases rather than cases that could prove them wrong (as in Peter Wason's 1960 2-4-6 task), interpret ambiguous evidence as supportive, and remember hits better than misses. A 1979 Stanford study by Lord, Ross, and Lepper found that people on opposite sides of an issue who read the same mixed evidence both became more confident in their original views. The practical result for decisions is rising confidence without rising accuracy, which is why structured habits such as asking what evidence would change one's mind, and seeking disconfirming information deliberately, reduce its effect more than simply trying to be objective.",

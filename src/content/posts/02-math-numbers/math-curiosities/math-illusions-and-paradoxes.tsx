@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why 0.999... really does equal 1, how Zeno's paradox of the runner who never arrives gets resolved by infinite series, and what Simpson's paradox reveals about misleading statistics.",
   summary: "Math paradoxes aren't broken math — they're places where intuition about infinity, limits, or averaging breaks down while the underlying logic stays perfectly consistent.",

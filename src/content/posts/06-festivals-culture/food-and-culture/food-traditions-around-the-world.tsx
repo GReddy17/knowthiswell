@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["food traditions", "culinary heritage", "world cuisines", "unesco intangible heritage"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Food traditions worldwide range from Japan's washoku to France's gastronomic meal to Korea's kimjang — several are officially recognized as UNESCO intangible cultural heritage.",
   summary: "A food tradition is a set of practices around preparing, sharing, and eating food that a community treats as culturally meaningful, not just nutritionally functional — several are formally recognized by UNESCO as intangible cultural heritage.",

@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why stacked percentage discounts multiply instead of add, and how to see through markup-then-discount pricing tricks with real arithmetic.",
   summary: "A percentage discount multiplies a price by (1 minus the discount rate), and applying two discounts in sequence multiplies the price by both remaining fractions, which is always less savings than adding the two percentages together.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["notarization", "notary public", "identity verification", "legal documentation", "document authentication"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A notary doesn't check whether your document is true or fair — they verify who actually signed it, which is a narrower, more mechanical job than most people assume.",
   summary: "Notarization is a process in which a state-commissioned notary public verifies the identity of a document's signer and witnesses the signing, adding a layer of fraud-deterrence to the document — it does not verify the truth, fairness, or legal validity of the document's contents, which is a common and consequential misunderstanding.",

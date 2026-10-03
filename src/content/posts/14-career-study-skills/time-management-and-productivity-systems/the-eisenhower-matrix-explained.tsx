@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["eisenhower matrix", "time management", "prioritization", "urgent vs important", "productivity"],
   date: "2026-08-30",
   updated: "2026-08-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-30",
   excerpt: "The Eisenhower Matrix sorts tasks by urgency and importance separately, because the two aren't the same thing — and confusing them is why urgent-but-unimportant tasks crowd out what actually matters.",
   summary: "The Eisenhower Matrix is a prioritization tool that sorts tasks along two independent dimensions — urgency (how soon it needs attention) and importance (how much it matters to your real goals) — producing four categories that each call for a different response: do, schedule, delegate, or eliminate.",

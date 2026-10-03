@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "South America's Andes-to-Amazon geography, its driest and wettest extremes, and the real answer to whether the Amazon or Nile is longer.",
   summary: "South America is Earth's fourth-largest continent, dominated by the longest continental mountain range on Earth and the highest-discharge river system on the planet.",

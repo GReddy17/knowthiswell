@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Renewable resources replenish on human timescales; non-renewable ones take millions of years. And no, coal and oil don't come from dinosaurs — here's what they actually form from.",
   summary: "Renewable resources like sunlight, wind, and flowing water replenish naturally within a human lifetime, while non-renewable resources like fossil fuels form over millions of years, far slower than they're consumed.",

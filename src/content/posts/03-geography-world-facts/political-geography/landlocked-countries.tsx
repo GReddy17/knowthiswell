@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Around 44 of the world's countries have no coastline at all — a geographic fact that shapes their trade routes, economies, and even, in a few surprising cases, their navies.",
   summary: "A landlocked country is a sovereign state entirely enclosed by land, with no direct access to an ocean coastline, which forces it to depend on neighboring countries' ports and transit routes for maritime trade.",

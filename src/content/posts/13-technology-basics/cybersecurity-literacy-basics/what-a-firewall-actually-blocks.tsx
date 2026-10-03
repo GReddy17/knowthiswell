@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["firewall", "network security", "port filtering", "cybersecurity basics", "network traffic"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A firewall decides whether a connection is allowed to happen at all — it doesn't inspect what's inside a connection it already permitted, which is why it isn't a complete security solution on its own.",
   summary: "A firewall is a checkpoint that decides which network connections are allowed to reach a device or network, based on rules like port, protocol, and source address, but it does not inspect the content of a connection it has already permitted — that job belongs to other tools like antivirus software or email filtering.",

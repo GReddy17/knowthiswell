@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The 'Calorie' on a US nutrition label and the kilojoule on an Australian or European one measure the same food energy — just on different scales, related by a fixed factor of 4.184.",
   summary: "Food energy is measured in Calories (kilocalories) in the US and kilojoules in much of the rest of the world — the two units measure the same physical quantity, energy, and convert by a fixed factor: 1 Calorie equals 4.184 kilojoules.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What algebra actually is, why letters replace unknown numbers, and how to read and evaluate an algebraic expression step by step.",
   summary: "Algebra is the branch of mathematics that uses letters, called variables, to stand for numbers that are unknown or changing, so one general rule can describe infinitely many specific cases at once.",

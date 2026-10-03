@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["mentorship", "professional mentor", "career guidance", "sponsor vs mentor", "finding a mentor"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "A professional mentor offers perspective and feedback based on their own experience, in a repeating cycle over time — not a single piece of advice or a direct favor.",
   summary: "A professional mentor's core job is offering perspective and honest feedback drawn from their own experience, in a relationship that repeats over months or years — the mentee brings a real decision, the mentor offers perspective, the mentee acts and reports back — which is different from a sponsor, who advocates for someone directly in rooms they aren't in.",

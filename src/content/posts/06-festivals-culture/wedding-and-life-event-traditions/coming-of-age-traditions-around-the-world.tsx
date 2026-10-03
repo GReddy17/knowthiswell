@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["coming of age", "bar mitzvah", "quinceanera", "rite of passage"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Coming-of-age traditions mark the transition from childhood to adulthood — bar/bat mitzvah, quinceañera, and Western debutante balls are all genuine examples, not just 'other cultures'' customs.",
   summary: "A coming-of-age tradition is a ceremony marking the transition from childhood toward adult status — from the Jewish bar/bat mitzvah and the Latin American quinceañera to the Hindu Upanayana and Western debutante balls, every documented society has some version of this milestone.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["what is an algorithm", "algorithms explained", "computer science basics", "how algorithms work", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "An algorithm is just a precise, step-by-step procedure for solving a problem — a recipe is one, long division is one, and so is a social feed's ranking logic.",
   summary: "An algorithm is a finite, precise sequence of steps for solving a specific problem or completing a task, a concept far older than computers and far broader than the word's modern association with social media or AI.",

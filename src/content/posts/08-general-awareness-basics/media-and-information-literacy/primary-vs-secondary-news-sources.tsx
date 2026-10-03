@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["primary sources", "secondary sources", "media literacy", "fact-checking", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A news article about a report isn't the same thing as the report — and the distance between the two is exactly where distortion tends to creep in.",
   summary: "A primary source is direct, firsthand evidence of an event — original documents, direct testimony, raw data — while a secondary source interprets, summarizes, or reports on that primary evidence; most news coverage is secondary-source reporting built on primary evidence the outlet gathered or was given access to.",

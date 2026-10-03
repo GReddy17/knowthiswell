@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["human development index", "country rankings", "composite index", "UNDP", "global statistics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Country rankings like the Human Development Index aren't single measurements — they're composite indices that blend several unrelated statistics into one number using a defined formula.",
   summary: "A composite index like the Human Development Index combines multiple separate statistics — such as life expectancy, education, and income — into a single comparable number by first normalizing each dimension to the same 0-to-1 scale, then averaging them together using a defined formula.",

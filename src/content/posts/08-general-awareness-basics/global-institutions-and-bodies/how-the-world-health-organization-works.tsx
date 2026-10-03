@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["world health organization", "WHO", "global health governance", "international organizations", "public health"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "WHO can't order any country to act — its real power is setting standards, running the legally binding International Health Regulations, and coordinating a global response when member states choose to cooperate.",
   summary: "The World Health Organization is a specialized UN health agency governed by the World Health Assembly (all member states), implemented by a 34-member Executive Board, and run day-to-day by a Secretariat and six regional offices — its main tools are technical standard-setting and the International Health Regulations, not enforcement power.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["growth milestones", "child development", "developmental screening", "health literacy", "pediatrics"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Growth and developmental milestones are published as wide age ranges, not fixed deadlines — because healthy children reach the same skills at genuinely different, well-documented paces.",
   summary: "Growth and developmental milestones — the ages by which most children typically sit up, speak first words, or reach a given height percentile — are published by health agencies as ranges covering most healthy children, not fixed deadlines, and are meant as a general screening tool a pediatrician interprets, not a diagnostic checklist for a parent to self-score.",

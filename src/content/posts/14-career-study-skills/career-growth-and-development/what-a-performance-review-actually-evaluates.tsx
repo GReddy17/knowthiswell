@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["performance review", "performance evaluation", "annual review", "workplace feedback", "career growth"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "A performance review measures more than whether you hit your goals — most rubrics separately weigh results, behavioral competencies, and a forward-looking growth signal.",
   summary: "A performance review evaluates three mostly separate things that feel like one conversation: the results you produced against role expectations, the behavioral competencies (how the work got done), and a forward-looking signal about your trajectory — which is why hitting every numeric goal doesn't automatically guarantee the top rating.",

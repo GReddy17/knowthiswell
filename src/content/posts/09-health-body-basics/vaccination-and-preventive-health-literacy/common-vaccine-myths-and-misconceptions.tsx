@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["vaccine myths", "vaccine safety", "misinformation", "immunology"],
   date: "2026-08-21",
   updated: "2026-09-27",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "Several widely repeated vaccine claims have been directly tested and refuted by large, real studies — the science here is settled, not a matter of opinion, and stating it plainly is more accurate than hedging it.",
   summary: "A handful of vaccine myths circulate persistently despite being directly contradicted by large-scale, published research — including the vaccines-cause-autism claim (traced to a single retracted, fraudulent 1998 study), the idea that natural infection is always safer than vaccination, and the belief that vaccine ingredients like adjuvants are unsafe at the doses used, each of which has real, citable evidence against it from CDC, WHO, and independent research bodies.",

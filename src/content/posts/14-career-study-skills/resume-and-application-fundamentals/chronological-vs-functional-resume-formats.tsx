@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["resume format", "chronological resume", "functional resume", "resume types", "job application"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "A chronological resume organizes experience by date and is the default choice; a functional resume organizes it by skill, and mainly helps when the timeline itself would work against a candidate.",
   summary: "A chronological resume lists work history in reverse date order, showing a clear career progression; a functional resume groups experience by skill category instead of by job or date — the choice matters because most recruiters expect and trust the chronological default, so functional formats should be used deliberately, not as a default preference.",

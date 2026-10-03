@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["hardwood floors", "wood movement", "humidity", "flooring installation", "home maintenance"],
   date: "2026-09-17",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "Wood boards don't swell evenly — they move almost entirely across the grain, which is why installers leave a gap you'll never see once trim is in place.",
   summary: "Wood is hygroscopic — it absorbs and releases moisture from the surrounding air — and as its internal moisture content rises or falls, the wood swells or shrinks almost entirely across the grain (its width), not along it (its length), which is why a hardwood floor visibly gaps in dry winter air and can cup or buckle in humid summer conditions if it wasn't installed with room to move.",

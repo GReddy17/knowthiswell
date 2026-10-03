@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Time zones start from a clean rule — 15 degrees of longitude per hour — that real-world political borders then bend into something much messier.",
   summary: "Time zones are built on the idea that Earth's 360-degree rotation, divided by 24 hours, means every 15 degrees of longitude corresponds to a 1-hour offset from UTC, though real zone boundaries deviate from that clean grid for political and practical reasons.",

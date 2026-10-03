@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["forgetting curve", "ebbinghaus", "memory science", "how to study", "retention"],
   date: "2026-08-30",
   updated: "2026-08-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-30",
   excerpt: "The forgetting curve shows memory fades fastest right after learning, then slower over time — and each review flattens the curve further.",
   summary: "The forgetting curve is a model of how quickly newly learned information fades from memory over time — steep at first, then leveling off — and it's the reason review timing matters more than review quantity.",

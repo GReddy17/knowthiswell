@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["digestive upset", "gastroenteritis", "food poisoning", "nausea", "when to see a doctor"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Most digestive upsets — from viral gastroenteritis to mild food-related reactions — resolve on their own within a couple of days, but dehydration risk and specific warning signs determine when medical care is actually needed.",
   summary: "Common digestive upsets like nausea, vomiting, and diarrhea are most often caused by viral gastroenteritis or mild foodborne illness, both of which typically resolve within a few days with rest and fluids — the practical concern that determines when to seek care isn't the symptoms themselves so much as dehydration risk and specific warning signs like high fever, blood in stool, or symptoms lasting more than a few days, per CDC and NHS guidance.",

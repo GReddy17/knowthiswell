@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["prime numbers", "composite numbers", "factors", "number theory"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Prime numbers have exactly two factors, composite numbers have more than two, and 1 is neither — the one-sentence rule that ends most of the confusion.",
   summary: "A prime number has exactly two whole-number factors — 1 and itself. A composite number has more than two. The number 1 is a special case that belongs to neither group.",

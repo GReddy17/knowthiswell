@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["age of exploration", "columbus", "vasco da gama", "magellan", "navigation history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Portuguese and Spanish sailors mapped sea routes to Asia and the Americas from the 1420s to the 1520s, reshaping global trade, contact, and conflict for centuries afterward.",
   summary: "The European Age of Exploration was a period from roughly the 1420s to the 1520s in which Portuguese and Spanish sailors, driven by the search for direct sea routes to Asian trade goods, mapped ocean routes around Africa and across the Atlantic and Pacific, opening sustained contact between Europe and the Americas.",

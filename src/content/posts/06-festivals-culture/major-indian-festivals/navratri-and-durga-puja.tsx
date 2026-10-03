@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["navratri", "durga puja", "hindu festivals", "goddess worship"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Navratri is a nine-night Hindu festival honoring the goddess Durga, celebrated differently across India — from Gujarat's garba dancing to Bengal's elaborate Durga Puja.",
   summary: "Navratri (\"nine nights\") is a Hindu festival honoring the goddess Durga in her various forms, culminating in Vijayadashami/Dussehra — its regional expressions range from Gujarati garba dance to West Bengal's Durga Puja pandals.",

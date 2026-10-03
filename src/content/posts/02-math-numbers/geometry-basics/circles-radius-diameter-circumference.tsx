@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How radius, diameter, and circumference relate through pi, and why 3.14 is only ever an approximation, never the exact value.",
   summary: "A circle's radius, diameter, and circumference are all locked together by one constant, pi (π) — the diameter is always twice the radius, and the circumference is always π times the diameter, no matter how big or small the circle is.",

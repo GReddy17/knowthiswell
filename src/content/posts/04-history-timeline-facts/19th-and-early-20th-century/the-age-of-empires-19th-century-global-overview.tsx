@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["19th century", "imperialism", "colonial empires", "industrial revolution", "scramble for africa", "world history"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "By 1900, a handful of European powers plus the U.S. and Japan controlled roughly 80-90% of the world's land surface through colonial rule.",
   summary: "The \"age of empires\" refers to the 19th century, when industrialized nations — chiefly Britain, France, Russia, and later Germany, the United States, and Japan — expanded colonial and imperial control over most of Africa, Asia, and the Pacific, driven by industrial technology, competition for resources, and nationalist ambition.",

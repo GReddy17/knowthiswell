@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["paint", "drying time", "curing", "chemistry", "VOC"],
   date: "2026-09-04",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "Paint is dry to the touch in hours through evaporation, but full curing — the film actually hardening — takes days to weeks through a separate chemical process.",
   summary: "Drying and curing are two separate physical processes that happen to overlap in the same wall paint: drying is solvent or water simply evaporating out of the wet film, which takes hours, while curing is the remaining polymer material chemically cross-linking or oxidizing into a hard, durable film, which takes days to weeks — a paint film can be completely dry to the touch while still soft and easily damaged underneath.",

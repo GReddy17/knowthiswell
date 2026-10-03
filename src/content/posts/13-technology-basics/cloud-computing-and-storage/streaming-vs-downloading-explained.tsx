@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["streaming vs downloading", "buffering explained", "video streaming", "bitrate", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Downloading waits for a whole file before playback; streaming plays from a small buffer while data keeps arriving — which is exactly why only one of them can stall mid-play.",
   summary: "Streaming plays media from a small, continuously refilled buffer while data keeps arriving over the internet, while downloading transfers an entire file to local storage before playback begins — a difference that explains why only streaming can buffer.",

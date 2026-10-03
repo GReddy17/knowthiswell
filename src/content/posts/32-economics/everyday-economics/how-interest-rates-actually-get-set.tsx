@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["interest rates", "federal funds rate", "federal reserve", "monetary policy", "mortgages and credit cards"],
   date: "2026-09-23",
   updated: "2026-09-23",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-23",
   excerpt: "The Federal Reserve doesn't set your mortgage or credit card rate directly — it sets a target for the rate banks charge each other overnight, and that ripples outward through the broader cost of borrowing.",
   summary: "Interest rates on everyday products like mortgages, credit cards, and savings accounts aren't set directly by the Federal Reserve — per the Fed's own description of its role, the Federal Open Market Committee sets a target range for the federal funds rate, the rate banks charge each other for overnight loans, and uses a small set of tools to keep actual bank-to-bank lending inside that range, after which the change ripples outward through the broader cost of borrowing and lending in the economy, influencing but not dictating the specific rate any individual bank offers on any individual product.",

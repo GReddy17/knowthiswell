@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["central air conditioning", "refrigeration cycle", "how ac works", "tons of cooling", "hvac basics"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "Central air conditioning doesn't manufacture cold air — it moves heat from inside the house to outside using a closed refrigerant loop and a repeating compression cycle.",
   summary: "A central air conditioner cools a house by moving heat, not by creating cold: refrigerant absorbs heat from indoor air at the evaporator coil, a compressor pressurizes it, the condenser coil releases that heat outdoors, and an expansion valve drops the pressure again before the cycle repeats, with cooling capacity commonly rated in tons, where one ton equals 12,000 BTU per hour.",

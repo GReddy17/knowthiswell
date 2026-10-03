@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["tax withholding", "tax refund", "W-4", "paycheck", "over-withholding"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A tax refund isn't a bonus from the government — it's your own money that was withheld from your paychecks all year and is only now being returned, without interest.",
   summary: "Withholding is the estimated tax an employer removes from each paycheck and sends to the IRS on the employee's behalf; a refund happens when total withholding for the year exceeds the actual tax owed, meaning the employee effectively gave the government an interest-free loan for the year.",

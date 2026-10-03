@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["time blocking", "time management", "calendar planning", "productivity", "to-do lists"],
   date: "2026-08-30",
   updated: "2026-08-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-30",
   excerpt: "Time blocking assigns tasks to specific calendar slots instead of an open list, which forces a realistic check on how much time actually exists in a day.",
   summary: "Time blocking is a scheduling method that assigns each task a specific block of time on a calendar, rather than leaving it on an open-ended to-do list — the calendar slot forces a realistic confrontation with how much time actually exists, which a list alone doesn't.",

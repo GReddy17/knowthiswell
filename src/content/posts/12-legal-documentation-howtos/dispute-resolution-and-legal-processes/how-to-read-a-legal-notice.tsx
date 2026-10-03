@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["legal notice", "reading legal documents", "response deadline", "legal literacy"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Nearly every legal notice is built from the same handful of parts — and the deadline buried inside it is almost always the single most important line.",
   summary: "A legal notice — whether a court summons, a collection notice, an eviction notice, or a formal demand letter — generally shares a common structure: identifying the sender and recipient, stating an issue or claim, specifying a required action, and setting a response deadline, and correctly locating and understanding that deadline is usually the single most consequential part of reading one.",

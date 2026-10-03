@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["simple interest", "compound interest", "savings math", "personal finance basics", "money math"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Simple interest is calculated only on the original amount every period. Compound interest is calculated on the original amount plus any interest already earned — which is why the gap between the two grows larger every year.",
   summary: "Simple interest pays a fixed amount each period based only on the original principal, while compound interest pays interest on the principal plus all previously earned interest, so the compound total grows faster the longer money sits — the same mathematical distinction covered generally in the site's math and numbers section, applied here directly to savings.",

@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["world dance", "flamenco", "capoeira", "hula", "cultural traditions", "intangible heritage"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "From Spanish flamenco to Brazilian capoeira to Hawaiian hula, traditional dance forms exist on every continent, each shaped by distinct history, purpose, and social role.",
   summary: "World dance traditions are region-specific performance and social practices — from flamenco in Spain to capoeira in Brazil to hula in Hawaii — each carrying its own history, technique, and cultural function, spanning far beyond any single continent's traditions.",

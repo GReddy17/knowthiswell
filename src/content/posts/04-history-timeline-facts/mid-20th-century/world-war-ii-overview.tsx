@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["world war 2", "world war ii", "wwii", "20th century history", "allied powers", "axis powers"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "World War II (1939-1945) was fought across two connected but distinct theaters, Europe and the Pacific, and remains the deadliest conflict in recorded history.",
   summary: "World War II was a global conflict fought from 1939 to 1945 between the Allied powers and the Axis powers, spanning European, Pacific, North African, and other theaters, and it remains the deadliest war in recorded history.",

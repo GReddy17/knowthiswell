@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["human rights", "UDHR", "United Nations", "international law", "civics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The Universal Declaration of Human Rights is the founding reference point for modern human rights language — but the declaration itself isn't a binding treaty.",
   summary: "The Universal Declaration of Human Rights (UDHR), adopted by the UN General Assembly in 1948, is a foundational statement of 30 articles covering civil, political, economic, social, and cultural rights; it is not itself a binding treaty, but it has directly shaped numerous later binding human rights treaties and is widely treated as reflecting customary international law.",

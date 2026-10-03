@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["property deed", "title", "real estate", "ownership", "legal documentation how-tos"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 63, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A deed transfers ownership of real property — but not every deed promises the same thing about that ownership being clean, which is exactly why the type of deed used in a transaction matters as much as the transaction itself.",
   summary: "A property deed is the legal document that transfers ownership (title) of real property from one party to another, and it works by containing a formal description of the property, the parties involved, and a specific type of guarantee (or lack of one) about the seller's right to transfer clear ownership — different deed types carry meaningfully different levels of protection for the buyer.",

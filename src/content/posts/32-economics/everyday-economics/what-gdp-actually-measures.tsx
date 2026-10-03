@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["GDP", "gross domestic product", "economic indicators", "economics basics"],
   date: "2026-09-21",
   updated: "2026-09-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-21",
   excerpt: "GDP adds up everything a country's economy produces in a given period — but it was never designed to measure well-being, only economic output.",
   summary: "Gross domestic product (GDP) is the total monetary value of all final goods and services produced within a country's borders during a specific period, typically calculated by adding consumer spending, business investment, government spending, and net exports (exports minus imports) — per the U.S. Bureau of Economic Analysis, GDP measures the scale of economic activity and production, not household well-being, income distribution, or unpaid work, which is why a rising GDP doesn't automatically mean conditions are improving for most people.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["weatherstripping", "air infiltration", "insulation", "energy efficiency", "home maintenance"],
   date: "2026-09-12",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "Weatherstripping and insulation fix two different heat-loss problems — sealing air leaks versus slowing heat that passes straight through solid materials.",
   summary: "A house loses conditioned air two genuinely different ways: air infiltration, where whole packets of warm or cool air physically leak out through gaps and cracks, and conduction, where heat energy passes directly through walls, windows, and doors even with no gap at all. Weatherstripping addresses only the first problem — it seals the gaps air actually moves through — while insulation addresses the second, and neither one substitutes for the other.",

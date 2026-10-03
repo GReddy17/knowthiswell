@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["delivered but not read", "why message not read", "message status explained", "digital communication", "read receipt", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "\"Delivered\" only confirms a message reached the recipient's device — it says nothing about whether that device has shown it on screen yet, which is what triggers a read status.",
   summary: "A message shows \"delivered\" the moment it successfully arrives on the recipient's device, and only advances to \"read\" once a separate, later event happens — the message actually being rendered on that device's screen — so a stall between the two states usually points to something on the recipient's side, not a delivery failure.",

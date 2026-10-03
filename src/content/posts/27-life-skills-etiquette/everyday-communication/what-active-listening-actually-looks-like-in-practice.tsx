@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["active listening", "communication skills", "conversation", "conflict resolution"],
   date: "2026-09-21",
   updated: "2026-09-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-21",
   excerpt: "Staying quiet while someone talks isn't active listening — the 'active' part is the visible, deliberate work of showing you understood before you respond.",
   summary: "Active listening is a specific, deliberate communication practice — not simply staying silent while someone else talks — that involves giving full attention, reflecting back what was heard in your own words to confirm understanding before responding, and withholding judgment or a rebuttal until the other person's point has genuinely been understood; per Harvard Law School's Program on Negotiation, this reflection step is what most reliably separates active listening from passive listening or simply waiting for a turn to speak.",

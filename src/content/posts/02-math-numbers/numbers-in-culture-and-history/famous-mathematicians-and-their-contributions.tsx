@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What Euclid, Gauss, Ramanujan, and Emmy Noether actually proved or discovered, told through the specific, verifiable contribution each made rather than vague praise.",
   summary: "A handful of mathematicians made contributions so foundational that entire branches of modern mathematics still trace directly back to a specific proof, technique, or discovery of theirs.",

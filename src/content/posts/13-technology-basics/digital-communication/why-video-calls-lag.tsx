@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["why video calls lag", "bandwidth vs latency", "video call quality", "digital communication", "video compression", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Video calls lag for two very different reasons — not enough bandwidth for the data, or too much delay getting it there — and the fix for each is completely different.",
   summary: "Video call lag happens when either bandwidth (how much data can flow per second) or latency (how long each bit of data takes to arrive) can't keep up with the compressed audio and video stream the call requires in real time.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["disagreeing professionally", "workplace communication", "conflict resolution", "workplace conflict", "professional disagreement"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "Disagreeing professionally means building your pushback on a chain of shared, checkable facts before naming where your conclusion actually diverges — not jumping straight to a competing opinion.",
   summary: "Disagreeing with a colleague professionally works by building the disagreement on a chain of shared, verifiable ground — the facts both people already accept — before naming the exact point where the reasoning splits, because a disagreement the other person can trace step by step lands as reasoning, while one that jumps straight to a competing conclusion tends to land as a personal clash.",

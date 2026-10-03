@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["self-care", "when to see a doctor", "urgent care", "emergency room", "health literacy"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The decision isn't just 'mild vs serious' — it's a three-way split between self-care, a scheduled or urgent-care visit, and emergency care, each with a different real trigger.",
   summary: "Deciding between self-care, a doctor's visit, and emergency care generally comes down to three general signals — how severe symptoms are, whether they're changing over time (worsening, unchanged, or improving), and whether any recognized warning signs are present — rather than a single fixed severity threshold, and this entry provides that general framework, not a diagnosis for any specific symptom.",

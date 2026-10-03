@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["ocean acidification", "pH scale", "carbonic acid", "marine ecosystems", "NOAA"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "The ocean absorbs about a quarter of human CO2 emissions, and dissolving CO2 in seawater forms carbonic acid — measurably lowering ocean pH and threatening shell- and skeleton-building marine life.",
   summary: "Ocean acidification happens because the ocean absorbs roughly a quarter of human carbon dioxide emissions, and that dissolved CO2 reacts with seawater to form carbonic acid, which has measurably lowered average ocean surface pH by about 0.1 units since the pre-industrial era — a seemingly small number that represents a real, substantial increase in acidity on the logarithmic pH scale.",

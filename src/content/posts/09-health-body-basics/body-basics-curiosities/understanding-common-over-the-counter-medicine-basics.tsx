@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["OTC medicine", "active ingredients", "medicine literacy", "drug facts label", "health literacy"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Over-the-counter medicines are grouped by what active ingredient they contain and what it does — understanding those categories, not specific brand names, is the real skill.",
   summary: "Over-the-counter (OTC) medicines are organized around a small number of active-ingredient categories — like pain relievers, antihistamines, and decongestants — each with a distinct general mechanism, and understanding those categories (rather than memorizing brand names) is what makes a medicine aisle or a home cabinet legible, while any actual product choice or dose still belongs to the label instructions or a pharmacist.",

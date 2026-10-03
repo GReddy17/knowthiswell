@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How pollsters and researchers get accurate results by surveying a small sample instead of an entire population, and why a random sample beats a huge biased one.",
   summary: "Sampling is the practice of studying a smaller, carefully chosen subset of a population to draw conclusions about the whole group without surveying everyone.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["sprain first aid", "RICE method", "ankle sprain", "soft tissue injury"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "RICE — rest, ice, compression, elevation — is the standard first-response framework for a minor sprain, but each letter has specific timing and limits that most people get slightly wrong.",
   summary: "The RICE method (rest, ice, compression, elevation) is the widely cited first-response framework for a minor sprain, per Mayo Clinic and Red Cross guidance — icing in limited intervals (not continuously), wrapping snugly but not tightly, and elevating above heart level all serve a specific purpose in limiting swelling during the first 24 to 48 hours, after which the approach for continued pain or lack of improvement shifts to professional evaluation.",

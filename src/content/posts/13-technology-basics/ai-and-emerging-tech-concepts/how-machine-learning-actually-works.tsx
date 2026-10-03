@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["machine learning", "how machine learning works", "training data", "artificial intelligence basics", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 91, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Machine learning is pattern-fitting from examples, not thinking — a model adjusts itself until its guesses match known answers, then freezes and applies the pattern.",
   summary: "Machine learning is a method for getting a computer to improve at a task by repeatedly comparing its own guesses against known correct answers and adjusting itself to reduce the error, rather than being explicitly programmed with fixed rules.",

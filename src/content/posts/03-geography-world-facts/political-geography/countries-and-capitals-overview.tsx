@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How many countries exist, why the number depends on who's counting, and why a country's capital isn't always its biggest or best-known city.",
   summary: "The world is conventionally divided into 195 countries — 193 United Nations member states plus 2 UN observer states — each with a capital city that serves as its seat of government, though that capital is often not the country's largest or most famous city.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Russia is the largest country by area and Vatican City the smallest — but 'largest' and 'smallest' mean very different things depending on whether you're measuring land area or population.",
   summary: "Russia is the world's largest country by land area at roughly 17.1 million square kilometers, while Vatican City is the smallest at under half a square kilometer — and ranking countries by population produces an entirely different, often surprising, list.",

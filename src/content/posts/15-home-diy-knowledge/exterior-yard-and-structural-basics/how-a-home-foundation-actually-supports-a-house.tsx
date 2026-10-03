@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["home foundation", "footings", "bearing capacity", "structural basics", "home maintenance"],
   date: "2026-09-17",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "A foundation doesn't hold a house up by being strong — it holds it up by spreading the house's weight over enough soil that the soil doesn't compress unevenly.",
   summary: "A house's entire weight funnels down through its structural frame into a foundation, whose real job is spreading that concentrated load across a wide enough footing that the pressure on the soil below stays under the soil's safe bearing capacity — foundation problems overwhelmingly trace back to that pressure exceeding what the soil can support evenly, not to the concrete itself being weak.",

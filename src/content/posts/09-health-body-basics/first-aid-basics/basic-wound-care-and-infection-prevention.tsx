@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["wound care", "infection prevention", "minor cuts", "first aid basics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The Mayo Clinic's basic wound care sequence — clean, protect, watch — is built around one goal: keeping bacteria out while the body's own healing process does the actual repair.",
   summary: "For minor wounds, the Mayo Clinic and CDC describe a simple sequence: clean the wound with water to physically remove debris and bacteria, apply a barrier (such as a bandage) to keep new contamination out, and watch for specific signs of infection (increasing redness, warmth, swelling, pus, or fever) that would call for professional care rather than continued home treatment.",

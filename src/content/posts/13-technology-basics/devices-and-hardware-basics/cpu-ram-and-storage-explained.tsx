@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["CPU", "RAM", "storage", "computer hardware", "memory hierarchy", "technology basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "CPU, RAM, and storage do three completely different jobs — processing, temporary working memory, and permanent storage — confusing them is why 'more storage' doesn't fix a slow computer.",
   summary: "A CPU processes instructions, RAM temporarily holds the data a running program needs for instant access, and storage permanently keeps data even with the power off — three different jobs, each with its own speed and capacity trade-off.",

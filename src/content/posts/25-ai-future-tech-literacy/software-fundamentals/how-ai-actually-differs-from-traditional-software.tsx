@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["artificial intelligence", "traditional software", "how AI works", "programming vs AI"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "Traditional software runs on rules a programmer wrote by hand. AI software runs on a model built from data — and that one difference explains why AI can feel unpredictable in a way a calculator never does.",
   summary: "Traditional software executes explicit, hand-written rules and produces the same output for the same input every time, while AI software is built by training a model on data to recognize patterns, producing probabilistic output that can vary — which is why AI can generalize to situations no programmer anticipated, but can also fail in ways that are harder to predict or debug.",

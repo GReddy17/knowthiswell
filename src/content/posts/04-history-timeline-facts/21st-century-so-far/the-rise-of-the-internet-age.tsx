@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["internet history", "world wide web", "arpanet", "dot-com boom", "digital age"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How a 1969 military-funded computer network became the everyday internet: ARPANET, the invention of the Web, the dot-com boom and bust, and the smartphone era.",
   summary: "The internet grew from ARPANET, a U.S. government-funded computer network first connected in 1969, into a global system that, following the 1989-1991 invention of the World Wide Web at CERN, reshaped commerce, communication, and media within roughly a generation.",

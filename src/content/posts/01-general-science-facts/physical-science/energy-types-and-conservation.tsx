@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["energy", "kinetic energy", "potential energy", "conservation of energy", "physics"],
   date: "2026-08-16",
   updated: "2026-09-30",
+  youtubeShort: true, youtubeLong: true,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "The main forms energy takes — kinetic, potential, thermal, chemical, electrical, radiant — why it can never be created or destroyed, and how they trade off in everyday motion, food, and machines.",
   summary: "Energy exists in forms like kinetic, potential, thermal, and chemical, and constantly converts between them — but the total amount in a closed system never changes. That's the law of conservation of energy.",

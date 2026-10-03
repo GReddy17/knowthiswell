@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["reading comprehension", "reading strategies", "study skills", "metacognition", "literacy"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Reading comprehension isn't a talent some people have and others don't — it's a set of specific, learnable strategies that skilled readers use, often without noticing they're doing it.",
   summary: "Reading comprehension strategies are the deliberate techniques skilled readers use before, during, and after reading — predicting, questioning, monitoring understanding, and summarizing — to build and check meaning rather than just moving their eyes across the page.",

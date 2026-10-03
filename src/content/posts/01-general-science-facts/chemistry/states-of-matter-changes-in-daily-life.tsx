@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why your breath fogs up in cold air, why dew forms overnight, and how everyday evaporation and condensation shape weather and household life.",
   summary: "Everyday phenomena like fog, dew, steam, and frost are all the same handful of phase-change mechanisms — evaporation, condensation, and sublimation — playing out at kitchen-table scale.",

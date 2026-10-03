@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["recruiter screen", "phone screen", "hiring process", "job search strategy", "applicant screening"],
   date: "2026-09-02",
   updated: "2026-09-02",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-02",
   excerpt: "A recruiter screen checks basic fit, qualifications, and logistics against a shared scorecard — it's a filtering step before the hiring manager decides, not the final hiring decision itself.",
   summary: "A recruiter's screening call exists to filter a large applicant pool down to a short list the hiring manager can realistically evaluate — checking baseline qualifications, logistics, and communication fit against a shared scorecard, rather than making the actual hire/no-hire decision, which almost always sits with the hiring manager further down the funnel.",

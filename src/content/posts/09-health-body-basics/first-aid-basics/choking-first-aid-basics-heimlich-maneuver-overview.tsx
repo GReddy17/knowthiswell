@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["choking first aid", "Heimlich maneuver", "abdominal thrusts", "airway obstruction awareness"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The Red Cross distinguishes mild airway obstruction (the person can still cough or speak) from severe obstruction (they cannot) — and the two situations call for very different responses.",
   summary: "The American Red Cross frames choking response around one key distinction: whether the airway is mildly or severely obstructed, judged by whether the person can still cough, speak, or breathe at all — mild obstruction calls for encouragement to keep coughing, while severe obstruction is the situation abdominal thrusts (the maneuver popularly called the Heimlich) are meant to address, and this is a hands-on physical technique that certified training teaches safely.",

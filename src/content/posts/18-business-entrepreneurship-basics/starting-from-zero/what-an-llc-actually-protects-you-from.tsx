@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["llc", "limited liability", "business structure", "piercing the corporate veil", "personal guarantee"],
   date: "2026-09-25",
   updated: "2026-09-25",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "An LLC generally keeps the business's debts and lawsuits away from your personal assets. It doesn't protect you from loans you personally guarantee, harm you personally cause, or a court ignoring the LLC because you mixed business and personal money.",
   summary: "A limited liability company (LLC) is a separate legal entity formed under state law, and its main feature, per the U.S. Small Business Administration, is that owners are generally not personally liable for the company's debts and liabilities, so a creditor or lawsuit against the business can usually reach only business assets. That protection has real limits: owners remain liable for obligations they personally guarantee (common with small-business loans and leases), for harm they personally cause, and for unpaid payroll taxes in some cases, and courts can 'pierce the veil' and reach owners' personal assets when business and personal affairs are mixed or the entity was used to commit fraud, per Cornell Law School's Legal Information Institute. An LLC also doesn't change taxes by itself: by default the IRS treats a single-member LLC as a disregarded entity and a multi-member LLC as a partnership. This is general information, not legal advice; state laws differ.",

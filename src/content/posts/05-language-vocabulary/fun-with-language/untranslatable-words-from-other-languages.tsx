@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["untranslatable words", "lexical gaps", "loanwords", "vocabulary", "linguistics", "world languages"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "'Untranslatable' words like hygge and saudade aren't mysterious or incomprehensible — they just lack a single-word match in English, which is a much more ordinary gap than it sounds.",
   summary: "An 'untranslatable' word is one with no single-word equivalent in another language — a genuine lexical gap — even though the underlying idea can almost always be explained in a sentence or two; every language has words like this, in both directions.",

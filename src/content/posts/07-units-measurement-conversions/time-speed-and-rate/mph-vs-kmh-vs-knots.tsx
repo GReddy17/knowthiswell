@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A knot isn't a nautical version of mph with a fancier name — it's built on a completely different length unit, the nautical mile, which is itself tied to Earth's own geometry.",
   summary: "Miles per hour and kilometers per hour both measure distance-per-time using land-based length units, while knots (nautical miles per hour) use the nautical mile — a unit derived from one minute of latitude on Earth's surface — which is why converting between knots and the other two requires a different factor than converting between mph and km/h alone.",

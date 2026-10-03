@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["minor cuts", "minor burns", "wound care", "first aid basics"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Minor cuts and burns follow a real, sourced sequence — clean, protect, monitor — but knowing when an injury has stopped being 'minor' matters more than the technique itself.",
   summary: "Per Red Cross and Mayo Clinic guidance, a minor cut is cleaned with water and covered with a clean dressing, while a minor burn is cooled with cool (not ice) running water and left uncovered or loosely covered — the more important skill is recognizing the specific signs (depth, size, location, or cause) that move an injury out of the 'minor, home-treatable' category entirely.",

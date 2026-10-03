@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["numbers", "natural numbers", "integers", "rational numbers", "irrational numbers", "real numbers"],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Natural, whole, integer, rational, and irrational numbers explained as one nested system, with the exact rule that separates each category from the next.",
   summary: "Every number you'll ever use belongs to a small set of nested categories — natural numbers sit inside whole numbers, which sit inside integers, which sit inside rational numbers, all inside the real numbers, with irrationals filling the rest.",

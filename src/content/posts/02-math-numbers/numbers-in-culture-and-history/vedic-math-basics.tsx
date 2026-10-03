@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 64, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the mental-math shortcuts known as Vedic Mathematics actually work, verified with real arithmetic, and the honest history of where the system's name and sutras really come from.",
   summary: "Vedic Mathematics is a set of fast mental-arithmetic techniques compiled and published in 1965 by Bharati Krishna Tirtha — the shortcuts are genuinely valid algebra, though historians have not been able to verify the specific sutras in the ancient Vedic texts themselves.",

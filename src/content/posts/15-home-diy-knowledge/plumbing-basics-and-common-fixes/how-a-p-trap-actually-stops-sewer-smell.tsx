@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["p-trap", "trap seal", "sewer gas", "drain plumbing basics", "plumbing vent"],
   date: "2026-09-04",
   updated: "2026-09-04",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-04",
   excerpt: "A P-trap blocks sewer gas with a simple standing column of water, not a mechanical valve — which is exactly why an unused drain or a bad vent can let smells back in.",
   summary: "A P-trap stops sewer gas from entering a home using nothing more than a curved section of pipe that holds a standing column of water, called the trap seal, after every use — a purely physical barrier that has to stay full to keep working, which is why an unused drain, an evaporated trap, or poor venting can all let sewer odor back into a room.",

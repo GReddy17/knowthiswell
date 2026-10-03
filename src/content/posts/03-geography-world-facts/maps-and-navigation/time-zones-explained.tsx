@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: true, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why time zones are based on 15-degree slices of longitude in theory, but zigzag around political borders in practice — and why China, spanning five time zones, uses only one.",
   summary: "Time zones divide the world into roughly 15-degree bands of longitude, each corresponding to about one hour of solar time difference, though real-world boundaries follow political borders rather than strict meridian lines.",

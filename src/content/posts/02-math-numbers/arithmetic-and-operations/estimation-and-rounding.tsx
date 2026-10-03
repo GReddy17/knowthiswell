@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 82, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "The actual rule behind rounding numbers, how estimation is used to sanity-check exact calculations, and why rounding down isn't automatically the 'safe' choice.",
   summary: "Rounding replaces a number with a nearby, simpler one by checking the digit just past your target place value; estimation uses that simplification to get a fast, close answer worth trusting as a check.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["voter registration", "elections", "civic documentation", "voting eligibility", "civic literacy"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Voter registration is the administrative step that links an eligible person's identity to a specific voting jurisdiction — a distinct process from voting itself, with its own deadlines and documentation.",
   summary: "Voter registration is the administrative process of confirming eligibility and linking a person's identity to a specific voting jurisdiction before an election, distinct from the act of voting itself — it typically requires proof of identity and residence, has its own deadline separate from election day, and rules vary significantly by state and country.",

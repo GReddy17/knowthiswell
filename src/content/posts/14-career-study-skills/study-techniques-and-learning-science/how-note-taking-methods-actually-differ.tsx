@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["note taking methods", "cornell notes", "mind mapping", "study techniques", "how to study"],
   date: "2026-08-30",
   updated: "2026-08-30",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-30",
   excerpt: "Cornell, outline, and mind-map note-taking each organize information around a different structure — hierarchy, sequence, or relationships — and that structure fits some material better than others.",
   summary: "Note-taking methods differ mainly in what structure they impose on information: the Cornell method separates notes, cues, and summary for later review; the outline method captures strict hierarchy; and mind mapping captures non-linear relationships between ideas — choosing the wrong structure for the material is what makes a method feel unhelpful.",

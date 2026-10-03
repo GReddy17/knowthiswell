@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["app permissions", "operating system security", "sandboxing", "revoking permissions", "digital literacy"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "An app permission grants access to one specific resource, checked by the operating system on every use — not a one-time master key to the whole device.",
   summary: "An app permission is a stored, per-resource setting that the operating system checks every time an app requests access to something sensitive, acting as a gatekeeper layer between the app and the device's hardware or data rather than handing the app direct control.",

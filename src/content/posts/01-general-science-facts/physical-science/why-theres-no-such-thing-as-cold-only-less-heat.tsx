@@ -25,6 +25,8 @@ export const metadata: PostFrontmatter = {
   tags: ["heat transfer", "thermodynamics", "temperature", "insulation", "physics misconceptions"],
   date: "2026-09-19",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 83, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-19",
   excerpt: "Cold isn't a substance that flows into a room — heat always flows from warmer objects to cooler ones, so what you feel as a draft is actually your own body's heat leaving faster.",
   summary: "Physics recognizes heat as a real, measurable quantity of thermal energy, but \"cold\" has no equivalent existence — it's simply the perception of a lower temperature, produced by heat flowing away from a warmer object toward a cooler one. A drafty window doesn't let cold in; it lets your body's own heat escape faster than usual, which is why insulation and sealing gaps work by slowing heat loss, not by blocking some incoming cold substance.",

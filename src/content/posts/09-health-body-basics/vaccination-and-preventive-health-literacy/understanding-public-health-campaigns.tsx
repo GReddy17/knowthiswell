@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["public health", "health campaigns", "disease surveillance", "vaccination coverage"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A public health campaign is a population-level intervention judged by measurable outcomes like disease incidence and vaccination coverage — not by individual treatment decisions.",
   summary: "A public health campaign is an organized, evidence-based effort — run by agencies like the CDC or WHO — to change a population-level health outcome, such as raising vaccination coverage or reducing smoking rates, using tools like surveillance data, public communication, and access programs, with success measured against defined population metrics rather than any single person's outcome.",

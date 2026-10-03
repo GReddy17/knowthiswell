@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["data breach", "credential stuffing", "personal data exposure", "identity theft", "cybersecurity basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 89, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "A data breach matters even when your password wasn't included — exposed personal details alone can fuel more convincing targeted phishing, while reused passwords enable credential stuffing.",
   summary: "A data breach is the unauthorized copying of data from an organization's systems, and its downstream risk to an individual takes two separate paths: directly, if an exposed password was reused elsewhere, enabling credential-stuffing attacks against other accounts, and indirectly, using exposed personal details to make future phishing attempts more convincing, even when no password was ever involved.",

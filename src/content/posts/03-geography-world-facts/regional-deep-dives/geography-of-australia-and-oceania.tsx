@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why Australia is the only continent that's also a single country, how arid the Outback really is, and where Oceania's thousands of islands fit in.",
   summary: "Australia is Earth's smallest continent and the only one that's also a single country, surrounded by the far larger, island-studded region of Oceania.",

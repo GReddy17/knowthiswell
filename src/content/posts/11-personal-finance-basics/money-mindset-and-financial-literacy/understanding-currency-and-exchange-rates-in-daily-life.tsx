@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["exchange rates", "currency conversion", "foreign transaction fees", "spread", "travel money"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "The exchange rate quoted on a currency chart is rarely the rate applied to your actual transaction — a spread and a fee usually sit between the two.",
   summary: "Exchange rates set the mechanical ratio between two currencies, but the rate an individual actually receives when converting money — through a card, an ATM, or a currency exchange counter — is typically the quoted market rate adjusted by a spread and, often, an explicit fee, both of which reduce the amount received compared to the headline rate.",

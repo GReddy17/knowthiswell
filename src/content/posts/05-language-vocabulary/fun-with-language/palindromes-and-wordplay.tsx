@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["palindromes", "wordplay", "word games", "anagrams", "vocabulary", "linguistics"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "A palindrome reads the same forward and backward, but that's just one corner of wordplay — here's how palindromes, semordnilaps, and anagrams actually differ.",
   summary: "A palindrome is a word, phrase, or number that reads the same forward and backward once spacing and punctuation are ignored, and it's one of several distinct categories of wordplay that reveal real structure in how language works, not just cute tricks.",

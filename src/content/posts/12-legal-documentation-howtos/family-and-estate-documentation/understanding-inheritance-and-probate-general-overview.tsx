@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["inheritance", "probate", "estate administration", "intestate succession", "legal documentation"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Probate is the court process that turns a will (or a jurisdiction's default rules, if there's no will) into an actual transfer of property to heirs — it's the mechanism, not a formality that can simply be skipped.",
   summary: "Inheritance is what beneficiaries or heirs receive from a deceased person's estate, and probate is the general court process that validates the will (or applies default succession rules if none exists), settles debts, and authorizes the actual transfer — the specific procedures and timelines vary substantially by jurisdiction, so this is a general literacy overview, not legal advice for a specific estate.",

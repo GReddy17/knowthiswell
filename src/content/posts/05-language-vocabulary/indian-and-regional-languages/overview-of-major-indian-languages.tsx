@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["indian languages", "hindi", "bengali", "tamil", "telugu", "dravidian languages", "indo-aryan languages"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "India has no single national language — the Constitution recognizes 22 scheduled languages across four language families, spoken by hundreds of millions of people in their own right.",
   summary: "India is home to hundreds of languages from four major language families, with 22 given formal recognition under the Constitution's Eighth Schedule, and no single language designated as India's 'national' language — a common but constitutionally inaccurate claim.",

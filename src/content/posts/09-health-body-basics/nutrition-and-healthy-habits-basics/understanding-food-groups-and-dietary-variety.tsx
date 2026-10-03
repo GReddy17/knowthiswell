@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["food groups", "dietary variety", "MyPlate", "nutrition basics", "micronutrients"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "No single food group supplies every nutrient the body needs — dietary variety exists because different food groups specialize in different nutrients that don't fully overlap.",
   summary: "USDA's MyPlate organizes food into five groups — fruits, vegetables, grains, protein foods, and dairy — because each group tends to supply a different, only partially overlapping profile of nutrients, which is the structural reason dietary variety across groups (not just within one group) is emphasized in dietary guidance.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["meditation", "mindfulness", "brain", "neuroplasticity", "default mode network"],
   date: "2026-09-26",
   updated: "2026-09-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "Meditation measurably changes brain activity while you practice, and trials show modest benefits for anxiety, depression and pain. The popular claim that eight weeks of practice visibly rewires brain structure is much shakier than headlines suggest.",
   summary: "Meditation practices train attention and awareness, and brain imaging shows they change how the brain behaves. Brewer and colleagues (2011, PNAS) found experienced meditators had lower activity in the default mode network, a set of regions active during mind-wandering. A 2011 study by Hölzel and colleagues reported increases in gray matter density in regions such as the hippocampus after an 8-week mindfulness-based stress reduction (MBSR) course, and it became widely cited. But a larger 2022 analysis of two randomized controlled trials by Kral and colleagues (Science Advances) found no evidence that MBSR changed brain structure compared with control groups. On outcomes that matter to people, a 2014 JAMA Internal Medicine meta-analysis by Goyal and colleagues found moderate evidence that mindfulness meditation programs improve anxiety, depression and pain, with small-to-moderate effects. The NIH's National Center for Complementary and Integrative Health describes meditation as generally safe for healthy people and not a replacement for medical care.",

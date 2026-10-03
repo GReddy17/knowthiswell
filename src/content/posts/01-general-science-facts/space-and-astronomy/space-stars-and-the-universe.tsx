@@ -32,6 +32,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: true,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "What a light-year actually measures, how big the Milky Way and the observable universe are, and why looking at distant stars means looking back in time.",
   summary: "Stars are massive spheres of plasma powered by nuclear fusion, grouped into galaxies containing billions of them, all within a roughly 13.8-billion-year-old universe so vast that distance is measured in light-years, not kilometers.",

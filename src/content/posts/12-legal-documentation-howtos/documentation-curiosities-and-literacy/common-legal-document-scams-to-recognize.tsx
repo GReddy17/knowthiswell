@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["document scams", "notary fraud", "process server scams", "rental scams", "consumer protection"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Most legal document scams share the same three ingredients: urgency, an unusual payment method, and a request for sensitive paperwork upfront — recognizing the pattern matters more than memorizing any single scam.",
   summary: "Legal document scams exploit the fact that most people don't know exactly how notarization, court notices, or rental paperwork are supposed to work — fraudsters impersonate these processes using urgency, unusual payment demands, and requests for sensitive documents to extract money or personal information before a victim can verify anything.",

@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-19",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "Earthquake magnitude is logarithmic, volcanoes explode or ooze depending on magma chemistry, and flash floods can sweep away a car in a foot of water — the real mechanics, explained.",
   summary: "Natural disasters — earthquakes, volcanic eruptions, hurricanes, floods, and tsunamis — each have a specific, well-understood physical mechanism that determines where and how they occur.",

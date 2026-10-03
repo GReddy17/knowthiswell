@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["working capital", "small business finance", "cash flow", "current assets and liabilities"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "A profitable business can still run out of cash and fail — working capital is the number that actually predicts whether a business can pay its bills in the next twelve months.",
   summary: "Working capital is the difference between a business's current assets (cash, inventory, and receivables expected to convert to cash within a year) and its current liabilities (bills and short-term debts due within that same year), and it measures a business's ability to fund its day-to-day operations — a business can be profitable on paper and still fail from a working capital shortfall if too much value is tied up in inventory or unpaid invoices.",

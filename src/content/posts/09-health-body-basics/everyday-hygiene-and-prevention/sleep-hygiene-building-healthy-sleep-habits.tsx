@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["sleep hygiene", "sleep cycles", "circadian rhythm", "sleep habits", "insomnia prevention"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Sleep runs in roughly 90-minute cycles, which is why waking mid-cycle can feel worse than sleeping a bit less but waking at a cycle boundary.",
   summary: "Sleep hygiene is the set of consistent habits — a regular schedule, a dark and cool environment, limited late-day caffeine and screen exposure — that supports the body's natural sleep architecture, which runs in roughly 90-minute cycles of alternating lighter and deeper sleep stages regulated by the circadian rhythm.",

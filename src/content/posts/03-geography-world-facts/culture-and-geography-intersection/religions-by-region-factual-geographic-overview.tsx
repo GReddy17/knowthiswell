@@ -29,6 +29,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Where the world's major religions are geographically concentrated today, based on demographic research rather than assumption — including why the country with the most Muslims isn't in the Middle East.",
   summary: "The world's major religions cluster in distinct geographic patterns shaped by history, migration, and trade — Christianity is the most globally dispersed major religion, Islam and Hinduism are each heavily concentrated in specific regions, and religiously unaffiliated populations form a large and growing share of several countries, according to demographic research from Pew Research Center and other sources.",

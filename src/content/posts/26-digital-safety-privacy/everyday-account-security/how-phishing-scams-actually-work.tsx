@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["phishing", "social engineering", "account security", "spoofing"],
   date: "2026-09-23",
   updated: "2026-09-23",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-23",
   excerpt: "Phishing works by exploiting urgency, authority, and trust, then routing the target to a spoofed page built to harvest credentials — not just by hiding a bad link in an email.",
   summary: "Per CISA and NIST guidance, phishing is a social engineering technique where an attacker impersonates a trusted sender, uses urgency or authority to pressure a target into acting without verifying, and directs the target to a spoofed domain or lookalike page designed to harvest login credentials or other sensitive information — the underlying mechanism is psychological manipulation and identity spoofing, not simply a link a target failed to notice was suspicious.",

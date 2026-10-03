@@ -30,6 +30,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Nearly every unit conversion error across length, weight, temperature, currency, and data falls into one of five recurring patterns — once you can name them, they're easy to catch before they become a real mistake.",
   summary: "Across every category of unit conversion covered in this topic, real-world errors cluster into a small, recognizable set of recurring failure modes — inverted conversion factors, premature rounding, treating an offset-based conversion as pure multiplication, confusing similarly-named units, and mixing up bits with bytes — each with a simple habit that catches it before it compounds.",

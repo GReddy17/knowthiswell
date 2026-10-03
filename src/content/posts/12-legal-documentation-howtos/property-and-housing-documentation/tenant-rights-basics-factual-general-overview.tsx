@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["tenant rights", "habitability", "eviction", "renting", "legal documentation how-tos"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "Tenant rights aren't a single national standard — they're a bundle of protections that recur across most jurisdictions in similar form, even though the specific rules and enforcement mechanisms differ by location.",
   summary: "Tenant rights are the legal protections that generally accompany renting a home — most commonly a right to a habitable living space, protection from certain kinds of retaliation, and a required legal process before eviction — and while the specific rules vary significantly by state, province, or country, these three categories of protection recur in some form across most rental law systems.",

@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["fiscal policy", "monetary policy", "federal reserve", "government spending and taxes"],
   date: "2026-09-20",
   updated: "2026-09-20",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "News headlines use both terms constantly, often interchangeably — but they describe two entirely different levers, controlled by two entirely different institutions, moving at two entirely different speeds.",
   summary: "Fiscal policy is government taxing and spending decisions, set by the legislature through the slower process of passing laws, while monetary policy is control of interest rates and the money supply, set by a country's central bank through faster, regularly scheduled decisions — both aim to influence inflation, growth, and employment, but through different tools, different decision-makers, and different timelines, which is why they're not interchangeable terms despite frequently appearing together in news coverage.",

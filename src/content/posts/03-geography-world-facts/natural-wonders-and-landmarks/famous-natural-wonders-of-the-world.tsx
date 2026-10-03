@@ -31,6 +31,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the Grand Canyon was carved, why the Great Barrier Reef is technically alive, and why there's no single official list of the world's natural wonders.",
   summary: "The world's most famous natural wonders each formed through a distinct geologic or biological process — erosion, tectonic uplift, volcanic construction, or living reef growth — on timescales ranging from decades to tens of millions of years.",

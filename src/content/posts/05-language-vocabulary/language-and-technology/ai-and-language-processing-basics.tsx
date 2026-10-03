@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["natural language processing", "artificial intelligence", "large language models", "NLP basics"],
   date: "2026-08-16",
   updated: "2026-08-16",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How AI systems like chatbots and voice assistants actually process language — breaking text into tokens and predicting likely patterns, not comprehending meaning the way people do.",
   summary: "Natural language processing (NLP) is the field of AI focused on getting computers to work with human language, and today's most capable systems — large language models — generate text by predicting likely next tokens based on patterns learned from enormous amounts of training text, not by understanding language the way humans do.",

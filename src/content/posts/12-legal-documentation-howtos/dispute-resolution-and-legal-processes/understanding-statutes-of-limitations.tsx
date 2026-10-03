@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["statute of limitations", "filing deadline", "civil claims", "legal deadlines"],
   date: "2026-08-26",
   updated: "2026-08-26",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-26",
   excerpt: "A statute of limitations is a hard filing deadline — once it passes, even a completely valid legal claim can generally no longer be brought to court.",
   summary: "A statute of limitations is a legal time limit for filing a specific type of claim, starting from a defined event (often the date of the incident) — once that period expires, the claim is typically barred from being filed at all, regardless of how strong the underlying case is, though the exact length of the period varies enormously by claim type and jurisdiction.",

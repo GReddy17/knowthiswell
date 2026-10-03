@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["oral hygiene", "dental care", "plaque", "brushing technique", "flossing"],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 63, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Brushing and flossing aren't redundant — a toothbrush cleans tooth surfaces, but only floss reaches the tight space between teeth where plaque builds up untouched.",
   summary: "Oral hygiene works by mechanically disrupting plaque — a sticky biofilm of bacteria that forms continuously on teeth — before it hardens into tartar or produces the acid that causes cavities and gum disease; brushing and flossing are complementary because a brush reaches tooth surfaces while only floss reaches between teeth.",

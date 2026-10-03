@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["two-factor authentication", "2FA", "multi-factor authentication", "account security", "cybersecurity basics"],
   date: "2026-08-28",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-28",
   excerpt: "Two-factor authentication requires two independent kinds of proof, not just a stronger password — so a stolen password alone still isn't enough to get in.",
   summary: "Two-factor authentication (2FA) requires a person to prove their identity with two independent types of evidence — typically something they know, like a password, plus something they have or are — so that a stolen password alone is not enough to access an account.",

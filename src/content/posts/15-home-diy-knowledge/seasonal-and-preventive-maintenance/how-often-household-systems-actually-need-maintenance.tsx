@@ -23,6 +23,8 @@ export const metadata: PostFrontmatter = {
   tags: ["maintenance schedule", "preventive maintenance", "home upkeep", "HVAC filters", "water heater"],
   date: "2026-09-17",
   updated: "2026-09-24",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "Maintenance intervals aren't guesses — they're set to the point on a wear curve where fixing something is still cheap, before it becomes a failure.",
   summary: "Manufacturers publish specific maintenance intervals (change this filter every 90 days, flush that tank every year) because most home systems degrade on a predictable, time-based curve, not a symptom-based one — by the time a problem is visible or audible, the cheap window to fix it has usually already closed.",

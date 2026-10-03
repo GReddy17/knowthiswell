@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["compound interest", "compounding", "rule of 72", "investing early", "investment fees", "time value of money"],
   date: "2026-09-27",
   updated: "2026-09-27",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "Compounding means your returns start earning returns. At 7% a year, $10,000 grows to about $76,000 in 30 years, and most of that is growth on earlier growth. Time and fees matter more than people expect.",
   summary: "Compound interest is growth calculated on both the original amount and on the returns already earned, so the balance grows faster each year. The formula is A = P(1 + r)^t for annual compounding. At a 7% average annual return, $10,000 becomes about $19,700 after 10 years, $38,700 after 20 and $76,100 after 30; the last decade adds more than the first two combined. The rule of 72 estimates doubling time: 72 divided by the rate, about 10 years at 7%. Starting earlier matters: $200 a month at 7% for 40 years grows to about $525,000, versus about $244,000 over 30 years, even though the extra decade adds only $24,000 in contributions. The same math works against you with fees and debt. A 1% annual fee cuts that 30-year $10,000 result from about $76,000 to about $57,000, and an unpaid credit card balance at 24% APR compounded monthly grows about 27% in a year. Stock returns are not guaranteed and vary year to year; 7% is an illustration, not a promise.",

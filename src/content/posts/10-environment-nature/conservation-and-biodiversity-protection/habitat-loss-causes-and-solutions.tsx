@@ -24,6 +24,8 @@ export const metadata: PostFrontmatter = {
   tags: ["habitat loss", "deforestation", "biodiversity", "conservation", "land use"],
   date: "2026-08-22",
   updated: "2026-08-22",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "Habitat loss is the single largest driver of species decline worldwide — not hunting, not climate change alone, but the physical conversion of wild land into farms, cities, and roads.",
   summary: "Habitat loss happens when land that once supported a wild ecosystem is converted to agriculture, urban development, or infrastructure, removing the food, shelter, and breeding space a species depends on faster than most populations can adapt or relocate.",

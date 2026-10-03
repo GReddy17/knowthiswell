@@ -29,6 +29,8 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-08-21",
+  youtubeShort: false, youtubeLong: false,
+  seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The IUCN Red List ranks species by extinction risk on a defined scale, and real conservation efforts — captive breeding, legal protection, poaching enforcement — have moved specific species down that scale.",
   summary: "Endangered species conservation works by combining legal protection, habitat safeguarding, anti-poaching enforcement, and sometimes captive breeding, tracked against the IUCN Red List's defined extinction-risk categories — a scale that has recorded real species moving toward safety, not just toward extinction.",
