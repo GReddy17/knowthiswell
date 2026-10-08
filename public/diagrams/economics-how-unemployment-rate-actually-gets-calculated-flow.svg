@@ -1,0 +1,44 @@
+<svg viewBox="0 0 580 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="urTitle">
+  <title id="urTitle">How every adult is sorted for the unemployment rate. Start with a civilian non-institutional person aged 16 or older. Did any paid work in the reference week or temporarily absent from a job? Yes: employed. No: looked for work in the past four weeks and available, or on temporary layoff? Yes: unemployed. No: not in the labor force, including discouraged workers. Employed plus unemployed is the labor force. Rate equals unemployed divided by labor force, for example 3 divided by 63, about 4.8 percent.</title>
+  <rect width="580" height="520" fill="#FBF8F1"/>
+  <text x="290" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">How the survey sorts every adult</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="140" y="46" width="300" height="42" rx="6" fill="#2C4A3E"/>
+    <text x="290" y="64" font-size="12" font-weight="700" fill="#FBF8F1">Person 16+ (civilian, non-institutional)</text>
+    <text x="290" y="80" font-size="11" fill="#FBF8F1">asked about the week including the 12th</text>
+    <text x="290" y="104" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="120" y="110" width="340" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="290" y="130" font-size="12" font-weight="700" fill="#1F1B16">Q1. Any paid work (even 1 hour)?</text>
+    <text x="290" y="146" font-size="11" fill="#4A443C">or has a job but temporarily absent</text>
+    <path d="M460 133 H510 V182" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="485" y="126" font-size="11" font-weight="700" fill="#2C4A3E">Yes</text>
+    <rect x="450" y="184" width="120" height="40" rx="6" fill="#2C4A3E"/>
+    <text x="510" y="209" font-size="12" font-weight="700" fill="#FBF8F1">Employed</text>
+    <text x="290" y="174" font-size="11" font-weight="700" fill="#8B6F4E">No ↓</text>
+    <rect x="100" y="182" width="330" height="56" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="265" y="202" font-size="12" font-weight="700" fill="#1F1B16">Q2. Looked for work in past 4 weeks</text>
+    <text x="265" y="218" font-size="11" fill="#4A443C">and available? Or on temporary layoff</text>
+    <text x="265" y="232" font-size="11" fill="#4A443C">expecting recall?</text>
+    <path d="M430 220 H510 V262" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="470" y="250" font-size="11" font-weight="700" fill="#2C4A3E">Yes</text>
+    <rect x="450" y="264" width="120" height="40" rx="6" fill="#8B6F4E"/>
+    <text x="510" y="289" font-size="12" font-weight="700" fill="#FBF8F1">Unemployed</text>
+    <text x="265" y="256" font-size="11" font-weight="700" fill="#8B6F4E">No ↓</text>
+    <rect x="100" y="264" width="330" height="46" rx="6" fill="#FBF8F1" stroke="#4A443C" stroke-width="1.5"/>
+    <text x="265" y="284" font-size="12" font-weight="700" fill="#1F1B16">Not in the labor force</text>
+    <text x="265" y="300" font-size="11" fill="#4A443C">retirees, students, carers, discouraged workers</text>
+    <path d="M574 184 V304" fill="none" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="510" y="326" font-size="11" font-weight="700" fill="#2C4A3E">= Labor force</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" fill="#1F1B16" text-anchor="middle">
+    <rect x="40" y="346" width="500" height="80" rx="6" fill="#F3EBDD" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="290" y="372" font-size="13" font-weight="700">Unemployment rate = Unemployed ÷ Labor force</text>
+    <text x="290" y="394" font-size="12" fill="#4A443C">Example: 60 employed, 3 unemployed, 37 outside</text>
+    <text x="290" y="412" font-size="12" fill="#4A443C">3 ÷ (60 + 3) = 3 ÷ 63 ≈ 4.8%</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">
+    <rect x="40" y="442" width="500" height="58" rx="6" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="290" y="464" text-anchor="middle" font-weight="700">The quirk</text>
+    <text x="290" y="482" text-anchor="middle" fill="#4A443C">If a jobseeker stops looking, they move outside, and the rate falls.</text>
+  </g>
+</svg>

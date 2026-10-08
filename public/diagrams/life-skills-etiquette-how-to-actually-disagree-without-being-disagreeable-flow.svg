@@ -1,0 +1,48 @@
+<svg viewBox="0 0 600 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="disTitle">
+  <title id="disTitle">Left: Paul Graham's disagreement hierarchy from bottom to top: name-calling, ad hominem, responding to tone, contradiction, counterargument, refutation, refuting the central point. The bottom three are about the person or tone; the top three are about the idea. Right: a respectful four-step sequence: restate their view, name agreement, say what you learned, state one clear difference about the idea.</title>
+  <rect width="600" height="470" fill="#FBF8F1"/>
+  <text x="300" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Disagreeing well: what to aim for, and in what order</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle" font-size="11">
+    <text x="150" y="58" font-size="12" font-weight="700" fill="#1F1B16">Disagreement hierarchy (Graham)</text>
+    <rect x="40" y="70" width="220" height="38" rx="5" fill="#2C4A3E"/>
+    <text x="150" y="94" font-weight="700" fill="#FBF8F1">Refute the central point</text>
+    <rect x="50" y="114" width="200" height="34" rx="5" fill="#2C4A3E" opacity="0.85"/>
+    <text x="150" y="135" fill="#FBF8F1">Refutation</text>
+    <rect x="60" y="154" width="180" height="34" rx="5" fill="#2C4A3E" opacity="0.7"/>
+    <text x="150" y="175" fill="#FBF8F1">Counterargument</text>
+    <rect x="70" y="194" width="160" height="34" rx="5" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="150" y="215" fill="#1F1B16">Contradiction</text>
+    <rect x="80" y="234" width="140" height="34" rx="5" fill="#8B6F4E" opacity="0.6"/>
+    <text x="150" y="255" fill="#1F1B16">Responding to tone</text>
+    <rect x="90" y="274" width="120" height="34" rx="5" fill="#8B6F4E" opacity="0.8"/>
+    <text x="150" y="295" fill="#FBF8F1">Ad hominem</text>
+    <rect x="100" y="314" width="100" height="34" rx="5" fill="#8B6F4E"/>
+    <text x="150" y="335" fill="#FBF8F1">Name-calling</text>
+    <text x="275" y="133" text-anchor="start" font-size="10" fill="#2C4A3E" transform="rotate(90 275 133)">about the idea</text>
+    <text x="275" y="255" text-anchor="start" font-size="10" fill="#8B6F4E" transform="rotate(90 275 255)">about the person</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle" font-size="11">
+    <text x="450" y="58" font-size="12" font-weight="700" fill="#1F1B16">The respectful sequence</text>
+    <rect x="330" y="70" width="240" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="450" y="90" font-weight="700" fill="#1F1B16">1. Restate their view</text>
+    <text x="450" y="106" fill="#4A443C">&quot;So your worry is...?&quot;</text>
+    <text x="450" y="132" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="330" y="140" width="240" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="450" y="160" font-weight="700" fill="#1F1B16">2. Name what you agree on</text>
+    <text x="450" y="176" fill="#4A443C">&quot;That part is fair.&quot;</text>
+    <text x="450" y="202" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="330" y="210" width="240" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="450" y="230" font-weight="700" fill="#1F1B16">3. Say what you learned</text>
+    <text x="450" y="246" fill="#4A443C">&quot;I hadn&#x27;t thought of that.&quot;</text>
+    <text x="450" y="272" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="330" y="280" width="240" height="56" rx="6" fill="#2C4A3E"/>
+    <text x="450" y="302" font-weight="700" fill="#FBF8F1">4. One clear difference</text>
+    <text x="450" y="320" fill="#FBF8F1">about the idea, not the person</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">
+    <rect x="40" y="372" width="530" height="70" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="305" y="394" text-anchor="middle" font-weight="700">Watch the opening</text>
+    <text x="305" y="412" text-anchor="middle" fill="#4A443C">How a conflict starts strongly predicts how it ends (Gottman).</text>
+    <text x="305" y="428" text-anchor="middle" fill="#4A443C">Contempt, sarcasm and eye-rolling push it to the bottom of the stack.</text>
+  </g>
+</svg>

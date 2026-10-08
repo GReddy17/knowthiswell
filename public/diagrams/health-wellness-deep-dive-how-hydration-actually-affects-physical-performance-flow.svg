@@ -1,0 +1,43 @@
+<svg viewBox="0 0 560 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hyTitle">
+  <title id="hyTitle">How fluid loss slows you down: sweat loss shrinks blood plasma volume; the heart pumps less blood per beat so heart rate climbs; less blood is left for the skin, so heat escapes more slowly; core temperature rises faster; effort feels harder and endurance falls, with clear effects usually beyond about 2% of body mass lost, especially in heat. A side branch warns that drinking more than you sweat can dilute blood sodium (hyponatremia).</title>
+  <rect width="560" height="520" fill="#FBF8F1"/>
+  <text x="280" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">How fluid loss slows you down</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="130" y="48" width="260" height="46" rx="6" fill="#2C4A3E"/>
+    <text x="260" y="68" font-size="12" font-weight="700" fill="#FBF8F1">1. Sweat loss</text>
+    <text x="260" y="84" font-size="11" fill="#FBF8F1">often 0.3 to 2.4 L per hour (ACSM)</text>
+    <text x="260" y="112" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="130" y="120" width="260" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="260" y="140" font-size="12" font-weight="700" fill="#1F1B16">2. Plasma volume shrinks</text>
+    <text x="260" y="156" font-size="11" fill="#4A443C">less fluid in the blood</text>
+    <text x="260" y="184" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="130" y="192" width="260" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="260" y="212" font-size="12" font-weight="700" fill="#1F1B16">3. Less blood per beat</text>
+    <text x="260" y="228" font-size="11" fill="#4A443C">heart rate climbs to compensate</text>
+    <text x="260" y="256" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="130" y="264" width="260" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="260" y="284" font-size="12" font-weight="700" fill="#1F1B16">4. Less blood to the skin</text>
+    <text x="260" y="300" font-size="11" fill="#4A443C">heat escapes more slowly</text>
+    <text x="260" y="328" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="130" y="336" width="260" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="260" y="356" font-size="12" font-weight="700" fill="#1F1B16">5. Core temperature rises faster</text>
+    <text x="260" y="372" font-size="11" fill="#4A443C">same pace, hotter body</text>
+    <text x="260" y="400" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="130" y="408" width="260" height="46" rx="6" fill="#8B6F4E"/>
+    <text x="260" y="428" font-size="12" font-weight="700" fill="#FBF8F1">6. Effort feels harder, endurance falls</text>
+    <text x="260" y="444" font-size="11" fill="#FBF8F1">clearest beyond ~2% of body mass, in heat</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <path d="M390 71 H470 V120" fill="none" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="6 4"/>
+    <rect x="410" y="122" width="130" height="92" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="475" y="142" font-size="11" font-weight="700" fill="#2C4A3E">The opposite error</text>
+    <text x="475" y="160" font-size="10" fill="#4A443C">drinking more than</text>
+    <text x="475" y="174" font-size="10" fill="#4A443C">you sweat dilutes</text>
+    <text x="475" y="188" font-size="10" fill="#4A443C">blood sodium</text>
+    <text x="475" y="204" font-size="10" font-weight="700" fill="#2C4A3E">(hyponatremia)</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" text-anchor="middle">
+    <rect x="20" y="468" width="520" height="40" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="280" y="492" fill="#4A443C">Rule of thumb: 1 kg lost on the scale during exercise is about 1 litre of sweat.</text>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<svg viewBox="0 0 600 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ceTitle">
+  <title id="ceTitle">Three continuing education units compared. PMI PDU equals one hour; PMP renewal needs 60 in three years. NASBA/AICPA CPE credit equals 50 minutes; many state boards require 120 hours in three years. IACET CEU equals 10 contact hours; a 1.5 CEU course is 15 hours. Below, a renewal cycle: earn eligible credits, report them, pay any fee, keep proof for a possible audit, renew before the deadline.</title>
+  <rect width="600" height="470" fill="#FBF8F1"/>
+  <text x="300" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Three credit currencies: what one unit equals</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="20" y="50" width="180" height="40" rx="6" fill="#2C4A3E"/>
+    <text x="110" y="68" font-size="12" font-weight="700" fill="#FBF8F1">PMI PDU</text>
+    <text x="110" y="83" font-size="10" fill="#FBF8F1">project management</text>
+    <rect x="210" y="50" width="180" height="40" rx="6" fill="#8B6F4E"/>
+    <text x="300" y="68" font-size="12" font-weight="700" fill="#FBF8F1">CPE credit</text>
+    <text x="300" y="83" font-size="10" fill="#FBF8F1">NASBA / AICPA (accounting)</text>
+    <rect x="400" y="50" width="180" height="40" rx="6" fill="#2C4A3E"/>
+    <text x="490" y="68" font-size="12" font-weight="700" fill="#FBF8F1">IACET CEU</text>
+    <text x="490" y="83" font-size="10" fill="#FBF8F1">general training standard</text>
+
+    <rect x="20" y="98" width="180" height="150" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="110" y="120" font-size="10" fill="#4A443C">1 unit equals</text>
+    <text x="110" y="146" font-size="20" font-weight="700" fill="#1F1B16">1 hour</text>
+    <line x1="40" y1="162" x2="180" y2="162" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="110" y="182" font-size="10" fill="#4A443C">PMP renewal:</text>
+    <text x="110" y="200" font-size="12" font-weight="700" fill="#1F1B16">60 PDUs / 3 years</text>
+    <text x="110" y="222" font-size="10" fill="#4A443C">at least 35 from education</text>
+
+    <rect x="210" y="98" width="180" height="150" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="300" y="120" font-size="10" fill="#4A443C">1 unit equals</text>
+    <text x="300" y="146" font-size="20" font-weight="700" fill="#1F1B16">50 minutes</text>
+    <line x1="230" y1="162" x2="370" y2="162" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="300" y="182" font-size="10" fill="#4A443C">Many state CPA boards:</text>
+    <text x="300" y="200" font-size="12" font-weight="700" fill="#1F1B16">120 hours / 3 years</text>
+    <text x="300" y="222" font-size="10" fill="#4A443C">rules set state by state</text>
+
+    <rect x="400" y="98" width="180" height="150" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="490" y="120" font-size="10" fill="#4A443C">1 unit equals</text>
+    <text x="490" y="146" font-size="20" font-weight="700" fill="#1F1B16">10 hours</text>
+    <line x1="420" y1="162" x2="560" y2="162" stroke="#8B6F4E" stroke-width="1"/>
+    <text x="490" y="182" font-size="10" fill="#4A443C">Example course:</text>
+    <text x="490" y="200" font-size="12" font-weight="700" fill="#1F1B16">1.5 CEUs = 15 hours</text>
+    <text x="490" y="222" font-size="10" fill="#4A443C">contact hours, not clock time</text>
+
+    <text x="300" y="276" font-size="11" font-weight="700" fill="#8B6F4E">Same &quot;1 credit&quot; label, up to 12x difference in time</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <text x="300" y="312" font-size="13" font-weight="700" fill="#1F1B16">Every renewal cycle follows the same steps</text>
+    <rect x="20" y="326" width="100" height="56" rx="6" fill="#2C4A3E"/>
+    <text x="70" y="350" font-size="11" font-weight="700" fill="#FBF8F1">1. Earn</text>
+    <text x="70" y="366" font-size="9" fill="#FBF8F1">eligible credits</text>
+    <text x="130" y="359" font-size="14" fill="#8B6F4E">→</text>
+    <rect x="140" y="326" width="100" height="56" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="190" y="350" font-size="11" font-weight="700" fill="#1F1B16">2. Report</text>
+    <text x="190" y="366" font-size="9" fill="#4A443C">to the body</text>
+    <text x="250" y="359" font-size="14" fill="#8B6F4E">→</text>
+    <rect x="260" y="326" width="100" height="56" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="310" y="350" font-size="11" font-weight="700" fill="#1F1B16">3. Pay</text>
+    <text x="310" y="366" font-size="9" fill="#4A443C">any renewal fee</text>
+    <text x="370" y="359" font-size="14" fill="#8B6F4E">→</text>
+    <rect x="380" y="326" width="100" height="56" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="430" y="350" font-size="11" font-weight="700" fill="#1F1B16">4. Keep proof</text>
+    <text x="430" y="366" font-size="9" fill="#4A443C">for a possible audit</text>
+    <text x="490" y="359" font-size="14" fill="#8B6F4E">→</text>
+    <rect x="500" y="326" width="80" height="56" rx="6" fill="#8B6F4E"/>
+    <text x="540" y="350" font-size="11" font-weight="700" fill="#FBF8F1">5. Renew</text>
+    <text x="540" y="366" font-size="9" fill="#FBF8F1">before deadline</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" text-anchor="middle">
+    <rect x="20" y="402" width="560" height="50" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="300" y="422" font-weight="700" fill="#1F1B16">Figures as of October 2026</text>
+    <text x="300" y="439" fill="#4A443C">Check your own certifying body or state board: totals, cycles and approved topics change.</text>
+  </g>
+</svg>
