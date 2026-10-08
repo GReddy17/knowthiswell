@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     { label: "Huang et al. (2017) — It doesn't hurt to ask: Question-asking increases liking, Journal of Personality and Social Psychology", url: "https://doi.org/10.1037/pspi0000097" },
   ],
   seeAlso: [
+    "psychology-human-behavior/how-first-impressions-actually-form-so-fast",
     "life-skills-etiquette/how-to-actually-build-rapport-quickly",
     "life-skills-etiquette/what-active-listening-actually-looks-like-in-practice",
     "life-skills-etiquette/how-to-actually-have-a-difficult-conversation",
@@ -95,7 +96,7 @@ export default function Post() {
       />
       <FootnoteAside>Small-talk norms are cultural. How long greetings run before business, which topics are safe (in some places asking about salary or religion is fine, in others it isn&apos;t), and how much silence feels comfortable all vary by country, region and setting. The purpose (signal goodwill, test for common ground) travels better than any script.</FootnoteAside>
 
-      <p>The common complaint, that small talk is &quot;fake&quot;, misreads what it&apos;s for. It isn&apos;t pretending to be a deep conversation. It&apos;s the on-ramp to one, and it lets either person exit gracefully at any point. That built-in exit is exactly why it works with strangers.</p>
+      <p>The common complaint, that small talk is &quot;fake&quot;, misreads what it&apos;s for. It isn&apos;t pretending to be a deep conversation. It&apos;s the on-ramp to one, and it lets either person exit gracefully at any point. That built-in exit is exactly why it works with strangers. Those first minutes carry extra weight, too, because <TermLink href="/psychology-human-behavior/how-first-impressions-actually-form-so-fast">first impressions form remarkably fast</TermLink>.</p>
 
       <QuickCheck
         question="A colleague you barely know says, 'Morning! Survived the traffic?' What is the main function of that question?"

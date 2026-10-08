@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     { label: "CISA — Secure Our World", url: "https://www.cisa.gov/secure-our-world" },
   ],
   seeAlso: [
+    "digital-safety-privacy/how-ransomware-actually-infects-a-device",
     "technology-basics/what-a-data-breach-actually-means-for-you",
     "digital-safety-privacy/how-phishing-scams-actually-work",
     "digital-safety-privacy/how-password-managers-actually-protect-you",
@@ -91,7 +92,7 @@ export default function Post() {
       />
       <FootnoteAside>Exact percentages in breach reports change every year, so this page describes the patterns that keep showing up rather than a single year&apos;s numbers. The annual report itself has the current figures.</FootnoteAside>
 
-      <p>For what to do after a specific breach notice, see <TermLink href="/technology-basics/what-a-data-breach-actually-means-for-you">what a data breach actually means for you</TermLink>. This page is about how breaches happen in the first place.</p>
+      <p>For what to do after a specific breach notice, see <TermLink href="/technology-basics/what-a-data-breach-actually-means-for-you">what a data breach actually means for you</TermLink>. This page is about how breaches happen in the first place. Some intrusions end in encryption and extortion instead of quiet data theft; <TermLink href="/digital-safety-privacy/how-ransomware-actually-infects-a-device">how ransomware actually infects a device</TermLink> follows that path.</p>
 
       <QuickCheck
         question="A shopping site you used is breached and passwords leak. A week later, someone logs into your email. What most likely happened?"

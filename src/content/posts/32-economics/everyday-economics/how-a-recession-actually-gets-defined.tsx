@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     { label: "Federal Reserve Bank of St. Louis (FRED) — Real-time Sahm Rule Recession Indicator", url: "https://fred.stlouisfed.org/series/SAHMREALTIME" },
   ],
   seeAlso: [
+    "economics/how-unemployment-rate-actually-gets-calculated",
     "economics/what-gdp-actually-measures",
     "economics/how-interest-rates-actually-get-set",
     "economics/what-fiscal-policy-actually-means-vs-monetary-policy",
@@ -92,7 +93,7 @@ export default function Post() {
       />
       <FootnoteAside>Other countries use different conventions. Many statistical agencies and news outlets outside the U.S. do use the two-quarter rule as a working definition. This page describes how U.S. recessions are officially dated.</FootnoteAside>
 
-      <p>A recession usually shows up in people&apos;s lives through jobs, which is why the unemployment rate and <TermLink href="/government-schemes-benefits/how-unemployment-benefits-actually-get-calculated">unemployment benefits</TermLink> both rise when one hits, and why central banks often respond by <TermLink href="/economics/how-interest-rates-actually-get-set">cutting interest rates</TermLink>.</p>
+      <p>A recession usually shows up in people&apos;s lives through jobs, which is why the <TermLink href="/economics/how-unemployment-rate-actually-gets-calculated">unemployment rate</TermLink> and <TermLink href="/government-schemes-benefits/how-unemployment-benefits-actually-get-calculated">unemployment benefits</TermLink> both rise when one hits, and why central banks often respond by <TermLink href="/economics/how-interest-rates-actually-get-set">cutting interest rates</TermLink>.</p>
 
       <QuickCheck
         question="GDP falls in two back-to-back quarters, but employment and incomes keep rising across most industries. What would the NBER most likely conclude?"

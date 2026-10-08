@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     { label: "NIST AI 600-1 — Artificial Intelligence Risk Management Framework: Generative AI Profile (2024)", url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" },
   ],
   seeAlso: [
+    "ai-future-tech-literacy/ai-agents-explained-what-makes-them-different-from-chatbots",
     "ai-future-tech-literacy/how-large-language-models-actually-work",
     "ai-future-tech-literacy/what-ai-hallucination-actually-means",
     "ai-future-tech-literacy/how-ai-chatbots-are-trained",
@@ -93,7 +94,7 @@ export default function Post() {
       />
       <FootnoteAside>&quot;Prompt engineer&quot; briefly became a much-hyped job title around 2023. In practice the skill has largely folded into ordinary roles (writing, analysis, software), much as &quot;search engine skills&quot; once did. The durable part is clear task specification and testing, not a list of secret phrases.</FootnoteAside>
 
-      <p>The reason this matters is <TermLink href="/ai-future-tech-literacy/what-ai-hallucination-actually-means">hallucination</TermLink>. A model fills gaps with plausible text. Prompt engineering is mostly about leaving fewer gaps: telling it what you want, giving it the facts to work from, and showing it what a good answer looks like. It&apos;s a different activity from training, which happens long before you type anything (see <TermLink href="/ai-future-tech-literacy/how-ai-chatbots-are-trained">how chatbots are trained</TermLink>).</p>
+      <p>The reason this matters is <TermLink href="/ai-future-tech-literacy/what-ai-hallucination-actually-means">hallucination</TermLink>. A model fills gaps with plausible text. Prompt engineering is mostly about leaving fewer gaps: telling it what you want, giving it the facts to work from, and showing it what a good answer looks like. It&apos;s a different activity from training, which happens long before you type anything (see <TermLink href="/ai-future-tech-literacy/how-ai-chatbots-are-trained">how chatbots are trained</TermLink>). Prompts also steer <TermLink href="/ai-future-tech-literacy/ai-agents-explained-what-makes-them-different-from-chatbots">AI agents</TermLink>, which loop through tools and actions, so a vague instruction there can produce a wrong action rather than just a wrong paragraph.</p>
 
       <QuickCheck
         question="A chatbot gives you a vague, generic answer. What is the most likely cause?"

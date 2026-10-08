@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     { label: "Mata v. Avianca, Inc., No. 1:22-cv-01461 (S.D.N.Y.) — court docket, CourtListener", url: "https://www.courtlistener.com/docket/63107798/mata-v-avianca-inc/" },
   ],
   seeAlso: [
+    "ai-future-tech-literacy/ai-agents-explained-what-makes-them-different-from-chatbots",
     "ai-future-tech-literacy/how-large-language-models-actually-work",
     "ai-future-tech-literacy/what-a-neural-network-actually-does",
     "ai-future-tech-literacy/how-ai-actually-differs-from-traditional-software",
@@ -92,7 +93,7 @@ export default function Post() {
       />
       <FootnoteAside>Hallucination rates vary a lot by model, task and how the question is asked, and they&apos;ve fallen as models have improved. Any single percentage you see quoted applies to a specific benchmark, not to every conversation.</FootnoteAside>
 
-      <p>This is the practical difference between AI and <TermLink href="/ai-future-tech-literacy/how-ai-actually-differs-from-traditional-software">traditional software</TermLink>: a calculator or database either returns the stored answer or an error. A language model always returns something.</p>
+      <p>This is the practical difference between AI and <TermLink href="/ai-future-tech-literacy/how-ai-actually-differs-from-traditional-software">traditional software</TermLink>: a calculator or database either returns the stored answer or an error. A language model always returns something. The stakes rise with <TermLink href="/ai-future-tech-literacy/ai-agents-explained-what-makes-them-different-from-chatbots">AI agents</TermLink>, which act on their outputs, so a made-up detail can become a wrong action, not just a wrong sentence.</p>
 
       <QuickCheck
         question="Why does a hallucinated answer usually sound so convincing?"

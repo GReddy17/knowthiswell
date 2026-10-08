@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     { label: "Bessembinder, H. (2018) — Do Stocks Outperform Treasury Bills?, Journal of Financial Economics 129(3)", url: "https://doi.org/10.1016/j.jfineco.2018.06.004" },
   ],
   seeAlso: [
+    "investing-markets-deep-dive/what-an-ipo-actually-is",
     "investing-markets-deep-dive/what-an-index-fund-actually-tracks",
     "investing-markets-deep-dive/what-a-mutual-fund-actually-is",
     "investing-markets-deep-dive/stocks-vs-bonds-what-actually-differs",
@@ -147,7 +148,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="Diversification lowers your returns, so it's for people who don't know how to pick stocks."
-        reality={<p>Diversification lowers the range of outcomes, not necessarily the average. A broadly diversified portfolio earns roughly the market&apos;s return with far less single-company risk. Concentrating is a bet on finding the minority of stocks that, per Bessembinder&apos;s research, produced nearly all of the market&apos;s long-run gains.</p>}
+        reality={<p>Diversification lowers the range of outcomes, not necessarily the average. A broadly diversified portfolio earns roughly the market&apos;s return with far less single-company risk. Concentrating is a bet on finding the minority of stocks that, per Bessembinder&apos;s research, produced nearly all of the market&apos;s long-run gains. Buying a single hot <TermLink href="/investing-markets-deep-dive/what-an-ipo-actually-is">IPO</TermLink> is the same bet: concentration in one company, usually one with a short public track record.</p>}
       />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What to do next</h2>

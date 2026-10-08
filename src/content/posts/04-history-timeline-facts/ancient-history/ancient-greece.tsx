@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ancient-history",
   tags: ["ancient greece", "athens", "sparta", "democracy", "ancient civilizations"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-07",
   youtubeShort: false, youtubeLong: false,
   seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What was a polis in ancient Greece?", "difficulty": "easy", "options": [{"text": "An independent city-state with its own government, laws and army", "correct": true, "explanation": "Athens, Sparta, Corinth and Thebes were each a polis."}, {"text": "The Greek word for the whole united Greek nation", "correct": false, "explanation": "There was no united Greek nation."}, {"text": "A temple to Zeus", "correct": false, "explanation": "A polis was a city-state, not a temple."}]},
+  {"question": "Whose reforms in 508 BCE are usually marked as the founding of Athenian democracy?", "difficulty": "medium", "options": [{"text": "Pericles", "correct": false, "explanation": "Pericles came later, building on an existing democracy."}, {"text": "Cleisthenes", "correct": true, "explanation": "His reforms restructured citizenship and gave the Assembly direct voting power."}, {"text": "Alexander the Great", "correct": false, "explanation": "Alexander was a Macedonian king, born much later."}]},
+  {"question": "Who were the helots in Sparta?", "difficulty": "medium", "options": [{"text": "Sparta's elite warriors", "correct": false, "explanation": "The warriors were Spartan citizens."}, {"text": "Foreign merchants living in Athens", "correct": false, "explanation": "Those were metics, in Athens."}, {"text": "A subjugated population forced to farm for Spartan citizens", "correct": true, "explanation": "Their labor freed Spartan citizens to train as soldiers."}]},
+  {"question": "Which side won the Peloponnesian War (431-404 BCE)?", "difficulty": "easy", "options": [{"text": "Sparta", "correct": true, "explanation": "The 27-year war ended with Sparta's victory and Athens's decline."}, {"text": "Athens", "correct": false, "explanation": "Athens lost the war."}, {"text": "Persia", "correct": false, "explanation": "Persia wasn't one of the two main sides."}]},
+  {"question": "What made Thucydides' account of the Peloponnesian War new?", "difficulty": "hard", "options": [{"text": "It was written as a poem about the gods", "correct": false, "explanation": "It was the opposite of myth."}, {"text": "It was a deliberately evidence-based, analytical account of real events by someone who lived through them", "correct": true, "explanation": "That's why it's still read as a founding text of history and international relations."}, {"text": "It was the first book written in Greek", "correct": false, "explanation": "Greek literature, including Homer, came long before."}]},
+  {"question": "What is the correct teacher-student chain?", "difficulty": "medium", "options": [{"text": "Aristotle taught Plato, who taught Socrates", "correct": false, "explanation": "That's backwards."}, {"text": "They worked independently and never met", "correct": false, "explanation": "They form a direct chain across about a century."}, {"text": "Socrates taught Plato, Plato taught Aristotle, and Aristotle tutored Alexander the Great", "correct": true, "explanation": "Placing them in order makes their ideas easier to follow."}]},
+  {"question": "Why did Greek culture spread as far as modern Afghanistan and Pakistan?", "difficulty": "medium", "options": [{"text": "Alexander the Great's conquests (334-323 BCE)", "correct": true, "explanation": "After his death in 323 BCE, the Hellenistic world carried Greek language and ideas across that region."}, {"text": "Greek traders sailed around Africa", "correct": false, "explanation": "The spread came through conquest over land."}, {"text": "Rome carried it there in the 1st century CE", "correct": false, "explanation": "Alexander's conquests did it centuries earlier."}]},
+  {"question": "Why do ancient Greek statues look plain white today?", "difficulty": "hard", "options": [{"text": "Greek sculptors believed white marble showed purity", "correct": false, "explanation": "They were originally painted in bright colors."}, {"text": "The original paint faded and eroded over two thousand years", "correct": true, "explanation": "Ultraviolet imaging has found trace pigment confirming vivid color schemes."}, {"text": "Museums cleaned the paint off on purpose", "correct": false, "explanation": "The loss is mostly from time and weathering."}]},
+];
 
 export default function Post() {
   return (

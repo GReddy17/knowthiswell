@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ancient-history",
   tags: ["mesopotamia", "sumer", "babylon", "cuneiform", "ancient civilizations"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-07",
   youtubeShort: false, youtubeLong: false,
   seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does the word Mesopotamia mean?", "difficulty": "easy", "options": [{"text": "Land of kings", "correct": false, "explanation": "Not quite. It's a geographic label."}, {"text": "Between rivers", "correct": true, "explanation": "It's Greek, describing land between the Tigris and Euphrates."}, {"text": "Land of the first writing", "correct": false, "explanation": "That's what it's known for, not what the word means."}]},
+  {"question": "Which modern country covers most of ancient Mesopotamia?", "difficulty": "easy", "options": [{"text": "Iraq", "correct": true, "explanation": "Mesopotamia also reached into parts of Syria, Turkey and Iran."}, {"text": "Egypt", "correct": false, "explanation": "Egypt was a separate civilization along the Nile."}, {"text": "Greece", "correct": false, "explanation": "Greece is far to the west."}]},
+  {"question": "What is cuneiform?", "difficulty": "easy", "options": [{"text": "A Greek alphabet", "correct": false, "explanation": "Cuneiform is far older than Greek writing."}, {"text": "A Sumerian temple tower", "correct": false, "explanation": "That's a ziggurat."}, {"text": "Wedge-shaped marks pressed into wet clay with a reed stylus, the earliest known writing", "correct": true, "explanation": "The name comes from Latin cuneus, wedge."}]},
+  {"question": "Around 3100 BCE, roughly how many people lived inside the walls of Uruk?", "difficulty": "medium", "options": [{"text": "About 40,000 to 80,000", "correct": true, "explanation": "That made it larger than any human settlement before it."}, {"text": "About 500", "correct": false, "explanation": "Uruk was a true city, far bigger than that."}, {"text": "About 2 million", "correct": false, "explanation": "That's far beyond any ancient city's size."}]},
+  {"question": "Sargon of Akkad is known for what first?", "difficulty": "medium", "options": [{"text": "Writing the first law code", "correct": false, "explanation": "Earlier law codes come from Ur and Eshnunna; Hammurabi's is the most complete."}, {"text": "The first known empire uniting multiple city-states under one ruler, around 2334 BCE", "correct": true, "explanation": "The Akkadian Empire set the pattern later powers followed."}, {"text": "Inventing the wheel", "correct": false, "explanation": "The post credits him with the first empire, not inventions."}]},
+  {"question": "Did Hammurabi's Code treat everyone equally?", "difficulty": "medium", "options": [{"text": "Yes, the same punishment applied to all", "correct": false, "explanation": "Punishments explicitly varied by social class."}, {"text": "It applied only to kings", "correct": false, "explanation": "It covered trade, crime and family law for ordinary people."}, {"text": "No; punishments depended on the social class of both offender and victim", "correct": true, "explanation": "It was written law, but not equal law."}]},
+  {"question": "Why do we have a 60-minute hour and a 360-degree circle?", "difficulty": "medium", "options": [{"text": "Both come from the Sumerian base-60 (sexagesimal) number system", "correct": true, "explanation": "60 divides evenly by many numbers, which was useful for trade and measurement."}, {"text": "Roman engineers chose them for building", "correct": false, "explanation": "The base-60 system predates Rome by thousands of years."}, {"text": "They're a modern international standard from the 1800s", "correct": false, "explanation": "They're over 4,000 years old."}]},
+  {"question": "Which empire held territory from Egypt to Iran at its height, around 700 BCE?", "difficulty": "hard", "options": [{"text": "The Sumerian city-states", "correct": false, "explanation": "They were separate city-states, not an empire of that size."}, {"text": "The Akkadian Empire", "correct": false, "explanation": "The Akkadian Empire peaked much earlier, around 2334 BCE."}, {"text": "The Assyrian Empire", "correct": true, "explanation": "Assyria later fell to Babylonians and Medes in 612 BCE."}]},
+];
 
 export default function Post() {
   return (

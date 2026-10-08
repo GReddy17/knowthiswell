@@ -34,6 +34,7 @@ export const metadata: PostFrontmatter = {
     { label: "IRS — Refundable tax credits", url: "https://www.irs.gov/credits-deductions/individuals/refundable-tax-credits" },
   ],
   seeAlso: [
+    "government-schemes-benefits/how-small-business-government-grants-actually-get-awarded",
     "personal-finance-basics/understanding-tax-deductions-vs-tax-credits",
     "personal-finance-basics/income-tax-basics-how-brackets-actually-work",
     "government-schemes-benefits/how-to-actually-apply-for-government-assistance-programs",
@@ -91,7 +92,7 @@ export default function Post() {
       />
       <FootnoteAside>Amounts and eligibility rules for credits and the standard deduction are set by law and adjusted most years, and Congress changes them fairly often. Check the IRS page for the specific tax year you&apos;re filing, and for your own situation, a tax professional or free IRS-certified volunteer (VITA) program.</FootnoteAside>
 
-      <p>A companion piece in Personal Finance, <TermLink href="/personal-finance-basics/understanding-tax-deductions-vs-tax-credits">understanding tax deductions vs. tax credits</TermLink>, covers everyday filing terms. This one focuses on why the credit side matters as a benefit, and how it connects to <TermLink href="/government-schemes-benefits/how-to-actually-apply-for-government-assistance-programs">applying for government assistance programs</TermLink>, since tax credits are claimed on a return rather than through an application office.</p>
+      <p>A companion piece in Personal Finance, <TermLink href="/personal-finance-basics/understanding-tax-deductions-vs-tax-credits">understanding tax deductions vs. tax credits</TermLink>, covers everyday filing terms. This one focuses on why the credit side matters as a benefit, and how it connects to <TermLink href="/government-schemes-benefits/how-to-actually-apply-for-government-assistance-programs">applying for government assistance programs</TermLink>, since tax credits are claimed on a return rather than through an application office. Businesses meet a similar split: a business tax credit lowers the tax owed, while a <TermLink href="/government-schemes-benefits/how-small-business-government-grants-actually-get-awarded">small business grant</TermLink> is money awarded through a competitive, scored review for a specific purpose.</p>
 
       <QuickCheck
         question="Two people each get a $2,000 deduction. One is in the 12% bracket, the other in the 32% bracket. How much does each save?"

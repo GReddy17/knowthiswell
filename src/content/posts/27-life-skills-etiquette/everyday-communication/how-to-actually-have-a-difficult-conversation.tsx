@@ -32,6 +32,7 @@ export const metadata: PostFrontmatter = {
     { label: "Harvard Law School — Program on Negotiation", url: "https://www.pon.harvard.edu/" },
   ],
   seeAlso: [
+    "life-skills-etiquette/how-to-actually-disagree-without-being-disagreeable",
     "life-skills-etiquette/what-active-listening-actually-looks-like-in-practice",
     "life-skills-etiquette/how-to-actually-set-boundaries-without-guilt",
     "life-skills-etiquette/how-to-actually-apologize-in-a-way-that-lands",
@@ -99,7 +100,7 @@ export default function Post() {
       <div className="prose-p">Instead of &quot;you&apos;re so inconsiderate about the kitchen,&quot; leading with &quot;I&apos;ve noticed dishes sitting in the sink for a couple of days this week, and it&apos;s been stressing me out&quot; states the observable fact and the personal impact, without asserting what the roommate&apos;s intentions or character are — leaving room for a real conversation about what&apos;s actually going on.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 2: A conversation that still ends in disagreement (edge case / variation)</h3>
-      <div className="prose-p">Two coworkers handle a disagreement about project direction well — both listen, both clearly state their reasoning — but still don&apos;t agree by the end. This isn&apos;t a failure of the conversation itself; per negotiation research, genuine understanding of the other side&apos;s reasoning, even without full agreement, is itself a realistic and valuable outcome, especially when a decision ultimately needs to be made by someone else.</div>
+      <div className="prose-p">Two coworkers handle a disagreement about project direction well — both listen, both clearly state their reasoning — but still don&apos;t agree by the end. This isn&apos;t a failure of the conversation itself; per negotiation research, genuine understanding of the other side&apos;s reasoning, even without full agreement, is itself a realistic and valuable outcome, especially when a decision ultimately needs to be made by someone else. For the moment-to-moment skill of pushing back on an idea while staying respectful, see <TermLink href="/life-skills-etiquette/how-to-actually-disagree-without-being-disagreeable">how to disagree without being disagreeable</TermLink>.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: A performance conversation with a direct report (real-world / applied case)</h3>
       <div className="prose-p">A manager addressing a pattern of missed deadlines starts with the specific, observable pattern (&quot;three of the last four deliverables were late&quot;), states the impact on the team clearly, then asks an open question about what&apos;s been going on — rather than opening with an assumption about the employee&apos;s work ethic. This keeps the conversation focused on solving the actual problem instead of defending against a character judgment.</div>

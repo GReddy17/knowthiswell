@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ancient-history",
   tags: ["ancient egypt", "pharaohs", "pyramids", "hieroglyphics", "nile river"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-07",
   youtubeShort: false, youtubeLong: false,
   seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Why could ancient Egypt support pyramid builders, priests and scribes who didn't farm?", "difficulty": "easy", "options": [{"text": "The Nile's predictable yearly flood left fertile silt, so farmers grew a reliable food surplus", "correct": true, "explanation": "Geography did a lot of the work: the surplus fed people who weren't farming."}, {"text": "Egypt imported almost all its food from Rome", "correct": false, "explanation": "Egypt fed itself; Rome later depended on Egyptian grain, not the other way round."}, {"text": "Egyptians didn't need to eat much in the desert heat", "correct": false, "explanation": "The surplus came from the flood-fed farms."}]},
+  {"question": "What was the pharaoh believed to be?", "difficulty": "easy", "options": [{"text": "An elected official chosen by priests", "correct": false, "explanation": "Pharaohs weren't elected."}, {"text": "A god living among people, responsible for keeping order (maat) in the universe", "correct": true, "explanation": "The pharaoh was more than a king in Egyptian belief."}, {"text": "A military general with no religious role", "correct": false, "explanation": "The role was deeply religious."}]},
+  {"question": "What were the Intermediate Periods in Egyptian history?", "difficulty": "medium", "options": [{"text": "Festivals held between harvests", "correct": false, "explanation": "They were political periods, not festivals."}, {"text": "The gaps when Egypt had no people living along the Nile", "correct": false, "explanation": "People stayed; central rule is what broke down."}, {"text": "Unstable stretches between the Old, Middle and New Kingdoms when central authority broke down", "correct": true, "explanation": "Each time, a new Kingdom eventually rebuilt unified rule."}]},
+  {"question": "Which period built the great pyramids at Giza?", "difficulty": "medium", "options": [{"text": "The Old Kingdom (c. 2686-2181 BCE)", "correct": true, "explanation": "The Great Pyramid of Khufu dates to around 2560 BCE."}, {"text": "The New Kingdom", "correct": false, "explanation": "The New Kingdom came over a thousand years later and is known for Hatshepsut, Tutankhamun and Ramesses II."}, {"text": "Cleopatra's reign", "correct": false, "explanation": "By her reign the Great Pyramid was already about 2,500 years old."}]},
+  {"question": "For roughly how long was the Great Pyramid the tallest human-made structure on Earth?", "difficulty": "hard", "options": [{"text": "About 300 years", "correct": false, "explanation": "Far longer than that."}, {"text": "About 3,800 years, until Lincoln Cathedral was completed around 1311 CE", "correct": true, "explanation": "That record stood for roughly 3,800 years."}, {"text": "It still is today", "correct": false, "explanation": "Modern buildings are much taller."}]},
+  {"question": "What does archaeology near Giza show about who built the pyramids?", "difficulty": "medium", "options": [{"text": "Enslaved Israelites, as Egyptian records describe", "correct": false, "explanation": "Egyptian sources don't say this; the story comes largely from later writers like Herodotus."}, {"text": "Foreign mercenaries paid in gold", "correct": false, "explanation": "The evidence points to Egyptian labor crews."}, {"text": "Organized crews with housing, medical care, and bread and beer rations", "correct": true, "explanation": "Workers' villages show paid, fed labor, likely including farmers during the flood season."}]},
+  {"question": "How did Hatshepsut present her authority as pharaoh?", "difficulty": "hard", "options": [{"text": "She had herself shown in official art with the traditional pharaoh's false beard", "correct": true, "explanation": "The authority was tied to the office, so she took on its symbols."}, {"text": "She ruled only as a regent and never claimed the title", "correct": false, "explanation": "She ruled as pharaoh in her own right, not just as queen consort."}, {"text": "She banned all images of herself", "correct": false, "explanation": "Later pharaohs tried to erase her images; she didn't."}]},
+  {"question": "Why were hieroglyphics unreadable for over a thousand years?", "difficulty": "medium", "options": [{"text": "Priests kept the meaning secret and passed it down privately", "correct": false, "explanation": "The knowledge was genuinely lost, not hidden."}, {"text": "The knowledge was lost after the script fell out of use, until the Rosetta Stone let Champollion decode it in 1822", "correct": true, "explanation": "Its parallel Greek text was the key."}, {"text": "The inscriptions were too faded to see", "correct": false, "explanation": "Many were perfectly visible; nobody could read them."}]},
+];
 
 export default function Post() {
   return (

@@ -1,37 +1,17 @@
 {
  "posts": 921,
  "minimum": 9,
- "meetingMinimum": 255,
+ "meetingMinimum": 260,
  "histogram": {
-  "2": 229,
+  "2": 224,
   "3": 437,
   "9": 186,
-  "10": 36,
+  "10": 41,
   "11": 16,
   "12": 16,
   "16": 1
  },
  "below": [
-  {
-   "key": "general-science-facts/el-nino-and-la-nina-explained",
-   "count": 2
-  },
-  {
-   "key": "history-timeline-facts/ancient-china",
-   "count": 2
-  },
-  {
-   "key": "history-timeline-facts/ancient-egypt",
-   "count": 2
-  },
-  {
-   "key": "history-timeline-facts/ancient-greece",
-   "count": 2
-  },
-  {
-   "key": "history-timeline-facts/ancient-mesopotamia",
-   "count": 2
-  },
   {
    "key": "history-timeline-facts/ancient-rome",
    "count": 2

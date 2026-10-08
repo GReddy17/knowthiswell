@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ancient-history",
   tags: ["ancient china", "dynasty", "great wall", "confucius", "ancient civilizations"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-07",
   youtubeShort: false, youtubeLong: false,
   seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Along which two rivers did ancient Chinese civilization develop?", "difficulty": "easy", "options": [{"text": "The Tigris and Euphrates", "correct": false, "explanation": "Those are the rivers of Mesopotamia."}, {"text": "The Yellow River and later the Yangtze", "correct": true, "explanation": "Early Chinese states grew up along the Yellow River, then the Yangtze."}, {"text": "The Nile and the Indus", "correct": false, "explanation": "Those belong to Egypt and the Indus Valley."}]},
+  {"question": "Which is the earliest Chinese dynasty confirmed by direct archaeological evidence?", "difficulty": "medium", "options": [{"text": "The Xia", "correct": false, "explanation": "The Xia is traditionally first, around 2070 BCE, but it's known mainly from later texts and legend."}, {"text": "The Han", "correct": false, "explanation": "The Han came much later, from 206 BCE."}, {"text": "The Shang, from around 1600 BCE", "correct": true, "explanation": "Its oracle bone inscriptions are the hard evidence."}]},
+  {"question": "What were oracle bones used for?", "difficulty": "easy", "options": [{"text": "Carving questions to ancestors or gods, then cracking the bone with heat and reading the answer", "correct": true, "explanation": "Shang diviners asked about harvests, weather, wars, even the king's toothaches."}, {"text": "Building the foundations of palaces", "correct": false, "explanation": "They were tools for divination, not construction."}, {"text": "Paying soldiers in place of coins", "correct": false, "explanation": "They weren't currency."}]},
+  {"question": "Which dynasty first articulated the Mandate of Heaven, and why?", "difficulty": "medium", "options": [{"text": "The Qin, to justify burning books", "correct": false, "explanation": "The idea is older than the Qin."}, {"text": "The Zhou, to justify overthrowing the Shang", "correct": true, "explanation": "Around 1046 BCE, the Zhou argued the Shang had lost heaven's backing."}, {"text": "The Han, to justify the civil service exams", "correct": false, "explanation": "The Han inherited the idea; it didn't invent it."}]},
+  {"question": "How long did the Qin Dynasty last?", "difficulty": "medium", "options": [{"text": "About 15 years (221-206 BCE)", "correct": true, "explanation": "Short as it was, it set the template of a unified empire."}, {"text": "About 400 years", "correct": false, "explanation": "That's closer to the Han Dynasty that followed."}, {"text": "About 1,000 years", "correct": false, "explanation": "No Chinese dynasty lasted that long."}]},
+  {"question": "Most of the Great Wall that tourists visit near Beijing today dates from which dynasty?", "difficulty": "hard", "options": [{"text": "The Qin, under Qin Shi Huang", "correct": false, "explanation": "Qin Shi Huang connected earlier walls, but most of what stands today is much later."}, {"text": "The Shang", "correct": false, "explanation": "The Shang predates the wall entirely."}, {"text": "The Ming (1368-1644 CE)", "correct": true, "explanation": "The wall was built and rebuilt over about 2,000 years, and the visible sections near Beijing are mostly Ming."}]},
+  {"question": "Confucius's ideas became the official state philosophy under which dynasty?", "difficulty": "medium", "options": [{"text": "The Qin", "correct": false, "explanation": "The Qin was associated with book burnings that targeted rival philosophies."}, {"text": "The Han", "correct": true, "explanation": "The Han adopted them, and they shaped civil service exams for nearly two thousand years."}, {"text": "The Shang", "correct": false, "explanation": "Confucius lived centuries after the Shang (551-479 BCE)."}]},
+  {"question": "Was ancient China cut off from the rest of the world?", "difficulty": "hard", "options": [{"text": "Yes, until European ships arrived", "correct": false, "explanation": "That's the common myth the post corrects."}, {"text": "Only Buddhist monks were allowed to cross the border", "correct": false, "explanation": "Trade and travel went well beyond monks."}, {"text": "No; from at least the Han Dynasty the Silk Road linked it to Central Asia, the Middle East and eventually Europe", "correct": true, "explanation": "Silk, paper and technology moved out, and Buddhism came in along the same routes."}]},
+];
 
 export default function Post() {
   return (

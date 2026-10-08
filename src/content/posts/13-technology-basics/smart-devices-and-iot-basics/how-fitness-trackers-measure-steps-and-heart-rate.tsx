@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     { label: "Federal Trade Commission — Internet of Things: Privacy & Security in a Connected World", url: "https://www.ftc.gov/reports/internet-things-privacy-security-connected-world" },
   ],
   seeAlso: [
+    "health-wellness-deep-dive/how-hydration-actually-affects-physical-performance",
     "technology-basics/what-makes-a-device-smart",
     "technology-basics/how-a-smart-thermostat-learns-your-habits",
     "technology-basics/how-smart-doorbells-and-cameras-detect-motion",
@@ -128,7 +129,7 @@ export default function Post() {
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: Choosing chest-strap vs. wrist-based monitoring for interval training (real-world / applied case)</h3>
       <p>
-        Someone training for a race wants accurate heart rate data during short, intense sprint intervals. A wrist-based PPG tracker can struggle here because rapid arm motion during sprinting creates movement artifacts in the light signal that look similar to a genuine pulse, and sweat or a loosening band can further reduce contact quality. A chest-strap monitor, which reads the heart&apos;s own electrical signal directly (the same underlying principle as a medical EKG, though not to clinical certification standards) rather than relying on light reflection, is far less affected by arm motion and is the more reliable choice for this specific use case. This is a practical, not theoretical, distinction: understanding which sensing method a device actually uses tells you when to trust the wrist reading and when to reach for something more accurate.
+        Someone training for a race wants accurate heart rate data during short, intense sprint intervals. A wrist-based PPG tracker can struggle here because rapid arm motion during sprinting creates movement artifacts in the light signal that look similar to a genuine pulse, and sweat or a loosening band can further reduce contact quality. A chest-strap monitor, which reads the heart&apos;s own electrical signal directly (the same underlying principle as a medical EKG, though not to clinical certification standards) rather than relying on light reflection, is far less affected by arm motion and is the more reliable choice for this specific use case. This is a practical, not theoretical, distinction: understanding which sensing method a device actually uses tells you when to trust the wrist reading and when to reach for something more accurate. One reading that isn&apos;t a sensor error: on a long, hot session your real heart rate drifts upward at the same pace as you lose fluid (see <TermLink href="/health-wellness-deep-dive/how-hydration-actually-affects-physical-performance">how hydration affects physical performance</TermLink>).
       </p>
       <QuickCheck
         question="Why would a chest-strap heart rate monitor typically outperform a wrist-based tracker during high-intensity interval sprints?"

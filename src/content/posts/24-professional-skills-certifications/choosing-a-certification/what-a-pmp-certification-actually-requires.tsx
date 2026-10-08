@@ -35,6 +35,7 @@ export const metadata: PostFrontmatter = {
     { label: "U.S. Bureau of Labor Statistics — Project Management Specialists (Occupational Outlook Handbook)", url: "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" },
   ],
   seeAlso: [
+    "professional-skills-certifications/what-continuing-education-credits-actually-require",
     "professional-skills-certifications/what-project-management-certification-actually-teaches-you",
     "professional-skills-certifications/how-agile-and-scrum-actually-differ",
     "professional-skills-certifications/how-to-actually-choose-between-competing-certifications",
@@ -111,7 +112,7 @@ export default function Post() {
       <div className="prose-p">An IT analyst lists three projects: 18 months, 14 months and 12 months, and assumes that adds up to 44 months. But the projects ran partly at the same time. On a calendar, they span January of one year to June of the next: 30 unique months. Because PMI counts non-overlapping months, the analyst is 6 months short of the 36-month requirement. Drawing a timeline before applying would have caught this.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: Keeping it after you pass (real-world use)</h3>
-      <div className="prose-p">After passing, a project manager needs 60 PDUs over the next three years. That&apos;s about 20 hours a year. They earn most of it from things they already do: a company training on risk management, webinars from a local PMI chapter, and a course on leadership. They log each activity in PMI&apos;s system as they go, pay the renewal fee at the end of the cycle, and the credential continues. Someone who waits until the last month usually ends up scrambling.</div>
+      <div className="prose-p">After passing, a project manager needs 60 PDUs over the next three years. That&apos;s about 20 hours a year. They earn most of it from things they already do: a company training on risk management, webinars from a local PMI chapter, and a course on leadership. They log each activity in PMI&apos;s system as they go, pay the renewal fee at the end of the cycle, and the credential continues. Someone who waits until the last month usually ends up scrambling. PDUs are PMI&apos;s version of a wider system; <TermLink href="/professional-skills-certifications/what-continuing-education-credits-actually-require">what continuing education credits actually require</TermLink> compares how other credentialing bodies count them.</div>
 
       <QuickCheck
         question="In Example 2, why does the analyst have 30 months, not 44?"

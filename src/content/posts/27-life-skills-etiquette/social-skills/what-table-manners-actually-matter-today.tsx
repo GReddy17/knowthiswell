@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     { label: "Encyclopaedia Britannica — Etiquette", url: "https://www.britannica.com/topic/etiquette" },
   ],
   seeAlso: [
+    "psychology-human-behavior/how-first-impressions-actually-form-so-fast",
     "festivals-culture/dining-etiquette-around-the-world",
     "life-skills-etiquette/how-to-actually-build-rapport-quickly",
     "life-skills-etiquette/what-active-listening-actually-looks-like-in-practice",
@@ -107,7 +108,7 @@ export default function Post() {
       <div className="prose-p">You&apos;re expecting a call from a hospital about a relative. Rather than silently glancing at your phone all meal, say so at the start: &quot;I&apos;m sorry, I may need to take one call; I&apos;m waiting to hear about my dad.&quot; Keep the phone on silent, and if it rings, excuse yourself and take it away from the table. The rule isn&apos;t really &quot;never touch your phone.&quot; It&apos;s &quot;don&apos;t make people feel ignored,&quot; and explaining ahead of time does that.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: A business dinner with a client (real-world use)</h3>
-      <div className="prose-p">At a restaurant with a potential client, facing four forks and two glasses: use utensils from the outside in, bread plate on your left, water glass on your right. Order something easy to eat (not ribs or spaghetti) and in a similar price range to your host. Keep your phone out of sight for the whole meal. Match the client&apos;s pace so neither of you is left eating alone. When finished, place knife and fork side by side on the plate. The client probably won&apos;t notice your utensil technique, but they&apos;ll notice whether you listened, the same skill as <TermLink href="/life-skills-etiquette/what-active-listening-actually-looks-like-in-practice">active listening</TermLink> anywhere else.</div>
+      <div className="prose-p">At a restaurant with a potential client, facing four forks and two glasses: use utensils from the outside in, bread plate on your left, water glass on your right. Order something easy to eat (not ribs or spaghetti) and in a similar price range to your host. Keep your phone out of sight for the whole meal. Match the client&apos;s pace so neither of you is left eating alone. When finished, place knife and fork side by side on the plate. The client probably won&apos;t notice your utensil technique, but they&apos;ll notice whether you listened, the same skill as <TermLink href="/life-skills-etiquette/what-active-listening-actually-looks-like-in-practice">active listening</TermLink> anywhere else. At a first business meal, these small signals feed into <TermLink href="/psychology-human-behavior/how-first-impressions-actually-form-so-fast">first impressions</TermLink>, which form fast but keep updating as people get to know you.</div>
 
       <QuickCheck
         question="In the phone-call example, what made taking the call acceptable?"

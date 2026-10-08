@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   videoQueue: true,
   tags: ["el nino", "la nina", "ENSO", "ocean currents", "weather patterns"],
   date: "2026-09-22",
-  updated: "2026-09-22",
+  updated: "2026-10-07",
   youtubeShort: false, youtubeLong: false,
   seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does ENSO describe?", "difficulty": "easy", "options": [{"text": "A recurring Pacific Ocean cycle with a warm phase (El Niño) and a cool phase (La Niña)", "correct": true, "explanation": "El Niño and La Niña are two sides of one cycle, not separate phenomena."}, {"text": "A single hurricane season in the Atlantic", "correct": false, "explanation": "ENSO lives in the tropical Pacific and plays out over months, not one storm season."}, {"text": "A long-term global warming trend", "correct": false, "explanation": "That's climate change, a separate thing. ENSO is a natural cycle documented for centuries."}]},
+  {"question": "In a normal (neutral) year, where do the trade winds pile up warm surface water?", "difficulty": "easy", "options": [{"text": "Off the coast of Peru and Ecuador", "correct": false, "explanation": "That's where cold water wells up in a normal year, not where warm water piles up."}, {"text": "Near Indonesia and Australia in the western Pacific", "correct": true, "explanation": "Steady trade winds push warm water west, so sea level near Indonesia runs about 40-50 cm higher than off South America."}, {"text": "Evenly across the whole Pacific", "correct": false, "explanation": "The winds push it unevenly, which is the whole setup the cycle departs from."}]},
+  {"question": "What happens to the trade winds during La Niña?", "difficulty": "easy", "options": [{"text": "They stop completely", "correct": false, "explanation": "That's not it. La Niña is the opposite of a weakening."}, {"text": "They weaken, letting warm water slide east", "correct": false, "explanation": "That describes El Niño."}, {"text": "They strengthen, leaving the eastern Pacific even cooler than normal", "correct": true, "explanation": "La Niña is the mirror image of El Niño: stronger winds push even more warm water west."}]},
+  {"question": "What official threshold does NOAA's Oceanic Niño Index use to declare an El Niño?", "difficulty": "medium", "options": [{"text": "Five consecutive overlapping 3-month periods at or above +0.5°C in the Niño 3.4 region", "correct": true, "explanation": "A one-week warm spell doesn't count. The warmth has to persist for months."}, {"text": "Any single day when the Pacific is 2°C above average", "correct": false, "explanation": "Events are declared on a multi-month basis, not one day."}, {"text": "A hurricane forming off South America", "correct": false, "explanation": "El Niño is a temperature pattern, not a storm."}]},
+  {"question": "Why does El Niño hurt the fisheries off Peru and Ecuador?", "difficulty": "medium", "options": [{"text": "Warmer water makes fish swim faster and escape nets", "correct": false, "explanation": "That's not the mechanism the science describes."}, {"text": "Fishing is banned during declared El Niño years", "correct": false, "explanation": "It isn't a legal ban; it's an ocean change."}, {"text": "It flattens the thermocline and suppresses the cold, nutrient-rich upwelling that feeds those fisheries", "correct": true, "explanation": "In 1997-98 upwelling nearly shut down and anchovy catches collapsed."}]},
+  {"question": "During the strong 1997-98 El Niño, what happened to Peru and Indonesia?", "difficulty": "medium", "options": [{"text": "Both had severe drought", "correct": false, "explanation": "The effects were opposite in the two places."}, {"text": "Peru flooded while Indonesia faced drought and wildfires", "correct": true, "explanation": "The shifted rain belt moved rain toward South America and away from Indonesia."}, {"text": "Indonesia flooded while Peru had drought", "correct": false, "explanation": "That's backwards for El Niño."}]},
+  {"question": "A water manager hears a strong El Niño is forecast for winter. What's the right way to read that?", "difficulty": "hard", "options": [{"text": "Heavy rain is now certain, so no further monitoring is needed", "correct": false, "explanation": "ENSO tilts the odds; it doesn't guarantee the season."}, {"text": "It shifts the odds toward a wetter or drier season in specific regions, so plan for it but keep tracking the actual season", "correct": true, "explanation": "That's how California water managers and other planners use NOAA's ENSO outlook."}, {"text": "It means the whole planet will be wetter than usual", "correct": false, "explanation": "Each phase makes some regions wetter and others drier."}]},
+  {"question": "How do El Niño events relate to climate change?", "difficulty": "hard", "options": [{"text": "ENSO is a natural cycle that predates modern warming; climate change may affect how intense events get but doesn't cause the cycle", "correct": true, "explanation": "ENSO has been documented for centuries, well before modern climate change."}, {"text": "They are the same phenomenon with two names", "correct": false, "explanation": "They're separate: one is a recurring cycle, the other a long-term trend."}, {"text": "Climate change created El Niño in the 20th century", "correct": false, "explanation": "Peruvian fishermen named the pattern centuries ago."}]},
+];
 
 export default function Post() {
   return (
