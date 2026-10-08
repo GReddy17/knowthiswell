@@ -24,22 +24,22 @@ export const metadata: PostFrontmatter = {
   pillar: true,
   tags: ["electrical conductivity", "ions", "water chemistry", "electrical safety", "physics misconceptions"],
   date: "2026-09-19",
-  updated: "2026-09-24",
+  updated: "2026-10-07",
   youtubeShort: false, youtubeLong: false,
   seoScore: 81, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-09-19",
+  lastReviewed: "2026-10-07",
   excerpt: "Truly pure water is actually a poor conductor of electricity — it's the dissolved minerals and salts in ordinary tap, rain, and body water that carry almost all of the current.",
   summary: "Electric current in a liquid is carried by ions — charged particles created when dissolved substances like salts and minerals split apart in water. Chemically pure H2O has extremely few free ions and is a poor electrical conductor, but truly pure water almost never exists outside a laboratory, since ordinary tap water, rainwater, sweat, and the water in the human body all contain enough dissolved minerals and salts to conduct electricity readily. This is exactly why electrical safety warnings around water are correct in practice even though \"pure water doesn't conduct\" is technically true in a lab.",
   sources: [
-    { label: "U.S. Geological Survey (USGS) — Water Properties and Electrical Conductivity", url: "https://www.usgs.gov/" },
-    { label: "National Institute of Standards and Technology (NIST) — Electrolytic Conductivity Reference Data", url: "https://www.nist.gov/" },
-    { label: "Occupational Safety and Health Administration (OSHA) — Electrical Safety Around Water", url: "https://www.osha.gov/" },
+    { label: "U.S. Geological Survey (USGS) Water Science School — Conductivity (Electrical Conductance) and Water", url: "https://www.usgs.gov/water-science-school/science/conductivity-electrical-conductance-and-water" },
+    { label: "Occupational Safety and Health Administration (OSHA) — Controlling Electrical Hazards (OSHA 3075)", url: "https://www.osha.gov/sites/default/files/publications/OSHA3075.pdf" },
   ],
   seeAlso: [
     "general-science-facts/electricity-and-magnetism-basics",
     "general-science-facts/why-a-bird-can-safely-sit-on-a-live-power-line",
     "general-science-facts/matter-and-states-of-matter",
     "home-diy-knowledge/why-gfci-outlets-exist",
+    "home-diy-knowledge/what-amps-volts-and-watts-actually-measure",
   ],
   glossary: [
     { term: "Ion", definition: "An atom or molecule that has gained or lost electrons, giving it a net electric charge — ions are the actual charge carriers that allow liquids to conduct electricity." },
@@ -77,6 +77,24 @@ export default function Post() {
           "Because truly pure water essentially never occurs outside a controlled lab setting, every practical electrical safety warning about water remains fully correct — you're never really dealing with 'pure' water in daily life.",
         ]}
       />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The short answer</h2>
+      <div className="prose-p">
+      <strong>No, not really.</strong> Pure water is an excellent insulator. The USGS puts it plainly: water stops being an insulator once it starts dissolving substances, and even a small amount of dissolved ions lets it conduct electricity. Every real source of water (tap, rain, pool, sea, sweat) contains dissolved salts and minerals, so in practice you should always treat water as a conductor.
+      </div>
+      <div className="overflow-x-auto">
+      <table className="w-full text-sm border-collapse my-4">
+        <thead>
+          <tr className="border-b-2 border-ink text-left"><th className="py-2 pr-3">Water type</th><th className="py-2 pr-3">Dissolved ions</th><th className="py-2">Conducts electricity?</th></tr>
+        </thead>
+        <tbody>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Distilled or deionized</td><td className="py-2 pr-3">Almost none</td><td className="py-2">Very poorly, but even this water can contain some ions</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Tap, rain or bath water</td><td className="py-2 pr-3">Minerals and salts</td><td className="py-2">Yes, enough to be dangerous</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Salt water</td><td className="py-2 pr-3">Large amounts of sodium chloride</td><td className="py-2">Very well, so current may bypass a body in the water</td></tr>
+          <tr><td className="py-2 pr-3">Human body</td><td className="py-2 pr-3">Salty fluids</td><td className="py-2">Yes, the body is a good conductor because of how salty it is</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
       <ModeToggle
@@ -192,6 +210,11 @@ export default function Post() {
         items={[
           { question: "Does pure water conduct electricity?", answer: "Chemically pure water is actually a poor conductor — it has very few free ions to carry current. It's the dissolved minerals and salts in ordinary water that make it conductive, not the water molecules themselves." },
           { question: "Why does tap water conduct electricity if pure water doesn't?", answer: "Tap water contains dissolved minerals like calcium and magnesium that dissociate into free ions, which act as charge carriers — it's never chemically pure, unlike laboratory-deionized water." },
+          { question: "Is distilled water a conductor or an insulator?", answer: "Distilled water is a very poor conductor, so it behaves mostly as an insulator. The USGS notes that even distilled and deionized water can contain some ions, and that it begins conducting as soon as it dissolves substances around it." },
+          { question: "Why does salt water conduct electricity better than fresh water?", answer: "Salt (sodium chloride) splits into sodium and chloride ions when dissolved. More free ions mean more charge carriers, so salt water conducts far better than fresh water. The USGS notes that in sea water current may largely bypass a human body, which is why the electrocution danger there is lower than in bathwater." },
+          { question: "Why is water dangerous around electricity if pure water is an insulator?", answer: "Because no water you will meet in daily life is pure. Tap, rain, pool, bath water and sweat all carry dissolved minerals and salts, and wet skin has much lower resistance than dry skin. Outlets near water are protected by GFCIs for this reason." },
+          { question: "What actually carries electricity through water?", answer: "Ions. Dissolved salts split into positively and negatively charged ions that move toward the opposite charge, which carries current through the liquid. Water molecules on their own contribute almost nothing." },
+          { question: "How is the conductivity of water measured?", answer: "Hydrologists use a probe called a conductivity cell. Readings are higher for water with more dissolved ions, and USGS scientists almost always measure conductivity when they collect water samples." },
           { question: "Is it actually dangerous to mix electricity and water, then?", answer: "Yes, absolutely — real-world water (tap, bath, pool, rain, sweat) always contains dissolved ions and is genuinely conductive, even though chemically pure water in a lab setting is a poor conductor." },
           { question: "What are ions and why do they matter for conductivity?", answer: "Ions are atoms or molecules with a net electric charge, created when compounds like salt dissolve and split apart in water — they're the actual particles that move to carry electric current through a liquid." },
           { question: "What is deionized water used for if it doesn't conduct electricity well?", answer: "It's used in labs and certain industrial processes specifically because its low conductivity makes it useful for tasks like rinsing sensitive electronics or testing high-voltage equipment more safely than tap water would allow." },

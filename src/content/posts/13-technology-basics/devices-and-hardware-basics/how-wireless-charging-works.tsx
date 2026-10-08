@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "technology-basics/how-lithium-ion-batteries-work",
     "technology-basics/how-bluetooth-works",
+    "general-science-facts/does-a-microwave-really-heat-food-from-the-inside-out",
   ],
   glossary: [
     { term: "Electromagnetic induction", definition: "The physical process by which a changing magnetic field creates (induces) an electric current in a nearby conductor, without any direct physical or electrical contact." },

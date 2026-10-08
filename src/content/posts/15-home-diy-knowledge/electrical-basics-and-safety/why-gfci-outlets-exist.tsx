@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/how-a-circuit-breaker-actually-protects-your-home",
     "home-diy-knowledge/what-amps-volts-and-watts-actually-measure",
     "home-diy-knowledge/how-to-tell-if-a-wire-is-live-before-touching-it",
+    "general-science-facts/does-pure-water-actually-conduct-electricity",
   ],
   glossary: [
     { term: "Ground fault", definition: "An unintended path that lets electric current escape a circuit to ground through something other than the normal return wire — for example, through water or a person's body." },
@@ -53,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does GFCI stand for?", "difficulty": "easy", "options": [{"text": "Ground-fault circuit interrupter", "correct": true, "explanation": "It cuts power when current leaks to ground."}, {"text": "General fuse circuit isolator", "correct": false, "explanation": "That is not what the acronym means."}, {"text": "Grounded fixture current indicator", "correct": false, "explanation": "That is not what the acronym means."}]},
+  {"question": "How does a GFCI detect a problem?", "difficulty": "medium", "options": [{"text": "It compares outgoing and returning current and trips if they differ", "correct": true, "explanation": "A mismatch means current is leaking to ground."}, {"text": "It measures the temperature of the wire", "correct": false, "explanation": "GFCIs sense current imbalance, not heat."}, {"text": "It counts how many devices are plugged in", "correct": false, "explanation": "Device count is irrelevant to GFCI sensing."}]},
+  {"question": "What is the difference between a GFCI and an AFCI?", "difficulty": "medium", "options": [{"text": "They are the same device with different names", "correct": false, "explanation": "They protect against different problems."}, {"text": "A GFCI detects current leaking to ground; an AFCI detects arcing", "correct": true, "explanation": "One mainly protects against shock, the other against fire."}, {"text": "An AFCI protects against shock only", "correct": false, "explanation": "AFCIs address arcing, a fire hazard."}]},
+  {"question": "Why does a standard breaker miss the danger a GFCI catches?", "difficulty": "hard", "options": [{"text": "A small leak to ground can be far below the level that trips a breaker", "correct": true, "explanation": "The leak can still be dangerous through a person."}, {"text": "Breakers only work outdoors", "correct": false, "explanation": "Breakers work everywhere but respond to overcurrent."}, {"text": "Breakers trip too fast to be useful", "correct": false, "explanation": "The problem is the opposite: they do not trip at small leaks."}]},
+  {"question": "Which locations commonly require GFCI protection?", "difficulty": "easy", "options": [{"text": "Kitchens, bathrooms, garages and outdoor outlets", "correct": true, "explanation": "Water or grounded surfaces raise the chance of a ground fault."}, {"text": "Only bedrooms", "correct": false, "explanation": "Bedrooms are generally not the high-risk locations."}, {"text": "Only attics", "correct": false, "explanation": "Attics are not the typical GFCI locations."}]},
+  {"question": "How often is it commonly advised to test a GFCI outlet?", "difficulty": "medium", "options": [{"text": "Monthly, using its test and reset buttons", "correct": true, "explanation": "Internal electronics can fail without visible warning."}, {"text": "Once every ten years", "correct": false, "explanation": "That is far too infrequent."}, {"text": "Only after it trips", "correct": false, "explanation": "Testing is meant to catch silent failure."}]},
+];
 
 export default function Post() {
   return (

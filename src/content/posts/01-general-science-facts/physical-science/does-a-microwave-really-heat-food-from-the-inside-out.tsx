@@ -24,22 +24,24 @@ export const metadata: PostFrontmatter = {
   pillar: true,
   tags: ["microwaves", "electromagnetic radiation", "dielectric heating", "food safety", "physics misconceptions"],
   date: "2026-09-19",
-  updated: "2026-09-24",
+  updated: "2026-10-07",
   youtubeShort: true, youtubeLong: false,
   seoScore: 81, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-09-19",
+  lastReviewed: "2026-10-07",
   excerpt: "Microwaves don't heat from the inside out — they penetrate only a couple of centimeters into food from every exposed surface, which is why the center of a thick item often stays cold.",
   summary: "A microwave oven heats food by emitting electromagnetic waves that make water molecules rotate rapidly, generating heat through molecular friction — but those waves only penetrate roughly 1-1.5 inches (2.5-4 cm) into typical food before being absorbed, entering from every exposed surface at once, not from some special interior source. In a thin or small item, that penetration can reach the center from multiple sides almost simultaneously, creating the illusion of inside-out heating, but in a thick item the center is heated last, by conduction from the already-hot outer layers — exactly the opposite of \"inside out.\"",
   sources: [
-    { label: "U.S. Food and Drug Administration (FDA) — Microwave Oven Radiation", url: "https://www.fda.gov/" },
+    { label: "U.S. Food and Drug Administration (FDA) — Microwave Ovens", url: "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens" },
     { label: "National Institute of Standards and Technology (NIST) — Microwave Frequency Standards", url: "https://www.nist.gov/" },
-    { label: "U.S. Department of Agriculture (USDA) — Microwave Ovens and Food Safety", url: "https://www.usda.gov/" },
+    { label: "USDA Food Safety and Inspection Service — Cooking Safely in the Microwave Oven", url: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cooking-microwave-ovens" },
   ],
   seeAlso: [
     "general-science-facts/electricity-and-magnetism-basics",
     "general-science-facts/waves-and-vibrations",
     "general-science-facts/matter-and-states-of-matter",
     "general-science-facts/why-theres-no-such-thing-as-cold-only-less-heat",
+    "home-diy-knowledge/what-amps-volts-and-watts-actually-measure",
+    "technology-basics/how-wireless-charging-works",
   ],
   glossary: [
     { term: "Microwave", definition: "A form of electromagnetic radiation with a wavelength between radio waves and infrared light, commonly at 2.45 GHz in household ovens, used to generate heat inside food via dielectric heating." },
@@ -77,6 +79,24 @@ export default function Post() {
           "In a large or thick item, the deep center is actually heated last, by ordinary conduction from the already-hot outer layers — the literal opposite of inside-out.",
         ]}
       />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The short answer</h2>
+      <div className="prose-p">
+      <strong>No.</strong> A microwave oven heats food from the outside in, not the inside out. Microwaves are absorbed by water molecules in the food, and the waves are mostly used up within the first inch or so of every exposed surface. The center of a thick item then warms only as that heat spreads inward by conduction, which is why a microwaved dish can be scalding outside and cold in the middle.
+      </div>
+      <div className="overflow-x-auto">
+      <table className="w-full text-sm border-collapse my-4">
+        <thead>
+          <tr className="border-b-2 border-ink text-left"><th className="py-2 pr-3">Myth</th><th className="py-2">What actually happens</th></tr>
+        </thead>
+        <tbody>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">&quot;Microwaves heat from the inside out.&quot;</td><td className="py-2">Waves enter from every surface and are absorbed within roughly 1 to 1.5 inches (2.5 to 4 cm). Deeper parts heat by conduction afterward.</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">&quot;Microwaves make food radioactive.&quot;</td><td className="py-2">The FDA describes microwaves as non-ionizing radiation, which does not have enough energy to knock electrons out of atoms.</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">&quot;They cook food evenly.&quot;</td><td className="py-2">The USDA notes microwaves leave cold spots, so food should be stirred or rotated and left to stand before eating.</td></tr>
+          <tr><td className="py-2 pr-3">&quot;Heat is made by the oven&apos;s metal walls.&quot;</td><td className="py-2">The magnetron produces the microwaves, and they make water molecules in the food vibrate, creating friction that produces heat.</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
       <ModeToggle
@@ -194,6 +214,11 @@ export default function Post() {
           { question: "Do microwaves really heat food from the inside out?", answer: "No. Microwaves enter food from every exposed surface and penetrate only about 1-1.5 inches before losing most of their energy — they don't originate from or target the interior directly." },
           { question: "Why is the center of microwaved food sometimes still cold?", answer: "Because it's beyond the microwaves' penetration depth from every surface — it only heats afterward through slower thermal conduction from the already-hot outer layers, which can lag well behind the outside." },
           { question: "How does a microwave actually heat food?", answer: "It emits electromagnetic radiation that makes polar water molecules in the food rapidly rotate back and forth, generating heat through molecular friction — a process called dielectric heating." },
+          { question: "Why is microwaved food hot on the outside and cold in the middle?", answer: "Microwaves are absorbed within roughly an inch of each surface, so the outer layer heats first and fastest. The center only warms as heat conducts inward, so a thick or frozen item can be steaming outside while the middle is still cold. Cutting food into smaller pieces and letting it stand helps even this out." },
+          { question: "Are microwaves safe?", answer: "The FDA classifies microwaves as non-ionizing radiation, which lacks the energy to alter atoms the way x-rays do. Manufacturers must certify that ovens meet the FDA's radiation safety standard, and microwave energy should not leak from an oven in good condition. A damaged door, hinge, latch or seal is a reason to stop using the oven and contact the manufacturer." },
+          { question: "What actually gets heated in a microwave?", answer: "Mostly the food. The microwaves make water molecules in the food rotate and rub against neighboring molecules, which produces heat." },
+          { question: "How long should you let food stand after microwaving?", answer: "The USDA's food safety guidance recommends letting microwaved food stand for at least 3 minutes after heating, to let heat spread into any cold spots, and checking the temperature in several places with a food thermometer." },
+          { question: "Why do you stir or rotate food halfway through microwaving?", answer: "Microwave energy is uneven inside the oven, which creates hot and cold spots. Stirring or rotating the food moves cold regions into stronger parts of the field so the heat evens out." },
           { question: "Why does standing time matter after microwaving?", answer: "It gives thermal conduction time to continue moving heat from the already-heated outer portions into the still-cooler center, which matters both for even heating and for food safety in dense items." },
           { question: "Is it safe to microwave a large frozen item and assume it's fully cooked?", answer: "Not without checking internal temperature directly — a large item's center can remain significantly cooler than its surface, since it relies on slow conduction rather than direct microwave exposure." },
         ]}

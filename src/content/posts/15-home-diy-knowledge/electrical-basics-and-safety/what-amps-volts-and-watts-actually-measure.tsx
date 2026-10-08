@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -38,6 +38,8 @@ export const metadata: PostFrontmatter = {
     "home-diy-knowledge/how-a-circuit-breaker-actually-protects-your-home",
     "home-diy-knowledge/what-actually-happens-when-you-overload-a-circuit",
     "home-diy-knowledge/why-gfci-outlets-exist",
+    "general-science-facts/does-pure-water-actually-conduct-electricity",
+    "general-science-facts/does-a-microwave-really-heat-food-from-the-inside-out",
   ],
   glossary: [
     { term: "Voltage", definition: "The electrical pressure difference that pushes current through a circuit, measured in volts." },
@@ -54,6 +56,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What do volts measure?", "difficulty": "easy", "options": [{"text": "Electrical pressure", "correct": true, "explanation": "Volts describe the push that drives current."}, {"text": "The rate of current flow", "correct": false, "explanation": "That is amps."}, {"text": "Total energy used per month", "correct": false, "explanation": "Energy use over time is measured in kilowatt-hours."}]},
+  {"question": "Which formula links watts, volts and amps?", "difficulty": "easy", "options": [{"text": "Watts = volts x amps", "correct": true, "explanation": "The three quantities are related, not interchangeable."}, {"text": "Watts = volts + amps", "correct": false, "explanation": "The relationship is multiplication, not addition."}, {"text": "Watts = amps / volts", "correct": false, "explanation": "Dividing amps by volts does not give watts."}]},
+  {"question": "A 1,200-watt appliance runs on a 120-volt circuit. How many amps does it draw?", "difficulty": "medium", "options": [{"text": "10 amps", "correct": true, "explanation": "Amps = watts / volts = 1,200 / 120."}, {"text": "100 amps", "correct": false, "explanation": "That would need 12 volts."}, {"text": "1,440 amps", "correct": false, "explanation": "That multiplies instead of dividing."}]},
+  {"question": "Why do some high-power appliances use 240 volts?", "difficulty": "medium", "options": [{"text": "The same wattage needs less current, allowing thinner wire and a smaller breaker", "correct": true, "explanation": "Dryers and ranges are often wired this way."}, {"text": "240 volts is always safer", "correct": false, "explanation": "Voltage is not automatically safer."}, {"text": "They do not draw any current", "correct": false, "explanation": "They still draw current, just less of it."}]},
+  {"question": "What is a household circuit's wire gauge and breaker actually sized for?", "difficulty": "hard", "options": [{"text": "The color of the wire", "correct": false, "explanation": "Insulation color does not set sizing."}, {"text": "The amp draw of what it supplies", "correct": true, "explanation": "Current determines heating in the wire."}, {"text": "The voltage rating alone", "correct": false, "explanation": "Amp draw is what the wire and breaker handle."}]},
+  {"question": "Is a low-voltage source automatically safe to touch?", "difficulty": "hard", "options": [{"text": "No, wet skin lowers resistance and can let harmful current flow", "correct": true, "explanation": "Current through the body causes harm, driven by voltage."}, {"text": "Yes, below 50 volts is always harmless", "correct": false, "explanation": "Conditions such as wet skin change the risk."}, {"text": "Yes, if the amps are high", "correct": false, "explanation": "High amperage is not a safety feature."}]},
+];
 
 export default function Post() {
   return (

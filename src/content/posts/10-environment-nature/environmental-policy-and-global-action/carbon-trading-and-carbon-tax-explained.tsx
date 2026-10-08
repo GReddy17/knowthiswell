@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "environment-nature/what-the-paris-agreement-actually-commits-countries-to",
     "environment-nature/understanding-cop-climate-summits",
     "environment-nature/understanding-carbon-offsetting",
+    "environment-nature/corporate-sustainability-reporting-esg-basics",
   ],
   glossary: [
     {"term":"Carbon tax","definition":"A fixed government fee charged per ton of carbon dioxide (or equivalent greenhouse gas) emitted, which sets the price directly and lets total emissions adjust in response."},
@@ -54,6 +55,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "How does a carbon tax work?", "difficulty": "easy", "options": [{"text": "Emitters pay a fixed fee for each ton of CO2 they release", "correct": true, "explanation": "The price per ton is set directly."}, {"text": "Emitters trade permits on a market", "correct": false, "explanation": "That describes cap-and-trade."}, {"text": "Emitters are banned from emitting", "correct": false, "explanation": "A tax puts a price on emissions rather than banning them."}]},
+  {"question": "In a cap-and-trade system, who sets the total limit on emissions?", "difficulty": "easy", "options": [{"text": "The government sets the cap and issues permits up to it", "correct": true, "explanation": "Companies then buy and sell permits among themselves."}, {"text": "Each company sets its own cap", "correct": false, "explanation": "The cap is a government-set limit across the industry."}, {"text": "The permit market sets the cap", "correct": false, "explanation": "The market sets the price, not the cap."}]},
+  {"question": "Which approach fixes the price per ton and leaves total emissions uncertain?", "difficulty": "medium", "options": [{"text": "Cap-and-trade", "correct": false, "explanation": "Cap-and-trade fixes the quantity and lets the price float."}, {"text": "Neither approach", "correct": false, "explanation": "Each approach fixes one variable and leaves the other open."}, {"text": "A carbon tax", "correct": true, "explanation": "Businesses know their cost but the total quantity of emissions depends on how they respond."}]},
+  {"question": "The EU Emissions Trading System, the largest cap-and-trade example, launched in which year?", "difficulty": "medium", "options": [{"text": "1991", "correct": false, "explanation": "1991 is when Sweden introduced its carbon tax."}, {"text": "2005", "correct": true, "explanation": "It covers power generation and heavy industry across the EU."}, {"text": "2015", "correct": false, "explanation": "The EU ETS started a decade earlier."}]},
+  {"question": "A factory emits 5,000 tons of CO2 under a $50-per-ton carbon tax. What is its bill?", "difficulty": "medium", "options": [{"text": "$250,000", "correct": true, "explanation": "5,000 x $50 = $250,000."}, {"text": "$25,000", "correct": false, "explanation": "That would be a $5-per-ton rate."}, {"text": "$50,000", "correct": false, "explanation": "That would be 1,000 tons at $50."}]},
+  {"question": "Why does a shrinking cap tend to push the market price of allowances up?", "difficulty": "hard", "options": [{"text": "Fewer permits chase the same or growing demand", "correct": true, "explanation": "Scarcer supply raises the price discovered by trading."}, {"text": "The government sets a higher price each year", "correct": false, "explanation": "Under cap-and-trade the market discovers the price."}, {"text": "Companies emit more as the cap falls", "correct": false, "explanation": "A falling cap reduces permitted emissions."}]},
+];
 
 export default function Post() {
   return (

@@ -11,6 +11,7 @@ import {
   ActionChecklist,
   FAQBlock,
   GlossaryStrip,
+  SeeAlsoList,
   TermLink,
 } from '@/components';
 
@@ -23,15 +24,16 @@ export const metadata: PostFrontmatter = {
   videoQueue: true,
   tags: ["noreaster", "hurricanes", "weather patterns", "storms", "atlantic coast"],
   date: "2026-09-22",
-  updated: "2026-09-26",
+  updated: "2026-10-07",
   youtubeShort: false, youtubeLong: false,
   seoScore: 83, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-09-22",
+  lastReviewed: "2026-10-07",
   excerpt: "A nor'easter and a hurricane are both big coastal storms, but they run on opposite fuel — one needs warm ocean heat, the other needs a clash of cold and warm air.",
   summary: "Hurricanes are warm-core tropical storms fueled entirely by heat evaporating off warm ocean water. Nor'easters are cold-core storms powered by the temperature clash between cold continental air and the warm Gulf Stream along the U.S. East Coast — a completely different engine that can also bring snow and blizzard conditions a hurricane never could.",
   sources: [
     { label: "National Weather Service — Nor'easters", url: "https://www.weather.gov/safety/winter-noreaster" },
-    { label: "NOAA Ocean Service — What is a Nor'easter?", url: "https://oceanservice.noaa.gov/facts/noreaster.html" },
+    { label: "National Hurricane Center — Saffir-Simpson Hurricane Wind Scale", url: "https://www.nhc.noaa.gov/aboutsshws.php" },
+    { label: "National Hurricane Center — Tropical cyclone climatology (Atlantic season dates)", url: "https://www.nhc.noaa.gov/climo/" },
   ],
   seeAlso: [
     "general-science-facts/el-nino-and-la-nina-explained",
@@ -57,7 +59,7 @@ export const metadata: PostFrontmatter = {
 export const quiz: QuizBankItem[] = [
   {"question": "What fuels a hurricane?", "difficulty": "easy", "options": [{"text": "Heat from warm ocean water", "correct": true, "explanation": "Hurricanes are warm-core storms."}, {"text": "A clash between cold and warm air masses", "correct": false, "explanation": "That's the nor'easter's engine."}, {"text": "Snow melting on land", "correct": false, "explanation": "Hurricanes weaken over land."}]},
   {"question": "Why is a nor'easter called that?", "difficulty": "easy", "options": [{"text": "The winds on the coast blow from the northeast", "correct": true, "explanation": "The storm itself usually travels south to north."}, {"text": "It always travels toward the northeast", "correct": false, "explanation": "The name is about wind direction on the coast."}, {"text": "It forms in the northeast Atlantic", "correct": false, "explanation": "Most form near the U.S. East Coast."}]},
-  {"question": "When are nor'easters most frequent and intense?", "difficulty": "medium", "options": [{"text": "October through April", "correct": true, "explanation": "That's when the cold air and Gulf Stream contrast is sharpest."}, {"text": "June through August", "correct": false, "explanation": "That's closer to hurricane season."}, {"text": "Only in January", "correct": false, "explanation": "The season is much longer."}]},
+  {"question": "When are nor'easters most frequent and intense?", "difficulty": "medium", "options": [{"text": "September through April", "correct": true, "explanation": "That's when the cold air and Gulf Stream contrast is sharpest."}, {"text": "June through August", "correct": false, "explanation": "That's closer to hurricane season."}, {"text": "Only in January", "correct": false, "explanation": "The season is much longer."}]},
   {"question": "What is a 'bomb cyclone'?", "difficulty": "medium", "options": [{"text": "A storm whose central pressure drops at least 24 millibars in 24 hours", "correct": true, "explanation": "It describes rapid intensification."}, {"text": "A hurricane that hits a city", "correct": false, "explanation": "The term isn't about landfall."}, {"text": "A tornado inside a hurricane", "correct": false, "explanation": "It's about pressure drop."}]},
   {"question": "Can a nor'easter produce a blizzard?", "difficulty": "easy", "options": [{"text": "Yes, its cold-air side can bring heavy snow", "correct": true, "explanation": "A hurricane's warm-core engine can't."}, {"text": "No, only rain", "correct": false, "explanation": "Nor'easters often bring snow."}, {"text": "Only in the tropics", "correct": false, "explanation": "Blizzards need cold air."}]},
   {"question": "Can a nor'easter turn into a hurricane?", "difficulty": "hard", "options": [{"text": "Not directly, since they run on different engines", "correct": true, "explanation": "The reverse, a hurricane becoming extratropical, sometimes happens."}, {"text": "Yes, every nor'easter becomes one", "correct": false, "explanation": "They don't transition that way."}, {"text": "Yes, if it reaches Canada", "correct": false, "explanation": "Location doesn't change its engine."}]},
@@ -76,13 +78,33 @@ export default function Post() {
         ]}
       />
 
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Nor&apos;easter vs hurricane at a glance</h2>
+      <div className="prose-p">
+      <strong>Short answer:</strong> a hurricane is a warm-core tropical storm that runs on heat from warm ocean water. A nor&apos;easter is a cold-core storm that runs on the temperature clash between cold Arctic air and the milder air over the Gulf Stream. Both can bring hurricane-force wind and coastal flooding, but only a nor&apos;easter can bring a blizzard.
+      </div>
+      <div className="overflow-x-auto">
+      <table className="w-full text-sm border-collapse my-4">
+        <thead>
+          <tr className="border-b-2 border-ink text-left"><th className="py-2 pr-3"> </th><th className="py-2 pr-3">Hurricane</th><th className="py-2">Nor&apos;easter</th></tr>
+        </thead>
+        <tbody>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3 font-bold">Fuel</td><td className="py-2 pr-3">Heat from warm tropical ocean water</td><td className="py-2">Temperature contrast between cold Arctic air and milder air over the Gulf Stream</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3 font-bold">Core</td><td className="py-2 pr-3">Warm core</td><td className="py-2">Cold core (extratropical)</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3 font-bold">Season</td><td className="py-2 pr-3">Atlantic season runs June 1 to November 30</td><td className="py-2">Any time of year, most frequent and violent September to April</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3 font-bold">Name means</td><td className="py-2 pr-3">Tropical cyclone with sustained winds of 74 mph or more</td><td className="py-2">Winds over the coast are typically from the northeast</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3 font-bold">Typical hazards</td><td className="py-2 pr-3">Wind, storm surge, heavy rain</td><td className="py-2">Heavy rain or snow, gale-force wind, rough seas, occasional coastal flooding</td></tr>
+          <tr><td className="py-2 pr-3 font-bold">Where it forms</td><td className="py-2 pr-3">Tropical Atlantic and Caribbean</td><td className="py-2">Between Georgia and New Jersey, within about 100 miles of the coast</td></tr>
+        </tbody>
+      </table>
+      </div>
+
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
       <ModeToggle
         labels={{ plain: "Plain", detailed: "Detailed" }}
         plain={<div className="prose-p">A hurricane runs on one fuel: warm ocean water evaporating into a spinning storm, releasing heat as that moisture condenses. A nor&apos;easter runs on a completely different fuel: cold Arctic air crashing into the warm, moist air sitting over the Gulf Stream off the U.S. East Coast. That temperature clash, not ocean heat, is what spins the storm up. The name &quot;nor&apos;easter&quot; describes the wind direction people on the coast actually feel as the storm approaches — blowing in from the northeast — even though the storm itself is usually traveling northeast up the coastline, not from it.</div>}
         detailed={<div className="prose-p">Hurricanes are <TermLink href="/general-science-facts/what-makes-a-noreaster-different-from-a-hurricane">warm-core</TermLink> systems: a hurricane&apos;s structure is symmetric and warmest at its center, and it weakens the moment it loses its warm-water fuel source (which is why hurricanes fall apart over land or cool water). Nor&apos;easters are <TermLink href="/general-science-facts/what-makes-a-noreaster-different-from-a-hurricane">extratropical cyclones</TermLink> — cold-core, asymmetric storms that draw energy from <TermLink href="/general-science-facts/what-makes-a-noreaster-different-from-a-hurricane">baroclinic instability</TermLink>, the potential energy stored in a sharp temperature gradient between two air masses. The Gulf Stream keeps the ocean off the mid-Atlantic and New England coast unusually warm relative to the cold continental air sliding down from Canada in fall and winter; where those two masses meet, the jet stream can rapidly deepen the storm&apos;s low pressure. When that pressure drop hits at least 24 millibars in 24 hours, meteorologists call it <TermLink href="/general-science-facts/what-makes-a-noreaster-different-from-a-hurricane">bombogenesis</TermLink> — colloquially a &quot;bomb cyclone&quot; — and a nor&apos;easter undergoing it can intensify about as fast as a hurricane, without ever touching warm tropical water.</div>}
       />
-      <FootnoteAside>Nor&apos;easters can form and strike at any time of year, but they&apos;re most frequent and most intense from October through April, exactly when the temperature contrast between cold continental air and the still-warm Gulf Stream is largest.</FootnoteAside>
+      <FootnoteAside>Nor&apos;easters can form and strike at any time of year, but they&apos;re most frequent and most violent from September through April, exactly when the temperature contrast between cold continental air and the still-warm Gulf Stream is largest.</FootnoteAside>
 
       <p>
       That temperature-clash engine is also why a nor&apos;easter can do something no hurricane ever will: bury a coastline in snow.
@@ -138,7 +160,7 @@ export default function Post() {
       <MistakeList
         items={[
           { mistake: "Assuming \"nor'easter\" describes the direction the storm is traveling.", fix: "It describes the wind direction hitting the coast as the storm approaches — most nor'easters actually travel from south to north, up the coastline." },
-          { mistake: "Thinking nor'easters only happen in winter.", fix: "They're most common and intense from October to April, but the temperature-contrast mechanism that fuels them can produce a nor'easter in any season." },
+          { mistake: "Thinking nor'easters only happen in winter.", fix: "They're most common and violent from September to April, but the temperature-contrast mechanism that fuels them can produce a nor'easter in any season." },
           { mistake: "Assuming a storm must be tropical to be dangerous.", fix: "Nor'easters routinely produce hurricane-force winds, major coastal flooding, and blizzard conditions — they're extratropical, not weaker." },
         ]}
       />
@@ -161,13 +183,19 @@ export default function Post() {
         items={[
           { question: "Can a nor'easter turn into a hurricane?", answer: "Not directly — the two run on different engines (cold-core vs. warm-core), so a nor'easter doesn't transition into a hurricane. In rare cases, a weakening hurricane can transition the opposite way, becoming an extratropical, nor'easter-like storm as it moves over cooler water." },
           { question: "Why is it called a nor'easter if the storm moves north?", answer: "The name refers to the wind direction felt on the coast as the storm approaches — blowing in from the northeast — not the direction the storm itself is traveling, which is typically from south to north along the coastline." },
-          { question: "Do nor'easters only happen in winter?", answer: "No, though they're most frequent and intense from October through April, when the temperature contrast between cold continental air and the still-warm Gulf Stream is at its sharpest." },
+          { question: "Is a nor'easter worse than a hurricane?", answer: "Neither is simply worse. A hurricane concentrates the most extreme wind and storm surge near its landfall point. A nor'easter is typically larger, can last for days, and can add heavy snow, ice and repeated tidal flooding. The National Weather Service notes that damage from the worst nor'easters can exceed a billion dollars." },
+          { question: "What month are nor'easters most common?", answer: "The National Weather Service says nor'easters can occur at any time of year but are most frequent and most violent between September and April, peaking in the colder months when the contrast between Arctic air and Gulf Stream air is sharpest." },
+          { question: "Where do nor'easters form?", answer: "They usually develop in the latitudes between Georgia and New Jersey, within about 100 miles east or west of the East Coast, then move generally northeastward and often reach maximum intensity near New England and the Canadian Maritimes." },
+          { question: "Do nor'easters have a category scale like hurricanes?", answer: "No. Hurricanes are rated 1 to 5 on the Saffir-Simpson scale, which is based only on sustained wind speed (74 mph for Category 1). Nor'easters have no equivalent category, and forecasters instead issue winter storm, blizzard, high wind and coastal flood watches and warnings." },
+          { question: "Do nor'easters only happen in winter?", answer: "No, though the National Weather Service says they're most frequent and violent between September and April, when the temperature contrast between cold continental air and the still-warm Gulf Stream is at its sharpest." },
           { question: "What's a 'bomb cyclone' and is it the same as a nor'easter?", answer: "A bomb cyclone is any storm — nor'easters included — whose central pressure drops at least 24 millibars in 24 hours, a rate of rapid intensification. Not every nor'easter undergoes bombogenesis, but the strongest ones often do." },
         ]}
       />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Related terms</h2>
       <GlossaryStrip terms={metadata.glossary ?? []} />
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">See also</h2>
+      <SeeAlsoList slugs={metadata.seeAlso ?? []} />
     </>
   );
 }

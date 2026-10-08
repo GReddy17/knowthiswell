@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "environment-nature/understanding-your-carbon-footprint",
     "environment-nature/carbon-trading-and-carbon-tax-explained",
     "environment-nature/eco-friendly-transportation-choices",
+    "environment-nature/corporate-sustainability-reporting-esg-basics",
   ],
   glossary: [
     {"term":"Carbon offset","definition":"A purchasable credit representing one metric ton of CO2-equivalent emissions reduced, avoided, or removed elsewhere, used to counterbalance emissions from a different source."},
@@ -53,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does additionality mean for a carbon offset?", "difficulty": "medium", "options": [{"text": "The reduction would not have happened without the offset purchase", "correct": true, "explanation": "This is why projects that would have been built anyway are not credible offsets."}, {"text": "The project adds extra trees to a forest", "correct": false, "explanation": "That is a type of project, not what additionality means."}, {"text": "The offset costs extra on top of the flight price", "correct": false, "explanation": "Additionality is about climate impact, not price."}]},
+  {"question": "A round trip produces 0.9 tons of CO2e and offsets cost $15 per ton. What does offsetting it cost?", "difficulty": "easy", "options": [{"text": "$13.50", "correct": true, "explanation": "0.9 x $15 = $13.50."}, {"text": "$15.00", "correct": false, "explanation": "That ignores the 0.9 factor."}, {"text": "$135.00", "correct": false, "explanation": "That multiplies by 9 instead of 0.9."}]},
+  {"question": "Does buying an offset stop the original activity from emitting CO2?", "difficulty": "easy", "options": [{"text": "No, it funds a reduction or removal elsewhere", "correct": true, "explanation": "The flight still releases its CO2."}, {"text": "Yes, it cancels the emissions at the source", "correct": false, "explanation": "An offset funds an equivalent reduction elsewhere instead."}, {"text": "Yes, but only for flights", "correct": false, "explanation": "Offsets do not stop emissions at the source for any activity."}]},
+  {"question": "What does permanence mean when judging an offset project?", "difficulty": "medium", "options": [{"text": "The reduction is durable and not easily reversed", "correct": true, "explanation": "A forest that later burns, for example, may not be permanent."}, {"text": "The offset can be resold forever", "correct": false, "explanation": "Resale is unrelated to permanence."}, {"text": "The credit never expires on paper", "correct": false, "explanation": "Permanence is about the real-world climate outcome."}]},
+  {"question": "Why is offset price alone a poor quality signal?", "difficulty": "hard", "options": [{"text": "The cheapest offset is always the best", "correct": false, "explanation": "Low price does not mean high verified impact."}, {"text": "Prices are set by governments", "correct": false, "explanation": "Offset prices are set by the voluntary market, not governments."}, {"text": "Cheap and expensive offsets can claim the same tons with very different certainty", "correct": true, "explanation": "Rigor, permanence and additionality can differ enormously."}]},
+  {"question": "What do bodies like the Science Based Targets initiative say about offsets in net-zero pledges?", "difficulty": "hard", "options": [{"text": "Offsets should supplement, not replace, direct emission cuts", "correct": true, "explanation": "Offset-heavy pledges can look like progress without actually emitting less."}, {"text": "Offsets can fully replace cutting your own emissions", "correct": false, "explanation": "Standards bodies push back on that pattern."}, {"text": "Offsets are banned in every pledge", "correct": false, "explanation": "The position is that offsets supplement direct cuts, not that they are banned."}]},
+];
 
 export default function Post() {
   return (

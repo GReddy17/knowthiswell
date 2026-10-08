@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "environment-nature/how-environmental-ngos-operate",
     "environment-nature/air-pollution-sources-and-health-impact",
     "environment-nature/what-an-environmental-impact-assessment-is",
+    "environment-nature/corporate-sustainability-reporting-esg-basics",
   ],
   glossary: [
     {"term":"Environmental justice","definition":"The principle that all people, regardless of race, ethnicity, or income, deserve fair treatment and meaningful involvement in environmental laws, regulations, and policies, and should not bear a disproportionate share of environmental harm."},
@@ -53,6 +54,15 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does environmental justice hold?", "difficulty": "easy", "options": [{"text": "Environmental burdens should not fall disproportionately on any community", "correct": true, "explanation": "It applies regardless of race or income."}, {"text": "Only wealthy areas deserve clean air", "correct": false, "explanation": "That contradicts the principle."}, {"text": "Pollution is acceptable if it is cheaper", "correct": false, "explanation": "Environmental justice rejects that tradeoff."}]},
+  {"question": "The modern environmental justice movement traces to a 1982 protest in which place?", "difficulty": "medium", "options": [{"text": "Warren County, North Carolina", "correct": true, "explanation": "The protest was against a PCB-contaminated soil landfill."}, {"text": "Love Canal, New York", "correct": false, "explanation": "Love Canal is a different, well-known contamination case."}, {"text": "Flint, Michigan", "correct": false, "explanation": "Flint's water crisis came decades later."}]},
+  {"question": "What is cumulative impact in environmental justice analysis?", "difficulty": "medium", "options": [{"text": "The total cost of one cleanup", "correct": false, "explanation": "Cumulative impact is about combined exposure, not cleanup cost."}, {"text": "The combined burden from multiple pollution sources at once", "correct": true, "explanation": "It looks beyond any single facility in isolation."}, {"text": "The history of a single facility", "correct": false, "explanation": "It covers several sources, not one facility's history."}]},
+  {"question": "What is the purpose of the EPA's Office of Environmental Justice?", "difficulty": "medium", "options": [{"text": "To build these considerations into permitting, regulation and enforcement", "correct": true, "explanation": "It makes the principle operational, not just academic."}, {"text": "To run national parks", "correct": false, "explanation": "Parks are managed by other agencies."}, {"text": "To set electricity prices", "correct": false, "explanation": "Energy pricing is not its role."}]},
+  {"question": "What does the term environmental racism describe?", "difficulty": "medium", "options": [{"text": "Hazardous facilities disproportionately located near communities of color", "correct": true, "explanation": "It can result from deliberate targeting or cumulative siting decisions."}, {"text": "Pollution that affects only one species", "correct": false, "explanation": "The term is about communities, not species."}, {"text": "A type of recycling program", "correct": false, "explanation": "It is unrelated to recycling."}]},
+  {"question": "The 1982 Warren County protest led directly to what?", "difficulty": "hard", "options": [{"text": "A 1983 federal study and a 1987 national report documenting the broader pattern", "correct": true, "explanation": "These documented the pattern beyond one site."}, {"text": "The creation of the EU ETS", "correct": false, "explanation": "That is unrelated to the protest."}, {"text": "An immediate nationwide ban on landfills", "correct": false, "explanation": "No such ban followed."}]},
+];
 
 export default function Post() {
   return (

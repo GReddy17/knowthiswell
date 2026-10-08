@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,14 +22,18 @@ export const metadata: PostFrontmatter = {
   subtopic: "environmental-policy-and-global-action",
   tags: ["ESG", "sustainability reporting", "corporate disclosure", "TCFD", "ISSB"],
   date: "2026-08-22",
-  updated: "2026-08-22",
+  updated: "2026-10-07",
   youtubeShort: false, youtubeLong: false,
   seoScore: 67, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-08-22",
+  lastReviewed: "2026-10-07",
   excerpt: "ESG reporting is how companies formally disclose their environmental, social, and governance performance — and standardized frameworks now exist specifically so those disclosures can actually be compared across companies.",
   summary: "ESG (Environmental, Social, Governance) reporting is the practice of a company formally disclosing data on its environmental impact, social practices, and governance structure, following standardized frameworks so investors and regulators can compare performance across companies rather than trusting each company's own self-description.",
   sources: [
+    { label: "IFRS Foundation — IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information", url: "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s1-general-requirements/" },
     { label: "International Sustainability Standards Board (ISSB) — About the ISSB", url: "https://www.ifrs.org/groups/international-sustainability-standards-board/" },
+    { label: "European Commission — Corporate sustainability reporting", url: "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en" },
+    { label: "Council of the EU — Council signs off simplification of sustainability reporting and due diligence requirements (24 Feb 2026)", url: "https://www.consilium.europa.eu/en/press/press-releases/2026/02/24/council-signs-off-simplification-of-sustainability-reporting-and-due-diligence-requirements-to-boost-eu-competitiveness/" },
+    { label: "U.S. SEC — SEC proposes rescission of climate-related disclosure rules (2026)", url: "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules" },
     { label: "Task Force on Climate-related Financial Disclosures (TCFD) — Overview", url: "https://www.fsb-tcfd.org/" },
     { label: "Global Reporting Initiative (GRI) — About GRI Standards", url: "https://www.globalreporting.org/standards/" },
   ],
@@ -37,6 +41,7 @@ export const metadata: PostFrontmatter = {
     "environment-nature/what-an-environmental-impact-assessment-is",
     "environment-nature/carbon-trading-and-carbon-tax-explained",
     "environment-nature/understanding-environmental-justice",
+    "environment-nature/understanding-carbon-offsetting",
   ],
   glossary: [
     {"term":"ESG (Environmental, Social, Governance)","definition":"A framework for evaluating a company's performance on three non-financial dimensions: environmental impact, treatment of people (employees, communities, supply chain), and internal governance structure."},
@@ -54,6 +59,15 @@ export const metadata: PostFrontmatter = {
   draft: false,
 };
 
+export const quiz: QuizBankItem[] = [
+  {"question": "What does ESG stand for?", "difficulty": "easy", "options": [{"text": "Environmental, Social, and Governance", "correct": true, "explanation": "The three non-financial categories companies are asked to report on."}, {"text": "Economic, Safety, and Growth", "correct": false, "explanation": "Those words are not what ESG stands for."}, {"text": "Energy, Supply, and Grid", "correct": false, "explanation": "ESG is not an energy-sector term."}]},
+  {"question": "Which body issued the IFRS S1 and S2 sustainability disclosure standards?", "difficulty": "medium", "options": [{"text": "The Global Reporting Initiative (GRI)", "correct": false, "explanation": "GRI publishes its own separate GRI Standards."}, {"text": "The International Sustainability Standards Board (ISSB)", "correct": true, "explanation": "The ISSB was formed in 2021 and issued its first standards in 2023."}, {"text": "The U.S. SEC", "correct": false, "explanation": "The SEC is a U.S. regulator, not the author of IFRS S1 and S2."}]},
+  {"question": "Which framework was built specifically around climate-related financial risk for investors?", "difficulty": "medium", "options": [{"text": "GRI", "correct": false, "explanation": "GRI covers broad sustainability impact, not only climate-financial risk."}, {"text": "CSRD", "correct": false, "explanation": "CSRD is an EU law, not a voluntary framework."}, {"text": "TCFD", "correct": true, "explanation": "The Task Force on Climate-related Financial Disclosures focused on climate risk."}]},
+  {"question": "What is greenwashing?", "difficulty": "easy", "options": [{"text": "Presenting a company as more environmentally responsible than its practices justify", "correct": true, "explanation": "Typically through vague or unverifiable claims instead of auditable disclosure."}, {"text": "Washing equipment with recycled water", "correct": false, "explanation": "That is a literal reading and not the term's meaning."}, {"text": "Publishing an audited emissions report", "correct": false, "explanation": "That is the opposite of greenwashing."}]},
+  {"question": "After the EU's 2026 Omnibus I changes, CSRD targets companies with more than how many employees (and more than €450 million turnover)?", "difficulty": "hard", "options": [{"text": "250", "correct": false, "explanation": "250 employees was the earlier, much broader threshold idea."}, {"text": "1,000", "correct": true, "explanation": "Both tests must be met, and the new scope applies from financial years starting 1 January 2028."}, {"text": "10,000", "correct": false, "explanation": "The threshold is far lower than 10,000 employees."}]},
+  {"question": "What is the status of the U.S. SEC climate disclosure rule in 2026?", "difficulty": "hard", "options": [{"text": "It has been stayed, the SEC stopped defending it, and it proposed rescinding it", "correct": true, "explanation": "The rule was adopted in 2024, stayed, and the SEC proposed rescission in 2026."}, {"text": "It is fully in force and audited", "correct": false, "explanation": "It has been stayed and is not being enforced."}, {"text": "It was replaced by the EU CSRD", "correct": false, "explanation": "The CSRD is a separate EU law and does not replace a U.S. rule."}]},
+];
+
 export default function Post() {
   return (
     <>
@@ -65,6 +79,25 @@ export default function Post() {
       "In 2023 the International Sustainability Standards Board (ISSB) issued its first global baseline standards, aiming to consolidate what had been a fragmented landscape of competing voluntary frameworks.",
       ]}
       />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">ESG reporting at a glance (2026)</h2>
+      <div className="prose-p">
+      <strong>Short answer:</strong> ESG reporting is a company publishing audited-style numbers on emissions, workforce and governance under a named standard, instead of describing itself in marketing language. Three standard-setters matter: GRI (broad impact), TCFD (climate-risk structure, now folded into ISSB work) and the ISSB&apos;s IFRS S1 and S2 (the global investor baseline). Whether a given company must report depends on where it operates, and that picture changed in 2026.
+      </div>
+      <div className="overflow-x-auto">
+      <table className="w-full text-sm border-collapse my-4">
+        <thead>
+          <tr className="border-b-2 border-ink text-left"><th className="py-2 pr-3">Framework or rule</th><th className="py-2 pr-3">Who it is for</th><th className="py-2">Status</th></tr>
+        </thead>
+        <tbody>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">GRI Standards</td><td className="py-2 pr-3">Anyone reporting broad sustainability impact</td><td className="py-2">Voluntary standard, widely used</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">TCFD recommendations</td><td className="py-2 pr-3">Investors wanting climate-risk disclosure</td><td className="py-2">Structure absorbed into IFRS S2</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">IFRS S1 and S2 (ISSB)</td><td className="py-2 pr-3">Investor-focused global baseline</td><td className="py-2">Used or being introduced in about 40 jurisdictions as of February 2026</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">EU CSRD</td><td className="py-2 pr-3">Large companies operating in the EU</td><td className="py-2">Scope cut by the 2026 Omnibus I directive to companies with over 1,000 employees and over €450 million turnover, for financial years starting 1 January 2028 or later</td></tr>
+          <tr><td className="py-2 pr-3">U.S. SEC climate rule</td><td className="py-2 pr-3">U.S. public companies</td><td className="py-2">Stayed since 2024; SEC stopped defending it in 2025 and proposed rescinding it in 2026</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
       <ModeToggle
@@ -162,7 +195,11 @@ export default function Post() {
       { question: "What does ESG stand for?", answer: "Environmental, Social, and Governance — three non-financial categories companies are increasingly required or encouraged to formally report on." },
       { question: "What is the difference between GRI and TCFD?", answer: "GRI (Global Reporting Initiative) provides broad sustainability-impact reporting standards, while TCFD (Task Force on Climate-related Financial Disclosures) focuses specifically on climate-related financial risk disclosure for investors." },
       { question: "What is the ISSB?", answer: "The International Sustainability Standards Board, formed in 2021, which issued its first global baseline sustainability disclosure standards in 2023 to consolidate the previously fragmented landscape of ESG reporting frameworks." },
-      { question: "Is ESG reporting mandatory?", answer: "It depends on the jurisdiction — regulations like the EU's Corporate Sustainability Reporting Directive make detailed, audited ESG disclosure a legal requirement for many large companies, while it remains more voluntary in other regions." },
+      { question: "Is ESG reporting mandatory?", answer: "It depends on the jurisdiction — regulations like the EU's Corporate Sustainability Reporting Directive make detailed, audited ESG disclosure a legal requirement for large companies, while it remains more voluntary in other regions. The EU's 2026 Omnibus I directive narrowed that scope to companies with more than 1,000 employees and more than €450 million in turnover, applying from financial years starting 1 January 2028." },
+      { question: "Who has to report under CSRD now?", answer: "After the Omnibus I directive (adopted February 2026), the reporting requirement targets companies with more than 1,000 employees and more than €450 million in net turnover; both tests must be met. Check the European Commission's CSRD page for the current timetable, since transitional rules differ by company type." },
+      { question: "Is the SEC climate disclosure rule in force?", answer: "No. The SEC adopted climate disclosure rules in March 2024, stayed them while courts reviewed them, voted in March 2025 to stop defending them, and proposed rescinding them in 2026. U.S. companies may still report voluntarily under frameworks like ISSB or GRI." },
+      { question: "What is the difference between ESG reporting and sustainability reporting?", answer: "In practice the terms overlap. Sustainability reporting is the broader label for disclosure about environmental and social impact; ESG reporting frames the same information around the three categories investors screen on: environmental, social and governance." },
+      { question: "Which ESG reporting standard should a company use?", answer: "It depends on the audience. Investors usually want IFRS S1 and S2 (ISSB) for financially material information; stakeholders wanting broader impact data look to GRI; companies in the EU follow the European standards required by CSRD." },
       { question: "What is greenwashing?", answer: "The practice of a company presenting itself as more environmentally responsible than its actual practices justify, typically through vague or unverifiable marketing claims rather than standardized, auditable ESG disclosure." },
       ]}
       />
