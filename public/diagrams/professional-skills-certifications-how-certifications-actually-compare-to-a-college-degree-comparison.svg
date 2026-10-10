@@ -1,0 +1,45 @@
+<svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cdTitle">
+  <title id="cdTitle">Bachelor's degree versus professional certification across six rows. Verifies: years of broad study at an accredited school versus passing one standardized exam on a defined skill set. Typical time: about four years versus weeks to months. Typical cost: tens of thousands of dollars before aid versus hundreds per exam. Expiry: never versus renewal every few years through continuing education. Required by law for: some licensed jobs such as registered nurse, teacher and CPA versus rarely. Best use: broad base and legal gate versus targeted, current proof. BLS 2023 median weekly earnings: $1,493 for bachelor's holders versus $899 for high school graduates. Stack them where you can.</title>
+  <rect width="680" height="420" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="340" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#1F1B16">Degree or certification? What each actually verifies</text>
+
+    <rect x="200" y="44" width="230" height="32" rx="6" fill="#2C4A3E"/>
+    <text x="315" y="65" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Bachelor's degree</text>
+    <rect x="440" y="44" width="230" height="32" rx="6" fill="#8B6F4E"/>
+    <text x="555" y="65" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Professional certification</text>
+
+    <text x="14" y="104" font-size="12" font-weight="700" fill="#1F1B16">Verifies</text>
+    <text x="315" y="104" text-anchor="middle" font-size="11" fill="#1F1B16">years of broad, accredited study</text>
+    <text x="555" y="104" text-anchor="middle" font-size="11" fill="#1F1B16">one exam on a defined skill set</text>
+    <line x1="14" y1="120" x2="670" y2="120" stroke="#D9D2C3"/>
+
+    <text x="14" y="146" font-size="12" font-weight="700" fill="#1F1B16">Typical time</text>
+    <text x="315" y="146" text-anchor="middle" font-size="11" fill="#1F1B16">about 4 years full time</text>
+    <text x="555" y="146" text-anchor="middle" font-size="11" fill="#1F1B16">weeks to a few months</text>
+    <line x1="14" y1="162" x2="670" y2="162" stroke="#D9D2C3"/>
+
+    <text x="14" y="188" font-size="12" font-weight="700" fill="#1F1B16">Typical cost</text>
+    <text x="315" y="188" text-anchor="middle" font-size="11" fill="#1F1B16">tens of thousands before aid</text>
+    <text x="555" y="188" text-anchor="middle" font-size="11" fill="#1F1B16">hundreds of dollars per exam</text>
+    <line x1="14" y1="204" x2="670" y2="204" stroke="#D9D2C3"/>
+
+    <text x="14" y="230" font-size="12" font-weight="700" fill="#1F1B16">Expires?</text>
+    <text x="315" y="230" text-anchor="middle" font-size="12" font-weight="700" fill="#2C4A3E">never</text>
+    <text x="555" y="230" text-anchor="middle" font-size="12" font-weight="700" fill="#B5552B">renew every few years (CE credits)</text>
+    <line x1="14" y1="246" x2="670" y2="246" stroke="#D9D2C3"/>
+
+    <text x="14" y="272" font-size="12" font-weight="700" fill="#1F1B16">Required by law</text>
+    <text x="315" y="272" text-anchor="middle" font-size="11" fill="#1F1B16">some licensed jobs: RN, teacher, CPA</text>
+    <text x="555" y="272" text-anchor="middle" font-size="11" fill="#1F1B16">rarely</text>
+    <line x1="14" y1="288" x2="670" y2="288" stroke="#D9D2C3"/>
+
+    <text x="14" y="314" font-size="12" font-weight="700" fill="#1F1B16">Best use</text>
+    <text x="315" y="314" text-anchor="middle" font-size="11" fill="#1F1B16">broad base and legal gate</text>
+    <text x="555" y="314" text-anchor="middle" font-size="11" fill="#1F1B16">targeted, current proof of a skill</text>
+
+    <rect x="14" y="340" width="656" height="64" rx="8" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="342" y="364" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">BLS 2023 median weekly earnings: $1,493 (bachelor's) vs $899 (high school)</text>
+    <text x="342" y="386" text-anchor="middle" font-size="11" fill="#4A443C">Group averages, not a guarantee · most people get the most by stacking both</text>
+  </g>
+</svg>

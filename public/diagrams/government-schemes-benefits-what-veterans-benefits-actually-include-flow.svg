@@ -1,0 +1,59 @@
+<svg viewBox="0 0 560 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="vbTitle">
+  <title id="vbTitle">How veterans benefits branch out: the shared gate is a discharge other than dishonorable. Separate programs then branch out, each with its own extra test: health care, disability compensation, the Post-9/11 GI Bill, VA home loans, needs-based pension, and burial benefits. Figures change every December; check VA's current tables.</title>
+  <rect width="560" height="520" fill="#FBF8F1"/>
+  <text x="280" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">How veterans benefits branch out</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="130" y="48" width="300" height="50" rx="6" fill="#2C4A3E"/>
+    <text x="280" y="69" font-size="12" font-weight="700" fill="#FBF8F1">Shared gate: discharge other than dishonorable</text>
+    <text x="280" y="86" font-size="11" fill="#FBF8F1">other than honorable → VA decides case by case</text>
+    <path d="M280 98 V116 M100 116 H460 M100 116 V130 M280 116 V130 M460 116 V130" fill="none" stroke="#8B6F4E" stroke-width="2"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="20" y="130" width="160" height="100" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="100" y="152" font-size="12" font-weight="700" fill="#1F1B16">Health care</text>
+    <text x="100" y="172" font-size="10" fill="#4A443C">usually 24 months or</text>
+    <text x="100" y="186" font-size="10" fill="#4A443C">full call-up period</text>
+    <text x="100" y="204" font-size="10" fill="#4A443C">priority groups 1 to 8</text>
+    <text x="100" y="220" font-size="10" fill="#4A443C">PACT Act widened access</text>
+    <rect x="200" y="130" width="160" height="100" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="152" font-size="12" font-weight="700" fill="#1F1B16">Disability pay</text>
+    <text x="280" y="172" font-size="10" fill="#4A443C">needs service connection</text>
+    <text x="280" y="186" font-size="10" fill="#4A443C">rated 0 to 100%, tax-free</text>
+    <text x="280" y="204" font-size="10" fill="#4A443C">combined with VA math:</text>
+    <text x="280" y="220" font-size="10" font-weight="700" fill="#2C4A3E">50% + 30% = 70%</text>
+    <rect x="380" y="130" width="160" height="100" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="460" y="152" font-size="12" font-weight="700" fill="#1F1B16">Post-9/11 GI Bill</text>
+    <text x="460" y="172" font-size="10" fill="#4A443C">up to 36 months</text>
+    <text x="460" y="186" font-size="10" fill="#4A443C">tuition, housing, books</text>
+    <text x="460" y="204" font-size="10" fill="#4A443C">share scaled by</text>
+    <text x="460" y="220" font-size="10" fill="#4A443C">length of service</text>
+    <rect x="20" y="250" width="160" height="100" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="100" y="272" font-size="12" font-weight="700" fill="#1F1B16">Home loan</text>
+    <text x="100" y="292" font-size="10" fill="#4A443C">often no down payment</text>
+    <text x="100" y="306" font-size="10" fill="#4A443C">no mortgage insurance</text>
+    <text x="100" y="324" font-size="10" fill="#4A443C">funding fee, waived for</text>
+    <text x="100" y="340" font-size="10" fill="#4A443C">compensation recipients</text>
+    <rect x="200" y="250" width="160" height="100" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="280" y="272" font-size="12" font-weight="700" fill="#1F1B16">Pension</text>
+    <text x="280" y="292" font-size="10" fill="#4A443C">wartime service</text>
+    <text x="280" y="306" font-size="10" fill="#4A443C">limited income and assets</text>
+    <text x="280" y="324" font-size="10" fill="#4A443C">65+ or permanently disabled</text>
+    <text x="280" y="340" font-size="10" fill="#4A443C">no service link needed</text>
+    <rect x="380" y="250" width="160" height="100" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="460" y="272" font-size="12" font-weight="700" fill="#1F1B16">Also</text>
+    <text x="460" y="292" font-size="10" fill="#4A443C">job training (VR&amp;E)</text>
+    <text x="460" y="306" font-size="10" fill="#4A443C">life insurance</text>
+    <text x="460" y="324" font-size="10" fill="#4A443C">burial in a national</text>
+    <text x="460" y="340" font-size="10" fill="#4A443C">cemetery, headstone</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="20" y="372" width="520" height="56" rx="6" fill="#8B6F4E"/>
+    <text x="280" y="395" font-size="12" font-weight="700" fill="#FBF8F1">Each door checks its own extra test</text>
+    <text x="280" y="414" font-size="11" fill="#FBF8F1">failing one (e.g. no service-connected condition) doesn&apos;t close the others</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" text-anchor="middle">
+    <rect x="20" y="446" width="520" height="56" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="280" y="470" fill="#4A443C">Rates adjust every December; fee tables can change. Check VA.gov.</text>
+    <text x="280" y="488" font-size="10" fill="#8B6F4E">Source: U.S. Department of Veterans Affairs</text>
+  </g>
+</svg>

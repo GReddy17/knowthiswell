@@ -1,0 +1,46 @@
+<svg viewBox="0 0 660 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="aiTitle">
+  <title id="aiTitle">Evidence ladder for spotting AI-generated content, strongest to weakest: 1 provenance (Content Credentials or a verified watermark), 2 source and context (first appearance, reverse image search), 3 checkable facts (do quotes, studies and citations exist), 4 style hints (weak), 5 detector score (a lead, never proof). Stack independent signals.</title>
+  <rect width="660" height="380" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="330" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="#1F1B16">Was this made by AI? The evidence ladder</text>
+    <text x="40" y="58" font-size="11" font-weight="700" fill="#2C4A3E">STRONGER</text>
+    <line x1="58" y1="66" x2="58" y2="336" stroke="#4A443C" stroke-width="1.5"/>
+    <polygon points="52,72 58,62 64,72" fill="#2C4A3E"/>
+    <polygon points="52,330 58,340 64,330" fill="#B5552B"/>
+    <text x="40" y="358" font-size="11" font-weight="700" fill="#B5552B">WEAKER</text>
+
+    <rect x="80" y="66" width="400" height="48" rx="8" fill="#2C4A3E"/>
+    <text x="96" y="86" font-size="13" font-weight="700" fill="#FFFFFF">1. Provenance</text>
+    <text x="96" y="104" font-size="11" fill="#FFFFFF">Content Credentials (C2PA) or a verified vendor watermark</text>
+
+    <rect x="80" y="122" width="400" height="48" rx="8" fill="#2C4A3E" opacity="0.85"/>
+    <text x="96" y="142" font-size="13" font-weight="700" fill="#FFFFFF">2. Source and context</text>
+    <text x="96" y="160" font-size="11" fill="#FFFFFF">Who posted it first? Reverse image search, lateral reading</text>
+
+    <rect x="80" y="178" width="400" height="48" rx="8" fill="#8B6F4E"/>
+    <text x="96" y="198" font-size="13" font-weight="700" fill="#FFFFFF">3. Checkable facts</text>
+    <text x="96" y="216" font-size="11" fill="#FFFFFF">Do the quotes, studies and citations actually exist?</text>
+
+    <rect x="80" y="234" width="400" height="48" rx="8" fill="#B5552B" opacity="0.7"/>
+    <text x="96" y="254" font-size="13" font-weight="700" fill="#1F1B16">4. Style hints</text>
+    <text x="96" y="272" font-size="11" fill="#1F1B16">Generic phrasing, odd hands. Humans and edits trigger these too</text>
+
+    <rect x="80" y="290" width="400" height="48" rx="8" fill="#B5552B" opacity="0.45"/>
+    <text x="96" y="310" font-size="13" font-weight="700" fill="#1F1B16">5. Detector score</text>
+    <text x="96" y="328" font-size="11" fill="#1F1B16">A probability from word patterns. A lead, never proof</text>
+
+    <rect x="498" y="66" width="146" height="272" rx="8" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="571" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">Rule of thumb</text>
+    <text x="571" y="116" text-anchor="middle" font-size="11" fill="#4A443C">Rung 1 is strong</text>
+    <text x="571" y="131" text-anchor="middle" font-size="11" fill="#4A443C">but usually missing:</text>
+    <text x="571" y="146" text-anchor="middle" font-size="11" fill="#4A443C">screenshots and</text>
+    <text x="571" y="161" text-anchor="middle" font-size="11" fill="#4A443C">re-uploads strip it.</text>
+    <text x="571" y="192" text-anchor="middle" font-size="11" fill="#4A443C">No label does NOT</text>
+    <text x="571" y="207" text-anchor="middle" font-size="11" fill="#4A443C">mean human-made.</text>
+    <text x="571" y="240" text-anchor="middle" font-size="12" font-weight="700" fill="#2C4A3E">Stack 2 to 3</text>
+    <text x="571" y="256" text-anchor="middle" font-size="12" font-weight="700" fill="#2C4A3E">independent checks</text>
+    <text x="571" y="286" text-anchor="middle" font-size="10" fill="#4A443C">Then ask: is it true,</text>
+    <text x="571" y="300" text-anchor="middle" font-size="10" fill="#4A443C">and who stands</text>
+    <text x="571" y="314" text-anchor="middle" font-size="10" fill="#4A443C">behind it?</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 560 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gcTitle">
+  <title id="gcTitle">Before you hit send in a group chat: does everyone need this? If no, send a direct message. Could the tone be misread? If yes, use plain wording. Do you need an answer? If yes, name the person. Is it late for anyone? If yes and not urgent, wait or schedule it. Then send. Side panel: the three mechanisms are that text loses tone, every message notifies everyone, and group questions diffuse responsibility.</title>
+  <rect width="560" height="500" fill="#FBF8F1"/>
+  <text x="280" y="30" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Before you hit send in a group chat</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="30" y="50" width="250" height="46" rx="6" fill="#2C4A3E"/>
+    <text x="155" y="70" font-size="12" font-weight="700" fill="#FBF8F1">1. Does everyone need this?</text>
+    <text x="155" y="86" font-size="11" fill="#FBF8F1">yes → continue</text>
+    <path d="M280 73 H310" stroke="#8B6F4E" stroke-width="2"/>
+    <rect x="310" y="54" width="110" height="38" rx="6" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="365" y="70" font-size="10" font-weight="700" fill="#8B6F4E">no → send</text>
+    <text x="365" y="84" font-size="10" fill="#4A443C">a direct message</text>
+    <text x="155" y="114" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="30" y="122" width="250" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="155" y="142" font-size="12" font-weight="700" fill="#1F1B16">2. Could the tone be misread?</text>
+    <text x="155" y="158" font-size="11" fill="#4A443C">yes → say it plainly</text>
+    <text x="155" y="186" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="30" y="194" width="250" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="155" y="214" font-size="12" font-weight="700" fill="#1F1B16">3. Need an answer?</text>
+    <text x="155" y="230" font-size="11" fill="#4A443C">yes → name the person and deadline</text>
+    <text x="155" y="258" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="30" y="266" width="250" height="46" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="155" y="286" font-size="12" font-weight="700" fill="#1F1B16">4. Is it late for anyone?</text>
+    <text x="155" y="302" font-size="11" fill="#4A443C">not urgent → wait or schedule</text>
+    <text x="155" y="330" font-size="16" fill="#8B6F4E">↓</text>
+    <rect x="30" y="338" width="250" height="46" rx="6" fill="#8B6F4E"/>
+    <text x="155" y="358" font-size="12" font-weight="700" fill="#FBF8F1">5. Send</text>
+    <text x="155" y="374" font-size="11" fill="#FBF8F1">clear, relevant, owned</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <rect x="310" y="122" width="225" height="262" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5"/>
+    <text x="422" y="146" font-size="12" font-weight="700" fill="#2C4A3E">Why the rules exist</text>
+    <text x="422" y="176" font-size="11" font-weight="700" fill="#1F1B16">Text loses tone</text>
+    <text x="422" y="194" font-size="10" fill="#4A443C">senders expected ~78% to read</text>
+    <text x="422" y="208" font-size="10" fill="#4A443C">their tone; readers got ~56%</text>
+    <text x="422" y="240" font-size="11" font-weight="700" fill="#1F1B16">Every message buzzes everyone</text>
+    <text x="422" y="258" font-size="10" fill="#4A443C">12 members = 11 notifications</text>
+    <text x="422" y="272" font-size="10" fill="#4A443C">per message</text>
+    <text x="422" y="304" font-size="11" font-weight="700" fill="#1F1B16">Group questions stall</text>
+    <text x="422" y="322" font-size="10" fill="#4A443C">diffusion of responsibility:</text>
+    <text x="422" y="336" font-size="10" fill="#4A443C">everyone assumes someone</text>
+    <text x="422" y="350" font-size="10" fill="#4A443C">else will reply</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" text-anchor="middle">
+    <rect x="20" y="408" width="520" height="70" rx="6" fill="#FBF8F1" stroke="#2C4A3E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="280" y="432" fill="#4A443C">Norms differ between family, friends and work chats, and across cultures.</text>
+    <text x="280" y="452" fill="#4A443C">The reasons stay the same.</text>
+    <text x="280" y="470" font-size="10" fill="#8B6F4E">Sources: Kruger et al. 2005; Darley &amp; Latane 1968</text>
+  </g>
+</svg>

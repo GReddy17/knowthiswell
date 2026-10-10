@@ -1,0 +1,49 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="irTitle">
+  <title id="irTitle">Price change on $1,000 bonds paying 3% when comparable rates rise from 3% to 4%: 2-year minus 1.9%, 10-year minus 8.1%, 20-year minus 13.6%, 30-year minus 17.3%. For stocks, $100 due in 1 year loses 1.9% of present value when the discount rate rises from 3% to 5%; $100 due in 10 years loses 17.5%. Savings yields tend to rise.</title>
+  <rect width="680" height="360" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="340" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#1F1B16">Rates rise 1 point: the further away the cash, the bigger the hit</text>
+    <text x="230" y="56" text-anchor="middle" font-size="12" font-weight="700" fill="#4A443C">3% bonds, rates 3% → 4% (price change)</text>
+    <!-- baseline at y=76, scale: 1% = 14px -->
+    <line x1="60" y1="76" x2="420" y2="76" stroke="#4A443C" stroke-width="1.5"/>
+    <text x="52" y="80" text-anchor="end" font-size="10" fill="#4A443C">0%</text>
+
+    <rect x="80" y="76" width="60" height="27" fill="#8B6F4E"/>
+    <text x="110" y="118" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">−1.9%</text>
+    <text x="110" y="316" text-anchor="middle" font-size="11" fill="#1F1B16">2-year</text>
+
+    <rect x="165" y="76" width="60" height="113" fill="#B5552B" opacity="0.7"/>
+    <text x="195" y="204" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">−8.1%</text>
+    <text x="195" y="316" text-anchor="middle" font-size="11" fill="#1F1B16">10-year</text>
+
+    <rect x="250" y="76" width="60" height="190" fill="#B5552B" opacity="0.85"/>
+    <text x="280" y="281" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">−13.6%</text>
+    <text x="280" y="316" text-anchor="middle" font-size="11" fill="#1F1B16">20-year</text>
+
+    <rect x="335" y="76" width="60" height="222" fill="#B5552B"/>
+    <text x="365" y="292" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">−17.3%</text>
+    <text x="365" y="316" text-anchor="middle" font-size="11" fill="#1F1B16">30-year</text>
+
+    <text x="230" y="340" text-anchor="middle" font-size="10" fill="#4A443C">Rule of thumb: price change ≈ −duration × rate change</text>
+
+    <rect x="448" y="48" width="214" height="176" rx="8" fill="#FFFFFF" stroke="#8B6F4E" stroke-width="1.5"/>
+    <text x="555" y="70" text-anchor="middle" font-size="12" font-weight="700" fill="#1F1B16">Same logic for stocks</text>
+    <text x="555" y="88" text-anchor="middle" font-size="10" fill="#4A443C">value today of $100 of profit,</text>
+    <text x="555" y="101" text-anchor="middle" font-size="10" fill="#4A443C">discount rate 3% → 5%</text>
+    <text x="466" y="128" font-size="11" fill="#1F1B16">Due in 1 year</text>
+    <text x="644" y="128" text-anchor="end" font-size="11" fill="#1F1B16">$97 → $95</text>
+    <rect x="466" y="134" width="12" height="10" fill="#8B6F4E"/>
+    <text x="484" y="143" font-size="11" font-weight="700" fill="#8B6F4E">−1.9%</text>
+    <text x="466" y="172" font-size="11" fill="#1F1B16">Due in 10 years</text>
+    <text x="644" y="172" text-anchor="end" font-size="11" fill="#1F1B16">$74 → $61</text>
+    <rect x="466" y="178" width="110" height="10" fill="#B5552B"/>
+    <text x="582" y="187" font-size="11" font-weight="700" fill="#B5552B">−17.5%</text>
+    <text x="555" y="212" text-anchor="middle" font-size="10" fill="#4A443C">Distant-profit growth stocks: most exposed</text>
+
+    <rect x="448" y="236" width="214" height="86" rx="8" fill="#2C4A3E"/>
+    <text x="555" y="260" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">Cash and savings</text>
+    <text x="555" y="280" text-anchor="middle" font-size="11" fill="#FFFFFF">Yields tend to rise within weeks</text>
+    <text x="555" y="298" text-anchor="middle" font-size="11" fill="#FFFFFF">Existing CDs stay locked</text>
+    <text x="555" y="314" text-anchor="middle" font-size="10" fill="#FFFFFF">Illustrative math, not a forecast</text>
+  </g>
+</svg>
