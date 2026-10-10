@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 210" role="img" aria-labelledby="a2">
+<title id="a2">The fever mechanism: how the hypothalamus raises the body's temperature set point</title>
+<desc>Four stages from infection to the body reaching a higher temperature target.</desc>
+<rect width="680" height="210" fill="#FBF8F1"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8B6F4E"/></marker></defs>
+<text x="340" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C4A3E" font-family="ui-sans-serif, system-ui, sans-serif">How a fever happens</text>
+<rect x="26" y="60" width="130" height="110" rx="6" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.2"/>
+<text x="91" y="80" text-anchor="middle" font-size="9" font-weight="normal" fill="#6B5C48" font-family="ui-sans-serif, system-ui, sans-serif">Step 1</text>
+<text x="91" y="100" text-anchor="middle" font-size="11" font-weight="bold" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">Infection</text>
+<text x="91" y="116" text-anchor="middle" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">triggers pyrogen</text>
+<text x="91" y="132" text-anchor="middle" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">release</text>
+<line x1="158" y1="115" x2="190" y2="115" stroke="#8B6F4E" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="192" y="60" width="130" height="110" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="1.2"/>
+<text x="257" y="80" text-anchor="middle" font-size="9" font-weight="normal" fill="#6B5C48" font-family="ui-sans-serif, system-ui, sans-serif">Step 2</text>
+<text x="257" y="100" text-anchor="middle" font-size="11" font-weight="bold" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">Pyrogens signal</text>
+<text x="257" y="116" text-anchor="middle" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">the hypothalamus</text>
+<line x1="324" y1="115" x2="356" y2="115" stroke="#8B6F4E" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="358" y="60" width="130" height="110" rx="6" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.2"/>
+<text x="423" y="80" text-anchor="middle" font-size="9" font-weight="normal" fill="#6B5C48" font-family="ui-sans-serif, system-ui, sans-serif">Step 3</text>
+<text x="423" y="100" text-anchor="middle" font-size="11" font-weight="bold" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">Set point raised</text>
+<text x="423" y="116" text-anchor="middle" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">The hypothalamus</text>
+<text x="423" y="132" text-anchor="middle" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">raises the body's</text>
+<text x="423" y="148" text-anchor="middle" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">temperature target</text>
+<line x1="490" y1="115" x2="522" y2="115" stroke="#8B6F4E" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="524" y="60" width="130" height="110" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="1.2"/>
+<text x="589" y="80" text-anchor="middle" font-size="9" font-weight="normal" fill="#6B5C48" font-family="ui-sans-serif, system-ui, sans-serif">Step 4</text>
+<text x="589" y="100" text-anchor="middle" font-size="11" font-weight="bold" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">Body responds</text>
+<text x="589" y="116" text-anchor="middle" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">chills and blood</text>
+<text x="589" y="132" text-anchor="middle" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">vessel constriction</text>
+</svg>

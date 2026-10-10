@@ -35,7 +35,7 @@ export const metadata: PostFrontmatter = {
   ],
   seeAlso: [
     "health-body-basics/physical-activity-guidelines-explained",
-    "health-body-basics/everyday-hygiene-and-prevention",
+    "health-body-basics/sleep-hygiene-building-healthy-sleep-habits",
     "health-wellness-deep-dive/what-cortisol-actually-does-to-the-body-under-stress",
     "health-wellness-deep-dive/how-meditation-actually-changes-the-brain",
   ],

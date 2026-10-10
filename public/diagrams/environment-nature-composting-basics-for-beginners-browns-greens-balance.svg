@@ -1,0 +1,55 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Three balance scales for compost. Too many browns: cold and slow. Balanced pile, roughly 25 to 30 parts carbon-rich browns to 1 part nitrogen-rich greens: active and hot. Too many greens: smelly and anaerobic.</title>
+  <rect width="680" height="340" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <text x="340" y="26" font-size="15" font-weight="700" fill="#1F1B16">The browns-to-greens balance</text>
+    <line x1="227" y1="48" x2="227" y2="320" stroke="#E3DCC9" stroke-width="2" stroke-dasharray="4 4"/>
+    <line x1="453" y1="48" x2="453" y2="320" stroke="#E3DCC9" stroke-width="2" stroke-dasharray="4 4"/>
+
+    <g>
+      <path d="M113 150 L99 190 H127 Z" fill="#8B6F4E"/>
+      <line x1="53" y1="160" x2="173" y2="130" stroke="#1F1B16" stroke-width="3"/>
+      <line x1="53" y1="160" x2="53" y2="176" stroke="#8B6F4E" stroke-width="1.5"/>
+      <line x1="173" y1="130" x2="173" y2="116" stroke="#8B6F4E" stroke-width="1.5"/>
+      <rect x="23" y="176" width="60" height="22" rx="4" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+      <rect x="143" y="94" width="60" height="22" rx="4" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+      <text x="53" y="192" font-size="11" fill="#1F1B16">Browns</text>
+      <text x="173" y="110" font-size="11" fill="#1F1B16">Greens</text>
+      <text x="113" y="228" font-size="13" font-weight="700" fill="#8B6F4E">Too many browns</text>
+      <text x="113" y="252" font-size="12" fill="#1F1B16">Cold and slow</text>
+      <text x="113" y="272" font-size="11" fill="#4A443C">Decomposition stalls</text>
+      <text x="113" y="288" font-size="11" fill="#4A443C">without enough nitrogen</text>
+    </g>
+
+    <g>
+      <path d="M340 140 L326 180 H354 Z" fill="#8B6F4E"/>
+      <line x1="270" y1="140" x2="410" y2="140" stroke="#1F1B16" stroke-width="3"/>
+      <line x1="270" y1="140" x2="270" y2="156" stroke="#8B6F4E" stroke-width="1.5"/>
+      <line x1="410" y1="140" x2="410" y2="156" stroke="#8B6F4E" stroke-width="1.5"/>
+      <rect x="240" y="156" width="60" height="22" rx="4" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+      <rect x="380" y="156" width="60" height="22" rx="4" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+      <text x="270" y="172" font-size="11" fill="#1F1B16">Browns</text>
+      <text x="410" y="172" font-size="11" fill="#1F1B16">Greens</text>
+      <text x="340" y="228" font-size="13" font-weight="700" fill="#2C4A3E">Balanced pile</text>
+      <text x="340" y="252" font-size="12" fill="#1F1B16">Active and hot</text>
+      <text x="340" y="272" font-size="11" fill="#4A443C">About 25-30 parts carbon to</text>
+      <text x="340" y="288" font-size="11" fill="#4A443C">1 part nitrogen, by weight</text>
+    </g>
+
+    <g>
+      <path d="M567 150 L553 190 H581 Z" fill="#8B6F4E"/>
+      <line x1="627" y1="160" x2="507" y2="130" stroke="#1F1B16" stroke-width="3"/>
+      <line x1="627" y1="160" x2="627" y2="176" stroke="#8B6F4E" stroke-width="1.5"/>
+      <line x1="507" y1="130" x2="507" y2="116" stroke="#8B6F4E" stroke-width="1.5"/>
+      <rect x="597" y="176" width="60" height="22" rx="4" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+      <rect x="477" y="94" width="60" height="22" rx="4" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+      <text x="627" y="192" font-size="11" fill="#1F1B16">Greens</text>
+      <text x="507" y="110" font-size="11" fill="#1F1B16">Browns</text>
+      <text x="567" y="228" font-size="13" font-weight="700" fill="#8B6F4E">Too many greens</text>
+      <text x="567" y="252" font-size="12" fill="#1F1B16">Smelly and anaerobic</text>
+      <text x="567" y="272" font-size="11" fill="#4A443C">Excess nitrogen escapes</text>
+      <text x="567" y="288" font-size="11" fill="#4A443C">as ammonia gas</text>
+    </g>
+    <text x="340" y="320" font-size="10" fill="#4A443C">Browns: dry leaves, cardboard. Greens: food scraps, grass clippings.</text>
+  </g>
+</svg>

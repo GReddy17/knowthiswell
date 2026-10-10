@@ -12,8 +12,7 @@ import {
   ActionChecklist,
   FAQBlock,
   GlossaryStrip,
-  SeeAlsoList,
-  TermLink
+  SeeAlsoList
 } from '@/components';
 
 export const metadata: PostFrontmatter = {
@@ -72,8 +71,8 @@ export default function Post() {
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
       <ModeToggle
         labels={{ plain: "Plain", detailed: "Detailed" }}
-        plain={<div className="prose-p">Traditional dance exists in every part of the world, not just in a handful of well-known styles. Spain has <TermLink href="/festivals-culture/art-dance-and-music-traditions/world-dance-traditions-overview">flamenco</TermLink>, Brazil has <TermLink href="/festivals-culture/art-dance-and-music-traditions/world-dance-traditions-overview">capoeira</TermLink>, Hawaii has hula, Ireland has step dance, and countless other regions — from West African dance traditions to Japanese Bon Odori to Andean folk dances — have their own distinct forms, each shaped by local history, music, and purpose.</div>}
-        detailed={<div className="prose-p">What counts as a &quot;dance tradition&quot; varies more than it might seem: some are primarily performance art (flamenco, built around cante, guitar, and baile), some are social and participatory (line and circle dances performed at community gatherings), and some blur into other categories entirely — capoeira combines dance, music, and martial-arts sparring within a circle called a <TermLink href="/festivals-culture/art-dance-and-music-traditions/world-dance-traditions-overview">roda</TermLink>, developed among enslaved and formerly enslaved Africans in Brazil, historically disguised partly as dance and play to be practiced under conditions where organized resistance and martial training were suppressed. UNESCO&apos;s Representative List of Intangible Cultural Heritage, established under the 2003 Convention, formally documents living traditions like these — flamenco (Spain, inscribed 2010) and the roda de capoeira (Brazil, inscribed 2014) are both listed, alongside dozens of other dance and dance-adjacent traditions from Asia, Africa, Europe, and the Americas, reflecting how widely distributed serious, documented dance heritage actually is.</div>}
+        plain={<div className="prose-p">Traditional dance exists in every part of the world, not just in a handful of well-known styles. Spain has flamenco, Brazil has capoeira, Hawaii has hula, Ireland has step dance, and countless other regions — from West African dance traditions to Japanese Bon Odori to Andean folk dances — have their own distinct forms, each shaped by local history, music, and purpose.</div>}
+        detailed={<div className="prose-p">What counts as a &quot;dance tradition&quot; varies more than it might seem: some are primarily performance art (flamenco, built around cante, guitar, and baile), some are social and participatory (line and circle dances performed at community gatherings), and some blur into other categories entirely — capoeira combines dance, music, and martial-arts sparring within a circle called a roda, developed among enslaved and formerly enslaved Africans in Brazil, historically disguised partly as dance and play to be practiced under conditions where organized resistance and martial training were suppressed. UNESCO&apos;s Representative List of Intangible Cultural Heritage, established under the 2003 Convention, formally documents living traditions like these — flamenco (Spain, inscribed 2010) and the roda de capoeira (Brazil, inscribed 2014) are both listed, alongside dozens of other dance and dance-adjacent traditions from Asia, Africa, Europe, and the Americas, reflecting how widely distributed serious, documented dance heritage actually is.</div>}
       />
       <FootnoteAside>Capoeira is sometimes introduced to outsiders as &quot;Brazilian martial arts dance,&quot; but that undersells its history — its playful, musical form is widely understood by historians to have developed partly as a way to practice combat technique while appearing to authorities as mere dance and music.</FootnoteAside>
 

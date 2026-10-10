@@ -36,7 +36,7 @@ export const metadata: PostFrontmatter = {
   ],
   seeAlso: [
     "units-measurement-conversions/metric-vs-imperial-length-units-explained",
-    "math-numbers/geometry-basics",
+    "math-numbers/perimeter-area-and-volume",
     "units-measurement-conversions/how-map-scale-relates-to-real-world-distance",
   ],
   glossary: [

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+<title id="t">Ad auction flow: a page with an ad slot loads, sends a bid request with an inferred audience segment to an ad exchange, the exchange broadcasts it to competing advertisers who bid automatically within milliseconds, and the winning ad is returned and shown before the page finishes loading.</title>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/></marker></defs>
+<rect width="680" height="260" fill="#FBF8F1"/>
+<rect x="10" y="70" width="114" height="100" rx="8" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="67" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Page loads</text>
+<text x="67" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="400" fill="#4A443C">with an ad slot</text>
+<line x1="126" y1="120" x2="140" y2="120" stroke="#1F1B16" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="144" y="70" width="114" height="100" rx="8" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="201" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Bid request</text>
+<text x="201" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="400" fill="#4A443C">sent with inferred</text>
+<text x="201" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="400" fill="#4A443C">audience segment</text>
+<line x1="260" y1="120" x2="274" y2="120" stroke="#1F1B16" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="278" y="70" width="114" height="100" rx="8" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="335" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Ad exchange</text>
+<text x="335" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="400" fill="#4A443C">broadcasts to</text>
+<text x="335" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="400" fill="#4A443C">competing advertisers</text>
+<line x1="394" y1="120" x2="408" y2="120" stroke="#1F1B16" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="412" y="70" width="114" height="100" rx="8" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="469" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Advertisers bid</text>
+<text x="469" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="400" fill="#4A443C">automated bids</text>
+<text x="469" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="400" fill="#4A443C">within milliseconds</text>
+<line x1="528" y1="120" x2="542" y2="120" stroke="#1F1B16" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="546" y="70" width="114" height="100" rx="8" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="603" y="98" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Winner chosen</text>
+<text x="603" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="400" fill="#4A443C">ad returned</text>
+<text x="603" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="400" fill="#4A443C">and shown</text>
+<line x1="20" y1="205" x2="660" y2="205" stroke="#8B6F4E" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="340" y="235" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">All of this happens before the page finishes loading</text>
+</svg>

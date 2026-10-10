@@ -12,8 +12,7 @@ import {
   ActionChecklist,
   FAQBlock,
   GlossaryStrip,
-  SeeAlsoList,
-  TermLink
+  SeeAlsoList
 } from '@/components';
 
 export const metadata: PostFrontmatter = {
@@ -70,7 +69,7 @@ export default function Post() {
       <ModeToggle
         labels={{ plain: "Plain", detailed: "Detailed" }}
         plain={<div className="prose-p">An &quot;untranslatable&quot; word is a word from one language that has no exact single-word match in another language — English has to use a whole phrase or sentence to explain the same idea. Danish &quot;hygge&quot; (a cozy, contented togetherness), Portuguese &quot;saudade&quot; (a wistful longing for someone or something absent), and Japanese &quot;komorebi&quot; (sunlight filtering through tree leaves) are commonly cited examples. None of these ideas are mysterious or impossible for an English speaker to grasp — they&apos;re just concepts English never bothered to compress into a single word of its own.</div>}
-        detailed={<div className="prose-p">Linguists have a precise term for this: a <TermLink href="/language-vocabulary/fun-with-language/untranslatable-words-from-other-languages">lexical gap</TermLink> — a concept a language hasn&apos;t lexicalized (turned into a single word), even though speakers can still express it with a description. Lexical gaps run in every direction between every pair of languages; English is just as likely to have a gap that another language doesn&apos;t. A genuine edge case worth knowing: many popular &quot;untranslatable words&quot; lists overstate their case, listing words that actually do have a reasonably close single-word English equivalent, or presenting ordinary emotional nuance as if it were unique to one culture. The more defensible version of the claim isn&apos;t &quot;no other language could ever understand this feeling&quot; — it&apos;s narrower and more accurate: &quot;no other language has compressed this specific idea into one word yet.&quot; Once English does borrow the word directly rather than translating it, linguists call the result a <TermLink href="/language-vocabulary/fun-with-language/untranslatable-words-from-other-languages">loanword</TermLink>, and at that point the word usually stops being called &quot;untranslatable&quot; at all.</div>}
+        detailed={<div className="prose-p">Linguists have a precise term for this: a lexical gap — a concept a language hasn&apos;t lexicalized (turned into a single word), even though speakers can still express it with a description. Lexical gaps run in every direction between every pair of languages; English is just as likely to have a gap that another language doesn&apos;t. A genuine edge case worth knowing: many popular &quot;untranslatable words&quot; lists overstate their case, listing words that actually do have a reasonably close single-word English equivalent, or presenting ordinary emotional nuance as if it were unique to one culture. The more defensible version of the claim isn&apos;t &quot;no other language could ever understand this feeling&quot; — it&apos;s narrower and more accurate: &quot;no other language has compressed this specific idea into one word yet.&quot; Once English does borrow the word directly rather than translating it, linguists call the result a loanword, and at that point the word usually stops being called &quot;untranslatable&quot; at all.</div>}
       />
       <FootnoteAside>Portuguese &quot;saudade&quot; is embedded deeply enough in Brazilian culture that Brazil observes an actual Dia da Saudade (&quot;Saudade Day&quot;) on January 30th each year — a real annual observance built around a single word&apos;s meaning, which is a fairly unusual honor for a piece of vocabulary.</FootnoteAside>
       <p>

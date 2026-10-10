@@ -1,0 +1,22 @@
+<svg viewBox="0 0 680 285" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+<title id="t">Tax terms sequence: Gross Income minus adjustments gives Adjusted Gross Income (AGI), minus standard or itemized deductions gives Taxable Income; filing status determines the bracket thresholds and deduction amount.</title>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/></marker></defs>
+<rect width="680" height="285" fill="#FBF8F1"/>
+<rect x="130" y="20" width="220" height="50" rx="8" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="240" y="50" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Gross Income</text>
+<line x1="240" y1="72" x2="240" y2="108" stroke="#1F1B16" stroke-width="1.8" marker-end="url(#a)"/>
+<text x="254" y="95" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">minus Adjustments</text>
+<rect x="130" y="110" width="220" height="60" rx="8" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="240" y="136" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Adjusted Gross Income</text>
+<text x="240" y="156" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4A443C">(AGI)</text>
+<line x1="240" y1="172" x2="240" y2="208" stroke="#1F1B16" stroke-width="1.8" marker-end="url(#a)"/>
+<text x="254" y="195" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">minus Standard or Itemized Deductions</text>
+<rect x="130" y="210" width="220" height="50" rx="8" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="240" y="240" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Taxable Income</text>
+<rect x="500" y="95" width="160" height="90" rx="8" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="580" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Filing Status</text>
+<text x="580" y="142" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">sets the bracket</text>
+<text x="580" y="158" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">thresholds and the</text>
+<text x="580" y="174" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">deduction amount</text>
+<line x1="352" y1="140" x2="498" y2="140" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="4 3"/>
+</svg>

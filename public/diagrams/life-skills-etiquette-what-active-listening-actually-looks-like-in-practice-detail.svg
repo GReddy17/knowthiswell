@@ -1,0 +1,26 @@
+<svg viewBox="0 0 680 215" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+<title id="t">Active listening in practice: give full attention with non-verbal cues, withhold judgment until the speaker finishes, reflect the point back in your own words, then respond.</title>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/></marker></defs>
+<rect width="680" height="215" fill="#FBF8F1"/>
+<text x="340" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F1B16">Active listening in practice</text>
+<rect x="20" y="60" width="130" height="100" rx="8" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="85" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Full attention</text>
+<text x="85" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">eye contact, nodding,</text>
+<text x="85" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">open posture</text>
+<line x1="152" y1="110" x2="181" y2="110" stroke="#1F1B16" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="185" y="60" width="130" height="100" rx="8" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="250" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Hold judgment</text>
+<text x="250" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">let the speaker</text>
+<text x="250" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">finish first</text>
+<line x1="317" y1="110" x2="346" y2="110" stroke="#1F1B16" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="350" y="60" width="130" height="100" rx="8" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="415" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Reflect back</text>
+<text x="415" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">restate the point</text>
+<text x="415" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">in your own words</text>
+<line x1="482" y1="110" x2="511" y2="110" stroke="#1F1B16" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="515" y="60" width="130" height="100" rx="8" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="580" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Then respond</text>
+<text x="580" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">your reply builds</text>
+<text x="580" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">on what you heard</text>
+<text x="340" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">Listen first, respond last</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 282" role="img" aria-labelledby="a3">
+<title id="a3">The dehydration spectrum: mild to severe</title>
+<desc>Spectrum from mild to severe dehydration.</desc>
+<rect width="680" height="282" fill="#FBF8F1"/>
+<text x="340" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C4A3E" font-family="ui-sans-serif, system-ui, sans-serif">The dehydration spectrum: Mild to Severe</text>
+<rect x="26" y="46" width="196" height="188" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.2"/>
+<text x="124.0" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C4A3E" font-family="ui-sans-serif, system-ui, sans-serif">Mild</text>
+<line x1="40" y1="84" x2="208" y2="84" stroke="#2C4A3E" stroke-width="0.8"/>
+<text x="40" y="108" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Thirst</text>
+<text x="40" y="134" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Dry mouth</text>
+<text x="40" y="160" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Darker urine</text>
+<text x="124.0" y="220" text-anchor="middle" font-size="11" font-weight="bold" fill="#2C4A3E" font-family="ui-sans-serif, system-ui, sans-serif">Drink fluids</text>
+<rect x="242" y="46" width="196" height="188" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="1.2"/>
+<text x="340.0" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#6B5C48" font-family="ui-sans-serif, system-ui, sans-serif">Moderate</text>
+<line x1="256" y1="84" x2="424" y2="84" stroke="#8B6F4E" stroke-width="0.8"/>
+<text x="256" y="108" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Reduced urination</text>
+<text x="256" y="134" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Fatigue</text>
+<rect x="458" y="46" width="196" height="188" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="1.2"/>
+<text x="556.0" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#C9412C" font-family="ui-sans-serif, system-ui, sans-serif">Severe</text>
+<line x1="472" y1="84" x2="640" y2="84" stroke="#C9412C" stroke-width="0.8"/>
+<text x="472" y="108" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Confusion</text>
+<text x="472" y="134" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Rapid heartbeat</text>
+<text x="472" y="160" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Sunken eyes</text>
+<text x="472" y="186" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Very little or no urination</text>
+<text x="556.0" y="220" text-anchor="middle" font-size="11" font-weight="bold" fill="#C9412C" font-family="ui-sans-serif, system-ui, sans-serif">Seek emergency care</text>
+</svg>

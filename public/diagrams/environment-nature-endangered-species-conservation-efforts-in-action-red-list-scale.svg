@@ -1,0 +1,27 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">IUCN Red List extinction-risk scale from lowest to highest risk: Least Concern, Near Threatened, Vulnerable, Endangered, Critically Endangered, Extinct in the Wild, Extinct. Successful conservation moves a species downward on the scale, toward lower risk.</title>
+  <rect width="680" height="400" fill="#FBF8F1"/>
+  <rect x="220" y="30" width="230" height="44" fill="#1F1B16"/>
+  <text x="335" y="57" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Extinct</text>
+  <rect x="220" y="78" width="230" height="44" fill="#5A2A24"/>
+  <text x="335" y="105" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Extinct in the Wild</text>
+  <rect x="220" y="126" width="230" height="44" fill="#8E2A1B"/>
+  <text x="335" y="153" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Critically Endangered</text>
+  <rect x="220" y="174" width="230" height="44" fill="#C9412C"/>
+  <text x="335" y="201" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Endangered</text>
+  <rect x="220" y="222" width="230" height="44" fill="#D98A3D"/>
+  <text x="335" y="249" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Vulnerable</text>
+  <rect x="220" y="270" width="230" height="44" fill="#C9C77A"/>
+  <text x="335" y="297" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Near Threatened</text>
+  <rect x="220" y="318" width="230" height="44" fill="#5E8F6B"/>
+  <text x="335" y="345" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Least Concern</text>
+  <circle cx="170" cy="150" r="9" fill="#2C4A3E"/>
+  <path d="M170 164 L170 330" stroke="#2C4A3E" stroke-width="3" fill="none" marker-end="url(#g)"/>
+  <text x="150" y="215" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#2C4A3E">Conservation</text>
+  <text x="150" y="231" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#2C4A3E">moves a species</text>
+  <text x="150" y="247" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#2C4A3E">toward safety</text>
+  <text x="470" y="52" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#8E2A1B">Highest risk</text>
+  <text x="470" y="345" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#2C4A3E">Lowest risk</text>
+  <text x="335" y="389" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">IUCN Red List extinction-risk categories</text>
+  <defs><marker id="g" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/></marker></defs>
+</svg>

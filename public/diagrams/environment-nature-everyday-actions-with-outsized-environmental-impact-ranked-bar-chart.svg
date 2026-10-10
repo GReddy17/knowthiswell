@@ -1,0 +1,28 @@
+<svg viewBox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Horizontal bar chart ranking five individual actions by estimated tonnes of CO2-equivalent saved per year, longest bar first: living car-free about 2.4, avoiding one round-trip transatlantic flight about 1.6, plant-based diet about 0.8, one fewer household appliance replacement a small amount, and consistent recycling about 0.2.</title>
+  <rect width="680" height="330" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="340" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1F1B16">Estimated CO2-equivalent saved per year (tonnes)</text>
+    <line x1="300" y1="48" x2="300" y2="252" stroke="#8B6F4E" stroke-width="1.5"/>
+    <g font-size="12" fill="#1F1B16" text-anchor="end">
+      <text x="288" y="75">Live car-free</text>
+      <text x="288" y="125">Skip one round-trip transatlantic flight</text>
+      <text x="288" y="175">Eat a plant-based diet</text>
+      <text x="288" y="225">Avoid one household appliance replacement</text>
+      <text x="288" y="275">Recycle consistently</text>
+    </g>
+    <rect x="300" y="58" width="288" height="26" rx="3" fill="#2C4A3E"/>
+    <rect x="300" y="108" width="192" height="26" rx="3" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <rect x="300" y="158" width="96" height="26" rx="3" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <rect x="300" y="208" width="30" height="26" rx="3" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <rect x="300" y="258" width="24" height="26" rx="3" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="2"/>
+    <g font-size="12" font-weight="700" fill="#1F1B16">
+      <text x="598" y="76">~2.4</text>
+      <text x="502" y="126">~1.6</text>
+      <text x="406" y="176">~0.8</text>
+      <text x="340" y="226">small amount</text>
+      <text x="334" y="276">~0.2</text>
+    </g>
+    <text x="340" y="316" text-anchor="middle" font-size="10" fill="#4A443C">Values from a 2017 comparison in Environmental Research Letters. Appliance bar is not to scale.</text>
+  </g>
+</svg>

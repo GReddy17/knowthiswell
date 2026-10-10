@@ -1,0 +1,30 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">From a claim to a published fact-check: a public claim passes a checkable-claim filter, then source tracing and expert consultation, then a graded rating with published reasoning. Opinions and predictions fail the filter and are not rated.</title>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/></marker></defs>
+  <rect width="680" height="300" fill="#FBF8F1"/>
+  <rect x="20" y="55" width="125" height="90" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="82" y="95" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Public claim</text>
+  
+  <path d="M145 100 L182 100" stroke="#1F1B16" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <rect x="190" y="55" width="140" height="90" rx="6" fill="#2C4A3E"/>
+  <text x="260" y="92" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">Checkable claim</text>
+  <text x="260" y="110" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF8F1">filter</text>
+  <text x="260" y="130" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">Can it be verified?</text>
+  <path d="M330 100 L367 100" stroke="#1F1B16" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <rect x="370" y="30" width="130" height="60" rx="6" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="437" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Source tracing</text>
+  <rect x="370" y="110" width="130" height="60" rx="6" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="437" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F1B16">Expert consultation</text>
+  <path d="M500 60 L538 92" stroke="#1F1B16" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <path d="M500 140 L538 108" stroke="#1F1B16" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <rect x="545" y="55" width="115" height="90" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="602" y="92" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Graded rating</text>
+  <text x="602" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">with published</text>
+  <text x="602" y="127" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">reasoning</text>
+  <path d="M260 145 L260 195" stroke="#C9412C" stroke-width="2" stroke-dasharray="5 4" fill="none" marker-end="url(#a)"/>
+  <text x="272" y="176" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#C9412C">Fails the filter</text>
+  <rect x="160" y="200" width="200" height="60" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="260" y="226" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Not rated</text>
+  <text x="260" y="246" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Opinions, predictions</text>
+  <text x="340" y="288" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#6B5C48">Only claims that can be checked move forward to a rating</text>
+</svg>

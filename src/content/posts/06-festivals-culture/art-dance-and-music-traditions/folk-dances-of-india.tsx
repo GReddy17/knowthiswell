@@ -12,8 +12,7 @@ import {
   ActionChecklist,
   FAQBlock,
   GlossaryStrip,
-  SeeAlsoList,
-  TermLink
+  SeeAlsoList
 } from '@/components';
 
 export const metadata: PostFrontmatter = {
@@ -72,7 +71,7 @@ export default function Post() {
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
       <ModeToggle
         labels={{ plain: "Plain", detailed: "Detailed" }}
-        plain={<div className="prose-p">Folk dances are the everyday, community dance traditions of India — the ones performed at harvest festivals, weddings, and local celebrations rather than on a formal concert stage after years of structured training. <TermLink href="/festivals-culture/art-dance-and-music-traditions/folk-dances-of-india">Bhangra</TermLink> from Punjab and <TermLink href="/festivals-culture/art-dance-and-music-traditions/folk-dances-of-india">Garba</TermLink> from Gujarat are two of the best-known examples, but nearly every Indian state and region has its own: Bihu in Assam, Lavani in Maharashtra, Ghoomar in Rajasthan, and many more.</div>}
+        plain={<div className="prose-p">Folk dances are the everyday, community dance traditions of India — the ones performed at harvest festivals, weddings, and local celebrations rather than on a formal concert stage after years of structured training. Bhangra from Punjab and Garba from Gujarat are two of the best-known examples, but nearly every Indian state and region has its own: Bihu in Assam, Lavani in Maharashtra, Ghoomar in Rajasthan, and many more.</div>}
         detailed={<div className="prose-p">The formal line between &quot;folk&quot; and &quot;classical&quot; in Indian dance is a transmission difference, not a quality judgment: classical forms trace to a documented technical treatise and are taught through a fixed, examined curriculum, while folk dances are passed within a community — often within a family or village — with room for local variation and improvisation from one performance or generation to the next. That means a folk dance can be genuinely ancient (some harvest dances likely predate written classical treatises) while still being classified as folk simply because its transmission stayed informal. A handful of forms complicate the boundary: Chhau, practiced across Odisha, Jharkhand, and West Bengal, blends masked dance-drama with martial-arts-derived footwork and has its own regional gharanas (schools) with fairly disciplined training — closer in rigor to a classical form, yet officially categorized as folk/tribal by India&apos;s Sangeet Natak Akademi, and separately recognized by UNESCO as intangible cultural heritage in its own right.</div>}
       />
       <FootnoteAside>Garba, danced during Navratri, is traditionally performed around a central lamp or image representing the goddess — the circular formation itself is meant to represent the cycle of life, not just a convenient way to fit more dancers in a space.</FootnoteAside>

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 680 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Factors the good-debt versus bad-debt heuristic typically weighs. Good-debt factors: tied to an appreciating or income-generating asset, comparatively lower interest rate, potential to increase earning capacity. Bad-debt factors: tied to a depreciating asset or consumption, comparatively higher interest rate, no expected increase in earning capacity. Real debt situations often mix factors from both columns.</title>
+  <rect width="680" height="350" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <text x="340" y="26" font-size="15" font-weight="700" fill="#1F1B16">What the good-debt / bad-debt heuristic weighs</text>
+    <rect x="20" y="42" width="310" height="38" rx="6" fill="#2C4A3E"/>
+    <text x="175" y="66" font-size="13" font-weight="700" fill="#FBF8F1">Factors tied to "good debt"</text>
+    <rect x="350" y="42" width="310" height="38" rx="6" fill="#8B6F4E"/>
+    <text x="505" y="66" font-size="13" font-weight="700" fill="#FBF8F1">Factors tied to "bad debt"</text>
+
+    <rect x="20" y="90" width="310" height="52" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="175" y="112" font-size="12" fill="#1F1B16">Tied to an appreciating or</text>
+    <text x="175" y="128" font-size="12" fill="#1F1B16">income-generating asset</text>
+    <rect x="350" y="90" width="310" height="52" rx="6" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="505" y="112" font-size="12" fill="#1F1B16">Tied to a depreciating asset</text>
+    <text x="505" y="128" font-size="12" fill="#1F1B16">or consumption</text>
+
+    <rect x="20" y="152" width="310" height="52" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="175" y="183" font-size="12" fill="#1F1B16">Comparatively lower interest rate</text>
+    <rect x="350" y="152" width="310" height="52" rx="6" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="505" y="183" font-size="12" fill="#1F1B16">Comparatively higher interest rate</text>
+
+    <rect x="20" y="214" width="310" height="52" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="175" y="236" font-size="12" fill="#1F1B16">Potential to increase</text>
+    <text x="175" y="252" font-size="12" fill="#1F1B16">earning capacity</text>
+    <rect x="350" y="214" width="310" height="52" rx="6" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="505" y="236" font-size="12" fill="#1F1B16">No expected increase in</text>
+    <text x="505" y="252" font-size="12" fill="#1F1B16">earning capacity</text>
+
+    <rect x="20" y="282" width="640" height="38" rx="6" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="340" y="306" font-size="12" fill="#1F1B16">Real debt situations often mix factors from both columns.</text>
+    <text x="340" y="340" font-size="10" fill="#4A443C">A rule of thumb, not a verdict. Educational only. Not financial advice.</text>
+  </g>
+</svg>

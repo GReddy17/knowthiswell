@@ -1,0 +1,23 @@
+<svg viewBox="0 0 680 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Detection gap timeline: a condition becomes measurably detectable at an early point, then a long gap with no symptoms follows, then symptoms appear later. A preventive checkup can catch the condition inside the detectable-but-symptomless gap instead of waiting for the later symptom point.</title>
+  <rect width="680" height="270" fill="#FBF8F1"/>
+  <rect x="110" y="95" width="450" height="40" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="335" y="120" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#2C4A3E">Detectable, but no symptoms (can run for years)</text>
+  <path d="M30 115 L110 115" stroke="#8B6F4E" stroke-width="3" fill="none"/>
+  <path d="M560 115 L640 115" stroke="#C9412C" stroke-width="3" fill="none"/>
+  <circle cx="110" cy="115" r="9" fill="#2C4A3E"/>
+  <circle cx="560" cy="115" r="9" fill="#C9412C"/>
+  <text x="110" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Measurably</text>
+  <text x="110" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">detectable</text>
+  <text x="560" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Symptoms</text>
+  <text x="560" y="90" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">appear</text>
+  <path d="M335 195 L335 142" stroke="#2C4A3E" stroke-width="3" fill="none" marker-end="url(#g)"/>
+  <rect x="215" y="198" width="240" height="44" rx="6" fill="#2C4A3E"/>
+  <text x="335" y="217" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#FBF8F1">Preventive checkup</text>
+  <text x="335" y="233" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#FBF8F1">catches it inside the gap</text>
+  <text x="600" y="162" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#C9412C">Waiting for this</text>
+  <text x="600" y="177" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#C9412C">means missing the gap</text>
+  <text x="70" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">Time starts</text>
+  <text x="640" y="30" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#8B6F4E">Time</text>
+  <defs><marker id="g" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2C4A3E"/></marker></defs>
+</svg>

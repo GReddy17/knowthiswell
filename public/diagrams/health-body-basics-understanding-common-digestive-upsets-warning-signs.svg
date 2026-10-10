@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 258" role="img" aria-labelledby="a4">
+<title id="a4">Digestive upset: typical self-limiting course vs. warning signs (general framework)</title>
+<desc>Two columns: typical course and signs to seek medical care.</desc>
+<rect width="680" height="258" fill="#FBF8F1"/>
+<text x="340" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C4A3E" font-family="ui-sans-serif, system-ui, sans-serif">Digestive upset: typical course vs. warning signs</text>
+<rect x="26" y="46" width="304" height="164" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.2"/>
+<text x="178.0" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C4A3E" font-family="ui-sans-serif, system-ui, sans-serif">Typical Course</text>
+<line x1="40" y1="84" x2="316" y2="84" stroke="#2C4A3E" stroke-width="0.8"/>
+<text x="40" y="108" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Mild nausea or vomiting</text>
+<text x="40" y="134" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Resolves within one to two days</text>
+<text x="40" y="160" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Able to keep some fluids down</text>
+<text x="40" y="186" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• No blood present</text>
+<rect x="350" y="46" width="304" height="164" rx="6" fill="#FBEDEA" stroke="#C9412C" stroke-width="1.2"/>
+<text x="502.0" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#C9412C" font-family="ui-sans-serif, system-ui, sans-serif">Seek Medical Care</text>
+<line x1="364" y1="84" x2="640" y2="84" stroke="#C9412C" stroke-width="0.8"/>
+<text x="364" y="108" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Unable to keep fluids down for over 24 hours</text>
+<text x="364" y="134" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Blood in vomit or stool</text>
+<text x="364" y="160" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• High fever</text>
+<text x="364" y="186" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Symptoms lasting more than a few days</text>
+</svg>

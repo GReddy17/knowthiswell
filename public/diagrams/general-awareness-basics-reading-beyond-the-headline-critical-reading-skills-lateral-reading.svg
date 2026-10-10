@@ -1,0 +1,27 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Vertical reading versus lateral reading: vertical reading is a single arrow down one page; lateral reading opens separate tabs to check independent sources. Fact-checkers rely primarily on the lateral approach.</title>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/></marker></defs>
+  <rect width="680" height="320" fill="#FBF8F1"/>
+  <rect x="20" y="20" width="300" height="235" rx="8" fill="#FBEDEA" stroke="#C9412C" stroke-width="2"/>
+  <text x="170" y="48" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Vertical reading</text>
+  <rect x="100" y="65" width="140" height="170" rx="4" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="170" y="85" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#6B5C48">One page</text>
+  <path d="M170 95 L170 205" stroke="#1F1B16" stroke-width="3" fill="none" marker-end="url(#a)"/>
+  <text x="170" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Stays within the page</text>
+  <rect x="360" y="20" width="300" height="235" rx="8" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+  <text x="510" y="48" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F1B16">Lateral reading</text>
+  <rect x="445" y="120" width="130" height="60" rx="4" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="2"/>
+  <text x="510" y="155" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#1F1B16">The original page</text>
+  <path d="M490 120 L430 85" stroke="#1F1B16" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <path d="M510 120 L510 90" stroke="#1F1B16" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <path d="M530 120 L590 85" stroke="#1F1B16" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <rect x="375" y="62" width="85" height="26" rx="4" fill="#2C4A3E"/>
+  <text x="417" y="79" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">New tab</text>
+  <rect x="468" y="62" width="85" height="26" rx="4" fill="#2C4A3E"/>
+  <text x="510" y="79" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">New tab</text>
+  <rect x="561" y="62" width="85" height="26" rx="4" fill="#2C4A3E"/>
+  <text x="603" y="79" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#FBF8F1">New tab</text>
+  <text x="510" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">Checks independent sources</text>
+  <text x="510" y="232" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#1F1B16">outside the page</text>
+  <text x="340" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F1B16">Fact-checkers rely primarily on the lateral approach</text>
+</svg>

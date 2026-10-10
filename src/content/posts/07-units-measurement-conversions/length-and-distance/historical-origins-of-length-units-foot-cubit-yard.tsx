@@ -36,7 +36,7 @@ export const metadata: PostFrontmatter = {
   ],
   seeAlso: [
     "units-measurement-conversions/metric-vs-imperial-length-units-explained",
-    "history-timeline-facts/ancient-egypt-key-events-and-achievements",
+    "history-timeline-facts/ancient-egypt",
     "math-numbers/roman-numerals-explained",
   ],
   glossary: [

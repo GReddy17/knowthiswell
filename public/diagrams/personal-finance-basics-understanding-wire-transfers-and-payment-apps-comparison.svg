@@ -1,0 +1,35 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Comparison of a wire transfer and a payment app. Typical use: large or time-sensitive bank-to-bank payments versus everyday person-to-person payments. Speed: same business day versus instant to a few days. Reversibility: extremely difficult once sent versus generally not reversible by the sender, with no credit-card-style dispute rights.</title>
+  <rect width="680" height="320" fill="#FBF8F1"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <text x="340" y="26" font-size="15" font-weight="700" fill="#1F1B16">Wire transfer vs. payment app</text>
+    <rect x="150" y="42" width="245" height="38" rx="6" fill="#2C4A3E"/>
+    <text x="272" y="66" font-size="13" font-weight="700" fill="#FBF8F1">Wire transfer</text>
+    <rect x="410" y="42" width="260" height="38" rx="6" fill="#8B6F4E"/>
+    <text x="540" y="66" font-size="13" font-weight="700" fill="#FBF8F1">Payment app</text>
+
+    <text x="20" y="124" font-size="13" font-weight="700" fill="#1F1B16" text-anchor="start">Typical use</text>
+    <rect x="150" y="90" width="245" height="64" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="272" y="118" font-size="12" fill="#1F1B16">Large or time-sensitive</text>
+    <text x="272" y="136" font-size="12" fill="#1F1B16">bank-to-bank payments</text>
+    <rect x="410" y="90" width="260" height="64" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="540" y="118" font-size="12" fill="#1F1B16">Everyday person-to-person</text>
+    <text x="540" y="136" font-size="12" fill="#1F1B16">payments</text>
+
+    <text x="20" y="196" font-size="13" font-weight="700" fill="#1F1B16" text-anchor="start">Speed</text>
+    <rect x="150" y="164" width="245" height="60" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="2"/>
+    <text x="272" y="199" font-size="12" fill="#1F1B16">Same business day</text>
+    <rect x="410" y="164" width="260" height="60" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="540" y="199" font-size="12" fill="#1F1B16">Instant to a few days</text>
+
+    <text x="20" y="266" font-size="13" font-weight="700" fill="#1F1B16" text-anchor="start">Reversibility</text>
+    <rect x="150" y="234" width="245" height="64" rx="6" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="272" y="263" font-size="12" fill="#1F1B16">Extremely difficult</text>
+    <text x="272" y="281" font-size="12" fill="#1F1B16">once sent</text>
+    <rect x="410" y="234" width="260" height="64" rx="6" fill="#FBEDEA" stroke="#8B6F4E" stroke-width="2"/>
+    <text x="540" y="256" font-size="12" fill="#1F1B16">Generally not reversible by the</text>
+    <text x="540" y="272" font-size="12" fill="#1F1B16">sender; no credit-card-style</text>
+    <text x="540" y="288" font-size="12" fill="#1F1B16">dispute rights</text>
+    <text x="340" y="314" font-size="10" fill="#4A443C">Educational only. Not financial advice.</text>
+  </g>
+</svg>

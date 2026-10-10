@@ -37,7 +37,7 @@ export const metadata: PostFrontmatter = {
   seeAlso: [
     "general-awareness-basics/how-elections-and-voting-systems-work",
     "general-awareness-basics/what-local-government-actually-does",
-    "units-measurement-conversions/what-the-united-nations-actually-does",
+    "general-awareness-basics/what-the-united-nations-actually-does",
   ],
   glossary: [
     {"term":"Census","definition":"An official, periodic count of a country's population conducted by a government, typically collecting basic demographic data alongside the headcount itself."},

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 680 305" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+<title id="t">Saving horizon spectrum: short-term goals such as a vacation fund favor stability and liquidity, long-term goals such as retirement have more time to consider growth-oriented options, and the specific choice depends on individual circumstances and a financial advisor.</title>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1F1B16"/></marker></defs>
+<rect width="680" height="305" fill="#FBF8F1"/>
+<text x="340" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Time horizon of the goal</text>
+<line x1="60" y1="75" x2="620" y2="75" stroke="#8B6F4E" stroke-width="3" marker-end="url(#a)"/>
+<text x="60" y="62" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#4A443C">Short</text>
+<text x="620" y="62" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700" fill="#4A443C">Long</text>
+<rect x="40" y="105" width="260" height="110" rx="8" fill="#EEF3EE" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="170" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Short-term goal</text>
+<text x="170" y="156" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1F1B16">Favors stability and liquidity</text>
+<text x="170" y="176" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">e.g. vacation fund</text>
+<text x="170" y="196" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="400" fill="#4A443C">(money needed soon)</text>
+<rect x="380" y="105" width="260" height="110" rx="8" fill="#EDE7D8" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="510" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F1B16">Long-term goal</text>
+<text x="510" y="156" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1F1B16">More time to consider</text>
+<text x="510" y="172" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1F1B16">growth-oriented options</text>
+<text x="510" y="196" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">e.g. retirement</text>
+<rect x="100" y="240" width="480" height="44" rx="8" fill="#FBF8F1" stroke="#8B6F4E" stroke-width="1.5"/>
+<text x="340" y="259" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1F1B16">Which vehicle fits depends on individual circumstances.</text>
+<text x="340" y="274" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="400" fill="#4A443C">A financial advisor can help with specifics.</text>
+</svg>

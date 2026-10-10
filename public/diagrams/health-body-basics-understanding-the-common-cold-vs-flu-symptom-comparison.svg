@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 284" role="img" aria-labelledby="a5">
+<title id="a5">General symptom pattern: cold vs flu (CDC-described tendencies, not a diagnostic tool)</title>
+<desc>Two-column comparison of common cold and flu tendencies.</desc>
+<rect width="680" height="284" fill="#FBF8F1"/>
+<text x="340" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C4A3E" font-family="ui-sans-serif, system-ui, sans-serif">General symptom pattern: cold vs flu</text>
+<rect x="26" y="46" width="304" height="164" rx="6" fill="#EEF3EE" stroke="#2C4A3E" stroke-width="1.2"/>
+<text x="178.0" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C4A3E" font-family="ui-sans-serif, system-ui, sans-serif">Common Cold</text>
+<line x1="40" y1="84" x2="316" y2="84" stroke="#2C4A3E" stroke-width="0.8"/>
+<text x="40" y="108" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Gradual onset</text>
+<text x="40" y="134" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Mild fever or none</text>
+<text x="40" y="160" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Runny or stuffy nose</text>
+<text x="40" y="186" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Mild fatigue</text>
+<rect x="350" y="46" width="304" height="164" rx="6" fill="#F3EBDD" stroke="#8B6F4E" stroke-width="1.2"/>
+<text x="502.0" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#6B5C48" font-family="ui-sans-serif, system-ui, sans-serif">Flu</text>
+<line x1="364" y1="84" x2="640" y2="84" stroke="#8B6F4E" stroke-width="0.8"/>
+<text x="364" y="108" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Sudden onset</text>
+<text x="364" y="134" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• High fever common</text>
+<text x="364" y="160" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Severe body aches</text>
+<text x="364" y="186" text-anchor="start" font-size="11" font-weight="normal" fill="#1F1B16" font-family="ui-sans-serif, system-ui, sans-serif">• Pronounced fatigue</text>
+<text x="340" y="232" text-anchor="middle" font-size="10" font-weight="normal" fill="#6B5C48" font-family="ui-sans-serif, system-ui, sans-serif">General tendencies described by the CDC, not a diagnostic tool.</text>
+<text x="340" y="248" text-anchor="middle" font-size="10" font-weight="normal" fill="#6B5C48" font-family="ui-sans-serif, system-ui, sans-serif">Testing is needed to confirm.</text>
+</svg>
