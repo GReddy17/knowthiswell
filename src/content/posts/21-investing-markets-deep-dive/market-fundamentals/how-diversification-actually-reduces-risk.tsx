@@ -41,6 +41,7 @@ export const metadata: PostFrontmatter = {
     "investing-markets-deep-dive/stocks-vs-bonds-what-actually-differs",
     "investing-markets-deep-dive/what-a-bull-market-vs-bear-market-actually-means",
     "personal-finance-basics/why-insurance-exists-the-concept-of-pooled-risk",
+    "investing-markets-deep-dive/how-interest-rate-changes-actually-affect-investments",
   ],
   glossary: [
     { term: "Diversification", definition: "Spreading money across holdings whose prices don't all move together, so losses in some are partly offset by others." },
@@ -112,7 +113,7 @@ export default function Post() {
       <p>All numbers below are hypothetical illustrations of the math, not forecasts or historical returns of any real investment.</p>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 1: Two assets, three correlations (baseline case)</h3>
-      <div className="prose-p">Take two investments that each swing about 20% a year (their volatility) and put half your money in each. If their correlation is +1, the portfolio swings about 20%: no benefit at all. At a correlation of 0.5, it swings about 17.3%. At 0, it swings about 14.1%. At -1 (perfect opposites, which almost never exists in practice), the swings would cancel completely. Same two assets, same weights, same individual risk. The only thing that changed was how they move together, and it cut volatility by up to 30% in the realistic cases.</div>
+      <div className="prose-p">Take two investments that each swing about 20% a year (their volatility) and put half your money in each. If their correlation is +1, the portfolio swings about 20%: no benefit at all. At a correlation of 0.5, it swings about 17.3%. At 0, it swings about 14.1%. At -1 (perfect opposites, which almost never exists in practice), the swings would cancel completely. Same two assets, same weights, same individual risk. The only thing that changed was how they move together, and it cut volatility by up to 30% in the realistic cases. Correlations aren&apos;t fixed, either: a sudden jump in rates can push stocks and bonds down together, as <TermLink href="/investing-markets-deep-dive/how-interest-rate-changes-actually-affect-investments">how interest rate changes affect investments</TermLink> explains.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 2: Adding more stocks, and hitting the floor (edge case)</h3>
       <div className="prose-p">Now imagine stocks that each swing 20% a year with an average correlation of 0.3 between any pair. One stock: 20% volatility. Ten stocks, equally weighted: about 12.2%. Thirty stocks: about 11.4%. A thousand: about 11%. The first ten holdings do most of the work, and then the line goes nearly flat. That flat line is systematic risk, the 0.3 correlation everything shares because every company lives in the same economy. This is exactly what investors saw in 2008 and in March 2020: broadly diversified stock portfolios still fell hard, because in a market-wide shock correlations rise and the shared risk dominates (see <TermLink href="/investing-markets-deep-dive/what-a-bull-market-vs-bear-market-actually-means">bull vs bear markets</TermLink>).</div>

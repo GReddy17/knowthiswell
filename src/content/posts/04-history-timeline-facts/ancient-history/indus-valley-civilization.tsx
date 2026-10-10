@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ancient-history",
   tags: ["indus valley", "harappa", "mohenjo-daro", "ancient india", "ancient civilizations"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-09",
   youtubeShort: false, youtubeLong: false,
   seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Where was the Indus Valley Civilization located?", "difficulty": "easy", "options": [{"text": "Along the Indus River and its tributaries, in modern Pakistan and northwest India", "correct": true, "explanation": "Right. Its territory reached into today's Gujarat and Rajasthan too."}, {"text": "Along the Nile in Egypt", "correct": false, "explanation": "That's ancient Egypt, one of its contemporaries."}, {"text": "Between the Tigris and Euphrates", "correct": false, "explanation": "That's Mesopotamia. The Indus civilization was farther east, on the Indus River."}]},
+  {"question": "What were the two largest known Indus cities?", "difficulty": "easy", "options": [{"text": "Mohenjo-daro and Harappa", "correct": true, "explanation": "Correct. Both had grid streets, brick houses and covered drains."}, {"text": "Ur and Babylon", "correct": false, "explanation": "Those were Mesopotamian cities."}, {"text": "Memphis and Thebes", "correct": false, "explanation": "Those were Egyptian cities."}]},
+  {"question": "What made Mohenjo-daro's city planning stand out around 2500 BCE?", "difficulty": "medium", "options": [{"text": "Covered brick drains under the streets, linked to private household bathrooms", "correct": true, "explanation": "Yes. It was a city-wide sanitation system that many later cities didn't match."}, {"text": "A huge royal palace at the center", "correct": false, "explanation": "Archaeologists haven't found clear palaces at Indus sites, which is part of what makes them unusual."}, {"text": "Stone skyscrapers several stories tall", "correct": false, "explanation": "The homes were brick, often built around courtyards, not towers."}]},
+  {"question": "Roughly how big was the Indus Valley Civilization at its peak?", "difficulty": "medium", "options": [{"text": "About 1.25 million square kilometers, larger than Egypt and Mesopotamia combined", "correct": true, "explanation": "Right. By territory it outsized both better-known neighbors."}, {"text": "About the size of a single modern city", "correct": false, "explanation": "It spanned a huge region across Pakistan and northwest India."}, {"text": "Smaller than ancient Egypt", "correct": false, "explanation": "It was larger than Egypt and Mesopotamia put together."}]},
+  {"question": "What system did Indus merchants use for their stone weights?", "difficulty": "medium", "options": [{"text": "A binary-like series: 1, 2, 4, 8, 16, 32 and so on", "correct": true, "explanation": "Yes. The weights match almost exactly at sites hundreds of kilometers apart."}, {"text": "A base-20 counting system", "correct": false, "explanation": "That's the Maya system. Indus weights doubled at each step."}, {"text": "No standard; each city used its own weights", "correct": false, "explanation": "The striking thing is how standardized they were across distant cities."}]},
+  {"question": "Mesopotamian texts mention trade with a place called \"Meluhha.\" What do many historians think it was?", "difficulty": "hard", "options": [{"text": "The Indus region", "correct": true, "explanation": "Correct. Indus seals and beads found in Mesopotamia back up that long-distance trade."}, {"text": "Ancient Egypt", "correct": false, "explanation": "Egypt had its own names in Mesopotamian records. Meluhha is usually linked to the Indus."}, {"text": "An island in the Mediterranean", "correct": false, "explanation": "The evidence points east. Indus goods turn up at sites in modern Iraq."}]},
+  {"question": "When did archaeologists first identify the Indus Valley Civilization?", "difficulty": "medium", "options": [{"text": "In the 1920s", "correct": true, "explanation": "Right. That was nearly a century after Egyptian hieroglyphs were decoded, one reason it's less familiar today."}, {"text": "In ancient Roman times", "correct": false, "explanation": "The civilization was rediscovered by modern archaeologists in the 1920s."}, {"text": "In the 1700s", "correct": false, "explanation": "It wasn't identified until the 1920s."}]},
+  {"question": "What brick proportions show up across different Indus cities?", "difficulty": "hard", "options": [{"text": "A standard 4:2:1 ratio", "correct": true, "explanation": "Yes. Matching brick ratios in different cities is a sign of remarkable standardization, even without clear evidence of kings."}, {"text": "Every city used its own random sizes", "correct": false, "explanation": "The point is the opposite: bricks shared the same proportions across cities."}, {"text": "Perfect cubes, 1:1:1", "correct": false, "explanation": "The common ratio was 4:2:1, length to width to thickness."}]},
+];
 
 export default function Post() {
   return (

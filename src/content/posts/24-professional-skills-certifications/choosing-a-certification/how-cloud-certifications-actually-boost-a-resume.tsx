@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/how-to-quantify-achievements-on-a-resume",
     "professional-skills-certifications/what-google-analytics-certification-actually-verifies",
     "professional-skills-certifications/how-to-actually-prepare-for-a-certification-exam",
+    "professional-skills-certifications/how-certifications-actually-compare-to-a-college-degree",
   ],
   glossary: [
     { term: "Cloud certification", definition: "A credential from a cloud provider (AWS, Microsoft, Google) showing you passed its proctored exam on that platform." },
@@ -139,7 +140,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="Getting a cloud certification is enough to land a cloud job."
-        reality={<p>A certification is a filter-passer and a trust signal, not a hiring decision. Employers still interview for problem-solving and hands-on skill, and for most roles they weigh experience and demonstrable projects heavily. The strongest combination is one relevant associate-level cert, one or two projects you can explain, and any related work experience, even if it&apos;s help-desk or scripting in a different job.</p>}
+        reality={<p>A certification is a filter-passer and a trust signal, not a hiring decision. Employers still interview for problem-solving and hands-on skill, and for most roles they weigh experience and demonstrable projects heavily. The strongest combination is one relevant associate-level cert, one or two projects you can explain, and any related work experience, even if it&apos;s help-desk or scripting in a different job. For the bigger question of when a cert can stand in for a degree and when it can&apos;t, see <TermLink href="/professional-skills-certifications/how-certifications-actually-compare-to-a-college-degree">how certifications compare to a college degree</TermLink>.</p>}
       />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What to do next</h2>

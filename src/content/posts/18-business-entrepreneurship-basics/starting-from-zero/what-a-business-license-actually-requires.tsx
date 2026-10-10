@@ -41,6 +41,7 @@ export const metadata: PostFrontmatter = {
     "legal-documentation-howtos/business-registration-documents-explained",
     "business-entrepreneurship-basics/what-a-business-plan-actually-needs-to-include",
     "business-entrepreneurship-basics/how-to-actually-validate-a-business-idea-before-building-it",
+    "business-entrepreneurship-basics/what-makes-a-side-hustle-different-from-a-real-business",
   ],
   glossary: [
     { term: "General business license", definition: "A city or county registration (sometimes called a business tax certificate) that lets a business operate in that jurisdiction. Not every locality requires one." },
@@ -119,7 +120,7 @@ export default function Post() {
       <p>Fees and exact rules differ by place, so these examples describe the typical structure, not a specific city&apos;s costs.</p>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 1: A freelance graphic designer working from home (baseline case)</h3>
-      <div className="prose-p">No regulated activity, no physical customers, no employees, and design services aren&apos;t taxable in many states. The likely stack is short: a city or county business registration if the locality requires one, possibly a home-occupation approval (often simple when no clients visit), and a DBA if she trades under a studio name rather than her own. She doesn&apos;t need an EIN as a sole proprietor without employees, though many freelancers get one anyway (it&apos;s free) to avoid handing out their Social Security number on client tax forms. Total paperwork: often an afternoon.</div>
+      <div className="prose-p">No regulated activity, no physical customers, no employees, and design services aren&apos;t taxable in many states. The likely stack is short: a city or county business registration if the locality requires one, possibly a home-occupation approval (often simple when no clients visit), and a DBA if she trades under a studio name rather than her own. She doesn&apos;t need an EIN as a sole proprietor without employees, though many freelancers get one anyway (it&apos;s free) to avoid handing out their Social Security number on client tax forms. Total paperwork: often an afternoon. Even a setup this light counts as a business to the IRS once it&apos;s run for profit; <TermLink href="/business-entrepreneurship-basics/what-makes-a-side-hustle-different-from-a-real-business">side hustle vs real business</TermLink> covers where the practical line sits.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 2: A mobile food truck (edge case, many layers)</h3>
       <div className="prose-p">This is where the stack gets tall. The state or county health department inspects and permits the truck and usually requires a food-handler or food-manager certificate. A sales tax permit is needed for food sales. Each city the truck operates in may require its own business license and a mobile vending permit, sometimes with rules on where and when it can park. The fire department may inspect cooking equipment, and the truck needs commercial vehicle registration and insurance. Move to a new city and several of these start again. A food truck is the clearest case of why &quot;the&quot; business license is a myth.</div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "vocabulary-building",
   tags: ["commonly confused words", "affect vs effect", "fewer vs less", "who vs whom", "usage", "vocabulary"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-09",
   youtubeShort: false, youtubeLong: false,
   seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Which sentence uses \"effect\" correctly?", "difficulty": "easy", "options": [{"text": "The effect of the storm was a canceled flight.", "correct": true, "explanation": "Yes. \"Effect\" follows \"the\" and names a result, so it's the noun."}, {"text": "The storm will effect our travel plans.", "correct": false, "explanation": "Here the storm is influencing the plans, so the verb \"affect\" is the right choice."}, {"text": "The weather effected her mood all day.", "correct": false, "explanation": "Influencing a mood is \"affected.\" \"Effected\" means brought about."}]},
+  {"question": "Which phrase follows the traditional fewer/less rule?", "difficulty": "easy", "options": [{"text": "Fewer cars and less traffic noise", "correct": true, "explanation": "Right. Cars can be counted one by one; noise is measured as a whole."}, {"text": "Less cars and fewer traffic noise", "correct": false, "explanation": "That flips both. Countable cars take \"fewer\"; uncountable noise takes \"less.\""}, {"text": "Less problems this week", "correct": false, "explanation": "Problems can be counted, so formal writing calls for \"fewer problems.\""}]},
+  {"question": "\"The new manager effected several changes.\" What does \"effected\" mean here?", "difficulty": "medium", "options": [{"text": "Brought the changes about", "correct": true, "explanation": "Correct. \"Effect\" as a verb means to cause or carry out, which is a rarer but correct use."}, {"text": "Influenced changes that someone else made", "correct": false, "explanation": "That would be \"affected.\" \"Effected\" says the manager made the changes happen."}, {"text": "It's a typo for \"affected\"", "correct": false, "explanation": "It's a real, if uncommon, verb use. The meaning just differs from \"affected.\""}]},
+  {"question": "A psychiatrist notes that a patient \"displayed a flat affect.\" What is \"affect\" here?", "difficulty": "medium", "options": [{"text": "A noun meaning a person's observed emotional expression", "correct": true, "explanation": "Yes. That's the specialized psychology use, one of the rare exceptions to verb-affect, noun-effect."}, {"text": "A misspelling of \"effect\"", "correct": false, "explanation": "In clinical writing, \"affect\" as a noun is correct and means outward emotional expression."}, {"text": "A verb meaning to influence", "correct": false, "explanation": "After \"a flat,\" the word names a thing, so it's working as a noun here."}]},
+  {"question": "\"___ did you call?\" Which word does formal writing expect?", "difficulty": "easy", "options": [{"text": "Whom", "correct": true, "explanation": "Right. The answer would be \"I called him,\" and \"him\" points to \"whom,\" the object form."}, {"text": "Who", "correct": false, "explanation": "Casual speech often uses \"who\" here, but the word is receiving the action, so formal writing wants \"whom.\""}, {"text": "Whose", "correct": false, "explanation": "\"Whose\" shows ownership. The question asks about the person who was called."}]},
+  {"question": "What's the quick test for choosing \"who\" or \"whom\"?", "difficulty": "medium", "options": [{"text": "Answer the implied question with he or him: \"he\" means who, \"him\" means whom", "correct": true, "explanation": "Correct. The m in \"him\" and \"whom\" makes it easy to remember."}, {"text": "Use \"whom\" whenever the sentence sounds formal", "correct": false, "explanation": "Formality isn't the test. Grammar is: subject gets \"who,\" object gets \"whom.\""}, {"text": "Use \"whom\" after any verb", "correct": false, "explanation": "Position alone doesn't decide it. Ask whether the word is doing the action or receiving it."}]},
+  {"question": "Why do some confused pairs deserve strict rules while others are more of a live debate?", "difficulty": "hard", "options": [{"text": "Some are near-homophones with fixed jobs, like affect/effect, while others, like fewer/less, involve a traditional rule that usage is actively shifting away from", "correct": true, "explanation": "Yes. Knowing which kind you're dealing with tells you how strictly to follow the rule."}, {"text": "All of them are settled rules, so none are up for debate", "correct": false, "explanation": "Fewer/less is a documented, ongoing usage shift, not a settled case like affect/effect."}, {"text": "None of them matter anymore because dictionaries accept everything", "correct": false, "explanation": "Dictionaries record real usage, but formal writing still holds the traditional lines."}]},
+];
 
 export default function Post() {
   return (

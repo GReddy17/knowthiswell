@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "personal-finance-basics/understanding-retirement-accounts-basic-mechanics",
     "government-schemes-benefits/how-student-loan-forgiveness-programs-actually-work",
     "government-schemes-benefits/what-housing-assistance-programs-actually-offer",
+    "government-schemes-benefits/what-veterans-benefits-actually-include",
   ],
   glossary: [
     { term: "SSDI", definition: "Social Security Disability Insurance: benefits for disabled workers who paid enough Social Security taxes, based on their earnings record." },
@@ -139,7 +140,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="If my doctor says I can't work, Social Security has to approve me."
-        reality={<p>SSA makes its own decision using the five-step process. A doctor&apos;s opinion is important evidence, especially when it describes specific limitations and is backed by records, but it isn&apos;t binding. SSA also weighs whether you could do other, less demanding work. That&apos;s why detailed functional evidence usually matters more than a note that simply says &quot;unable to work.&quot;</p>}
+        reality={<p>SSA makes its own decision using the five-step process. A doctor&apos;s opinion is important evidence, especially when it describes specific limitations and is backed by records, but it isn&apos;t binding. SSA also weighs whether you could do other, less demanding work. That&apos;s why detailed functional evidence usually matters more than a note that simply says &quot;unable to work.&quot; Veterans with service-connected conditions have a separate system with its own percentage ratings; see <TermLink href="/government-schemes-benefits/what-veterans-benefits-actually-include">what veterans benefits actually include</TermLink>.</p>}
       />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What to do next</h2>

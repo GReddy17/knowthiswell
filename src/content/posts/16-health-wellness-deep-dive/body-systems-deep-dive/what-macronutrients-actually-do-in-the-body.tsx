@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "health-wellness-deep-dive/how-intermittent-fasting-actually-affects-metabolism",
     "general-science-facts/nutrition-and-how-the-body-uses-food",
     "health-wellness-deep-dive/how-the-lymphatic-system-actually-works",
+    "health-wellness-deep-dive/what-gut-health-actually-means-and-why-it-matters",
   ],
   glossary: [
     { term: "Macronutrient", definition: "A nutrient needed in large amounts (grams a day) that provides energy: carbohydrate, protein or fat." },
@@ -126,7 +127,7 @@ export default function Post() {
       <div className="prose-p">The RDA of 0.8 g per kilogram means a 70 kg (154 lb) adult needs about 56 g of protein a day, and a 90 kg (198 lb) adult about 72 g. A common mistake is applying 0.8 g per <em>pound</em>, which gives 123 g for the 70 kg person, more than double. Higher intakes aren&apos;t necessarily harmful for healthy people and are often recommended for older adults and strength athletes (roughly 1.0–1.6 g/kg in many sports nutrition guidelines), but the unit matters, and people with kidney disease may need to limit protein.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: Building a day within the ranges (real-world use)</h3>
-      <div className="prose-p">Someone eating 2,000 calories a day can fit anywhere in these ranges: 225–325 g carbohydrate (45–65%), 44–78 g fat (20–35%) and 50–175 g protein (10–35%). A sample day: oatmeal with milk and berries, a lentil and rice bowl with vegetables and olive oil, Greek yogurt, and salmon with potatoes and salad lands around 50% carbohydrate, 30% fat and 20% protein, well within all three ranges, with fiber from the oats, lentils, fruit and vegetables. The ranges leave room for very different cuisines; the quality of each source (whole grains vs refined sugar, fish vs processed meat) matters as much as the percentages.</div>
+      <div className="prose-p">Someone eating 2,000 calories a day can fit anywhere in these ranges: 225–325 g carbohydrate (45–65%), 44–78 g fat (20–35%) and 50–175 g protein (10–35%). A sample day: oatmeal with milk and berries, a lentil and rice bowl with vegetables and olive oil, Greek yogurt, and salmon with potatoes and salad lands around 50% carbohydrate, 30% fat and 20% protein, well within all three ranges, with fiber from the oats, lentils, fruit and vegetables. The ranges leave room for very different cuisines; the quality of each source (whole grains vs refined sugar, fish vs processed meat) matters as much as the percentages. Fiber is a good example: it&apos;s a carbohydrate your body can&apos;t digest, so it feeds your gut microbes instead, as <TermLink href="/health-wellness-deep-dive/what-gut-health-actually-means-and-why-it-matters">what gut health actually means</TermLink> explains.</div>
 
       <QuickCheck
         question="In the granola bar, why is fat 36% of calories but only 20% of the macronutrient grams?"

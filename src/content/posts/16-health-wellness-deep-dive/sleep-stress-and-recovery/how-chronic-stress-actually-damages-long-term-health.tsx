@@ -45,6 +45,7 @@ export const metadata: PostFrontmatter = {
     "health-body-basics/understanding-stress-and-the-body-general-overview",
     "health-wellness-deep-dive/what-resting-heart-rate-actually-reveals-about-fitness",
     "health-wellness-deep-dive/what-burnout-actually-is-medically",
+    "health-wellness-deep-dive/what-gut-health-actually-means-and-why-it-matters",
   ],
   glossary: [
     { term: "Allostasis", definition: "The body's process of staying stable by changing: adjusting heart rate, hormones and energy use to meet a challenge, then returning to baseline." },
@@ -153,7 +154,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="Stress damages your health mainly by flooding your body with too much cortisol."
-        reality={<p>Part of the damage comes from the system staying switched on, and part from tissues becoming less responsive to cortisol. Research by Cohen and colleagues linked prolonged stress to immune cells that partly ignore cortisol&apos;s anti-inflammatory signal, which can let inflammation run higher. It&apos;s a problem of regulation over time, not simply of one hormone being too high.</p>}
+        reality={<p>Part of the damage comes from the system staying switched on, and part from tissues becoming less responsive to cortisol. Research by Cohen and colleagues linked prolonged stress to immune cells that partly ignore cortisol&apos;s anti-inflammatory signal, which can let inflammation run higher. It&apos;s a problem of regulation over time, not simply of one hormone being too high. Digestion is another area where vague symptoms get pinned on a single cause; <TermLink href="/health-wellness-deep-dive/what-gut-health-actually-means-and-why-it-matters">what gut health actually means</TermLink> separates what&apos;s established from the hype.</p>}
       />
 
       <h2 className={h2}>What to do next</h2>

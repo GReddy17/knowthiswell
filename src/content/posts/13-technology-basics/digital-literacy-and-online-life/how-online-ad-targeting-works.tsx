@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-cookies-actually-do",
     "technology-basics/what-a-digital-footprint-actually-means",
     "technology-basics/how-search-engines-rank-results",
+    "digital-safety-privacy/what-your-digital-footprint-actually-reveals",
   ],
   glossary: [
     { term: "Ad exchange", definition: "An automated marketplace that connects websites with ad space to sell and advertisers who want to buy it, running the matching process in real time as a page loads." },
@@ -100,7 +101,7 @@ export default function Post() {
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 1: An ad following a recently viewed product (baseline case)</h3>
       <div className="prose-p">
-        Someone browses a pair of hiking boots on a retail site, doesn&apos;t buy them, and later sees an ad for the same boots on a different website. The retail site&apos;s tracking script recorded the product view and tagged the visitor&apos;s browser with an identifier tied to that specific product interest. When that same browser later loads a page participating in the same ad exchange, that identifier is available for bidding, and the retailer (or an agency acting for it) can choose to bid specifically on showing that exact product ad to that specific tagged browser &mdash; a targeting strategy commonly called retargeting, built entirely from the store-and-resend mechanism already covered in how cookies work.
+        Someone browses a pair of hiking boots on a retail site, doesn&apos;t buy them, and later sees an ad for the same boots on a different website. The retail site&apos;s tracking script recorded the product view and tagged the visitor&apos;s browser with an identifier tied to that specific product interest. When that same browser later loads a page participating in the same ad exchange, that identifier is available for bidding, and the retailer (or an agency acting for it) can choose to bid specifically on showing that exact product ad to that specific tagged browser &mdash; a targeting strategy commonly called retargeting, built entirely from the store-and-resend mechanism already covered in how cookies work. Retargeting is one of the milder uses of that trail; combined with other data, the same records can single a person out, as <TermLink href="/digital-safety-privacy/what-your-digital-footprint-actually-reveals">what your digital footprint actually reveals</TermLink> explains.
       </div>
       <QuickCheck
         question="Why does an ad for a specific product someone viewed keep appearing on unrelated websites afterward?"

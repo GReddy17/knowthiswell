@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "legal-documentation-howtos/tenant-rights-basics-factual-general-overview",
     "legal-documentation-howtos/understanding-rental-agreements-clause-by-clause",
     "personal-finance-basics/the-50-30-20-budgeting-rule-explained",
+    "government-schemes-benefits/what-veterans-benefits-actually-include",
   ],
   glossary: [
     { term: "Public Housing Agency (PHA)", definition: "The local or regional agency that runs HUD's voucher and public housing programs in an area: it takes applications, keeps the waiting list, checks eligibility and pays landlords." },
@@ -103,7 +104,7 @@ export default function Post() {
       />
       <FootnoteAside>The figures above (30%, 40%, the $25-$50 minimum rent, and the 50% and 80% AMI limits) come from HUD&apos;s official program pages as of October 2026. Dollar income limits are recalculated every year for every county, and PHAs set their own payment standards and waiting-list preferences, so always check your local agency&apos;s current numbers.</FootnoteAside>
 
-      <p>Beyond those two programs, the landscape includes <strong>project-based rental assistance</strong> (the subsidy is attached to specific privately owned buildings, so it stays when you move out), housing for elderly people and people with disabilities, <strong>HUD-VASH</strong> (vouchers plus VA support services for veterans experiencing homelessness), USDA rental assistance in rural areas, and <strong>tax-credit (LIHTC) apartments</strong>, where rents are capped for income-qualified tenants but don&apos;t flex with each tenant&apos;s income. The general application process is covered in our guide to <TermLink href="/government-schemes-benefits/how-to-actually-apply-for-government-assistance-programs">applying for government assistance programs</TermLink>.</p>
+      <p>Beyond those two programs, the landscape includes <strong>project-based rental assistance</strong> (the subsidy is attached to specific privately owned buildings, so it stays when you move out), housing for elderly people and people with disabilities, <strong>HUD-VASH</strong> (vouchers plus VA support services for veterans experiencing homelessness), USDA rental assistance in rural areas, and <strong>tax-credit (LIHTC) apartments</strong>, where rents are capped for income-qualified tenants but don&apos;t flex with each tenant&apos;s income. The general application process is covered in our guide to <TermLink href="/government-schemes-benefits/how-to-actually-apply-for-government-assistance-programs">applying for government assistance programs</TermLink>. Veterans have extra routes as well, starting with the VA home loan guaranty; see <TermLink href="/government-schemes-benefits/what-veterans-benefits-actually-include">what veterans benefits actually include</TermLink>.</p>
 
       <QuickCheck
         question="A household with a housing voucher has an adjusted monthly income of $2,000. Roughly how much would its usual share toward rent and utilities be?"

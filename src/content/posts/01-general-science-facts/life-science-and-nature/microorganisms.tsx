@@ -46,6 +46,7 @@ export const metadata: PostFrontmatter = {
     "general-science-facts/cells-and-genetics-basics",
     "general-science-facts/symbiosis-and-animal-relationships",
     "general-science-facts/ecosystems-and-food-chains",
+    "health-wellness-deep-dive/what-gut-health-actually-means-and-why-it-matters",
   ],
   glossary: [
     { term: "Microorganism", definition: "A living organism too small to see with the naked eye, requiring a microscope to observe — includes bacteria, archaea, protozoa, fungi, and algae." },
@@ -172,7 +173,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="All bacteria are harmful and the goal should be to eliminate as many as possible from your body and environment."
-        reality={<p>The overwhelming majority of bacterial species are harmless, and a substantial number are directly beneficial or even essential. The human gut microbiome hosts trillions of bacteria that aid digestion, help synthesize certain vitamins, and support immune system function — disrupting this community (for example, through overuse of antibiotics) can cause real health problems, not improvements. Soil bacteria recycle nutrients essential for plant growth; bacteria in fermented foods like yogurt, cheese, and sauerkraut are what produce those foods in the first place. According to NIH research on the microbiome, only a small fraction of known bacterial species are pathogenic (disease-causing) at all — treating &quot;bacteria&quot; as a single harmful category ignores an enormous, mostly beneficial or neutral majority.</p>}
+        reality={<p>The overwhelming majority of bacterial species are harmless, and a substantial number are directly beneficial or even essential. The human gut microbiome hosts trillions of bacteria that aid digestion, help synthesize certain vitamins, and support immune system function — disrupting this community (for example, through overuse of antibiotics) can cause real health problems, not improvements. Soil bacteria recycle nutrients essential for plant growth; bacteria in fermented foods like yogurt, cheese, and sauerkraut are what produce those foods in the first place. According to NIH research on the microbiome, only a small fraction of known bacterial species are pathogenic (disease-causing) at all — treating &quot;bacteria&quot; as a single harmful category ignores an enormous, mostly beneficial or neutral majority. For what that gut community actually does, and where the claims about it outrun the evidence, see <TermLink href="/health-wellness-deep-dive/what-gut-health-actually-means-and-why-it-matters">what gut health actually means</TermLink>.</p>}
       />
 
       <QuickCheck

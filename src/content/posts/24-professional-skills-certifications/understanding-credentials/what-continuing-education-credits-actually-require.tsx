@@ -41,6 +41,7 @@ export const metadata: PostFrontmatter = {
     "professional-skills-certifications/what-a-certificate-actually-differs-from-a-certification",
     "professional-skills-certifications/how-to-actually-choose-between-competing-certifications",
     "professional-skills-certifications/how-cloud-certifications-actually-boost-a-resume",
+    "professional-skills-certifications/how-certifications-actually-compare-to-a-college-degree",
   ],
   glossary: [
     { term: "Continuing education credit", definition: "A unit recording learning completed after you earn a credential, counted toward the renewal requirement set by the certifying body or licensing board." },
@@ -144,7 +145,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="Once you've passed a certification exam, the credential is yours for life."
-        reality={<p>Many certifications, including PMP, Security+ and CISSP, expire unless you meet continuing education requirements and pay any fees each cycle. Some older credentials were issued as lifetime certifications, and many course certificates never expire, so check the terms of your specific credential.</p>}
+        reality={<p>Many certifications, including PMP, Security+ and CISSP, expire unless you meet continuing education requirements and pay any fees each cycle. Some older credentials were issued as lifetime certifications, and many course certificates never expire, so check the terms of your specific credential. Renewal cost is one of the hidden factors when you weigh <TermLink href="/professional-skills-certifications/how-certifications-actually-compare-to-a-college-degree">how certifications compare to a college degree</TermLink>.</p>}
       />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What to do next</h2>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ancient-history",
   tags: ["maya", "aztec", "inca", "mesoamerica", "ancient civilizations"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-09",
   youtubeShort: false, youtubeLong: false,
   seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Which of the three civilizations is by far the oldest?", "difficulty": "easy", "options": [{"text": "The Maya, from around 2000 BCE", "correct": true, "explanation": "Right. The Maya started roughly 3,000 years before the Aztec and Inca empires rose."}, {"text": "The Aztec", "correct": false, "explanation": "The Aztec Empire rose in the 1300s CE, much later than the Maya."}, {"text": "The Inca", "correct": false, "explanation": "The Inca Empire rose around 1400 CE, very late compared with the Maya."}]},
+  {"question": "Which mathematical idea did the Maya develop independently?", "difficulty": "easy", "options": [{"text": "The concept of zero as a placeholder", "correct": true, "explanation": "Yes. It was a rare breakthrough, also reached independently in India and, in a more limited form, by the Babylonians."}, {"text": "Negative numbers", "correct": false, "explanation": "The Maya achievement highlighted here is zero, alongside a base-20 system."}, {"text": "The decimal point", "correct": false, "explanation": "The Maya counted in base 20, and their standout idea was zero."}]},
+  {"question": "What number base did the Maya use?", "difficulty": "medium", "options": [{"text": "Base 20 (vigesimal)", "correct": true, "explanation": "Correct. They counted in twenties rather than tens."}, {"text": "Base 10", "correct": false, "explanation": "That's the system most of the world uses today. The Maya used base 20."}, {"text": "Base 2", "correct": false, "explanation": "Base 2 is binary. The Maya counted in twenties."}]},
+  {"question": "Where was Tenochtitlan, the Aztec capital, built?", "difficulty": "easy", "options": [{"text": "On an island in Lake Texcoco, where Mexico City stands today", "correct": true, "explanation": "Right. Causeways connected it to the mainland."}, {"text": "High in the Andes mountains", "correct": false, "explanation": "That's Inca territory. Tenochtitlan was in central Mexico."}, {"text": "On the Yucatán coast", "correct": false, "explanation": "The Yucatán was Maya country. The Aztec capital sat on a lake in central Mexico."}]},
+  {"question": "What were chinampas?", "difficulty": "medium", "options": [{"text": "Artificial farming islands built from layered lake mud and vegetation", "correct": true, "explanation": "Yes. They were productive enough to help feed Tenochtitlan's 200,000-300,000 people."}, {"text": "Stone temples used for astronomy", "correct": false, "explanation": "Chinampas were farmland, not temples."}, {"text": "Relay runners who carried messages", "correct": false, "explanation": "Those were the Inca's chasquis. Chinampas were Aztec farm plots on the lake."}]},
+  {"question": "Who were the Inca chasquis?", "difficulty": "medium", "options": [{"text": "Relay runners who carried messages along the Inca road network", "correct": true, "explanation": "Right. They could move messages hundreds of kilometers in days across more than 30,000 km of roads."}, {"text": "Priests who kept the calendar", "correct": false, "explanation": "Chasquis were messengers, part of how the Inca ran a long, narrow empire."}, {"text": "Record-keepers who tied quipu", "correct": false, "explanation": "Quipu were the knotted cords. Chasquis were the runners who carried messages."}]},
+  {"question": "When did the Aztec Empire fall to Spanish conquest?", "difficulty": "medium", "options": [{"text": "1521", "correct": true, "explanation": "Correct. The Inca core followed by 1533."}, {"text": "1697", "correct": false, "explanation": "That's when the last independent Maya kingdom fell, much later."}, {"text": "1492", "correct": false, "explanation": "That's when Columbus first reached the Americas, not when the Aztec Empire fell."}]},
+  {"question": "What does the so-called \"Maya collapse\" actually refer to?", "difficulty": "hard", "options": [{"text": "The decline of many large southern lowland city-states around 800-900 CE, likely from drought, warfare and political strain", "correct": true, "explanation": "Yes. Northern cities like Chichen Itza kept thriving, and millions of Maya people live in the region today."}, {"text": "The sudden disappearance of the Maya people", "correct": false, "explanation": "The Maya never disappeared. Millions live in Mexico and Central America today, many speaking Mayan languages."}, {"text": "The Spanish conquest of the Maya in 1521", "correct": false, "explanation": "1521 is the Aztec date. The last independent Maya kingdom held out until 1697."}]},
+];
 
 export default function Post() {
   return (

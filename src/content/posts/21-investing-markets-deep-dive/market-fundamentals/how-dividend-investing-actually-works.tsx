@@ -40,6 +40,7 @@ export const metadata: PostFrontmatter = {
     "investing-markets-deep-dive/what-a-mutual-fund-actually-is",
     "personal-finance-basics/simple-vs-compound-interest-cross-link-to-math-and-numbers",
     "investing-markets-deep-dive/how-diversification-actually-reduces-risk",
+    "investing-markets-deep-dive/how-interest-rate-changes-actually-affect-investments",
   ],
   glossary: [
     { term: "Dividend", definition: "A payment a company makes to its shareholders, usually cash, out of its earnings or accumulated profits. The board decides whether and how much to pay." },
@@ -107,7 +108,7 @@ export default function Post() {
       <div className="prose-p">A company pays $0.60 per quarter, so $2.40 a year. The stock trades at $80. Yield = $2.40 &divide; $80 = 3%. If you own 200 shares, you receive $120 a year before tax, paid as four $30 deposits. That&apos;s the income side. The other side is what the $16,000 of shares does over the year, which can easily be bigger, up or down, than the $120.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 2: The 11% yield that isn&apos;t (edge case)</h3>
-      <div className="prose-p">A retailer paid $2.20 a year when its stock was $55, a 4% yield. Bad earnings send the price to $20, and screeners now show an 11% yield. Nothing about the dividend improved; the price collapsed. If profits keep falling, the board is likely to cut the dividend, and buyers chasing the &quot;11%&quot; end up with a smaller payout and a lower stock. An unusually high yield is often the market pricing in exactly that risk.</div>
+      <div className="prose-p">A retailer paid $2.20 a year when its stock was $55, a 4% yield. Bad earnings send the price to $20, and screeners now show an 11% yield. Nothing about the dividend improved; the price collapsed. If profits keep falling, the board is likely to cut the dividend, and buyers chasing the &quot;11%&quot; end up with a smaller payout and a lower stock. An unusually high yield is often the market pricing in exactly that risk. Rates matter too: when savings accounts and bonds pay more, income-seekers have alternatives, one of the ways <TermLink href="/investing-markets-deep-dive/how-interest-rate-changes-actually-affect-investments">interest rate changes affect investments</TermLink> like dividend stocks.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: Reinvesting over time (applied case)</h3>
       <div className="prose-p">An investor puts $10,000 into a fund yielding 3% and turns on dividend reinvestment. Year 1&apos;s roughly $300 buys more shares, and those new shares pay dividends of their own the next year. Ignoring price changes, after 20 years at 3% reinvested, the share count has grown by about 80% (1.03 to the 20th power is about 1.81). That growth in shares owned, not the individual payments, is what long-term dividend investors are really after. In a regular taxable account each year&apos;s dividends are still taxed even though they were reinvested.</div>

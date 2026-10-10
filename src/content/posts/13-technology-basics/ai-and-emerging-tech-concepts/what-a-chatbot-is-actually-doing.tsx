@@ -41,6 +41,7 @@ export const metadata: PostFrontmatter = {
     "ai-future-tech-literacy/how-ai-chatbots-are-trained",
     "technology-basics/how-captcha-tells-humans-from-bots",
     "ai-future-tech-literacy/what-prompt-engineering-actually-is",
+    "ai-future-tech-literacy/how-to-tell-if-content-was-ai-generated",
   ],
   glossary: [
     { term: "Token", definition: "A small chunk of text — often a word or part of a word — that a language model reads and generates as its basic unit, rather than working with whole sentences at once." },
@@ -149,7 +150,7 @@ export default function Post() {
         altText="Diagram showing a user's message broken into tokens, fed into a language model, which outputs a ranked list of candidate next tokens with probabilities, picks the top one, appends it to the reply, and feeds the whole updated text back into the model to predict the next token, repeating one token at a time until a stop signal."
       />
       <p>
-        The loop running along the bottom of the diagram is the entire mechanism, repeated once per token. Nothing in that loop checks whether the finished sentence is true — it only ranks which token is statistically likely to come next, which is the structural root of both the technology&apos;s fluency and its capacity to be fluently wrong.
+        The loop running along the bottom of the diagram is the entire mechanism, repeated once per token. Nothing in that loop checks whether the finished sentence is true — it only ranks which token is statistically likely to come next, which is the structural root of both the technology&apos;s fluency and its capacity to be fluently wrong. That same fluency is why <TermLink href="/ai-future-tech-literacy/how-to-tell-if-content-was-ai-generated">telling AI-written text from human writing</TermLink> is much harder than it sounds.
       </p>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Common mistakes</h2>

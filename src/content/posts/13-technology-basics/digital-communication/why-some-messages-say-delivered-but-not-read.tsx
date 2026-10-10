@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/how-push-notifications-work",
     "technology-basics/what-happens-when-you-block-someone",
     "digital-safety-privacy/what-end-to-end-encryption-actually-means",
+    "life-skills-etiquette/what-digital-etiquette-actually-means-in-group-chats",
   ],
   glossary: [
     { term: "Delivered status", definition: "A status confirming that a message successfully transferred to and was received by the recipient's device — an event separate from, and earlier than, that device displaying the message on screen." },
@@ -126,7 +127,7 @@ export default function Post() {
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: Deciding whether to worry about an unread message (real-world / applied case)</h3>
       <p>
-        Someone sends an important message to a family member and, after seeing &quot;delivered&quot; with no &quot;read&quot; status for a full day, starts worrying something is wrong. Understanding the mechanism suggests a calmer read of the situation: delivered confirms the message safely reached a device that has connectivity — which rules out the more concerning possibility of a completely offline or powered-off device — while an unread status for a day is well within the range of ordinary explanations like read receipts being off, a muted conversation, or simply not having opened the app. If genuine concern about the person&apos;s wellbeing exists, delivered-but-unread status alone isn&apos;t informative enough to act on either way — a phone call or a different, more direct channel is a better next step than reading meaning into a status icon that was never designed to report on a person&apos;s overall state.
+        Someone sends an important message to a family member and, after seeing &quot;delivered&quot; with no &quot;read&quot; status for a full day, starts worrying something is wrong. Understanding the mechanism suggests a calmer read of the situation: delivered confirms the message safely reached a device that has connectivity — which rules out the more concerning possibility of a completely offline or powered-off device — while an unread status for a day is well within the range of ordinary explanations like read receipts being off, a muted conversation, or simply not having opened the app. If genuine concern about the person&apos;s wellbeing exists, delivered-but-unread status alone isn&apos;t informative enough to act on either way — a phone call or a different, more direct channel is a better next step than reading meaning into a status icon that was never designed to report on a person&apos;s overall state. In a busy group thread the same signal is even easier to over-read; see <TermLink href="/life-skills-etiquette/what-digital-etiquette-actually-means-in-group-chats">what digital etiquette actually means in group chats</TermLink>.
       </p>
       <QuickCheck
         question="Why is 'delivered but not read for a day' generally weak evidence that something is wrong with the recipient?"

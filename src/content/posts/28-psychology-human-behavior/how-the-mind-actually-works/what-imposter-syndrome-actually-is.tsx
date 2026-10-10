@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/what-test-anxiety-actually-does-to-performance",
     "career-study-skills/what-a-performance-review-actually-evaluates",
     "health-wellness-deep-dive/what-burnout-actually-is-medically",
+    "psychology-human-behavior/what-emotional-intelligence-actually-means",
   ],
   glossary: [
     { term: "Impostor phenomenon", definition: "The original 1978 term from Clance and Imes for the persistent belief among high achievers that their success is undeserved and that they will be exposed as frauds." },
@@ -97,7 +98,7 @@ export default function Post() {
       />
       <FootnoteAside>The word &quot;syndrome&quot; is popular but misleading. Clance and Imes called it a phenomenon, and researchers such as Feenstra and colleagues (2020) argue that a person who is the only one of their background in a room may be reacting partly to a real lack of belonging and support, not only to a flaw in their own thinking.</FootnoteAside>
 
-      <p>The distinction that matters most is between imposter feelings and actual incompetence. Imposter feelings are a gap between how well you&apos;re doing and how well you believe you&apos;re doing, in the pessimistic direction. That is why the pattern is reported so often among people who are objectively performing well: the gap only exists if there&apos;s real performance for the belief to undercount. It is roughly the mirror image of the <TermLink href="/psychology-human-behavior/what-confirmation-bias-actually-does-to-decision-making">confirmation bias</TermLink> trap: you notice evidence that fits &quot;I&apos;m a fraud&quot; and explain away evidence that doesn&apos;t.</p>
+      <p>The distinction that matters most is between imposter feelings and actual incompetence. Imposter feelings are a gap between how well you&apos;re doing and how well you believe you&apos;re doing, in the pessimistic direction. That is why the pattern is reported so often among people who are objectively performing well: the gap only exists if there&apos;s real performance for the belief to undercount. It is roughly the mirror image of the <TermLink href="/psychology-human-behavior/what-confirmation-bias-actually-does-to-decision-making">confirmation bias</TermLink> trap: you notice evidence that fits &quot;I&apos;m a fraud&quot; and explain away evidence that doesn&apos;t. Noticing that feeling and naming it, rather than obeying it, is part of what psychologists mean by <TermLink href="/psychology-human-behavior/what-emotional-intelligence-actually-means">emotional intelligence</TermLink>.</p>
 
       <QuickCheck
         question="After acing a certification exam, someone says, 'I only passed because the questions happened to cover what I studied.' What is this an example of?"

@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/what-cookies-actually-do",
     "technology-basics/how-online-ad-targeting-works",
     "technology-basics/what-app-permissions-actually-grant",
+    "digital-safety-privacy/what-your-digital-footprint-actually-reveals",
   ],
   glossary: [
     { term: "Digital footprint", definition: "The total trail of data created, directly or indirectly, by a person's activity across websites, apps, and connected devices." },
@@ -85,7 +86,7 @@ export default function Post() {
       <FootnoteAside>The term &quot;digital footprint&quot; predates modern data brokerage by years, but the underlying mechanism &mdash; scattered logs matched by a shared identifier &mdash; is the same one that powers cross-site ad targeting and credit-report assembly, just applied to a broader and less regulated set of data sources.</FootnoteAside>
 
       <p>
-        Every downstream privacy question &mdash; who can see what you did, how targeted an ad feels, whether a stranger can find your address from a username &mdash; traces back to that one mechanism: separate trails, collected in separate places, matched together by a shared identifier into one profile.
+        Every downstream privacy question &mdash; who can see what you did, how targeted an ad feels, whether a stranger can find your address from a username &mdash; traces back to that one mechanism: separate trails, collected in separate places, matched together by a shared identifier into one profile. For what that combined profile can actually reveal about a person, see <TermLink href="/digital-safety-privacy/what-your-digital-footprint-actually-reveals">what your digital footprint actually reveals</TermLink>.
       </p>
 
       <QuickCheck

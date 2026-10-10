@@ -41,6 +41,7 @@ export const metadata: PostFrontmatter = {
     "ai-future-tech-literacy/machine-learning-vs-deep-learning-explained",
     "technology-basics/pixels-and-resolution-explained",
     "technology-basics/how-machine-learning-actually-works",
+    "ai-future-tech-literacy/how-to-tell-if-content-was-ai-generated",
   ],
   glossary: [
     { term: "Diffusion model", definition: "A type of generative AI that learns to reverse a gradual noising process, so it can turn random noise into a new image step by step." },
@@ -110,7 +111,7 @@ export default function Post() {
       <div className="prose-p">The result may show a convincing shop sign with lettering like &quot;OPNE 42 HOUSR.&quot; The model learned that signs contain letter-shaped marks in neat rows, but nothing in the training objective checks spelling. The same thing explains six-fingered hands: the model learned that hands have several finger-like shapes close together, not the rule that there are five. Newer models improve on this with more and better-captioned data and larger text encoders, but it&apos;s still a pattern-matching improvement, not the model learning rules.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: Checking a viral &quot;photo&quot; (real-world use)</h3>
-      <div className="prose-p">A dramatic image of a flooded landmark is spreading online. Knowing how diffusion works tells you what to look for: text on signs that almost makes sense, repeated or melting patterns in crowds and windows, shadows that don&apos;t agree with each other, and hands or jewelry that blend into skin. None of these clues is proof. The better check is the one NIST&apos;s synthetic-content report emphasizes: provenance. Where did the image first appear, is there content-credential metadata, and do trusted news sources show the same scene from other angles?</div>
+      <div className="prose-p">A dramatic image of a flooded landmark is spreading online. Knowing how diffusion works tells you what to look for: text on signs that almost makes sense, repeated or melting patterns in crowds and windows, shadows that don&apos;t agree with each other, and hands or jewelry that blend into skin. None of these clues is proof. The better check is the one NIST&apos;s synthetic-content report emphasizes: provenance. Where did the image first appear, is there content-credential metadata, and do trusted news sources show the same scene from other angles? The same provenance-first approach works for text too, where detectors are even less reliable; see <TermLink href="/ai-future-tech-literacy/how-to-tell-if-content-was-ai-generated">how to tell if content was AI-generated</TermLink>.</div>
 
       <QuickCheck
         question="Why might a generated shop sign read 'OPNE' instead of 'OPEN'?"

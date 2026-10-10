@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "everyday-economics",
   tags: ["inflation", "purchasing power", "cost of living", "economics basics"],
   date: "2026-09-20",
-  updated: "2026-09-20",
+  updated: "2026-10-09",
   youtubeShort: false, youtubeLong: false,
   seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
@@ -51,6 +51,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Which measure is the most commonly cited U.S. inflation rate?", "difficulty": "easy", "options": [{"text": "The year-over-year change in the BLS Consumer Price Index", "correct": true, "explanation": "Right. The CPI tracks a weighted basket of what households typically buy, and its yearly change is the headline number."}, {"text": "The change in the stock market over a year", "correct": false, "explanation": "Stock prices aren't a measure of consumer prices. Inflation is tracked through the CPI basket."}, {"text": "The Federal Reserve's interest rate target", "correct": false, "explanation": "That's a policy tool the Fed sets, not a measurement of how prices have changed."}]},
+  {"question": "What inflation rate does the Federal Reserve generally aim for over time?", "difficulty": "easy", "options": [{"text": "About 2% a year on average", "correct": true, "explanation": "Yes. The Fed treats low, predictable inflation as more stable than either high inflation or falling prices."}, {"text": "Exactly 0%, so prices never change", "correct": false, "explanation": "Zero isn't the target. The Fed's view is that mild, steady inflation works better than zero or deflation."}, {"text": "About 10% a year", "correct": false, "explanation": "That would be high inflation, the very thing the Fed's price-stability mandate is meant to prevent."}]},
+  {"question": "A household spends $500 a month on groceries and the CPI's food category rises 3% over a year. Roughly what does the same basket cost a year later?", "difficulty": "easy", "options": [{"text": "About $515 a month", "correct": true, "explanation": "Correct. 3% of $500 is $15, and that extra $15 buys no more food. It just keeps pace."}, {"text": "About $503 a month", "correct": false, "explanation": "That would be a 0.6% rise. 3% of $500 is $15, not $3."}, {"text": "Still $500, because the household buys the same items", "correct": false, "explanation": "Buying the same items is exactly why the cost rises. The basket got more expensive."}]},
+  {"question": "Your savings account pays 1% interest while inflation runs at 5%. What happens to your money?", "difficulty": "medium", "options": [{"text": "The balance grows, but its real purchasing power falls by roughly 4% a year", "correct": true, "explanation": "Both are true at once. The number goes up while what it can buy goes down."}, {"text": "It loses nothing, because the balance is still going up", "correct": false, "explanation": "A rising balance is the nominal story. In real terms, prices are rising faster than your interest."}, {"text": "It gains 6% in real terms", "correct": false, "explanation": "The rates don't add. You subtract inflation from your interest rate to estimate the real return: about minus 4%."}]},
+  {"question": "Roughly how much purchasing power does a steady 3% annual inflation rate erase over about 10 years?", "difficulty": "medium", "options": [{"text": "Roughly a quarter of a dollar's value", "correct": true, "explanation": "Right. Because each year's rise builds on the last, 3% a year adds up to about a 25% loss over a decade."}, {"text": "About 3% in total", "correct": false, "explanation": "That's one year. Inflation repeats and compounds every year, so the total is far bigger."}, {"text": "Almost all of it", "correct": false, "explanation": "That overshoots. 3% a year compounds to about a quarter of a dollar's value in 10 years, not nearly all of it."}]},
+  {"question": "Why does purchasing power shrink faster in later years than the annual rate alone suggests?", "difficulty": "hard", "options": [{"text": "Each year's price rise builds on the previous year's higher prices, so the erosion compounds", "correct": true, "explanation": "Yes. It's the same math as compound interest, running in the opposite direction for savers."}, {"text": "Inflation rates always rise as time goes on", "correct": false, "explanation": "The rate can stay steady. The compounding happens even at a constant rate."}, {"text": "Banks charge extra fees on older savings", "correct": false, "explanation": "Fees aren't part of it. The effect comes from compounding prices alone."}]},
+  {"question": "What is the difference between nominal income and real income?", "difficulty": "medium", "options": [{"text": "Nominal is the dollar amount; real is what that amount can actually buy after inflation", "correct": true, "explanation": "Correct. A flat nominal salary during inflation is a real pay cut."}, {"text": "Nominal is income before taxes; real is income after taxes", "correct": false, "explanation": "That's gross versus net pay. Nominal versus real is about inflation, not taxes."}, {"text": "They're two names for the same number", "correct": false, "explanation": "They split apart whenever prices change. That gap is the whole point of the distinction."}]},
+  {"question": "A retiree's pension pays the same fixed amount every month and has no cost-of-living adjustment. What's the smartest way to plan for a 20-year retirement?", "difficulty": "hard", "options": [{"text": "Expect the pension to buy noticeably less over time and plan other savings to cover the gap", "correct": true, "explanation": "Right. Even modest inflation shrinks a fixed payment's real value a lot over 20 years."}, {"text": "Assume it will cover the same expenses for all 20 years", "correct": false, "explanation": "That's the mistake the article warns about. Without a COLA, the same dollars buy less each year."}, {"text": "Ignore inflation, since 2-3% a year is negligible", "correct": false, "explanation": "Small annual rates compound into large losses over decades, which is exactly why planners account for them."}]},
+];
 
 export default function Post() {
   return (

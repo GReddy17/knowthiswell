@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "general-awareness-basics/understanding-public-vs-private-sector",
     "government-schemes-benefits/what-disability-benefits-actually-require-to-qualify",
     "government-schemes-benefits/what-housing-assistance-programs-actually-offer",
+    "government-schemes-benefits/what-veterans-benefits-actually-include",
   ],
   glossary: [
     { term: "Medicare", definition: "The federal health insurance program for people 65 and older, certain younger people with disabilities, and people with end-stage renal disease or ALS." },
@@ -141,7 +142,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="Medicare and Medicaid are basically the same free government healthcare."
-        reality={<p>They&apos;re different programs with different rules. Medicare is based on age or disability and is the same nationwide, but it isn&apos;t free: most people pay a monthly Part B premium, plus deductibles and usually 20% coinsurance on Part B services. Medicaid is based on income, run by each state, and usually has little or no cost to enrollees. Someone can qualify for one, both, or neither.</p>}
+        reality={<p>They&apos;re different programs with different rules. Medicare is based on age or disability and is the same nationwide, but it isn&apos;t free: most people pay a monthly Part B premium, plus deductibles and usually 20% coinsurance on Part B services. Medicaid is based on income, run by each state, and usually has little or no cost to enrollees. Someone can qualify for one, both, or neither. Many veterans can also use VA health care, a separate system covered in <TermLink href="/government-schemes-benefits/what-veterans-benefits-actually-include">what veterans benefits actually include</TermLink>.</p>}
       />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What to do next</h2>

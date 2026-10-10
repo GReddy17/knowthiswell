@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "life-skills-etiquette/how-to-actually-set-boundaries-without-guilt",
     "life-skills-etiquette/how-to-actually-apologize-in-a-way-that-lands",
     "life-skills-etiquette/what-small-talk-is-actually-for",
+    "psychology-human-behavior/what-emotional-intelligence-actually-means",
   ],
   glossary: [
     { term: "Observation vs. interpretation", definition: "The distinction between describing what actually happened (an observable fact) and describing what you concluded it meant — collapsing the two together is a common source of defensiveness in difficult conversations." },
@@ -83,7 +84,7 @@ export default function Post() {
       />
       <FootnoteAside>This same observation-vs-interpretation distinction is a core building block of many structured feedback frameworks used in workplaces and therapy alike — it&apos;s not a trick specific to any one context, but a general communication principle that transfers across personal and professional difficult conversations.</FootnoteAside>
 
-      <p>This distinction matters because most defensiveness in hard conversations is a reaction to feeling accused, not to the underlying facts themselves — and facts alone are much harder to argue with than a stated interpretation of someone&apos;s intentions.</p>
+      <p>This distinction matters because most defensiveness in hard conversations is a reaction to feeling accused, not to the underlying facts themselves — and facts alone are much harder to argue with than a stated interpretation of someone&apos;s intentions. Staying calm enough to tell the two apart in the moment draws on <TermLink href="/psychology-human-behavior/what-emotional-intelligence-actually-means">emotional intelligence</TermLink>, which is a learnable skill set rather than a personality type.</p>
 
       <QuickCheck
         question="Someone says to a coworker, &quot;You clearly don't care about this project since you missed the deadline again.&quot; Why is this likely to trigger defensiveness rather than a productive conversation?"

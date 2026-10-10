@@ -40,6 +40,7 @@ export const metadata: PostFrontmatter = {
     "business-entrepreneurship-basics/what-working-capital-actually-means-for-a-business",
     "business-entrepreneurship-basics/what-a-business-plan-actually-needs-to-include",
     "personal-finance-basics/self-employment-and-freelance-tax-basics",
+    "business-entrepreneurship-basics/what-makes-a-side-hustle-different-from-a-real-business",
   ],
   glossary: [
     { term: "Revenue", definition: "The total money a business brings in from sales before any costs are subtracted. Also called sales or the top line." },
@@ -143,7 +144,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="A high profit margin means the business is doing well."
-        reality={<p>Margin is a ratio, not a total, and not cash. A 40% margin on very few sales may not cover the owner&apos;s living costs, while a 3% margin on large volume can be a strong business. A high margin can also coexist with running out of money if customers pay slowly or cash is tied up in stock. Read margin alongside total profit and cash flow.</p>}
+        reality={<p>Margin is a ratio, not a total, and not cash. A 40% margin on very few sales may not cover the owner&apos;s living costs, while a 3% margin on large volume can be a strong business. A high margin can also coexist with running out of money if customers pay slowly or cash is tied up in stock. Read margin alongside total profit and cash flow. Knowing your margins at all is one of the habits that separates <TermLink href="/business-entrepreneurship-basics/what-makes-a-side-hustle-different-from-a-real-business">a side hustle from a real business</TermLink>.</p>}
       />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What to do next</h2>

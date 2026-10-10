@@ -41,6 +41,7 @@ export const metadata: PostFrontmatter = {
     "economics/what-the-federal-reserve-actually-does",
     "government-schemes-benefits/how-unemployment-benefits-actually-get-calculated",
     "economics/what-minimum-wage-debates-actually-center-on",
+    "economics/what-economic-indicators-actually-signal",
   ],
   glossary: [
     { term: "Current Population Survey (CPS)", definition: "The monthly household survey, conducted by the Census Bureau for BLS, that produces the official U.S. unemployment rate." },
@@ -115,7 +116,7 @@ export default function Post() {
       <div className="prose-p">Same town, next month. Two of the three unemployed people stop searching because they&apos;ve concluded there&apos;s nothing out there for them. They&apos;re now <strong>discouraged workers</strong> and move to &quot;not in the labor force&quot;. Employed is still 60. Unemployed is now 1. Labor force is 61. The rate drops to 1 ÷ 61 ≈ <strong>1.6%</strong>, a dramatic &quot;improvement&quot; in which no one found work. This is why economists never read the headline rate alone. The participation rate fell from 63% to 61%, and BLS&apos;s broader <strong>U-6</strong> measure, which still counts those two discouraged workers, would barely move. Real-world shifts are smaller, but the direction of the effect is real.</div>
 
       <h3 className={h3}>Example 3: Reading a jobs-report headline (applied case)</h3>
-      <div className="prose-p">A headline says &quot;Unemployment rises to 4.2% from 4.1%&quot;. Three checks. First, is it significant? BLS&apos;s rule of thumb is that a one-month change of about 0.2 point is needed to be statistically significant at 90% confidence, so a 0.1-point move may be sampling noise. Second, why did it move? If participation rose because more people started looking, a slightly higher rate can be a sign of confidence rather than distress. Third, what else moved? Check U-6 and the payroll survey&apos;s job count. For context on scale, the rate peaked at 10.0% in October 2009 after the financial crisis and was first reported at 14.7% for April 2020, the highest since the series began in 1948. A 0.1-point move is a different kind of news.</div>
+      <div className="prose-p">A headline says &quot;Unemployment rises to 4.2% from 4.1%&quot;. Three checks. First, is it significant? BLS&apos;s rule of thumb is that a one-month change of about 0.2 point is needed to be statistically significant at 90% confidence, so a 0.1-point move may be sampling noise. Second, why did it move? If participation rose because more people started looking, a slightly higher rate can be a sign of confidence rather than distress. Third, what else moved? Check U-6 and the payroll survey&apos;s job count. For context on scale, the rate peaked at 10.0% in October 2009 after the financial crisis and was first reported at 14.7% for April 2020, the highest since the series began in 1948. A 0.1-point move is a different kind of news. Around turning points the rate also tends to lag the economy, which is why it&apos;s read alongside faster-moving data; see <TermLink href="/economics/what-economic-indicators-actually-signal">what economic indicators actually signal</TermLink>.</div>
 
       <QuickCheck
         question="Two unemployed people stop looking for work and nothing else changes. What happens to the official rate?"

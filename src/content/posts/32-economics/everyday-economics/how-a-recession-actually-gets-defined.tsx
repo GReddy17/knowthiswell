@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "investing-markets-deep-dive/what-a-bull-market-vs-bear-market-actually-means",
     "economics/how-tariffs-actually-affect-prices",
     "economics/what-minimum-wage-debates-actually-center-on",
+    "economics/what-economic-indicators-actually-signal",
   ],
   glossary: [
     { term: "Recession", definition: "Per the NBER, a significant decline in economic activity that is spread across the economy and lasts more than a few months." },
@@ -93,7 +94,7 @@ export default function Post() {
       />
       <FootnoteAside>Other countries use different conventions. Many statistical agencies and news outlets outside the U.S. do use the two-quarter rule as a working definition. This page describes how U.S. recessions are officially dated.</FootnoteAside>
 
-      <p>A recession usually shows up in people&apos;s lives through jobs, which is why the <TermLink href="/economics/how-unemployment-rate-actually-gets-calculated">unemployment rate</TermLink> and <TermLink href="/government-schemes-benefits/how-unemployment-benefits-actually-get-calculated">unemployment benefits</TermLink> both rise when one hits, and why central banks often respond by <TermLink href="/economics/how-interest-rates-actually-get-set">cutting interest rates</TermLink>.</p>
+      <p>A recession usually shows up in people&apos;s lives through jobs, which is why the <TermLink href="/economics/how-unemployment-rate-actually-gets-calculated">unemployment rate</TermLink> and <TermLink href="/government-schemes-benefits/how-unemployment-benefits-actually-get-calculated">unemployment benefits</TermLink> both rise when one hits, and why central banks often respond by <TermLink href="/economics/how-interest-rates-actually-get-set">cutting interest rates</TermLink>. For how GDP, payrolls and the rest fit together as leading, coincident and lagging signals, see <TermLink href="/economics/what-economic-indicators-actually-signal">what economic indicators actually signal</TermLink>.</p>
 
       <QuickCheck
         question="GDP falls in two back-to-back quarters, but employment and incomes keep rising across most industries. What would the NBER most likely conclude?"

@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/how-to-quantify-achievements-on-a-resume",
     "professional-skills-certifications/what-google-analytics-certification-actually-verifies",
     "professional-skills-certifications/how-to-actually-prepare-for-a-certification-exam",
+    "professional-skills-certifications/how-certifications-actually-compare-to-a-college-degree",
   ],
   glossary: [
     { term: "PMP (Project Management Professional)", definition: "A professional certification from the Project Management Institute that requires documented project leadership experience, project management education, and passing an exam." },
@@ -141,7 +142,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="The PMP is an exam you can pass with enough studying, like any other test."
-        reality={<p>The exam is only one step. PMI won&apos;t approve you to sit it without years of documented project leadership (36 months with a four-year degree, 60 without) plus 35 hours of project management education, and applications can be audited. For people early in their careers, PMI&apos;s CAPM is the credential designed without an experience requirement. The experience gate is also a big part of why employers treat the PMP as a signal of real-world capability rather than test-taking skill.</p>}
+        reality={<p>The exam is only one step. PMI won&apos;t approve you to sit it without years of documented project leadership (36 months with a four-year degree, 60 without) plus 35 hours of project management education, and applications can be audited. For people early in their careers, PMI&apos;s CAPM is the credential designed without an experience requirement. The experience gate is also a big part of why employers treat the PMP as a signal of real-world capability rather than test-taking skill. Notice that a degree shortens the path but doesn&apos;t replace the experience; <TermLink href="/professional-skills-certifications/how-certifications-actually-compare-to-a-college-degree">how certifications compare to a college degree</TermLink> looks at that trade-off more broadly.</p>}
       />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What to do next</h2>

@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "technology-basics/end-to-end-encryption-explained",
     "technology-basics/read-receipts-and-typing-indicators-explained",
     "technology-basics/how-push-notifications-work",
+    "life-skills-etiquette/what-digital-etiquette-actually-means-in-group-chats",
   ],
   glossary: [
     { term: "Fan-out", definition: "A delivery pattern where a server receives one message once and then sends an individual copy of it out to multiple recipients or devices, rather than recipients contacting each other directly." },
@@ -84,7 +85,7 @@ export default function Post() {
       <FootnoteAside>Open messaging standards like the XMPP Standards Foundation&apos;s Multi-User Chat specification (XEP-0045) formalize this same core idea — a central room/service holds the membership list and relays each message individually to participants, rather than participants exchanging messages directly with one another.</FootnoteAside>
 
       <p>
-        Once a group chat is understood as one message, stored once, fanned out many times, several everyday quirks — new members not seeing old history, one device lagging briefly behind the others, removed members losing access going forward but not retroactively — stop looking like bugs and start looking like the predictable shape of a fan-out system.
+        Once a group chat is understood as one message, stored once, fanned out many times, several everyday quirks — new members not seeing old history, one device lagging briefly behind the others, removed members losing access going forward but not retroactively — stop looking like bugs and start looking like the predictable shape of a fan-out system. The human side of that fan-out, one message landing on many phones at once, is what <TermLink href="/life-skills-etiquette/what-digital-etiquette-actually-means-in-group-chats">group chat etiquette</TermLink> is built around.
       </p>
 
       <QuickCheck

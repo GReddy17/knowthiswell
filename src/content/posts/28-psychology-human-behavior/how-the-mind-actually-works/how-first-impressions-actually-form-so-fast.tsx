@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "life-skills-etiquette/how-to-actually-build-rapport-quickly",
     "psychology-human-behavior/how-cognitive-load-actually-affects-decision-making",
     "career-study-skills/what-a-panel-interview-actually-tests",
+    "psychology-human-behavior/what-emotional-intelligence-actually-means",
   ],
   glossary: [
     { term: "Thin slicing", definition: "Forming judgments about a person from a very brief sample of their behavior, such as a few seconds of silent video. Coined in research by Nalini Ambady and Robert Rosenthal." },
@@ -149,7 +150,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="People who are good judges of character can read someone accurately within seconds."
-        reality={<p>People are fast and consistent, not reliably accurate. Observers agree strongly with each other about what a face signals, which feels like accuracy. But tests against real facts about the people show face-based judgments are often no better, and sometimes worse, than guessing from base rates. Thin slices of <strong>behavior</strong> (how someone actually teaches or talks) carry more real information than a still face.</p>}
+        reality={<p>People are fast and consistent, not reliably accurate. Observers agree strongly with each other about what a face signals, which feels like accuracy. But tests against real facts about the people show face-based judgments are often no better, and sometimes worse, than guessing from base rates. Thin slices of <strong>behavior</strong> (how someone actually teaches or talks) carry more real information than a still face. Reading other people&apos;s emotions accurately, not just quickly, is a separate and measurable skill; see <TermLink href="/psychology-human-behavior/what-emotional-intelligence-actually-means">what emotional intelligence actually means</TermLink>.</p>}
       />
 
       <h2 className={h2}>What to do next</h2>

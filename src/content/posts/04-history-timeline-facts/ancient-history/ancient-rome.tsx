@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "ancient-history",
   tags: ["ancient rome", "roman empire", "roman republic", "julius caesar", "ancient civilizations"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-09",
   youtubeShort: false, youtubeLong: false,
   seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Who was Rome's first emperor?", "difficulty": "easy", "options": [{"text": "Augustus, who took power in 27 BCE", "correct": true, "explanation": "Right. Octavian, Caesar's adopted heir, took the name Augustus and became the first emperor."}, {"text": "Julius Caesar", "correct": false, "explanation": "Caesar was a dictator under the Republic and was killed in 44 BCE, 17 years before the Empire began."}, {"text": "Justinian", "correct": false, "explanation": "Justinian ruled the Eastern Roman (Byzantine) Empire centuries later and is known for codifying Roman law."}]},
+  {"question": "What does \"crossing the Rubicon\" mean today, and where does it come from?", "difficulty": "easy", "options": [{"text": "Passing a point of no return, from Caesar leading his army across the river into Italy in 49 BCE", "correct": true, "explanation": "Yes. Bringing an army across that boundary was illegal and made civil war unavoidable."}, {"text": "Winning a battle easily, from a famous Roman victory", "correct": false, "explanation": "The phrase is about a decision you can't undo, not about an easy win."}, {"text": "Starting a new empire, from Augustus founding Rome", "correct": false, "explanation": "It refers to Julius Caesar in 49 BCE, not to Augustus or to Rome's founding."}]},
+  {"question": "About how long did the Roman Republic last?", "difficulty": "medium", "options": [{"text": "Almost 500 years, from 509 to 27 BCE", "correct": true, "explanation": "Correct. The Republic lasted nearly as long as the Western Empire that followed it."}, {"text": "About 50 years", "correct": false, "explanation": "It lasted almost ten times longer than that. It wasn't a short prelude to the Empire."}, {"text": "Over 1,000 years", "correct": false, "explanation": "That's closer to the span of the Eastern Roman Empire. The Republic ran from 509 to 27 BCE."}]},
+  {"question": "When did the Roman Empire fall?", "difficulty": "medium", "options": [{"text": "The Western half fell in 476 CE, but the Eastern (Byzantine) Empire lasted until 1453 CE", "correct": true, "explanation": "Right. 476 is only half the story. The East carried on for nearly another thousand years."}, {"text": "All of it fell in 476 CE", "correct": false, "explanation": "That's the common mistake. 476 marks the end of the Western Empire only."}, {"text": "In 44 BCE, when Caesar was killed", "correct": false, "explanation": "Caesar's death came before the Empire even began. It triggered more civil war, not the fall."}]},
+  {"question": "What did the Edict of Caracalla do in 212 CE?", "difficulty": "medium", "options": [{"text": "Extended Roman citizenship to nearly all free inhabitants of the Empire", "correct": true, "explanation": "Yes. It shows how Rome used citizenship to hold a very diverse empire together."}, {"text": "Made Christianity the official religion", "correct": false, "explanation": "The edict was about citizenship, not religion."}, {"text": "Split the Empire into East and West", "correct": false, "explanation": "The edict was about who counted as a Roman citizen, not about dividing the Empire."}]},
+  {"question": "Why have Roman roads and buildings like the Pantheon lasted so long?", "difficulty": "medium", "options": [{"text": "Layered, well-drained road construction and very durable concrete made with volcanic ash", "correct": true, "explanation": "Correct. Parts of the Appian Way are still walkable, and the Pantheon's dome is still the largest unreinforced concrete dome."}, {"text": "They were all rebuilt in modern times", "correct": false, "explanation": "Many sections are original. Roman engineering was built to last, and often did."}, {"text": "They were built from steel-reinforced concrete", "correct": false, "explanation": "The Pantheon's dome is unreinforced. Its durability comes from the concrete itself."}]},
+  {"question": "Which English words come straight from Roman political vocabulary?", "difficulty": "easy", "options": [{"text": "Senate, republic, committee and veto", "correct": true, "explanation": "Right. \"Veto\" is Latin for \"I forbid.\""}, {"text": "Parliament, king and duke", "correct": false, "explanation": "Those reached English by other routes. The Roman political terms include senate, republic and veto."}, {"text": "Democracy and politics", "correct": false, "explanation": "Those come from Greek. Senate, republic and veto are the Latin ones."}]},
+  {"question": "Rome's legal ideas, later codified in Justinian's Corpus Juris Civilis, became the foundation of which modern system?", "difficulty": "hard", "options": [{"text": "Civil law, used across much of continental Europe and Latin America", "correct": true, "explanation": "Yes. Roman law, codified in 529-534 CE, still shapes the legal systems of much of continental Europe and Latin America."}, {"text": "Common law, used in England and the U.S.", "correct": false, "explanation": "Common law grew from English court decisions. Roman law underlies the civil-law tradition."}, {"text": "Islamic law", "correct": false, "explanation": "That developed from different sources. The Roman legacy is civil law."}]},
+];
 
 export default function Post() {
   return (

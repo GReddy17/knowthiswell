@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "psychology-human-behavior/what-confirmation-bias-actually-does-to-decision-making",
     "ai-future-tech-literacy/how-ai-chatbots-are-trained",
     "ai-future-tech-literacy/what-prompt-engineering-actually-is",
+    "ai-future-tech-literacy/how-to-tell-if-content-was-ai-generated",
   ],
   glossary: [
     { term: "Hallucination", definition: "A generative AI output that sounds plausible but is false or not supported by any source." },
@@ -142,7 +143,7 @@ export default function Post() {
       />
       <MisconceptionCallout
         myth="AI hallucinations are rare glitches that newer models have fixed."
-        reality={<p>They&apos;ve become less frequent as models improved and as tools add web search and document retrieval, but they come from how the technology generates text, so they haven&apos;t disappeared. They&apos;re still most likely on rare facts, precise numbers, citations and recent events, which are exactly the details people most want to copy into their work.</p>}
+        reality={<p>They&apos;ve become less frequent as models improved and as tools add web search and document retrieval, but they come from how the technology generates text, so they haven&apos;t disappeared. They&apos;re still most likely on rare facts, precise numbers, citations and recent events, which are exactly the details people most want to copy into their work. Fluent, confident text also means you can&apos;t judge where a passage came from by how it reads; <TermLink href="/ai-future-tech-literacy/how-to-tell-if-content-was-ai-generated">how to tell if content was AI-generated</TermLink> covers what actually works.</p>}
       />
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">What to do next</h2>
