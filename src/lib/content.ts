@@ -15,7 +15,7 @@ import fs from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
-import { ALL_GLOSSARY_LETTERS, getCategoryOrder } from './taxonomy';
+import { ALL_GLOSSARY_LETTERS, getCategoryOrder, getCategoryStatus } from './taxonomy';
 import { POSTS_REGISTRY, getPostFromRegistry } from '@/content/posts';
 import { RawPost, PostMeta } from '@/types/post';
 
@@ -147,6 +147,16 @@ async function loadMetadata(): Promise<ContentCache> {
 export async function getAllPostsMeta() {
   const cache = await loadMetadata();
   return Array.from(cache.meta.values());
+}
+
+/** Categories with no real posts yet, or flagged coming-soon: thin hubs
+ *  that should stay reachable but out of the index and the sitemap. */
+export async function getThinCategories(): Promise<Set<string>> {
+  const cache = await loadMetadata();
+  const withPosts = new Set(Array.from(cache.meta.values()).map((p) => p.category));
+  return new Set(
+    cache.categories.filter((c) => !withPosts.has(c) || getCategoryStatus(c) === 'coming-soon')
+  );
 }
 
 export async function getAllCategories(): Promise<string[]> {

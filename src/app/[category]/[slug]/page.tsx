@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const post = await getPostBySlug(category, slug);
   if (!post) return {};
   return {
-    title: `${post.title} — KnowThisWell`,
+    title: post.title,
     description: post.excerpt,
     alternates: { canonical: `/${post.category}/${post.slug}` },
   };

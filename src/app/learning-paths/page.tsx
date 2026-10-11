@@ -4,7 +4,7 @@ import { Map } from 'lucide-react';
 import { getAllLearningPaths } from '@/content/learning-paths';
 
 export const metadata: Metadata = {
-  title: 'Learning Paths — KnowThisWell',
+  title: 'Learning Paths',
   description: 'Guided, sequenced routes through KnowThisWell\'s existing posts — a curated order to read them in, not a new course platform.',
   alternates: { canonical: '/learning-paths' },
 };

@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const path = getLearningPathBySlug(slug);
   if (!path) return {};
   return {
-    title: `${path.title} — Learning Path — KnowThisWell`,
+    title: `${path.title} — Learning Path`,
     description: path.description,
     alternates: { canonical: `/learning-paths/${path.slug}` },
   };

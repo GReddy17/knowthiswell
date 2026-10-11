@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getPostsByCategory, groupBySubtopic, getAllCategories } from '@/lib/content';
+import { getPostsByCategory, groupBySubtopic, getAllCategories, getThinCategories } from '@/lib/content';
 import { getCategoryLabel, getCategoryDescription, getCategoryStatus, getCategoryPhase, getCategoryComingSoonPreview } from '@/lib/taxonomy';
 import { BookOpen } from 'lucide-react';
 import { CategoryHubClient } from '@/components/CategoryHubClient';
@@ -27,10 +27,12 @@ export const dynamicParams = false;
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { category } = await params;
   const description = getCategoryDescription(category);
+  const isThin = (await getThinCategories()).has(category);
   return {
-    title: `${getCategoryLabel(category)} — KnowThisWell`,
+    title: getCategoryLabel(category).replace(/^\d+\.\s*/, ''),
     ...(description && { description }),
-    alternates: { canonical: `/${category}` }
+    alternates: { canonical: `/${category}` },
+    ...(isThin && { robots: { index: false, follow: true } }),
   };
 }
 

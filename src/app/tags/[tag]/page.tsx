@@ -21,7 +21,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { tag } = await params;
   return {
-    title: `#${tag} — KnowThisWell`,
+    title: `#${tag}`,
     // Tag pages are frequently thin/duplicate content at low post counts —
     // keep them out of the index until a tag has real depth. Revisit this
     // threshold as content volume grows (see PRODUCTION-AUDIT.md).

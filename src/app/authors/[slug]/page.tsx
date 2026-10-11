@@ -21,7 +21,7 @@ export const dynamicParams = false;
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const author = await getAuthorBySlug(slug);
-  return { title: author ? `${author.name} — KnowThisWell` : 'Author' };
+  return { title: author ? author.name : 'Author' };
 }
 
 export default async function AuthorPage({ params }: PageProps) {
