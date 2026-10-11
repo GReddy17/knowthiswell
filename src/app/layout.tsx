@@ -103,6 +103,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <div className="mx-auto flex max-w-[1180px] flex-col gap-6 md:flex-row md:flex-wrap md:items-center md:justify-between">
             <p>© {new Date().getFullYear()} {siteConfig.footer.copyrightHolder}. {siteConfig.footer.rightsNotice}</p>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+              <Link href="/topics" className="hover:text-forest">Topics</Link>
+              <Link href="/topics/all" className="hover:text-forest">Full index</Link>
+              <Link href="/learning-paths" className="hover:text-forest">Learning paths</Link>
+              <Link href="/glossary/a" className="hover:text-forest">Glossary</Link>
               <Link href="/about" className="hover:text-forest">About</Link>
               <Link href="/about/method" className="hover:text-forest">Editorial method</Link>
               <Link href="/contact" className="hover:text-forest">Contact</Link>

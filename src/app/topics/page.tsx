@@ -18,6 +18,11 @@ export default async function TopicsIndexPage() {
         <p className="mt-6 max-w-[60ch] mx-auto font-body text-lg text-ink-soft">
           A curated collection of essential knowledge, structured in phases from fundamentals to deep dives.
         </p>
+        <p className="mt-4 font-utility text-[13px] text-ink-soft">
+          <Link href="/topics/all" className="text-forest underline underline-offset-4">
+            See the full index of every entry
+          </Link>
+        </p>
       </header>
 
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">

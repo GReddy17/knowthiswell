@@ -220,6 +220,64 @@ export async function getRelatedPosts(post: RawPost) {
   return cache.relatedMap.get(key) ?? [];
 }
 
+export interface PostLink {
+  slug: string;
+  title: string;
+  href: string;
+  category: string;
+}
+
+function toLink(p: PostMeta): PostLink {
+  return { slug: p.slug, title: p.title, href: `/${p.category}/${p.slug}`, category: p.category };
+}
+
+/** Deterministic internal-link set for a post page: previous/next entry in
+ *  the category's reading order, plus up to `crossLimit` entries from OTHER
+ *  categories ranked by tag overlap (ties broken by title, then href).
+ *  `exclude` hrefs (already shown elsewhere on the page) are skipped. */
+export async function getInternalLinkSet(
+  post: { category: string; slug: string; tags: string[] },
+  exclude: string[] = [],
+  crossLimit = 4
+): Promise<{ prev: PostLink | null; next: PostLink | null; categoryCount: number; cross: PostLink[] }> {
+  const cache = await loadMetadata();
+  const all = Array.from(cache.meta.values());
+  const inCategory = sortPosts(all.filter((p) => p.category === post.category));
+  const idx = inCategory.findIndex((p) => p.slug === post.slug);
+  const prev = idx > 0 ? toLink(inCategory[idx - 1]) : null;
+  const next = idx !== -1 && idx < inCategory.length - 1 ? toLink(inCategory[idx + 1]) : null;
+
+  const skip = new Set(exclude);
+  const tags = new Set(post.tags);
+  const cross = all
+    .filter((p) => p.category !== post.category && !skip.has(`/${p.category}/${p.slug}`))
+    .map((p) => ({ p, score: p.tags.filter((t) => tags.has(t)).length }))
+    .filter((s) => s.score > 0)
+    .sort(
+      (a, b) =>
+        b.score - a.score ||
+        a.p.title.localeCompare(b.p.title, undefined, { sensitivity: 'base' }) ||
+        a.p.category.localeCompare(b.p.category)
+    )
+    .slice(0, crossLimit)
+    .map(({ p }) => toLink(p));
+
+  return { prev, next, categoryCount: inCategory.length, cross };
+}
+
+/** Every post grouped by category (taxonomy order), each category's posts in
+ *  reading order — for the crawlable full index. */
+export async function getFullIndex(): Promise<{ category: string; posts: PostLink[] }[]> {
+  const cache = await loadMetadata();
+  const all = Array.from(cache.meta.values());
+  return cache.categories
+    .map((category) => ({
+      category,
+      posts: sortPosts(all.filter((p) => p.category === category)).map(toLink),
+    }))
+    .filter((g) => g.posts.length > 0);
+}
+
 export async function getAllTags(): Promise<string[]> {
   const cache = await loadMetadata();
   const tags = new Set<string>();

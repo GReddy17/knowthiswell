@@ -54,6 +54,11 @@ export function getCategoryLabel(category: string): string {
   return label.replace(/-/g, ' ');
 }
 
+/** Label without the "NN. " authoring-order prefix, for display copy. */
+export function getCategoryDisplayLabel(category: string): string {
+  return getCategoryLabel(category).replace(/^\d+\.\s*/, '');
+}
+
 export function getCategoryDescription(category: string): string | undefined {
   const registry = loadRegistry();
   return registry[category]?.description;

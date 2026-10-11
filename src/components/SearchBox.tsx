@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 
-export function SearchBox() {
+export function SearchBox({ variant = 'nav' }: { variant?: 'nav' | 'hero' }) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<{ title: string; href: string; category: string }[]>([]);
@@ -35,7 +35,9 @@ export function SearchBox() {
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      // Only the navbar instance owns the global shortcut, so a second
+      // (hero) instance on the same page doesn't open two dialogs at once.
+      if (variant === 'nav' && (e.metaKey || e.ctrlKey) && e.key === 'k') {
         e.preventDefault();
         setOpen((o) => !o);
       }
@@ -43,7 +45,7 @@ export function SearchBox() {
     }
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, []);
+  }, [variant]);
 
   const handleSearch = (q: string) => {
     setQuery(q);
@@ -70,19 +72,34 @@ export function SearchBox() {
 
   return (
     <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        aria-label="Search"
-        className="flex items-center gap-2 rounded-full border border-rule px-3.5 py-1.5 font-utility text-[13px] text-ink-soft hover:border-forest hover:text-forest"
-      >
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
-          <circle cx="11" cy="11" r="7" />
-          <path d="m21 21-4.3-4.3" />
-        </svg>
-        Search
-        <span className="hidden rounded border border-rule px-1.5 text-[10px] text-ochre md:inline">⌘K</span>
-      </button>
+      {variant === 'hero' ? (
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          aria-label="Search the library"
+          className="flex h-14 w-full max-w-[640px] items-center gap-3 rounded-full border border-rule bg-paper px-5 text-left font-utility text-[15px] text-ink-soft shadow-sm transition-colors hover:border-forest hover:text-forest"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden className="shrink-0">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+          <span className="truncate">Search the library — try &ldquo;compound interest&rdquo; or &ldquo;resume&rdquo;</span>
+        </button>
+      ) : (
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          aria-label="Search"
+          className="flex items-center gap-2 rounded-full border border-rule px-3.5 py-1.5 font-utility text-[13px] text-ink-soft hover:border-forest hover:text-forest"
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+            <circle cx="11" cy="11" r="7" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+          Search
+          <span className="hidden rounded border border-rule px-1.5 text-[10px] text-ochre md:inline">⌘K</span>
+        </button>
+      )}
 
       {open && (
         <div
