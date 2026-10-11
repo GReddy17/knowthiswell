@@ -37,6 +37,7 @@ export const metadata: PostFrontmatter = {
     "personal-finance-basics/understanding-net-worth-assets-minus-liabilities",
     "personal-finance-basics/zero-based-budgeting-explained",
     "personal-finance-basics/what-a-budget-actually-is-income-vs-expenses",
+    "government-schemes-benefits/what-social-security-actually-pays-out-and-when",
   ],
   glossary: [
     {"term":"Financial goal","definition":"A specific target amount of money to be saved or paid off by a defined date, used to guide budgeting and saving decisions."},

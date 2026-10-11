@@ -45,6 +45,7 @@ export const metadata: PostFrontmatter = {
     "economics/how-tariffs-actually-affect-prices",
     "investing-markets-deep-dive/how-interest-rate-changes-actually-affect-investments",
     "economics/what-economic-indicators-actually-signal",
+    "economics/what-gdp-actually-measures",
   ],
   glossary: [
     { term: "Federal funds rate", definition: "The interest rate banks charge each other for overnight loans of reserves; the Fed sets a target range for it." },

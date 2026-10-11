@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,10 +23,10 @@ export const metadata: PostFrontmatter = {
   subtopic: "taxes-and-paychecks",
   tags: ["tax brackets", "marginal tax rate", "effective tax rate", "progressive tax", "income tax basics"],
   date: "2026-08-22",
-  updated: "2026-08-22",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 79, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-08-22",
+  lastReviewed: "2026-10-10",
   excerpt: "Moving into a higher tax bracket doesn't tax your whole income at the higher rate — only the slice of income that falls inside that bracket gets taxed at it.",
   summary: "A progressive income tax system taxes income in slices: each bracket's rate applies only to the portion of income that falls within that bracket, not to the entire income once a higher bracket is reached — which is why the top rate you're 'in' (marginal rate) is always higher than the average rate you actually pay (effective rate).",
   sources: [
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "In a progressive tax system, which income does a higher bracket rate apply to?", "difficulty": "easy", "options": [{"text": "Only the slice of income that falls inside that bracket", "correct": true, "explanation": "Every lower slice keeps its own lower rate."}, {"text": "Your entire income once you cross the threshold", "correct": false, "explanation": "That would be a flat tax, not progressive brackets."}, {"text": "Only income from a second job", "correct": false, "explanation": "Brackets apply to income slices, not to income sources."}]},
+  {"question": "What is your marginal tax rate?", "difficulty": "easy", "options": [{"text": "Your total tax divided by your total income", "correct": false, "explanation": "That is the effective rate."}, {"text": "The rate on your last, highest dollar of income", "correct": true, "explanation": "It is the bracket your top slice sits in."}, {"text": "The rate on your first dollar of income", "correct": false, "explanation": "The first dollar is taxed at the lowest bracket rate."}]},
+  {"question": "What is your effective tax rate?", "difficulty": "easy", "options": [{"text": "The highest bracket rate in the tax code", "correct": false, "explanation": "That is just the top rate, not your average."}, {"text": "The rate on your last dollar earned", "correct": false, "explanation": "That is the marginal rate."}, {"text": "Total tax owed divided by total income", "correct": true, "explanation": "It blends every bracket your income passed through."}]},
+  {"question": "Using 10% on the first $50,000 and 22% above that, how much tax does someone earning $70,000 owe?", "difficulty": "medium", "options": [{"text": "$9,400", "correct": true, "explanation": "$5,000 on the first $50,000 plus $4,400 on the next $20,000."}, {"text": "$15,400", "correct": false, "explanation": "That wrongly taxes all $70,000 at 22%."}, {"text": "$7,000", "correct": false, "explanation": "That wrongly taxes all $70,000 at 10%."}]},
+  {"question": "In the same example, what is the $70,000 earner's effective tax rate?", "difficulty": "medium", "options": [{"text": "22%", "correct": false, "explanation": "22% is the marginal rate, not the average."}, {"text": "About 13.4%", "correct": true, "explanation": "$9,400 divided by $70,000."}, {"text": "10%", "correct": false, "explanation": "Part of the income is taxed at 22%, so the average is above 10%."}]},
+  {"question": "Why can't a raise reduce your take-home pay just by pushing you into a higher bracket?", "difficulty": "medium", "options": [{"text": "Only the new dollars above the threshold face the higher rate", "correct": true, "explanation": "Income below the threshold is never re-taxed."}, {"text": "Because raises are tax-free", "correct": false, "explanation": "Raises are taxed like other wages."}, {"text": "Because the IRS refunds the difference automatically", "correct": false, "explanation": "No refund is needed; the slicing already prevents a loss."}]},
+  {"question": "When are marginal and effective tax rates exactly the same?", "difficulty": "hard", "options": [{"text": "When all income falls inside a single bracket", "correct": true, "explanation": "Every dollar is then taxed at one rate."}, {"text": "When income is very high and spans many brackets", "correct": false, "explanation": "More brackets usually widen the gap."}, {"text": "Never, under any circumstances", "correct": false, "explanation": "They match when all income sits in one bracket."}]},
+  {"question": "Where should you check the current U.S. federal tax brackets?", "difficulty": "easy", "options": [{"text": "irs.gov", "correct": true, "explanation": "Thresholds and rates change, so use the IRS for current numbers."}, {"text": "Any article's example numbers", "correct": false, "explanation": "Examples are illustrative and may be out of date."}, {"text": "Your last year's pay stub", "correct": false, "explanation": "A pay stub shows withholding, not the official brackets."}]},
+];
+
 
 export default function Post() {
   return (

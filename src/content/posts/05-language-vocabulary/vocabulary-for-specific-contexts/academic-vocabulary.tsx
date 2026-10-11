@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "vocabulary-for-specific-contexts",
   tags: ["academic vocabulary", "academic word list", "hedging language", "essay writing", "research writing"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 63, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -53,6 +53,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How many word families are on the Academic Word List?", "difficulty": "easy", "options": [{"text": "570", "correct": true, "explanation": "Yes, compiled by Averil Coxhead in 2000."}, {"text": "2,000", "correct": false, "explanation": "2,000 is the size of the common general-English list the AWL deliberately excludes."}, {"text": "90", "correct": false, "explanation": "Ninety is the percent coverage you get from both lists together."}]},
+  {"question": "Who developed the Academic Word List?", "difficulty": "easy", "options": [{"text": "Averil Coxhead, at Victoria University of Wellington", "correct": true, "explanation": "Right, in 2000, from a large corpus of academic texts."}, {"text": "Panini", "correct": false, "explanation": "Panini wrote an ancient Sanskrit grammar."}, {"text": "Sir William Jones", "correct": false, "explanation": "Jones is known for comparative linguistics, not the AWL."}]},
+  {"question": "Which of these is a hedging word?", "difficulty": "easy", "options": [{"text": "Suggests", "correct": true, "explanation": "Yes. It matches the claim to what the evidence actually shows."}, {"text": "Proves", "correct": false, "explanation": "\"Proves\" is the strong claim hedging avoids."}, {"text": "Causes", "correct": false, "explanation": "\"Causes\" makes a causal claim; hedging softens it."}]},
+  {"question": "Together, the AWL and the 2,000 most common English words cover roughly what share of a typical academic text?", "difficulty": "medium", "options": [{"text": "About 90%", "correct": true, "explanation": "Right. That's why the AWL is such a popular study shortcut."}, {"text": "About 10%", "correct": false, "explanation": "That's the AWL's share on its own."}, {"text": "100%", "correct": false, "explanation": "There's always discipline-specific vocabulary left over."}]},
+  {"question": "What does \"synthesize\" ask you to do in an essay?", "difficulty": "medium", "options": [{"text": "Combine separate pieces of information into a new whole", "correct": true, "explanation": "Yes, which is a different task from analyzing or evaluating."}, {"text": "Judge something's value using criteria", "correct": false, "explanation": "That's \"evaluate.\""}, {"text": "Break something into its parts", "correct": false, "explanation": "That's \"analyze.\""}]},
+  {"question": "Which of these is discipline-specific technical vocabulary rather than general academic vocabulary?", "difficulty": "medium", "options": [{"text": "Codon", "correct": true, "explanation": "Right. It only has meaning within biology and genetics."}, {"text": "Hypothesis", "correct": false, "explanation": "\"Hypothesis\" means the same thing across fields, so it's general academic vocabulary."}, {"text": "Analyze", "correct": false, "explanation": "\"Analyze\" is a cross-discipline AWL term."}]},
+  {"question": "What's the better rewrite of \"the implementation of the plan was conducted\"?", "difficulty": "hard", "options": [{"text": "\"The team implemented the plan\"", "correct": true, "explanation": "Yes. Overusing nominalizations makes prose dense without adding precision."}, {"text": "\"The conducting of the implementation of the plan occurred\"", "correct": false, "explanation": "That piles on even more nominalizations."}, {"text": "Leave it; nominalizations always improve academic writing", "correct": false, "explanation": "They help in moderation, but overuse hurts clarity."}]},
+];
 
 export default function Post() {
   return (

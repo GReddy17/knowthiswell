@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "fun-with-language",
   tags: ["untranslatable words", "lexical gaps", "loanwords", "vocabulary", "linguistics", "world languages"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -52,6 +52,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does the Danish word \"hygge\" describe?", "difficulty": "easy", "options": [{"text": "A cozy, unhurried contentment, often shared with others", "correct": true, "explanation": "Yes: candlelight, warm drinks, unstructured time together."}, {"text": "Pleasure at someone else's misfortune", "correct": false, "explanation": "That's German \"schadenfreude.\""}, {"text": "Sunlight filtering through leaves", "correct": false, "explanation": "That's Japanese \"komorebi.\""}]},
+  {"question": "What does the Japanese word \"tsundoku\" describe?", "difficulty": "easy", "options": [{"text": "Buying books and letting them pile up unread", "correct": true, "explanation": "Right. Plenty of us know the feeling, even without the word."}, {"text": "A wistful longing for someone absent", "correct": false, "explanation": "That's Portuguese \"saudade.\""}, {"text": "Sunlight filtering through tree leaves", "correct": false, "explanation": "That's \"komorebi,\" also Japanese."}]},
+  {"question": "What is the linguists' term for a concept a language has no single word for?", "difficulty": "easy", "options": [{"text": "A lexical gap", "correct": true, "explanation": "Yes. The idea can still be explained; there's just no one word for it."}, {"text": "A calque", "correct": false, "explanation": "A calque is a piece-by-piece translation, like \"flea market.\""}, {"text": "A loanword", "correct": false, "explanation": "A loanword is what you get once the gap closes by borrowing."}]},
+  {"question": "Which Portuguese word has its own annual day in Brazil?", "difficulty": "medium", "options": [{"text": "Saudade, celebrated on Dia da Saudade, January 30th", "correct": true, "explanation": "Right, a rare honour for a single piece of vocabulary."}, {"text": "Hygge", "correct": false, "explanation": "Hygge is Danish, not Portuguese."}, {"text": "Komorebi", "correct": false, "explanation": "Komorebi is Japanese."}]},
+  {"question": "English \"flea market\" is a translation, piece by piece, of French \"marché aux puces.\" What is that called?", "difficulty": "medium", "options": [{"text": "A calque", "correct": true, "explanation": "Yes. It's translated word by word instead of borrowed as a whole sound."}, {"text": "A lexical gap", "correct": false, "explanation": "A lexical gap is a missing word, not a translated one."}, {"text": "A semordnilap", "correct": false, "explanation": "That's a word that spells another word backward."}]},
+  {"question": "Which example shows English has lexical gaps of its own?", "difficulty": "medium", "options": [{"text": "Mandarin has separate everyday words for older and younger sister; English needs a phrase", "correct": true, "explanation": "Right. Gaps run in every direction between languages."}, {"text": "English has no word for \"tea\"", "correct": false, "explanation": "English has \"tea,\" itself borrowed from Chinese."}, {"text": "English can't describe coziness at all", "correct": false, "explanation": "It can describe it in a phrase; it just lacks hygge's single word."}]},
+  {"question": "What's the main weakness of many popular \"untranslatable words\" lists?", "difficulty": "hard", "options": [{"text": "They overstate the case, listing words with close English equivalents or treating ordinary feelings as unique to one culture", "correct": true, "explanation": "Yes. The accurate claim is narrower: no single word for this idea yet."}, {"text": "They only include English words", "correct": false, "explanation": "They're mostly lists of words from other languages."}, {"text": "They're too cautious about their claims", "correct": false, "explanation": "The usual problem is overclaiming, not caution."}]},
+];
 
 export default function Post() {
   return (

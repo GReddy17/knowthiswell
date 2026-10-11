@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "investing-markets-deep-dive/stocks-vs-bonds-what-actually-differs",
     "investing-markets-deep-dive/how-diversification-actually-reduces-risk",
     "personal-finance-basics/high-yield-savings-accounts-explained",
+    "economics/what-gdp-actually-measures",
   ],
   glossary: [
     { term: "Federal funds rate", definition: "The interest rate banks charge each other for overnight loans of reserves. The Federal Reserve sets a target range for it, which anchors other short-term rates." },

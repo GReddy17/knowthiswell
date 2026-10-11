@@ -38,6 +38,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/what-a-skills-gap-analysis-actually-is",
     "career-study-skills/how-deliberate-practice-actually-differs-from-practice",
     "career-study-skills/how-spaced-repetition-actually-works",
+    "professional-skills-certifications/how-certifications-actually-compare-to-a-college-degree",
   ],
   glossary: [
     { term: "Skill decomposition", definition: "Breaking a complex target skill into an ordered sequence of smaller sub-skills, each one a prerequisite the next builds on, so a learner isn't attempting everything at once." },

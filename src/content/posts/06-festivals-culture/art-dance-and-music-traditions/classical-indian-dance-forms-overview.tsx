@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "art-dance-and-music-traditions",
   tags: ["classical indian dance", "bharatanatyam", "kathak", "odissi", "kathakali", "sangeet natak akademi"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -55,6 +55,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "How many classical dance forms does India's Sangeet Natak Akademi formally recognize?", "difficulty": "easy", "options": [{"text": "One, with regional costumes", "correct": false, "explanation": "That's the very misconception the post corrects; there are eight distinct forms."}, {"text": "Eight", "correct": true, "explanation": "Right: Bharatanatyam, Kathak, Odissi, Kathakali, Manipuri, Kuchipudi, Mohiniyattam and Sattriya."}, {"text": "Twenty-eight, one for each state", "correct": false, "explanation": "The official list has eight forms, not one per state."}]},
+  {"question": "Which state does Bharatanatyam come from?", "difficulty": "easy", "options": [{"text": "Assam", "correct": false, "explanation": "Assam is the home of Sattriya, a different classical form."}, {"text": "Manipur", "correct": false, "explanation": "Manipur gives its name to Manipuri, another of the eight forms."}, {"text": "Tamil Nadu", "correct": true, "explanation": "Yes. It's the South Indian form most people picture first, with its precise geometric poses."}]},
+  {"question": "What is an arangetram?", "difficulty": "easy", "options": [{"text": "A dancer's formal debut solo performance after years of training", "correct": true, "explanation": "Right. It's most associated with Bharatanatyam and marks the end of years of study under one teacher."}, {"text": "A type of hand gesture", "correct": false, "explanation": "Hand gestures are mudras; an arangetram is a debut performance."}, {"text": "The costume worn in Kathakali", "correct": false, "explanation": "It isn't a costume; it's the dancer's first formal solo recital."}]},
+  {"question": "What is the Natya Shastra?", "difficulty": "medium", "options": [{"text": "A modern government list of approved dances", "correct": false, "explanation": "The modern list comes from the Sangeet Natak Akademi; the Natya Shastra is an ancient text."}, {"text": "An ancient Sanskrit treatise on the performing arts that underlies most classical Indian dance technique", "correct": true, "explanation": "Correct. It codifies stance, gesture, rhythm and expressive technique still taught today."}, {"text": "A style of drumming used in Kathak", "correct": false, "explanation": "It's a written treatise on dramatic theory, not a drumming style."}]},
+  {"question": "How can the accompanying music help you place a performance regionally?", "difficulty": "medium", "options": [{"text": "All eight forms use exactly the same music", "correct": false, "explanation": "They don't; the music splits along Carnatic and Hindustani lines among other differences."}, {"text": "Kathak uses Carnatic music and Bharatanatyam uses Hindustani music", "correct": false, "explanation": "That's backwards: Bharatanatyam is Carnatic, Kathak is Hindustani."}, {"text": "Bharatanatyam, Kuchipudi and Mohiniyattam use Carnatic (South Indian) music, while Kathak uses Hindustani (North Indian) music", "correct": true, "explanation": "Right. That's a quick, practical clue to which part of India a form comes from."}]},
+  {"question": "What shaped Kathak's style, alongside Hindu temple traditions?", "difficulty": "medium", "options": [{"text": "Mughal court patronage", "correct": true, "explanation": "Yes. That double heritage helps explain its fast spins, rhythmic footwork and storytelling through mime."}, {"text": "The Kerala martial art Kalaripayattu", "correct": false, "explanation": "That's the root of Kathakali's training, not Kathak's."}, {"text": "Vaishnavite monasteries in Assam", "correct": false, "explanation": "Those monasteries (sattras) are where Sattriya developed."}]},
+  {"question": "You see an all-male, heavily masked dance-drama with painted faces performed over an entire night. Which form is it most likely to be?", "difficulty": "medium", "options": [{"text": "Bharatanatyam", "correct": false, "explanation": "Bharatanatyam is traditionally a solo female performance, not a masked all-night drama."}, {"text": "Kathakali", "correct": true, "explanation": "Right. Its towering headdresses and painted faces, green for noble characters, are a giveaway."}, {"text": "Odissi", "correct": false, "explanation": "Odissi is known for sculpture-inspired poses, not masked, all-male dance-drama."}]},
+  {"question": "Sattriya was added to the classical list only in 2000. What does that tell you about the list of eight?", "difficulty": "hard", "options": [{"text": "That Sattriya was invented in 2000", "correct": false, "explanation": "The tradition is centuries old; only its formal recognition came in 2000."}, {"text": "That the list can never change again", "correct": false, "explanation": "The post notes some scholars argue Chhau deserves similar recognition, so the list isn't frozen."}, {"text": "It's a modern classification applied to traditions of very different ages, not a fixed ancient canon", "correct": true, "explanation": "Exactly. Sattriya's monastic roots go back to the 15th-16th century, yet its official status is recent."}]},
+];
 
 export default function Post() {
   return (

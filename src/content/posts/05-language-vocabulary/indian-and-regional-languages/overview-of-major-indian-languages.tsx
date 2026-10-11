@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "indian-and-regional-languages",
   tags: ["indian languages", "hindi", "bengali", "tamil", "telugu", "dravidian languages", "indo-aryan languages"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -57,6 +57,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "How many scheduled languages does India's Eighth Schedule list?", "difficulty": "easy", "options": [{"text": "22", "correct": true, "explanation": "Yes, up from 14 at the start."}, {"text": "2", "correct": false, "explanation": "Two is the number of official languages of the central government, Hindi and English."}, {"text": "121", "correct": false, "explanation": "121 is the number of languages in the 2011 Census grouping."}]},
+  {"question": "Which script is Hindi written in?", "difficulty": "easy", "options": [{"text": "Devanagari", "correct": true, "explanation": "Right. Article 343 names Hindi in Devanagari as an official language of the Union."}, {"text": "Perso-Arabic Nastaliq", "correct": false, "explanation": "That's the script used for Urdu."}, {"text": "Gurmukhi", "correct": false, "explanation": "Gurmukhi is used for Punjabi on the Indian side."}]},
+  {"question": "Besides India, Bengali is the national language of which country?", "difficulty": "easy", "options": [{"text": "Bangladesh", "correct": true, "explanation": "Yes. Bengali is dominant in West Bengal and is Bangladesh's national language."}, {"text": "Nepal", "correct": false, "explanation": "The post ties Bengali to Bangladesh, not Nepal."}, {"text": "Sri Lanka", "correct": false, "explanation": "The post ties Bengali to Bangladesh."}]},
+  {"question": "English was first meant to be a temporary official language. What kept it on?", "difficulty": "medium", "options": [{"text": "The Official Languages Act, 1963, extended it indefinitely", "correct": true, "explanation": "Right. It was planned as a 15-year transition and is still in wide use."}, {"text": "A 2011 Census decision", "correct": false, "explanation": "The Census counts languages; it doesn't set official status."}, {"text": "The Eighth Schedule", "correct": false, "explanation": "The Eighth Schedule lists scheduled languages, a separate mechanism."}]},
+  {"question": "What mainly separates standard Hindi from standard Urdu?", "difficulty": "medium", "options": [{"text": "Script and higher-register vocabulary, not basic grammar", "correct": true, "explanation": "Yes. Both rest on shared Hindustani; Hindi leans on Sanskrit, Urdu on Persian and Arabic."}, {"text": "They belong to different language families", "correct": false, "explanation": "Both are Indo-Aryan and share core grammar."}, {"text": "Urdu has no everyday vocabulary in common with Hindi", "correct": false, "explanation": "Their everyday vocabulary overlaps heavily."}]},
+  {"question": "How many languages appear on an RBI banknote, counting front and back?", "difficulty": "medium", "options": [{"text": "17: Hindi and English on the front, plus 15 more on the language panel", "correct": true, "explanation": "Right, a lot of India on one piece of currency."}, {"text": "2", "correct": false, "explanation": "The back adds a panel of 15 more languages."}, {"text": "22", "correct": false, "explanation": "The banknote shows 17, not all 22 scheduled languages."}]},
+  {"question": "Santali and Bodo belong to which families?", "difficulty": "hard", "options": [{"text": "Santali is Austroasiatic; Bodo is Tibeto-Burman", "correct": true, "explanation": "Yes. India's diversity goes beyond the two big families."}, {"text": "Both are Dravidian", "correct": false, "explanation": "The Dravidian four are Tamil, Telugu, Kannada and Malayalam."}, {"text": "Both are Indo-Aryan", "correct": false, "explanation": "They belong to the smaller Austroasiatic and Tibeto-Burman families."}]},
+];
 
 export default function Post() {
   return (

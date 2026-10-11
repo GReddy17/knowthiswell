@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,10 +23,10 @@ export const metadata: PostFrontmatter = {
   subtopic: "money-mindset-and-financial-literacy",
   tags: ["retirement accounts", "tax-advantaged accounts", "compound growth", "financial literacy", "long-term saving"],
   date: "2026-08-22",
-  updated: "2026-08-22",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 78, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-08-22",
+  lastReviewed: "2026-10-10",
   excerpt: "Retirement accounts aren't a separate investment — they're a tax treatment wrapped around ordinary investments, and the specific tax treatment is what changes how much of your growth you actually keep.",
   summary: "A retirement account is a special tax-advantaged wrapper around investments — the account itself doesn't determine what you invest in, it determines when and how the money is taxed, which changes the effective growth you keep over a long time horizon.",
   sources: [
@@ -54,6 +54,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a retirement account, mechanically?", "difficulty": "easy", "options": [{"text": "A tax wrapper you hold ordinary investments inside", "correct": true, "explanation": "The account sets the tax rules; you still pick the investments."}, {"text": "A special investment that pays a fixed return", "correct": false, "explanation": "No account type guarantees a return."}, {"text": "A savings account run by the government", "correct": false, "explanation": "It is an account structure with tax rules, not a government savings account."}]},
+  {"question": "In the structure that gives a tax break now, when is tax paid?", "difficulty": "medium", "options": [{"text": "Every year on the account's growth", "correct": false, "explanation": "Growth isn't taxed year to year inside the account."}, {"text": "On withdrawals in retirement, as ordinary income", "correct": true, "explanation": "Contributions reduce taxable income today; tax comes later."}, {"text": "Never", "correct": false, "explanation": "Tax is deferred, not removed."}]},
+  {"question": "In the structure with no upfront tax break, what happens to qualifying withdrawals?", "difficulty": "medium", "options": [{"text": "They come out completely tax-free, growth included", "correct": true, "explanation": "You pay tax on the money before it goes in."}, {"text": "They're taxed at a higher rate", "correct": false, "explanation": "Qualifying withdrawals owe no tax in this structure."}, {"text": "They're taxed only on contributions", "correct": false, "explanation": "Neither contributions nor growth are taxed on qualifying withdrawals."}]},
+  {"question": "What is an employer match?", "difficulty": "easy", "options": [{"text": "A tax credit from the IRS", "correct": false, "explanation": "The match comes from the employer, not the IRS."}, {"text": "A fee for managing your account", "correct": false, "explanation": "A match adds money; it doesn't charge you."}, {"text": "Extra money your employer adds based on your own contribution", "correct": true, "explanation": "It works like additional pay, up to a set limit."}]},
+  {"question": "Why does contributing below the match threshold cost you?", "difficulty": "medium", "options": [{"text": "You forfeit employer money you were eligible to receive", "correct": true, "explanation": "The match only arrives if you contribute enough to trigger it."}, {"text": "Matched dollars grow faster than your own", "correct": false, "explanation": "All dollars in the account grow at the same rate."}, {"text": "The account gets closed", "correct": false, "explanation": "Contributing less doesn't close the account."}]},
+  {"question": "Someone saves $6,000 a year from 25 to 35, then stops. Another saves $6,000 a year from 35 to 65. At 7%, who is ahead at 65?", "difficulty": "hard", "options": [{"text": "The later starter, because they contributed $180,000", "correct": false, "explanation": "More money in doesn't beat more time invested in this example."}, {"text": "The early starter, despite contributing a third as much", "correct": true, "explanation": "Ten extra years of compounding outweigh three times the contributions."}, {"text": "They end up exactly equal", "correct": false, "explanation": "The early starter's balance is noticeably larger."}]},
+  {"question": "A $20,000 balance grows untouched at 7% from age 40. Roughly how much extra growth do the 5 years between 60 and 65 add?", "difficulty": "hard", "options": [{"text": "About $31,000", "correct": true, "explanation": "About $77,394 at 60 grows to about $108,548 at 65."}, {"text": "About $5,000", "correct": false, "explanation": "The growth is far larger than that over five years."}, {"text": "Nothing, because growth stops at 60", "correct": false, "explanation": "Growth continues as long as the money stays invested."}]},
+  {"question": "Does a retirement account make the investments inside it safer?", "difficulty": "medium", "options": [{"text": "Yes; retirement accounts can't lose value", "correct": false, "explanation": "Investments inside can still fall in value."}, {"text": "Yes; the government insures the returns", "correct": false, "explanation": "Returns are never guaranteed."}, {"text": "No; the same fund carries the same market risk inside or outside the account", "correct": true, "explanation": "Only the tax treatment differs."}]},
+];
+
 
 export default function Post() {
   return (
@@ -92,7 +104,7 @@ export default function Post() {
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 1: Starting at 25 vs. starting at 35 (baseline case)</h3>
       <div className="prose-p">
-      Someone contributes $6,000 per year starting at age 25 and stops contributing entirely at 35 (10 years, $60,000 total contributed), leaving the balance to keep growing untouched until 65. At an assumed 7% average annual return, that $60,000 in contributions grows to roughly $6,000 × [(1.07^40 − 1.07^30) / 0.07] ≈ $530,000 by age 65 using standard future-value-of-an-annuity math. Someone who instead waits until 35 to start and contributes the same $6,000 per year continuously for 30 years straight (35 to 65, $180,000 total contributed — three times as much money put in) ends up with roughly $6,000 × [(1.07^30 − 1) / 0.07] ≈ $567,000. The early starter contributed a third as much money but ended up with a comparable balance, purely because of the extra decade of compounding.
+      Someone contributes $6,000 per year starting at age 25 and stops contributing entirely at 35 (10 years, $60,000 total contributed), leaving the balance to keep growing untouched until 65. At an assumed 7% average annual return, that $60,000 in contributions grows to roughly $6,000 × [(1.07^40 − 1.07^30) / 0.07] ≈ $631,000 by age 65 using standard future-value-of-an-annuity math. Someone who instead waits until 35 to start and contributes the same $6,000 per year continuously for 30 years straight (35 to 65, $180,000 total contributed — three times as much money put in) ends up with roughly $6,000 × [(1.07^30 − 1) / 0.07] ≈ $567,000. The early starter contributed a third as much money but ended up with a larger balance, about $64,000 more, purely because of the extra decade of compounding.
       </div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 2: The effect of an employer match (edge case / variation)</h3>
@@ -119,7 +131,7 @@ export default function Post() {
       title="Starting 10 years earlier vs. contributing 3x longer"
       type="comparison"
       svgSrc="/diagrams/personal-finance-basics-understanding-retirement-accounts-basic-mechanics-early-start-comparison.svg"
-      altText="Two bars compared side by side. The left bar represents a person who contributed six thousand dollars a year for only ten years starting at age twenty five, reaching approximately five hundred thirty thousand dollars by age sixty five. The right bar represents a person who contributed the same six thousand dollars a year for thirty years starting at age thirty five, reaching approximately five hundred sixty seven thousand dollars by age sixty five, illustrating that starting a decade earlier lets a much smaller total contribution reach a comparable ending balance."
+      altText="Two bars compared side by side. The left bar represents a person who contributed six thousand dollars a year for only ten years starting at age twenty five, reaching approximately six hundred thirty one thousand dollars by age sixty five. The right bar represents a person who contributed the same six thousand dollars a year for thirty years starting at age thirty five, reaching approximately five hundred sixty seven thousand dollars by age sixty five, illustrating that starting a decade earlier lets a much smaller total contribution reach a higher ending balance."
       />
       <p>
       The visual gap between total dollars contributed and total ending balance is the entire mechanism — the early starter&apos;s advantage comes exclusively from time spent invested, not from contributing more money or picking better investments.
@@ -169,7 +181,7 @@ export default function Post() {
       { question: "Is a retirement account a type of investment?", answer: "No — it's a tax-advantaged account structure that you hold ordinary investments inside of, such as index funds or bonds. The account changes how and when the money is taxed, not what the investments themselves are." },
       { question: "What's the difference between the two common retirement account tax structures?", answer: "One reduces your taxable income now and taxes withdrawals later; the other gives no upfront tax break but lets qualifying withdrawals come out completely tax-free. Which is better depends on individual tax circumstances, which is a matter for a tax professional or official IRS guidance, not a general rule." },
       { question: "What is an employer match?", answer: "Money your employer contributes to your retirement account based on your own contribution, up to a set limit — functioning as additional compensation that generally requires you to contribute at least the threshold amount to receive in full." },
-      { question: "Does starting a retirement account early really matter that much?", answer: "Yes, mechanically — because returns compound over time, money invested for a longer horizon can reach a comparable ending balance with substantially smaller total contributions than money invested for a shorter horizon, as shown in the worked examples above." },
+      { question: "Does starting a retirement account early really matter that much?", answer: "Yes, mechanically — because returns compound over time, money invested for a longer horizon can reach a comparable or even higher ending balance with substantially smaller total contributions than money invested for a shorter horizon, as shown in the worked examples above." },
       ]}
       />
 

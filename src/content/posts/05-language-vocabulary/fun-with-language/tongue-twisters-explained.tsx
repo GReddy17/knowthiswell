@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "fun-with-language",
   tags: ["tongue twisters", "phonetics", "pronunciation", "wordplay", "spoonerisms", "linguistics"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 63, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -53,6 +53,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a spoonerism?", "difficulty": "easy", "options": [{"text": "An accidental slip where the first sounds of two words get swapped", "correct": true, "explanation": "Yes, named after Reverend William Spooner, who was known for them."}, {"text": "A phrase built on purpose to be hard to say", "correct": false, "explanation": "That's a tongue twister; a spoonerism is the slip itself."}, {"text": "A word that reads the same backward", "correct": false, "explanation": "That's a palindrome."}]},
+  {"question": "What usually removes almost all the difficulty from a tongue twister?", "difficulty": "easy", "options": [{"text": "Slowing down", "correct": true, "explanation": "Right, proof that the problem is speed of execution, not understanding."}, {"text": "Saying it louder", "correct": false, "explanation": "Volume doesn't help the sound sequencing."}, {"text": "Writing it down first", "correct": false, "explanation": "Speed is what matters; slow it down and it gets easy."}]},
+  {"question": "Which is a German tongue twister?", "difficulty": "easy", "options": [{"text": "\"Fischers Fritz fischt frische Fische\"", "correct": true, "explanation": "Yes, built around repeated \"f\" and \"sch\" sounds."}, {"text": "\"Un chasseur sachant chasser sans son chien\"", "correct": false, "explanation": "That one's French."}, {"text": "\"Peter Piper picked a peck of pickled peppers\"", "correct": false, "explanation": "That's the classic English one."}]},
+  {"question": "How is plain alliteration different from a true tongue twister?", "difficulty": "medium", "options": [{"text": "Alliteration repeats the same sound, which is fairly easy; twisters alternate similar but different sounds", "correct": true, "explanation": "Right. The alternation is what trips up your speech planning."}, {"text": "Alliteration is always harder to say", "correct": false, "explanation": "It's comparatively easy to say quickly."}, {"text": "They're exactly the same thing", "correct": false, "explanation": "Many alliterative phrases aren't twisters at all."}]},
+  {"question": "Who uses tongue twisters as an articulation warm-up?", "difficulty": "medium", "options": [{"text": "Actors, broadcasters and public speakers", "correct": true, "explanation": "Yes. Practising the hardest transitions makes ordinary speech feel easier."}, {"text": "Only young children", "correct": false, "explanation": "Professionals use them before performing, too."}, {"text": "Nobody; they're just for fun", "correct": false, "explanation": "They're a genuine warm-up, and researchers use them as a study tool."}]},
+  {"question": "Why are /s/ and /sh/ such a tricky pair?", "difficulty": "medium", "options": [{"text": "The tongue makes them in almost the same position, with only a small shift", "correct": true, "explanation": "Right. Close sounds are easy for the speech plan to mix up."}, {"text": "They're the same sound", "correct": false, "explanation": "They're different sounds, just very close ones."}, {"text": "English rarely uses them", "correct": false, "explanation": "Both are everyday English sounds."}]},
+  {"question": "Why do researchers use phrases like \"pad kid poured curd pulled cod\"?", "difficulty": "hard", "options": [{"text": "To study how the brain sequences speech sounds and where that process breaks down", "correct": true, "explanation": "Yes. A twister is a handy lab tool for catching speech slips."}, {"text": "To test vocabulary knowledge", "correct": false, "explanation": "Every word is short and simple; vocabulary isn't the point."}, {"text": "To measure how loud people can speak", "correct": false, "explanation": "It's about sound sequencing, not volume."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "length-and-distance",
   tags: ["cubit", "foot", "yard", "history of measurement", "unit conversion"],
   date: "2026-08-21",
-  updated: "2026-08-21",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
@@ -53,6 +53,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What body measurement was the cubit based on?", "difficulty": "easy", "options": [{"text": "The length of a human foot", "correct": false, "explanation": "That's the foot, a separate body-based unit."}, {"text": "The distance from the elbow to the tip of the middle finger", "correct": true, "explanation": "Right. That forearm length is the whole idea behind the cubit."}, {"text": "The width of a thumb", "correct": false, "explanation": "The cubit is a forearm length, far longer than a thumb's width."}]},
+  {"question": "How long is the Egyptian royal cubit in modern units?", "difficulty": "easy", "options": [{"text": "Exactly 1 meter", "correct": false, "explanation": "Much shorter: the royal cubit is roughly 52.4 cm."}, {"text": "About 2.54 cm", "correct": false, "explanation": "2.54 cm is the modern inch, not the cubit."}, {"text": "About 52.4 cm", "correct": true, "explanation": "Yes. It was fixed around 2700 BCE using a master granite rod."}]},
+  {"question": "What did the 1959 International Yard and Pound Agreement fix?", "difficulty": "easy", "options": [{"text": "The inch at exactly 2.54 cm", "correct": true, "explanation": "Right, and from that the foot and yard follow exactly."}, {"text": "The cubit at exactly 52.4 cm", "correct": false, "explanation": "The agreement covered the inch, foot and yard, not the ancient cubit."}, {"text": "The meter as the distance from the North Pole to the equator", "correct": false, "explanation": "That was the meter's 1793 definition, a separate story."}]},
+  {"question": "How was the Egyptian royal cubit kept consistent on building sites?", "difficulty": "medium", "options": [{"text": "Each builder used their own forearm", "correct": false, "explanation": "That's exactly the inconsistency the master rod was meant to stop."}, {"text": "A master rod of black granite was kept in a temple and working copies were checked against it", "correct": true, "explanation": "Right: an early quality-control system to stop errors piling up across a huge structure."}, {"text": "Measurements were written down but never checked", "correct": false, "explanation": "The post describes regular checks of working copies against the master rod."}]},
+  {"question": "Using the international definition, how long is 1 foot in meters?", "difficulty": "medium", "options": [{"text": "Exactly 0.3 m", "correct": false, "explanation": "Close, but the exact value is 0.3048 m."}, {"text": "About 0.524 m", "correct": false, "explanation": "That's roughly the royal cubit, not the foot."}, {"text": "Exactly 0.3048 m", "correct": true, "explanation": "Right: 12 inches × 2.54 cm = 30.48 cm, which is 0.3048 m."}]},
+  {"question": "How is the meter defined today?", "difficulty": "medium", "options": [{"text": "Via the speed of light", "correct": true, "explanation": "Right. Standardization moved from objects and body parts to something even more precisely reproducible."}, {"text": "As one ten-millionth of the distance from the North Pole to the equator", "correct": false, "explanation": "That was its original 1793 definition, not today's."}, {"text": "By the length of a master granite rod", "correct": false, "explanation": "That's how the Egyptian royal cubit was kept, not the modern meter."}]},
+  {"question": "The same 440-cubit measurement comes out 32 meters shorter with the common cubit (about 45 cm) than with the royal cubit (52.4 cm). What does that show?", "difficulty": "hard", "options": [{"text": "The common cubit was the more accurate unit", "correct": false, "explanation": "Neither is 'more accurate'; they're different lengths, and that mismatch is the problem."}, {"text": "Unstandardized, body-based units led to real disagreements over the same recorded length", "correct": true, "explanation": "Exactly. 440 × 45 cm = 198 m against 230.56 m: same number, very different size."}, {"text": "The difference is too small to matter", "correct": false, "explanation": "32 meters across a single structure is far from negligible."}]},
+  {"question": "Why does the US still keep a separate 'US survey foot' for some land records?", "difficulty": "hard", "options": [{"text": "Because the survey foot is a body-based unit taken from a surveyor's stride", "correct": false, "explanation": "It's a leftover from the pre-1959 US definition, not a body-based unit."}, {"text": "Because the survey foot is about 10% longer than the international foot", "correct": false, "explanation": "The difference is tiny, roughly 2 parts per million, not 10%."}, {"text": "Before 1959 the US defined its inch very slightly differently, and some legal land records still use that older definition", "correct": true, "explanation": "Right. The gap is about 2 parts per million, but it adds up over long boundaries."}]},
+];
 
 export default function Post() {
   return (

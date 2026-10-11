@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "career-study-skills/what-networking-actually-means-beyond-small-talk",
     "language-vocabulary/everyday-conversational-phrases",
     "psychology-human-behavior/how-social-proof-actually-influences-behavior",
+    "life-skills-etiquette/what-digital-etiquette-actually-means-in-group-chats",
   ],
   glossary: [
     { term: "Phatic communication", definition: "Talk whose main purpose is social bonding rather than conveying information, such as greetings and remarks about the weather. Malinowski called it 'phatic communion' in 1923." },

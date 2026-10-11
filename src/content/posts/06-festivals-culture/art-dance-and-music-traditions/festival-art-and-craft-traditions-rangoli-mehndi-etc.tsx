@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "art-dance-and-music-traditions",
   tags: ["rangoli", "mehndi", "henna", "festival crafts", "folk art"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -56,6 +56,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is rangoli?", "difficulty": "easy", "options": [{"text": "A permanent wall painting inside temples", "correct": false, "explanation": "Rangoli is temporary and made on the floor, usually at the entrance."}, {"text": "A decorative floor pattern made from colored powder, rice flour, sand or flower petals, usually at a home's entrance", "correct": true, "explanation": "Right. It's especially common during festivals like Diwali and Onam."}, {"text": "A henna design drawn on the hands", "correct": false, "explanation": "That's mehndi; rangoli is floor art."}]},
+  {"question": "What's the difference between henna and mehndi?", "difficulty": "easy", "options": [{"text": "They're two names for exactly the same thing", "correct": false, "explanation": "They're related but not strictly interchangeable: one's the dye, the other's the art."}, {"text": "Mehndi is the plant and henna is the design", "correct": false, "explanation": "That's the wrong way round; henna is the plant (Lawsonia inermis)."}, {"text": "Henna is the plant-based dye; mehndi is the art form and finished design made with it", "correct": true, "explanation": "Exactly. Henna is the material, mehndi is the practice and the design."}]},
+  {"question": "What is a pookalam?", "difficulty": "easy", "options": [{"text": "A flower-petal floor design made for Kerala's Onam festival", "correct": true, "explanation": "Yes. It's arranged in concentric patterns, a flower-only relative of rangoli."}, {"text": "A Ukrainian decorated egg", "correct": false, "explanation": "Those are pysanky, a different festival craft altogether."}, {"text": "A type of colored powder used at Holi", "correct": false, "explanation": "A pookalam is made entirely of flower petals, not powder."}]},
+  {"question": "How does Tamil Nadu's kolam usually differ from North Indian rangoli?", "difficulty": "medium", "options": [{"text": "Kolam is made only of flower petals", "correct": false, "explanation": "That describes Kerala's pookalam, not Tamil Nadu's kolam."}, {"text": "Kolam is typically drawn in white rice flour without color, while North Indian rangoli favors bright colored powders", "correct": true, "explanation": "Right. That color-versus-white split is itself a regional signal."}, {"text": "Kolam is drawn on the hands rather than the floor", "correct": false, "explanation": "Kolam is a floor design; hand designs are mehndi."}]},
+  {"question": "Why were some traditional rangoli designs made with rice flour?", "difficulty": "medium", "options": [{"text": "Because rice flour is permanent and never washes away", "correct": false, "explanation": "Rangoli is temporary and refreshed for festivals; permanence wasn't the point."}, {"text": "Because colored powder had not been invented yet", "correct": false, "explanation": "The reason the post gives is feeding small creatures, not a lack of other materials."}, {"text": "So ants and small insects could feed on them, a bit of hospitality for non-human visitors too", "correct": true, "explanation": "Right. The welcome extended beyond human guests."}]},
+  {"question": "Which pair does the post give as festival crafts outside South Asia that follow the same pattern as rangoli and mehndi?", "difficulty": "medium", "options": [{"text": "Ukrainian pysanky (decorated eggs) and Chinese paper-cutting for Lunar New Year", "correct": true, "explanation": "Yes. Both remain living festival crafts that are still taught within their communities."}, {"text": "Japanese tea ceremony and Italian opera", "correct": false, "explanation": "Neither is mentioned; the post's examples are pysanky and Chinese paper-cutting."}, {"text": "Mexican piñatas and Scottish tartan", "correct": false, "explanation": "The post's examples are pysanky and jianzhi, Chinese paper-cutting."}]},
+  {"question": "You see a henna design made of geometric shapes rather than florals. Which regional style does it most likely reflect?", "difficulty": "medium", "options": [{"text": "South Asian bridal", "correct": false, "explanation": "South Asian bridal mehndi tends toward dense floral and paisley coverage."}, {"text": "North African", "correct": true, "explanation": "Right. North African styles often favor geometric patterns over floral ones."}, {"text": "Arabic", "correct": false, "explanation": "Arabic mehndi usually uses bold, spaced-out floral and vine motifs."}]},
+  {"question": "A friend says a darker henna stain means your mother-in-law will love you more. What actually decides stain darkness?", "difficulty": "hard", "options": [{"text": "The strength of the relationship", "correct": false, "explanation": "That's the saying, not a fact; stain color depends on paste, skin and time."}, {"text": "Which festival it's applied for", "correct": false, "explanation": "The occasion doesn't change the chemistry; paste, skin and time do."}, {"text": "Paste quality, skin chemistry and how long the paste is left on", "correct": true, "explanation": "Exactly. The saying is folklore with no biochemical basis."}]},
+];
 
 export default function Post() {
   return (

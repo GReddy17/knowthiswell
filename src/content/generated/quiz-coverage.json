@@ -1,14 +1,14 @@
 {
  "posts": 931,
  "minimum": 9,
- "meetingMinimum": 282,
+ "meetingMinimum": 315,
  "histogram": {
-  "2": 220,
-  "3": 429,
+  "2": 209,
+  "3": 407,
   "9": 193,
-  "10": 46,
-  "11": 19,
-  "12": 23,
+  "10": 71,
+  "11": 26,
+  "12": 24,
   "16": 1
  },
  "below": [
@@ -89,15 +89,7 @@
    "count": 2
   },
   {
-   "key": "units-measurement-conversions/historical-origins-of-length-units-foot-cubit-yard",
-   "count": 2
-  },
-  {
    "key": "units-measurement-conversions/how-map-scale-relates-to-real-world-distance",
-   "count": 2
-  },
-  {
-   "key": "units-measurement-conversions/land-area-units-acres-hectares-and-square-feet",
    "count": 2
   },
   {
@@ -357,10 +349,6 @@
    "count": 2
   },
   {
-   "key": "personal-finance-basics/credit-cards-explained-interest-grace-periods-minimum-payments",
-   "count": 2
-  },
-  {
    "key": "personal-finance-basics/good-debt-vs-bad-debt-factual-framing",
    "count": 2
   },
@@ -390,10 +378,6 @@
   },
   {
    "key": "personal-finance-basics/needs-vs-wants-how-to-tell-the-difference",
-   "count": 2
-  },
-  {
-   "key": "personal-finance-basics/the-50-30-20-budgeting-rule-explained",
    "count": 2
   },
   {
@@ -461,10 +445,6 @@
    "count": 2
   },
   {
-   "key": "personal-finance-basics/understanding-retirement-accounts-basic-mechanics",
-   "count": 2
-  },
-  {
    "key": "personal-finance-basics/automating-savings-how-it-works",
    "count": 2
   },
@@ -489,15 +469,7 @@
    "count": 2
   },
   {
-   "key": "personal-finance-basics/why-emergency-funds-matter-and-how-big-to-build-one",
-   "count": 2
-  },
-  {
    "key": "personal-finance-basics/common-tax-filing-terms-explained",
-   "count": 2
-  },
-  {
-   "key": "personal-finance-basics/income-tax-basics-how-brackets-actually-work",
    "count": 2
   },
   {
@@ -777,10 +749,6 @@
    "count": 2
   },
   {
-   "key": "business-entrepreneurship-basics/what-a-business-plan-actually-needs-to-include",
-   "count": 2
-  },
-  {
    "key": "investing-markets-deep-dive/what-a-brokerage-account-actually-is",
    "count": 2
   },
@@ -793,19 +761,11 @@
    "count": 2
   },
   {
-   "key": "investing-markets-deep-dive/what-a-mutual-fund-actually-is",
-   "count": 2
-  },
-  {
    "key": "government-schemes-benefits/how-to-actually-apply-for-government-assistance-programs",
    "count": 2
   },
   {
    "key": "government-schemes-benefits/how-unemployment-benefits-actually-get-calculated",
-   "count": 2
-  },
-  {
-   "key": "government-schemes-benefits/what-social-security-actually-pays-out-and-when",
    "count": 2
   },
   {
@@ -882,10 +842,6 @@
   },
   {
    "key": "economics/how-interest-rates-actually-get-set",
-   "count": 2
-  },
-  {
-   "key": "economics/what-gdp-actually-measures",
    "count": 2
   },
   {
@@ -1401,18 +1357,6 @@
    "count": 3
   },
   {
-   "key": "history-timeline-facts/scientists-who-changed-history",
-   "count": 3
-  },
-  {
-   "key": "history-timeline-facts/social-reformers-and-activists-through-history",
-   "count": 3
-  },
-  {
-   "key": "history-timeline-facts/world-leaders-who-changed-history",
-   "count": 3
-  },
-  {
    "key": "history-timeline-facts/common-history-myths-and-misconceptions",
    "count": 3
   },
@@ -1525,26 +1469,6 @@
    "count": 3
   },
   {
-   "key": "language-vocabulary/common-foreign-phrases-used-in-english",
-   "count": 3
-  },
-  {
-   "key": "language-vocabulary/palindromes-and-wordplay",
-   "count": 3
-  },
-  {
-   "key": "language-vocabulary/portmanteau-words-blended-words",
-   "count": 3
-  },
-  {
-   "key": "language-vocabulary/tongue-twisters-explained",
-   "count": 3
-  },
-  {
-   "key": "language-vocabulary/untranslatable-words-from-other-languages",
-   "count": 3
-  },
-  {
    "key": "language-vocabulary/active-vs-passive-voice",
    "count": 3
   },
@@ -1566,18 +1490,6 @@
   },
   {
    "key": "language-vocabulary/tenses-explained-past-present-future",
-   "count": 3
-  },
-  {
-   "key": "language-vocabulary/overview-of-major-indian-languages",
-   "count": 3
-  },
-  {
-   "key": "language-vocabulary/regional-scripts-explained-devanagari-tamil-telugu-etc",
-   "count": 3
-  },
-  {
-   "key": "language-vocabulary/sanskrits-influence-on-modern-languages",
    "count": 3
   },
   {
@@ -1653,18 +1565,6 @@
    "count": 3
   },
   {
-   "key": "language-vocabulary/academic-vocabulary",
-   "count": 3
-  },
-  {
-   "key": "language-vocabulary/business-and-professional-vocabulary",
-   "count": 3
-  },
-  {
-   "key": "language-vocabulary/everyday-conversational-phrases",
-   "count": 3
-  },
-  {
    "key": "language-vocabulary/endangered-and-extinct-languages",
    "count": 3
   },
@@ -1705,26 +1605,6 @@
    "count": 3
   },
   {
-   "key": "festivals-culture/classical-indian-dance-forms-overview",
-   "count": 3
-  },
-  {
-   "key": "festivals-culture/festival-art-and-craft-traditions-rangoli-mehndi-etc",
-   "count": 3
-  },
-  {
-   "key": "festivals-culture/folk-dances-of-india",
-   "count": 3
-  },
-  {
-   "key": "festivals-culture/traditional-music-instruments-around-the-world",
-   "count": 3
-  },
-  {
-   "key": "festivals-culture/world-dance-traditions-overview",
-   "count": 3
-  },
-  {
    "key": "festivals-culture/independence-day-celebrations-india-and-other-nations-factual-overview",
    "count": 3
   },
@@ -1738,10 +1618,6 @@
   },
   {
    "key": "festivals-culture/republic-day-explained-india",
-   "count": 3
-  },
-  {
-   "key": "festivals-culture/common-festival-myths-and-misconceptions",
    "count": 3
   },
   {
@@ -2061,10 +1937,6 @@
    "count": 3
   },
   {
-   "key": "general-awareness-basics/what-a-census-is-and-why-it-matters",
-   "count": 3
-  },
-  {
    "key": "health-body-basics/basic-first-response-for-minor-poisoning-or-exposure",
    "count": 3
   },
@@ -2178,10 +2050,6 @@
   },
   {
    "key": "health-body-basics/understanding-food-groups-and-dietary-variety",
-   "count": 3
-  },
-  {
-   "key": "health-body-basics/understanding-stress-and-the-body-general-overview",
    "count": 3
   },
   {

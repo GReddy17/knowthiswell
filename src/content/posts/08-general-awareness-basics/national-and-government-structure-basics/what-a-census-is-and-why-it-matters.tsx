@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "national-and-government-structure-basics",
   tags: ["census", "population count", "apportionment", "civics", "government data"],
   date: "2026-08-21",
-  updated: "2026-08-21",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
@@ -54,6 +54,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a census?", "difficulty": "easy", "options": [{"text": "A private opinion poll about elections", "correct": false, "explanation": "A census is run by the government and counts everyone, not a sample of opinions."}, {"text": "An official, periodic government count of a country's population", "correct": true, "explanation": "Right, usually with basic demographic data collected alongside the headcount."}, {"text": "A yearly report on a country's budget", "correct": false, "explanation": "It's a population count, not a budget report."}]},
+  {"question": "How often do many countries conduct a census?", "difficulty": "easy", "options": [{"text": "Every month", "correct": false, "explanation": "Censuses are big, periodic counts, not monthly updates."}, {"text": "Only once, when a country is founded", "correct": false, "explanation": "They're repeated on a fixed schedule so the figures stay current."}, {"text": "Every 5 or 10 years", "correct": true, "explanation": "Right. The schedule varies by country, but 5 or 10 years is common."}]},
+  {"question": "What does the word 'census' come from?", "difficulty": "easy", "options": [{"text": "The Latin censere, 'to assess'", "correct": true, "explanation": "Yes. Ancient Rome counted people to assess taxation and military service."}, {"text": "The Greek word for 'crowd'", "correct": false, "explanation": "The post traces it to the Latin censere, meaning 'to assess'."}, {"text": "An English word for 'headcount'", "correct": false, "explanation": "Its root is Latin, not English."}]},
+  {"question": "A census counts 5,200,000 people on 41,600 km² of land. What's the population density?", "difficulty": "medium", "options": [{"text": "About 8 people per km²", "correct": false, "explanation": "That flips the division; density is population divided by area."}, {"text": "About 125 people per km²", "correct": true, "explanation": "Right: 5,200,000 ÷ 41,600 = 125."}, {"text": "About 1,250 people per km²", "correct": false, "explanation": "Off by a factor of ten: 5,200,000 ÷ 41,600 is about 125."}]},
+  {"question": "Why can a fast-growing region gain legislative seats after a census?", "difficulty": "medium", "options": [{"text": "Because fast-growing regions vote to add seats for themselves", "correct": false, "explanation": "The shift comes from the updated headcount, not from a vote."}, {"text": "Because the legislature gets bigger after every census", "correct": false, "explanation": "The post describes a fixed total of seats being reallocated."}, {"text": "The total number of seats is usually fixed, so seats are shared out again in proportion to the new population counts", "correct": true, "explanation": "Right. Another region loses seats to keep the total fixed, with no change in law or voting."}]},
+  {"question": "Which groups does the post say are more at risk of being undercounted?", "difficulty": "medium", "options": [{"text": "Hard-to-reach populations, recent movers and groups wary of government data collection", "correct": true, "explanation": "Right. Those are the communities whose official figures can come in below their true size."}, {"text": "Only people living in big cities", "correct": false, "explanation": "The risk the post describes is about being hard to reach, not city size alone."}, {"text": "Only people over 65", "correct": false, "explanation": "The post names hard-to-reach groups, recent movers and wary groups, not an age band."}]},
+  {"question": "A community is undercounted in this year's census. What's the most likely lasting effect?", "difficulty": "hard", "options": [{"text": "No effect, since funding is based on tax receipts", "correct": false, "explanation": "Many funding formulas use census-derived population figures."}, {"text": "Less representation and less funding than its true size justifies, until the next census", "correct": true, "explanation": "Exactly. The low figure sticks for the whole multi-year period."}, {"text": "The count is fixed automatically within a few weeks", "correct": false, "explanation": "Census figures generally stand until the next scheduled count."}]},
+];
 
 export default function Post() {
   return (

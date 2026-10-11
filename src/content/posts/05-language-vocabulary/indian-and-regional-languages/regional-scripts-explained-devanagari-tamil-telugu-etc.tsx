@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "indian-and-regional-languages",
   tags: ["devanagari", "tamil script", "telugu script", "brahmi script", "writing systems", "indian languages"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -55,6 +55,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which ancient script are most Indian regional scripts descended from?", "difficulty": "easy", "options": [{"text": "Brahmi", "correct": true, "explanation": "Yes, first seen fully developed in Ashoka's 3rd-century-BCE edicts."}, {"text": "Phoenician", "correct": false, "explanation": "Phoenician is the ancestor of Latin and Cyrillic, not Indic scripts."}, {"text": "Perso-Arabic", "correct": false, "explanation": "That's a separate lineage, used in India for Urdu."}]},
+  {"question": "What is the horizontal line across the top of most Devanagari letters called?", "difficulty": "easy", "options": [{"text": "The shirorekha, or headline", "correct": true, "explanation": "Right. It joins the letters of a word into one connected unit."}, {"text": "The virama", "correct": false, "explanation": "The virama (halant) is the mark that removes a consonant's built-in vowel."}, {"text": "A conjunct", "correct": false, "explanation": "A conjunct is a fused consonant cluster."}]},
+  {"question": "Which languages are written in Devanagari?", "difficulty": "easy", "options": [{"text": "Hindi, Marathi, Nepali and Sanskrit, among others", "correct": true, "explanation": "Yes, used by an estimated 600 million or more people."}, {"text": "Tamil and Telugu", "correct": false, "explanation": "Each has its own script."}, {"text": "Urdu and Sindhi only", "correct": false, "explanation": "Urdu uses Perso-Arabic; Devanagari's main users are Hindi, Marathi, Nepali and Sanskrit."}]},
+  {"question": "What does a virama (halant) do in Devanagari?", "difficulty": "medium", "options": [{"text": "It suppresses a consonant's built-in vowel", "correct": true, "explanation": "Right, so the consonant is said with no vowel at all."}, {"text": "It adds a second consonant", "correct": false, "explanation": "It removes the inherent vowel."}, {"text": "It marks the end of a sentence", "correct": false, "explanation": "It works on single consonants, not sentences."}]},
+  {"question": "Brahmi's descendants today write which languages outside India?", "difficulty": "medium", "options": [{"text": "Thai, Tibetan and Javanese", "correct": true, "explanation": "Yes, Brahmi's family tree reaches well beyond South Asia."}, {"text": "Russian and Greek", "correct": false, "explanation": "Those use Cyrillic and Greek scripts, from a different lineage."}, {"text": "Arabic and Persian", "correct": false, "explanation": "Those use the Arabic script lineage."}]},
+  {"question": "Konkani is a good example of what?", "difficulty": "medium", "options": [{"text": "One language written in more than one script, here Devanagari, Kannada or Roman", "correct": true, "explanation": "Right. Script and language aren't fixed to each other."}, {"text": "A language with no written form", "correct": false, "explanation": "Konkani is written in several scripts."}, {"text": "A script with no language attached", "correct": false, "explanation": "Konkani is a language, written several ways."}]},
+  {"question": "How does a syllabary like Japanese kana differ from an abugida?", "difficulty": "hard", "options": [{"text": "Each kana symbol is a whole fixed syllable with no smaller parts; an abugida modifies a consonant's default vowel with marks", "correct": true, "explanation": "Yes. That's why Indic scripts are classed as abugidas, not syllabaries."}, {"text": "A syllabary writes consonants and vowels as separate, equal letters", "correct": false, "explanation": "That describes an alphabet like English."}, {"text": "They're the same thing", "correct": false, "explanation": "They're distinct categories of writing system."}]},
+];
 
 export default function Post() {
   return (

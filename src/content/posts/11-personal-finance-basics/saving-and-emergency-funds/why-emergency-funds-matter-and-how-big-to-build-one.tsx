@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,10 +23,10 @@ export const metadata: PostFrontmatter = {
   subtopic: "saving-and-emergency-funds",
   tags: ["emergency fund", "savings", "financial safety net", "budgeting", "personal finance basics"],
   date: "2026-08-22",
-  updated: "2026-08-22",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 78, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-08-22",
+  lastReviewed: "2026-10-10",
   excerpt: "An emergency fund exists to stop a single unexpected expense from turning into debt — the actual mechanism is substituting cash you already have for a loan you'd otherwise be forced to take.",
   summary: "An emergency fund is cash set aside specifically to cover unplanned expenses or income loss without borrowing, commonly sized as three to six months of essential expenses, though the right size depends on job stability and other factors — this is general financial literacy, not a personal recommendation for your situation.",
   sources: [
@@ -52,6 +52,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the main financial job of an emergency fund?", "difficulty": "easy", "options": [{"text": "Paying surprise costs in cash instead of borrowing, so no interest is added", "correct": true, "explanation": "It substitutes cash you own for a loan."}, {"text": "Earning a high investment return", "correct": false, "explanation": "Its value comes from avoided interest, not its own yield."}, {"text": "Covering planned vacations", "correct": false, "explanation": "It is for unplanned costs only."}]},
+  {"question": "What is the commonly cited general benchmark for an emergency fund?", "difficulty": "easy", "options": [{"text": "One week of income", "correct": false, "explanation": "That is far below the common benchmark."}, {"text": "Three to six months of essential expenses", "correct": true, "explanation": "The right amount still depends on your situation."}, {"text": "Two full years of income", "correct": false, "explanation": "That is well beyond the common guideline."}]},
+  {"question": "Should you size an emergency fund from total income or from essential expenses?", "difficulty": "medium", "options": [{"text": "Essential expenses", "correct": true, "explanation": "In a real emergency, discretionary spending gets cut first."}, {"text": "Total income", "correct": false, "explanation": "That can more than double the target unnecessarily."}, {"text": "Gross income before tax", "correct": false, "explanation": "Gross income overstates what needs covering."}]},
+  {"question": "Essential expenses are $1,800 a month. What is the 3-month baseline target?", "difficulty": "easy", "options": [{"text": "$1,800", "correct": false, "explanation": "That is only one month."}, {"text": "$10,800", "correct": false, "explanation": "That is six months, the top of the range."}, {"text": "$5,400", "correct": true, "explanation": "$1,800 x 3 = $5,400."}]},
+  {"question": "Where should an emergency fund usually be kept?", "difficulty": "medium", "options": [{"text": "In a separate, liquid, stable account such as a savings account", "correct": true, "explanation": "It must be easy to reach and not blended into spending money."}, {"text": "In stocks, to grow faster", "correct": false, "explanation": "Stocks can be down in value right when you need the cash."}, {"text": "In your everyday checking account", "correct": false, "explanation": "It tends to get absorbed into regular spending there."}]},
+  {"question": "Who might lean toward the higher end of the 3-6 month range?", "difficulty": "medium", "options": [{"text": "A stable dual-income household with no dependents", "correct": false, "explanation": "They commonly need less."}, {"text": "Someone with unstable freelance income or a single-income household", "correct": true, "explanation": "Less predictable income calls for more cushion."}, {"text": "Anyone with a credit card", "correct": false, "explanation": "Having a card is a reason to avoid borrowing, not a sizing rule."}]},
+  {"question": "A $1,500 car repair is paid from an emergency fund instead of a 22% APR card carried for a year. What does the fund save?", "difficulty": "hard", "options": [{"text": "Roughly $170-180 in interest", "correct": true, "explanation": "The repair still costs $1,500; the fund avoids the interest on top."}, {"text": "The whole $1,500 repair cost", "correct": false, "explanation": "The repair cost is the same either way."}, {"text": "Nothing; the cost is identical", "correct": false, "explanation": "Financing adds interest that cash does not."}]},
+  {"question": "Which modest unexpected expense amount do Federal Reserve and CFPB studies commonly look at?", "difficulty": "hard", "options": [{"text": "About $40", "correct": false, "explanation": "The commonly studied figure is larger."}, {"text": "About $40,000", "correct": false, "explanation": "That is far above the commonly studied amount."}, {"text": "About $400", "correct": true, "explanation": "Studies track whether households could cover it with cash or its equivalent."}]},
+];
+
 
 export default function Post() {
   return (

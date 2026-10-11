@@ -61,6 +61,7 @@ export const LEARNING_PATHS: LearningPath[] = [
       { category: 'legal-documentation-howtos', slug: 'understanding-permits-and-licenses-general-categories' },
       { category: 'professional-skills-certifications', slug: 'what-continuing-education-credits-actually-require' },
       { category: 'business-entrepreneurship-basics', slug: 'what-makes-a-side-hustle-different-from-a-real-business' },
+      { category: 'business-entrepreneurship-basics', slug: 'what-a-business-plan-actually-needs-to-include' },
       { category: 'business-entrepreneurship-basics', slug: 'what-a-business-license-actually-requires' },
       { category: 'legal-documentation-howtos', slug: 'business-registration-documents-explained' },
       { category: 'business-entrepreneurship-basics', slug: 'what-an-llc-actually-protects-you-from' },

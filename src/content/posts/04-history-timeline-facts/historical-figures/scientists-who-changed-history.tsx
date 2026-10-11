@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "historical-figures",
   tags: ["scientists", "marie curie", "ibn al-haytham", "tu youyou", "history of science", "historical figures"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "In which two sciences did Marie Curie win her Nobel Prizes?", "difficulty": "easy", "options": [{"text": "Physics in 1903 and Chemistry in 1911", "correct": true, "explanation": "Yes, and she's still the only person to win Nobels in two different sciences."}, {"text": "Physics and Medicine", "correct": false, "explanation": "Her second prize was Chemistry, for isolating pure radium."}, {"text": "Chemistry and Peace", "correct": false, "explanation": "Her first prize was Physics, shared with Pierre Curie and Henri Becquerel."}]},
+  {"question": "Which two new elements did Marie and Pierre Curie discover?", "difficulty": "easy", "options": [{"text": "Polonium and radium", "correct": true, "explanation": "Right. She isolated radium from tons of a uranium-ore byproduct called pitchblende."}, {"text": "Uranium and plutonium", "correct": false, "explanation": "Uranium ore was their raw material, not one of their discoveries."}, {"text": "Radon and helium", "correct": false, "explanation": "Neither is credited to the Curies here; their two were polonium and radium."}]},
+  {"question": "What did Tu Youyou isolate from sweet wormwood?", "difficulty": "easy", "options": [{"text": "Artemisinin, now a core part of standard malaria treatment", "correct": true, "explanation": "Exactly. The WHO's recommended malaria treatment still builds on it."}, {"text": "Penicillin", "correct": false, "explanation": "Penicillin is a different story entirely; her compound was artemisinin."}, {"text": "A vaccine against malaria", "correct": false, "explanation": "Artemisinin is a treatment compound, not a vaccine."}]},
+  {"question": "What device did Ibn al-Haytham use in his experiments on vision?", "difficulty": "medium", "options": [{"text": "Devices resembling a camera obscura", "correct": true, "explanation": "Yes. He used them to show that vision works by light entering the eye."}, {"text": "A glass telescope", "correct": false, "explanation": "His optics experiments relied on camera-obscura-style devices, not telescopes."}, {"text": "An electric microscope", "correct": false, "explanation": "That's centuries too modern for 11th-century Basra and Cairo."}]},
+  {"question": "Why are Marie Curie's lab notebooks kept in lead-lined boxes?", "difficulty": "medium", "options": [{"text": "They're still radioactive more than a century later", "correct": true, "explanation": "Right. Visitors to France's National Library sign a waiver before viewing them."}, {"text": "The paper is too fragile to handle", "correct": false, "explanation": "The real worry is radiation, not fragile pages."}, {"text": "They contain state secrets", "correct": false, "explanation": "The lead lining protects readers from radiation, not secrets from readers."}]},
+  {"question": "What was Katherine Johnson's key contribution at NASA?", "difficulty": "medium", "options": [{"text": "Precise orbital trajectory calculations for early U.S. crewed spaceflights", "correct": true, "explanation": "Yes. John Glenn reportedly insisted she check the numbers before his 1962 orbital flight."}, {"text": "Designing the first rocket engines", "correct": false, "explanation": "She was a mathematician; her work was the trajectory math, not engine design."}, {"text": "Piloting the first U.S. orbital mission", "correct": false, "explanation": "John Glenn flew that 1962 mission; she verified the calculations behind it."}]},
+  {"question": "How long passed between Tu Youyou's discovery and her Nobel Prize?", "difficulty": "hard", "options": [{"text": "More than four decades, from the early 1970s to 2015", "correct": true, "explanation": "Right. Political and language barriers kept her work little known abroad for years."}, {"text": "About five years", "correct": false, "explanation": "The gap was far longer; the prize came in 2015 for 1970s work."}, {"text": "She won it the same year she made the discovery", "correct": false, "explanation": "Recognition lagged the actual work by over 40 years."}]},
+];
 
 export default function Post() {
   return (

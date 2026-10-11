@@ -44,6 +44,7 @@ export const metadata: PostFrontmatter = {
     "personal-finance-basics/what-a-budget-actually-is-income-vs-expenses",
     "business-entrepreneurship-basics/how-to-actually-find-your-first-customers",
     "business-entrepreneurship-basics/what-a-business-license-actually-requires",
+    "business-entrepreneurship-basics/what-makes-a-side-hustle-different-from-a-real-business",
   ],
   glossary: [
     { term: "Cash flow", definition: "The money moving into and out of a business over a period, counted when it actually changes hands." },

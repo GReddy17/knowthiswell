@@ -36,6 +36,7 @@ export const metadata: PostFrontmatter = {
     "economics/what-gdp-actually-measures",
     "economics/how-interest-rates-actually-get-set",
     "economics/what-supply-and-demand-actually-predicts",
+    "government-schemes-benefits/what-social-security-actually-pays-out-and-when",
   ],
   glossary: [
     { term: "Inflation", definition: "A sustained rise in the general price level of goods and services in an economy over time, measured most commonly in the U.S. through the Consumer Price Index." },
@@ -103,7 +104,7 @@ export default function Post() {
       <div className="prose-p">Money sitting in a savings account earning 1% interest during a period of 5% inflation is losing roughly 4% of its real purchasing power per year, even though the account balance itself is technically growing — a case where the nominal number going up and the real value going down are both true at the same time.</div>
 
       <h3 className="scroll-mt-10 font-display text-xl font-bold text-ink mb-4">Example 3: A fixed pension over 20 years (real-world / applied case)</h3>
-      <div className="prose-p">A retiree receiving a fixed pension payment that never increases will see its real purchasing power shrink significantly over a 20-year retirement under even modest sustained inflation — which is exactly why many pensions and Social Security include cost-of-living adjustments tied to CPI, specifically to offset this compounding erosion.</div>
+      <div className="prose-p">A retiree receiving a fixed pension payment that never increases will see its real purchasing power shrink significantly over a 20-year retirement under even modest sustained inflation — which is exactly why many pensions and <TermLink href="/government-schemes-benefits/what-social-security-actually-pays-out-and-when">Social Security</TermLink> include cost-of-living adjustments tied to CPI, specifically to offset this compounding erosion.</div>
 
       <QuickCheck
         question="Why do many pensions and Social Security benefits include cost-of-living adjustments (COLAs) tied to the CPI?"

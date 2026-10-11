@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "art-dance-and-music-traditions",
   tags: ["traditional instruments", "sitar", "djembe", "didgeridoo", "world music", "ethnomusicology"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 69, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -55,6 +55,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a chordophone?", "difficulty": "easy", "options": [{"text": "An instrument that makes sound from a stretched membrane", "correct": false, "explanation": "That's a membranophone, such as a djembe or tabla."}, {"text": "An instrument that makes sound from a vibrating string, like a sitar or violin", "correct": true, "explanation": "Right. Strings are the defining feature."}, {"text": "An instrument played only in choirs", "correct": false, "explanation": "The name refers to strings (chords), not to choirs."}]},
+  {"question": "Which instrument comes from Aboriginal Australia?", "difficulty": "easy", "options": [{"text": "The erhu", "correct": false, "explanation": "The erhu is a Chinese instrument."}, {"text": "The shamisen", "correct": false, "explanation": "The shamisen comes from Japan."}, {"text": "The didgeridoo", "correct": true, "explanation": "Yes. Communities in Arnhem Land have played it for well over a thousand years."}]},
+  {"question": "Which Hornbostel-Sachs family does the didgeridoo belong to?", "difficulty": "easy", "options": [{"text": "Aerophone", "correct": true, "explanation": "Right. Its sound comes from a vibrating column of air, like the bagpipes."}, {"text": "Chordophone", "correct": false, "explanation": "The didgeridoo has no strings; it's a wind instrument."}, {"text": "Idiophone", "correct": false, "explanation": "Its sound comes from vibrating air, not from the wood itself vibrating."}]},
+  {"question": "Why is the steelpan classed as an idiophone?", "difficulty": "medium", "options": [{"text": "Because it's called a 'drum', so it must be a membranophone", "correct": false, "explanation": "Despite the name 'steel drum', there's no stretched membrane; the metal itself vibrates."}, {"text": "Its own solid material vibrates to make the sound, with no strings or stretched membrane", "correct": true, "explanation": "Right. Like a gong or xylophone, the metal itself is the vibrating part."}, {"text": "Because it is played with air blown through it", "correct": false, "explanation": "That would make it an aerophone; the steelpan is struck."}]},
+  {"question": "When was the Hornbostel-Sachs classification system first published?", "difficulty": "medium", "options": [{"text": "1714", "correct": false, "explanation": "It's a 20th-century system, first published in 1914."}, {"text": "1994", "correct": false, "explanation": "It's much older; it first appeared in 1914."}, {"text": "1914", "correct": true, "explanation": "Yes. Later revisions added electrophones to the original families."}]},
+  {"question": "What gives the sitar its distinctive buzzing, resonant sound?", "difficulty": "medium", "options": [{"text": "Curved frets and sympathetic strings that vibrate along with the played strings", "correct": true, "explanation": "Right. That's what makes its timbre so recognizable in Hindustani music."}, {"text": "A stretched animal-skin membrane", "correct": false, "explanation": "That's how a membranophone like the tabla works; the sitar is a string instrument."}, {"text": "Air blown through a long tube", "correct": false, "explanation": "That's an aerophone; the sitar is a plucked chordophone."}]},
+  {"question": "Which breathing technique is especially associated with playing the didgeridoo?", "difficulty": "medium", "options": [{"text": "Holding one breath for the whole piece", "correct": false, "explanation": "The technique the post names is circular breathing."}, {"text": "Circular breathing", "correct": true, "explanation": "Right. It's part of the traditional technique that predates the instrument's newer global popularity."}, {"text": "Breathing only through the mouth between notes", "correct": false, "explanation": "The post singles out circular breathing as the key technique."}]},
+  {"question": "How did the steelpan come about in Trinidad?", "difficulty": "hard", "options": [{"text": "It was brought over unchanged from ancient West Africa", "correct": false, "explanation": "The post describes a 20th-century Trinidadian invention, not an ancient import."}, {"text": "A European factory designed it for Carnival", "correct": false, "explanation": "It grew out of local musicians' work with oil drums, not a factory design."}, {"text": "Musicians in the 1930s-40s tuned sections of repurposed oil drums after earlier percussion traditions were restricted", "correct": true, "explanation": "Exactly. A 20th-century invention that became the national instrument through sustained community practice."}]},
+];
 
 export default function Post() {
   return (

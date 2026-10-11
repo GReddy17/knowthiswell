@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "historical-figures",
   tags: ["world leaders", "ashoka", "simon bolivar", "nelson mandela", "mahatma gandhi", "mansa musa", "historical figures"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -55,6 +55,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which empire did Mansa Musa rule?", "difficulty": "easy", "options": [{"text": "The Mali Empire", "correct": true, "explanation": "Yes, in the 14th century, and his wealth became legendary."}, {"text": "The Mauryan Empire", "correct": false, "explanation": "That was Ashoka's empire in ancient India."}, {"text": "The Spanish Empire", "correct": false, "explanation": "That's the empire Bolívar fought against centuries later."}]},
+  {"question": "How many years was Nelson Mandela imprisoned?", "difficulty": "easy", "options": [{"text": "27 years", "correct": true, "explanation": "Yes. He was released in 1990 and elected president in 1994."}, {"text": "5 years", "correct": false, "explanation": "His imprisonment lasted far longer: 27 years."}, {"text": "He was never imprisoned", "correct": false, "explanation": "His long imprisonment is central to his story."}]},
+  {"question": "What title is Simón Bolívar still known by across South America?", "difficulty": "easy", "options": [{"text": "\"El Libertador\"", "correct": true, "explanation": "Right, for his role in freeing six nations from Spanish rule."}, {"text": "\"The Great Emperor\"", "correct": false, "explanation": "He led independence campaigns; he wasn't an emperor."}, {"text": "\"The Reconciler\"", "correct": false, "explanation": "That word fits Mandela's legacy better; Bolívar is El Libertador."}]},
+  {"question": "What happened in Cairo after Mansa Musa's 1324 pilgrimage?", "difficulty": "medium", "options": [{"text": "His gold spending depressed the local gold price for roughly a decade", "correct": true, "explanation": "Yes. One traveller's spending shifted a regional economy."}, {"text": "Cairo banned foreign gold", "correct": false, "explanation": "The effect was a price slump, not a ban."}, {"text": "Gold became scarce and expensive", "correct": false, "explanation": "It was the opposite: so much gold flowed in that its price fell."}]},
+  {"question": "How did Ashoka make his policies known across his empire?", "difficulty": "medium", "options": [{"text": "By carving edicts on rocks and stone pillars", "correct": true, "explanation": "Right, and some are still readable today."}, {"text": "By printing pamphlets", "correct": false, "explanation": "Printing came much later; he used stone."}, {"text": "By keeping them secret within the palace", "correct": false, "explanation": "They were public on purpose, among the earliest government messages of their kind."}]},
+  {"question": "What method did Gandhi use to lead India's independence movement?", "difficulty": "medium", "options": [{"text": "Nonviolent noncooperation, boycotts and civil disobedience (satyagraha)", "correct": true, "explanation": "Yes, a model that later shaped Martin Luther King Jr.'s civil rights work."}, {"text": "A long armed rebellion", "correct": false, "explanation": "Gandhi deliberately chose nonviolence over armed struggle."}, {"text": "Negotiations alone, with no public protest", "correct": false, "explanation": "Mass public action was central to his approach."}]},
+  {"question": "Which group of countries did Bolívar's campaigns help free from Spanish rule?", "difficulty": "hard", "options": [{"text": "Venezuela, Colombia, Ecuador, Peru, Bolivia and Panama", "correct": true, "explanation": "Right, six nations, though his dream of one federation broke apart."}, {"text": "Mexico, Cuba and Guatemala", "correct": false, "explanation": "Those aren't among the six tied to Bolívar's campaigns."}, {"text": "Brazil, Argentina and Chile", "correct": false, "explanation": "His campaigns centred on the six northern and Andean nations."}]},
+];
 
 export default function Post() {
   return (

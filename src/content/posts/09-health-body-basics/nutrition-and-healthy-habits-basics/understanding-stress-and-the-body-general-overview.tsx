@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "nutrition-and-healthy-habits-basics",
   tags: ["stress response", "cortisol", "HPA axis", "fight or flight", "general health literacy"],
   date: "2026-08-22",
-  updated: "2026-08-22",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
@@ -52,6 +52,16 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Which hormone do the adrenal glands release at the end of the HPA axis relay?", "difficulty": "easy", "options": [{"text": "Insulin", "correct": false, "explanation": "The post names cortisol as the hormone released at the end of the HPA axis."}, {"text": "Cortisol", "correct": true, "explanation": "Right. Cortisol, along with related hormones, prepares the body for short-term physical demand."}, {"text": "Melatonin", "correct": false, "explanation": "Melatonin isn't part of the HPA axis relay the post describes; cortisol is."}]},
+  {"question": "What does 'HPA' stand for in 'HPA axis'?", "difficulty": "easy", "options": [{"text": "Heart-pulse-artery", "correct": false, "explanation": "The HPA axis is a hormonal pathway, not a set of blood vessels."}, {"text": "Hormone-protein-acid", "correct": false, "explanation": "The letters name three parts of the body: hypothalamus, pituitary and adrenal glands."}, {"text": "Hypothalamic-pituitary-adrenal", "correct": true, "explanation": "Right: the three stops on the stress-response relay."}]},
+  {"question": "In what order does the HPA axis relay run?", "difficulty": "medium", "options": [{"text": "Hypothalamus, then pituitary gland, then adrenal glands", "correct": true, "explanation": "Right. The adrenal glands then release cortisol into the bloodstream."}, {"text": "Adrenal glands, then pituitary gland, then hypothalamus", "correct": false, "explanation": "That's backwards; the signal starts in the hypothalamus."}, {"text": "Pituitary gland, then heart, then adrenal glands", "correct": false, "explanation": "The heart isn't a step in the relay; it runs hypothalamus, pituitary, adrenal glands."}]},
+  {"question": "Which of these is a short-term effect of cortisol described in the post?", "difficulty": "medium", "options": [{"text": "It lowers heart rate to calm the body", "correct": false, "explanation": "Cortisol is linked to an increased heart rate, not a lower one."}, {"text": "It raises blood sugar and slows non-urgent functions like digestion", "correct": true, "explanation": "Right. More available fuel, and less energy spent on functions that can wait."}, {"text": "It speeds up digestion", "correct": false, "explanation": "Digestion is one of the non-urgent functions cortisol suppresses."}]},
+  {"question": "Someone nearly steps in front of a car, their heart races, and hormone levels settle soon after the danger passes. What is this?", "difficulty": "medium", "options": [{"text": "Chronic stress", "correct": false, "explanation": "Chronic stress means the response stays activated over weeks or months, not seconds."}, {"text": "A sign the HPA axis isn't working", "correct": false, "explanation": "It's the opposite; this full cycle is the system doing its job."}, {"text": "An acute stress response working as designed", "correct": true, "explanation": "Right: activation, response and a return to baseline."}]},
+  {"question": "Which effects does Mayo Clinic's guidance link to chronic stress?", "difficulty": "medium", "options": [{"text": "Disrupted sleep, headaches, raised blood pressure and changes in immune function", "correct": true, "explanation": "Right, and they're framed as associations with sustained stress, not with one brief scare."}, {"text": "Better sleep and lower blood pressure", "correct": false, "explanation": "Those run opposite to the associations the post reports."}, {"text": "Effects on digestion only", "correct": false, "explanation": "The post lists sleep, headaches, blood pressure and immune function, not digestion alone."}]},
+  {"question": "Why can an ongoing work deadline end up affecting the body differently from a near-miss with a car?", "difficulty": "hard", "options": [{"text": "Work stress uses a completely separate hormonal system", "correct": false, "explanation": "The same HPA axis and cortisol release handle both kinds of stressor."}, {"text": "Both trigger the same HPA axis, but the work stressor can last weeks or months, keeping a system built for short bursts partly switched on", "correct": true, "explanation": "Exactly. The key difference is duration, not the kind of trigger."}, {"text": "Non-physical stress produces no hormonal response", "correct": false, "explanation": "Per NIH, non-physical stressors trigger the same measurable hormonal response."}]},
+];
 
 export default function Post() {
   return (

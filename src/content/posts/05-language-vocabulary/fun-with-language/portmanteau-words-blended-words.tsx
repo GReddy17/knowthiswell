@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "fun-with-language",
   tags: ["portmanteau", "blend words", "wordplay", "neologisms", "vocabulary", "etymology"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -53,6 +53,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which two words make up \"smog\"?", "difficulty": "easy", "options": [{"text": "Smoke and fog", "correct": true, "explanation": "Yes, and smog really is smoke mixed into fog."}, {"text": "Smell and fog", "correct": false, "explanation": "The blend comes from smoke and fog."}, {"text": "Small and bog", "correct": false, "explanation": "Fun guess, but it's smoke and fog."}]},
+  {"question": "What does \"motel\" blend?", "difficulty": "easy", "options": [{"text": "Motor and hotel", "correct": true, "explanation": "Right. It's so ordinary now that most people don't notice it's a blend."}, {"text": "Mountain and hotel", "correct": false, "explanation": "It's motor and hotel."}, {"text": "Motion and tell", "correct": false, "explanation": "It's motor and hotel."}]},
+  {"question": "Who introduced \"portmanteau\" as the term for a blended word?", "difficulty": "easy", "options": [{"text": "Lewis Carroll, in Through the Looking-Glass (1871)", "correct": true, "explanation": "Yes. Humpty Dumpty explains it as two meanings packed into one word."}, {"text": "A modern internet linguist", "correct": false, "explanation": "The term is over 150 years old."}, {"text": "William Shakespeare", "correct": false, "explanation": "It came from Lewis Carroll in 1871."}]},
+  {"question": "What was a portmanteau originally?", "difficulty": "medium", "options": [{"text": "An old word for a suitcase with two hinged compartments", "correct": true, "explanation": "Right, which is why Carroll used it for words that pack two meanings together."}, {"text": "A type of French bread", "correct": false, "explanation": "It was a suitcase."}, {"text": "A Latin grammar rule", "correct": false, "explanation": "It was a two-part suitcase."}]},
+  {"question": "Which two words blend to make \"emoticon\"?", "difficulty": "medium", "options": [{"text": "Emotion and icon", "correct": true, "explanation": "Yes, one of the many modern blends."}, {"text": "Emote and contact", "correct": false, "explanation": "It's emotion plus icon."}, {"text": "Emoji and cartoon", "correct": false, "explanation": "It's emotion plus icon."}]},
+  {"question": "What does the name \"Pokémon\" blend?", "difficulty": "medium", "options": [{"text": "\"Poketto monsutā,\" Japanese for \"pocket monster\"", "correct": true, "explanation": "Right, proof that blending isn't just an English habit."}, {"text": "\"Poke\" and \"lemon\"", "correct": false, "explanation": "It comes from \"pocket monster.\""}, {"text": "\"Pocket\" and \"money\"", "correct": false, "explanation": "It comes from \"pocket monster.\""}]},
+  {"question": "How does a blend like \"staycation\" usually become a standard dictionary entry?", "difficulty": "hard", "options": [{"text": "Sustained, widespread use in print and speech over enough years", "correct": true, "explanation": "Yes. Editors add it once enough people clearly need the word."}, {"text": "A government language office approves it", "correct": false, "explanation": "It's driven by real usage, not an official vote."}, {"text": "It's added the day it's first coined", "correct": false, "explanation": "It has to survive years of use first."}]},
+];
 
 export default function Post() {
   return (

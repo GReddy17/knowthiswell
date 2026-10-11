@@ -41,6 +41,7 @@ export const metadata: PostFrontmatter = {
     "business-entrepreneurship-basics/how-profit-margin-actually-gets-calculated",
     "business-entrepreneurship-basics/how-to-actually-find-your-first-customers",
     "personal-finance-basics/self-employment-and-freelance-tax-basics",
+    "business-entrepreneurship-basics/what-a-business-plan-actually-needs-to-include",
   ],
   glossary: [
     { term: "Side hustle", definition: "Informal term for paid work done alongside a main job, usually freelancing, gig work or selling products, typically depending on the owner's own hours." },

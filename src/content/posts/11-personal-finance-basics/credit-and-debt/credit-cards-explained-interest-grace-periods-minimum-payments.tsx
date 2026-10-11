@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,10 +23,10 @@ export const metadata: PostFrontmatter = {
   subtopic: "credit-and-debt",
   tags: ["credit cards", "interest", "APR", "minimum payment", "grace period", "personal finance basics"],
   date: "2026-08-22",
-  updated: "2026-08-22",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 74, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-08-22",
+  lastReviewed: "2026-10-10",
   excerpt: "A credit card only charges interest on a carried balance, not on every purchase — the grace period, APR, and minimum payment formula each work by specific, learnable mechanics that determine exactly when and how much interest accrues.",
   summary: "Credit card interest, grace periods, and minimum payments each follow specific mechanical rules set by the card issuer and disclosed in the cardholder agreement — understanding how these mechanics interact explains why carrying even a small balance can be expensive, and why paying only the minimum extends repayment dramatically.",
   sources: [
@@ -53,6 +53,18 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "When does a credit card charge interest on purchases?", "difficulty": "easy", "options": [{"text": "When you carry a balance past the due date", "correct": true, "explanation": "Paying the full statement balance keeps the grace period."}, {"text": "On every purchase, no matter what", "correct": false, "explanation": "The grace period makes interest avoidable."}, {"text": "Only on cash withdrawals", "correct": false, "explanation": "Carried purchase balances also accrue interest."}]},
+  {"question": "What is a credit card grace period?", "difficulty": "easy", "options": [{"text": "A free month after you open the card", "correct": false, "explanation": "It is a recurring billing-cycle rule, not a signup perk."}, {"text": "The window in which new purchases accrue no interest if the previous statement balance was paid in full", "correct": true, "explanation": "It resets each billing cycle based on how you paid."}, {"text": "Extra days to make a late payment without a fee", "correct": false, "explanation": "That is not what the grace period covers."}]},
+  {"question": "How do most issuers turn the APR into a daily charge?", "difficulty": "medium", "options": [{"text": "APR divided by 12, applied to your credit limit", "correct": false, "explanation": "Interest is charged on your balance, not your limit."}, {"text": "APR applied once a year to the starting balance", "correct": false, "explanation": "Interest is calculated each cycle."}, {"text": "APR divided by 365, applied to the average daily balance", "correct": true, "explanation": "The exact method is in the cardholder agreement."}]},
+  {"question": "About how much interest does a $1,000 balance at 22% APR add in one month?", "difficulty": "medium", "options": [{"text": "About $18", "correct": true, "explanation": "$1,000 x 0.22 / 12 is about $18.33."}, {"text": "About $220", "correct": false, "explanation": "That is roughly a full year's interest."}, {"text": "About $2", "correct": false, "explanation": "That is far too low for a 22% APR."}]},
+  {"question": "What is the minimum payment designed to do?", "difficulty": "easy", "options": [{"text": "Pay off the balance in about a year", "correct": false, "explanation": "Minimums are set much lower than that."}, {"text": "Keep the account current, not pay off the balance quickly", "correct": true, "explanation": "Paying only the minimum can stretch repayment over many years."}, {"text": "Cancel all interest for the month", "correct": false, "explanation": "Interest still accrues on what you carry."}]},
+  {"question": "You pay the minimum on time but not the full statement balance. What do you keep and what can you lose?", "difficulty": "hard", "options": [{"text": "You avoid late fees but can lose the grace period on new purchases", "correct": true, "explanation": "Good standing and the grace period are separate rules."}, {"text": "You keep the grace period and avoid all interest", "correct": false, "explanation": "Only full payment preserves the grace period on many cards."}, {"text": "You lose your card immediately", "correct": false, "explanation": "Paying the minimum keeps the account current."}]},
+  {"question": "Two cards advertise the same APR but charge different interest. Why might that happen?", "difficulty": "hard", "options": [{"text": "APR is not a real number", "correct": false, "explanation": "APR is real; how it's applied varies."}, {"text": "One card ignores your balance", "correct": false, "explanation": "Interest always depends on the balance carried."}, {"text": "They use different interest calculation methods", "correct": true, "explanation": "Daily balance, average balance and other methods can differ."}]},
+  {"question": "Where can someone get free or low-cost help with a credit card balance they're unsure how to pay down?", "difficulty": "medium", "options": [{"text": "A nonprofit credit counseling agency affiliated with the NFCC", "correct": true, "explanation": "These agencies review your specific situation."}, {"text": "A payday lender", "correct": false, "explanation": "That usually means more expensive borrowing."}, {"text": "The card's rewards program", "correct": false, "explanation": "Rewards don't reduce what you owe."}]},
+];
+
 
 export default function Post() {
   return (

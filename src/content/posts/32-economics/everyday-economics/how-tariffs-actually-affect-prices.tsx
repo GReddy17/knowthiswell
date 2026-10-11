@@ -42,6 +42,7 @@ export const metadata: PostFrontmatter = {
     "economics/what-fiscal-policy-actually-means-vs-monetary-policy",
     "economics/what-gdp-actually-measures",
     "economics/what-minimum-wage-debates-actually-center-on",
+    "economics/what-economic-indicators-actually-signal",
   ],
   glossary: [
     { term: "Tariff", definition: "A tax on imported goods, collected by customs from the importer when the goods enter the country." },

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,10 +23,10 @@ export const metadata: PostFrontmatter = {
   subtopic: "income-and-budgeting-basics",
   tags: ["50/30/20 rule", "budgeting basics", "needs vs wants", "savings rate", "personal finance"],
   date: "2026-08-22",
-  updated: "2026-08-22",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 76, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-08-22",
+  lastReviewed: "2026-10-10",
   excerpt: "The 50/30/20 rule splits after-tax income into three rough buckets — needs, wants, and savings — as a starting framework, not a rigid formula that fits every income level.",
   summary: "The 50/30/20 rule is a budgeting framework that allocates after-tax income into three categories: roughly 50% to needs, 30% to wants, and 20% to savings and debt repayment, popularized as a simple starting split rather than a precise formula every household must follow exactly.",
   sources: [
@@ -50,6 +50,18 @@ export const metadata: PostFrontmatter = {
   youtubeStatus: "not-started",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What do the three numbers in the 50/30/20 rule stand for?", "difficulty": "easy", "options": [{"text": "50% needs, 30% wants, 20% savings and debt repayment", "correct": true, "explanation": "That's the standard split of after-tax income."}, {"text": "50% savings, 30% needs, 20% wants", "correct": false, "explanation": "The order is needs, wants, then savings."}, {"text": "50% rent, 30% food, 20% everything else", "correct": false, "explanation": "The buckets are needs, wants and savings, not specific bills."}]},
+  {"question": "Should the 50/30/20 split be based on gross or take-home pay?", "difficulty": "easy", "options": [{"text": "Gross pay before taxes", "correct": false, "explanation": "Using gross pay makes the budget look roomier than it is."}, {"text": "Take-home (after-tax) pay", "correct": true, "explanation": "Gross income overstates what you can actually spend."}, {"text": "Whichever number is bigger", "correct": false, "explanation": "The rule is built on after-tax income."}]},
+  {"question": "On $4,000 a month of take-home pay, what is the 20% savings target?", "difficulty": "easy", "options": [{"text": "$1,200", "correct": false, "explanation": "$1,200 is the 30% wants target."}, {"text": "$2,000", "correct": false, "explanation": "$2,000 is the 50% needs target."}, {"text": "$800", "correct": true, "explanation": "20% of $4,000 is $800."}]},
+  {"question": "Which of these counts as a need under the 50/30/20 rule?", "difficulty": "medium", "options": [{"text": "A minimum debt payment", "correct": true, "explanation": "Minimum payments are a basic obligation."}, {"text": "A streaming subscription", "correct": false, "explanation": "That stays a want, even if it feels routine."}, {"text": "Dining out every Friday", "correct": false, "explanation": "Discretionary dining is a want."}]},
+  {"question": "Rent, utilities, groceries and minimum payments total $2,300 on $3,000 of take-home pay. About what share goes to needs?", "difficulty": "medium", "options": [{"text": "About 77%", "correct": true, "explanation": "$2,300 divided by $3,000."}, {"text": "About 50%", "correct": false, "explanation": "That's the target, not this household's real share."}, {"text": "About 30%", "correct": false, "explanation": "Needs here are far above 30%."}]},
+  {"question": "Take-home pay is $4,500 a month and the household saves $300. How big is the gap to the 20% target?", "difficulty": "medium", "options": [{"text": "$300 a month", "correct": false, "explanation": "$300 is what they already save."}, {"text": "$600 a month", "correct": true, "explanation": "20% of $4,500 is $900; $900 minus $300 is $600."}, {"text": "$900 a month", "correct": false, "explanation": "$900 is the full target, not the gap."}]},
+  {"question": "What is the rule's main value, according to this guide?", "difficulty": "medium", "options": [{"text": "It forces an honest sort of spending into needs and wants", "correct": true, "explanation": "That sorting step is often where budgets break down."}, {"text": "It is a legal standard every budget must meet", "correct": false, "explanation": "It is a rule of thumb, not a regulation."}, {"text": "It guarantees you'll be debt-free", "correct": false, "explanation": "No budgeting rule guarantees an outcome."}]},
+  {"question": "Who is the 50/30/20 rule commonly attributed to?", "difficulty": "hard", "options": [{"text": "The IRS", "correct": false, "explanation": "It is not a government rule."}, {"text": "The Federal Reserve", "correct": false, "explanation": "The Fed sets monetary policy, not household budget rules."}, {"text": "Elizabeth Warren and Amelia Warren Tyagi", "correct": true, "explanation": "Their writing on household finance popularized it."}]},
+];
+
 
 export default function Post() {
   return (

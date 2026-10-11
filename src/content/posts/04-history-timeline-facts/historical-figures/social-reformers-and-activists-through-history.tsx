@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "historical-figures",
   tags: ["social reformers", "b r ambedkar", "wangari maathai", "emmeline pankhurst", "suffrage movement", "historical figures"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Who was the first African woman to win the Nobel Peace Prize?", "difficulty": "easy", "options": [{"text": "Wangari Maathai, in 2004", "correct": true, "explanation": "Yes, for founding and leading Kenya's Green Belt Movement."}, {"text": "Malala Yousafzai", "correct": false, "explanation": "Malala won in 2014 for girls' education advocacy; the first African woman was Maathai."}, {"text": "Emmeline Pankhurst", "correct": false, "explanation": "Pankhurst led British suffrage campaigning and didn't win a Nobel Prize."}]},
+  {"question": "What slogan did Emmeline Pankhurst's suffragette movement use?", "difficulty": "easy", "options": [{"text": "\"Deeds, not words\"", "correct": true, "explanation": "Right. Members deliberately courted arrest to keep the issue in public view."}, {"text": "\"Peace through patience\"", "correct": false, "explanation": "The WSPU moved away from patient lobbying, not toward it."}, {"text": "\"Votes for all, slowly\"", "correct": false, "explanation": "Their whole point was that slow, polite progress hadn't worked."}]},
+  {"question": "Which British women won the vote under the 1918 Act?", "difficulty": "medium", "options": [{"text": "Women over 30", "correct": true, "explanation": "Yes. Voting terms were made equal with men's in 1928."}, {"text": "All women over 21", "correct": false, "explanation": "Equal terms with men only came in 1928; 1918 covered women over 30."}, {"text": "No women until 1928", "correct": false, "explanation": "The 1918 Act was a real, if partial, victory."}]},
+  {"question": "How did British authorities respond to imprisoned suffragettes on hunger strike?", "difficulty": "medium", "options": [{"text": "They force-fed them", "correct": true, "explanation": "Sadly, yes. Doctors condemned it, and it won the cause a lot of public sympathy."}, {"text": "They released them all immediately", "correct": false, "explanation": "Authorities responded with force-feeding, not quick release."}, {"text": "They granted women the vote that same week", "correct": false, "explanation": "The vote came in 1918, after years of struggle."}]},
+  {"question": "Where did B. R. Ambedkar earn his doctorates?", "difficulty": "medium", "options": [{"text": "Columbia University and the London School of Economics", "correct": true, "explanation": "Right, despite heavy caste-based obstacles at home."}, {"text": "Oxford and Cambridge", "correct": false, "explanation": "His doctorates came from Columbia and the LSE."}, {"text": "He had no formal university education", "correct": false, "explanation": "Education and law were at the heart of how he pursued reform."}]},
+  {"question": "What did India's 1950 constitution formally abolish?", "difficulty": "hard", "options": [{"text": "\"Untouchability\"", "correct": true, "explanation": "Yes, along with protections and affirmative-action provisions for disadvantaged castes."}, {"text": "All religious holidays", "correct": false, "explanation": "The constitution's caste protections are the point here, not holidays."}, {"text": "The office of prime minister", "correct": false, "explanation": "Nothing like that; it abolished untouchability."}]},
+  {"question": "Why did Pankhurst's WSPU turn to confrontational tactics?", "difficulty": "hard", "options": [{"text": "Decades of moderate, peaceful lobbying had produced limited results", "correct": true, "explanation": "Right. Historians credit the escalation with keeping the vote in the headlines."}, {"text": "Peaceful lobbying had already won the vote", "correct": false, "explanation": "If it had, there'd have been nothing to escalate over."}, {"text": "The government asked them to protest louder", "correct": false, "explanation": "The government met them with arrests and force-feeding, not invitations."}]},
+];
 
 export default function Post() {
   return (

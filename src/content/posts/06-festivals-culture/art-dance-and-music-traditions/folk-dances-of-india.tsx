@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "art-dance-and-music-traditions",
   tags: ["folk dance", "bhangra", "garba", "lavani", "indian dance", "regional traditions"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -55,6 +55,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Which state does Bhangra come from?", "difficulty": "easy", "options": [{"text": "Gujarat", "correct": false, "explanation": "Gujarat is the home of Garba, not Bhangra."}, {"text": "Punjab", "correct": true, "explanation": "Right. It began as a Punjabi harvest-season dance."}, {"text": "Assam", "correct": false, "explanation": "Assam's best-known folk dance is Bihu."}]},
+  {"question": "During which festival is Garba traditionally danced?", "difficulty": "easy", "options": [{"text": "Vaisakhi", "correct": false, "explanation": "Vaisakhi is linked to Bhangra and the wheat harvest."}, {"text": "Onam", "correct": false, "explanation": "Onam is a Kerala festival; Garba belongs to Gujarat's Navratri."}, {"text": "Navratri", "correct": true, "explanation": "Yes. It's performed around a central lamp or image representing the goddess."}]},
+  {"question": "Which drum gives Bhangra its beat?", "difficulty": "easy", "options": [{"text": "The dhol, a large two-headed drum", "correct": true, "explanation": "Right. Bhangra is danced in a loose circle to its beat, with jumps and shoulder shrugs."}, {"text": "The mridangam", "correct": false, "explanation": "The mridangam accompanies classical Bharatanatyam, not Bhangra."}, {"text": "No drum at all; Bhangra is danced in silence", "correct": false, "explanation": "Bhangra is loud and rhythmic, driven by the dhol and call-and-response singing."}]},
+  {"question": "What does Garba's circular formation traditionally represent?", "difficulty": "medium", "options": [{"text": "The shape of the harvest moon only", "correct": false, "explanation": "The post ties the circle to the cycle of life."}, {"text": "The cycle of life", "correct": true, "explanation": "Right. It isn't just a handy way to fit more dancers into a space."}, {"text": "A wheel from a farm cart", "correct": false, "explanation": "Nothing in the tradition links it to cart wheels; it stands for the cycle of life."}]},
+  {"question": "Which pairing of folk dance and state is correct?", "difficulty": "medium", "options": [{"text": "Ghoomar and Kerala", "correct": false, "explanation": "Ghoomar is from Rajasthan."}, {"text": "Bihu and Punjab", "correct": false, "explanation": "Bihu belongs to Assam; Punjab's best-known folk dance is Bhangra."}, {"text": "Lavani and Maharashtra", "correct": true, "explanation": "Yes. Lavani is Maharashtrian, one of hundreds of regional traditions."}]},
+  {"question": "Can a folk dance be older than a classical form?", "difficulty": "medium", "options": [{"text": "Yes. Some harvest dances likely predate written classical treatises; folk status is about informal transmission, not age", "correct": true, "explanation": "Correct. Age isn't the line between the two categories."}, {"text": "No, folk dances are always newer than classical ones", "correct": false, "explanation": "That mixes up the categories; the dividing line is how a dance is passed on, not when it began."}, {"text": "Only if UNESCO has recognized it", "correct": false, "explanation": "UNESCO recognition is a separate honor; it doesn't decide a dance's age or category."}]},
+  {"question": "Garba now fills stadiums and diaspora events, often set to new pop-Garba music. What does that show?", "difficulty": "medium", "options": [{"text": "That Garba has become a classical dance", "correct": false, "explanation": "Its folk classification hasn't changed; it has simply moved into new settings."}, {"text": "A living folk tradition adapting while keeping its circular, participatory core", "correct": true, "explanation": "Right. The setting shifts, but the structure survives."}, {"text": "That the tradition has died out", "correct": false, "explanation": "Quite the opposite: it's thriving in new forms and places."}]},
+  {"question": "In what year was Chhau inscribed on UNESCO's Representative List of Intangible Cultural Heritage?", "difficulty": "hard", "options": [{"text": "2000", "correct": false, "explanation": "2000 is when Sattriya gained classical status in India, a different event."}, {"text": "1952", "correct": false, "explanation": "1952 is when the Sangeet Natak Akademi was set up, not Chhau's UNESCO year."}, {"text": "2010", "correct": true, "explanation": "Right. That honor is separate from India's domestic folk/classical classification."}]},
+];
 
 export default function Post() {
   return (

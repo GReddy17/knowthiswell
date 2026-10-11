@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "culture-curiosities",
   tags: ["festival myths", "misconceptions", "diwali", "halloween", "lunar new year"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -57,6 +57,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What is a folk etymology?", "difficulty": "easy", "options": [{"text": "The official, documented origin of a festival", "correct": false, "explanation": "That's the real history; a folk etymology is the catchy but wrong version."}, {"text": "A popular but incorrect explanation for where a word, custom or name came from", "correct": true, "explanation": "Right. It's often more memorable than the true, messier history, which is why it spreads."}, {"text": "A dance performed at harvest festivals", "correct": false, "explanation": "It's about explanations of origins, not a dance."}]},
+  {"question": "Diwali has a distinct religious basis in which three traditions?", "difficulty": "easy", "options": [{"text": "Christian, Jewish and Muslim", "correct": false, "explanation": "Diwali's religious roots are Hindu, Jain and Sikh."}, {"text": "Buddhist, Shinto and Taoist", "correct": false, "explanation": "The post names Hindu, Jain and Sikh traditions."}, {"text": "Hindu, Jain and Sikh", "correct": true, "explanation": "Yes. Each attaches its own story to the same lamp-lit date."}]},
+  {"question": "Korea's Seollal and Vietnam's Tết are best described as what?", "difficulty": "easy", "options": [{"text": "Distinct lunar new year celebrations with their own customs, foods and family rituals", "correct": true, "explanation": "Right. They fall around the same lunisolar new moon but aren't just 'Chinese New Year' under other names."}, {"text": "Local names for Chinese New Year, celebrated the same way", "correct": false, "explanation": "That's the myth the post corrects; each has its own traditions."}, {"text": "Harvest festivals held in late summer", "correct": false, "explanation": "They're new year celebrations tied to the lunisolar calendar."}]},
+  {"question": "Why do Diwali, Lunar New Year and Easter land on different Gregorian dates each year?", "difficulty": "medium", "options": [{"text": "Governments pick a new date at random every year", "correct": false, "explanation": "There's nothing random about it; the lunisolar calendar sets the dates."}, {"text": "They're set by a lunisolar calendar, which tracks both the moon's phases and the solar year", "correct": true, "explanation": "Exactly. The moving date is calendar mechanics, not a mystery."}, {"text": "Because the festivals are celebrated on different days in every country", "correct": false, "explanation": "The shifting date comes from the calendar system, not from country-by-country choices."}]},
+  {"question": "What does 'syncretism' mean in the history of festivals?", "difficulty": "medium", "options": [{"text": "A festival being banned and then revived", "correct": false, "explanation": "That's not what the term means; it describes traditions merging."}, {"text": "Celebrating two festivals on the same day by coincidence", "correct": false, "explanation": "Syncretism is a genuine blending of traditions, not a calendar coincidence."}, {"text": "Several cultural or religious traditions blending over time into one combined practice", "correct": true, "explanation": "Right. It's why a single tidy origin story for many festivals is usually inaccurate."}]},
+  {"question": "Who brought Halloween's blended traditions to North America in the 19th century?", "difficulty": "medium", "options": [{"text": "Irish and Scottish immigrants", "correct": true, "explanation": "Right. The modern trick-or-treating and costume customs grew there over the following century."}, {"text": "Spanish explorers in the 1500s", "correct": false, "explanation": "The post credits 19th-century Irish and Scottish immigrants."}, {"text": "American candy companies, who invented the festival", "correct": false, "explanation": "Commercialization came later and is the newest layer, not the origin."}]},
+  {"question": "Someone tells you Hanukkah is just a copy of Diwali because both are festivals of light. What's the best response?", "difficulty": "medium", "options": [{"text": "Agree, since Diwali is older", "correct": false, "explanation": "The post's point is that these traditions developed independently, so 'copying' is the wrong frame."}, {"text": "Festivals of light developed separately within their own traditions; neither is the original the other copied", "correct": true, "explanation": "Right. Treating one version as the definitive original is a common mistake."}, {"text": "Agree, but say Diwali copied Hanukkah instead", "correct": false, "explanation": "Flipping the direction keeps the same error; they developed separately."}]},
+  {"question": "A festival origin story is one tidy sentence, with no regional variation and no debate among scholars. What does the post suggest?", "difficulty": "hard", "options": [{"text": "Trust it, because simple stories are usually the accurate ones", "correct": false, "explanation": "The post argues the opposite: tidy, uncontested stories are often the simplified myth."}, {"text": "Assume the festival has no real history at all", "correct": false, "explanation": "The issue is oversimplification, not that the festival lacks history."}, {"text": "Treat it as a red flag and check it against an institutional source before repeating it", "correct": true, "explanation": "Exactly. Real festival histories are usually more layered, varied or contested than a one-line story."}]},
+];
 
 export default function Post() {
   return (

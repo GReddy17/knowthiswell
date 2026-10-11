@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "art-dance-and-music-traditions",
   tags: ["world dance", "flamenco", "capoeira", "hula", "cultural traditions", "intangible heritage"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -55,6 +55,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Which region of Spain did flamenco develop in?", "difficulty": "easy", "options": [{"text": "Catalonia, in northeastern Spain", "correct": false, "explanation": "Flamenco's home is Andalusia, in the south."}, {"text": "Andalusia, in southern Spain", "correct": true, "explanation": "Right. It's still most strongly tied to that region rather than to Spain as a whole."}, {"text": "The Canary Islands", "correct": false, "explanation": "The post places flamenco's roots in Andalusia."}]},
+  {"question": "In capoeira, what is the roda?", "difficulty": "easy", "options": [{"text": "A type of kick", "correct": false, "explanation": "The roda isn't a move; it's the circle itself."}, {"text": "The single-string instrument that leads the music", "correct": false, "explanation": "That's the berimbau."}, {"text": "The circle of participants and musicians in which the game is played", "correct": true, "explanation": "Yes. It's central to capoeira's social and musical structure."}]},
+  {"question": "Where is hula an actively taught tradition?", "difficulty": "easy", "options": [{"text": "Hawaii", "correct": true, "explanation": "Right. It's taught in hula halau, schools led by a kumu hula."}, {"text": "Brazil", "correct": false, "explanation": "Brazil is the home of capoeira."}, {"text": "Japan", "correct": false, "explanation": "Japan's example in the post is Bon Odori, not hula."}]},
+  {"question": "What are flamenco's three core elements?", "difficulty": "medium", "options": [{"text": "Only dance, with no music", "correct": false, "explanation": "Singing and guitar are central to flamenco, not extras."}, {"text": "Cante (singing), toque (guitar playing) and baile (dance)", "correct": true, "explanation": "Right. Palmas (handclaps) and footwork add the rhythm."}, {"text": "Drumming, chanting and masks", "correct": false, "explanation": "Those don't describe flamenco; its core is singing, guitar and dance."}]},
+  {"question": "How does hula kahiko differ from hula auana?", "difficulty": "medium", "options": [{"text": "Kahiko is for tourists, auana is for ceremonies", "correct": false, "explanation": "The difference is traditional versus modern style, not tourists versus ceremony."}, {"text": "They're two names for the same style", "correct": false, "explanation": "They're distinct styles, and not interchangeable."}, {"text": "Kahiko is the traditional style accompanied by chant; auana is the modern style, often with guitar and ukulele", "correct": true, "explanation": "Right, and both are still actively taught and performed today."}]},
+  {"question": "What happened to capoeira in the late 19th and early 20th centuries?", "difficulty": "medium", "options": [{"text": "It was suppressed and even criminalized, before later gaining recognition as a national cultural practice", "correct": true, "explanation": "Right. Its history is bound up with resistance among enslaved people in Brazil."}, {"text": "It was invented by Brazil's government as a national sport", "correct": false, "explanation": "It developed among enslaved Africans and their descendants, not by government design."}, {"text": "It was banned in Spain and moved to Brazil", "correct": false, "explanation": "Capoeira developed in Brazil; the ban was there too."}]},
+  {"question": "Under which UNESCO convention, and from what year, are living traditions like flamenco listed as intangible cultural heritage?", "difficulty": "medium", "options": [{"text": "The 1952 World Dance Treaty", "correct": false, "explanation": "The post names UNESCO's 2003 Convention."}, {"text": "The 2003 Convention for the Safeguarding of Intangible Cultural Heritage", "correct": true, "explanation": "Yes. It covers living practices, as distinct from physical sites like monuments."}, {"text": "A 2014 convention created just for capoeira", "correct": false, "explanation": "2014 is when the roda de capoeira was inscribed, not when the convention began."}]},
+  {"question": "In which year was the roda de capoeira inscribed on UNESCO's Representative List?", "difficulty": "hard", "options": [{"text": "2010", "correct": false, "explanation": "2010 is flamenco's year; capoeira followed in 2014."}, {"text": "2003", "correct": false, "explanation": "2003 is the year of the UNESCO Convention itself, not capoeira's inscription."}, {"text": "2014", "correct": true, "explanation": "Right. Flamenco was inscribed earlier, in 2010."}]},
+];
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "fun-with-language",
   tags: ["palindromes", "wordplay", "word games", "anagrams", "vocabulary", "linguistics"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -54,6 +54,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "Which of these single words is a palindrome?", "difficulty": "easy", "options": [{"text": "Kayak", "correct": true, "explanation": "Yes. It reads k-a-y-a-k in both directions."}, {"text": "Silent", "correct": false, "explanation": "\"Silent\" is an anagram of \"listen,\" not a palindrome."}, {"text": "Desserts", "correct": false, "explanation": "Backward it spells \"stressed,\" a different word."}]},
+  {"question": "What is an anagram?", "difficulty": "easy", "options": [{"text": "A word or phrase made by rearranging all the letters of another, like \"listen\" and \"silent\"", "correct": true, "explanation": "Right. Each letter gets used exactly once."}, {"text": "A word that reads the same forward and backward", "correct": false, "explanation": "That's a palindrome."}, {"text": "A slip where two words swap their first sounds", "correct": false, "explanation": "That's a spoonerism."}]},
+  {"question": "Which language name is a palindrome in its common English spelling?", "difficulty": "easy", "options": [{"text": "Malayalam", "correct": true, "explanation": "Yes. It's spoken mainly in Kerala, India, and reads the same both ways."}, {"text": "Tamil", "correct": false, "explanation": "Backward that's \"limat,\" so no."}, {"text": "Hindi", "correct": false, "explanation": "Backward that's \"idnih,\" so no."}]},
+  {"question": "What is the Sator Square?", "difficulty": "medium", "options": [{"text": "A Latin five-word grid that reads the same in every direction, found carved at Pompeii before 62 CE", "correct": true, "explanation": "Right. That makes this bit of wordplay roughly two thousand years old."}, {"text": "A modern crossword puzzle format", "correct": false, "explanation": "It's ancient, not modern."}, {"text": "A French literary group", "correct": false, "explanation": "You may be thinking of Oulipo; the Sator Square is a Latin word grid."}]},
+  {"question": "What makes \"You can cage a swallow, can't you, but you can't swallow a cage, can you?\" a palindrome?", "difficulty": "medium", "options": [{"text": "The sequence of whole words reads the same forward and backward", "correct": true, "explanation": "Yes, it's a word-unit palindrome, even though the letters don't mirror."}, {"text": "Its letters mirror perfectly", "correct": false, "explanation": "The individual letters don't mirror; whole words do."}, {"text": "It uses every letter of the alphabet", "correct": false, "explanation": "That's a different trick altogether."}]},
+  {"question": "Which number is a palindrome?", "difficulty": "medium", "options": [{"text": "1881", "correct": true, "explanation": "Right. Numeric palindromes use the same mirror logic, just with digits."}, {"text": "1918", "correct": false, "explanation": "Reversed, that's 8191, so it isn't one."}, {"text": "2020", "correct": false, "explanation": "Reversed, that's 0202, so it isn't one."}]},
+  {"question": "What is the longest palindrome defined in the Oxford English Dictionary?", "difficulty": "hard", "options": [{"text": "\"Tattarrattat,\" James Joyce's word for a knock at the door", "correct": true, "explanation": "Yes. He coined the twelve-letter word in Ulysses."}, {"text": "\"Redivider\"", "correct": false, "explanation": "\"Redivider\" is a nine-letter palindrome, shorter than the record holder."}, {"text": "\"Racecar\"", "correct": false, "explanation": "A classic, but only seven letters."}]},
+];
 
 export default function Post() {
   return (

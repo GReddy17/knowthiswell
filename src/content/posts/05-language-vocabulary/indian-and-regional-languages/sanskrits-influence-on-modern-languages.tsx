@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "indian-and-regional-languages",
   tags: ["sanskrit", "indo-european languages", "etymology", "indian languages", "linguistics", "loanwords"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -56,6 +56,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What did Sanskrit \"avatara\" originally mean?", "difficulty": "easy", "options": [{"text": "Descent, as in a deity's descent to earth in bodily form", "correct": true, "explanation": "Yes. English later stretched it to any incarnation, then to your digital self."}, {"text": "A digital profile picture", "correct": false, "explanation": "That's the newest English sense, not the original."}, {"text": "A learned scholar", "correct": false, "explanation": "That's \"pandita,\" the root of \"pundit.\""}]},
+  {"question": "Who composed the famous Sanskrit grammar, the Ashtadhyayi?", "difficulty": "easy", "options": [{"text": "Panini, around the 5th century BCE", "correct": true, "explanation": "Right. It's still praised as one of the ancient world's most systematic grammars."}, {"text": "Sir William Jones", "correct": false, "explanation": "Jones gave the 1786 lecture linking Sanskrit to Greek and Latin."}, {"text": "Emperor Ashoka", "correct": false, "explanation": "Ashoka is known for his edicts, not a grammar."}]},
+  {"question": "Which Indonesian word comes directly from Sanskrit \"bhasha\"?", "difficulty": "easy", "options": [{"text": "Bahasa, meaning \"language\"", "correct": true, "explanation": "Yes, a trace of historical Hindu and Buddhist contact."}, {"text": "Guru", "correct": false, "explanation": "\"Guru\" is Sanskrit, but it isn't the root of \"bahasa.\""}, {"text": "Jungle", "correct": false, "explanation": "\"Jungle\" came into English, not Indonesian."}]},
+  {"question": "What did Sir William Jones argue in his 1786 lecture in Calcutta?", "difficulty": "medium", "options": [{"text": "Sanskrit, Greek and Latin were too alike to be chance and came from a common source", "correct": true, "explanation": "Right, the founding insight of the Indo-European family."}, {"text": "Sanskrit was descended from Latin", "correct": false, "explanation": "He proposed a shared ancestor, not Latin as a parent."}, {"text": "Sanskrit had no connection to European languages", "correct": false, "explanation": "He argued the exact opposite."}]},
+  {"question": "What is a tadbhava word?", "difficulty": "medium", "options": [{"text": "A word that evolved naturally from Sanskrit through Prakrit, changing in sound over time", "correct": true, "explanation": "Yes, it's the everyday-vocabulary track."}, {"text": "A word borrowed straight from Sanskrit with little change", "correct": false, "explanation": "That's a tatsama word."}, {"text": "A word borrowed from English into Hindi", "correct": false, "explanation": "Tadbhava is about evolution from Sanskrit."}]},
+  {"question": "What does \"Jagannatha,\" the source of \"juggernaut,\" mean?", "difficulty": "medium", "options": [{"text": "\"Lord of the world\"", "correct": true, "explanation": "Right, from \"jagat\" (world) and \"natha\" (lord), a title of Krishna."}, {"text": "\"Crushing force\"", "correct": false, "explanation": "That's the distorted English sense, not the original meaning."}, {"text": "\"Chariot wheel\"", "correct": false, "explanation": "It's a divine title meaning lord of the world."}]},
+  {"question": "How do formal Hindi, Bengali and Marathi use Sanskrit for new technical words today?", "difficulty": "hard", "options": [{"text": "They build them from Sanskrit roots, much as English uses Latin and Greek roots", "correct": true, "explanation": "Yes, which is why Sanskrit's influence is ongoing, not just history."}, {"text": "They avoid Sanskrit entirely in modern coinages", "correct": false, "explanation": "Sanskrit remains a main source for formal and scientific coinages."}, {"text": "They borrow every new term from English only", "correct": false, "explanation": "Sanskrit roots are still heavily used for new formal terms."}]},
+];
 
 export default function Post() {
   return (

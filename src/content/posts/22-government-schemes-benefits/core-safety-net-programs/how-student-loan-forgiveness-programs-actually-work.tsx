@@ -43,6 +43,7 @@ export const metadata: PostFrontmatter = {
     "government-schemes-benefits/what-disability-benefits-actually-require-to-qualify",
     "government-schemes-benefits/how-to-actually-apply-for-government-assistance-programs",
     "personal-finance-basics/what-happens-when-you-default-on-a-loan",
+    "government-schemes-benefits/what-veterans-benefits-actually-include",
   ],
   glossary: [
     { term: "Public Service Loan Forgiveness (PSLF)", definition: "A federal program that cancels the remaining balance on Direct Loans after 120 qualifying monthly payments made while working full-time for a government organization or qualifying nonprofit." },

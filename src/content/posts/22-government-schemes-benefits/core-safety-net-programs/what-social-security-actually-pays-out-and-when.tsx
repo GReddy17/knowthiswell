@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,15 +22,17 @@ export const metadata: PostFrontmatter = {
   subtopic: "core-safety-net-programs",
   tags: ["social security", "retirement benefits", "government benefits", "full retirement age"],
   date: "2026-09-21",
-  updated: "2026-09-21",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 81, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-09-21",
+  lastReviewed: "2026-10-10",
   excerpt: "The age you claim Social Security permanently changes your monthly check — claiming early locks in a smaller amount for life, not a temporary discount.",
   summary: "Social Security retirement benefits are calculated from a worker's highest 35 years of earnings, adjusted into an average monthly figure that determines the benefit paid at full retirement age — per the Social Security Administration, a worker can claim as early as age 62 for a permanently reduced monthly benefit, wait until their full retirement age (66-67, depending on birth year) for their full calculated benefit, or delay up to age 70 for permanently increased monthly payments, with each year of early or delayed claiming changing the monthly amount for the rest of the recipient's life, not just temporarily.",
   sources: [
     { label: "Social Security Administration — Retirement Benefits", url: "https://www.ssa.gov/benefits/retirement/" },
     { label: "Social Security Administration — Full Retirement Age", url: "https://www.ssa.gov/benefits/retirement/planner/agereduction.html" },
+    { label: "Social Security Administration — Delayed Retirement Credits", url: "https://www.ssa.gov/benefits/retirement/planner/delayret.html" },
+    { label: "Social Security Administration — Retirement Benefits (Publication No. 05-10035)", url: "https://www.ssa.gov/pubs/EN-05-10035.pdf" },
   ],
   seeAlso: [
     "government-schemes-benefits/how-unemployment-benefits-actually-get-calculated",
@@ -54,6 +56,17 @@ export const metadata: PostFrontmatter = {
   draft: false,
 };
 
+export const quiz: QuizBankItem[] = [
+  {"question": "What is the earliest age you can start Social Security retirement benefits?", "difficulty": "easy", "options": [{"text": "62", "correct": true, "explanation": "Claiming at 62 is allowed, but the monthly amount is permanently reduced."}, {"text": "65", "correct": false, "explanation": "65 is Medicare's usual starting age, not the earliest Social Security claim age."}, {"text": "67", "correct": false, "explanation": "67 is full retirement age for people born in 1960 or later."}]},
+  {"question": "What is full retirement age for someone born in 1960 or later?", "difficulty": "easy", "options": [{"text": "67", "correct": true, "explanation": "Per the SSA, full retirement age rises to 67 for anyone born in 1960 or later."}, {"text": "65", "correct": false, "explanation": "65 was full retirement age for older generations."}, {"text": "70", "correct": false, "explanation": "70 is the age at which delayed credits stop growing."}]},
+  {"question": "How many years of earnings does the SSA use to calculate your basic benefit?", "difficulty": "medium", "options": [{"text": "Your highest 35 years, adjusted for wage growth", "correct": true, "explanation": "Fewer than 35 years means zeros fill the gaps, which lowers the average."}, {"text": "Your last 5 years only", "correct": false, "explanation": "The SSA looks across your whole career, not just the end."}, {"text": "Every year you worked, equally weighted", "correct": false, "explanation": "Only the highest 35 years count."}]},
+  {"question": "For someone born in 1943 or later, how much do delayed retirement credits add for each full year of waiting past full retirement age?", "difficulty": "medium", "options": [{"text": "8%", "correct": true, "explanation": "The SSA adds two-thirds of 1% per month, which is 8% per year, up to age 70."}, {"text": "2%", "correct": false, "explanation": "The credit is much larger than 2% a year."}, {"text": "25%", "correct": false, "explanation": "25% a year would be far above the SSA rate."}]},
+  {"question": "Someone with a full retirement age of 67 claims at 62. By roughly how much is the monthly benefit reduced?", "difficulty": "hard", "options": [{"text": "About 30%", "correct": true, "explanation": "The SSA shows a reduction of about 30% for claiming five years early."}, {"text": "About 5%", "correct": false, "explanation": "The reduction grows with each month claimed early and is much larger than 5%."}, {"text": "There is no reduction", "correct": false, "explanation": "Claiming before full retirement age always reduces the monthly amount."}]},
+  {"question": "Why does waiting past age 70 not raise your Social Security check any further?", "difficulty": "medium", "options": [{"text": "Delayed retirement credits stop at age 70", "correct": true, "explanation": "There is no benefit increase for delaying beyond 70."}, {"text": "Benefits are cut after 70", "correct": false, "explanation": "Benefits are not cut; they just stop growing from delay."}, {"text": "You lose eligibility at 70", "correct": false, "explanation": "You remain eligible; you simply gain nothing more by waiting."}]},
+  {"question": "Roughly how many work credits do you need to qualify for Social Security retirement benefits?", "difficulty": "medium", "options": [{"text": "40 credits, about 10 years of work", "correct": true, "explanation": "You can earn up to four credits a year."}, {"text": "4 credits, about 1 year of work", "correct": false, "explanation": "Four credits is one year's maximum, not the total needed."}, {"text": "100 credits", "correct": false, "explanation": "The requirement is 40 credits."}]},
+  {"question": "You claimed benefits eight months ago and changed your mind. What option does the SSA offer?", "difficulty": "hard", "options": [{"text": "Withdraw the application within 12 months, repaying the benefits received", "correct": true, "explanation": "The SSA allows one withdrawal, within 12 months of first becoming entitled."}, {"text": "Switch to a larger benefit at any time for free", "correct": false, "explanation": "The adjustment is permanent outside the narrow withdrawal window."}, {"text": "Nothing; any claim is final the day it's filed", "correct": false, "explanation": "There is a limited 12-month withdrawal window."}]},
+];
+
 export default function Post() {
   return (
     <>
@@ -65,6 +78,24 @@ export default function Post() {
           "The claiming-age decision changes the monthly amount for the rest of the recipient's life, not just for a temporary period.",
         ]}
       />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Social Security claiming ages at a glance</h2>
+      <div className="prose-p">
+      <strong>Short answer:</strong> Social Security pays a monthly retirement benefit based on your highest 35 years of earnings. You can start at 62, but the check is permanently smaller: about 30% smaller if your full retirement age is 67. Wait until full retirement age (67 for anyone born in 1960 or later) and you get 100% of your calculated benefit. Every year you wait after that, up to 70, adds 8%. To qualify at all, you generally need 40 work credits, which is about 10 years of work.
+      </div>
+      <div className="overflow-x-auto">
+      <table className="w-full text-sm border-collapse my-4">
+        <thead>
+          <tr className="border-b-2 border-ink text-left"><th className="py-2 pr-3">Claim at (full retirement age 67)</th><th className="py-2">Monthly benefit vs. your full amount</th></tr>
+        </thead>
+        <tbody>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">62</td><td className="py-2">About 70% (permanently reduced)</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">67</td><td className="py-2">100% (your Primary Insurance Amount)</td></tr>
+          <tr><td className="py-2 pr-3">70</td><td className="py-2">About 124% (three years of 8% delayed credits)</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p className="text-sm">Percentages follow the SSA&apos;s published reduction and delayed-credit rules. Your own dollar figures are on your earnings record at ssa.gov.</p>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
       <ModeToggle
@@ -144,6 +175,10 @@ export default function Post() {
           { question: "Does delaying Social Security past full retirement age actually increase the benefit?", answer: "Yes — per SSA guidance, delayed retirement credits permanently increase the monthly benefit for each year of delay up to age 70, after which there's no further increase for delaying longer." },
           { question: "How is the Social Security benefit amount calculated?", answer: "From a worker's highest 35 years of inflation-adjusted earnings, averaged and run through an SSA formula to produce the Primary Insurance Amount, per SSA guidance." },
           { question: "Can you change your claiming decision after benefits start?", answer: "Generally no, except through a narrow, limited window shortly after the initial claim — per SSA guidance, the claiming-age decision is largely permanent once benefits begin." },
+          { question: "How much less do you get if you claim Social Security at 62?", answer: "If your full retirement age is 67, claiming at 62 cuts your monthly benefit by about 30%, per the SSA. The cut is smaller the closer to full retirement age you claim, and it lasts for life." },
+          { question: "How much more do you get by waiting until 70?", answer: "For anyone born in 1943 or later, the SSA adds delayed retirement credits of 8% for each year (two-thirds of 1% per month) you wait past full retirement age. With a full retirement age of 67, waiting to 70 gives about 124% of the full benefit. There's no extra credit after 70." },
+          { question: "How many years do you need to work to get Social Security?", answer: "You generally need 40 credits. You can earn up to four credits a year, so that works out to about 10 years of work, per the SSA." },
+          { question: "Can I undo my Social Security claim?", answer: "Yes, once and only within 12 months of first becoming entitled. The SSA lets you withdraw your application, but you must repay all the benefits you and your family received on that claim." },
         ]}
       />
 

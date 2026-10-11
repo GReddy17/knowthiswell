@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "vocabulary-for-specific-contexts",
   tags: ["conversational english", "idioms", "small talk", "spoken english", "discourse markers"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -53,6 +53,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "What does 'break a leg' mean when it's said to a performer?", "difficulty": "easy", "options": [{"text": "Be careful not to fall on stage", "correct": false, "explanation": "That reads the idiom literally; the phrase is a way of wishing good luck."}, {"text": "Good luck", "correct": true, "explanation": "Right. It's an idiom, so the meaning can't be worked out from the words: nobody wants a leg broken."}, {"text": "Hurry up, you're late", "correct": false, "explanation": "Nothing about timing here; it's the theater's way of saying good luck."}]},
+  {"question": "What does 'my bad' mean?", "difficulty": "easy", "options": [{"text": "I'm feeling unwell", "correct": false, "explanation": "It isn't about health at all; it's an informal way of owning a mistake."}, {"text": "That's a bad idea", "correct": false, "explanation": "It doesn't judge an idea; it admits the speaker got something wrong."}, {"text": "That was my mistake, sorry", "correct": true, "explanation": "Yes. It's a casual American English idiom, widely understood but usually too informal for professional writing."}]},
+  {"question": "What is small talk mainly for?", "difficulty": "easy", "options": [{"text": "Building rapport and comfort between people, not trading important information", "correct": true, "explanation": "Exactly. Linguists class much of it as phatic communication: social glue rather than news."}, {"text": "Passing on detailed, urgent information", "correct": false, "explanation": "That's the opposite of small talk; it's low-stakes chat about things like weather or weekend plans."}, {"text": "Testing someone's vocabulary", "correct": false, "explanation": "It isn't a test; it's a social way of getting comfortable with each other."}]},
+  {"question": "Why does 'break a leg' wish something bad-sounding instead of saying 'good luck'?", "difficulty": "medium", "options": [{"text": "Dancers used to break their legs often, so it was a safety warning", "correct": false, "explanation": "The post traces it to a superstition about jinxing, not to a warning about injuries."}, {"text": "A theater superstition held that wishing good luck directly could jinx a performer", "correct": true, "explanation": "Right. Saying the opposite was a way to avoid tempting fate."}, {"text": "It's a mistranslation of a French phrase", "correct": false, "explanation": "The origin the post gives is a theater superstition, not a translation error."}]},
+  {"question": "Where does 'no worries' have documented roots before it spread worldwide?", "difficulty": "medium", "options": [{"text": "Shakespeare's plays", "correct": false, "explanation": "The post points to Australian English, not to Shakespeare."}, {"text": "Chinese Pidgin English", "correct": false, "explanation": "That's one proposed route for 'long time no see', a different phrase entirely."}, {"text": "Australian English", "correct": true, "explanation": "Yes. It spread internationally from there through media and travel."}]},
+  {"question": "What's the clue that 'long time no see' may be a calque?", "difficulty": "medium", "options": [{"text": "Its grammar doesn't follow normal English sentence rules, which hints it was translated word for word from another language", "correct": true, "explanation": "Correct. A calque copies another language's phrase structure piece by piece, and that's what makes it sound unusual in English."}, {"text": "It's spelled differently in British and American English", "correct": false, "explanation": "Spelling isn't the clue; the giveaway is the phrase's un-English grammar."}, {"text": "It only appears in formal writing", "correct": false, "explanation": "It's actually a casual phrase; the clue is its borrowed-looking structure."}]},
+  {"question": "Where is the earliest recorded use of 'long time no see' found, according to the Oxford English Dictionary?", "difficulty": "hard", "options": [{"text": "A Shakespeare play from the 1600s", "correct": false, "explanation": "The earliest recorded use the post cites is from 1900, in Hawaii."}, {"text": "A 1900 Hawaiian newspaper", "correct": true, "explanation": "Right. That fits either proposed route into English through Pacific-contact pidgin speech."}, {"text": "A 1950s Hollywood film script", "correct": false, "explanation": "It's much older than that; the OED's earliest record is a 1900 Hawaiian newspaper."}]},
+  {"question": "A customer service email says: 'We'd appreciate it if you could send that over at your earliest convenience.' How should you read it?", "difficulty": "hard", "options": [{"text": "As an optional suggestion you can safely ignore", "correct": false, "explanation": "The softened phrasing is a politeness strategy; the request itself is real."}, {"text": "As a sign they're annoyed with you", "correct": false, "explanation": "Indirect phrasing is the normal professional default, not a hidden complaint."}, {"text": "As a polite but real request, with an implied expectation that you'll respond promptly", "correct": true, "explanation": "Exactly. The indirect wording is softness, not optional-ness."}]},
+];
 
 export default function Post() {
   return (

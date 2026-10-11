@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "length-and-distance",
   tags: ["acres", "hectares", "square feet", "land area", "unit conversion"],
   date: "2026-08-21",
-  updated: "2026-08-21",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 67, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
@@ -53,6 +53,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "How many square feet are in one acre?", "difficulty": "easy", "options": [{"text": "10,000", "correct": false, "explanation": "10,000 is the number of square meters in a hectare."}, {"text": "43,560", "correct": true, "explanation": "Right, exactly 43,560 square feet."}, {"text": "5,280", "correct": false, "explanation": "5,280 is the number of feet in a mile, a length, not an area."}]},
+  {"question": "How is a hectare defined?", "difficulty": "easy", "options": [{"text": "Exactly 10 acres", "correct": false, "explanation": "A hectare is about 2.47 acres, and it isn't defined in acres at all."}, {"text": "The land an ox-team could plow in a day", "correct": false, "explanation": "That's the historical origin of the acre, not the hectare."}, {"text": "Exactly 10,000 square meters, a 100 m × 100 m square", "correct": true, "explanation": "Yes. It's a clean metric unit with no farming backstory."}]},
+  {"question": "Which is bigger, a hectare or an acre?", "difficulty": "easy", "options": [{"text": "A hectare, by about 2.47 times", "correct": true, "explanation": "Right. A hectare is well over double an acre."}, {"text": "An acre, by about 2.47 times", "correct": false, "explanation": "It's the other way round; one hectare holds about 2.47 acres."}, {"text": "They're roughly the same size", "correct": false, "explanation": "That's the common mix-up; the gap is about 2.47 to 1."}]},
+  {"question": "A residential lot is listed as 0.25 acres. How many square feet is that?", "difficulty": "medium", "options": [{"text": "2,500 sq ft", "correct": false, "explanation": "That treats an acre as 10,000 sq ft; an acre is 43,560 sq ft."}, {"text": "10,890 sq ft", "correct": true, "explanation": "Right: 0.25 × 43,560 = 10,890."}, {"text": "1,089 sq ft", "correct": false, "explanation": "Off by a factor of ten: 0.25 × 43,560 = 10,890."}]},
+  {"question": "Where does the acre's figure of 43,560 sq ft come from?", "difficulty": "medium", "options": [{"text": "It was picked at random by surveyors", "correct": false, "explanation": "It isn't arbitrary; it comes from the furlong-by-chain plowing strip."}, {"text": "It's exactly 4,000 square meters converted to feet", "correct": false, "explanation": "An acre is about 4,046.86 m², and its origin is the furlong-by-chain strip."}, {"text": "One furlong (660 ft) by one chain (66 ft), the strip a medieval ox-team could plow in a day", "correct": true, "explanation": "Right: 660 × 66 = 43,560."}]},
+  {"question": "A French vineyard is 12 hectares. Roughly how many acres is that?", "difficulty": "medium", "options": [{"text": "About 29.65 acres", "correct": true, "explanation": "Right: 12 × 2.47105 ≈ 29.65, nearly the same as a 30-acre vineyard."}, {"text": "About 4.86 acres", "correct": false, "explanation": "That divides by 2.47 instead of multiplying; hectares to acres means multiplying."}, {"text": "About 120 acres", "correct": false, "explanation": "That treats a hectare as 10 acres; the factor is about 2.47."}]},
+  {"question": "What's a quick way to estimate acres from a hectare figure?", "difficulty": "medium", "options": [{"text": "Divide by 10", "correct": false, "explanation": "That has no basis; one hectare is about 2.47 acres."}, {"text": "Multiply by roughly 2.5", "correct": true, "explanation": "Right. Use 2.47105 when you need precision."}, {"text": "Multiply by 0.3048", "correct": false, "explanation": "0.3048 converts feet to meters, a length factor, not an area one."}]},
+  {"question": "Why can't you convert an area from square feet to square meters using the length factor 0.3048 directly?", "difficulty": "hard", "options": [{"text": "Because 0.3048 is only an approximation", "correct": false, "explanation": "It's exact; the problem is that area needs the factor squared."}, {"text": "Because square feet and square meters measure different things", "correct": false, "explanation": "They both measure area; the factor just has to be squared."}, {"text": "Area scales with the square of length, so the linear factor has to be squared (or a dedicated area factor used)", "correct": true, "explanation": "Exactly. Applying a length factor to an area gives a wrong answer."}]},
+];
 
 export default function Post() {
   return (

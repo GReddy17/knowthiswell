@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostMeta, PostFrontmatter } from '@/types/post';
+import { PostMeta, PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,7 +22,7 @@ export const metadata: PostFrontmatter = {
   subtopic: "fun-with-language",
   tags: ["foreign phrases", "loanwords", "latin phrases", "french phrases", "vocabulary", "etymology"],
   date: "2026-08-16",
-  updated: "2026-08-16",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
@@ -53,6 +53,17 @@ export const metadata: PostFrontmatter = {
   youtubeUrl: "",
   draft: false,
 };
+
+/** Quiz bank: feeds the end-of-article "Test yourself" quiz and the game (not rendered inline). */
+export const quiz: QuizBankItem[] = [
+  {"question": "What does the German borrowing \"zeitgeist\" mean?", "difficulty": "easy", "options": [{"text": "Spirit of the times", "correct": true, "explanation": "Yes, and English uses it as-is rather than translating it."}, {"text": "Seize the day", "correct": false, "explanation": "That's Latin \"carpe diem.\""}, {"text": "Already seen", "correct": false, "explanation": "That's French \"déjà vu.\""}]},
+  {"question": "What does \"R.S.V.P.\" stand for?", "difficulty": "easy", "options": [{"text": "\"Répondez s'il vous plaît,\" French for \"please respond\"", "correct": true, "explanation": "Right. Most of us use the four letters constantly and almost never the full phrase."}, {"text": "A Latin legal abbreviation", "correct": false, "explanation": "It's French, not Latin."}, {"text": "\"Reply soon, very polite\"", "correct": false, "explanation": "Nice guess, but it's an abbreviation of a French phrase."}]},
+  {"question": "How should \"bona fide\" be written?", "difficulty": "easy", "options": [{"text": "As two words, \"bona fide\"", "correct": true, "explanation": "Yes. It's Latin for \"in good faith,\" and the two-word form reflects that."}, {"text": "As one word, \"bonafide\"", "correct": false, "explanation": "That's the common slip; the correct form is two words."}, {"text": "Hyphenated, \"bona-fide\"", "correct": false, "explanation": "The form given here is two separate words."}]},
+  {"question": "Which language supplies most of English's formal, legal and academic phrases?", "difficulty": "medium", "options": [{"text": "Latin", "correct": true, "explanation": "Right. Latin was the working language of law, the church and scholarship across Europe for centuries."}, {"text": "French", "correct": false, "explanation": "French phrases cluster around food, fashion and social life instead."}, {"text": "German", "correct": false, "explanation": "German gives fewer phrases, mostly single-concept abstractions like \"wanderlust.\""}]},
+  {"question": "What do \"zeitgeist,\" \"wanderlust\" and \"doppelgänger\" have in common?", "difficulty": "medium", "options": [{"text": "They're German borrowings that each name a single abstract concept", "correct": true, "explanation": "Yes, that's German's signature contribution to English."}, {"text": "They're Latin legal terms", "correct": false, "explanation": "They come from German, and none of them are legal terms."}, {"text": "They're French culinary words", "correct": false, "explanation": "They're German, and none has anything to do with food."}]},
+  {"question": "What does \"carpe diem\" literally mean?", "difficulty": "medium", "options": [{"text": "\"Pluck the day\"", "correct": true, "explanation": "Right. It's usually rendered as \"seize the day.\""}, {"text": "\"Spirit of the times\"", "correct": false, "explanation": "That's German \"zeitgeist.\""}, {"text": "\"And the rest\"", "correct": false, "explanation": "That's \"et cetera.\""}]},
+  {"question": "Why does a phrase like \"carpe diem\" often get italicized while \"safari\" doesn't?", "difficulty": "hard", "options": [{"text": "Style guides italicize borrowings still seen as foreign and drop italics once a word is fully assimilated", "correct": true, "explanation": "Yes, though practice varies by publication and by how common a phrase has become."}, {"text": "Only Latin borrowings are ever italicized", "correct": false, "explanation": "French, German and other unassimilated borrowings get the same treatment."}, {"text": "Italics mark words that are spelled wrong", "correct": false, "explanation": "Italics signal \"still foreign,\" not an error."}]},
+];
 
 export default function Post() {
   return (

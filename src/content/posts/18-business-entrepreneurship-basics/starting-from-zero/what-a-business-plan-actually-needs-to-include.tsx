@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,14 +22,16 @@ export const metadata: PostFrontmatter = {
   subtopic: "starting-from-zero",
   tags: ["business plan", "startup", "small business", "market analysis", "financial projections"],
   date: "2026-09-21",
-  updated: "2026-09-21",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 84, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-09-21",
+  lastReviewed: "2026-10-10",
   excerpt: "A business plan isn't a formality for investors — it's the document that forces you to answer the questions that actually determine whether a business survives.",
   summary: "A business plan is a structured document that lays out what a business will sell, who it will sell to, how it will operate, and how it expects to make and spend money — per U.S. Small Business Administration guidance, the core sections generally cover an executive summary, company and product/service description, market analysis, organization and management structure, and financial projections, with the specific format allowed to vary as long as those core questions are genuinely answered rather than skipped.",
   sources: [
     { label: "U.S. Small Business Administration — Write Your Business Plan", url: "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan" },
+    { label: "U.S. Small Business Administration — Market research and competitive analysis", url: "https://www.sba.gov/business-guide/plan-your-business/market-research-competitive-analysis" },
+    { label: "U.S. Small Business Administration — Calculate your startup costs", url: "https://www.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs" },
     { label: "SCORE — Free Small Business Mentoring", url: "https://www.score.org/" },
   ],
   seeAlso: [
@@ -52,6 +54,17 @@ export const metadata: PostFrontmatter = {
   draft: false,
 };
 
+export const quiz: QuizBankItem[] = [
+  {"question": "Which section of a business plan is usually written last, even though it appears first?", "difficulty": "easy", "options": [{"text": "The executive summary", "correct": true, "explanation": "It summarizes conclusions you reach in the other sections."}, {"text": "The financial projections", "correct": false, "explanation": "Projections come late in the document, and they feed the summary."}, {"text": "The market analysis", "correct": false, "explanation": "The market analysis is research you do early."}]},
+  {"question": "According to the SBA, who most commonly asks for a traditional business plan?", "difficulty": "easy", "options": [{"text": "Lenders and investors", "correct": true, "explanation": "The SBA says lenders and investors commonly request the detailed format."}, {"text": "Customers", "correct": false, "explanation": "Customers rarely see a business plan."}, {"text": "Nobody; it is only for the owner", "correct": false, "explanation": "That describes why some owners choose the lean format."}]},
+  {"question": "How long is a typical lean startup plan, per the SBA?", "difficulty": "medium", "options": [{"text": "About one page", "correct": true, "explanation": "The SBA says it can take as little as an hour and is typically one page."}, {"text": "Dozens of pages", "correct": false, "explanation": "That describes a traditional plan."}, {"text": "At least 50 pages", "correct": false, "explanation": "Lean plans are short by design."}]},
+  {"question": "What belongs in the market analysis section?", "difficulty": "medium", "options": [{"text": "Your industry outlook, target customers and research on competitors", "correct": true, "explanation": "The SBA describes it as understanding the industry, target market and competition."}, {"text": "Your mission statement only", "correct": false, "explanation": "The mission statement goes in the executive summary."}, {"text": "Your organizational chart", "correct": false, "explanation": "That belongs in organization and management."}]},
+  {"question": "Where does a business plan explain the legal structure, such as an LLC or sole proprietorship?", "difficulty": "medium", "options": [{"text": "Organization and management", "correct": true, "explanation": "The SBA puts legal structure and the org chart in this section."}, {"text": "Funding request", "correct": false, "explanation": "The funding request covers how much money you need and for what."}, {"text": "Marketing and sales", "correct": false, "explanation": "That section covers how you'll attract and keep customers."}]},
+  {"question": "Per the SBA, how far ahead should a traditional plan's financial outlook reach?", "difficulty": "hard", "options": [{"text": "About five years, with quarterly or monthly detail for the first year", "correct": true, "explanation": "The SBA asks for a five-year outlook and finer detail for year one."}, {"text": "Only the next month", "correct": false, "explanation": "That is far too short for a lender."}, {"text": "Twenty years, yearly only", "correct": false, "explanation": "The SBA guidance is about five years."}]},
+  {"question": "Which of these is a lean startup plan element in the SBA's list?", "difficulty": "medium", "options": [{"text": "Value proposition", "correct": true, "explanation": "Others include customer segments, channels, cost structure and revenue streams."}, {"text": "Balance sheets for the last five years", "correct": false, "explanation": "Historical statements belong in a traditional plan's financials."}, {"text": "Resumes of every employee", "correct": false, "explanation": "A one-page plan has no room for that."}]},
+  {"question": "Your research shows your real customers are a much narrower group than you first assumed. What should you do with the plan?", "difficulty": "hard", "options": [{"text": "Rewrite the market analysis and the financial projections to match", "correct": true, "explanation": "Revising a plan after real research is a normal part of planning."}, {"text": "Keep the original numbers so the plan looks bigger", "correct": false, "explanation": "Lenders test those assumptions; inflated numbers hurt credibility."}, {"text": "Delete the market analysis section", "correct": false, "explanation": "The research is exactly what that section is for."}]},
+];
+
 export default function Post() {
   return (
     <>
@@ -63,6 +76,28 @@ export default function Post() {
           "Financial projections are the section most often underdeveloped, even though they're what most lenders and investors scrutinize first.",
         ]}
       />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Business plan sections at a glance</h2>
+      <div className="prose-p">
+      <strong>Short answer:</strong> A business plan needs to answer five things: what you sell, who will buy it, who runs the business, how you&apos;ll reach customers, and how the money works. The SBA&apos;s traditional format spells that out across eight core sections and is what lenders usually want. Its lean format squeezes the same thinking onto roughly one page. Pick the format that fits who&apos;s reading it, but don&apos;t skip the questions.
+      </div>
+      <div className="overflow-x-auto">
+      <table className="w-full text-sm border-collapse my-4">
+        <thead>
+          <tr className="border-b-2 border-ink text-left"><th className="py-2 pr-3">Traditional plan section (SBA)</th><th className="py-2">What it answers</th></tr>
+        </thead>
+        <tbody>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Executive summary</td><td className="py-2">What the company is and why it will work (write it last)</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Company description</td><td className="py-2">The problem you solve, who you serve and your edge</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Market analysis</td><td className="py-2">Industry outlook, target market and competitors</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Organization and management</td><td className="py-2">Legal structure and who runs what</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Service or product line</td><td className="py-2">What you sell and how it helps customers</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Marketing and sales</td><td className="py-2">How you&apos;ll attract and keep customers and close a sale</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Funding request</td><td className="py-2">How much money you need, debt or equity, and what it&apos;s for</td></tr>
+          <tr><td className="py-2 pr-3">Financial projections</td><td className="py-2">A five-year outlook, with quarterly or monthly detail in year one</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
       <ModeToggle
@@ -141,6 +176,10 @@ export default function Post() {
           { question: "Do I need a full business plan if I'm not seeking a loan or investors?", answer: "SBA guidance offers a lean, one-page alternative for owners who mainly want internal clarity — the core questions still apply, just in a shorter format." },
           { question: "Why is the market analysis section considered so important?", answer: "Because it's one of the sections most directly checked against reality — a weak or unresearched market analysis raises doubt about the assumptions behind the rest of the plan." },
           { question: "Should the executive summary be written first or last?", answer: "Per SCORE guidance, it's generally written last, even though it appears first in the finished document, since it's meant to summarize conclusions reached in the other sections." },
+          { question: "How long should a business plan be?", answer: "Per the SBA, a traditional plan can run dozens of pages, while a lean startup plan is typically one page and can take as little as an hour. Length follows the reader: a lender usually wants the detailed version." },
+          { question: "What goes in the financial projections section?", answer: "The SBA suggests a five-year outlook with forecasted income statements, balance sheets, cash flow statements and capital expenditure budgets, using quarterly or even monthly figures for the first year. An existing business should also include its recent statements." },
+          { question: "What are the parts of a lean business plan?", answer: "The SBA lists nine: key partnerships, key activities, key resources, value proposition, customer relationships, customer segments, channels, cost structure and revenue streams." },
+          { question: "Do I have to follow the exact business plan outline?", answer: "No. The SBA says to use the sections that make the most sense for your business. What matters is that the core questions about market, operations and money are actually answered." },
           { question: "Where can I get free help writing a business plan?", answer: "SCORE, an SBA resource-partner network, offers free volunteer business mentoring, which can be a useful resource when developing a plan." },
         ]}
       />

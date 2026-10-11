@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -22,15 +22,17 @@ export const metadata: PostFrontmatter = {
   subtopic: "market-fundamentals",
   tags: ["mutual fund", "investing basics", "diversification", "fund manager", "shares"],
   date: "2026-09-21",
-  updated: "2026-09-21",
+  updated: "2026-10-10",
   youtubeShort: false, youtubeLong: false,
   seoScore: 83, seoScoredOn: "2026-10-01",
-  lastReviewed: "2026-09-21",
+  lastReviewed: "2026-10-10",
   excerpt: "Buying one share of a mutual fund means owning a small slice of dozens or hundreds of different investments at once, not betting on a single stock.",
   summary: "A mutual fund pools money from many investors into a single professionally managed portfolio that buys a diversified basket of stocks, bonds, or other securities on their behalf, then divides ownership of that basket into shares — each investor's returns rise and fall with the value of the whole pooled portfolio, in proportion to the shares they own, rather than depending on the performance of any single underlying investment.",
   sources: [
     { label: "SEC Investor.gov — Mutual Funds", url: "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-1" },
     { label: "FINRA — Mutual Funds", url: "https://www.finra.org/investors/investing/investment-products/mutual-funds" },
+    { label: "SEC Investor.gov — Glossary: Expense Ratio", url: "https://www.investor.gov/introduction-investing/investing-basics/glossary/expense-ratio" },
+    { label: "SEC Investor.gov — Glossary: Load", url: "https://www.investor.gov/introduction-investing/investing-basics/glossary/load" },
   ],
   seeAlso: [
     "investing-markets-deep-dive/what-a-brokerage-account-actually-is",
@@ -53,6 +55,17 @@ export const metadata: PostFrontmatter = {
   draft: false,
 };
 
+export const quiz: QuizBankItem[] = [
+  {"question": "When you buy a share of a mutual fund, what do you actually own?", "difficulty": "easy", "options": [{"text": "A proportional slice of the fund's whole pooled portfolio", "correct": true, "explanation": "Your returns follow the whole basket, not any single holding."}, {"text": "Shares of each company directly, in your own name", "correct": false, "explanation": "The fund owns the securities; you own shares of the fund."}, {"text": "A loan to the fund manager", "correct": false, "explanation": "A fund share is ownership, not a loan."}]},
+  {"question": "What is a mutual fund's net asset value (NAV)?", "difficulty": "easy", "options": [{"text": "Total assets minus liabilities, usually stated per share", "correct": true, "explanation": "Per Investor.gov, NAV changes daily as the fund's assets and liabilities change."}, {"text": "The price the fund manager guarantees you can sell at", "correct": false, "explanation": "NAV is not guaranteed; it moves with the holdings."}, {"text": "The fund's yearly fee", "correct": false, "explanation": "That is the expense ratio."}]},
+  {"question": "How often are ordinary mutual fund shares priced for buying and selling?", "difficulty": "medium", "options": [{"text": "Once per trading day, after the market closes", "correct": true, "explanation": "Orders get that day's NAV, unlike ETFs which trade all day."}, {"text": "Continuously, every second the market is open", "correct": false, "explanation": "That describes stocks and ETFs."}, {"text": "Once a month", "correct": false, "explanation": "NAV is calculated every trading day."}]},
+  {"question": "What does a fund's expense ratio cover?", "difficulty": "medium", "options": [{"text": "Yearly operating costs such as management fees and 12b-1 fees, as a percent of assets", "correct": true, "explanation": "Investor.gov says you'll find it in the prospectus fee table."}, {"text": "A one-time fee paid only when you sell", "correct": false, "explanation": "That is a back-end load, a separate charge."}, {"text": "Taxes the fund pays the government", "correct": false, "explanation": "The expense ratio is about operating costs, not taxes."}]},
+  {"question": "What is a sales load on a mutual fund?", "difficulty": "medium", "options": [{"text": "A commission-like fee paid when you buy (front-end) or redeem (back-end) shares", "correct": true, "explanation": "That is the Investor.gov definition."}, {"text": "The number of stocks the fund holds", "correct": false, "explanation": "Load is a fee, not a holdings count."}, {"text": "The fund's yearly return", "correct": false, "explanation": "Load is a cost, not a return."}]},
+  {"question": "Two funds hold almost the same stocks. One charges 0.05% a year and the other 1.00%. Why does that gap matter over decades?", "difficulty": "hard", "options": [{"text": "The fee comes out every year, so the gap compounds into a larger difference in what you keep", "correct": true, "explanation": "FINRA stresses that fees compound the same way returns do."}, {"text": "It doesn't, because similar holdings mean similar results", "correct": false, "explanation": "Same holdings, different fees, means different net results."}, {"text": "The higher fee guarantees better returns", "correct": false, "explanation": "A higher fee is a cost, not a promise of performance."}]},
+  {"question": "Which risk does diversification inside a mutual fund NOT remove?", "difficulty": "medium", "options": [{"text": "A broad market drop that hits most holdings at once", "correct": true, "explanation": "Diversification limits single-company risk, not market-wide risk."}, {"text": "The risk of one company failing", "correct": false, "explanation": "That is exactly the risk diversification shrinks."}, {"text": "The risk of having all your money in one stock", "correct": false, "explanation": "A fund spreads money across many holdings."}]},
+  {"question": "Where can you find a mutual fund's fees before you invest?", "difficulty": "easy", "options": [{"text": "The fee table in the fund's prospectus", "correct": true, "explanation": "Investor.gov points investors to the prospectus fee table."}, {"text": "Only on your year-end tax form", "correct": false, "explanation": "Fees are disclosed up front in the prospectus."}, {"text": "Funds are not required to disclose fees", "correct": false, "explanation": "Fees must be disclosed in the prospectus."}]},
+];
+
 export default function Post() {
   return (
     <>
@@ -64,6 +77,25 @@ export default function Post() {
           "Per SEC and FINRA guidance, a fund's expense ratio and stated investment strategy are two of the most important things to check before investing, since fees compound over time just as returns do.",
         ]}
       />
+
+      <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">Mutual funds at a glance</h2>
+      <div className="prose-p">
+      <strong>Short answer:</strong> A mutual fund is a pool of money from many investors that a professional manager invests in stocks, bonds or both. You buy shares of the fund, not the companies inside it, so one purchase spreads your money across dozens or hundreds of holdings. Shares are priced once a day at the fund&apos;s net asset value (NAV), and you pay for the fund through its expense ratio and, with some funds, a sales load.
+      </div>
+      <div className="overflow-x-auto">
+      <table className="w-full text-sm border-collapse my-4">
+        <thead>
+          <tr className="border-b-2 border-ink text-left"><th className="py-2 pr-3">Feature</th><th className="py-2 pr-3">Mutual fund</th><th className="py-2">Single stock</th></tr>
+        </thead>
+        <tbody>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">What you own</td><td className="py-2 pr-3">A slice of a whole basket of holdings</td><td className="py-2">Part of one company</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Pricing</td><td className="py-2 pr-3">Once a day, at NAV</td><td className="py-2">All day, at the market price</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Ongoing cost</td><td className="py-2 pr-3">Expense ratio, taken from fund assets every year</td><td className="py-2">No yearly fund fee (trading costs may apply)</td></tr>
+          <tr className="border-b border-ink/20"><td className="py-2 pr-3">Possible sales charge</td><td className="py-2 pr-3">Front-end or back-end load on some funds</td><td className="py-2">Broker commission, if any</td></tr>
+          <tr><td className="py-2 pr-3">Single-company risk</td><td className="py-2 pr-3">Spread thin across holdings</td><td className="py-2">All of it</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2 className="scroll-mt-10 border-t-2 border-ink pt-3.5 mt-12 mb-4 font-display text-2xl font-bold text-ink">The concept</h2>
       <ModeToggle
@@ -142,6 +174,10 @@ export default function Post() {
           { question: "How is a mutual fund different from an ETF?", answer: "Both provide diversified, pooled exposure, but mutual fund shares are priced and traded once per day at NAV, while ETF shares trade continuously throughout the day like a stock, per SEC descriptions of each structure." },
           { question: "Do mutual funds guarantee a profit?", answer: "No — per SEC guidance, all investing carries risk, and a mutual fund's value moves with its underlying holdings, which can decline as well as rise." },
           { question: "Why do expense ratios matter so much for long-term investors?", answer: "Because the fee is deducted every year and compounds over time the same way returns do, per FINRA guidance — a persistently higher fee can meaningfully reduce long-term net results even between otherwise similar funds." },
+          { question: "What is NAV in a mutual fund?", answer: "Net asset value: the fund's total assets minus its total liabilities, divided by shares outstanding to give a per-share price. Per Investor.gov, it changes every day because the fund's holdings change in value every day." },
+          { question: "What is a load fund versus a no-load fund?", answer: "A load is a sales charge, similar to a commission, paid when you buy shares (front-end load) or when you sell them (back-end load). A no-load fund doesn't charge one, though it still has an expense ratio. Both are listed in the prospectus fee table." },
+          { question: "What fees does a mutual fund charge?", answer: "The main ongoing cost is the expense ratio, which per Investor.gov can include management fees, 12b-1 distribution or service fees and other operating expenses. Some funds also charge a sales load. All of it is laid out in the fee table near the front of the prospectus." },
+          { question: "Is an index fund a mutual fund?", answer: "Often, yes. An index fund can be built as a mutual fund or as an ETF; what makes it an index fund is its strategy of tracking a market index rather than having a manager pick individual holdings." },
           { question: "Can I lose money in a mutual fund?", answer: "Yes — a mutual fund's value reflects its underlying holdings, and if those holdings decline in value, the fund's NAV per share declines too; diversification reduces single-holding risk but doesn't eliminate market risk." },
         ]}
       />
