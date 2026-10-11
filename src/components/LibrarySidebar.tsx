@@ -14,6 +14,8 @@ import {
 } from 'lucide-react';
 import { formatSlugToLabel } from '@/lib/taxonomy-utils';
 
+const COLLAPSED_WIDTH = 64;
+
 interface SidebarItem {
   label: string;
   href: string;
@@ -42,10 +44,9 @@ export function LibrarySidebar({ categories }: LibrarySidebarProps) {
   // Interactivity State
   const [isPinned, setIsPinned] = useState(false);
   const [expandedWidth, setExpandedWidth] = useState(256);
-  const [currentWidth, setCurrentWidth] = useState(256);
+  const [currentWidth, setCurrentWidth] = useState(COLLAPSED_WIDTH);
   const [isResizing, setIsResizing] = useState(false);
 
-  const COLLAPSED_WIDTH = 64;
   const MIN_WIDTH = 200;
   const MAX_WIDTH = 600;
 
