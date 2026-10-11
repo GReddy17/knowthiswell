@@ -2,7 +2,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getPostsByCategory, groupBySubtopic, getAllCategories, getThinCategories } from '@/lib/content';
-import { getCategoryLabel, getCategoryDescription, getCategoryStatus, getCategoryPhase, getCategoryComingSoonPreview } from '@/lib/taxonomy';
+import { getCategoryLabel, getCategoryDisplayLabel, getCategoryDescription, getCategoryStatus, getCategoryPhase, getCategoryComingSoonPreview, getCategoryFocusGroup, FOCUS_GROUPS } from '@/lib/taxonomy';
+import { getAllLearningPaths } from '@/content/learning-paths';
 import { BookOpen } from 'lucide-react';
 import { CategoryHubClient } from '@/components/CategoryHubClient';
 import { CategoryMapNav } from '@/components/CategoryMapNav';
@@ -48,6 +49,15 @@ export default async function CategoryHubPage({ params }: PageProps) {
   const comingSoonPreview = getCategoryComingSoonPreview(category);
   const posts = await getPostsByCategory(category);
   const groups = groupBySubtopic(posts);
+
+  const focusGroupId = getCategoryFocusGroup(category);
+  const focusGroupLabel = FOCUS_GROUPS.find((g) => g.id === focusGroupId)?.label;
+  const siblingTopics = focusGroupId
+    ? categories.filter(
+        (c) => c !== category && getCategoryFocusGroup(c) === focusGroupId && getCategoryStatus(c) === 'active'
+      )
+    : [];
+  const relatedPaths = getAllLearningPaths().filter((p) => p.steps.some((st) => st.category === category));
 
   return (
     <div className="mx-auto max-w-[1440px] px-5 py-14 md:px-10">
@@ -150,6 +160,53 @@ export default async function CategoryHubPage({ params }: PageProps) {
           ) : (
             <CategoryHubClient category={category} groups={groups} />
           )}
+
+          {relatedPaths.length > 0 && (
+            <section className="mt-16 border-t border-rule pt-8">
+              <h2 className="mb-4 font-utility text-[12.5px] uppercase tracking-[0.1em] text-forest">
+                Guided learning paths
+              </h2>
+              <ul className="m-0 flex list-none flex-col gap-3 p-0">
+                {relatedPaths.map((path) => (
+                  <li key={path.slug}>
+                    <Link
+                      href={`/learning-paths/${path.slug}`}
+                      className="font-display text-lg text-ink hover:text-forest"
+                    >
+                      {path.title}
+                    </Link>
+                    <span className="ml-2 font-utility text-[12px] text-ink-soft">{path.steps.length} steps</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          <section className="mt-12 border-t border-rule pt-8">
+            <h2 className="mb-4 font-utility text-[12.5px] uppercase tracking-[0.1em] text-forest">
+              {focusGroupLabel ? `More in ${focusGroupLabel}` : 'More topics'}
+            </h2>
+            {siblingTopics.length > 0 && (
+              <div className="mb-5 flex flex-wrap gap-2">
+                {siblingTopics.map((cat) => (
+                  <Link
+                    key={cat}
+                    href={`/${cat}`}
+                    className="rounded-full border border-rule bg-forest-tint px-3.5 py-1.5 font-utility text-[13px] text-forest-dark transition-colors hover:border-forest"
+                  >
+                    {getCategoryDisplayLabel(cat)}
+                  </Link>
+                ))}
+              </div>
+            )}
+            <p className="font-utility text-[13px] text-ink-soft">
+              <Link href="/topics" className="text-forest hover:underline">All topics</Link>
+              {' · '}
+              <Link href="/topics/all" className="text-forest hover:underline">Full index of every entry</Link>
+              {' · '}
+              <Link href="/learning-paths" className="text-forest hover:underline">Learning paths</Link>
+            </p>
+          </section>
         </main>
       </div>
     </div>

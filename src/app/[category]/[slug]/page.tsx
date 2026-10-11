@@ -11,8 +11,9 @@ import { ContentErrorBoundary } from '@/components/ContentErrorBoundary';
 import { PathNav } from '@/components/PathNav';
 import { TestYourself } from '@/components/TestYourself';
 import { getArticleQuiz } from '@/lib/article-quiz';
-import { getPostBySlug, getAllPostSlugs, getRelatedPosts } from '@/lib/content';
-import { getCategoryLabel, formatSlugToLabel } from '@/lib/taxonomy';
+import { MoreInTopic } from '@/components/MoreInTopic';
+import { getPostBySlug, getAllPostSlugs, getRelatedPosts, getInternalLinkSet } from '@/lib/content';
+import { getCategoryLabel, getCategoryDisplayLabel, formatSlugToLabel } from '@/lib/taxonomy';
 import { getLearningPathForPost } from '@/content/learning-paths';
 
 interface PageProps {
@@ -47,6 +48,7 @@ export default async function PostPage({ params }: PageProps) {
   if (!post) notFound();
 
   const related = await getRelatedPosts(post);
+  const links = await getInternalLinkSet(post, related.map((r) => r.href));
   const pathInfo = getLearningPathForPost(post.category, post.slug);
   const quiz = getArticleQuiz(post.category, post.slug);
 
@@ -115,6 +117,15 @@ export default async function PostPage({ params }: PageProps) {
         ) : null}
 
         <SourcesAndSeeAlso sources={post.sources} seeAlso={related} />
+        <MoreInTopic
+          categorySlug={post.category}
+          categoryLabel={getCategoryDisplayLabel(post.category)}
+          categoryCount={links.categoryCount}
+          prev={links.prev}
+          next={links.next}
+          cross={links.cross}
+          getLabel={getCategoryDisplayLabel}
+        />
         <FeedbackWidget category={post.category} slug={post.slug} title={post.title} />
       </main>
 
