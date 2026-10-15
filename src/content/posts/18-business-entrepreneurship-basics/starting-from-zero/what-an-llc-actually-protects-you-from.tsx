@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["llc", "limited liability", "business structure", "piercing the corporate veil", "personal guarantee"],
   date: "2026-09-25",
   updated: "2026-09-25",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 76, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "An LLC generally keeps the business's debts and lawsuits away from your personal assets. It doesn't protect you from loans you personally guarantee, harm you personally cause, or a court ignoring the LLC because you mixed business and personal money.",

@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["Nobel Prize", "Nobel Committee", "awards", "science prizes", "civics"],
   date: "2026-08-21",
   updated: "2026-09-25",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "The Nobel Prize isn't one award decided by one committee — it's six separate prizes, run by different institutions, each with its own nomination and selection process.",

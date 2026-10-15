@@ -25,7 +25,7 @@ export const metadata: PostFrontmatter = {
   tags: ["microwaves", "electromagnetic radiation", "dielectric heating", "food safety", "physics misconceptions"],
   date: "2026-09-19",
   updated: "2026-10-07",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-10-07",
   excerpt: "Microwaves don't heat from the inside out — they penetrate only a couple of centimeters into food from every exposed surface, which is why the center of a thick item often stays cold.",

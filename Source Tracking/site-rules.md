@@ -38,6 +38,7 @@ These apply to every entry before it can be marked `draft: false`:
 - **Key Takeaways, Common Mistakes, Misconceptions, and Action Checklist must all be populated** — not left as placeholders.
 - **At least one diagram or visual** where the topic has any process, comparison, or relationship that benefits from being seen rather than read.
 - **Sources are required.** No entry ships without at least one credible, linkable source in `sources[]`.
+- **SEO score stamped on every post (founder rule, 2026-10-01).** `node scripts/seo-score.mjs --post <slug> --write` writes `seoScore` (0-100) + `seoScoredOn` into the frontmatter. The score uses only the post's title and content (title, excerpt, tags, freshness, depth, internal linking, format), never Search Console or traffic, because most pages are not yet indexed. Target >=70 on new posts. The weekly full rescore is `node scripts/seo-score.mjs --write` (also refreshes `src/content/generated/seo-scores.json`). A LOW score means the page is weak and is a priority for a Short.
 - Entries not meeting all of the above stay `draft: true` and are excluded from publishing, sitemap inclusion, and NotebookLM video conversion.
 
 ## 5. Tone & voice rules

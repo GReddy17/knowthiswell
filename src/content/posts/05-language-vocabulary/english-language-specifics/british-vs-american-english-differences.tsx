@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["british english", "american english", "spelling differences", "vocabulary differences", "noah webster", "rhotic accent"],
   date: "2026-08-16",
   updated: "2026-08-16",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: true, youtubeLong: false,
   seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "British and American English split gradually after colonization, and neither one is a 'more correct' version of the other — both changed, just in different directions.",

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PostFrontmatter } from '@/types/post';
+import { PostFrontmatter, QuizBankItem } from '@/types/post';
 import {
   KeyTakeaways,
   ModeToggle,
@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["common cold", "influenza", "cold vs flu", "respiratory illness", "virus basics"],
   date: "2026-08-21",
   updated: "2026-08-21",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Colds and flu are both respiratory viral infections, but different virus families, and flu tends to hit harder and faster — general symptom patterns can help tell them apart, though only testing confirms which one you have.",
@@ -47,10 +47,18 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=dz0NdE7DcRw",
+  youtubeStatus: "not-started",
   draft: false,
 };
+
+export const quiz: QuizBankItem[] = [
+  {"question": "Which virus family most often causes the common cold?", "difficulty": "easy", "options": [{"text": "Rhinoviruses", "correct": true, "explanation": "Rhinoviruses are the most common cause of colds, per public health sources such as the CDC and NHS."}, {"text": "Influenza viruses", "correct": false, "explanation": "Influenza viruses cause flu, not most colds."}, {"text": "Bacteria such as strep", "correct": false, "explanation": "Colds are viral; antibiotics do not treat them."}]},
+  {"question": "According to the CDC, how does flu onset generally compare with cold onset?", "difficulty": "easy", "options": [{"text": "Flu tends to start suddenly; colds develop more gradually", "correct": true, "explanation": "Sudden onset is one of the general patterns that point toward flu."}, {"text": "Colds start suddenly; flu builds slowly", "correct": false, "explanation": "This reverses the described pattern."}, {"text": "They always start the same way", "correct": false, "explanation": "The onset pattern is one of the general differences described."}]},
+  {"question": "Why does the CDC say testing is needed to confirm cold vs. flu?", "difficulty": "medium", "options": [{"text": "Symptoms overlap too much to tell them apart with certainty", "correct": true, "explanation": "General patterns are signals, not proof, so only a test confirms the virus."}, {"text": "Colds and flu are caused by the same virus", "correct": false, "explanation": "They are caused by different viruses; the overlap is in symptoms."}, {"text": "Testing is required before anyone can rest at home", "correct": false, "explanation": "Testing is about confirmation, not permission to rest."}]},
+  {"question": "Which statement about the seasonal flu vaccine is accurate?", "difficulty": "medium", "options": [{"text": "It targets influenza strains, not the many viruses that cause colds", "correct": true, "explanation": "It does not protect against rhinoviruses or other cold viruses."}, {"text": "It prevents all respiratory illnesses", "correct": false, "explanation": "It only targets specific influenza strains."}, {"text": "It prevents colds but not flu", "correct": false, "explanation": "It is the other way around."}]},
+  {"question": "A person in a CDC-defined higher-risk group suspects flu. What does the general guidance in this article suggest?", "difficulty": "hard", "options": [{"text": "Contact a healthcare provider promptly, since antiviral treatment works best when started early", "correct": true, "explanation": "Early contact matters most for higher-risk groups; the provider decides on treatment."}, {"text": "Wait a week to see whether it resolves", "correct": false, "explanation": "Delay can miss the window when antivirals work best."}, {"text": "Self-diagnose by checking the symptom list", "correct": false, "explanation": "Symptom patterns cannot confirm flu; a provider and testing can."}]},
+  {"question": "Which statement about fever and flu is accurate?", "difficulty": "hard", "options": [{"text": "Flu always causes a high fever", "correct": false, "explanation": "Exceptions exist, so fever alone is not a reliable test."}, {"text": "Some flu cases, especially in older adults, involve little or no fever", "correct": true, "explanation": "Fever is common in flu but not universal, so it cannot confirm or rule out flu alone."}, {"text": "Fever never occurs with a cold", "correct": false, "explanation": "Some colds, especially in young children, can bring a mild fever."}]},
+];
 
 export default function Post() {
   return (

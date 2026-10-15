@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why time zones are based on 15-degree slices of longitude in theory, but zigzag around political borders in practice — and why China, spanning five time zones, uses only one.",

@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["body mass index", "BMI", "health screening", "health literacy", "population health"],
   date: "2026-08-22",
   updated: "2026-09-30",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "BMI is weight divided by height squared — a fast population-screening ratio that cannot tell the difference between muscle and fat, which is exactly why it has well-documented limits as an individual health measure.",
@@ -48,8 +48,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=f47ghz12uxg",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

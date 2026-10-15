@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["placebo effect", "nocebo effect", "expectation", "pain perception", "open-label placebo", "mind-body"],
   date: "2026-09-27",
   updated: "2026-09-27",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "Placebos can genuinely ease pain and nausea because expectation changes how the brain processes symptoms, even releasing the body's own opioids. But they rarely change the disease itself, and some 'placebo effect' is just time.",

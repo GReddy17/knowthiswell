@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["sump pump", "basement flooding", "foundation drainage", "water damage prevention", "home maintenance"],
   date: "2026-09-17",
   updated: "2026-09-24",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 88, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-17",
   excerpt: "A sump pump doesn't stop water from ever reaching your basement — it intercepts groundwater in a pit and pumps it out faster than it can rise past the floor.",
@@ -52,9 +52,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "scheduled",
-  youtubeUrl: "https://www.youtube.com/watch?v=WgMedm6T8Z8",
-  youtubeScheduledAt: "2026-09-18T22:00:00Z",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

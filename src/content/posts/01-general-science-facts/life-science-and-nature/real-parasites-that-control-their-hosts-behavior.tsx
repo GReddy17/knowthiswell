@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["parasites", "cordyceps", "toxoplasmosis", "animal behavior", "evolution"],
   date: "2026-09-22",
   updated: "2026-09-26",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "\"Zombie\" parasites aren't science fiction — real fungi and protozoans genuinely hijack their hosts' behavior to complete their own life cycle.",

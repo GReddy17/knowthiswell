@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["atoms", "elements", "periodic table", "protons", "chemistry"],
   date: "2026-08-16",
   updated: "2026-09-30",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 84, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What atoms are actually made of, why the number of protons defines which element you have, and how the periodic table organizes every known element by pattern.",
@@ -51,8 +51,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=nTlxTnFVaXM",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

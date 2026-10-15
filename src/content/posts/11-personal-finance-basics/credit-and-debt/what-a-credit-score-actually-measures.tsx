@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["credit score", "FICO", "credit history", "personal finance basics", "financial literacy"],
   date: "2026-08-22",
   updated: "2026-09-27",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 88, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-22",
   excerpt: "A credit score isn't a measure of income or wealth — it's a statistical estimate of how likely you are to repay debt on time, built almost entirely from your payment history and how much of your available credit you use.",
@@ -49,8 +49,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=voWrfvnbd00",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

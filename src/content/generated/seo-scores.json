@@ -1,6 +1,6 @@
 {
- "scoredOn": "2026-10-03",
- "count": 911,
+ "scoredOn": "2026-10-14",
+ "count": 931,
  "rows": [
   {
    "key": "general-science-facts/aging-and-the-human-lifespan",
@@ -277,7 +277,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "01-general-science-facts/biology-and-human-body/sleep-and-the-brain.tsx"
   },
@@ -627,9 +627,9 @@
    "title": "El Niño and La Niña Explained",
    "cat": "general-science-facts",
    "words": 1509,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 4,
-   "seoScore": 76,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
@@ -637,7 +637,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 9,
-    "format": 2
+    "format": 4
    },
    "shortFit": 39,
    "shortBreakdown": {
@@ -874,16 +874,16 @@
    "key": "general-science-facts/what-makes-a-noreaster-different-from-a-hurricane",
    "title": "What Makes a Nor'easter Different From a Hurricane?",
    "cat": "general-science-facts",
-   "words": 1502,
+   "words": 1873,
    "quiz": 7,
    "incoming": 3,
-   "seoScore": 83,
+   "seoScore": 85,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
-    "depth": 28,
+    "depth": 30,
     "linking": 7,
     "format": 4
    },
@@ -959,7 +959,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "01-general-science-facts/life-science-and-nature/are-bats-really-blind.tsx"
   },
@@ -1122,17 +1122,17 @@
    "key": "general-science-facts/microorganisms",
    "title": "Microorganisms: Bacteria, Viruses, and the Invisible Majority of Life",
    "cat": "general-science-facts",
-   "words": 2628,
+   "words": 2650,
    "quiz": 5,
-   "incoming": 3,
-   "seoScore": 74,
+   "incoming": 4,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 7,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 8,
+    "linking": 10,
     "format": 2
    },
    "shortFit": 26,
@@ -1207,7 +1207,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "01-general-science-facts/life-science-and-nature/real-parasites-that-control-their-hosts-behavior.tsx"
   },
@@ -1249,7 +1249,7 @@
    "words": 1485,
    "quiz": 8,
    "incoming": 2,
-   "seoScore": 84,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
@@ -1257,7 +1257,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 6,
-    "format": 8
+    "format": 4
    },
    "shortFit": 49,
    "shortBreakdown": {
@@ -1268,8 +1268,8 @@
     "season": 12,
     "bonus": 0
    },
-   "video": "scheduled",
-   "youtubeShort": true,
+   "video": "not-started",
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "01-general-science-facts/life-science-and-nature/why-bears-need-to-double-their-body-fat-before-hibernation.tsx"
   },
@@ -1280,7 +1280,7 @@
    "words": 1406,
    "quiz": 9,
    "incoming": 8,
-   "seoScore": 84,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 7,
@@ -1288,7 +1288,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 14,
-    "format": 8
+    "format": 4
    },
    "shortFit": 26,
    "shortBreakdown": {
@@ -1299,9 +1299,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "01-general-science-facts/physical-science/atoms-and-elements.tsx"
   },
   {
@@ -1311,7 +1311,7 @@
    "words": 1884,
    "quiz": 6,
    "incoming": 8,
-   "seoScore": 89,
+   "seoScore": 85,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
@@ -1319,7 +1319,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 13,
-    "format": 6
+    "format": 2
    },
    "shortFit": 38,
    "shortBreakdown": {
@@ -1330,9 +1330,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "scheduled",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "01-general-science-facts/physical-science/density-and-buoyancy.tsx"
   },
   {
@@ -1370,17 +1370,17 @@
    "key": "general-science-facts/does-a-microwave-really-heat-food-from-the-inside-out",
    "title": "Does a Microwave Really Heat Food From the Inside Out?",
    "cat": "general-science-facts",
-   "words": 2055,
+   "words": 2466,
    "quiz": 5,
-   "incoming": 1,
-   "seoScore": 81,
+   "incoming": 3,
+   "seoScore": 85,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 5,
+    "linking": 9,
     "format": 4
    },
    "shortFit": 50,
@@ -1393,7 +1393,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "01-general-science-facts/physical-science/does-a-microwave-really-heat-food-from-the-inside-out.tsx"
   },
@@ -1432,17 +1432,17 @@
    "key": "general-science-facts/does-pure-water-actually-conduct-electricity",
    "title": "Does Pure Water Actually Conduct Electricity?",
    "cat": "general-science-facts",
-   "words": 2060,
+   "words": 2423,
    "quiz": 5,
-   "incoming": 1,
-   "seoScore": 81,
+   "incoming": 3,
+   "seoScore": 83,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
-    "depth": 30,
-    "linking": 5,
+    "depth": 28,
+    "linking": 9,
     "format": 4
    },
    "shortFit": 45,
@@ -1466,7 +1466,7 @@
    "words": 2069,
    "quiz": 8,
    "incoming": 8,
-   "seoScore": 87,
+   "seoScore": 83,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
@@ -1474,7 +1474,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 15,
-    "format": 6
+    "format": 2
    },
    "shortFit": 26,
    "shortBreakdown": {
@@ -1485,9 +1485,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "01-general-science-facts/physical-science/electricity-and-magnetism-basics.tsx"
   },
   {
@@ -1497,7 +1497,7 @@
    "words": 1819,
    "quiz": 9,
    "incoming": 11,
-   "seoScore": 81,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
@@ -1505,7 +1505,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 13,
-    "format": 8
+    "format": 4
    },
    "shortFit": 31,
    "shortBreakdown": {
@@ -1516,9 +1516,9 @@
     "season": 5,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "01-general-science-facts/physical-science/energy-types-and-conservation.tsx"
   },
   {
@@ -1528,7 +1528,7 @@
    "words": 1427,
    "quiz": 7,
    "incoming": 13,
-   "seoScore": 80,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 7,
@@ -1536,7 +1536,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 12,
-    "format": 6
+    "format": 2
    },
    "shortFit": 26,
    "shortBreakdown": {
@@ -1547,9 +1547,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
+   "video": "not-started",
    "youtubeShort": false,
-   "youtubeLong": true,
+   "youtubeLong": false,
    "file": "01-general-science-facts/physical-science/forces-and-motion.tsx"
   },
   {
@@ -1590,7 +1590,7 @@
    "words": 1845,
    "quiz": 7,
    "incoming": 4,
-   "seoScore": 77,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
@@ -1598,7 +1598,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 8,
-    "format": 6
+    "format": 2
    },
    "shortFit": 26,
    "shortBreakdown": {
@@ -1609,9 +1609,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "01-general-science-facts/physical-science/light-color-and-sound.tsx"
   },
   {
@@ -1621,7 +1621,7 @@
    "words": 2481,
    "quiz": 5,
    "incoming": 20,
-   "seoScore": 88,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
@@ -1629,7 +1629,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 15,
-    "format": 6
+    "format": 2
    },
    "shortFit": 26,
    "shortBreakdown": {
@@ -1640,9 +1640,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "01-general-science-facts/physical-science/matter-and-states-of-matter.tsx"
   },
   {
@@ -1652,7 +1652,7 @@
    "words": 1751,
    "quiz": 7,
    "incoming": 6,
-   "seoScore": 88,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
@@ -1660,7 +1660,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 12,
-    "format": 6
+    "format": 2
    },
    "shortFit": 50,
    "shortBreakdown": {
@@ -1671,8 +1671,8 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
+   "video": "not-started",
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "01-general-science-facts/physical-science/pressure.tsx"
   },
@@ -1683,7 +1683,7 @@
    "words": 2539,
    "quiz": 5,
    "incoming": 1,
-   "seoScore": 71,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
@@ -1691,7 +1691,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 3,
-    "format": 6
+    "format": 2
    },
    "shortFit": 26,
    "shortBreakdown": {
@@ -1702,9 +1702,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "01-general-science-facts/physical-science/simple-machines.tsx"
   },
   {
@@ -1982,7 +1982,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "01-general-science-facts/space-and-astronomy/space-exploration-and-technology.tsx"
   },
@@ -1993,7 +1993,7 @@
    "words": 2590,
    "quiz": 12,
    "incoming": 3,
-   "seoScore": 86,
+   "seoScore": 82,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
@@ -2001,7 +2001,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 8,
-    "format": 8
+    "format": 4
    },
    "shortFit": 35,
    "shortBreakdown": {
@@ -2012,9 +2012,9 @@
     "season": 9,
     "bonus": 0
    },
-   "video": "scheduled",
+   "video": "not-started",
    "youtubeShort": false,
-   "youtubeLong": true,
+   "youtubeLong": false,
    "file": "01-general-science-facts/space-and-astronomy/space-stars-and-the-universe.tsx"
   },
   {
@@ -2044,7 +2044,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "01-general-science-facts/space-and-astronomy/why-we-always-see-the-same-side-of-the-moon.tsx"
   },
@@ -2767,15 +2767,15 @@
    "cat": "math-numbers",
    "words": 1711,
    "quiz": 0,
-   "incoming": 3,
-   "seoScore": 76,
+   "incoming": 4,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
     "freshness": 8,
     "depth": 30,
-    "linking": 8,
+    "linking": 9,
     "format": 0
    },
    "shortFit": 32,
@@ -2881,7 +2881,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "02-math-numbers/math-curiosities/big-numbers-explained-million-billion-trillion-what-they-actually-mean.tsx"
   },
@@ -2912,7 +2912,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "02-math-numbers/math-curiosities/math-illusions-and-paradoxes.tsx"
   },
@@ -3078,7 +3078,7 @@
    "words": 846,
    "quiz": 8,
    "incoming": 13,
-   "seoScore": 74,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
@@ -3086,7 +3086,7 @@
     "freshness": 10,
     "depth": 22,
     "linking": 15,
-    "format": 6
+    "format": 2
    },
    "shortFit": 23,
    "shortBreakdown": {
@@ -3097,9 +3097,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "02-math-numbers/number-basics/percentages-explained.tsx"
   },
   {
@@ -3935,7 +3935,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "03-geography-world-facts/geography-curiosities/geography-myths-and-misconceptions.tsx"
   },
@@ -4152,7 +4152,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "03-geography-world-facts/maps-and-navigation/time-zones-explained.tsx"
   },
@@ -4245,7 +4245,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "03-geography-world-facts/natural-wonders-and-landmarks/longest-tallest-deepest-world-superlatives.tsx"
   },
@@ -4493,7 +4493,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "03-geography-world-facts/physical-geography/deserts-of-the-world.tsx"
   },
@@ -4803,7 +4803,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "03-geography-world-facts/political-geography/worlds-largest-and-smallest-countries.tsx"
   },
@@ -4927,7 +4927,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "03-geography-world-facts/population-and-demographics/world-population-facts.tsx"
   },
@@ -5618,17 +5618,17 @@
    "title": "Ancient China",
    "cat": "history-timeline-facts",
    "words": 1612,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 6,
-    "format": 0
+    "format": 2
    },
    "shortFit": 32,
    "shortBreakdown": {
@@ -5649,17 +5649,17 @@
    "title": "Ancient Egypt",
    "cat": "history-timeline-facts",
    "words": 1584,
-   "quiz": 0,
-   "incoming": 2,
-   "seoScore": 71,
+   "quiz": 8,
+   "incoming": 3,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
-    "linking": 6,
-    "format": 0
+    "linking": 7,
+    "format": 2
    },
    "shortFit": 20,
    "shortBreakdown": {
@@ -5680,17 +5680,17 @@
    "title": "Ancient Greece",
    "cat": "history-timeline-facts",
    "words": 1512,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 5,
-   "seoScore": 74,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 9,
-    "format": 0
+    "format": 2
    },
    "shortFit": 20,
    "shortBreakdown": {
@@ -5711,17 +5711,17 @@
    "title": "Ancient Mesopotamia",
    "cat": "history-timeline-facts",
    "words": 1431,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 5,
-   "seoScore": 68,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 9,
-    "format": 0
+    "format": 2
    },
    "shortFit": 20,
    "shortBreakdown": {
@@ -5742,17 +5742,17 @@
    "title": "Ancient Rome",
    "cat": "history-timeline-facts",
    "words": 1655,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 4,
-   "seoScore": 69,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 8,
-    "format": 0
+    "format": 2
    },
    "shortFit": 20,
    "shortBreakdown": {
@@ -5773,17 +5773,17 @@
    "title": "Indus Valley Civilization",
    "cat": "history-timeline-facts",
    "words": 1455,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 6,
-    "format": 0
+    "format": 2
    },
    "shortFit": 20,
    "shortBreakdown": {
@@ -5804,17 +5804,17 @@
    "title": "Mesoamerican Civilizations (Maya, Aztec, Inca)",
    "cat": "history-timeline-facts",
    "words": 1639,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 0,
-   "seoScore": 71,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 3,
-    "format": 0
+    "format": 2
    },
    "shortFit": 20,
    "shortBreakdown": {
@@ -5834,18 +5834,18 @@
    "key": "history-timeline-facts/scientists-who-changed-history",
    "title": "Scientists Who Changed History",
    "cat": "history-timeline-facts",
-   "words": 1951,
-   "quiz": 0,
+   "words": 1967,
+   "quiz": 7,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 5,
-    "format": 0
+    "format": 2
    },
    "shortFit": 25,
    "shortBreakdown": {
@@ -5865,18 +5865,18 @@
    "key": "history-timeline-facts/social-reformers-and-activists-through-history",
    "title": "Social Reformers & Activists Through History",
    "cat": "history-timeline-facts",
-   "words": 1952,
-   "quiz": 0,
+   "words": 1968,
+   "quiz": 7,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 5,
-    "format": 0
+    "format": 2
    },
    "shortFit": 25,
    "shortBreakdown": {
@@ -5896,18 +5896,18 @@
    "key": "history-timeline-facts/world-leaders-who-changed-history",
    "title": "World Leaders Who Changed History",
    "cat": "history-timeline-facts",
-   "words": 1980,
-   "quiz": 0,
+   "words": 1996,
+   "quiz": 7,
    "incoming": 6,
-   "seoScore": 77,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 11,
-    "format": 0
+    "format": 2
    },
    "shortFit": 20,
    "shortBreakdown": {
@@ -6725,7 +6725,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "05-language-vocabulary/english-language-specifics/british-vs-american-english-differences.tsx"
   },
@@ -6826,18 +6826,18 @@
    "key": "language-vocabulary/common-foreign-phrases-used-in-english",
    "title": "Common Foreign Phrases Used in English",
    "cat": "language-vocabulary",
-   "words": 1546,
-   "quiz": 0,
+   "words": 1562,
+   "quiz": 7,
    "incoming": 2,
-   "seoScore": 68,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 6,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -6857,18 +6857,18 @@
    "key": "language-vocabulary/palindromes-and-wordplay",
    "title": "Palindromes & Wordplay",
    "cat": "language-vocabulary",
-   "words": 1609,
-   "quiz": 0,
+   "words": 1625,
+   "quiz": 7,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
-    "linking": 6,
-    "format": 0
+    "linking": 7,
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -6888,18 +6888,18 @@
    "key": "language-vocabulary/portmanteau-words-blended-words",
    "title": "Portmanteau Words (blended words)",
    "cat": "language-vocabulary",
-   "words": 1419,
-   "quiz": 0,
+   "words": 1435,
+   "quiz": 7,
    "incoming": 4,
-   "seoScore": 73,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 8,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -6919,18 +6919,18 @@
    "key": "language-vocabulary/tongue-twisters-explained",
    "title": "Tongue Twisters Explained",
    "cat": "language-vocabulary",
-   "words": 1501,
-   "quiz": 0,
+   "words": 1517,
+   "quiz": 7,
    "incoming": 1,
-   "seoScore": 63,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 4,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -6950,18 +6950,18 @@
    "key": "language-vocabulary/untranslatable-words-from-other-languages",
    "title": "Untranslatable Words from Other Languages",
    "cat": "language-vocabulary",
-   "words": 1527,
-   "quiz": 0,
+   "words": 1543,
+   "quiz": 7,
    "incoming": 1,
-   "seoScore": 66,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 4,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -7167,18 +7167,18 @@
    "key": "language-vocabulary/overview-of-major-indian-languages",
    "title": "Overview of Major Indian Languages",
    "cat": "language-vocabulary",
-   "words": 1640,
-   "quiz": 0,
-   "incoming": 2,
-   "seoScore": 66,
+   "words": 1656,
+   "quiz": 7,
+   "incoming": 3,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
-    "linking": 7,
-    "format": 0
+    "linking": 8,
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -7198,18 +7198,18 @@
    "key": "language-vocabulary/regional-scripts-explained-devanagari-tamil-telugu-etc",
    "title": "Regional Scripts Explained (Devanagari, Tamil, Telugu, etc.)",
    "cat": "language-vocabulary",
-   "words": 1839,
-   "quiz": 0,
+   "words": 1855,
+   "quiz": 7,
    "incoming": 2,
-   "seoScore": 72,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 6,
-    "format": 0
+    "format": 2
    },
    "shortFit": 18,
    "shortBreakdown": {
@@ -7229,18 +7229,18 @@
    "key": "language-vocabulary/sanskrits-influence-on-modern-languages",
    "title": "Sanskrit's Influence on Modern Languages",
    "cat": "language-vocabulary",
-   "words": 1775,
-   "quiz": 0,
+   "words": 1791,
+   "quiz": 7,
    "incoming": 2,
-   "seoScore": 66,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 7,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -7664,17 +7664,17 @@
    "title": "Commonly Confused Words",
    "cat": "language-vocabulary",
    "words": 1789,
-   "quiz": 0,
+   "quiz": 7,
    "incoming": 3,
-   "seoScore": 65,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 7,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -7687,7 +7687,7 @@
    },
    "video": "not-started",
    "youtubeShort": false,
-   "youtubeLong": false,
+   "youtubeLong": true,
    "file": "05-language-vocabulary/vocabulary-building/commonly-confused-words.tsx"
   },
   {
@@ -7849,18 +7849,18 @@
    "key": "language-vocabulary/academic-vocabulary",
    "title": "Academic Vocabulary",
    "cat": "language-vocabulary",
-   "words": 1732,
-   "quiz": 0,
+   "words": 1748,
+   "quiz": 7,
    "incoming": 1,
-   "seoScore": 63,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 4,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -7881,17 +7881,17 @@
    "title": "Business & Professional Vocabulary",
    "cat": "language-vocabulary",
    "words": 1718,
-   "quiz": 0,
+   "quiz": 9,
    "incoming": 2,
-   "seoScore": 64,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 4,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 6,
-    "format": 0
+    "format": 4
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -7912,17 +7912,17 @@
    "title": "Everyday Conversational Phrases",
    "cat": "language-vocabulary",
    "words": 1749,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 4,
-   "seoScore": 67,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 8,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -8253,17 +8253,17 @@
    "title": "Classical Indian Dance Forms Overview",
    "cat": "festivals-culture",
    "words": 1595,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 5,
-   "seoScore": 78,
+   "seoScore": 82,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 30,
     "linking": 10,
-    "format": 0
+    "format": 2
    },
    "shortFit": 18,
    "shortBreakdown": {
@@ -8284,17 +8284,17 @@
    "title": "Festival Art & Craft Traditions (rangoli, mehndi, etc.)",
    "cat": "festivals-culture",
    "words": 1590,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 1,
-   "seoScore": 67,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 5,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -8315,17 +8315,17 @@
    "title": "Folk Dances of India",
    "cat": "festivals-culture",
    "words": 1552,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 3,
-   "seoScore": 67,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 8,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -8346,17 +8346,17 @@
    "title": "Traditional Music Instruments Around the World",
    "cat": "festivals-culture",
    "words": 1412,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 1,
-   "seoScore": 69,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 5,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -8377,17 +8377,17 @@
    "title": "World Dance Traditions Overview",
    "cat": "festivals-culture",
    "words": 1480,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 3,
-   "seoScore": 67,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 8,
-    "format": 0
+    "format": 2
    },
    "shortFit": 12,
    "shortBreakdown": {
@@ -8749,17 +8749,17 @@
    "title": "Common Festival Myths & Misconceptions",
    "cat": "festivals-culture",
    "words": 1638,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 5,
-   "seoScore": 73,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 8,
+    "freshness": 10,
     "depth": 27,
     "linking": 10,
-    "format": 0
+    "format": 2
    },
    "shortFit": 27,
    "shortBreakdown": {
@@ -9805,12 +9805,12 @@
    "words": 1478,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -9836,12 +9836,12 @@
    "words": 1709,
    "quiz": 0,
    "incoming": 7,
-   "seoScore": 79,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 14,
     "format": 0
@@ -9867,12 +9867,12 @@
    "words": 1727,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -9898,12 +9898,12 @@
    "words": 1710,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -9929,12 +9929,12 @@
    "words": 1675,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -9960,12 +9960,12 @@
    "words": 1661,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -9991,12 +9991,12 @@
    "words": 1642,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 64,
+   "seoScore": 62,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 2,
     "format": 0
@@ -10022,12 +10022,12 @@
    "words": 1755,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 2,
     "format": 0
@@ -10053,12 +10053,12 @@
    "words": 1569,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -10084,12 +10084,12 @@
    "words": 1201,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 29,
     "linking": 6,
     "format": 0
@@ -10115,12 +10115,12 @@
    "words": 1333,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 65,
+   "seoScore": 63,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -10144,9 +10144,9 @@
    "title": "Historical Origins of Length Units (Foot, Cubit, Yard)",
    "cat": "units-measurement-conversions",
    "words": 1583,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 0,
-   "seoScore": 71,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
@@ -10154,7 +10154,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 3,
-    "format": 0
+    "format": 2
    },
    "shortFit": 16,
    "shortBreakdown": {
@@ -10177,12 +10177,12 @@
    "words": 1316,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 29,
     "linking": 6,
     "format": 0
@@ -10206,9 +10206,9 @@
    "title": "Land Area Units: Acres, Hectares & Square Feet",
    "cat": "units-measurement-conversions",
    "words": 1284,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 1,
-   "seoScore": 67,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
@@ -10216,7 +10216,7 @@
     "freshness": 10,
     "depth": 29,
     "linking": 4,
-    "format": 0
+    "format": 2
    },
    "shortFit": 16,
    "shortBreakdown": {
@@ -10239,12 +10239,12 @@
    "words": 1521,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -10270,12 +10270,12 @@
    "words": 1315,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 29,
     "linking": 8,
     "format": 0
@@ -10301,12 +10301,12 @@
    "words": 1406,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 65,
+   "seoScore": 63,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -10332,12 +10332,12 @@
    "words": 1528,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 5,
     "format": 0
@@ -10363,12 +10363,12 @@
    "words": 1490,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 66,
+   "seoScore": 64,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -10394,7 +10394,7 @@
    "words": 1325,
    "quiz": 8,
    "incoming": 7,
-   "seoScore": 87,
+   "seoScore": 83,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
@@ -10402,7 +10402,7 @@
     "freshness": 10,
     "depth": 29,
     "linking": 12,
-    "format": 6
+    "format": 2
    },
    "shortFit": 16,
    "shortBreakdown": {
@@ -10413,9 +10413,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "07-units-measurement-conversions/temperature-and-energy/celsius-vs-fahrenheit-the-conversion-formula.tsx"
   },
   {
@@ -10425,12 +10425,12 @@
    "words": 1367,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 66,
+   "seoScore": 64,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -10456,12 +10456,12 @@
    "words": 1585,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -10487,12 +10487,12 @@
    "words": 1462,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -10518,12 +10518,12 @@
    "words": 1536,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -10548,15 +10548,15 @@
    "cat": "units-measurement-conversions",
    "words": 1781,
    "quiz": 0,
-   "incoming": 1,
+   "incoming": 2,
    "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
-    "linking": 3,
+    "linking": 5,
     "format": 0
    },
    "shortFit": 16,
@@ -10580,12 +10580,12 @@
    "words": 1927,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -10611,12 +10611,12 @@
    "words": 1871,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 80,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -10642,12 +10642,12 @@
    "words": 1739,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -10673,12 +10673,12 @@
    "words": 1618,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -10704,12 +10704,12 @@
    "words": 1487,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 7,
     "format": 0
@@ -10735,12 +10735,12 @@
    "words": 1558,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 81,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -10766,12 +10766,12 @@
    "words": 1828,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 80,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -10797,12 +10797,12 @@
    "words": 1688,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -10828,12 +10828,12 @@
    "words": 1866,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -10859,12 +10859,12 @@
    "words": 1663,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -10890,12 +10890,12 @@
    "words": 1434,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -10921,12 +10921,12 @@
    "words": 1658,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -10952,12 +10952,12 @@
    "words": 1614,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -10983,12 +10983,12 @@
    "words": 1544,
    "quiz": 0,
    "incoming": 10,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 13,
     "format": 0
@@ -11014,12 +11014,12 @@
    "words": 1743,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 64,
+   "seoScore": 62,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -11045,12 +11045,12 @@
    "words": 1469,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 65,
+   "seoScore": 63,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -11076,12 +11076,12 @@
    "words": 1516,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -11107,12 +11107,12 @@
    "words": 1366,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 2,
     "format": 0
@@ -11138,12 +11138,12 @@
    "words": 1599,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 61,
+   "seoScore": 59,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -11169,12 +11169,12 @@
    "words": 1689,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -11200,12 +11200,12 @@
    "words": 1452,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 79,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -11231,12 +11231,12 @@
    "words": 1810,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -11262,12 +11262,12 @@
    "words": 1534,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -11293,12 +11293,12 @@
    "words": 1581,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -11324,12 +11324,12 @@
    "words": 1389,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 2,
     "format": 0
@@ -11355,12 +11355,12 @@
    "words": 1495,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -11386,12 +11386,12 @@
    "words": 1835,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 81,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -11417,12 +11417,12 @@
    "words": 1468,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -11448,12 +11448,12 @@
    "words": 1442,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -11479,12 +11479,12 @@
    "words": 1596,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -11510,12 +11510,12 @@
    "words": 1385,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -11541,12 +11541,12 @@
    "words": 1474,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -11572,12 +11572,12 @@
    "words": 1379,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -11603,12 +11603,12 @@
    "words": 1508,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -11634,12 +11634,12 @@
    "words": 1478,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -11665,12 +11665,12 @@
    "words": 1475,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 2,
     "format": 0
@@ -11696,12 +11696,12 @@
    "words": 1781,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -11727,12 +11727,12 @@
    "words": 1583,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -11758,12 +11758,12 @@
    "words": 1772,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 82,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 10,
     "format": 0
@@ -11789,12 +11789,12 @@
    "words": 1552,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -11820,12 +11820,12 @@
    "words": 1639,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -11851,12 +11851,12 @@
    "words": 1537,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 7,
     "format": 0
@@ -11882,12 +11882,12 @@
    "words": 1456,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 8,
     "format": 0
@@ -11913,12 +11913,12 @@
    "words": 1590,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 80,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -11944,12 +11944,12 @@
    "words": 1931,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -11975,12 +11975,12 @@
    "words": 1902,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -12026,7 +12026,7 @@
     "bonus": 10
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "08-general-awareness-basics/global-institutions-and-bodies/nobel-prizes-categories-and-how-winners-are-chosen.tsx"
   },
@@ -12037,12 +12037,12 @@
    "words": 1578,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -12068,12 +12068,12 @@
    "words": 1833,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -12099,12 +12099,12 @@
    "words": 1418,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -12129,13 +12129,13 @@
    "cat": "general-awareness-basics",
    "words": 1871,
    "quiz": 0,
-   "incoming": 13,
-   "seoScore": 84,
+   "incoming": 14,
+   "seoScore": 82,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 13,
     "format": 0
@@ -12161,12 +12161,12 @@
    "words": 1637,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -12223,12 +12223,12 @@
    "words": 1744,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -12254,12 +12254,12 @@
    "words": 1567,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 10,
     "format": 0
@@ -12285,12 +12285,12 @@
    "words": 1635,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -12316,12 +12316,12 @@
    "words": 1689,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -12347,12 +12347,12 @@
    "words": 1588,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -12378,12 +12378,12 @@
    "words": 1715,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -12408,15 +12408,15 @@
    "cat": "general-awareness-basics",
    "words": 1480,
    "quiz": 0,
-   "incoming": 3,
-   "seoScore": 74,
+   "incoming": 4,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
-    "linking": 7,
+    "linking": 8,
     "format": 0
    },
    "shortFit": 21,
@@ -12440,12 +12440,12 @@
    "words": 1545,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 80,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -12470,13 +12470,13 @@
    "cat": "general-awareness-basics",
    "words": 1779,
    "quiz": 0,
-   "incoming": 9,
-   "seoScore": 86,
+   "incoming": 10,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 14,
     "format": 0
@@ -12502,12 +12502,12 @@
    "words": 1509,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 11,
     "format": 0
@@ -12533,12 +12533,12 @@
    "words": 1535,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 11,
     "format": 0
@@ -12564,12 +12564,12 @@
    "words": 1548,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 66,
+   "seoScore": 64,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -12595,12 +12595,12 @@
    "words": 1688,
    "quiz": 0,
    "incoming": 8,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 14,
     "format": 0
@@ -12626,12 +12626,12 @@
    "words": 1551,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -12688,12 +12688,12 @@
    "words": 1595,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -12719,12 +12719,12 @@
    "words": 1575,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -12750,12 +12750,12 @@
    "words": 1898,
    "quiz": 0,
    "incoming": 7,
-   "seoScore": 84,
+   "seoScore": 82,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 12,
     "format": 0
@@ -12781,12 +12781,12 @@
    "words": 1440,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -12812,12 +12812,12 @@
    "words": 1499,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -12843,12 +12843,12 @@
    "words": 1655,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -12872,9 +12872,9 @@
    "title": "What a Census Is and Why It Matters",
    "cat": "general-awareness-basics",
    "words": 1534,
-   "quiz": 0,
+   "quiz": 7,
    "incoming": 1,
-   "seoScore": 75,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 7,
@@ -12882,7 +12882,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 4,
-    "format": 0
+    "format": 2
    },
    "shortFit": 25,
    "shortBreakdown": {
@@ -12905,12 +12905,12 @@
    "words": 1746,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -12936,12 +12936,12 @@
    "words": 1464,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -12967,12 +12967,12 @@
    "words": 1581,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -12998,12 +12998,12 @@
    "words": 1705,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 66,
+   "seoScore": 64,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 5,
     "format": 0
@@ -13029,12 +13029,12 @@
    "words": 1476,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -13060,12 +13060,12 @@
    "words": 1512,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -13091,12 +13091,12 @@
    "words": 1576,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 7,
     "format": 0
@@ -13122,12 +13122,12 @@
    "words": 1524,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 65,
+   "seoScore": 63,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -13153,7 +13153,7 @@
    "words": 1589,
    "quiz": 7,
    "incoming": 4,
-   "seoScore": 78,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
@@ -13161,7 +13161,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 8,
-    "format": 6
+    "format": 2
    },
    "shortFit": 31,
    "shortBreakdown": {
@@ -13172,9 +13172,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "09-health-body-basics/body-basics-curiosities/what-body-mass-index-actually-measures-and-its-limits.tsx"
   },
   {
@@ -13246,12 +13246,12 @@
    "words": 1593,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 60,
+   "seoScore": 58,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -13276,15 +13276,15 @@
    "cat": "health-body-basics",
    "words": 1682,
    "quiz": 0,
-   "incoming": 2,
-   "seoScore": 65,
+   "incoming": 3,
+   "seoScore": 64,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
-    "linking": 6,
+    "linking": 7,
     "format": 0
    },
    "shortFit": 19,
@@ -13307,15 +13307,15 @@
    "cat": "health-body-basics",
    "words": 1694,
    "quiz": 0,
-   "incoming": 3,
-   "seoScore": 71,
+   "incoming": 4,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
-    "linking": 8,
+    "linking": 9,
     "format": 0
    },
    "shortFit": 24,
@@ -13339,12 +13339,12 @@
    "words": 1784,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 9,
     "format": 0
@@ -13359,7 +13359,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "09-health-body-basics/common-illnesses-and-when-to-seek-care/understanding-fever-whats-actually-happening.tsx"
   },
@@ -13370,12 +13370,12 @@
    "words": 1433,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -13399,17 +13399,17 @@
    "title": "Understanding the Common Cold vs Flu",
    "cat": "health-body-basics",
    "words": 1686,
-   "quiz": 0,
+   "quiz": 6,
    "incoming": 4,
-   "seoScore": 75,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 8,
-    "format": 4
+    "format": 2
    },
    "shortFit": 27,
    "shortBreakdown": {
@@ -13420,9 +13420,9 @@
     "season": 8,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "09-health-body-basics/common-illnesses-and-when-to-seek-care/understanding-the-common-cold-vs-flu.tsx"
   },
   {
@@ -13432,12 +13432,12 @@
    "words": 1726,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 66,
+   "seoScore": 64,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -13463,12 +13463,12 @@
    "words": 1502,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 8,
     "format": 0
@@ -13494,12 +13494,12 @@
    "words": 1368,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -13525,12 +13525,12 @@
    "words": 1604,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 8,
     "format": 0
@@ -13556,12 +13556,12 @@
    "words": 1438,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 63,
+   "seoScore": 61,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 2,
     "format": 0
@@ -13587,12 +13587,12 @@
    "words": 1624,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 7,
     "format": 0
@@ -13618,12 +13618,12 @@
    "words": 1392,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 66,
+   "seoScore": 64,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 2,
     "format": 0
@@ -13649,12 +13649,12 @@
    "words": 1438,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 66,
+   "seoScore": 64,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -13680,12 +13680,12 @@
    "words": 1352,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 2,
     "format": 0
@@ -13710,15 +13710,15 @@
    "cat": "health-body-basics",
    "words": 1497,
    "quiz": 0,
-   "incoming": 1,
+   "incoming": 2,
    "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
-    "linking": 3,
+    "linking": 5,
     "format": 0
    },
    "shortFit": 27,
@@ -13773,12 +13773,12 @@
    "words": 1486,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 80,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -13804,12 +13804,12 @@
    "words": 1668,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -13835,12 +13835,12 @@
    "words": 1642,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 65,
+   "seoScore": 63,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -13866,12 +13866,12 @@
    "words": 1750,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -13897,12 +13897,12 @@
    "words": 1573,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 8,
     "format": 0
@@ -13928,12 +13928,12 @@
    "words": 1685,
    "quiz": 0,
    "incoming": 12,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 13,
     "format": 0
@@ -13959,12 +13959,12 @@
    "words": 1618,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -13990,12 +13990,12 @@
    "words": 1604,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 7,
     "format": 0
@@ -14021,12 +14021,12 @@
    "words": 1431,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 7,
     "format": 0
@@ -14052,12 +14052,12 @@
    "words": 1464,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 5,
     "format": 0
@@ -14083,12 +14083,12 @@
    "words": 1390,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 8,
     "format": 0
@@ -14114,12 +14114,12 @@
    "words": 1486,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -14145,12 +14145,12 @@
    "words": 1440,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -14176,12 +14176,12 @@
    "words": 1561,
    "quiz": 0,
    "incoming": 7,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 13,
     "format": 0
@@ -14206,15 +14206,15 @@
    "cat": "health-body-basics",
    "words": 1572,
    "quiz": 0,
-   "incoming": 2,
-   "seoScore": 74,
+   "incoming": 3,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
-    "linking": 6,
+    "linking": 7,
     "format": 0
    },
    "shortFit": 24,
@@ -14238,12 +14238,12 @@
    "words": 1596,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 5,
     "format": 0
@@ -14267,9 +14267,9 @@
    "title": "Understanding Stress and the Body (General Overview)",
    "cat": "health-body-basics",
    "words": 1575,
-   "quiz": 0,
+   "quiz": 7,
    "incoming": 8,
-   "seoScore": 77,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
@@ -14277,7 +14277,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 14,
-    "format": 0
+    "format": 2
    },
    "shortFit": 27,
    "shortBreakdown": {
@@ -14300,7 +14300,7 @@
    "words": 2255,
    "quiz": 6,
    "incoming": 4,
-   "seoScore": 75,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
@@ -14308,7 +14308,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 8,
-    "format": 6
+    "format": 2
    },
    "shortFit": 19,
    "shortBreakdown": {
@@ -14319,8 +14319,8 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
+   "video": "not-started",
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "09-health-body-basics/vaccination-and-preventive-health-literacy/common-vaccine-myths-and-misconceptions.tsx"
   },
@@ -14331,12 +14331,12 @@
    "words": 1915,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 81,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -14362,12 +14362,12 @@
    "words": 1754,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -14393,12 +14393,12 @@
    "words": 1822,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -14424,12 +14424,12 @@
    "words": 1606,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -14455,12 +14455,12 @@
    "words": 1614,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -14486,12 +14486,12 @@
    "words": 1622,
    "quiz": 0,
    "incoming": 7,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 12,
     "format": 0
@@ -14517,12 +14517,12 @@
    "words": 1608,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 80,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 11,
     "format": 0
@@ -14548,12 +14548,12 @@
    "words": 2057,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -14579,12 +14579,12 @@
    "words": 1998,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 10,
     "format": 0
@@ -14610,12 +14610,12 @@
    "words": 1938,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -14641,12 +14641,12 @@
    "words": 1947,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -14672,12 +14672,12 @@
    "words": 1991,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -14703,12 +14703,12 @@
    "words": 1916,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -14734,12 +14734,12 @@
    "words": 1955,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 79,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -14765,12 +14765,12 @@
    "words": 1899,
    "quiz": 0,
    "incoming": 8,
-   "seoScore": 82,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 13,
     "format": 0
@@ -14796,12 +14796,12 @@
    "words": 1432,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -14827,12 +14827,12 @@
    "words": 1474,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -14858,12 +14858,12 @@
    "words": 1646,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -14889,12 +14889,12 @@
    "words": 1417,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -14920,12 +14920,12 @@
    "words": 1403,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -14951,12 +14951,12 @@
    "words": 1393,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -14982,12 +14982,12 @@
    "words": 1645,
    "quiz": 0,
    "incoming": 12,
-   "seoScore": 87,
+   "seoScore": 85,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 13,
     "format": 0
@@ -15013,12 +15013,12 @@
    "words": 1417,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -15044,12 +15044,12 @@
    "words": 1712,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 5,
     "format": 0
@@ -15075,12 +15075,12 @@
    "words": 1828,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 7,
     "format": 0
@@ -15106,12 +15106,12 @@
    "words": 1635,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 65,
+   "seoScore": 63,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -15137,12 +15137,12 @@
    "words": 1609,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -15168,12 +15168,12 @@
    "words": 1589,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -15199,12 +15199,12 @@
    "words": 1641,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 7,
     "format": 0
@@ -15230,12 +15230,12 @@
    "words": 1609,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -15261,12 +15261,12 @@
    "words": 1649,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 7,
     "format": 0
@@ -15292,12 +15292,12 @@
    "words": 1634,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 8,
     "format": 0
@@ -15321,17 +15321,17 @@
    "title": "Carbon Trading & Carbon Tax Explained",
    "cat": "environment-nature",
    "words": 1951,
-   "quiz": 0,
+   "quiz": 6,
    "incoming": 3,
-   "seoScore": 72,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
-    "linking": 7,
-    "format": 0
+    "linking": 8,
+    "format": 2
    },
    "shortFit": 22,
    "shortBreakdown": {
@@ -15351,18 +15351,18 @@
    "key": "environment-nature/corporate-sustainability-reporting-esg-basics",
    "title": "Corporate Sustainability Reporting (ESG Basics)",
    "cat": "environment-nature",
-   "words": 1679,
-   "quiz": 0,
-   "incoming": 0,
-   "seoScore": 67,
+   "words": 2046,
+   "quiz": 6,
+   "incoming": 3,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 3,
-    "format": 0
+    "linking": 8,
+    "format": 2
    },
    "shortFit": 22,
    "shortBreakdown": {
@@ -15385,12 +15385,12 @@
    "words": 1722,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -15416,12 +15416,12 @@
    "words": 1720,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -15447,12 +15447,12 @@
    "words": 1517,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -15476,17 +15476,17 @@
    "title": "Understanding Environmental Justice",
    "cat": "environment-nature",
    "words": 1774,
-   "quiz": 0,
+   "quiz": 6,
    "incoming": 4,
-   "seoScore": 73,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
-    "linking": 8,
-    "format": 0
+    "linking": 9,
+    "format": 2
    },
    "shortFit": 34,
    "shortBreakdown": {
@@ -15509,12 +15509,12 @@
    "words": 1865,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -15540,12 +15540,12 @@
    "words": 1794,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -15571,12 +15571,12 @@
    "words": 1520,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -15602,12 +15602,12 @@
    "words": 1523,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -15633,12 +15633,12 @@
    "words": 1433,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -15664,12 +15664,12 @@
    "words": 1472,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 65,
+   "seoScore": 63,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -15695,12 +15695,12 @@
    "words": 1456,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -15726,12 +15726,12 @@
    "words": 1499,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -15757,12 +15757,12 @@
    "words": 1438,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -15788,12 +15788,12 @@
    "words": 1527,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -15819,12 +15819,12 @@
    "words": 1600,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -15850,12 +15850,12 @@
    "words": 1855,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -15881,12 +15881,12 @@
    "words": 1864,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -15912,12 +15912,12 @@
    "words": 1800,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -15943,12 +15943,12 @@
    "words": 1859,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -15974,12 +15974,12 @@
    "words": 1813,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -16005,12 +16005,12 @@
    "words": 1888,
    "quiz": 0,
    "incoming": 7,
-   "seoScore": 82,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 12,
     "format": 0
@@ -16034,17 +16034,17 @@
    "title": "Understanding Carbon Offsetting",
    "cat": "environment-nature",
    "words": 1859,
-   "quiz": 0,
-   "incoming": 2,
-   "seoScore": 71,
+   "quiz": 6,
+   "incoming": 3,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
-    "linking": 6,
-    "format": 0
+    "linking": 8,
+    "format": 2
    },
    "shortFit": 22,
    "shortBreakdown": {
@@ -16067,12 +16067,12 @@
    "words": 1749,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -16098,12 +16098,12 @@
    "words": 1639,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -16129,12 +16129,12 @@
    "words": 1551,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -16160,12 +16160,12 @@
    "words": 1644,
    "quiz": 0,
    "incoming": 7,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 12,
     "format": 0
@@ -16191,12 +16191,12 @@
    "words": 1503,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -16222,12 +16222,12 @@
    "words": 1677,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 9,
     "format": 0
@@ -16253,12 +16253,12 @@
    "words": 1502,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 61,
+   "seoScore": 59,
    "seoBreakdown": {
     "title": 5,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 8,
     "format": 0
@@ -16284,12 +16284,12 @@
    "words": 1628,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -16313,9 +16313,9 @@
    "title": "Credit Cards Explained: Interest, Grace Periods, Minimum Payments",
    "cat": "personal-finance-basics",
    "words": 1659,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 5,
-   "seoScore": 74,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
@@ -16323,7 +16323,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 9,
-    "format": 0
+    "format": 2
    },
    "shortFit": 15,
    "shortBreakdown": {
@@ -16346,12 +16346,12 @@
    "words": 1714,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -16377,12 +16377,12 @@
    "words": 1590,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -16408,12 +16408,12 @@
    "words": 1707,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 26,
     "linking": 6,
     "format": 0
@@ -16439,12 +16439,12 @@
    "words": 1547,
    "quiz": 0,
    "incoming": 8,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 13,
     "format": 0
@@ -16459,7 +16459,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "11-personal-finance-basics/credit-and-debt/understanding-loans-principal-interest-and-terms.tsx"
   },
@@ -16470,12 +16470,12 @@
    "words": 1740,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -16501,7 +16501,7 @@
    "words": 1539,
    "quiz": 7,
    "incoming": 7,
-   "seoScore": 88,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
@@ -16509,7 +16509,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 13,
-    "format": 6
+    "format": 2
    },
    "shortFit": 27,
    "shortBreakdown": {
@@ -16520,9 +16520,9 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
-   "youtubeShort": true,
-   "youtubeLong": true,
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
    "file": "11-personal-finance-basics/credit-and-debt/what-a-credit-score-actually-measures.tsx"
   },
   {
@@ -16532,12 +16532,12 @@
    "words": 1705,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -16563,12 +16563,12 @@
    "words": 1504,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 64,
+   "seoScore": 62,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 26,
     "linking": 4,
     "format": 0
@@ -16594,12 +16594,12 @@
    "words": 1474,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 62,
+   "seoScore": 60,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 26,
     "linking": 6,
     "format": 0
@@ -16625,14 +16625,14 @@
    "words": 1380,
    "quiz": 8,
    "incoming": 2,
-   "seoScore": 68,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 26,
-    "linking": 6,
+    "linking": 7,
     "format": 2
    },
    "shortFit": 15,
@@ -16654,9 +16654,9 @@
    "title": "The 50/30/20 Budgeting Rule Explained",
    "cat": "personal-finance-basics",
    "words": 1385,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 5,
-   "seoScore": 77,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
@@ -16664,7 +16664,7 @@
     "freshness": 10,
     "depth": 26,
     "linking": 9,
-    "format": 0
+    "format": 2
    },
    "shortFit": 20,
    "shortBreakdown": {
@@ -16687,12 +16687,12 @@
    "words": 1521,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 26,
     "linking": 7,
     "format": 0
@@ -16749,12 +16749,12 @@
    "words": 1484,
    "quiz": 0,
    "incoming": 12,
-   "seoScore": 83,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 14,
     "format": 0
@@ -16780,12 +16780,12 @@
    "words": 1466,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 26,
     "linking": 8,
     "format": 0
@@ -16811,12 +16811,12 @@
    "words": 1395,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -16842,12 +16842,12 @@
    "words": 1550,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -16873,12 +16873,12 @@
    "words": 1602,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -16904,12 +16904,12 @@
    "words": 1403,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -16935,12 +16935,12 @@
    "words": 1416,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -16966,12 +16966,12 @@
    "words": 1798,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -16997,12 +16997,12 @@
    "words": 1477,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 66,
+   "seoScore": 64,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -17028,12 +17028,12 @@
    "words": 1725,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -17059,12 +17059,12 @@
    "words": 1472,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -17090,12 +17090,12 @@
    "words": 1473,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -17121,12 +17121,12 @@
    "words": 1542,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 10,
     "format": 0
@@ -17152,12 +17152,12 @@
    "words": 1458,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 3,
     "format": 0
@@ -17183,12 +17183,12 @@
    "words": 1586,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 8,
     "format": 0
@@ -17211,10 +17211,10 @@
    "key": "personal-finance-basics/understanding-retirement-accounts-basic-mechanics",
    "title": "Understanding Retirement Accounts: Basic Mechanics",
    "cat": "personal-finance-basics",
-   "words": 1755,
-   "quiz": 0,
+   "words": 1761,
+   "quiz": 8,
    "incoming": 8,
-   "seoScore": 78,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
@@ -17222,7 +17222,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 15,
-    "format": 0
+    "format": 2
    },
    "shortFit": 15,
    "shortBreakdown": {
@@ -17245,12 +17245,12 @@
    "words": 1289,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 63,
+   "seoScore": 61,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 25,
     "linking": 4,
     "format": 0
@@ -17275,15 +17275,15 @@
    "cat": "personal-finance-basics",
    "words": 1483,
    "quiz": 0,
-   "incoming": 4,
-   "seoScore": 71,
+   "incoming": 5,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
-    "linking": 8,
+    "linking": 9,
     "format": 0
    },
    "shortFit": 15,
@@ -17307,12 +17307,12 @@
    "words": 1274,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 27,
     "linking": 6,
     "format": 0
@@ -17338,12 +17338,12 @@
    "words": 1462,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -17369,12 +17369,12 @@
    "words": 1314,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 27,
     "linking": 10,
     "format": 0
@@ -17400,12 +17400,12 @@
    "words": 1510,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -17429,9 +17429,9 @@
    "title": "Why Emergency Funds Matter (and How Big to Build One)",
    "cat": "personal-finance-basics",
    "words": 1362,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 6,
-   "seoScore": 78,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
@@ -17439,7 +17439,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 11,
-    "format": 0
+    "format": 2
    },
    "shortFit": 23,
    "shortBreakdown": {
@@ -17462,12 +17462,12 @@
    "words": 1252,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 27,
     "linking": 7,
     "format": 0
@@ -17491,9 +17491,9 @@
    "title": "Income Tax Basics: How Brackets Actually Work",
    "cat": "personal-finance-basics",
    "words": 1656,
-   "quiz": 0,
+   "quiz": 8,
    "incoming": 6,
-   "seoScore": 79,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
@@ -17501,7 +17501,7 @@
     "freshness": 10,
     "depth": 28,
     "linking": 11,
-    "format": 0
+    "format": 2
    },
    "shortFit": 31,
    "shortBreakdown": {
@@ -17513,7 +17513,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "11-personal-finance-basics/taxes-and-paychecks/income-tax-basics-how-brackets-actually-work.tsx"
   },
@@ -17524,12 +17524,12 @@
    "words": 1654,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 79,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -17554,15 +17554,15 @@
    "cat": "personal-finance-basics",
    "words": 1457,
    "quiz": 0,
-   "incoming": 2,
+   "incoming": 4,
    "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
-    "linking": 6,
+    "linking": 8,
     "format": 0
    },
    "shortFit": 15,
@@ -17586,12 +17586,12 @@
    "words": 1512,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 8,
     "format": 0
@@ -17617,12 +17617,12 @@
    "words": 1317,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 29,
     "linking": 7,
     "format": 0
@@ -17648,12 +17648,12 @@
    "words": 1415,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -17679,12 +17679,12 @@
    "words": 1568,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -17710,12 +17710,12 @@
    "words": 1362,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -17741,12 +17741,12 @@
    "words": 1467,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -17772,12 +17772,12 @@
    "words": 1520,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -17803,12 +17803,12 @@
    "words": 1549,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -17834,12 +17834,12 @@
    "words": 1417,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -17865,12 +17865,12 @@
    "words": 1290,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 29,
     "linking": 9,
     "format": 0
@@ -17896,12 +17896,12 @@
    "words": 1357,
    "quiz": 0,
    "incoming": 0,
-   "seoScore": 64,
+   "seoScore": 62,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 3,
     "format": 0
@@ -17927,12 +17927,12 @@
    "words": 1347,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -17958,12 +17958,12 @@
    "words": 1344,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -17989,12 +17989,12 @@
    "words": 1391,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 65,
+   "seoScore": 63,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -18020,12 +18020,12 @@
    "words": 1455,
    "quiz": 0,
    "incoming": 9,
-   "seoScore": 82,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 13,
     "format": 0
@@ -18051,12 +18051,12 @@
    "words": 1289,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 82,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 27,
     "linking": 11,
     "format": 0
@@ -18082,12 +18082,12 @@
    "words": 1286,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 10,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 27,
     "linking": 6,
     "format": 0
@@ -18113,12 +18113,12 @@
    "words": 1406,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -18144,12 +18144,12 @@
    "words": 1475,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -18175,12 +18175,12 @@
    "words": 1286,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 27,
     "linking": 6,
     "format": 0
@@ -18206,12 +18206,12 @@
    "words": 1477,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 4,
     "format": 0
@@ -18237,12 +18237,12 @@
    "words": 1250,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 81,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 4,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 27,
     "linking": 11,
     "format": 0
@@ -18268,12 +18268,12 @@
    "words": 1535,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -18299,12 +18299,12 @@
    "words": 1411,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -18330,12 +18330,12 @@
    "words": 1436,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -18361,12 +18361,12 @@
    "words": 1392,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 65,
+   "seoScore": 63,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -18392,12 +18392,12 @@
    "words": 1448,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -18423,12 +18423,12 @@
    "words": 1381,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -18454,12 +18454,12 @@
    "words": 1483,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -18485,12 +18485,12 @@
    "words": 1347,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -18516,12 +18516,12 @@
    "words": 1534,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -18547,12 +18547,12 @@
    "words": 1470,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -18578,12 +18578,12 @@
    "words": 1338,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -18609,12 +18609,12 @@
    "words": 1553,
    "quiz": 0,
    "incoming": 7,
-   "seoScore": 81,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 12,
     "format": 0
@@ -18640,12 +18640,12 @@
    "words": 1466,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -18671,12 +18671,12 @@
    "words": 1363,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 79,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -18702,12 +18702,12 @@
    "words": 1411,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -18733,12 +18733,12 @@
    "words": 1446,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 67,
+   "seoScore": 65,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -18764,12 +18764,12 @@
    "words": 1406,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 71,
+   "seoScore": 68,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -18795,12 +18795,12 @@
    "words": 1518,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -18826,12 +18826,12 @@
    "words": 1450,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -18857,12 +18857,12 @@
    "words": 1598,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -18888,12 +18888,12 @@
    "words": 1422,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 82,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -18919,12 +18919,12 @@
    "words": 1484,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -18950,12 +18950,12 @@
    "words": 1300,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 29,
     "linking": 7,
     "format": 0
@@ -18981,12 +18981,12 @@
    "words": 1486,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -19012,12 +19012,12 @@
    "words": 1517,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 68,
+   "seoScore": 66,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -19043,12 +19043,12 @@
    "words": 1552,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 63,
+   "seoScore": 61,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 2,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -19074,12 +19074,12 @@
    "words": 1662,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 72,
+   "seoScore": 69,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -19105,12 +19105,12 @@
    "words": 1582,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 73,
+   "seoScore": 71,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -19136,12 +19136,12 @@
    "words": 1603,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 69,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 5,
     "format": 0
@@ -19167,12 +19167,12 @@
    "words": 1573,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -19350,7 +19350,7 @@
    "key": "technology-basics/what-a-chatbot-is-actually-doing",
    "title": "What a Chatbot Is Actually Doing When It \"Responds\"",
    "cat": "technology-basics",
-   "words": 2000,
+   "words": 2041,
    "quiz": 5,
    "incoming": 6,
    "seoScore": 86,
@@ -19536,17 +19536,17 @@
    "key": "technology-basics/how-automatic-backups-work",
    "title": "How Automatic Backups Actually Work",
    "cat": "technology-basics",
-   "words": 1990,
+   "words": 2009,
    "quiz": 5,
-   "incoming": 3,
-   "seoScore": 80,
+   "incoming": 4,
+   "seoScore": 82,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 7,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 7,
+    "linking": 9,
     "format": 2
    },
    "shortFit": 37,
@@ -19846,17 +19846,17 @@
    "key": "technology-basics/malware-viruses-and-ransomware-explained",
    "title": "Malware, Viruses, and Ransomware: What Separates Them",
    "cat": "technology-basics",
-   "words": 1866,
+   "words": 1885,
    "quiz": 5,
-   "incoming": 3,
-   "seoScore": 77,
+   "incoming": 4,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 7,
+    "linking": 9,
     "format": 2
    },
    "shortFit": 32,
@@ -20117,7 +20117,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "13-technology-basics/cybersecurity-literacy-basics/why-strong-passwords-actually-matter.tsx"
   },
@@ -20282,15 +20282,15 @@
    "cat": "technology-basics",
    "words": 2123,
    "quiz": 5,
-   "incoming": 2,
-   "seoScore": 79,
+   "incoming": 3,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 5,
+    "linking": 7,
     "format": 2
    },
    "shortFit": 37,
@@ -20497,17 +20497,17 @@
    "key": "technology-basics/how-group-chats-sync-across-devices",
    "title": "How Group Chats Sync Across Devices",
    "cat": "technology-basics",
-   "words": 2126,
+   "words": 2149,
    "quiz": 5,
-   "incoming": 4,
-   "seoScore": 84,
+   "incoming": 5,
+   "seoScore": 86,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 8,
+    "linking": 10,
     "format": 2
    },
    "shortFit": 21,
@@ -20683,17 +20683,17 @@
    "key": "technology-basics/why-some-messages-say-delivered-but-not-read",
    "title": "Why Some Messages Say \"Delivered\" But Not \"Read\"",
    "cat": "technology-basics",
-   "words": 2041,
+   "words": 2063,
    "quiz": 5,
-   "incoming": 3,
-   "seoScore": 82,
+   "incoming": 4,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 8,
+    "linking": 10,
     "format": 2
    },
    "shortFit": 29,
@@ -20745,17 +20745,17 @@
    "key": "technology-basics/how-online-ad-targeting-works",
    "title": "How Online Ad Targeting Actually Works",
    "cat": "technology-basics",
-   "words": 2158,
+   "words": 2187,
    "quiz": 5,
    "incoming": 5,
-   "seoScore": 82,
+   "seoScore": 83,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 7,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 10,
     "format": 2
    },
    "shortFit": 37,
@@ -20900,17 +20900,17 @@
    "key": "technology-basics/what-a-digital-footprint-actually-means",
    "title": "What a \"Digital Footprint\" Actually Means",
    "cat": "technology-basics",
-   "words": 1867,
+   "words": 1884,
    "quiz": 5,
-   "incoming": 7,
-   "seoScore": 88,
+   "incoming": 8,
+   "seoScore": 91,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 12,
+    "linking": 14,
     "format": 2
    },
    "shortFit": 44,
@@ -20964,15 +20964,15 @@
    "cat": "technology-basics",
    "words": 1992,
    "quiz": 5,
-   "incoming": 3,
-   "seoScore": 83,
+   "incoming": 4,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 7,
+    "linking": 8,
     "format": 2
    },
    "shortFit": 33,
@@ -21058,12 +21058,12 @@
    "words": 1909,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -21089,12 +21089,12 @@
    "words": 1872,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 80,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -21120,12 +21120,12 @@
    "words": 1850,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 83,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -21151,12 +21151,12 @@
    "words": 1729,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 6,
     "format": 0
@@ -21182,12 +21182,12 @@
    "words": 1985,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 79,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -21213,12 +21213,12 @@
    "words": 1834,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 82,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -21244,12 +21244,12 @@
    "words": 1829,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 80,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -21275,12 +21275,12 @@
    "words": 1890,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 28,
     "linking": 7,
     "format": 0
@@ -21306,12 +21306,12 @@
    "words": 1862,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 77,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -21337,12 +21337,12 @@
    "words": 1861,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -21368,12 +21368,12 @@
    "words": 1904,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -21399,12 +21399,12 @@
    "words": 1770,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 79,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -21430,12 +21430,12 @@
    "words": 1841,
    "quiz": 0,
    "incoming": 1,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 4,
     "format": 0
@@ -21461,12 +21461,12 @@
    "words": 2128,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 86,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 12,
     "format": 0
@@ -21492,12 +21492,12 @@
    "words": 2007,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 79,
+   "seoScore": 77,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -21523,12 +21523,12 @@
    "words": 1731,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -21554,12 +21554,12 @@
    "words": 1895,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -21585,12 +21585,12 @@
    "words": 1842,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 80,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -21616,12 +21616,12 @@
    "words": 1888,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 83,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -21647,12 +21647,12 @@
    "words": 1977,
    "quiz": 0,
    "incoming": 5,
-   "seoScore": 83,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 9,
     "format": 0
@@ -21737,17 +21737,17 @@
    "key": "technology-basics/how-fitness-trackers-measure-steps-and-heart-rate",
    "title": "How Wearable Fitness Trackers Measure Your Steps and Heart Rate",
    "cat": "technology-basics",
-   "words": 2196,
+   "words": 2226,
    "quiz": 5,
    "incoming": 3,
-   "seoScore": 84,
+   "seoScore": 85,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 8,
+    "linking": 9,
     "format": 2
    },
    "shortFit": 21,
@@ -22318,7 +22318,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "13-technology-basics/software-and-operating-systems/why-deleting-a-file-doesnt-erase-it-right-away.tsx"
   },
@@ -22731,15 +22731,15 @@
    "cat": "career-study-skills",
    "words": 1532,
    "quiz": 0,
-   "incoming": 5,
-   "seoScore": 81,
+   "incoming": 6,
+   "seoScore": 83,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 11,
     "format": 0
    },
    "shortFit": 24,
@@ -22855,15 +22855,15 @@
    "cat": "career-study-skills",
    "words": 1701,
    "quiz": 0,
-   "incoming": 4,
-   "seoScore": 77,
+   "incoming": 5,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 8,
+    "linking": 9,
     "format": 0
    },
    "shortFit": 24,
@@ -23318,17 +23318,17 @@
    "key": "career-study-skills/how-to-build-a-personal-learning-plan",
    "title": "How to Build a Personal Learning Plan That Actually Sticks",
    "cat": "career-study-skills",
-   "words": 1878,
+   "words": 1907,
    "quiz": 5,
    "incoming": 1,
-   "seoScore": 78,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 4,
+    "linking": 6,
     "format": 2
    },
    "shortFit": 24,
@@ -23445,12 +23445,12 @@
    "words": 1667,
    "quiz": 0,
    "incoming": 6,
-   "seoScore": 81,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 11,
     "format": 0
@@ -23476,12 +23476,12 @@
    "words": 1783,
    "quiz": 0,
    "incoming": 2,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 6,
     "format": 0
@@ -23507,12 +23507,12 @@
    "words": 1599,
    "quiz": 0,
    "incoming": 9,
-   "seoScore": 87,
+   "seoScore": 85,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 13,
     "format": 0
@@ -23538,12 +23538,12 @@
    "words": 1733,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 75,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -23569,12 +23569,12 @@
    "words": 1633,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 78,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -23631,12 +23631,12 @@
    "words": 1800,
    "quiz": 0,
    "incoming": 3,
-   "seoScore": 74,
+   "seoScore": 72,
    "seoBreakdown": {
     "title": 8,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 7,
     "format": 0
@@ -23662,12 +23662,12 @@
    "words": 1688,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 76,
+   "seoScore": 74,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 8,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -23724,12 +23724,12 @@
    "words": 1715,
    "quiz": 0,
    "incoming": 4,
-   "seoScore": 82,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
-    "freshness": 10,
+    "freshness": 8,
     "depth": 30,
     "linking": 8,
     "format": 0
@@ -23754,15 +23754,15 @@
    "cat": "career-study-skills",
    "words": 1789,
    "quiz": 0,
-   "incoming": 2,
-   "seoScore": 78,
+   "incoming": 3,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 6,
+    "linking": 7,
     "format": 0
    },
    "shortFit": 12,
@@ -24156,17 +24156,17 @@
    "title": "What Amps, Volts, and Watts Actually Measure (And How They Relate)",
    "cat": "home-diy-knowledge",
    "words": 1789,
-   "quiz": 0,
-   "incoming": 7,
-   "seoScore": 83,
+   "quiz": 6,
+   "incoming": 9,
+   "seoScore": 88,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 12,
-    "format": 0
+    "linking": 15,
+    "format": 2
    },
    "shortFit": 31,
    "shortBreakdown": {
@@ -24187,17 +24187,17 @@
    "title": "Why GFCI Outlets Exist (And Where They're Required)",
    "cat": "home-diy-knowledge",
    "words": 1839,
-   "quiz": 0,
+   "quiz": 6,
    "incoming": 7,
-   "seoScore": 84,
+   "seoScore": 87,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 12,
-    "format": 0
+    "linking": 13,
+    "format": 2
    },
    "shortFit": 27,
    "shortBreakdown": {
@@ -24251,7 +24251,7 @@
    "words": 2109,
    "quiz": 5,
    "incoming": 2,
-   "seoScore": 88,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
@@ -24259,7 +24259,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 8,
-    "format": 6
+    "format": 2
    },
    "shortFit": 31,
    "shortBreakdown": {
@@ -24270,8 +24270,8 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "scheduled",
-   "youtubeShort": true,
+   "video": "not-started",
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "15-home-diy-knowledge/exterior-yard-and-structural-basics/how-a-sump-pump-actually-prevents-flooding.tsx"
   },
@@ -25454,20 +25454,51 @@
    "file": "15-home-diy-knowledge/wall-paint-and-surface-repair/why-drywall-cracks-appear-explained.tsx"
   },
   {
+   "key": "health-wellness-deep-dive/how-hydration-actually-affects-physical-performance",
+   "title": "How Hydration Actually Affects Physical Performance",
+   "cat": "health-wellness-deep-dive",
+   "words": 1789,
+   "quiz": 10,
+   "incoming": 3,
+   "seoScore": 87,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 10,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 9,
+    "format": 4
+   },
+   "shortFit": 24,
+   "shortBreakdown": {
+    "total": 24,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "16-health-wellness-deep-dive/body-systems-deep-dive/how-hydration-actually-affects-physical-performance.tsx"
+  },
+  {
    "key": "health-wellness-deep-dive/how-the-lymphatic-system-actually-works",
    "title": "How the Lymphatic System Actually Works",
    "cat": "health-wellness-deep-dive",
    "words": 1481,
    "quiz": 0,
-   "incoming": 2,
-   "seoScore": 66,
+   "incoming": 3,
+   "seoScore": 67,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 4,
     "freshness": 10,
     "depth": 28,
-    "linking": 4,
+    "linking": 5,
     "format": 0
    },
    "shortFit": 36,
@@ -25485,20 +25516,51 @@
    "file": "16-health-wellness-deep-dive/body-systems-deep-dive/how-the-lymphatic-system-actually-works.tsx"
   },
   {
+   "key": "health-wellness-deep-dive/what-gut-health-actually-means-and-why-it-matters",
+   "title": "What Gut Health Actually Means and Why It Matters",
+   "cat": "health-wellness-deep-dive",
+   "words": 1844,
+   "quiz": 10,
+   "incoming": 3,
+   "seoScore": 87,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 10,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 9,
+    "format": 4
+   },
+   "shortFit": 32,
+   "shortBreakdown": {
+    "total": 32,
+    "hook": 20,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "16-health-wellness-deep-dive/body-systems-deep-dive/what-gut-health-actually-means-and-why-it-matters.tsx"
+  },
+  {
    "key": "health-wellness-deep-dive/what-macronutrients-actually-do-in-the-body",
    "title": "What Macronutrients Actually Do in the Body",
    "cat": "health-wellness-deep-dive",
-   "words": 1356,
+   "words": 1405,
    "quiz": 7,
-   "incoming": 3,
-   "seoScore": 80,
+   "incoming": 5,
+   "seoScore": 82,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 11,
     "format": 2
    },
    "shortFit": 29,
@@ -25519,17 +25581,17 @@
    "key": "health-wellness-deep-dive/how-chronic-stress-actually-damages-long-term-health",
    "title": "How Chronic Stress Actually Damages Long-Term Health",
    "cat": "health-wellness-deep-dive",
-   "words": 1634,
+   "words": 1656,
    "quiz": 8,
-   "incoming": 4,
-   "seoScore": 81,
+   "incoming": 5,
+   "seoScore": 82,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 10,
+    "linking": 11,
     "format": 2
    },
    "shortFit": 32,
@@ -25676,15 +25738,15 @@
    "cat": "health-wellness-deep-dive",
    "words": 1342,
    "quiz": 0,
-   "incoming": 7,
-   "seoScore": 86,
+   "incoming": 8,
+   "seoScore": 87,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 28,
-    "linking": 14,
+    "linking": 15,
     "format": 0
    },
    "shortFit": 32,
@@ -25707,15 +25769,15 @@
    "cat": "health-wellness-deep-dive",
    "words": 1303,
    "quiz": 8,
-   "incoming": 3,
-   "seoScore": 79,
+   "incoming": 4,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 29,
-    "linking": 9,
+    "linking": 10,
     "format": 2
    },
    "shortFit": 32,
@@ -25733,20 +25795,51 @@
    "file": "16-health-wellness-deep-dive/sleep-stress-and-recovery/what-resting-heart-rate-actually-reveals-about-fitness.tsx"
   },
   {
+   "key": "business-entrepreneurship-basics/how-profit-margin-actually-gets-calculated",
+   "title": "How Profit Margin Actually Gets Calculated",
+   "cat": "business-entrepreneurship-basics",
+   "words": 1330,
+   "quiz": 9,
+   "incoming": 5,
+   "seoScore": 87,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 8,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 11,
+    "format": 4
+   },
+   "shortFit": 24,
+   "shortBreakdown": {
+    "total": 24,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "18-business-entrepreneurship-basics/money-and-cash-flow/how-profit-margin-actually-gets-calculated.tsx"
+  },
+  {
    "key": "business-entrepreneurship-basics/what-cash-flow-actually-means-for-a-small-business",
    "title": "What Cash Flow Actually Means for a Small Business",
    "cat": "business-entrepreneurship-basics",
-   "words": 1271,
+   "words": 1312,
    "quiz": 7,
-   "incoming": 4,
-   "seoScore": 83,
+   "incoming": 5,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 29,
-    "linking": 10,
+    "linking": 11,
     "format": 2
    },
    "shortFit": 24,
@@ -25769,15 +25862,15 @@
    "cat": "business-entrepreneurship-basics",
    "words": 1362,
    "quiz": 0,
-   "incoming": 4,
-   "seoScore": 77,
+   "incoming": 5,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 4,
     "freshness": 10,
     "depth": 28,
-    "linking": 8,
+    "linking": 9,
     "format": 0
    },
    "shortFit": 24,
@@ -25800,15 +25893,15 @@
    "cat": "business-entrepreneurship-basics",
    "words": 1648,
    "quiz": 0,
-   "incoming": 2,
-   "seoScore": 80,
+   "incoming": 3,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 8,
+    "linking": 9,
     "format": 0
    },
    "shortFit": 28,
@@ -25829,17 +25922,17 @@
    "key": "business-entrepreneurship-basics/how-to-actually-find-your-first-customers",
    "title": "How to Actually Find Your First Customers",
    "cat": "business-entrepreneurship-basics",
-   "words": 1520,
+   "words": 1549,
    "quiz": 10,
-   "incoming": 4,
-   "seoScore": 85,
+   "incoming": 5,
+   "seoScore": 87,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 11,
     "format": 4
    },
    "shortFit": 30,
@@ -25860,17 +25953,17 @@
    "key": "business-entrepreneurship-basics/how-to-actually-price-a-product-or-service",
    "title": "How to Actually Price a Product or Service",
    "cat": "business-entrepreneurship-basics",
-   "words": 1293,
+   "words": 1311,
    "quiz": 8,
-   "incoming": 4,
-   "seoScore": 74,
+   "incoming": 5,
+   "seoScore": 75,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 2,
     "tags": 5,
     "freshness": 10,
     "depth": 29,
-    "linking": 10,
+    "linking": 11,
     "format": 2
    },
    "shortFit": 24,
@@ -25893,15 +25986,15 @@
    "cat": "business-entrepreneurship-basics",
    "words": 1357,
    "quiz": 0,
-   "incoming": 5,
-   "seoScore": 80,
+   "incoming": 6,
+   "seoScore": 82,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 4,
     "freshness": 10,
     "depth": 28,
-    "linking": 9,
+    "linking": 11,
     "format": 0
    },
    "shortFit": 24,
@@ -25922,7 +26015,7 @@
    "key": "business-entrepreneurship-basics/what-a-business-license-actually-requires",
    "title": "What a Business License Actually Requires",
    "cat": "business-entrepreneurship-basics",
-   "words": 1583,
+   "words": 1635,
    "quiz": 10,
    "incoming": 3,
    "seoScore": 87,
@@ -25953,18 +26046,18 @@
    "key": "business-entrepreneurship-basics/what-a-business-plan-actually-needs-to-include",
    "title": "What a Business Plan Actually Needs to Include",
    "cat": "business-entrepreneurship-basics",
-   "words": 1352,
-   "quiz": 0,
-   "incoming": 8,
-   "seoScore": 85,
+   "words": 1685,
+   "quiz": 8,
+   "incoming": 11,
+   "seoScore": 89,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
-    "depth": 28,
+    "depth": 30,
     "linking": 13,
-    "format": 0
+    "format": 2
    },
    "shortFit": 24,
    "shortBreakdown": {
@@ -25986,15 +26079,15 @@
    "cat": "business-entrepreneurship-basics",
    "words": 1373,
    "quiz": 8,
-   "incoming": 3,
-   "seoScore": 77,
+   "incoming": 5,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 11,
     "format": 2
    },
    "shortFit": 24,
@@ -26007,9 +26100,40 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "18-business-entrepreneurship-basics/starting-from-zero/what-an-llc-actually-protects-you-from.tsx"
+  },
+  {
+   "key": "business-entrepreneurship-basics/what-makes-a-side-hustle-different-from-a-real-business",
+   "title": "What Makes a Side Hustle Different From a Real Business",
+   "cat": "business-entrepreneurship-basics",
+   "words": 1561,
+   "quiz": 9,
+   "incoming": 5,
+   "seoScore": 87,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 8,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 11,
+    "format": 4
+   },
+   "shortFit": 12,
+   "shortBreakdown": {
+    "total": 12,
+    "hook": 0,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "18-business-entrepreneurship-basics/starting-from-zero/what-makes-a-side-hustle-different-from-a-real-business.tsx"
   },
   {
    "key": "investing-markets-deep-dive/what-a-brokerage-account-actually-is",
@@ -26017,15 +26141,15 @@
    "cat": "investing-markets-deep-dive",
    "words": 1251,
    "quiz": 0,
-   "incoming": 2,
-   "seoScore": 75,
+   "incoming": 3,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 4,
     "freshness": 10,
     "depth": 29,
-    "linking": 5,
+    "linking": 6,
     "format": 0
    },
    "shortFit": 24,
@@ -26069,7 +26193,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "21-investing-markets-deep-dive/market-fundamentals/how-compound-interest-actually-builds-wealth-over-time.tsx"
   },
@@ -26077,17 +26201,17 @@
    "key": "investing-markets-deep-dive/how-diversification-actually-reduces-risk",
    "title": "How Diversification Actually Reduces Risk",
    "cat": "investing-markets-deep-dive",
-   "words": 1518,
+   "words": 1560,
    "quiz": 10,
-   "incoming": 3,
-   "seoScore": 87,
+   "incoming": 5,
+   "seoScore": 89,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 11,
     "format": 4
    },
    "shortFit": 24,
@@ -26108,7 +26232,7 @@
    "key": "investing-markets-deep-dive/how-dividend-investing-actually-works",
    "title": "How Dividend Investing Actually Works",
    "cat": "investing-markets-deep-dive",
-   "words": 1368,
+   "words": 1420,
    "quiz": 8,
    "incoming": 4,
    "seoScore": 78,
@@ -26136,20 +26260,51 @@
    "file": "21-investing-markets-deep-dive/market-fundamentals/how-dividend-investing-actually-works.tsx"
   },
   {
+   "key": "investing-markets-deep-dive/how-interest-rate-changes-actually-affect-investments",
+   "title": "How Interest Rate Changes Actually Affect Investments",
+   "cat": "investing-markets-deep-dive",
+   "words": 1603,
+   "quiz": 10,
+   "incoming": 4,
+   "seoScore": 86,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 8,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 10,
+    "format": 4
+   },
+   "shortFit": 36,
+   "shortBreakdown": {
+    "total": 36,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 12,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "21-investing-markets-deep-dive/market-fundamentals/how-interest-rate-changes-actually-affect-investments.tsx"
+  },
+  {
    "key": "investing-markets-deep-dive/how-the-stock-market-actually-works",
    "title": "How the Stock Market Actually Works",
    "cat": "investing-markets-deep-dive",
    "words": 1364,
    "quiz": 0,
-   "incoming": 6,
-   "seoScore": 77,
+   "incoming": 7,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 4,
     "freshness": 10,
     "depth": 28,
-    "linking": 11,
+    "linking": 12,
     "format": 0
    },
    "shortFit": 28,
@@ -26172,15 +26327,15 @@
    "cat": "investing-markets-deep-dive",
    "words": 1692,
    "quiz": 0,
-   "incoming": 5,
-   "seoScore": 78,
+   "incoming": 7,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 11,
     "excerpt": 7,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 11,
+    "linking": 14,
     "format": 0
    },
    "shortFit": 24,
@@ -26224,26 +26379,26 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
-   "youtubeLong": false,
+   "youtubeShort": true,
+   "youtubeLong": true,
    "file": "21-investing-markets-deep-dive/market-fundamentals/what-a-bull-market-vs-bear-market-actually-means.tsx"
   },
   {
    "key": "investing-markets-deep-dive/what-a-mutual-fund-actually-is",
    "title": "What a Mutual Fund Actually Is",
    "cat": "investing-markets-deep-dive",
-   "words": 1320,
-   "quiz": 0,
-   "incoming": 7,
-   "seoScore": 84,
+   "words": 1652,
+   "quiz": 8,
+   "incoming": 9,
+   "seoScore": 91,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
-    "depth": 27,
-    "linking": 13,
-    "format": 0
+    "depth": 30,
+    "linking": 14,
+    "format": 2
    },
    "shortFit": 24,
    "shortBreakdown": {
@@ -26263,17 +26418,17 @@
    "key": "investing-markets-deep-dive/what-an-index-fund-actually-tracks",
    "title": "What an Index Fund Actually Tracks",
    "cat": "investing-markets-deep-dive",
-   "words": 1296,
+   "words": 1315,
    "quiz": 8,
-   "incoming": 5,
-   "seoScore": 81,
+   "incoming": 6,
+   "seoScore": 83,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 29,
-    "linking": 11,
+    "linking": 13,
     "format": 2
    },
    "shortFit": 24,
@@ -26291,20 +26446,82 @@
    "file": "21-investing-markets-deep-dive/market-fundamentals/what-an-index-fund-actually-tracks.tsx"
   },
   {
+   "key": "investing-markets-deep-dive/what-an-ipo-actually-is",
+   "title": "What an IPO Actually Is",
+   "cat": "investing-markets-deep-dive",
+   "words": 1606,
+   "quiz": 10,
+   "incoming": 3,
+   "seoScore": 79,
+   "seoBreakdown": {
+    "title": 12,
+    "excerpt": 5,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 9,
+    "format": 4
+   },
+   "shortFit": 24,
+   "shortBreakdown": {
+    "total": 24,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "21-investing-markets-deep-dive/market-fundamentals/what-an-ipo-actually-is.tsx"
+  },
+  {
+   "key": "government-schemes-benefits/how-small-business-government-grants-actually-get-awarded",
+   "title": "How Small Business Government Grants Actually Get Awarded",
+   "cat": "government-schemes-benefits",
+   "words": 1769,
+   "quiz": 9,
+   "incoming": 3,
+   "seoScore": 87,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 10,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 9,
+    "format": 4
+   },
+   "shortFit": 35,
+   "shortBreakdown": {
+    "total": 35,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 11,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "22-government-schemes-benefits/business-and-employment-schemes/how-small-business-government-grants-actually-get-awarded.tsx"
+  },
+  {
    "key": "government-schemes-benefits/how-public-health-insurance-programs-actually-work",
    "title": "How Public Health Insurance Programs Actually Work",
    "cat": "government-schemes-benefits",
-   "words": 1324,
+   "words": 1341,
    "quiz": 8,
-   "incoming": 3,
-   "seoScore": 76,
+   "incoming": 4,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
     "freshness": 10,
-    "depth": 29,
-    "linking": 9,
+    "depth": 30,
+    "linking": 10,
     "format": 2
    },
    "shortFit": 28,
@@ -26358,15 +26575,15 @@
    "cat": "government-schemes-benefits",
    "words": 1656,
    "quiz": 0,
-   "incoming": 6,
-   "seoScore": 82,
+   "incoming": 8,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 13,
+    "linking": 15,
     "format": 0
    },
    "shortFit": 24,
@@ -26389,15 +26606,15 @@
    "cat": "government-schemes-benefits",
    "words": 1388,
    "quiz": 0,
-   "incoming": 6,
-   "seoScore": 80,
+   "incoming": 7,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 4,
     "freshness": 10,
     "depth": 28,
-    "linking": 11,
+    "linking": 12,
     "format": 0
    },
    "shortFit": 24,
@@ -26418,17 +26635,17 @@
    "key": "government-schemes-benefits/what-disability-benefits-actually-require-to-qualify",
    "title": "What Disability Benefits Actually Require to Qualify",
    "cat": "government-schemes-benefits",
-   "words": 1391,
+   "words": 1410,
    "quiz": 7,
-   "incoming": 5,
-   "seoScore": 82,
+   "incoming": 6,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 11,
+    "linking": 13,
     "format": 2
    },
    "shortFit": 24,
@@ -26449,17 +26666,17 @@
    "key": "government-schemes-benefits/what-housing-assistance-programs-actually-offer",
    "title": "What Housing Assistance Programs Actually Offer",
    "cat": "government-schemes-benefits",
-   "words": 1881,
+   "words": 1900,
    "quiz": 10,
-   "incoming": 3,
-   "seoScore": 87,
+   "incoming": 4,
+   "seoScore": 88,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 10,
     "format": 4
    },
    "shortFit": 24,
@@ -26480,18 +26697,18 @@
    "key": "government-schemes-benefits/what-social-security-actually-pays-out-and-when",
    "title": "What Social Security Actually Pays Out and When",
    "cat": "government-schemes-benefits",
-   "words": 1301,
-   "quiz": 0,
-   "incoming": 6,
-   "seoScore": 83,
+   "words": 1601,
+   "quiz": 8,
+   "incoming": 9,
+   "seoScore": 91,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 4,
     "freshness": 10,
-    "depth": 27,
-    "linking": 13,
-    "format": 0
+    "depth": 30,
+    "linking": 15,
+    "format": 2
    },
    "shortFit": 24,
    "shortBreakdown": {
@@ -26511,17 +26728,17 @@
    "key": "government-schemes-benefits/what-tax-credits-actually-differ-from-tax-deductions",
    "title": "What Tax Credits Actually Differ From Tax Deductions",
    "cat": "government-schemes-benefits",
-   "words": 1301,
+   "words": 1326,
    "quiz": 8,
-   "incoming": 3,
-   "seoScore": 79,
+   "incoming": 4,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 29,
-    "linking": 9,
+    "linking": 10,
     "format": 2
    },
    "shortFit": 24,
@@ -26537,6 +26754,37 @@
    "youtubeShort": false,
    "youtubeLong": false,
    "file": "22-government-schemes-benefits/core-safety-net-programs/what-tax-credits-actually-differ-from-tax-deductions.tsx"
+  },
+  {
+   "key": "government-schemes-benefits/what-veterans-benefits-actually-include",
+   "title": "What Veterans Benefits Actually Include",
+   "cat": "government-schemes-benefits",
+   "words": 1810,
+   "quiz": 10,
+   "incoming": 4,
+   "seoScore": 88,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 10,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 10,
+    "format": 4
+   },
+   "shortFit": 24,
+   "shortBreakdown": {
+    "total": 24,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "22-government-schemes-benefits/core-safety-net-programs/what-veterans-benefits-actually-include.tsx"
   },
   {
    "key": "government-schemes-benefits/how-to-actually-renew-a-passport-or-national-id",
@@ -26604,17 +26852,17 @@
    "key": "professional-skills-certifications/how-cloud-certifications-actually-boost-a-resume",
    "title": "How Cloud Certifications Actually Boost a Resume",
    "cat": "professional-skills-certifications",
-   "words": 1258,
+   "words": 1293,
    "quiz": 7,
-   "incoming": 4,
-   "seoScore": 80,
+   "incoming": 5,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 29,
-    "linking": 10,
+    "linking": 11,
     "format": 2
    },
    "shortFit": 24,
@@ -26637,7 +26885,7 @@
    "cat": "professional-skills-certifications",
    "words": 1289,
    "quiz": 0,
-   "incoming": 8,
+   "incoming": 10,
    "seoScore": 85,
    "seoBreakdown": {
     "title": 15,
@@ -26699,15 +26947,15 @@
    "cat": "professional-skills-certifications",
    "words": 1263,
    "quiz": 0,
-   "incoming": 2,
-   "seoScore": 76,
+   "incoming": 4,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
     "depth": 27,
-    "linking": 7,
+    "linking": 9,
     "format": 0
    },
    "shortFit": 35,
@@ -26728,17 +26976,17 @@
    "key": "professional-skills-certifications/what-a-pmp-certification-actually-requires",
    "title": "What a PMP Certification Actually Requires",
    "cat": "professional-skills-certifications",
-   "words": 1289,
+   "words": 1333,
    "quiz": 8,
-   "incoming": 2,
-   "seoScore": 78,
+   "incoming": 3,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
-    "depth": 29,
-    "linking": 8,
+    "depth": 30,
+    "linking": 9,
     "format": 2
    },
    "shortFit": 24,
@@ -26787,20 +27035,51 @@
    "file": "24-professional-skills-certifications/choosing-a-certification/what-project-management-certification-actually-teaches-you.tsx"
   },
   {
+   "key": "professional-skills-certifications/how-certifications-actually-compare-to-a-college-degree",
+   "title": "How Certifications Actually Compare to a College Degree",
+   "cat": "professional-skills-certifications",
+   "words": 1562,
+   "quiz": 9,
+   "incoming": 4,
+   "seoScore": 88,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 10,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 10,
+    "format": 4
+   },
+   "shortFit": 24,
+   "shortBreakdown": {
+    "total": 24,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "24-professional-skills-certifications/understanding-credentials/how-certifications-actually-compare-to-a-college-degree.tsx"
+  },
+  {
    "key": "professional-skills-certifications/what-a-certificate-actually-differs-from-a-certification",
    "title": "What a Certificate Actually Differs From a Certification",
    "cat": "professional-skills-certifications",
    "words": 1267,
    "quiz": 0,
-   "incoming": 6,
-   "seoScore": 77,
+   "incoming": 8,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 4,
     "freshness": 10,
     "depth": 27,
-    "linking": 9,
+    "linking": 11,
     "format": 0
    },
    "shortFit": 24,
@@ -26816,6 +27095,37 @@
    "youtubeShort": false,
    "youtubeLong": false,
    "file": "24-professional-skills-certifications/understanding-credentials/what-a-certificate-actually-differs-from-a-certification.tsx"
+  },
+  {
+   "key": "professional-skills-certifications/what-continuing-education-credits-actually-require",
+   "title": "What Continuing Education Credits Actually Require",
+   "cat": "professional-skills-certifications",
+   "words": 1532,
+   "quiz": 10,
+   "incoming": 4,
+   "seoScore": 86,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 8,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 10,
+    "format": 4
+   },
+   "shortFit": 24,
+   "shortBreakdown": {
+    "total": 24,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "24-professional-skills-certifications/understanding-credentials/what-continuing-education-credits-actually-require.tsx"
   },
   {
    "key": "professional-skills-certifications/what-google-analytics-certification-actually-verifies",
@@ -26849,20 +27159,51 @@
    "file": "24-professional-skills-certifications/understanding-credentials/what-google-analytics-certification-actually-verifies.tsx"
   },
   {
+   "key": "ai-future-tech-literacy/ai-agents-explained-what-makes-them-different-from-chatbots",
+   "title": "AI Agents Explained: What Makes Them Different From Chatbots",
+   "cat": "ai-future-tech-literacy",
+   "words": 1644,
+   "quiz": 10,
+   "incoming": 3,
+   "seoScore": 80,
+   "seoBreakdown": {
+    "title": 11,
+    "excerpt": 7,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 9,
+    "format": 4
+   },
+   "shortFit": 12,
+   "shortBreakdown": {
+    "total": 12,
+    "hook": 0,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "25-ai-future-tech-literacy/ai-fundamentals/ai-agents-explained-what-makes-them-different-from-chatbots.tsx"
+  },
+  {
    "key": "ai-future-tech-literacy/how-ai-chatbots-are-trained",
    "title": "How AI Chatbots Are Trained",
    "cat": "ai-future-tech-literacy",
    "words": 1440,
    "quiz": 9,
-   "incoming": 4,
-   "seoScore": 77,
+   "incoming": 5,
+   "seoScore": 78,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 2,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 10,
+    "linking": 11,
     "format": 4
    },
    "shortFit": 12,
@@ -26883,17 +27224,17 @@
    "key": "ai-future-tech-literacy/how-ai-image-generators-actually-create-pictures",
    "title": "How AI Image Generators Actually Create Pictures",
    "cat": "ai-future-tech-literacy",
-   "words": 1456,
+   "words": 1479,
    "quiz": 8,
-   "incoming": 3,
-   "seoScore": 80,
+   "incoming": 4,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 10,
     "format": 2
    },
    "shortFit": 24,
@@ -26916,7 +27257,7 @@
    "cat": "ai-future-tech-literacy",
    "words": 1311,
    "quiz": 0,
-   "incoming": 8,
+   "incoming": 10,
    "seoScore": 82,
    "seoBreakdown": {
     "title": 15,
@@ -26940,6 +27281,37 @@
    "youtubeShort": false,
    "youtubeLong": false,
    "file": "25-ai-future-tech-literacy/ai-fundamentals/how-large-language-models-actually-work.tsx"
+  },
+  {
+   "key": "ai-future-tech-literacy/how-to-tell-if-content-was-ai-generated",
+   "title": "How to Tell If Content Was AI-Generated",
+   "cat": "ai-future-tech-literacy",
+   "words": 1633,
+   "quiz": 10,
+   "incoming": 3,
+   "seoScore": 85,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 8,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 9,
+    "format": 4
+   },
+   "shortFit": 12,
+   "shortBreakdown": {
+    "total": 12,
+    "hook": 0,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "25-ai-future-tech-literacy/ai-fundamentals/how-to-tell-if-content-was-ai-generated.tsx"
   },
   {
    "key": "ai-future-tech-literacy/machine-learning-vs-deep-learning-explained",
@@ -27007,17 +27379,17 @@
    "key": "ai-future-tech-literacy/what-ai-hallucination-actually-means",
    "title": "What AI Hallucination Actually Means",
    "cat": "ai-future-tech-literacy",
-   "words": 1329,
+   "words": 1378,
    "quiz": 8,
-   "incoming": 5,
-   "seoScore": 84,
+   "incoming": 7,
+   "seoScore": 88,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 5,
     "freshness": 10,
-    "depth": 29,
-    "linking": 11,
+    "depth": 30,
+    "linking": 14,
     "format": 2
    },
    "shortFit": 24,
@@ -27069,17 +27441,17 @@
    "key": "ai-future-tech-literacy/what-prompt-engineering-actually-is",
    "title": "What Prompt Engineering Actually Is",
    "cat": "ai-future-tech-literacy",
-   "words": 1566,
+   "words": 1590,
    "quiz": 10,
-   "incoming": 3,
-   "seoScore": 87,
+   "incoming": 4,
+   "seoScore": 88,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 10,
     "format": 4
    },
    "shortFit": 24,
@@ -27102,15 +27474,15 @@
    "cat": "ai-future-tech-literacy",
    "words": 1332,
    "quiz": 0,
-   "incoming": 4,
-   "seoScore": 72,
+   "incoming": 5,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 4,
     "freshness": 10,
     "depth": 28,
-    "linking": 6,
+    "linking": 7,
     "format": 0
    },
    "shortFit": 24,
@@ -27131,17 +27503,17 @@
    "key": "digital-safety-privacy/how-data-breaches-actually-happen",
    "title": "How Data Breaches Actually Happen",
    "cat": "digital-safety-privacy",
-   "words": 1354,
+   "words": 1374,
    "quiz": 8,
-   "incoming": 4,
-   "seoScore": 81,
+   "incoming": 5,
+   "seoScore": 82,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 10,
+    "linking": 11,
     "format": 2
    },
    "shortFit": 41,
@@ -27162,17 +27534,17 @@
    "key": "digital-safety-privacy/how-identity-theft-actually-starts",
    "title": "How Identity Theft Actually Starts",
    "cat": "digital-safety-privacy",
-   "words": 1565,
+   "words": 1587,
    "quiz": 9,
-   "incoming": 3,
-   "seoScore": 82,
+   "incoming": 4,
+   "seoScore": 83,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 10,
     "format": 4
    },
    "shortFit": 41,
@@ -27195,15 +27567,15 @@
    "cat": "digital-safety-privacy",
    "words": 1326,
    "quiz": 0,
-   "incoming": 4,
-   "seoScore": 72,
+   "incoming": 5,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 4,
     "freshness": 10,
     "depth": 27,
-    "linking": 7,
+    "linking": 8,
     "format": 0
    },
    "shortFit": 41,
@@ -27226,15 +27598,15 @@
    "cat": "digital-safety-privacy",
    "words": 1686,
    "quiz": 0,
-   "incoming": 5,
-   "seoScore": 81,
+   "incoming": 7,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 4,
     "freshness": 10,
     "depth": 30,
-    "linking": 10,
+    "linking": 13,
     "format": 0
    },
    "shortFit": 45,
@@ -27350,15 +27722,15 @@
    "cat": "digital-safety-privacy",
    "words": 1319,
    "quiz": 0,
-   "incoming": 7,
-   "seoScore": 83,
+   "incoming": 9,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 27,
-    "linking": 12,
+    "linking": 13,
     "format": 0
    },
    "shortFit": 41,
@@ -27381,15 +27753,15 @@
    "cat": "digital-safety-privacy",
    "words": 1289,
    "quiz": 0,
-   "incoming": 2,
-   "seoScore": 72,
+   "incoming": 3,
+   "seoScore": 73,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 4,
     "freshness": 10,
     "depth": 27,
-    "linking": 4,
+    "linking": 5,
     "format": 0
    },
    "shortFit": 41,
@@ -27407,13 +27779,75 @@
    "file": "26-digital-safety-privacy/malware-defense/how-antivirus-software-actually-detects-threats.tsx"
   },
   {
+   "key": "digital-safety-privacy/how-ransomware-actually-infects-a-device",
+   "title": "How Ransomware Actually Infects a Device",
+   "cat": "digital-safety-privacy",
+   "words": 1602,
+   "quiz": 10,
+   "incoming": 3,
+   "seoScore": 82,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 5,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 9,
+    "format": 4
+   },
+   "shortFit": 41,
+   "shortBreakdown": {
+    "total": 41,
+    "hook": 12,
+    "cat": 12,
+    "vis": 6,
+    "season": 11,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "26-digital-safety-privacy/malware-defense/how-ransomware-actually-infects-a-device.tsx"
+  },
+  {
+   "key": "digital-safety-privacy/what-your-digital-footprint-actually-reveals",
+   "title": "What Your Digital Footprint Actually Reveals",
+   "cat": "digital-safety-privacy",
+   "words": 1638,
+   "quiz": 9,
+   "incoming": 3,
+   "seoScore": 85,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 8,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 9,
+    "format": 4
+   },
+   "shortFit": 41,
+   "shortBreakdown": {
+    "total": 41,
+    "hook": 12,
+    "cat": 12,
+    "vis": 6,
+    "season": 11,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "26-digital-safety-privacy/online-privacy/what-your-digital-footprint-actually-reveals.tsx"
+  },
+  {
    "key": "life-skills-etiquette/how-to-actually-apologize-in-a-way-that-lands",
    "title": "How to Actually Apologize in a Way That Lands",
    "cat": "life-skills-etiquette",
    "words": 1476,
    "quiz": 9,
    "incoming": 3,
-   "seoScore": 85,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
@@ -27421,7 +27855,7 @@
     "freshness": 10,
     "depth": 30,
     "linking": 8,
-    "format": 8
+    "format": 4
    },
    "shortFit": 24,
    "shortBreakdown": {
@@ -27432,26 +27866,57 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "scheduled",
-   "youtubeShort": true,
+   "video": "not-started",
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "27-life-skills-etiquette/everyday-communication/how-to-actually-apologize-in-a-way-that-lands.tsx"
+  },
+  {
+   "key": "life-skills-etiquette/how-to-actually-disagree-without-being-disagreeable",
+   "title": "How to Actually Disagree Without Being Disagreeable",
+   "cat": "life-skills-etiquette",
+   "words": 1607,
+   "quiz": 9,
+   "incoming": 4,
+   "seoScore": 85,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 7,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 10,
+    "format": 4
+   },
+   "shortFit": 24,
+   "shortBreakdown": {
+    "total": 24,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "27-life-skills-etiquette/everyday-communication/how-to-actually-disagree-without-being-disagreeable.tsx"
   },
   {
    "key": "life-skills-etiquette/how-to-actually-have-a-difficult-conversation",
    "title": "How to Actually Have a Difficult Conversation",
    "cat": "life-skills-etiquette",
-   "words": 1367,
+   "words": 1413,
    "quiz": 7,
-   "incoming": 6,
-   "seoScore": 82,
+   "incoming": 7,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 8,
     "tags": 4,
     "freshness": 10,
     "depth": 27,
-    "linking": 12,
+    "linking": 14,
     "format": 2
    },
    "shortFit": 24,
@@ -27472,7 +27937,7 @@
    "key": "life-skills-etiquette/how-to-actually-negotiate-a-better-price",
    "title": "How to Actually Negotiate a Better Price",
    "cat": "life-skills-etiquette",
-   "words": 1253,
+   "words": 1283,
    "quiz": 8,
    "incoming": 3,
    "seoScore": 73,
@@ -27503,17 +27968,17 @@
    "key": "life-skills-etiquette/how-to-actually-set-boundaries-without-guilt",
    "title": "How to Actually Set Boundaries Without Guilt",
    "cat": "life-skills-etiquette",
-   "words": 1460,
+   "words": 1483,
    "quiz": 7,
-   "incoming": 3,
-   "seoScore": 77,
+   "incoming": 5,
+   "seoScore": 79,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 4,
     "freshness": 10,
     "depth": 28,
-    "linking": 9,
+    "linking": 11,
     "format": 2
    },
    "shortFit": 24,
@@ -27536,7 +28001,7 @@
    "cat": "life-skills-etiquette",
    "words": 1255,
    "quiz": 0,
-   "incoming": 8,
+   "incoming": 10,
    "seoScore": 83,
    "seoBreakdown": {
     "title": 15,
@@ -27562,20 +28027,51 @@
    "file": "27-life-skills-etiquette/everyday-communication/what-active-listening-actually-looks-like-in-practice.tsx"
   },
   {
+   "key": "life-skills-etiquette/what-digital-etiquette-actually-means-in-group-chats",
+   "title": "What Digital Etiquette Actually Means in Group Chats",
+   "cat": "life-skills-etiquette",
+   "words": 1769,
+   "quiz": 10,
+   "incoming": 5,
+   "seoScore": 89,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 10,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 11,
+    "format": 4
+   },
+   "shortFit": 24,
+   "shortBreakdown": {
+    "total": 24,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "27-life-skills-etiquette/everyday-communication/what-digital-etiquette-actually-means-in-group-chats.tsx"
+  },
+  {
    "key": "life-skills-etiquette/what-professional-email-etiquette-actually-requires",
    "title": "What Professional Email Etiquette Actually Requires",
    "cat": "life-skills-etiquette",
-   "words": 1287,
+   "words": 1307,
    "quiz": 8,
-   "incoming": 3,
-   "seoScore": 79,
+   "incoming": 4,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 29,
-    "linking": 9,
+    "linking": 10,
     "format": 2
    },
    "shortFit": 24,
@@ -27596,7 +28092,7 @@
    "key": "life-skills-etiquette/what-small-talk-is-actually-for",
    "title": "What Small Talk Is Actually For",
    "cat": "life-skills-etiquette",
-   "words": 1698,
+   "words": 1711,
    "quiz": 9,
    "incoming": 3,
    "seoScore": 87,
@@ -27629,15 +28125,15 @@
    "cat": "life-skills-etiquette",
    "words": 1325,
    "quiz": 0,
-   "incoming": 5,
-   "seoScore": 74,
+   "incoming": 6,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 4,
     "freshness": 10,
     "depth": 27,
-    "linking": 9,
+    "linking": 11,
     "format": 0
    },
    "shortFit": 24,
@@ -27658,7 +28154,7 @@
    "key": "life-skills-etiquette/what-table-manners-actually-matter-today",
    "title": "What Table Manners Actually Matter Today",
    "cat": "life-skills-etiquette",
-   "words": 1352,
+   "words": 1375,
    "quiz": 7,
    "incoming": 3,
    "seoScore": 80,
@@ -27684,6 +28180,37 @@
    "youtubeShort": false,
    "youtubeLong": false,
    "file": "27-life-skills-etiquette/social-skills/what-table-manners-actually-matter-today.tsx"
+  },
+  {
+   "key": "psychology-human-behavior/how-first-impressions-actually-form-so-fast",
+   "title": "How First Impressions Actually Form So Fast",
+   "cat": "psychology-human-behavior",
+   "words": 1678,
+   "quiz": 10,
+   "incoming": 4,
+   "seoScore": 85,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 7,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 10,
+    "format": 4
+   },
+   "shortFit": 38,
+   "shortBreakdown": {
+    "total": 38,
+    "hook": 18,
+    "cat": 14,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "28-psychology-human-behavior/how-the-mind-actually-works/how-first-impressions-actually-form-so-fast.tsx"
   },
   {
    "key": "psychology-human-behavior/how-habits-actually-get-built-in-the-brain",
@@ -27782,17 +28309,17 @@
    "key": "psychology-human-behavior/how-social-proof-actually-influences-behavior",
    "title": "How Social Proof Actually Influences Behavior",
    "cat": "psychology-human-behavior",
-   "words": 1322,
+   "words": 1339,
    "quiz": 8,
-   "incoming": 5,
-   "seoScore": 78,
+   "incoming": 6,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
     "freshness": 10,
-    "depth": 29,
-    "linking": 11,
+    "depth": 30,
+    "linking": 13,
     "format": 2
    },
    "shortFit": 32,
@@ -27815,15 +28342,15 @@
    "cat": "psychology-human-behavior",
    "words": 1321,
    "quiz": 0,
-   "incoming": 7,
-   "seoScore": 80,
+   "incoming": 8,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 7,
     "tags": 4,
     "freshness": 10,
     "depth": 27,
-    "linking": 13,
+    "linking": 14,
     "format": 0
    },
    "shortFit": 32,
@@ -27846,16 +28373,16 @@
    "cat": "psychology-human-behavior",
    "words": 1288,
    "quiz": 8,
-   "incoming": 6,
-   "seoScore": 87,
+   "incoming": 8,
+   "seoScore": 85,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 29,
-    "linking": 13,
-    "format": 6
+    "linking": 15,
+    "format": 2
    },
    "shortFit": 32,
    "shortBreakdown": {
@@ -27866,26 +28393,57 @@
     "season": 0,
     "bonus": 0
    },
-   "video": "published",
+   "video": "not-started",
    "youtubeShort": false,
-   "youtubeLong": true,
+   "youtubeLong": false,
    "file": "28-psychology-human-behavior/how-the-mind-actually-works/what-confirmation-bias-actually-does-to-decision-making.tsx"
   },
   {
-   "key": "psychology-human-behavior/what-imposter-syndrome-actually-is",
-   "title": "What Imposter Syndrome Actually Is",
+   "key": "psychology-human-behavior/what-emotional-intelligence-actually-means",
+   "title": "What Emotional Intelligence Actually Means",
    "cat": "psychology-human-behavior",
-   "words": 1739,
-   "quiz": 9,
-   "incoming": 3,
-   "seoScore": 87,
+   "words": 1810,
+   "quiz": 10,
+   "incoming": 4,
+   "seoScore": 88,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 10,
+    "format": 4
+   },
+   "shortFit": 32,
+   "shortBreakdown": {
+    "total": 32,
+    "hook": 12,
+    "cat": 14,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "28-psychology-human-behavior/how-the-mind-actually-works/what-emotional-intelligence-actually-means.tsx"
+  },
+  {
+   "key": "psychology-human-behavior/what-imposter-syndrome-actually-is",
+   "title": "What Imposter Syndrome Actually Is",
+   "cat": "psychology-human-behavior",
+   "words": 1758,
+   "quiz": 9,
+   "incoming": 4,
+   "seoScore": 88,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 10,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 10,
     "format": 4
    },
    "shortFit": 32,
@@ -27929,7 +28487,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": true,
+   "youtubeShort": false,
    "youtubeLong": false,
    "file": "28-psychology-human-behavior/how-the-mind-actually-works/what-the-placebo-effect-actually-reveals-about-the-mind.tsx"
   },
@@ -27939,15 +28497,15 @@
    "cat": "psychology-human-behavior",
    "words": 1335,
    "quiz": 0,
-   "incoming": 6,
-   "seoScore": 75,
+   "incoming": 7,
+   "seoScore": 76,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 4,
     "freshness": 10,
     "depth": 28,
-    "linking": 9,
+    "linking": 10,
     "format": 0
    },
    "shortFit": 32,
@@ -27968,17 +28526,17 @@
    "key": "economics/how-a-recession-actually-gets-defined",
    "title": "How a Recession Actually Gets Defined",
    "cat": "economics",
-   "words": 1328,
+   "words": 1349,
    "quiz": 8,
-   "incoming": 4,
-   "seoScore": 77,
+   "incoming": 6,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 2,
     "tags": 5,
     "freshness": 10,
-    "depth": 29,
-    "linking": 10,
+    "depth": 30,
+    "linking": 13,
     "format": 2
    },
    "shortFit": 24,
@@ -28000,17 +28558,17 @@
    "title": "How Inflation Actually Erodes Purchasing Power",
    "cat": "economics",
    "words": 1312,
-   "quiz": 0,
-   "incoming": 8,
-   "seoScore": 78,
+   "quiz": 8,
+   "incoming": 9,
+   "seoScore": 81,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 4,
     "freshness": 10,
     "depth": 27,
-    "linking": 13,
-    "format": 0
+    "linking": 14,
+    "format": 2
    },
    "shortFit": 24,
    "shortBreakdown": {
@@ -28023,7 +28581,7 @@
    },
    "video": "not-started",
    "youtubeShort": false,
-   "youtubeLong": false,
+   "youtubeLong": true,
    "file": "32-economics/everyday-economics/how-inflation-actually-erodes-purchasing-power.tsx"
   },
   {
@@ -28032,15 +28590,15 @@
    "cat": "economics",
    "words": 1910,
    "quiz": 0,
-   "incoming": 4,
-   "seoScore": 79,
+   "incoming": 5,
+   "seoScore": 80,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 10,
+    "linking": 11,
     "format": 0
    },
    "shortFit": 24,
@@ -28089,21 +28647,83 @@
    "file": "32-economics/everyday-economics/how-tariffs-actually-affect-prices.tsx"
   },
   {
+   "key": "economics/how-unemployment-rate-actually-gets-calculated",
+   "title": "How Unemployment Rate Actually Gets Calculated",
+   "cat": "economics",
+   "words": 1603,
+   "quiz": 9,
+   "incoming": 4,
+   "seoScore": 88,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 10,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 10,
+    "format": 4
+   },
+   "shortFit": 24,
+   "shortBreakdown": {
+    "total": 24,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "32-economics/everyday-economics/how-unemployment-rate-actually-gets-calculated.tsx"
+  },
+  {
+   "key": "economics/what-economic-indicators-actually-signal",
+   "title": "What Economic Indicators Actually Signal",
+   "cat": "economics",
+   "words": 1732,
+   "quiz": 10,
+   "incoming": 5,
+   "seoScore": 89,
+   "seoBreakdown": {
+    "title": 15,
+    "excerpt": 10,
+    "tags": 5,
+    "freshness": 10,
+    "depth": 30,
+    "linking": 11,
+    "format": 4
+   },
+   "shortFit": 24,
+   "shortBreakdown": {
+    "total": 24,
+    "hook": 12,
+    "cat": 6,
+    "vis": 6,
+    "season": 0,
+    "bonus": 0
+   },
+   "video": "not-started",
+   "youtubeShort": false,
+   "youtubeLong": false,
+   "file": "32-economics/everyday-economics/what-economic-indicators-actually-signal.tsx"
+  },
+  {
    "key": "economics/what-gdp-actually-measures",
    "title": "What GDP Actually Measures",
    "cat": "economics",
-   "words": 1251,
-   "quiz": 0,
-   "incoming": 6,
-   "seoScore": 77,
+   "words": 1566,
+   "quiz": 8,
+   "incoming": 10,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 12,
     "excerpt": 7,
     "tags": 4,
     "freshness": 10,
-    "depth": 27,
-    "linking": 13,
-    "format": 0
+    "depth": 30,
+    "linking": 15,
+    "format": 2
    },
    "shortFit": 24,
    "shortBreakdown": {
@@ -28123,17 +28743,17 @@
    "key": "economics/what-minimum-wage-debates-actually-center-on",
    "title": "What Minimum Wage Debates Actually Center On",
    "cat": "economics",
-   "words": 1835,
+   "words": 1853,
    "quiz": 9,
-   "incoming": 3,
-   "seoScore": 87,
+   "incoming": 4,
+   "seoScore": 88,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 10,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 10,
     "format": 4
    },
    "shortFit": 24,
@@ -28216,17 +28836,17 @@
    "key": "economics/what-the-federal-reserve-actually-does",
    "title": "What the Federal Reserve Actually Does",
    "cat": "economics",
-   "words": 1363,
+   "words": 1419,
    "quiz": 7,
-   "incoming": 3,
-   "seoScore": 80,
+   "incoming": 6,
+   "seoScore": 84,
    "seoBreakdown": {
     "title": 15,
     "excerpt": 5,
     "tags": 5,
     "freshness": 10,
     "depth": 30,
-    "linking": 9,
+    "linking": 13,
     "format": 2
    },
    "shortFit": 24,

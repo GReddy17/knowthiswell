@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["bull market", "bear market", "market correction", "S&P 500", "stock market cycles"],
   date: "2026-09-30",
   updated: "2026-09-30",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: true, youtubeLong: true,
   seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-30",
   excerpt: "A bear market is a drop of 20% or more from a recent high in a broad index; a bull market is a rise of 20% or more from a low. The labels are conventions, not official declarations, and they are only ever confirmed in hindsight.",

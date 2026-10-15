@@ -21,11 +21,10 @@ export const metadata: PostFrontmatter = {
   order: 52,
   subtopic: "life-science-and-nature",
   pillar: true,
-  videoQueue: true,
   tags: ["hibernation", "bears", "hyperphagia", "animal physiology", "fat bear week"],
   date: "2026-09-22",
   updated: "2026-10-02",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "Bear hibernation isn't a long nap — it's a five-to-seven-month fast with no food, water, or waste, run entirely on fat a bear has to eat 20,000+ calories a day to build.",
@@ -50,9 +49,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "scheduled",
-  youtubeUrl: "https://www.youtube.com/watch?v=k9IcJYbB5HU",
-  youtubeScheduledAt: "2026-10-05T16:00:00Z",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

@@ -31,7 +31,7 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-08-16",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 71, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why Everest is the highest point but not the tallest mountain, why the Nile-vs-Amazon 'longest river' debate is still unresolved, and what makes the Mariana Trench so deep.",

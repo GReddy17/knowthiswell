@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["file deletion", "data recovery", "file systems", "ssd vs hdd", "data sanitization"],
   date: "2026-09-22",
   updated: "2026-10-02",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "Deleting a file, even from the recycle bin, usually just removes its listing — the actual data can keep sitting on the drive until something else overwrites it.",

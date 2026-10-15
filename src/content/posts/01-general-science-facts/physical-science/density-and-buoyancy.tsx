@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-25",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 89, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Why a massive steel ship floats but a small steel bolt sinks, and how Archimedes' principle explains buoyant force with real numbers.",
@@ -57,9 +57,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "scheduled",
-  youtubeUrl: "https://www.youtube.com/watch?v=97egG8CsEIA",
-  youtubeScheduledAt: "2026-09-19T16:00:00Z",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

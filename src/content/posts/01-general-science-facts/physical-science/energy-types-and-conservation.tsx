@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["energy", "kinetic energy", "potential energy", "conservation of energy", "physics"],
   date: "2026-08-16",
   updated: "2026-09-30",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "The main forms energy takes — kinetic, potential, thermal, chemical, electrical, radiant — why it can never be created or destroyed, and how they trade off in everyday motion, food, and machines.",
@@ -53,8 +53,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://youtu.be/T3PNpvCaaVw",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

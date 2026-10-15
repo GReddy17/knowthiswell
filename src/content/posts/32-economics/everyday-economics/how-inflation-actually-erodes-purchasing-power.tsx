@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["inflation", "purchasing power", "cost of living", "economics basics"],
   date: "2026-09-20",
   updated: "2026-10-09",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: false, youtubeLong: true,
   seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-20",
   excerpt: "Inflation doesn't mean prices went up once — it means money itself buys a little less over time, which compounds the same way interest does, just working against you instead of for you.",

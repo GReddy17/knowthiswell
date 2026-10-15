@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["moon", "tidal locking", "astronomy", "orbital mechanics", "far side of the moon"],
   date: "2026-09-22",
   updated: "2026-10-02",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-22",
   excerpt: "The Moon isn't frozen in place — it spins on its own axis. It just spins at exactly the same rate it orbits Earth, so the same face stays pointed our way.",

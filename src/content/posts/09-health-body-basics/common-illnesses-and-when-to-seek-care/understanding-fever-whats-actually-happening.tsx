@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["fever", "body temperature", "hypothalamus", "immune response", "when to see a doctor"],
   date: "2026-08-21",
   updated: "2026-08-21",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "A fever is the brain deliberately raising the body's temperature set point to fight infection more effectively — it's a sign the immune system is working, not a malfunction by itself.",

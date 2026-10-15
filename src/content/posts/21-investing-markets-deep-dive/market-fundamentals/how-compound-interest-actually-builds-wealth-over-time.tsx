@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["compound interest", "compounding", "rule of 72", "investing early", "investment fees", "time value of money"],
   date: "2026-09-27",
   updated: "2026-09-27",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: true, youtubeLong: false,
   seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "Compounding means your returns start earning returns. At 7% a year, $10,000 grows to about $76,000 in 30 years, and most of that is growth on earlier growth. Time and fees matter more than people expect.",

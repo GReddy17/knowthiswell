@@ -25,7 +25,7 @@ export const metadata: PostFrontmatter = {
   tags: ["bats", "echolocation", "vision", "animal senses", "misconceptions"],
   date: "2026-09-12",
   updated: "2026-09-26",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 78, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-12",
   excerpt: "“Blind as a bat” is a real phrase but a false fact — nearly every bat species can see, and echolocation is a second sense layered on top of working eyes, not a replacement for them.",

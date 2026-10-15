@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["how to apologize", "apology", "sincere apology", "non-apology", "repairing relationships", "communication skills"],
   date: "2026-09-30",
   updated: "2026-09-30",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-30",
   excerpt: "An apology lands when it names what you did and owns it, then offers to fix it. Research on 755 people found that taking responsibility mattered most and asking for forgiveness mattered least.",
@@ -51,9 +51,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "scheduled",
-  youtubeUrl: "https://www.youtube.com/watch?v=RBFbw7Ub04g",
-  youtubeScheduledAt: "2026-10-04T16:00:00Z",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

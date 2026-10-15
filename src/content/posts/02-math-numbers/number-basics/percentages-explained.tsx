@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["percentages", "percent", "fractions", "decimals"],
   date: "2026-08-16",
   updated: "2026-09-24",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 73, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "A percentage is just a fraction with a fixed denominator of 100 — \"per cent\" literally means \"per hundred.\"",
@@ -49,8 +49,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=lUrDd3XzDQ4",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

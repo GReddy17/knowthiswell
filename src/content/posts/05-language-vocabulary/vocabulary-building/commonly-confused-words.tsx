@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["commonly confused words", "affect vs effect", "fewer vs less", "who vs whom", "usage", "vocabulary"],
   date: "2026-08-16",
   updated: "2026-10-09",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: false, youtubeLong: true,
   seoScore: 65, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Affect versus effect, fewer versus less, who versus whom — the words English speakers mix up most aren't random, they follow specific, learnable rules.",

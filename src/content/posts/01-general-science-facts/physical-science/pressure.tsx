@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-27",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 88, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "How the same force spread over different areas explains why knives cut, snowshoes prevent sinking, and altitude affects boiling and breathing.",
@@ -58,9 +58,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=o_gfxT-D61U",
-  youtubeScheduledAt: "2026-09-28T23:00:00Z",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

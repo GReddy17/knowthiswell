@@ -1,3 +1,7 @@
+> **SUPERSEDED 2026-10-04 (founder):** the channel now runs on finance and English only: daily Short (finance or English), Monday finance long 12-15 min, Thursday quiz (10-15 questions), Saturday English long 12-15 min, YouTube only. Science/general Shorts picks below are on hold. See `.claude/skills/daily-video/references/series-and-formulas.md`.
+
+> **SUPERSEDED 2026-10-01 for Oct 5-30** by `Source Tracking/october-shorts-picks.md` (SEO-scored pick list). Oct 1-4 rows below still stand.
+
 # Daily shorts plan — Sep 28 → Oct 31, 2026
 
 _Planned 2026-09-10. Follows the earlier 26-clip batch (which fills every platform

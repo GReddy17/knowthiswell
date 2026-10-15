@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["vaccine myths", "vaccine safety", "misinformation", "immunology"],
   date: "2026-08-21",
   updated: "2026-09-27",
-  youtubeShort: true, youtubeLong: false,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 75, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-27",
   excerpt: "Several widely repeated vaccine claims have been directly tested and refuted by large, real studies — the science here is settled, not a matter of opinion, and stating it plainly is more accurate than hedging it.",
@@ -56,8 +56,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=2jp9IqKN44E",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

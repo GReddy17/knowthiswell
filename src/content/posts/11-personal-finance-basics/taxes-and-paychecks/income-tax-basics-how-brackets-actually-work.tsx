@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["tax brackets", "marginal tax rate", "effective tax rate", "progressive tax", "income tax basics"],
   date: "2026-08-22",
   updated: "2026-10-10",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: true, youtubeLong: false,
   seoScore: 79, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-10-10",
   excerpt: "Moving into a higher tax bracket doesn't tax your whole income at the higher rate — only the slice of income that falls inside that bracket gets taxed at it.",

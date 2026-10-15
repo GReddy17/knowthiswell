@@ -32,7 +32,7 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-10-03",
-  youtubeShort: false, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 80, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "What a light-year actually measures, how big the Milky Way and the observable universe are, and why looking at distant stars means looking back in time.",
@@ -70,9 +70,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "scheduled",
-  youtubeUrl: "https://www.youtube.com/watch?v=o_uGDSJyn08",
-  youtubeScheduledAt: "2026-10-03T23:00:00Z",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

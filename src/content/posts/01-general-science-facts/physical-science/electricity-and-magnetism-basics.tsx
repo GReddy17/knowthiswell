@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["electricity", "magnetism", "circuits", "ohms law", "physics", "series and parallel circuits", "magnetic poles"],
   date: "2026-08-16",
   updated: "2026-09-30",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 87, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "How electric current, voltage, and resistance relate through Ohm's law, why magnets have poles, series vs. parallel circuits, and why electricity and magnetism are one connected force.",
@@ -55,8 +55,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=X4mNWJydzTA",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

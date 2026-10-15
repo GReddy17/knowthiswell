@@ -30,7 +30,7 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-21",
   updated: "2026-09-30",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 87, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-21",
   excerpt: "Celsius to Fahrenheit isn't a simple multiplication — it's °F = (°C × 9/5) + 32, because the two scales assign different numbers to the same zero point.",
@@ -56,8 +56,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=oupXXVWOYzk",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

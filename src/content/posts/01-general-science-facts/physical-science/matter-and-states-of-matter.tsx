@@ -32,7 +32,7 @@ export const metadata: PostFrontmatter = {
   ],
   date: "2026-08-16",
   updated: "2026-09-24",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 88, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "What matter is, why it exists as solid, liquid, gas, or plasma, and how phase changes power your fridge, your pressure cooker, and even sweating.",
@@ -70,8 +70,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=twQVIVQmJ7g",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

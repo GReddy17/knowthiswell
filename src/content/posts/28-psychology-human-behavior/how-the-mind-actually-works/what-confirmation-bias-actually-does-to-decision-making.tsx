@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["confirmation bias", "cognitive bias", "decision-making", "critical thinking", "wason task"],
   date: "2026-09-25",
   updated: "2026-09-25",
-  youtubeShort: false, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 85, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-25",
   excerpt: "Confirmation bias isn't just ignoring facts you dislike. It shapes which evidence you look for, how you read ambiguous evidence, and what you remember, so your confidence can climb while your accuracy stays put.",
@@ -54,9 +54,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=I2uWoXwQvmk",
-  youtubeScheduledAt: "2026-09-27T23:00:00Z",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

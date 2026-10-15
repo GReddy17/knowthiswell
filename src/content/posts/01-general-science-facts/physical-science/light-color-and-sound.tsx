@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["light", "sound", "waves", "color", "physics", "pitch and loudness", "decibels"],
   date: "2026-08-16",
   updated: "2026-09-27",
-  youtubeShort: true, youtubeLong: true,
+  youtubeShort: false, youtubeLong: false,
   seoScore: 77, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-19",
   excerpt: "Why light and sound are both waves, why light travels a million times faster than sound, how color is really just wavelength, and the real difference between pitch and loudness.",
@@ -51,8 +51,7 @@ export const metadata: PostFrontmatter = {
     name: "James H. Rivers",
     credentialLine: "Founder, KnowThisWell",
   },
-  youtubeStatus: "published",
-  youtubeUrl: "https://www.youtube.com/watch?v=tF44O-pPidE",
+  youtubeStatus: "not-started",
   draft: false,
 };
 

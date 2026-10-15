@@ -1,5 +1,8 @@
 # Video master schedule — social
 
+> **SUPERSEDED 2026-10-04 (founder):** the channel now runs on finance and English only: daily Short (finance or English), Monday finance long 12-15 min, Thursday quiz (10-15 questions), Saturday English long 12-15 min, YouTube only. Science/general Shorts picks below are on hold. See `.claude/skills/daily-video/references/series-and-formulas.md`.
+
+
 _Created 2026-09-17, effective 2026-09-18. Integrated with
 `content-master-schedule.md` — each day's Short is one of that day's 10
 posts, picked for visual/hook strength, alternating narrative archetype
@@ -145,3 +148,6 @@ platform, with what count, and the resulting cinematic video's schedule
 date. If a week has no qualifying Short, log that too (`no Short crossed
 10k this week` — a one-liner, not silence) so the check itself stays
 visible as having run.
+
+## Update 2026-10-01: topic picks come from the SEO-scored list
+Oct 5-30 Short topics are fixed in `Source Tracking/october-shorts-picks.md` (26 unique posts, rated /100 on title + content only, low score = video priority). Beyond Oct 30, pick the unshot post with the lowest `seoScore` and high ShortFit from `src/content/generated/seo-scores.json`.
