@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["pricing", "cost-plus pricing", "value-based pricing", "markup vs margin", "freelance rates"],
   date: "2026-09-26",
   updated: "2026-09-26",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: true, youtubeLong: false,
   seoScore: 74, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-09-26",
   excerpt: "A price has a floor (your full cost), a ceiling (what the customer thinks it's worth), and competitors somewhere in between. Most new businesses underprice because they count only direct costs and confuse markup with margin.",

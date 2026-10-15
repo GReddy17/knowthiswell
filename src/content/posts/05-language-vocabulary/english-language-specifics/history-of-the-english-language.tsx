@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["english language", "old english", "middle english", "etymology", "language history", "great vowel shift"],
   date: "2026-08-16",
   updated: "2026-08-16",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: true, youtubeLong: false,
   seoScore: 72, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "English moved through four distinct stages — Old, Middle, Early Modern, and Modern — reshaped along the way by Viking settlers, Norman conquerors, and centuries of borrowing.",

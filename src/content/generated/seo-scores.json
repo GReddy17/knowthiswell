@@ -1,5 +1,5 @@
 {
- "scoredOn": "2026-10-14",
+ "scoredOn": "2026-10-15",
  "count": 931,
  "rows": [
   {
@@ -6756,7 +6756,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "05-language-vocabulary/english-language-specifics/history-of-the-english-language.tsx"
   },
@@ -6787,7 +6787,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "05-language-vocabulary/english-language-specifics/loanwords-in-english-words-borrowed-from-other-languages.tsx"
   },
@@ -9577,7 +9577,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "06-festivals-culture/modern-and-global-celebrations/halloween-explained.tsx"
   },
@@ -16180,7 +16180,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "11-personal-finance-basics/banking-and-payments/how-checking-accounts-work.tsx"
   },
@@ -17234,7 +17234,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "11-personal-finance-basics/money-mindset-and-financial-literacy/understanding-retirement-accounts-basic-mechanics.tsx"
   },
@@ -25976,7 +25976,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "18-business-entrepreneurship-basics/starting-from-zero/how-to-actually-price-a-product-or-service.tsx"
   },
@@ -26720,7 +26720,7 @@
     "bonus": 0
    },
    "video": "not-started",
-   "youtubeShort": false,
+   "youtubeShort": true,
    "youtubeLong": false,
    "file": "22-government-schemes-benefits/core-safety-net-programs/what-social-security-actually-pays-out-and-when.tsx"
   },

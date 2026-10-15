@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["halloween", "samhain", "october 31", "modern celebrations"],
   date: "2026-08-16",
   updated: "2026-08-16",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: true, youtubeLong: false,
   seoScore: 68, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "Halloween traces to the Celtic festival of Samhain and the Christian feast of All Saints' Day, long before it took its modern costume-and-candy form.",

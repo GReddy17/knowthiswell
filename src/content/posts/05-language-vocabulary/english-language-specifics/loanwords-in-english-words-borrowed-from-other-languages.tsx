@@ -24,7 +24,7 @@ export const metadata: PostFrontmatter = {
   tags: ["loanwords", "etymology", "borrowed words", "language contact", "vocabulary origins"],
   date: "2026-08-16",
   updated: "2026-08-16",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: true, youtubeLong: false,
   seoScore: 66, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-08-16",
   excerpt: "English has borrowed words from more than 350 languages — from French and Latin to Hindi, Arabic, Japanese, and Native American languages — making loanwords the rule in English vocabulary, not the exception.",

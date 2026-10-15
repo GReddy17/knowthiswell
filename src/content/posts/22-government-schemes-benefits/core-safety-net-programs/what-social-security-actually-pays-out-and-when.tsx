@@ -23,7 +23,7 @@ export const metadata: PostFrontmatter = {
   tags: ["social security", "retirement benefits", "government benefits", "full retirement age"],
   date: "2026-09-21",
   updated: "2026-10-10",
-  youtubeShort: false, youtubeLong: false,
+  youtubeShort: true, youtubeLong: false,
   seoScore: 81, seoScoredOn: "2026-10-01",
   lastReviewed: "2026-10-10",
   excerpt: "The age you claim Social Security permanently changes your monthly check — claiming early locks in a smaller amount for life, not a temporary discount.",
